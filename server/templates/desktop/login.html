@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!--
+@author: Anant Bhardwaj
+@date: Feb 12, 2012
+
+Login Page Template
+-->
+
+<html>
+
+<!--
+<html>
+-->
+<head>
+    <title>myCHI</title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="initial-scale=1.0 user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/desktop.css" />
+    <link href="/static/css/third-party/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/static/javascript/third-party/jquery.min.js"></script> 
+    <script type="text/javascript" src="/static/javascript/third-party/jquery-ui.js"></script> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+    @media only screen and (max-width: 640px) {
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+      #page{
+        top: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+        padding:0 !important;
+        margin: 0 !important;
+      }
+
+      form{
+        margin:0 auto !important;
+        padding: 1em 1em 1em 1em;
+        height: 100% !important;
+        width: 90% !important;
+      }
+
+    }
+
+    form a:link, form a:visited {
+      color: #447EAC;
+      text-decoration:none; 
+    }
+
+    #reset_link:link{
+        color:blue !important;
+    }
+    </style>
+</head>
+<!--
+<div id="header">
+    <div id="wrap">
+        <span id="headlink-left" style="margin:0 auto;">
+            <a id="logo" href="/">myCHI</a>
+        </span>
+    </div>
+</div>
+-->
+
+<body>
+
+
+
+
+<script type="text/javascript">
+
+
+var verify = '{{verify}}'
+var wrong_password = '{{wrong_password}}'
+var type = '{{type}}'
+var error = '{{error}}'
+var login_email = '{{login_email}}'
+
+localStorage.removeItem('login_id')
+localStorage.removeItem('recommended')
+localStorage.removeItem('starred')
+localStorage.removeItem('s_starred')
+localStorage.removeItem('user_recs')
+
+$(document).ready(function(){
+    
+
+    function detect_mobile() { 
+     if(navigator.userAgent.match(/Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)
+     ){
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    if(detect_mobile())
+        $("body").addClass("touch-device");
+    else
+        $("body").addClass("no-touch-device");
+
+    $(".default-text").focus(function() {
+        if ($(this).val() == $(this)[0].title) {
+            $(this).removeClass("default-text-active");
+            $(this).val("");
+        }
+    });
+    
+    $(".default-text").blur(function(){
+        if ($(this).val() == ""){
+            $(this).addClass("default-text-active");
+            $(this).val($(this)[0].title);
+        }
+    });
+
+    $(".default-text").blur();
+
+    if(verify == 'yes'){
+        $.ajax({
+            type: 'GET',
+            async: true,
+            url: '/verify_email/' + login_email,
+            success: function(res) {
+                console.log(res)
+            }
+        });
+        $("#error").html('<br /><span class="info">We have sent a verification link to {{login_addr}}. Please check your mailbox.</span><br />')
+    }
+
+    function validate_email(){
+        var x = new RegExp('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$')
+        var y = $("#login_email").val()
+        if(y.indexOf('.') == -1){
+            return false
+        }
+        if(x.test(y)){
+            return true
+        }else{
+            return false
+        }
+    
+    }
+
+
+    $("#mychi_login").click(function(){
+        if(validate_email()){
+            $("#mychi_login_form").submit()
+        }else{
+            $("#error").html('<br /><span class="error">"'  + $("#login_email").val() + '" doesn\'t seem to be a valid email address. Please try again.</span><br />')
+        }
+    })
+
+
+
+    $("#reset_link").click(function(){
+        $.ajax({
+            type: 'GET',
+            async: true,
+            url: '/reset_email/' + login_email,
+            success: function(res) {
+                console.log(res)
+            }
+        });
+        $("#error").html('<br /><span class="info">We have sent a reset link to {{login_addr}}. Please check your mailbox.</span><br />')
+    });
+
+
+
+}); 
+    
+</script>
+
+<div id="page">
+<form method="POST" action="/login" id="mychi_login_form">
+    {% csrf_token %}
+    <!--<h3>Plan my CHI with myCHI</h3>-->
+    <h3>myCHI</h3>
+    <div class="teaser">There are 500+ papers and 200+ sessions at CHI 2013. myCHI helps you decide where to spend your precious time by providing social recommendations based on your interests.</div>
+    <hr />
+    <label for="login_email">Email</label><br />
+    <input type="text" name="login_email" autocapitalize="off" autocorrect="off" class="default-text" id="login_email" title="Enter your PCS email"/><br />
+    <span class="description">Please enter your PCS email. If you don't have one, enter your email to create an account.</span>
+    <br /><br />
+    <label for="login_password">Password</label><br />
+    <input type="password" name="login_password" autocapitalize="off" autocorrect="off" id="login_password" title="Enter your password."/><br />
+    <span class="description">If you are a first time user, we will set what you enter as your password.</span><br />
+    
+    <div id="error">{% if error %} <br /> <span class="{{type}}">{{error}}</span> 
+        {% if wrong_password %}<a class="blue" id="reset_link" href="#" style="color:blue important;">Reset your password</a> {% endif %} <br />{% endif %}
+    </div>
+    
+    <br />
+    <input type="button" id="mychi_login" class="button" value="Log In" />
+    <br />
+    <div class="credit">
+      Problems or comments? <a href="mailto:mychi@csail.mit.edu">mychi@csail.mit.edu</a><br/>
+      By <a href="http://people.csail.mit.edu/anantb/" target="_blank">Anant</a>, <a href="http://juhokim.com/" target="_blank">Juho</a>, <a href="http://eecs.northwestern.edu/~hq" target="_blank">Haoqi</a>, <a href="http://people.csail.mit.edu/karger/" target="_blank">David</a>, and <a href="http://projectcobi.com/" target="_blank">the Cobi team</a>
+    </div>
+</form>
+</div> <!-- page -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40387037-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</body>
+</html>

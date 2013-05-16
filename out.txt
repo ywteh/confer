@@ -1,0 +1,109 @@
+s205 221 Monday 11:00-12:20 Blue Managing Social Media
+s229 210 Monday 14:00-15:20 352AB Flexible Displays
+s245 198 Monday 14:00-15:20 252B Co-Design with Users
+s272 169 Thursday 14:00-15:20 Blue Different Perspectives
+s221 168 Monday 11:00-12:20 352AB Multitouch and Gesture
+s223 167 Monday 16:00-17:20 Bordeaux Tables and Floors
+s213 167 Monday 16:00-17:20 352AB Embodied Interaction 1
+s226 164 Wednesday 11:00-12:20 352AB Haptics
+s209 162 Monday 11:00-12:20 351 Crowdsourcing: People Power
+s246 156 Monday 11:00-12:20 342A Interaction in the Wild
+s224 154 Tuesday 14:00-15:20 Blue Displays Everywhere
+s260 153 Monday 16:00-17:20 Havane Crowds and Activism
+s222 152 Wednesday 09:00-10:20 352AB Touch Interaction
+s210 151 Tuesday 16:00-17:20 352AB Collaborative Creation
+s211 147 Thursday 11:00-12:20 242B Spatial Interfaces
+s249 146 Monday 16:00-17:20 351 Large and Public Displays
+s220 144 Tuesday 09:00-10:20 Blue Interacting around Devices
+s288 141 Monday 11:00-12:20 251 Learning
+s233 140 Wednesday 14:00-15:20 Havane Text Visualization
+s251 140 Monday 11:00-12:20 Havane 3D User Interfaces
+s216 137 Tuesday 14:00-15:20 351 Temporal Design
+s286 134 Monday 16:00-17:20 342A Design for Classrooms 1
+s204 133 Monday 16:00-17:20 Blue Smart Tools, Smart Work
+s248 133 Wednesday 09:00-10:20 Bordeaux Mobile&nbsp;Interaction
+s268 132 Wednesday 11:00-12:20 Blue Data Navigation
+s185 131 Monday 11:00-12:20 252B Reflection and Evaluation
+s227 130 Wednesday 14:00-15:20 Blue Fabrication
+s231 128 Thursday 11:00-12:20 Bordeaux Information Visualization
+s278 126 Tuesday 16:00-17:20 Bordeaux Ethics in HCI
+s242 126 Tuesday 09:00-10:20 342A Reflecting on Phones
+s290 125 Tuesday 09:00-10:20 Havane Technologies for Life 2
+s274 123 Thursday 14:00-15:20 251 Understanding Privacy
+s208 122 Wednesday 09:00-10:20 351 Knowledge&nbsp;Managment
+s271 122 Monday 14:00-15:20 342A Brain Sensing and Analysis
+s201 120 Monday 14:00-15:20 Havane Crowdwork and Online Communities
+s254 120 Wednesday 14:00-15:20 352AB Mobile Text Entry
+s265 120 Wednesday 16:00-17:20 351 Searching and Finding
+s289 119 Monday 14:00-15:20 242A Technologies for Life 1
+s187 119 Tuesday 09:00-10:20 252B Experiences
+s214 119 Tuesday 16:00-17:20 Havane Design Research
+s212 118 Thursday 14:00-15:20 Bordeaux Design Strategies<br>
+s273 115 Wednesday 09:00-10:20 Blue Aesthetics and the Web
+s225 115 Tuesday 11:00-12:20 352AB Sensing Touch
+s279 114 Monday 14:00-15:20 251 Evaluation Methods 1
+s219 113 Wednesday 16:00-17:20 352AB Mobile Gestures
+s284 110 Monday 16:00-17:20 251 Exploring Games
+s235 110 Monday 14:00-15:20 241 Gaze
+s296 107 Monday 11:00-12:20 242A Enhancing Access
+s200 104 Thursday 11:00-12:20 Havane Social Media Practices
+s259 100 Tuesday 11:00-12:20 Blue Sustainable Energy
+s295 100 Tuesday 16:00-17:20 242A Communicating Health
+s281 100 Wednesday 09:00-10:20 242A Evaluation Methods 2
+s238 99 Tuesday 11:00-12:20 Bordeaux Full-Body Interaction
+s217 99 Tuesday 11:00-12:20 Havane Ideation Methods
+s239 98 Thursday 14:00-15:20 242B On the Move
+s280 98 Wednesday 16:00-17:20 342A Evaluation Methods 3
+s250 97 Wednesday 09:00-10:20 342A Performing Interaction
+s276 97 Wednesday 11:00-12:20 242A Passwords and Errors
+s247 95 Tuesday 16:00-17:20 Blue Public Displays
+s232 92 Wednesday 16:00-17:20 Havane Visual Perception
+s240 91 Wednesday 16:00-17:20 242A Narrative and Materiality
+s283 91 Tuesday 11:00-12:20 251 Exergames and Beyond
+s292 91 Wednesday 09:00-10:20 251 Design for the Blind
+s182 90 Wednesday 09:00-10:20 252B Design Lessons
+s203 89 Thursday 14:00-15:20 Havane Tensions in Social Media
+s215 87 Tuesday 09:00-10:20 242A Design for the Home
+s234 84 Tuesday 09:00-10:20 352AB Manipulating Video
+s230 83 Thursday 11:00-12:20 Blue Design for Developers
+s297 82 Wednesday 14:00-15:20 242A Mental Health
+s257 80 Tuesday 16:00-17:20 351 Developing the World
+s264 80 Tuesday 14:00-15:20 342A Novel Programming
+s252 79 Tuesday 11:00-12:20 351 Pointing and Fitts Law
+s218 79 Thursday 14:00-15:20 242A Multi-Device Interaction
+s244 78 Tuesday 16:00-17:20 252B Studying Digital Artifacts
+s261 78 Wednesday 14:00-15:20 351 Sustainability
+s253 78 Tuesday 09:00-10:20 351 Gesture Studies
+s327 76 Wednesday 16:00-17:20 Bordeaux Design for Children
+s293 76 Thursday 11:00-12:20 251 Autism
+s206 74 Tuesday 14:00-15:20 Bordeaux Design for the Home
+s243 74 Wednesday 09:00-10:20 Havane Engagement
+s270 70 Thursday 11:00-12:20 242A Perception and Awareness<br>
+s262 70 Wednesday 11:00-12:20 351 Crime and Conflicts
+s267 70 Wednesday 11:00-12:20 Bordeaux Social Tagging
+s207 69 Tuesday 09:00-10:20 251 Social Creativity
+s228 69 Tuesday 14:00-15:20 352AB Tactile Experiences
+s263 69 Wednesday 11:00-12:20 342A Food and Health&nbsp;
+s266 69 Monday 14:00-15:20 Bordeaux Language and Translation
+s237 66 Tuesday 16:00-17:20 342A Embodied Interaction 2
+s186 65 Thursday 11:00-12:20 252B Spirit and Mind
+s190 65 Tuesday 11:00-12:20 252B Communities of Practice
+s282 64 Tuesday 14:00-15:20 251 Game Design
+s241 64 Wednesday 11:00-12:20 Havane Mobile Applications
+s291 64 Tuesday 11:00-12:20 242A Impairment and Rehabilitation
+s285 63 Tuesday 09:00-10:20 Bordeaux Design for Classrooms 2
+s294 63 Tuesday 14:00-15:20 242A Clinical Settings
+s193 62 Monday 16:00-17:20 252B Innovating User-Centered Design
+s191 62 Wednesday 11:00-12:20 252B Novel Settings
+s258 60 Wednesday 16:00-17:20 Blue Design for Development
+s269 60 Monday 16:00-17:20 242A Creating and Authoring
+s275 60 Wednesday 14:00-15:20 342A Consent and Privacy
+s255 58 Monday 14:00-15:20 351 Keyboards and Hotkeys
+s195 56 Tuesday 11:00-12:20 342A Video Communication
+s183 54 Wednesday 14:00-15:20 252B Ethics
+s194 53 Tuesday 14:00-15:20 252B Changing How We Work
+s152 48 Monday 14:00-15:20 Blue Will Massive Online Open Courses (MOOCs) Change Education?
+s287 47 Tuesday 16:00-17:20 251 Reading and&nbsp;Writing<br>
+s184 41 Wednesday 16:00-17:20 252B Nature and Nurture
+s151 41 Wednesday 09:00-10:20 241 Theory and Practice in UX Research: Uneasy Bedfellows?
+s100 39 Tuesday 09:00-10:20 243 
