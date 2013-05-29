@@ -1,6 +1,0 @@
-java/lenskit-chi13/run.sh: 5: java: not found
-WARN  o.g.grapht.BindingImpl - Concrete type class org.grouplens.lenskit.baseline.ItemMeanPredictor does not have an injectable or public default constructor, but probably should
-INFO  o.g.l.k.i.m.ItemItemBuildContextFactory - constructing build context
-WARN  o.g.grapht.BindingImpl - Concrete type class org.grouplens.lenskit.baseline.ItemMeanPredictor does not have an injectable or public default constructor, but probably should
-INFO  o.g.l.k.i.m.ItemItemBuildContextFactory - constructing build context
-Gateway Server Started
