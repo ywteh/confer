@@ -11,7 +11,7 @@ CACHE MANIFEST
 
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
-/static/javascript/desktop.js
+#/static/javascript/desktop.js
 
 /static/img/affiliation.svg
 /static/img/acm.png

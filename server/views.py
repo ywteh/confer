@@ -10,10 +10,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from algorithm.recommend import *
-from db.prefs import *
+#from db.prefs import *
 from db.entity import *
 from db.session import *
-from db.authors import *
+#from db.authors import *
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
@@ -29,25 +29,25 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 r = Recommender()
 e = Entity()
-p = Prefs()
+#p = Prefs()
 s = Session()
 
 
 
-codes = open('/production/confer/data/letterCodes.json').read()
-session_codes = open('/production/confer/data/sessionCodes.json').read()
-offline_recs = open('/production/confer/data/offline_recs.txt').read()
-acm_links = open('/production/confer/data/bib_final.txt').read()
+#codes = open('/production/confer/data/letterCodes.json').read()
+#session_codes = open('/production/confer/data/sessionCodes.json').read()
+#offline_recs = open('/production/confer/data/offline_recs.txt').read()
+#acm_links = open('/production/confer/data/bib_final.txt').read()
 
-bib_map = json.loads(acm_links)
+#bib_map = json.loads(acm_links)
 
 def send_email(addr, subject, msg_body):	
 	email_subject = subject
-	from_addr="mychi@csail.mit.edu"
-	to_addr = [addr, 'mychi@csail.mit.edu']
+	from_addr="confer@csail.mit.edu"
+	to_addr = [addr, 'confer@csail.mit.edu']
 	
 	msg = MIMEMultipart()
-	msg['From'] = 'myCHI <mychi@csail.mit.edu>'
+	msg['From'] = 'Confer Team <confer@csail.mit.edu>'
 	msg['To'] = ",".join(to_addr)
 	msg['Subject'] = email_subject
 	msg.attach(MIMEText(msg_body))	
@@ -69,14 +69,14 @@ def send_email(addr, subject, msg_body):
 @csrf_exempt
 def verify_email(request, login_email):
 	email_plain = base64.b64decode(login_email)
-	subject = "Welcome to myCHI"
+	subject = "Welcome to Confer"
 	email_encoded = login_email
 	msg_body = """
 	Dear %s,
 
-	Thanks for registering! Please click the link below to start using myCHI:
+	Thanks for registering! Please click the link below to start using Confer:
 
-	http://mychi.csail.mit.edu/verify/%s
+	http://confer.csail.mit.edu/verify/%s
 
 	""" %(email_plain, email_encoded)
 	send_email(email_plain, subject, msg_body)
@@ -266,15 +266,6 @@ def data(request):
 			likes.extend(json.loads(data[0][0]))
 		if(data[0][1] != None):
 			s_likes.extend(json.loads(data[0][1]))
-		if(user in p.author_likes):
-			if((data[0][0] == None) and ('likes' in p.author_likes[user].keys())):
-				likes.extend(p.author_likes[user]['likes'])
-			if('own_papers' in p.author_likes[user].keys()):
-				own_papers = p.author_likes[user]['own_papers']
-				likes.extend(p.author_likes[user]['own_papers'])
-		if(data[0][0] == None):
-			l = list(set(likes))
-			cursor.execute("""UPDATE pcs_authors SET likes = '%s' where id = '%s';""" %(json.dumps(l), user))
 		if(len(likes)>0):
 			recs = r.get_item_based_recommendations(likes)
 		user_recs =  get_similar_people(request)
@@ -287,10 +278,10 @@ def data(request):
 			'own_papers':own_papers,
 			'entities': e.entities, 
 			'sessions':s.sessions,
-			'codes': codes,
-			'offline_recs': offline_recs,
-	    	'session_codes': session_codes,
-	    	'acm_links' : acm_links,
+			'codes': {},
+			'offline_recs': {},
+	    	'session_codes': {},
+	    	'acm_links' : {},
 	    	'user_recs': user_recs
 			}), mimetype="application/json")
 	except:
@@ -337,14 +328,6 @@ def refresh(request):
 			likes.extend(json.loads(data[0][0]))
 		if(data[0][1] != None):
 			s_likes.extend(json.loads(data[0][1]))
-		if(user in p.author_likes):
-			if((data[0][0] == None) and ('likes' in p.author_likes[user].keys())):
-				likes.extend(p.author_likes[user]['likes'])
-			if('own_papers' in p.author_likes[user].keys()):
-				likes.extend(p.author_likes[user]['own_papers'])
-		if(data[0][0] == None):
-			l = list(set(likes))
-			cursor.execute("""UPDATE pcs_authors SET likes = '%s' where id = '%s';""" %(json.dumps(l), user))
 		if(len(likes)>0):
 			recs = r.get_item_based_recommendations(likes)
 		user_recs =  get_similar_people(request)

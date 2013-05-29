@@ -18,9 +18,9 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Global Data */
 var entities = JSON.parse(localStorage.getItem('entities'))
 var sessions = JSON.parse(localStorage.getItem('sessions'))
-var codes = JSON.parse(localStorage.getItem('codes'))
+//var codes = JSON.parse(localStorage.getItem('codes'))
 var offline_recs = JSON.parse(localStorage.getItem('offline_recs'))
-var session_codes = JSON.parse(localStorage.getItem('session_codes'))
+//var session_codes = JSON.parse(localStorage.getItem('session_codes'))
 var acm_links = JSON.parse(localStorage.getItem('acm_links'))
 
 
@@ -39,8 +39,8 @@ var user_recs = JSON.parse(localStorage.getItem('user_recs'))
 // contact the server if required
 if(entities == null 
     || sessions == null 
-    || codes == null 
-    || session_codes == null
+    //|| codes == null 
+    //|| session_codes == null
     || offline_recs == null
     || acm_links == null
     ){
@@ -54,7 +54,7 @@ if(entities == null
 
             if(res.error){
                  console.log('data/error')
-                 window.location.href = '/login'            
+                 //window.location.href = '/login'            
             }      
             console.log('clearing local_storage')
             localStorage.clear()
@@ -97,7 +97,7 @@ if(entities == null
                 own_papers = res.own_papers
                 localStorage.setItem('own_papers', JSON.stringify(own_papers))
             }
-
+            /*
             if(res.codes != null){
                 codes = JSON.parse(res.codes)            
                 localStorage.setItem('codes', res.codes)
@@ -107,22 +107,25 @@ if(entities == null
                 session_codes = JSON.parse(res.session_codes)
                 localStorage.setItem('session_codes', res.session_codes)
             }
+            
 
             if(res.offline_recs!= null){
                 offline_recs = JSON.parse(res.offline_recs)
                 localStorage.setItem('offline_recs', res.offline_recs)
             }
+            */
 
             if(res.user_recs!= null){
                 user_recs = res.user_recs
                 localStorage.setItem('user_recs', JSON.stringify(res.user_recs))
             }
+            /*
 
             if(res.acm_links!= null){
                 acm_links = res.acm_links
                 localStorage.setItem('acm_links', res.acm_links)
             }
-
+            */
             enable_alert('This device is ready for offline use.')
 
         }
@@ -169,7 +172,7 @@ function refresh(_async_){
                 }
             }else{
                 console.log('refresh/error')
-                window.location.href = '/login'
+                //window.location.href = '/login'
             }
         }
     });
@@ -1038,11 +1041,13 @@ function get_paper_html(id){
 
     raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+remove_special_chars(entities[id].title) +'</span>'
     raw_html += '<span class="paper-subtype">' + ' ' + get_paper_subtype(id) + '</span>'
+    /*
     if(acm_links[id]!=null){
         var url = acm_links[id]['url']
         raw_html += '<a href="' + url +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
     }
-    raw_html += '<span class="paper-code">' +  ' ' + codes['code'][id] + '</span>'
+    */
+   // raw_html += '<span class="paper-code">' +  ' ' + codes['code'][id] + '</span>'
     //raw_html += '<span class="paper-session">' + get_short_session_info_of_paper(id) + '</span>'
     /*
     if (codeExists(codes['code'][id]))
@@ -1132,7 +1137,7 @@ function get_session_html(id){
     raw_html += '<td class="content">'  
     raw_html += '<ul>'
     raw_html += '<li><h3><span class="arrow arrow-right"></span> <span class="session-title">'+ remove_special_chars(sessions[id].s_title) + '</span>'
-   
+   /**
     var s_code = session_codes['id'][id];
     if (typeof s_code !== "undefined" && typeof codes['code'][s_code] !== "undefined"){
       raw_html += '<span class="session-code">' + codes['code'][s_code] + '</span>'
@@ -1142,21 +1147,16 @@ function get_session_html(id){
       var p_id = sessions[id].submissions[0];
       if (typeof p_id !== "undefined"){
         raw_html += '<span class="session-code">' +  ' ' + codes['code'][p_id] + '</span>'
-        /*
-        if (codeExists(codes['code'][p_id]))
-          raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+codes['code'][p_id]+'" target="_blank"><span class="play-icon"></span></a></span>'
-        */
+       
       }
     } else if (typeof getSpecialSessionCode(id) !== "undefined"){
       var code = getSpecialSessionCode(id);
       if (typeof code !== "undefined"){
         raw_html += '<span class="session-code">' +  ' ' + code + '</span>'
-        /*
-        if (codeExists(code))
-          raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+code+'" target="_blank"><span class="play-icon"></span></a></span>'
-        */
+       
       }
     }
+    **/
     raw_html += '<span class="send_session_tweet"></span>'
     raw_html += '<span class="send_session_email"></span>'
     raw_html += '</h3></li>'
