@@ -69,7 +69,7 @@ function refresh(_async_){
     $.ajax({
         type: 'GET',
         async: _async_,
-        url: '/refresh', 
+        url: '/data', 
         success: function(res) {
             if(!res.error){
                 console.log("synced")               
@@ -434,25 +434,6 @@ function bind_events(){
     
     if(detect_mobile()){
         $("body").addClass("touch-device");
-        /*
-
-        var needs_scroll_update = false;
-        $(document).scroll(function(){
-            if(needs_scroll_update) {
-                setTimeout(function() {
-                    $("body").css("height", "+=1").css("height", "-=1");
-                }, 0);
-            }
-        });
-        $("input:text").live("focus", function(e) {
-            needs_scroll_update = true;
-        });
-
-        $("input:text").live("blur", function(e) {
-            needs_scroll_update = false;
-        });
-
-        */
 
         $('#search_papers').keyup(function(event){
             var str = $(this).val()

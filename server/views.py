@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from algorithm.recommend import *
-
+from django.db import connection
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
@@ -239,7 +239,7 @@ def bib(request):
 
 
 @csrf_exempt
-def refresh(request):
+def data(request):
 	try:
 		user = request.session['id']
 		recs = []
@@ -255,16 +255,15 @@ def refresh(request):
 			s_likes.extend(json.loads(data[0][1]))
 		if(len(likes)>0):
 			recs = r.get_item_based_recommendations(likes)
-		user_recs =  get_similar_people(request)
 		return HttpResponse(json.dumps({
 			'login_id': request.session['id'], 
 			'login_name': request.session['name'],
 			'recs':recs, 
 			'likes':likes, 
-			's_likes':s_likes,
-			'user_recs': user_recs
+			's_likes':s_likes
 			}), mimetype="application/json")
 	except:
+		print sys.exc_info()
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
