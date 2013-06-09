@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}  
+  
+<div class="goto-link">
+<a class="button" href="/home">Go to My Papers</a>
+<a class="button" href="/schedule">Go to My Schedule</a>
+</div>	
+
+<!-- Similar Paper -->
+<div id="simiar_people_page">
+  <!--<h3><span class="gray">Similar People</span></h3>-->
+	<h3 class="collapsible-title collapsible" id="similar_people_toggle" data="similar_people_container" value=""><span class="arrow arrow-down"></span> People who have similar interests as you:</h3>
+	<div id="similar_people_container">
+	<table id="similar_people" class="paper-container">		
+	</table>
+	</div>
+
+</div>  <!-- selected paper -->
+
+{% endblock %}
+
+{% block javascript %} 
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#logged_in_name").html(localStorage.getItem('login_name'))
+    load_similar_people()
+    bind_events()
+    log('similar_people')
+        
+});
+</script>
+<script type="text/javascript" src="/static/javascript/desktop.js"></script>
+{% endblock %}

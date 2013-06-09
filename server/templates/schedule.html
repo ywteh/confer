@@ -1,0 +1,226 @@
+{% extends "layout.html" %}
+{% block content %}   
+
+<div class="blurb">
+Tag sessions and papers you want to see and get updated recommendations on the fly. Use your likes, recommendations, and other filtering options to discover your personal schedule.
+</div>
+<div class="goto-link">
+<a class="button" href="/home">Go to My Papers</a>
+</div>	
+<!--  Schedule -->
+<div id="schedule">	
+<div id="filter_schedule">
+<table>
+<tr>
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Sessions</h4>
+</td>
+<td>
+
+<div id ="p_filter" style="display:inline-block">  
+
+    <a href="#" data="all" class="p_session filter active f_all" type="p_session"/>All</a>
+    <a href="#" data="s_starred" class="p_session filter" type="p_session"/>Liked</a> 
+    <a href="#" data="s_recommended,.s_starred" class="p_session filter" type="p_session"/>Liked + Recommended</a>   
+    <a href="#" data="s_awardhm" class="p_session filter" type="p_session"/>Awards</a>    
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Day</h4>
+</td>
+<td>
+
+<div id ="day_filter" style="display:inline-block">  
+
+    <a href="#" data="all" class="day filter active f_all" type="day"/>All</a>
+    <a href="#" data="Monday" class="day filter" type="day"/>Monday</a>    
+    <a href="#" data="Tuesday" class="day filter" type="day"/>Tuesday</a>      
+    <a href="#" data="Wednesday" class="day filter" type="day"/>Wednesday</a>  
+    <a href="#" data="Thursday" class="day filter" type="day"/>Thursday</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Time</h4>
+</td>
+<td>
+<div id ="time_filter" style="display:inline-block">
+    
+    <a href="#" data="all" class="time filter active f_all" type="time"/>All</a> 
+    <a href="#" data="t09" class="time filter" type="time"/>09:00-10:20</a>   
+    <a href="#" data="t11" class="time filter" type="time"/>11:00-12:20</a>     
+    <a href="#" data="t14" class="time filter" type="time"/>14:00-15:20</a>          
+    <a href="#" data="t16" class="time filter" type="time"/>16:00-17:20</a>   
+</div>
+</td>
+</tr>
+<tr class="more-filters">
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Venue</h4>  
+</td>
+<td>
+<div id ="venue_filter" style="display:inline-block">
+
+    <a href="#" data="all" class="venue filter active f_all" type="venue"/>All</a>
+    <a href="#" data="paper" class="venue filter" type="venue"/>Paper</a>
+    <a href="#" data="casestudy" class="venue filter" type="venue"/>Case Study</a>
+    <a href="#" data="altchi" class="venue filter" type="venue"/>alt.chi</a>
+    <a href="#" data="course" class="venue filter" type="venue"/>Course </a>
+    <a href="#" data="panel" class="venue filter" type="venue"/>Panel </a>      
+    <a href="#" data="SIG" class="venue filter" type="venue"/>SIG</a>  
+    <a href="#" data="bof" class="venue filter" type="venue"/>BOF</a>
+    <a href="#" data="special" class="venue filter" type="venue"/>Special</a>   
+</div>
+</td>
+</tr>
+<tr class="more-filters">
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Community</h4>
+</td>
+<td>
+<div id ="communities_filter" style="display:inline-block">
+    <a href="#" data="all" class="community filter active f_all" type="community"/>All</a> 
+    <a href="#" data="ux" class="community filter" type="community"/>UX</a>   
+    <a href="#" data="design" class="community filter" type="community"/>Design</a>     
+    <a href="#" data="engineering" class="community filter" type="community"/>Engineering</a>          
+    <a href="#" data="hci4d" class="community filter" type="community"/>HCI4D</a>  
+    <a href="#" data="management" class="community filter" type="community"/>Management</a> 
+    <a href="#" data="sustainability" class="community filter" type="community"/>Sustainability</a> 
+    <a href="#" data="cci" class="community filter" type="community"/>CCI</a>  
+    <a href="#" data="games" class="community filter" type="community"/>Games</a> 
+    <a href="#" data="arts" class="community filter" type="community"/>Arts</a>  
+    <a href="#" data="health" class="community filter" type="community"/>Health</a> 
+</div>
+</td>
+</tr>
+<tr>
+<tr class="more-filters">
+<td style="vertical-align:top">
+<h4 style="display:inline-block">Persona</h4>
+</td>
+<td>
+<div id ="persona_filter" style="display:inline-block">
+
+    <a href="#" data="all" class="persona filter active f_all" type="persona"/>All</a> 
+    <a href="#" data="De" class="persona filter" type="persona"/>Design</a>          
+    <a href="#" data="UI" class="persona filter" type="persona"/>UIST</a>        
+    <a href="#" data="Vi" class="persona filter" type="persona"/>Visualization</a>        
+    <a href="#" data="En" class="persona filter" type="persona"/>Engagement</a>
+
+    <a href="#" data="IO" class="persona filter" type="persona"/>IO</a>
+    <a href="#" data="Et" class="persona filter" type="persona"/>Ethics</a>
+    <a href="#" data="fo" class="persona filter" type="persona"/>For a cause</a> 
+    <!--<a href="#" title="Mi" class="persona filter" type="persona"/>Misc</a>--> 
+
+    <a href="#" data="Se" class="persona filter" type="persona"/>Security and privacy</a>
+    <a href="#" data="Ki" class="persona filter" type="persona"/>Kids and learning </a>  
+    <a href="#" data="He" class="persona filter" type="persona"/>Health</a> 
+    <a href="#" data="On" class="persona filter" type="persona"/>Online social communities &amp; crowdsourcing</a>   
+    
+</div>
+</td>
+</tr>
+</table>
+  <br />
+  <a class="button" id="show_filters" style="margin-right:10px;">Show More Filters</a>
+</div>
+<br />
+<br />
+<div class="search-container">
+  <label id="search_label">Search:</label>
+  <input type="text" id="search_session" title="Enter session or paper titles, authors, or keywords"></input>&nbsp;&nbsp;
+  <span class="button" id="search_sessions_btn">Search</span>
+  <div id="search-results">Showing <span class="count">all</span> sessions</div>
+</div>
+
+
+<div id="program">	
+	<div id = "Monday">
+	<h3 class="collapsible-title" data="Mondayt09"><span class="arrow arrow-down"></span> Monday, 09:00-10:20</h3>
+	<div id = "Mondayt09" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Mondayt11"><span class="arrow arrow-down"></span> Monday, 11:00-12:20</h3>
+	<div id = "Mondayt11" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Mondayt14"><span class="arrow arrow-down"></span> Monday, 14:00-15:20</h3>
+	<div id = "Mondayt14" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Mondayt16"><span class="arrow arrow-down"></span> Monday, 16:00-17:20</h3>
+	<div id = "Mondayt16" class="session-timeslot">
+	</div>
+	</div>
+
+
+	<div id="Tuesday">
+	<h3 class="collapsible-title collapsible" data="Tuesdayt09"><span class="arrow arrow-down"></span> Tuesday, 09:00-10:20</h3>
+	<div id = "Tuesdayt09" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Tuesdayt11"><span class="arrow arrow-down"></span> Tuesday, 11:00-12:20</h3>
+	<div id = "Tuesdayt11" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Tuesdayt14"><span class="arrow arrow-down"></span> Tuesday, 14:00-15:20</h3>
+	<div id = "Tuesdayt14" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Tuesdayt16"><span class="arrow arrow-down"></span> Tuesday, 16:00-17:20</h3>
+	<div id = "Tuesdayt16" class="session-timeslot">
+	</div>
+	</div>
+
+
+	<div id = "Wednesday">
+	<h3 class="collapsible-title collapsible" data="Wednesdayt09"><span class="arrow arrow-down"></span> Wednesday, 09:00-10:20</h3>
+	<div id = "Wednesdayt09" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Wednesdayt11"><span class="arrow arrow-down"></span> Wednesday, 11:00-12:20</h3>
+	<div id = "Wednesdayt11" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Wednesdayt14"><span class="arrow arrow-down"></span> Wednesday, 14:00-15:20</h3>
+	<div id = "Wednesdayt14" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Wednesdayt16"><span class="arrow arrow-down"></span> Wednesday, 16:00-17:20</h3>
+	<div id = "Wednesdayt16" class="session-timeslot">
+	
+	</div>  
+	</div>	
+
+
+
+	<div id = "Thursday">
+    <h3 class="collapsible-title collapsible" data="Thursdayt09"><span class="arrow"></span> Thursday, 09:00-10:20</h3>
+	<div id = "Thursdayt09" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Thursdayt11"><span class="arrow arrow-down"></span> Thursday, 11:00-12:20</h3>
+	<div id = "Thursdayt11" class="session-timeslot">
+	</div>
+	<h3 class="collapsible-title collapsible" data="Thursdayt14"><span class="arrow arrow-down"></span> Thursday, 14:00-15:20</h3>
+	<div id = "Thursdayt14" class="session-timeslot">
+	</div>
+
+	<h3 class="collapsible-title collapsible" data="Thursdayt16"><span class="arrow arrow-down"></span> Thursday, 16:00-17:20</h3>
+	<div id = "Thursdayt16" class="session-timeslot">
+	</div>
+	</div>
+
+</div> <!-- program -->
+
+</div> <!-- schedule -->
+
+{% endblock %}
+
+{% block javascript %} 
+
+<!-- Javascript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#logged_in_name").html(localStorage.getItem('login_name'))
+        populate_sessions()
+        setup_filters()
+        bind_events()
+        log('schedule')
+    });
+</script>
+<script type="text/javascript" src="/static/javascript/desktop.js"></script>
+{% endblock %}
