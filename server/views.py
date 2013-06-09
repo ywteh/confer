@@ -108,7 +108,7 @@ def login_form(request, error=None):
 	if(error != None):
 		c.update(error)
 	c.update(csrf(request))
-	return render_to_response('desktop/login.html', c)
+	return render_to_response('login.html', c)
 
 
 @csrf_exempt
@@ -154,7 +154,7 @@ def login(request):
 
 
 def error(request):
-	return render_to_response('desktop/error.html')
+	return render_to_response('error.html')
 
 
 @csrf_exempt
@@ -188,13 +188,13 @@ def logout(request):
 
 
 def home(request):
-	return render_to_response('desktop/main.html')
+	return render_to_response('main.html')
 	
 	
 
 
 def schedule(request):
-	return render_to_response('desktop/schedule.html')
+	return render_to_response('schedule.html')
 	
 
 
@@ -211,7 +211,7 @@ def participate(request, val):
 
 def meet(request):
 	try:
-		return render_to_response('desktop/meet.html', 
+		return render_to_response('meet.html', 
 		{'login_id': request.session['id'], 
 		'login_name': request.session['name']})		
 	except KeyError:
@@ -222,7 +222,7 @@ def meet(request):
 
 def paper(request):
 	try:
-		return render_to_response('desktop/paper.html', 
+		return render_to_response('paper.html', 
 		{'login_id': request.session['id'], 
 		'login_name': request.session['name']})
 	except KeyError:
