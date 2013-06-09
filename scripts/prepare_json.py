@@ -6,15 +6,18 @@ if __name__ == "__main__":
 		sys.path.append(os.path.abspath(p+"/.."))
 	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
 
-from db.prefs import *
+from db.entity import *
+from db.session import *
 
 
 
 def main():
-	p = Prefs()
-	data = p.get_paper_prefs()
-	f = open('data/data_simple.txt','w')
-	f.write(json.dumps(data))
+	e = Entity()
+	s = Session()
+	f = open('server/static/data/papers.json','w')
+	f.write(json.dumps(e.entities))
+	f = open('server/static/data/sessions.json','w')
+	f.write(json.dumps(s.sessions))
 	print "done"
 
 

@@ -17,12 +17,13 @@ window.applicationCache.addEventListener('updateready', function(){
 // try to first load the data from localStorage 
 
 /* Global Data */
+/*
 var entities = JSON.parse(localStorage.getItem('entities'))
 var sessions = JSON.parse(localStorage.getItem('sessions'))
-//var codes = JSON.parse(localStorage.getItem('codes'))
-var offline_recs = JSON.parse(localStorage.getItem('offline_recs'))
-//var session_codes = JSON.parse(localStorage.getItem('session_codes'))
-var acm_links = JSON.parse(localStorage.getItem('acm_links'))
+*/
+
+var entities = null
+var sessions = null
 
 
 /* Private Data */
@@ -35,104 +36,30 @@ var recommended = JSON.parse(localStorage.getItem('recommended'))
 var user_recs = JSON.parse(localStorage.getItem('user_recs'))
 
 
-
-
-// contact the server if required
-if(entities == null 
-    || sessions == null 
-    //|| codes == null 
-    //|| session_codes == null
-    || offline_recs == null
-    || acm_links == null
-    ){
-    enable_alert('Downloading data for offline use. It might take some time.')
-    console.log('contacting server')
+if(entities == null){
     $.ajax({
         type: 'GET',
         async: false,
-        url: '/data', 
-        success: function(res) {
-
-            if(res.error){
-                 console.log('data/error')
-                 //window.location.href = '/login'            
-            }      
-            console.log('clearing local_storage')
-            localStorage.clear()
-
-            if(res.login_id != null){
-                login_id = res.login_id
-                localStorage.setItem('login_id', login_id)
-            }
-
-            if(res.login_name != null){
-                login_name = res.login_name
-                localStorage.setItem('login_name', login_name)
-            }
-
-            if(res.entities != null){
-                entities = res.entities
-                localStorage.setItem('entities', JSON.stringify(entities))
-            }
-            if(res.sessions != null){
-                sessions = res.sessions
-                localStorage.setItem('sessions', JSON.stringify(sessions))
-            }
-            if(res.recs != null){
-                recommended = res.recs
-                localStorage.setItem('recommended', JSON.stringify(recommended))
-            }
-
-            if(res.likes != null){
-                starred  = res.likes
-                localStorage.setItem('starred', JSON.stringify(starred))
-            }
-
-
-            if(res.s_likes != null){
-                s_starred  = res.s_likes
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
-            }
-
-            if(res.own_papers != null){
-                own_papers = res.own_papers
-                localStorage.setItem('own_papers', JSON.stringify(own_papers))
-            }
-            /*
-            if(res.codes != null){
-                codes = JSON.parse(res.codes)            
-                localStorage.setItem('codes', res.codes)
-            }
-
-            if(res.session_codes!= null){
-                session_codes = JSON.parse(res.session_codes)
-                localStorage.setItem('session_codes', res.session_codes)
-            }
-            
-
-            if(res.offline_recs!= null){
-                offline_recs = JSON.parse(res.offline_recs)
-                localStorage.setItem('offline_recs', res.offline_recs)
-            }
-            */
-
-            if(res.user_recs!= null){
-                user_recs = res.user_recs
-                localStorage.setItem('user_recs', JSON.stringify(res.user_recs))
-            }
-            /*
-
-            if(res.acm_links!= null){
-                acm_links = res.acm_links
-                localStorage.setItem('acm_links', res.acm_links)
-            }
-            */
-            enable_alert('This device is ready for offline use.')
-
+        url: '/static/json/chi2013/papers.json',
+        success:function(res) {
+            entities = res
         }
     });
-    
+
 }
+
+if(sessions == null){
+    $.ajax({
+        type: 'GET',
+        async: false,
+        url: '/static/json/chi2013/sessions.json',
+        success:function(res) {
+            sessions = res
+        }
+    });
+}
+
+
 
 
 function refresh(_async_){

@@ -10,10 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from algorithm.recommend import *
-#from db.prefs import *
-from db.entity import *
-from db.session import *
-#from db.authors import *
+
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
@@ -28,18 +25,12 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 
 r = Recommender()
-e = Entity()
-#p = Prefs()
-s = Session()
 
 
 
-#codes = open('/production/confer/data/letterCodes.json').read()
-#session_codes = open('/production/confer/data/sessionCodes.json').read()
-#offline_recs = open('/production/confer/data/offline_recs.txt').read()
-#acm_links = open('/production/confer/data/bib_final.txt').read()
 
-#bib_map = json.loads(acm_links)
+entities = open('server/static/json/chi2013/papers.json').read()
+sessions = open('server/static/json/chi2013/sessions.json').read()
 
 def send_email(addr, subject, msg_body):	
 	email_subject = subject
@@ -198,15 +189,7 @@ def schedule(request):
 	
 
 
-def participate(request, val):
-	try:
-		user = request.session['id']
-		if(val =='add'):
-			return HttpResponse('We have added your name to the list of partipants for Meet experiment. To remove your name, you can click on <a href="/participate/remove">this link</a>', mimetype="text/html")	
-		else:
-			return HttpResponse('We have removed your name from the list of partipants for Meet experiment. To add your name again, you can click on <a href="/participate/add">this link</a>', mimetype="text/html")
-	except KeyError:
-		return HttpResponseRedirect('/login')
+
 
 
 def meet(request):
@@ -251,67 +234,9 @@ def bib(request):
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
-@csrf_exempt
-def data(request):
-	try:
-		user = request.session['id']
-		recs = []
-		own_papers = []
-		s_likes = []
-		likes = []
-		cursor = connection.cursor()
-		cursor.execute("""SELECT likes, s_likes from pcs_authors where id = '%s';""" %(user))
-		data = cursor.fetchall()
-		if(data[0][0] != None):
-			likes.extend(json.loads(data[0][0]))
-		if(data[0][1] != None):
-			s_likes.extend(json.loads(data[0][1]))
-		if(len(likes)>0):
-			recs = r.get_item_based_recommendations(likes)
-		user_recs =  get_similar_people(request)
-		return HttpResponse(json.dumps({
-			'login_id': request.session['id'], 
-			'login_name': request.session['name'],
-			'recs':recs, 
-			'likes':likes, 
-			's_likes':s_likes,
-			'own_papers':own_papers,
-			'entities': e.entities, 
-			'sessions':s.sessions,
-			'codes': {},
-			'offline_recs': {},
-	    	'session_codes': {},
-	    	'acm_links' : {},
-	    	'user_recs': user_recs
-			}), mimetype="application/json")
-	except:
-		print sys.exc_info()
-		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
 
-
-def get_similar_people(request):
-	user_recs=[]
-	try:
-		cursor = connection.cursor()
-		auth_no = request.session['auth_no']
-		res = r.get_users_recommendations([str(auth_no)])		
-		for rec in res:
-			cursor.execute("""SELECT id, given_name, family_name, email1, dept1, instituition1, city1, country1 from pcs_authors where auth_no = %d;""" %(int(rec['id'])))
-			data = cursor.fetchall()
-			if(len(data)>0):
-				user_recs.append({'id':data[0][0], 
-					'given_name':data[0][1],
-					'family_name':data[0][2],
-					'email':data[0][3],
-					'dept':data[0][4],
-					'inst':data[0][5],
-					'country':data[0][6]
-					})
-	except:
-		print sys.exc_info()
-	return user_recs
 
 @csrf_exempt
 def refresh(request):
