@@ -19,9 +19,14 @@ def prepare_paper_json():
 			header = False
 		else:
 			if(row[1] != ''):
-				authors = []
-				paper_id = unicode(row[1], "ISO-8859-1")
+				authors = []				
 				session = unicode(row[0], "ISO-8859-1")
+				if(row[1].startswith('sig')):
+					paper_id = 'sig'+re.search(r'\d+', row[1]).group()
+				elif(row[1].startswith('pods')):
+					paper_id = 'pods'+re.search(r'\d+', row[1]).group()
+				else:
+					paper_id = row[1]
 				title = unicode(row[2], "ISO-8859-1")
 				subtitle = unicode(row[3], "ISO-8859-1")
 				num_pages = unicode(row[4], "ISO-8859-1")
@@ -45,7 +50,7 @@ def prepare_paper_json():
 
 
 def prepare_session_json():
-	f = open('data/sigmod2013/session.csv','rU')
+	f = open('data/sigmod2013/s_research.csv','rU')
 	reader = csv.reader(f)
 	sessions = {}
 	header= True
@@ -58,17 +63,66 @@ def prepare_session_json():
 				submissions = []
 				session_id = row[1]
 				s_title = unicode(row[2], "ISO-8859-1")
-				submissions.append(row[3])
+				submissions.append('sig%03d' %(int(row[3])))
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
 			else:
-				if(session_id != None):
-					sessions[session_id]['submissions'].append(row[3])
-		p = open('server/static/json/sigmod2013/sessions.json','w')
-		p.write(json.dumps(sessions))
-		print sessions
+				if(session_id != None and row[3]!=''):
+					sessions[session_id]['submissions'].append('sig%03d' %(int(row[3])))
+	f = open('data/sigmod2013/s_industrial.csv','rU')
+	reader = csv.reader(f)
+	header= True
+	session_id = None
+	for row in reader:
+		if(header or len(row)==0):
+			header = False
+		else:
+			if(row[1]!='' and row[2] == '' and row[0]==''):
+				submissions = []
+				session_id = row[1][:row[1].index(':')]
+				s_title = unicode(row[1], "ISO-8859-1").strip()
+				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
+			else:
+				if(session_id != None and row[1]!='' and row[2]!=''):
+					sessions[session_id]['submissions'].append('sig%03d' %(int(row[0])))
+	f = open('data/sigmod2013/s_demo.csv','rU')
+	reader = csv.reader(f)
+	header= True
+	session_id = None
+	for row in reader:
+		if(header or len(row)==0):
+			header = False
+		else:
+			if(row[1]!='' and row[2] == '' and row[0]==''):
+				submissions = []
+				session_id = row[1][:row[1].index(':')]
+				s_title = unicode(row[1], "ISO-8859-1").strip()
+				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
+			else:
+				if(session_id != None and row[1]!='' and row[2]!=''):
+					sessions[session_id]['submissions'].append('sig%03d' %(int(row[0])))
+	f = open('data/sigmod2013/s_tutorial.csv','rU')
+	reader = csv.reader(f)
+	header= True
+	session_id = None
+	for row in reader:
+		if(header or len(row)==0):
+			header = False
+		else:
+			if(row[1]!=''):
+				submissions = []
+				session_id = row[1][:row[1].index(':')]
+				s_title = unicode(row[1], "ISO-8859-1").strip()
+				submissions.append('sig%03d' %(int(row[0])))
+				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
+	
+	p = open('server/static/json/sigmod2013/sessions.json','w')
+	p.write(json.dumps(sessions))
+	
+		#print sessions
 
 
 def main():
+	prepare_paper_json()
 	prepare_session_json()
 	
 		
