@@ -86,7 +86,7 @@ function refresh(_async_){
                     recommended = res.recs
                     localStorage.setItem('recommended', JSON.stringify(recommended))
                 }
-                
+
                 if(res.likes != null){
                     starred = res.likes
                     localStorage.setItem('starred', JSON.stringify(starred))
@@ -369,41 +369,7 @@ function bind_events(){
             disable_loading();
         });
 
-    $('input:text').addClass('default-search-text')
-    $('input:text').each(function(){
-        if($(this).attr("title") == null || $(this).attr("title") == ''){
-            $(this).attr("title", 'Enter paper titles, authors, or keywords')
-        }
-    });
-
-  
-    $(".default-search-text").focus(
-        function() {
-        if ($(this).val() == $(this).attr("title")) {
-            $(this).removeClass("default-search-text-active");
-            $(this).val("");
-        }
-    });
-
-
-
     
-    $(".default-search-text").blur(
-        function() {
-        if ($(this).val() == "") {
-            $(this).addClass("default-search-text-active");
-            $(this).val($(this).attr("title"));
-        }
-    });
-
-    $('input:text').each(function(){
-        if( $(this).val() == '' || $(this).val() == $(this).attr("title")){
-            $(this).blur()
-        }else{
-            $(this).focus()
-        }
-    });
-
     $("#refresh_recommendations").off('click')
     $("#refresh_recommendations").on('click', function(event){
         event.stopImmediatePropagation();
@@ -411,15 +377,7 @@ function bind_events(){
         refresh_recommendations()
     })
 
-    $("#export_bibtex").off('click')
-    $("#export_bibtex").on('click', function(event){
-        event.stopImmediatePropagation();
-    })
-
-    $('.acm-icon').off('click')
-    $('.acm-icon').on('click', function(){
-        log('acm_link_' + $(this).attr('data'))
-    })
+   
     
     if(detect_mobile()){
         $("body").addClass("touch-device");
@@ -888,8 +846,6 @@ function get_paper_html(id){
 
 
 function get_session_html(id){
-    var communities = get_communities(sessions[id]);
-    var communities_class = (communities == "") ? "" : " communities";
     var award=''
     if(sessions[id].award){
         award += ' s_award'
@@ -899,7 +855,7 @@ function get_session_html(id){
     }
     var raw_html = '<div class="session ' + id + ' ' + sessions[id].date + ' t' + sessions[id].time.substr(0,2) + ' '
               + sessions[id].venue + ' ' + sessions[id].personas.substr(0,2) + ' '
-              + communities_class + ' ' + communities + ' ' + award + '" data="' + id + '">'
+              + award + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
     raw_html += '<td class="metadata">'     
@@ -919,7 +875,7 @@ function get_session_html(id){
     
     
     raw_html += '</li>';
-    raw_html += '<li class="session-info"><span class="session-venue">' + format_venue(sessions[id].venue) + '</span> <span class="session-room">Room: ' + sessions[id].room + '</span></li>'
+    raw_html += '<li class="session-info"><span class="session-venue">' + sessions[id].venue + '</span> <span class="session-room">Room: ' + sessions[id].room + '</span></li>'
     raw_html += '</ul>'
 
     
@@ -928,11 +884,14 @@ function get_session_html(id){
     var weight = []
     var sum = 0
     for(i=0; i<size; i++){
+        /*
         if(entities[sessions[id].submissions[i]].subtype == 'Note'){
             weight[i] = 0.5
         }else{
             weight[i] = 1.0
         }
+        */
+        weight[i] = 1.0
         sum += weight[i]
     }
     

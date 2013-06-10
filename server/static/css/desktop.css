@@ -647,26 +647,17 @@ textarea {
 
 
 
-.default-text {
-}
-
-.default-text-active { 
-	color: #737373; /*#a1a1a1; */
-	font-style: italic;
-}
 
 
-.no-touch-device .default-search-text {
+
+.no-touch-device .search-box {
 	max-width: 70%;
 	min-width: 50%;
 	width: 100%;
   /*margin-left: 1.9em !important;*/
 }
 
-.default-search-text-active { 
-	color: #a1a1a1; 
-	font-style: italic;
-}
+
 
 .tab{
 	display: none;
