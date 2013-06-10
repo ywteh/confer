@@ -1118,7 +1118,7 @@ function get_session_html(id){
 function get_selected_paper_html(id){
     if(entities[id] == null)
       return null
-    var communities = get_communities(entities[id]);
+    //var communities = get_communities(entities[id]);
 
 
     raw_html += '<tbody>'
@@ -1135,9 +1135,11 @@ function get_selected_paper_html(id){
     if(entities[id].award){
         raw_html += ' p_award'
     }
+    /*
     if(communities != ""){
       raw_html += ' communities';
     }
+    */
     raw_html += '">'
 
 
@@ -1158,11 +1160,13 @@ function get_selected_paper_html(id){
 
     raw_html += '<h3>' + remove_special_chars(entities[id].title) 
     raw_html += '<span class="paper-subtype">' + get_paper_subtype(id) + '</span>'
+    /*
     if(acm_links[id]!=null){
         var url = acm_links[id]['url']
         raw_html += '<a href="' + url +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
     }
-    raw_html += '<span class="paper-code">' + codes['code'][id] + '</span>'
+    */
+    //raw_html += '<span class="paper-code">' + codes['code'][id] + '</span>'
     /*
     if (codeExists(codes['code'][id]))
       raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+codes['code'][id]+'" target="_blank"><span class="play-icon"></span></a></span>'
@@ -1177,13 +1181,11 @@ function get_selected_paper_html(id){
           //console.log(entities[id]);
             //raw_html += entities[id].authors[author].givenName + ' ' + entities[id].authors[author].familyName + '&nbsp;&nbsp;&nbsp;&nbsp;'
             raw_html += '<span class="author"><span class="author-name">' 
-                    + entities[id].authors[author].givenName + ' ' + entities[id].authors[author].familyName 
+                    + entities[id].authors[author].name 
                     + '</span>';
-            var affiliation = entities[id].authors[author].primary; 
-            if (typeof affiliation !== "undefined" && affiliation != null && typeof affiliation.institution !== "undefined" && affiliation.institution != null && typeof affiliation.country !== "undefined" 
-&& affiliation.country != null)
+            
             raw_html += '<span class="author-affiliation">'
-                    + affiliation.institution + ', ' + affiliation.country 
+                    + entities[id].authors[author].affiliation + ', ' + entities[id].authors[author].location 
                     + '</span>';
             raw_html += '</span>';
         }
@@ -1194,11 +1196,13 @@ function get_selected_paper_html(id){
     if (isMyPaper(id))
       raw_html += '<span class="own-icon">my paper</span>'
     raw_html += '<span class="rec-icon">recommended</span>'
+    /*
     if (communities != ""){
       $.each(entities[id].communities, function(i, v){
         raw_html += '<span class="community-icon ' + v + '">' + v + '</span>'
       });
     }
+    */
     raw_html += '</li>'
     raw_html += '<li class="paper-selected-session">' + get_session_info_of_paper(id) + '</li>'
     raw_html += '<hr />'
