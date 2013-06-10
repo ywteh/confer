@@ -1,4 +1,4 @@
-import sys, os, json, csv
+import sys, os, json, csv, re
 
 if __name__ == "__main__":
 	p = os.path.abspath(os.path.dirname(__file__))
@@ -8,10 +8,8 @@ if __name__ == "__main__":
 
 
 
-
-
-def main():
-	f = open('data/sigmod2013/prog_ck.csv','r')
+def prepare_paper_json():
+	f = open('data/sigmod2013/prog_ck.csv','rU')
 	reader = csv.reader(f)
 	papers = {}
 	header= True
@@ -44,7 +42,36 @@ def main():
 					)
 		p = open('server/static/json/sigmod2013/papers.json','w')
 		p.write(json.dumps(papers))
-		print papers
+
+
+def prepare_session_json():
+	f = open('data/sigmod2013/session.csv','rU')
+	reader = csv.reader(f)
+	sessions = {}
+	header= True
+	session_id = None
+	for row in reader:
+		if(header or len(row)==0):
+			header = False
+		else:
+			if(row[1]!='' and row[2]!=''):
+				submissions = []
+				session_id = row[1]
+				s_title = unicode(row[2], "ISO-8859-1")
+				submissions.append(row[3])
+				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
+			else:
+				if(session_id != None):
+					sessions[session_id]['submissions'].append(row[3])
+		p = open('server/static/json/sigmod2013/sessions.json','w')
+		p.write(json.dumps(sessions))
+		print sessions
+
+
+def main():
+	prepare_session_json()
+	
+		
 
 if __name__ == "__main__":
 	main()

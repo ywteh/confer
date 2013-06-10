@@ -52,7 +52,7 @@ if(sessions == null){
     $.ajax({
         type: 'GET',
         async: false,
-        url: '/static/json/chi2013/sessions.json',
+        url: '/static/json/sigmod2013/sessions.json',
         success:function(res) {
             sessions = res
         }
@@ -853,8 +853,7 @@ function get_session_html(id){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id + ' ' + sessions[id].date + ' t' + sessions[id].time.substr(0,2) + ' '
-              + sessions[id].venue + ' ' + sessions[id].personas.substr(0,2) + ' '
+    var raw_html = '<div class="session ' + id  + sessions[id].venue + ' ' + sessions[id].personas + ' '
               + award + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -989,68 +988,9 @@ function get_selected_paper_html(id){
 
 
 
-function place_session(s){
-    if(s.hasClass('Monday')){
-        if(s.hasClass('t09')){
-            $("#Mondayt09").append(s)
-            $("#Mondayt09").prev().show()
-        }else if(s.hasClass('t11')){
-            $("#Mondayt11").append(s)
-            $("#Mondayt11").prev().show()
-        }else if(s.hasClass('t14')){
-            $("#Mondayt14").append(s)
-            $("#Mondayt14").prev().show()
-        }else if(s.hasClass('t16')){
-            $("#Mondayt16").append(s)
-            $("#Mondayt16").prev().show()
-        }
-
-    }else if(s.hasClass('Tuesday')){
-        if(s.hasClass('t09')){
-            $("#Tuesdayt09").append(s)
-            $("#Tuesdayt09").prev().show()
-        }else if(s.hasClass('t11')){
-            $("#Tuesdayt11").append(s)
-            $("#Tuesdayt11").prev().show()
-        }else if(s.hasClass('t14')){
-            $("#Tuesdayt14").append(s)
-            $("#Tuesdayt14").prev().show()
-        }else if(s.hasClass('t16')){
-            $("#Tuesdayt16").append(s)
-            $("#Tuesdayt16").prev().show()
-        }
-
-    }else if(s.hasClass('Wednesday')){
-        if(s.hasClass('t09')){
-            $("#Wednesdayt09").append(s)
-            $("#Wednesdayt09").prev().show()
-        }else if(s.hasClass('t11')){
-            $("#Wednesdayt11").append(s)
-            $("#Wednesdayt11").prev().show()
-        }else if(s.hasClass('t14')){
-            $("#Wednesdayt14").append(s)
-            $("#Wednesdayt14").prev().show()
-        }else if(s.hasClass('t16')){
-            $("#Wednesdayt16").append(s)
-            $("#Wednesdayt16").prev().show()
-        }
-
-    }else if(s.hasClass('Thursday')){
-        if(s.hasClass('t09')){
-            $("#Thursdayt09").append(s)
-            $("#Thursdayt09").prev().show()
-        }else if(s.hasClass('t11')){
-            $("#Thursdayt11").append(s)
-            $("#Thursdayt11").prev().show()
-        }else if(s.hasClass('t14')){
-            $("#Thursdayt14").append(s)
-            $("#Thursdayt14").prev().show()
-        }else if(s.hasClass('t16')){
-            $("#Thursdayt16").append(s)
-            $("#Thursdayt16").prev().show()
-        }
-
-    }
+function place_session(s){    
+    $("#Mondayt09").append(s)
+    $("#Mondayt09").prev().show()    
 }
 
 
