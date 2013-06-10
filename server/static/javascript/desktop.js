@@ -24,6 +24,7 @@ var sessions = JSON.parse(localStorage.getItem('sessions'))
 
 var entities = null
 var sessions = null
+var offline_recs = {}
 
 
 /* Private Data */
@@ -33,7 +34,6 @@ var starred = JSON.parse(localStorage.getItem('starred'))
 var s_starred = JSON.parse(localStorage.getItem('s_starred'))
 var own_papers = JSON.parse(localStorage.getItem('own_papers'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
-var user_recs = JSON.parse(localStorage.getItem('user_recs'))
 
 
 if(entities == null){
@@ -86,6 +86,7 @@ function refresh(_async_){
                     recommended = res.recs
                     localStorage.setItem('recommended', JSON.stringify(recommended))
                 }
+                
                 if(res.likes != null){
                     starred = res.likes
                     localStorage.setItem('starred', JSON.stringify(starred))
@@ -94,13 +95,8 @@ function refresh(_async_){
                     s_starred = res.s_likes
                     localStorage.setItem('s_starred', JSON.stringify(s_starred))
                 }
-                if(res.user_recs != null){
-                    user_recs = res.user_recs
-                    localStorage.setItem('user_recs', JSON.stringify(user_recs))
-                }
             }else{
                 console.log('refresh/error')
-                //window.location.href = '/login'
             }
         }
     });
@@ -225,69 +221,62 @@ function sync(){
 }
 
 
-// codes without video preview
-var codeBlackList = [
-  "KOP","PHN","NDL","LDJ","PQS","PLP","PLL","CYU","LRA","PQV","NNG","PMF","PSS","PSR","NEK","PKY",
-  "PKS","PFS","PLJ","TRN","PBR","YQT","PKZ","PDS","PFR","SRJ","PHF","TUU","TZC","AZG","CZS","PQE",
-  "GYU","GDG","NMX","PAK","YHY","PQQ","LLC","NPP","TXL","CZS","TLQ","GFL","TAU","NKQ","PTS","PKL",
-  "GXS","SIA","PTU","PAE","PRH","PGG","LBR","PQZ","PTN","NGR","PEH","PGV","TGN","PSJ","PMY","NGN",
-  "PQC","PPM","PCB","SRC","PDM","PSP","GZX","PKJ","PBM","PHR","SDC","CMU","LPA","PRN","GHQ","TEC",
-  "PMR","PCD","NJT","AXZ","PEB","LSU","PMM","PMV","SGC","CMU","NHL","KSP","PKV","YYP","NFM","PTT",
-  "NCK","PQG","KCL"
-];
+
 
 function detect_mobile() { 
- if(navigator.userAgent.match(/Android/i)
- || navigator.userAgent.match(/webOS/i)
- || navigator.userAgent.match(/iPhone/i)
- || navigator.userAgent.match(/iPad/i)
- || navigator.userAgent.match(/iPod/i)
- || navigator.userAgent.match(/BlackBerry/i)
- || navigator.userAgent.match(/Windows Phone/i)
- ){
-    return true;
-  } else {
-    return false;
-  }
+     if(navigator.userAgent.match(/Android/i)
+         || navigator.userAgent.match(/webOS/i)
+         || navigator.userAgent.match(/iPhone/i)
+         || navigator.userAgent.match(/iPad/i)
+         || navigator.userAgent.match(/iPod/i)
+         || navigator.userAgent.match(/BlackBerry/i)
+         || navigator.userAgent.match(/Windows Phone/i))
+    {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 
 jQuery.fn.highlight = function(pat) {
- function innerHighlight(node, pat) {
-  var skip = 0;
-  if (node.nodeType == 3) {
-   var pos = node.data.toUpperCase().indexOf(pat);
-   if (pos >= 0) {
-    var spannode = document.createElement('span');
-    spannode.className = 'text-highlight';
-    var middlebit = node.splitText(pos);
-    var endbit = middlebit.splitText(pat.length);
-    var middleclone = middlebit.cloneNode(true);
-    spannode.appendChild(middleclone);
-    middlebit.parentNode.replaceChild(spannode, middlebit);
-    skip = 1;
-   }
-  }
-  else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
-   for (var i = 0; i < node.childNodes.length; ++i) {
-    i += innerHighlight(node.childNodes[i], pat);
-   }
-  }
-  return skip;
- }
- return this.each(function() {
-  innerHighlight(this, pat.toUpperCase());
- });
+    function innerHighlight(node, pat) {
+        var skip = 0;
+        if (node.nodeType == 3) {
+            var pos = node.data.toUpperCase().indexOf(pat);
+            if (pos >= 0) {
+                var spannode = document.createElement('span');
+                spannode.className = 'text-highlight';
+                var middlebit = node.splitText(pos);
+                var endbit = middlebit.splitText(pat.length);
+                var middleclone = middlebit.cloneNode(true);
+                spannode.appendChild(middleclone);
+                middlebit.parentNode.replaceChild(spannode, middlebit);
+                skip = 1;
+            }
+        }
+        else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+            for (var i = 0; i < node.childNodes.length; ++i) {
+                i += innerHighlight(node.childNodes[i], pat);
+            }
+        }
+        return skip;
+        }
+        return this.each(function() {
+            innerHighlight(this, pat.toUpperCase());
+        });
 };
 
+
+
 jQuery.fn.removeHighlight = function() {
- return this.find("span.text-highlight").each(function() {
-  this.parentNode.firstChild.nodeName;
-  with (this.parentNode) {
-   replaceChild(this.firstChild, this);
-   normalize();
-  }
- }).end();
+    return this.find("span.text-highlight").each(function() {
+        this.parentNode.firstChild.nodeName;
+        with (this.parentNode) {
+            replaceChild(this.firstChild, this);
+            normalize();
+        }
+    }).end();
 };
 
 
@@ -777,80 +766,13 @@ function refresh_recommendations(){
 
 
 
-function remove_special_chars(str){
-    if (str == null || str == "null")
-      return "";
-    var result = str;
-    result = result.replace(/¬/g, "-"); 
-    result = result.replace(/×/g, "x"); 
-    result = result.replace(/–/g, "-"); 
-    result = result.replace(/‘/g, "'"); 
-    result = result.replace(/’/g, "'"); 
-    result = result.replace(/“/g, "\""); 
-    result = result.replace(/”/g, "\""); 
-    result = result.replace(/\\"/g, "\""); 
-    result = result.replace(/â€”/g, "-");
-    result = result.replace(/â€"/g, "-");
-    result = result.replace(/â€˜/g, "'");
-    result = result.replace(/â€œ/g, "\"");
-    result = result.replace(/â€/g, "\"");
-    result = result.replace(/Ã©/g, "é");
-    result = result.replace(/\\u2013/g, "-");
-    result = result.replace(/\\u00ac/g, "-");
-    result = result.replace(/\\u2014/g, "-");
-    result = result.replace(/\\u2018/g, "'");
-    result = result.replace(/\\u2019/g, "'");
-    result = result.replace(/\\u2022/g, "*");
-    result = result.replace(/\\u201c/g, "\"");
-    result = result.replace(/\\u201d/g, "\"");
-    result = result.replace(/â€™/g, "'");
-    result = result.replace(/â€“/g, "-");
-    result = result.replace(/™/g, "(TM)"); 
-    result = result.replace(/\\\//g, "/"); 
-    result = result.replace(/\\/g, ""); 
-    result = result.replace(/\\ \\/g, ""); 
-    return result;
-}
-
-
-
-
-function format_venue(venue){
-  if (venue == "paper")
-    return "Paper";
-  if (venue == "SIG")
-    return "SIG Meeting";
-  if (venue == "altchi")
-    return "alt.chi";
-  if (venue == "course")
-    return "Course";
-  if (venue == "casestudy")
-    return "Case Study";
-  if (venue == "panel")
-    return "Panel";
-  return venue;
-}
 
 
 
 
 
-function get_communities(s){
-    var communities = []
-    if (s.communities){
-        communities = s.communities
-    }
-    for(var i in s.submissions){
-        s_communities = entities[s.submissions[i]].communities
-        for(var j in s_communities){
-            if(communities.indexOf(s_communities[j]) == -1){
-                communities.push(s_communities[j])
-            }
-        }
-    }
-    return communities.join(' ');
 
-}
+
 
 function get_short_session_info_of_paper(id){
   var result = "";
@@ -874,28 +796,6 @@ function get_session_info_of_paper(id){
 }
 
 
-function get_paper_subtype(id){
-    var subtype = "";
-    if (typeof entities[id] !== "undefined" && entities[id].subtype != "")
-      subtype = entities[id].subtype;
-    else if (id.indexOf("tochi") > -1)
-      subtype = "TOCHI";
-    else {
-      var session = sessions[entities[id].session];
-      if (typeof session !== "undefined")
-        subtype = format_venue(session.venue);
-    }
-    return "- " + subtype;
-}
-
-function codeExists(code){
-  // if the given code has no video preview return false
-  if ($.inArray(code, codeBlackList) > -1)
-    return false;
-  return true;
-
-}
-
 
 function select_paper(id){
     if(window.location.pathname == '/paper'){
@@ -917,7 +817,6 @@ function isMyPaper(id){
 function get_paper_html(id){
     if(entities[id] == null)
         return ''
-    var communities = get_communities(entities[id]);
     var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
     if(exists(recommended, id)){
         raw_html += ' recommended'
@@ -931,12 +830,10 @@ function get_paper_html(id){
     if(entities[id].award){
         raw_html += ' p_award'
     }
-    if(communities != "")
-      raw_html += ' communities'
     raw_html += '">'
       
     raw_html += '<td class="metadata">'   
-    if(starred.indexOf(id) < 0){
+    if(starred.indexOf(id) == -1){
         raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);">'        
     }else{
         raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);">'       
@@ -948,21 +845,11 @@ function get_paper_html(id){
     raw_html += '<td class="content">'    
     raw_html += '<ul>'
 
-    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+remove_special_chars(entities[id].title) +'</span>'
-    raw_html += '<span class="paper-subtype">' + ' ' + get_paper_subtype(id) + '</span>'
-    /*
-    if(acm_links[id]!=null){
-        var url = acm_links[id]['url']
-        raw_html += '<a href="' + url +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
+    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+entities[id].title +'</span>'
+    if(entities[id].type!=null){
+        raw_html += '<span class="paper-subtype">' + ' ' + entities[id].type + '</span>'
     }
-    */
-   // raw_html += '<span class="paper-code">' +  ' ' + codes['code'][id] + '</span>'
-    //raw_html += '<span class="paper-session">' + get_short_session_info_of_paper(id) + '</span>'
-    /*
-    if (codeExists(codes['code'][id]))
-      raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+codes['code'][id]+'" target="_blank"><span class="play-icon"></span></a></span>'
     
-    */
     
     
     raw_html += '<span class="send_tweet"></span>'
@@ -978,23 +865,14 @@ function get_paper_html(id){
         }
     }
     raw_html += '</li>'
-      
-    raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span>'
-    if (isMyPaper(id))
-      raw_html += '<span class="own-icon">my paper</span>'
-    raw_html += '<span class="rec-icon">recommended</span>'
-    if (communities != ""){
-      $.each(entities[id].communities, function(i, v){
-        raw_html += '<span class="community-icon ' + v + '">' + v + '</span>'
-      });
-    }
-    raw_html += '</li>'
     if (entities[id].c_and_b == null)
-      raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].abstract) + '</li>'
+      raw_html += '<li class="paper-cb">'+ entities[id].abstract + '</li>'
     else
-      raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].c_and_b) + '</li>'
-        
-    raw_html += '<li class="paper-keywords">' + remove_special_chars(entities[id].keywords) + '</li>'
+      raw_html += '<li class="paper-cb">'+ entities[id].c_and_b + '</li>'
+    
+    if(entities[id].keywords != null){
+        raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
+    }
     raw_html += '</ul>'
     raw_html += '</td>'
     
@@ -1004,16 +882,7 @@ function get_paper_html(id){
 }
 
 
-function getSpecialSessionCode(id){
-  var special_session_codes = {"s300":"LRA",
-  "s302":"SIA",
-  "s325":"IWC",
-  "s305":"SRC",
-  "s301":"LPA",
-  "s306":"SDC",
-  "s307":"SGC"};
-  return special_session_codes[id];
-}
+
 
 
 
@@ -1022,9 +891,6 @@ function get_session_html(id){
     var communities = get_communities(sessions[id]);
     var communities_class = (communities == "") ? "" : " communities";
     var award=''
-    if(sessions[id].award || sessions[id].hm){
-        award = 's_awardhm'
-    }
     if(sessions[id].award){
         award += ' s_award'
     }
@@ -1037,45 +903,20 @@ function get_session_html(id){
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
     raw_html += '<td class="metadata">'     
-    //raw_html += '<div class="ui-state-default ui-corner-all s_star" data="'+ id + '" onclick="handle_session_star(event);">'
     raw_html += '<div class="star star-open s_star" data="'+ id + '" onclick="handle_session_star(event);">'
-    //raw_html += '<span class="ui-icon ui-icon-star"></span>'
     raw_html += '</div>'        
     raw_html += '</td>'
     
     raw_html += '<td class="content">'  
     raw_html += '<ul>'
-    raw_html += '<li><h3><span class="arrow arrow-right"></span> <span class="session-title">'+ remove_special_chars(sessions[id].s_title) + '</span>'
-   /**
-    var s_code = session_codes['id'][id];
-    if (typeof s_code !== "undefined" && typeof codes['code'][s_code] !== "undefined"){
-      raw_html += '<span class="session-code">' + codes['code'][s_code] + '</span>'
-      //if (codeExists(codes['code'][s_code]))
-      //  raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+codes['code'][s_code]+'" target="_blank"><span class="play-icon"></span></a></span>'
-    } else if (sessions[id].venue == "panel" || sessions[id].venue == "course" || sessions[id].venue == "SIG"){
-      var p_id = sessions[id].submissions[0];
-      if (typeof p_id !== "undefined"){
-        raw_html += '<span class="session-code">' +  ' ' + codes['code'][p_id] + '</span>'
-       
-      }
-    } else if (typeof getSpecialSessionCode(id) !== "undefined"){
-      var code = getSpecialSessionCode(id);
-      if (typeof code !== "undefined"){
-        raw_html += '<span class="session-code">' +  ' ' + code + '</span>'
-       
-      }
-    }
-    **/
+    raw_html += '<li><h3><span class="arrow arrow-right"></span> <span class="session-title">'+ sessions[id].s_title + '</span>'
+   
     raw_html += '<span class="send_session_tweet"></span>'
     raw_html += '<span class="send_session_email"></span>'
     raw_html += '</h3></li>'
     raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="rec-icon">recommended</span>'
 
-    if (communities != ""){
-      $.each(sessions[id].communities, function(i, v){
-        raw_html += '<span class="community-icon ' + v + '">' + v + '</span>'
-      });
-    }
+    
     
     raw_html += '</li>';
     raw_html += '<li class="session-info"><span class="session-venue">' + format_venue(sessions[id].venue) + '</span> <span class="session-room">Room: ' + sessions[id].room + '</span></li>'
@@ -1118,9 +959,6 @@ function get_session_html(id){
 function get_selected_paper_html(id){
     if(entities[id] == null)
       return null
-    //var communities = get_communities(entities[id]);
-
-
     raw_html += '<tbody>'
     var raw_html = '<tr data= "' + id + '" class="paper ' + id
     if(exists(recommended, id)){
@@ -1135,11 +973,6 @@ function get_selected_paper_html(id){
     if(entities[id].award){
         raw_html += ' p_award'
     }
-    /*
-    if(communities != ""){
-      raw_html += ' communities';
-    }
-    */
     raw_html += '">'
 
 
@@ -1158,56 +991,34 @@ function get_selected_paper_html(id){
 
 
 
-    raw_html += '<h3>' + remove_special_chars(entities[id].title) 
-    raw_html += '<span class="paper-subtype">' + get_paper_subtype(id) + '</span>'
-    /*
-    if(acm_links[id]!=null){
-        var url = acm_links[id]['url']
-        raw_html += '<a href="' + url +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
+    raw_html += '<h3>' + entities[id].title
+    if(entities[id].subtype != null){
+        raw_html += '<span class="paper-subtype">' + entities[i].subtype + '</span>'
     }
-    */
-    //raw_html += '<span class="paper-code">' + codes['code'][id] + '</span>'
-    /*
-    if (codeExists(codes['code'][id]))
-      raw_html += '<span class="video-url"><a href="http://chischedule.org/2013/'+codes['code'][id]+'" target="_blank"><span class="play-icon"></span></a></span>'
-    */
+    
     raw_html += '<span class="send_tweet"></span>'
     raw_html += '<span class="send_email"></span>'
     raw_html += '</h3>';
 
     raw_html += '<li class="paper-authors">'
     for(var author in entities[id].authors){
-        if(entities[id].authors[author] != null){
-          //console.log(entities[id]);
-            //raw_html += entities[id].authors[author].givenName + ' ' + entities[id].authors[author].familyName + '&nbsp;&nbsp;&nbsp;&nbsp;'
-            raw_html += '<span class="author"><span class="author-name">' 
-                    + entities[id].authors[author].name 
-                    + '</span>';
-            
-            raw_html += '<span class="author-affiliation">'
-                    + entities[id].authors[author].affiliation + ', ' + entities[id].authors[author].location 
-                    + '</span>';
-            raw_html += '</span>';
-        }
+        
+       raw_html += '<span class="author"><span class="author-name">' 
+                + entities[id].authors[author].name 
+                + '</span>';
+        
+        raw_html += '<span class="author-affiliation">'
+                + entities[id].authors[author].affiliation + ', ' + entities[id].authors[author].location 
+                + '</span>';
+        
     }
-    raw_html += '</li>'
-    
-    raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span>'
-    if (isMyPaper(id))
-      raw_html += '<span class="own-icon">my paper</span>'
-    raw_html += '<span class="rec-icon">recommended</span>'
-    /*
-    if (communities != ""){
-      $.each(entities[id].communities, function(i, v){
-        raw_html += '<span class="community-icon ' + v + '">' + v + '</span>'
-      });
-    }
-    */
     raw_html += '</li>'
     raw_html += '<li class="paper-selected-session">' + get_session_info_of_paper(id) + '</li>'
     raw_html += '<hr />'
-    raw_html += '<li>' + remove_special_chars(entities[id].abstract) + '</li>'
-    raw_html += '<li class="paper-keywords">' + remove_special_chars(entities[id].keywords) + '</li>'
+    raw_html += '<li>' + entities[id].abstract + '</li>'
+    if(entities[id].keywords != null){
+        raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
+    }
     raw_html += '</ul>'
     raw_html += '</td>'
     raw_html += '</tr>'

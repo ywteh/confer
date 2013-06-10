@@ -254,7 +254,8 @@ def data(request):
 		if(data[0][1] != None):
 			s_likes.extend(json.loads(data[0][1]))
 		if(len(likes)>0):
-			recs = r.get_item_based_recommendations(likes)
+			#recs = r.get_item_based_recommendations(likes)
+			recs = []
 		return HttpResponse(json.dumps({
 			'login_id': request.session['id'], 
 			'login_name': request.session['name'],
@@ -329,7 +330,8 @@ def like(request, like_str):
 				s_likes.remove(session)
 		s_l = list(set(s_likes))
 		cursor.execute("""UPDATE pcs_authors SET likes = '%s', s_likes = '%s' where id = '%s';""" %(json.dumps(l), json.dumps(s_l), user))
-		recs = r.get_item_based_recommendations(likes)
+		#recs = r.get_item_based_recommendations(likes)
+		recs = []
 		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 's_likes':s_l, 'res':res}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
