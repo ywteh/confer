@@ -40,7 +40,7 @@ if(entities == null){
     $.ajax({
         type: 'GET',
         async: false,
-        url: '/static/json/chi2013/papers.json',
+        url: '/static/json/sigmod2013/papers.json',
         success:function(res) {
             entities = res
         }
@@ -974,7 +974,7 @@ function get_paper_html(id){
     raw_html += '<li class="paper-authors">'
     for(author in entities[id].authors){
         if(entities[id].authors[author] != null){
-            raw_html += ' ' + entities[id].authors[author].givenName + ' ' + entities[id].authors[author].familyName + '&nbsp;&nbsp;&nbsp;&nbsp;'
+            raw_html += ' ' + entities[id].authors[author].name + '&nbsp;&nbsp;&nbsp;&nbsp;'
         }
     }
     raw_html += '</li>'
@@ -989,7 +989,7 @@ function get_paper_html(id){
       });
     }
     raw_html += '</li>'
-    if (entities[id].c_and_b == "null")
+    if (entities[id].c_and_b == null)
       raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].abstract) + '</li>'
     else
       raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].c_and_b) + '</li>'
