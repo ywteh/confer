@@ -198,12 +198,13 @@ def home(request):
 @login_required
 def schedule(request):
 	return render_to_response('schedule.html')
-	
+
+
 @login_required
 def paper(request):
 	try:
 		return render_to_response('paper.html', 
-		{'login_id': request.session['id'], 
+		{'login_id': request.session[SESSION_KEY], 
 		'login_name': request.session['name']})
 	except KeyError:
 		return HttpResponseRedirect('/login')
