@@ -29,8 +29,8 @@ r = Recommender()
 
 
 
-entities = open('server/static/json/chi2013/papers.json').read()
-sessions = open('server/static/json/chi2013/sessions.json').read()
+#entities = open('server/static/json/chi2013/papers.json').read()
+#sessions = open('server/static/json/chi2013/sessions.json').read()
 
 def send_email(addr, subject, msg_body):	
 	email_subject = subject
