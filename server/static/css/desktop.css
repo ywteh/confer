@@ -388,7 +388,7 @@ textarea {
 	margin:0 auto;
 	position: fixed;
 	top:0;
-	height: 2.7em;
+	height: 4em;
 	font-size:1em;
 	background: #2B2B2B; /*3D7AA6;*/
 	margin-bottom: 0.1em;
@@ -414,7 +414,7 @@ textarea {
 
 #headlink-right{
 	position:absolute;
-	top: 0.7em;
+	top: 1.4em;
 	right: 0.7em;
 	color: #F6F6F6;
   margin-right: 1.5em;
@@ -423,11 +423,11 @@ textarea {
 #headlink-left{
 	position:absolute;
 	/*top: 0.7em;*/
-  top: 0;
-	left:0;
+  top:0.2em;
+  left:0;
 	color: #F6F6F6;
   background-image: url(/static/img/logo.png);
-  background-size: 5.67em 2.4em;
+  background-size: 5.67em 3.7em;
   background-repeat: no-repeat;
 }
 
@@ -435,7 +435,7 @@ textarea {
   text-decoration: none;
   color: #F6F6F6;
   width: 7em;
-  height: 2.7em;
+  height: 4em;
   display: inline-block;
 }
 
