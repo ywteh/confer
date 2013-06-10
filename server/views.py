@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from algorithm.recommend import *
-from django.db import connection
+from schema.models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
@@ -26,11 +26,81 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 r = Recommender()
 
+'''
+LOGIN/REGISTER
+'''
+SESSION_KEY = 'login_email'
+
+def login_required(f):
+    def wrap(request, *args, **kwargs):
+        if SESSION_KEY not in request.session.keys():
+            return HttpResponseRedirect("/login")
+        return f(request, *args, **kwargs)
+    wrap.__doc__ = f.__doc__
+    wrap.__name__ = f.__name__
+    return wrap
+
+
+def login_form(request):
+    c = {}
+    c.update(csrf(request))
+    return render_to_response('login.html', c)
+
+
+def register_form(request):
+    c = {}
+    c.update(csrf(request))
+    return render_to_response('register.html', c)
+
+
+def login(request):
+    if request.method == "POST":
+        try:
+            login_email = request.POST["login_email"]
+            login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
+            user = User.objects.get(email=login_email, password=login_password)
+            request.session.flush()
+            request.session[SESSION_KEY] = user.email
+            request.session['name'] = user.f_name + ' ' + user.l_name
+            return HttpResponseRedirect('/')
+        except:
+            print sys.exc_info()
+            return login_form(request)
+    else:
+        return login_form(request)
+
+
+def register(request):
+    if request.method == "POST":
+        try:
+            email = request.POST["email"]
+            password = hashlib.sha1(request.POST["password"]).hexdigest()
+            f_name = request.POST["f_name"]
+            l_name = request.POST["l_name"]
+            user = User(email=email, password=password, f_name=f_name, l_name=l_name)
+            user.save()
+            request.session.flush()
+            request.session[SESSION_KEY] = user.email
+            request.session['name'] = user.f_name + ' ' + user.l_name
+            return HttpResponseRedirect('/')
+        except:
+            print sys.exc_info()
+            return register_form(request)
+    else:
+        return register_form(request)
+
+
+def logout(request):
+    user = request.session[SESSION_KEY]
+    request.session.flush()
+    return HttpResponseRedirect('/login')
 
 
 
-#entities = open('server/static/json/chi2013/papers.json').read()
-#sessions = open('server/static/json/chi2013/sessions.json').read()
+
+'''
+EMAIL
+'''
 
 def send_email(addr, subject, msg_body):	
 	email_subject = subject
@@ -90,64 +160,6 @@ def reset_email(request, login_email):
 	send_email(email_plain, subject, msg_body)
 	return HttpResponse(json.dumps({'status':'ok'}),  mimetype="application/json")
 
-
-def init_session(email):
-	pass
-
-def login_form(request, error=None):
-	c = {}
-	if(error != None):
-		c.update(error)
-	c.update(csrf(request))
-	return render_to_response('login.html', c)
-
-
-@csrf_exempt
-def login(request):
-	if request.method == "POST":
-		try:
-			login_email = request.POST["login_email"]
-			login_password = request.POST["login_password"].strip()
-			if(login_email != ""):
-				login_email = login_email.strip()
-				request.session.flush()
-				cursor = connection.cursor()
-				cursor.execute("""SELECT id, given_name, family_name, password, verified, auth_no from pcs_authors where email1 = '%s' or 
-					email2 = '%s' or email3 = '%s';""" %(login_email, login_email, login_email))
-				data = cursor.fetchall()
-				if(len(data) == 0):
-					return login_form(request, error = {'login_addr': login_email ,'login_email':urllib.quote(base64.b64encode(login_email)), 'type': 'info', 'verify':'yes', 'error': 'We have sent you a verification email. Please check your mailbox.'})
-
-				password = hashlib.sha1(login_password).hexdigest()
-				if(data[0][3]== None):
-					cursor.execute("""UPDATE pcs_authors SET password = '%s' where id = '%s';""" %(password, data[0][0]))
-				else:
-					if(data[0][3]!=password):
-						return login_form(request, error = {'login_addr': login_email, 'login_email':urllib.quote(base64.b64encode(login_email)), 'type': 'error', 'error': 'Wrong password.', 'wrong_password':True})
-				
-				request.session['id'] = data[0][0]
-				request.session['auth_no'] = data[0][5]
-				request.session['email'] = login_email
-				if(data[0][1] != None ):
-					request.session['name'] = data[0][1]
-				else:
-					request.session['name'] = login_email[0:login_email.index('@')]
-
-				return HttpResponseRedirect('/home')
-			else:
-				return login_form(request, error = {'type': 'error', 'error': 'Enter an email address.'})
-		except:
-			return HttpResponseRedirect('/error')
-
-	else:
-		return login_form(request)
-
-
-
-def error(request):
-	return render_to_response('error.html')
-
-
 @csrf_exempt
 def verify(request, addr):
 	login_email = base64.b64decode(addr)
@@ -172,37 +184,22 @@ def reset(request, addr):
 		
 
 
-def logout(request):
-	request.session.flush()
-	return HttpResponseRedirect('/login')
 
+'''
+PAGES
+'''
 
-
+@login_required
 def home(request):
 	return render_to_response('main.html')
 	
 	
 
-
+@login_required
 def schedule(request):
 	return render_to_response('schedule.html')
 	
-
-
-
-
-
-def meet(request):
-	try:
-		return render_to_response('meet.html', 
-		{'login_id': request.session['id'], 
-		'login_name': request.session['name']})		
-	except KeyError:
-		return HttpResponseRedirect('/login')
-	except:
-		return HttpResponseRedirect('/error')
-	
-
+@login_required
 def paper(request):
 	try:
 		return render_to_response('paper.html', 
@@ -214,25 +211,6 @@ def paper(request):
 		return HttpResponseRedirect('/error')
 
 
-def bib(request):
-	try:
-		user = request.session['id']
-		cursor = connection.cursor()
-		cursor.execute("""SELECT likes from pcs_authors where id = '%s';""" %(user))
-		data = cursor.fetchall()
-		likes = []
-		bib_text = ''
-		if(data[0][0] != None):
-			likes = json.loads(data[0][0])
-		for like in likes:
-			if(like in bib_map.keys()):
-				bib_text = bib_text + bib_map[like]['bib'] + '\n\n'
-		return HttpResponse(bib_text, mimetype="text/plain")
-		
-	except:
-		print sys.exc_info()
-		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
-
 
 
 
@@ -241,27 +219,28 @@ def bib(request):
 @csrf_exempt
 def data(request):
 	try:
-		user = request.session['id']
+		login = request.session[SESSION_KEY]
 		recs = []
 		own_papers = []
-		s_likes = []
 		likes = []
-		cursor = connection.cursor()
-		cursor.execute("""SELECT likes, s_likes from pcs_authors where id = '%s';""" %(user))
-		data = cursor.fetchall()
-		if(data[0][0] != None):
-			likes.extend(json.loads(data[0][0]))
-		if(data[0][1] != None):
-			s_likes.extend(json.loads(data[0][1]))
-		if(len(likes)>0):
-			#recs = r.get_item_based_recommendations(likes)
-			recs = []
+		user = User.objects.get(email = login)
+		data = None
+		try:
+			data = Likes.objects.get(user = user)
+		except:
+			data = Likes(user=user, likes = json.dumps([]))
+			data.save()
+		l = data.likes
+		if(l!=None):
+			likes.extend(json.loads(l))
+		else:
+			data.likes = json.dumps([])
+			data.save()
 		return HttpResponse(json.dumps({
-			'login_id': request.session['id'], 
+			'login_id': request.session[SESSION_KEY], 
 			'login_name': request.session['name'],
 			'recs':recs, 
-			'likes':likes, 
-			's_likes':s_likes
+			'likes':likes
 			}), mimetype="application/json")
 	except:
 		print sys.exc_info()
@@ -273,7 +252,8 @@ def data(request):
 def get_recs(request):
 	try:
 		papers = json.loads(request.POST["papers"])
-		recs = r.get_item_based_recommendations(papers)
+		recs = []
+		#recs = r.get_item_based_recommendations(papers)
 		return HttpResponse(json.dumps(recs), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
@@ -283,8 +263,8 @@ def get_recs(request):
 @csrf_exempt
 def log(request, page):
 	try:
-		cursor = connection.cursor()
-		cursor.execute("""INSERT into logs (login_id, action, data) values ('%s', '%s', '%s');""" %(request.session['id'], page, 'load'))
+		#cursor = connection.cursor()
+		#cursor.execute("""INSERT into logs (login_id, action, data) values ('%s', '%s', '%s');""" %(request.session['id'], page, 'load'))
 		return HttpResponse(json.dumps({'error':False}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
@@ -294,25 +274,20 @@ def log(request, page):
 @csrf_exempt
 def like(request, like_str):
 	try:
-		papers = json.loads(request.POST["papers"])
-		sessions = []
-		if('session' in request.POST):
-			sessions = json.loads(request.POST['session'])
-		s = ','.join(papers)
-		user = request.session['id']
+		papers = json.loads(request.POST["papers"])		
+		login = request.session[SESSION_KEY]
 		res = {}
 		likes = []
-		s_likes = []
-		cursor = connection.cursor()
-		cursor.execute("""SELECT likes, s_likes from pcs_authors where id = '%s';""" %(user))
-		data = cursor.fetchall()
-		print data
-		if(data[0][0] != None):
-			likes = json.loads(data[0][0])
-		if(data[0][1] != None):
-			s_likes = json.loads(data[0][1])
-		cursor.execute("""INSERT into logs (login_id, action, data) values ('%s', '%s', '%s');""" %(request.session['id'], like_str, s))
-
+		user = User.objects.get(email = login)
+		data = None
+		try:
+			data = Likes.objects.get(user = user)
+			likes.extend(json.loads(data.likes))
+		except:
+			data = Likes(user = user, likes = json.dumps([]))
+			data.save()
+		
+		
 		for paper_id in papers:
 			if(like_str=='star' and (paper_id not in likes) and paper_id != ''):
 				likes.append(paper_id)
@@ -322,17 +297,12 @@ def like(request, like_str):
 				res[paper_id] = 'star'
 			else:
 				res[paper_id] = 'unstar'
-		l = list(set(likes))
-		for session in sessions:
-			if(like_str=='star' and (session not in s_likes) and session != ''):
-				s_likes.append(session)
-			if(like_str=='unstar' and (session in s_likes) and session != ''):
-				s_likes.remove(session)
-		s_l = list(set(s_likes))
-		cursor.execute("""UPDATE pcs_authors SET likes = '%s', s_likes = '%s' where id = '%s';""" %(json.dumps(l), json.dumps(s_l), user))
-		#recs = r.get_item_based_recommendations(likes)
+		l = list(set(likes))	
+		
+		data.likes = json.dumps(l)
+		data.save()
 		recs = []
-		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 's_likes':s_l, 'res':res}), mimetype="application/json")
+		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'res':res}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
