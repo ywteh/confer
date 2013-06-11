@@ -18,8 +18,7 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Global Data */
 
-var entities = JSON.parse(localStorage.getItem('entities'))
-var sessions = JSON.parse(localStorage.getItem('sessions'))
+
 
 
 
@@ -34,31 +33,6 @@ var s_starred = JSON.parse(localStorage.getItem('s_starred'))
 var own_papers = JSON.parse(localStorage.getItem('own_papers'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
 
-
-if(entities == null){
-    $.ajax({
-        type: 'GET',
-        async: false,
-        url: '/static/json/sigmod2013/papers.json',
-        success:function(res) {
-            entities = res
-            localStorage.setItem('entities', res)
-        }
-    });
-
-}
-
-if(sessions == null){
-    $.ajax({
-        type: 'GET',
-        async: false,
-        url: '/static/json/sigmod2013/sessions.json',
-        success:function(res) {
-            sessions = res
-            localStorage.setItem('sessions', res)
-        }
-    });
-}
 
 
 
