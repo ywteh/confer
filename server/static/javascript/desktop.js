@@ -17,13 +17,12 @@ window.applicationCache.addEventListener('updateready', function(){
 // try to first load the data from localStorage 
 
 /* Global Data */
-/*
+
 var entities = JSON.parse(localStorage.getItem('entities'))
 var sessions = JSON.parse(localStorage.getItem('sessions'))
-*/
 
-var entities = null
-var sessions = null
+
+
 var offline_recs = {}
 
 
@@ -43,6 +42,7 @@ if(entities == null){
         url: '/static/json/sigmod2013/papers.json',
         success:function(res) {
             entities = res
+            localStorage.setItem('entities', res)
         }
     });
 
@@ -55,6 +55,7 @@ if(sessions == null){
         url: '/static/json/sigmod2013/sessions.json',
         success:function(res) {
             sessions = res
+            localStorage.setItem('sessions', res)
         }
     });
 }
