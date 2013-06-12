@@ -1464,22 +1464,16 @@ function populate_likes(){
 
 
 function populate_sessions(){
-    $(".session-timeslot").html("")
-    $('.session-timeslot').each(function(){
-        $(this).prev().hide()
-    }); 
     for(var day in schedule){
         var raw_html = '<div id = "'+schedule[day].day+'"></div>'
         //console.log(day, schedule[day])
         for(slot in schedule[day].slots){
             //console.log(slot, schedule[day].slots[slot])
             raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
-            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'">'
+            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'" class="session-timeslot">'
             for(session in schedule[day].slots[slot].sessions){
                 raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].sessions[session].room)
             }
-            
-            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time+'" class="session-timeslot"></div>'
             raw_html += '</div>'
         }
         $("#program").append(raw_html)
