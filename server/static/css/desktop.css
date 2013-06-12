@@ -602,7 +602,7 @@ textarea {
 .paper-cb{
   font-size: 0.9em;
   margin: 0.4em 0 0 0;
-  max-height:4em;
+  max-height:3.8em;
   text-overflow:ellipsis;
   overflow: hidden;
 }
