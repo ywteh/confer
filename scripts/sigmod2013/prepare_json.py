@@ -61,7 +61,7 @@ def prepare_session_json():
 		else:
 			if(row[1]!='' and row[2]!=''):
 				submissions = []
-				session_id = 'Research ' + row[1]
+				session_id = 'Research' + row[1]
 				s_title = unicode(row[2], "ISO-8859-1")
 				submissions.append('sig%03d' %(int(row[3])))
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
@@ -131,36 +131,36 @@ def prepare_schedule_json():
 		{'time':'10:30-12:30', 
 			'sessions':
 				[
-				{'session':'PODS 5', 'room':'3.04/3.05'},
-				{'session':'Research 1',  'room':'3.11'},
-				{'session':'Research 2',  'room':'4.04/4.05'},
-				{'session':'Research 3',  'room':'Times Sq.'},
-				{'session':'Tutorial 1',  'room':'4.02/4.03'},
-				{'session':'Industry 1',  'room':'Hudson'},
-				{'session':'Demo 1', 'room':'Manhattan'},
+				{'session':'PODS5', 'room':'3.04/3.05'},
+				{'session':'Research1',  'room':'3.11'},
+				{'session':'Research2',  'room':'4.04/4.05'},
+				{'session':'Research3',  'room':'Times Sq.'},
+				{'session':'Tutorial1',  'room':'4.02/4.03'},
+				{'session':'Industry1',  'room':'Hudson'},
+				{'session':'Demo1', 'room':'Manhattan'},
 				]
 		},
 		{'time':'13:30-15:00',
 		'sessions':[	
-				{'session':'PODS 6', 'room':'3.04/3.05'},
-				{'session':'Research 4', 'room':'3.11'},
-				{'session':'Research 5', 'room':'4.04/4.05'},
-				{'session':'Research 6', 'room':'Times Sq.'},
-				{'session':'Tutorial 2', 'room':'4.02/4.03'},
-				{'session':'Industry 2', 'room':'Hudson'},
-				{'session':'Demo 2', 'room':'Manhattan'},
+				{'session':'PODS6', 'room':'3.04/3.05'},
+				{'session':'Research4', 'room':'3.11'},
+				{'session':'Research5', 'room':'4.04/4.05'},
+				{'session':'Research6', 'room':'Times Sq.'},
+				{'session':'Tutorial2', 'room':'4.02/4.03'},
+				{'session':'Industry2', 'room':'Hudson'},
+				{'session':'Demo2', 'room':'Manhattan'},
 				]
 		},
 		{'time':'15:30-17:00',
 		'sessions':
 				[
-				{'session':'PODS 7', 'room':'3.04/3.05'},
-				{'session':'Research 7', 'room':'3.11'},
-				{'session':'Research 9', 'room':'4.04/4.05'},
-				{'session':'Research 8', 'room':'Times Sq.'},
-				{'session':'Tutorial 2', 'room':'4.02/4.03'},
-				{'session':'Industry 3', 'room':'Hudson'},
-				{'session':'Demo 3', 'room':'Manhattan'},
+				{'session':'PODS7', 'room':'3.04/3.05'},
+				{'session':'Research7', 'room':'3.11'},
+				{'session':'Research9', 'room':'4.04/4.05'},
+				{'session':'Research8', 'room':'Times Sq.'},
+				{'session':'Tutorial2', 'room':'4.02/4.03'},
+				{'session':'Industry3', 'room':'Hudson'},
+				{'session':'Demo3', 'room':'Manhattan'},
 				]
 		}
 	]
@@ -173,25 +173,25 @@ def prepare_schedule_json():
 		{'time':'10:30-12:30',
 		'sessions':
 			[
-			{'session':'PODS 8', 'room':'3.04/3.05'},
-			{'session':'Research 10', 'room':'3.11'},
-			{'session':'Research 11', 'room':'4.04/4.05'},
-			{'session':'Research 12', 'room':'Times Sq.'},
-			{'session':'Tutorial 3',  'room':'4.02/4.03'},
-			{'session':'Industry 4', 'room':'Hudson'},
-			{'session':'Demo 4', 'room':'Manhattan'},
+			{'session':'PODS8', 'room':'3.04/3.05'},
+			{'session':'Research10', 'room':'3.11'},
+			{'session':'Research11', 'room':'4.04/4.05'},
+			{'session':'Research12', 'room':'Times Sq.'},
+			{'session':'Tutorial3',  'room':'4.02/4.03'},
+			{'session':'Industry4', 'room':'Hudson'},
+			{'session':'Demo4', 'room':'Manhattan'},
 			]
 		},
 		{
 		'time':'16:00-17:30',
 		'sessions':
 			[
-			{'session':'PODS 9', 'room':'3.04/3.05'},
-			{'session':'Research 13', 'room':'3.11'},
-			{'session':'Research 15', 'room':'4.04/4.05'},
-			{'session':'Research 14', 'room':'Times Sq.'},
-			{'session':'Tutorial 3', 'room':'4.02/4.03'},
-			{'session':'Demo 1', 'room':'Hudson'},
+			{'session':'PODS9', 'room':'3.04/3.05'},
+			{'session':'Research13', 'room':'3.11'},
+			{'session':'Research15', 'room':'4.04/4.05'},
+			{'session':'Research14', 'room':'Times Sq.'},
+			{'session':'Tutorial3', 'room':'4.02/4.03'},
+			{'session':'Demo1', 'room':'Hudson'},
 			{'session':'Panel', 'room':'Manhattan'},
 			]
 		}
@@ -208,35 +208,35 @@ def prepare_schedule_json():
 		{'time':'10:30-12:30',
 		'sessions':
 			[
-			{'session':'Research 16', 'room':'3.04/3.05'},
-			{'session':'Research 17', 'room':'3.11'},
-			{'session':'Research 18', 'room':'Times Sq.'},
-			{'session':'Tutorial 4', 'room':'4.02/4.03'},
-			{'session':'Industry 5', 'room':'Hudson'},
-			{'session':'Demo 2', 'room':'Manhattan'},
+			{'session':'Research16', 'room':'3.04/3.05'},
+			{'session':'Research17', 'room':'3.11'},
+			{'session':'Research18', 'room':'Times Sq.'},
+			{'session':'Tutorial4', 'room':'4.02/4.03'},
+			{'session':'Industry5', 'room':'Hudson'},
+			{'session':'Demo2', 'room':'Manhattan'},
 			]
 		},
 
 		{'time':'13:30-15:00',
 		'sessions':
 			[
-			{'session':'Research 19', 'room':'3.11'},
-			{'session':'Research 20', 'room':'4.04/4.05'},
-			{'session':'Research 21', 'room':'Times Sq.'},
-			{'session':'Research 22', 'room':'Hudson'},
-			{'session':'Tutorial 5', 'room':'4.02/4.03'},	
-			{'session':'Demo 3', 'room':'Manhattan'},
+			{'session':'Research19', 'room':'3.11'},
+			{'session':'Research20', 'room':'4.04/4.05'},
+			{'session':'Research21', 'room':'Times Sq.'},
+			{'session':'Research22', 'room':'Hudson'},
+			{'session':'Tutorial5', 'room':'4.02/4.03'},	
+			{'session':'Demo3', 'room':'Manhattan'},
 			]
 		},
 		{'time':'15:30-17:00',
 		'sessions':
 			[
-			{'session':'Research 23', 'room':'3.11'},
-			{'session':'Research 24', 'room':'4.04/4.05'},
-			{'session':'Research 26', 'room':'Times Sq.'},
-			{'session':'Research 25', 'room':'Hudson'},
-			{'session':'Tutorial 6', 'room':'4.02/4.03'},	
-			{'session':'Demo 4', 'room':'Manhattan'}
+			{'session':'Research23', 'room':'3.11'},
+			{'session':'Research24', 'room':'4.04/4.05'},
+			{'session':'Research26', 'room':'Times Sq.'},
+			{'session':'Research25', 'room':'Hudson'},
+			{'session':'Tutorial6', 'room':'4.02/4.03'},	
+			{'session':'Demo4', 'room':'Manhattan'}
 			]
 		}
 	]

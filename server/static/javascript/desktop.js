@@ -818,7 +818,7 @@ function get_paper_html(id){
 
 
 
-function get_session_html(id, day, time){
+function get_session_html(id, day, time, room){
     if(sessions[id]== null){
         return ''
     }
@@ -829,8 +829,8 @@ function get_session_html(id, day, time){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + day + ' ' + time + ' '
-              + ' ' + id + '" data="' + id + '">'
+    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + time.slice(0,2) + ' '
+              + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
     raw_html += '<td class="metadata">'     
@@ -850,7 +850,7 @@ function get_session_html(id, day, time){
     
     
     raw_html += '</li>';
-    raw_html += '<li class="session-info"><span class="session-venue">' + sessions[id].venue + '</span> <span class="session-room">Room: ' + sessions[id].room + '</span></li>'
+    raw_html += '<li class="session-info"><span class="session-venue">' + time + '</span> <span class="session-room">Room: ' + room + '</span></li>'
     raw_html += '</ul>'
 
     
@@ -1470,15 +1470,17 @@ function populate_sessions(){
     }); 
     for(var day in schedule){
         var raw_html = '<div id = "'+schedule[day].day+'"></div>'
-        console.log(day, schedule[day])
+        //console.log(day, schedule[day])
         for(slot in schedule[day].slots){
-            console.log(slot, schedule[day].slots[slot])
-            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].time+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
+            //console.log(slot, schedule[day].slots[slot])
+            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
+            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'">'
             for(session in schedule[day].slots[slot].sessions){
-                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session)
+                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].sessions[session].room)
             }
-        
+            
             raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time+'" class="session-timeslot"></div>'
+            raw_html += '</div>'
         }
         $("#program").append(raw_html)
         
