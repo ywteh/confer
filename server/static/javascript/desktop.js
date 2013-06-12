@@ -1492,7 +1492,7 @@ function populate_sessions(){
         $("#program").append(raw_html)
         
     }
-    //update_session_view()
+    update_session_view()
 }
 
 
