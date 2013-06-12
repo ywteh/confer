@@ -748,10 +748,12 @@ function isMyPaper(id){
 function get_time_class(t){
     if(t<12){
         return 'morning'
-    }else if(t>12 & t<15){
+    }else if(t>=12 && t<15){
         return 'afternoon1'
-    }else{
+    }else if(t>=15 && t<17){
         return 'afternoon2'
+    }else{
+        return 'afternoon3'
     }
 }
 

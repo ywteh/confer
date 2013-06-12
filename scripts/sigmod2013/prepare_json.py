@@ -152,6 +152,38 @@ def prepare_session_json():
 def prepare_schedule_json():	
 	schedule = [
 	{
+	'day': 'Monday', 
+	'date':'06/24/2013', 
+	'slots':[
+		{'time':'10:30-12:30', 
+			'sessions':
+				[
+				{'session':'PODS1', 'room':'Gallery 8'},
+				]
+		},
+		{'time':'13:15-14:45', 
+			'sessions':
+				[
+				{'session':'PODS2', 'room':'Gallery 8'},
+				]
+		},
+		{'time':'15:15-16:45', 
+			'sessions':
+				[
+				{'session':'PODS3', 'room':'Gallery 8'},
+				]
+		},
+		{'time':'17:15-18:45', 
+			'sessions':
+				[
+				{'session':'PODS4', 'room':'Gallery 8'},
+				]
+		},
+		]
+	},
+
+
+	{
 	'day': 'Tuesday', 
 	'date':'06/25/2013', 
 	'slots':[
