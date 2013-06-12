@@ -312,7 +312,6 @@ form{
 	background-color: #D7ECFA;
 	max-width:280px;
 	width: 100%;
-	box-shadow: 1px 0px 10px #666;
 }
 
 #selected_paper .form{
@@ -343,13 +342,13 @@ input[type="text"], input[type="password"], select{
 
 button, input[type="button"], input[type="submit"]{
   font-size: 1em;
-  /*
+  
 	background-color: #2B2B2B;
 	color: #FFF;
 	border: #2B2B2B solid thin;
 	padding:0.4em 0.7em;
 	margin-left: 0;
-  */
+  
 }
 
 .button{
@@ -365,7 +364,7 @@ button, input[type="button"], input[type="submit"]{
 	cursor: pointer;
 }
 
-.no-touch-device .button:hover{
+.button:hover{
   color: #2B2B2B;
   background-color: #E9E581; /*#00C8ED;*/
 }
