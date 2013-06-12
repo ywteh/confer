@@ -601,9 +601,14 @@ textarea {
 
 .paper-cb{
   font-size: 0.9em;
-  margin: 0.4em 0 0 0;  
+  margin: 0.4em 0 0 0;
+  max-height:4em;
+  text-overflow:ellipsis;
+  overflow: hidden;
 }
-
+.paper-cb:after{
+ content: '...';
+}
 .paper-keywords{
   font-size: 0.9em;
   margin: 0.3em 0 0 0;
