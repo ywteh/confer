@@ -745,6 +745,17 @@ function isMyPaper(id){
 }
 
 
+function get_time_class(t){
+    if(t<12){
+        return 'morning'
+    }else if(t>12 & t<15){
+        return 'afternoon1'
+    }else{
+        return 'afternoon2'
+    }
+}
+
+
 function get_paper_html(id){
     if(entities[id] == null)
         return ''
@@ -829,7 +840,7 @@ function get_session_html(id, day, time, room){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + time.slice(0,2) + ' '
+    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + get_time_class(time.slice(0,2)) + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -1487,9 +1498,9 @@ function populate_sessions(){
 function apply_filters(){
     var day_classes = '.'+$('.day.active').attr("data")
     var time_classes = '.'+$('.time.active').attr("data")
-    var personas_classes = '.'+$('.persona.active').attr("data")
-    var venues_classes = '.'+$('.venue.active').attr("data")
-    var communities_classes = '.'+$('.community.active').attr("data")
+    //var personas_classes = '.'+$('.persona.active').attr("data")
+   // var venues_classes = '.'+$('.venue.active').attr("data")
+    //var communities_classes = '.'+$('.community.active').attr("data")
     var papers_classes = '.'+$('.p_session.active').attr("data")
     /*
     console.log(day_classes)
@@ -1507,7 +1518,7 @@ function apply_filters(){
     if(time_classes!='.all'){               
         select_class = select_class.filter(time_classes)                
     }
-
+/*
     if(personas_classes!='.all'){               
         select_class = select_class.filter(personas_classes)                
     }
@@ -1518,6 +1529,7 @@ function apply_filters(){
     if(communities_classes!='.all'){             
         select_class = select_class.filter(communities_classes)              
     }
+    */
 
     if(papers_classes!='.all'){             
         select_class = select_class.filter(papers_classes)              
