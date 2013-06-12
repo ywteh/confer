@@ -863,7 +863,7 @@ function get_session_html(id, day, time, room){
     
     
     raw_html += '</li>';
-    raw_html += '<li class="session-info"><span class="session-venue">' + time + '</span> <span class="session-room">Room: ' + room + '</span></li>'
+    raw_html += '<li class="session-info"><span class="session-room">Room: ' + room + '</span></li>'
     raw_html += '</ul>'
 
     
