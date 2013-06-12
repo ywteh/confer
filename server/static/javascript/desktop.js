@@ -183,8 +183,6 @@ function sync(){
                 localStorage.setItem('recommended', JSON.stringify(recommended))
             if(starred!=null)
                 localStorage.setItem('starred', JSON.stringify(starred))
-            if(s_starred!=null)
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
             unstar_pending = []
             s_unstar_pending = []
             localStorage.setItem('unstar_pending', JSON.stringify(unstar_pending))    
@@ -829,7 +827,7 @@ function get_session_html(id){
         award += ' s_hm'
     }
     var raw_html = '<div class="session ' + id  + sessions[id].venue + ' ' + sessions[id].personas + ' '
-              + award + '" data="' + id + '">'
+              + award + ' ' + id + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
     raw_html += '<td class="metadata">'     
@@ -1014,10 +1012,7 @@ function update_session_view(){
         
     });
     
-    for(var s in s_starred){
-        $('.session.'+s_starred[s]).find('.session-container').find('.star').removeClass('star-open').addClass('star-filled')
-        $('.session.'+s_starred[s]).addClass('s_starred')
-    }
+    
 
     update_sessions_count();
 }
@@ -1060,37 +1055,12 @@ function add_pending_star(paper_id){
     }
     localStorage.setItem('star_pending', JSON.stringify(star_pending))
     localStorage.setItem('unstar_pending', JSON.stringify(unstar_pending))
+
 }
 
 
 
-function add_pending_s_unstar(session_id){
-    var s_star_pending = JSON.parse(localStorage.getItem('s_star_pending'))
-    var s_unstar_pending = JSON.parse(localStorage.getItem('s_unstar_pending'))
-    var i =  s_star_pending.indexOf(session_id)
-    if( i == -1){
-        s_unstar_pending.push(session_id)
-    }else{
-        s_star_pending.splice(i, 1)
-    }
-    localStorage.setItem('s_star_pending', JSON.stringify(s_star_pending))
-    localStorage.setItem('s_unstar_pending', JSON.stringify(s_unstar_pending))
-}
 
-
-
-function add_pending_s_star(session_id){
-    var s_star_pending = JSON.parse(localStorage.getItem('s_star_pending'))
-    var s_unstar_pending = JSON.parse(localStorage.getItem('s_unstar_pending'))
-    var i =  s_unstar_pending.indexOf(session_id)
-    if( i == -1){
-        s_star_pending.push(session_id)
-    }else{
-        s_unstar_pending.splice(i, 1)
-    }
-    localStorage.setItem('s_star_pending', JSON.stringify(s_star_pending))
-    localStorage.setItem('s_unstar_pending', JSON.stringify(s_unstar_pending))
-}
 
 
 
@@ -1113,12 +1083,8 @@ function handle_session_star(event){
                 var i =  starred.indexOf(papers[paper_id])
                 starred.splice(i, 1)
                 add_pending_unstar(papers[paper_id])
-            }
-            var s_id = s_starred.indexOf(session_id)
-            s_starred.splice(s_id, 1)
-            add_pending_s_unstar(session_id)
+            }            
             localStorage.setItem('starred', JSON.stringify(starred))
-            localStorage.setItem('s_starred', JSON.stringify(s_starred))
             update_session_view()
             apply_filters()
         }else{
@@ -1127,17 +1093,13 @@ function handle_session_star(event){
                     var i =  starred.indexOf(papers[paper_id])
                     starred.splice(i, 1)                    
                 }
-                var s_id = s_starred.indexOf(session_id)
-                s_starred.splice(s_id, 1)
                 $('.'+obj.attr('data')).each(function(){
                     $(this).find('.p_star').removeClass('star-filled').addClass('star-open')
                     $(this).find('.paper').removeClass('highlight')
                 })
                 starred = res.likes
-                s_starred = res.s_likes
                 recommended = res.recs
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
                 update_session_view()
@@ -1161,25 +1123,19 @@ function handle_session_star(event){
                 starred.push(papers[paper_id])
                 add_pending_star(papers[paper_id])
             }
-            s_starred.push(session_id)
-            add_pending_s_star(session_id)
             localStorage.setItem('starred', JSON.stringify(starred))
-            localStorage.setItem('s_starred', JSON.stringify(s_starred))
         }else{
             $.post('/like/star', {'papers': JSON.stringify(papers), 'session': JSON.stringify([session_id])}, function(res) {
                 for(var paper_id in papers){
                     starred.push(papers[paper_id])
                 }
-                s_starred.push(session_id)
                 $('.'+obj.attr('data')).each(function(){
                     $(this).find('.p_star').removeClass('star-open').addClass('star-filled')
                     $(this).find('.paper').addClass('highlight')
                 })
                 starred = res.likes
-                s_starred = res.s_likes
                 recommended = res.recs
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
                 update_session_view()
@@ -1232,7 +1188,6 @@ function handle_star(event){
                 populate_likes(starred)
                 recommended = res.recs
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 
                 if($("#recs tr").length == 0){
@@ -1275,7 +1230,6 @@ function handle_star(event){
                 populate_likes(starred)
                 recommended = res.recs
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 
                 if($("#recs tr").length == 0){
