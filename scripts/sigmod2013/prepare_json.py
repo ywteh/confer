@@ -46,7 +46,7 @@ def prepare_paper_json():
 					'location': unicode(row[11], "ISO-8859-1")}
 					)
 		p = open('server/static/json/sigmod2013/papers.json','w')
-		p.write(json.dumps(papers))
+		p.write('entities='+json.dumps(papers))
 
 
 def prepare_session_json():
@@ -61,7 +61,7 @@ def prepare_session_json():
 		else:
 			if(row[1]!='' and row[2]!=''):
 				submissions = []
-				session_id = row[1]
+				session_id = 'Research ' + row[1]
 				s_title = unicode(row[2], "ISO-8859-1")
 				submissions.append('sig%03d' %(int(row[3])))
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
@@ -116,14 +116,139 @@ def prepare_session_json():
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
 	
 	p = open('server/static/json/sigmod2013/sessions.json','w')
-	p.write(json.dumps(sessions))
+	p.write('sessions='+json.dumps(sessions))
 	
 		#print sessions
 
 
+
+def prepare_schedule_json():	
+	schedule = [
+	{
+	'day': 'Tuesday', 
+	'date':'06/25/2013', 
+	'slots':[
+		{'time':'10:30-12:30', 
+			'sessions':
+				[
+				{'session':'PODS 5', 'room':'3.04/3.05'},
+				{'session':'Research 1',  'room':'3.11'},
+				{'session':'Research 2',  'room':'4.04/4.05'},
+				{'session':'Research 3',  'room':'Times Sq.'},
+				{'session':'Tutorial 1',  'room':'4.02/4.03'},
+				{'session':'Industry 1',  'room':'Hudson'},
+				{'session':'Demo 1', 'room':'Manhattan'},
+				]
+		},
+		{'time':'13:30-15:00',
+		'sessions':[	
+				{'session':'PODS 6', 'room':'3.04/3.05'},
+				{'session':'Research 4', 'room':'3.11'},
+				{'session':'Research 5', 'room':'4.04/4.05'},
+				{'session':'Research 6', 'room':'Times Sq.'},
+				{'session':'Tutorial 2', 'room':'4.02/4.03'},
+				{'session':'Industry 2', 'room':'Hudson'},
+				{'session':'Demo 2', 'room':'Manhattan'},
+				]
+		},
+		{'time':'15:30-17:00',
+		'sessions':
+				[
+				{'session':'PODS 7', 'room':'3.04/3.05'},
+				{'session':'Research 7', 'room':'3.11'},
+				{'session':'Research 9', 'room':'4.04/4.05'},
+				{'session':'Research 8', 'room':'Times Sq.'},
+				{'session':'Tutorial 2', 'room':'4.02/4.03'},
+				{'session':'Industry 3', 'room':'Hudson'},
+				{'session':'Demo 3', 'room':'Manhattan'},
+				]
+		}
+	]
+			
+	},
+	{
+	'day': 'Wednesday',
+	'date':'06/26/2013',
+	'slots':[
+		{'time':'10:30-12:30',
+		'sessions':
+			[
+			{'session':'PODS 8', 'room':'3.04/3.05'},
+			{'session':'Research 10', 'room':'3.11'},
+			{'session':'Research 11', 'room':'4.04/4.05'},
+			{'session':'Research 12', 'room':'Times Sq.'},
+			{'session':'Tutorial 3',  'room':'4.02/4.03'},
+			{'session':'Industry 4', 'room':'Hudson'},
+			{'session':'Demo 4', 'room':'Manhattan'},
+			]
+		},
+		{
+		'time':'16:00-17:30',
+		'sessions':
+			[
+			{'session':'PODS 9', 'room':'3.04/3.05'},
+			{'session':'Research 13', 'room':'3.11'},
+			{'session':'Research 15', 'room':'4.04/4.05'},
+			{'session':'Research 14', 'room':'Times Sq.'},
+			{'session':'Tutorial 3', 'room':'4.02/4.03'},
+			{'session':'Demo 1', 'room':'Hudson'},
+			{'session':'Panel', 'room':'Manhattan'},
+			]
+		}
+
+	]
+
+	},
+
+
+	{
+	'day': 'Thursday', 
+	'date':'06/27/2013',
+	'slots':[
+		{'time':'10:30-12:30',
+		'sessions':
+			[
+			{'session':'Research 16', 'room':'3.04/3.05'},
+			{'session':'Research 17', 'room':'3.11'},
+			{'session':'Research 18', 'room':'Times Sq.'},
+			{'session':'Tutorial 4', 'room':'4.02/4.03'},
+			{'session':'Industry 5', 'room':'Hudson'},
+			{'session':'Demo 2', 'room':'Manhattan'},
+			]
+		},
+
+		{'time':'13:30-15:00',
+		'sessions':
+			[
+			{'session':'Research 19', 'room':'3.11'},
+			{'session':'Research 20', 'room':'4.04/4.05'},
+			{'session':'Research 21', 'room':'Times Sq.'},
+			{'session':'Research 22', 'room':'Hudson'},
+			{'session':'Tutorial 5', 'room':'4.02/4.03'},	
+			{'session':'Demo 3', 'room':'Manhattan'},
+			]
+		},
+		{'time':'15:30-17:00',
+		'sessions':
+			[
+			{'session':'Research 23', 'room':'3.11'},
+			{'session':'Research 24', 'room':'4.04/4.05'},
+			{'session':'Research 26', 'room':'Times Sq.'},
+			{'session':'Research 25', 'room':'Hudson'},
+			{'session':'Tutorial 6', 'room':'4.02/4.03'},	
+			{'session':'Demo 4', 'room':'Manhattan'}
+			]
+		}
+	]
+	}
+	]
+	p = open('server/static/json/sigmod2013/schedule.json','w')
+	p.write('schedule='+json.dumps(schedule))
+
 def main():
 	prepare_paper_json()
 	prepare_session_json()
+	prepare_schedule_json()
 	
 		
 

@@ -818,7 +818,10 @@ function get_paper_html(id){
 
 
 
-function get_session_html(id){
+function get_session_html(id, day, time){
+    if(sessions[id]== null){
+        return ''
+    }
     var award=''
     if(sessions[id].award){
         award += ' s_award'
@@ -826,8 +829,8 @@ function get_session_html(id){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + sessions[id].venue + ' ' + sessions[id].personas + ' '
-              + award + ' ' + id + '" data="' + id + '">'
+    var raw_html = '<div class="session ' + id  + day + ' ' + time + ' '
+              + ' ' + id + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
     raw_html += '<td class="metadata">'     
@@ -1465,12 +1468,22 @@ function populate_sessions(){
     $('.session-timeslot').each(function(){
         $(this).prev().hide()
     }); 
-    for(var s in sessions){
-        var raw_html = get_session_html(s)
-        var row = $(raw_html)
-        place_session(row)
+    for(var day in schedule){
+        var raw_html = '<div id = "'+schedule[day].day+'"></div>'
+        console.log(day, schedule[day])
+        for(slot in schedule[day].slots){
+            console.log(slot, schedule[day].slots[slot])
+            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].time+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
+            for(session in schedule[day].slots[slot].sessions){
+                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session)
+            }
+        
+            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time+'" class="session-timeslot"></div>'
+        }
+        $("#program").append(raw_html)
+        
     }
-    update_session_view()
+    //update_session_view()
 }
 
 
