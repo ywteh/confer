@@ -810,7 +810,7 @@ function get_paper_html(id){
     }
     raw_html += '</li>'
     if (entities[id].c_and_b == null)
-      raw_html += '<li class="paper-cb">'+ entities[id].abstract + '</li>'
+      raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '</li>'
     else
       raw_html += '<li class="paper-cb">'+ entities[id].c_and_b + '</li>'
     
