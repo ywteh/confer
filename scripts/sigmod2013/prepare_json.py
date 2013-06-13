@@ -6,11 +6,14 @@ if __name__ == "__main__":
 		sys.path.append(os.path.abspath(p+"/../.."))
 	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
 
-pods ={}
+papers = {}
+sessions = {}
+
+
 def search(t):
-	for e in pods:
+	for e in papers:
 		#print entities[e]['title'], t
-		e_t = pods[e]
+		e_t = papers[e]['title']
 		o_t = t.strip()
 		s = difflib.SequenceMatcher(None, o_t, e_t).ratio()
 		if(s>0.9):
@@ -21,7 +24,7 @@ def search(t):
 def prepare_paper_json():
 	f = open('data/sigmod2013/prog_ck.csv','rU')
 	reader = csv.reader(f)
-	papers = {}
+	
 	header= True
 	paper_id = None
 	for row in reader:
@@ -35,7 +38,6 @@ def prepare_paper_json():
 					paper_id = 'sig'+re.search(r'\d+', row[1]).group()
 				elif(row[1].startswith('pods')):
 					paper_id = 'pods'+re.search(r'\d+', row[1]).group()
-					pods[paper_id] = unicode(row[2], "ISO-8859-1")
 				else:
 					paper_id = row[1]
 				title = unicode(row[2], "ISO-8859-1")
@@ -56,14 +58,13 @@ def prepare_paper_json():
 					'affiliation': unicode(row[10], "ISO-8859-1"), 
 					'location': unicode(row[11], "ISO-8859-1")}
 					)
-		p = open('server/static/json/sigmod2013/papers.json','w')
-		p.write('entities='+json.dumps(papers))
+		
+		
 
 
 def prepare_session_json():
 	f = open('data/sigmod2013/s_research.csv','rU')
 	reader = csv.reader(f)
-	sessions = {}
 	header= True
 	session_id = None
 	for row in reader:
@@ -142,8 +143,7 @@ def prepare_session_json():
 		s_title = row['title'].strip()
 		sessions[session_id]={'s_title': s_title, 'submissions':submissions}
 	
-	p = open('server/static/json/sigmod2013/sessions.json','w')
-	p.write('sessions='+json.dumps(sessions))
+	
 	
 		#print sessions
 
@@ -301,6 +301,7 @@ def prepare_schedule_json():
 	]
 	}
 	]
+
 	p = open('server/static/json/sigmod2013/schedule.json','w')
 	p.write('schedule='+json.dumps(schedule))
 
@@ -308,6 +309,14 @@ def main():
 	prepare_paper_json()
 	prepare_session_json()
 	prepare_schedule_json()
+	p = open('server/static/json/sigmod2013/papers.json','w')
+	p.write('entities='+json.dumps(papers))
+
+	p = open('server/static/json/sigmod2013/sessions.json','w')
+	p.write('sessions='+json.dumps(sessions))
+
+
+
 	
 		
 
