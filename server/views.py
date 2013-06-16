@@ -247,7 +247,8 @@ def data(request):
 			data.likes = json.dumps([])
 			data.save()
 		#print likes
-		recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
+		if(len(likes)>0):
+			recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
 		#print recs
 		return HttpResponse(json.dumps({
 			'login_id': request.session[SESSION_KEY], 
@@ -314,7 +315,9 @@ def like(request, like_str):
 		
 		data.likes = json.dumps(l)
 		data.save()
-		recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
+		recs = []
+		if(len(likes)>0):
+			recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
 		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'res':res}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
