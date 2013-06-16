@@ -99,20 +99,20 @@ public class Indexer {
         scanner.close();
       }
       //System.out.println(text);
-      Map<String,Object> map = new HashMap<String,Object>();
+      Map<String,Object> papers = new HashMap<String,Object>();
       Gson gson = new Gson();
-      map=(Map<String,Object>)gson.fromJson(text.toString(), map.getClass());
-      Iterator<String> iterator = map.keySet().iterator();
+      papers=(Map<String,Object>)gson.fromJson(text.toString(), papers.getClass());
+      Iterator<String> iterator = papers.keySet().iterator();
       while (iterator.hasNext()) {  
-          String key = iterator.next().toString();  
-          String value = map.get(key).toString(); 
+          String paper_id = iterator.next().toString();  
+          String paper_details = papers.get(paper_id).toString(); 
           Document doc = new Document();          
-          doc.add(new StringField("docId", key, Field.Store.YES));
-          doc.add(new TextField("docText", value, Field.Store.YES));
+          doc.add(new StringField("docId", paper_id, Field.Store.YES));
+          doc.add(new TextField("docText", paper_details, Field.Store.YES));
           if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {
             writer.addDocument(doc);
           } else {
-            writer.updateDocument(new Term("docId", key), doc);
+            writer.updateDocument(new Term("docId", paper_id), doc);
           }
        }  
       writer.close();	  
@@ -129,9 +129,12 @@ public class Indexer {
 	for (int i=0; i<reader.maxDoc(); i++) { 
 		ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
 	    Query query = mlt.like(i);
-	    TopDocs similarDocs = searcher.search(query, 10); // Use the searcher
+	    TopDocs similarDocs = searcher.search(query, 11); // Use the searcher
 		ScoreDoc[] docs = similarDocs.scoreDocs;
 		for(int k=0; k<docs.length; k++){
+			if(docs[k].doc == i){
+				continue;
+			}
 			HashMap<String, Float> m = new HashMap<String, Float>();
 			m.put(reader.document(docs[k].doc).getField("docId").stringValue(), docs[k].score);
 			t.add(m);

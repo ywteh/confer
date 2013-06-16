@@ -1268,7 +1268,7 @@ function load_paper(){
     var recs = offline_recs[paper_id]
     var raw_html = ''
     for(var i = 0; i< recs.length; i++){        
-        raw_html += get_paper_html(recs[i])            
+        raw_html += get_paper_html(Object.keys(recs[i])[0])            
     } 
     $('#similar_papers').html(raw_html)     
 } 

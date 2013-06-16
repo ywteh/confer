@@ -314,6 +314,10 @@ def main():
 	p = open('data/sigmod2013/papers.json','w')
 	p.write(json.dumps(papers))
 
+	similar_papers = open('data/sigmod2013/similar_papers.json','rU').read()
+	p = open('server/static/json/sigmod2013/offline_recs.json','w')
+	p.write('offline_recs='+similar_papers)
+
 	p = open('server/static/json/sigmod2013/sessions.json','w')
 	p.write('sessions='+json.dumps(sessions))
 
