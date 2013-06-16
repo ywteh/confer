@@ -15,8 +15,8 @@ from schema.models import *
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
 	sys.path.append(os.path.abspath(p+"/.."))
-if(os.path.abspath(p+"/production/confer") not in sys.path):
-	sys.path.append(os.path.abspath(p+"/production/confer"))
+
+os.environ["PATH"] += os.pathsep + "/production/confer"
 
 
 '''
