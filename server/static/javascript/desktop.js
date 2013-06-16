@@ -29,7 +29,6 @@ window.applicationCache.addEventListener('updateready', function(){
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
 var starred = JSON.parse(localStorage.getItem('starred'))
-var s_starred = JSON.parse(localStorage.getItem('s_starred'))
 var own_papers = JSON.parse(localStorage.getItem('own_papers'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
 
@@ -66,10 +65,7 @@ function refresh(_async_){
                     starred = res.likes
                     localStorage.setItem('starred', JSON.stringify(starred))
                 }
-                if(res.s_likes != null){
-                    s_starred = res.s_likes
-                    localStorage.setItem('s_starred', JSON.stringify(s_starred))
-                }
+                
             }else{
                 console.log('refresh/error')
             }
@@ -100,15 +96,7 @@ function refresh_pending(){
         localStorage.setItem('unstar_pending', JSON.stringify(unstar_pending))
     }
 
-    if(s_star_pending == null){
-        s_star_pending = []
-        localStorage.setItem('s_star_pending', JSON.stringify(s_star_pending))
-    }
-
-    if(s_unstar_pending == null){
-        s_unstar_pending = []
-        localStorage.setItem('s_unstar_pending', JSON.stringify(s_unstar_pending))
-    }
+    
 }
 
 
@@ -141,9 +129,7 @@ function log(page){
 function sync(){
     var star_pending = JSON.parse(localStorage.getItem('star_pending'))
     var unstar_pending = JSON.parse(localStorage.getItem('unstar_pending'))
-    var s_star_pending = JSON.parse(localStorage.getItem('s_star_pending'))
-    var s_unstar_pending = JSON.parse(localStorage.getItem('s_unstar_pending'))
-
+   
     $.ajax({
         type:'POST',
         url:'/like/star',
@@ -158,14 +144,11 @@ function sync(){
                 localStorage.setItem('recommended', JSON.stringify(recommended))
             if(starred!= null)
                 localStorage.setItem('starred', JSON.stringify(starred))
-            if(s_starred!=null)
-                localStorage.setItem('s_starred', JSON.stringify(s_starred))
-
+           
             star_pending = []    
-            s_star_pending = []
+            
             localStorage.setItem('star_pending', JSON.stringify(star_pending))
-            localStorage.setItem('s_star_pending', JSON.stringify(s_star_pending))
-    
+            
         }
     });
 
@@ -186,7 +169,7 @@ function sync(){
             unstar_pending = []
             s_unstar_pending = []
             localStorage.setItem('unstar_pending', JSON.stringify(unstar_pending))    
-            localStorage.setItem('s_unstar_pending', JSON.stringify(s_unstar_pending))
+            
         }
     });
 
@@ -1412,7 +1395,7 @@ function populate_papers(){
 function populate_recs(){  
     var raw_html = ''   
     for(var r in recommended){
-        raw_html += get_paper_html(recommended[r].id)
+        raw_html += get_paper_html(recommended[r])
     }
     $("#recs").html(raw_html)
 

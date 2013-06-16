@@ -25,6 +25,7 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 
 r = Recommender()
+offline_recs = json.loads(open('data/sigmod2013/similar_papers.json').read())
 
 '''
 LOGIN/REGISTER
@@ -237,6 +238,9 @@ def data(request):
 		else:
 			data.likes = json.dumps([])
 			data.save()
+		#print likes
+		recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
+		#print recs
 		return HttpResponse(json.dumps({
 			'login_id': request.session[SESSION_KEY], 
 			'login_name': request.session['name'],
@@ -302,7 +306,7 @@ def like(request, like_str):
 		
 		data.likes = json.dumps(l)
 		data.save()
-		recs = []
+		recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
 		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'res':res}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
