@@ -25,7 +25,7 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 
 r = Recommender()
-offline_recs = json.loads(open('/production/confer/data/sigmod2013/similar_papers.json').read())
+offline_recs = json.loads(open('data/sigmod2013/similar_papers.json').read())
 
 '''
 LOGIN/REGISTER
