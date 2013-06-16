@@ -16,7 +16,8 @@ p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
 	sys.path.append(os.path.abspath(p+"/.."))
 
-os.environ["PATH"] += os.pathsep + "/production/confer"
+
+
 
 
 '''
@@ -27,7 +28,12 @@ os.environ["PATH"] += os.pathsep + "/production/confer"
 
 
 r = Recommender()
-offline_recs = json.loads(open('data/sigmod2013/similar_papers.json').read())
+offline_recs = None
+try:
+	offline_recs = json.loads(open('data/sigmod2013/similar_papers.json').read())
+except:
+	offline_recs = json.loads(open('/production/confer/data/sigmod2013/similar_papers.json').read())
+
 
 '''
 LOGIN/REGISTER
