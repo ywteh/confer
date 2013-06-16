@@ -1020,7 +1020,7 @@ function update_session_view(){
 function update_recs(){
       $('.paper').removeClass('recommended')
       for(var r in recommended){
-            $('.'+recommended[r].id).each(function(){
+            $('.'+recommended[r]).each(function(){
                 $(this).addClass('recommended')
             });
       }
@@ -1475,6 +1475,7 @@ function populate_sessions(){
         $("#program").append(raw_html)
         
     }
+    update_recs()
     update_session_view()
 }
 
