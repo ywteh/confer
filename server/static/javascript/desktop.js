@@ -22,7 +22,7 @@ window.applicationCache.addEventListener('updateready', function(){
 
 
 
-var offline_recs = {}
+//var offline_recs = {}
 
 
 /* Private Data */
@@ -1284,8 +1284,8 @@ function load_paper(){
     $('#similar_papers').html('')
     var recs = offline_recs[paper_id]
     var raw_html = ''
-    for(var i = 0; i< recs.length; i++){
-        raw_html += get_paper_html(recs[i].id)            
+    for(var i = 0; i< recs.length; i++){        
+        raw_html += get_paper_html(recs[i])            
     } 
     $('#similar_papers').html(raw_html)     
 } 

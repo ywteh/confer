@@ -311,6 +311,8 @@ def main():
 	prepare_schedule_json()
 	p = open('server/static/json/sigmod2013/papers.json','w')
 	p.write('entities='+json.dumps(papers))
+	p = open('data/sigmod2013/papers.json','w')
+	p.write(json.dumps(papers))
 
 	p = open('server/static/json/sigmod2013/sessions.json','w')
 	p.write('sessions='+json.dumps(sessions))

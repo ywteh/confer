@@ -9,6 +9,7 @@
 
 # Ignore log files and locks
 logs/
+index/
 run/
 
 # Local Settings
