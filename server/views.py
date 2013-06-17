@@ -248,7 +248,7 @@ def data(request):
 			data.save()
 		#print likes
 		if(len(likes)>0):
-			recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
+			recs = compute_recs(likes)
 		#print recs
 		return HttpResponse(json.dumps({
 			'login_id': request.session[SESSION_KEY], 
@@ -259,6 +259,23 @@ def data(request):
 	except:
 		print sys.exc_info()
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
+
+
+
+def compute_recs(papers):
+	recs = {}
+	for paper in papers:
+		r = offline_recs[paper]
+		for p in r:
+			id = p.keys()[0]
+			if(id in papers):
+				continue
+			if((id in recs) and (recs[id]>p[id])):
+				pass
+			else:				
+				recs[id]=p[id]
+	print recs
+	return recs.keys()
 
 
 
@@ -317,7 +334,7 @@ def like(request, like_str):
 		data.save()
 		recs = []
 		if(len(likes)>0):
-			recs = [elem.keys()[0] for elem in offline_recs[likes[0]]]
+			recs = compute_recs(likes)
 		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'res':res}), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
