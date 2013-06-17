@@ -138,7 +138,11 @@ def prepare_session_json():
 	f = open('data/sigmod2013/PODS13-session.json','rU')
 	data = json.loads(f.read())
 	for row in data:		
-		submissions = [search(pdos_papers[x]) for x in row['submissions']]
+		submissions = []
+		for x in row['submissions']:
+			p_id = search(pdos_papers[x])
+			if(p_id):
+				submissions.append(p_id)
 		session_id = 'PODS'+str(row['id'])
 		s_title = row['title'].strip()
 		sessions[session_id]={'s_title': s_title, 'submissions':submissions}
@@ -309,6 +313,10 @@ def main():
 	prepare_paper_json()
 	prepare_session_json()
 	prepare_schedule_json()
+	for s in sessions:
+		print sessions[s]['submissions']
+		for i in sessions[s]['submissions']:
+			papers[i]['session'] = sessions[s]['s_title']
 	p = open('server/static/json/sigmod2013/papers.json','w')
 	p.write('entities='+json.dumps(papers))
 	p = open('data/sigmod2013/papers.json','w')

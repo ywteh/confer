@@ -108,12 +108,20 @@ public class Indexer {
           Map<String, Object> paper_details = papers.get(paper_id);
           String title = paper_details.get("title").toString();
           String abstrct = paper_details.get("abstract").toString();
+          String session = paper_details.get("session").toString();
           //System.out.println(title);
           //System.out.println(abstrct);
-          Document doc = new Document();          
-          doc.add(new StringField("paper_id", paper_id, Field.Store.YES));
-          doc.add(new TextField("title", title, Field.Store.YES));
-          doc.add(new TextField("abstract", abstrct, Field.Store.YES));
+          System.out.println(session);
+          Document doc = new Document();   
+          Field f_paper_id = new StringField("paper_id", paper_id, Field.Store.YES);
+          Field f_session = new TextField("session", session, Field.Store.YES);
+          Field f_title = new TextField("title", title, Field.Store.YES);
+          Field f_abstract = new TextField("abstract", abstrct, Field.Store.YES);
+          f_session.setBoost((float) 5.11);
+          doc.add(f_paper_id);
+          doc.add(f_session);
+          doc.add(f_title);
+          doc.add(f_abstract);
           if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {
             writer.addDocument(doc);
           } else {
@@ -129,7 +137,7 @@ public class Indexer {
 	Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	MoreLikeThis mlt = new MoreLikeThis(reader); // Pass the index reader
 	mlt.setAnalyzer(analyzer);
-	mlt.setFieldNames(new String[] {"title", "abstract"}); // specify the fields for similiarity
+	mlt.setFieldNames(new String[] {"session", "title", "abstract"}); // specify the fields for similiarity
 	HashMap<String, ArrayList<HashMap<String, Float>>> similar_docs = new HashMap<String, ArrayList<HashMap<String,Float>>>();
 	for (int i=0; i<reader.maxDoc(); i++) { 
 		ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
