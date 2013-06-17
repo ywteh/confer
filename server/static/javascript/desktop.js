@@ -274,8 +274,10 @@ Object.size = function(obj) {
 
 function exists(recs, id){
     for(var r in recs){
-        if(recs[r].id == id)
+        if(recs[r] == id){
+            console.log(recs, id)
             return true
+        }
     }
     return false
 }
@@ -746,6 +748,7 @@ function get_paper_html(id){
         return ''
     var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
     if(exists(recommended, id)){
+        console.log(id)
         raw_html += ' recommended'
     }
     if(starred.indexOf(id) >= 0){
@@ -792,6 +795,10 @@ function get_paper_html(id){
         }
     }
     raw_html += '</li>'
+    if(exists(recommended, id)){
+        raw_html += '<span class="rec-icon">recommended</span>'
+    }
+
     if (entities[id].c_and_b == null)
       raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '</li>'
     else
