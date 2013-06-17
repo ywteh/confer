@@ -99,16 +99,21 @@ public class Indexer {
         scanner.close();
       }
       //System.out.println(text);
-      Map<String,Object> papers = new HashMap<String,Object>();
+      Map<String, Map<String, Object>> papers = new HashMap<String,Map<String, Object>>();
       Gson gson = new Gson();
-      papers=(Map<String,Object>)gson.fromJson(text.toString(), papers.getClass());
+      papers=(Map<String,Map<String,Object>>)gson.fromJson(text.toString(), papers.getClass());
       Iterator<String> iterator = papers.keySet().iterator();
       while (iterator.hasNext()) {  
           String paper_id = iterator.next().toString();  
-          String paper_details = papers.get(paper_id).toString(); 
+          Map<String, Object> paper_details = papers.get(paper_id);
+          String title = paper_details.get("title").toString();
+          String abstrct = paper_details.get("abstract").toString();
+          //System.out.println(title);
+          //System.out.println(abstrct);
           Document doc = new Document();          
-          doc.add(new StringField("docId", paper_id, Field.Store.YES));
-          doc.add(new TextField("docText", paper_details, Field.Store.YES));
+          doc.add(new StringField("paper_id", paper_id, Field.Store.YES));
+          doc.add(new TextField("title", title, Field.Store.YES));
+          doc.add(new TextField("abstract", abstrct, Field.Store.YES));
           if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {
             writer.addDocument(doc);
           } else {
@@ -119,12 +124,12 @@ public class Indexer {
   }
   
  void getSimilarity() throws IOException {	    
-	IndexReader reader = DirectoryReader.open(FSDirectory.open(new File("index")));
+	IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(this.indexPath)));
 	IndexSearcher searcher = new IndexSearcher(reader);
 	Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	MoreLikeThis mlt = new MoreLikeThis(reader); // Pass the index reader
 	mlt.setAnalyzer(analyzer);
-	mlt.setFieldNames(new String[] {"docText"}); // specify the fields for similiarity
+	mlt.setFieldNames(new String[] {"title", "abstract"}); // specify the fields for similiarity
 	HashMap<String, ArrayList<HashMap<String, Float>>> similar_docs = new HashMap<String, ArrayList<HashMap<String,Float>>>();
 	for (int i=0; i<reader.maxDoc(); i++) { 
 		ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
@@ -136,10 +141,10 @@ public class Indexer {
 				continue;
 			}
 			HashMap<String, Float> m = new HashMap<String, Float>();
-			m.put(reader.document(docs[k].doc).getField("docId").stringValue(), docs[k].score);
+			m.put(reader.document(docs[k].doc).getField("paper_id").stringValue(), docs[k].score);
 			t.add(m);
 		}
-		similar_docs.put(reader.document(i).getField("docId").stringValue(), t);
+		similar_docs.put(reader.document(i).getField("paper_id").stringValue(), t);
 	}
     Gson gson = new Gson(); 
     String json = gson.toJson(similar_docs); 
