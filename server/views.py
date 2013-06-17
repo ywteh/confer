@@ -274,8 +274,9 @@ def compute_recs(papers):
 				pass
 			else:				
 				recs[id]=p[id]
-	print recs
-	return recs.keys()
+	sorted_recs = sorted(recs.keys(), key=operator.itemgetter(1))
+	print sorted_recs
+	return sorted_recs[:20]
 
 
 
