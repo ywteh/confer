@@ -26,6 +26,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.Reader;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -41,7 +43,7 @@ import java.util.Scanner;
  */
 public class Indexer {
 	String docsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/papers.json";
-	String similarDocsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/similar_docs.json";
+	String similarDocsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/similar_papers.json";
 	String indexPath = "index";
 	boolean create = true;
   
@@ -111,15 +113,16 @@ public class Indexer {
           String session = paper_details.get("session").toString();
           //System.out.println(title);
           //System.out.println(abstrct);
-          System.out.println(session);
+          //System.out.println(session);
           //System.out.println(title);
           Document doc = new Document();   
           Field f_paper_id = new Field("paper_id", paper_id, Field.Store.YES, Field.Index.NOT_ANALYZED);
           Field f_session = new Field("session", session, Field.Store.YES, Field.Index.ANALYZED);
           Field f_title = new Field("title", title, Field.Store.YES, Field.Index.ANALYZED);
           Field f_abstract = new Field("abstract", abstrct, Field.Store.YES, Field.Index.ANALYZED);
-          f_session.setBoost((float) 100);
-          f_title.setBoost((float) 5);
+          f_session.setBoost((float) 15.0);
+          f_title.setBoost((float) 10.0);
+          f_abstract.setBoost((float) 1.0);
           doc.add(f_paper_id);
           doc.add(f_session);
           doc.add(f_title);
@@ -139,11 +142,13 @@ public class Indexer {
 	Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	MoreLikeThis mlt = new MoreLikeThis(reader); // Pass the index reader
 	mlt.setAnalyzer(analyzer);
-	mlt.setFieldNames(new String[] {"session", "title", "abstract"}); // specify the fields for similiarity
+	mlt.setFieldNames(null); // specify the fields for similiarity
 	HashMap<String, ArrayList<HashMap<String, Float>>> similar_docs = new HashMap<String, ArrayList<HashMap<String,Float>>>();
+	System.out.println(searcher.getSimilarity());
 	for (int i=0; i<reader.maxDoc(); i++) { 
 		ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
 	    Query query = mlt.like(i);
+	    
 	    TopDocs similarDocs = searcher.search(query, 11); // Use the searcher
 		ScoreDoc[] docs = similarDocs.scoreDocs;
 		for(int k=0; k<docs.length; k++){

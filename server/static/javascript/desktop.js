@@ -748,7 +748,6 @@ function get_paper_html(id){
         return ''
     var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
     if(exists(recommended, id)){
-        console.log(id)
         raw_html += ' recommended'
     }
     if(starred.indexOf(id) >= 0){
@@ -795,9 +794,9 @@ function get_paper_html(id){
         }
     }
     raw_html += '</li>'
-    if(exists(recommended, id)){
-        raw_html += '<span class="rec-icon">recommended</span>'
-    }
+   
+    raw_html += '<span class="rec-icon">recommended</span>'
+    
 
     if (entities[id].c_and_b == null)
       raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '</li>'
@@ -967,10 +966,7 @@ function get_selected_paper_html(id){
 
 
 
-function place_session(s){    
-    $("#Mondayt09").append(s)
-    $("#Mondayt09").prev().show()    
-}
+
 
 
 function update_session_view(){
@@ -988,7 +984,7 @@ function update_session_view(){
 
         $(this).find('.paper-container tr').each(function(p_index){
             if($(this).hasClass('recommended')){
-                session.addClass('p_recommended')
+                session.addClass('s_recommended')
                 session.find('.timeline').children("div").eq(p_index).addClass("filled_blue");
             }else{                
                 session.find('.timeline').children("div").eq(p_index).removeClass("filled_blue");
