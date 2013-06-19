@@ -40,8 +40,8 @@ import java.util.Scanner;
  * 
  */
 public class Indexer {
-	String docsPath = "/Users/anantb/Downloads/papers.json";
-	String similarDocsPath = "/Users/anantb/Downloads/similar_docs.json";
+	String docsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/papers.json";
+	String similarDocsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/similar_docs.json";
 	String indexPath = "index";
 	boolean create = true;
   
@@ -87,7 +87,7 @@ public class Indexer {
         iwc.setOpenMode(OpenMode.CREATE_OR_APPEND);
       }
       IndexWriter writer = new IndexWriter(indexDir, iwc);
-      
+     
       StringBuilder text = new StringBuilder();
       Scanner scanner = new Scanner(new FileInputStream(this.docsPath));
       try {
@@ -112,12 +112,14 @@ public class Indexer {
           //System.out.println(title);
           //System.out.println(abstrct);
           System.out.println(session);
+          //System.out.println(title);
           Document doc = new Document();   
-          Field f_paper_id = new StringField("paper_id", paper_id, Field.Store.YES);
-          Field f_session = new TextField("session", session, Field.Store.YES);
-          Field f_title = new TextField("title", title, Field.Store.YES);
-          Field f_abstract = new TextField("abstract", abstrct, Field.Store.YES);
-          f_session.setBoost((float) 5.11);
+          Field f_paper_id = new Field("paper_id", paper_id, Field.Store.YES, Field.Index.NOT_ANALYZED);
+          Field f_session = new Field("session", session, Field.Store.YES, Field.Index.ANALYZED);
+          Field f_title = new Field("title", title, Field.Store.YES, Field.Index.ANALYZED);
+          Field f_abstract = new Field("abstract", abstrct, Field.Store.YES, Field.Index.ANALYZED);
+          f_session.setBoost((float) 100);
+          f_title.setBoost((float) 5);
           doc.add(f_paper_id);
           doc.add(f_session);
           doc.add(f_title);
