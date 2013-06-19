@@ -149,8 +149,12 @@ public class Indexer {
 		ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
 	    Query query = mlt.like(i);
 	    
-	    TopDocs similarDocs = searcher.search(query, 11); // Use the searcher
+	    TopDocs similarDocs = searcher.search(query, 20); // Use the searcher
 		ScoreDoc[] docs = similarDocs.scoreDocs;
+		mlt.setMaxQueryTerms(1000);
+		mlt.setMinTermFreq(1);
+		mlt.setMinDocFreq(1);
+		System.out.println(mlt.describeParams());
 		for(int k=0; k<docs.length; k++){
 			if(docs[k].doc == i){
 				continue;
