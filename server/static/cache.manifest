@@ -11,7 +11,12 @@ CACHE MANIFEST
 
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
-#/static/javascript/desktop.js
+/static/javascript/desktop.js
+
+/static/json/sigmod2013/papers.json
+/static/json/sigmod2013/sessions.json
+/static/json/sigmod2013/schedule.json
+/static/json/sigmod2013/offline_recs.json
 
 /static/img/affiliation.svg
 /static/img/acm.png
