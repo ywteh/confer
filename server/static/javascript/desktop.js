@@ -7,12 +7,12 @@ All front-end magic happen through this code.
 
 //check for cache update
 
-/*
+
 window.applicationCache.addEventListener('updateready', function(){
         window.applicationCache.swapCache();
         window.location.reload();
 }, false);
-*/
+
 
 // try to first load the data from localStorage 
 

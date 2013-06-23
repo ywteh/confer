@@ -26,11 +26,24 @@ class User(models.Model):
 class Likes(models.Model):
 	id = models.AutoField(primary_key=True)
 	user = models.ForeignKey('User')
-	likes = models.TextField(max_length=50)
+	likes = models.TextField()
 
 	def __unicode__(self):
 		return self.name
 
 	class Meta:
 		db_table = "likes"
+
+
+class Logs(models.Model):
+	id = models.AutoField(primary_key=True)
+	user = models.ForeignKey('User')
+	action = models.CharField(max_length=50)
+	data = models.TextField()
+
+	def __unicode__(self):
+		return self.name
+
+	class Meta:
+		db_table = "logs"
 

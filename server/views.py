@@ -292,13 +292,26 @@ def get_recs(request):
 
 
 
+def insert_log(user, action, data=None):
+	if(data):
+		l = Logs(user=user, action = action, data= data)
+		l.save()
+	else:
+		l = Logs(user=user, action = action)
+		l.save()
+
+
+
+
 @csrf_exempt
-def log(request, page):
+def log(request, action):
 	try:
-		#cursor = connection.cursor()
-		#cursor.execute("""INSERT into logs (login_id, action, data) values ('%s', '%s', '%s');""" %(request.session['id'], page, 'load'))
+		login = request.session[SESSION_KEY]
+		user = User.objects.get(email = login)
+		insert_log(user, action)
 		return HttpResponse(json.dumps({'error':False}), mimetype="application/json")
 	except:
+		print sys.exc_info()
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
@@ -312,6 +325,7 @@ def like(request, like_str):
 		likes = []
 		user = User.objects.get(email = login)
 		data = None
+		insert_log(user, like_str, papers)
 		try:
 			data = Likes.objects.get(user = user)
 			likes.extend(json.loads(data.likes))
