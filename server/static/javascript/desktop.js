@@ -134,7 +134,7 @@ function sync(){
         type:'POST',
         url:'/like/star',
         async: false, 
-        data:{'papers': JSON.stringify(star_pending), 'session': JSON.stringify(s_star_pending)}, 
+        data:{'papers': JSON.stringify(star_pending)}, 
         success: function(res) {
             //console.log(res)
             recommended = res.recs
@@ -156,7 +156,7 @@ function sync(){
         type:'POST',
         url:'/like/unstar',
         async: false, 
-        data:{'papers': JSON.stringify(unstar_pending), 'session': JSON.stringify(s_unstar_pending)}, 
+        data:{'papers': JSON.stringify(unstar_pending)}, 
         success: function(res) {
             //console.log(res)
             recommended = res.recs
