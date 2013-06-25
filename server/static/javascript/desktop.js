@@ -843,9 +843,10 @@ function get_session_html(id, day, time, room){
     raw_html += '<td class="content">'  
     raw_html += '<ul>'
     raw_html += '<li><h3><span class="arrow arrow-right"></span> <span class="session-title">'+ sessions[id].s_title + '</span>'
-   
+   /*
     raw_html += '<span class="send_session_tweet"></span>'
     raw_html += '<span class="send_session_email"></span>'
+    */
     raw_html += '</h3></li>'
     raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="rec-icon">recommended</span>'
 
