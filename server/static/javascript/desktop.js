@@ -735,10 +735,8 @@ function get_time_class(t){
         return 'morning'
     }else if(t>=12 && t<15){
         return 'afternoon1'
-    }else if(t>=15 && t<17){
+    }else if(t>=15 && t<18){
         return 'afternoon2'
-    }else if(t>=17 && t<18){
-        return 'afternoon3'
     }else{
         return 'evening'
     }
