@@ -147,7 +147,22 @@ def prepare_session_json():
 		s_title = row['title'].strip()
 		sessions[session_id]={'s_title': s_title, 'submissions':submissions}
 	
-	
+	sessions['SP1'] = {'s_title':'Plenary PODS Keynote & Welcome',  'submissions':[]}
+	sessions['SP2'] = {'s_title':'PODS Business Meeting',  'submissions':[]}
+	sessions['SP3'] = {'s_title':'SIGMOD Welcome Reception',  'submissions':[]}
+
+	sessions['SP4'] = {'s_title':'Plenary SIGMOD Keynote & Welcome',  'submissions':[]}
+	sessions['SP5'] = {'s_title':'PODS Mini-Workshop',  'submissions':[]}
+	sessions['SP6'] = {'s_title':'Programming Contest',  'submissions':[]}
+	sessions['SP7'] = {'s_title':'New Researcher Symposium',  'submissions':[]}
+	sessions['SP8'] = {'s_title':'Microsoft Reception & Undergrad Research',  'submissions':[]}
+
+	sessions['SP9'] = {'s_title':'Plenary Research Session (posters for SIGMOD/PODS/Industrial papers)',  'submissions':[]}
+	sessions['SP10'] = {'s_title':'Plenary SIGMOD Business Meeting & Awards Talks',  'submissions':[]}
+	sessions['SP11'] = {'s_title':'SIGMOD Entertainment Event',  'submissions':[]}
+
+	sessions['SP12'] = {'s_title':'Plenary SIGMOD Keynote',  'submissions':[]}
+
 	
 		#print sessions
 
@@ -159,6 +174,12 @@ def prepare_schedule_json():
 	'day': 'Monday', 
 	'date':'06/24/2013', 
 	'slots':[
+		{'time':'08:30-10:00', 
+			'sessions':
+				[
+				{'session':'SP1', 'room':'Gallery 8'},
+				]
+		},
 		{'time':'10:30-12:30', 
 			'sessions':
 				[
@@ -183,6 +204,18 @@ def prepare_schedule_json():
 				{'session':'PODS4', 'room':'Gallery 8'},
 				]
 		},
+		{'time':'20:15-21:15', 
+			'sessions':
+				[
+				{'session':'SP2', 'room':'Time Square'},
+				]
+		},
+		{'time':'21:00-22:30', 
+			'sessions':
+				[
+				{'session':'SP3', 'room':'Gallery 8'},
+				]
+		}
 		]
 	},
 
@@ -191,6 +224,12 @@ def prepare_schedule_json():
 	'day': 'Tuesday', 
 	'date':'06/25/2013', 
 	'slots':[
+		{'time':'08:30-10:00', 
+			'sessions':
+				[
+				{'session':'SP4', 'room':'Hudson'},
+				]
+		},
 		{'time':'10:30-12:30', 
 			'sessions':
 				[
@@ -225,6 +264,21 @@ def prepare_schedule_json():
 				{'session':'Industry3', 'room':'Hudson'},
 				{'session':'Demo3', 'room':'Manhattan'},
 				]
+		},
+		{'time':'18:30-21:00', 
+			'sessions':
+				[
+				{'session':'SP5', 'room':'3.04/3.05'},
+				{'session':'SP6', 'room':'6.01(Manhattan)'},
+				{'session':'SP7', 'room':'Hudson'},
+				]
+		},
+		
+		{'time':'20:30-22:00', 
+			'sessions':
+				[
+				{'session':'SP8', 'room':'Gallery 8'},
+				]
 		}
 	]
 			
@@ -233,6 +287,12 @@ def prepare_schedule_json():
 	'day': 'Wednesday',
 	'date':'06/26/2013',
 	'slots':[
+		{'time':'08:30-10:00', 
+			'sessions':
+				[
+				{'session':'SP9', 'room':'Manhattan'},
+				]
+		},
 		{'time':'10:30-12:30',
 		'sessions':
 			[
@@ -243,6 +303,12 @@ def prepare_schedule_json():
 			{'session':'Tutorial3',  'room':'4.02/4.03'},
 			{'session':'Industry4', 'room':'Hudson'},
 			{'session':'Demo4', 'room':'Manhattan'},
+			]
+		},
+		{'time':'13:15-15:30',
+		'sessions':
+			[
+			{'session':'SP10', 'room':'Hudson'},
 			]
 		},
 		{
@@ -257,7 +323,13 @@ def prepare_schedule_json():
 			{'session':'Demo1', 'room':'Hudson'},
 			{'session':'Panel', 'room':'Manhattan'},
 			]
-		}
+		},
+		{'time':'20:00-22:30',
+		'sessions':
+			[
+			{'session':'SP11', 'room':'Hudson'},
+			]
+		},
 
 	]
 
@@ -268,6 +340,12 @@ def prepare_schedule_json():
 	'day': 'Thursday', 
 	'date':'06/27/2013',
 	'slots':[
+		{'time':'08:30-10:00', 
+			'sessions':
+				[
+				{'session':'SP12', 'room':'Hudson'},
+				]
+		},
 		{'time':'10:30-12:30',
 		'sessions':
 			[

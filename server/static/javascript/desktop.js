@@ -737,8 +737,10 @@ function get_time_class(t){
         return 'afternoon1'
     }else if(t>=15 && t<17){
         return 'afternoon2'
-    }else{
+    }else if(t>=17 && t<20){
         return 'afternoon3'
+    }else{
+        return 'evening'
     }
 }
 
@@ -831,7 +833,7 @@ function get_session_html(id, day, time, room){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + get_time_class(time.slice(0,2)) + ' '
+    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + get_time_class(parseInt(time.slice(0,2))) + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
