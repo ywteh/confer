@@ -18,7 +18,7 @@ def search(t):
 		s = difflib.SequenceMatcher(None, o_t, e_t).ratio()
 		if(s>0.9):
 			return e
-	print t
+	#print t
 	return None
 
 def prepare_paper_json():
@@ -93,6 +93,7 @@ def prepare_session_json():
 				session_id = row[1][:row[1].index(':')].replace(' ','')
 				s_title = unicode(row[1], "ISO-8859-1").strip()
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
+				print session_id
 			else:
 				if(session_id != None and row[1]!='' and row[2]!=''):
 					sessions[session_id]['submissions'].append('sig%03d' %(int(row[0])))
@@ -238,7 +239,7 @@ def prepare_schedule_json():
 				{'session':'Research2',  'room':'4.04/4.05'},
 				{'session':'Research3',  'room':'Times Sq.'},
 				{'session':'Tutorial1',  'room':'4.02/4.03'},
-				{'session':'Industry1',  'room':'Hudson'},
+				{'session':'Industrial1',  'room':'Hudson'},
 				{'session':'Demo1', 'room':'Manhattan'},
 				]
 		},
@@ -249,7 +250,7 @@ def prepare_schedule_json():
 				{'session':'Research5', 'room':'4.04/4.05'},
 				{'session':'Research6', 'room':'Times Sq.'},
 				{'session':'Tutorial2', 'room':'4.02/4.03'},
-				{'session':'Industry2', 'room':'Hudson'},
+				{'session':'Industrial2', 'room':'Hudson'},
 				{'session':'Demo2', 'room':'Manhattan'},
 				]
 		},
@@ -261,7 +262,7 @@ def prepare_schedule_json():
 				{'session':'Research9', 'room':'4.04/4.05'},
 				{'session':'Research8', 'room':'Times Sq.'},
 				{'session':'Tutorial2', 'room':'4.02/4.03'},
-				{'session':'Industry3', 'room':'Hudson'},
+				{'session':'Industrial3', 'room':'Hudson'},
 				{'session':'Demo3', 'room':'Manhattan'},
 				]
 		},
@@ -301,7 +302,7 @@ def prepare_schedule_json():
 			{'session':'Research11', 'room':'4.04/4.05'},
 			{'session':'Research12', 'room':'Times Sq.'},
 			{'session':'Tutorial3',  'room':'4.02/4.03'},
-			{'session':'Industry4', 'room':'Hudson'},
+			{'session':'Industrial4', 'room':'Hudson'},
 			{'session':'Demo4', 'room':'Manhattan'},
 			]
 		},
@@ -353,7 +354,7 @@ def prepare_schedule_json():
 			{'session':'Research17', 'room':'3.11'},
 			{'session':'Research18', 'room':'Times Sq.'},
 			{'session':'Tutorial4', 'room':'4.02/4.03'},
-			{'session':'Industry5', 'room':'Hudson'},
+			{'session':'Industrial5', 'room':'Hudson'},
 			{'session':'Demo2', 'room':'Manhattan'},
 			]
 		},
@@ -392,6 +393,8 @@ def main():
 	prepare_session_json()
 	prepare_schedule_json()
 	for s in sessions:
+		print "==============="
+		print s
 		print sessions[s]['submissions']
 		for i in sessions[s]['submissions']:
 			papers[i]['session'] = sessions[s]['s_title']
