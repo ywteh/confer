@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from algorithm.recommend import *
-from schema.models import *
+from models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
