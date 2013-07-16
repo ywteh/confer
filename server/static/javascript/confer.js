@@ -932,7 +932,7 @@ function get_selected_paper_html(id){
 
     raw_html += '<h3>' + entities[id].title
     if(entities[id].subtype != null){
-        raw_html += '<span class="paper-subtype">' + entities[i].subtype + '</span>'
+        raw_html += '<span class="paper-subtype">' + entities[id].subtype + '</span>'
     }
     
     raw_html += '<span class="send_tweet"></span>'
