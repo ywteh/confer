@@ -1,9 +1,15 @@
 {% extends "layout.html" %}
+{% block static %}
+<script type="text/javascript" src="/static/json/{{conf}}/papers.json"></script>
+<script type="text/javascript" src="/static/json/{{conf}}/sessions.json"></script>
+<script type="text/javascript" src="/static/json/{{conf}}/schedule.json"></script>
+<script type="text/javascript" src="/static/json/{{conf}}/offline_recs.json"></script>
+{% endblock %}
 {% block links %}
 <span id="logged_in_name"></span> &nbsp;
 <a class="button mobile-nav" href="#">Menu</a>
-<a class="button navitem" href="/home">My Papers</a>
-<a class="button active navitem" href="/schedule">My Schedule</a>
+<a class="button navitem" href="/{{conf}}/papers">My Papers</a>
+<a class="button active navitem" href="/{{conf}}/schedule">My Schedule</a>
 <a class="button navitem" href="/logout">Log Out</a>
 {% endblock %}
 {% block content %}   
@@ -12,7 +18,7 @@
 Tag sessions and papers you want to see and get updated recommendations on the fly. Use your likes, recommendations, and other filtering options to discover your personal schedule.
 </div>
 <div class="goto-link">
-<a class="button" href="/home">Go to My Papers</a>
+<a class="button" href="/{{conf}}/home">Go to My Papers</a>
 </div>	
 <!--  Schedule -->
 <div id="schedule">	

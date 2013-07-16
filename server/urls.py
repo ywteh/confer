@@ -3,10 +3,6 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
 	url(r'^$','server.views.home'),
 	url(r'^home$', 'server.views.home'),
-	url(r'^schedule$', 'server.views.schedule'),
-	url(r'^paper', 'server.views.paper'),
-    #url(r'^meet', 'server.views.meet'),
-
 	
 	url(r'^data', 'server.views.data'),
     url(r'^recs', 'server.views.get_recs'),
@@ -23,4 +19,9 @@ urlpatterns = patterns('',
     url(r'^reset_email/(.+)$', 'server.views.reset_email'),
 
     url(r'^error', 'server.views.error'),
+
+    #move this matching in the end
+    url(r'^(\w+?)/papers$', 'server.views.papers'),
+    url(r'^(\w+?)/schedule$', 'server.views.schedule'),
+    url(r'^(\w+?)/paper', 'server.views.paper'),
 )

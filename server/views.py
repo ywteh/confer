@@ -200,20 +200,25 @@ PAGES
 
 @login_required
 def home(request):
-	return render_to_response('main.html')
+	return render_to_response('home.html')
+
+@login_required
+def papers(request, conf):
+	return render_to_response('papers.html', {'conf':conf})
 	
 	
 
 @login_required
-def schedule(request):
-	return render_to_response('schedule.html')
+def schedule(request, conf):
+	return render_to_response('schedule.html', {'conf':conf})
 
 
 @login_required
 def paper(request):
 	try:
 		return render_to_response('paper.html', 
-		{'login_id': request.session[SESSION_KEY], 
+		{'conf':conf,
+		'login_id': request.session[SESSION_KEY], 
 		'login_name': request.session['name']})
 	except KeyError:
 		return HttpResponseRedirect('/login')
