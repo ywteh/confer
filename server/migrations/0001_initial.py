@@ -12,10 +12,13 @@ class Migration(SchemaMigration):
         db.create_table('conferences', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('unique_name', self.gf('django.db.models.fields.CharField')(unique=True, max_length=50)),
-            ('name', self.gf('django.db.models.fields.CharField')(max_length=50)),
-            ('year', self.gf('django.db.models.fields.IntegerField')()),
-            ('month', self.gf('django.db.models.fields.IntegerField')()),
-            ('description', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('confer_name', self.gf('django.db.models.fields.CharField')(unique=True, max_length=50)),
+            ('title', self.gf('django.db.models.fields.TextField')()),
+            ('subtitle', self.gf('django.db.models.fields.TextField')()),
+            ('blurb', self.gf('django.db.models.fields.TextField')()),
+            ('location', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('start_date', self.gf('django.db.models.fields.DateField')()),
+            ('end_date', self.gf('django.db.models.fields.DateField')()),
         ))
         db.send_create_signal('server', ['Conference'])
 
@@ -75,12 +78,15 @@ class Migration(SchemaMigration):
     models = {
         'server.conference': {
             'Meta': {'object_name': 'Conference', 'db_table': "'conferences'"},
-            'description': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'blurb': ('django.db.models.fields.TextField', [], {}),
+            'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
+            'end_date': ('django.db.models.fields.DateField', [], {}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'month': ('django.db.models.fields.IntegerField', [], {}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
-            'unique_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
-            'year': ('django.db.models.fields.IntegerField', [], {})
+            'location': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'start_date': ('django.db.models.fields.DateField', [], {}),
+            'subtitle': ('django.db.models.fields.TextField', [], {}),
+            'title': ('django.db.models.fields.TextField', [], {}),
+            'unique_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'})
         },
         'server.likes': {
             'Meta': {'object_name': 'Likes', 'db_table': "'likes'"},

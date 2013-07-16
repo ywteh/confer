@@ -678,20 +678,6 @@ function refresh_recommendations(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function get_short_session_info_of_paper(id){
   var result = "";
   var session = sessions[entities[id].session];
@@ -808,6 +794,38 @@ function get_paper_html(id){
     if(entities[id].keywords != null){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
     }
+    raw_html += '</ul>'
+    raw_html += '</td>'
+    
+    raw_html += '</tr>'
+
+    return raw_html
+}
+
+
+
+
+function get_conference_html(id){
+    if(conferences[id] == null)
+        return ''
+    var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
+    raw_html += '">'
+      
+    raw_html += '<td class="metadata">'   
+    
+    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);">'       
+    
+    raw_html += '</div>'
+    
+    raw_html += '</td>'
+    
+    raw_html += '<td class="content">'    
+    raw_html += '<ul>'
+
+    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+conferences[id].title +'</span>'
+    raw_html += '</h3>'
+    raw_html += '</li>'    
+    raw_html += '<li class="paper-cb">'+ conferences[id].blurb + '</li>'
     raw_html += '</ul>'
     raw_html += '</td>'
     
@@ -1380,6 +1398,15 @@ function reset_sessions(){
     update_sessions_count(); 
 }
 
+
+
+function populate_conferences(){
+    var raw_html = ''       
+    for(var c in conferences){
+        raw_html += get_conference_html(c)
+    }
+    $("#conferences").html(raw_html)
+}
 
 function populate_papers(){
     var raw_html = ''       

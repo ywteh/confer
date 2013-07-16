@@ -11,10 +11,14 @@ Confer Models
 class Conference(models.Model):
 	id = models.AutoField(primary_key=True)
 	unique_name = models.CharField(max_length=50, unique = True)
-	name = models.CharField(max_length=50)
-	year = models.IntegerField()
-	month = models.IntegerField()
-	description = models.CharField(max_length=100)
+	confer_name = models.CharField(max_length=50, unique = True)
+	title = models.TextField()
+	subtitle = models.TextField()
+	blurb = models.TextField()
+	location = models.CharField(max_length = 100)	
+	start_date = models.DateField()
+	end_date = models.DateField()
+
 
 	def __unicode__(self):
 		return self.name

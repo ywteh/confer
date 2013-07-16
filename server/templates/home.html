@@ -10,10 +10,28 @@
 <div class="blurb">
 Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more! <br /> <br />
 <br />
-
-<a href="/chi2013">CHI 2013</a> <br />
-<a href="/sigmod2013">SIGMOD 2013</a> <br />
-<a href="/ijcai2013">IJCAI 2013</a> <br />
 </div>
 
+<div id="home">
+  <h3 class="collapsible-title collapsible" id="conf_toggle" data="conf_container">Conferences <span class="count"></span></h3>	
+	<div id="conf_container">
+		<table id="conferences" class="paper-container">
+		</table>
+	</div>
+<br />
+<br />
+</div>
+{% endblock %}
+
+{% block javascript %} 
+
+<!-- Javascript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#logged_in_name").html(localStorage.getItem('login_name'))
+        populate_conferences()
+        log('home')
+    });
+</script>
+<script type="text/javascript" src="/static/javascript/confer.js"></script>
 {% endblock %}
