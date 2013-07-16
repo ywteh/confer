@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name"></span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem" href="/logout">Log Out</a>
+{% endblock %}
+
+{% block content %} 
+
+<div class="blurb">
+Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more! <br /> <br />
+<br />
+
+<a href="/chi2013">CHI 2013</a> <br />
+<a href="/sigmod2013">SIGMOD 2013</a> <br />
+<a href="/ijcai2013">IJCAI 2013</a> <br />
+</div>
+
+{% endblock %}
