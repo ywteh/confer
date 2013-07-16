@@ -202,9 +202,15 @@ PAGES
 def home(request):
 	try:
 		conf = request.session[kConf]
-		return HttpResponseRedirect('%s/papers' %(conf))
+		return HttpResponseRedirect('/%s/papers' %(conf))
 	except:
 		return render_to_response('home.html')
+
+
+@login_required
+def conf(request,conf):
+	request.session[kConf] = conf
+	return HttpResponseRedirect('/%s/papers' %(conf))
 
 @login_required
 def papers(request, conf):
