@@ -54,7 +54,7 @@ class Registration(models.Model):
 
 class Likes(models.Model):
 	id = models.AutoField(primary_key=True)
-	registration_id = models.ForeignKey('Registration')
+	registration = models.ForeignKey('Registration')
 	likes = models.TextField()
 
 	def __unicode__(self):
@@ -67,7 +67,7 @@ class Likes(models.Model):
 
 class Logs(models.Model):
 	id = models.AutoField(primary_key=True)
-	registration_id = models.ForeignKey('Registration')
+	registration = models.ForeignKey('Registration')
 	action = models.CharField(max_length=50)
 	data = models.TextField()
 

@@ -25,6 +25,8 @@ if(os.path.abspath(p+"/..") not in sys.path):
 @date: Feb 12, 2012
 '''
 
+kLogIn = "SESSION_LOGIN"
+kConf = "SESSION_CONF"
 
 
 r = Recommender()
@@ -38,11 +40,9 @@ except:
 '''
 LOGIN/REGISTER
 '''
-SESSION_KEY = 'login_email'
-
 def login_required(f):
     def wrap(request, *args, **kwargs):
-        if SESSION_KEY not in request.session.keys():
+        if kLogIn not in request.session.keys():
             return HttpResponseRedirect("/login")
         return f(request, *args, **kwargs)
     wrap.__doc__ = f.__doc__
@@ -69,7 +69,7 @@ def login(request):
             login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
             user = User.objects.get(email=login_email, password=login_password)
             request.session.flush()
-            request.session[SESSION_KEY] = user.email
+            request.session[kLogIn] = user.email
             request.session['name'] = user.f_name + ' ' + user.l_name
             return HttpResponseRedirect('/')
         except:
@@ -89,7 +89,7 @@ def register(request):
             user = User(email=email, password=password, f_name=f_name, l_name=l_name)
             user.save()
             request.session.flush()
-            request.session[SESSION_KEY] = user.email
+            request.session[kLogIn] = user.email
             request.session['name'] = user.f_name + ' ' + user.l_name
             return HttpResponseRedirect('/')
         except:
@@ -100,7 +100,7 @@ def register(request):
 
 
 def logout(request):
-    user = request.session[SESSION_KEY]
+    user = request.session[kLogIn]
     request.session.flush()
     return HttpResponseRedirect('/login')
 
@@ -218,7 +218,7 @@ def paper(request):
 	try:
 		return render_to_response('paper.html', 
 		{'conf':conf,
-		'login_id': request.session[SESSION_KEY], 
+		'login_id': request.session[kLogIn], 
 		'login_name': request.session['name']})
 	except KeyError:
 		return HttpResponseRedirect('/login')
@@ -227,23 +227,40 @@ def paper(request):
 
 
 
+def add_registration(login, conf):
+	try:
+		user = User.objects.get(email = login)
+		conf = Conference.objects.get(unique_name = conf)
+		registration = Registration(user = user, conf = conf)
+		return registration
+	except:
+		return None
 
 
+def get_registration(login, conf):
+	try:
+		user = User.objects.get(email = login)
+		conf = Conference.objects.get(unique_name = conf)
+		registration = Registration.objects.get(user = user, conf = conf)
+		return registration
+	except:
+		return None
 
 
 @csrf_exempt
 def data(request):
 	try:
-		login = request.session[SESSION_KEY]
+		login = request.session[kLogIn]
+		conf = request.session[kConf]
 		recs = []
 		own_papers = []
 		likes = []
-		user = User.objects.get(email = login)
+		registration = get_registration(login, conf)
 		data = None
 		try:
-			data = Likes.objects.get(user = user)
+			data = Likes.objects.get(registration = registration)
 		except:
-			data = Likes(user=user, likes = json.dumps([]))
+			data = Likes(registration = registration, likes = json.dumps([]))
 			data.save()
 		l = data.likes
 		if(l!=None):
@@ -256,7 +273,9 @@ def data(request):
 			recs = compute_recs(likes)
 		#print recs
 		return HttpResponse(json.dumps({
-			'login_id': request.session[SESSION_KEY], 
+			'login_id': login,
+			'conf_id': conf,
+			'registration_id': registration,
 			'login_name': request.session['name'],
 			'recs':recs, 
 			'likes':likes
@@ -297,12 +316,12 @@ def get_recs(request):
 
 
 
-def insert_log(user, action, data=None):
+def insert_log(registration, action, data=None):
 	if(data):
-		l = Logs(user=user, action = action, data= data)
+		l = Logs(registration = registration, action = action, data= data)
 		l.save()
 	else:
-		l = Logs(user=user, action = action)
+		l = Logs(registration = registration, action = action)
 		l.save()
 
 
@@ -311,9 +330,10 @@ def insert_log(user, action, data=None):
 @csrf_exempt
 def log(request, action):
 	try:
-		login = request.session[SESSION_KEY]
-		user = User.objects.get(email = login)
-		insert_log(user, action)
+		login = request.session[kLogIn]
+		conf = request.session[kConf]
+		registration = get_registration(login, conf)
+		insert_log(registration, action)
 		return HttpResponse(json.dumps({'error':False}), mimetype="application/json")
 	except:
 		print sys.exc_info()
@@ -325,17 +345,18 @@ def log(request, action):
 def like(request, like_str):
 	try:
 		papers = json.loads(request.POST["papers"])		
-		login = request.session[SESSION_KEY]
+		login = request.session[kLogIn]
+		conf = request.session[kConf]
+		registration = get_registration(login, conf)
 		res = {}
 		likes = []
-		user = User.objects.get(email = login)
 		data = None
-		insert_log(user, like_str, papers)
+		insert_log(registration, like_str, papers)
 		try:
-			data = Likes.objects.get(user = user)
+			data = Likes.objects.get(registration = registration)
 			likes.extend(json.loads(data.likes))
 		except:
-			data = Likes(user = user, likes = json.dumps([]))
+			data = Likes(registration = registration, likes = json.dumps([]))
 			data.save()
 		
 		
