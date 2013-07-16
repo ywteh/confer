@@ -40,7 +40,7 @@ class Migration(SchemaMigration):
         # Adding model 'Likes'
         db.create_table('likes', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('registration_id', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
+            ('registration', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
             ('likes', self.gf('django.db.models.fields.TextField')()),
         ))
         db.send_create_signal('server', ['Likes'])
@@ -48,7 +48,7 @@ class Migration(SchemaMigration):
         # Adding model 'Logs'
         db.create_table('logs', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('registration_id', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
+            ('registration', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
             ('action', self.gf('django.db.models.fields.CharField')(max_length=50)),
             ('data', self.gf('django.db.models.fields.TextField')()),
         ))
@@ -86,14 +86,14 @@ class Migration(SchemaMigration):
             'Meta': {'object_name': 'Likes', 'db_table': "'likes'"},
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'likes': ('django.db.models.fields.TextField', [], {}),
-            'registration_id': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
+            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
         },
         'server.logs': {
             'Meta': {'object_name': 'Logs', 'db_table': "'logs'"},
             'action': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
             'data': ('django.db.models.fields.TextField', [], {}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'registration_id': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
+            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
         },
         'server.registration': {
             'Meta': {'object_name': 'Registration', 'db_table': "'registrations'"},
