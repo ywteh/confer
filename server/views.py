@@ -200,22 +200,29 @@ PAGES
 
 @login_required
 def home(request):
-	return render_to_response('home.html')
+	try:
+		conf = request.session[kConf]
+		return HttpResponseRedirect('%s/papers' %(conf))
+	except:
+		return render_to_response('home.html')
 
 @login_required
 def papers(request, conf):
+	request.session[kConf] = conf
 	return render_to_response('papers.html', {'conf':conf})
 	
 	
 
 @login_required
 def schedule(request, conf):
+	request.session[kConf] = conf
 	return render_to_response('schedule.html', {'conf':conf})
 
 
 @login_required
 def paper(request):
 	try:
+		request.session[kConf] = conf
 		return render_to_response('paper.html', 
 		{'conf':conf,
 		'login_id': request.session[kLogIn], 
