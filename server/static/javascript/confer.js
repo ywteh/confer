@@ -103,7 +103,9 @@ function refresh_pending(){
 refresh_pending()
 
 
-
+String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+};
 
 window.addEventListener("online", function() {
     enable_alert('You are online. Syncing new data with the server.')
@@ -714,11 +716,11 @@ function get_session_info_of_paper(id){
 
 
 function select_paper(id){
-    if(window.location.pathname == '/paper'){
+    if(window.location.pathname.endsWith('/paper')){
         window.location.hash = "#" + id;
         window.location.reload(false);
     }else{
-        window.location.href = '/paper#'+id
+        window.location.href = 'paper#'+id
     }
     window.scrollTo(0,0)
 }

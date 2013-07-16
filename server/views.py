@@ -220,7 +220,7 @@ def schedule(request, conf):
 
 
 @login_required
-def paper(request):
+def paper(request, conf):
 	try:
 		request.session[kConf] = conf
 		return render_to_response('paper.html', 
