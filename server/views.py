@@ -27,6 +27,7 @@ if(os.path.abspath(p+"/..") not in sys.path):
 
 kLogIn = "SESSION_LOGIN"
 kConf = "SESSION_CONF"
+kName = "SESSION_NAME"
 
 
 r = Recommender()
@@ -70,7 +71,7 @@ def login(request):
             user = User.objects.get(email=login_email, password=login_password)
             request.session.flush()
             request.session[kLogIn] = user.email
-            request.session['name'] = user.f_name + ' ' + user.l_name
+            request.session[kName] = user.f_name + ' ' + user.l_name
             return HttpResponseRedirect('/')
         except:
             print sys.exc_info()
@@ -90,7 +91,7 @@ def register(request):
             user.save()
             request.session.flush()
             request.session[kLogIn] = user.email
-            request.session['name'] = user.f_name + ' ' + user.l_name
+            request.session[kName] = user.f_name + ' ' + user.l_name
             return HttpResponseRedirect('/')
         except:
             print sys.exc_info()
@@ -232,7 +233,7 @@ def paper(request, conf):
 		return render_to_response('paper.html', 
 		{'conf':conf,
 		'login_id': request.session[kLogIn], 
-		'login_name': request.session['name']})
+		'login_name': request.session[kName]})
 	except KeyError:
 		return HttpResponseRedirect('/login')
 	except:
@@ -289,7 +290,7 @@ def data(request):
 			'login_id': login,
 			'conf_id': conf,
 			'registration_id': registration,
-			'login_name': request.session['name'],
+			'login_name': request.session[kName],
 			'recs':recs, 
 			'likes':likes
 			}), mimetype="application/json")
