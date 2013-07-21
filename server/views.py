@@ -206,20 +206,32 @@ def home(request):
 
 @login_required
 def conf(request,conf):
-	request.session[kConf] = conf
-	return HttpResponseRedirect('/%s/papers' %(conf))
+	try:
+		request.session[kConf] = conf
+		Conference.objects.get(unique_name=conf)
+		return HttpResponseRedirect('/%s/papers' %(conf))
+	except:
+		return HttpResponseRedirect('/')
 
 @login_required
 def papers(request, conf):
-	request.session[kConf] = conf
-	return render_to_response('papers.html', {'conf':conf})
+	try:
+		Conference.objects.get(unique_name=conf)
+		request.session[kConf] = conf
+		return render_to_response('papers.html', {'conf':conf})
+	except:
+		return HttpResponseRedirect('/')
 	
 	
 
 @login_required
 def schedule(request, conf):
-	request.session[kConf] = conf
-	return render_to_response('schedule.html', {'conf':conf})
+	try:
+		Conference.objects.get(unique_name=conf)
+		request.session[kConf] = conf
+		return render_to_response('schedule.html', {'conf':conf})
+	except:
+		return HttpResponseRedirect('/')
 
 
 @login_required
