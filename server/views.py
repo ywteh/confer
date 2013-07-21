@@ -63,7 +63,7 @@ def register_form(request):
     return render_to_response('register.html', c)
 
 
-def login(request):
+def login(request, redirect_url='/'):
     if request.method == "POST":
         try:
             login_email = request.POST["login_email"]
@@ -72,7 +72,7 @@ def login(request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name + ' ' + user.l_name
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect(redirect_url)
         except:
             print sys.exc_info()
             return login_form(request)
@@ -80,7 +80,7 @@ def login(request):
         return login_form(request)
 
 
-def register(request):
+def register(request, redirect_url='/'):
     if request.method == "POST":
         try:
             email = request.POST["email"]
@@ -92,7 +92,7 @@ def register(request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name + ' ' + user.l_name
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect(redirect_url)
         except:
             print sys.exc_info()
             return register_form(request)
@@ -199,13 +199,9 @@ def reset(request, addr):
 PAGES
 '''
 
-@login_required
 def home(request):
-	try:
-		conf = request.session[kConf]
-		return HttpResponseRedirect('/%s/papers' %(conf))
-	except:
-		return render_to_response('home.html')
+	conferences = Conference.objects.all().values()
+	return render_to_response('home.html', {'conferences':conferences})
 
 
 @login_required

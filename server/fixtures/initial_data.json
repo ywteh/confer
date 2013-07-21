@@ -1,0 +1,30 @@
+[
+	{"model": "server.Conference",
+	    "pk": 1,
+	    "fields": {
+	      "unique_name": "chi2013",
+	      "confer_name": "myCHI",
+	      "title": "CHI 2013",
+	      "subtitle": "Changing Perspective",
+	      "blurb": "",
+	      "location": "Paris",
+	      "start_date": "2006-10-25",
+	      "end_date": "2006-10-25"
+	  	}
+	},
+	
+	{"model": "server.Conference",
+	    "pk": 2,
+	    "fields": {
+	      "unique_name": "sigmod2013",
+	      "confer_name": "sigmod2013",
+	      "title": "SIGMOD 2013",
+	      "subtitle": "Changing Perspective",
+	      "blurb": "",
+	      "location": "New York",
+	      "start_date": "2006-10-25",
+	      "end_date": "2006-10-25"
+	  	}
+	}
+]
+  

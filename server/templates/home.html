@@ -1,37 +1,38 @@
 {% extends "layout.html" %}
+{% block static %}
+{% endblock %}
 {% block links %}
-<span id="logged_in_name"></span> &nbsp;
 <a class="button mobile-nav" href="#">Menu</a>
-<a class="button navitem" href="/logout">Log Out</a>
+<a class="button navitem" href="/login">Log In</a>
+<a class="button" href="/register">Register</a>
 {% endblock %}
 
 {% block content %} 
 
 <div class="blurb">
-Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more! <br /> <br />
+<br />
+<p>
+Confer helps you build a personal schedule for a conference.  Key features include:
+<ul>
+<li>bookmark your favorite papers and sessions</li>
+<li>get social recommendations on other papers and sessions you may like</li>
+<li>create a personal schedule and find interesting talks at the conference</li>
+</ul>
+</p>
+<p>
+Confer runs in your browser, and works both on desktop and mobile devices. It also supports offline mode so once you have loaded the app, it will continue to work without an Internet connection.  In addition, your favorites, recommendations, and schedule are synced across devices, so you will have everything available on your desktop, tablet, and phone.
+</p>
 <br />
 </div>
 
 <div id="home">
-  <h3 class="collapsible-title collapsible" id="conf_toggle" data="conf_container">Conferences <span class="count"></span></h3>	
+  <h3 class="collapsible-title collapsible" id="conf_toggle" data="conf_container">Conferences</h3>	
 	<div id="conf_container">
 		<table id="conferences" class="paper-container">
+            {{conferences}}
 		</table>
 	</div>
 <br />
 <br />
 </div>
-{% endblock %}
-
-{% block javascript %} 
-
-<!-- Javascript -->
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#logged_in_name").html(localStorage.getItem('login_name'))
-        populate_conferences()
-        log('home')
-    });
-</script>
-<script type="text/javascript" src="/static/javascript/confer.js"></script>
 {% endblock %}
