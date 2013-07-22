@@ -102,6 +102,10 @@ def register(request, redirect_url='/'):
 
 def logout(request):
     request.session.flush()
+    if kLogIn in request.session.keys():
+    	del request.session[kLogIn]
+    if kName in request.session.keys():
+    	del request.session[kName]
     return HttpResponseRedirect('/login')
 
 
