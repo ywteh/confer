@@ -267,6 +267,7 @@ def get_registration(login, conf):
 			registration.save()
 			return registration
 	except:
+		print sys.exc_info()
 		return None
 
 
