@@ -276,8 +276,9 @@ def data(request):
 	recs = []
 	likes = []
 	login = request.session[kLogIn]
-	conf = request.session[kConf]
+	error = False
 	try:
+		conf = request.session[kConf]
 		registration = get_registration(login, conf)
 		data = None
 		try:
@@ -296,12 +297,14 @@ def data(request):
 			recs = compute_recs(likes)
 		#print recs
 	except:
+		error = True
 		print sys.exc_info()
 	return HttpResponse(json.dumps({
 			'login_id': login,
 			'login_name': request.session[kName],
 			'recs':recs, 
-			'likes':likes
+			'likes':likes,
+			'error': error
 			}), mimetype="application/json")
 
 
@@ -363,13 +366,14 @@ def log(request, action):
 
 @csrf_exempt
 def like(request, like_str):
+	login = request.session[kLogIn]
+	likes = []
+	res = {}
+	error = False
 	try:
-		papers = json.loads(request.POST["papers"])		
-		login = request.session[kLogIn]
+		papers = json.loads(request.POST["papers"])
 		conf = request.session[kConf]
 		registration = get_registration(login, conf)
-		res = {}
-		likes = []
 		data = None
 		insert_log(registration, like_str, papers)
 		try:
@@ -377,28 +381,24 @@ def like(request, like_str):
 			likes.extend(json.loads(data.likes))
 		except:
 			data = Likes(registration = registration, likes = json.dumps([]))
-			data.save()
-		
+			data.save()		
 		
 		for paper_id in papers:
 			if(like_str=='star' and (paper_id not in likes) and paper_id != ''):
 				likes.append(paper_id)
 			if(like_str=='unstar' and (paper_id in likes) and paper_id != ''):
 				likes.remove(paper_id)
-			if(paper_id in likes):
-				res[paper_id] = 'star'
-			else:
-				res[paper_id] = 'unstar'
-		l = list(set(likes))	
-		
+
+		l = list(set(likes))		
 		data.likes = json.dumps(l)
 		data.save()
 		recs = []
 		if(len(likes)>0):
-			recs = compute_recs(likes)
-		return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'res':res}), mimetype="application/json")
+			recs = compute_recs(likes)		
 	except:
-		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
+		error = True
+		print sys.exc_info()
+	return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'error':error}), mimetype="application/json")
 
 
 
