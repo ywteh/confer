@@ -258,12 +258,15 @@ def paper(request, conf):
 def get_registration(login, conf):
 	try:
 		user = User.objects.get(email = login)
-		conference = Conference.objects.get(conf_name = conf)
+		conference = Conference.objects.get(conf_name=conf)
+		print "here..."
 		try:
-			registration = Registration.objects.get(user = user, conference = conference)
+			print "here inside"
+			registration = Registration.objects.get(user=user, conference=conference)
 			return registration
 		except Registration.DoesNotExist:
-			registration = Registration(user = user, conference = conference)
+			print "here exception"
+			registration = Registration(user=user, conference=conference)
 			registration.save()
 			return registration
 	except:
