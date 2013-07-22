@@ -10,7 +10,7 @@ Confer Models
 
 class Conference(models.Model):
 	id = models.AutoField(primary_key=True)
-	unique_name = models.CharField(max_length=50, unique = True)
+	conf_name = models.CharField(max_length=50, unique = True)
 	confer_name = models.CharField(max_length=50, unique = True)
 	title = models.TextField()
 	subtitle = models.TextField()

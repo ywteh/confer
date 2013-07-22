@@ -258,7 +258,7 @@ def paper(request, conf):
 def get_registration(login, conf):
 	try:
 		user = User.objects.get(email = login)
-		conference = Conference.objects.get(unique_name = conf)
+		conference = Conference.objects.get(conf_name = conf)
 		try:
 			registration = Registration.objects.get(user = user, conference = conference)
 			return registration
