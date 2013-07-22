@@ -271,13 +271,13 @@ def get_registration(login, conf):
 
 
 @csrf_exempt
+@login_required
 def data(request):
+	recs = []
+	likes = []
+	login = request.session[kLogIn]
+	conf = request.session[kConf]
 	try:
-		login = request.session[kLogIn]
-		conf = request.session[kConf]
-		recs = []
-		own_papers = []
-		likes = []
 		registration = get_registration(login, conf)
 		data = None
 		try:
@@ -295,16 +295,14 @@ def data(request):
 		if(len(likes)>0):
 			recs = compute_recs(likes)
 		#print recs
-		return HttpResponse(json.dumps({
+	except:
+		print sys.exc_info()
+	return HttpResponse(json.dumps({
 			'login_id': login,
-			'conf_id': conf,
 			'login_name': request.session[kName],
 			'recs':recs, 
 			'likes':likes
 			}), mimetype="application/json")
-	except:
-		print sys.exc_info()
-		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
 
