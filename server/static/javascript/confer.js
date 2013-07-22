@@ -18,11 +18,21 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Global Data */
 
+if(typeof entities == undefined) {
+    entities = []
+}
+
+if(typeof sessions == undefined) {
+    sessions = []
+}
+
+if(typeof schedule == undefined) {
+    schedule = []
+}
 
 
 
 
-//var offline_recs = {}
 
 
 /* Private Data */
@@ -31,17 +41,7 @@ var login_name = localStorage.getItem('login_name')
 var starred = JSON.parse(localStorage.getItem('starred'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
 
-if(entities == null) {
-    entities = []
-}
 
-if(sessions == null) {
-    sessions = []
-}
-
-if(schedule == null) {
-    schedule = []
-}
 
 
 
@@ -1160,7 +1160,7 @@ function handle_star(event){
             localStorage.setItem('starred', JSON.stringify(starred))
         }else{
             $.post('/like/unstar', {'papers': JSON.stringify([paper_id])}, function(res) {
-              if(res.res[paper_id] == 'unstar'){
+              if(!res.error){
                 $('.'+obj.attr('data')).each(function(){
                     $(this).find('.p_star').removeClass('star-filled').addClass('star-open')
                     $(this).removeClass('highlight')
@@ -1204,7 +1204,7 @@ function handle_star(event){
             localStorage.setItem('starred', JSON.stringify(starred))
         }else{
             $.post('/like/star', {'papers': JSON.stringify([paper_id])}, function(res) {
-              if(res.res[paper_id] == 'star'){
+              if(!res.error){
                 $('.'+obj.attr('data')).each(function(){
                     $(this).find('.p_star').removeClass('star-open').addClass('star-filled')
                     $(this).addClass('highlight')
