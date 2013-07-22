@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 11.16
+# version 11.17
 
 /
 /home
@@ -41,7 +41,6 @@ CACHE MANIFEST
 /static/img/hci4d.png
 /static/img/health.acorn
 /static/img/health.png
-/static/img/logo.png
 /static/img/management.acorn
 /static/img/management.png
 /static/img/nominee.png

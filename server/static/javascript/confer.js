@@ -277,7 +277,6 @@ Object.size = function(obj) {
 function exists(recs, id){
     for(var r in recs){
         if(recs[r] == id){
-            console.log(recs, id)
             return true
         }
     }
@@ -718,19 +717,6 @@ function isMyPaper(id){
 }
 
 
-function get_time_class(t){
-    if(t<12){
-        return 'morning'
-    }else if(t>=12 && t<15){
-        return 'afternoon1'
-    }else if(t>=15 && t<18){
-        return 'afternoon2'
-    }else{
-        return 'evening'
-    }
-}
-
-
 function get_paper_html(id){
     if(entities[id] == null)
         return ''
@@ -805,42 +791,8 @@ function get_paper_html(id){
 
 
 
-function get_conference_html(id){
-    if(conferences[id] == null)
-        return ''
-    var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
-    raw_html += '">'
-      
-    raw_html += '<td class="metadata">'   
-    
-    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);">'       
-    
-    raw_html += '</div>'
-    
-    raw_html += '</td>'
-    
-    raw_html += '<td class="content">'    
-    raw_html += '<ul>'
 
-    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+conferences[id].title +'</span>'
-    raw_html += '</h3>'
-    raw_html += '</li>'    
-    raw_html += '<li class="paper-cb">'+ conferences[id].blurb + '</li>'
-    raw_html += '</ul>'
-    raw_html += '</td>'
-    
-    raw_html += '</tr>'
-
-    return raw_html
-}
-
-
-
-
-
-
-
-function get_session_html(id, day, time, room){
+function get_session_html(id, day, time, slot_name, room){
     if(sessions[id]== null){
         return ''
     }
@@ -851,7 +803,7 @@ function get_session_html(id, day, time, room){
     if(sessions[id].award || sessions[id].hm){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + get_time_class(parseInt(time.slice(0,2))) + ' '
+    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + slot_name + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -1498,10 +1450,10 @@ function populate_sessions(){
         //console.log(day, schedule[day])
         for(slot in schedule[day].slots){
             //console.log(slot, schedule[day].slots[slot])
-            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
-            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].time.slice(0,2)+'" class="session-timeslot">'
+            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].slot_name+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
+            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].slot_name+'" class="session-timeslot">'
             for(session in schedule[day].slots[slot].sessions){
-                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].sessions[session].room)
+                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_name, schedule[day].slots[slot].sessions[session].room)
             }
             raw_html += '</div>'
         }

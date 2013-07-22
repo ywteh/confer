@@ -94,7 +94,7 @@ def register(request, redirect_url='/'):
             request.session[kName] = user.f_name + ' ' + user.l_name
             return HttpResponseRedirect(redirect_url)
         except:
-            print sys.exc_info()
+            #print sys.exc_info()
             return register_form(request)
     else:
         return register_form(request)
@@ -318,7 +318,7 @@ def compute_recs(papers):
 			else:				
 				recs[id]=p[id]
 	sorted_recs = sorted(recs.keys(), key=operator.itemgetter(1))
-	print sorted_recs
+	#print sorted_recs
 	return sorted_recs[0:20]
 
 

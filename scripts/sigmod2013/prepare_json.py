@@ -2,8 +2,8 @@ import sys, os, json, csv, re, difflib
 
 if __name__ == "__main__":
 	p = os.path.abspath(os.path.dirname(__file__))
-	if(os.path.abspath(p+"/../..") not in sys.path):
-		sys.path.append(os.path.abspath(p+"/../.."))
+	if(os.path.abspath(p+"/..") not in sys.path):
+		sys.path.append(os.path.abspath(p+"/.."))
 	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
 
 papers = {}
@@ -128,7 +128,7 @@ def prepare_session_json():
 				submissions.append('sig%03d' %(int(row[0])))
 				sessions[session_id]={'s_title': s_title, 'submissions':submissions}
 	
-	p = open('server/static/json/sigmod2013/sessions.json','w')
+	p = open('server/static/conf/sigmod2013/data/sessions.json','w')
 	p.write('sessions='+json.dumps(sessions))
 
 	f = open('data/sigmod2013/PODS13-papers.json','rU')
@@ -175,43 +175,50 @@ def prepare_schedule_json():
 	'day': 'Monday', 
 	'date':'06/24/2013', 
 	'slots':[
-		{'time':'08:30-10:00', 
+		{'time':'08:30-10:00',
+		 'slot_name': 'morning', 
 			'sessions':
 				[
 				{'session':'SP1', 'room':'Gallery 8'},
 				]
 		},
-		{'time':'10:30-12:30', 
+		{'time':'10:30-12:30',
+		 'slot_name': 'morning',  
 			'sessions':
 				[
 				{'session':'PODS1', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'13:15-14:45', 
+		 'slot_name': 'afternoon1',
 			'sessions':
 				[
 				{'session':'PODS2', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'15:15-16:45', 
+		 'slot_name': 'afternoon2',
 			'sessions':
 				[
 				{'session':'PODS3', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'17:15-18:45', 
+		 'slot_name': 'afternoon2',
 			'sessions':
 				[
 				{'session':'PODS4', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'20:15-21:15', 
+		  'slot_name': 'evening',
 			'sessions':
 				[
 				{'session':'SP2', 'room':'Time Square'},
 				]
 		},
-		{'time':'21:00-22:30', 
+		{'time':'21:00-22:30',
+		 'slot_name': 'evening', 
 			'sessions':
 				[
 				{'session':'SP3', 'room':'Gallery 8'},
@@ -225,13 +232,15 @@ def prepare_schedule_json():
 	'day': 'Tuesday', 
 	'date':'06/25/2013', 
 	'slots':[
-		{'time':'08:30-10:00', 
+		{'time':'08:30-10:00',
+		 'slot_name': 'morning',  
 			'sessions':
 				[
 				{'session':'SP4', 'room':'Hudson'},
 				]
 		},
 		{'time':'10:30-12:30', 
+		 'slot_name': 'morning',
 			'sessions':
 				[
 				{'session':'PODS5', 'room':'3.04/3.05'},
@@ -244,6 +253,7 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'13:30-15:00',
+		 'slot_name': 'afternoon1',
 		'sessions':[	
 				{'session':'PODS6', 'room':'3.04/3.05'},
 				{'session':'Research4', 'room':'3.11'},
@@ -255,6 +265,7 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'15:30-17:00',
+		'slot_name': 'afternoon2',
 		'sessions':
 				[
 				{'session':'PODS7', 'room':'3.04/3.05'},
@@ -267,6 +278,7 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'18:30-21:00', 
+		 'slot_name': 'evening',
 			'sessions':
 				[
 				{'session':'SP5', 'room':'3.04/3.05'},
@@ -276,6 +288,7 @@ def prepare_schedule_json():
 		},
 		
 		{'time':'20:30-22:00', 
+		 'slot_name': 'evening',
 			'sessions':
 				[
 				{'session':'SP8', 'room':'Gallery 8'},
@@ -288,13 +301,15 @@ def prepare_schedule_json():
 	'day': 'Wednesday',
 	'date':'06/26/2013',
 	'slots':[
-		{'time':'08:30-10:00', 
+		{'time':'08:30-10:00',
+		 'slot_name': 'morning',  
 			'sessions':
 				[
 				{'session':'SP9', 'room':'Manhattan'},
 				]
 		},
 		{'time':'10:30-12:30',
+		 'slot_name': 'morning', 
 		'sessions':
 			[
 			{'session':'PODS8', 'room':'3.04/3.05'},
@@ -307,6 +322,7 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'13:15-15:30',
+		'slot_name': 'afternoon1',
 		'sessions':
 			[
 			{'session':'SP10', 'room':'Hudson'},
@@ -314,6 +330,7 @@ def prepare_schedule_json():
 		},
 		{
 		'time':'16:00-17:30',
+		'slot_name': 'afternoon2',
 		'sessions':
 			[
 			{'session':'PODS9', 'room':'3.04/3.05'},
@@ -326,6 +343,7 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'20:00-22:30',
+		'slot_name': 'evening',
 		'sessions':
 			[
 			{'session':'SP11', 'room':'Hudson'},
@@ -342,12 +360,14 @@ def prepare_schedule_json():
 	'date':'06/27/2013',
 	'slots':[
 		{'time':'08:30-10:00', 
+		 'slot_name': 'morning', 
 			'sessions':
 				[
 				{'session':'SP12', 'room':'Hudson'},
 				]
 		},
 		{'time':'10:30-12:30',
+		'slot_name': 'morning', 
 		'sessions':
 			[
 			{'session':'Research16', 'room':'3.04/3.05'},
@@ -360,6 +380,7 @@ def prepare_schedule_json():
 		},
 
 		{'time':'13:30-15:00',
+		'slot_name': 'afternoon1',
 		'sessions':
 			[
 			{'session':'Research19', 'room':'3.11'},
@@ -371,6 +392,7 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'15:30-17:00',
+		'slot_name': 'afternoon2',
 		'sessions':
 			[
 			{'session':'Research23', 'room':'3.11'},
@@ -385,7 +407,7 @@ def prepare_schedule_json():
 	}
 	]
 
-	p = open('server/static/json/sigmod2013/schedule.json','w')
+	p = open('server/static/conf/sigmod2013/data/schedule.json','w')
 	p.write('schedule='+json.dumps(schedule))
 
 def main():
@@ -398,16 +420,16 @@ def main():
 		print sessions[s]['submissions']
 		for i in sessions[s]['submissions']:
 			papers[i]['session'] = sessions[s]['s_title']
-	p = open('server/static/json/sigmod2013/papers.json','w')
+	p = open('server/static/conf/sigmod2013/data/papers.json','w')
 	p.write('entities='+json.dumps(papers))
 	p = open('data/sigmod2013/papers.json','w')
 	p.write(json.dumps(papers))
 
 	similar_papers = open('data/sigmod2013/similar_papers.json','rU').read()
-	p = open('server/static/json/sigmod2013/offline_recs.json','w')
+	p = open('server/static/conf/sigmod2013/data/offline_recs.json','w')
 	p.write('offline_recs='+similar_papers)
 
-	p = open('server/static/json/sigmod2013/sessions.json','w')
+	p = open('server/static/conf/sigmod2013/data/sessions.json','w')
 	p.write('sessions='+json.dumps(sessions))
 
 
