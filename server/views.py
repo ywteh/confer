@@ -214,7 +214,7 @@ def home(request):
 def conf(request,conf):
 	try:
 		request.session[kConf] = conf
-		Conference.objects.get(unique_name=conf)
+		Conference.objects.get(conf_name=conf)
 		return HttpResponseRedirect('/%s/papers' %(conf))
 	except:
 		return HttpResponseRedirect('/')
@@ -222,7 +222,7 @@ def conf(request,conf):
 @login_required
 def papers(request, conf):
 	try:
-		Conference.objects.get(unique_name=conf)
+		Conference.objects.get(conf_name=conf)
 		request.session[kConf] = conf
 		return render_to_response('papers.html', {'conf':conf})
 	except:
@@ -233,7 +233,7 @@ def papers(request, conf):
 @login_required
 def schedule(request, conf):
 	try:
-		Conference.objects.get(unique_name=conf)
+		Conference.objects.get(conf_name=conf)
 		request.session[kConf] = conf
 		return render_to_response('schedule.html', {'conf':conf})
 	except:
