@@ -71,7 +71,7 @@ def login(request, redirect_url='/'):
             user = User.objects.get(email=login_email, password=login_password)
             request.session.flush()
             request.session[kLogIn] = user.email
-            request.session[kName] = user.f_name + ' ' + user.l_name
+            request.session[kName] = user.f_name
             return HttpResponseRedirect(redirect_url)
         except:
             print sys.exc_info()
@@ -91,7 +91,7 @@ def register(request, redirect_url='/'):
             user.save()
             request.session.flush()
             request.session[kLogIn] = user.email
-            request.session[kName] = user.f_name + ' ' + user.l_name
+            request.session[kName] = user.f_name
             return HttpResponseRedirect(redirect_url)
         except:
             #print sys.exc_info()
@@ -101,7 +101,6 @@ def register(request, redirect_url='/'):
 
 
 def logout(request):
-    user = request.session[kLogIn]
     request.session.flush()
     return HttpResponseRedirect('/login')
 
@@ -202,7 +201,7 @@ PAGES
 def home(request):
 	try:
 		conferences = Conference.objects.all().values()
-		return render_to_response('home.html', {'conferences':conferences})
+		return render_to_response('home.html', {'conferences':conferences, 'login_name':request.session[kName]})
 	except:
 		pass
 
