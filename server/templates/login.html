@@ -3,6 +3,13 @@
 <a class="button" href="/register">Create a New Account</a>
 {% endblock %}
 {% block content %}
+<script type="text/javascript">
+localStorage.removeItem('login_id')
+localStorage.removeItem('login_name')
+localStorage.removeItem('recommended')
+localStorage.removeItem('starred')
+localStorage.removeItem('user_recs')
+</script>
 <form method="POST" action="/login">
 	{% csrf_token %}
 	<h3>Confer</h3>
