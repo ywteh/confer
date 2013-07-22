@@ -277,6 +277,7 @@ def data(request):
 	likes = []
 	login = request.session[kLogIn]
 	error = False
+	msg = 'OK'
 	try:
 		conf = request.session[kConf]
 		registration = get_registration(login, conf)
@@ -298,13 +299,15 @@ def data(request):
 		#print recs
 	except:
 		error = True
-		print sys.exc_info()
+		e_type, value, tb = sys.exc_info()
+		msg = value.message
 	return HttpResponse(json.dumps({
 			'login_id': login,
 			'login_name': request.session[kName],
 			'recs':recs, 
 			'likes':likes,
-			'error': error
+			'error': error,
+			'msg':msg
 			}), mimetype="application/json")
 
 
@@ -370,6 +373,7 @@ def like(request, like_str):
 	likes = []
 	res = {}
 	error = False
+	msg = "OK"
 	try:
 		papers = json.loads(request.POST["papers"])
 		conf = request.session[kConf]
@@ -397,8 +401,9 @@ def like(request, like_str):
 			recs = compute_recs(likes)		
 	except:
 		error = True
-		print sys.exc_info()
-	return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'error':error}), mimetype="application/json")
+		e_type, value, tb = sys.exc_info()
+		msg = value.message
+	return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'error':error, 'msg':msg}), mimetype="application/json")
 
 
 
