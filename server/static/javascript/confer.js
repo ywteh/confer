@@ -29,7 +29,6 @@ window.applicationCache.addEventListener('updateready', function(){
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
 var starred = JSON.parse(localStorage.getItem('starred'))
-var own_papers = JSON.parse(localStorage.getItem('own_papers'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
 
 
@@ -44,29 +43,28 @@ function refresh(_async_){
         type: 'GET',
         async: _async_,
         url: '/data', 
-        success: function(res) {
-            if(!res.error){
-                console.log("synced")               
-                
-                if(res.login_id!=null){
-                    login_id = res.login_id
-                    localStorage.setItem('login_id', login_id)
-                }
-                if(res.login_name != null){
-                    login_name = res.login_name
-                    localStorage.setItem('login_name', login_name)
-                }
-                if(res.recs!=null){
-                    recommended = res.recs
-                    localStorage.setItem('recommended', JSON.stringify(recommended))
-                }
+        success: function(res) {            
+            console.log("synced")               
+            
+            if(res.login_id!=null){
+                login_id = res.login_id
+                localStorage.setItem('login_id', login_id)
+            }
+            if(res.login_name != null){
+                login_name = res.login_name
+                localStorage.setItem('login_name', login_name)
+            }
+            if(res.recs!=null){
+                recommended = res.recs
+                localStorage.setItem('recommended', JSON.stringify(recommended))
+            }
 
-                if(res.likes != null){
-                    starred = res.likes
-                    localStorage.setItem('starred', JSON.stringify(starred))
-                }
+            if(res.likes != null){
+                starred = res.likes
+                localStorage.setItem('starred', JSON.stringify(starred))
+            }
                 
-            }else{
+            if(res.error){
                 console.log('refresh/error')
             }
         }
