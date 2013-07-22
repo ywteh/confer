@@ -16,13 +16,13 @@
             {% for conf in conferences %}
             <tr class="clickable">
                 <td class="metadata">
-                    <a href="/{{conf.conf_name}}/">
-                    <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.conf_name}}/logo/cover.png);"></span>
+                    <a href="/{{conf.unique_name}}/">
+                    <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.unique_name}}/logo/cover.png);"></span>
                     </a>
                 </td>
                 <td class="content">
                 <ul>
-                    <li><h3><span class="link"><a href="/{{conf.conf_name}}/">{{conf.title}}</a></span></h3></li>
+                    <li><h3><span class="link"><a href="/{{conf.unique_name}}/">{{conf.title}}</a></span></h3></li>
                     <li> <span class="conf-date">{{conf.start_date}} to {{conf.end_date}}</span> <span class="conf-location">{{conf.location}}</span></li>
                     <li class="abstract">{{conf.blurb}}</li>
                 </ul>

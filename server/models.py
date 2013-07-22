@@ -10,7 +10,7 @@ Confer Models
 
 class Conference(models.Model):
 	id = models.AutoField(primary_key=True)
-	conf_name = models.CharField(max_length=50, unique = True)
+	unique_name = models.CharField(max_length=50, unique = True)
 	confer_name = models.CharField(max_length=50, unique = True)
 	title = models.TextField()
 	subtitle = models.TextField()
@@ -21,7 +21,7 @@ class Conference(models.Model):
 
 
 	def __unicode__(self):
-		return self.name
+		return self.unique_name
 
 	class Meta:
 		app_label = 'server'
@@ -38,7 +38,7 @@ class User(models.Model):
 	password = models.CharField(max_length=500)
 
 	def __unicode__(self):
-		return self.name
+		return self.f_name + ' ' + self.l_name
 
 	class Meta:
 		app_label = 'server'
@@ -52,7 +52,7 @@ class Registration(models.Model):
 	conference = models.ForeignKey('Conference')
 
 	def __unicode__(self):
-		return self.name
+		return str(self.id)
 
 	class Meta:
 		app_label = 'server'
@@ -66,7 +66,7 @@ class Likes(models.Model):
 	likes = models.TextField()
 
 	def __unicode__(self):
-		return self.name
+		return str(self.id)
 
 	class Meta:
 		app_label = 'server'
@@ -81,7 +81,7 @@ class Logs(models.Model):
 	data = models.TextField()
 
 	def __unicode__(self):
-		return self.name
+		return str(self.id)
 
 	class Meta:
 		app_label = 'server'

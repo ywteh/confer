@@ -2,7 +2,7 @@
 	{"model": "server.Conference",
 	    "pk": 1,
 	    "fields": {
-	      "conf_name": "chi2013",
+	      "unique_name": "chi2013",
 	      "confer_name": "myCHI",
 	      "title": "CHI '13 - ACM CHI Conference on Human Factors in Computing Systems",
 	      "subtitle": "Changing Perspective",
@@ -16,7 +16,7 @@
 	{"model": "server.Conference",
 	    "pk": 2,
 	    "fields": {
-	      "conf_name": "sigmod2013",
+	      "unique_name": "sigmod2013",
 	      "confer_name": "sigmod2013",
 	      "title": "SIGMOD/PODS'13 - ACM International Conference on Management of Data",
 	      "subtitle": "",
@@ -30,7 +30,7 @@
 	{"model": "server.Conference",
 	    "pk": 3,
 	    "fields": {
-	      "conf_name": "sigir2013",
+	      "unique_name": "sigir2013",
 	      "confer_name": "sigir2013",
 	      "title": "SIGIR'13 - ACM International Conference on Research and Development in Information Retrieval",
 	      "subtitle": "",
@@ -44,7 +44,7 @@
 	{"model": "server.Conference",
 	    "pk": 4,
 	    "fields": {
-	      "conf_name": "ijcai2013",
+	      "unique_name": "ijcai2013",
 	      "confer_name": "ijcai2013",
 	      "title": "IJCAI'13 - International Joint Conference on Artificial Intelligence",
 	      "subtitle": "",
