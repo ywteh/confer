@@ -424,8 +424,8 @@ textarea {
 #headlink-left a{
   text-decoration: none;
   color: #F6F6F6;
-  width: 7em;
-  height: 4em;
+  width: 8em;
+  height: 3.7em;
   display: inline-block;
 }
 
@@ -999,8 +999,8 @@ textarea {
 .cover-icon{
   display:inline-block;
   background-repeat: no-repeat;
-  background-size: 5em 3em;
-  width: 5em;
+  background-size: 7em 3em;
+  width: 8em;
   height: 3em;
 }
 

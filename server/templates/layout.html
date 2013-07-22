@@ -37,7 +37,7 @@ Confer Template Layout
   left:0;
   color: #F6F6F6;
   background-image: url({% block logo %}/static/conf/{{conf}}/logo/logo.png {% endblock %});
-  background-size: 5.67em 3.7em;
+  background-size: 8em 3.7em;
   background-repeat: no-repeat;
 }
 </style>
@@ -46,7 +46,7 @@ Confer Template Layout
 <div id="header">
 	<div id="wrap">
 		<span id="headlink-left">
-			<a id="logo" href="/"></a>
+			<a id="logo" href="/{{conf}}/"></a>
 		</span>
 		<span id="headlink-right">
       {% block links %}
