@@ -31,7 +31,17 @@ var login_name = localStorage.getItem('login_name')
 var starred = JSON.parse(localStorage.getItem('starred'))
 var recommended = JSON.parse(localStorage.getItem('recommended'))
 
+if(entities == null) {
+    entities = []
+}
 
+if(sessions == null) {
+    sessions = []
+}
+
+if(schedule == null) {
+    schedule = []
+}
 
 
 
