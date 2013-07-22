@@ -11,7 +11,7 @@ class Migration(SchemaMigration):
         # Adding model 'Conference'
         db.create_table('conferences', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('unique_name', self.gf('django.db.models.fields.CharField')(unique=True, max_length=50)),
+            ('conf_name', self.gf('django.db.models.fields.CharField')(unique=True, max_length=50)),
             ('confer_name', self.gf('django.db.models.fields.CharField')(unique=True, max_length=50)),
             ('title', self.gf('django.db.models.fields.TextField')()),
             ('subtitle', self.gf('django.db.models.fields.TextField')()),
@@ -83,14 +83,14 @@ class Migration(SchemaMigration):
         'server.conference': {
             'Meta': {'ordering': "['-start_date']", 'object_name': 'Conference', 'db_table': "'conferences'"},
             'blurb': ('django.db.models.fields.TextField', [], {}),
+            'conf_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'end_date': ('django.db.models.fields.DateField', [], {}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'location': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'start_date': ('django.db.models.fields.DateField', [], {}),
             'subtitle': ('django.db.models.fields.TextField', [], {}),
-            'title': ('django.db.models.fields.TextField', [], {}),
-            'unique_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'})
+            'title': ('django.db.models.fields.TextField', [], {})
         },
         'server.likes': {
             'Meta': {'object_name': 'Likes', 'db_table': "'likes'"},
