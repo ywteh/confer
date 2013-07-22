@@ -18,16 +18,32 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Global Data */
 
-if(typeof entities == undefined) {
-    entities = []
-}
+function reset(){
 
-if(typeof sessions == undefined) {
-    sessions = []
-}
+    if(typeof entities == "undefined") {
+        entities = {}
+    }
 
-if(typeof schedule == undefined) {
-    schedule = []
+    if(typeof sessions == "undefined") {
+        sessions = {}
+    }
+
+    if(typeof schedule == "undefined") {
+        schedule = []
+    }
+
+    if(typeof offline_recs == "undefined") {
+        schedule = []
+    }
+
+    if(typeof starred == "undefined") {
+        starred = []
+    }
+
+    if(typeof recs == "undefined") {
+        recs = []
+    }
+
 }
 
 
@@ -85,6 +101,7 @@ function refresh(_async_){
 setInterval('refresh();', 60*1000)
 
 refresh(false)
+reset()
 
 /* data structure for pending stars */
 
@@ -1040,12 +1057,6 @@ function add_pending_star(paper_id){
     localStorage.setItem('unstar_pending', JSON.stringify(unstar_pending))
 
 }
-
-
-
-
-
-
 
 
 function handle_session_star(event){
