@@ -4,7 +4,7 @@
 	    "fields": {
 	      "unique_name": "chi2013",
 	      "confer_name": "myCHI",
-	      "title": "CHI '13 - CHI Conference on Human Factors in Computing Systems",
+	      "title": "CHI '13 - ACM CHI Conference on Human Factors in Computing Systems",
 	      "subtitle": "Changing Perspective",
 	      "blurb": "The ACM Conference on Human Factors in Computing Systems (CHI) series of academic conferences is generally considered the most prestigious in the field of human-computer interaction. It is hosted by ACM SIGCHI, the Special Interest Group on Computer-Human Interaction. CHI has been held annually since 1982 and attracts thousands of international attendees.",
 	      "location": "Paris, France",
@@ -18,12 +18,40 @@
 	    "fields": {
 	      "unique_name": "sigmod2013",
 	      "confer_name": "sigmod2013",
-	      "title": "SIGMOD/PODS'13 - International Conference on Management of Data",
+	      "title": "SIGMOD/PODS'13 - ACM International Conference on Management of Data",
 	      "subtitle": "",
 	      "blurb": "The annual ACM SIGMOD/PODS conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences.",
-	      "location": "New York",
+	      "location": "New York, US",
 	      "start_date": "2013-06-22",
 	      "end_date": "2013-06-27"
+	  	}
+	},
+
+	{"model": "server.Conference",
+	    "pk": 3,
+	    "fields": {
+	      "unique_name": "sigir2013",
+	      "confer_name": "sigir2013",
+	      "title": "SIGIR'13 - ACM International Conference on Research and Development in Information Retrieval",
+	      "subtitle": "",
+	      "blurb": "SIGIR is the major international forum for the presentation of new research results and for the demonstration of new systems and techniques in the broad field of information retrieval (IR). SIGIR welcomes contributions related to any aspect of IR theory and foundation, techniques, and applications. Relevant topics include, but are not limited to: Document Representation and Content Analysis (e.g., text representation, document structure, linguistic analysis, non-English IR, cross-lingual IR, information extraction, sentiment analysis, clustering, classification, topic models, facets) Queries and Query Analysis (e.g., query representation, query intent, query log analysis, question answering, query suggestion, query reformulation) Users and Interactive IR (e.g., user models, user studies, user feedback, search interface, summarization, task models, personalized search) Retrieval Models and Ranking (e.g., IR theory, language models, probabilistic retrieval models, feature-based models, learning to rank, combining searches, diversity) Search Engine Architectures and Scalability ( e.g., indexing, compression, MapReduce, distributed IR, P2P IR, mobile devices) Filtering and Recommending (e.g., content-based filtering, collaborative filtering, recommender systems, profiles) Evaluation (e.g., test collections, effectiveness measures, experimental design) Web IR and Social Media Search (e.g., link analysis, query logs, social tagging, social network analysis, advertising and search, blog search, forum search, CQA, adversarial IR, vertical and local search) IR and Structured Data (e.g., XML search, ranking in databases, desktop search, entity search) Multimedia IR (e.g., Image search, video search, speech/audio search, music IR) Other Applications (e.g., digital libraries, enterprise search, genomics IR, legal IR, patent search, text reuse)",
+	      "location": "Dublin, Ireland",
+	      "start_date": "2013-07-27",
+	      "end_date": "2013-08-01"
+	  	}
+	},
+
+	{"model": "server.Conference",
+	    "pk": 4,
+	    "fields": {
+	      "unique_name": "ijcai2013",
+	      "confer_name": "ijcai2013",
+	      "title": "IJCAI'13 - International Joint Conference on Artificial Intelligence",
+	      "subtitle": "",
+	      "blurb": "IJCAI is a meeting of researchers from the different areas of artificial intelligence (AI). It is organized by the IJCAI, Inc., and has been held every other year since 1969. Originally, the other years saw the meetings of the ECAI, AAAI, and a Pacific conference, but currently the AAAI conference runs every year. When it is held in North America it is hosted by the Association for the Advancement of Artificial Intelligence and traditionally replaces the AAAI conference. IJCAI is a highly selective conference. For instance, only 20% of the papers submitted to the conference were accepted in 2005. This makes it a more selective publication than many AI journals.",
+	      "location": "Beijing, China",
+	      "start_date": "2013-08-03",
+	      "end_date": "2013-08-09"
 	  	}
 	}
 ]
