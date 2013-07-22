@@ -198,10 +198,13 @@ def reset(request, addr):
 '''
 PAGES
 '''
-
+@login_required
 def home(request):
-	conferences = Conference.objects.all().values()
-	return render_to_response('home.html', {'conferences':conferences})
+	try:
+		conferences = Conference.objects.all().values()
+		return render_to_response('home.html', {'conferences':conferences})
+	except:
+		pass
 
 
 @login_required
@@ -249,22 +252,17 @@ def paper(request, conf):
 
 
 
-def add_registration(login, conf):
-	try:
-		user = User.objects.get(email = login)
-		conf = Conference.objects.get(unique_name = conf)
-		registration = Registration(user = user, conf = conf)
-		return registration
-	except:
-		return None
-
-
 def get_registration(login, conf):
 	try:
 		user = User.objects.get(email = login)
-		conf = Conference.objects.get(unique_name = conf)
-		registration = Registration.objects.get(user = user, conf = conf)
-		return registration
+		conference = Conference.objects.get(unique_name = conf)
+		try:
+			registration = Registration.objects.get(user = user, conference = conference)
+			return registration
+		except Registration.DoesNotExist:
+			registration = Registration(user = user, conference = conference)
+			registration.save()
+			return registration
 	except:
 		return None
 
@@ -297,7 +295,6 @@ def data(request):
 		return HttpResponse(json.dumps({
 			'login_id': login,
 			'conf_id': conf,
-			'registration_id': registration,
 			'login_name': request.session[kName],
 			'recs':recs, 
 			'likes':likes
