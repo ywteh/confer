@@ -26,10 +26,12 @@ class Conference(models.Model):
 	class Meta:
 		app_label = 'server'
 		db_table = "conferences"
+		ordering = ["-start_date"]
 
 
 class User(models.Model):
 	id = models.AutoField(primary_key=True)
+	timestamp = models.DateTimeField(auto_now=True)
 	email = models.CharField(max_length=100, unique = True)
 	f_name = models.CharField(max_length=50)
 	l_name = models.CharField(max_length=50)
@@ -45,6 +47,7 @@ class User(models.Model):
 
 class Registration(models.Model):
 	id = models.AutoField(primary_key=True)
+	timestamp = models.DateTimeField(auto_now=True)
 	user = models.ForeignKey('User')
 	conference = models.ForeignKey('Conference')
 
@@ -58,6 +61,7 @@ class Registration(models.Model):
 
 class Likes(models.Model):
 	id = models.AutoField(primary_key=True)
+	timestamp = models.DateTimeField(auto_now=True)
 	registration = models.ForeignKey('Registration')
 	likes = models.TextField()
 
@@ -71,6 +75,7 @@ class Likes(models.Model):
 
 class Logs(models.Model):
 	id = models.AutoField(primary_key=True)
+	timestamp = models.DateTimeField(auto_now=True)
 	registration = models.ForeignKey('Registration')
 	action = models.CharField(max_length=50)
 	data = models.TextField()
@@ -81,4 +86,5 @@ class Logs(models.Model):
 	class Meta:
 		app_label = 'server'
 		db_table = "logs"
+		ordering = ["-timestamp"]
 

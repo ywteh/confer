@@ -25,6 +25,7 @@ class Migration(SchemaMigration):
         # Adding model 'User'
         db.create_table('users', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('email', self.gf('django.db.models.fields.CharField')(unique=True, max_length=100)),
             ('f_name', self.gf('django.db.models.fields.CharField')(max_length=50)),
             ('l_name', self.gf('django.db.models.fields.CharField')(max_length=50)),
@@ -35,6 +36,7 @@ class Migration(SchemaMigration):
         # Adding model 'Registration'
         db.create_table('registrations', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.User'])),
             ('conference', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Conference'])),
         ))
@@ -43,6 +45,7 @@ class Migration(SchemaMigration):
         # Adding model 'Likes'
         db.create_table('likes', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('registration', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
             ('likes', self.gf('django.db.models.fields.TextField')()),
         ))
@@ -51,6 +54,7 @@ class Migration(SchemaMigration):
         # Adding model 'Logs'
         db.create_table('logs', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('registration', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Registration'])),
             ('action', self.gf('django.db.models.fields.CharField')(max_length=50)),
             ('data', self.gf('django.db.models.fields.TextField')()),
@@ -77,7 +81,7 @@ class Migration(SchemaMigration):
 
     models = {
         'server.conference': {
-            'Meta': {'object_name': 'Conference', 'db_table': "'conferences'"},
+            'Meta': {'ordering': "['-start_date']", 'object_name': 'Conference', 'db_table': "'conferences'"},
             'blurb': ('django.db.models.fields.TextField', [], {}),
             'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'end_date': ('django.db.models.fields.DateField', [], {}),
@@ -92,19 +96,22 @@ class Migration(SchemaMigration):
             'Meta': {'object_name': 'Likes', 'db_table': "'likes'"},
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'likes': ('django.db.models.fields.TextField', [], {}),
-            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
+            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         },
         'server.logs': {
-            'Meta': {'object_name': 'Logs', 'db_table': "'logs'"},
+            'Meta': {'ordering': "['-timestamp']", 'object_name': 'Logs', 'db_table': "'logs'"},
             'action': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
             'data': ('django.db.models.fields.TextField', [], {}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"})
+            'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         },
         'server.registration': {
             'Meta': {'object_name': 'Registration', 'db_table': "'registrations'"},
             'conference': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Conference']"}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
             'user': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.User']"})
         },
         'server.user': {
@@ -113,7 +120,8 @@ class Migration(SchemaMigration):
             'f_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'l_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
-            'password': ('django.db.models.fields.CharField', [], {'max_length': '500'})
+            'password': ('django.db.models.fields.CharField', [], {'max_length': '500'}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         }
     }
 
