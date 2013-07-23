@@ -13,10 +13,7 @@ localStorage.removeItem('user_recs')
 <form method="POST" action="/login">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
-	<h3>Confer</h3>
-	<p class="teaser">
-	Confer helps you build a personal schedule for conference you are attending. It helps you decide where to spend your precious time by providing social recommendations based on your interests.
-	</p>
+	<h3>Confer Login</h3>
 	<hr />
 	<label for="username">Email</label><br />
 	<input type="text" name="login_email" id="login_email" placeholder="Your email address"/><br /><br />
