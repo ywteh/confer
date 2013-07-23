@@ -44,15 +44,16 @@ LOGIN/REGISTER
 def login_required(f):
     def wrap(request, *args, **kwargs):
         if kLogIn not in request.session.keys():
-            return HttpResponseRedirect("/login")
+        	redirect_url = urllib.quote("/%s/%s" %(args[0], f.__name__))
+        	return HttpResponseRedirect("/login?redirect_url=%s" %(redirect_url))
         return f(request, *args, **kwargs)
     wrap.__doc__ = f.__doc__
     wrap.__name__ = f.__name__
     return wrap
 
 
-def login_form(request):
-    c = {}
+def login_form(request, redirect_url):
+    c = {'redirect_url':redirect_url}
     c.update(csrf(request))
     return render_to_response('login.html', c)
 
@@ -63,7 +64,7 @@ def register_form(request):
     return render_to_response('register.html', c)
 
 
-def login(request, redirect_url='/'):
+def login(request):
     if request.method == "POST":
         try:
             login_email = request.POST["login_email"]
@@ -72,13 +73,14 @@ def login(request, redirect_url='/'):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
-            return HttpResponseRedirect(redirect_url)
+            return HttpResponseRedirect(request.POST['redirect_url'])
         except:
-            print sys.exc_info()
-            return login_form(request)
+            print sys.exc_info()           
     else:
-        return login_form(request)
-
+    	redirect_url = '/'
+        if('redirect_url' in request.GET.keys()):
+        	redirect_url = request.GET['redirect_url']
+        return login_form(request, redirect_url)
 
 def register(request, redirect_url='/'):
     if request.method == "POST":
@@ -106,7 +108,7 @@ def logout(request):
     	del request.session[kLogIn]
     if kName in request.session.keys():
     	del request.session[kName]
-    return HttpResponseRedirect('/login')
+    return HttpResponseRedirect('/')
 
 
 
@@ -201,16 +203,15 @@ def reset(request, addr):
 '''
 PAGES
 '''
-@login_required
+
 def home(request):
 	try:
 		conferences = Conference.objects.all().values()
-		return render_to_response('home.html', {'conferences':conferences, 'login_name':request.session[kName]})
+		return render_to_response('home.html', {'conferences':conferences})
 	except:
 		pass
 
 
-@login_required
 def conf(request,conf):
 	try:
 		request.session[kConf] = conf
@@ -245,13 +246,9 @@ def paper(request, conf):
 	try:
 		request.session[kConf] = conf
 		return render_to_response('paper.html', 
-		{'conf':conf,
-		'login_id': request.session[kLogIn], 
-		'login_name': request.session[kName]})
-	except KeyError:
-		return HttpResponseRedirect('/login')
+		{'conf':conf})
 	except:
-		return HttpResponseRedirect('/error')
+		return HttpResponseRedirect('/')
 
 
 

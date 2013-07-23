@@ -12,6 +12,7 @@ localStorage.removeItem('user_recs')
 </script>
 <form method="POST" action="/login">
 	{% csrf_token %}
+	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
 	<h3>Confer</h3>
 	<p class="teaser">
 	Confer helps you build a personal schedule for conference you are attending. It helps you decide where to spend your precious time by providing social recommendations based on your interests.
