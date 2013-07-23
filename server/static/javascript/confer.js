@@ -970,9 +970,7 @@ function update_session_view(){
             session.removeClass('s_starred')
         }
         
-    });
-    
-    
+    });   
 
     update_sessions_count();
 }
@@ -1230,30 +1228,6 @@ function load_paper(){
 
 
 
-
-function load_similar_people(){
-    var raw_html = ''
-    if(user_recs == null)
-        return
-    for(var i = 0; i< user_recs.length; i++){
-        raw_html += '<tr class="paper"><td class="metadata"></td><td class="content">' 
-        if(user_recs[i].email)
-            raw_html += '<h3>' + '<a href="mailto:'+user_recs[i].email+'">' + user_recs[i].email + '</a></h3>'
-        if(user_recs[i].given_name && user_recs[i].family_name)
-            raw_html += '<h4>' + user_recs[i].given_name + ' ' + user_recs[i].family_name + '</h4>'
-        if(user_recs[i].inst)
-            raw_html += user_recs[i].inst + '<br />'
-        if(user_recs[i].dept)
-            raw_html += '' + user_recs[i].dept + '<br />'
-        if(user_recs[i].country)
-            raw_html += '' + user_recs[i].country + '<br />'
-        raw_html += '</td></tr>'           
-    } 
-    $('#similar_people').html(raw_html)     
-} 
-
-
-
 function update_papers_count(){
     setTimeout('update_papers_count_async();', 0)
 }
@@ -1335,14 +1309,11 @@ function append_recs(){
         var d = $(this).attr("data")
         visible_recs.push(d)
     })
-    //console.log(visible_recs)
     var n = $("#recs tr:visible").length
     $("#recs tr:hidden").remove()  
     var raw_html = ''
     for(var r in recommended){
-        //console.log(visible_recs, recommended[r].id)
         if(visible_recs.indexOf(recommended[r].id) == -1){
-            //console.log('not exists')
             raw_html += get_paper_html(recommended[r].id)
         }
     }
@@ -1468,17 +1439,8 @@ function populate_schedule(){
 function apply_filters(){
     var day_classes = '.'+$('.day.active').attr("data")
     var time_classes = '.'+$('.time.active').attr("data")
-    //var personas_classes = '.'+$('.persona.active').attr("data")
-   // var venues_classes = '.'+$('.venue.active').attr("data")
-    //var communities_classes = '.'+$('.community.active').attr("data")
     var papers_classes = '.'+$('.p_session.active').attr("data")
-    /*
-    console.log(day_classes)
-    console.log(time_classes)
-    console.log(venues_classes)
-    console.log(personas_classes)
-    console.log(papers_classes)
-    */
+    
 
     var select_class = $('.session')
     if(day_classes != '.all'){
@@ -1488,18 +1450,6 @@ function apply_filters(){
     if(time_classes!='.all'){               
         select_class = select_class.filter(time_classes)                
     }
-/*
-    if(personas_classes!='.all'){               
-        select_class = select_class.filter(personas_classes)                
-    }
-
-    if(venues_classes!='.all'){             
-        select_class = select_class.filter(venues_classes)              
-    }
-    if(communities_classes!='.all'){             
-        select_class = select_class.filter(communities_classes)              
-    }
-    */
 
     if(papers_classes!='.all'){             
         select_class = select_class.filter(papers_classes)              
@@ -1522,10 +1472,6 @@ function apply_filters(){
 function setup_filters(){
     $('.filter').off('click')
     $('.filter').on('click', function(){       
-        //enable_loading("applying filter...");
-        //$("#search_session").val("")
-        //$("#search_session").blur()
-        //reset_sessions()
         var attr = $(this).attr("type")
         $('.'+attr).removeClass('active')
 
