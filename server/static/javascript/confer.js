@@ -18,6 +18,8 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Global Data */
 
+
+
 function reset(){
 
     if(typeof entities == "undefined") {
@@ -33,7 +35,7 @@ function reset(){
     }
 
     if(typeof offline_recs == "undefined") {
-        schedule = []
+        offline_recs = []
     }
 
     if(typeof starred == "undefined") {

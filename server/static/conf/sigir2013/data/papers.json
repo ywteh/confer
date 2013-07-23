@@ -1,0 +1,620 @@
+entities = {
+  "dc01": {
+    "abstract": "We propose to explicitly exploit issues related to novelty and diversity  in tag recommendation tasks, an unexplored research avenue (only relevance issues have been investigated so far), in order to improve user experience and satisfaction.  We propose new tag recommendation strategies to cover these issues and highlight the involved challenges.",
+    "title": "Beyond Relevance: On Novelty and Diversity in Tag Recommendation",
+    "authors": [
+      {
+        "affiliation": "Universidade Federal de Minas Gerais",
+        "location": "Minas Gerais, Brazil",
+        "name": "Fabiano Muniz Belém",
+        "email": "fmuniz@dcc.ufmg.br"
+      }
+    ]
+  },
+  "dc02": {
+    "abstract": "",
+    "title": "Group-Support for Task-Based Information Searching:A Knowledge-Based Approach",
+    "authors": [
+      {
+        "affiliation": "University of Hagen",
+        "location": "Hagen, Germany",
+        "name": "Thilo Böhm",
+        "email": "thilo.boehm@fernuni-hagen.de"
+      }
+    ]
+  },
+  "dc03": {
+    "abstract": "The need for a search engine to deal with ambiguous queries has been known for a long time (diversification). However, it is only recently that this need has become a focus within information retrieval research. How to respond to indications that a result is relevant to a query (relevance feedback) has also been a long focus of research. When thinking about the results for a query as being clustered by topic, these two areas of information retrieval research appear to be opposed to each other. Interestingly though, they both appear to improve the performance of search engines, raising the question: they can be combined or made to work with each other? When presented with an ambiguous query there are a number of techniques that can be employed to better select results. The primary technique being researched now is diversification, which aims to populate the results with a set of documents that cover different possible interpretations for the query, while maintaining a degree of relevance, as determined by the search engine. For example, given a query of java it is unclear whether the user, without any other information, means the programming language, the coffee, the island of Indonesia or a multitude of other meanings. In order to do this the assumption that documents are independent of each other when assessing potential relevance has to be broken. That is, a documents relevance, as calculated by the search engine, is no longer dependent only on the query, but also the other documents that have been selected. How a document is identified as being similar to previously selected documents, and the trade off between estimated relevance and topic coverage are current areas for information retrieval research. For unambiguous queries, or for search engines that do not perform diversification, it is possible to improve the results selected by reacting to information identifying a given result as truly relevant or not. This mechanism is known as relevance feedback. The most common response to relevance feedback is to investigate the documents for their most content-bearing terms, and either add, or subtract, their influence to a newly formed query which is then re-run on the remaining documents to re-order them. There has been a scant amount of research into the combination of these methods. However, Carbonell show that an initially diverse result set can provide a better approach for identifying the topic a user is interested in for a relevance feedback style approach. This approach was further extended by Raman. An important aspect of relevance feedback is the selection of documents to use. In the 2008 TREC relevance feedback track, Meij generated a diversified result set which outperformed other rankings as a source of feedback documents. The use of pseudo-relevance feedback (assuming the top ranked documents are relevant) to extract sub-topics for use in diversification was explored by Santos. These previous approaches suggest that these two ideas are more linked than expected. The ATIRE search engine will be used to further explore the relationship between diversification and relevance feedback. ATIRE was selected because it is developed locally, and is designed to be small and fast. ATIRE also produces a competitive baseline, which would have placed 6th in the 2011 TREC diversity task while performing no diversification and index-time spam filtering, although we concede this is not equivalent to submitting a run.",
+    "title": "Diversified Relevance Feedback",
+    "authors": [
+      {
+        "affiliation": "University of Otago",
+        "location": "Otago, New Zealand",
+        "name": "Matt Crane",
+        "email": "mcrane@cs.otago.ac.nz"
+      }
+    ]
+  },
+  "dc04": {
+    "abstract": "The importance of Information Retrieval (IR) in audio-visual recordings has been increasing with steeply growing numbers of audio-visual documents available on-line. Compared to traditional IR methods, this task requires specific techniques, such as Passage Retrieval which can accelerate the search process by retrieving the exact relevant passage of a recording instead of the full document. In Passage Retrieval, full recordings are divided into shorter segments which serve as individual documents for the further IR setup. This technique also allows normalizing document length and applying positional information. It was shown that it can even improve retrieval results. In this work, we examine two general strategies for Passage Retrieval: blind segmentation into overlapping regular-length passages and segmentation into variable-length passages based on semantics of their content. Time-based segmentation was already shown to improve retrieval of textual documents and  audio-visual recordings. Our experiments performed on the test collection used in the Search subtask of the Search and Hyperlinking Task in MediaEval Benchmarking 2012 confirm those findings and show that parameters (segment length and shift) tuning for a specific test collection can further improve the results. Our best results on this collection were achieved by using 45-second long segments with 15-second shifts. Semantic-based segmentation can be divided into three types: similarity-based (producing segments with high intra-similarity and low inter-similarity), lexical-chain-based (producing segments with frequent lexically connected words), and feature-based (combining various features which signalize a segment break in a machine-learning setting). In this work, we mainly focus on feature-based segmentation which allows exploiting various features from all modalities of the data (including segment length) in a single trainable model and produces segments which can eventually overlap. Our preliminary results show that even simple semantic-based segmentation outperforms regular segmentation. Our model is a decision tree incorporating the following features: shot segments, output of TextTiling algorithm, cue words (well, thanks, so, I, now), sentence breaks, and the length of the silence after the previous word. In terms of the MASP, the relative improvement over regular segmentation is more than 19%.",
+    "title": "Segmentation Strategies for Passage Retrieval in Audio-Visual Documents",
+    "authors": [
+      {
+        "affiliation": "Charles University",
+        "location": "Prague, Czech Republic",
+        "name": "Petra Galušáková",
+        "email": "galuscakova@ufal.mff.cuni.cz"
+      }
+    ]
+  },
+  "dc05": {
+    "abstract": "Structural information retrieval is mostly based on hierarchy. However, in real life information is not purely hierarchical and structural elements may overlap each other. The most common example is a document with two distinct structural views, where the logical view is and the physical view is . Each single structural view of this document is a hierarchy and the components are either disjoint or nested inside each other. The overlapping issue arises when one structural element cannot be neatly nested into others. For instance, when a paragraph starts in one page and terminates in the next page. Similar situations can appear in videos and other multimedia contents, where temporal or spatial constituents of a media file may overlap each other. Querying over overlapping structures is one of the challenges of large scale search engines. For instance, FSIS (FAST Search for Internet Sites) is a Microsoft search platform, which encounters overlaps while analysing content of textual data. FSIS uses a pipeline process to extract structure and semantic information of documents. The pipe\-line contains several components, where each component writes annotations to the input data. These annotations consist of structural elements and some of them may overlap each other. Handling overlapping structures in search engines will add a novel capability of searching, where users can ask queries such as Find all the words that overlap two lines or  Find the music played during Intro scene of Avatar movie. There are also other use cases, where the user of the search engine is not a person, but is a specific program with complex, non-traditional information retrieval needs. This research attempts to index overlapping structures and provide efficient query processing for large-scale search engines. The current research on overlapping structures revolves around encoding and modelling data, while indexing and query processing methods need investigations. Moreover, due to intrinsic complexity of overlaps, XML indexing and query processing techniques cannot be used for overlapping structures. Hence, my research on overlapping structures comprises three main parts: (1) an indexing method that supports both hierarchies and overlaps; (2) a query processing method based on the indexing technique and (3) a query language that is close to natural language and supports both full text and structural queries. Our approach for indexing overlaps is to adapt the PrePost XML indexing method to overlapping structures. This method labels each node with its start and end positions and requires modest storage space. However, PrePost indexing cannot be used for overlapping nodes. To overcome this issue, we need to define a data model for overlapping structures.  Since hierarchies are not sufficient to describe overlapping components, several data structures have been introduced by scholars. One of the most interesting data models is GODDAG. GODDAG is a tree-like graph, where nodes can have multiple parentage. This model can  support overlaps as well as simple inheritance. Our proposed data model for indexing overlaps is such a tree-like structure, where we can define overlapping, parent-child and  ancestor-descendant relationships.",
+    "title": "Indexing and Querying Overlapping Structures",
+    "authors": [
+      {
+        "affiliation": "Norwegian University of Science and Technology",
+        "location": "Trondheim, Norway",
+        "name": "Faegheh Hasibi",
+        "email": "faeghehh@idi.ntnu.no"
+      }
+    ]
+  },
+  "dc06": {
+    "abstract": "Electronic medical records (EMRs) are being increasingly used worldwide to facilitate improved healthcare services [2,3]. They describe the clinical decision process relating to a patient, detailing the observed symptoms, the conducted diagnostic tests, the identified diagnoses and the prescribed treatments. However, medical records search is challenging, due to the implicit knowledge inherent within the medical records - such knowledge may be known by medical practitioners, but hidden to an information retrieval (IR) system [3]. For instance, the mention of a treatment such as a drug may indicate to a practitioner that a particular diagnosis has been made even if this was not explicitly mentioned in the patient s EMRs. Moreover, the fact that a symptom has not been observed by a clinician may rule out some specific diagnoses. Our work focuses on searching EMRs to identify patients with medical histories relevant to the medical condition(s) stated in a query. The resulting system can be beneficial to healthcare providers, administrators, and researchers who may wish to analyse the effectiveness of a particular medical procedure to combat a specific disease [2,4]. During retrieval, a healthcare provider may indicate a number of inclusion criteria to describe the type of patients of interest. For example, the used criteria may include personal profiles (e.g. age and gender) or some specific medical symptoms and tests, allowing to identify patients that have EMRs matching the criteria. To attain effective retrieval performance, we hypothesise that, in such a medical IR system, both the information needs and patients should be modelled based on how the medical process is developed. Specifically, our thesis states that since the medical decision process typically encompasses four aspects (symptom, diagnostic test, diagnosis, and treatment), a medical search system should take into account these aspects and apply inferences to recover possible implicit knowledge. We postulate that considering these aspects and their derived implicit knowledge at different levels of the retrieval process (namely, sentence, record, and inter-record level) enhances the retrieval performance. Indeed, we propose to build a query and patient understanding framework that can gain insights from EMRs and queries, by modelling and reasoning during retrieval in terms of the four aforementioned aspects (symptom, diagnostic test, diagnosis, and treatment) at three different levels of the retrieval process.",
+    "title": "A Query and Patient Understanding Framework for Medical Records Search",
+    "authors": [
+      {
+        "affiliation": "University of Glasgow",
+        "location": "Glasgow, Scotland, UK",
+        "name": "Nut Limsopatham",
+        "email": "nutli@dcs.gla.ac.uk"
+      }
+    ]
+  },
+  "dc07": {
+    "abstract": "The task of Question Answering (QA) is to find correct an- swers to users’ questions expressed in natural language. In the last few years non-factoid QA received more attention. It focuses on causation, manner and reason questions, where the expected answer has the form of a passage of text. The presence of question and answers corpora allows the adop- tion of Learning to Rank (MLR) algorithms in order to out- put a sensible ranking of the candidate answers. The importance and effectiveness of linguistically moti- vated features, obtained from syntax, lexical semantics and semantic role labelling, was shown in literature [2–4], but there are still several different possible semantic features that have not been taken into account so far and our goal is to find out if their use could lead to performance im- provement. In particular features coming from Semantic Models (SM) like Distributional Semantic Models (DSMs), Explicit Semantic Analysis (ESA), Latent Dirichlet Alloca- tion (LDA) induced topics have never been applied to the task so far. Based on the usefulness that those models show in other tasks, we think that SM can have a significant role in improving current state-of-the-art systems’ performance in answer re-ranking. The questions this research wants to answer are: 1) Do semantic features bring information that is not present in the bag-of-words and syntactic features? 2) Do they bring different information or does it overlap with that of other features? 3) Are additional semantic features useful for answer re-ranking? Does their adoption improve systems’ per- formance? 4) Which of them is more effective and under which circumstances? We performed a preliminary evaluation of DSMs on the ResPubliQA 2010 Dataset. We built a DSM based answer scorer that represents the question and the answer as the sums of the vectors of their terms taken term-term co-occurrence matrix and calculates their cosine similarity. We replaced the term-term matrix with the ones obtained by Random Indexing (RI), Latent Semantic Analysis (LSA) and LSA over the RI. Considering each DSM on its own, the results prove that all the DSMs are better than the baseline (the standard term-term co-occurrence matrix), and the improve- ment is always significant. The best improvement for the MRR in English is obtained by LSA (+180%), while in Italian by LSARI (+161%). We also showed that combining the DSMs with overlap based measures via CombSum the ranking is significantly better than the baseline obtained by the overlap measures alone. For English we have obtained an improvement in MRR of about 16% and for Italian, we achieve a even higher improvement in MRR of 26%. Fi- nally, adopting RankNet for combining the overlap features and the DSMs features, improves the MRR of about 13%. More details can be found in [1]. In order to investigate the effectiveness of the semantic features, we still need to incorporate other semantic features, such as ESA, LDA and other state-of-the-art linguistic fea- tures. Other operators for semantic compositionality, like product, tensor product and circular convolution, will also be investigated. Moreover we will experiment on different datasets, focus- ing mainly on non-factoid QA. The Yahoo! Answers Man- ner Questions datasets are a good starting point. A new dataset will also be collected with questions from the users of Wikiedi (a QA system over Wikipedia articles, www.wikiedi.it) and answers in the form of paragraphs from Wikipedia pages.",
+    "title": "Semantic Models for Answer Re-ranking in Question Answering",
+    "authors": [
+      {
+        "affiliation": "University of Bari Aldo Moro",
+        "location": "Bari, Italy",
+        "name": "Piero Molino",
+        "email": "piero.molino@uniba.it"
+      }
+    ]
+  },
+  "dc08": {
+    "abstract": "",
+    "title": "Task Differentiation for Personal Search Evaluation",
+    "authors": [
+      {
+        "affiliation": "RMIT University",
+        "location": "Melbourne, Victoria, Australia",
+        "name": "Seyedeh Sargol Sadeghi",
+        "email": "seyedeh.sadeghi@rmit.edu.au"
+      }
+    ]
+  },
+  "dc09": {
+    "abstract": "Today's working world of knowledge workers is changing rapidly. The available information that they need to process is ever growing. In addition, the characteristics of their work are changing as people can and do their work from home. This has resulted in the need to support knowledge workers in order to prevent burnouts. The project SWELL (http://www.swell-project.net) targets this by developing systems that support user's mental and physical well-being at work and at home. In the PhD project presented in this abstract we aim at maintaining well-being at work through information support.",
+    "title": "The Role of Current Working Context in Professional Search",
+    "authors": [
+      {
+        "affiliation": "University Nijmegen",
+        "location": "Nijmegen,  Netherlands",
+        "name": "Maya Sappelli",
+        "email": "m.sappelli@cs.ru.nl"
+      }
+    ]
+  },
+  "dc10": {
+    "abstract": "",
+    "title": "How far will you go? Characterizing and predicting online search stopping behavior using Information Scent and Need for Cognition",
+    "authors": [
+      {
+        "affiliation": "University of North Carolina at Chapel Hill",
+        "location": "Chapel Hill, NC, USA",
+        "name": "Wan-Ching Wu",
+        "email": "wanchinw@live.unc.edu"
+      }
+    ]
+  },
+  "dc11": {
+    "abstract": "Expert retrieval has been widely studied especially after the introduction of Expert Finding task in the TREC s Enterprise Track in 2005 [3]. This track provided two different test collections crawled from two organizations  public-facing websites and internal emails which led to the development of many state-of-the-art algorithms on expert retrieval [1]. Until recently, these datasets were considered good representatives of the information resources available within enterprise. However, the recent growth of social media also influenced the work environment, and social media became a common communication and collaboration tool within organizations. According to a recent survey by McKinsey Global Institute [2], 29\% of the companies use at least one social media tool for matching their employees to tasks, and 26\% of them assess their employees  performance by using social media. This shows that intra-organizational social media became an important resource to identify expertise within organizations. In recent years, in addition to the intra-organizational social media, public social media tools like Twitter, Facebook, LinkedIn also became common environments for searching expertise. These tools provide an opportunity for their users to show their specific skills to the world which motivates recruiters to look for talented job candidates on social media, or writers and reporters to find experts for consulting on specific topics they are working on. With these motivations in mind, in this work we propose to develop expert retrieval algorithms for intra-organizational and public social media tools. Social media datasets have both challenges and advantages. In terms of challenges, they do not always contain context on one specific domain, instead one social media tool may contain discussions on technical stuff, hobbies or news concurrently. They may also contain spam posts or advertisements. Compared to well-edited enterprise documents, they are much more informal in language. Furthermore, depending on the social media platform, they may have limits on the number of characters used in posts. Even though they include the challenges stated above, they also bring some unique authority signals, such as votes, comments, follower/following information, which can be useful in estimating expertise. Furthermore, compared to previously used enterprise documents, social media provides clear associations between documents and candidates in the context of authorship information. In this work, we propose to develop expert retrieval approaches which will handle these challenges while making use of the advantages. Expert retrieval is a very useful application by itself; furthermore, it can be a step towards improving other social media applications. Social media is different than other web based tools mainly because it is dependent on its users. In social media, users are not just content consumers, but they are also the primary and sometimes the only content creators. Therefore, the quality of any user-generated content in social media depends on its creator. In this thesis, we propose to use expertise of users in order to improve the existing applications so that they can estimate the relevancy of a content not just based on the content, but also based on the expertise of the content creator. By using expertise of the content generator, we also hope to boost contents that are more reliable. We propose to apply this user s expertise information in order to improve ad-hoc search and question answering applications in social media. In this work, previous TREC enterprise datasets, available intra-organizational social media and public social media datasets will be used to test the proposed algorithms.",
+    "title": "Effective Approaches to Retrieving and Using Expertise in Social Media",
+    "authors": [
+      {
+        "affiliation": "Carnegie Mellon University",
+        "location": "Pittsburgh, PA, USA",
+        "name": "Reyyan Yeniterzi",
+        "email": "reyyan@cs.cmu.edu"
+      }
+    ]
+  },
+  "tut01": {
+    "abstract": "This tutorial will cover the process of building and validating IR test collections. The goal is not for attendees to kick off their own evaluation campaigns, but to enable them to consider whether they may be able to build their own test collections to support their research. At the end of the day, attendees will be familiar with the history of the test collection evaluation paradigm; the design process starting from identifying user tasks and abstracting them; different ways of establishing a document collection; methods for operationalizing relevance; strategies for identifying items in the collection to label, including pooling and sampling; and methods for measuring and validating test collections.",
+    "title": "Building Test Collections: An Interactive Guide for Students and Others Without their own Evaluation Conference Series",
+    "authors": [
+      {
+        "affiliation": "National Institute of Standards and Technology",
+        "location": "Gaithersburg, MD, USA",
+        "name": "Ian Soboroff",
+        "email": "ian.soboroff@nist.gov"
+      }
+    ]
+  },
+  "tut02": {
+    "abstract": "This full-day tutorial presents a comprehensive introduction to entity linking and retrieval. Part I provides a detailed overview of entity linking, which addresses identifying and disambiguating entity occurrences in unstructured text. We introduce the fundamental concepts and principles underlying entity linking, and detail state-of-the-art algorithms including unsupervised solutions, graph-based methods, and feature-based approaches in a machine learning setting. We continue with applications of entity linking for IR and conclude this part with a discussion of evaluation methodologies and initiatives in the context of entity linking. Part II focuses on entity retrieval and begins with a study of scenarios where explicit representations of entities are available in the form of, e.g., Wikipedia pages or RDF triples. We then continue in a setting with more complex queries, requiring evidence to be collected and aggregated from massive volumes of unstructured textual data (with the potential help of some structured data). Such complex queries require a combination of techniques from both entity linking and entity retrieval. Throughout Part II, two main families of models are discussed: generative language models and discriminative feature-based models. Both the entity linking and entity retrieval parts are anchored in recent evaluation efforts conducted at standard benchmarking campaigns such as INEX, TAC, and TREC. We introduce test collections, tasks, evaluation methodology, and experimental results from these evaluation initiatives. Part III concludes the tutorial with an overview and hands-on comparative analysis of applications and publicly available toolkits and web services.",
+    "title": "Entity Linking and Retrieval",
+    "authors": [
+      {
+        "affiliation": "Yahoo! Research",
+        "location": "Barcelona, Spain",
+        "name": "Edgar Meij",
+        "email": "emeij@yahoo-inc.com"
+      },
+      {
+        "affiliation": "University of Stavanger",
+        "location": "Stavanger, Norway",
+        "name": "Krisztian Balog",
+        "email": "krisztian.balog@uis.no"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "name": "Daan Odijk",
+        "email": "d.odijk@uva.nl"
+      }
+    ]
+  },
+  "tut03": {
+    "abstract": "This tutorial serves as an introductory course to the field of and state-of-the-art in music information retrieval (MIR) and in particular to music similarity estimation which is an essential component of music retrieval. Apart from briefly explaining approaches that estimate similarity based on acoustic properties of an audio signal, we will review methods that exploit (mostly textual) meta-data from the web to build representations of music then used for similarity calculation. Additionally, topics such as (large-scale) music indexing, information extraction for music, personalisation and adaptation in music retrieval, and evaluation of MIR systems will be addressed.",
+    "title": "Music Similarity and Retrieval",
+    "authors": [
+      {
+        "affiliation": "Johannes Kepler University Linz",
+        "location": "Linz, Austria",
+        "name": "Peter Knees and Markus Schedl",
+        "email": "peter.knees@jku.at"
+      }
+    ]
+  },
+  "tut04": {
+    "abstract": "The cluster hypothesis (van Rijsbergen '79) states that “closely associated documents tend to be relevant to the same requests”. This is one of the most fundamental and influential hypotheses in the information retrieval field. This tutorial will survey the different lines of work that the hypothesis has given rise to (e.g., cluster-based retrieval, using topic modeling for retrieval, search results visualization). The survey will be accompanied by an in-depth analysis of the retrieval techniques that are inspired by the cluster hypothesis and which are used for various tasks including ad hoc retrieval, meta-search, microblog (e.g., Twitter) retrieval, query-performance prediction, search-results diversification.",
+    "title": "The Cluster Hypothesis in Information Retrieval",
+    "authors": [
+      {
+        "affiliation": "Technion - Israel Institute of Technology",
+        "location": "Haifa, Israel",
+        "name": "Oren Kurland",
+        "email": "kurland@ie.technion.ac.il"
+      }
+    ]
+  },
+  "tut05": {
+    "abstract": "Commercial web search engines rely on very large compute infrastructures to be able to cope with the continuous growth of the Web and user bases. Achieving scalability and efficiency in such large-scale search engines requires making careful architectural design choices while devising algorithmic performance optimizations. Unfortunately, most details about the internal functioning of commercial web search engines remain undisclosed due to their financial value and the high level of competition in the search market. The main objective of this tutorial is to provide an overview of the fundamental scalability and efficiency challenges in commercial web search engines, bridging the existing gap between the industry and academia.",
+    "title": "Scalability and Efficiency Challenges in Commercial Web Search Engines",
+    "authors": [
+      {
+        "affiliation": "Yahoo! Research",
+        "location": "Barcelona, Spain",
+        "name": "B. Barla Cambazoglu",
+        "email": "barla@yahoo-inc.com"
+      },
+      {
+        "affiliation": "Yahoo! Research",
+        "location": "Barcelona, Spain",
+        "name": "Ricardo Baeza-Yates",
+        "email": "rbaeza@acm.org"
+      }
+    ]
+  },
+  "tut06": {
+    "abstract": "Today plenty of data is emerging from various city systems. Beyond the classical Web resources, large amounts of data are retrieved from sensors, devices, social networks, governmental applications, or service networks. In such a diversity of information, answering specific information needs of city inhabitants requires holistic IR techniques, capable of harnessing different types of city data and turned it into actionable insights to answer different queries. This tutorial will present deep insights, challenges, opportunities and techniques to make heterogeneous city data searchable and show how emerging IR techniques models can be employed to retrieve relevant information for the citizens.",
+    "title": "Searching in the City of Knowledge: Challenges and Recent Developments",
+    "authors": [
+      {
+        "affiliation": "Smarter Cities Technology Centre, IBM Research",
+        "location": "Dublin, Ireland",
+        "name": "Veli Bicer",
+        "email": "velibice@ie.ibm.com"
+      },
+      {
+        "affiliation": "Smarter Cities Technology Centre, IBM Research",
+        "location": "Dublin, Ireland",
+        "name": "Vanessa Lopez",
+        "email": "vanlopez@ie.ibm.com"
+      }
+    ]
+  },
+  "tut07": {
+    "abstract": "Due to the rapid growth of online multimedia information, the problem of information overload has become more and more serious in recent decades. To address the issue, various recommendation technologies have been developed by different research communities (e.g., multimedia systems, information retrieval and machine learning). Meanwhile, many commercial Web systems (e.g., Flick, YouTube, and Last.fm) have successfully applied recommendation techniques to provide users personalized multimedia content and services in a convenient and flexible way. While several tutorials and courses were dedicated to media search and relevant topics in the last few years, to the best of our knowledge, the tutorial should be the pioneering one solely focusing on multimedia recommendation technologies and their applications on various domains and media contents. We will give an overview of multimedia recommender systems and make some predictions about the road that lies ahead for IR researchers. Over long run, we hope that the tutorial provides an impetus for further research on this important topic.",
+    "title": "Multimedia Recommendation: Technology and Techniques",
+    "authors": [
+      {
+        "affiliation": "School of Information Systems, Singapore Management University",
+        "location": "Bras Basah, Singapore",
+        "name": "Jialie Shen",
+        "email": "jlshen@smu.edu.sg"
+      },
+      {
+        "affiliation": "Hefei University of Technology",
+        "location": "Anhui, China",
+        "name": "Meng Wang",
+        "email": "eric.mengwang@gmail.com"
+      },
+      {
+        "affiliation": "National University of Singapore",
+        "location": "Singapore, Singapore",
+        "name": "Shuicheng Yan",
+        "email": "eleyans@nus.edu.sg"
+      },
+      {
+        "affiliation": "Tsinghua University",
+        "location": "Beijing, China",
+        "name": "Peng Cui",
+        "email": "cuip@tsinghua.edu.cn"
+      }
+    ]
+  },
+  "tut08": {
+    "abstract": "Kernel Methods (KMs) are powerful machine learning techniques that can alleviate the data representation problem as they substitute the scalar product between feature vectors with similarity functions (kernels) directly defined between data instances, e.g., syntactic trees, (thus features are not needed any longer). This tutorial aims at introducing essential and simplified theory of Support Vector Machines and KMs for the design of practical applications. It will describe effective kernels for easily engineering automatic classifiers and learning to rank algorithms using structured data and semantic processing. Some examples will be drawn from Question Answering, Passage Re-ranking, Short and Long Text Categorization, Relation Extraction, Named Entity Recognition, Co-Reference Resolution. In particular, state-of-the-art kernel technology currently encoded in the famous IBM deepQA system, Watson, will be described. Finally, some practical demonstrations will be given using the SVM-Light-TK (tree kernel) toolkit.",
+    "title": "Kernel-based Learning to Rank with Syntactic and Semantic Structures",
+    "authors": [
+      {
+        "affiliation": "Qatar Computing Research Institute, Qatar Foundation and DISI, University of Trento)",
+        "location": "Doha, Qatar and Trento, Italy",
+        "name": "Alessandro Moschitti",
+        "email": "amoschitti@qf.org.qa"
+      }
+    ]
+  },
+  "tut09": {
+    "abstract": "Through a stream of active research and experiences, diversity and novelty can be said to have by now consolidated into a significant body of techniques, methodologies, theories, and knowledge in the field of information retrieval. This tutorial aims to provide a unifying account of current research on diversity and novelty in different IR domains. In particular, the tutorial will cover the motivations, as well as the most established approaches for producing and evaluating diverse results in the context of search engines, recommender systems, and data streams. By contrasting the state-of the-art in these multiple domains, this tutorial aims to derive a common understanding of the diversification problem and the existing solutions, their commonalities and differences, as a means to foster new research directions.",
+    "title": "Diversity and Novelty Information Retrieval",
+    "authors": [
+      {
+        "affiliation": "University Federal de Minas Gerais",
+        "location": "Minas Gerais, Brazil",
+        "name": "Rodrygo L.T. Santos",
+        "email": "rodrygo@dcc.ufmg.br"
+      },
+      {
+        "affiliation": "University Autonoma de Madrid",
+        "location": "Madrid, Spain",
+        "name": "Pablo Castells",
+        "email": "pablo.castells@uam.es"
+      },
+      {
+        "affiliation": "Middle East Technical University",
+        "location": "Ankara, Turkey",
+        "name": "Ismail Sengor Altingovde",
+        "email": "altingovde@ceng.metu.edu.tr"
+      },
+      {
+        "affiliation": "Bilkent University",
+        "location": "Ankara, Turkey",
+        "name": "Fazli Can",
+        "email": "canf@cs.bilkent.edu.tr"
+      }
+    ]
+  },
+  "tut10": {
+    "abstract": "Search is not just a box and ten blue links. Search is a journey: an exploration where what we encounter along the way changes what we seek. But in order to guide people along this journey, we must understand both the art and science of search usability. The aim of this tutorial is to deliver a learning experience grounded in good scholarship, integrating the latest research findings with insights derived from the practical experience of designing and optimizing an extensive range of commercial search applications. It focuses on the development of transferable, practical skills that can be learnt and practised within a half-day session.",
+    "title": "Designing Search Usability",
+    "authors": [
+      {
+        "affiliation": "UXLabs",
+        "location": "London, UK",
+        "name": "Tony Russell-Rose",
+        "email": "tgr@uxlabs.co.uk"
+      }
+    ]
+  },
+  "k01": {
+    "abstract": "",
+    "title": "Opening Session: Keynote 1:  Celebrating 20 Years of Web Search",
+    "authors": [
+      {
+        "affiliation": "",
+        "location": "",
+        "name": "Opening Panel",
+        "email": ""
+      },
+    ]
+  },
+  "r1a01": {
+    "abstract": "People’s beliefs, and unconscious biases that arise from those beliefs, influence their judgment, decision making, and actions, as is commonly accepted among psychologists. Biases can be observed in information retrieval in situations where searchers seek or are presented with information that significantly deviates from the truth. There is little understanding of the impact of such biases in search. In this paper we study search-related biases via multiple probes: an exploratory retrospective survey, human labeling of the captions and results returned by a Web search engine, and a large-scale log analysis of search behavior on that engine. Targeting yes-no questions in the critical domain of health search, we show that Web searchers exhibit their own biases and are also subject to bias from the search engine. We clearly observe searchers favoring positive information over negative and more than expected given base rates based on consensus answers from physicians. We also show that search engines strongly favor a particular, usually positive, perspective, irrespective of the truth. Importantly, we show that these biases can be counterproductive and affect search outcomes; in our study, around half of the answers that searchers settled on were actually incorrect. Our findings have implications for search engine design, including the development of ranking algorithms that con-sider the desire to satisfy searchers (by validating their beliefs) and providing accurate answers and properly considering base rates. Incorporating likelihood information into search is particularly important for consequential tasks, such as those with a medical focus.",
+    "title": "Beliefs and Biases in Web Search",
+    "authors": [
+      {
+        "affiliation": "Microsoft Research",
+        "location": "Redmond, WA, USA",
+        "name": "Ryen White",
+        "email": "ryenw@microsoft.com"
+      },
+    ]
+  },
+  "r1a02": {
+    "abstract": "",
+    "title": "Improving Search Result Summaries By Using Searcher Behavior Data",
+    "authors": [
+      {
+        "affiliation": "Lomonosov Moscow State University",
+        "location": "Moscow, Russia",
+        "name": "Mikhail Ageev",
+        "email": "mageev@yandex.ru"
+      },
+      {
+        "affiliation": "Emory University",
+        "location": "Atlanta, GA, USA",
+        "name": "Dmitry Lagun",
+        "email": "dlagun@emory.edu"
+      },
+      {
+        "affiliation": "Emory University",
+        "location": "Atlanta, GA, USA",
+        "name": "Eugene Agichtein",
+        "email": "eugene@mathcs.emory.edu"
+      }
+    ]
+  },
+  "r1a03": {
+    "abstract": "affects how users interact with a search system. Microeconomic theory is used to generate the cost-interaction hypothesis that states as the cost of querying increases, users will pose fewer queries and examine more documents per query. A between-subjects laboratory study with 36 undergraduate subjects was conducted, where subjects were randomly assigned to use one of three search interfaces that varied according to the amount of physical cost required to query: Structured (high cost), Standard (medium cost) and Query Suggestion (low cost). Results show that subjects who used the Structured interface submitted significantly fewer queries, spent more time on search results pages, examined significantly more documents per query, and went to greater depths in the search results list.  Results also showed that these subjects spent longer generating their initial queries, saved more relevant documents and rated their queries as more successful. These findings have implications for the usefulness of microeconomic theory as a way to model and explain search interaction, as well as for the design of query facilities.",
+    "title": "How Query Cost Affects Search Behavior",
+    "authors": [
+      {
+        "affiliation": "University of Glasgow",
+        "location": "Glasgow, Scotland, UK",
+        "name": "Leif Azzopardi",
+        "email": "leif.azzopardi@glasgow.ac.uk"
+      },
+      {
+        "affiliation": "University of North Carolina",
+        "location": "Chapel Hill, NC, USA",
+        "name": "Diane Kelly",
+        "email": "dianek@email.unc.edu"
+      },
+      {
+        "affiliation": "University of North Carolina",
+        "location": "Chapel Hill, NC, USA",
+        "name": "Kathy Brennann",
+        "email": "knb11@live.unc.edu"
+      }
+    ]
+  },
+  "r1a04": {
+    "abstract": "Sometimes, during a search task users may switch from one search engine to another for several reasons, e.g., dissatisfaction with the current search results or desire for broader topic coverage. Detecting the fact of switching is difficult but important for understanding users  satisfaction with the search engine and the complexity of their search tasks, leading to economic significance for search providers. Previous research on switching detection mainly focused on studying different signals useful for the task and particular reasons for switching. Although it is known that switching is a personal choice of a user and different users have different search behavior, little has been done to understand how these differences could be used for switching detection. In this paper we study the effectiveness of learning personal behavior patterns for switching detection and present a personalized approach which uses user s session history containing sessions with and without switches. Experiments show that users  personal habits and behavior patterns are indeed among the most informative signals. Our findings can be used by a search log analyzer for engine switching detection and potentially other log mining problems, thus providing valuable signals for search providers to improve user experience.",
+    "title": "Search Engine Switching Detection Based on User Personal Preferences and Behavior Patterns",
+    "authors": [
+      {
+        "affiliation": "Emory University",
+        "location": "Atlanta, GA, USA",
+        "name": "Denis Savenkov",
+        "email": "dsavenk@emory.edu"
+      },
+      {
+        "affiliation": "Emory University",
+        "location": "Atlanta, GA, USA",
+        "name": "Dmitry Lagun",
+        "email": "dlagun@emory.edu"
+      },
+      {
+        "affiliation": "Emory University",
+        "location": "Atlanta, GA, USA",
+        "name": "Qiaoling Liu",
+        "email": "qiaoling.liu@emory.edu"
+      }
+    ]
+  },
+  "r1b01": {
+    "abstract": "Microblog services have emerged as an essential way to strengthen the communications among individuals and organizations. These services promote timely and active discussions and comments towards products, markets as well as public events, and have attracted a lot of attentions from organizations. In particular, emerging topics are of immediate concerns to organizations since they signal current concerns of, and feedback by their users. Two challenges must be tackled for effective emerging topic detection. One is the problem of real-time relevant data collection and the other is the ability to model the emerging characteristics of detected topics and identify them before they become hot topics. To tackle these challenges, we first design a novel scheme to crawl the relevant messages related to the designated organization by monitoring multi-aspects of microblog content, including users, the evolving keywords and their temporal sequence. We then develop an incremental clustering framework to detect new topics, and employ a range of content and temporal features to help in promptly detecting hot emerging topics. Extensive evaluations on a representative real-world dataset based on Twitter data demonstrate that our scheme is able to characterize emerging topics well and detect them before they become hot topics.",
+    "title": "Emerging Topic Detection for Organizations from Microblogs",
+    "authors": [
+      {
+        "affiliation": "Beihang University",
+        "location": "Beijing, China",
+        "name": "Yan Chen",
+        "email": "chenyan@cse.buaa.edu.cn"
+      },
+      {
+        "affiliation": "National University of Singapore",
+        "location": "Singapore, Singapore",
+        "name": "Hadi Amiri",
+        "email": "hadi@comp.nus.edu.sg"
+      },
+      {
+        "affiliation": "Beihang University",
+        "location": "Beijing, China",
+        "name": "Zhoujun Li",
+        "email": "lizj@buaa.edu.cn"
+      },
+      {
+        "affiliation": "National University of Singapore",
+        "location": "Singapore, Singapore",
+        "name": "Tat-Seng Chua",
+        "email": "chuats@comp.nus.edu.sg"
+      }
+    ]
+  },
+  "r1b02": {
+    "abstract": "Recent years have witnessed a persistent interest in generating pseudo test collections, both for training and evaluation purposes. We describe a method for generating queries and relevance judgments for microblog search in an unsupervised way. Our starting point is this intuition: tweets with a hashtag are relevant to the topic covered by the hashtag and hence to a suitable query derived from the hashtag. Our baseline method selects all commonly used hashtags, and all associated tweets as relevance judgments; we then generate a query from these tweets.  Next, we generate a timestamp for each query, allowing us to use temporal information in the training process. We then enrich the generation process with knowledge derived from an editorial test collection for microblog search. We use our pseudo test collections in two ways.  First, we tune parameters of a variety of well known retrieval methods on them. Correlations with parameter sweeps on an editorial test collection are high on average, with a large variance over retrieval algorithms. Second, we use the pseudo test collections as training sets in a learning to rank scenario. Performance close to training on an editorial test collection is achieved in many cases. Our results demonstrate the utility of tuning and training microblog search algorithms on automatically generated training material.",
+    "title": "Pseudo Test Collections for Training and Tuning Microblog Rankers",
+    "authors": [
+      {
+        "affiliation": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "name": "Richard Berendsen",
+        "email": "r.w.berendsen@uva.nl"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "name": "Manos Tsagkias",
+        "email": "e.tsagkias@uva.nl"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "name": "Wouter Weerkamp",
+        "email": "w.weerkamp@uva.nl"
+      },
+      {
+        "affiliation": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "name": "Maarten de Rijke ",
+        "email": "derijke@uva.nl"
+      }
+    ]
+  },
+  "r1b03": {
+    "abstract": "It's well known that the transitivity of friendship is a popular sociological principle in social networks. However, it's still unknown that to what extent people's friend-making behaviors follow this principle and to what extent it can benefit the link prediction task. In this paper, we try to adopt this sociological principle to explain the evolution of networks and study the latent friendship propagation. Unlike traditional link prediction approaches, we model link formation as results of individuals' friend-making behaviors combined with personal interests. We propose the Latent Friendship Propagation Network (LFPN), which depicts the evolution progress of one's egocentric network and reveals future growth potentials driven by the transitivity of friendship based on personal interests. We model individuals' social behaviors using the Latent Friendship Propagation Model (LFPM), a probabilistic generative model from which the LFPN can be learned effectively. To evaluate the power of the friendship propagation in link prediction, we design LFPN-RW which models the friend-making behavior as a random walk upon the LFPN naturally and captures the co-influence effect of the friend circles as well as personal interests to provide more accurate prediction. Experimental results on real-world datasets show that LFPN-RW outperforms the state-of-the-art approaches. This convinces that the transitivity of friendship actually plays important roles in the evolution of social networks.",
+    "title": "Learning Latent Friendship Propagation Networks with Interest Awareness for Link Prediction",
+    "authors": [
+      {
+        "affiliation": "Tsinghua University",
+        "location": "Beijing, China",
+        "name": "Jun Zhang",
+        "email": "zhang-jun10@mails.tsinghua.edu.cn"
+      },
+      {
+        "affiliation": "Tsinghua University",
+        "location": "Beijing, China",
+        "name": "Chaokun Wang",
+        "email": "chaokun@tsinghua.edu.cn"
+      },
+      {
+        "affiliation": "University of Illinois at Chicago",
+        "location": "Chicago, IL, USA",
+        "name": "Philip S. Yu",
+        "email": "psyu@uic.edu"
+      },
+      {
+        "affiliation": "Tsinghua University",
+        "location": "Beijing, China",
+        "name": "Jianmin Wang",
+        "email": "jimwang@tsinghua.edu.cn"
+      }
+    ]
+  },
+  "r1b04": {
+    "abstract": "Social recommendation problems have drawn a lot of attention recently due to the prevalence of social networking sites. The experiments in previous literature suggest that social information is very effective in improving traditional recommendation algorithms. However, explicit social information is not always available in most of the recommender systems, which limits the impact of social recommendation techniques. In this paper, we study the following two research problems: (1)In some systems without explicit social information, can we still improve recommender systems using implicit social information? (2) In the systems with explicit social information, can the performance of using implicit social information outperform that of using explicit social information? In order to answer these two questions, we conduct comprehensive experimental analysis on three recommendation datasets. The result indicates that: (1)Implicit user and item social information, including similar and dissimilar relationships, can be employed to improve traditional recommendation methods. (2)When comparing implicit social information with explicit social information, the performance of using implicit information is slightly worse. This study provides additional insights to social recommendation techniques, and also greatly widens the utility and spreads the impact of previous and upcoming social recommendation approaches.",
+    "title": "An Experimental Study on Implicit Social Recommendation",
+    "authors": [
+      {
+        "affiliation": "Microsoft Research",
+        "location": "Redmond, WA, USA",
+        "name": "Hao Ma",
+        "email": "haoma@microsoft.com"
+      }
+    ]
+  },
+  "r1c01": {
+    "abstract": "When generating query recommendations for a user, a natural approach is to try and leverage not only the user's most recently submitted query, or reference query, but also information about the current search context, such as the user's recent search interactions. We focus on two important classes of queries that make up search contexts: those that address the same information need as the reference query (on-task queries), and those that do not (off-task queries). We analyze the effects on query recommendation performance of using contexts consisting of only on-task queries, only off-task queries, and a mix of the two. Using TREC Session Track data for simulations, we demonstrate that on-task context is helpful on average but can be easily overwhelmed when off-task queries are interleaved---a common situation according to several analyses of commercial search logs. To minimize the impact of off-task queries on recommendation performance, we consider automatic methods of identifying such queries using a state of the art search task identification technique. Our experimental results show that automatic search task identification can eliminate the effect of off-task queries in a mixed context. We also introduce a novel generalized model for generating recommendations over a search context. While we only consider query text in this study, the model can handle integration over arbitrary user search behavior, such as page visits, dwell times, and query abandonment. In addition, it can be used for other types of recommendation, including personalized web search.",
+    "title": "Task-Aware Query Recommendation",
+    "authors": [
+      {
+        "affiliation": "University of Massachusetts",
+        "location": "Boston, MA, USA",
+        "name": "Henry Allen Feild",
+        "email": "hfeild@cs.umass.edu"
+      },
+      {
+        "affiliation": "University of Massachusetts",
+        "location": "Boston, MA, USA",
+        "name": "James Allan",
+        "email": "allan@cs.umass.edu"
+      }
+    ]
+  },
+  "r1c02": {
+    "abstract": "Web search queries are often ambiguous or multi-faceted, which makes a simple ranked list of results inadequate. To assist information finding for such faceted queries, we explore a technique that explicitly represents interesting facets of a query using groups of semantically related terms extracted from search results. As an example, for the query baggage allowance, these groups might be different airlines, different flight types (domestic, international), or different travel classes (first, business, economy). We name these groups query facets and the terms in these groups facet terms. We develop a supervised approach based on a graphical model to recognize query facets from the noisy candidates found. The graphical model learns how likely a candidate term is to be a facet term as well as how likely two terms are to be grouped together in a query facet, and captures the dependencies between the two factors. We propose two algorithms for approximate inference on the graphical model since exact inference is intractable. Our evaluation combines recall and precision of the facet terms with the grouping quality. Experimental results on a sample of web queries show that the supervised method significantly outperforms existing approaches, which are mostly unsupervised, suggesting that query facet extraction can be effectively learned.",
+    "title": "Extracting Query Facets from Search Results",
+    "authors": [
+      {
+        "affiliation": "University of Massachusetts Amherst",
+        "location": "Amherst, MA, USA",
+        "name": "Weize Kong",
+        "email": "wkong@cs.umass.edu"
+      },
+      {
+        "affiliation": "University of Massachusetts Amherst",
+        "location": "Amherst, MA, USA",
+        "name": "James Allan",
+        "email": "allan@cs.umass.edu"
+      }
+    ]
+  },
+  "r1c03": {
+    "abstract": "Query auto-completion (QAC) is one of the most prominent features of modern search engines. The list of query candidates is generated according to the prex entered by the user in the search box and is updated on each new key stroke. Query prefixes tend to be short and ambiguous, and existing models mostly rely on the past popularity of matching candidates for ranking. However, the popularity of certain queries may vary drastically across different demographics and users. For instance, while instagram and imdb have comparable popularities overall and are both legitimate candidates to show for prex i, the former is noticeably more popular among young female users, and the latter is more likely to be issued by men. In this paper, we present a supervised framework for personalizing auto-completion ranking. We introduce a novel labelling strategy for generating offline training labels that can be used for learning personalized rankers. We compare the effectiveness of several user-specific and demographic-based features and show that among them, the user s long-term search history and location are the most effective for personalizing auto-completion rankers. We perform our experiments on the publicly available AOL query logs, and also on the larger-scale logs of Bing. The results suggest that supervised rankers enhanced by personalization features can significantly outperform the existing popularity-based baselines, in terms of mean reciprocal rank (MRR) by up to 9%.",
+    "title": "Learning to Personalize Query Auto-Completion",
+    "authors": [
+      {
+        "affiliation": "Microsoft",
+        "location": "Cambridge, UK",
+        "name": "Milad Shokouhi",
+        "email": "milads@microsoft.com"
+      }
+    ]
+  },
+  "r1c04": {
+    "abstract": "Patent prior art search is a task in patent retrieval where the goal is to rank documents which describe prior art work related to a patent application. One of the main properties of patent retrieval is that the query topic is a full patent application and does not represent a focused information need. This query by document nature of patent retrieval introduces new challenges and requires new investigations specific to this problem. Researchers have addressed this problem by considering different information resources for query reduction and query disambiguation. However, previous work has not fully studied the effect of using proximity information and exploiting domain specific resources for performing query disambiguation. In this paper, we first reduce the query document by taking the first claim of the document itself. We then build a query-specific patent lexicon based on definitions of the International Patent Classification (IPC). We study how to expand queries by selecting expansion terms from the lexicon that are focused on the query topic. The key problem is how to capture whether an expansion term is focused on the query topic or not. We address this problem by exploiting proximity information. We assign high weights to expansion terms appearing closer to query terms based on the intuition that terms closer to query terms are more likely to be related to the query topic. Experimental results on two patent retrieval datasets show that the proposed method is effective and robust for query expansion, significantly outperforming the standard pseudo relevance feedback (PRF) and existing baselines in patent retrieval.",
+    "title": "Leveraging Conceptual Lexicon: Query Disambiguation using Proximity Information for Patent Retrieval",
+    "authors": [
+      {
+        "affiliation": "University of Lugano",
+        "location": "Lugano, Switzerland",
+        "name": "Parvaz Mahdabi",
+        "email": "parvaz.mahdabi@usi.ch"
+      },
+      {
+        "affiliation": "University of Lugano",
+        "location": "Lugano, Switzerland",
+        "name": "Shima Gerani,",
+        "email": "shima.gerani@usi.ch"
+      },
+      {
+        "affiliation": "York University",
+        "location": "Toronto, ON, Canada",
+        "name": "Jimmy Xiangji Huang",
+        "email": "jhuang@yorku.ca"
+      },
+      {
+        "affiliation": "University of Lugano",
+        "location": "Lugano, Switzerland",
+        "name": "Fabio Crestani",
+        "email": "fabio.crestani@usi.ch"
+      }
+    ]
+  },
+  "codehere": {
+    "abstract": "",
+    "title": "",
+    "authors": [
+      {
+        "affiliation": "",
+        "location": "",
+        "name": "",
+        "email": ""
+      },
+      {
+        "affiliation": "",
+        "location": "",
+        "name": "",
+        "email": ""
+      },
+      {
+        "affiliation": "",
+        "location": "",
+        "name": "",
+        "email": ""
+      },
+      {
+        "affiliation": "",
+        "location": "",
+        "name": "",
+        "email": ""
+      }
+    ]
+  }
+}

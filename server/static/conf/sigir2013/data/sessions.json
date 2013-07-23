@@ -1,0 +1,111 @@
+sessions={
+  "codehere": {
+    "s_title": "",
+    "submissions": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+"doctoralconsortium": {
+    "s_title": "Doctoral Consortium",
+    "submissions": [
+      "dc01",
+      "dc02",
+      "dc03",
+      "dc04",
+      "dc05",
+      "dc06",
+      "dc07",
+      "dc08",
+      "dc09",
+      "dc10",
+      "dc11"
+    ]
+  },
+"tutorial01": {
+    "s_title": "Full-day Tutorial: Building Test Collections: An Interactive Guide for Students and Others Without their own Evaluation Conference Series",
+    "submissions": [
+      "tut01"
+    ]
+  },
+"tutorial02": {
+    "s_title": "Full-day Tutorial: Entity Linking and Retrieval",
+    "submissions": [
+      "tut02"
+    ]
+  },
+"tutorial03": {
+    "s_title": "Half-day Tutorial: Music Similarity and Retrieval",
+    "submissions": [
+      "tut03"
+    ]
+  },
+"tutorial04": {
+    "s_title": "Half-day Tutorial: The Cluster Hypothesis in Information Retrieval",
+    "submissions": [
+      "tut04"
+    ]
+  },
+"tutorial05": {
+    "s_title": "Half-day Tutorial: Scalability and Efficiency Challenges in Commercial Web Search Engines",
+    "submissions": [
+      "tut05"
+    ]
+  },
+"tutorial06": {
+    "s_title": "Half-day Tutorial: Searching in the City of Knowledge: Challenges and Recent Developments",
+    "submissions": [
+      "tut06"
+    ]
+  },
+"tutorial07": {
+    "s_title": "Half-day Tutorial: Multimedia Recommendation: Technology and Techniques",
+    "submissions": [
+      "tut07"
+    ]
+  },
+"tutorial08": {
+    "s_title": "Half-day Tutorial: Kernel-based Learning to Rank with Syntactic and Semantic Structures",
+    "submissions": [
+      "tut08"
+    ]
+  },
+"tutorial09": {
+    "s_title": "Half-day Tutorial: Diversity and Novelty Information Retrieval",
+    "submissions": [
+      "tut09"
+    ]
+  },
+"tutorial10": {
+    "s_title": "Half-day Tutorial: Designing Search Usability",
+    "submissions": [
+      "tut10"
+    ]
+  },
+  "keynote01": {
+    "s_title": "Opening Session: Keynote 1:  Celebrating 20 Years of Web Search",
+    "submissions": [
+      "k01"
+    ]
+  },
+  "research1a": {
+    "s_title": "User Behaviour",
+    "submissions": [
+      "r1a01",
+      "r1a02",
+      "r1a03",
+      "r1a04"
+    ]
+  },
+  "research1b": {
+    "s_title": "Social Media and Network Analysis I",
+    "submissions": [
+      "r1b01",
+      "r1b02",
+      "r1b03",
+      "r1b04"
+    ]
+  }
+}

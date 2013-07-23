@@ -1,0 +1,103 @@
+schedule=[{
+    "date": "28/07/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "doctoralconsortium",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial01",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial02",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_name": "wholeday",
+        "time": "08:30-17:30"
+      },
+      {
+        "sessions": [
+          {
+            "session": "tutorial03",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial04",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial05",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial06",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_name": "earlymorning",
+        "time": "08:30-12:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "tutorial07",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial08",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial09",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial10",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_name": "earlyafternoon",
+        "time": "13:30-17:30"
+      }
+    ],
+    "day": "Sunday"
+  },
+  {
+    "date": "29/07/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "keynote01",
+            "room": "Mansion House"
+          }
+        ],
+        "slot_name": "earlymorning",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research1a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research1b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research1c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_name": "latemorning",
+        "time": "11:00-12:40"
+      }
+    ],
+    "day": "Monday"
+  }
+]
