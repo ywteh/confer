@@ -306,10 +306,10 @@ a.filter.active{
 
 form{
 	margin:0 auto;
-	margin-top:2em; 
+	margin-top:1em; 
 	padding:1.8em 1.8em 1em 1.8em; 
 	vertical-align:top;
-	background-color: #D7ECFA;
+	background-color: #fff;
 	max-width:280px;
 	width: 100%;
 }
@@ -424,7 +424,7 @@ textarea {
 #headlink-left a{
   text-decoration: none;
   color: #F6F6F6;
-  width: 8em;
+  width: 12em;
   height: 3.7em;
   display: inline-block;
 }

@@ -1,10 +1,27 @@
 {% extends "layout.html" %}
 {% block static %}
 {% endblock %}
+{% block headlink-left %}
+<span id="headlink-left">
+    <a id="logo" href="/"></a>
+</span>
+{% endblock %}
 {% block links %}
 {% endblock %}
 
 {% block content %} 
+<style>
+#headlink-left{
+  position:absolute;
+  /*top: 0.7em;*/
+  top:0.7em;
+  left:0;
+  color: #F6F6F6;
+  background-image: url({% block logo %}/static/img/logo.png {% endblock %});
+  background-size: 11em 3em;
+  background-repeat: no-repeat;
+}
+</style>
 
 <div class="blurb">
     <br />
@@ -14,6 +31,7 @@
 </div>
 
 <div id="home">
+    <h3 class="collapsible-title collapsible">Recently Added Conferences</h3>
 	<div id="conf_container">
 		<table id="conferences" class="conference-container">
             {% for conf in conferences %}
@@ -26,9 +44,11 @@
                 <td class="content">
                 <ul>
                     <li><h3><span class="link"><a href="/{{conf.unique_name}}/">{{conf.title}}</a></span></h3></li>
-                    <li> <span class="conf-date">{{conf.start_date}} to {{conf.end_date}}</span> <span class="conf-location">{{conf.location}}</span></li>
+                    <li> <span class="conf-date">{{conf.start_date}} to {{conf.end_date}}</span> <span class="conf-date">{{conf.location}}</span></li>
                     <li class="abstract">{{conf.blurb}}</li>
                 </ul>
+                <br/>
+                <a href="/{{conf.unique_name}}/" class="button">Browse this conference</a>
                 </td>
             </tr>
             {% endfor %}
