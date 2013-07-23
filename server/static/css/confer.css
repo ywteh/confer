@@ -342,10 +342,6 @@ input[type="text"], input[type="password"], select{
 
 button, input[type="button"], input[type="submit"]{
   font-size: 1em;
-  
-	background-color: #2B2B2B;
-	color: #FFF;
-	border: #2B2B2B solid thin;
 	padding:0.4em 0.7em;
 	margin-left: 0;
   
