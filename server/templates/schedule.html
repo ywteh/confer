@@ -16,56 +16,8 @@ Tag sessions and papers you want to see and get updated recommendations on the f
 </div>	
 <!--  Schedule -->
 <div id="schedule">	
-<div id="filter_schedule">
-<table>
-<tr>
-<td style="vertical-align:top">
-<h4 style="display:inline-block">Sessions</h4>
-</td>
-<td>
-
-<div id ="p_filter" style="display:inline-block">  
-
-    <a href="#" data="all" class="p_session filter active f_all" type="p_session"/>All</a>
-    <a href="#" data="s_starred" class="p_session filter" type="p_session"/>Liked</a> 
-    <a href="#" data="s_recommended,.s_starred" class="p_session filter" type="p_session"/>Liked + Recommended</a>  
-    <!-- 
-    <a href="#" data="s_awardhm" class="p_session filter" type="p_session"/>Awards</a>  
-    -->  
-</div>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top">
-<h4 style="display:inline-block">Day</h4>
-</td>
-<td>
-
-<div id ="day_filter" style="display:inline-block">  
-
-    <a href="#" data="all" class="day filter active f_all" type="day"/>All</a>
-    <a href="#" data="Monday" class="day filter" type="day"/>Monday</a>    
-    <a href="#" data="Tuesday" class="day filter" type="day"/>Tuesday</a>      
-    <a href="#" data="Wednesday" class="day filter" type="day"/>Wednesday</a>  
-    <a href="#" data="Thursday" class="day filter" type="day"/>Thursday</a>
-</div>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top">
-<h4 style="display:inline-block">Time</h4>
-</td>
-<td>
-<div id ="time_filter" style="display:inline-block">
-    
-    <a href="#" data="all" class="time filter active f_all" type="time"/>All</a> 
-    <a href="#" data="morning" class="time filter" type="time"/>Morning</a>    
-    <a href="#" data="afternoon1" class="time filter" type="time"/>Afternoon 1</a>     
-    <a href="#" data="afternoon2" class="time filter" type="time"/>Afternoon 2</a>
-    <a href="#" data="evening" class="time filter" type="time"/>Evening</a>             
-</div>
-</td>
-</tr>
+<div id="filters">
+<table id="filter_schedule">
 </table>
 </div>
 <br />
@@ -91,6 +43,7 @@ Tag sessions and papers you want to see and get updated recommendations on the f
 <script type="text/javascript">
     $(document).ready(function(){
         $("#logged_in_name").html(localStorage.getItem('login_name'))
+        populate_filters()
         populate_schedule()
         setup_filters()
         bind_events()

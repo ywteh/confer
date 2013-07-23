@@ -1434,6 +1434,30 @@ function populate_schedule(){
     update_session_view()
 }
 
+function populate_filters(){
+    if(typeof filters == "undefined" || filters == null){
+        return
+    }
+    var filter_html = ''
+    for(var f in filters){
+        var filter = filters[f]
+        filter_html += '<tr>'
+        filter_html += '<td style="vertical-align:top">'
+        filter_html += '<h4 style="display:inline-block">' + filter.label + '</h4>'
+        filter_html += '</td>'
+        filter_html += '<td>'
+        filter_html += '<div style="display:inline-block">'
+        for(var i in filter.vals){
+            val = filter.vals[i]
+            filter_html += '<a href="#" data="' + val.data + '" class="' + val.class + '" type="' + val.type + '">' + val.label + '</a> '
+        }
+        filter_html += '</div>'
+        filter_html += '</td>'
+        filter_html += '</tr>'
+    }
+    $("#filter_schedule").html(filter_html)
+}
+
 
 
 function apply_filters(){
