@@ -19,40 +19,6 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Global Data */
 
 
-
-function reset(){
-
-    if(typeof entities == "undefined") {
-        entities = {}
-    }
-
-    if(typeof sessions == "undefined") {
-        sessions = {}
-    }
-
-    if(typeof schedule == "undefined") {
-        schedule = []
-    }
-
-    if(typeof offline_recs == "undefined") {
-        offline_recs = []
-    }
-
-    if(typeof starred == "undefined") {
-        starred = []
-    }
-
-    if(typeof recs == "undefined") {
-        recs = []
-    }
-
-}
-
-
-
-
-
-
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
@@ -103,8 +69,6 @@ function refresh(_async_){
 setInterval('refresh();', 60*1000)
 
 refresh(false)
-reset()
-
 /* data structure for pending stars */
 
 function refresh_pending(){
@@ -779,11 +743,6 @@ function get_paper_html(id){
     if(entities[id].type!=null){
         raw_html += '<span class="paper-subtype">' + ' ' + entities[id].type + '</span>'
     }
-    
-    
-    
-    raw_html += '<span class="send_tweet"></span>'
-    raw_html += '<span class="send_email"></span>'
     raw_html += '</h3>'
     raw_html += '</li>'
 
@@ -932,8 +891,7 @@ function get_selected_paper_html(id){
         raw_html += '<span class="paper-subtype">' + entities[id].subtype + '</span>'
     }
     
-    raw_html += '<span class="send_tweet"></span>'
-    raw_html += '<span class="send_email"></span>'
+    
     raw_html += '</h3>';
 
     raw_html += '<li class="paper-authors">'
@@ -1371,52 +1329,6 @@ function reset_sessions(){
     update_sessions_count(); 
 }
 
-
-
-function populate_conferences(){
-    var raw_html = ''       
-    for(var c in conferences){
-        raw_html += get_conference_html(c)
-    }
-    $("#conferences").html(raw_html)
-}
-
-function populate_papers(){
-    var raw_html = ''       
-    for(var e in entities){
-        raw_html += get_paper_html(e)
-    }
-    $("#all_papers").html(raw_html)
-    $("#all_papers tr:gt(24)").hide()  
-
-    if($("#all_papers tr:visible").length == $("#all_papers tr").length){
-        $('#show_papers').hide();
-    }else{
-        $('#show_papers').show();
-    }         
-    update_papers_count();
-}
-
-
-function populate_recs(){  
-    var raw_html = ''   
-    for(var r in recommended){
-        raw_html += get_paper_html(recommended[r])
-    }
-    $("#recs").html(raw_html)
-
-    $("#recs tr:gt(4)").hide()  
-
-    if($("#recs tr:visible").length == $("#recs tr").length){
-        $('#show_recs').hide();
-    }else{
-        $('#show_recs').show();
-    }         
-      
-   update_recs_count(); 
-}
-
-
 function append_recs(){  
     var visible_recs = []
     $("#recs tr:visible").each(function(){
@@ -1447,7 +1359,63 @@ function append_recs(){
 
 
 
-function populate_likes(){  
+function populate_papers(){
+    if(typeof entities == "undefined" || entities == null){
+        console.log("Error populating papers list.")
+        return
+    }
+    var raw_html = ''       
+    for(var e in entities){
+        raw_html += get_paper_html(e)
+    }
+    $("#all_papers").html(raw_html)
+    $("#all_papers tr:gt(24)").hide()  
+
+    if($("#all_papers tr:visible").length == $("#all_papers tr").length){
+        $('#show_papers').hide();
+    }else{
+        $('#show_papers').show();
+    }         
+    update_papers_count();
+}
+
+
+function populate_recs(){  
+    if(typeof recommended == "undefined" || recommended == null){
+        console.log("Error populating recommendations.")
+        return
+    }
+    if(typeof entities == "undefined" || entities == null){
+        console.log("Error fetching entities.")
+        return
+    }
+    var raw_html = ''   
+    for(var r in recommended){
+        raw_html += get_paper_html(recommended[r])
+    }
+    $("#recs").html(raw_html)
+
+    $("#recs tr:gt(4)").hide()  
+
+    if($("#recs tr:visible").length == $("#recs tr").length){
+        $('#show_recs').hide();
+    }else{
+        $('#show_recs').show();
+    }         
+      
+    update_recs_count(); 
+}
+
+
+function populate_likes(){
+    if(typeof starred == "undefined" || starred == null){
+        console.log("Error populating stars.")
+        return
+    }
+    if(typeof entities == "undefined" || entities == null){
+        console.log("Error fetching entities.")
+        return
+    }
     var raw_html = '' 
     for(var i = starred.length; i>=0 ; i--){
        raw_html += get_paper_html(starred[i])
@@ -1461,25 +1429,35 @@ function populate_likes(){
             $("#likes tr:gt(1)").hide()           
         }
     }  
-  update_likes_count();
+    update_likes_count();
 }
 
 
-function populate_sessions(){
+function populate_schedule(){
+    if(typeof schedule == "undefined" || schedule == null){
+        console.log("Error populating schedule.")
+        return
+    }
+    if(typeof sessions == "undefined" || sessions == null){
+        console.log("Error fetching sessions.")
+        return
+    }
     for(var day in schedule){
         var raw_html = '<div id = "'+schedule[day].day+'"></div>'
-        //console.log(day, schedule[day])
         for(slot in schedule[day].slots){
-            //console.log(slot, schedule[day].slots[slot])
-            raw_html += '<h3 class="collapsible-title collapsible" data="'+schedule[day].day+schedule[day].slots[slot].slot_name+'"><span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + schedule[day].slots[slot].time + '</h3>'
+            raw_html += '<h3 class="collapsible-title collapsible" \
+                    data="'+schedule[day].day+schedule[day].slots[slot].slot_name+'"> \
+                    <span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + 
+                    schedule[day].slots[slot].time + '</h3>'
             raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].slot_name+'" class="session-timeslot">'
             for(session in schedule[day].slots[slot].sessions){
-                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_name, schedule[day].slots[slot].sessions[session].room)
+                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, 
+                        schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_name, 
+                        schedule[day].slots[slot].sessions[session].room)
             }
             raw_html += '</div>'
         }
-        $("#program").append(raw_html)
-        
+        $("#program").append(raw_html)        
     }
     update_recs()
     update_session_view()
