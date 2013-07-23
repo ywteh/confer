@@ -1,5 +1,6 @@
-schedule=[{
-    "date": "28/07/2013",
+schedule=[
+  {
+    "date": "28\/07\/2013",
     "slots": [
       {
         "sessions": [
@@ -67,7 +68,7 @@ schedule=[{
     "day": "Sunday"
   },
   {
-    "date": "29/07/2013",
+    "date": "29\/07\/2013",
     "slots": [
       {
         "sessions": [
@@ -96,8 +97,186 @@ schedule=[{
         ],
         "slot_name": "latemorning",
         "time": "11:00-12:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "shortanddemos01",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "earlyafternoon",
+        "time": "13:40-15:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research2a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research2b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research2c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_name": "lateafternoon",
+        "time": "15:40-17:20"
       }
     ],
     "day": "Monday"
+  },
+  {
+    "date": "30\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "keynote02",
+            "room": "Mansion House"
+          }
+        ],
+        "slot_name": "earlymorning",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research3a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research3b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research3c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_name": "latemorning",
+        "time": "11:00-12:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "shortanddemos02",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "earlyafternoon",
+        "time": "13:40-15:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research4a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research4b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research4c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_name": "lateafternoon",
+        "time": "15:40-16:55"
+      }
+    ],
+    "day": "Tuesday"
+  },
+  {
+    "date": "31\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "research5a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research5b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry1",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "earlymorning",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research6a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research6b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry2",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "latemorning",
+        "time": "10:40-12:20"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research7a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research7b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry3",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "earlyafternoon",
+        "time": "14:00-15:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research8a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research8b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry4",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_name": "lateafternoon",
+        "time": "15:40-17:20"
+      },
+      {
+        "sessions": [
+          {
+            "session": "closing",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_name": "closing",
+        "time": "17:20-17:50"
+      }
+    ],
+    "day": "Wednesday"
   }
 ]
