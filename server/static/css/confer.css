@@ -866,21 +866,7 @@ textarea {
   border-bottom:1px solid #ccc;
 }
 
-.conf-location{
-  display:inline-block;
-  vertical-align: top;
-  margin-top: 0.2em;
-  margin-right: 0.7em;
-  background-color: #00A8CD;
-  border: 1px solid #00A8CD;
-  color: #fff;
-  padding: 0.2em 0.5em;
-  /*height: 1.5em;*/
-  text-align: center;
-  font-size: 0.9em;
-}
-
-.conf-date{
+.info-box{
   display:inline-block;
   vertical-align: top;
   margin-top: 0.2em;
@@ -892,6 +878,17 @@ textarea {
   /*height: 1.5em;*/
   text-align: center;
   font-size: 0.9em;
+}
+
+.conf-button{
+  background-color: #E9E581;
+  padding:0.4em 0.7em;
+  border-radius: 0.3em;
+  border: 1px solid #2B2B2B;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+
 }
 
 .subtitle{
