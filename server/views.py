@@ -52,19 +52,22 @@ def login_required(f):
     return wrap
 
 
-def login_form(request, redirect_url):
+def login_form(request, redirect_url='/'):
     c = {'redirect_url':redirect_url}
     c.update(csrf(request))
     return render_to_response('login.html', c)
 
 
-def register_form(request):
-    c = {}
+def register_form(request, redirect_url='/'):
+    c = {'redirect_url':redirect_url}
     c.update(csrf(request))
     return render_to_response('register.html', c)
 
 
 def login(request):
+    redirect_url = '/'
+    if('redirect_url' in request.GET.keys()):
+    	redirect_url = request.GET['redirect_url']
     if request.method == "POST":
         try:
             login_email = request.POST["login_email"]
@@ -75,14 +78,14 @@ def login(request):
             request.session[kName] = user.f_name
             return HttpResponseRedirect(request.POST['redirect_url'])
         except:
-            print sys.exc_info()           
+            return login_form(request, redirect_url)          
     else:
-    	redirect_url = '/'
-        if('redirect_url' in request.GET.keys()):
-        	redirect_url = request.GET['redirect_url']
         return login_form(request, redirect_url)
 
-def register(request, redirect_url='/'):
+def register(request):
+    redirect_url = '/'
+    if('redirect_url' in request.GET.keys()):
+    	redirect_url = request.GET['redirect_url']
     if request.method == "POST":
         try:
             email = request.POST["email"]
@@ -94,12 +97,12 @@ def register(request, redirect_url='/'):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
-            return HttpResponseRedirect(redirect_url)
+            return HttpResponseRedirect(request.POST['redirect_url'])
         except:
             #print sys.exc_info()
-            return register_form(request)
+            return register_form(request, redirect_url)
     else:
-        return register_form(request)
+        return register_form(request, redirect_url)
 
 
 def logout(request):
