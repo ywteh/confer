@@ -15,6 +15,11 @@ localStorage.removeItem('user_recs')
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
 	<h3>Confer Login</h3>
 	<hr />
+	<div id="error">
+		{% for error in errors %} <br /> <span class="error">{{error}}</span>
+        {% endfor %}
+        <br /><br />
+    </div>
 	<label for="username">Email</label><br />
 	<input type="text" name="login_email" id="login_email" placeholder="Your email address"/><br /><br />
 	<label for="password">Password</label><br />

@@ -5,6 +5,7 @@ from django.http import *
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
+from django.core.validators import email_re
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -52,14 +53,14 @@ def login_required(f):
     return wrap
 
 
-def login_form(request, redirect_url='/'):
-    c = {'redirect_url':redirect_url}
+def login_form(request, redirect_url='/', errors=[]):
+    c = {'redirect_url':redirect_url, 'errors':errors}
     c.update(csrf(request))
     return render_to_response('login.html', c)
 
 
-def register_form(request, redirect_url='/'):
-    c = {'redirect_url':redirect_url}
+def register_form(request, redirect_url='/', errors=[]):
+    c = {'redirect_url':redirect_url, 'errors':errors}
     c.update(csrf(request))
     return render_to_response('register.html', c)
 
@@ -69,6 +70,7 @@ def login(request):
     if('redirect_url' in request.GET.keys()):
     	redirect_url = request.GET['redirect_url']
     if request.method == "POST":
+    	errors = []
         try:
             login_email = request.POST["login_email"]
             login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
@@ -77,8 +79,12 @@ def login(request):
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
             return HttpResponseRedirect(request.POST['redirect_url'])
+        except User.DoesNotExist:
+        	errors.append('Incorrect email or password.')
+        	return login_form(request, redirect_url = redirect_url, errors = errors) 
         except:
-            return login_form(request, redirect_url)          
+            errors.append('Login failed.')
+            return login_form(request, redirect_url = redirect_url, errors = errors)          
     else:
         return login_form(request, redirect_url)
 
@@ -87,11 +93,33 @@ def register(request):
     if('redirect_url' in request.GET.keys()):
     	redirect_url = request.GET['redirect_url']
     if request.method == "POST":
+    	errors = []
         try:
+            error = False
             email = request.POST["email"]
+            password2 = request.POST["password2"]
             password = hashlib.sha1(request.POST["password"]).hexdigest()
             f_name = request.POST["f_name"]
             l_name = request.POST["l_name"]
+            if(email_re.match(email.strip()) == None):
+            	errors.append("Invalid Email.")
+            	error = True
+            if(f_name.strip() == ""):
+            	errors.append("Empty First Name.")
+            	error = True
+            if(l_name.strip() == ""):
+            	errors.append("Empty Last Name.")
+            	error = True
+            if(password == ""):
+            	errors.append("Empty Password.")
+            	error = True
+            if(password2 != password):
+            	errors.append("Password and Confirm Password don't match.")
+            	error = True
+
+            if(error):
+            	return register_form(request, redirect_url = redirect_url, errors = errors)
+
             user = User(email=email, password=password, f_name=f_name, l_name=l_name)
             user.save()
             request.session.flush()
@@ -100,9 +128,9 @@ def register(request):
             return HttpResponseRedirect(request.POST['redirect_url'])
         except:
             #print sys.exc_info()
-            return register_form(request, redirect_url)
+            return register_form(request, redirect_url = redirect_url, errors = errors)
     else:
-        return register_form(request, redirect_url)
+        return register_form(request, redirect_url = redirect_url)
 
 
 def logout(request):
