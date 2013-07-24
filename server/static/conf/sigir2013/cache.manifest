@@ -6,11 +6,18 @@ CACHE MANIFEST
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 
+/sigir2003/papers
+/sigir2003/schedule
+/sigir2003/paper
+
 /static/conf/sigir2013/data/papers.json
 /static/conf/sigir2013/data/sessions.json
 /static/conf/sigir2013/data/schedule.json
 /static/conf/sigir2013/data/offline_recs.json
 /static/conf/sigir2013/data/filters.json
+
+/static/conf/sigir2013/logo/cover.png
+/static/conf/sigir2013/logo/logo.png
 
 /static/img/affiliation.svg
 /static/img/acm.png
