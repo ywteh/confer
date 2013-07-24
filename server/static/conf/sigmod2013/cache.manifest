@@ -6,9 +6,9 @@ CACHE MANIFEST
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 
-/sigmod2003/papers
-/sigmod2003/schedule
-/sigmod2003/paper
+/sigmod2013/papers
+/sigmod2013/schedule
+/sigmod2013/paper
 
 /static/conf/sigmod2013/data/papers.json
 /static/conf/sigmod2013/data/sessions.json
