@@ -76,7 +76,7 @@ def login(request):
     if request.method == "POST":
     	errors = []
     	if('redirect_url' in request.POST.keys()):
-    		redirect_url = request.GET['redirect_url']
+    		redirect_url = request.POST['redirect_url']
         try:
             login_email = request.POST["login_email"]
             login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
@@ -105,9 +105,9 @@ def register(request):
     if request.method == "POST":
     	errors = []
         try:
-        	if('redirect_url' in request.POST.keys()):
-    			redirect_url = request.GET['redirect_url']
             error = False
+            if('redirect_url' in request.POST.keys()):
+				redirect_url = request.POST['redirect_url']
             email = request.POST["email"]
             password = request.POST["password"]
             password2 = request.POST["password2"]
