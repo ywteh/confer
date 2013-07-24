@@ -16,9 +16,9 @@ localStorage.removeItem('user_recs')
 	<h3>Confer Login</h3>
 	<hr />
 	<div id="error">
-		{% for error in errors %} <br /> <span class="error">{{error}}</span>
+		{% for error in errors %}<span class="error">{{error}}</span><br />
         {% endfor %}
-        <br /><br />
+        <br />
     </div>
 	<label for="username">Email</label><br />
 	<input type="text" name="login_email" id="login_email" placeholder="Your email address"/><br /><br />

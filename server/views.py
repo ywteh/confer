@@ -6,6 +6,7 @@ from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
 from django.core.validators import email_re
+from django.db.utils import IntegrityError
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -130,8 +131,11 @@ def register(request):
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
             return HttpResponseRedirect(request.POST['redirect_url'])
+        except IntegrityError:
+            errors.append("Account already exists. Please Log In.")
+            return register_form(request, redirect_url = redirect_url, errors = errors)
         except:
-            #print sys.exc_info()
+            errors.append("Some error happened while trying to create an account. Please try again.")
             return register_form(request, redirect_url = redirect_url, errors = errors)
     else:
         return register_form(request, redirect_url = redirect_url)
