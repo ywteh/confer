@@ -80,7 +80,11 @@ def login(request):
             request.session[kName] = user.f_name
             return HttpResponseRedirect(request.POST['redirect_url'])
         except User.DoesNotExist:
-        	errors.append('Incorrect email or password.')
+        	try:
+        		User.objects.get(email=login_email)
+        		errors.append('Wrong password.')
+        	except User.DoesNotExist:
+        		errors.append("Couldn't locate account with email address: %s" %(login_email))
         	return login_form(request, redirect_url = redirect_url, errors = errors) 
         except:
             errors.append('Login failed.')
