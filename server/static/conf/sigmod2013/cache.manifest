@@ -1,14 +1,10 @@
 CACHE MANIFEST
-# version 1.1
+# version 1.2
 
 /static/css/third-party/jquery-ui.css
 
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
-
-/sigmod2013/papers
-/sigmod2013/schedule
-/sigmod2013/paper
 
 /static/conf/sigmod2013/data/papers.json
 /static/conf/sigmod2013/data/sessions.json
