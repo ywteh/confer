@@ -97,8 +97,8 @@ def register(request):
         try:
             error = False
             email = request.POST["email"]
+            password = request.POST["password"]
             password2 = request.POST["password2"]
-            password = hashlib.sha1(request.POST["password"]).hexdigest()
             f_name = request.POST["f_name"]
             l_name = request.POST["l_name"]
             if(email_re.match(email.strip()) == None):
@@ -119,7 +119,7 @@ def register(request):
 
             if(error):
             	return register_form(request, redirect_url = redirect_url, errors = errors)
-
+            hashed_password = hashlib.sha1(password).hexdigest()
             user = User(email=email, password=password, f_name=f_name, l_name=l_name)
             user.save()
             request.session.flush()
