@@ -125,7 +125,7 @@ def register(request):
             if(error):
             	return register_form(request, redirect_url = redirect_url, errors = errors)
             hashed_password = hashlib.sha1(password).hexdigest()
-            user = User(email=email, password=password, f_name=f_name, l_name=l_name)
+            user = User(email=email, password=hashed_password, f_name=f_name, l_name=l_name)
             user.save()
             request.session.flush()
             request.session[kLogIn] = user.email
