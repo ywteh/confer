@@ -9,9 +9,9 @@
 	<h3>Create a new account</h3>
 	<hr />
 	<div id="error">
-		{% for error in errors %} <br /> <span class="error">{{error}}</span>
+		{% for error in errors %}<span class="error">{{error}}</span><br /> 
         {% endfor %}
-        <br /><br />
+        <br />
     </div>
 	<label for="email">Email Address</label><br />
 	<input type="text" name="email" id="email" placeholder="Your email address"/><br /><br />
