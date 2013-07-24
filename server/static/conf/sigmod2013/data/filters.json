@@ -16,7 +16,7 @@ filters=[
 					"label":"Liked"
 				},
 				{
-					"data":"s_recommended", 
+					"data":"s_recommended, .s_starred", 
 					"class":"p_session filter", 
 					"type":"p_session", 
 					"label":"Liked + Recommended"
