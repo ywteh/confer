@@ -19,6 +19,8 @@ CACHE MANIFEST
 /static/conf/sigmod2013/logo/cover.png
 /static/conf/sigmod2013/logo/logo.png
 
+/static/css/confer.css
+
 /static/img/affiliation.svg
 /static/img/acm.png
 /static/img/arrows.ai
