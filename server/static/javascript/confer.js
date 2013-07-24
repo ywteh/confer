@@ -531,7 +531,40 @@ var delay = (function(){
   };
 })();
 
-
+function remove_special_chars(str){
+    if (str == null || str == "null")
+      return "";
+    var result = str;
+    result = result.replace(/¬/g, "-"); 
+    result = result.replace(/×/g, "x"); 
+    result = result.replace(/–/g, "-"); 
+    result = result.replace(/‘/g, "'"); 
+    result = result.replace(/’/g, "'"); 
+    result = result.replace(/“/g, "\""); 
+    result = result.replace(/”/g, "\""); 
+    result = result.replace(/\\"/g, "\""); 
+    result = result.replace(/â€”/g, "-");
+    result = result.replace(/â€"/g, "-");
+    result = result.replace(/â€˜/g, "'");
+    result = result.replace(/â€œ/g, "\"");
+    result = result.replace(/â€/g, "\"");
+    result = result.replace(/Ã©/g, "é");
+    result = result.replace(/\\u2013/g, "-");
+    result = result.replace(/\\u00ac/g, "-");
+    result = result.replace(/\\u2014/g, "-");
+    result = result.replace(/\\u2018/g, "'");
+    result = result.replace(/\\u2019/g, "'");
+    result = result.replace(/\\u2022/g, "*");
+    result = result.replace(/\\u201c/g, "\"");
+    result = result.replace(/\\u201d/g, "\"");
+    result = result.replace(/â€™/g, "'");
+    result = result.replace(/â€“/g, "-");
+    result = result.replace(/™/g, "(TM)"); 
+    result = result.replace(/\\\//g, "/"); 
+    result = result.replace(/\\/g, ""); 
+    result = result.replace(/\\ \\/g, ""); 
+    return result;
+}
 
 
 function search_session(str){
@@ -739,7 +772,7 @@ function get_paper_html(id){
     raw_html += '<td class="content">'    
     raw_html += '<ul>'
 
-    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+entities[id].title +'</span>'
+    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ remove_special_chars(entities[id].title) +'</span>'
     if(entities[id].type!=null){
         raw_html += '<span class="paper-subtype">' + ' ' + entities[id].type + '</span>'
     }
@@ -750,7 +783,7 @@ function get_paper_html(id){
     raw_html += '<li class="paper-authors">'
     for(author in entities[id].authors){
         if(entities[id].authors[author] != null){
-            raw_html += ' ' + entities[id].authors[author].name + '&nbsp;&nbsp;&nbsp;&nbsp;'
+            raw_html += ' ' + remove_special_chars(entities[id].authors[author].name) + '&nbsp;&nbsp;&nbsp;&nbsp;'
         }
     }
     raw_html += '</li>'
@@ -758,10 +791,12 @@ function get_paper_html(id){
     raw_html += '<span class="rec-icon">recommended</span>'
     
 
-    if (entities[id].c_and_b == null)
-      raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '</li>'
-    else
-      raw_html += '<li class="paper-cb">'+ entities[id].c_and_b + '</li>'
+    if (entities[id].abstract != null)
+        if(entities[id].abstract != ""){
+            raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].abstract.slice(0,350)) + '...</li>'
+        }else{
+            raw_html += '<li class="paper-cb">ABSTRACT not available.</li>'
+        }
     
     if(entities[id].keywords != null){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'

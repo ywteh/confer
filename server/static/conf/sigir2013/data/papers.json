@@ -6,7 +6,7 @@ entities={
       {
         "affiliation": "Universidade Federal de Minas Gerais",
         "location": "Minas Gerais, Brazil",
-        "name": "Fabiano Muniz Belém",
+        "name": "Fabiano Muniz BelÃ©m",
         "email": "fmuniz@dcc.ufmg.br"
       }
     ]
@@ -18,7 +18,7 @@ entities={
       {
         "affiliation": "University of Hagen",
         "location": "Hagen, Germany",
-        "name": "Thilo Böhm",
+        "name": "Thilo BÃ¶hm",
         "email": "thilo.boehm@fernuni-hagen.de"
       }
     ]
@@ -42,7 +42,7 @@ entities={
       {
         "affiliation": "Charles University",
         "location": "Prague, Czech Republic",
-        "name": "Petra Galušáková",
+        "name": "Petra GaluÂšÃ¡kovÃ¡",
         "email": "galuscakova@ufal.mff.cuni.cz"
       }
     ]
@@ -72,7 +72,7 @@ entities={
     ]
   },
   "dc07": {
-    "abstract": "The task of Question Answering (QA) is to find correct an- swers to users’ questions expressed in natural language. In the last few years non-factoid QA received more attention. It focuses on causation, manner and reason questions, where the expected answer has the form of a passage of text. The presence of question and answers corpora allows the adop- tion of Learning to Rank (MLR) algorithms in order to out- put a sensible ranking of the candidate answers. The importance and effectiveness of linguistically moti- vated features, obtained from syntax, lexical semantics and semantic role labelling, was shown in literature [2–4], but there are still several different possible semantic features that have not been taken into account so far and our goal is to find out if their use could lead to performance im- provement. In particular features coming from Semantic Models (SM) like Distributional Semantic Models (DSMs), Explicit Semantic Analysis (ESA), Latent Dirichlet Alloca- tion (LDA) induced topics have never been applied to the task so far. Based on the usefulness that those models show in other tasks, we think that SM can have a significant role in improving current state-of-the-art systems’ performance in answer re-ranking. The questions this research wants to answer are: 1) Do semantic features bring information that is not present in the bag-of-words and syntactic features? 2) Do they bring different information or does it overlap with that of other features? 3) Are additional semantic features useful for answer re-ranking? Does their adoption improve systems’ per- formance? 4) Which of them is more effective and under which circumstances? We performed a preliminary evaluation of DSMs on the ResPubliQA 2010 Dataset. We built a DSM based answer scorer that represents the question and the answer as the sums of the vectors of their terms taken term-term co-occurrence matrix and calculates their cosine similarity. We replaced the term-term matrix with the ones obtained by Random Indexing (RI), Latent Semantic Analysis (LSA) and LSA over the RI. Considering each DSM on its own, the results prove that all the DSMs are better than the baseline (the standard term-term co-occurrence matrix), and the improve- ment is always significant. The best improvement for the MRR in English is obtained by LSA (+180%), while in Italian by LSARI (+161%). We also showed that combining the DSMs with overlap based measures via CombSum the ranking is significantly better than the baseline obtained by the overlap measures alone. For English we have obtained an improvement in MRR of about 16% and for Italian, we achieve a even higher improvement in MRR of 26%. Fi- nally, adopting RankNet for combining the overlap features and the DSMs features, improves the MRR of about 13%. More details can be found in [1]. In order to investigate the effectiveness of the semantic features, we still need to incorporate other semantic features, such as ESA, LDA and other state-of-the-art linguistic fea- tures. Other operators for semantic compositionality, like product, tensor product and circular convolution, will also be investigated. Moreover we will experiment on different datasets, focus- ing mainly on non-factoid QA. The Yahoo! Answers Man- ner Questions datasets are a good starting point. A new dataset will also be collected with questions from the users of Wikiedi (a QA system over Wikipedia articles, www.wikiedi.it) and answers in the form of paragraphs from Wikipedia pages.",
+    "abstract": "The task of Question Answering (QA) is to find correct an- swers to usersÂ’ questions expressed in natural language. In the last few years non-factoid QA received more attention. It focuses on causation, manner and reason questions, where the expected answer has the form of a passage of text. The presence of question and answers corpora allows the adop- tion of Learning to Rank (MLR) algorithms in order to out- put a sensible ranking of the candidate answers. The importance and effectiveness of linguistically moti- vated features, obtained from syntax, lexical semantics and semantic role labelling, was shown in literature [2Â–4], but there are still several different possible semantic features that have not been taken into account so far and our goal is to find out if their use could lead to performance im- provement. In particular features coming from Semantic Models (SM) like Distributional Semantic Models (DSMs), Explicit Semantic Analysis (ESA), Latent Dirichlet Alloca- tion (LDA) induced topics have never been applied to the task so far. Based on the usefulness that those models show in other tasks, we think that SM can have a significant role in improving current state-of-the-art systemsÂ’ performance in answer re-ranking. The questions this research wants to answer are: 1) Do semantic features bring information that is not present in the bag-of-words and syntactic features? 2) Do they bring different information or does it overlap with that of other features? 3) Are additional semantic features useful for answer re-ranking? Does their adoption improve systemsÂ’ per- formance? 4) Which of them is more effective and under which circumstances? We performed a preliminary evaluation of DSMs on the ResPubliQA 2010 Dataset. We built a DSM based answer scorer that represents the question and the answer as the sums of the vectors of their terms taken term-term co-occurrence matrix and calculates their cosine similarity. We replaced the term-term matrix with the ones obtained by Random Indexing (RI), Latent Semantic Analysis (LSA) and LSA over the RI. Considering each DSM on its own, the results prove that all the DSMs are better than the baseline (the standard term-term co-occurrence matrix), and the improve- ment is always significant. The best improvement for the MRR in English is obtained by LSA (+180%), while in Italian by LSARI (+161%). We also showed that combining the DSMs with overlap based measures via CombSum the ranking is significantly better than the baseline obtained by the overlap measures alone. For English we have obtained an improvement in MRR of about 16% and for Italian, we achieve a even higher improvement in MRR of 26%. Fi- nally, adopting RankNet for combining the overlap features and the DSMs features, improves the MRR of about 13%. More details can be found in [1]. In order to investigate the effectiveness of the semantic features, we still need to incorporate other semantic features, such as ESA, LDA and other state-of-the-art linguistic fea- tures. Other operators for semantic compositionality, like product, tensor product and circular convolution, will also be investigated. Moreover we will experiment on different datasets, focus- ing mainly on non-factoid QA. The Yahoo! Answers Man- ner Questions datasets are a good starting point. A new dataset will also be collected with questions from the users of Wikiedi (a QA system over Wikipedia articles, www.wikiedi.it) and answers in the form of paragraphs from Wikipedia pages.",
     "title": "Semantic Models for Answer Re-ranking in Question Answering",
     "authors": [
       {
@@ -180,7 +180,7 @@ entities={
     ]
   },
   "tut04": {
-    "abstract": "The cluster hypothesis (van Rijsbergen '79) states that “closely associated documents tend to be relevant to the same requests”. This is one of the most fundamental and influential hypotheses in the information retrieval field. This tutorial will survey the different lines of work that the hypothesis has given rise to (e.g., cluster-based retrieval, using topic modeling for retrieval, search results visualization). The survey will be accompanied by an in-depth analysis of the retrieval techniques that are inspired by the cluster hypothesis and which are used for various tasks including ad hoc retrieval, meta-search, microblog (e.g., Twitter) retrieval, query-performance prediction, search-results diversification.",
+    "abstract": "The cluster hypothesis (van Rijsbergen '79) states that Â“closely associated documents tend to be relevant to the same requestsÂ”. This is one of the most fundamental and influential hypotheses in the information retrieval field. This tutorial will survey the different lines of work that the hypothesis has given rise to (e.g., cluster-based retrieval, using topic modeling for retrieval, search results visualization). The survey will be accompanied by an in-depth analysis of the retrieval techniques that are inspired by the cluster hypothesis and which are used for various tasks including ad hoc retrieval, meta-search, microblog (e.g., Twitter) retrieval, query-performance prediction, search-results diversification.",
     "title": "The Cluster Hypothesis in Information Retrieval",
     "authors": [
       {
@@ -324,7 +324,7 @@ entities={
     ]
   },
   "r1a01": {
-    "abstract": "People’s beliefs, and unconscious biases that arise from those beliefs, influence their judgment, decision making, and actions, as is commonly accepted among psychologists. Biases can be observed in information retrieval in situations where searchers seek or are presented with information that significantly deviates from the truth. There is little understanding of the impact of such biases in search. In this paper we study search-related biases via multiple probes: an exploratory retrospective survey, human labeling of the captions and results returned by a Web search engine, and a large-scale log analysis of search behavior on that engine. Targeting yes-no questions in the critical domain of health search, we show that Web searchers exhibit their own biases and are also subject to bias from the search engine. We clearly observe searchers favoring positive information over negative and more than expected given base rates based on consensus answers from physicians. We also show that search engines strongly favor a particular, usually positive, perspective, irrespective of the truth. Importantly, we show that these biases can be counterproductive and affect search outcomes; in our study, around half of the answers that searchers settled on were actually incorrect. Our findings have implications for search engine design, including the development of ranking algorithms that con-sider the desire to satisfy searchers (by validating their beliefs) and providing accurate answers and properly considering base rates. Incorporating likelihood information into search is particularly important for consequential tasks, such as those with a medical focus.",
+    "abstract": "PeopleÂ’s beliefs, and unconscious biases that arise from those beliefs, influence their judgment, decision making, and actions, as is commonly accepted among psychologists. Biases can be observed in information retrieval in situations where searchers seek or are presented with information that significantly deviates from the truth. There is little understanding of the impact of such biases in search. In this paper we study search-related biases via multiple probes: an exploratory retrospective survey, human labeling of the captions and results returned by a Web search engine, and a large-scale log analysis of search behavior on that engine. Targeting yes-no questions in the critical domain of health search, we show that Web searchers exhibit their own biases and are also subject to bias from the search engine. We clearly observe searchers favoring positive information over negative and more than expected given base rates based on consensus answers from physicians. We also show that search engines strongly favor a particular, usually positive, perspective, irrespective of the truth. Importantly, we show that these biases can be counterproductive and affect search outcomes; in our study, around half of the answers that searchers settled on were actually incorrect. Our findings have implications for search engine design, including the development of ranking algorithms that con-sider the desire to satisfy searchers (by validating their beliefs) and providing accurate answers and properly considering base rates. Incorporating likelihood information into search is particularly important for consequential tasks, such as those with a medical focus.",
     "title": "Beliefs and Biases in Web Search",
     "authors": [
       {
@@ -804,7 +804,7 @@ entities={
     ]
   },
   "sd108": {
-    "abstract": "The judging of relevance has been a subject of study in information retrieval for a long time, especially in the creation of relevance judgments for test collections. While the criteria by which assessors’ judge relevance has been intensively studied, little work has investigated the process individual assessors go through to judge the relevance of a document. In this paper, we focus on the process by which relevance is judged, and in particular, the degree of effort a user must expend to judge relevance. By better understanding this effort in isolation, we may provide data which can be used to create better models of search. We present the results of an empirical evaluation of the effort users must exert to judge the relevance of document, investigating the effect of relevance level and document size. Results suggest that “relevant” documents require more effort to judge when compared to highly relevant and not relevant documents, and that effort increases as document size increases.",
+    "abstract": "The judging of relevance has been a subject of study in information retrieval for a long time, especially in the creation of relevance judgments for test collections. While the criteria by which assessorsÂ’ judge relevance has been intensively studied, little work has investigated the process individual assessors go through to judge the relevance of a document. In this paper, we focus on the process by which relevance is judged, and in particular, the degree of effort a user must expend to judge relevance. By better understanding this effort in isolation, we may provide data which can be used to create better models of search. We present the results of an empirical evaluation of the effort users must exert to judge the relevance of document, investigating the effect of relevance level and document size. Results suggest that Â“relevantÂ” documents require more effort to judge when compared to highly relevant and not relevant documents, and that effort increases as document size increases.",
     "title": "Is Relevance Hard Work? Evaluating the Effort of Making Relevant Assessments",
     "authors": [
       {
@@ -868,7 +868,7 @@ entities={
     "title": "Modeling the Uniqueness of the User Preferences for Recommendation Systems",
     "authors": [
       {
-        "affiliation": "IBM Research – Haifa",
+        "affiliation": "IBM Research Â– Haifa",
         "location": "Haifa, Israel",
         "name": "Haggai Roitman",
         "email": "haggai@il.ibm.com"
@@ -880,13 +880,13 @@ entities={
         "email": "david.carmel@ymail.com"
       },
       {
-        "affiliation": "IBM Research – Haifa",
+        "affiliation": "IBM Research Â– Haifa",
         "location": "Haifa, Israel",
         "name": "Yosi Mass",
         "email": "yosimass@il.ibm.com"
       },
       {
-        "affiliation": "IBM Research – Haifa",
+        "affiliation": "IBM Research Â– Haifa",
         "location": "Haifa, Israel",
         "name": "Iris Eiron",
         "email": "irise@il.ibm.com"
@@ -1014,7 +1014,7 @@ entities={
     ]
   },
   "sd117": {
-    "abstract": "Clinical information retrieval (IR) presents several challenges including terminology mismatch and granularity mismatch. One of the main objectives in clinical IR is to fill the semantic gap among the queries and documents and go beyond keywords matching. To address these issues, in this paper we attempt to use semantic information to improve the performance of clinical IR systems by representing queries in an expressive and meaningful context. To model a query context initially we model and develop query domain ontology. The query domain ontology represents concepts closely related with query concepts. Query context represents concepts extracted from query domain ontology and weighted according to their semantic relatedness to query concept(s). The query context is then exploited in query expansion and patients’ records re-ranking for improving clinical retrieval performance. We evaluate our approach on the TREC Medical Records dataset. Results show that our proposed approach significantly improves the retrieval performance compare to classic keyword-based IR model.",
+    "abstract": "Clinical information retrieval (IR) presents several challenges including terminology mismatch and granularity mismatch. One of the main objectives in clinical IR is to fill the semantic gap among the queries and documents and go beyond keywords matching. To address these issues, in this paper we attempt to use semantic information to improve the performance of clinical IR systems by representing queries in an expressive and meaningful context. To model a query context initially we model and develop query domain ontology. The query domain ontology represents concepts closely related with query concepts. Query context represents concepts extracted from query domain ontology and weighted according to their semantic relatedness to query concept(s). The query context is then exploited in query expansion and patientsÂ’ records re-ranking for improving clinical retrieval performance. We evaluate our approach on the TREC Medical Records dataset. Results show that our proposed approach significantly improves the retrieval performance compare to classic keyword-based IR model.",
     "title": "Exploiting Semantics for Improving Clinical Information Retrieval",
     "authors": [
       {
@@ -1138,7 +1138,7 @@ entities={
     "title": "Is Uncertain Logical-Matching Equivalent to Conditional Probability?",
     "authors": [
       {
-        "affiliation": "Université de Grenoble, LIG laboratory, MRIM group",
+        "affiliation": "UniversitÃ© de Grenoble, LIG laboratory, MRIM group",
         "location": "Grenoble, France",
         "name": "Karam Abdulahhad",
         "email": "karam.abdulahhad@imag.fr"
@@ -1254,7 +1254,7 @@ entities={
       {
         "affiliation": "INESC ID Lisboa and CMU",
         "location": "Lisboa, Portugal",
-        "name": "Luís Marujo",
+        "name": "LuÃ­s Marujo",
         "email": "luis.marujo@inesc-id.pt"
       },
       {
@@ -1266,7 +1266,7 @@ entities={
       {
         "affiliation": "IST and INESC-ID Lisboa",
         "location": "Lisboa, Portugal",
-        "name": "João P. Neto",
+        "name": "JoÃ£o P. Neto",
         "email": "joao.neto@inesc-id.pt"
       },
       {
@@ -1440,7 +1440,7 @@ entities={
       {
         "affiliation": "INESC ID Lisboa and CMU",
         "location": "Lisboa, Portugal",
-        "name": "Luís Marujo",
+        "name": "LuÃ­s Marujo",
         "email": "luis.marujo@inesc-id.pt"
       },
       {
@@ -1452,7 +1452,7 @@ entities={
       {
         "affiliation": "IST and INESC-ID Lisboa",
         "location": "Lisboa, Portugal",
-        "name": "João P. Neto",
+        "name": "JoÃ£o P. Neto",
         "email": "joao.neto@inesc-id.pt"
       },
       {
@@ -1530,7 +1530,7 @@ entities={
       {
         "affiliation": "Bilkent University",
         "location": "Ankara, Turkey",
-        "name": "Özgür Ulusoy ",
+        "name": "Ã–zgÃ¼r Ulusoy ",
         "email": "oulusoy@cs.bilkent.edu.tr"
       }
     ]
@@ -1674,7 +1674,7 @@ entities={
     ]
   },
   "sd142": {
-    "abstract": "Search systems use context to effectively satisfy a user’s information need as expressed by a query. Tasks are important factors in determining user context during search and many studies have been conducted that identify tasks and task stages through users’ interaction behavior with search systems. The type of interaction available to users, however, depends on the type of search interface features available. Queries are the most pervasive input from users to express their information need regardless of the input method, e.g., typing keywords or clicking facets. Instead of characterizing interaction behavior in terms of interface specific components, we propose to characterize users’ search behavior in terms of two types of query modification: (i) direct modification, which refers to reformulations of queries; and (ii) indirect modification, which refers to user operations on additional input components provided by various search interfaces. We investigate the utility of characterizing task stages through direct and indirect query reformulations in a case study and find that it is possible to effectively differentiate subsequent stages of the search task. We found that describing user interaction behavior in such a generic form allowed us to relate user actions to search task stages independent from the specific search interface deployed. The next step will then be to validate this idea in a setting with a wider palette of search tasks and tools.",
+    "abstract": "Search systems use context to effectively satisfy a userÂ’s information need as expressed by a query. Tasks are important factors in determining user context during search and many studies have been conducted that identify tasks and task stages through usersÂ’ interaction behavior with search systems. The type of interaction available to users, however, depends on the type of search interface features available. Queries are the most pervasive input from users to express their information need regardless of the input method, e.g., typing keywords or clicking facets. Instead of characterizing interaction behavior in terms of interface specific components, we propose to characterize usersÂ’ search behavior in terms of two types of query modification: (i) direct modification, which refers to reformulations of queries; and (ii) indirect modification, which refers to user operations on additional input components provided by various search interfaces. We investigate the utility of characterizing task stages through direct and indirect query reformulations in a case study and find that it is possible to effectively differentiate subsequent stages of the search task. We found that describing user interaction behavior in such a generic form allowed us to relate user actions to search task stages independent from the specific search interface deployed. The next step will then be to validate this idea in a setting with a wider palette of search tasks and tools.",
     "title": "Characterizing Stages of a Multi-session Complex Search Task through Direct and Indirect Query Modifications",
     "authors": [
       {
@@ -1812,7 +1812,7 @@ entities={
     ]
   },
   "r2a03": {
-    "abstract": "Voice search offers users with a new search experience: instead of typing, users can vocalize their search queries. However, due to voice input errors (such as speech recognition errors and improper system interruptions), users need to frequently reformulate queries to handle the incorrectly recognized queries. We conducted user experiments with native English speakers on their query reformulation behaviors in voice search and found that users often reformulate queries with both lexical and phonetic changes to previous queries. In this paper, we first characterize and analyze typical voice input errors in voice search and users’ corresponding reformulation strategies. Then, we evaluate the impacts of typical voice input errors on users’ search progress and the effectiveness of different reformulation strategies on handling these errors. This study provides a clearer picture on how to further improve current voice search systems.",
+    "abstract": "Voice search offers users with a new search experience: instead of typing, users can vocalize their search queries. However, due to voice input errors (such as speech recognition errors and improper system interruptions), users need to frequently reformulate queries to handle the incorrectly recognized queries. We conducted user experiments with native English speakers on their query reformulation behaviors in voice search and found that users often reformulate queries with both lexical and phonetic changes to previous queries. In this paper, we first characterize and analyze typical voice input errors in voice search and usersÂ’ corresponding reformulation strategies. Then, we evaluate the impacts of typical voice input errors on usersÂ’ search progress and the effectiveness of different reformulation strategies on handling these errors. This study provides a clearer picture on how to further improve current voice search systems.",
     "title": "How Do Users Respond to Voice Input Errors? Lexical and Phonetic Query Reformulation in Voice Search",
     "authors": [
       {
@@ -1894,7 +1894,7 @@ entities={
     "title": "Document Identifier Reassignment and Run-Length-Compressed Inverted Indexes for Improved Search Performance",
     "authors": [
       {
-        "affiliation": "niversidad Técnica Federico Santa María & Yahoo! Labs Santiago",
+        "affiliation": "niversidad TÃ©cnica Federico Santa MarÃ­a & Yahoo! Labs Santiago",
         "location": "Santiago, Chile",
         "name": "Diego Arroyuelo",
         "email": "darroyue@inf.utfsm.cl"
@@ -1902,13 +1902,13 @@ entities={
       {
         "affiliation": "University of Chile & Yahoo! Labs Santiago",
         "location": "Santiago, Chile",
-        "name": "enén González",
+        "name": "enÃ©n GonzÃ¡lez",
         "email": "sgonzale@dcc.uchile.cl"
       },
       {
         "affiliation": "University of Santiago & Yahoo! Labs Santiago",
         "location": "Santiago, Chile",
-        "name": "Mauricio Oyarzún",
+        "name": "Mauricio OyarzÃºn",
         "email": "mauricio.silvaoy@usach.cl"
       },
       {
@@ -1974,7 +1974,7 @@ entities={
       {
         "affiliation": "University of Waterloo",
         "location": "Waterloo, ON, Canada",
-        "name": "Alejandro López-Ortíz",
+        "name": "Alejandro LÃ³pez-OrtÃ­z",
         "email": "alopez-o@uwaterloo.ca"
       }
     ]
@@ -2094,7 +2094,7 @@ entities={
     ]
   },
   "r3a01": {
-    "abstract": "Exploratory search is a complex, iterative information seeking activity that involves running multiple queries and finding and examining many documents. We designed a query preview control that visualizes the distribution of newly-retrieved and re-retrieved documents prior to running the query. When evaluating the preview control with a control condition, we found effects on both people’s information seeking behavior and improved retrieval performance. People spent more time formulating a query and were more likely to explore search results more deeply, retrieved a more diverse set of documents, and found more different relevant documents when using the preview.",
+    "abstract": "Exploratory search is a complex, iterative information seeking activity that involves running multiple queries and finding and examining many documents. We designed a query preview control that visualizes the distribution of newly-retrieved and re-retrieved documents prior to running the query. When evaluating the preview control with a control condition, we found effects on both peopleÂ’s information seeking behavior and improved retrieval performance. People spent more time formulating a query and were more likely to explore search results more deeply, retrieved a more diverse set of documents, and found more different relevant documents when using the preview.",
     "title": "Looking Ahead: Query Preview in Exploratory Search",
     "authors": [
       {
@@ -2346,7 +2346,7 @@ entities={
     ]
   },
   "r3c02": {
-    "abstract": "An important challenge in cluster-based document retrieval is ranking document clusters by their relevance to the query. We present a novel cluster ranking approach that utilizes Markov Random Fields (MRFs). MRFs enable the integration of various types of cluster-relevance evidence; e.g., the query-similarity values of the cluster’s documents and query-independent measures of the cluster. We use our method to re-rank an initially retrieved document list by ranking clusters that are created from the documents most highly ranked in the list. The resultant retrieval effectiveness is substantially better than that of the initial list for several lists that are produced by effective retrieval methods. Furthermore, our cluster ranking approach significantly outperforms state-of- the-art cluster ranking methods. We also show that our method can be used to improve the performance of (state-of- the-art) results-diversification methods.",
+    "abstract": "An important challenge in cluster-based document retrieval is ranking document clusters by their relevance to the query. We present a novel cluster ranking approach that utilizes Markov Random Fields (MRFs). MRFs enable the integration of various types of cluster-relevance evidence; e.g., the query-similarity values of the clusterÂ’s documents and query-independent measures of the cluster. We use our method to re-rank an initially retrieved document list by ranking clusters that are created from the documents most highly ranked in the list. The resultant retrieval effectiveness is substantially better than that of the initial list for several lists that are produced by effective retrieval methods. Furthermore, our cluster ranking approach significantly outperforms state-of- the-art cluster ranking methods. We also show that our method can be used to improve the performance of (state-of- the-art) results-diversification methods.",
     "title": "Ranking Document Clusters Using Markov Random Fields",
     "authors": [
       {
@@ -2537,11 +2537,11 @@ entities={
 
 		           {
 
-		            	 "affiliation": "École Polytechnique",
+		            	 "affiliation": "Ã‰cole Polytechnique",
 
 		           	 "location": "Palaiseau  France LIX",
 
-		            	 "name": "François Rousseau",
+		            	 "name": "FranÃ§ois Rousseau",
 
 		           	 "email": "rousseau@lix.polytechnique.fr"
 
@@ -2549,7 +2549,7 @@ entities={
 
 		            {
 
-		            	 "affiliation": "Athens University of Economics and Business & École Polytechnique & Télécom ParisTech",
+		            	 "affiliation": "Athens University of Economics and Business & Ã‰cole Polytechnique & TÃ©lÃ©com ParisTech",
 
 		           	 "location": "Athens  Greece Department of Informatics",
 
@@ -2623,9 +2623,9 @@ entities={
 
 		            	 "affiliation": "University Carlos III of Madrid",
 
-		           	 "location": "Leganés  Spain",
+		           	 "location": "LeganÃ©s  Spain",
 
-		            	 "name": "Julián Urbano",
+		            	 "name": "JuliÃ¡n Urbano",
 
 		           	 "email": "jurbano@inf.uc3m.es"
 
@@ -2635,9 +2635,9 @@ entities={
 
 		            	 "affiliation": "University Carlos III of Madrid",
 
-		           	 "location": "Leganés  Spain",
+		           	 "location": "LeganÃ©s  Spain",
 
-		            	 "name": "Mónica Marrero",
+		            	 "name": "MÃ³nica Marrero",
 
 		           	 "email": "mmarrero@inf.uc3m.es"
 
@@ -2649,7 +2649,7 @@ entities={
 
 		           	 "location": "Madrid  Spain",
 
-		            	 "name": "Diego Martín",
+		            	 "name": "Diego MartÃ­n",
 
 		           	 "email": "dmartin@dit.upm.es"
 
@@ -3365,7 +3365,7 @@ entities={
 
 		           {
 
-		            	 "affiliation": "Bauhaus-Universität",
+		            	 "affiliation": "Bauhaus-UniversitÃ¤t",
 
 		           	 "location": "Weimar  Germany ",
 
@@ -3377,7 +3377,7 @@ entities={
 
 		            {
 
-		            	 "affiliation": "Bauhaus-Universität",
+		            	 "affiliation": "Bauhaus-UniversitÃ¤t",
 
 		           	 "location": "Weimar  Germany ",
 
@@ -3389,7 +3389,7 @@ entities={
 
 		            {
 
-		            	 "affiliation": "Bauhaus-Universität",
+		            	 "affiliation": "Bauhaus-UniversitÃ¤t",
 
 		           	 "location": "Weimar  Germany ",
 
@@ -3401,7 +3401,7 @@ entities={
 
 		            {
 
-		            	 "affiliation": "Bauhaus-Universität",
+		            	 "affiliation": "Bauhaus-UniversitÃ¤t",
 
 		           	 "location": "Weimar  Germany ",
 
@@ -4257,7 +4257,7 @@ entities={
 
 		           	 "location": "Meylan  France",
 
-		            	 "name": "Matthias Gallé",
+		            	 "name": "Matthias GallÃ©",
 
 		           	 "email": "mgalle@gmail.com"
 
@@ -4629,7 +4629,7 @@ entities={
   },
 "r4a02": {
     "abstract": "Existing recommender systems model user interests and the social influences independently. In reality, user interests may change over time, and as the interests change, new friends may be added while old friends grow apart and the new friendships formed may cause further interests change. This complex interaction requires the joint modeling of user interest and social relationships over time.  In this paper, we propose a probabilistic generative model, called Receptiveness over Time Model (RTM), to capture this interaction. We design a Gibbs sampling algorithm to learn the receptiveness and interest distributions among users over time. The results of experiments on a real world dataset demonstrate that RTM-based recommendation outperforms the state-of-the-art recommendation methods. Case studies also show that RTM is able to discover the user interest shift and receptiveness change over time",
-    "title": "Modeling User’s Receptiveness Over Time For Recommendation",
+    "title": "Modeling UserÂ’s Receptiveness Over Time For Recommendation",
     "authors": [
       {
         "affiliation": "National University of Singapore",
@@ -4669,20 +4669,20 @@ entities={
     "authors": [
       {
         "affiliation": "University Carlos III of Madrid",
-        "location": "Leganés, Spain",
-        "name": "Julián Urbano",
+        "location": "LeganÃ©s, Spain",
+        "name": "JuliÃ¡n Urbano",
         "email": "jurbano@inf.uc3m.es"
       },
       {
         "affiliation": "University Carlos III of Madrid",
-        "location": "Leganés, Spain",
-        "name": "Mónica Marrero",
+        "location": "LeganÃ©s, Spain",
+        "name": "MÃ³nica Marrero",
         "email": "mmarrero@inf.uc3m.es"
       },
       {
         "affiliation": "University Carlos III of Madrid",
-        "location": "Leganés, Spain",
-        "name": "Diego Martín",
+        "location": "LeganÃ©s, Spain",
+        "name": "Diego MartÃ­n",
         "email": "dmartin@dit.upm.es"
       }
     ]
@@ -4856,7 +4856,7 @@ entities={
     ]
   },
   "i101": {
-    "abstract": "It's the classic innovators dilemma: companies have built empires on the web of yesterday, matching keywords to ads and providing organic results. The challenge to which search companies must adapt is the makeup of the changing web – aspects relating to social, multimedia, device input, and geospatial – and how both IR models and the financial models that enable them must undergo a revolution. What will it take to reboot consumers' expectations and demands of search and what are some roads the industry must take to get there?",
+    "abstract": "It's the classic innovators dilemma: companies have built empires on the web of yesterday, matching keywords to ads and providing organic results. The challenge to which search companies must adapt is the makeup of the changing web Â– aspects relating to social, multimedia, device input, and geospatial Â– and how both IR models and the financial models that enable them must undergo a revolution. What will it take to reboot consumers' expectations and demands of search and what are some roads the industry must take to get there?",
     "title": "Industry Keynote 1: Web of Confusion",
     "authors": [
       {
@@ -4902,7 +4902,7 @@ entities={
     "title": "Current and Future Needs for Commercial Search Engines",
     "authors": [
       {
-        "affiliation": "Exalead, Dassault Systèmes",
+        "affiliation": "Exalead, Dassault SystÃ¨mes",
         "location": "",
         "name": "Gregory Grefenstette",
         "email": ""
@@ -4934,7 +4934,7 @@ entities={
     ]
   },
   "i302": {
-    "abstract": "The web provides an unprecedented opportunity to accelerate innovation by evaluating ideas quickly and accurately using controlled experiments (e.g., A/B tests and their generalizations). From front-end user-interface changes to backend algorithms, online controlled experiments are now utilized to make data-driven decisions at Amazon, eBay, Facebook, Google, Intuit, LinkedIn, Microsoft, Netflix, Yahoo, Zynga, and at many other companies. While the theory of a controlled experiment is simple, and dates back to Sir Ronald A. Fisher's experiments at the Rothamsted Agricultural Experimental Station in England in the 1920s, and to Gosset's t-test at Guinness in Dublin Ireland (where SIGIR this year is held), running online controlled experiments at scale—hundreds of concurrent experiments on a given day at Bing---has taught us many lessons. We provide an introduction, share real examples, key insights, cultural challenges, scaling challenges, and humbling statistics.",
+    "abstract": "The web provides an unprecedented opportunity to accelerate innovation by evaluating ideas quickly and accurately using controlled experiments (e.g., A/B tests and their generalizations). From front-end user-interface changes to backend algorithms, online controlled experiments are now utilized to make data-driven decisions at Amazon, eBay, Facebook, Google, Intuit, LinkedIn, Microsoft, Netflix, Yahoo, Zynga, and at many other companies. While the theory of a controlled experiment is simple, and dates back to Sir Ronald A. Fisher's experiments at the Rothamsted Agricultural Experimental Station in England in the 1920s, and to Gosset's t-test at Guinness in Dublin Ireland (where SIGIR this year is held), running online controlled experiments at scaleÂ—hundreds of concurrent experiments on a given day at Bing---has taught us many lessons. We provide an introduction, share real examples, key insights, cultural challenges, scaling challenges, and humbling statistics.",
     "title": "Online Controlled Experiments: Introduction, Insights, Scaling and Humbling Statistics",
     "authors": [
       {
@@ -4964,7 +4964,7 @@ entities={
       {
         "affiliation": "Microsoft Development Center Norway",
         "location": "Norway",
-        "name": "Øystein Torbjørnsen",
+        "name": "Ã˜ystein TorbjÃ¸rnsen",
         "email": ""
       }
     ]
@@ -5090,7 +5090,7 @@ entities={
     ]
   },
   "r5b03": {
-    "abstract": "In modern search engines, an increasing number of search result pages (SERPs) are federated from multiple specialized search engines (called verticals, such as Image or Video). As an effective approach to interpret users’ click-through behavior as feedback information, most click models were designed to reduce the position bias and improve ranking performance of ordinary search results, which have homogeneous appearances. However, when vertical results are combined with ordinary ones, significant differences in presentation may lead to user behavior biases and thus failure of state-of-the-art click models. With the help of a popular commercial search engine in China, we collected a large scale log data set which contains behavior information on both vertical and ordinary results. We also performed eye-tracking analysis to study user’s real-world examining behavior. According these analysis, we found that different result appearances may cause different behavior biases both for vertical results (local effect) and for the whole result lists (global effect). These biases include: examine bias for vertical results (especially those with multimedia components), trust bias for result lists with vertical results, and a higher probability of result revisitation for vertical results. Based on these findings, a novel click model considering these biases besides position bias was constructed to describe interaction with SERPs containing verticals. Experimental results show that the new Vertical-aware Click Model (VCM) is better at interpreting user click behavior on federated searches in terms of both log-likelihood and perplexity than existing models.",
+    "abstract": "In modern search engines, an increasing number of search result pages (SERPs) are federated from multiple specialized search engines (called verticals, such as Image or Video). As an effective approach to interpret usersÂ’ click-through behavior as feedback information, most click models were designed to reduce the position bias and improve ranking performance of ordinary search results, which have homogeneous appearances. However, when vertical results are combined with ordinary ones, significant differences in presentation may lead to user behavior biases and thus failure of state-of-the-art click models. With the help of a popular commercial search engine in China, we collected a large scale log data set which contains behavior information on both vertical and ordinary results. We also performed eye-tracking analysis to study userÂ’s real-world examining behavior. According these analysis, we found that different result appearances may cause different behavior biases both for vertical results (local effect) and for the whole result lists (global effect). These biases include: examine bias for vertical results (especially those with multimedia components), trust bias for result lists with vertical results, and a higher probability of result revisitation for vertical results. Based on these findings, a novel click model considering these biases besides position bias was constructed to describe interaction with SERPs containing verticals. Experimental results show that the new Vertical-aware Click Model (VCM) is better at interpreting user click behavior on federated searches in terms of both log-likelihood and perplexity than existing models.",
     "title": "Incorporating Vertical Results into Search Click Models",
     "authors": [
       {
@@ -5240,7 +5240,7 @@ entities={
       {
         "affiliation": "Universidade Federal de Minas Gerais",
         "location": "Belo Horizonte, Brazil",
-        "name": "Marcos André Gonçalves",
+        "name": "Marcos AndrÃ© GonÃ§alves",
         "email": "mgoncalv@dcc.ufmg.br"
       },
       {
@@ -5250,7 +5250,7 @@ entities={
         "email": "marco.cristo@ic.ufam.edu.br"
       },
       {
-        "affiliation": "Instituto Superior Técnico/ INESC-ID",
+        "affiliation": "Instituto Superior TÃ©cnico/ INESC-ID",
         "location": "Porto Salvo, Portugal",
         "name": "Pavel Calado",
         "email": "pavel.calado@tagus.ist.utl.pt"
@@ -5304,7 +5304,7 @@ entities={
     "title": "Efficient Query Construction for Large Scale Data",
     "authors": [
       {
-        "affiliation": "Leibniz Universität Hannover",
+        "affiliation": "Leibniz UniversitÃ¤t Hannover",
         "location": "Hannover, Germany",
         "name": "Elena Demidova",
         "email": "demidova@L3S.de"
@@ -5316,7 +5316,7 @@ entities={
         "email": "zhou.xuan@outlook.com"
       },
       {
-        "affiliation": "Leibniz Universität Hannover",
+        "affiliation": "Leibniz UniversitÃ¤t Hannover",
         "location": "Hannover, Germany",
         "name": "Wolfgang Nejdl ",
         "email": "nejdl@L3S.de"
@@ -5432,7 +5432,7 @@ entities={
     ]
   },
   "r7b02": {
-    "abstract": "Query suggestion or auto-completion mechanisms are widely used by search engines and are increasingly attracting interest from the research community. However, the lack of commonly accepted evaluation methodology and metrics means that it is not possible to compare results and approaches from the literature. Moreover, often the metrics used to evaluate query suggestions tend to be an adaptation from other domains without a proper justification. Hence, it is not necessarily clear if the improvements reported in the literature would result in an actual improvement in the users' experience. Inspired by the cascade user models and state-of-the-art evaluation metrics in the web search domain, we address the query suggestion evaluation, by first studying the users behaviour from a search engine’s query log and thereby deriving a new family of user models describing the users interaction with a query suggestion mechanism. Next, assuming a query log-based evaluation approach, we propose two new metrics to evaluate query suggestions, pSaved and eSaved. Both metrics are parameterised by a user model. pSaved is defined as the probability of using the query suggestions while submitting a query. eSaved equates to the expected relative amount of effort (keypresses) a user can avoid due to the deployed query suggestion mechanism. Finally, we experiment with both metrics using four user model instantiations as well as metrics previously used in the literature on a dataset of 6.1M sessions. Our results demonstrate that pSaved and eSaved show the best alignment with the users satisfaction amongst the considered metrics.",
+    "abstract": "Query suggestion or auto-completion mechanisms are widely used by search engines and are increasingly attracting interest from the research community. However, the lack of commonly accepted evaluation methodology and metrics means that it is not possible to compare results and approaches from the literature. Moreover, often the metrics used to evaluate query suggestions tend to be an adaptation from other domains without a proper justification. Hence, it is not necessarily clear if the improvements reported in the literature would result in an actual improvement in the users' experience. Inspired by the cascade user models and state-of-the-art evaluation metrics in the web search domain, we address the query suggestion evaluation, by first studying the users behaviour from a search engineÂ’s query log and thereby deriving a new family of user models describing the users interaction with a query suggestion mechanism. Next, assuming a query log-based evaluation approach, we propose two new metrics to evaluate query suggestions, pSaved and eSaved. Both metrics are parameterised by a user model. pSaved is defined as the probability of using the query suggestions while submitting a query. eSaved equates to the expected relative amount of effort (keypresses) a user can avoid due to the deployed query suggestion mechanism. Finally, we experiment with both metrics using four user model instantiations as well as metrics previously used in the literature on a dataset of 6.1M sessions. Our results demonstrate that pSaved and eSaved show the best alignment with the users satisfaction amongst the considered metrics.",
     "title": "User model-based metrics for offline query suggestion evaluation",
     "authors": [
       {
@@ -5468,7 +5468,7 @@ entities={
       {
         "affiliation": "UNED",
         "location": "Madrid, Spain",
-        "name": "Enrique Amigó",
+        "name": "Enrique AmigÃ³",
         "email": "enrique@lsi.uned.es"
       },
       {
@@ -5490,20 +5490,20 @@ entities={
     "title": "Modeling Term Dependencies with Quantum Language Models for IR",
     "authors": [
       {
-        "affiliation": "Université de Montréal",
-        "location": "Montréal, PQ, Canada",
+        "affiliation": "UniversitÃ© de MontrÃ©al",
+        "location": "MontrÃ©al, PQ, Canada",
         "name": "Alessandro Sordoni",
         "email": "sordonia@iro.umontreal.ca"
       },
       {
-        "affiliation": "Université de Montréal",
-        "location": "Montréal, PQ, Canada",
+        "affiliation": "UniversitÃ© de MontrÃ©al",
+        "location": "MontrÃ©al, PQ, Canada",
         "name": "Jian-Yun Nie",
         "email": "nie@iro.umontreal.ca"
       },
       {
-        "affiliation": "Université de Montréal",
-        "location": "Montréal, PQ, Canada",
+        "affiliation": "UniversitÃ© de MontrÃ©al",
+        "location": "MontrÃ©al, PQ, Canada",
         "name": "Yoshua Bengio ",
         "email": "bengioy@iro.umontreal.ca"
       }
@@ -5604,13 +5604,13 @@ entities={
     "title": "Faster Upper Bounding of Intersection Sizes",
     "authors": [
       {
-        "affiliation": "IBM Research – Tokyo",
+        "affiliation": "IBM Research Â– Tokyo",
         "location": "Tokyo, Japan",
         "name": "Daisuke Takuma",
         "email": "ta9ma@jp.ibm.com"
       },
       {
-        "affiliation": "IBM Research – Tokyo",
+        "affiliation": "IBM Research Â– Tokyo",
         "location": "Tokyo, Japan",
         "name": "Hiroki Yanagisawa",
         "email": "yanagis@jp.ibm.com"
