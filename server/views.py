@@ -7,6 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
 from django.core.validators import email_re
 from django.db.utils import IntegrityError
+from django.utils.http import urlquote_plus
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -47,7 +48,7 @@ def login_required(f):
     def wrap(request, *args, **kwargs):
         if kLogIn not in request.session.keys():
         	if(len(args)>0):
-        		redirect_url = urllib.quote("/%s/%s" %(args[0], f.__name__))
+        		redirect_url = urlquote_plus("/%s/%s" %(args[0], f.__name__))
         	else:
         		redirect_url = "/"
         	return HttpResponseRedirect("/login?redirect_url=%s" %(redirect_url))
