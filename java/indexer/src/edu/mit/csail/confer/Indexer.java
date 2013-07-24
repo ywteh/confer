@@ -42,15 +42,13 @@ import java.util.Scanner;
  * 
  */
 public class Indexer {
-	String docsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/papers.json";
-	String similarDocsPath = "/Volumes/Workspace/projects/confer/data/sigmod2013/similar_papers.json";
+	String docsPath = "";
+	String similarDocsPath = "";
 	String indexPath = "index";
 	boolean create = true;
   
-  public Indexer() {
-  }
   
-  public Indexer(String docsPath, String indexPath, String similarDocsPath, boolean create) {
+  public Indexer(String docsPath, String similarDocsPath, boolean create) {
 	  this.docsPath = docsPath;
 	  this.indexPath = indexPath;
 	  this.similarDocsPath = similarDocsPath;
@@ -62,10 +60,11 @@ public class Indexer {
     
     try {
     	Indexer indexer = null;
-    	if(args.length == 3){
-    		indexer = new Indexer(args[0], args[1], args[2], true);
+    	if(args.length == 2){
+    		indexer = new Indexer(args[0], args[1], true);
     	}else{
-    		indexer = new Indexer();
+    		System.out.println("Required arguments missing");
+        System.exit(1);
     	}
     	indexer.index();
     	indexer.getSimilarity();
@@ -110,21 +109,17 @@ public class Indexer {
           Map<String, Object> paper_details = papers.get(paper_id);
           String title = paper_details.get("title").toString();
           String abstrct = paper_details.get("abstract").toString();
-          String session = paper_details.get("session").toString();
           //System.out.println(title);
           //System.out.println(abstrct);
           //System.out.println(session);
           //System.out.println(title);
           Document doc = new Document();   
           Field f_paper_id = new Field("paper_id", paper_id, Field.Store.YES, Field.Index.NOT_ANALYZED);
-          Field f_session = new Field("session", session, Field.Store.YES, Field.Index.ANALYZED);
           Field f_title = new Field("title", title, Field.Store.YES, Field.Index.ANALYZED);
           Field f_abstract = new Field("abstract", abstrct, Field.Store.YES, Field.Index.ANALYZED);
-          f_session.setBoost((float) 15.0);
           f_title.setBoost((float) 10.0);
           f_abstract.setBoost((float) 1.0);
           doc.add(f_paper_id);
-          doc.add(f_session);
           doc.add(f_title);
           doc.add(f_abstract);
           if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {

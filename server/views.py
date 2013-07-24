@@ -315,19 +315,22 @@ def data(request):
 
 def compute_recs(papers):
 	recs = {}
-	for paper in papers:
-		r = offline_recs[paper]
-		for p in r:
-			id = p.keys()[0]
-			if(id in papers):
-				continue
-			if((id in recs) and (recs[id]>p[id])):
-				pass
-			else:				
-				recs[id]=p[id]
-	sorted_recs = sorted(recs.keys(), key=operator.itemgetter(1))
-	#print sorted_recs
-	return sorted_recs[0:20]
+	sorted_recs = []
+	try:
+		for paper in papers:
+			r = offline_recs[paper]
+			for p in r:
+				id = p.keys()[0]
+				if(id in papers):
+					continue
+				if((id in recs) and (recs[id]>p[id])):
+					pass
+				else:				
+					recs[id]=p[id]
+		sorted_recs = sorted(recs.keys(), key=operator.itemgetter(1))
+	except:
+		#print sorted_recs
+		return sorted_recs[0:20]
 
 
 
