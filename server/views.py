@@ -75,6 +75,8 @@ def login(request):
     	redirect_url = request.GET['redirect_url']
     if request.method == "POST":
     	errors = []
+    	if('redirect_url' in request.POST.keys()):
+    		redirect_url = request.GET['redirect_url']
         try:
             login_email = request.POST["login_email"]
             login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
@@ -82,7 +84,7 @@ def login(request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
-            return HttpResponseRedirect(request.POST['redirect_url'])
+            return HttpResponseRedirect(redirect_url)
         except User.DoesNotExist:
         	try:
         		User.objects.get(email=login_email)
@@ -103,6 +105,8 @@ def register(request):
     if request.method == "POST":
     	errors = []
         try:
+        	if('redirect_url' in request.POST.keys()):
+    			redirect_url = request.GET['redirect_url']
             error = False
             email = request.POST["email"]
             password = request.POST["password"]
@@ -133,7 +137,7 @@ def register(request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
-            return HttpResponseRedirect(request.POST['redirect_url'])
+            return HttpResponseRedirect(redirect_url)
         except IntegrityError:
             errors.append("Account already exists. Please Log In.")
             return register_form(request, redirect_url = redirect_url, errors = errors)
