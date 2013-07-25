@@ -13,7 +13,7 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "morning1 morning2 afternoon1 afternoon2",
+        "slot_name": "morning1",
         "time": "08:30-17:30"
       },
       {
@@ -35,7 +35,7 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "morning1 morning2",
+        "slot_name": "morning1",
         "time": "08:30-12:15"
       },
       {
@@ -57,7 +57,7 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "afternoon1 afternoon2",
+        "slot_name": "afternoon1",
         "time": "13:30-17:30"
       }
     ],
