@@ -1,29 +1,4 @@
 sessions={
-"codehere": {
-    "s_title": "",
-    "submissions": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
-"doctoralconsortium": {
-    "s_title": "Doctoral Consortium",
-    "submissions": [
-      "dc01",
-      "dc02",
-      "dc03",
-      "dc04",
-      "dc05",
-      "dc06",
-      "dc07",
-      "dc08",
-      "dc09",
-      "dc10",
-      "dc11"
-    ]
-  },
 "tutorial01": {
     "s_title": "Full-day Tutorial: Building Test Collections: An Interactive Guide for Students and Others Without their own Evaluation Conference Series",
     "submissions": [
