@@ -5,10 +5,6 @@ schedule=[
       {
         "sessions": [
           {
-            "session": "doctoralconsortium",
-            "room": "TBA@TCD"
-          },
-          {
             "session": "tutorial01",
             "room": "TBA@TCD"
           },
