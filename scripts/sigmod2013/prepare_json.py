@@ -176,49 +176,56 @@ def prepare_schedule_json():
 	'date':'06/24/2013', 
 	'slots':[
 		{'time':'08:30-10:00',
-		 'slot_name': 'morning', 
+		 'slot_class': 'morning', 
+		 'slot_id': 'Monday1', 
 			'sessions':
 				[
 				{'session':'SP1', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'10:30-12:30',
-		 'slot_name': 'morning',  
+		 'slot_class': 'morning', 
+		 'slot_id': 'Monday2', 
 			'sessions':
 				[
 				{'session':'PODS1', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'13:15-14:45', 
-		 'slot_name': 'afternoon1',
+		 'slot_class': 'afternoon1',
+		 'slot_id': 'Monday3',
 			'sessions':
 				[
 				{'session':'PODS2', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'15:15-16:45', 
-		 'slot_name': 'afternoon2',
+		 'slot_class': 'afternoon2',
+		 'slot_id': 'Monday4',
 			'sessions':
 				[
 				{'session':'PODS3', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'17:15-18:45', 
-		 'slot_name': 'afternoon2',
+		 'slot_class': 'afternoon2',
+		 'slot_id': 'Monday5',
 			'sessions':
 				[
 				{'session':'PODS4', 'room':'Gallery 8'},
 				]
 		},
 		{'time':'20:15-21:15', 
-		  'slot_name': 'evening',
+		  'slot_class': 'evening',
+		  'slot_id': 'Monday6',
 			'sessions':
 				[
 				{'session':'SP2', 'room':'Time Square'},
 				]
 		},
 		{'time':'21:00-22:30',
-		 'slot_name': 'evening', 
+		 'slot_class': 'evening', 
+		 'slot_id': 'Monday7',
 			'sessions':
 				[
 				{'session':'SP3', 'room':'Gallery 8'},
@@ -233,14 +240,16 @@ def prepare_schedule_json():
 	'date':'06/25/2013', 
 	'slots':[
 		{'time':'08:30-10:00',
-		 'slot_name': 'morning',  
+		 'slot_class': 'morning', 
+		 'slot_id': 'Tuesday1', 
 			'sessions':
 				[
 				{'session':'SP4', 'room':'Hudson'},
 				]
 		},
 		{'time':'10:30-12:30', 
-		 'slot_name': 'morning',
+		 'slot_class': 'morning',
+		 'slot_id': 'Tuesday2', 
 			'sessions':
 				[
 				{'session':'PODS5', 'room':'3.04/3.05'},
@@ -253,7 +262,8 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'13:30-15:00',
-		 'slot_name': 'afternoon1',
+		 'slot_class': 'afternoon1',
+		 'slot_id': 'Tuesday3', 
 		'sessions':[	
 				{'session':'PODS6', 'room':'3.04/3.05'},
 				{'session':'Research4', 'room':'3.11'},
@@ -265,7 +275,8 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'15:30-17:00',
-		'slot_name': 'afternoon2',
+		'slot_class': 'afternoon2',
+		'slot_id': 'Tuesday4', 
 		'sessions':
 				[
 				{'session':'PODS7', 'room':'3.04/3.05'},
@@ -278,7 +289,8 @@ def prepare_schedule_json():
 				]
 		},
 		{'time':'18:30-21:00', 
-		 'slot_name': 'evening',
+		 'slot_class': 'evening',
+		 'slot_id': 'Tuesday5', 
 			'sessions':
 				[
 				{'session':'SP5', 'room':'3.04/3.05'},
@@ -288,7 +300,8 @@ def prepare_schedule_json():
 		},
 		
 		{'time':'20:30-22:00', 
-		 'slot_name': 'evening',
+		 'slot_class': 'evening',
+		 'slot_id': 'Tuesday6', 
 			'sessions':
 				[
 				{'session':'SP8', 'room':'Gallery 8'},
@@ -302,14 +315,16 @@ def prepare_schedule_json():
 	'date':'06/26/2013',
 	'slots':[
 		{'time':'08:30-10:00',
-		 'slot_name': 'morning',  
+		 'slot_class': 'morning',
+		 'slot_id': 'Wednesday1', 
 			'sessions':
 				[
 				{'session':'SP9', 'room':'Manhattan'},
 				]
 		},
 		{'time':'10:30-12:30',
-		 'slot_name': 'morning', 
+		 'slot_class': 'morning', 
+		 'slot_id': 'Wednesday2', 
 		'sessions':
 			[
 			{'session':'PODS8', 'room':'3.04/3.05'},
@@ -322,7 +337,8 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'13:15-15:30',
-		'slot_name': 'afternoon1',
+		'slot_class': 'afternoon1',
+		'slot_id': 'Wednesday3', 
 		'sessions':
 			[
 			{'session':'SP10', 'room':'Hudson'},
@@ -330,7 +346,8 @@ def prepare_schedule_json():
 		},
 		{
 		'time':'16:00-17:30',
-		'slot_name': 'afternoon2',
+		'slot_class': 'afternoon2',
+		'slot_id': 'Wednesday4', 
 		'sessions':
 			[
 			{'session':'PODS9', 'room':'3.04/3.05'},
@@ -343,7 +360,8 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'20:00-22:30',
-		'slot_name': 'evening',
+		'slot_class': 'evening',
+		'slot_id': 'Wednesday5', 
 		'sessions':
 			[
 			{'session':'SP11', 'room':'Hudson'},
@@ -360,14 +378,16 @@ def prepare_schedule_json():
 	'date':'06/27/2013',
 	'slots':[
 		{'time':'08:30-10:00', 
-		 'slot_name': 'morning', 
+		 'slot_class': 'morning', 
+		 'slot_id': 'Thursday1', 
 			'sessions':
 				[
 				{'session':'SP12', 'room':'Hudson'},
 				]
 		},
 		{'time':'10:30-12:30',
-		'slot_name': 'morning', 
+		'slot_class': 'morning', 
+		'slot_id': 'Thursday2', 
 		'sessions':
 			[
 			{'session':'Research16', 'room':'3.04/3.05'},
@@ -380,7 +400,8 @@ def prepare_schedule_json():
 		},
 
 		{'time':'13:30-15:00',
-		'slot_name': 'afternoon1',
+		'slot_class': 'afternoon1',
+		'slot_id': 'Thursday3', 
 		'sessions':
 			[
 			{'session':'Research19', 'room':'3.11'},
@@ -392,7 +413,8 @@ def prepare_schedule_json():
 			]
 		},
 		{'time':'15:30-17:00',
-		'slot_name': 'afternoon2',
+		'slot_class': 'afternoon2',
+		'slot_id': 'Thursday4', 
 		'sessions':
 			[
 			{'session':'Research23', 'room':'3.11'},

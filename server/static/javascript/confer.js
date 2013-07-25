@@ -1452,13 +1452,13 @@ function populate_schedule(){
         var raw_html = '<div id = "'+schedule[day].day+'"></div>'
         for(slot in schedule[day].slots){
             raw_html += '<h3 class="collapsible-title collapsible" \
-                    data="'+schedule[day].day+schedule[day].slots[slot].slot_name+'"> \
+                    data="'+schedule[day].slots[slot].slot_id+'"> \
                     <span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + 
                     schedule[day].slots[slot].time + '</h3>'
-            raw_html += '<div id = "'+schedule[day].day+schedule[day].slots[slot].slot_name+'" class="session-timeslot">'
+            raw_html += '<div id = "'+schedule[day].slots[slot].slot_id+'" class="session-timeslot">'
             for(session in schedule[day].slots[slot].sessions){
                 raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, 
-                        schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_name, 
+                        schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_class, 
                         schedule[day].slots[slot].sessions[session].room)
             }
             raw_html += '</div>'

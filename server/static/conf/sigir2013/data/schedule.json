@@ -13,7 +13,8 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "morning1",
+        "slot_class": "morning1 morning2 afternoon1 afternoon2",
+        "slot_id": "Sunday1",
         "time": "08:30-17:30"
       },
       {
@@ -35,7 +36,8 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "morning1",
+        "slot_class": "morning1 morning2",
+        "slot_id": "Sunday2",
         "time": "08:30-12:15"
       },
       {
@@ -57,7 +59,8 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "afternoon1",
+        "slot_class": "afternoon1 afternoon2",
+        "slot_id": "Sunday3",
         "time": "13:30-17:30"
       }
     ],
@@ -73,7 +76,8 @@ schedule=[
             "room": "Mansion House"
           }
         ],
-        "slot_name": "morning1",
+        "slot_class": "morning1",
+        "slot_id": "Monday1",
         "time": "09:00-10:15"
       },
       {
@@ -91,7 +95,8 @@ schedule=[
             "room": "Emmet Theatre, TCD"
           }
         ],
-        "slot_name": "morning2",
+        "slot_class": "morning2",
+        "slot_id": "Monday2",
         "time": "11:00-12:40"
       },
       {
@@ -101,7 +106,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "afternoon1",
+        "slot_class": "afternoon1",
+        "slot_id": "Monday3",
         "time": "13:40-15:40"
       },
       {
@@ -119,7 +125,8 @@ schedule=[
             "room": "Emmet Theatre, TCD"
           }
         ],
-        "slot_name": "afternoon2",
+        "slot_class": "afternoon2",
+        "slot_id": "Monday4",
         "time": "15:40-17:20"
       }
     ],
@@ -135,7 +142,8 @@ schedule=[
             "room": "Mansion House"
           }
         ],
-        "slot_name": "morning1",
+        "slot_class": "morning1",
+        "slot_id": "Tuesday1",
         "time": "09:00-10:15"
       },
       {
@@ -153,7 +161,8 @@ schedule=[
             "room": "Emmet Theatre, TCD"
           }
         ],
-        "slot_name": "morning2",
+        "slot_class": "morning2",
+        "slot_id": "Tuesday2",
         "time": "11:00-12:40"
       },
       {
@@ -163,7 +172,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "afternoon1",
+        "slot_class": "afternoon1",
+        "slot_id": "Tuesday3",
         "time": "13:40-15:40"
       },
       {
@@ -181,7 +191,8 @@ schedule=[
             "room": "Emmet Theatre, TCD"
           }
         ],
-        "slot_name": "afternoon2",
+        "slot_class": "afternoon2",
+        "slot_id": "Tuesday4",
         "time": "15:40-16:55"
       }
     ],
@@ -205,7 +216,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "morning1",
+        "slot_class": "morning1",
+        "slot_id": "Wednesday1",
         "time": "09:00-10:15"
       },
       {
@@ -223,7 +235,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "morning2",
+        "slot_class": "morning2",
+        "slot_id": "Wednesday2",
         "time": "10:40-12:20"
       },
       {
@@ -241,7 +254,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "afternoon1",
+        "slot_class": "afternoon1",
+        "slot_id": "Wednesday3",
         "time": "14:00-15:15"
       },
       {
@@ -259,7 +273,8 @@ schedule=[
             "room": "Exam Hall, TCD"
           }
         ],
-        "slot_name": "afternoon2",
+        "slot_class": "afternoon2",
+        "slot_id": "Wednesday4",
         "time": "15:40-17:20"
       },
       {
@@ -269,7 +284,8 @@ schedule=[
             "room": "TBA@TCD"
           }
         ],
-        "slot_name": "closing",
+        "slot_class": "closing",
+        "slot_id": "Wednesday5",
         "time": "17:20-17:50"
       }
     ],
