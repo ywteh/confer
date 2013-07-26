@@ -26,9 +26,9 @@ import py4j.GatewayServer;
 public class ConferRecommender {
 	GlobalItemRecommender grec;
 	
-	public ConferRecommender(String inputDataFile, String offlineRecommendationFile) throws RecommenderBuildException {		
+	public ConferRecommender(String prefsFile) throws RecommenderBuildException {		
 		LenskitRecommenderEngineFactory factory = new LenskitRecommenderEngineFactory();
-		File f = new File(fileName);
+		File f = new File(prefsFile);
 		factory.setDAOFactory(new SimpleFileRatingDAO.Factory(f, "\t"));
 		/* configure a normalizer and baseline predictor */
 		factory.bind(UserVectorNormalizer.class)
@@ -38,7 +38,7 @@ public class ConferRecommender {
 		factory.bind(GlobalItemScorer.class).to(ItemItemGlobalScorer.class);
 		factory.bind(GlobalItemRecommender.class).to(ItemItemGlobalRecommender.class);
 		RecommenderEngine engine = factory.create();
-		/* get the and use the recommender */
+		/* get the recommender */
 		Recommender rec = engine.open();
 		grec = rec.getGlobalItemRecommender();
 	}
@@ -66,7 +66,7 @@ public class ConferRecommender {
 
 	public static void main(String[] args){		
 		try{
-			ConferRecommender r = new ConferRecommender(args[0], args[1]);
+			ConferRecommender r = new ConferRecommender(args[0]);
 			GatewayServer gatewayServer = new GatewayServer(r);
 	        gatewayServer.start();
 	        System.out.println("Gateway Server Started");

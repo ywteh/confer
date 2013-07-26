@@ -23,7 +23,9 @@ window.applicationCache.addEventListener('updateready', function(){
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
 var starred = JSON.parse(localStorage.getItem('starred'))
-var recommended = JSON.parse(localStorage.getItem('recommended'))
+var recommended = []
+compute_recs()
+//var recommended = JSON.parse(localStorage.getItem('recommended'))
 
 
 
@@ -47,11 +49,7 @@ function refresh(_async_){
             if(res.login_name != null){
                 login_name = res.login_name
                 localStorage.setItem('login_name', login_name)
-            }
-            if(res.recs!=null){
-                recommended = res.recs
-                localStorage.setItem('recommended', JSON.stringify(recommended))
-            }
+            }            
 
             if(res.likes != null){
                 starred = res.likes
@@ -130,11 +128,13 @@ function sync(){
         data:{'papers': JSON.stringify(star_pending)}, 
         success: function(res) {
             //console.log(res)
-            recommended = res.recs
+            //recommended = res.recs
             starred = res.likes
             s_starred = res.s_likes
+            /*
             if(recommended!=null)
                 localStorage.setItem('recommended', JSON.stringify(recommended))
+            */
             if(starred!= null)
                 localStorage.setItem('starred', JSON.stringify(starred))
            
@@ -152,11 +152,13 @@ function sync(){
         data:{'papers': JSON.stringify(unstar_pending)}, 
         success: function(res) {
             //console.log(res)
-            recommended = res.recs
+            //recommended = res.recs
             starred = res.likes
             s_starred = res.s_likes
+            /*
             if(recommended!=null)
                 localStorage.setItem('recommended', JSON.stringify(recommended))
+            */
             if(starred!=null)
                 localStorage.setItem('starred', JSON.stringify(starred))
             unstar_pending = []
@@ -267,7 +269,7 @@ Object.size = function(obj) {
 
 function exists(recs, id){
     for(var r in recs){
-        if(recs[r] == id){
+        if(recs[r]['id'] == id){
             return true
         }
     }
@@ -696,8 +698,9 @@ function simple_search_papers(str){
 
 
 function refresh_recommendations(){
-    populate_recs(recommended)
-    update_recs(recommended)
+    compute_recs()
+    populate_recs()
+    update_recs()
 }
 
 
@@ -1015,7 +1018,7 @@ function update_session_view(){
 function update_recs(){
       $('.paper').removeClass('recommended')
       for(var r in recommended){
-            $('.'+recommended[r]).each(function(){
+            $('.'+recommended[r]['id']).each(function(){
                 $(this).addClass('recommended')
             });
       }
@@ -1086,7 +1089,7 @@ function handle_session_star(event){
                     $(this).find('.paper').removeClass('highlight')
                 })
                 starred = res.likes
-                recommended = res.recs
+                compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
@@ -1122,7 +1125,7 @@ function handle_session_star(event){
                     $(this).find('.paper').addClass('highlight')
                 })
                 starred = res.likes
-                recommended = res.recs
+                compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
                 localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
@@ -1139,6 +1142,26 @@ function handle_session_star(event){
 
 
 }
+
+
+
+function compute_recs(){
+    var recs = []
+    starred.forEach(function (p){
+        var p_recs = offline_recs[p]
+        if (p_recs != null) {        
+            p_recs.forEach(function(rec){
+                var p_id = Object.keys(rec)[0]
+                if(! exists(p_id, recs) && starred.indexOf(p_id) == -1){
+                    recs.push({'id':p_id, 'score':rec[p_id]})
+                }
+            })
+        }
+    })
+    recommended = recs
+}
+
+
 
 
 
@@ -1174,12 +1197,12 @@ function handle_star(event){
                 var i =  starred.indexOf(paper_id)
                 starred.splice(i, 1)
                 populate_likes(starred)
-                recommended = res.recs
+                compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('recommended', JSON.stringify(recommended))
+                //localStorage.setItem('recommended', JSON.stringify(recommended))
                 
                 if($("#recs tr").length == 0){
-                    populate_recs(recommended)
+                    populate_recs()
                 }else{
                     append_recs()
                 }
@@ -1216,12 +1239,12 @@ function handle_star(event){
                 })
                 starred.push(paper_id)
                 populate_likes(starred)
-                recommended = res.recs
+                compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('recommended', JSON.stringify(recommended))
+                //localStorage.setItem('recommended', JSON.stringify(recommended))
                 
                 if($("#recs tr").length == 0){
-                    populate_recs(recommended)
+                    populate_recs()
                 }else{            
                     append_recs()
                 }
@@ -1398,7 +1421,7 @@ function populate_recs(){
     }
     var raw_html = ''   
     for(var r in recommended){
-        raw_html += get_paper_html(recommended[r])
+        raw_html += get_paper_html(recommended[r]['id'])
     }
     $("#recs").html(raw_html)
 

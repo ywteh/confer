@@ -70,7 +70,7 @@ public class Indexer {
     	indexer.getSimilarity();
     } catch (IOException e) {
       System.out.println(" caught a " + e.getClass() +
-       "\n with message: " + e.getMessage());
+          "\n with message: " + e.getMessage());
     }
   }
 
