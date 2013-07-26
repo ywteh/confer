@@ -58,3 +58,13 @@
 <br />
 </div>
 {% endblock %}
+{% block javascript %} 
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#logged_in_name").html(localStorage.getItem('login_name'))
+    bind_events()        
+});
+</script>
+<script type="text/javascript" src="/static/javascript/confer.js"></script>
+{% endblock %}
