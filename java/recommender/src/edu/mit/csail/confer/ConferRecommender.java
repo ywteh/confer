@@ -26,7 +26,7 @@ import py4j.GatewayServer;
 public class ConferRecommender {
 	GlobalItemRecommender grec;
 	
-	public ConferRecommender(String fileName, String fileName2) throws RecommenderBuildException {		
+	public ConferRecommender(String inputDataFile, String offlineRecommendationFile) throws RecommenderBuildException {		
 		LenskitRecommenderEngineFactory factory = new LenskitRecommenderEngineFactory();
 		File f = new File(fileName);
 		factory.setDAOFactory(new SimpleFileRatingDAO.Factory(f, "\t"));

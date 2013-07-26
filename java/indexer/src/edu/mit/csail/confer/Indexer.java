@@ -44,11 +44,11 @@ import java.util.Scanner;
 public class Indexer {
 	String docsPath = "";
 	String similarDocsPath = "";
-	String indexPath = "index";
+	String indexPath = "";
 	boolean create = true;
   
   
-  public Indexer(String docsPath, String similarDocsPath, boolean create) {
+  public Indexer(String docsPath, String similarDocsPath, String indexPath, boolean create) {
 	  this.docsPath = docsPath;
 	  this.indexPath = indexPath;
 	  this.similarDocsPath = similarDocsPath;
@@ -60,8 +60,8 @@ public class Indexer {
     
     try {
     	Indexer indexer = null;
-    	if(args.length == 2){
-    		indexer = new Indexer(args[0], args[1], true);
+    	if(args.length == 3){
+    		indexer = new Indexer(args[0], args[1], args[2], true);
     	}else{
     		System.out.println("Required arguments missing");
         System.exit(1);
