@@ -24,7 +24,7 @@ var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
 var starred = []
 var recommended = []
-compute_recs()
+
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
 
 
@@ -67,6 +67,7 @@ function refresh(_async_){
 setInterval('refresh();', 60*1000)
 
 refresh(false)
+compute_recs()
 /* data structure for pending stars */
 
 function refresh_pending(){
