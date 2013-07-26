@@ -47,23 +47,38 @@ def get_class(t):
 		return 'afternoon2'
 
 
+def get_type(t):
+	if(t==5):
+		return "Invited Talk"
+	elif(t==8):
+		return "Welcome Address"
+
+
 
 def handle_file(f, date, day):
 	data = json.loads(open(p+'/'+f).read())
-	day = {'date': date, 'day': day}
+	s_day = {'date': date, 'day': day}
 	s_slots = []
 	for slot_id, slot in data.iteritems():
-		if 'sessions' not in slot.keys():
+		if(slot['type'] == "0"):
 			continue
 		s_slot = {'time':slot['nom_slot'], 'slot_id': 'slot_'+slot_id, 'slot_class': get_class(slot['nom_slot'])}
-		sessions = []
-		for session_id, session in slot['sessions'].iteritems():
-			sessions.append({'session': 'session_'+session['sessionid'], 'room': session['room']})
-			handle_session(session)
-		s_slot['sessions'] = sessions
+		s_sessions = []
+		if(slot['type'] == "10"):
+			for session_id, session in slot['sessions'].iteritems():
+				s_sessions.append({'session': 'session_'+session['sessionid'], 'room': session['room']})
+				handle_session(session)
+		else:
+			if('paper' in slot.keys()):
+				s_sessions.append({'session': 'session_'+day+'_'+slot['nom_slot'], 'room': slot['room']})
+				sessions['session_'+ day+'_'+slot['nom_slot']] = { 
+					's_title': slot['paper'],
+					'submissions': []
+				}
+		s_slot['sessions'] = s_sessions
 		s_slots.append(s_slot)
-	day['slots'] = s_slots
-	schedule.append(day)
+	s_day['slots'] = s_slots
+	schedule.append(s_day)
 
 def prepare_paper_and_schedule_json():
 	load_abstracts()
