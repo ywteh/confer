@@ -70,11 +70,13 @@ def handle_file(f, date, day):
 				handle_session(session)
 		else:
 			if('paper' in slot.keys()):
-				s_sessions.append({'session': 'session_'+day+'_'+slot['nom_slot'], 'room': slot['room']})
-				sessions['session_'+ day+'_'+slot['nom_slot']] = { 
+				s_sessions.append({'session': 'session_'+day+'_'+slot['nom_slot'][0:2], 'room': slot['room']})
+				sessions['session_'+ day+'_'+slot['nom_slot'][0:2]] = { 
 					's_title': slot['paper'],
-					'submissions': []
+					'submissions': ['paper_'+day+'_'+slot['nom_slot'][0:2]]
 				}
+				papers['paper_'+day+'_'+slot['nom_slot'][0:2]] = {'title': slot['paper'], 
+				'abstract':'', 'authors':[{'name': author} for author in re.split(',', slot['author'])]}
 		s_slot['sessions'] = s_sessions
 		s_slots.append(s_slot)
 	s_day['slots'] = s_slots
