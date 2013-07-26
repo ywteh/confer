@@ -1470,11 +1470,11 @@ function populate_schedule(){
 }
 
 function populate_filters(){
-    if(typeof filters == "undefined" || filters == null){
+    if(typeof s_filters != "object" || s_filters == null){
         return
     }
     var filter_html = ''
-    for(var f in filters){
+    for(var f in s_filters){
         var filter = filters[f]
         filter_html += '<tr>'
         filter_html += '<td style="vertical-align:top">'

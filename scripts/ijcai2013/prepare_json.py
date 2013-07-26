@@ -1,54 +1,74 @@
 import sys, os, json, csv, re, difflib
-
-if __name__ == "__main__":
-        p = os.path.abspath(os.path.dirname(__file__))
-        if(os.path.abspath(p+"/../..") not in sys.path):
-                sys.path.append(os.path.abspath(p+"/../.."))
-        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
+p = os.path.abspath(os.path.dirname(__file__) + '/../../data/ijcai2013')
 
 papers = {}
 sessions = {}
+schedule = []
+
+
+def load_abstracts():
+	f = open(p+'/abstracts.csv', 'rU')
+	reader = csv.reader(f)
+	for row in reader:
+		papers[row[0]] = {
+			'title': unicode(row[1], "ISO-8859-1"),
+			'abstract': unicode(row[2], "ISO-8859-1")}
+
+
+
+def handle_session(session):
+	if('papers' not in session.keys()):
+		return
+	sessions[session['sessionid']] = {
+		's_title': session['title'],
+		'submissions': [p['paperid'] for p in session['papers']]
+	}
+	for p in session['papers']:
+		paper_id = p['paperid']
+		if(paper_id in papers):
+			authors = re.split(',', p['authors'])
+
+			papers[paper_id].update(
+				{'authors':[{'name': author} for author in authors]})
+		else:
+			#print session
+			pass
+
+
+def handle_file(f, date, day):
+	data = json.loads(open(p+'/'+f).read())
+	day = {'date': date, 'day': day}
+	s_slots = []
+	for slot_id, slot in data.iteritems():
+		if 'sessions' not in slot.keys():
+			continue
+		s_slot = {'time':slot['nom_slot']}
+		sessions = []
+		for session_id, session in slot['sessions'].iteritems():
+			sessions.append({'session': session['sessionid'], 'room': session['room']})
+			handle_session(session)
+		s_slot['sessions'] = sessions
+		s_slots.append(s_slot)
+	day['slots'] = s_slots
+	schedule.append(day)
 
 def prepare_paper_and_schedule_json():
-	try:
-		file = open('6', 'rU')
-		f = json.loads(file.read())
-		for key in f.keys():
-                  if ('sessions' in f[key]):
-                    item = f[key]['sessions']
-		    for session in item:
-                      session_id = item[session]['sessionid']
-		      s_title = item[session]['title']
-		      submissions = []
-                      if 'papers' in item[session]:
-                	for paper in item[session]['papers']:
-       			  authors = []
-                          paper_id = paper['paperid']
-   			  author_list = re.split(",",  paper['authors'])
-			  for author in author_list:
-			     authors.append({'name': author})
-			  print authors
-			  title = paper['paper']
-			  session = f[key]['nom_slot']
-			  abstract = ""
-			  papers[paper_id] = {'authors': authors, 'title': title, 'abstract':abstract, 'session': session}
-			  #print papers[paper_id]
-			  submissions.append(paper_id)
-		      sessions[session_id]={'s_title': s_title, 'submissions':submissions}
-	except:
-		print sys.exc_info()
+	load_abstracts()
+	handle_file('6.json', '08/06/2013', 'Tuesday')
+	handle_file('7.json', '08/07/2013', 'Wednesday')
+	handle_file('8.json', '08/08/2013', 'Thursday')
+	handle_file('9.json', '08/09/2013', 'Friday')
+	p = open('server/static/conf/ijcai2013/data/papers.json','w')
+	p.write('entities='+json.dumps(papers))
+	p = open('server/static/conf/ijcai2013/data/sessions.json','w')
+	p.write('sessions='+json.dumps(sessions))
+	p = open('server/static/conf/ijcai2013/data/schedule.json','w')
+	p.write('schedule='+json.dumps(schedule))
 
 
 def main():
-        prepare_paper_and_schedule_json()
-        p = open('../../server/static/json/ijcai2013/papers.json','w')
-        p.write('entities='+json.dumps(papers))
-	p = open('../../data/ijcai2013/papers.json','w')
-        p.write(json.dumps(papers))
-
-        p = open('../../server/static/json/ijcai2013/sessions.json','w')
-	p.write('sessions='+json.dumps(sessions))
-
+	prepare_paper_and_schedule_json()
+       
 
 if __name__ == "__main__":
         main()
