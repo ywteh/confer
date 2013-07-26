@@ -1475,7 +1475,7 @@ function populate_filters(){
     }
     var filter_html = ''
     for(var f in s_filters){
-        var filter = filters[f]
+        var filter = s_filters[f]
         filter_html += '<tr>'
         filter_html += '<td style="vertical-align:top">'
         filter_html += '<h4 style="display:inline-block">' + filter.label + '</h4>'

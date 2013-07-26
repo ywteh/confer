@@ -35,6 +35,19 @@ def handle_session(session):
 			pass
 
 
+def get_class(t):
+	v =  int(t[0:2])
+	if(v<10):
+		return 'morning1'
+	elif(v<12):
+		return 'morning2'
+	elif(v<15):
+		return 'afternoon1'
+	else:
+		return 'afternoon2'
+
+
+
 def handle_file(f, date, day):
 	data = json.loads(open(p+'/'+f).read())
 	day = {'date': date, 'day': day}
@@ -42,7 +55,7 @@ def handle_file(f, date, day):
 	for slot_id, slot in data.iteritems():
 		if 'sessions' not in slot.keys():
 			continue
-		s_slot = {'time':slot['nom_slot']}
+		s_slot = {'time':slot['nom_slot'], 'slot_id': slot_id, 'slot_class': get_class(slot['nom_slot'])}
 		sessions = []
 		for session_id, session in slot['sessions'].iteritems():
 			sessions.append({'session': session['sessionid'], 'room': session['room']})
