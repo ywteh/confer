@@ -71,6 +71,8 @@ def prepare_paper_and_schedule_json():
 	handle_file('7.json', '08/07/2013', 'Wednesday')
 	handle_file('8.json', '08/08/2013', 'Thursday')
 	handle_file('9.json', '08/09/2013', 'Friday')
+	p = open('data/ijcai2013/papers.json','w')
+	p.write(json.dumps(papers))
 	p = open('server/static/conf/ijcai2013/data/papers.json','w')
 	p.write('entities='+json.dumps(papers))
 	p = open('server/static/conf/ijcai2013/data/sessions.json','w')
