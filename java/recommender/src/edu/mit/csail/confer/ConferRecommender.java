@@ -1,4 +1,4 @@
-package edu.mit.csail;
+package edu.mit.csail.confer;
 
 import java.io.File;
 
@@ -23,9 +23,10 @@ import org.grouplens.lenskit.transform.normalize.BaselineSubtractingUserVectorNo
 import org.grouplens.lenskit.transform.normalize.UserVectorNormalizer;
 import py4j.GatewayServer;
 
-public class UserRecommender {
+public class ConferRecommender {
 	GlobalItemRecommender grec;
-	public UserRecommender(String fileName) throws RecommenderBuildException{
+	
+	public ConferRecommender(String fileName, String fileName2) throws RecommenderBuildException {		
 		LenskitRecommenderEngineFactory factory = new LenskitRecommenderEngineFactory();
 		File f = new File(fileName);
 		factory.setDAOFactory(new SimpleFileRatingDAO.Factory(f, "\t"));
@@ -60,17 +61,15 @@ public class UserRecommender {
 		return ret;
 	}
 	
+	
+	
 
-	public static void main(String[] args){
-		
+	public static void main(String[] args){		
 		try{
-			UserRecommender u = new UserRecommender("/Volumes/Workspace/projects/paper-recommender/data/data_lenskit_user.txt");
-			ArrayList<String> users = new ArrayList<String>();
-			users.add("2631");
-			ArrayList<String> ret = u.recommend(users);
-			for(String s: ret){
-				System.out.println(s);
-			}
+			ConferRecommender r = new ConferRecommender(args[0], args[1]);
+			GatewayServer gatewayServer = new GatewayServer(r);
+	        gatewayServer.start();
+	        System.out.println("Gateway Server Started");
 		}catch(RecommenderBuildException rbe){
 			rbe.printStackTrace();
 		}		
