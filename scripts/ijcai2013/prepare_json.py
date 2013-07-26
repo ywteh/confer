@@ -19,7 +19,7 @@ def load_abstracts():
 def handle_session(session):
 	if('papers' not in session.keys()):
 		return
-	sessions[session['sessionid']] = {
+	sessions['session_'+session['sessionid']] = {
 		's_title': session['title'],
 		'submissions': [p['paperid'] for p in session['papers']]
 	}
@@ -55,10 +55,10 @@ def handle_file(f, date, day):
 	for slot_id, slot in data.iteritems():
 		if 'sessions' not in slot.keys():
 			continue
-		s_slot = {'time':slot['nom_slot'], 'slot_id': slot_id, 'slot_class': get_class(slot['nom_slot'])}
+		s_slot = {'time':slot['nom_slot'], 'slot_id': 'slot_'+slot_id, 'slot_class': get_class(slot['nom_slot'])}
 		sessions = []
 		for session_id, session in slot['sessions'].iteritems():
-			sessions.append({'session': session['sessionid'], 'room': session['room']})
+			sessions.append({'session': 'session_'+session['sessionid'], 'room': session['room']})
 			handle_session(session)
 		s_slot['sessions'] = sessions
 		s_slots.append(s_slot)
