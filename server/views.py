@@ -339,8 +339,6 @@ def data(request):
 			data.likes = json.dumps([])
 			data.save()
 		#print likes
-		if(len(likes)>0):
-			recs = compute_recs(likes)
 		#print recs
 	except:
 		error = True
@@ -354,27 +352,6 @@ def data(request):
 			'error': error,
 			'msg':msg
 			}), mimetype="application/json")
-
-
-
-def compute_recs(papers):
-	recs = {}
-	sorted_recs = []
-	try:
-		for paper in papers:
-			r = offline_recs[paper]
-			for p in r:
-				id = p.keys()[0]
-				if(id in papers):
-					continue
-				if((id in recs) and (recs[id]>p[id])):
-					pass
-				else:				
-					recs[id]=p[id]
-		sorted_recs = sorted(recs.keys(), key=operator.itemgetter(1))
-	except:
-		#print sorted_recs
-		return sorted_recs[0:20]
 
 
 
@@ -445,8 +422,6 @@ def like(request, like_str):
 		data.likes = json.dumps(l)
 		data.save()
 		recs = []
-		if(len(likes)>0):
-			recs = compute_recs(likes)		
 	except:
 		error = True
 		e_type, value, tb = sys.exc_info()
