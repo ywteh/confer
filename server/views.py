@@ -264,6 +264,13 @@ def conf(request,conf):
 		request.session[kConf] = conf
 		Conference.objects.get(unique_name=conf)
 		return HttpResponseRedirect('/%s/papers' %(conf))
+	except Conference.DoesNotExist:
+		try:
+			c = Conference.objects.get(confer_name=conf)
+			request.session[kConf] = c.unique_name
+			return HttpResponseRedirect('/%s/papers' %(c.unique_name))
+		except:
+			return HttpResponseRedirect('/')
 	except:
 		return HttpResponseRedirect('/')
 
