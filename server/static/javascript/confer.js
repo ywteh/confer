@@ -44,7 +44,7 @@ function refresh(_async_){
                 login_id = res.login_id
                 localStorage.setItem('login_id', login_id)
             }
-            
+
             if(res.login_name != null){
                 login_name = res.login_name
                 localStorage.setItem('login_name', login_name)
@@ -1143,7 +1143,8 @@ function handle_session_star(event){
 
 
 function compute_recs(){
-    var recs = []
+    var t_recs = []
+    var final_recs = []
     if(typeof starred == "undefined" || starred == null ){
         return null
     }
@@ -1153,16 +1154,33 @@ function compute_recs(){
     starred.forEach(function (p){
         var p_recs = offline_recs[p]
         if (p_recs != null) {        
-            p_recs.forEach(function(rec){
-                var p_id = Object.keys(rec)[0]
-                if(! exists(p_id, recs) && starred.indexOf(p_id) == -1){
-                    recs.push({'id':p_id, 'score':rec[p_id]})
+            p_recs.forEach(function(p_rec){
+                var p_id = Object.keys(p_rec)[0]
+                if(! exists(t_recs, p_id) && starred.indexOf(p_id) == -1){
+                    t_recs.push({'id':p_id, 'score':p_rec[p_id]})
                 }
             })
         }
     })
+    var score = 0.3
+    var len = 20
+    if(t_recs.length < 20){
+        len = t_recs.length
+    }
+    //console.log(t_recs)
+    while(final_recs.length < len && score > 0.05){
+        for(var i=0; i<t_recs.length; i++){
+            if(t_recs[i]['score'] > score){
+                if(!exists(final_recs, t_recs[i]['id'])){
+                    final_recs.push({'id':t_recs[i]['id'], 'score':t_recs[i]['score']})
+                }
+            }
+        }
+        score = score - 0.01
 
-    recommended = recs
+    }
+    console.log(final_recs)
+    recommended = final_recs
 }
 
 
