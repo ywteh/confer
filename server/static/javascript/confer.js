@@ -29,8 +29,6 @@ var recommended = []
 
 
 
-
-
 function refresh(_async_){
     if(!navigator.onLine){
         return
@@ -46,6 +44,7 @@ function refresh(_async_){
                 login_id = res.login_id
                 localStorage.setItem('login_id', login_id)
             }
+            
             if(res.login_name != null){
                 login_name = res.login_name
                 localStorage.setItem('login_name', login_name)

@@ -1,18 +1,18 @@
 CACHE MANIFEST
-# version 5.0
+# version 1.1
 
-/sigmod2013/papers
-/sigmod2013/schedule
-/sigmod2013/paper
+/chi2013/papers
+/chi2013/schedule
+/chi2013/paper
 
-/static/conf/sigmod2013/data/papers.json
-/static/conf/sigmod2013/data/sessions.json
-/static/conf/sigmod2013/data/schedule.json
-/static/conf/sigmod2013/data/offline_recs.json
-/static/conf/sigmod2013/data/filters.json
+/static/conf/chi2013/data/papers.json
+/static/conf/chi2013/data/sessions.json
+/static/conf/chi2013/data/schedule.json
+/static/conf/chi2013/data/offline_recs.json
+/static/conf/chi2013/data/filters.json
 
-/static/conf/sigmod2013/logo/cover.png
-/static/conf/sigmod2013/logo/logo.png
+/static/conf/chi2013/logo/cover.png
+/static/conf/chi2013/logo/logo.png
 
 /static/css/third-party/jquery-ui.css
 /static/css/confer.css
