@@ -79,7 +79,7 @@ def login(request):
     	if('redirect_url' in request.POST.keys()):
     		redirect_url = request.POST['redirect_url']
         try:
-            login_email = request.POST["login_email"]
+            login_email = request.POST["login_email"].lower()
             login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
             user = User.objects.get(email=login_email, password=login_password)
             request.session.flush()
@@ -109,7 +109,7 @@ def register(request):
             error = False
             if('redirect_url' in request.POST.keys()):
 				redirect_url = request.POST['redirect_url']
-            email = request.POST["email"]
+            email = request.POST["email"].lower()
             password = request.POST["password"]
             password2 = request.POST["password2"]
             f_name = request.POST["f_name"]
