@@ -1168,7 +1168,7 @@ function compute_recs(){
         len = t_recs.length
     }
     //console.log(t_recs)
-    while(final_recs.length < len && score > 0.05){
+    while(final_recs.length < len && score > 0.02){
         for(var i=0; i<t_recs.length; i++){
             if(t_recs[i]['score'] > score){
                 if(!exists(final_recs, t_recs[i]['id'])){
