@@ -22,7 +22,7 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
-var starred = localStorage.getItem('starredƒ')
+var starred = localStorage.getItem('starred')
 var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
@@ -131,7 +131,6 @@ function sync(){
             //console.log(res)
             //recommended = res.recs
             starred = res.likes
-            s_starred = res.s_likes
             /*
             if(recommended!=null)
                 localStorage.setItem('recommended', JSON.stringify(recommended))
@@ -155,7 +154,6 @@ function sync(){
             //console.log(res)
             //recommended = res.recs
             starred = res.likes
-            s_starred = res.s_likes
             /*
             if(recommended!=null)
                 localStorage.setItem('recommended', JSON.stringify(recommended))
