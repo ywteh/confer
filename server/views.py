@@ -277,6 +277,7 @@ def conf(request, conf):
 
 @login_required
 def papers(request, conf):
+	conf = conf.lower()
 	try:
 		Conference.objects.get(unique_name=conf)
 		request.session[kConf] = conf
@@ -288,6 +289,7 @@ def papers(request, conf):
 
 @login_required
 def schedule(request, conf):
+	conf = conf.lower()
 	try:
 		Conference.objects.get(unique_name=conf)
 		request.session[kConf] = conf
@@ -298,6 +300,7 @@ def schedule(request, conf):
 
 @login_required
 def paper(request, conf):
+	conf = conf.lower()
 	try:
 		request.session[kConf] = conf
 		return render_to_response('paper.html', 
