@@ -40,18 +40,18 @@
             {% for conf in conferences %}
             <tr class="clickable">
                 <td class="metadata">
-                    <a href="/{{conf.unique_name}}/">
+                    <a href="/{{conf.unique_name}}/papers">
                     <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.unique_name}}/logo/cover.png);"></span>
                     </a>
                 </td>
                 <td class="content">
                 <ul>
-                    <li><h3><span class="link"><a href="/{{conf.unique_name}}/">{{conf.title}}</a></span></h3></li>
+                    <li><h3><span class="link"><a href="/{{conf.unique_name}}/papers">{{conf.title}}</a></span></h3></li>
                     <li> <span class="info-box">{{conf.start_date}} - {{conf.end_date}}</span> <span class="info-box">{{conf.location}}</span></li>
                     <li class="abstract">{{conf.blurb}}</li>
                 </ul>
                 <br/>
-                <a href="/{{conf.unique_name}}/" class="conf-button">Browse</a>
+                <a href="/{{conf.unique_name}}/papers" class="conf-button">Browse</a>
                 </td>
             </tr>
             {% endfor %}
