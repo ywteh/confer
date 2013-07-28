@@ -259,7 +259,8 @@ def home(request):
 		pass
 
 
-def conf(request,conf):
+def conf(request, conf):
+	conf = conf.lower()
 	try:
 		request.session[kConf] = conf
 		Conference.objects.get(unique_name=conf)
