@@ -1163,8 +1163,8 @@ function compute_recs(){
         }
     })
     var score = 0.3
-    var len = 10
-    if(t_recs.length < 10){
+    var len = 16
+    if(t_recs.length < 16){
         len = t_recs.length
     }
     //console.log(t_recs)
