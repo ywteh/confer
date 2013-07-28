@@ -22,7 +22,7 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
-var starred = localStorage.getItem('starred')
+var starred = JSON.parse(localStorage.getItem('starred'))
 var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
@@ -73,8 +73,6 @@ compute_recs()
 function refresh_pending(){
     var star_pending = JSON.parse(localStorage.getItem('star_pending'))
     var unstar_pending = JSON.parse(localStorage.getItem('unstar_pending'))
-    var s_star_pending = JSON.parse(localStorage.getItem('s_star_pending'))
-    var s_unstar_pending = JSON.parse(localStorage.getItem('s_unstar_pending'))
 
     if(star_pending == null){
         star_pending = []
@@ -128,7 +126,8 @@ function sync(){
         async: false, 
         data:{'papers': JSON.stringify(star_pending)}, 
         success: function(res) {
-            //console.log(res)
+
+            console.log(res)
             //recommended = res.recs
             starred = res.likes
             /*
@@ -151,7 +150,7 @@ function sync(){
         async: false, 
         data:{'papers': JSON.stringify(unstar_pending)}, 
         success: function(res) {
-            //console.log(res)
+            console.log(res)
             //recommended = res.recs
             starred = res.likes
             /*
