@@ -22,7 +22,7 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
-var starred = []
+var starred = localStorage.getItem('starredƒ')
 var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
@@ -1092,7 +1092,7 @@ function handle_session_star(event){
                 starred = res.likes
                 compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('recommended', JSON.stringify(recommended))
+                //localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
                 update_session_view()
                 apply_filters()
@@ -1128,7 +1128,7 @@ function handle_session_star(event){
                 starred = res.likes
                 compute_recs()
                 localStorage.setItem('starred', JSON.stringify(starred))
-                localStorage.setItem('recommended', JSON.stringify(recommended))
+                //localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
                 update_session_view()
                 apply_filters()
@@ -1148,6 +1148,12 @@ function handle_session_star(event){
 
 function compute_recs(){
     var recs = []
+    if(typeof starred == "undefined" || starred == null ){
+        return null
+    }
+    if(typeof offline_recs == "undefined" || offline_recs == null ){
+        return null
+    }
     starred.forEach(function (p){
         var p_recs = offline_recs[p]
         if (p_recs != null) {        

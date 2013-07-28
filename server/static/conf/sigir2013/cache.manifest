@@ -1,8 +1,15 @@
 CACHE MANIFEST
-# version 5.0
+# version 1.0
+
+/sigir2013/papers
+/sigir2013/schedule
+/sigir2013/paper
 
 /static/css/third-party/jquery-ui.css
+/static/css/confer.css
 
+
+/static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 
@@ -15,7 +22,7 @@ CACHE MANIFEST
 /static/conf/sigir2013/logo/cover.png
 /static/conf/sigir2013/logo/logo.png
 
-/static/css/confer.css
+
 
 /static/img/affiliation.svg
 /static/img/acm.png
