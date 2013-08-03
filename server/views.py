@@ -9,9 +9,7 @@ from django.core.validators import email_re
 from django.db.utils import IntegrityError
 from django.utils.http import urlquote_plus
 
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-
+from utils.view_utils import *
 from algorithm.recommend import *
 from models import *
 
@@ -42,7 +40,7 @@ except:
 
 
 '''
-LOGIN/REGISTER
+LOGIN/REGISTER/RESET
 '''
 def login_required(f):
     def wrap(request, *args, **kwargs):
@@ -160,89 +158,23 @@ def logout(request):
 
 
 
-'''
-EMAIL
-'''
-
-def send_email(addr, subject, msg_body):	
-	email_subject = subject
-	from_addr="confer@csail.mit.edu"
-	to_addr = [addr, 'confer@csail.mit.edu']
-	
-	msg = MIMEMultipart()
-	msg['From'] = 'Confer Team <confer@csail.mit.edu>'
-	msg['To'] = ",".join(to_addr)
-	msg['Subject'] = email_subject
-	msg.attach(MIMEText(msg_body))	
-	
-	
-	username = 'anantb'
-	password = 'JcAt250486'
-	smtp_conn = smtplib.SMTP_SSL('cs.stanford.edu', 465)
-	#smtp_conn.ehlo()
-	#smtp_conn.starttls()
-	#smtp_conn.ehlo()
-	smtp_conn.login(username, password)	
-	#smtp_conn.set_debuglevel(True)	
-	smtp_conn.sendmail(from_addr, to_addr, msg.as_string())
-	smtp_conn.close() 
 
 
-
-@csrf_exempt
-def verify_email(request, login_email):
-	email_plain = base64.b64decode(login_email)
-	subject = "Welcome to Confer"
-	email_encoded = login_email
-	msg_body = """
-	Dear %s,
-
-	Thanks for registering! Please click the link below to start using Confer:
-
-	http://confer.csail.mit.edu/verify/%s
-
-	""" %(email_plain, email_encoded)
-	send_email(email_plain, subject, msg_body)
-	return HttpResponse(json.dumps({'status':'ok'}),  mimetype="application/json")
-
-
-@csrf_exempt
-def reset_email(request, login_email):
-	email_plain = base64.b64decode(login_email)
-	email_encoded = login_email
-	subject = "myCHI password reset"
-	msg_body = """
-	Dear %s,
-
-	Please click the link below to reset your myCHI password:
-
-	http://mychi.csail.mit.edu/reset/%s
-
-	""" %(email_plain, email_encoded)
-	send_email(email_plain, subject, msg_body)
-	return HttpResponse(json.dumps({'status':'ok'}),  mimetype="application/json")
-
-@csrf_exempt
-def verify(request, addr):
-	login_email = base64.b64decode(addr)
-	cursor = connection.cursor()
-	cursor.execute("""SELECT id from pcs_authors where email1 like '%s' or 
-					email2 like '%s' or email3 like '%s';""" %(login_email, login_email, login_email))
-	data = cursor.fetchall()
-	if(len(data) == 0):
-		cursor.execute("""INSERT into pcs_authors (id, email1) values('%s', '%s');""" %(addr, login_email))
-	
-	return login_form(request, error = {'login_email':urllib.quote(base64.b64encode(login_email)), 'type': 'info', 'error': 'Thanks for verifying. Please enter your email and password.'})
-
-
-
-@csrf_exempt
 def reset(request, addr):
-	login_email = base64.b64decode(addr)
-	cursor = connection.cursor()
-	cursor.execute("""UPDATE pcs_authors SET password = null where email1 like '%s' or 
-					email2 like '%s' or email3 like '%s';""" %(login_email, login_email, login_email))	
-	return login_form(request, error = {'login_email':urllib.quote(base64.b64encode(login_email)), 'type': 'info', 'error': 'Please enter a new password.'})
+	if request.method == "POST":
+		login_email = request.POST["login_email"].lower()
+        login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
+        user = User.objects.get(email=login_email, password=login_password)
+        request.session.flush()
+        request.session[kLogIn] = user.email
+        request.session[kName] = user.f_name
+        return HttpResponseRedirect('/login')
+	else:
+		user_email = base64.b64decode(addr)
+		user = User.objects.get(email=user_email)
+		c = {'email': user_email}
+	    c.update(csrf(request))
+		return render_to_response('reset.html', c)
 		
 
 
@@ -309,22 +241,9 @@ def paper(request, conf):
 		return HttpResponseRedirect('/')
 
 
-
-def get_registration(login, conf):
-	try:
-		user = User.objects.get(email = login)
-		conference = Conference.objects.get(unique_name = conf)
-		try:
-			registration = Registration.objects.get(user = user, conference = conference)
-			return registration
-		except Registration.DoesNotExist:
-			registration = Registration(user = user, conference = conference)
-			registration.save()
-			return registration
-	except:
-		print sys.exc_info()
-		return None
-
+'''
+AJAX Calls
+'''
 
 @csrf_exempt
 @login_required
@@ -375,19 +294,6 @@ def get_recs(request):
 		return HttpResponse(json.dumps(recs), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
-
-
-
-def insert_log(registration, action, data=None):
-	if(data):
-		l = Logs(registration = registration, action = action, data= data)
-		l.save()
-	else:
-		l = Logs(registration = registration, action = action)
-		l.save()
-
-
-
 
 @csrf_exempt
 def log(request, action):
