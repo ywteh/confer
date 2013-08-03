@@ -162,21 +162,18 @@ def logout(request):
 
 def reset(request, addr):
 	if request.method == "POST":
-		login_email = request.POST["login_email"].lower()
-        hashed_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
-        user = User.objects.get(email=login_email)
+		user_email = request.POST["user_email"].lower()
+        hashed_password = hashlib.sha1(request.POST["new_password"]).hexdigest()
+        user = User.objects.get(email=user_email)
         user.password = hashed_password
         user.save()
         return HttpResponseRedirect('/login')
 	else:
 		user_email = base64.b64decode(addr)
 		user = User.objects.get(email=user_email)
-		c = {'email': user_email}
+		c = {'user_email': user_email}
 	    c.update(csrf(request))
 		return render_to_response('reset.html', c)
-		
-
-
 
 '''
 PAGES
