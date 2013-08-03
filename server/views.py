@@ -163,11 +163,10 @@ def logout(request):
 def reset(request, addr):
 	if request.method == "POST":
 		login_email = request.POST["login_email"].lower()
-        login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
-        user = User.objects.get(email=login_email, password=login_password)
-        request.session.flush()
-        request.session[kLogIn] = user.email
-        request.session[kName] = user.f_name
+        hashed_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
+        user = User.objects.get(email=login_email)
+        user.password = hashed_password
+        user.save()
         return HttpResponseRedirect('/login')
 	else:
 		user_email = base64.b64decode(addr)
