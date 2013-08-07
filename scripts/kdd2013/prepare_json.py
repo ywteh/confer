@@ -8,7 +8,9 @@ schedule = []
 days = {}
 
 
-
+abstract = '''
+The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.
+'''
 
 
 def get_class(t):
@@ -27,7 +29,8 @@ def load_files():
 	for row in rows:
 		try:
 			details = re.split(r'\n', row)
-			papers[details[0][10:]] = {'title':details[1][7:], 'authors':details[2][9:], 'abstract':''}
+			authors = [{'name':author[:author.index(',')], 'affiliation': author[author.index(',')+1:]} for author in re.split(r';', details[2][9:])]
+			papers[details[0][10:]] = {'title':details[1][7:], 'authors': authors, 'abstract':abstract}
 		except:
 			pass
 	data = open(p+'/sessions.txt').read()
@@ -41,6 +44,7 @@ def load_files():
 	data = open(p+'/program.txt').read()
 	rows = re.split(r'\n\n', data)
 	days = {}
+	day_time = {}
 	for row in rows:
 		try:
 			details = re.split(r'\n', row)
@@ -48,19 +52,22 @@ def load_files():
 				if(details[1][6:].strip() in days[details[0][6:].strip()]):
 					days[details[0][6:].strip()][details[1][6:].strip()].append({'session': details[2][9:], 'room': details[3][6:]})
 				else:
+					day_time[details[0][6:].strip()].append(details[1][6:].strip())
 					days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
 			else:
 				d = details[0][6:].strip()
 				schedule.append({'id': d, 'day': d[0: d.index('-')].title(), 'date': d[d.index('-')+2:]})
 				days[details[0][6:].strip()] = {}
+				day_time[details[0][6:].strip()] = [details[1][6:].strip()]
+
 				days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
 
 		except:
 			pass
 	for s in schedule:
 		t = days[s['id']]
+		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k)} for k in day_time[s['id']]]
 		del s['id']
-		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k)} for k in t.keys()]
 
 	print schedule
 	
