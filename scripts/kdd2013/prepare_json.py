@@ -38,7 +38,8 @@ def load_files():
 	for row in rows:
 		try:
 			details = re.split(r'\n', row)
-			sessions[details[0][9:]] = {'s_title':details[1][7:], 'submissions':[d[10:] for d in details[2:]]}
+			s_id = re.sub(' ', '_', details[0][9:])
+			sessions[s_id] = {'s_title':details[1][7:], 'submissions':[d[10:] for d in details[2:]]}
 		except:
 			pass
 	data = open(p+'/program.txt').read()
@@ -50,17 +51,17 @@ def load_files():
 			details = re.split(r'\n', row)
 			if(details[0][6:].strip() in days):
 				if(details[1][6:].strip() in days[details[0][6:].strip()]):
-					days[details[0][6:].strip()][details[1][6:].strip()].append({'session': details[2][9:], 'room': details[3][6:]})
+					days[details[0][6:].strip()][details[1][6:].strip()].append({'session': re.sub(' ', '_', details[2][9:]), 'room': details[3][6:]})
 				else:
 					day_time[details[0][6:].strip()].append(details[1][6:].strip())
-					days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
+					days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': re.sub(' ', '_', details[2][9:]), 'room': details[3][6:]}]
 			else:
 				d = details[0][6:].strip()
 				schedule.append({'id': d, 'day': d[0: d.index('-')].title(), 'date': d[d.index('-')+2:]})
 				days[details[0][6:].strip()] = {}
 				day_time[details[0][6:].strip()] = [details[1][6:].strip()]
 
-				days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
+				days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': re.sub(' ', '_', details[2][9:]), 'room': details[3][6:]}]
 
 		except:
 			pass
