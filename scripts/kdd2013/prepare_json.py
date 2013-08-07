@@ -5,20 +5,20 @@ papers = {}
 sessions = {}
 schedule = []
 
+days = {}
+
 
 
 
 
 def get_class(t):
-	v =  int(t[0:2])
-	if(v<10):
-		return 'morning1'
-	elif(v<12):
-		return 'morning2'
-	elif(v<15):
-		return 'afternoon1'
+	v =  int(re.match(r'\d+', t).group())
+	if(v < 12 and v > 9):
+		return 'morning'
+	elif(v<5):
+		return 'afternoon'
 	else:
-		return 'afternoon2'
+		return 'evening'
 
 
 def load_files():
@@ -38,6 +38,31 @@ def load_files():
 			sessions[details[0][9:]] = {'s_title':details[1][7:], 'submissions':[d[10:] for d in details[2:]]}
 		except:
 			pass
+	data = open(p+'/program.txt').read()
+	rows = re.split(r'\n\n', data)
+	days = {}
+	for row in rows:
+		try:
+			details = re.split(r'\n', row)
+			if(details[0][6:].strip() in days):
+				if(details[1][6:].strip() in days[details[0][6:].strip()]):
+					days[details[0][6:].strip()][details[1][6:].strip()].append({'session': details[2][9:], 'room': details[3][6:]})
+				else:
+					days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
+			else:
+				d = details[0][6:].strip()
+				schedule.append({'id': d, 'day': d[0: d.index('-')].title(), 'date': d[d.index('-')+2:]})
+				days[details[0][6:].strip()] = {}
+				days[details[0][6:].strip()][details[1][6:].strip()] = [{'session': details[2][9:], 'room': details[3][6:]}]
+
+		except:
+			pass
+	for s in schedule:
+		t = days[s['id']]
+		del s['id']
+		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k)} for k in t.keys()]
+
+	print schedule
 	
 
 def prepare_paper_and_schedule_json():
