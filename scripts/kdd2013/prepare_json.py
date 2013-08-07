@@ -22,6 +22,10 @@ def get_class(t):
 	else:
 		return 'evening'
 
+def get_id(d, t):
+	v =  re.sub(':', '_', t)
+	v =  re.sub('-', '_', v)
+	return d + '_' + v
 
 def load_files():
 	data = open(p+'/papers.txt').read()
@@ -67,7 +71,7 @@ def load_files():
 			pass
 	for s in schedule:
 		t = days[s['id']]
-		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k)} for k in day_time[s['id']]]
+		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k), 'slot_id':get_id(s['day'], k)} for k in day_time[s['id']]]
 		del s['id']
 
 	print schedule
