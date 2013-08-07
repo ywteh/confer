@@ -30,7 +30,7 @@ def load_files():
 		try:
 			details = re.split(r'\n', row)
 			authors = [{'name':author[:author.index(',')], 'affiliation': author[author.index(',')+1:]} for author in re.split(r';', details[2][9:])]
-			papers[details[0][10:]] = {'title':details[1][7:], 'authors': authors, 'abstract':abstract}
+			papers[details[0][10:]] = {'title':details[1][7:], 'authors': authors, 'abstract':''}
 		except:
 			pass
 	data = open(p+'/sessions.txt').read()
