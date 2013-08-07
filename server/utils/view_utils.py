@@ -1,4 +1,4 @@
-from models import *
+from server.models import *
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 

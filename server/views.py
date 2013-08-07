@@ -158,7 +158,7 @@ def logout(request):
 
 
 
-
+'''
 
 def reset(request, addr):
 	if request.method == "POST":
@@ -174,6 +174,7 @@ def reset(request, addr):
 		c = {'user_email': user_email}
 	    c.update(csrf(request))
 		return render_to_response('reset.html', c)
+'''
 
 '''
 PAGES
