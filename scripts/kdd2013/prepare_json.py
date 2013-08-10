@@ -7,10 +7,29 @@ schedule = []
 
 days = {}
 
+abstracts = {}
 
-abstract = '''
-The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.
-'''
+def load_abstracts():
+	f = open(p+'/papers-ig.csv', 'rU')
+	reader = csv.reader(f)
+	for row in reader:
+		abstracts[row[0]] = {
+			'title': unicode(row[1], "ISO-8859-1"),
+			'abstract': unicode(row[3], "ISO-8859-1")}
+	f = open(p+'/papers-research-oral.csv', 'rU')
+	reader = csv.reader(f)
+	for row in reader:
+		abstracts[row[0]] = {
+			'title': unicode(row[1], "ISO-8859-1"),
+			'abstract': unicode(row[3], "ISO-8859-1")}
+	f = open(p+'/papers-research.csv', 'rU')
+	reader = csv.reader(f)
+	for row in reader:
+		abstracts[row[0]] = {
+			'title': unicode(row[1], "ISO-8859-1"),
+			'abstract': unicode(row[3], "ISO-8859-1")}
+	print abstracts
+
 
 
 def get_class(t):
@@ -34,7 +53,7 @@ def load_files():
 		try:
 			details = re.split(r'\n', row)
 			authors = [{'name':author[:author.index(',')], 'affiliation': author[author.index(',')+1:]} for author in re.split(r';', details[2][9:])]
-			papers[details[0][10:]] = {'title':details[1][7:], 'authors': authors, 'abstract':abstract}
+			papers[details[0][10:]] = {'title':details[1][7:], 'authors': authors, 'abstract':abstracts[details[0][10:]]['abstract']}
 		except:
 			pass
 	data = open(p+'/sessions.txt').read()
@@ -78,6 +97,7 @@ def load_files():
 	
 
 def prepare_paper_and_schedule_json():
+	load_abstracts()
 	load_files()
 	p = open('data/kdd2013/papers.json','w')
 	p.write(json.dumps(papers))
@@ -87,6 +107,7 @@ def prepare_paper_and_schedule_json():
 	p.write('sessions='+json.dumps(sessions))
 	p = open('server/static/conf/kdd2013/data/schedule.json','w')
 	p.write('schedule='+json.dumps(schedule))
+	
 
 
 def main():
