@@ -19,16 +19,25 @@ def load_abstracts():
 	f = open(p+'/papers-research-oral.csv', 'rU')
 	reader = csv.reader(f)
 	for row in reader:
+		'''
+		if(row[0] in abstracts):
+			print row[0], row[1]
+			print abstracts[row[0]]['title']
+		'''
 		abstracts[row[0]] = {
 			'title': unicode(row[1], "ISO-8859-1"),
 			'abstract': unicode(row[3], "ISO-8859-1")}
 	f = open(p+'/papers-research.csv', 'rU')
 	reader = csv.reader(f)
 	for row in reader:
+		'''
+		if(row[0] in abstracts):
+			print row[0], row[1]
+			print abstracts[row[0]]['title']
+		'''
 		abstracts[row[0]] = {
 			'title': unicode(row[1], "ISO-8859-1"),
 			'abstract': unicode(row[3], "ISO-8859-1")}
-	print abstracts
 
 
 
@@ -92,8 +101,6 @@ def load_files():
 		t = days[s['id']]
 		s['slots'] = [{'time':k, 'sessions': t[k], 'slot_class':get_class(k), 'slot_id':get_id(s['day'], k)} for k in day_time[s['id']]]
 		del s['id']
-
-	print schedule
 	
 
 def prepare_paper_and_schedule_json():
