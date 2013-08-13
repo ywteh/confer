@@ -66,6 +66,19 @@
 	      "start_date": "2013-08-11",
 	      "end_date": "2013-08-14"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 6,
+	    "fields": {
+	      "unique_name": "ictir2013",
+	      "confer_name": "myictir",
+	      "title": "ICTIR'13 - 4th International Conference on the Theory of Information Retrieval",
+	      "subtitle": "",
+	      "blurb": "ICTIR is the premier conference of theoretical information retrieval (IR), covering a broad spectrum of diverse research areas that are concerned with mathematical/formal aspects of IR, including foundational issues, description or integration of models, retrieval applications, mathematical/formal techniques, existing and/or new theories and theoretical aspects.",
+	      "location": "Copenhagen, Denmark",
+	      "start_date": "2013-09-29",
+	      "end_date": "2013-10-02"
+	  	}
 	}
 ]
   
