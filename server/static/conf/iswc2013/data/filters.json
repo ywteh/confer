@@ -34,28 +34,22 @@ s_filters=[
 					"label":"All"
 				},
 				{
-					"data":"Sunday", 
-					"class":"day filter", 
-					"type":"day", 
-					"label":"Sunday"
-				},
-				{
-					"data":"Monday", 
-					"class":"day filter", 
-					"type":"day", 
-					"label":"Monday"
-				},
-				{
-					"data":"Tuesday", 
-					"class":"day filter", 
-					"type":"day", 
-					"label":"Tuesday"
-				},
-				{
 					"data":"Wednesday", 
 					"class":"day filter", 
 					"type":"day", 
 					"label":"Wednesday"
+				},
+				{
+					"data":"Thursday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Thursday"
+				},
+				{
+					"data":"Friday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Friday"
 				}
 		]
 	},
@@ -70,16 +64,10 @@ s_filters=[
 					"label":"All"
 				},
 				{
-					"data":"morning1", 
+					"data":"morning", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Morning 1"
-				},
-				{
-					"data":"morning2", 
-					"class":"time filter", 
-					"type":"time", 
-					"label":"Morning 2"
+					"label":"Morning"
 				},
 				{
 					"data":"afternoon1", 
@@ -92,6 +80,12 @@ s_filters=[
 					"class":"time filter", 
 					"type":"time", 
 					"label":"Afternoon 2"
+				},
+				{
+					"data":"evening", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Evening"
 				}
 		]
 	}

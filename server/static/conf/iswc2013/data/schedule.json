@@ -3,7 +3,7 @@ schedule=[
     "date": "23/10/2013", 
     "slots": [
       {
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "OpeningCeremony1", 
@@ -14,7 +14,7 @@ schedule=[
         "time": "09:00-09:15"
       }, 
       {
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "InvitedTalk1", 
@@ -24,19 +24,9 @@ schedule=[
         "slot_id": "Wednesday2", 
         "time": "09:15-10:15"
       }, 
+     
       {
-        "slot_class": "morning3", 
-        "sessions": [
-          {
-            "session": "MorningTea1", 
-            "room": "Parkside Ballroom Foyer"
-          }
-        ], 
-        "slot_id": "Wednesday3", 
-        "time": "10:15-11:00"
-      }, 
-      {
-        "slot_class": "morning4", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "SemanticWebLandscape", 
@@ -54,23 +44,9 @@ schedule=[
         "slot_id": "Wednesday4", 
         "time": "11:00-12:40"
       }, 
+    
       {
         "slot_class": "afternoon1", 
-        "sessions": [
-          {
-            "session": "Lunch1", 
-            "room": "Parkside Ballroom Foyer"
-          }, 
-          {
-            "session": "JWSLunchInvitationonly1", 
-            "room": "room@TBA"
-          }
-        ], 
-        "slot_id": "Wednesday5", 
-        "time": "12:40-14:20"
-      }, 
-      {
-        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "GeoSpatialSemantics", 
@@ -88,19 +64,9 @@ schedule=[
         "slot_id": "Wednesday6", 
         "time": "14:20-15:00"
       }, 
+     
       {
-        "slot_class": "afternoon3", 
-        "sessions": [
-          {
-            "session": "Break1", 
-            "room": ""
-          }
-        ], 
-        "slot_id": "Wednesday7", 
-        "time": "15:00-15:15"
-      }, 
-      {
-        "slot_class": "afternoon4", 
+        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "NaturalLanguageProcessing", 
@@ -118,19 +84,9 @@ schedule=[
         "slot_id": "Wednesday8", 
         "time": "15:15-16:15"
       }, 
+    
       {
-        "slot_class": "afternoon5", 
-        "sessions": [
-          {
-            "session": "AfternoonTea1", 
-            "room": "Parkside Ballroom Foyer"
-          }
-        ], 
-        "slot_id": "Wednesday9", 
-        "time": "16:15-16:55"
-      }, 
-      {
-        "slot_class": "afternoon6", 
+        "slot_class": "evening", 
         "sessions": [
           {
             "session": "MinuteMadness1", 
@@ -166,7 +122,7 @@ schedule=[
     "date": "24/10/2013", 
     "slots": [
       {
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "Announcements1", 
@@ -177,7 +133,7 @@ schedule=[
         "time": "09:00-09:15"
       }, 
       {
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "InvitedTalk2", 
@@ -187,19 +143,9 @@ schedule=[
         "slot_id": "Thursday2", 
         "time": "09:15-10:15"
       }, 
+      
       {
-        "slot_class": "morning3", 
-        "sessions": [
-          {
-            "session": "MorningTea2", 
-            "room": "Parkside Ballroom Foyer"
-          }
-        ], 
-        "slot_id": "Thursday3", 
-        "time": "10:15-11:00"
-      }, 
-      {
-        "slot_class": "morning4", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "Streams", 
@@ -217,23 +163,9 @@ schedule=[
         "slot_id": "Thursday4", 
         "time": "11:00-12:40"
       }, 
+      
       {
         "slot_class": "afternoon1", 
-        "sessions": [
-          {
-            "session": "Lunch2", 
-            "room": "Parkside Ballroom Foyer"
-          }, 
-          {
-            "session": "MentoringLunchInvitationonly1", 
-            "room": "room@TBA"
-          }
-        ], 
-        "slot_id": "Thursday5", 
-        "time": "12:40-14:20"
-      }, 
-      {
-        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "SemanticWebChallenge1", 
@@ -251,19 +183,9 @@ schedule=[
         "slot_id": "Thursday6", 
         "time": "14:20-15:00"
       }, 
+     
       {
-        "slot_class": "afternoon3", 
-        "sessions": [
-          {
-            "session": "Break2", 
-            "room": ""
-          }
-        ], 
-        "slot_id": "Thursday7", 
-        "time": "15:00-15:15"
-      }, 
-      {
-        "slot_class": "afternoon4", 
+        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "SemanticWebChallenge2", 
@@ -281,21 +203,7 @@ schedule=[
         "slot_id": "Thursday8", 
         "time": "15:15-16:15"
       }, 
-      {
-        "slot_class": "afternoon5", 
-        "sessions": [
-          {
-            "session": "AfternoonTea2", 
-            "room": "Bayside 2 Foyer"
-          }, 
-          {
-            "session": "TownHall16:3017:301", 
-            "room": "Bayside 202-203"
-          }
-        ], 
-        "slot_id": "Thursday9", 
-        "time": "16:15-16:55"
-      }, 
+      
       {
         "slot_class": "evening", 
         "sessions": [
@@ -314,7 +222,7 @@ schedule=[
     "date": "25/10/2013", 
     "slots": [
       {
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "Announcements2", 
@@ -325,7 +233,7 @@ schedule=[
         "time": "09:00-09:15"
       }, 
       {
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "InvitedTalk3", 
@@ -335,19 +243,9 @@ schedule=[
         "slot_id": "Friday2", 
         "time": "09:15-10:15"
       }, 
+      
       {
-        "slot_class": "morning3", 
-        "sessions": [
-          {
-            "session": "MorningTea3", 
-            "room": "Parkside Ballroom Foyer"
-          }
-        ], 
-        "slot_id": "Friday3", 
-        "time": "10:15-11:00"
-      }, 
-      {
-        "slot_class": "morning4", 
+        "slot_class": "morning", 
         "sessions": [
           {
             "session": "OntologyMapping", 
@@ -365,23 +263,9 @@ schedule=[
         "slot_id": "Friday4", 
         "time": "11:00-12:40"
       }, 
+      
       {
         "slot_class": "afternoon1", 
-        "sessions": [
-          {
-            "session": "Lunch3", 
-            "room": "Parkside Ballroom Foyer"
-          }, 
-          {
-            "session": "ISWC2014LunchInvitationonly1", 
-            "room": "room@TBA"
-          }
-        ], 
-        "slot_id": "Friday5", 
-        "time": "12:40-14:20"
-      }, 
-      {
-        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "LinkedData1", 
@@ -399,19 +283,9 @@ schedule=[
         "slot_id": "Friday6", 
         "time": "14:20-15:00"
       }, 
+      
       {
-        "slot_class": "afternoon3", 
-        "sessions": [
-          {
-            "session": "Break3", 
-            "room": ""
-          }
-        ], 
-        "slot_id": "Friday7", 
-        "time": "15:00-15:15"
-      }, 
-      {
-        "slot_class": "afternoon4", 
+        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "LinkedData2", 
@@ -429,19 +303,9 @@ schedule=[
         "slot_id": "Friday8", 
         "time": "15:15-16:15"
       }, 
+      
       {
-        "slot_class": "afternoon5", 
-        "sessions": [
-          {
-            "session": "AfternoonTea3", 
-            "room": "Bayside 2 Foyer"
-          }
-        ], 
-        "slot_id": "Friday9", 
-        "time": "16:15-16:55"
-      }, 
-      {
-        "slot_class": "afternoon6", 
+        "slot_class": "evening", 
         "sessions": [
           {
             "session": "ClosingCeremony1", 
