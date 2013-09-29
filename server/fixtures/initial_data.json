@@ -79,6 +79,19 @@
 	      "start_date": "2013-09-29",
 	      "end_date": "2013-10-02"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 7,
+	    "fields": {
+	      "unique_name": "iswc2013",
+	      "confer_name": "myiswc",
+	      "title": "ISWC'13 - The 12th International Semantic Web Conference and the 1st Australasian Semantic Web Conference",
+	      "subtitle": "",
+	      "blurb": "The International Semantic Web Conference (ISWC) is the leading conference for research on Semantic Web topics. It is held annually and is the successor of the Semantic Web Working Symposium (SWWS).",
+	      "location": "Sydney, Australia",
+	      "start_date": "2013-10-21",
+	      "end_date": "2013-10-25"
+	  	}
 	}
 ]
   
