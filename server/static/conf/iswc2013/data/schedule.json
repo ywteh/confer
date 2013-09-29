@@ -1,0 +1,457 @@
+schedule=[
+  {
+    "date": "23/10/2013", 
+    "slots": [
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "OpeningCeremony1", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Wednesday1", 
+        "time": "09:00-09:15"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "InvitedTalk1", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Wednesday2", 
+        "time": "09:15-10:15"
+      }, 
+      {
+        "slot_class": "morning3", 
+        "sessions": [
+          {
+            "session": "MorningTea1", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Wednesday3", 
+        "time": "10:15-11:00"
+      }, 
+      {
+        "slot_class": "morning4", 
+        "sessions": [
+          {
+            "session": "SemanticWebLandscape", 
+            "room": "Parkside  110B"
+          }, 
+          {
+            "session": "Reasoning", 
+            "room": "Parkside Ballroom B"
+          }, 
+          {
+            "session": "Industry1", 
+            "room": " Parkside 110A"
+          }
+        ], 
+        "slot_id": "Wednesday4", 
+        "time": "11:00-12:40"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch1", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "JWSLunchInvitationonly1", 
+            "room": "room@TBA"
+          }
+        ], 
+        "slot_id": "Wednesday5", 
+        "time": "12:40-14:20"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "GeoSpatialSemantics", 
+            "room": "Parkside  110B"
+          }, 
+          {
+            "session": "LifeScience", 
+            "room": "Parkside Ballroom B"
+          }, 
+          {
+            "session": "Industry2", 
+            "room": " Parkside 110A"
+          }
+        ], 
+        "slot_id": "Wednesday6", 
+        "time": "14:20-15:00"
+      }, 
+      {
+        "slot_class": "afternoon3", 
+        "sessions": [
+          {
+            "session": "Break1", 
+            "room": ""
+          }
+        ], 
+        "slot_id": "Wednesday7", 
+        "time": "15:00-15:15"
+      }, 
+      {
+        "slot_class": "afternoon4", 
+        "sessions": [
+          {
+            "session": "NaturalLanguageProcessing", 
+            "room": "Parkside  110B"
+          }, 
+          {
+            "session": "Search", 
+            "room": "Parkside Ballroom B"
+          }, 
+          {
+            "session": "Industry3", 
+            "room": " Parkside 110A"
+          }
+        ], 
+        "slot_id": "Wednesday8", 
+        "time": "15:15-16:15"
+      }, 
+      {
+        "slot_class": "afternoon5", 
+        "sessions": [
+          {
+            "session": "AfternoonTea1", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Wednesday9", 
+        "time": "16:15-16:55"
+      }, 
+      {
+        "slot_class": "afternoon6", 
+        "sessions": [
+          {
+            "session": "MinuteMadness1", 
+            "room": "Parkside  110B"
+          }, 
+          {
+            "session": "Industry4", 
+            "room": " Parkside 110A"
+          }
+        ], 
+        "slot_id": "Wednesday10", 
+        "time": "16:55-18:05"
+      }, 
+      {
+        "slot_class": "evening", 
+        "sessions": [
+          {
+            "session": "PostersDemosSession", 
+            "room": "Parkside  Ballroom B"
+          }, 
+          {
+            "session": "SWJDinner20:0021:30Invitationonly1", 
+            "room": "room@TBA"
+          }
+        ], 
+        "slot_id": "Wednesday11", 
+        "time": "18:05 - 21:00"
+      }
+    ], 
+    "day": "Wednesday"
+  }, 
+  {
+    "date": "24/10/2013", 
+    "slots": [
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "Announcements1", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Thursday1", 
+        "time": "09:00-09:15"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "InvitedTalk2", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Thursday2", 
+        "time": "09:15-10:15"
+      }, 
+      {
+        "slot_class": "morning3", 
+        "sessions": [
+          {
+            "session": "MorningTea2", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Thursday3", 
+        "time": "10:15-11:00"
+      }, 
+      {
+        "slot_class": "morning4", 
+        "sessions": [
+          {
+            "session": "Streams", 
+            "room": "Bayside 202-203"
+          }, 
+          {
+            "session": "SPARQL", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "DataManagementExploration", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Thursday4", 
+        "time": "11:00-12:40"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch2", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "MentoringLunchInvitationonly1", 
+            "room": "room@TBA"
+          }
+        ], 
+        "slot_id": "Thursday5", 
+        "time": "12:40-14:20"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "SemanticWebChallenge1", 
+            "room": "Bayside 202-203"
+          }, 
+          {
+            "session": "MultilingualSemantics", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "DescriptionLogics1", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Thursday6", 
+        "time": "14:20-15:00"
+      }, 
+      {
+        "slot_class": "afternoon3", 
+        "sessions": [
+          {
+            "session": "Break2", 
+            "room": ""
+          }
+        ], 
+        "slot_id": "Thursday7", 
+        "time": "15:00-15:15"
+      }, 
+      {
+        "slot_class": "afternoon4", 
+        "sessions": [
+          {
+            "session": "SemanticWebChallenge2", 
+            "room": "Bayside 202-203"
+          }, 
+          {
+            "session": "WorkshopSummaries1", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "DescriptionLogics2", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Thursday8", 
+        "time": "15:15-16:15"
+      }, 
+      {
+        "slot_class": "afternoon5", 
+        "sessions": [
+          {
+            "session": "AfternoonTea2", 
+            "room": "Bayside 2 Foyer"
+          }, 
+          {
+            "session": "TownHall16:3017:301", 
+            "room": "Bayside 202-203"
+          }
+        ], 
+        "slot_id": "Thursday9", 
+        "time": "16:15-16:55"
+      }, 
+      {
+        "slot_class": "evening", 
+        "sessions": [
+          {
+            "session": "DinnerCruise18:4523:001", 
+            "room": "King Steet Wharf (20 minute stroll around the bay)"
+          }
+        ], 
+        "slot_id": "Thursday11", 
+        "time": "Evening"
+      }
+    ], 
+    "day": "Thursday"
+  }, 
+  {
+    "date": "25/10/2013", 
+    "slots": [
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "Announcements2", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Friday1", 
+        "time": "09:00-09:15"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "InvitedTalk3", 
+            "room": "Parkside  Ballroom B"
+          }
+        ], 
+        "slot_id": "Friday2", 
+        "time": "09:15-10:15"
+      }, 
+      {
+        "slot_class": "morning3", 
+        "sessions": [
+          {
+            "session": "MorningTea3", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Friday3", 
+        "time": "10:15-11:00"
+      }, 
+      {
+        "slot_class": "morning4", 
+        "sessions": [
+          {
+            "session": "OntologyMapping", 
+            "room": "Bayside 202-204"
+          }, 
+          {
+            "session": "Query", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "KnowledgeDiscovery", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Friday4", 
+        "time": "11:00-12:40"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch3", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "ISWC2014LunchInvitationonly1", 
+            "room": "room@TBA"
+          }
+        ], 
+        "slot_id": "Friday5", 
+        "time": "12:40-14:20"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "LinkedData1", 
+            "room": "Bayside 202-205"
+          }, 
+          {
+            "session": "LicensingandConfidentialityModels", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "Crowdsourcedsemantics", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Friday6", 
+        "time": "14:20-15:00"
+      }, 
+      {
+        "slot_class": "afternoon3", 
+        "sessions": [
+          {
+            "session": "Break3", 
+            "room": ""
+          }
+        ], 
+        "slot_id": "Friday7", 
+        "time": "15:00-15:15"
+      }, 
+      {
+        "slot_class": "afternoon4", 
+        "sessions": [
+          {
+            "session": "LinkedData2", 
+            "room": "Bayside 202-206"
+          }, 
+          {
+            "session": "KnowledgeExtraction", 
+            "room": "Bayside 204A"
+          }, 
+          {
+            "session": "DataAccess", 
+            "room": "Bayside 204B"
+          }
+        ], 
+        "slot_id": "Friday8", 
+        "time": "15:15-16:15"
+      }, 
+      {
+        "slot_class": "afternoon5", 
+        "sessions": [
+          {
+            "session": "AfternoonTea3", 
+            "room": "Bayside 2 Foyer"
+          }
+        ], 
+        "slot_id": "Friday9", 
+        "time": "16:15-16:55"
+      }, 
+      {
+        "slot_class": "afternoon6", 
+        "sessions": [
+          {
+            "session": "ClosingCeremony1", 
+            "room": "Bayside 201-203"
+          }
+        ], 
+        "slot_id": "Friday10", 
+        "time": "16:55-18:05"
+      }
+    ], 
+    "day": "Friday"
+  }
+]

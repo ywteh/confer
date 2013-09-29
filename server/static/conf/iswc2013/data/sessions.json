@@ -1,0 +1,320 @@
+sessions={
+  "Announcements2": {
+    "s_title": "Announcements", 
+    "submissions": []
+  }, 
+  "Announcements1": {
+    "s_title": "Announcements", 
+    "submissions": []
+  }, 
+  "MultilingualSemantics": {
+    "s_title": "Multilingual Semantics", 
+    "submissions": [
+      "RTP43", 
+      "SWIUTP2"
+    ]
+  }, 
+  "ClosingCeremony1": {
+    "s_title": "Closing Ceremony", 
+    "submissions": []
+  }, 
+  "DescriptionLogics1": {
+    "s_title": "Description Logics 1", 
+    "submissions": [
+      "RTP36", 
+      "RTP41"
+    ]
+  }, 
+  "LifeScience": {
+    "s_title": "Life Science", 
+    "submissions": [
+      "SWIUTP10", 
+      "SWIUTP14"
+    ]
+  }, 
+  "LinkedData2": {
+    "s_title": "Linked Data 2", 
+    "submissions": [
+      "RTP33", 
+      "SWIUTP1", 
+      "RTP39"
+    ]
+  }, 
+  "OpeningCeremony1": {
+    "s_title": "Opening Ceremony", 
+    "submissions": []
+  }, 
+  "LinkedData1": {
+    "s_title": "Linked Data 1", 
+    "submissions": [
+      "RTP32", 
+      "SWIUTP5"
+    ]
+  }, 
+  "MorningTea1": {
+    "s_title": "Morning Tea", 
+    "submissions": []
+  }, 
+  "NaturalLanguageProcessing": {
+    "s_title": "Natural Language Processing", 
+    "submissions": [
+      "RTP6", 
+      "RTP34", 
+      "SWIUTP6"
+    ]
+  }, 
+  "MorningTea3": {
+    "s_title": "Morning Tea", 
+    "submissions": []
+  }, 
+  "MorningTea2": {
+    "s_title": "Morning Tea", 
+    "submissions": []
+  }, 
+  "Lunch2": {
+    "s_title": "Lunch", 
+    "submissions": []
+  }, 
+  "Lunch3": {
+    "s_title": "Lunch", 
+    "submissions": []
+  }, 
+  "Lunch1": {
+    "s_title": "Lunch", 
+    "submissions": []
+  }, 
+  "SemanticWebLandscape": {
+    "s_title": "Semantic Web Landscape", 
+    "submissions": [
+      "RTP24", 
+      "RTP5", 
+      "SWIUTP3", 
+      "SWIUTP16", 
+      "RTP35"
+    ]
+  }, 
+  "MentoringLunchInvitationonly1": {
+    "s_title": "Mentoring Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "DataManagementExploration": {
+    "s_title": "Data Management & Exploration", 
+    "submissions": [
+      "RTP15", 
+      "SWIUTP7", 
+      "SWIUTP13", 
+      "RTP21", 
+      "SWIUTP12"
+    ]
+  }, 
+  "KnowledgeDiscovery": {
+    "s_title": "Knowledge Discovery", 
+    "submissions": [
+      "RTP38", 
+      "RTP27", 
+      "RTP11", 
+      "SWIUTP15", 
+      "RTP2"
+    ]
+  }, 
+  "TownHall16:3017:301": {
+    "s_title": "Town Hall(16:30 - 17:30)", 
+    "submissions": []
+  }, 
+  "GeoSpatialSemantics": {
+    "s_title": "Geo-Spatial Semantics", 
+    "submissions": [
+      "RTP23", 
+      "ETP4"
+    ]
+  }, 
+  "LicensingandConfidentialityModels": {
+    "s_title": "Licensing and Confidentiality Models", 
+    "submissions": [
+      "RTP25", 
+      "RTP1"
+    ]
+  }, 
+  "MinuteMadness1": {
+    "s_title": "Minute Madness", 
+    "submissions": []
+  }, 
+  "DescriptionLogics2": {
+    "s_title": "Description Logics 2", 
+    "submissions": [
+      "RTP4", 
+      "RTP14"
+    ]
+  }, 
+  "Search": {
+    "s_title": "Search", 
+    "submissions": [
+      "RTP17", 
+      "RTP18", 
+      "SWIUTP4"
+    ]
+  }, 
+  "JWSLunchInvitationonly1": {
+    "s_title": "JWS Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "WorkshopSummaries1": {
+    "s_title": "Workshop Summaries", 
+    "submissions": []
+  }, 
+  "ISWC2014LunchInvitationonly1": {
+    "s_title": "ISWC2014 Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "InvitedTalk1": {
+    "s_title": "Invited Talk", 
+    "submissions": [
+      "IT1"
+    ]
+  }, 
+  "InvitedTalk3": {
+    "s_title": "Invited Talk", 
+    "submissions": [
+      "IT3"
+    ]
+  }, 
+  "InvitedTalk2": {
+    "s_title": "Invited Talk", 
+    "submissions": [
+      "IT2"
+    ]
+  }, 
+  "Streams": {
+    "s_title": "Streams", 
+    "submissions": [
+      "SWIUTP11", 
+      "RTP13", 
+      "SWIUTP8", 
+      "ETP7", 
+      "RTP31"
+    ]
+  }, 
+  "AfternoonTea2": {
+    "s_title": "Afternoon Tea", 
+    "submissions": []
+  }, 
+  "AfternoonTea1": {
+    "s_title": "Afternoon Tea", 
+    "submissions": []
+  }, 
+  "Query": {
+    "s_title": "Query", 
+    "submissions": [
+      "RTP7", 
+      "RTP10", 
+      "ETP10", 
+      "RTP28", 
+      "RTP9"
+    ]
+  }, 
+  "DataAccess": {
+    "s_title": "Data Access", 
+    "submissions": [
+      "RTP29", 
+      "RTP26", 
+      "RTP40"
+    ]
+  }, 
+  "KnowledgeExtraction": {
+    "s_title": "Knowledge Extraction", 
+    "submissions": [
+      "RTP22", 
+      "RTP44", 
+      "RTP37"
+    ]
+  }, 
+  "SemanticWebChallenge2": {
+    "s_title": "Semantic Web Challenge", 
+    "submissions": []
+  }, 
+  "SPARQL": {
+    "s_title": "SPARQL", 
+    "submissions": [
+      "ETP2", 
+      "ETP5", 
+      "RTP16", 
+      "ETP8", 
+      "ETP6"
+    ]
+  }, 
+  "SemanticWebChallenge1": {
+    "s_title": "Semantic Web Challenge", 
+    "submissions": []
+  }, 
+  "SWJDinner20:0021:30Invitationonly1": {
+    "s_title": "SWJ Dinner(20:00 - 21:30)[Invitation only]", 
+    "submissions": []
+  }, 
+  "OntologyMapping": {
+    "s_title": "Ontology Mapping", 
+    "submissions": [
+      "RTP20", 
+      "ETP9", 
+      "ETP3", 
+      "RTP30", 
+      "RTP45"
+    ]
+  }, 
+  "Break3": {
+    "s_title": "Break", 
+    "submissions": []
+  }, 
+  "Break2": {
+    "s_title": "Break", 
+    "submissions": []
+  }, 
+  "AfternoonTea3": {
+    "s_title": "Afternoon Tea", 
+    "submissions": []
+  }, 
+  "Reasoning": {
+    "s_title": "Reasoning", 
+    "submissions": [
+      "RTP19", 
+      "RTP8", 
+      "RTP12", 
+      "RTP3", 
+      "RTP42"
+    ]
+  }, 
+  "Break1": {
+    "s_title": "Break", 
+    "submissions": []
+  }, 
+  "Crowdsourcedsemantics": {
+    "s_title": "Crowd-sourced semantics", 
+    "submissions": [
+      "SWIUTP9", 
+      "ETP1"
+    ]
+  }, 
+  "DinnerCruise18:4523:001": {
+    "s_title": "Dinner Cruise (18:45 - 23:00)", 
+    "submissions": []
+  }, 
+  "PostersDemosSession": {
+    "s_title": "Posters & Demos Session", 
+    "submissions": []
+  }, 
+  "Industry4": {
+    "s_title": "Industry", 
+    "submissions": []
+  }, 
+  "Industry3": {
+    "s_title": "Industry", 
+    "submissions": []
+  }, 
+  "Industry2": {
+    "s_title": "Industry", 
+    "submissions": []
+  }, 
+  "Industry1": {
+    "s_title": "Industry", 
+    "submissions": []
+  }
+}
