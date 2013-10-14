@@ -17,6 +17,7 @@ def load_abstracts():
 	f = open(p+'/confer-mainprog-acmmm13.tsv', 'rU').read()
 	rows = f.split('\n')
 	for row in rows:
+		row = unicode(row, "ISO-8859-1")
 		data = row.split('\t')
 		if data[11] in paper_type:
 			papers[data[0]] = {'title': data[1], 'authors': [{'name': name} for name in data[2].strip('"').split(',')], 'abstract': data[3]}
@@ -95,13 +96,13 @@ def prepare_paper_and_schedule_json():
 	load_files()
 	#print papers
 	p = open('data/acmmm2013/papers.json','w')
-	p.write(json.dumps(papers, ensure_ascii=False))
+	p.write(json.dumps(papers))
 	p = open('server/static/conf/acmmm2013/data/papers.json','w')
-	p.write('entities='+json.dumps(papers, ensure_ascii=False))
+	p.write('entities='+json.dumps(papers))
 	p = open('server/static/conf/acmmm2013/data/sessions.json','w')
-	p.write('sessions='+json.dumps(sessions, ensure_ascii=False))
+	p.write('sessions='+json.dumps(sessions))
 	p = open('server/static/conf/acmmm2013/data/schedule.json','w')
-	p.write('schedule='+json.dumps(final_schedule, ensure_ascii=False))
+	p.write('schedule='+json.dumps(final_schedule))
 	
 
 
