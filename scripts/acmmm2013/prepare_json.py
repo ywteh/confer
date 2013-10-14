@@ -30,10 +30,12 @@ def load_abstracts():
 
 def get_class(t):
 	v =  int(re.match(r'\d+', t).group())
-	if(v < 12 and v >= 9):
+	if(v < 12 and v >= 8):
 		return 'morning'
-	elif(v<5):
-		return 'afternoon'
+	elif(v>= 12 and v<15):
+		return 'afternoon1'
+	elif(v>=15 and v<18):
+		return 'afternoon2'
 	else:
 		return 'evening'
 
