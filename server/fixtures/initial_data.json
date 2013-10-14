@@ -92,6 +92,19 @@
 	      "start_date": "2013-10-21",
 	      "end_date": "2013-10-25"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 8,
+	    "fields": {
+	      "unique_name": "acmmm2013",
+	      "confer_name": "myacmmm",
+	      "title": "ACM Multimedia 2013 - The 21st ACM International Conference on Multimedia",
+	      "subtitle": "",
+	      "blurb": "ACM Multimedia 2013(MM’13) is the worldwide premier multimedia conference and a key event to present scientific achievements and innovative industrial products. The conference offers scientists and practitioners in the area of multimedia technical sessions, tutorials, competitions, panels and discussion meetings on relevant and challenging research questions. ",
+	      "location": "Barcelona, Catalunya, Spain",
+	      "start_date": "2013-10-21",
+	      "end_date": "2013-10-25"
+	  	}
 	}
 ]
   
