@@ -1,9 +1,630 @@
 schedule=[
   {
+    "date": "21/10/2013", 
+    "slots": [
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "LISC2013Session0", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "LISC 2013 Session 0", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "OM2013Session0", 
+            "room": "Ionic (Ground Floor)"
+          }, 
+          {
+            "session": "SSWS2013Session0", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "CrowdSemSession0", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "LD4IESession0", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "SMAM2013Session0", 
+            "room": "Tuscan (Ground Floor)"
+          }, 
+          {
+            "session": "WOP2013Session0", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "RelationalDatabasetoRDF1", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "StreamReasoningforLinkedDataSession0", 
+            "room": "Carrington (3rd Floor)"
+          }, 
+          {
+            "session": "TheWebofThingsSession0", 
+            "room": "Carruthers (5th Floor)"
+          }
+        ], 
+        "slot_id": "Monday_0", 
+        "time": "9:00 - 10:30"
+      }, 
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "WorkshopMorningTea", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Monday_1", 
+        "time": "10:30 - 11:00"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "LISC2013Session2", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "LISC 2013 Session 2", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "OM2013Session2", 
+            "room": "Ionic (Ground Floor)"
+          }, 
+          {
+            "session": "SSWS2013Session2", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "CrowdSemSession2", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "LD4IESession2", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "SMAM2013Session2", 
+            "room": "Tuscan (Ground Floor)"
+          }, 
+          {
+            "session": "WOP2013Session2", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "RelationalDatabasetoRDF3", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "StreamReasoningforLinkedDataSession2", 
+            "room": "Carrington (3rd Floor)"
+          }, 
+          {
+            "session": "TheWebofThingsSession2", 
+            "room": "Carruthers (5th Floor)"
+          }
+        ], 
+        "slot_id": "Monday_2", 
+        "time": "11:00 - 12:45"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "WorkshopLunch", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Monday_3", 
+        "time": "12:45 - 13:45"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "LISC2013Session4", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "OM2013Session4", 
+            "room": "Ionic (Ground Floor)"
+          }, 
+          {
+            "session": "SSWS2013Session4", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "CrowdSemSession4", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "LD4IESession4", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "RelationalDatabasetoRDF5", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "StreamReasoningforLinkedDataSession4", 
+            "room": "Carrington (3rd Floor)"
+          }, 
+          {
+            "session": "URSW2013Session1", 
+            "room": "Tuscan (Ground Floor)"
+          }, 
+          {
+            "session": "DeRiVE2013Session1", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "ModellingOntologiesVisuallySession1", 
+            "room": "Carruthers (5th Floor)"
+          }
+        ], 
+        "slot_id": "Monday_4", 
+        "time": "13:45 - 15:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "WorkshopAfternoonTea", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Monday_5", 
+        "time": "15:30 - 16:00"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "LISC2013Session6", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "OM2013Session6", 
+            "room": "Ionic (Ground Floor)"
+          }, 
+          {
+            "session": "CrowdSemSession6", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "LD4IESession6", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "RelationalDatabasetoRDF7", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "StreamReasoningforLinkedDataSession6", 
+            "room": "Carrington (3rd Floor)"
+          }, 
+          {
+            "session": "DeRiVE2013Session3", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "ModellingOntologiesVisuallySession3", 
+            "room": "Carruthers (5th Floor)"
+          }
+        ], 
+        "slot_id": "Monday_6", 
+        "time": "16:00 - 17:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "URSW2013Session3", 
+            "room": "Tuscan (Ground Floor)"
+          }
+        ], 
+        "slot_id": "Monday_56", 
+        "time": "16:00 - 17:40"
+      }
+    ], 
+    "day": "Monday"
+  }, 
+  {
+    "date": "22/10/2013", 
+    "slots": [
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession0", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems1", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_0", 
+        "time": "09:00 - 09:10"
+      }, 
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "SemStats2013Session0", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "COLD2013Session0", 
+            "room": "Ionic (Ground)"
+          }, 
+          {
+            "session": "DBpediaNLP2013Session0", 
+            "room": "Grand Lodge (1st Floor)"
+          }, 
+          {
+            "session": "PRIVON2013Session0", 
+            "room": "Lodge Room 3 (3rd Floor)"
+          }, 
+          {
+            "session": "SSN2013Session0", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "WaSABiSession0", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems13", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "TheMobileSemanticWebSession0", 
+            "room": "Carruthers (5th Floor)"
+          }, 
+          {
+            "session": "HandsonGuidetoLinkedDataApplicationsSession0", 
+            "room": "Carrington (3rd Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_12", 
+        "time": "9:00 - 10:30"
+      }, 
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession1", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems2", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_1", 
+        "time": "09:10 - 10:00"
+      }, 
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession2", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems3", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_2", 
+        "time": "10:00 - 10:30"
+      },
+      {
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "WorkshopMorningTea", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Tuesday_13", 
+        "time": "10:30 - 11:00"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "SemStats2013Session2", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "COLD2013Session2", 
+            "room": "Ionic (Ground)"
+          }, 
+          {
+            "session": "DBpediaNLP2013Session2", 
+            "room": "Grand Lodge (1st Floor)"
+          }, 
+          {
+            "session": "PRIVON2013Session2", 
+            "room": "Lodge Room 3 (3rd Floor)"
+          }, 
+          {
+            "session": "SSN2013Session2", 
+            "room": "Northcott (5th Floor)"
+          }, 
+          {
+            "session": "WaSABiSession2", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems15", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "TheMobileSemanticWebSession2", 
+            "room": "Carruthers (5th Floor)"
+          }, 
+          {
+            "session": "HandsonGuidetoLinkedDataApplicationsSession2", 
+            "room": "Carrington (3rd Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_14", 
+        "time": "11:00 - 12:45"
+      }, 
+      {
+        "slot_class": "morning2", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession3", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems4", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_3", 
+        "time": "11:00 - 12:15"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession4", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems5", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_4", 
+        "time": "12:15 - 12:45"
+      }, 
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "WorkshopLunch", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Tuesday_5", 
+        "time": "12:45 - 13:45"
+      },
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "SemStats2013Session4", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "COLD2013Session4", 
+            "room": "Ionic (Ground)"
+          }, 
+          {
+            "session": "DBpediaNLP2013Session4", 
+            "room": "Grand Lodge (1st Floor)"
+          }, 
+          {
+            "session": "PRIVON2013Session4", 
+            "room": "Lodge Room 3 (3rd Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems16", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "OrdRing2013Session1", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "SML2OD2013Session1", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "BigDataManagementSession1", 
+            "room": "Carruthers (5th Floor)"
+          }, 
+          {
+            "session": "LinkedDataforWebScaleInformationExtractionSession1", 
+            "room": "Carrington (3rd Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_16", 
+        "time": "13:45 - 15:30"
+      },
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession6", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems7", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_6", 
+        "time": "13:45 - 15:00"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession7", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems8", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_7", 
+        "time": "15:00 - 15:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "WorkshopAfternoonTea", 
+            "room": "Banquet Hall"
+          }
+        ], 
+        "slot_id": "Tuesday_8", 
+        "time": "15:30 - 16:00"
+      },
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "COLD2013Session6", 
+            "room": "Ionic (Ground)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems18", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_25", 
+        "time": "16:00 - 17:45"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession9", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems10", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_9", 
+        "time": "16:00 - 17:00"
+      },
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "SemStats2013Session6", 
+            "room": "Corinthian (Ground Floor)"
+          }, 
+          {
+            "session": "DBpediaNLP2013Session6", 
+            "room": "Grand Lodge (1st Floor)"
+          }, 
+          {
+            "session": "PRIVON2013Session6", 
+            "room": "Lodge Room 3 (3rd Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems17", 
+            "room": "Rawson (5th Floor)"
+          }, 
+          {
+            "session": "SML2OD2013Session3", 
+            "room": "Composite (Ground Floor)"
+          }, 
+          {
+            "session": "BigDataManagementSession3", 
+            "room": "Carruthers (5th Floor)"
+          }, 
+          {
+            "session": "LinkedDataforWebScaleInformationExtractionSession3", 
+            "room": "Carrington (3rd Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_18", 
+        "time": "16:00 - 17:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "OrdRing2013Session3", 
+            "room": "Doric (Ground Floor)"
+          }, 
+          {
+            "session": "OrdRing 2013 Session 3", 
+            "room": "Doric (Ground Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_59", 
+        "time": "16:00 - 17:55"
+      },
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession10", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems11", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_10", 
+        "time": "17:00 - 17:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "DoctoralConsortiumProgramSession11", 
+            "room": "Boardroom (4th Floor)"
+          }, 
+          {
+            "session": "MicrotaskCrowdsourcingtoSolveSemanticWebProblems12", 
+            "room": "Rawson (5th Floor)"
+          }
+        ], 
+        "slot_id": "Tuesday_11", 
+        "time": "17:30 - 17:45"
+      }
+    ], 
+    "day": "Tuesday"
+  }, 
+  {
     "date": "23/10/2013", 
     "slots": [
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "OpeningCeremony1", 
@@ -11,10 +632,10 @@ schedule=[
           }
         ], 
         "slot_id": "Wednesday1", 
-        "time": "09:00-09:15"
+        "time": "09:00 - 09:15"
       }, 
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "InvitedTalk1", 
@@ -22,11 +643,21 @@ schedule=[
           }
         ], 
         "slot_id": "Wednesday2", 
-        "time": "09:15-10:15"
+        "time": "09:15 - 10:15"
       }, 
-     
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1 morning2", 
+        "sessions": [
+          {
+            "session": "MorningTea1", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Wednesday3", 
+        "time": "10:15 - 11:00"
+      }, 
+      {
+        "slot_class": "morning2", 
         "sessions": [
           {
             "session": "SemanticWebLandscape", 
@@ -37,14 +668,28 @@ schedule=[
             "room": "Parkside Ballroom B"
           }, 
           {
-            "session": "Industry1", 
-            "room": " Parkside 110A"
+            "session": "IndustryTrackSession1", 
+            "room": "Parkside 110A"
           }
         ], 
         "slot_id": "Wednesday4", 
-        "time": "11:00-12:40"
+        "time": "11:00 - 12:40"
       }, 
-    
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch1", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "JWSLunch1", 
+            "room": "Bayside Boardroom"
+          }
+        ], 
+        "slot_id": "Wednesday5", 
+        "time": "12:40 - 14:20"
+      }, 
       {
         "slot_class": "afternoon1", 
         "sessions": [
@@ -57,14 +702,24 @@ schedule=[
             "room": "Parkside Ballroom B"
           }, 
           {
-            "session": "Industry2", 
-            "room": " Parkside 110A"
+            "session": "IndustryTrackSession2", 
+            "room": "Parkside 110A"
           }
         ], 
         "slot_id": "Wednesday6", 
-        "time": "14:20-15:00"
+        "time": "14:20 - 15:00"
       }, 
-     
+      {
+        "slot_class": "afternoon1 afternoon2", 
+        "sessions": [
+          {
+            "session": "Break1", 
+            "room": ""
+          }
+        ], 
+        "slot_id": "Wednesday7", 
+        "time": "15:00 - 15:15"
+      }, 
       {
         "slot_class": "afternoon2", 
         "sessions": [
@@ -77,43 +732,49 @@ schedule=[
             "room": "Parkside Ballroom B"
           }, 
           {
-            "session": "Industry3", 
-            "room": " Parkside 110A"
+            "session": "IndustryTrackSession3", 
+            "room": "Parkside 110A"
           }
         ], 
         "slot_id": "Wednesday8", 
-        "time": "15:15-16:15"
+        "time": "15:15 - 16:15"
       }, 
-    
       {
-        "slot_class": "evening", 
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "AfternoonTea1", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Wednesday9", 
+        "time": "16:15 - 16:55"
+      }, 
+      {
+        "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "MinuteMadness1", 
             "room": "Parkside  110B"
-          }, 
-          {
-            "session": "Industry4", 
-            "room": " Parkside 110A"
           }
         ], 
         "slot_id": "Wednesday10", 
-        "time": "16:55-18:05"
+        "time": "16:55 - 18:05"
       }, 
       {
         "slot_class": "evening", 
         "sessions": [
           {
-            "session": "PostersDemosSession", 
-            "room": "Parkside  Ballroom B"
+            "session": "PostersDemosSessionCocktailReceptionwithCanap\u00e9s18:0521:001", 
+            "room": "room@TBA"
           }, 
           {
-            "session": "SWJDinner20:0021:30Invitationonly1", 
-            "room": "room@TBA"
+            "session": "SWJDinner20:0021:301", 
+            "room": "Bayside Boardroom"
           }
         ], 
         "slot_id": "Wednesday11", 
-        "time": "18:05 - 21:00"
+        "time": "Evening"
       }
     ], 
     "day": "Wednesday"
@@ -122,7 +783,7 @@ schedule=[
     "date": "24/10/2013", 
     "slots": [
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "Announcements1", 
@@ -130,10 +791,10 @@ schedule=[
           }
         ], 
         "slot_id": "Thursday1", 
-        "time": "09:00-09:15"
+        "time": "09:00 - 09:15"
       }, 
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "InvitedTalk2", 
@@ -141,11 +802,21 @@ schedule=[
           }
         ], 
         "slot_id": "Thursday2", 
-        "time": "09:15-10:15"
+        "time": "09:15 - 10:15"
       }, 
-      
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1 morning2", 
+        "sessions": [
+          {
+            "session": "MorningTea2", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Thursday3", 
+        "time": "10:15 - 11:00"
+      }, 
+      {
+        "slot_class": "morning2", 
         "sessions": [
           {
             "session": "Streams", 
@@ -161,9 +832,23 @@ schedule=[
           }
         ], 
         "slot_id": "Thursday4", 
-        "time": "11:00-12:40"
+        "time": "11:00 - 12:40"
       }, 
-      
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch2", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "MentoringLunch1", 
+            "room": "Bayside 201"
+          }
+        ], 
+        "slot_id": "Thursday5", 
+        "time": "12:40 - 14:20"
+      }, 
       {
         "slot_class": "afternoon1", 
         "sessions": [
@@ -181,9 +866,19 @@ schedule=[
           }
         ], 
         "slot_id": "Thursday6", 
-        "time": "14:20-15:00"
+        "time": "14:20 - 15:00"
       }, 
-     
+      {
+        "slot_class": "afternoon1 afternoon2", 
+        "sessions": [
+          {
+            "session": "Break2", 
+            "room": ""
+          }
+        ], 
+        "slot_id": "Thursday7", 
+        "time": "15:00 - 15:15"
+      }, 
       {
         "slot_class": "afternoon2", 
         "sessions": [
@@ -201,9 +896,30 @@ schedule=[
           }
         ], 
         "slot_id": "Thursday8", 
-        "time": "15:15-16:15"
+        "time": "15:15 - 16:15"
       }, 
-      
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "AfternoonTea16:1516:551", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Thursday9", 
+        "time": "16:15 - 16:30"
+      }, 
+      {
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "TownHall1", 
+            "room": "room@TBA"
+          }
+        ], 
+        "slot_id": "Thursday10", 
+        "time": "16:30 - 17:30"
+      }, 
       {
         "slot_class": "evening", 
         "sessions": [
@@ -222,7 +938,7 @@ schedule=[
     "date": "25/10/2013", 
     "slots": [
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "Announcements2", 
@@ -230,10 +946,10 @@ schedule=[
           }
         ], 
         "slot_id": "Friday1", 
-        "time": "09:00-09:15"
+        "time": "09:00 - 09:15"
       }, 
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
         "sessions": [
           {
             "session": "InvitedTalk3", 
@@ -241,15 +957,25 @@ schedule=[
           }
         ], 
         "slot_id": "Friday2", 
-        "time": "09:15-10:15"
+        "time": "09:15 - 10:15"
       }, 
-      
       {
-        "slot_class": "morning", 
+        "slot_class": "morning1", 
+        "sessions": [
+          {
+            "session": "MorningTea3", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Friday3", 
+        "time": "10:15 - 11:00"
+      }, 
+      {
+        "slot_class": "morning2", 
         "sessions": [
           {
             "session": "OntologyMapping", 
-            "room": "Bayside 202-204"
+            "room": "Bayside 202-203"
           }, 
           {
             "session": "Query", 
@@ -261,15 +987,29 @@ schedule=[
           }
         ], 
         "slot_id": "Friday4", 
-        "time": "11:00-12:40"
+        "time": "11:00 - 12:40"
       }, 
-      
+      {
+        "slot_class": "afternoon1", 
+        "sessions": [
+          {
+            "session": "Lunch3", 
+            "room": "Parkside Ballroom Foyer"
+          }, 
+          {
+            "session": "ISWC2014Lunch1", 
+            "room": "Bayside 201"
+          }
+        ], 
+        "slot_id": "Friday5", 
+        "time": "12:40 - 14:20"
+      }, 
       {
         "slot_class": "afternoon1", 
         "sessions": [
           {
             "session": "LinkedData1", 
-            "room": "Bayside 202-205"
+            "room": "Bayside 202-203"
           }, 
           {
             "session": "LicensingandConfidentialityModels", 
@@ -281,15 +1021,14 @@ schedule=[
           }
         ], 
         "slot_id": "Friday6", 
-        "time": "14:20-15:00"
+        "time": "14:20 - 15:00"
       }, 
-      
       {
         "slot_class": "afternoon2", 
         "sessions": [
           {
             "session": "LinkedData2", 
-            "room": "Bayside 202-206"
+            "room": "Bayside 202-203"
           }, 
           {
             "session": "KnowledgeExtraction", 
@@ -301,11 +1040,21 @@ schedule=[
           }
         ], 
         "slot_id": "Friday8", 
-        "time": "15:15-16:15"
+        "time": "15:15 - 16:15"
       }, 
-      
       {
-        "slot_class": "evening", 
+        "slot_class": "afternoon2", 
+        "sessions": [
+          {
+            "session": "AfternoonTea2", 
+            "room": "Parkside Ballroom Foyer"
+          }
+        ], 
+        "slot_id": "Friday9", 
+        "time": "16:15 - 16:55"
+      }, 
+      {
+        "slot_class": "afternoon2 evening", 
         "sessions": [
           {
             "session": "ClosingCeremony1", 
@@ -313,7 +1062,7 @@ schedule=[
           }
         ], 
         "slot_id": "Friday10", 
-        "time": "16:55-18:05"
+        "time": "16:55 - 18:05"
       }
     ], 
     "day": "Friday"

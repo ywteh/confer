@@ -34,10 +34,16 @@ s_filters=[
 					"label":"All"
 				},
 				{
-					"data":"Wednesday", 
+					"data":"Monday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Wednesday"
+					"label":"Monday"
+				},
+				{
+					"data":"Tuesday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Tuesday"
 				},
 				{
 					"data":"Thursday", 
@@ -67,7 +73,13 @@ s_filters=[
 					"data":"morning", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Morning"
+					"label":"Morning 1"
+				},
+				{
+					"data":"morning2", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Morning 2"
 				},
 				{
 					"data":"afternoon1", 

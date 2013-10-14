@@ -1,11 +1,39 @@
 {
-  "Announcements2": {
-    "s_title": "Announcements", 
+  "SemStats2013Session4": {
+    "s_title": "SemStats 2013 Session 4", 
+    "submissions": [
+      "Workshop96", 
+      "Workshop97", 
+      "Workshop98", 
+      "Workshop99"
+    ]
+  }, 
+  "SemStats2013Session6": {
+    "s_title": "SemStats 2013 Session 6", 
+    "submissions": [
+      "Workshop100", 
+      "Workshop101", 
+      "Workshop102"
+    ]
+  }, 
+  "Lunch1": {
+    "s_title": "Lunch[Parkside Ballroom Foyer]", 
     "submissions": []
   }, 
-  "Announcements1": {
-    "s_title": "Announcements", 
-    "submissions": []
+  "SemStats2013Session0": {
+    "s_title": "SemStats 2013 Session 0", 
+    "submissions": [
+      "Workshop91"
+    ]
+  }, 
+  "SemStats2013Session2": {
+    "s_title": "SemStats 2013 Session 2", 
+    "submissions": [
+      "Workshop92", 
+      "Workshop93", 
+      "Workshop94", 
+      "Workshop95"
+    ]
   }, 
   "MultilingualSemantics": {
     "s_title": "Multilingual Semantics", 
@@ -14,111 +42,93 @@
       "SWIUTP2"
     ]
   }, 
-  "ClosingCeremony1": {
-    "s_title": "Closing Ceremony", 
-    "submissions": []
-  }, 
-  "DescriptionLogics1": {
-    "s_title": "Description Logics 1", 
+  "OM2013Session4": {
+    "s_title": "OM-2013 Session 4", 
     "submissions": [
-      "RTP36", 
-      "RTP41"
+      "Workshop13", 
+      "Workshop14", 
+      "Workshop15", 
+      "Workshop16", 
+      "Workshop17"
     ]
   }, 
-  "LifeScience": {
-    "s_title": "Life Science", 
+  "OM2013Session6": {
+    "s_title": "OM-2013 Session 6", 
     "submissions": [
-      "SWIUTP10", 
-      "SWIUTP14"
+      "Workshop18", 
+      "Workshop19"
     ]
   }, 
-  "LinkedData2": {
-    "s_title": "Linked Data 2", 
+  "OM2013Session0": {
+    "s_title": "OM-2013 Session 0", 
     "submissions": [
-      "RTP33", 
-      "SWIUTP1", 
-      "RTP39"
+      "Workshop8", 
+      "Workshop9", 
+      "Workshop10", 
+      "Workshop11"
     ]
   }, 
-  "OpeningCeremony1": {
-    "s_title": "Opening Ceremony", 
-    "submissions": []
-  }, 
-  "LinkedData1": {
-    "s_title": "Linked Data 1", 
+  "OM2013Session2": {
+    "s_title": "OM-2013 Session 2", 
     "submissions": [
-      "RTP32", 
-      "SWIUTP5"
+      "PDP41", 
+      "Workshop12"
     ]
   }, 
-  "MorningTea1": {
-    "s_title": "Morning Tea", 
-    "submissions": []
-  }, 
-  "NaturalLanguageProcessing": {
-    "s_title": "Natural Language Processing", 
+  "CrowdSemSession0": {
+    "s_title": "CrowdSem Session 0", 
     "submissions": [
-      "RTP6", 
-      "RTP34", 
-      "SWIUTP6"
+      "Workshop28"
     ]
   }, 
-  "MorningTea3": {
-    "s_title": "Morning Tea", 
-    "submissions": []
-  }, 
-  "MorningTea2": {
-    "s_title": "Morning Tea", 
-    "submissions": []
-  }, 
-  "Lunch2": {
-    "s_title": "Lunch", 
-    "submissions": []
-  }, 
-  "Lunch3": {
-    "s_title": "Lunch", 
-    "submissions": []
-  }, 
-  "Lunch1": {
-    "s_title": "Lunch", 
-    "submissions": []
-  }, 
-  "SemanticWebLandscape": {
-    "s_title": "Semantic Web Landscape", 
+  "CrowdSemSession2": {
+    "s_title": "CrowdSem Session 2", 
     "submissions": [
-      "RTP24", 
-      "RTP5", 
-      "SWIUTP3", 
-      "SWIUTP16", 
-      "RTP35"
+      "Workshop29", 
+      "Workshop30", 
+      "Workshop31", 
+      "Workshop32"
     ]
   }, 
-  "MentoringLunchInvitationonly1": {
-    "s_title": "Mentoring Lunch[Invitation only]", 
+  "CrowdSemSession4": {
+    "s_title": "CrowdSem Session 4", 
+    "submissions": [
+      "Workshop33", 
+      "Workshop34", 
+      "Workshop35", 
+      "Workshop36"
+    ]
+  }, 
+  "CrowdSemSession6": {
+    "s_title": "CrowdSem Session 6", 
     "submissions": []
   }, 
-  "DataManagementExploration": {
-    "s_title": "Data Management & Exploration", 
+  "DBpediaNLP2013Session6": {
+    "s_title": "DBpedia & NLP 2013 Session 6", 
     "submissions": [
-      "RTP15", 
-      "SWIUTP7", 
-      "SWIUTP13", 
-      "RTP21", 
-      "SWIUTP12"
+      "Workshop111", 
+      "Workshop112", 
+      "Workshop113"
     ]
   }, 
-  "KnowledgeDiscovery": {
-    "s_title": "Knowledge Discovery", 
-    "submissions": [
-      "RTP38", 
-      "RTP27", 
-      "RTP11", 
-      "SWIUTP15", 
-      "RTP2"
-    ]
+  "LinkedDataforWebScaleInformationExtractionSession1": {
+    "s_title": "Linked Data for Web Scale Information Extraction Session 1", 
+    "submissions": []
   }, 
-  "TownHall16:3017:301": {
-    "s_title": "Town Hall(16:30 - 17:30)", 
+  "COLD2013Session4": {
+    "s_title": "COLD 2013 Session 4", 
+    "submissions": []
+  }, 
+  "COLD2013Session6": {
+    "s_title": "COLD 2013 Session 6", 
+    "submissions": []
+  }, 
+  "COLD2013Session0": {
+    "s_title": "COLD 2013 Session 0", 
+    "submissions": []
+  }, 
+  "COLD2013Session2": {
+    "s_title": "COLD 2013 Session 2", 
     "submissions": []
   }, 
   "GeoSpatialSemantics": {
@@ -128,42 +138,12 @@
       "ETP4"
     ]
   }, 
-  "LicensingandConfidentialityModels": {
-    "s_title": "Licensing and Confidentiality Models", 
-    "submissions": [
-      "RTP25", 
-      "RTP1"
-    ]
-  }, 
-  "MinuteMadness1": {
-    "s_title": "Minute Madness", 
+  "TheWebofThingsSession2": {
+    "s_title": "The Web of Things Session 2", 
     "submissions": []
   }, 
-  "DescriptionLogics2": {
-    "s_title": "Description Logics 2", 
-    "submissions": [
-      "RTP4", 
-      "RTP14"
-    ]
-  }, 
-  "Search": {
-    "s_title": "Search", 
-    "submissions": [
-      "RTP17", 
-      "RTP18", 
-      "SWIUTP4"
-    ]
-  }, 
-  "JWSLunchInvitationonly1": {
-    "s_title": "JWS Lunch[Invitation only]", 
-    "submissions": []
-  }, 
-  "WorkshopSummaries1": {
-    "s_title": "Workshop Summaries", 
-    "submissions": []
-  }, 
-  "ISWC2014LunchInvitationonly1": {
-    "s_title": "ISWC2014 Lunch[Invitation only]", 
+  "TheWebofThingsSession0": {
+    "s_title": "The Web of Things Session 0", 
     "submissions": []
   }, 
   "InvitedTalk1": {
@@ -178,10 +158,190 @@
       "IT3"
     ]
   }, 
-  "InvitedTalk2": {
-    "s_title": "Invited Talk", 
+  "SWJDinner20:0021:301": {
+    "s_title": "SWJ Dinner(20:00 - 21:30[Invitation only]", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession6": {
+    "s_title": "Doctoral Consortium Program Session 6", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession7": {
+    "s_title": "Doctoral Consortium Program Session 7", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession4": {
+    "s_title": "Doctoral Consortium Program Session 4", 
+    "submissions": []
+  }, 
+  "WorkshopLunch": {
+    "s_title": "Workshop Lunch", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession3": {
+    "s_title": "Doctoral Consortium Program Session 3", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession0": {
+    "s_title": "Doctoral Consortium Program Session 0", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession1": {
+    "s_title": "Doctoral Consortium Program Session 1", 
+    "submissions": []
+  }, 
+  "WOP2013Session2": {
+    "s_title": "WOP 2013 Session 2", 
+    "submissions": []
+  }, 
+  "WOP2013Session0": {
+    "s_title": "WOP 2013 Session 0", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession8": {
+    "s_title": "Doctoral Consortium Program Session 8", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession9": {
+    "s_title": "Doctoral Consortium Program Session 9", 
+    "submissions": []
+  }, 
+  "URSW2013Session1": {
+    "s_title": "URSW 2013 Session 1", 
     "submissions": [
-      "IT2"
+      "Workshop78", 
+      "Workshop79", 
+      "Workshop80"
+    ]
+  }, 
+  "DeRiVE2013Session1": {
+    "s_title": "DeRiVE 2013 Session 1", 
+    "submissions": [
+      "Workshop85", 
+      "Workshop86", 
+      "Workshop87"
+    ]
+  }, 
+  "URSW2013Session3": {
+    "s_title": "URSW 2013 Session 3", 
+    "submissions": [
+      "Workshop81", 
+      "Workshop82", 
+      "Workshop83", 
+      "Workshop84"
+    ]
+  }, 
+  "DeRiVE2013Session3": {
+    "s_title": "DeRiVE 2013 Session 3", 
+    "submissions": [
+      "Workshop88", 
+      "Workshop89", 
+      "Workshop90"
+    ]
+  }, 
+  "ISWC2014Lunch1": {
+    "s_title": "ISWC2014 Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "WorkshopAfternoonTea": {
+    "s_title": "Workshop Afternoon Tea", 
+    "submissions": []
+  }, 
+  "AfternoonTea16:1516:551": {
+    "s_title": "Afternoon Tea(16:15 - 16:55)[Bayside 2 foyer]", 
+    "submissions": []
+  }, 
+  "BigDataManagementSession3": {
+    "s_title": "Big Data Management Session 3", 
+    "submissions": []
+  }, 
+  "BigDataManagementSession1": {
+    "s_title": "Big Data Management Session 1", 
+    "submissions": []
+  }, 
+  "Lunch2": {
+    "s_title": "Lunch[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "Lunch3": {
+    "s_title": "Lunch[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "WorkshopMorningTea": {
+    "s_title": "Workshop Morning Tea", 
+    "submissions": []
+  }, 
+  "KnowledgeDiscovery": {
+    "s_title": "Knowledge Discovery", 
+    "submissions": [
+      "RTP38", 
+      "RTP27", 
+      "RTP11", 
+      "SWIUTP15", 
+      "RTP2"
+    ]
+  }, 
+  "LicensingandConfidentialityModels": {
+    "s_title": "Licensing and Confidentiality Models", 
+    "submissions": [
+      "RTP25", 
+      "RTP1"
+    ]
+  }, 
+  "MinuteMadness1": {
+    "s_title": "Minute Madness[Parkside 110B]", 
+    "submissions": []
+  }, 
+  "WorkshopSummaries1": {
+    "s_title": "Workshop Summaries", 
+    "submissions": []
+  }, 
+  "StreamReasoningforLinkedDataSession6": {
+    "s_title": "Stream Reasoning for Linked Data Session 6", 
+    "submissions": [
+      "Workshop71", 
+      "Workshop72", 
+      "Workshop73", 
+      "Workshop74", 
+      "Workshop75", 
+      "Workshop76", 
+      "Workshop77"
+    ]
+  }, 
+  "StreamReasoningforLinkedDataSession4": {
+    "s_title": "Stream Reasoning for Linked Data Session 4", 
+    "submissions": [
+      "Workshop69", 
+      "Workshop70"
+    ]
+  }, 
+  "StreamReasoningforLinkedDataSession2": {
+    "s_title": "Stream Reasoning for Linked Data Session 2", 
+    "submissions": [
+      "Workshop63", 
+      "Workshop64", 
+      "Workshop65", 
+      "Workshop66", 
+      "Workshop67", 
+      "Workshop68"
+    ]
+  }, 
+  "StreamReasoningforLinkedDataSession0": {
+    "s_title": "Stream Reasoning for Linked Data Session 0", 
+    "submissions": [
+      "Workshop50", 
+      "Workshop51", 
+      "Workshop52", 
+      "Workshop53", 
+      "Workshop54", 
+      "Workshop55", 
+      "Workshop56", 
+      "Workshop57", 
+      "Workshop58", 
+      "Workshop59", 
+      "Workshop60", 
+      "Workshop61", 
+      "Workshop62"
     ]
   }, 
   "Streams": {
@@ -194,12 +354,92 @@
       "RTP31"
     ]
   }, 
-  "AfternoonTea2": {
-    "s_title": "Afternoon Tea", 
+  "IndustryTrackSession2": {
+    "s_title": "Industry Track Session 2", 
+    "submissions": [
+      "ITP2", 
+      "ITP6"
+    ]
+  }, 
+  "IndustryTrackSession3": {
+    "s_title": "Industry Track Session 3", 
+    "submissions": [
+      "ITP4", 
+      "ITP5"
+    ]
+  }, 
+  "IndustryTrackSession1": {
+    "s_title": "Industry Track Session 1", 
+    "submissions": [
+      "ITP1", 
+      "ITP3"
+    ]
+  }, 
+  "SPARQL": {
+    "s_title": "SPARQL", 
+    "submissions": [
+      "ETP2", 
+      "ETP5", 
+      "RTP16", 
+      "ETP8", 
+      "ETP6"
+    ]
+  }, 
+  "Break1": {
+    "s_title": "Break", 
     "submissions": []
   }, 
-  "AfternoonTea1": {
-    "s_title": "Afternoon Tea", 
+  "LISC2013Session4": {
+    "s_title": "LISC 2013 Session 4", 
+    "submissions": [
+      "Workshop5", 
+      "Workshop6", 
+      "Workshop7"
+    ]
+  }, 
+  "Break3": {
+    "s_title": "Break", 
+    "submissions": []
+  }, 
+  "LISC2013Session6": {
+    "s_title": "LISC 2013 Session 6", 
+    "submissions": []
+  }, 
+  "LISC2013Session0": {
+    "s_title": "LISC 2013 Session 0", 
+    "submissions": [
+      "Workshop1"
+    ]
+  }, 
+  "LISC2013Session2": {
+    "s_title": "LISC 2013 Session 2", 
+    "submissions": [
+      "Workshop2", 
+      "Workshop3", 
+      "Workshop4"
+    ]
+  }, 
+  "DoctoralConsortiumProgramSession10": {
+    "s_title": "Doctoral Consortium Program Session 10", 
+    "submissions": []
+  }, 
+  "SSWS2013Session2": {
+    "s_title": "SSWS 2013 Session 2", 
+    "submissions": [
+      "Workshop22", 
+      "Workshop23", 
+      "Workshop24"
+    ]
+  }, 
+  "Crowdsourcedsemantics": {
+    "s_title": "Crowd-sourced semantics", 
+    "submissions": [
+      "SWIUTP9", 
+      "ETP1"
+    ]
+  }, 
+  "Break2": {
+    "s_title": "Break", 
     "submissions": []
   }, 
   "Query": {
@@ -212,44 +452,6 @@
       "RTP9"
     ]
   }, 
-  "DataAccess": {
-    "s_title": "Data Access", 
-    "submissions": [
-      "RTP29", 
-      "RTP26", 
-      "RTP40"
-    ]
-  }, 
-  "KnowledgeExtraction": {
-    "s_title": "Knowledge Extraction", 
-    "submissions": [
-      "RTP22", 
-      "RTP44", 
-      "RTP37"
-    ]
-  }, 
-  "SemanticWebChallenge2": {
-    "s_title": "Semantic Web Challenge", 
-    "submissions": []
-  }, 
-  "SPARQL": {
-    "s_title": "SPARQL", 
-    "submissions": [
-      "ETP2", 
-      "ETP5", 
-      "RTP16", 
-      "ETP8", 
-      "ETP6"
-    ]
-  }, 
-  "SemanticWebChallenge1": {
-    "s_title": "Semantic Web Challenge", 
-    "submissions": []
-  }, 
-  "SWJDinner20:0021:30Invitationonly1": {
-    "s_title": "SWJ Dinner(20:00 - 21:30)[Invitation only]", 
-    "submissions": []
-  }, 
   "OntologyMapping": {
     "s_title": "Ontology Mapping", 
     "submissions": [
@@ -259,18 +461,6 @@
       "RTP30", 
       "RTP45"
     ]
-  }, 
-  "Break3": {
-    "s_title": "Break", 
-    "submissions": []
-  }, 
-  "Break2": {
-    "s_title": "Break", 
-    "submissions": []
-  }, 
-  "AfternoonTea3": {
-    "s_title": "Afternoon Tea", 
-    "submissions": []
   }, 
   "Reasoning": {
     "s_title": "Reasoning", 
@@ -282,39 +472,373 @@
       "RTP42"
     ]
   }, 
-  "Break1": {
-    "s_title": "Break", 
+  "HandsonGuidetoLinkedDataApplicationsSession2": {
+    "s_title": "Hands-on Guide to Linked Data Applications Session 2", 
     "submissions": []
   }, 
-  "Crowdsourcedsemantics": {
-    "s_title": "Crowd-sourced semantics", 
+  "HandsonGuidetoLinkedDataApplicationsSession0": {
+    "s_title": "Hands-on Guide to Linked Data Applications Session 0", 
+    "submissions": []
+  }, 
+  "OrdRing2013Session3": {
+    "s_title": "OrdRing 2013 Session 3", 
     "submissions": [
-      "SWIUTP9", 
-      "ETP1"
+      "Workshop141", 
+      "Workshop142", 
+      "Workshop143"
     ]
   }, 
+  "OrdRing2013Session1": {
+    "s_title": "OrdRing 2013 Session 1", 
+    "submissions": [
+      "Workshop135", 
+      "Workshop136", 
+      "Workshop137", 
+      "Workshop138", 
+      "Workshop139", 
+      "Workshop140"
+    ]
+  }, 
+  "SMAM2013Session0": {
+    "s_title": "SMAM 2013 Session 0", 
+    "submissions": [
+      "Workshop43", 
+      "Workshop44", 
+      "Workshop45"
+    ]
+  }, 
+  "LifeScience": {
+    "s_title": "Life Science", 
+    "submissions": [
+      "SWIUTP10", 
+      "SWIUTP14"
+    ]
+  }, 
+  "OpeningCeremony1": {
+    "s_title": "Opening Ceremony[Parkside Ballroom B]", 
+    "submissions": []
+  }, 
+  "MorningTea1": {
+    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "SMAM2013Session2": {
+    "s_title": "SMAM 2013 Session 2", 
+    "submissions": [
+      "Workshop46", 
+      "Workshop47", 
+      "Workshop48", 
+      "Workshop49"
+    ]
+  }, 
+  "MorningTea3": {
+    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "MorningTea2": {
+    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "LinkedDataforWebScaleInformationExtractionSession3": {
+    "s_title": "Linked Data for Web Scale Information Extraction Session 3", 
+    "submissions": [
+      "Workshop152", 
+      "Workshop153"
+    ]
+  }, 
+  "KnowledgeExtraction": {
+    "s_title": "Knowledge Extraction", 
+    "submissions": [
+      "RTP22", 
+      "RTP44", 
+      "RTP37"
+    ]
+  }, 
+  "SSWS2013Session0": {
+    "s_title": "SSWS 2013 Session 0", 
+    "submissions": [
+      "Workshop20", 
+      "Workshop21"
+    ]
+  }, 
+  "SSWS2013Session4": {
+    "s_title": "SSWS 2013 Session 4", 
+    "submissions": [
+      "Workshop25", 
+      "Workshop26", 
+      "Workshop27"
+    ]
+  }, 
+  "DataManagementExploration": {
+    "s_title": "Data Management & Exploration", 
+    "submissions": [
+      "RTP15", 
+      "SWIUTP7", 
+      "SWIUTP13", 
+      "RTP21", 
+      "SWIUTP12"
+    ]
+  }, 
+  "TownHall1": {
+    "s_title": "Town Hall", 
+    "submissions": []
+  }, 
+  "Search": {
+    "s_title": "Search", 
+    "submissions": [
+      "RTP17", 
+      "RTP18", 
+      "SWIUTP4"
+    ]
+  }, 
+  "MentoringLunch1": {
+    "s_title": "Mentoring Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "DataAccess": {
+    "s_title": "Data Access", 
+    "submissions": [
+      "RTP29", 
+      "RTP26", 
+      "RTP40"
+    ]
+  }, 
+  "ModellingOntologiesVisuallySession3": {
+    "s_title": "Modelling Ontologies Visually Session 3", 
+    "submissions": []
+  }, 
+  "ModellingOntologiesVisuallySession1": {
+    "s_title": "Modelling Ontologies Visually Session 1", 
+    "submissions": []
+  }, 
+  "NaturalLanguageProcessing": {
+    "s_title": "Natural Language Processing", 
+    "submissions": [
+      "RTP6", 
+      "RTP34", 
+      "SWIUTP6"
+    ]
+  }, 
+  "Announcements2": {
+    "s_title": "Announcements[Parkside\u00a0 Ballroom B]", 
+    "submissions": []
+  }, 
+  "Announcements1": {
+    "s_title": "Announcements[Parkside Ballroom B]", 
+    "submissions": []
+  }, 
+  "LD4IESession6": {
+    "s_title": "LD4IE Session 6", 
+    "submissions": [
+      "Workshop37", 
+      "Workshop38", 
+      "Workshop39", 
+      "Workshop40", 
+      "Workshop41", 
+      "Workshop42"
+    ]
+  }, 
+  "ClosingCeremony1": {
+    "s_title": "Closing Ceremony[Bayside 201-203]", 
+    "submissions": []
+  }, 
+  "LD4IESession4": {
+    "s_title": "LD4IE Session 4", 
+    "submissions": []
+  }, 
+  "SML2OD2013Session3": {
+    "s_title": "SML2OD 2013 Session 3", 
+    "submissions": [
+      "Workshop144", 
+      "Workshop145", 
+      "Workshop146", 
+      "Workshop147", 
+      "Workshop148", 
+      "Workshop149", 
+      "Workshop150", 
+      "Workshop151"
+    ]
+  }, 
+  "LD4IESession2": {
+    "s_title": "LD4IE Session 2", 
+    "submissions": []
+  }, 
+  "SML2OD2013Session1": {
+    "s_title": "SML2OD 2013 Session 1", 
+    "submissions": []
+  }, 
+  "LD4IESession0": {
+    "s_title": "LD4IE Session 0", 
+    "submissions": []
+  }, 
+  "LinkedData2": {
+    "s_title": "Linked Data 2", 
+    "submissions": [
+      "RTP33", 
+      "SWIUTP1", 
+      "RTP39"
+    ]
+  }, 
+  "LinkedData1": {
+    "s_title": "Linked Data 1", 
+    "submissions": [
+      "RTP32", 
+      "SWIUTP5"
+    ]
+  }, 
+  "WaSABiSession0": {
+    "s_title": "WaSABi Session 0", 
+    "submissions": [
+      "Workshop129", 
+      "Workshop130", 
+      "Workshop131"
+    ]
+  }, 
+  "SSN2013Session2": {
+    "s_title": "SSN 2013 Session 2", 
+    "submissions": [
+      "Workshop125", 
+      "Workshop126", 
+      "Workshop127", 
+      "Workshop128"
+    ]
+  }, 
+  "PostersDemosSessionCocktailReceptionwithCanap\u00e9s18:0521:001": {
+    "s_title": "Posters & Demos SessionCocktail Reception with Canap\u00e9s(18:05 - 21:00)[Parkside Ballroom B/Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "DoctoralConsortiumProgramSession11": {
+    "s_title": "Doctoral Consortium Program Session 11", 
+    "submissions": []
+  }, 
+  "JWSLunch1": {
+    "s_title": "JWS Lunch[Invitation only]", 
+    "submissions": []
+  }, 
+  "SSN2013Session0": {
+    "s_title": "SSN 2013 Session 0", 
+    "submissions": [
+      "Workshop121", 
+      "Workshop122", 
+      "Workshop123", 
+      "Workshop124"
+    ]
+  }, 
+  "SemanticWebLandscape": {
+    "s_title": "Semantic Web Landscape", 
+    "submissions": [
+      "RTP24", 
+      "RTP5", 
+      "SWIUTP3", 
+      "SWIUTP16", 
+      "RTP35"
+    ]
+  }, 
+  "DBpediaNLP2013Session4": {
+    "s_title": "DBpedia & NLP 2013 Session 4", 
+    "submissions": [
+      "Workshop107", 
+      "Workshop108", 
+      "Workshop109", 
+      "Workshop110"
+    ]
+  }, 
+  "DBpediaNLP2013Session2": {
+    "s_title": "DBpedia & NLP 2013 Session 2", 
+    "submissions": [
+      "Workshop103", 
+      "Workshop104", 
+      "Workshop105", 
+      "Workshop106"
+    ]
+  }, 
+  "DBpediaNLP2013Session0": {
+    "s_title": "DBpedia & NLP 2013 Session 0", 
+    "submissions": []
+  }, 
+  "WaSABiSession2": {
+    "s_title": "WaSABi Session 2", 
+    "submissions": [
+      "Workshop132", 
+      "Workshop133", 
+      "Workshop134"
+    ]
+  }, 
+  "DescriptionLogics2": {
+    "s_title": "Description Logics 2", 
+    "submissions": [
+      "RTP4", 
+      "RTP14"
+    ]
+  }, 
+  "DescriptionLogics1": {
+    "s_title": "Description Logics 1", 
+    "submissions": [
+      "RTP36", 
+      "RTP41"
+    ]
+  }, 
+  "InvitedTalk2": {
+    "s_title": "Invited Talk", 
+    "submissions": [
+      "IT2"
+    ]
+  }, 
+  "AfternoonTea2": {
+    "s_title": "Afternoon Tea[Basyside 2 Foyer]", 
+    "submissions": []
+  }, 
+  "AfternoonTea1": {
+    "s_title": "Afternoon Tea[Parkside Ballroom Foyer]", 
+    "submissions": []
+  }, 
+  "PRIVON2013Session4": {
+    "s_title": "PRIVON 2013 Session 4", 
+    "submissions": []
+  }, 
+  "PRIVON2013Session6": {
+    "s_title": "PRIVON 2013 Session 6", 
+    "submissions": []
+  }, 
+  "PRIVON2013Session0": {
+    "s_title": "PRIVON 2013 Session 0", 
+    "submissions": [
+      "Workshop114", 
+      "Workshop115"
+    ]
+  }, 
+  "PRIVON2013Session2": {
+    "s_title": "PRIVON 2013 Session 2", 
+    "submissions": [
+      "Workshop116", 
+      "Workshop117", 
+      "Workshop118", 
+      "Workshop119", 
+      "Workshop120"
+    ]
+  }, 
+  "TheMobileSemanticWebSession2": {
+    "s_title": "The Mobile Semantic Web Session 2", 
+    "submissions": []
+  }, 
+  "TheMobileSemanticWebSession0": {
+    "s_title": "The Mobile Semantic Web Session 0", 
+    "submissions": []
+  }, 
+  "SemanticWebChallenge2": {
+    "s_title": "Semantic Web Challenge", 
+    "submissions": []
+  }, 
+  "SemanticWebChallenge1": {
+    "s_title": "Semantic Web Challenge", 
+    "submissions": []
+  }, 
   "DinnerCruise18:4523:001": {
-    "s_title": "Dinner Cruise (18:45 - 23:00)", 
+    "s_title": "Dinner Cruise(18:45 - 23:00)[King Street Wharf]", 
     "submissions": []
   }, 
-  "PostersDemosSession": {
-    "s_title": "Posters & Demos Session", 
-    "submissions": []
-  }, 
-  "Industry4": {
-    "s_title": "Industry", 
-    "submissions": []
-  }, 
-  "Industry3": {
-    "s_title": "Industry", 
-    "submissions": []
-  }, 
-  "Industry2": {
-    "s_title": "Industry", 
-    "submissions": []
-  }, 
-  "Industry1": {
-    "s_title": "Industry", 
+  "DoctoralConsortiumProgramSession2": {
+    "s_title": "Doctoral Consortium Program Session 2", 
     "submissions": []
   }
 }

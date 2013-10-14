@@ -774,7 +774,7 @@ function get_paper_html(id){
 
     raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ remove_special_chars(entities[id].title) +'</span>'
     if(entities[id].type!=null){
-        raw_html += '<span class="paper-subtype">' + ' ' + entities[id].type + '</span>'
+        raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].type + '</span>'
     }
     raw_html += '</h3>'
     raw_html += '</li>'
