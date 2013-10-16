@@ -19,14 +19,15 @@ def load_abstracts():
 	for row in rows:
 		row = unicode(row, "ISO-8859-1")
 		data = row.split('\t')
-		print row
 		if data[11] in paper_type:
 			papers[data[0]] = {'title': data[1], 'authors': [{'name': name} for name in data[2].strip('"').split(',')], 'abstract': data[3]}
 			if(data[5] in sessions):
 				sessions[data[5]]['submissions'].append(data[0])
 			else:
 				sessions[data[5]] = {'submissions': [data[0]], 's_title': data[5], 'date': data[7],'start':int(re.match(r'\d+', data[8]).group()), 'time': data[8] + '-' + data[9], 'room': data[10]}
-		
+	
+	for s in sessions:
+		sessions[s]['submissions'] = list(set(sessions[s]['submissions']))
 
 
 
