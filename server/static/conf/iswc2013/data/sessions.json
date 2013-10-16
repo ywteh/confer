@@ -2,148 +2,153 @@ sessions={
   "SemStats2013Session4": {
     "s_title": "SemStats 2013 Session 4", 
     "submissions": [
-      "Workshop96", 
-      "Workshop97", 
-      "Workshop98", 
-      "Workshop99"
-    ]
-  }, 
-  "SemStats2013Session6": {
-    "s_title": "SemStats 2013 Session 6", 
-    "submissions": [
-      "Workshop100", 
-      "Workshop101", 
-      "Workshop102"
+      "Paper_79"
     ]
   }, 
   "Lunch1": {
-    "s_title": "Lunch[Parkside Ballroom Foyer]", 
+    "s_title": "Lunch", 
     "submissions": []
   }, 
-  "SemStats2013Session0": {
-    "s_title": "SemStats 2013 Session 0", 
+  "SemStats2013Session1": {
+    "s_title": "SemStats 2013 Session 1", 
     "submissions": [
-      "Workshop91"
+      "Paper_77"
     ]
   }, 
   "SemStats2013Session2": {
     "s_title": "SemStats 2013 Session 2", 
     "submissions": [
-      "Workshop92", 
-      "Workshop93", 
-      "Workshop94", 
-      "Workshop95"
+      "Paper_85", 
+      "Paper_86", 
+      "Paper_82", 
+      "Paper_78"
     ]
   }, 
-  "MultilingualSemantics": {
-    "s_title": "Multilingual Semantics", 
+  "SemStats2013Session3": {
+    "s_title": "SemStats 2013 Session 3", 
     "submissions": [
-      "RTP43", 
-      "SWIUTP2"
+      "Paper_83", 
+      "Paper_80", 
+      "Paper_81", 
+      "Paper_84"
     ]
   }, 
   "OM2013Session4": {
-    "s_title": "OM-2013 Session 4", 
-    "submissions": [
-      "Workshop13", 
-      "Workshop14", 
-      "Workshop15", 
-      "Workshop16", 
-      "Workshop17"
-    ]
+    "s_title": "OM-2013 - Poster session, Discussion and Wrap-up", 
+    "submissions": []
   }, 
-  "OM2013Session6": {
-    "s_title": "OM-2013 Session 6", 
+  "OM2013Session1": {
+    "s_title": "OM-2013 Session 1", 
     "submissions": [
-      "Workshop18", 
-      "Workshop19"
-    ]
-  }, 
-  "OM2013Session0": {
-    "s_title": "OM-2013 Session 0", 
-    "submissions": [
-      "Workshop8", 
-      "Workshop9", 
-      "Workshop10", 
-      "Workshop11"
+      "Paper_61", 
+      "Paper_62", 
+      "Paper_63"
     ]
   }, 
   "OM2013Session2": {
     "s_title": "OM-2013 Session 2", 
     "submissions": [
-      "PDP41", 
-      "Workshop12"
+      "Paper_60", 
+      "Paper_59"
     ]
   }, 
-  "CrowdSemSession0": {
-    "s_title": "CrowdSem Session 0", 
+  "OM2013Session3": {
+    "s_title": "OM-2013 - OAEI-2013 session", 
+    "submissions": []
+  }, 
+  "URSW2013Session1": {
+    "s_title": "URSW 2013 Session 1", 
     "submissions": [
-      "Workshop28"
+      "Paper_112", 
+      "Paper_115"
     ]
+  }, 
+  "CrowdSemSession1": {
+    "s_title": "CrowdSem Session 1", 
+    "submissions": [
+		"Paper_30"
+	]
   }, 
   "CrowdSemSession2": {
     "s_title": "CrowdSem Session 2", 
     "submissions": [
-      "Workshop29", 
-      "Workshop30", 
-      "Workshop31", 
-      "Workshop32"
+	  "Paper_28",
+      "Paper_27", 
+      "Paper_25",
+	  "Paper_33"
+    ]
+  }, 
+  "CrowdSemSession3": {
+    "s_title": "CrowdSem Session 3", 
+    "submissions": [
+      "Paper_31", 
+      "Paper_29", 
+      "Paper_26", 
+      "Paper_32"
     ]
   }, 
   "CrowdSemSession4": {
-    "s_title": "CrowdSem Session 4", 
-    "submissions": [
-      "Workshop33", 
-      "Workshop34", 
-      "Workshop35", 
-      "Workshop36"
-    ]
-  }, 
-  "CrowdSemSession6": {
-    "s_title": "CrowdSem Session 6", 
+    "s_title": "Invited Talk and Wrap up", 
     "submissions": []
   }, 
-  "DBpediaNLP2013Session6": {
-    "s_title": "DBpedia & NLP 2013 Session 6", 
+  "MultilingualSemantics": {
+    "s_title": "Multilingual Semantics", 
     "submissions": [
-      "Workshop111", 
-      "Workshop112", 
-      "Workshop113"
+      "Research_Track_Paper_43", 
+      "Semantic_Web_In_Use_Track_Paper_2"
     ]
-  }, 
-  "LinkedDataforWebScaleInformationExtractionSession1": {
-    "s_title": "Linked Data for Web Scale Information Extraction Session 1", 
-    "submissions": []
   }, 
   "COLD2013Session4": {
     "s_title": "COLD 2013 Session 4", 
-    "submissions": []
+    "submissions": [
+	  "Paper_22",
+	  "Paper_18",
+	  "Paper_17"
+	]
   }, 
-  "COLD2013Session6": {
-    "s_title": "COLD 2013 Session 6", 
-    "submissions": []
-  }, 
-  "COLD2013Session0": {
-    "s_title": "COLD 2013 Session 0", 
-    "submissions": []
+  "COLD2013Session1": {
+    "s_title": "COLD 2013 Session 1", 
+    "submissions": [
+	  "Paper_13"
+	]
   }, 
   "COLD2013Session2": {
     "s_title": "COLD 2013 Session 2", 
+    "submissions": [
+	  "Paper_19",
+	  "Paper_16",
+	  "Paper_20",
+	  "Paper_12",
+	  "Paper_23"
+	]
+  }, 
+  "COLD2013Session3": {
+    "s_title": "COLD 2013 Session 3", 
+    "submissions": [
+	  "Paper_14",
+	  "Paper_21",
+	  "Paper_15",
+	  "Paper_11",
+	  "Paper_24"
+	]
+  }, 
+  "HandsonGuidetoLinkedDataApplicationsSession1": {
+    "s_title": "Hands-on Guide to Linked Data Applications Session 1", 
     "submissions": []
   }, 
   "GeoSpatialSemantics": {
     "s_title": "Geo-Spatial Semantics", 
     "submissions": [
-      "RTP23", 
-      "ETP4"
+      "Research_Track_Paper_23", 
+      "Evaluation_Track_Paper_4"
     ]
   }, 
   "TheWebofThingsSession2": {
     "s_title": "The Web of Things Session 2", 
     "submissions": []
   }, 
-  "TheWebofThingsSession0": {
-    "s_title": "The Web of Things Session 0", 
+  "TheWebofThingsSession1": {
+    "s_title": "The Web of Things Session 1", 
     "submissions": []
   }, 
   "InvitedTalk1": {
@@ -158,20 +163,38 @@ sessions={
       "IT3"
     ]
   }, 
-  "SWJDinner20:0021:301": {
-    "s_title": "SWJ Dinner(20:00 - 21:30[Invitation only]", 
-    "submissions": []
+  "InvitedTalk2": {
+    "s_title": "Invited Talk", 
+    "submissions": [
+      "IT2"
+    ]
   }, 
   "DoctoralConsortiumProgramSession6": {
-    "s_title": "Doctoral Consortium Program Session 6", 
-    "submissions": []
+    "s_title": "Doctoral Consortium Program - Paper Presentations II", 
+    "submissions": [
+	  "Doctoral_Consortium_Paper_4",
+	  "Paper_9",
+	  "Paper_5",
+	  "Paper_6",
+	  "Paper_2"
+	]
   }, 
   "DoctoralConsortiumProgramSession7": {
-    "s_title": "Doctoral Consortium Program Session 7", 
+    "s_title": "Doctoral Consortium Program - Follow-up Poster Session II", 
     "submissions": []
   }, 
   "DoctoralConsortiumProgramSession4": {
-    "s_title": "Doctoral Consortium Program Session 4", 
+    "s_title": "Doctoral Consortium Program - Paper Presentations I", 
+    "submissions": [
+	  "Doctoral_Consortium_Paper_1",
+	  "Doctoral_Consortium_Paper_2",
+	  "Paper_1",
+	  "Paper_8",
+	  "Paper_4"
+	]
+  }, 
+  "DoctoralConsortiumProgramSession5": {
+    "s_title": "Doctoral Consortium Program - Follow-up Poster Session I", 
     "submissions": []
   }, 
   "WorkshopLunch": {
@@ -179,92 +202,202 @@ sessions={
     "submissions": []
   }, 
   "DoctoralConsortiumProgramSession3": {
-    "s_title": "Doctoral Consortium Program Session 3", 
-    "submissions": []
-  }, 
-  "DoctoralConsortiumProgramSession0": {
-    "s_title": "Doctoral Consortium Program Session 0", 
+    "s_title": "Coffee Break", 
     "submissions": []
   }, 
   "DoctoralConsortiumProgramSession1": {
-    "s_title": "Doctoral Consortium Program Session 1", 
+    "s_title": "Doctoral Consortium Program - Welcome", 
     "submissions": []
   }, 
   "WOP2013Session2": {
     "s_title": "WOP 2013 Session 2", 
-    "submissions": []
+    "submissions": [
+	  "Short_Paper_4",
+	  "Short_Paper_and_Pattern_1",
+	  "Short_Paper_3",
+	  "Pattern_2",
+	  "Pattern_3",
+	  "Pattern_1"
+	]
   }, 
-  "WOP2013Session0": {
-    "s_title": "WOP 2013 Session 0", 
-    "submissions": []
+  "WOP2013Session1": {
+    "s_title": "WOP 2013 Session 1", 
+    "submissions": [
+	  "Paper_121",
+	  "Paper_122",
+	  "Paper_124",
+	  "Paper_123",
+	  "Paper_125"
+	]
   }, 
   "DoctoralConsortiumProgramSession8": {
-    "s_title": "Doctoral Consortium Program Session 8", 
+    "s_title": "Coffee Break", 
     "submissions": []
   }, 
   "DoctoralConsortiumProgramSession9": {
-    "s_title": "Doctoral Consortium Program Session 9", 
+    "s_title": "Doctoral Consortium Program - Paper Presentations III", 
+    "submissions": [
+	  "Doctoral_Consortium_Paper_3",
+	  "Paper_3",
+	  "Paper_7",
+	  "Paper_10"
+	]
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems13": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 13", 
     "submissions": []
   }, 
-  "URSW2013Session1": {
-    "s_title": "URSW 2013 Session 1", 
-    "submissions": [
-      "Workshop78", 
-      "Workshop79", 
-      "Workshop80"
-    ]
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems12": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 12", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems11": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 11", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems10": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 10", 
+    "submissions": []
   }, 
   "DeRiVE2013Session1": {
     "s_title": "DeRiVE 2013 Session 1", 
     "submissions": [
-      "Workshop85", 
-      "Workshop86", 
-      "Workshop87"
+      "Paper_44", 
+      "Demo_1"
     ]
   }, 
-  "URSW2013Session3": {
-    "s_title": "URSW 2013 Session 3", 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems16": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 16", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems15": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 15", 
+    "submissions": []
+  }, 
+  "DeRiVE2013Session2": {
+    "s_title": "DeRiVE 2013 Session 2", 
     "submissions": [
-      "Workshop81", 
-      "Workshop82", 
-      "Workshop83", 
-      "Workshop84"
+      "Paper_46", 
+      "Paper_45", 
+      "Paper_43"
     ]
   }, 
-  "DeRiVE2013Session3": {
-    "s_title": "DeRiVE 2013 Session 3", 
+  "URSW2013Session2": {
+    "s_title": "URSW 2013 Session 2", 
     "submissions": [
-      "Workshop88", 
-      "Workshop89", 
-      "Workshop90"
+      "Paper_113", 
+      "Paper_116", 
+      "Paper_114", 
+      "Paper_111"
     ]
   }, 
   "ISWC2014Lunch1": {
-    "s_title": "ISWC2014 Lunch[Invitation only]", 
+    "s_title": "ISWC2014 Lunch", 
     "submissions": []
+  }, 
+  "PostersDemosSession": {
+    "s_title": "Posters & Demos Session", 
+    "submissions": [
+      "Poster/Demo_Paper_29", 
+      "Poster/Demo_Paper_25", 
+      "Poster/Demo_Paper_24", 
+      "Poster/Demo_Paper_27", 
+      "Poster/Demo_Paper_21", 
+      "Poster/Demo_Paper_20", 
+      "Poster/Demo_Paper_23", 
+      "Poster/Demo_Paper_22", 
+      "Poster/Demo_Paper_19", 
+      "Poster/Demo_Paper_58", 
+      "Poster/Demo_Paper_59", 
+      "Poster/Demo_Paper_62", 
+      "Poster/Demo_Paper_50", 
+      "Poster/Demo_Paper_51", 
+      "Poster/Demo_Paper_52", 
+      "Poster/Demo_Paper_53", 
+      "Poster/Demo_Paper_54", 
+      "Poster/Demo_Paper_55", 
+      "Poster/Demo_Paper_56", 
+      "Poster/Demo_Paper_57", 
+      "Poster/Demo_Paper_64", 
+      "Poster/Demo_Paper_67", 
+      "Poster/Demo_Paper_66", 
+      "Poster/Demo_Paper_28", 
+      "Poster/Demo_Paper_3", 
+      "Poster/Demo_Paper_1", 
+      "Poster/Demo_Paper_43", 
+      "Poster/Demo_Paper_6", 
+      "Poster/Demo_Paper_47", 
+      "Poster/Demo_Paper_46", 
+      "Poster/Demo_Paper_45", 
+      "Poster/Demo_Paper_7", 
+      "Poster/Demo_Paper_4", 
+      "Poster/Demo_Paper_26", 
+      "Poster/Demo_Paper_30", 
+      "Poster/Demo_Paper_31", 
+      "Poster/Demo_Paper_5", 
+      "Poster/Demo_Paper_36", 
+      "Poster/Demo_Paper_37", 
+      "Poster/Demo_Paper_34", 
+      "Poster/Demo_Paper_48", 
+      "Poster/Demo_Paper_72", 
+      "Poster/Demo_Paper_70", 
+      "Poster/Demo_Paper_71", 
+      "Poster/Demo_Paper_61", 
+      "Poster/Demo_Paper_14", 
+      "Poster/Demo_Paper_15", 
+      "Poster/Demo_Paper_16", 
+      "Poster/Demo_Paper_17", 
+      "Poster/Demo_Paper_12", 
+      "Poster/Demo_Paper_13", 
+      "Poster/Demo_Paper_18", 
+      "Poster/Demo_Paper_60", 
+      "Poster/Demo_Paper_69", 
+      "Poster/Demo_Paper_68", 
+      "Poster/Demo_Paper_49", 
+      "Poster/Demo_Paper_63", 
+      "Poster/Demo_Paper_42", 
+      "Poster/Demo_Paper_41", 
+      "Poster/Demo_Paper_40", 
+      "Poster/Demo_Paper_65", 
+      "Poster/Demo_Paper_44", 
+      "Poster/Demo_Paper_2", 
+      "Poster/Demo_Paper_8", 
+      "Poster/Demo_Paper_9", 
+      "Poster/Demo_Paper_32", 
+      "Poster/Demo_Paper_33", 
+      "Poster/Demo_Paper_35", 
+      "Poster/Demo_Paper_38", 
+      "Poster/Demo_Paper_39", 
+      "Poster/Demo_Paper_10", 
+      "Poster/Demo_Paper_11"
+    ]
   }, 
   "WorkshopAfternoonTea": {
     "s_title": "Workshop Afternoon Tea", 
     "submissions": []
   }, 
   "AfternoonTea16:1516:551": {
-    "s_title": "Afternoon Tea(16:15 - 16:55)[Bayside 2 foyer]", 
+    "s_title": "Afternoon Tea", 
     "submissions": []
   }, 
-  "BigDataManagementSession3": {
-    "s_title": "Big Data Management Session 3", 
+  "BigDataManagementSession2": {
+    "s_title": "Big Data Management Session 2", 
     "submissions": []
   }, 
   "BigDataManagementSession1": {
     "s_title": "Big Data Management Session 1", 
     "submissions": []
   }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems14": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 14", 
+    "submissions": []
+  }, 
   "Lunch2": {
-    "s_title": "Lunch[Parkside Ballroom Foyer]", 
+    "s_title": "Lunch", 
     "submissions": []
   }, 
   "Lunch3": {
-    "s_title": "Lunch[Parkside Ballroom Foyer]", 
+    "s_title": "Lunch", 
     "submissions": []
   }, 
   "WorkshopMorningTea": {
@@ -274,18 +407,18 @@ sessions={
   "KnowledgeDiscovery": {
     "s_title": "Knowledge Discovery", 
     "submissions": [
-      "RTP38", 
-      "RTP27", 
-      "RTP11", 
-      "SWIUTP15", 
-      "RTP2"
+      "Research_Track_Paper_38", 
+      "Research_Track_Paper_27", 
+      "Research_Track_Paper_11", 
+      "Semantic_Web_In_Use_Track_Paper_15", 
+      "Research_Track_Paper_2"
     ]
   }, 
   "LicensingandConfidentialityModels": {
     "s_title": "Licensing and Confidentiality Models", 
     "submissions": [
-      "RTP25", 
-      "RTP1"
+      "Research_Track_Paper_25", 
+      "Research_Track_Paper_1"
     ]
   }, 
   "MinuteMadness1": {
@@ -296,93 +429,61 @@ sessions={
     "s_title": "Workshop Summaries", 
     "submissions": []
   }, 
-  "StreamReasoningforLinkedDataSession6": {
-    "s_title": "Stream Reasoning for Linked Data Session 6", 
-    "submissions": [
-      "Workshop71", 
-      "Workshop72", 
-      "Workshop73", 
-      "Workshop74", 
-      "Workshop75", 
-      "Workshop76", 
-      "Workshop77"
-    ]
-  }, 
   "StreamReasoningforLinkedDataSession4": {
     "s_title": "Stream Reasoning for Linked Data Session 4", 
-    "submissions": [
-      "Workshop69", 
-      "Workshop70"
-    ]
+    "submissions": []
   }, 
   "StreamReasoningforLinkedDataSession2": {
     "s_title": "Stream Reasoning for Linked Data Session 2", 
-    "submissions": [
-      "Workshop63", 
-      "Workshop64", 
-      "Workshop65", 
-      "Workshop66", 
-      "Workshop67", 
-      "Workshop68"
-    ]
+    "submissions": []
   }, 
-  "StreamReasoningforLinkedDataSession0": {
-    "s_title": "Stream Reasoning for Linked Data Session 0", 
-    "submissions": [
-      "Workshop50", 
-      "Workshop51", 
-      "Workshop52", 
-      "Workshop53", 
-      "Workshop54", 
-      "Workshop55", 
-      "Workshop56", 
-      "Workshop57", 
-      "Workshop58", 
-      "Workshop59", 
-      "Workshop60", 
-      "Workshop61", 
-      "Workshop62"
-    ]
+  "StreamReasoningforLinkedDataSession3": {
+    "s_title": "Stream Reasoning for Linked Data Session 3", 
+    "submissions": []
+  }, 
+  "StreamReasoningforLinkedDataSession1": {
+    "s_title": "Stream Reasoning for Linked Data Session 1", 
+    "submissions": []
   }, 
   "Streams": {
     "s_title": "Streams", 
     "submissions": [
-      "SWIUTP11", 
-      "RTP13", 
-      "SWIUTP8", 
-      "ETP7", 
-      "RTP31"
+      "Semantic_Web_In_Use_Track_Paper_11", 
+      "Research_Track_Paper_13", 
+      "Semantic_Web_In_Use_Track_Paper_8", 
+      "Evaluation_Track_Paper_7", 
+      "Research_Track_Paper_31"
     ]
   }, 
   "IndustryTrackSession2": {
     "s_title": "Industry Track Session 2", 
     "submissions": [
-      "ITP2", 
-      "ITP6"
+      "Industry_Track_Paper_2", 
+      "Industry_Track_Paper_6"
     ]
   }, 
   "IndustryTrackSession3": {
     "s_title": "Industry Track Session 3", 
     "submissions": [
-      "ITP4", 
-      "ITP5"
+      "Industry_Track_Paper_4", 
+      "Industry_Track_Paper_5"
     ]
   }, 
   "IndustryTrackSession1": {
     "s_title": "Industry Track Session 1", 
     "submissions": [
-      "ITP1", 
-      "ITP3"
+      "Industry_Track_Paper_1", 
+      "Industry_Track_Paper_3"
     ]
   }, 
   "SPARQL": {
     "s_title": "SPARQL", 
     "submissions": [
-      "ETP2", 
-      "ETP5", 
-      "RTP16", 
-      "ETP8", 
-      "ETP6"
+      "Evaluation_Track_Paper_2", 
+      "Evaluation_Track_Paper_5", 
+      "Research_Track_Paper_16", 
+      "Evaluation_Track_Paper_8", 
+      "Evaluation_Track_Paper_6"
     ]
   }, 
   "Break1": {
@@ -390,193 +491,196 @@ sessions={
     "submissions": []
   }, 
   "LISC2013Session4": {
-    "s_title": "LISC 2013 Session 4", 
-    "submissions": [
-      "Workshop5", 
-      "Workshop6", 
-      "Workshop7"
-    ]
+    "s_title": "LISC 2013 Session 4 - Discussion and lightning talk session on reproducibility", 
+    "submissions": []
   }, 
   "Break3": {
     "s_title": "Break", 
     "submissions": []
   }, 
-  "LISC2013Session6": {
-    "s_title": "LISC 2013 Session 6", 
+  "Break2": {
+    "s_title": "Break", 
     "submissions": []
   }, 
-  "LISC2013Session0": {
-    "s_title": "LISC 2013 Session 0", 
+  "LISC2013Session1": {
+    "s_title": "LISC 2013 Session 1 - Keynote Speaker; Paper Presentation", 
     "submissions": [
-      "Workshop1"
+      "Paper_55"
+    ]
+  }, 
+  "LISC2013Session3": {
+    "s_title": "LISC 2013 Session 3", 
+    "submissions": [
+      "Paper_57", 
+      "Paper_56", 
+      "Paper_54"
     ]
   }, 
   "LISC2013Session2": {
     "s_title": "LISC 2013 Session 2", 
     "submissions": [
-      "Workshop2", 
-      "Workshop3", 
-      "Workshop4"
+      "Paper_53", 
+      "Paper_52", 
+      "Paper_58"
     ]
   }, 
   "DoctoralConsortiumProgramSession10": {
-    "s_title": "Doctoral Consortium Program Session 10", 
+    "s_title": "Doctoral Consortium Program - Follow-up Poster Session III", 
     "submissions": []
   }, 
-  "SSWS2013Session2": {
-    "s_title": "SSWS 2013 Session 2", 
-    "submissions": [
-      "Workshop22", 
-      "Workshop23", 
-      "Workshop24"
-    ]
+  "DoctoralConsortiumProgramSession11": {
+    "s_title": "Doctoral Consortium Program - Wrap-up", 
+    "submissions": []
   }, 
   "Crowdsourcedsemantics": {
     "s_title": "Crowd-sourced semantics", 
     "submissions": [
-      "SWIUTP9", 
-      "ETP1"
+      "Semantic_Web_In_Use_Track_Paper_9", 
+      "Evaluation_Track_Paper_1"
     ]
   }, 
-  "Break2": {
-    "s_title": "Break", 
+  "LinkedDataforWebScaleInformationExtractionSession2": {
+    "s_title": "Linked Data for Web Scale Information Extraction Session 2", 
     "submissions": []
   }, 
   "Query": {
     "s_title": "Query", 
     "submissions": [
-      "RTP7", 
-      "RTP10", 
-      "ETP10", 
-      "RTP28", 
-      "RTP9"
+      "Research_Track_Paper_7", 
+      "Research_Track_Paper_10", 
+      "Evaluation_Track_Paper_10", 
+      "Research_Track_Paper_28", 
+      "Research_Track_Paper_9"
     ]
   }, 
   "OntologyMapping": {
     "s_title": "Ontology Mapping", 
     "submissions": [
-      "RTP20", 
-      "ETP9", 
-      "ETP3", 
-      "RTP30", 
-      "RTP45"
+      "Research_Track_Paper_20", 
+      "Evaluation_Track_Paper_9", 
+      "Evaluation_Track_Paper_3", 
+      "Research_Track_Paper_30", 
+      "Research_Track_Paper_45"
     ]
   }, 
   "Reasoning": {
     "s_title": "Reasoning", 
     "submissions": [
-      "RTP19", 
-      "RTP8", 
-      "RTP12", 
-      "RTP3", 
-      "RTP42"
+      "Research_Track_Paper_19", 
+      "Research_Track_Paper_8", 
+      "Research_Track_Paper_12", 
+      "Research_Track_Paper_3", 
+      "Research_Track_Paper_42"
     ]
+  }, 
+  "AfternoonTea2": {
+    "s_title": "Afternoon Tea", 
+    "submissions": []
   }, 
   "HandsonGuidetoLinkedDataApplicationsSession2": {
     "s_title": "Hands-on Guide to Linked Data Applications Session 2", 
     "submissions": []
   }, 
-  "HandsonGuidetoLinkedDataApplicationsSession0": {
-    "s_title": "Hands-on Guide to Linked Data Applications Session 0", 
+  "RelationalDatabasetoRDF4": {
+    "s_title": "Relational Database to RDF Session 4", 
     "submissions": []
   }, 
-  "OrdRing2013Session3": {
-    "s_title": "OrdRing 2013 Session 3", 
+  "AfternoonTea1": {
+    "s_title": "Afternoon Tea", 
+    "submissions": []
+  }, 
+  "OrdRing2013Session2": {
+    "s_title": "OrdRing 2013 Session 2", 
     "submissions": [
-      "Workshop141", 
-      "Workshop142", 
-      "Workshop143"
+      "Paper_64", 
+      "Paper_68"
     ]
   }, 
   "OrdRing2013Session1": {
     "s_title": "OrdRing 2013 Session 1", 
     "submissions": [
-      "Workshop135", 
-      "Workshop136", 
-      "Workshop137", 
-      "Workshop138", 
-      "Workshop139", 
-      "Workshop140"
-    ]
-  }, 
-  "SMAM2013Session0": {
-    "s_title": "SMAM 2013 Session 0", 
-    "submissions": [
-      "Workshop43", 
-      "Workshop44", 
-      "Workshop45"
+      "Paper_66", 
+      "Paper_67", 
+      "Paper_69", 
+      "Paper_65"
     ]
   }, 
   "LifeScience": {
     "s_title": "Life Science", 
     "submissions": [
-      "SWIUTP10", 
-      "SWIUTP14"
+      "Semantic_Web_In_Use_Track_Paper_10", 
+      "Semantic_Web_In_Use_Track_Paper_14"
     ]
   }, 
   "OpeningCeremony1": {
-    "s_title": "Opening Ceremony[Parkside Ballroom B]", 
+    "s_title": "Opening Ceremony", 
     "submissions": []
   }, 
   "MorningTea1": {
-    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "s_title": "Morning Tea", 
     "submissions": []
   }, 
   "SMAM2013Session2": {
     "s_title": "SMAM 2013 Session 2", 
     "submissions": [
-      "Workshop46", 
-      "Workshop47", 
-      "Workshop48", 
-      "Workshop49"
+      "Paper_87", 
+      "Paper_89"
     ]
   }, 
   "MorningTea3": {
-    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "s_title": "Morning Tea", 
     "submissions": []
   }, 
   "MorningTea2": {
-    "s_title": "Morning Tea[Parkside Ballroom Foyer]", 
+    "s_title": "Morning Tea", 
     "submissions": []
   }, 
-  "LinkedDataforWebScaleInformationExtractionSession3": {
-    "s_title": "Linked Data for Web Scale Information Extraction Session 3", 
+  "SSWS2013Session2": {
+    "s_title": "SSWS 2013 - Reasoning", 
     "submissions": [
-      "Workshop152", 
-      "Workshop153"
+      "Paper_106", 
+      "Paper_108", 
+      "Paper_110"
     ]
   }, 
-  "KnowledgeExtraction": {
-    "s_title": "Knowledge Extraction", 
+  "SSWS2013Session3": {
+    "s_title": "SSWS 2013 - Streams and Search", 
     "submissions": [
-      "RTP22", 
-      "RTP44", 
-      "RTP37"
+      "Paper_107", 
+      "Paper_109", 
+      "Paper_104"
     ]
   }, 
-  "SSWS2013Session0": {
-    "s_title": "SSWS 2013 Session 0", 
+  "LinkedDataforWebScaleInformationExtractionSession1": {
+    "s_title": "Linked Data for Web Scale Information Extraction Session 1", 
+    "submissions": []
+  }, 
+  "SSWS2013Session1": {
+    "s_title": "SSWS 2013 - Keynote Speaker; Querying", 
     "submissions": [
-      "Workshop20", 
-      "Workshop21"
+      "Paper_105"
     ]
   }, 
-  "SSWS2013Session4": {
-    "s_title": "SSWS 2013 Session 4", 
-    "submissions": [
-      "Workshop25", 
-      "Workshop26", 
-      "Workshop27"
-    ]
+  "RelationalDatabasetoRDF3": {
+    "s_title": "Relational Database to RDF Session 3", 
+    "submissions": []
+  }, 
+  "RelationalDatabasetoRDF2": {
+    "s_title": "Relational Database to RDF Session 2", 
+    "submissions": []
+  }, 
+  "RelationalDatabasetoRDF1": {
+    "s_title": "Relational Database to RDF Session 1", 
+    "submissions": []
   }, 
   "DataManagementExploration": {
     "s_title": "Data Management & Exploration", 
     "submissions": [
-      "RTP15", 
-      "SWIUTP7", 
-      "SWIUTP13", 
-      "RTP21", 
-      "SWIUTP12"
+      "Research_Track_Paper_15", 
+      "Semantic_Web_In_Use_Track_Paper_7", 
+      "Semantic_Web_In_Use_Track_Paper_13", 
+      "Research_Track_Paper_21", 
+      "Semantic_Web_In_Use_Track_Paper_12"
     ]
   }, 
   "TownHall1": {
@@ -586,243 +690,275 @@ sessions={
   "Search": {
     "s_title": "Search", 
     "submissions": [
-      "RTP17", 
-      "RTP18", 
-      "SWIUTP4"
+      "Research_Track_Paper_17", 
+      "Research_Track_Paper_18", 
+      "Semantic_Web_In_Use_Track_Paper_4"
     ]
   }, 
   "MentoringLunch1": {
-    "s_title": "Mentoring Lunch[Invitation only]", 
+    "s_title": "Mentoring Lunch", 
+    "submissions": []
+  }, 
+  "SML2OD2013Session2": {
+    "s_title": "SML2OD 2013 Session 2", 
+    "submissions": [
+      "Paper_94", 
+      "Paper_91", 
+      "Paper_98", 
+      "Paper_96", 
+      "Paper_92", 
+      "Paper_99", 
+      "Paper_90", 
+      "Paper_97"
+    ]
+  }, 
+  "SML2OD2013Session1": {
+    "s_title": "SML2OD 2013 Session 1", 
     "submissions": []
   }, 
   "DataAccess": {
     "s_title": "Data Access", 
     "submissions": [
-      "RTP29", 
-      "RTP26", 
-      "RTP40"
+      "Research_Track_Paper_29", 
+      "Research_Track_Paper_26", 
+      "Research_Track_Paper_40"
     ]
   }, 
-  "ModellingOntologiesVisuallySession3": {
-    "s_title": "Modelling Ontologies Visually Session 3", 
+  "ModellingOntologiesVisuallySession2": {
+    "s_title": "Modelling Ontologies Visually Session 2", 
     "submissions": []
   }, 
   "ModellingOntologiesVisuallySession1": {
     "s_title": "Modelling Ontologies Visually Session 1", 
     "submissions": []
   }, 
-  "NaturalLanguageProcessing": {
-    "s_title": "Natural Language Processing", 
-    "submissions": [
-      "RTP6", 
-      "RTP34", 
-      "SWIUTP6"
-    ]
-  }, 
   "Announcements2": {
-    "s_title": "Announcements[Parkside\u00a0 Ballroom B]", 
+    "s_title": "Announcements", 
     "submissions": []
   }, 
   "Announcements1": {
-    "s_title": "Announcements[Parkside Ballroom B]", 
+    "s_title": "Announcements", 
     "submissions": []
   }, 
-  "LD4IESession6": {
-    "s_title": "LD4IE Session 6", 
-    "submissions": [
-      "Workshop37", 
-      "Workshop38", 
-      "Workshop39", 
-      "Workshop40", 
-      "Workshop41", 
-      "Workshop42"
-    ]
-  }, 
   "ClosingCeremony1": {
-    "s_title": "Closing Ceremony[Bayside 201-203]", 
+    "s_title": "Closing Ceremony", 
     "submissions": []
   }, 
   "LD4IESession4": {
-    "s_title": "LD4IE Session 4", 
+    "s_title": "LD4IE Session 4 - Panel Discussion", 
     "submissions": []
   }, 
-  "SML2OD2013Session3": {
-    "s_title": "SML2OD 2013 Session 3", 
+  "LD4IESession3": {
+    "s_title": "LD4IE Session 3", 
     "submissions": [
-      "Workshop144", 
-      "Workshop145", 
-      "Workshop146", 
-      "Workshop147", 
-      "Workshop148", 
-      "Workshop149", 
-      "Workshop150", 
-      "Workshop151"
-    ]
+	  "Paper_51",
+	  "Paper_41"
+	]
   }, 
   "LD4IESession2": {
     "s_title": "LD4IE Session 2", 
-    "submissions": []
+    "submissions": [
+	  "Paper_50",
+	  "Paper_48",
+	  "Paper_47"
+	]
   }, 
-  "SML2OD2013Session1": {
-    "s_title": "SML2OD 2013 Session 1", 
-    "submissions": []
-  }, 
-  "LD4IESession0": {
-    "s_title": "LD4IE Session 0", 
-    "submissions": []
+  "LD4IESession1": {
+    "s_title": "LD4IE Session 1", 
+    "submissions": [
+	  "WIT1"
+	]
   }, 
   "LinkedData2": {
     "s_title": "Linked Data 2", 
     "submissions": [
-      "RTP33", 
-      "SWIUTP1", 
-      "RTP39"
+      "Research_Track_Paper_33", 
+      "Semantic_Web_In_Use_Track_Paper_1", 
+      "Research_Track_Paper_39"
     ]
   }, 
   "LinkedData1": {
     "s_title": "Linked Data 1", 
     "submissions": [
-      "RTP32", 
-      "SWIUTP5"
+      "Research_Track_Paper_32", 
+      "Semantic_Web_In_Use_Track_Paper_5"
     ]
   }, 
-  "WaSABiSession0": {
-    "s_title": "WaSABi Session 0", 
+  "SSN2013Session1": {
+    "s_title": "SSN 2013 Session 1", 
     "submissions": [
-      "Workshop129", 
-      "Workshop130", 
-      "Workshop131"
+      "Paper_101", 
+      "Paper_102"
     ]
   }, 
-  "SSN2013Session2": {
-    "s_title": "SSN 2013 Session 2", 
+  "NaturalLanguageProcessing": {
+    "s_title": "Natural Language Processing", 
     "submissions": [
-      "Workshop125", 
-      "Workshop126", 
-      "Workshop127", 
-      "Workshop128"
+      "Research_Track_Paper_6", 
+      "Research_Track_Paper_34", 
+      "Semantic_Web_In_Use_Track_Paper_6"
     ]
   }, 
-  "PostersDemosSessionCocktailReceptionwithCanap\u00e9s18:0521:001": {
-    "s_title": "Posters & Demos SessionCocktail Reception with Canap\u00e9s(18:05 - 21:00)[Parkside Ballroom B/Parkside Ballroom Foyer]", 
-    "submissions": []
+  "WaSABiSession2": {
+    "s_title": "WaSABi Session 2", 
+    "submissions": [
+      "Paper_119", 
+      "Paper_118"
+    ]
   }, 
-  "DoctoralConsortiumProgramSession11": {
-    "s_title": "Doctoral Consortium Program Session 11", 
-    "submissions": []
+  "WaSABiSession1": {
+    "s_title": "WaSABi Session 1", 
+    "submissions": [
+      "Paper_120", 
+      "Paper_117"
+    ]
   }, 
   "JWSLunch1": {
-    "s_title": "JWS Lunch[Invitation only]", 
+    "s_title": "JWS Lunch", 
     "submissions": []
-  }, 
-  "SSN2013Session0": {
-    "s_title": "SSN 2013 Session 0", 
-    "submissions": [
-      "Workshop121", 
-      "Workshop122", 
-      "Workshop123", 
-      "Workshop124"
-    ]
   }, 
   "SemanticWebLandscape": {
     "s_title": "Semantic Web Landscape", 
     "submissions": [
-      "RTP24", 
-      "RTP5", 
-      "SWIUTP3", 
-      "SWIUTP16", 
-      "RTP35"
+      "Research_Track_Paper_24", 
+      "Research_Track_Paper_5", 
+      "Semantic_Web_In_Use_Track_Paper_3", 
+      "Semantic_Web_In_Use_Track_Paper_16", 
+      "Research_Track_Paper_35"
     ]
   }, 
   "DBpediaNLP2013Session4": {
     "s_title": "DBpedia & NLP 2013 Session 4", 
     "submissions": [
-      "Workshop107", 
-      "Workshop108", 
-      "Workshop109", 
-      "Workshop110"
+      "Paper_34"
+    ]
+  }, 
+  "DBpediaNLP2013Session3": {
+    "s_title": "DBpedia & NLP 2013 Session 3", 
+    "submissions": [
+      "Position_Paper_1", 
+      "Paper_35", 
+      "Paper_38"
     ]
   }, 
   "DBpediaNLP2013Session2": {
     "s_title": "DBpedia & NLP 2013 Session 2", 
     "submissions": [
-      "Workshop103", 
-      "Workshop104", 
-      "Workshop105", 
-      "Workshop106"
+      "Paper_42", 
+      "Paper_41", 
+      "Paper_36"
     ]
   }, 
-  "DBpediaNLP2013Session0": {
-    "s_title": "DBpedia & NLP 2013 Session 0", 
+  "DBpediaNLP2013Session1": {
+    "s_title": "DBpedia & NLP 2013 Session 1", 
     "submissions": []
   }, 
-  "WaSABiSession2": {
-    "s_title": "WaSABi Session 2", 
+  "SWJDinner20:0021:301": {
+    "s_title": "SWJ Dinner", 
+    "submissions": []
+  }, 
+  "SSN2013Session2": {
+    "s_title": "SSN 2013 Session 2", 
     "submissions": [
-      "Workshop132", 
-      "Workshop133", 
-      "Workshop134"
+      "Paper_103", 
+      "Paper_100"
     ]
   }, 
   "DescriptionLogics2": {
     "s_title": "Description Logics 2", 
     "submissions": [
-      "RTP4", 
-      "RTP14"
+      "Research_Track_Paper_4", 
+      "Research_Track_Paper_14"
     ]
   }, 
   "DescriptionLogics1": {
     "s_title": "Description Logics 1", 
     "submissions": [
-      "RTP36", 
-      "RTP41"
+      "Research_Track_Paper_36", 
+      "Research_Track_Paper_41"
     ]
   }, 
-  "InvitedTalk2": {
-    "s_title": "Invited Talk", 
-    "submissions": [
-      "IT2"
-    ]
-  }, 
-  "AfternoonTea2": {
-    "s_title": "Afternoon Tea[Basyside 2 Foyer]", 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems3": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 3", 
     "submissions": []
   }, 
-  "AfternoonTea1": {
-    "s_title": "Afternoon Tea[Parkside Ballroom Foyer]", 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems2": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 2", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems1": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 1", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems7": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 7", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems6": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 6", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems5": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 5", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems4": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems Session 4", 
     "submissions": []
   }, 
   "PRIVON2013Session4": {
-    "s_title": "PRIVON 2013 Session 4", 
+    "s_title": "PRIVON 2013 Session 4 - Parallel Open Space Discussion", 
     "submissions": []
   }, 
-  "PRIVON2013Session6": {
-    "s_title": "PRIVON 2013 Session 6", 
-    "submissions": []
-  }, 
-  "PRIVON2013Session0": {
-    "s_title": "PRIVON 2013 Session 0", 
+  "SMAM2013Session1": {
+    "s_title": "SMAM 2013 Session 1", 
     "submissions": [
-      "Workshop114", 
-      "Workshop115"
+      "Paper_88"
+    ]
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems9": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 9", 
+    "submissions": []
+  }, 
+  "MicrotaskCrowdsourcingtoSolveSemanticWebProblems8": {
+    "s_title": "Microtask Crowdsourcing to Solve Semantic Web Problems 8", 
+    "submissions": []
+  }, 
+  "KnowledgeExtraction": {
+    "s_title": "Knowledge Extraction", 
+    "submissions": [
+      "Research_Track_Paper_22", 
+      "Research_Track_Paper_44", 
+      "Research_Track_Paper_37"
+    ]
+  }, 
+  "PRIVON2013Session1": {
+    "s_title": "PRIVON 2013 Session 1", 
+    "submissions": [
+      "Paper_73", 
+      "Paper_70"
     ]
   }, 
   "PRIVON2013Session2": {
     "s_title": "PRIVON 2013 Session 2", 
     "submissions": [
-      "Workshop116", 
-      "Workshop117", 
-      "Workshop118", 
-      "Workshop119", 
-      "Workshop120"
+      "Paper_72", 
+      "Paper_74", 
+      "Paper_75", 
+      "Paper_71", 
+      "Paper_76"
     ]
+  }, 
+  "PRIVON2013Session3": {
+    "s_title": "PRIVON 2013 Session 3 - Parallel Open Space Discussions", 
+    "submissions": []
   }, 
   "TheMobileSemanticWebSession2": {
     "s_title": "The Mobile Semantic Web Session 2", 
     "submissions": []
   }, 
-  "TheMobileSemanticWebSession0": {
-    "s_title": "The Mobile Semantic Web Session 0", 
+  "TheMobileSemanticWebSession1": {
+    "s_title": "The Mobile Semantic Web Session 1", 
     "submissions": []
   }, 
   "SemanticWebChallenge2": {
@@ -834,11 +970,11 @@ sessions={
     "submissions": []
   }, 
   "DinnerCruise18:4523:001": {
-    "s_title": "Dinner Cruise(18:45 - 23:00)[King Street Wharf]", 
+    "s_title": "Dinner Cruise", 
     "submissions": []
   }, 
   "DoctoralConsortiumProgramSession2": {
-    "s_title": "Doctoral Consortium Program Session 2", 
+    "s_title": "Doctoral Consortium Program - Introduction Talk", 
     "submissions": []
   }
 }
