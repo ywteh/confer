@@ -10,7 +10,7 @@
 {% endblock %}
 {% block content %}  
 <div class="blurb">
-The Meetups feature allows you to discover people with similar interests as yours. If you do not want to appear in other people's meetups, you can turn off this feature. <br /> <br />For your account, the Meetups feature is <span class="bold">{% if meetups_enabled %}enabled{% else %}disabled{% endif %}</span>. <a class="blue bold" href="/settings">Click Here</a> to manage your Meetups settings.
+The Meetups feature allows you to discover people with similar interests as yours. If you do not want to appear in other people's meetups, you can turn off this feature. <br /> <br />For your account, the Meetups feature is <span class="bold">{% if meetups_enabled %}enabled{% else %}disabled{% endif %}</span>. <a class="blue bold" href="/settings">Click Here</a> to manage your Meetups settings. <br /> <br />
 </div> 
 <div class="goto-link">
 <a class="button" href="/{{conf}}/papers">Go to My Papers</a>
@@ -26,8 +26,6 @@ The Meetups feature allows you to discover people with similar interests as your
     <table id="similar_people" class="paper-container"> 
       {% for p in similar_people %}
       <tr class="clickable">
-        <td class="metadata">
-        </td>
         <td class="content">
           <ul>
             <li><h3><a href="mailto:{{p.email}}">{{p.name}}</a></h3></li>
