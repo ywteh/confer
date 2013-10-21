@@ -332,6 +332,16 @@ def paper (request, conf):
 	except:
 		return HttpResponseRedirect('/')
 
+@login_required
+def meet (request, conf):
+  conf = conf.lower()
+  try:
+    request.session[kConf] = conf
+    return render_to_response('meet.html', 
+    {'conf':conf})
+  except:
+    return HttpResponseRedirect('/')
+
 
 '''
 AJAX Calls

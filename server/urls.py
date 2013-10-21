@@ -22,6 +22,7 @@ urlpatterns = patterns('',
     url(r'^(\w+?)/papers$', 'server.views.papers'),
     url(r'^(\w+?)/schedule$', 'server.views.schedule'),
     url(r'^(\w+?)/paper', 'server.views.paper'),
+    url(r'^(\w+?)/meet', 'server.views.meet'),
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
 )
