@@ -78,7 +78,7 @@ def get_similar_people (login, conf):
 		likes[r.user] = {
 				'name': r.user.f_name + ' ' + r.user.l_name,
 				'email': r.user.email,
-				'meetups_enabled': r.meetups_enabled,
+				'meetups_enabled': r.user.meetups_enabled,
 				'papers': set(json.loads(r_likes.likes))
 		}
 
