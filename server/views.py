@@ -270,6 +270,42 @@ def reset (request, encrypted_email):
     c.update(csrf(request))
     return render_to_response('confirmation.html', c)
 
+@login_required
+def settings (request):
+  errors = []
+  error = False
+  if request.method == "POST":
+    try:
+      user_email = request.POST["user_email"].lower()
+      meetups = request.POST["meetups_enabled"] 
+      user = User.objects.get(email=user_email)
+      if meetups == 'enabled':
+        user.meetups_enabled = True
+      else:
+        user.meetups_enabled = False
+
+      user.save()
+      c = {
+        'msg_title': 'Confer Account Settings',
+        'msg_body': 'Your settings have been updated successfully.'
+      } 
+      c.update(csrf(request))
+      return render_to_response('confirmation.html', c)
+    except Exception, e:
+      errors.append(
+          'Some unknown error happened. '
+          'Please try again or send an email to '
+          'confer@csail.mit.edu.')
+      c = {'errors': errors} 
+      c.update(csrf(request))
+      return render_to_response('settings.html', c)
+  else:
+    login = request.session[kLogIn]
+    user = User.objects.get(email=login)
+    meetups_enabled = user.meetups_enabled
+    c = {'user_email': login, 'meetups_enabled': meetups_enabled}
+    c.update(csrf(request))
+    return render_to_response('settings.html', c)
 
 
 '''

@@ -15,6 +15,7 @@ urlpatterns = patterns('',
 
     url(r'^forgot', 'server.views.forgot'),
     url(r'^reset/(\w+)', 'server.views.reset'),
+    url(r'^settings', 'server.views.settings'),
 
     url(r'^error', 'server.views.error'),
 
