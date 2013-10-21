@@ -337,9 +337,12 @@ def meet (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
+    login = request.session[kLogIn]
+    similar_people = get_similar_people(login, conf)
     return render_to_response('meet.html', 
-    {'conf':conf})
-  except:
+    {'conf':conf, 'similar_people': similar_people})
+  except Exception, e:
+    print e
     return HttpResponseRedirect('/')
 
 

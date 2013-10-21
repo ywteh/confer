@@ -1,4 +1,4 @@
-import hashlib, smtplib
+import hashlib, smtplib, json
 
 from server.models import *
 from Crypto.Cipher import AES
@@ -66,3 +66,31 @@ def get_registration (login, conf):
 	except:
 		print sys.exc_info()
 		return None
+
+def get_similar_people (login, conf):
+	likes = {}
+	similarity = []
+	user = User.objects.get(email = login)
+	conference = Conference.objects.get(unique_name=conf)
+	registrations = Registration.objects.filter(conference=conference)
+	for r in registrations:
+		r_likes = Likes.objects.get(registration=r)
+		likes[r.user] = {
+				'name': r.user.f_name + ' ' + r.user.l_name,
+				'email': r.user.email,
+				'papers': set(json.loads(r_likes.likes))
+		}
+
+	for person in likes:	
+		p_likes = likes[person]
+		common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
+		if common_likes > 0:
+			similarity.append({
+					'name': p_likes['name'],
+					'email': p_likes['email'],
+					'common_likes': common_likes
+			})
+
+	similarity = sorted(similarity, key=lambda k: k['common_likes'], reverse=True)
+	return similarity[:20]
+

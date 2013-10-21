@@ -15,9 +15,23 @@
 <!-- Similar People -->
 <div id="simiar_people_page">
   <h3 class="collapsible-title collapsible" id="similar_people_toggle" data="similar_people_container" value=""><span class="arrow arrow-down"></span> People who have similar interests as you:</h3>
-  
+
   <div id="similar_people_container">
-    <table id="similar_people" class="paper-container">   
+    <table id="similar_people" class="paper-container"> 
+      {% for p in similar_people %}
+      <tr class="clickable">
+        <td class="metadata">
+        </td>
+        <td class="content">
+          <ul>
+            <li><h3>{{p.name}} -- <a class="paper-subtype" href="mailto:{{p.email}}">{{p.email}}</a></h3></li>
+            <li><span class="paper-subtype">
+              You and {{p.name}} have {{p.common_likes}} papers in common.</li>
+              </span>
+          </ul>
+        </td>
+      </tr>
+      {% endfor %}
     </table>
   </div>
 
@@ -30,28 +44,9 @@
 <script type="text/javascript">
 $(document).ready(function(){
   $("#logged_in_name").html(localStorage.getItem('login_name'))
-    load_paper()
     bind_events()
-    log('selected_paper')
-        
+    log('similar_people')     
 });
 </script>
 <script type="text/javascript" src="/static/javascript/confer.js"></script>
 {% endblock %}
-
-
-
-
-
-
-<!-- Similar Paper -->
-<div id="simiar_people_page">
-  <!--<h3><span class="gray">Similar People</span></h3>-->
-	<h3 class="collapsible-title collapsible" id="similar_people_toggle" data="similar_people_container" value=""><span class="arrow arrow-down"></span> People who have similar interests as you:</h3>
-	<div id="similar_people_container">
-	<table id="similar_people" class="paper-container">		
-	</table>
-	</div>
-
-</div>  <!-- selected paper -->
-
