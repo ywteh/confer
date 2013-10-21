@@ -1,8 +1,30 @@
+import hashlib, smtplib
+
 from server.models import *
+from Crypto.Cipher import AES
+from Crypto import Random
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-def send_email(addr, subject, msg_body):	
+
+kKey = 'confer'
+
+def encrypt_text (plain_text):
+  key = hashlib.sha256(kKey).digest()
+  iv = Random.new().read(AES.block_size)
+  cipher = AES.new(key, AES.MODE_CFB, iv)
+  crypt_text = (iv + cipher.encrypt(plain_text)).encode('hex')
+  return crypt_text
+
+def decrypt_text (crypt_text):
+	iv_len = AES.block_size
+	key = hashlib.sha256(kKey).digest()
+	iv = crypt_text.decode('hex')[:iv_len]
+	cipher = AES.new(key, AES.MODE_CFB, iv)
+	plain_text = cipher.decrypt(crypt_text.decode('hex'))[iv_len:]
+	return plain_text
+
+def send_email (addr, subject, msg_body):	
 	email_subject = subject
 	from_addr="confer@csail.mit.edu"
 	to_addr = [addr, 'confer@csail.mit.edu']
@@ -21,7 +43,7 @@ def send_email(addr, subject, msg_body):
 	smtp_conn.close() 
 
 
-def insert_log(registration, action, data=None):
+def insert_log (registration, action, data=None):
 	if(data):
 		l = Logs(registration = registration, action = action, data= data)
 		l.save()
@@ -30,7 +52,7 @@ def insert_log(registration, action, data=None):
 		l.save()
 
 
-def get_registration(login, conf):
+def get_registration (login, conf):
 	try:
 		user = User.objects.get(email = login)
 		conference = Conference.objects.get(unique_name = conf)

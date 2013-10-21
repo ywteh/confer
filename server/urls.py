@@ -13,10 +13,8 @@ urlpatterns = patterns('',
     url(r'^register', 'server.views.register'),
     url(r'^logout', 'server.views.logout'),
 
-    url(r'^verify/(.+)$', 'server.views.verify'),
-    url(r'^reset/(.+)$', 'server.views.reset'),
-    url(r'^verify_email/(.+)$', 'server.views.verify_email'),
-    url(r'^reset_email/(.+)$', 'server.views.reset_email'),
+    url(r'^forgot', 'server.views.forgot'),
+    url(r'^reset/(\w+)', 'server.views.reset'),
 
     url(r'^error', 'server.views.error'),
 

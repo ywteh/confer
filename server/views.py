@@ -42,8 +42,8 @@ except:
 '''
 LOGIN/REGISTER/RESET
 '''
-def login_required(f):
-    def wrap(request, *args, **kwargs):
+def login_required (f):
+    def wrap (request, *args, **kwargs):
         if kLogIn not in request.session.keys():
         	if(len(args)>0):
         		redirect_url = urlquote_plus("/%s/%s" %(args[0], f.__name__))
@@ -56,19 +56,19 @@ def login_required(f):
     return wrap
 
 
-def login_form(request, redirect_url='/', errors=[]):
+def login_form (request, redirect_url='/', errors=[]):
     c = {'redirect_url':redirect_url, 'errors':errors}
     c.update(csrf(request))
     return render_to_response('login.html', c)
 
 
-def register_form(request, redirect_url='/', errors=[]):
+def register_form (request, redirect_url='/', errors=[]):
     c = {'redirect_url':redirect_url, 'errors':errors}
     c.update(csrf(request))
     return render_to_response('register.html', c)
 
 
-def login(request):
+def login (request):
     redirect_url = '/'
     if('redirect_url' in request.GET.keys()):
     	redirect_url = request.GET['redirect_url']
@@ -97,7 +97,7 @@ def login(request):
     else:
         return login_form(request, redirect_url)
 
-def register(request):
+def register (request):
     redirect_url = '/'
     if('redirect_url' in request.GET.keys()):
     	redirect_url = request.GET['redirect_url']
@@ -147,7 +147,7 @@ def register(request):
         return register_form(request, redirect_url = redirect_url)
 
 
-def logout(request):
+def logout (request):
     request.session.flush()
     if kLogIn in request.session.keys():
     	del request.session[kLogIn]
@@ -156,39 +156,70 @@ def logout(request):
     return HttpResponseRedirect('/')
 
 
+def forgot (request):
+  if request.method == "POST":
+    user_email = request.POST["user_email"].lower()
+    decrypted_email = encrypt_text(user_email)
+
+    subject = "Confer Password Reset"
+
+    msg_body = '''
+    Dear %s,
+
+    Please click the link below to reset your confer password:
+
+    http://confer.csail.mit.edu/reset/%s
+
+    ''' % (user_email, decrypted_email)
+
+    send_email(user_email, subject, msg_body)
+
+    c = {
+      'msg_title': 'Confer Reset Password',
+      'msg_body': 'A link to reset your password has been sent to your email address.'
+    } 
+    c.update(csrf(request))
+
+    return render_to_response('confirmation.html', c)
+  else:
+    return render_to_response('forgot.html', csrf(request))
 
 
-'''
+def reset (request, encrypted_email):
+  if request.method == "POST":
+    user_email = request.POST["user_email"].lower()
+    hashed_password = hashlib.sha1(request.POST["new_password"]).hexdigest()
+    user = User.objects.get(email=user_email)
+    user.password = hashed_password
+    user.save()
+    c = {
+      'msg_title': 'Confer Reset Password',
+      'msg_body': 'Your password has been changed successfully.'
+    } 
+    c.update(csrf(request))
+    return render_to_response('confirmation.html', c)
+  else:
+    user_email = decrypt_text(encrypted_email)
+    c = {
+        'user_email': user_email,
+        'encrypted_email': encrypted_email
+    }
+    c.update(csrf(request))
+    return render_to_response('reset.html', c)
 
-def reset(request, addr):
-	if request.method == "POST":
-		user_email = request.POST["user_email"].lower()
-        hashed_password = hashlib.sha1(request.POST["new_password"]).hexdigest()
-        user = User.objects.get(email=user_email)
-        user.password = hashed_password
-        user.save()
-        return HttpResponseRedirect('/login')
-	else:
-		user_email = base64.b64decode(addr)
-		user = User.objects.get(email=user_email)
-		c = {'user_email': user_email}
-	    c.update(csrf(request))
-		return render_to_response('reset.html', c)
-'''
 
 '''
 PAGES
 '''
 
-def home(request):
+def home (request):
 	try:
 		conferences = Conference.objects.all().values()
 		return render_to_response('home.html', {'conferences':conferences})
 	except:
 		pass
 
-
-def conf(request, conf):
+def conf (request, conf):
 	conf = conf.lower()
 	try:
 		request.session[kConf] = conf
@@ -205,7 +236,7 @@ def conf(request, conf):
 		return HttpResponseRedirect('/')
 
 @login_required
-def papers(request, conf):
+def papers (request, conf):
 	conf = conf.lower()
 	try:
 		Conference.objects.get(unique_name=conf)
@@ -217,7 +248,7 @@ def papers(request, conf):
 	
 
 @login_required
-def schedule(request, conf):
+def schedule (request, conf):
 	conf = conf.lower()
 	try:
 		Conference.objects.get(unique_name=conf)
@@ -228,7 +259,7 @@ def schedule(request, conf):
 
 
 @login_required
-def paper(request, conf):
+def paper (request, conf):
 	conf = conf.lower()
 	try:
 		request.session[kConf] = conf
@@ -244,7 +275,7 @@ AJAX Calls
 
 @csrf_exempt
 @login_required
-def data(request):
+def data (request):
 	recs = []
 	likes = []
 	login = request.session[kLogIn]
@@ -283,7 +314,7 @@ def data(request):
 
 
 @csrf_exempt
-def get_recs(request):
+def get_recs (request):
 	try:
 		papers = json.loads(request.POST["papers"])
 		recs = []
@@ -293,7 +324,7 @@ def get_recs(request):
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 @csrf_exempt
-def log(request, action):
+def log (request, action):
 	try:
 		login = request.session[kLogIn]
 		conf = request.session[kConf]
@@ -307,7 +338,7 @@ def log(request, action):
 
 
 @csrf_exempt
-def like(request, like_str):
+def like (request, like_str):
 	login = request.session[kLogIn]
 	likes = []
 	res = {}
