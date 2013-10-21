@@ -72,6 +72,10 @@ def login (request):
     redirect_url = '/'
     if('redirect_url' in request.GET.keys()):
     	redirect_url = request.GET['redirect_url']
+
+    if not redirect_url or redirect_url == '':
+      redirect_url = '/'
+
     if request.method == "POST":
     	errors = []
     	if('redirect_url' in request.POST.keys()):
@@ -158,54 +162,114 @@ def logout (request):
 
 def forgot (request):
   if request.method == "POST":
-    user_email = request.POST["user_email"].lower()
-    decrypted_email = encrypt_text(user_email)
+    errors = []
+    try:
+      user_email = request.POST["user_email"].lower()
+      User.objects.get(email=user_email)
 
-    subject = "Confer Password Reset"
+      decrypted_email = encrypt_text(user_email)
 
-    msg_body = '''
-    Dear %s,
+      subject = "Confer Password Reset"
 
-    Please click the link below to reset your confer password:
+      msg_body = '''
+      Dear %s,
 
-    http://confer.csail.mit.edu/reset/%s
+      Please click the link below to reset your confer password:
 
-    ''' % (user_email, decrypted_email)
+      http://confer.csail.mit.edu/reset/%s
 
-    send_email(user_email, subject, msg_body)
+      ''' % (user_email, decrypted_email)
 
-    c = {
-      'msg_title': 'Confer Reset Password',
-      'msg_body': 'A link to reset your password has been sent to your email address.'
-    } 
+      send_email(user_email, subject, msg_body)
+
+      c = {
+        'msg_title': 'Confer Reset Password',
+        'msg_body': 'A link to reset your password has been sent to your email address.'
+      } 
+      c.update(csrf(request))
+
+      return render_to_response('confirmation.html', c)
+
+    except User.DoesNotExist:
+      errors.append(
+          "Invalid Email Address.")
+    except:
+      errors.append(
+          "Some unknown error happened."
+          "Please try again or send an email to confer@csail.mit.edu.")
+    
+    c = {'errors': errors} 
     c.update(csrf(request))
-
-    return render_to_response('confirmation.html', c)
+    return render_to_response('forgot.html', c)
   else:
     return render_to_response('forgot.html', csrf(request))
 
 
 def reset (request, encrypted_email):
+  errors = []
+  error = False
   if request.method == "POST":
-    user_email = request.POST["user_email"].lower()
-    hashed_password = hashlib.sha1(request.POST["new_password"]).hexdigest()
-    user = User.objects.get(email=user_email)
-    user.password = hashed_password
-    user.save()
-    c = {
-      'msg_title': 'Confer Reset Password',
-      'msg_body': 'Your password has been changed successfully.'
-    } 
+    try:
+      user_email = request.POST["user_email"].lower()
+      password = request.POST["new_password"]
+      password2 = request.POST["new_password2"]
+
+      if password == "":
+        errors.append("Empty Password.")
+        error = True
+
+      if password2 != password:
+        errors.append("Password and Confirm Password don't match.")
+        error = True
+
+      if error:
+        c = {
+          'user_email': user_email,
+          'encrypted_email': encrypted_email,
+          'errors': errors
+        }
+        c.update(csrf(request))
+        return render_to_response('reset.html', c)
+
+      else:
+        hashed_password = hashlib.sha1(password).hexdigest()
+        user = User.objects.get(email=user_email)
+        user.password = hashed_password
+        user.save()
+        c = {
+          'msg_title': 'Confer Reset Password',
+          'msg_body': 'Your password has been changed successfully.'
+        } 
+        c.update(csrf(request))
+        return render_to_response('confirmation.html', c)
+    except:
+      errors.append(
+          'Some unknown error happened. '
+          'Please try again or send an email to '
+          'confer@csail.mit.edu.')
+      c = {'errors': errors} 
+      c.update(csrf(request))
+      return render_to_response('reset.html', c)
+  else:
+    try:
+      user_email = decrypt_text(encrypted_email)
+      User.objects.get(email=user_email)
+      c = {
+          'user_email': user_email,
+          'encrypted_email': encrypted_email
+      }
+      c.update(csrf(request))
+      return render_to_response('reset.html', c)
+    except:
+      errors.append(
+          'Wrong reset code in the URL. '
+          'Please try again or send an email to '
+          'confer@csail.mit.edu.')
+    
+    c = {'msg_title': 'Confer Reset Password', 'errors': errors} 
     c.update(csrf(request))
     return render_to_response('confirmation.html', c)
-  else:
-    user_email = decrypt_text(encrypted_email)
-    c = {
-        'user_email': user_email,
-        'encrypted_email': encrypted_email
-    }
-    c.update(csrf(request))
-    return render_to_response('reset.html', c)
+
 
 
 '''
