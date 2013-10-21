@@ -372,11 +372,18 @@ def paper (request, conf):
 def meetups (request, conf):
   conf = conf.lower()
   try:
+    similar_people = []
     request.session[kConf] = conf
     login = request.session[kLogIn]
-    similar_people = get_similar_people(login, conf)
-    return render_to_response('meetups.html', 
-    {'conf':conf, 'similar_people': similar_people})
+    user = User.objects.get(email=login)
+    meetups_enabled = user.meetups_enabled
+    if meetups_enabled:
+      similar_people = get_similar_people(login, conf)
+    return render_to_response('meetups.html', {
+        'conf':conf,
+        'similar_people': similar_people,
+        'meetups_enabled': meetups_enabled
+    })
   except Exception, e:
     print e
     return HttpResponseRedirect('/')
