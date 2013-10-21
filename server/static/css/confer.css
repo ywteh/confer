@@ -357,6 +357,14 @@ button, input[type="button"], input[type="submit"]{
   cursor: pointer;
 }
 
+.blue {
+  color: #447EAC !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .button{
 	background-color: #F6F6F6; /* #00A8CD #00B4ED #85A5CC #69a74e;*/
 	/*background: -webkit-linear-gradient(top, #67ae55, #578843);*/
