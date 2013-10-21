@@ -78,13 +78,14 @@ def get_similar_people (login, conf):
 		likes[r.user] = {
 				'name': r.user.f_name + ' ' + r.user.l_name,
 				'email': r.user.email,
+				'meetups_enabled': r.meetups_enabled,
 				'papers': set(json.loads(r_likes.likes))
 		}
 
 	for person in likes:	
 		p_likes = likes[person]
 		common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
-		if common_likes > 0 and person!= user:
+		if common_likes > 0 and person!= user and person.meetups_enabled:
 			similarity.append({
 					'name': p_likes['name'],
 					'email': p_likes['email'],
