@@ -333,13 +333,13 @@ def paper (request, conf):
 		return HttpResponseRedirect('/')
 
 @login_required
-def meet (request, conf):
+def meetups (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
     login = request.session[kLogIn]
     similar_people = get_similar_people(login, conf)
-    return render_to_response('meet.html', 
+    return render_to_response('meetups.html', 
     {'conf':conf, 'similar_people': similar_people})
   except Exception, e:
     print e

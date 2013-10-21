@@ -84,7 +84,7 @@ def get_similar_people (login, conf):
 	for person in likes:	
 		p_likes = likes[person]
 		common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
-		if common_likes > 0:
+		if common_likes > 0 and person!= user:
 			similarity.append({
 					'name': p_likes['name'],
 					'email': p_likes['email'],
