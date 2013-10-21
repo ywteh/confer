@@ -1,7 +1,6 @@
 {% extends "login-layout.html" %}
 {% block links %}
 <a class="button" href="/register?redirect_url={{redirect_url}}">Sign Up</a>
-<a class="button" href="/forgot">Forgot Password</a>
 {% endblock %}
 {% block content %}
 <script type="text/javascript">
@@ -26,5 +25,6 @@ localStorage.removeItem('user_recs')
 	<label for="password">Password</label><br />
 	<input type="password" name="login_password" id="login_password" placeholder="Your password"/><br /><br />
 	<input type="submit" class="button" value="Log In" />
+  <a class="button" href="/forgot">Forgot Password</a>
 </form>
 {% endblock %}
