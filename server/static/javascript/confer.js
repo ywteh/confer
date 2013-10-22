@@ -754,6 +754,9 @@ function get_paper_html(id){
     if(entities[id].hm){
         raw_html += ' p_hm'
     }
+    if(entities[id].nominated){
+        raw_html += ' p_nominated'
+    }
     if(entities[id].award){
         raw_html += ' p_award'
     }
@@ -787,6 +790,7 @@ function get_paper_html(id){
         }
     }
     raw_html += '</li>'
+    raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span>'
    
     raw_html += '<span class="rec-icon">recommended</span>'
     
@@ -809,7 +813,23 @@ function get_paper_html(id){
     return raw_html
 }
 
-
+function get_award_type(s) {
+    for (p in s.submissions) {
+        paper = s.submissions[p]
+        if(entities[paper] == null) {
+            return null
+        }
+        if (entities[paper].award) {
+            return 'award'
+        }
+        if (entities[paper].hm) {
+            return 'hm'
+        }
+        if (entities[paper].nominated) {
+            return 'nominated'
+        }
+    }
+}
 
 
 
@@ -817,14 +837,18 @@ function get_session_html(id, day, time, slot_name, room){
     if(sessions[id]== null){
         return ''
     }
+    var award_type = get_award_type(sessions[id])
     var award=''
-    if(sessions[id].award){
+    if(award_type == 'award'){
         award += ' s_award'
     }
-    if(sessions[id].award || sessions[id].hm){
+    if(award_type == 'hm'){
         award += ' s_hm'
     }
-    var raw_html = '<div class="session ' + id  + ' ' + day + ' ' + slot_name + ' '
+    if(award_type == 'nominated'){
+        award += ' s_nominated'
+    }
+    var raw_html = '<div class="session ' + award +  ' ' + id  + ' ' + day + ' ' + slot_name + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -841,7 +865,7 @@ function get_session_html(id, day, time, slot_name, room){
     raw_html += '<span class="send_session_email"></span>'
     */
     raw_html += '</h3></li>'
-    raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="rec-icon">recommended</span>'
+    raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span><span class="rec-icon">recommended</span>'
 
     
     

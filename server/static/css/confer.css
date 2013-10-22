@@ -922,7 +922,7 @@ textarea {
 	/*background-color: #f0f4f9 !important;*/
 }
 
-.rec-icon, .award-icon, .hm-icon, .community-icon{
+.rec-icon, .award-icon, .hm-icon, .community-icon, .nominated-icon{
   display:none;
 }
 
@@ -984,6 +984,16 @@ textarea {
 }
 
 .session.s_hm .session-icons .hm-icon, .paper.p_hm .paper-icons .hm-icon{
+  display:inline-block;
+  margin-right: 0.7em;
+  background-image:url(/static/img/nominee.png);
+  background-repeat: no-repeat;
+  background-size: 1.8em 1.8em;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.session.s_nominated .session-icons .nominated-icon, .paper.p_nominated .paper-icons .nominated-icon{
   display:inline-block;
   margin-right: 0.7em;
   background-image:url(/static/img/nominee.png);
