@@ -1,5 +1,6 @@
 #!/usr/bin/python
-import sys, os, operator
+import sys, os, operator, numpy
+import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
 	p = os.path.abspath(os.path.dirname(__file__))
@@ -54,8 +55,12 @@ def load_data():
 
 def main():
 	load_data()
-	sorted_papers = sorted(p_counts.iteritems(), key=operator.itemgetter(1), reverse = True)
-	print sorted_papers	
+	global s_counts
+	s_counts = dict((k, v) for k, v in s_counts.iteritems() if v > 0)
+	#sorted_papers = sorted(p_counts.iteritems(), key=operator.itemgetter(1), reverse = True)
+	#print sorted_papers	
+	print numpy.mean(s_counts.values()), numpy.std(s_counts.values()), numpy.median(s_counts.values()), numpy.min(s_counts.values()), numpy.max(s_counts.values())
+	
 	'''
 	counts = load_data()
 	for c in counts:

@@ -1,6 +1,5 @@
 import json, sys, re, hashlib, smtplib, base64, urllib
 
-
 from django.http import *
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
@@ -10,15 +9,11 @@ from django.db.utils import IntegrityError
 from django.utils.http import urlquote_plus
 
 from utils.view_utils import *
-from algorithm.recommend import *
 from models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
 	sys.path.append(os.path.abspath(p+"/.."))
-
-
-
 
 
 '''
@@ -29,15 +24,6 @@ if(os.path.abspath(p+"/..") not in sys.path):
 kLogIn = "SESSION_LOGIN"
 kConf = "SESSION_CONF"
 kName = "SESSION_NAME"
-
-
-r = Recommender()
-offline_recs = None
-try:
-	offline_recs = json.loads(open('data/sigmod2013/similar_papers.json').read())
-except:
-	offline_recs = json.loads(open('/production/confer/data/sigmod2013/similar_papers.json').read())
-
 
 '''
 LOGIN/REGISTER/RESET
@@ -438,7 +424,6 @@ def get_recs (request):
 	try:
 		papers = json.loads(request.POST["papers"])
 		recs = []
-		#recs = r.get_item_based_recommendations(papers)
 		return HttpResponse(json.dumps(recs), mimetype="application/json")
 	except:
 		return HttpResponse(json.dumps({'error':True}), mimetype="application/json")

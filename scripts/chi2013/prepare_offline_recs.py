@@ -9,7 +9,7 @@ if __name__ == "__main__":
 from db.entity import *
 from algorithm.recommend import *
 
-f = open('server/static/data/offline_recs.txt','w')
+f = open('data/offline_recs.txt','w')
 r = Recommender()
 
 def main():
