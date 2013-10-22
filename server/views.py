@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib
+import json, sys, re, hashlib, smtplib, base64, urllib, os
 
 from django.http import *
 from django.shortcuts import render_to_response
