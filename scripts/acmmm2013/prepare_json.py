@@ -13,6 +13,9 @@ abstracts = {}
 
 paper_type = ['papers', 'keynote', 'doctorial symposium', 'demos', 'posters', 'grand challenge', 'brave new topics', 'open source']
 
+def get_s_id(s):
+	return re.sub(r'\W+', '_', s)
+
 def load_abstracts():
 	f = open(p+'/confer-mainprog-acmmm13.tsv', 'rU').read()
 	rows = f.split('\n')
@@ -22,10 +25,11 @@ def load_abstracts():
 		print data
 		if data[11] in paper_type:
 			papers[data[0]] = {'title': data[1], 'authors': [{'name': name} for name in data[2].strip('"').split(',')], 'abstract': data[3]}
-			if(data[5] in sessions):
-				sessions[data[5]]['submissions'].append(data[0])
+			s_id = get_s_id(data[5])
+			if(s_id in sessions):
+				sessions[s_id]['submissions'].append(data[0])
 			else:
-				sessions[data[5]] = {'submissions': [data[0]], 's_title': data[5], 'date': data[7],'start':int(re.match(r'\d+', data[8]).group()), 'time': data[8] + '-' + data[9], 'room': data[10]}
+				sessions[s_id] = {'submissions': [data[0]], 's_title': data[5], 'date': data[7],'start':int(re.match(r'\d+', data[8]).group()), 'time': data[8] + '-' + data[9], 'room': data[10]}
 	
 	for s in sessions:
 		sessions[s]['submissions'] = list(set(sessions[s]['submissions']))
