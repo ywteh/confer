@@ -814,20 +814,32 @@ function get_paper_html(id){
 }
 
 function get_award_type(s) {
+    var award = false
+    var hm = false
+    var nominated = false
     for (p in s.submissions) {
         paper = s.submissions[p]
         if(entities[paper] == null) {
             return null
         }
         if (entities[paper].award) {
-            return 'award'
+            award = true
         }
         if (entities[paper].hm) {
-            return 'hm'
+            hm = true
         }
         if (entities[paper].nominated) {
-            return 'nominated'
+            nominated = true
         }
+    }
+    if (award) {
+        return 'award'
+    }
+    if (hm) {
+        return 'hm'
+    }
+    if (nominated) {
+        return 'nominated'
     }
 }
 
