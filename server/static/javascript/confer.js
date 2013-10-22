@@ -864,14 +864,20 @@ function get_session_html(id, day, time, slot_name, room){
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
-    raw_html += '<td class="metadata">'     
-    raw_html += '<div class="star star-open s_star" data="'+ id + '" onclick="handle_session_star(event);">'
-    raw_html += '</div>'        
+    raw_html += '<td class="metadata">'
+    if (sessions[id].submissions && sessions[id].submissions.length > 0) {  
+        raw_html += '<div class="star star-open s_star" data="'+ id + '" onclick="handle_session_star(event);">'
+        raw_html += '</div>'
+    }      
     raw_html += '</td>'
     
     raw_html += '<td class="content">'  
     raw_html += '<ul>'
-    raw_html += '<li><h3><span class="arrow arrow-right"></span> <span class="session-title">'+ sessions[id].s_title + '</span>'
+    raw_html += '<li><h3>'
+    if (sessions[id].submissions && sessions[id].submissions.length > 0) {  
+        raw_html += '<span class="arrow arrow-right"></span>'
+    }
+    raw_html += '<span class="session-title">'+ sessions[id].s_title + '</span>'
    /*
     raw_html += '<span class="send_session_tweet"></span>'
     raw_html += '<span class="send_session_email"></span>'
@@ -885,37 +891,41 @@ function get_session_html(id, day, time, slot_name, room){
     raw_html += '<li class="session-info"><span class="session-room">Room: ' + room + '</span></li>'
     raw_html += '</ul>'
 
-    
-    raw_html += '<div class="timeline">'
-    var size = sessions[id].submissions.length
-    var weight = []
-    var sum = 0
-    for(i=0; i<size; i++){
-        /*
-        if(entities[sessions[id].submissions[i]].subtype == 'Note'){
-            weight[i] = 0.5
-        }else{
+    var size = 0
+    if (sessions[id].submissions && sessions[id].submissions.length > 0) {
+        size = sessions[id].submissions.length    
+        raw_html += '<div class="timeline">'
+        var weight = []
+        var sum = 0
+        for(i=0; i<size; i++){
+            /*
+            if(entities[sessions[id].submissions[i]].subtype == 'Note'){
+                weight[i] = 0.5
+            }else{
+                weight[i] = 1.0
+            }
+            */
             weight[i] = 1.0
+            sum += weight[i]
         }
-        */
-        weight[i] = 1.0
-        sum += weight[i]
+        
+        for(var i=0; i< size; i++){
+            var w = 100*(weight[i]/sum)
+            raw_html += '<div style="width:' + w + '%;"></div>'
+        }
+        raw_html += '</div>'
     }
-    
-    for(var i=0; i< size; i++){
-        var w = 100*(weight[i]/sum)
-        raw_html += '<div style="width:' + w + '%;"></div>'
-    }
-    raw_html += '</div>'
     raw_html += '</td>'
     
     raw_html += '</tr>'
     raw_html += '</table>'
-    raw_html += '<table id="' +id +'" class="paper-container" style="display:none; padding-left:20px;">'
-    for(var i in sessions[id].submissions){        
-        raw_html += get_paper_html(sessions[id].submissions[i]);        
+    if (sessions[id].submissions && sessions[id].submissions.length > 0) {  
+        raw_html += '<table id="' +id +'" class="paper-container" style="display:none; padding-left:20px;">'
+        for(var i in sessions[id].submissions){        
+            raw_html += get_paper_html(sessions[id].submissions[i]);        
+        }
+        raw_html += '</table>'
     }
-    raw_html += '</table>'
     raw_html += '</div>'
     return raw_html
 }
