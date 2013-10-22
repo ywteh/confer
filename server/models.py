@@ -36,7 +36,7 @@ class User(models.Model):
 	f_name = models.CharField(max_length=50)
 	l_name = models.CharField(max_length=50)
 	password = models.CharField(max_length=500)
-	meetups_enabled = models.BooleanField(default=True)
+	meetups_enabled = models.BooleanField(default=False)
 
 	def __unicode__(self):
 		return self.f_name + ' ' + self.l_name

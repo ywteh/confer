@@ -60,7 +60,7 @@ class Migration(SchemaMigration):
             'f_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'l_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
-            'meetups_enabled': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
+            'meetups_enabled': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'password': ('django.db.models.fields.CharField', [], {'max_length': '500'}),
             'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         }
