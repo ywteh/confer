@@ -9,9 +9,26 @@ Please send your feedback/suggestions to <a class="blue bold" href="mailto://con
 </div>
 <!-- Confer Team -->
 <div id="confer_team_container">
-  <h3 class="collapsible-title"> Confer Team</h3>
+  <h3 class="collapsible-title"> Current Team</h3>
   <table id="confer_team" class="paper-container"> 
-    {% for p in people %}
+    {% for p in current_team %}
+    <tr class="clickable">
+      <td class="content">
+        <ul>
+          <li><h3><a href="{{p.web}}">{{p.name}}</a></h3></li>
+          <li><span class="paper-subtype" style="text-align: left !important;">
+            {{p.affiliation}}</li>
+            </span>
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+  <br />
+  <br />
+  <h3 class="collapsible-title"> Past Collaborators</h3>
+  <table id="confer_team" class="paper-container"> 
+    {% for p in past_collaborators %}
     <tr class="clickable">
       <td class="content">
         <ul>

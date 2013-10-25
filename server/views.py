@@ -306,9 +306,14 @@ def home (request):
 		pass
 
 def team (request):
-  data = open(p+'/fixtures/' + 'team.json').read()
-  people = json.loads(data)
-  return render_to_response('team.html', {'people': people})
+  current_team = json.loads(
+      open(p+'/fixtures/' + 'team.json').read())
+  past_collaborators = json.loads(
+      open(p+'/fixtures/' + 'collaborators.json').read())
+  return render_to_response(
+      'team.html',
+      {'current_team': current_team,
+      'past_collaborators': past_collaborators})
 
 def conf (request, conf):
 	conf = conf.lower()
