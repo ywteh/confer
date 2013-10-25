@@ -1513,8 +1513,6 @@ function populate_recs(){
 
 
 function populate_likes(){
-    $("#likes_toggle").hide()
-    $('#show_likes').hide()
     if(typeof starred == "undefined" || starred == null){
         console.log("Error populating stars.")
         return
@@ -1523,10 +1521,6 @@ function populate_likes(){
         console.log("Error fetching entities.")
         return
     }
-    if (starred.length == 0){
-        return
-    }
-    $("#likes_toggle").show()
     var raw_html = '' 
     for(var i = starred.length; i>=0 ; i--){
        raw_html += get_paper_html(starred[i])
