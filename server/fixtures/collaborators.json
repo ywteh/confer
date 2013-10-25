@@ -21,6 +21,12 @@
 		"name": "David Karger",
 		"web": "http://people.csail.mit.edu/karger",
 		"affiliation": "Professor, MIT CSAIL"  
+	},
+
+	{
+		"name": "Rob Miller",
+		"web": "http://people.csail.mit.edu/rcm",
+		"affiliation": "Associate Professor, MIT CSAIL"  
 	}
 	
 ]
