@@ -305,6 +305,11 @@ def home (request):
 	except:
 		pass
 
+def team (request):
+  data = open(p+'/fixtures/' + 'team.json').read()
+  people = json.loads(data)
+  return render_to_response('team.html', {'people': people})
+
 def conf (request, conf):
 	conf = conf.lower()
 	try:
