@@ -22,10 +22,6 @@ The Meetups feature allows you to discover people with similar interests as your
 <div id="simiar_people_page">
   {% if similar_people|length %}
   <h3 class="collapsible-title" id="similar_people_toggle"> People who have similar interests as you</h3>
-  {% else %}
-  <h3>We tried hard but we couldn't find anybody having similar interests as you, it may be because you haven't starred enough papers.</h3>  
-  {% endif %}
-
   <div id="similar_people_container">
     <table id="similar_people" class="paper-container"> 
       {% for p in similar_people %}
@@ -42,6 +38,9 @@ The Meetups feature allows you to discover people with similar interests as your
       {% endfor %}
     </table>
   </div>
+  {% else %}
+  <span class="bold">We tried hard but we couldn't find anybody having similar interests as you, it may be because you haven't starred enough papers.</span>  
+  {% endif %}
 
 </div>  <!-- similar people -->
 {% endif %}
