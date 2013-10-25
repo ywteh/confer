@@ -1480,6 +1480,7 @@ function populate_papers(){
 
 function populate_recs(){
     $("#recs_toggle").hide()
+    $('#show_recs').hide()
     if(typeof recommended == "undefined" || recommended == null){
         console.log("Error populating recommendations.")
         return
@@ -1513,6 +1514,7 @@ function populate_recs(){
 
 function populate_likes(){
     $("#likes_toggle").hide()
+    $('#show_likes').hide()
     if(typeof starred == "undefined" || starred == null){
         console.log("Error populating stars.")
         return
