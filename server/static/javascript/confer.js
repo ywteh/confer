@@ -1479,8 +1479,6 @@ function populate_papers(){
 
 
 function populate_recs(){
-    $("#recs_toggle").hide()
-    $('#show_recs').hide()
     if(typeof recommended == "undefined" || recommended == null){
         console.log("Error populating recommendations.")
         return
@@ -1489,11 +1487,7 @@ function populate_recs(){
         console.log("Error fetching entities.")
         return
     }
-    if (recommended.length == 0){
-        return
-    }
 
-    $("#recs_toggle").show()
     var raw_html = ''   
     for(var r in recommended){
         raw_html += get_paper_html(recommended[r]['id'])
