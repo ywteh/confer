@@ -701,28 +701,6 @@ function refresh_recommendations(){
 }
 
 
-function get_short_session_info_of_paper(id){
-  var result = "";
-  var session = sessions[entities[id].session];
-  var date = "";
-  if (session.date == "Monday")
-    date = "Mon";
-  if (typeof session !== "undefined"){
-    result += session.date.substring(0,3) + " " + session.time.substr(0,5) + " | " + session.room + " | " + session.s_title;
-  }
-  return result;
-}
-
-function get_session_info_of_paper(id){
-  var result = "";
-  var session = sessions[entities[id].session];
-  if (typeof session !== "undefined"){
-    result += session.date + " | " + session.time + " | " + session.room + " | " + session.s_title;
-  }
-  return result;
-}
-
-
 
 function select_paper(id){
     if(window.location.pathname.endsWith('/paper')){
@@ -969,7 +947,7 @@ function get_selected_paper_html(id){
 
     raw_html += '<h3>' + entities[id].title
     if(entities[id].subtype != null){
-        raw_html += '<span class="paper-subtype">' + entities[id].subtype + '</span>'
+        raw_html += '<span class="paper-subtype"> -- ' + entities[id].subtype + '</span>'
     }
     
     
@@ -989,7 +967,6 @@ function get_selected_paper_html(id){
         
     }
     raw_html += '</li>'
-    raw_html += '<li class="paper-selected-session">' + get_session_info_of_paper(id) + '</li>'
     raw_html += '<hr />'
     raw_html += '<li>' + entities[id].abstract + '</li>'
     if(entities[id].keywords != null){
