@@ -1,13 +1,8 @@
 CACHE MANIFEST
-# version 1.000000
+# version 1.011
 
-/static/conf/sigmod2013/data/papers.json
-/static/conf/sigmod2013/data/sessions.json
-/static/conf/sigmod2013/data/schedule.json
-/static/conf/sigmod2013/data/offline_recs.json
-/static/conf/sigmod2013/data/filters.json
-/static/conf/sigmod2013/logo/cover.png
-/static/conf/sigmod2013/logo/logo.png
+/home
+/team
 
 /static/css/confer.css
 /static/css/third-party/jquery-ui.css
@@ -61,7 +56,13 @@ CACHE MANIFEST
 /static/img/w_tw.png
 /static/img/play.png
 
+/static/conf/sigmod2013/data/papers.json
+/static/conf/sigmod2013/data/sessions.json
+/static/conf/sigmod2013/data/offline_recs.json
+/static/conf/sigmod2013/data/schedule.json
+/static/conf/sigmod2013/data/filters.json
+/static/conf/sigmod2013/logo/logo.png
+
 
 NETWORK:
 *
-

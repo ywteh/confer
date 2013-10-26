@@ -56,12 +56,14 @@ CACHE MANIFEST
 /static/img/w_tw.png
 /static/img/play.png
 
-/static/conf/ijcai2013/data/papers.json
-/static/conf/ijcai2013/data/sessions.json
-/static/conf/ijcai2013/data/offline_recs.json
-/static/conf/ijcai2013/data/schedule.json
-/static/conf/ijcai2013/data/filters.json
-/static/conf/ijcai2013/logo/logo.png
+/static/conf/acmmm2013/logo/cover.png
+/static/conf/chi2013/logo/cover.png
+/static/conf/ictir2013/logo/cover.png
+/static/conf/ijcai2013/logo/cover.png
+/static/conf/iswc2013/logo/cover.png
+/static/conf/kdd2013/logo/cover.png
+/static/conf/sigir2013/logo/cover.png
+/static/conf/sigmod2013/logo/cover.png
 
 
 NETWORK:

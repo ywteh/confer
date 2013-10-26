@@ -1,20 +1,10 @@
 import sys, os, json, csv, re, difflib
 
+static_manifest='''CACHE MANIFEST
+# version 1.011
 
-for conf in os.listdir("server/static/conf/"):
-	if(conf.startswith('.')):
-		continue
-
-	manifest='''CACHE MANIFEST
-# version %f
-
-/static/conf/%s/data/papers.json
-/static/conf/%s/data/sessions.json
-/static/conf/%s/data/schedule.json
-/static/conf/%s/data/offline_recs.json
-/static/conf/%s/data/filters.json
-/static/conf/%s/logo/cover.png
-/static/conf/%s/logo/logo.png
+/home
+/team
 
 /static/css/confer.css
 /static/css/third-party/jquery-ui.css
@@ -68,13 +58,34 @@ for conf in os.listdir("server/static/conf/"):
 /static/img/w_tw.png
 /static/img/play.png
 
+'''
+home_manifest = ''
+
+post_manifest = '''
 
 NETWORK:
 *
+'''
 
-''' % (1.01, conf, conf, conf, conf, conf, conf, conf)
-	print conf
+for conf in os.listdir("server/static/conf/"):
+	if '.' in conf:
+		continue
+
+	dynamic_manifest = ''
+	dynamic_path = '/static/conf/%s/' %(conf)
+
+	dynamic_manifest += dynamic_path + 'data/papers.json\n'
+	dynamic_manifest += dynamic_path + 'data/sessions.json\n'
+	dynamic_manifest += dynamic_path + 'data/offline_recs.json\n'
+	dynamic_manifest += dynamic_path + 'data/schedule.json\n'
+	dynamic_manifest += dynamic_path + 'data/filters.json\n'
+	dynamic_manifest += dynamic_path + 'logo/logo.png\n'
+
+	home_manifest += dynamic_path + 'logo/cover.png\n'
 
 	p = open('server/static/conf/%s/cache.manifest' %(conf),'w+')
-	p.write(manifest)
+	p.write(static_manifest + dynamic_manifest + post_manifest)
+
+p = open('server/static/conf/cache.manifest','w+')
+p.write(static_manifest + home_manifest + post_manifest)
  
