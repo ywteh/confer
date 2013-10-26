@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0002
+# version 1.0003
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/static/conf/acmmm2013/
-/static/conf/acmmm2013/papers
-/static/conf/acmmm2013/schedule
-/static/conf/acmmm2013/meetups
-/static/conf/acmmm2013/paper
+/conf/acmmm2013/
+/conf/acmmm2013/papers
+/conf/acmmm2013/schedule
+/conf/acmmm2013/meetups
+/conf/acmmm2013/paper
 *

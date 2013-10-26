@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0002
+# version 1.0003
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/static/conf/kdd2013/
-/static/conf/kdd2013/papers
-/static/conf/kdd2013/schedule
-/static/conf/kdd2013/meetups
-/static/conf/kdd2013/paper
+/conf/kdd2013/
+/conf/kdd2013/papers
+/conf/kdd2013/schedule
+/conf/kdd2013/meetups
+/conf/kdd2013/paper
 *

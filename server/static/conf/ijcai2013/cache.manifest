@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0002
+# version 1.0003
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/static/conf/ijcai2013/
-/static/conf/ijcai2013/papers
-/static/conf/ijcai2013/schedule
-/static/conf/ijcai2013/meetups
-/static/conf/ijcai2013/paper
+/conf/ijcai2013/
+/conf/ijcai2013/papers
+/conf/ijcai2013/schedule
+/conf/ijcai2013/meetups
+/conf/ijcai2013/paper
 *

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0002
+# version 1.0003
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/static/conf/iswc2013/
-/static/conf/iswc2013/papers
-/static/conf/iswc2013/schedule
-/static/conf/iswc2013/meetups
-/static/conf/iswc2013/paper
+/conf/iswc2013/
+/conf/iswc2013/papers
+/conf/iswc2013/schedule
+/conf/iswc2013/meetups
+/conf/iswc2013/paper
 *

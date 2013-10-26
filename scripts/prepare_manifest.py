@@ -89,7 +89,7 @@ for conf in os.listdir("server/static/conf/"):
 	conf_network_manifest += conf_web_path + 'paper\n'
 	conf_network_manifest += '*\n'
 
-	home_cache_manifest += dynamic_path + 'logo/cover.png\n'
+	home_cache_manifest += conf_static_path + 'logo/cover.png\n'
 
 	p = open('server/static/conf/%s/cache.manifest' %(conf),'w+')
 	p.write(static_cache_manifest + conf_cache_manifest + static_network_manifest + conf_network_manifest)
