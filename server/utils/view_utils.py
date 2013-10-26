@@ -74,13 +74,16 @@ def get_similar_people (login, conf):
 	conference = Conference.objects.get(unique_name=conf)
 	registrations = Registration.objects.filter(conference=conference)
 	for r in registrations:
-		r_likes = Likes.objects.get(registration=r)
-		likes[r.user] = {
-				'name': r.user.f_name + ' ' + r.user.l_name,
-				'email': r.user.email,
-				'meetups_enabled': r.user.meetups_enabled,
-				'papers': set(json.loads(r_likes.likes))
-		}
+		try:
+			r_likes = Likes.objects.get(registration=r)
+			likes[r.user] = {
+					'name': r.user.f_name + ' ' + r.user.l_name,
+					'email': r.user.email,
+					'meetups_enabled': r.user.meetups_enabled,
+					'papers': set(json.loads(r_likes.likes))
+			}
+		except Likes.DoesNotExist:
+			pass
 
 	for person in likes:	
 		p_likes = likes[person]
