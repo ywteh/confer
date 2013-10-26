@@ -1,7 +1,7 @@
 import sys, os, json, csv, re, difflib
 
 static_manifest='''CACHE MANIFEST
-# version 1.0001
+# version 1.0002
 
 /home
 /team
