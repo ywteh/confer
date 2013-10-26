@@ -1,7 +1,7 @@
 import sys, os, json, csv, re, difflib
 
 static_cache_manifest='''CACHE MANIFEST
-# version 1.0002
+# version 1.0003
 
 /team
 
@@ -72,20 +72,21 @@ for conf in os.listdir("server/static/conf/"):
 
 	conf_cache_manifest = ''
 	conf_network_manifest = ''
-	dynamic_path = '/static/conf/%s/' %(conf)
+	conf_static_path = '/static/conf/%s/' %(conf)
+	conf_web_path = '/conf/%s/' %(conf)
 
-	conf_cache_manifest += dynamic_path + 'data/papers.json\n'
-	conf_cache_manifest += dynamic_path + 'data/sessions.json\n'
-	conf_cache_manifest += dynamic_path + 'data/offline_recs.json\n'
-	conf_cache_manifest += dynamic_path + 'data/schedule.json\n'
-	conf_cache_manifest += dynamic_path + 'data/filters.json\n'
-	conf_cache_manifest += dynamic_path + 'logo/logo.png\n'
+	conf_cache_manifest += conf_static_path + 'data/papers.json\n'
+	conf_cache_manifest += conf_static_path + 'data/sessions.json\n'
+	conf_cache_manifest += conf_static_path + 'data/offline_recs.json\n'
+	conf_cache_manifest += conf_static_path + 'data/schedule.json\n'
+	conf_cache_manifest += conf_static_path + 'data/filters.json\n'
+	conf_cache_manifest += conf_static_path + 'logo/logo.png\n'
 
-	conf_network_manifest += dynamic_path + '\n'
-	conf_network_manifest += dynamic_path + 'papers\n'
-	conf_network_manifest += dynamic_path + 'schedule\n'
-	conf_network_manifest += dynamic_path + 'meetups\n'
-	conf_network_manifest += dynamic_path + 'paper\n'
+	conf_network_manifest += conf_web_path + '\n'
+	conf_network_manifest += conf_web_path + 'papers\n'
+	conf_network_manifest += conf_web_path + 'schedule\n'
+	conf_network_manifest += conf_web_path + 'meetups\n'
+	conf_network_manifest += conf_web_path + 'paper\n'
 	conf_network_manifest += '*\n'
 
 	home_cache_manifest += dynamic_path + 'logo/cover.png\n'
