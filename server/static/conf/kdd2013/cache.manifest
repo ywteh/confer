@@ -1,4 +1,3 @@
-
 CACHE MANIFEST
 # version 1.000000
 
@@ -16,6 +15,8 @@ CACHE MANIFEST
 /static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
+
+/static/fonts/cantoraone.woff
 
 /static/img/affiliation.svg
 /static/img/acm.png

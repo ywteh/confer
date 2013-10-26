@@ -5,8 +5,7 @@ for conf in os.listdir("server/static/conf/"):
 	if(conf.startswith('.')):
 		continue
 
-	manifest='''
-CACHE MANIFEST
+	manifest='''CACHE MANIFEST
 # version %f
 
 /static/conf/%s/data/papers.json
@@ -23,6 +22,8 @@ CACHE MANIFEST
 /static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
+
+/static/fonts/cantoraone.woff
 
 /static/img/affiliation.svg
 /static/img/acm.png
@@ -71,7 +72,7 @@ CACHE MANIFEST
 NETWORK:
 *
 
-''' % (1.0, conf, conf, conf, conf, conf, conf, conf)
+''' % (1.01, conf, conf, conf, conf, conf, conf, conf)
 	print conf
 
 	p = open('server/static/conf/%s/cache.manifest' %(conf),'w+')

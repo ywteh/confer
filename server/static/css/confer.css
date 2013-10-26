@@ -21,6 +21,13 @@ body {
 	overflow: auto;
 }
 
+@font-face {
+  font-family: 'Cantora One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cantora One'), local('CantoraOne-Regular'), url(/static/fonts/cantoraone.woff) format('woff');
+}
+
 
 #logo{
   font-family: 'Cantora One', cursive;
