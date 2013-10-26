@@ -1,16 +1,19 @@
+
 CACHE MANIFEST
-# version 1.1
+# version 1.000000
 
 /static/conf/ijcai2013/data/papers.json
 /static/conf/ijcai2013/data/sessions.json
 /static/conf/ijcai2013/data/schedule.json
 /static/conf/ijcai2013/data/offline_recs.json
 /static/conf/ijcai2013/data/filters.json
-
 /static/conf/ijcai2013/logo/cover.png
 /static/conf/ijcai2013/logo/logo.png
 
+/static/css/confer.css
 /static/css/third-party/jquery-ui.css
+
+/static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 

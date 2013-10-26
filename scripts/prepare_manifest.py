@@ -1,14 +1,21 @@
+import sys, os, json, csv, re, difflib
 
+
+for conf in os.listdir("server/static/conf/"):
+	if(conf.startswith('.')):
+		continue
+
+	manifest='''
 CACHE MANIFEST
-# version 1.000000
+# version %f
 
-/static/conf/sigmod2013/data/papers.json
-/static/conf/sigmod2013/data/sessions.json
-/static/conf/sigmod2013/data/schedule.json
-/static/conf/sigmod2013/data/offline_recs.json
-/static/conf/sigmod2013/data/filters.json
-/static/conf/sigmod2013/logo/cover.png
-/static/conf/sigmod2013/logo/logo.png
+/static/conf/%s/data/papers.json
+/static/conf/%s/data/sessions.json
+/static/conf/%s/data/schedule.json
+/static/conf/%s/data/offline_recs.json
+/static/conf/%s/data/filters.json
+/static/conf/%s/logo/cover.png
+/static/conf/%s/logo/logo.png
 
 /static/css/confer.css
 /static/css/third-party/jquery-ui.css
@@ -63,3 +70,8 @@ CACHE MANIFEST
 
 NETWORK:
 *
+''' % (1.0, conf, conf, conf, conf, conf, conf, conf)
+
+	p = open('server/static/conf/%s/cache.manifest' %(conf),'w')
+	p.write(manifest)
+ 
