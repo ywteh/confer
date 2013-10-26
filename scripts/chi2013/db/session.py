@@ -40,10 +40,11 @@ class Session:
 			personas = unicode(row[5], "ISO-8859-1").strip()
 			venue = unicode(row[6], "ISO-8859-1").strip()
 			communities = json.loads(row[7])
+			communities.extend(json.loads(row[9]))
 			title = unicode(row[8], "ISO-8859-1").strip()	
 			award = row[10]
 			hm = row[11]			
-			self.sessions[id]={'day': date, 'time': t, 'room': room, 'personas': personas, 'communities': communities, 'venue':venue, 's_title':title, 'submissions':submissions}
+			self.sessions[id]={'day': date, 'time': t, 'room': room, 'personas': personas, 's_tags': list(set(communities)), 'venue':venue, 's_title':title, 'submissions':submissions}
 
 
 	def get_sessions(self):

@@ -673,6 +673,7 @@ function get_paper_html(id){
     raw_html += '</li>'
     raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span>'
     raw_html += '<span class="rec-icon">recommended</span>'
+
     if (entities[id].tags != null){
       $.each(entities[id].tags, function(i, v){
         raw_html += '<span class="tag-icon ' + v + '">' + v + '</span>'
@@ -735,7 +736,7 @@ function get_session_html(id, day, time, slot_class, room){
         return ''
     }
     var award_type = get_award_type(sessions[id])
-    var award=''
+    var award = ''
     if(award_type == 'award'){
         award += ' s_award'
     }
@@ -745,7 +746,13 @@ function get_session_html(id, day, time, slot_class, room){
     if(award_type == 'nominated'){
         award += ' s_nominated'
     }
-    var raw_html = '<div class="session ' + award +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '
+
+    var tags = ''
+    if(sessions[id].s_tags){
+        tags = ' tags'
+    }
+
+    var raw_html = '<div class="session ' + award +  ' ' + tags +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -766,7 +773,11 @@ function get_session_html(id, day, time, slot_class, room){
     raw_html += '</h3></li>'
     raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span><span class="rec-icon">recommended</span>'
 
-    
+    if (sessions[id].s_tags != null){
+      $.each(sessions[id].s_tags, function(i, v){
+        raw_html += '<span class="tag-icon ' + v + '">' + v + '</span>'
+      });
+    }
     
     raw_html += '</li>';
     raw_html += '<li class="session-info"><span class="session-room">Room: ' + room + '</span></li>'
