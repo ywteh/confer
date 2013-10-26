@@ -1,23 +1,16 @@
 CACHE MANIFEST
 # version 1.1
 
-/sigir2013/papers
-/sigir2013/schedule
-/sigir2013/paper
+/static/conf/sigmod2013/data/papers.json
+/static/conf/sigmod2013/data/sessions.json
+/static/conf/sigmod2013/data/schedule.json
+/static/conf/sigmod2013/data/offline_recs.json
+/static/conf/sigmod2013/data/filters.json
 
-/static/conf/sigir2013/data/papers.json
-/static/conf/sigir2013/data/sessions.json
-/static/conf/sigir2013/data/schedule.json
-/static/conf/sigir2013/data/offline_recs.json
-/static/conf/sigir2013/data/filters.json
-
-/static/conf/sigir2013/logo/cover.png
-/static/conf/sigir2013/logo/logo.png
+/static/conf/sigmod2013/logo/cover.png
+/static/conf/sigmod2013/logo/logo.png
 
 /static/css/third-party/jquery-ui.css
-/static/css/confer.css
-
-/static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 

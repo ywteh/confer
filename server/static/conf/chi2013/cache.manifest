@@ -1,10 +1,6 @@
 CACHE MANIFEST
 # version 1.1
 
-/chi2013/papers
-/chi2013/schedule
-/chi2013/paper
-
 /static/conf/chi2013/data/papers.json
 /static/conf/chi2013/data/sessions.json
 /static/conf/chi2013/data/schedule.json
@@ -15,9 +11,6 @@ CACHE MANIFEST
 /static/conf/chi2013/logo/logo.png
 
 /static/css/third-party/jquery-ui.css
-/static/css/confer.css
-
-/static/javascript/confer.js
 /static/javascript/third-party/jquery.min.js
 /static/javascript/third-party/jquery-ui.js
 
