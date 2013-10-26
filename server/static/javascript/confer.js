@@ -452,72 +452,6 @@ function bind_events(){
 
     });
 
-    $('.send_tweet').on('click', function(event){
-        event.stopPropagation();
-        var id = $(this).parents("tr.paper").first().attr("data");
-        var url = "http://mychi.csail.mit.edu/paper#" + id;
-        //var title = $(this).siblings("a").text();
-        var title = entities[id].title;
-        var message = "Looking forward to seeing \"" + remove_special_chars(title) + "\""; 
-        window.open ("https://twitter.com/share?" + 
-            "url=" + encodeURIComponent(url) + 
-            "&counturl=" + encodeURIComponent(url) +
-            "&text=" + encodeURIComponent(message) + 
-            "&hashtags=" + encodeURIComponent('chi2013') + 
-            "&via=" + encodeURIComponent('mychi2013'), 
-            "twitter", "width=500,height=300");
-    });
-
-    $('.send_session_tweet').on('click', function(event){
-        event.stopPropagation();
-        var id = $(this).parents(".session").first().attr("data");
-        var url = document.location;
-        //var title = $(this).siblings(".session-title").text();
-        var title = sessions[id].s_title;
-        var message = "Looking forward to seeing \"" + remove_special_chars(title) + "\" " + sessions[id].date + " | " + sessions[id].time + " | " + sessions[id].room;
-        window.open ("https://twitter.com/share?" + 
-            //"url=" + encodeURIComponent(url) + 
-            //"&counturl=" + encodeURIComponent(url) +
-            "&text=" + encodeURIComponent(message) + 
-            "&hashtags=" + encodeURIComponent('chi2013') + 
-            "&via=" + encodeURIComponent('mychi2013'), 
-            "twitter", "width=500,height=300");
-    });
-
-    $('.send_email').on('click', function(event){
-        event.stopPropagation();
-        var id = $(this).parents("tr.paper").first().attr("data");
-        var url = "http://mychi.csail.mit.edu/paper#" + id;
-        var title = remove_special_chars(entities[id].title);
-        var message = "Hi there!\n\nI found this interesting paper at CHI 2013 that you may be interested in:\n"
-          + title + "\n" + url;
-        var link = "mailto:";
-        //var link = "<a id='email-link' href='mailto:";
-        link += "?to=&subject=" + encodeURIComponent("Paper at CHI2013: " + title);
-        link += "&body=" + encodeURIComponent(message);
-        //var link = $(link); 
-        //link.appendTo("#page");
-        //$("#email-link").trigger("click");//.remove();
-        window.location.href = link;
-    });
-
-
-    $('.send_session_email').on('click', function(event){
-        event.stopPropagation();
-        var id = $(this).parents(".session").first().attr("data");
-        var url = document.location;
-        var title = remove_special_chars(sessions[id].s_title);
-        var message = "Hi there!\n\nI found this interesting session at CHI 2013 that you may be interested in:\n"
-          + title + "\n" + url + "\n" + sessions[id].date + " | " + sessions[id].time + " | " + sessions[id].room;
-        var link = "mailto:";
-        //var link = "<a id='email-link' href='mailto:";
-        link += "?to=&subject=" + encodeURIComponent("Session at CHI2013: " + title);
-        link += "&body=" + encodeURIComponent(message);
-        //var link = $(link); 
-        //link.appendTo("#page");
-        //$("#email-link").trigger("click");//.remove();
-        window.location.href = link;
-    });
 }
 
 
@@ -529,41 +463,6 @@ var delay = (function(){
     timer = setTimeout(callback, ms);
   };
 })();
-
-function remove_special_chars(str){
-    if (str == null || str == "null")
-      return "";
-    var result = str;
-    result = result.replace(/¬/g, "-"); 
-    result = result.replace(/×/g, "x"); 
-    result = result.replace(/–/g, "-"); 
-    result = result.replace(/‘/g, "'"); 
-    result = result.replace(/’/g, "'"); 
-    result = result.replace(/“/g, "\""); 
-    result = result.replace(/”/g, "\""); 
-    result = result.replace(/\\"/g, "\""); 
-    result = result.replace(/â€”/g, "-");
-    result = result.replace(/â€"/g, "-");
-    result = result.replace(/â€˜/g, "'");
-    result = result.replace(/â€œ/g, "\"");
-    result = result.replace(/â€/g, "\"");
-    result = result.replace(/Ã©/g, "é");
-    result = result.replace(/\\u2013/g, "-");
-    result = result.replace(/\\u00ac/g, "-");
-    result = result.replace(/\\u2014/g, "-");
-    result = result.replace(/\\u2018/g, "'");
-    result = result.replace(/\\u2019/g, "'");
-    result = result.replace(/\\u2022/g, "*");
-    result = result.replace(/\\u201c/g, "\"");
-    result = result.replace(/\\u201d/g, "\"");
-    result = result.replace(/â€™/g, "'");
-    result = result.replace(/â€“/g, "-");
-    result = result.replace(/™/g, "(TM)"); 
-    result = result.replace(/\\\//g, "/"); 
-    result = result.replace(/\\/g, ""); 
-    result = result.replace(/\\ \\/g, ""); 
-    return result;
-}
 
 
 function search_session(str){
@@ -753,7 +652,7 @@ function get_paper_html(id){
     raw_html += '<td class="content">'    
     raw_html += '<ul>'
 
-    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ remove_special_chars(entities[id].title) +'</span>'
+    raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ entities[id].title +'</span>'
     if(entities[id].type!=null){
         raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].type + '</span>'
     }
@@ -764,18 +663,16 @@ function get_paper_html(id){
     raw_html += '<li class="paper-authors">'
     for(author in entities[id].authors){
         if(entities[id].authors[author] != null){
-            raw_html += ' ' + remove_special_chars(entities[id].authors[author].name) + '&nbsp;&nbsp;&nbsp;&nbsp;'
+            raw_html += ' ' + entities[id].authors[author].name + '&nbsp;&nbsp;&nbsp;&nbsp;'
         }
     }
     raw_html += '</li>'
-    raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span>'
+    raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span><span class="rec-icon">recommended</span></li>'
    
-    raw_html += '<span class="rec-icon">recommended</span>'
-    
 
     if (entities[id].abstract != null)
         if(entities[id].abstract != ""){
-            raw_html += '<li class="paper-cb">'+ remove_special_chars(entities[id].abstract.slice(0,350)) + '...</li>'
+            raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '...</li>'
         }else{
             raw_html += '<li class="paper-cb">ABSTRACT not available.</li>'
         }
@@ -1202,7 +1099,6 @@ function compute_recs(){
         score = score - 0.01
 
     }
-    console.log(final_recs)
     recommended = final_recs
 }
 
