@@ -922,7 +922,7 @@ textarea {
 	/*background-color: #f0f4f9 !important;*/
 }
 
-.rec-icon, .award-icon, .hm-icon, .community-icon, .nominated-icon{
+.rec-icon, .award-icon, .hm-icon, .tag-icon, .nominated-icon{
   display:none;
 }
 
@@ -940,7 +940,7 @@ textarea {
   font-size: 0.9em;
 }
 
-.communities .community-icon{
+.tags .tag-icon{
   display:inline-block;
   vertical-align: top;
   margin-top: 0.2em;
