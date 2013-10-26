@@ -71,7 +71,8 @@ CACHE MANIFEST
 NETWORK:
 *
 ''' % (1.0, conf, conf, conf, conf, conf, conf, conf)
+	print conf
 
-	p = open('server/static/conf/%s/cache.manifest' %(conf),'w')
+	p = open('server/static/conf/%s/cache.manifest' %(conf),'w+')
 	p.write(manifest)
  
