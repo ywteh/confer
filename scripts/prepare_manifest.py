@@ -1,9 +1,8 @@
 import sys, os, json, csv, re, difflib
 
-static_manifest='''CACHE MANIFEST
+static_cache_manifest='''CACHE MANIFEST
 # version 1.0002
 
-/home
 /team
 
 /static/css/confer.css
@@ -59,33 +58,42 @@ static_manifest='''CACHE MANIFEST
 /static/img/play.png
 
 '''
-home_manifest = ''
+home_cache_manifest = ''
 
-post_manifest = '''
+static_network_manifest = '''
 
 NETWORK:
-*
+
 '''
 
 for conf in os.listdir("server/static/conf/"):
 	if '.' in conf:
 		continue
 
-	dynamic_manifest = ''
+	conf_cache_manifest = ''
+	conf_network_manifest = ''
 	dynamic_path = '/static/conf/%s/' %(conf)
 
-	dynamic_manifest += dynamic_path + 'data/papers.json\n'
-	dynamic_manifest += dynamic_path + 'data/sessions.json\n'
-	dynamic_manifest += dynamic_path + 'data/offline_recs.json\n'
-	dynamic_manifest += dynamic_path + 'data/schedule.json\n'
-	dynamic_manifest += dynamic_path + 'data/filters.json\n'
-	dynamic_manifest += dynamic_path + 'logo/logo.png\n'
+	conf_cache_manifest += dynamic_path + 'data/papers.json\n'
+	conf_cache_manifest += dynamic_path + 'data/sessions.json\n'
+	conf_cache_manifest += dynamic_path + 'data/offline_recs.json\n'
+	conf_cache_manifest += dynamic_path + 'data/schedule.json\n'
+	conf_cache_manifest += dynamic_path + 'data/filters.json\n'
+	conf_cache_manifest += dynamic_path + 'logo/logo.png\n'
 
-	home_manifest += dynamic_path + 'logo/cover.png\n'
+	conf_network_manifest += dynamic_path + '\n'
+	conf_network_manifest += dynamic_path + 'papers\n'
+	conf_network_manifest += dynamic_path + 'schedule\n'
+	conf_network_manifest += dynamic_path + 'meetups\n'
+	conf_network_manifest += dynamic_path + 'paper\n'
+	conf_network_manifest += '*\n'
+
+	home_cache_manifest += dynamic_path + 'logo/cover.png\n'
 
 	p = open('server/static/conf/%s/cache.manifest' %(conf),'w+')
-	p.write(static_manifest + dynamic_manifest + post_manifest)
+	p.write(static_cache_manifest + conf_cache_manifest + conf_network_manifest)
 
+home_network_manifest = static_network_manifest + '*\n'
 p = open('server/static/conf/cache.manifest','w+')
-p.write(static_manifest + home_manifest + post_manifest)
+p.write(static_cache_manifest + home_cache_manifest + home_network_manifest)
  
