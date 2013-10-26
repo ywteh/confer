@@ -43,7 +43,7 @@ class Session:
 			title = unicode(row[8], "ISO-8859-1").strip()	
 			award = row[10]
 			hm = row[11]			
-			self.sessions[id]={'date': date, 'time': t, 'room': room, 'personas': personas, 'communities': communities, 'venue':venue, 's_title':title, 'submissions':submissions, 'award':award, 'hm':hm}
+			self.sessions[id]={'day': date, 'time': t, 'room': room, 'personas': personas, 'communities': communities, 'venue':venue, 's_title':title, 'submissions':submissions}
 
 
 	def get_sessions(self):

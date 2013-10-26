@@ -720,7 +720,7 @@ function get_award_type(s) {
 
 
 
-function get_session_html(id, day, time, slot_name, room){
+function get_session_html(id, day, time, slot_class, room){
     if(sessions[id]== null){
         return ''
     }
@@ -735,7 +735,7 @@ function get_session_html(id, day, time, slot_name, room){
     if(award_type == 'nominated'){
         award += ' s_nominated'
     }
-    var raw_html = '<div class="session ' + award +  ' ' + id  + ' ' + day + ' ' + slot_name + ' '
+    var raw_html = '<div class="session ' + award +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '
               + ' ' + room + '" data="' + id + '">'
     raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
     
@@ -753,10 +753,6 @@ function get_session_html(id, day, time, slot_name, room){
         raw_html += '<span class="arrow arrow-right"></span>'
     }
     raw_html += '<span class="session-title">'+ sessions[id].s_title + '</span>'
-   /*
-    raw_html += '<span class="send_session_tweet"></span>'
-    raw_html += '<span class="send_session_email"></span>'
-    */
     raw_html += '</h3></li>'
     raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span><span class="rec-icon">recommended</span>'
 

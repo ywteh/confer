@@ -19,13 +19,13 @@ s_filters=[
 					"data":"s_recommended, .s_starred", 
 					"class":"p_session filter", 
 					"type":"p_session", 
-					"label":"Liked / Recommended"
+					"label":"Liked + Recommended"
 				},
 				{
 					"data":"s_award, .s_nominated, .s_hm", 
 					"class":"p_session filter", 
 					"type":"p_session", 
-					"label":"Award / Nominated"
+					"label":"Award + Nominated"
 				}
 		]
 	},
