@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0004
+# version 1.0005
 
 /team
 
@@ -54,7 +54,6 @@ CACHE MANIFEST
 /static/img/w_em2.png
 /static/img/w_tw.png
 /static/img/play.png
-
 /static/conf/acmmm2013/logo/cover.png
 /static/conf/chi2013/logo/cover.png
 /static/conf/ictir2013/logo/cover.png
@@ -66,5 +65,4 @@ CACHE MANIFEST
 
 
 NETWORK:
-
 *

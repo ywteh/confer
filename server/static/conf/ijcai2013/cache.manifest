@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0004
+# version 1.0005
 
 /team
 
@@ -54,7 +54,6 @@ CACHE MANIFEST
 /static/img/w_em2.png
 /static/img/w_tw.png
 /static/img/play.png
-
 /static/conf/ijcai2013/data/papers.json
 /static/conf/ijcai2013/data/sessions.json
 /static/conf/ijcai2013/data/offline_recs.json
@@ -64,7 +63,6 @@ CACHE MANIFEST
 
 
 NETWORK:
-
 /ijcai2013/
 /ijcai2013/papers
 /ijcai2013/schedule

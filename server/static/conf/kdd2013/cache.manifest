@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0004
+# version 1.0005
 
 /team
 
@@ -54,7 +54,6 @@ CACHE MANIFEST
 /static/img/w_em2.png
 /static/img/w_tw.png
 /static/img/play.png
-
 /static/conf/kdd2013/data/papers.json
 /static/conf/kdd2013/data/sessions.json
 /static/conf/kdd2013/data/offline_recs.json
@@ -64,7 +63,6 @@ CACHE MANIFEST
 
 
 NETWORK:
-
 /kdd2013/
 /kdd2013/papers
 /kdd2013/schedule
