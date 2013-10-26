@@ -35,7 +35,9 @@ Confer Template Layout
   top:0.2em;
   left:0;
   color: #F6F6F6;
+  {% if conf %}
   background-image: url({% block logo %}/static/conf/{{conf}}/logo/logo.png {% endblock %});
+  {% endif %}
   background-size: 11em 3.7em;
   background-repeat: no-repeat;
 }
