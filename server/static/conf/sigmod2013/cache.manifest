@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0003
+# version 1.0004
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/conf/sigmod2013/
-/conf/sigmod2013/papers
-/conf/sigmod2013/schedule
-/conf/sigmod2013/meetups
-/conf/sigmod2013/paper
+/sigmod2013/
+/sigmod2013/papers
+/sigmod2013/schedule
+/sigmod2013/meetups
+/sigmod2013/paper
 *

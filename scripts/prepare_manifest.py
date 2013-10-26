@@ -1,7 +1,7 @@
 import sys, os, json, csv, re, difflib
 
 static_cache_manifest='''CACHE MANIFEST
-# version 1.0003
+# version 1.0004
 
 /team
 
@@ -73,7 +73,7 @@ for conf in os.listdir("server/static/conf/"):
 	conf_cache_manifest = ''
 	conf_network_manifest = ''
 	conf_static_path = '/static/conf/%s/' %(conf)
-	conf_web_path = '/conf/%s/' %(conf)
+	conf_web_path = '/%s/' %(conf)
 
 	conf_cache_manifest += conf_static_path + 'data/papers.json\n'
 	conf_cache_manifest += conf_static_path + 'data/sessions.json\n'

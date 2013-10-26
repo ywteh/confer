@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0003
+# version 1.0004
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/conf/sigir2013/
-/conf/sigir2013/papers
-/conf/sigir2013/schedule
-/conf/sigir2013/meetups
-/conf/sigir2013/paper
+/sigir2013/
+/sigir2013/papers
+/sigir2013/schedule
+/sigir2013/meetups
+/sigir2013/paper
 *

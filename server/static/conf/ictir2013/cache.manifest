@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0003
+# version 1.0004
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/conf/ictir2013/
-/conf/ictir2013/papers
-/conf/ictir2013/schedule
-/conf/ictir2013/meetups
-/conf/ictir2013/paper
+/ictir2013/
+/ictir2013/papers
+/ictir2013/schedule
+/ictir2013/meetups
+/ictir2013/paper
 *

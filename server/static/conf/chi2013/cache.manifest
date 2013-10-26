@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 1.0003
+# version 1.0004
 
 /team
 
@@ -65,9 +65,9 @@ CACHE MANIFEST
 
 NETWORK:
 
-/conf/chi2013/
-/conf/chi2013/papers
-/conf/chi2013/schedule
-/conf/chi2013/meetups
-/conf/chi2013/paper
+/chi2013/
+/chi2013/papers
+/chi2013/schedule
+/chi2013/meetups
+/chi2013/paper
 *
