@@ -435,9 +435,9 @@ textarea {
 
 
 
-#headlink-left a{
+#headlink-left a#logo{
   text-decoration: none;
-  color: #F6F6F6;
+  color: #E9E581;
   width: 7em;
   height: 1.2em;
   display: inline-block;
