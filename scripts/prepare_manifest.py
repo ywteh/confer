@@ -1,7 +1,7 @@
 import sys, os, json, csv, re, difflib
 
 static_cache_manifest='''CACHE MANIFEST
-# version 1.0004
+# version 1.0005
 
 /team
 
@@ -56,14 +56,12 @@ static_cache_manifest='''CACHE MANIFEST
 /static/img/w_em2.png
 /static/img/w_tw.png
 /static/img/play.png
-
 '''
 home_cache_manifest = ''
 
 static_network_manifest = '''
 
 NETWORK:
-
 '''
 
 for conf in os.listdir("server/static/conf/"):
