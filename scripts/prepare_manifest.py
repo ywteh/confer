@@ -70,6 +70,7 @@ CACHE MANIFEST
 
 NETWORK:
 *
+
 ''' % (1.0, conf, conf, conf, conf, conf, conf, conf)
 	print conf
 
