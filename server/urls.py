@@ -10,15 +10,13 @@ urlpatterns = patterns('',
     url(r'^like/(\w+)$', 'server.views.like'),
     url(r'^log/(\w+)$', 'server.views.log'),
 
-    url(r'^login', 'server.views.login'),
-    url(r'^register', 'server.views.register'),
-    url(r'^logout', 'server.views.logout'),
+    url(r'^login', 'server.auth.login'),
+    url(r'^register', 'server.auth.register'),
+    url(r'^logout', 'server.auth.logout'),
 
-    url(r'^forgot', 'server.views.forgot'),
-    url(r'^reset/(\w+)', 'server.views.reset'),
-    url(r'^settings', 'server.views.settings'),
-
-    url(r'^error', 'server.views.error'),
+    url(r'^forgot', 'server.auth.forgot'),
+    url(r'^reset/(\w+)', 'server.auth.reset'),
+    url(r'^settings', 'server.auth.settings'),
 
     #move this matching in the end
     url(r'^(\w+?)/papers$', 'server.views.papers'),
