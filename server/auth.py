@@ -24,6 +24,8 @@ if(os.path.abspath(p+"/..") not in sys.path):
 kLogIn = "SESSION_LOGIN"
 kConf = "SESSION_CONF"
 kName = "SESSION_NAME"
+kFName = "SESSION_F_NAME"
+kLName = "SESSION_L_NAME"
 
 '''
 LOGIN/REGISTER/RESET
@@ -73,6 +75,8 @@ def login (request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
+            request.session[kFName] = user.f_name
+            request.session[kLName] = user.l_name
             return HttpResponseRedirect(redirect_url)
         except User.DoesNotExist:
         	try:
@@ -126,6 +130,8 @@ def register (request):
             request.session.flush()
             request.session[kLogIn] = user.email
             request.session[kName] = user.f_name
+            request.session[kFName] = user.f_name
+            request.session[kLName] = user.l_name
             return HttpResponseRedirect(redirect_url)
         except IntegrityError:
             errors.append("Account already exists. Please Log In.")

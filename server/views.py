@@ -123,23 +123,33 @@ def data (request):
 		conf = request.session[kConf]
 		registration = get_registration(login, conf)
 		data = None
+
 		try:
 			data = Likes.objects.get(registration = registration)
 		except:
-			data = Likes(registration = registration, likes = json.dumps([]))
+			pass
+
+		if not data or not data.likes:
+			default_likes = []
+			try:
+				prefs = json.loads(
+	      		open(p+'/data/%s/prefs.json' %(conf)).read())
+				name = request.session[kFName] + ' ' + request.session[kLName]
+				name = name.lower()
+
+				default_likes = prefs[name]
+	    except Exception, e:
+	    	pass
+
+	    data = Likes(registration = registration, likes=json.dumps(default_likes))
 			data.save()
-		l = data.likes
-		if(l!=None):
-			likes.extend(json.loads(l))
-		else:
-			data.likes = json.dumps([])
-			data.save()
+
+		likes.extend(json.loads(data.likes))
 		#print likes
 		#print recs
-	except:
+	except Exception, e:
 		error = True
-		e_type, value, tb = sys.exc_info()
-		msg = value.message
+		msg = e.message
 	return HttpResponse(json.dumps({
 			'login_id': login,
 			'login_name': request.session[kName],
