@@ -13,7 +13,7 @@ from models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
 if(os.path.abspath(p+"/..") not in sys.path):
-	sys.path.append(os.path.abspath(p+"/.."))
+  sys.path.append(os.path.abspath(p+"/.."))
 
 
 '''
@@ -31,125 +31,126 @@ kLName = "SESSION_L_NAME"
 LOGIN/REGISTER/RESET
 '''
 def login_required (f):
-    def wrap (request, *args, **kwargs):
-        if kLogIn not in request.session.keys():
-        	if(len(args)>0):
-        		redirect_url = urlquote_plus("/%s/%s" %(args[0], f.__name__))
-        	else:
-        		redirect_url = "/"
-        	return HttpResponseRedirect("/login?redirect_url=%s" %(redirect_url))
-        return f(request, *args, **kwargs)
-    wrap.__doc__ = f.__doc__
-    wrap.__name__ = f.__name__
-    return wrap
+  def wrap (request, *args, **kwargs):
+      if kLogIn not in request.session.keys():
+        if(len(args)>0):
+          redirect_url = urlquote_plus("/%s/%s" %(args[0], f.__name__))
+        else:
+          redirect_url = "/"
+        return HttpResponseRedirect("/login?redirect_url=%s" %(redirect_url))
+      return f(request, *args, **kwargs)
+  wrap.__doc__ = f.__doc__
+  wrap.__name__ = f.__name__
+  return wrap
 
 
 def login_form (request, redirect_url='/', errors=[]):
-    c = {'redirect_url':redirect_url, 'errors':errors}
-    c.update(csrf(request))
-    return render_to_response('login.html', c)
+  c = {'redirect_url':redirect_url, 'errors':errors}
+  c.update(csrf(request))
+  return render_to_response('login.html', c)
 
 
 def register_form (request, redirect_url='/', errors=[]):
-    c = {'redirect_url':redirect_url, 'errors':errors}
-    c.update(csrf(request))
-    return render_to_response('register.html', c)
+  c = {'redirect_url':redirect_url, 'errors':errors}
+  c.update(csrf(request))
+  return render_to_response('register.html', c)
 
 
 def login (request):
+  redirect_url = '/'
+  if('redirect_url' in request.GET.keys()):
+    redirect_url = request.GET['redirect_url']
+
+  if not redirect_url or redirect_url == '':
     redirect_url = '/'
-    if('redirect_url' in request.GET.keys()):
-    	redirect_url = request.GET['redirect_url']
 
-    if not redirect_url or redirect_url == '':
-      redirect_url = '/'
-
-    if request.method == "POST":
-    	errors = []
-    	if('redirect_url' in request.POST.keys()):
-    		redirect_url = request.POST['redirect_url']
+  if request.method == "POST":
+    errors = []
+    if('redirect_url' in request.POST.keys()):
+      redirect_url = request.POST['redirect_url']
+      try:
+        login_email = request.POST["login_email"].lower()
+        login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
+        user = User.objects.get(email=login_email, password=login_password)
+        request.session.flush()
+        request.session[kLogIn] = user.email
+        request.session[kName] = user.f_name
+        request.session[kFName] = user.f_name
+        request.session[kLName] = user.l_name
+        return HttpResponseRedirect(redirect_url)
+      except User.DoesNotExist:
         try:
-            login_email = request.POST["login_email"].lower()
-            login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
-            user = User.objects.get(email=login_email, password=login_password)
-            request.session.flush()
-            request.session[kLogIn] = user.email
-            request.session[kName] = user.f_name
-            request.session[kFName] = user.f_name
-            request.session[kLName] = user.l_name
-            return HttpResponseRedirect(redirect_url)
+          User.objects.get(email=login_email)
+          errors.append('Wrong password.')
         except User.DoesNotExist:
-        	try:
-        		User.objects.get(email=login_email)
-        		errors.append('Wrong password.')
-        	except User.DoesNotExist:
-        		errors.append('Could not find any account associated with email address: %s.<br /><a href="/register">Click Here</a> to create an account.' %(login_email))
-        	return login_form(request, redirect_url = redirect_url, errors = errors) 
-        except:
-            errors.append('Login failed.')
-            return login_form(request, redirect_url = redirect_url, errors = errors)          
-    else:
-        return login_form(request, redirect_url)
+          errors.append('Could not find any account associated with email address: %s.<br /><a href="/register">Click Here</a> to create an account.' %(login_email))
+        return login_form(request, redirect_url = redirect_url, errors = errors) 
+      except:
+        errors.append('Login failed.')
+        return login_form(request, redirect_url = redirect_url, errors = errors)          
+  else:
+    return login_form(request, redirect_url)
 
 def register (request):
-    redirect_url = '/'
-    if('redirect_url' in request.GET.keys()):
-    	redirect_url = request.GET['redirect_url']
-    if request.method == "POST":
-    	errors = []
-        try:
-            error = False
-            if('redirect_url' in request.POST.keys()):
-				redirect_url = request.POST['redirect_url']
-            email = request.POST["email"].lower()
-            password = request.POST["password"]
-            password2 = request.POST["password2"]
-            f_name = request.POST["f_name"]
-            l_name = request.POST["l_name"]
-            if(email_re.match(email.strip()) == None):
-            	errors.append("Invalid Email.")
-            	error = True
-            if(f_name.strip() == ""):
-            	errors.append("Empty First Name.")
-            	error = True
-            if(l_name.strip() == ""):
-            	errors.append("Empty Last Name.")
-            	error = True
-            if(password == ""):
-            	errors.append("Empty Password.")
-            	error = True
-            if(password2 != password):
-            	errors.append("Password and Confirm Password don't match.")
-            	error = True
+  redirect_url = '/'
+  if('redirect_url' in request.GET.keys()):
+    redirect_url = request.GET['redirect_url']
+  if request.method == "POST":
+    errors = []
+    try:
+      error = False
+      if('redirect_url' in request.POST.keys()):
+        redirect_url = request.POST['redirect_url']
 
-            if(error):
-            	return register_form(request, redirect_url = redirect_url, errors = errors)
-            hashed_password = hashlib.sha1(password).hexdigest()
-            user = User(email=email, password=hashed_password, f_name=f_name, l_name=l_name)
-            user.save()
-            request.session.flush()
-            request.session[kLogIn] = user.email
-            request.session[kName] = user.f_name
-            request.session[kFName] = user.f_name
-            request.session[kLName] = user.l_name
-            return HttpResponseRedirect(redirect_url)
-        except IntegrityError:
-            errors.append("Account already exists. Please Log In.")
-            return register_form(request, redirect_url = redirect_url, errors = errors)
-        except:
-            errors.append("Some error happened while trying to create an account. Please try again.")
-            return register_form(request, redirect_url = redirect_url, errors = errors)
-    else:
-        return register_form(request, redirect_url = redirect_url)
+      email = request.POST["email"].lower()
+      password = request.POST["password"]
+      password2 = request.POST["password2"]
+      f_name = request.POST["f_name"]
+      l_name = request.POST["l_name"]
+      if(email_re.match(email.strip()) == None):
+        errors.append("Invalid Email.")
+        error = True
+      if(f_name.strip() == ""):
+        errors.append("Empty First Name.")
+        error = True
+      if(l_name.strip() == ""):
+        errors.append("Empty Last Name.")
+        error = True
+      if(password == ""):
+        errors.append("Empty Password.")
+        error = True
+      if(password2 != password):
+        errors.append("Password and Confirm Password don't match.")
+        error = True
+
+      if(error):
+        return register_form(request, redirect_url = redirect_url, errors = errors)
+      hashed_password = hashlib.sha1(password).hexdigest()
+      user = User(email=email, password=hashed_password, f_name=f_name, l_name=l_name)
+      user.save()
+      request.session.flush()
+      request.session[kLogIn] = user.email
+      request.session[kName] = user.f_name
+      request.session[kFName] = user.f_name
+      request.session[kLName] = user.l_name
+      return HttpResponseRedirect(redirect_url)
+    except IntegrityError:
+      errors.append("Account already exists. Please Log In.")
+      return register_form(request, redirect_url = redirect_url, errors = errors)
+    except:
+      errors.append("Some error happened while trying to create an account. Please try again.")
+      return register_form(request, redirect_url = redirect_url, errors = errors)
+  else:
+      return register_form(request, redirect_url = redirect_url)
 
 
 def logout (request):
-    request.session.flush()
-    if kLogIn in request.session.keys():
-    	del request.session[kLogIn]
-    if kName in request.session.keys():
-    	del request.session[kName]
-    return HttpResponseRedirect('/')
+  request.session.flush()
+  if kLogIn in request.session.keys():
+    del request.session[kLogIn]
+  if kName in request.session.keys():
+    del request.session[kName]
+  return HttpResponseRedirect('/')
 
 
 def forgot (request):
@@ -266,8 +267,16 @@ def reset (request, encrypted_email):
 def settings (request):
   errors = []
   error = False
+  redirect_url = '/'
+
+  if('redirect_url' in request.GET.keys()):
+    redirect_url = request.GET['redirect_url']
+
   if request.method == "POST":
     try:
+      if('redirect_url' in request.POST.keys()):
+        redirect_url = request.POST['redirect_url']
+
       user_email = request.POST["user_email"].lower()
       meetups = request.POST["meetups_enabled"] 
       user = User.objects.get(email=user_email)
@@ -277,12 +286,7 @@ def settings (request):
         user.meetups_enabled = False
 
       user.save()
-      c = {
-        'msg_title': 'Confer Account Settings',
-        'msg_body': 'Your settings have been updated successfully.'
-      } 
-      c.update(csrf(request))
-      return render_to_response('confirmation.html', c)
+      return HttpResponseRedirect(redirect_url)
     except Exception, e:
       errors.append(
           'Some unknown error happened. '
@@ -295,6 +299,9 @@ def settings (request):
     login = request.session[kLogIn]
     user = User.objects.get(email=login)
     meetups_enabled = user.meetups_enabled
-    c = {'user_email': login, 'meetups_enabled': meetups_enabled}
+    c = {
+        'user_email': login,
+        'meetups_enabled': meetups_enabled,
+        'redirect_url': redirect_url}
     c.update(csrf(request))
     return render_to_response('settings.html', c)
