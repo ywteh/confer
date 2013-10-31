@@ -100,10 +100,23 @@
 	      "confer_name": "myacmmm",
 	      "title": "ACM Multimedia 2013 - The 21st ACM International Conference on Multimedia",
 	      "subtitle": "",
-	      "blurb": "ACM Multimedia 2013(MM’13) is the worldwide premier multimedia conference and a key event to present scientific achievements and innovative industrial products. The conference offers scientists and practitioners in the area of multimedia technical sessions, tutorials, competitions, panels and discussion meetings on relevant and challenging research questions. ",
+	      "blurb": "ACM Multimedia 2013(MM’13) is the worldwide premier multimedia conference and a key event to present scientific achievements and innovative industrial products. The conference offers scientists and practitioners in the area of multimedia technical sessions, tutorials, competitions, panels and discussion meetings on relevant and challenging research questions.",
 	      "location": "Barcelona, Catalunya, Spain",
 	      "start_date": "2013-10-21",
 	      "end_date": "2013-10-25"
+	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 9,
+	    "fields": {
+	      "unique_name": "cscw2014",
+	      "confer_name": "mycscw",
+	      "title": "CSCW 2014 - The 17th ACM Conference on Computer Supported Cooperative Work and Social Computing",
+	      "subtitle": "",
+	      "blurb": "CSCW is the premier venue for presenting research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners from academia and industry in the area of social computing, CSCW encompasses both the technical and social challenges encountered when supporting collaboration.",
+	      "location": "Baltimore, Maryland, USA",
+	      "start_date": "2014-02-15",
+	      "end_date": "2014-02-19"
 	  	}
 	}
 ]
