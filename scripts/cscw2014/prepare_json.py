@@ -34,7 +34,7 @@ def prepare_paper_and_schedule_json():
 	load_abstracts()
 	p = open('data/cscw2014/papers.json','w')
 	p.write(json.dumps(papers))
-	p = open('server/static/conf/acmmm2013/data/papers.json','w')
+	p = open('server/static/conf/cscw2014/data/papers.json','w')
 	p.write('entities='+json.dumps(papers))
 	
 
