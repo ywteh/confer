@@ -92,7 +92,7 @@ Confer Template Layout
 {% endblock %}
 
 <script type="text/javascript">
-	if (nav_hide != null) {
+	if (typeof(nav_hide) != "undefined") {
 		for(var i in nav_hide) {
 			$('.' + nav_hide[i]).hide();
 		}
