@@ -116,7 +116,8 @@
 	      "blurb": "CSCW is the premier venue for presenting research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners from academia and industry in the area of social computing, CSCW encompasses both the technical and social challenges encountered when supporting collaboration.",
 	      "location": "Baltimore, Maryland, USA",
 	      "start_date": "2014-02-15",
-	      "end_date": "2014-02-19"
+	      "end_date": "2014-02-19",
+	      "hidden": true
 	  	}
 	}
 ]

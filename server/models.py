@@ -18,6 +18,7 @@ class Conference(models.Model):
 	location = models.CharField(max_length = 100)	
 	start_date = models.DateField()
 	end_date = models.DateField()
+	hidden = models.BooleanField(default=False)
 
 
 	def __unicode__(self):

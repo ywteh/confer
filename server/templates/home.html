@@ -29,7 +29,7 @@
 	<div id="conf_container">
 		<table id="conferences" class="paper-container">
             {% for conf in conferences %}
-            <tr class="clickable">
+            <tr class="clickable" {% if conf.hidden %} style="display:none;" {% endif %}>
                
                 <td class="content" style="padding:0.5em 1.5em 0.5em 1.5em !important;">
                 <a href="/{{conf.unique_name}}/papers" style="display:inline-block !important; float:right;">
