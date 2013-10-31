@@ -3,14 +3,14 @@
 <span id="logged_in_name"></span> &nbsp;
 <a class="button mobile-nav" href="#">Menu</a>
 <a class="button navitem" href="/">Home</a>
-<a class="button navitem" href="/{{conf}}/papers">My Papers</a>
-<a class="button active navitem" href="/{{conf}}/schedule">My Schedule</a>
-<a class="button navitem" href="/{{conf}}/meetups">My Meetups</a>
+<a class="button navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
+<a class="button active navitem nac_schedule" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
 <a class="button navitem" href="/logout">Log Out</a>
 {% endblock %}
 {% block content %}   
 
-<div class="blurb">
+<div class="blurb nav_papers">
 Tag sessions and papers you want to see and get updated recommendations on the fly. Use your likes, recommendations, and other filtering options to discover your personal schedule.
 </div>
 <div class="goto-link">
