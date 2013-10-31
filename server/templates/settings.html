@@ -16,7 +16,7 @@
         <br />
     </div>
 	<input type="hidden" name="user_email" id="user_email" value="{{user_email}}" />
-	<label for="meetups_enabled">Meetup</label>
+	<label for="meetups_enabled">Meetups: </label>
 	<input type="radio" name="meetups_enabled" value="enabled" {% if meetups_enabled %} checked="checked" {% endif %}> Enabled </input>
 	<input type="radio" name="meetups_enabled" value="disabled" {% if not meetups_enabled %} checked="checked" {% endif %} > Disabled </input> <br /><br />
 	<input type="submit" class="button" value="Save Settings" />
