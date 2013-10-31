@@ -16,7 +16,7 @@ localStorage.removeItem('user_recs')
 	<h3>Confer Login</h3>
 	<hr />
 	<div id="error">
-		{% for error in errors %}<span class="error">{{error}}</span><br />
+		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
         {% endfor %}
         <br />
     </div>
