@@ -83,7 +83,7 @@ def login (request):
           User.objects.get(email=login_email)
           errors.append('Wrong password.')
         except User.DoesNotExist:
-          errors.append('Could not find any account associated with email address: %s.<br /><a href="/register">Click Here</a> to create an account.' %(login_email))
+          errors.append('Could not find any account associated with email address: <a href="mailto:%s">%s</a>.<br /><a class="blue bold" href="/register">Click Here</a> to create an account.' %(login_email, login_email))
         return login_form(request, redirect_url = redirect_url, errors = errors) 
       except:
         errors.append('Login failed.')
@@ -188,8 +188,8 @@ def forgot (request):
           "Invalid Email Address.")
     except:
       errors.append(
-          "Some unknown error happened."
-          "Please try again or send an email to confer@csail.mit.edu.")
+          'Some unknown error happened.'
+          'Please try again or send an email to <a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>.')
     
     c = {'errors': errors} 
     c.update(csrf(request))
@@ -239,7 +239,7 @@ def reset (request, encrypted_email):
       errors.append(
           'Some unknown error happened. '
           'Please try again or send an email to '
-          'confer@csail.mit.edu.')
+          '<a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>')
       c = {'errors': errors} 
       c.update(csrf(request))
       return render_to_response('reset.html', c)
@@ -257,7 +257,7 @@ def reset (request, encrypted_email):
       errors.append(
           'Wrong reset code in the URL. '
           'Please try again or send an email to '
-          'confer@csail.mit.edu.')
+          '<a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>')
     
     c = {'msg_title': 'Confer Reset Password', 'errors': errors} 
     c.update(csrf(request))
@@ -291,7 +291,7 @@ def settings (request):
       errors.append(
           'Some unknown error happened. '
           'Please try again or send an email to '
-          'confer@csail.mit.edu.')
+          '<a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>')
       c = {'errors': errors} 
       c.update(csrf(request))
       return render_to_response('settings.html', c)
