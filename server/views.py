@@ -24,9 +24,7 @@ def home (request):
   try:
     conferences = Conference.objects.all().values()
     login = get_login(request)
-    return render_to_response(
-        'home.html',
-        {
+    return render_to_response('home.html', {
           'conferences':conferences,
           'login_id': login[0],
           'login_name': login[1]
@@ -42,11 +40,12 @@ def team (request):
       open(p+'/fixtures/' + 'collaborators.json').read())
   login = get_login(request)
   return render_to_response(
-      'team.html',
-      {'current_team': current_team,
+      'team.html', {'current_team': current_team,
       'past_collaborators': past_collaborators,
       'login_id': login[0],
-      'login_name': login[1]})
+      'login_name': login[1]
+    }
+  )
 
 def conf (request, conf):
   conf = conf.lower()
@@ -70,8 +69,12 @@ def papers (request, conf):
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
     login = get_login(request)
-    return render_to_response('papers.html',
-        {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
+    return render_to_response('papers.html', {
+        'conf':conf,
+        'login_id': login[0],
+        'login_name': login[1]
+      }
+    )
   except:
     return HttpResponseRedirect('/')
   
@@ -83,8 +86,12 @@ def schedule (request, conf):
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
     login = get_login(request)
-    return render_to_response('schedule.html',
-        {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
+    return render_to_response('schedule.html', {
+        'conf':conf,
+        'login_id': login[0],
+        'login_name': login[1]
+      }
+    )
   except:
     return HttpResponseRedirect('/')
 
@@ -94,8 +101,12 @@ def paper (request, conf):
   try:
     request.session[kConf] = conf
     login = get_login(request)
-    return render_to_response('paper.html', 
-    {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
+    return render_to_response('paper.html', {
+        'conf':conf,
+        'login_id': login[0],
+        'login_name': login[1]
+      }
+    )
   except:
     return HttpResponseRedirect('/')
 
@@ -116,7 +127,8 @@ def meetups (request, conf):
         'meetups_enabled': meetups_enabled,
         'login_id': login[0],
         'login_name': login[1]
-    })
+      }
+    )
   except Exception, e:
     print e
     return HttpResponseRedirect('/')
@@ -177,8 +189,7 @@ def data (request):
       'recs':recs, 
       'likes':likes,
       'error': error,
-      'msg':msg
-      }), mimetype="application/json")
+      'msg':msg}), mimetype="application/json")
 
 
 @csrf_exempt
@@ -189,9 +200,12 @@ def log (request, action):
     conf = request.session[kConf]
     registration = get_registration(login, conf)
     insert_log(registration, action)
-    return HttpResponse(json.dumps({'error':False}), mimetype="application/json")
+    return HttpResponse(
+        json.dumps({'error':False}), mimetype="application/json")
+
   except:
-    return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
+    return HttpResponse(
+        json.dumps({'error':True}), mimetype="application/json")
 
 
 @csrf_exempt
@@ -230,7 +244,16 @@ def like (request, like_str):
     error = True
     msg = str(e)
 
-  return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'error':error, 'msg':msg}), mimetype="application/json")
+  return HttpResponse(
+    json.dumps({
+        'recs':recs,
+        'likes':l,
+        'error':error,
+        'msg':msg
+      }
+    ),
+    mimetype="application/json"
+  )
 
 
 
