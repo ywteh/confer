@@ -1257,297 +1257,295 @@ function handle_star(event){
 
 
 function load_paper(){
-    var paper_id = get_hash()
-    console.log(paper_id)
-    var selected_paper_html = get_selected_paper_html(paper_id)
-    $('#selected_paper').find('.form').html(selected_paper_html)
-    $('#similar_papers').html('')
-    var recs = offline_recs[paper_id]
-    var raw_html = ''
-    for(var i = 0; i< recs.length; i++){        
-        raw_html += get_paper_html(Object.keys(recs[i])[0])            
-    } 
-    $('#similar_papers').html(raw_html)     
+  var paper_id = get_hash()
+  console.log(paper_id)
+  var selected_paper_html = get_selected_paper_html(paper_id)
+  $('#selected_paper').find('.form').html(selected_paper_html)
+  $('#similar_papers').html('')
+  var recs = offline_recs[paper_id]
+  var raw_html = ''
+  for(var i = 0; i< recs.length; i++){        
+    raw_html += get_paper_html(Object.keys(recs[i])[0])            
+  } 
+  $('#similar_papers').html(raw_html)     
 } 
 
 
 
 function update_papers_count(){
-    setTimeout('update_papers_count_async();', 0)
+  setTimeout('update_papers_count_async();', 0)
 }
 
 function update_papers_count_async(){
-    $("#papers_toggle .count").text("(" + $("#all_papers tr").length + ")");  
+  $("#papers_toggle .count").text("(" + $("#all_papers tr").length + ")");  
 }
 
 function update_papers_visible_count(){
-    setTimeout('update_papers_visible_count_async();', 0)
+  setTimeout('update_papers_visible_count_async();', 0)
 }
 
 function update_papers_visible_count_async(){
-    $("#papers_toggle .count").text("(" + $("#all_papers tr:visible").length + ")");  
+  $("#papers_toggle .count").text("(" + $("#all_papers tr:visible").length + ")");  
 }
 
 function update_recs_count(){
-    setTimeout('update_recs_count_async();', 0)
+  setTimeout('update_recs_count_async();', 0)
 }
 
 function update_recs_count_async(){
-    $("#recs_toggle .count").text("(" + $("#recs tr:visible").length + ")");  
+  $("#recs_toggle .count").text("(" + $("#recs tr:visible").length + ")");  
 }
 
 function update_likes_count(){
-    setTimeout('update_likes_count_async();', 0)
+  setTimeout('update_likes_count_async();', 0)
 }
 
 function update_likes_count_async(){
-    $("#likes_toggle .count").text("(" + $("#likes tr").length + ")");  
+  $("#likes_toggle .count").text("(" + $("#likes tr").length + ")");  
 }
 
 function update_sessions_count(){
-    setTimeout('update_sessions_count_async();', 0)
+  setTimeout('update_sessions_count_async();', 0)
 }
 
 function update_sessions_count_async(){
-    if ($("#program .session").length == $("#program .session:visible").length)
-      $("#search-results .count").text("all");
-    else
-      $("#search-results .count").text($("#program .session:visible").length);  
+  if ($("#program .session").length == $("#program .session:visible").length)
+    $("#search-results .count").text("all");
+  else
+    $("#search-results .count").text($("#program .session:visible").length);  
 }
 
 
 
 function reset_all_papers(){
-    $("#all_papers tr").show()
-    $("#all_papers tr:gt(24)").hide()  
+  $("#all_papers tr").show()
+  $("#all_papers tr:gt(24)").hide()  
 
-    if($("#all_papers tr:visible").length == $("#all_papers tr").length){
-        $('#show_papers').hide();
-    }else{
-        $('#show_papers').show();
-    }         
-    update_papers_count();
+  if($("#all_papers tr:visible").length == $("#all_papers tr").length){
+    $('#show_papers').hide();
+  }else{
+    $('#show_papers').show();
+  }         
+  update_papers_count();
 }
 
 
 function reset_sessions(){
-    $('.session').show()
-    $('.session').removeHighlight()
-    $('.session-timeslot').each(function(){
-        $(this).prev().hide()
-    });  
+  $('.session').show()
+  $('.session').removeHighlight()
+  $('.session-timeslot').each(function(){
+    $(this).prev().hide()
+  });  
 
-    $('.session').each(function(){
-        $(this).parent().prev().show()
-        var p = $(this).attr("data")
-        $("#"+p).hide()
-        $(this).find('.arrow').removeClass("arrow-down").addClass("arrow-right");
-        
-    });
-    update_sessions_count(); 
+  $('.session').each(function(){
+    $(this).parent().prev().show()
+    var p = $(this).attr("data")
+    $("#"+p).hide()
+    $(this).find('.arrow').removeClass("arrow-down").addClass("arrow-right");
+    
+  });
+  update_sessions_count(); 
 }
 
 function append_recs(){  
-    var visible_recs = []
-    $("#recs tr:visible").each(function(){
-        var d = $(this).attr("data")
-        visible_recs.push(d)
-    })
-    var n = $("#recs tr:visible").length
-    $("#recs tr:hidden").remove()  
-    var raw_html = ''
-    for(var r in recommended){
-        if(visible_recs.indexOf(recommended[r].id) == -1){
-            raw_html += get_paper_html(recommended[r].id)
-        }
+  var visible_recs = []
+  $("#recs tr:visible").each(function(){
+    var d = $(this).attr("data")
+    visible_recs.push(d)
+  })
+  var n = $("#recs tr:visible").length
+  $("#recs tr:hidden").remove()  
+  var raw_html = ''
+  for(var r in recommended){
+    if(visible_recs.indexOf(recommended[r].id) == -1){
+      raw_html += get_paper_html(recommended[r].id)
     }
-    $("#recs").append($(raw_html))
-    $("#recs tr:gt("+(n-1)+")").hide() 
-    if($("#recs tr:visible").length == $("#recs tr").length){
-        $('#show_recs').hide();
-    }else{
-        $('#show_recs').show();
-    }   
-
-    
+  }
+  $("#recs").append($(raw_html))
+  $("#recs tr:gt("+(n-1)+")").hide() 
+  if($("#recs tr:visible").length == $("#recs tr").length){
+    $('#show_recs').hide();
+  }else{
+    $('#show_recs').show();
+  }     
 }
 
 
 
 function populate_papers(){
-    if(typeof entities == "undefined" || entities == null){
-        console.log("Error populating papers list.")
-        return
-    }
-    var raw_html = ''       
-    for(var e in entities){
-        raw_html += get_paper_html(e)
-    }
-    $("#all_papers").html(raw_html)
-    $("#all_papers tr:gt(24)").hide()  
+  if(typeof entities == "undefined" || entities == null){
+    console.log("Error populating papers list.")
+    return
+  }
+  var raw_html = ''       
+  for(var e in entities){
+    raw_html += get_paper_html(e)
+  }
+  $("#all_papers").html(raw_html)
+  $("#all_papers tr:gt(24)").hide()  
 
-    if($("#all_papers tr:visible").length == $("#all_papers tr").length){
-        $('#show_papers').hide();
-    }else{
-        $('#show_papers').show();
-    }         
-    update_papers_count();
+  if($("#all_papers tr:visible").length == $("#all_papers tr").length){
+    $('#show_papers').hide();
+  }else{
+    $('#show_papers').show();
+  }         
+  update_papers_count();
 }
 
 
 function populate_recs(){
-    if(typeof recommended == "undefined" || recommended == null){
-        console.log("Error populating recommendations.")
-        return
-    }
-    if(typeof entities == "undefined" || entities == null){
-        console.log("Error fetching entities.")
-        return
-    }
+  if(typeof recommended == "undefined" || recommended == null){
+    console.log("Error populating recommendations.")
+    return
+  }
+  if(typeof entities == "undefined" || entities == null){
+    console.log("Error fetching entities.")
+    return
+  }
 
-    var raw_html = ''   
-    for(var r in recommended){
-        raw_html += get_paper_html(recommended[r]['id'])
-    }
-    $("#recs").html(raw_html)
+  var raw_html = ''   
+  for(var r in recommended){
+    raw_html += get_paper_html(recommended[r]['id'])
+  }
+  $("#recs").html(raw_html)
 
-    $("#recs tr:gt(4)").hide()  
+  $("#recs tr:gt(4)").hide()  
 
-    if($("#recs tr:visible").length == $("#recs tr").length){
-        $('#show_recs').hide();
-    }else{
-        $('#show_recs').show();
-    }         
-      
-    update_recs_count(); 
+  if($("#recs tr:visible").length == $("#recs tr").length){
+    $('#show_recs').hide();
+  }else{
+    $('#show_recs').show();
+  }         
+    
+  update_recs_count(); 
 }
 
 
 function populate_likes(){
-    if(typeof starred == "undefined" || starred == null){
-        console.log("Error populating stars.")
-        return
+  if(typeof starred == "undefined" || starred == null){
+    console.log("Error populating stars.")
+    return
+  }
+  if(typeof entities == "undefined" || entities == null){
+    console.log("Error fetching entities.")
+    return
+  }
+  var raw_html = '' 
+  for(var i = starred.length; i>=0 ; i--){
+    raw_html += get_paper_html(starred[i])
+  }
+  $("#likes").html(raw_html)
+  if($("#likes tr").length <= 2){
+    $('#show_likes').hide();
+  }else{
+    $('#show_likes').show()
+    if($('#show_likes').html() == 'Show All'){
+      $("#likes tr:gt(1)").hide()           
     }
-    if(typeof entities == "undefined" || entities == null){
-        console.log("Error fetching entities.")
-        return
-    }
-    var raw_html = '' 
-    for(var i = starred.length; i>=0 ; i--){
-       raw_html += get_paper_html(starred[i])
-    }
-    $("#likes").html(raw_html)
-    if($("#likes tr").length <= 2){
-        $('#show_likes').hide();
-    }else{
-         $('#show_likes').show()
-        if($('#show_likes').html() == 'Show All'){
-            $("#likes tr:gt(1)").hide()           
-        }
-    }  
-    update_likes_count();
+  }  
+  update_likes_count();
 }
 
 
 function populate_schedule(){
-    if(typeof schedule == "undefined" || schedule == null){
-        console.log("Error populating schedule.")
-        return
+  if(typeof schedule == "undefined" || schedule == null){
+    console.log("Error populating schedule.")
+    return
+  }
+  if(typeof sessions == "undefined" || sessions == null){
+    console.log("Error fetching sessions.")
+    return
+  }
+  for(var day in schedule){
+    var raw_html = '<div id = "'+schedule[day].day+'"></div>'
+    for(slot in schedule[day].slots){
+      raw_html += '<h3 class="collapsible-title collapsible" \
+          data="'+schedule[day].slots[slot].slot_id+'"> \
+          <span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + 
+          schedule[day].slots[slot].time + '</h3>'
+      raw_html += '<div id = "'+schedule[day].slots[slot].slot_id+'" class="session-timeslot">'
+      for(session in schedule[day].slots[slot].sessions){
+        raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, 
+            schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_class, 
+            schedule[day].slots[slot].sessions[session].room)
+      }
+      raw_html += '</div>'
     }
-    if(typeof sessions == "undefined" || sessions == null){
-        console.log("Error fetching sessions.")
-        return
-    }
-    for(var day in schedule){
-        var raw_html = '<div id = "'+schedule[day].day+'"></div>'
-        for(slot in schedule[day].slots){
-            raw_html += '<h3 class="collapsible-title collapsible" \
-                    data="'+schedule[day].slots[slot].slot_id+'"> \
-                    <span class="arrow arrow-down"></span>'+ schedule[day].day + ', ' + 
-                    schedule[day].slots[slot].time + '</h3>'
-            raw_html += '<div id = "'+schedule[day].slots[slot].slot_id+'" class="session-timeslot">'
-            for(session in schedule[day].slots[slot].sessions){
-                raw_html += get_session_html(schedule[day].slots[slot].sessions[session].session, 
-                        schedule[day].day, schedule[day].slots[slot].time, schedule[day].slots[slot].slot_class, 
-                        schedule[day].slots[slot].sessions[session].room)
-            }
-            raw_html += '</div>'
-        }
-        $("#program").append(raw_html)        
-    }
-    update_recs()
-    update_session_view()
+    $("#program").append(raw_html)        
+  }
+  update_recs()
+  update_session_view()
 }
 
 function populate_filters(){
-    if(typeof s_filters != "object" || s_filters == null){
-        return
+  if(typeof s_filters != "object" || s_filters == null){
+      return
+  }
+  var filter_html = ''
+  for(var f in s_filters){
+    var filter = s_filters[f]
+    filter_html += '<tr>'
+    filter_html += '<td style="vertical-align:top">'
+    filter_html += '<h4 style="display:inline-block">' + filter.label + '</h4>'
+    filter_html += '</td>'
+    filter_html += '<td>'
+    filter_html += '<div style="display:inline-block">'
+    for(var i in filter.vals){
+      val = filter.vals[i]
+      filter_html += '<a href="#" data="' + val.data + '" class="' + val.class + '" type="' + val.type + '">' + val.label + '</a> '
     }
-    var filter_html = ''
-    for(var f in s_filters){
-        var filter = s_filters[f]
-        filter_html += '<tr>'
-        filter_html += '<td style="vertical-align:top">'
-        filter_html += '<h4 style="display:inline-block">' + filter.label + '</h4>'
-        filter_html += '</td>'
-        filter_html += '<td>'
-        filter_html += '<div style="display:inline-block">'
-        for(var i in filter.vals){
-            val = filter.vals[i]
-            filter_html += '<a href="#" data="' + val.data + '" class="' + val.class + '" type="' + val.type + '">' + val.label + '</a> '
-        }
-        filter_html += '</div>'
-        filter_html += '</td>'
-        filter_html += '</tr>'
-    }
-    $("#filter_schedule").html(filter_html)
+    filter_html += '</div>'
+    filter_html += '</td>'
+    filter_html += '</tr>'
+  }
+  $("#filter_schedule").html(filter_html)
 }
 
 
 
 function apply_filters(){
-    var day_classes = '.'+$('.day.active').attr("data")
-    var time_classes = '.'+$('.time.active').attr("data")
-    var papers_classes = '.'+$('.p_session.active').attr("data")
-    
+  var day_classes = '.'+$('.day.active').attr("data")
+  var time_classes = '.'+$('.time.active').attr("data")
+  var papers_classes = '.'+$('.p_session.active').attr("data")
+  
 
-    var select_class = $('.session')
-    if(day_classes != '.all'){
-        select_class = select_class.filter(day_classes)
-    }
-    
-    if(time_classes!='.all'){               
-        select_class = select_class.filter(time_classes)                
-    }
+  var select_class = $('.session')
+  if(day_classes != '.all'){
+    select_class = select_class.filter(day_classes)
+  }
+  
+  if(time_classes!='.all'){               
+    select_class = select_class.filter(time_classes)                
+  }
 
-    if(papers_classes!='.all'){             
-        select_class = select_class.filter(papers_classes)              
-    }
-   $('.session').hide();
-   $('.session-timeslot').each(function(){
-        $(this).prev().hide()
-    });
+  if(papers_classes!='.all'){             
+    select_class = select_class.filter(papers_classes)              
+  }
+ $('.session').hide();
+ $('.session-timeslot').each(function(){
+    $(this).prev().hide()
+  });
 
-   select_class.show();
-   select_class.each(function(){
-        $(this).parent().prev().show()
-    });
+ select_class.show();
+ select_class.each(function(){
+    $(this).parent().prev().show()
+  });
 
-   update_sessions_count(); 
+ update_sessions_count(); 
 }
 
 
 
 function setup_filters(){
-    $('.filter').off('click')
-    $('.filter').on('click', function(){       
-        var attr = $(this).attr("type")
-        $('.'+attr).removeClass('active')
+  $('.filter').off('click')
+  $('.filter').on('click', function(){       
+    var attr = $(this).attr("type")
+    $('.'+attr).removeClass('active')
 
-        $(this).addClass('active')
-        $('#search_sessions_btn').click()
-        
-    });
+    $(this).addClass('active')
+    $('#search_sessions_btn').click()
+      
+  });
 }
 
 
