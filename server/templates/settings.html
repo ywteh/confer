@@ -1,11 +1,10 @@
 {% extends "login-layout.html" %}
 {% block links %}
 <span id="logged_in_name">{{login_name}}</span> &nbsp;
-<a class="button" href="/">Home</a>
 {% if login_id %}
-<a class="button navitem" href="/logout">Log Out</a>
+<a class="button" href="/logout">Log Out</a>
 {% else %}
-<a class="button navitem" href="/login?redirect_url=/settings">Log In</a>
+<a class="button" href="/login?redirect_url=/settings">Log In</a>
 {% endif %}
 {% endblock %}
 {% block content %}

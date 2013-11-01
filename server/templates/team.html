@@ -2,11 +2,6 @@
 {% block links %}
 <span id="logged_in_name">{{login_name}}</span> &nbsp;
 <a class="button" href="/">Home</a>
-{% if login_id %}
-<a class="button navitem" href="/logout">Log Out</a>
-{% else %}
-<a class="button navitem" href="/login?redirect_url=/teams">Log In</a>
-{% endif %}
 {% endblock %}
 {% block content %}
 <div class="blurb">
