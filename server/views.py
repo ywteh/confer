@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
 from django.db.utils import IntegrityError
 
-from utils.view_utils import *
+from utils import *
 from models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
@@ -166,11 +166,11 @@ def data (request):
       data.save()
 
     likes.extend(json.loads(data.likes))
-    #print likes
-    #print recs
+
   except Exception, e:
     error = True
     msg = str(e)
+
   return HttpResponse(json.dumps({
       'login_id': login,
       'login_name': login_name,
@@ -180,16 +180,6 @@ def data (request):
       'msg':msg
       }), mimetype="application/json")
 
-
-@csrf_exempt
-@login_required
-def get_recs (request):
-  try:
-    papers = json.loads(request.POST["papers"])
-    recs = []
-    return HttpResponse(json.dumps(recs), mimetype="application/json")
-  except:
-    return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 @csrf_exempt
 @login_required
@@ -235,10 +225,11 @@ def like (request, like_str):
     data.likes = json.dumps(l)
     data.save()
     recs = []
-  except:
+
+  except Exception, e:
     error = True
-    e_type, value, tb = sys.exc_info()
-    msg = value.message
+    msg = str(e)
+
   return HttpResponse(json.dumps({'recs':recs, 'likes':l, 'error':error, 'msg':msg}), mimetype="application/json")
 
 

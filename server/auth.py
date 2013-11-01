@@ -8,7 +8,7 @@ from django.core.validators import email_re
 from django.db.utils import IntegrityError
 from django.utils.http import urlquote_plus
 
-from utils.view_utils import *
+from utils import *
 from models import *
 
 p = os.path.abspath(os.path.dirname(__file__))
