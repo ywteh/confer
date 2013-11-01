@@ -92,9 +92,11 @@ Confer Template Layout
 {% endblock %}
 
 <script type="text/javascript">
-	if (typeof(nav_hide) != "undefined") {
-		for(var i in nav_hide) {
-			$('.' + nav_hide[i]).hide();
+	$(document).ready(function(){
+		if (typeof(nav_hide) != "undefined") {
+			for(var i in nav_hide) {
+				$('.' + nav_hide[i]).hide();
+			}
 		}
 	}
     var _gaq = _gaq || [];
