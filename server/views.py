@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib
 
 from auth import *
 from django.http import *
@@ -136,8 +136,13 @@ def data (request):
             open(p+'/../data/%s/prefs.json' %(conf)).read())
         name = request.session[kFName] + ' ' + request.session[kLName]
         name = name.lower()
+        if name in prefs:
+          default_likes = prefs[name]
+        else:
+          matches = difflib.get_close_matches(name, prefs.keys())
+          if len(matches) > 0:
+            default_likes = prefs[matches[0]]
 
-        default_likes = prefs[name]
       except Exception, e:
         pass
 
