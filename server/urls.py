@@ -1,11 +1,11 @@
 from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
-	url(r'^$','server.views.home'),
-	url(r'^home$', 'server.views.home'),
+    url(r'^$','server.views.home'),
+    url(r'^home$', 'server.views.home'),
     url(r'^team', 'server.views.team'),
-	
-	url(r'^data', 'server.views.data'),
+    
+    url(r'^data', 'server.views.data'),
     url(r'^recs', 'server.views.get_recs'),
     url(r'^like/(\w+)$', 'server.views.like'),
     url(r'^log/(\w+)$', 'server.views.log'),
