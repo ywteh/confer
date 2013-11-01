@@ -1028,7 +1028,7 @@ function handle_session_star(event){
                     $(this).find('.paper').removeClass('highlight')
                 })
                 starred = res.likes
-                compute_recs()
+                compute_recs(res.recs)
                 localStorage.setItem('starred', JSON.stringify(starred))
                 //localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
@@ -1064,7 +1064,7 @@ function handle_session_star(event){
                     $(this).find('.paper').addClass('highlight')
                 })
                 starred = res.likes
-                compute_recs()
+                compute_recs(res.recs)
                 localStorage.setItem('starred', JSON.stringify(starred))
                 //localStorage.setItem('recommended', JSON.stringify(recommended))
                 update_recs()
@@ -1084,15 +1084,27 @@ function handle_session_star(event){
 
 
 
-function compute_recs(){
-    var t_recs = []
+function compute_recs(recs) {
     var final_recs = []
+    if (typeof recs == "object" && recs != null) {
+        for (r in recs) {
+            final_recs.push({'id':recs[r], 'score': 100})
+        }
+
+        if (final_recs.length > 10) {
+            recommended = final_recs
+            return
+        }
+    }
     if(typeof starred == "undefined" || starred == null ){
-        return null
+        return
     }
     if(typeof offline_recs == "undefined" || offline_recs == null ){
-        return null
+        return
     }
+
+    var t_recs = []
+
     starred.forEach(function (p){
         var p_recs = offline_recs[p]
         if (p_recs != null) {        
@@ -1165,7 +1177,7 @@ function handle_star(event){
                 var i =  starred.indexOf(paper_id)
                 starred.splice(i, 1)
                 populate_likes(starred)
-                compute_recs()
+                compute_recs(res.recs)
                 localStorage.setItem('starred', JSON.stringify(starred))
                 //localStorage.setItem('recommended', JSON.stringify(recommended))
                 
@@ -1207,7 +1219,7 @@ function handle_star(event){
                 })
                 starred.push(paper_id)
                 populate_likes(starred)
-                compute_recs()
+                compute_recs(res.recs)
                 localStorage.setItem('starred', JSON.stringify(starred))
                 //localStorage.setItem('recommended', JSON.stringify(recommended))
                 
