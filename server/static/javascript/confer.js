@@ -996,7 +996,7 @@ function add_pending_star(paper_id){
 
 function handle_session_star(event){
     if (login_id == null) {
-        persistent_alert('You are not logged in. Please <a class="blue bold" href="/login?redirect_url='+ window.location.pathname + '"> Log In</a> to star a session.'); 
+        persistent_alert('You are not logged in. Please <a class="blue bold" href="/login?redirect_url='+ window.location.pathname + window.location.hash + '"> Log In</a> to star a session.'); 
         event.stopPropagation();
         return
     }
@@ -1146,7 +1146,7 @@ function compute_recs(recs) {
 
 function handle_star(event){ 
     if (login_id == null) {
-        persistent_alert('You are not logged in. Please <a class="blue bold" href="/login?redirect_url='+ window.location.pathname + '"> Log In</a> to star a paper.'); 
+        persistent_alert('You are not logged in. Please <a class="blue bold" href="/login?redirect_url='+ window.location.pathname + window.location.hash + '"> Log In</a> to star a paper.'); 
         
         event.stopPropagation();
         return
