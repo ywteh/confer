@@ -297,7 +297,7 @@ def settings (request):
       return render_to_response('settings.html', c)
   else:
     login = get_login(request)
-    user = User.objects.get(email=login)
+    user = User.objects.get(email=login[0])
     meetups_enabled = user.meetups_enabled
     c = {
         'user_email': login[0],
