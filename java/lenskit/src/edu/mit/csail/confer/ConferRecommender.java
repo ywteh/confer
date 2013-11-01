@@ -66,7 +66,6 @@ public class ConferRecommender {
     return ret;
   }
   
-
   public static void main(String[] args){   
     try{
       ConferRecommender r = new ConferRecommender(args[0]);
