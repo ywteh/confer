@@ -296,11 +296,13 @@ def settings (request):
       c.update(csrf(request))
       return render_to_response('settings.html', c)
   else:
-    login = request.session[kLogIn]
+    login = get_login()
     user = User.objects.get(email=login)
     meetups_enabled = user.meetups_enabled
     c = {
-        'user_email': login,
+        'user_email': login[0],
+        'login_id': login[0],
+        'login_name': login[1],
         'meetups_enabled': meetups_enabled,
         'redirect_url': redirect_url}
     c.update(csrf(request))
