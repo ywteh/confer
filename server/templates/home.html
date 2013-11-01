@@ -37,9 +37,9 @@
             {% for conf in conferences %}
             <tr class="clickable" {% if conf.hidden %} style="display:none;" {% endif %}>
                
-                <td class="content" style="padding:0.5em 1.5em 0.5em 1.5em !important;">
+                <td class="content" style="padding:0.5em 0.5em 0.5em 1.5em !important;">
                 <a href="/{{conf.unique_name}}/papers" style="display:inline-block !important; float:right;">
-                    <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.unique_name}}/logo/cover.png); margin-left:3em;"></span>
+                    <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.unique_name}}/logo/cover.png); margin-left:2em;"></span>
                 </a>
                
                 <ul>
