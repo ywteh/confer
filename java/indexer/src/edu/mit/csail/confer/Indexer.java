@@ -47,7 +47,6 @@ public class Indexer {
   String indexPath = "";
   boolean create = true;
   
-  
   public Indexer(String docsPath, String similarDocsPath, String indexPath, boolean create) {
     this.docsPath = docsPath;
     this.indexPath = indexPath;
@@ -56,8 +55,7 @@ public class Indexer {
     
   }
 
-  public static void main(String[] args) {
-    
+  public static void main(String[] args) { 
     try {
       Indexer indexer = null;
       if(args.length == 3){
@@ -74,10 +72,6 @@ public class Indexer {
           "\n with message: " + e.getMessage());
     }
   }
-
- 
-
-
 
   void index() throws IOException{   
     Directory indexDir = FSDirectory.open(new File(this.indexPath));
@@ -96,7 +90,6 @@ public class Indexer {
       while (scanner.hasNextLine()){
         text.append(scanner.nextLine());
       }
-
     }
 
     scanner.close();    
@@ -142,8 +135,6 @@ public class Indexer {
     mlt.setAnalyzer(analyzer);
     mlt.setFieldNames(null); // specify the fields for similiarity
     HashMap<String, ArrayList<HashMap<String, Float>>> similar_docs = new HashMap<String, ArrayList<HashMap<String,Float>>>();
-    System.out.println(searcher.getSimilarity());
-
     for (int i=0; i<reader.maxDoc(); i++) { 
       ArrayList<HashMap<String, Float>> t = new ArrayList<HashMap<String,Float>>();
       Query query = mlt.like(i);
@@ -152,11 +143,9 @@ public class Indexer {
       mlt.setMaxQueryTerms(1000);
       mlt.setMinTermFreq(1);
       mlt.setMinDocFreq(1);
-
       for(int k=0; k<docs.length; k++){
-        if(docs[k].doc == i){
+        if(docs[k].doc == i)
           continue;
-        }
         HashMap<String, Float> m = new HashMap<String, Float>();
         m.put(reader.document(docs[k].doc).getField("paper_id").stringValue(), docs[k].score);
         t.add(m);
