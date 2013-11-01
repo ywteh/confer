@@ -54,6 +54,10 @@ function refresh(_async_){
                 starred = res.likes
                 localStorage.setItem('starred', JSON.stringify(starred))
             }
+
+            if(res.recs != null){
+                compute_recs(res.recs)
+            }
                 
             if(res.error){
                 console.log('refresh/error')
