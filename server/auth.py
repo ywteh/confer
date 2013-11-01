@@ -296,7 +296,7 @@ def settings (request):
       c.update(csrf(request))
       return render_to_response('settings.html', c)
   else:
-    login = get_login()
+    login = get_login(request)
     user = User.objects.get(email=login)
     meetups_enabled = user.meetups_enabled
     c = {
