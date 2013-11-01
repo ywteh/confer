@@ -81,7 +81,7 @@ def login (request):
       except User.DoesNotExist:
         try:
           User.objects.get(email=login_email)
-          errors.append('Wrong password.')
+          errors.append('Wrong password. Please try again.<br /><a class="blue bold" href="/forgot">Click Here</a> to reset your password.')
         except User.DoesNotExist:
           errors.append('Could not find any account associated with email address: <a href="mailto:%s">%s</a>.<br /><a class="blue bold" href="/register">Click Here</a> to create an account.' %(login_email, login_email))
         return login_form(request, redirect_url = redirect_url, errors = errors) 
