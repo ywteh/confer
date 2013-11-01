@@ -305,3 +305,19 @@ def settings (request):
         'redirect_url': redirect_url}
     c.update(csrf(request))
     return render_to_response('settings.html', c)
+
+
+def get_login(request):
+  login_id = None
+  login_name = ''
+  try:
+    login_id = request.session[kLogIn]
+    login_name = request.session[kName]
+  except:
+    pass
+
+  return [login_id, login_name]
+
+
+
+

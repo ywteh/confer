@@ -1,12 +1,16 @@
 {% extends "layout.html" %}
 {% block links %}
-<span id="logged_in_name"></span> &nbsp;
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
 <a class="button mobile-nav" href="#">Menu</a>
 <a class="button navitem" href="/">Home</a>
 <a class="button active navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
 <a class="button navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
 <a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
+{% if login_id %}
 <a class="button navitem" href="/logout">Log Out</a>
+{% else %}
+<a class="button navitem" href="/login?redirect_url=/{{conf}}/papers">Log In</a>
+{% endif %}
 {% endblock %}
 
 {% block content %} 
@@ -59,7 +63,6 @@ Tag papers you want to see and get social recommendations of other papers you ma
 <!-- Javascript -->
 <script type="text/javascript">
     $(document).ready(function(){
-        $("#logged_in_name").html(localStorage.getItem('login_name'))
       	populate_likes()
       	populate_recs()
       	populate_papers()

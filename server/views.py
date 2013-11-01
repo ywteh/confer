@@ -23,7 +23,15 @@ if(os.path.abspath(p+"/..") not in sys.path):
 def home (request):
   try:
     conferences = Conference.objects.all().values()
-    return render_to_response('home.html', {'conferences':conferences})
+    login = get_login(request)
+    return render_to_response(
+        'home.html',
+        {
+          'conferences':conferences,
+          'login_id': login[0],
+          'login_name': login[1]
+        }
+    )
   except:
     pass
 
@@ -32,10 +40,13 @@ def team (request):
       open(p+'/fixtures/' + 'team.json').read())
   past_collaborators = json.loads(
       open(p+'/fixtures/' + 'collaborators.json').read())
+  login = get_login(request)
   return render_to_response(
       'team.html',
       {'current_team': current_team,
-      'past_collaborators': past_collaborators})
+      'past_collaborators': past_collaborators,
+      'login_id': login[0],
+      'login_name': login[1]})
 
 def conf (request, conf):
   conf = conf.lower()
@@ -53,36 +64,38 @@ def conf (request, conf):
   except:
     return HttpResponseRedirect('/')
 
-@login_required
 def papers (request, conf):
   conf = conf.lower()
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    return render_to_response('papers.html', {'conf':conf})
+    login = get_login(request)
+    return render_to_response('papers.html',
+        {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
   except:
     return HttpResponseRedirect('/')
   
   
 
-@login_required
 def schedule (request, conf):
   conf = conf.lower()
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    return render_to_response('schedule.html', {'conf':conf})
+    login = get_login(request)
+    return render_to_response('schedule.html',
+        {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
   except:
     return HttpResponseRedirect('/')
 
 
-@login_required
 def paper (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
+    login = get_login(request)
     return render_to_response('paper.html', 
-    {'conf':conf})
+    {'conf':conf, 'login_id': login[0], 'login_name': login[1]})
   except:
     return HttpResponseRedirect('/')
 
@@ -92,15 +105,17 @@ def meetups (request, conf):
   try:
     similar_people = []
     request.session[kConf] = conf
-    login = request.session[kLogIn]
-    user = User.objects.get(email=login)
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
     meetups_enabled = user.meetups_enabled
     if meetups_enabled:
-      similar_people = get_similar_people(login, conf)
+      similar_people = get_similar_people(login[0], conf)
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': similar_people,
-        'meetups_enabled': meetups_enabled
+        'meetups_enabled': meetups_enabled,
+        'login_id': login[0],
+        'login_name': login[1]
     })
   except Exception, e:
     print e
@@ -110,16 +125,17 @@ def meetups (request, conf):
 '''
 AJAX Calls
 '''
-
 @csrf_exempt
-@login_required
 def data (request):
   recs = []
   likes = []
-  login = request.session[kLogIn]
   error = False
   msg = 'OK'
+  login = None
+  login_name = None
   try:
+    login = request.session[kLogIn]
+    login_name = request.session[kName]
     conf = request.session[kConf]
     registration = get_registration(login, conf)
     data = None
@@ -157,7 +173,7 @@ def data (request):
     msg = str(e)
   return HttpResponse(json.dumps({
       'login_id': login,
-      'login_name': request.session[kName],
+      'login_name': login_name,
       'recs':recs, 
       'likes':likes,
       'error': error,
@@ -165,8 +181,8 @@ def data (request):
       }), mimetype="application/json")
 
 
-
 @csrf_exempt
+@login_required
 def get_recs (request):
   try:
     papers = json.loads(request.POST["papers"])
@@ -176,6 +192,7 @@ def get_recs (request):
     return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 @csrf_exempt
+@login_required
 def log (request, action):
   try:
     login = request.session[kLogIn]
@@ -184,12 +201,11 @@ def log (request, action):
     insert_log(registration, action)
     return HttpResponse(json.dumps({'error':False}), mimetype="application/json")
   except:
-    print sys.exc_info()
     return HttpResponse(json.dumps({'error':True}), mimetype="application/json")
 
 
-
 @csrf_exempt
+@login_required
 def like (request, like_str):
   login = request.session[kLogIn]
   likes = []

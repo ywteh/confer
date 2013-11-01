@@ -22,7 +22,11 @@ window.applicationCache.addEventListener('updateready', function(){
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
 var login_name = localStorage.getItem('login_name')
-var starred = JSON.parse(localStorage.getItem('starred'))
+var starred = []
+var s = JSON.parse(localStorage.getItem('starred'))
+if (s != null){
+    starred = s
+}
 var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
@@ -38,17 +42,13 @@ function refresh(_async_){
         async: _async_,
         url: '/data', 
         success: function(res) {            
-            console.log("synced")               
-            
-            if(res.login_id!=null){
-                login_id = res.login_id
-                localStorage.setItem('login_id', login_id)
-            }
+            console.log("synced") 
 
-            if(res.login_name != null){
-                login_name = res.login_name
-                localStorage.setItem('login_name', login_name)
-            }            
+            login_id = res.login_id
+            localStorage.setItem('login_id', login_id)  
+
+            login_name = res.login_name 
+            localStorage.setItem('login_name', login_name)                       
 
             if(res.likes != null){
                 starred = res.likes
@@ -991,6 +991,11 @@ function add_pending_star(paper_id){
 
 
 function handle_session_star(event){
+    if (login_id == null) {
+        persistent_alert("You are not logged in. Please log in to star a session."); 
+        event.stopPropagation();
+        return
+    }
     enable_alert("updating information..."); 
     event.stopPropagation();
     var obj = $(event.target).parents("td:first").find('.s_star')
@@ -1124,6 +1129,11 @@ function compute_recs(){
 
 
 function handle_star(event){ 
+    if (login_id == null) {
+        persistent_alert("You are not logged in. Please log in to star a paper."); 
+        event.stopPropagation();
+        return
+    }
     //$("#refresh_recommendations").show();
     enable_alert("updating information..."); 
     var obj = $(event.target).parents("td:first").find('.p_star')
@@ -1536,6 +1546,14 @@ function disable_loading(){
   $("body").removeClass("loading");
 }
 
+
+function persistent_alert(msg){
+  $("body .alert .message").text(msg);
+  $("body").addClass("notice");
+  $("body").on('click', function(){
+    $("body").removeClass("notice");
+  });
+}
 
 
 function enable_alert(msg){
