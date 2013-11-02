@@ -32,10 +32,16 @@ def load_abstracts():
     if len(row) > 0:
       try:
         d = details['items'][row[0]]['content']
+
+        labels = set()
+        for l in details['items'][row[0]]['labels'].values():
+          if l['checked']:
+            labels.add(l['label'])
+
         authors = row[10].strip().split(',')
         for author in authors:
           prefs[author.strip().lower()].add(row[0])
-        papers[row[0]] = {'title': d['title'], 'authors': [{'name': name} for name in authors], 'abstract': d['fullAbstract']}
+        papers[row[0]] = {'title': d['title'], 'tags':list(labels), 'authors': [{'name': name} for name in authors], 'abstract': d['fullAbstract']}
       except Exception, e:
         print e
 
@@ -50,7 +56,6 @@ def prepare_paper_and_schedule_json():
     prefs[p] = list(prefs[p])
   p = open('data/cscw2014/prefs.json','w')
   p.write(json.dumps(prefs))
-  print prefs
   
 
 
