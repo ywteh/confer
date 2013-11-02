@@ -41,7 +41,7 @@ def load_abstracts():
         authors = row[10].strip().split(',')
         for author in authors:
           prefs[author.strip().lower()].add(row[0])
-        papers[row[0]] = {'title': d['title'], 'tags':list(labels), 'authors': [{'name': name} for name in authors], 'abstract': d['fullAbstract']}
+        papers[row[0]] = {'title': d['title'], 'keywords':', '. join(list(labels)), 'authors': [{'name': name} for name in authors], 'abstract': d['fullAbstract']}
       except Exception, e:
         print e
 
