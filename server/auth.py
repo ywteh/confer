@@ -104,7 +104,6 @@ def register (request):
 
       email = request.POST["email"].lower()
       password = request.POST["password"]
-      password2 = request.POST["password2"]
       f_name = request.POST["f_name"]
       l_name = request.POST["l_name"]
       if(email_re.match(email.strip()) == None):
@@ -118,9 +117,6 @@ def register (request):
         error = True
       if(password == ""):
         errors.append("Empty Password.")
-        error = True
-      if(password2 != password):
-        errors.append("Password and Confirm Password don't match.")
         error = True
 
       if(error):
