@@ -1,17 +1,9 @@
 #!/usr/bin/python
-import sys, os, operator, numpy
+import sys, os, operator, numpy, MySQLdb, json
 import matplotlib.pyplot as plt
 
-if __name__ == "__main__":
-	p = os.path.abspath(os.path.dirname(__file__))
-	if(os.path.abspath(p+"/..") not in sys.path):
-		sys.path.append(os.path.abspath(p+"/.."))
-	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
-
-from django.db import connection
-from algorithm.utils import *
-from db.session import *
-from db.entity import *
+from db import entity
+from db import session
 from collections import defaultdict
 
 
@@ -22,9 +14,12 @@ from collections import defaultdict
 script for preparing data in lenskit format
 '''
 
-
-sessions = Session().sessions
-entities = Entity().entities
+entities = entity.Entity().entities
+sessions = session.Session().sessions
+connection = MySQLdb.connect(host="mysql.csail.mit.edu",
+                     user="cobi",
+                      passwd="su4Biha",
+                      db="cobi")
 nodes = {}
 edges = defaultdict(dict)
 likes = defaultdict(set)
@@ -144,7 +139,7 @@ def main():
 		links = edges[edge]
 		for l in links:
 			weight = edges[edge][l]
-			if(weight > 10 and (nodes[edge]['id'] not in edgesToRemove) and (nodes[l]['id'] not in edgesToRemove)):
+			if(weight > 0 and (nodes[edge]['id'] not in edgesToRemove) and (nodes[l]['id'] not in edgesToRemove)):
 				linksArray.append({'source' : nodes[edge]['id'], 'target' : nodes[l]['id'], 'weight': weight})
 	
 	p = open('/Volumes/Workspace/www/data.json','w')

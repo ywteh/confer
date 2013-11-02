@@ -57,7 +57,7 @@ class Entity:
 				hm = row[8]
 				communities = json.loads(row[9])
 				subtype = row[10]
-				self.entities[row[0]]={'authors': authors, 'title': title, 'c_and_b': c_and_b, 'keywords': keywords, 'abstract':abstract, 'award':award, 'hm':hm, 'tags': communities, 'subtype':subtype}
+				self.entities[row[0]]={'authors': authors, 'title': title, 'session': session, 'c_and_b': c_and_b, 'keywords': keywords, 'abstract':abstract, 'award':award, 'hm':hm, 'tags': communities, 'subtype':subtype}
 
 
 	def get_entities(self):
