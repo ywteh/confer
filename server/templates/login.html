@@ -13,7 +13,7 @@ localStorage.removeItem('user_recs')
 <form method="POST" action="/login">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
-	<h3>Confer Login</h3>
+	<h3>Returning User -- Login</h3>
 	<hr />
 	<div id="error">
 		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
@@ -25,5 +25,10 @@ localStorage.removeItem('user_recs')
 	<label for="password">Password</label><br />
 	<input type="password" name="login_password" id="login_password" placeholder="Your password"/><br /><br />
 	<input class="button" type="submit" value="Log In"/>
+	<br />
+	<br />
+	<div>
+		New to Confer? <a class="blue bold" href="/register?redirect_url={{redirect_url}}">Sign up now</a>
+	</div>
 </form>
 {% endblock %}
