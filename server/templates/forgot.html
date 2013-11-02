@@ -11,7 +11,7 @@
 	<h3>Confer Reset Password</h3>
 	<hr />
 	<div id="error">
-		{% for error in errors %}<span class="error">{{error}}</span><br />
+		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
         {% endfor %}
         <br />
     </div>
