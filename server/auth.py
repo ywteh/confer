@@ -148,7 +148,7 @@ def logout (request):
     del request.session[kName]
   c = {
     'msg_title': 'Thank you for using Confer!',
-    'msg_body': 'Your have been logged out.<ul><li><a class= "blue bold" href="/home">Click Here</a> to browse confer as guest.</li><li><a class= "blue bold" href="/login">Click Here</a> to log in again.</li></ul>'
+    'msg_body': 'Your have been logged out.<br /><br /><ul><li><a class= "blue bold" href="/home">Click Here</a> to browse confer as guest.<br/><br /></li><li><a class= "blue bold" href="/login">Click Here</a> to log in again.</li></ul>'
   } 
   c.update(csrf(request))
   return render_to_response('confirmation.html', c)
