@@ -45,13 +45,13 @@ def login_required (f):
 
 
 def login_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.POST}
   c.update(csrf(request))
   return render_to_response('login.html', c)
 
 
 def register_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.POST}
   c.update(csrf(request))
   return render_to_response('register.html', c)
 
