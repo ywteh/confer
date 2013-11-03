@@ -16,6 +16,7 @@ urlpatterns = patterns('',
 
     url(r'^forgot', 'server.auth.forgot'),
     url(r'^reset/(\w+)', 'server.auth.reset'),
+    url(r'^verify/(\w+)', 'server.auth.verify'),
     url(r'^settings', 'server.auth.settings'),
 
     #move this matching in the end

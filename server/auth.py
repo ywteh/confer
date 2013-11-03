@@ -8,6 +8,8 @@ from django.core.validators import email_re
 from django.db.utils import IntegrityError
 from django.utils.http import urlquote_plus
 
+from multiprocessing import Pool
+
 from utils import *
 from models import *
 
@@ -26,6 +28,9 @@ kConf = "SESSION_CONF"
 kName = "SESSION_NAME"
 kFName = "SESSION_F_NAME"
 kLName = "SESSION_L_NAME"
+
+# for async calls
+pool = Pool(processes=1)  
 
 '''
 LOGIN/REGISTER/RESET
@@ -84,8 +89,8 @@ def login (request):
           User.objects.get(email=login_email)
           errors.append(
               'Wrong password. Please try again.<br /><br />'
-              '<a class="blue bold" href="/forgot">Click Here</a> '
-              'to reset your password.')
+              '<a class="blue bold" href="/forgot?email=%s">Click Here</a> '
+              'to reset your password.' %(urlquote_plus(login_email)))
         except User.DoesNotExist:
           errors.append(
               'Could not find any account associated with email address: '
@@ -142,6 +147,24 @@ def register (request):
       request.session[kName] = user.f_name
       request.session[kFName] = user.f_name
       request.session[kLName] = user.l_name
+
+      decrypted_email = encrypt_text(user.email)
+
+      subject = "Welcome to Confer"
+
+      msg_body = '''
+      Dear %s,
+
+      Thanks for registering to Confer. 
+
+      Please click the link below to start using Confer:
+
+      http://confer.csail.mit.edu/verify/%s
+
+      ''' % (user.f_name + ' ' + user.l_name, decrypted_email)
+
+      pool.apply_async(send_email, [user.email, subject, msg_body])
+
       return HttpResponseRedirect(redirect_url)
     except IntegrityError:
       errors.append('Account already exists. Please <a class="blue bold" href="/login">Log In</a>.')
@@ -171,7 +194,7 @@ def forgot (request):
   if request.method == "POST":
     errors = []
     try:
-      user_email = request.POST["user_email"].lower()
+      user_email = request.POST["email"].lower()
       User.objects.get(email=user_email)
 
       decrypted_email = encrypt_text(user_email)
@@ -187,7 +210,7 @@ def forgot (request):
 
       ''' % (user_email, decrypted_email)
 
-      send_email(user_email, subject, msg_body)
+      pool.apply_async(send_email, [user_email, subject, msg_body])
 
       c = {
         'msg_title': 'Confer Reset Password',
@@ -203,13 +226,40 @@ def forgot (request):
     except:
       errors.append(
           'Some unknown error happened.'
-          'Please try again or send an email to <a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>.')
+          'Please try again or send an email to '
+          '<a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>.')
     
-    c = {'errors': errors} 
+    c = {'errors': errors, 'values': request.POST} 
     c.update(csrf(request))
     return render_to_response('forgot.html', c)
   else:
-    return render_to_response('forgot.html', csrf(request))
+    c = {'values': request.REQUEST} 
+    c.update(csrf(request))
+    return render_to_response('forgot.html', c)
+
+def verify (request, encrypted_email):
+  errors = []
+  c = {'msg_title': 'Confer Account Verification'}
+  try:
+    user_email = decrypt_text(encrypted_email)
+    user = User.objects.get(email=user_email)
+    c.update({
+        'msg_body': 'Thanks for verifying your email address! <a class= "blue bold" href="/home">Click Here</a> to start using Confer.'
+    })
+    request.session.flush()
+    request.session[kLogIn] = user.email
+    request.session[kName] = user.f_name
+    request.session[kFName] = user.f_name
+    request.session[kLName] = user.l_name
+  except:
+    errors.append(
+        'Wrong verify code in the URL. '
+        'Please try again or send an email to '
+        '<a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a>')
+  
+  c.update({'errors': errors})
+  c.update(csrf(request))
+  return render_to_response('confirmation.html', c)
 
 
 def reset (request, encrypted_email):
