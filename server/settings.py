@@ -1,9 +1,9 @@
 # Django settings for confer project.
 
-DEBUG = False
-
-ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'localhost']
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+
+#ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'localhost']
 
 ADMINS = (
     ('Anant Bhardwaj', 'anantb@csail.mit.edu'),
