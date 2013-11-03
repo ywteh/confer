@@ -25,7 +25,7 @@
 	<br />
 	<br />
 	<div>
-		Already have an account? <a class="blue bold" href="/login?redirect_url={{redirect_url}}">Log in</a>
+		Already have an account? <a class="blue bold" href="/login?redirect_url={{redirect_url}}{% if values.email %}&amp;login_email={{values.email|urlencode}}{% endif %}">Log in</a>
 	</div>
 </form>
 {% endblock %}
