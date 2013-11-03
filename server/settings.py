@@ -1,9 +1,9 @@
 # Django settings for confer project.
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'localhost']
+ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'confer-staging.csail.mit.edu']
 
 ADMINS = (
     ('Confer Team', 'confer@csail.mit.edu'),
@@ -18,7 +18,7 @@ DATABASES = {
         'USER': 'postgres',                      # Not used with sqlite3.
         'PASSWORD': 'postgres',                  # Not used with sqlite3.
         'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '5433',                      # Set to empty string for default. Not used with sqlite3.
+        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
 
