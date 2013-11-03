@@ -1,10 +1,11 @@
-# Django settings for recommender project.
+# Django settings for confer project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Anant Bhardwaj', 'anantb@csail.mit.edu'),
+    ('Confer Team', 'confer@csail.mit.edu'),
 )
 
 MANAGERS = ADMINS
