@@ -50,7 +50,7 @@ def login_required (f):
 
 
 def login_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.POST}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.REQUEST}
   c.update(csrf(request))
   return render_to_response('login.html', c)
 
@@ -71,41 +71,43 @@ def login (request):
 
   if request.method == "POST":
     errors = []
+    login_email = ''
+
     if('redirect_url' in request.POST.keys()):
       redirect_url = urllib.unquote_plus(request.POST['redirect_url'])
-      login_email = ''
+      
+    try:
+      login_email = request.POST["login_email"].lower()
+      login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
+      user = User.objects.get(email=login_email, password=login_password)
+      request.session.flush()
+      request.session[kLogIn] = user.email
+      request.session[kName] = user.f_name
+      request.session[kFName] = user.f_name
+      request.session[kLName] = user.l_name
+      return HttpResponseRedirect(redirect_url)
+    except User.DoesNotExist:
       try:
-        login_email = request.POST["login_email"].lower()
-        login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
-        user = User.objects.get(email=login_email, password=login_password)
-        request.session.flush()
-        request.session[kLogIn] = user.email
-        request.session[kName] = user.f_name
-        request.session[kFName] = user.f_name
-        request.session[kLName] = user.l_name
-        return HttpResponseRedirect(redirect_url)
+        User.objects.get(email=login_email)
+        errors.append(
+            'Wrong password. Please try again.<br /><br />'
+            '<a class="blue bold" href="/forgot?email=%s">Click Here</a> '
+            'to reset your password.' %(urlquote_plus(login_email)))
       except User.DoesNotExist:
-        try:
-          User.objects.get(email=login_email)
-          errors.append(
-              'Wrong password. Please try again.<br /><br />'
-              '<a class="blue bold" href="/forgot?email=%s">Click Here</a> '
-              'to reset your password.' %(urlquote_plus(login_email)))
-        except User.DoesNotExist:
-          errors.append(
-              'Could not find any account associated with email address: '
-              '<a href="mailto:%s">%s</a>.<br /><br /><a class="blue bold" '
-              'href="/register?redirect_url=%s&email=%s">Click Here</a> '
-              'to create an account.' %(login_email, login_email,
-                  urllib.quote_plus(redirect_url), urlquote_plus(login_email)))
-        return login_form(
-            request, redirect_url = urllib.quote_plus(redirect_url),
-            errors = errors) 
-      except:
-        errors.append('Login failed.')
-        return login_form(
-            request, redirect_url = urllib.quote_plus(redirect_url),
-            errors = errors)          
+        errors.append(
+            'Could not find any account associated with email address: '
+            '<a href="mailto:%s">%s</a>.<br /><br /><a class="blue bold" '
+            'href="/register?redirect_url=%s&email=%s">Click Here</a> '
+            'to create an account.' %(login_email, login_email,
+                urllib.quote_plus(redirect_url), urlquote_plus(login_email)))
+      return login_form(
+          request, redirect_url = urllib.quote_plus(redirect_url),
+          errors = errors) 
+    except:
+      errors.append('Login failed.')
+      return login_form(
+          request, redirect_url = urllib.quote_plus(redirect_url),
+          errors = errors)          
   else:
     return login_form(request, urllib.quote_plus(redirect_url))
 
@@ -113,8 +115,10 @@ def register (request):
   redirect_url = '/'
   if('redirect_url' in request.GET.keys()):
     redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
+
   if request.method == "POST":
     errors = []
+    email = ''
     try:
       error = False
       if('redirect_url' in request.POST.keys()):
@@ -139,6 +143,7 @@ def register (request):
 
       if(error):
         return register_form(request, redirect_url = urllib.quote_plus(redirect_url), errors = errors)
+
       hashed_password = hashlib.sha1(password).hexdigest()
       user = User(email=email, password=hashed_password, f_name=f_name, l_name=l_name)
       user.save()
@@ -167,7 +172,9 @@ def register (request):
 
       return HttpResponseRedirect(redirect_url)
     except IntegrityError:
-      errors.append('Account already exists. Please <a class="blue bold" href="/login">Log In</a>.')
+      errors.append(
+          'Account already exists. Please <a class="blue bold" href="/login?login_email=%s">Log In</a>.'
+          % (urllib.urlquote_plus(email)))
       return register_form(request, redirect_url = urllib.quote_plus(redirect_url), errors = errors)
     except:
       errors.append("Some error happened while trying to create an account. Please try again.")
