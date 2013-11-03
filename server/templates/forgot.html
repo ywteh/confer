@@ -15,8 +15,8 @@
         {% endfor %}
         <br />
     </div>
-	<label for="user_email">Enter the email address</label><br />
-	<input type="text" name="user_email" id="user_email" placeholder="Your email"/> <br />
+	<label for="email">Enter the email address</label><br />
+	<input type="text" name="email" id="email" placeholder="Your email" {% if values.email %}value="{{values.email}}"{% endif %}/> <br />
 	<input type="submit" class="button" value="Send Reset Link" />
 </form>
 {% endblock %}
