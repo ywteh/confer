@@ -92,14 +92,14 @@ def login (request):
         errors.append(
             'Wrong password. Please try again.<br /><br />'
             '<a class="blue bold" href="/forgot?email=%s">Click Here</a> '
-            'to reset your password.' %(urlquote_plus(login_email)))
+            'to reset your password.' %(urllib.quote_plus(login_email)))
       except User.DoesNotExist:
         errors.append(
             'Could not find any account associated with email address: '
             '<a href="mailto:%s">%s</a>.<br /><br /><a class="blue bold" '
             'href="/register?redirect_url=%s&email=%s">Click Here</a> '
             'to create an account.' %(login_email, login_email,
-                urllib.quote_plus(redirect_url), urlquote_plus(login_email)))
+                urllib.quote_plus(redirect_url), urllib.quote_plus(login_email)))
       return login_form(
           request, redirect_url = urllib.quote_plus(redirect_url),
           errors = errors) 
