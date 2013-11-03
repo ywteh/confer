@@ -174,7 +174,7 @@ def register (request):
     except IntegrityError:
       errors.append(
           'Account already exists. Please <a class="blue bold" href="/login?login_email=%s">Log In</a>.'
-          % (urllib.urlquote_plus(email)))
+          % (urllib.quote_plus(email)))
       return register_form(request, redirect_url = urllib.quote_plus(redirect_url), errors = errors)
     except:
       errors.append("Some error happened while trying to create an account. Please try again.")
