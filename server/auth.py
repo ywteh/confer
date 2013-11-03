@@ -51,7 +51,7 @@ def login_form (request, redirect_url='/', errors=[]):
 
 
 def register_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.POST}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.REQUEST}
   c.update(csrf(request))
   return render_to_response('register.html', c)
 
@@ -68,6 +68,7 @@ def login (request):
     errors = []
     if('redirect_url' in request.POST.keys()):
       redirect_url = urllib.unquote_plus(request.POST['redirect_url'])
+      login_email = ''
       try:
         login_email = request.POST["login_email"].lower()
         login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
@@ -81,13 +82,25 @@ def login (request):
       except User.DoesNotExist:
         try:
           User.objects.get(email=login_email)
-          errors.append('Wrong password. Please try again.<br /><a class="blue bold" href="/forgot">Click Here</a> to reset your password.')
+          errors.append(
+              'Wrong password. Please try again.<br /><br />'
+              '<a class="blue bold" href="/forgot">Click Here</a> '
+              'to reset your password.')
         except User.DoesNotExist:
-          errors.append('Could not find any account associated with email address: <a href="mailto:%s">%s</a>.<br /><a class="blue bold" href="/register?redirect_url=%s">Click Here</a> to create an account.' %(login_email, login_email, urllib.quote_plus(redirect_url)))
-        return login_form(request, redirect_url = urllib.quote_plus(redirect_url), errors = errors) 
+          errors.append(
+              'Could not find any account associated with email address: '
+              '<a href="mailto:%s">%s</a>.<br /><br /><a class="blue bold" '
+              'href="/register?redirect_url=%s&email=%s">Click Here</a> '
+              'to create an account.' %(login_email, login_email,
+                  urllib.quote_plus(redirect_url), urlquote_plus(login_email)))
+        return login_form(
+            request, redirect_url = urllib.quote_plus(redirect_url),
+            errors = errors) 
       except:
         errors.append('Login failed.')
-        return login_form(request, redirect_url = urllib.quote_plus(redirect_url), errors = errors)          
+        return login_form(
+            request, redirect_url = urllib.quote_plus(redirect_url),
+            errors = errors)          
   else:
     return login_form(request, urllib.quote_plus(redirect_url))
 
