@@ -1,6 +1,6 @@
 # Django settings for confer project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'localhost']
