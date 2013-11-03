@@ -148,7 +148,7 @@ def register (request):
       request.session[kFName] = user.f_name
       request.session[kLName] = user.l_name
 
-      decrypted_email = encrypt_text(user.email)
+      encrypted_email = encrypt_text(user.email)
 
       subject = "Welcome to Confer"
 
@@ -161,7 +161,7 @@ def register (request):
 
       http://confer.csail.mit.edu/verify/%s
 
-      ''' % (user.f_name + ' ' + user.l_name, decrypted_email)
+      ''' % (user.f_name + ' ' + user.l_name, encrypted_email)
 
       pool.apply_async(send_email, [user.email, subject, msg_body])
 
@@ -197,7 +197,7 @@ def forgot (request):
       user_email = request.POST["email"].lower()
       User.objects.get(email=user_email)
 
-      decrypted_email = encrypt_text(user_email)
+      encrypted_email = encrypt_text(user_email)
 
       subject = "Confer Password Reset"
 
@@ -208,7 +208,7 @@ def forgot (request):
 
       http://confer.csail.mit.edu/reset/%s
 
-      ''' % (user_email, decrypted_email)
+      ''' % (user_email, encrypted_email)
 
       pool.apply_async(send_email, [user_email, subject, msg_body])
 
