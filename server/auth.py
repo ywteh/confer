@@ -80,7 +80,7 @@ def login (request):
       login_email = request.POST["login_email"].lower()
       login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
       user = User.objects.get(email=login_email, password=login_password)
-      request.session.flush()
+      clear_session(request)
       request.session[kLogIn] = user.email
       request.session[kName] = user.f_name
       request.session[kFName] = user.f_name
@@ -147,7 +147,7 @@ def register (request):
       hashed_password = hashlib.sha1(password).hexdigest()
       user = User(email=email, password=hashed_password, f_name=f_name, l_name=l_name)
       user.save()
-      request.session.flush()
+      clear_session(request)
       request.session[kLogIn] = user.email
       request.session[kName] = user.f_name
       request.session[kFName] = user.f_name
@@ -183,12 +183,20 @@ def register (request):
       return register_form(request, redirect_url = urllib.quote_plus(redirect_url))
 
 
-def logout (request):
+def clear_session (request):
   request.session.flush()
   if kLogIn in request.session.keys():
     del request.session[kLogIn]
   if kName in request.session.keys():
     del request.session[kName]
+  if kFName in request.session.keys():
+    del request.session[kFName]
+  if kLName in request.session.keys():
+    del request.session[kLName]
+
+
+def logout (request):
+  clear_session(request)
   c = {
     'msg_title': 'Thank you for using Confer!',
     'msg_body': 'Your have been logged out.<br /><br /><ul><li><a class= "blue bold" href="/home">Click Here</a> to browse confer as guest.<br/><br /></li><li><a class= "blue bold" href="/login">Click Here</a> to log in again.</li></ul>'
@@ -253,7 +261,7 @@ def verify (request, encrypted_email):
     c.update({
         'msg_body': 'Thanks for verifying your email address! <a class= "blue bold" href="/home">Click Here</a> to start using Confer.'
     })
-    request.session.flush()
+    clear_session(request)
     request.session[kLogIn] = user.email
     request.session[kName] = user.f_name
     request.session[kFName] = user.f_name
