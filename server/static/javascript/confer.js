@@ -40,7 +40,8 @@ function refresh(_async_){
     $.ajax({
         type: 'GET',
         async: _async_,
-        url: '/data', 
+        url: '/data',
+        cache: false,
         success: function(res) {            
             console.log("synced") 
 
@@ -127,6 +128,7 @@ function sync(){
         type:'POST',
         url:'/like/star',
         async: false, 
+        cache: false,
         data:{'papers': JSON.stringify(star_pending)}, 
         success: function(res) {
 
@@ -151,6 +153,7 @@ function sync(){
         type:'POST',
         url:'/like/unstar',
         async: false, 
+        cache: false,
         data:{'papers': JSON.stringify(unstar_pending)}, 
         success: function(res) {
             console.log(res)
