@@ -17,6 +17,7 @@ Tag sessions and papers you want to see and get updated recommendations on the f
 </div>	
 <!--  Schedule -->
 <div id="schedule">	
+<svg id="calendar"></svg>
 <div id="filters">
 <table id="filter_schedule">
 </table>
@@ -47,8 +48,43 @@ Tag sessions and papers you want to see and get updated recommendations on the f
         populate_schedule()
         setup_filters()
         bind_events()
+        update_cal()
         log('schedule')
     });
 </script>
+<style>
+  #calendar {
+    width: 100%;
+    margin-bottom: 10px;
+    background: white;
+    border: 1px solid #eee;
+  }
+  #calendar text {
+    font-family: arial;
+    font-size: 10pt;
+    stroke: none;
+    fill: grey;
+  }
+  #calendar .cal-top-label text {
+    fill: black;
+  }
+  #calendar rect {
+    stroke: #eee;
+    stroke-width: 1px;
+    fill: white;
+  }
+  #calendar rect.cal-star {
+    fill: steelblue;
+    stroke: none;
+  }
+  #calendar .cal-stars text {
+    stroke: none;
+    fill: white;
+  }
+
+</style>
 <script type="text/javascript" src="/static/javascript/confer.js"></script>
+<script type="text/javascript" src="/static/javascript/third-party/underscore.min.js"></script>
+<script type="text/javascript" src="/static/javascript/third-party/d3.min.js"></script>
+<script type="text/javascript" src="/static/javascript/calendar.js"></script>
 {% endblock %}

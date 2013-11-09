@@ -1084,8 +1084,8 @@ function handle_session_star(event){
         }
         
     }
-    
-
+    // update calendar
+    update_cal();
 
 }
 
