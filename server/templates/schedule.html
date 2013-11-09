@@ -57,7 +57,6 @@ Tag sessions and papers you want to see and get updated recommendations on the f
     width: 100%;
     margin-bottom: 10px;
     background: white;
-    border: 1px solid #eee;
   }
   #calendar text {
     font-family: arial;
@@ -65,13 +64,16 @@ Tag sessions and papers you want to see and get updated recommendations on the f
     stroke: none;
     fill: grey;
   }
-  #calendar .cal-top-label text {
-    fill: black;
-  }
   #calendar rect {
     stroke: #eee;
     stroke-width: 1px;
     fill: white;
+  }
+  #calendar .cal-top-label rect, #calendar .cal-left-label rect {
+    stroke: none;
+  }
+  #calendar .cal-top-label text {
+    fill: black;
   }
   #calendar rect.cal-star {
     fill: steelblue;
