@@ -1043,6 +1043,8 @@ function handle_session_star(event){
                 apply_filters()
             })
             .done(function(){
+                // update calendar
+                update_cal();
                 enable_alert("You unliked a session.");
             });
         }
@@ -1079,13 +1081,14 @@ function handle_session_star(event){
                 apply_filters()
             })
             .done(function(){
+                // update calendar
+                update_cal();
+
                 enable_alert("You liked a session.");
             });
         }
         
     }
-    // update calendar
-    update_cal();
 
 }
 

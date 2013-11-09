@@ -47,7 +47,7 @@ var fmtHour = function(hr) {
 //    stime: float representing time e.g., 8.5 == 8:30am
 //    etime: 
 var get_stared_submissions = function() {
-  var staredslots = [];
+  var staredslots = {};
   _.each(schedule, function(daySched) {
     var datestr = daySched.date;
     var date = str2date(datestr);
@@ -58,19 +58,23 @@ var get_stared_submissions = function() {
         var session = sessions[s.session];
         if (!session) return;
         var isect = _.intersection(session.submissions, starred);
+        var key = JSON.stringify([date.toString(), times.stime, times.etime]);
         if (isect.length > 0) {
-          staredslots.push({
-            ids: isect,
-            day: date,
-            stime: times.stime,
-            etime: times.etime
-          });
+          if (!(key in staredslots)) {
+            staredslots[key] = { 
+              ids: [], 
+              day: date, 
+              stime: times.stime, 
+              etime: times.etime
+            };
+          }
+          staredslots[key].ids.push.apply(staredslots[key].ids, isect)
         }
       })
       
     });
   })
-  return staredslots;
+  return _.values(staredslots);
 }
 
 //
@@ -170,11 +174,8 @@ var update_cal = function() {
   stars.on('mouseover', function(d) {
     var par = d3.select($(this).parent().get(0))
     var me = d3.select(this)
-    var names = _.uniq(_.map(d.ids, function(id) {
-      return entities[id].session;
-    }));
+    // this is not quite right, because 
     var text = d.ids.length + " talks"
-    _
     par.append('text')
       .attr("transform", "translate("+x(d.day) + "," + y(d.stime)+")")
       .attr("dy", "1.2em")
