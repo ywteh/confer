@@ -2,6 +2,10 @@
 //
 // schedule.slots.time as consistent format e.g., "1:30-4:00"
 //
+
+
+// Extracts a single hour from a string w/out am/pm
+// e.g., "10" or "10:30"
 var str2hour = function(str) {
   if (/^\d+$/.test(str)) 
     return +str;
@@ -11,10 +15,15 @@ var str2hour = function(str) {
 }
 
 
+// extracts time from many possible formats:
+// e.g., "10am", "10:30am", "12pm", "10", "10:30"
+// @return [hour, "am"/"pm"]
 var str2time = function(str) {
+  if (!str) return null;
+  str = str.trim();
   if (/pm$/.test(str)) {
     var hr = str2hour(str.substr(0,str.length-2));
-    if (hr == 12) hr = 0;
+    if (hr >= 12 && hr < 13) hr = 0;
     return [hr, 'pm'];
   } else if (/am$/.test(str)) {
     var hr = str2hour(str.substr(0,str.length-2))
@@ -40,13 +49,13 @@ var str2times = function(timestr) {
   var arr = timestr.split('-');
   var stime = str2time(arr[0]),
       etime = str2time(arr[1]);
-  if (!stime || !etime || (!stime[1] && !etime[1])) {
+  if (!stime || !etime) {
     console.log("could not parse time: " + timestr);
     return null;
   }
-  if (!stime[1]) {
-    stime[1] = etime[1];
-  }
+  if (!etime[1]) etime[1] = 'am'; 
+  if (!stime[1]) stime[1] = etime[1];
+  
 
   var shour = stime[0];
   if (stime[1] == 'pm') shour += 12;
@@ -84,6 +93,11 @@ var get_stared_submissions = function() {
     _.each(daySched.slots, function(slot) {
       var timestr = slot.time;
       var times = str2times(timestr);
+      if (!times) {
+        console.log(slot)
+        return;
+      }
+
       _.each(slot.sessions, function(s) {
         var session = sessions[s.session];
         if (!session) return;
@@ -142,7 +156,7 @@ var update_cal = function() {
 
   // render left labels
   var leftLabels = cal.append('g').classed('cal-left-label', true).selectAll("g")
-      .data(hours)
+      .data(hours.slice(1, hours.length-1))
     .enter().append("g")
   leftLabels.append("rect")
     .attr("x", 0)
@@ -151,7 +165,7 @@ var update_cal = function() {
     .attr('height', y(minhour+1)-y(minhour))
   leftLabels.append("text")
     .attr("transform", function(d) { return "translate(0, "+y(d)+")"})
-    .attr('dy', '1.1em')
+    .attr('dy', '.25em')
     .attr('dx', labelwidth-10)
     .attr('text-anchor', 'end')
     .text(fmtHour)
@@ -199,20 +213,23 @@ var update_cal = function() {
     var par = d3.select($(this).parent().get(0))
     var me = d3.select(this)
     // this is not quite right, because 
-    var text = d.ids.length + " talks"
+    var text = d.ids.length + " talk"
+    if (d.ids.length > 1) text += "s";
     par.append('text')
       .attr("transform", "translate("+x(d.day) + "," + y(d.stime)+")")
       .attr("dy", "1.2em")
       .attr("dx", 5)
       .text(text)
-    me.style("fill", "rgb(46, 120, 182)");
+    me.style("fill", "rgb(224, 220, 98)");
+    me.style("opacity", 1);
   })
 
   stars.on("mouseout", function(d) {
     var par = d3.select($(this).parent().get(0))
     var me = d3.select(this);
-    me.style("fill", 'steelblue')
-    par.selectAll("text").remove()
+    me.style("fill", '#E9E581');
+    me.style("opacity", 0.7);
+    par.selectAll("text").remove();
   })
         
 
