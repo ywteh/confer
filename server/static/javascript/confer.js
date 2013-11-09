@@ -1208,6 +1208,9 @@ function handle_star(event){
                 position_delta = $(event.target).parents("td:first").position().top - position_old;
                 if (position_delta != 0)
                   $('html, body').scrollTop(scroll_current + position_delta);
+                
+                // update cal
+                update_cal()
             });
         }
     }else{
@@ -1252,6 +1255,9 @@ function handle_star(event){
                 position_delta = $(event.target).parents("td:first").position().top - position_old;
                 if (position_delta != 0)
                   $('html, body').scrollTop(scroll_current + position_delta);
+              
+                // update cal
+                update_cal();
             });
         }
 
