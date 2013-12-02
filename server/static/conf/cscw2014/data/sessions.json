@@ -1110,9 +1110,7 @@ sessions={
         "s_title": "Video Track Session<br>",
         "room": "GB910",
         "time": "15:45-17:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "paper",
         "day": "Monday, Feb 17th",
@@ -1122,9 +1120,7 @@ sessions={
         "s_title": "Demos",
         "room": "GB78",
         "time": "15:45-17:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "paper",
         "day": "Monday, Feb 17th",
@@ -1134,9 +1130,7 @@ sessions={
         "s_title": "Posters 1",
         "room": "GB12",
         "time": "15:45-17:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "paper",
         "day": "Monday, Feb 17th",
@@ -1146,9 +1140,7 @@ sessions={
         "s_title": "Posters 2",
         "room": "GB34",
         "time": "15:45-17:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "paper",
         "day": "Monday, Feb 17th",
@@ -1158,9 +1150,7 @@ sessions={
         "s_title": "Poster 3",
         "room": "Dover AB",
         "time": "15:45-17:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "paper",
         "day": "Monday, Feb 17th",
@@ -1170,9 +1160,7 @@ sessions={
         "s_title": "Poster & Demo Reception",
         "room": "GB56",
         "time": "17:00-19:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Monday, Feb 17th",
@@ -1242,9 +1230,7 @@ sessions={
         "s_title": "Intro &amp; Plenary",
         "room": "GB56",
         "time": "8:45-10:15",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Monday, Feb 17th",
@@ -1254,9 +1240,7 @@ sessions={
         "s_title": "Lasting Impact",
         "room": "GB56",
         "time": "15:45-16:45",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Tuesday, Feb 18th",
@@ -1266,9 +1250,7 @@ sessions={
         "s_title": "Townhall",
         "room": "GB56",
         "time": "16:45-17:45",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Tuesday, Feb 18th",
@@ -1278,9 +1260,7 @@ sessions={
         "s_title": "Museum",
         "room": "GB56",
         "time": "18:00-19:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Tuesday, Feb 18th",
@@ -1290,9 +1270,7 @@ sessions={
         "s_title": "Reception",
         "room": "GB56",
         "time": "19:00-22:00",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Tuesday, Feb 18th",
@@ -1302,9 +1280,7 @@ sessions={
         "s_title": "Closing &amp; Plenary",
         "room": "GB56",
         "time": "15:45-17:15",
-        "submissions": [
-            ""
-        ],
+        "submissions": [],
         "personas": "",
         "venue": "special",
         "day": "Wednesday, Feb 19th",

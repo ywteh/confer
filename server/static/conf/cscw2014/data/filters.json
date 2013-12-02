@@ -92,6 +92,12 @@ s_filters=[
 					"class":"time filter", 
 					"type":"time", 
 					"label":"Afternoon 2"
+				},
+				{
+					"data":"evening", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Evening"
 				}
 		]
 	}
