@@ -238,7 +238,7 @@ schedule=[
             {
                 "slot_id": "Tuesday__Feb_18th_18_00_19_00",
                 "time": "18:00-19:00",
-                "slot_class": "evening1",
+                "slot_class": "evening",
                 "sessions": [
                     {
                         "session": "s223",
@@ -249,7 +249,7 @@ schedule=[
             {
                 "slot_id": "Tuesday__Feb_18th_19_00_22_00",
                 "time": "19:00-22:00",
-                "slot_class": "evening2",
+                "slot_class": "evening",
                 "sessions": [
                     {
                         "session": "s224",
