@@ -756,7 +756,7 @@ function get_session_html(id, day, time, slot_class, room){
 
     var tags = ''
     if(sessions[id].s_tags){
-        tags = ' tags'
+        //tags = ' tags'
     }
 
     var raw_html = '<div class="session ' + award +  ' ' + tags +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '

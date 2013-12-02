@@ -1,4 +1,3 @@
-nav_hide = ["nav_schedule"]
 s_filters=[
 	{
 		"label":"Sessions", 
@@ -57,12 +56,6 @@ s_filters=[
 					"class":"day filter", 
 					"type":"day", 
 					"label":"Wednesday"
-				},
-				{
-					"data":"Thursday", 
-					"class":"day filter", 
-					"type":"day", 
-					"label":"Thursday"
 				}
 		]
 	},
