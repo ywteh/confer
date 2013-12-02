@@ -4,8 +4,9 @@ schedule=[
         "day": "Monday",
         "slots": [
             {
-                "slot_id": "Monday, Feb 17th 8:45-10:15",
+                "slot_id": "Monday__Feb_17th_8_45_10_15",
                 "time": "8:45-10:15",
+                "slot_class": "morning1",
                 "sessions": [
                     {
                         "session": "s220",
@@ -14,8 +15,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday, Feb 17th 10:45-12:00",
+                "slot_id": "Monday__Feb_17th_10_45_12_00",
                 "time": "10:45-12:00",
+                "slot_class": "morning2",
                 "sessions": [
                     {
                         "session": "s111",
@@ -40,8 +42,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday, Feb 17th 14:00-15:15",
+                "slot_id": "Monday__Feb_17th_14_00_15_15",
                 "time": "14:00-15:15",
+                "slot_class": "afternoon1",
                 "sessions": [
                     {
                         "session": "s110",
@@ -66,8 +69,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday, Feb 17th 15:45-17:00",
+                "slot_id": "Monday__Feb_17th_15_45_17_00",
                 "time": "15:45-17:00",
+                "slot_class": "afternoon2",
                 "sessions": [
                     {
                         "session": "s213",
@@ -92,8 +96,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday, Feb 17th 17:00-19:00",
+                "slot_id": "Monday__Feb_17th_17_00_19_00",
                 "time": "17:00-19:00",
+                "slot_class": "afternoon3",
                 "sessions": [
                     {
                         "session": "s216",
@@ -108,8 +113,9 @@ schedule=[
         "day": "Tuesday",
         "slots": [
             {
-                "slot_id": "Tuesday, Feb 18th 9:00-10:15",
+                "slot_id": "Tuesday__Feb_18th_9_00_10_15",
                 "time": "9:00-10:15",
+                "slot_class": "morning1",
                 "sessions": [
                     {
                         "session": "s219",
@@ -142,8 +148,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 10:45-12:00",
+                "slot_id": "Tuesday__Feb_18th_10_45_12_00",
                 "time": "10:45-12:00",
+                "slot_class": "morning2",
                 "sessions": [
                     {
                         "session": "s122",
@@ -172,8 +179,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 14:00-15:15",
+                "slot_id": "Tuesday__Feb_18th_14_00_15_15",
                 "time": "14:00-15:15",
+                "slot_class": "afternoon1",
                 "sessions": [
                     {
                         "session": "s217",
@@ -206,8 +214,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 15:45-16:45",
+                "slot_id": "Tuesday__Feb_18th_15_45_16_45",
                 "time": "15:45-16:45",
+                "slot_class": "afternoon2",
                 "sessions": [
                     {
                         "session": "s221",
@@ -216,8 +225,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 16:45-17:45",
+                "slot_id": "Tuesday__Feb_18th_16_45_17_45",
                 "time": "16:45-17:45",
+                "slot_class": "afternoon3",
                 "sessions": [
                     {
                         "session": "s222",
@@ -226,8 +236,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 18:00-19:00",
+                "slot_id": "Tuesday__Feb_18th_18_00_19_00",
                 "time": "18:00-19:00",
+                "slot_class": "evening1",
                 "sessions": [
                     {
                         "session": "s223",
@@ -236,8 +247,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday, Feb 18th 19:00-22:00",
+                "slot_id": "Tuesday__Feb_18th_19_00_22_00",
                 "time": "19:00-22:00",
+                "slot_class": "evening2",
                 "sessions": [
                     {
                         "session": "s224",
@@ -252,8 +264,9 @@ schedule=[
         "day": "Wednesday",
         "slots": [
             {
-                "slot_id": "Wednesday, Feb 19th 9:00-10:15",
+                "slot_id": "Wednesday__Feb_19th_9_00_10_15",
                 "time": "9:00-10:15",
+                "slot_class": "morning1",
                 "sessions": [
                     {
                         "session": "s2111",
@@ -282,8 +295,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Wednesday, Feb 19th 10:45-12:00",
+                "slot_id": "Wednesday__Feb_19th_10_45_12_00",
                 "time": "10:45-12:00",
+                "slot_class": "morning2",
                 "sessions": [
                     {
                         "session": "s2110",
@@ -316,8 +330,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Wednesday, Feb 19th 14:00-15:15",
+                "slot_id": "Wednesday__Feb_19th_14_00_15_15",
                 "time": "14:00-15:15",
+                "slot_class": "afternoon1",
                 "sessions": [
                     {
                         "session": "s218",
@@ -350,8 +365,9 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Wednesday, Feb 19th 15:45-17:15",
+                "slot_id": "Wednesday__Feb_19th_15_45_17_15",
                 "time": "15:45-17:15",
+                "slot_class": "afternoon2",
                 "sessions": [
                     {
                         "session": "s225",
