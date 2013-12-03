@@ -7,7 +7,9 @@ entities={
             {
                 "name": "Meredith Ringel Morris"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw105": {
         "title": "Voyant: Generating Structured Feedback on Visual Designs Using a Crowd of Non-Experts",
@@ -18,12 +20,14 @@ entities={
                 "name": "Anbang Xu"
             },
             {
-                "name": " Shih-Wen Huang"
+                "name": "Shih-Wen Huang"
             },
             {
-                "name": " Brian Bailey"
+                "name": "Brian Bailey"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw108": {
         "title": "Social Media Supporting Political Deliberation Across Multiple Public Spheres: Towards Depolarization",
@@ -34,15 +38,17 @@ entities={
                 "name": "Bryan C Semaan"
             },
             {
-                "name": " Scott P Robertson"
+                "name": "Scott P Robertson"
             },
             {
-                "name": " Sara Douglas"
+                "name": "Sara Douglas"
             },
             {
-                "name": " Misa Maruyama"
+                "name": "Misa Maruyama"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw119": {
         "title": "De-Virtualizing Social Events: Understanding the Gap between Online and Offline Participation for Event Invitations",
@@ -53,12 +59,14 @@ entities={
                 "name": "Ai-Ju Huang"
             },
             {
-                "name": " Hao-Chuan Wang"
+                "name": "Hao-Chuan Wang"
             },
             {
-                "name": " Chien Wen Yuan"
+                "name": "Chien Wen Yuan"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw128": {
         "title": "Inferring the Origin Locations of Tweets with Quantitative Confidence",
@@ -69,12 +77,14 @@ entities={
                 "name": "Reid Priedhorsky"
             },
             {
-                "name": " Aron Culotta"
+                "name": "Aron Culotta"
             },
             {
-                "name": " Sara Y Del Valle"
+                "name": "Sara Y Del Valle"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw130": {
         "title": "Understanding Individuals' Personal Values from Social Media Word Use",
@@ -85,15 +95,17 @@ entities={
                 "name": "Jilin Chen"
             },
             {
-                "name": " Gary Hsieh"
+                "name": "Gary Hsieh"
             },
             {
-                "name": " Jalal U Mahmud"
+                "name": "Jalal U Mahmud"
             },
             {
-                "name": " Jeffrey Nichols"
+                "name": "Jeffrey Nichols"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw135": {
         "title": "A Partial Replication Approach for Anywhere Anytime Mobile Commenting",
@@ -104,21 +116,23 @@ entities={
                 "name": "Huanhuan Xia"
             },
             {
-                "name": " Tun Lu"
+                "name": "Tun Lu"
             },
             {
-                "name": " Bin Shao"
+                "name": "Bin Shao"
             },
             {
-                "name": " Guo Li"
+                "name": "Guo Li"
             },
             {
-                "name": " Xianghua Ding"
+                "name": "Xianghua Ding"
             },
             {
-                "name": " Ning Gu"
+                "name": "Ning Gu"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw142": {
         "title": "How Social Cues Regulate Task Coordination and Communication",
@@ -129,9 +143,11 @@ entities={
                 "name": "Allison Sauppé"
             },
             {
-                "name": " Bilge Mutlu"
+                "name": "Bilge Mutlu"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw145": {
         "title": "Giving is Caring: Understanding Donation Behavior through Email",
@@ -142,15 +158,17 @@ entities={
                 "name": "Yelena Mejova"
             },
             {
-                "name": " Venkata RK Garimella"
+                "name": "Venkata RK Garimella"
             },
             {
-                "name": " Ingmar Weber"
+                "name": "Ingmar Weber"
             },
             {
-                "name": " Michael C Dougal"
+                "name": "Michael C Dougal"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw147": {
         "title": "\"Figure Out How to Code with the Hands of Others\": Recognizing Cultural Blind Spots in Global Software Development",
@@ -161,12 +179,14 @@ entities={
                 "name": "Stina Matthiesen"
             },
             {
-                "name": " Pernille Bjorn"
+                "name": "Pernille Bjorn"
             },
             {
-                "name": " Lise Moller Petersen"
+                "name": "Lise Moller Petersen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw161": {
         "title": "Aesthetic Capital: What Makes London Look Beautiful, Quiet, and Happy?",
@@ -177,12 +197,14 @@ entities={
                 "name": "Daniele Quercia"
             },
             {
-                "name": " Neil Keith O'Hare"
+                "name": "Neil Keith O'Hare"
             },
             {
-                "name": " Henriette Cramer"
+                "name": "Henriette Cramer"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw178": {
         "title": "\"It's in your spinal cord, it's in your fingertips\": Practices of tools and craft in building software",
@@ -193,9 +215,11 @@ entities={
                 "name": "Jessica Lingel"
             },
             {
-                "name": " Tim Regan"
+                "name": "Tim Regan"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw188": {
         "title": "Competing or Aiming to be Average? Normification as a means of engaging digital volunteers",
@@ -206,12 +230,14 @@ entities={
                 "name": "Chris Preist"
             },
             {
-                "name": " Elaine Massung"
+                "name": "Elaine Massung"
             },
             {
-                "name": " David Coyle"
+                "name": "David Coyle"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw190": {
         "title": "The Effects of Consistency Maintenance Methods on Player Experience and Performance in Networked Games",
@@ -222,15 +248,17 @@ entities={
                 "name": "Cheryl Savery"
             },
             {
-                "name": " Nicholas Graham"
+                "name": "Nicholas Graham"
             },
             {
-                "name": " Carl Gutwin"
+                "name": "Carl Gutwin"
             },
             {
-                "name": " Michelle Brown"
+                "name": "Michelle Brown"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw191": {
         "title": "Collaborative Web Search in Context: A Study of Tool Use in Everyday Tasks",
@@ -241,9 +269,11 @@ entities={
                 "name": "Ryan Kelly"
             },
             {
-                "name": " Stephen J Payne"
+                "name": "Stephen J Payne"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw204": {
         "title": "Making IT \"Pay a Bit Better\"- Design Challenges for Micro Rural Enterprise",
@@ -254,9 +284,11 @@ entities={
                 "name": "Andy Crabtree"
             },
             {
-                "name": " Alan Chamberlain"
+                "name": "Alan Chamberlain"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw209": {
         "title": "Supporting Group Interactions in Museum Visiting",
@@ -267,18 +299,20 @@ entities={
                 "name": "Peter D Tolmie"
             },
             {
-                "name": " Steve Benford"
+                "name": "Steve Benford"
             },
             {
-                "name": " Chris Greenhalgh"
+                "name": "Chris Greenhalgh"
             },
             {
-                "name": " Tom Rodden"
+                "name": "Tom Rodden"
             },
             {
-                "name": " Stuart Reeves"
+                "name": "Stuart Reeves"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw210": {
         "title": "How Physicians \" Achieve Overview\": A Case-based Study in a Hospital Ward",
@@ -289,9 +323,11 @@ entities={
                 "name": "Claus Bossen"
             },
             {
-                "name": " Lotte Groth Jensen"
+                "name": "Lotte Groth Jensen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw211": {
         "title": "Articulation Spaces: Bridging the Gap between Formal and Informal Coordination",
@@ -302,15 +338,17 @@ entities={
                 "name": "Alexander Boden"
             },
             {
-                "name": " Frank Rosswog"
+                "name": "Frank Rosswog"
             },
             {
-                "name": " Gunnar Stevens"
+                "name": "Gunnar Stevens"
             },
             {
-                "name": " Volker Wulf"
+                "name": "Volker Wulf"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw221": {
         "title": "Life Transitions and Online Health Communities:  Reflecting on Adoption, Use, and Disengagement",
@@ -321,15 +359,17 @@ entities={
                 "name": "Michael Massimi"
             },
             {
-                "name": " Jackie L Bender"
+                "name": "Jackie L Bender"
             },
             {
-                "name": " Holly O Witteman"
+                "name": "Holly O Witteman"
             },
             {
-                "name": " Osman H Ahmed"
+                "name": "Osman H Ahmed"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw222": {
         "title": "Characterizing the Life Cycle of Online News Stories Using Social Media Reactions",
@@ -340,15 +380,17 @@ entities={
                 "name": "Carlos Castillo"
             },
             {
-                "name": " Mohammed El-Haddad"
+                "name": "Mohammed El-Haddad"
             },
             {
-                "name": " Jürgen Pfeffer"
+                "name": "Jürgen Pfeffer"
             },
             {
-                "name": " Matt Stempeck"
+                "name": "Matt Stempeck"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw223": {
         "title": "Ethnography of Scaling, Or, How to a fit a national research infrastructure in the room",
@@ -358,7 +400,9 @@ entities={
             {
                 "name": "David Ribes"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw227": {
         "title": "How to See Values in Social Computing: Methods for Studying Values Dimensions",
@@ -369,12 +413,14 @@ entities={
                 "name": "Katie Shilton"
             },
             {
-                "name": " Jes A. Koepfler"
+                "name": "Jes A. Koepfler"
             },
             {
-                "name": " Kenneth R. Fleischmann"
+                "name": "Kenneth R. Fleischmann"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw228": {
         "title": "Understanding factors of successful engagement around energy consumption between and among households",
@@ -385,9 +431,11 @@ entities={
                 "name": "Tawanna R Dillahunt"
             },
             {
-                "name": " Jennifer Mankoff"
+                "name": "Jennifer Mankoff"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw229": {
         "title": "Can Plans and Situated Actions be Replicated?",
@@ -397,7 +445,9 @@ entities={
             {
                 "name": "John Rooksby"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw233": {
         "title": "Monitoring Email to Indicate Project Team Performance and Mutual Attraction",
@@ -408,12 +458,14 @@ entities={
                 "name": "Sean A Munson"
             },
             {
-                "name": " Karina E Kervin"
+                "name": "Karina E Kervin"
             },
             {
-                "name": " Lionel P Robert"
+                "name": "Lionel P Robert"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw234": {
         "title": "Achieving Convergence in Operational Transformation: Conditions, Mechanisms and Systems",
@@ -424,12 +476,14 @@ entities={
                 "name": "Yi Xu"
             },
             {
-                "name": " Chengzheng Sun"
+                "name": "Chengzheng Sun"
             },
             {
-                "name": " Mo Li"
+                "name": "Mo Li"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw239": {
         "title": "Exhaustive and Efficient Search of Puzzles in Operational Transformation",
@@ -440,12 +494,14 @@ entities={
                 "name": "Chengzheng Sun"
             },
             {
-                "name": " Yi Xu"
+                "name": "Yi Xu"
             },
             {
-                "name": " Agustina Agustina"
+                "name": "Agustina Agustina"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw240": {
         "title": "Craving, Creating, and Constructing Comfort: Insights and Opportunities for Technology in Hospice",
@@ -456,15 +512,17 @@ entities={
                 "name": "Robert Douglas Ferguson"
             },
             {
-                "name": " Michael Massimi"
+                "name": "Michael Massimi"
             },
             {
-                "name": " Emily Anne Crist"
+                "name": "Emily Anne Crist"
             },
             {
-                "name": " Karyn Anne Moffatt"
+                "name": "Karyn Anne Moffatt"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw241": {
         "title": "Enriching the Distressing Reality: Social Media Use by Chinese Migrant Workers",
@@ -475,15 +533,17 @@ entities={
                 "name": "Jingjing Liu"
             },
             {
-                "name": " Alexander Boden"
+                "name": "Alexander Boden"
             },
             {
-                "name": " David William Randall"
+                "name": "David William Randall"
             },
             {
-                "name": " Volker Wulf"
+                "name": "Volker Wulf"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw243": {
         "title": "Digital Mobilization in Disaster Response: The Work & Self-Organization of On-Line Pet Advocates in Response to Hurricane Sandy",
@@ -494,12 +554,14 @@ entities={
                 "name": "Joanne I. White"
             },
             {
-                "name": " Leysia Palen"
+                "name": "Leysia Palen"
             },
             {
-                "name": " Kenneth M. Anderson"
+                "name": "Kenneth M. Anderson"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw244": {
         "title": "Towards a Questionnaire for Measuring Affective Benefits and Costs of Communication Technologies",
@@ -510,12 +572,14 @@ entities={
                 "name": "Svetlana Yarosh"
             },
             {
-                "name": " Panos Markopoulos"
+                "name": "Panos Markopoulos"
             },
             {
-                "name": " Gregory D Abowd"
+                "name": "Gregory D Abowd"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw248": {
         "title": "Catalyst: Using Activation Thresholds to Trigger Collective Action",
@@ -526,9 +590,11 @@ entities={
                 "name": "Justin Cheng"
             },
             {
-                "name": " Michael Bernstein"
+                "name": "Michael Bernstein"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw252": {
         "title": "Deep Twitter Diving: Exploring Topical Groups in Microblogs at Scale",
@@ -539,24 +605,26 @@ entities={
                 "name": "Parantapa Bhattacharya"
             },
             {
-                "name": " Saptarshi Ghosh"
+                "name": "Saptarshi Ghosh"
             },
             {
-                "name": " Juhi Kulshrestha"
+                "name": "Juhi Kulshrestha"
             },
             {
-                "name": " Mainack Mondal"
+                "name": "Mainack Mondal"
             },
             {
-                "name": " Muhammad Bilal Zafar"
+                "name": "Muhammad Bilal Zafar"
             },
             {
-                "name": " Niloy Ganguly"
+                "name": "Niloy Ganguly"
             },
             {
-                "name": " Krishna P. Gummadi"
+                "name": "Krishna P. Gummadi"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw253": {
         "title": "Smart Face: Enhancing Creativity During Video Conferences using Real-time Facial Deformation",
@@ -567,21 +635,23 @@ entities={
                 "name": "Naoto Nakazato"
             },
             {
-                "name": " Shigeo Yoshida"
+                "name": "Shigeo Yoshida"
             },
             {
-                "name": " Sho Sakurai"
+                "name": "Sho Sakurai"
             },
             {
-                "name": " Takuji Narumi"
+                "name": "Takuji Narumi"
             },
             {
-                "name": " Tomohiro Tanikawa"
+                "name": "Tomohiro Tanikawa"
             },
             {
-                "name": " Michitaka Hirose"
+                "name": "Michitaka Hirose"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw254": {
         "title": "Ensemble: Exploring Complementary Strengths of Leaders and Crowds in Creative Collaboration",
@@ -592,12 +662,14 @@ entities={
                 "name": "Joy Kim"
             },
             {
-                "name": " Justin Cheng"
+                "name": "Justin Cheng"
             },
             {
-                "name": " Michael S Bernstein"
+                "name": "Michael S Bernstein"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw268": {
         "title": "MyPosition: The Impact of an Interactive Poll Visualization on Public Civic Participation",
@@ -608,15 +680,17 @@ entities={
                 "name": "Nina Valkanova"
             },
             {
-                "name": " Robert Walter"
+                "name": "Robert Walter"
             },
             {
-                "name": " Andrew Vande Moere"
+                "name": "Andrew Vande Moere"
             },
             {
-                "name": " Jörg Müller"
+                "name": "Jörg Müller"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw274": {
         "title": "Enhancing Community Awareness and Participation to  Local Heritage with an Mobile Application",
@@ -627,15 +701,17 @@ entities={
                 "name": "Kyungsik Han"
             },
             {
-                "name": " Patrick C Shih"
+                "name": "Patrick C Shih"
             },
             {
-                "name": " Mary Beth Rosson"
+                "name": "Mary Beth Rosson"
             },
             {
-                "name": " John M Carroll"
+                "name": "John M Carroll"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw277": {
         "title": "Tracking serendipitous interactions: How individual cultures shape the office",
@@ -646,18 +722,20 @@ entities={
                 "name": "Chloe Brown"
             },
             {
-                "name": " Christos Efstratiou"
+                "name": "Christos Efstratiou"
             },
             {
-                "name": " Ilias Leontiadis"
+                "name": "Ilias Leontiadis"
             },
             {
-                "name": " Daniele Quercia"
+                "name": "Daniele Quercia"
             },
             {
-                "name": " Cecilia Mascolo"
+                "name": "Cecilia Mascolo"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw285": {
         "title": "Network Neighborhoods, Romantic Relationships, and the Dispersion of Social Ties",
@@ -668,9 +746,11 @@ entities={
                 "name": "Lars Backstrom"
             },
             {
-                "name": " Jon Kleinberg"
+                "name": "Jon Kleinberg"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw290": {
         "title": "Privacy Practices in Collaborative Environments: A Study of Emergency Department Staff",
@@ -681,12 +761,14 @@ entities={
                 "name": "Alison R. Murphy"
             },
             {
-                "name": " Madhu C. Reddy"
+                "name": "Madhu C. Reddy"
             },
             {
-                "name": " Heng Xu"
+                "name": "Heng Xu"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw293": {
         "title": "Standing on the Schemas of Giants: Socially Augmented Information Foraging",
@@ -697,15 +779,17 @@ entities={
                 "name": "Aniket Kittur"
             },
             {
-                "name": " Andrew M Peters"
+                "name": "Andrew M Peters"
             },
             {
-                "name": " Abdigani Diriye"
+                "name": "Abdigani Diriye"
             },
             {
-                "name": " Michael Bove"
+                "name": "Michael Bove"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw295": {
         "title": "Cancer Navigation: Opportunities and Challenges for Facilitating the Breast Cancer Journey",
@@ -716,12 +800,14 @@ entities={
                 "name": "Maia Jacobs"
             },
             {
-                "name": " James Clawson"
+                "name": "James Clawson"
             },
             {
-                "name": " Elizabeth D Mynatt"
+                "name": "Elizabeth D Mynatt"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw299": {
         "title": "Awkward Encounters of an \"Other\" Kind:  Collective Self-Presentation and Face Threat on Facebook",
@@ -732,21 +818,23 @@ entities={
                 "name": "Eden Litt"
             },
             {
-                "name": " Erin Spottswood"
+                "name": "Erin Spottswood"
             },
             {
-                "name": " Jeremy Birnholtz"
+                "name": "Jeremy Birnholtz"
             },
             {
-                "name": " Jeff T Hancock"
+                "name": "Jeff T Hancock"
             },
             {
-                "name": " Madeline E. Smith"
+                "name": "Madeline E. Smith"
             },
             {
-                "name": " Lindsay Reynolds"
+                "name": "Lindsay Reynolds"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw302": {
         "title": "Books as a Social Technology",
@@ -757,9 +845,11 @@ entities={
                 "name": "Annika Hupfeld"
             },
             {
-                "name": " Tom A Rodden"
+                "name": "Tom A Rodden"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw305": {
         "title": "The role of founders in building online groups",
@@ -770,9 +860,11 @@ entities={
                 "name": "Robert E Kraut"
             },
             {
-                "name": " Andrew T Fiore"
+                "name": "Andrew T Fiore"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw308": {
         "title": "Understanding Workforce Chatter with Enterprise Social Pulse",
@@ -783,42 +875,44 @@ entities={
                 "name": "N. Sadat Shami"
             },
             {
-                "name": " Jiang Yang"
+                "name": "Jiang Yang"
             },
             {
-                "name": " Laura Panc"
+                "name": "Laura Panc"
             },
             {
-                "name": " Casey Dugan"
+                "name": "Casey Dugan"
             },
             {
-                "name": " Tristan Ratchford"
+                "name": "Tristan Ratchford"
             },
             {
-                "name": " Jamie C Rasmussen"
+                "name": "Jamie C Rasmussen"
             },
             {
-                "name": " Yannick M Assogba"
+                "name": "Yannick M Assogba"
             },
             {
-                "name": " Tal Steier"
+                "name": "Tal Steier"
             },
             {
-                "name": " Todd Soule"
+                "name": "Todd Soule"
             },
             {
-                "name": " Stela Lupushor"
+                "name": "Stela Lupushor"
             },
             {
-                "name": " Werner Geyer"
+                "name": "Werner Geyer"
             },
             {
-                "name": " Ido Guy"
+                "name": "Ido Guy"
             },
             {
-                "name": " Jonathan Ferrar"
+                "name": "Jonathan Ferrar"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw310": {
         "title": "From Rookie to All-Star: Professional Development in a Graphic Design Social Networking Site",
@@ -829,9 +923,11 @@ entities={
                 "name": "Jennifer Marlow"
             },
             {
-                "name": " Laura Dabbish"
+                "name": "Laura Dabbish"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw315": {
         "title": "Institutional Logics of the EMR and the Problem of 'Perfect' but Inaccurate Accounts",
@@ -842,9 +938,11 @@ entities={
                 "name": "Kathleen H Pine"
             },
             {
-                "name": " Melissa Mazmanian"
+                "name": "Melissa Mazmanian"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw317": {
         "title": "Crowd Synthesis: Extracting Categories and Clusters from Complex Data",
@@ -855,12 +953,14 @@ entities={
                 "name": "Paul André"
             },
             {
-                "name": " Aniket Kittur"
+                "name": "Aniket Kittur"
             },
             {
-                "name": " Steven P Dow"
+                "name": "Steven P Dow"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw327": {
         "title": "Editing Beyond Articles: Diversity & Dynamics of Teamwork in Open Collaborations",
@@ -871,15 +971,17 @@ entities={
                 "name": "Jonathan T Morgan"
             },
             {
-                "name": " Michael Gilbert"
+                "name": "Michael Gilbert"
             },
             {
-                "name": " David W McDonald"
+                "name": "David W McDonald"
             },
             {
-                "name": " Mark Zachry"
+                "name": "Mark Zachry"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw333": {
         "title": "Sounds of Silence: Exploring Contributions to Conversa-tions, Non-Responses and the Impact of Mediating Tech-nologies in Triple Space",
@@ -890,9 +992,11 @@ entities={
                 "name": "Joon Suk Lee"
             },
             {
-                "name": " Deborah Tatar"
+                "name": "Deborah Tatar"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw339": {
         "title": "The Language that Gets People to Give: Phrases that Predict Success on Kickstarter",
@@ -903,9 +1007,11 @@ entities={
                 "name": "Tanushree Mitra"
             },
             {
-                "name": " Eric Gilbert"
+                "name": "Eric Gilbert"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw348": {
         "title": "Should Your MOOC Forum Use a Reputation System?",
@@ -916,15 +1022,17 @@ entities={
                 "name": "Derrick Coetzee"
             },
             {
-                "name": " Armando Fox"
+                "name": "Armando Fox"
             },
             {
-                "name": " Marti A. Hearst"
+                "name": "Marti A. Hearst"
             },
             {
-                "name": " Björn Hartmann"
+                "name": "Björn Hartmann"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw352": {
         "title": "Modeling Search Processes using Hidden States in Collaborative Exploratory Web Search",
@@ -935,12 +1043,14 @@ entities={
                 "name": "Zhen Yue"
             },
             {
-                "name": " Shuguang Han"
+                "name": "Shuguang Han"
             },
             {
-                "name": " Daqing He"
+                "name": "Daqing He"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw354": {
         "title": "How Social Q&A Sites are Changing Knowledge Sharing in Open Source Software Communities",
@@ -951,15 +1061,17 @@ entities={
                 "name": "Bogdan Vasilescu"
             },
             {
-                "name": " Alexander Serebrenik"
+                "name": "Alexander Serebrenik"
             },
             {
-                "name": " Prem Devanbu"
+                "name": "Prem Devanbu"
             },
             {
-                "name": " Vladimir Filkov"
+                "name": "Vladimir Filkov"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw355": {
         "title": "Specialization, Homophily, and Gender in a Social Curation Site: Findings from Pinterest",
@@ -970,15 +1082,17 @@ entities={
                 "name": "Shuo Chang"
             },
             {
-                "name": " Vikas Kumar"
+                "name": "Vikas Kumar"
             },
             {
-                "name": " Eric Gilbert"
+                "name": "Eric Gilbert"
             },
             {
-                "name": " Loren G Terveen"
+                "name": "Loren G Terveen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw356": {
         "title": "How Players Value their Characters in World of Warcraft",
@@ -989,15 +1103,17 @@ entities={
                 "name": "Ian J Livingston"
             },
             {
-                "name": " Carl Gutwin"
+                "name": "Carl Gutwin"
             },
             {
-                "name": " Regan L Mandryk"
+                "name": "Regan L Mandryk"
             },
             {
-                "name": " Max Birk"
+                "name": "Max Birk"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw358": {
         "title": "Most Liked, Fewest Friends:  Patterns of Enterprise Social Media Use",
@@ -1008,15 +1124,17 @@ entities={
                 "name": "Gloria Mark"
             },
             {
-                "name": " Ido Guy"
+                "name": "Ido Guy"
             },
             {
-                "name": " Shiri Kremer-Davidson"
+                "name": "Shiri Kremer-Davidson"
             },
             {
-                "name": " Michal Jacovi"
+                "name": "Michal Jacovi"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw365": {
         "title": "Being A Turker",
@@ -1027,15 +1145,17 @@ entities={
                 "name": "David B Martin"
             },
             {
-                "name": " Benjamin V Hanrahan"
+                "name": "Benjamin V Hanrahan"
             },
             {
-                "name": " Jacki O'Neill"
+                "name": "Jacki O'Neill"
             },
             {
-                "name": " Neha Gupta"
+                "name": "Neha Gupta"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw369": {
         "title": "Think Globally, Act Locally: A Case Study of a Free Food Sharing Community and Social Networking",
@@ -1046,15 +1166,17 @@ entities={
                 "name": "Eva Ganglbauer"
             },
             {
-                "name": " Geraldine Fitzpatrick"
+                "name": "Geraldine Fitzpatrick"
             },
             {
-                "name": " Ozge Subasi"
+                "name": "Ozge Subasi"
             },
             {
-                "name": " Florian Güldenpfennig"
+                "name": "Florian Güldenpfennig"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw374": {
         "title": "Account Sharing in the Context of Networked Hospitality Exchange",
@@ -1065,9 +1187,11 @@ entities={
                 "name": "Airi M I Lampinen"
             },
             {
-                "name": " Airi M I Lampinen"
+                "name": "Airi M I Lampinen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw384": {
         "title": "Document Classification and Visualization for the Support of Interdisciplinary Collaboration",
@@ -1078,12 +1202,14 @@ entities={
                 "name": "Lisa J Miller"
             },
             {
-                "name": " Rich Gazan"
+                "name": "Rich Gazan"
             },
             {
-                "name": " Susanne Still"
+                "name": "Susanne Still"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw387": {
         "title": "The Perception of Others: Inferring Reputation from Social Media in the Enterprise",
@@ -1094,18 +1220,20 @@ entities={
                 "name": "Michal Jacovi"
             },
             {
-                "name": " Ido Guy"
+                "name": "Ido Guy"
             },
             {
-                "name": " Shiri Kremer-Davidson"
+                "name": "Shiri Kremer-Davidson"
             },
             {
-                "name": " Sara Porat"
+                "name": "Sara Porat"
             },
             {
-                "name": " Netta Aizenbud-Reshef"
+                "name": "Netta Aizenbud-Reshef"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw389": {
         "title": "Exploring Family-driven Socio-interactive Care for Children with Language Delay: A Smartphone-supported In-situ Intervention Approach",
@@ -1116,27 +1244,29 @@ entities={
                 "name": "Inseok Hwang"
             },
             {
-                "name": " Chungkuk Yoo"
+                "name": "Chungkuk Yoo"
             },
             {
-                "name": " Chanyou Hwang"
+                "name": "Chanyou Hwang"
             },
             {
-                "name": " Dongsun Yim"
+                "name": "Dongsun Yim"
             },
             {
-                "name": " Youngki Lee"
+                "name": "Youngki Lee"
             },
             {
-                "name": " Chulhong Min"
+                "name": "Chulhong Min"
             },
             {
-                "name": " John Kim"
+                "name": "John Kim"
             },
             {
-                "name": " Junehwa Song"
+                "name": "Junehwa Song"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw390": {
         "title": "Quick and Dirty: Streamlined 3D Scanning in Archaeology",
@@ -1147,27 +1277,29 @@ entities={
                 "name": "Jarrod Knibbe"
             },
             {
-                "name": " Kenton P O'Hara"
+                "name": "Kenton P O'Hara"
             },
             {
-                "name": " Angeliki Chrysanthi"
+                "name": "Angeliki Chrysanthi"
             },
             {
-                "name": " Mark T. Marshall"
+                "name": "Mark T. Marshall"
             },
             {
-                "name": " Peter D Bennett"
+                "name": "Peter D Bennett"
             },
             {
-                "name": " Graeme Earl"
+                "name": "Graeme Earl"
             },
             {
-                "name": " Shahram Izadi"
+                "name": "Shahram Izadi"
             },
             {
-                "name": " Mike Fraser"
+                "name": "Mike Fraser"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw391": {
         "title": "VidWiki: Enabling the Crowd to Improve the Legibility of Online Educational Videos",
@@ -1178,18 +1310,20 @@ entities={
                 "name": "Andrew Cross"
             },
             {
-                "name": " Mydhili Bayyapunedi"
+                "name": "Mydhili Bayyapunedi"
             },
             {
-                "name": " Dilip Ravindran"
+                "name": "Dilip Ravindran"
             },
             {
-                "name": " Edward Cutrell"
+                "name": "Edward Cutrell"
             },
             {
-                "name": " William Thies"
+                "name": "William Thies"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw395": {
         "title": "The Communication Patterns of Technical Leaders:  Impact on Product Development Team Performance",
@@ -1200,9 +1334,11 @@ entities={
                 "name": "Kate Ehrlich"
             },
             {
-                "name": " Marcelo Cataldo"
+                "name": "Marcelo Cataldo"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw399": {
         "title": "\"You can't block people offline\": Examining how Facebook's affordances shape users' disclosure process",
@@ -1213,9 +1349,11 @@ entities={
                 "name": "Jessica Vitak"
             },
             {
-                "name": " Jinyoung Kim"
+                "name": "Jinyoung Kim"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw409": {
         "title": "Capturing the Mood: Facebook and Face-to-Face  Encounters in the Workplace",
@@ -1226,15 +1364,17 @@ entities={
                 "name": "Gloria Mark"
             },
             {
-                "name": " Shamsi T Iqbal"
+                "name": "Shamsi T Iqbal"
             },
             {
-                "name": " Mary P. Czerwinski"
+                "name": "Mary P. Czerwinski"
             },
             {
-                "name": " Paul Johns"
+                "name": "Paul Johns"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw411": {
         "title": "The Policy Knot: Re-integrating Policy, Practice and Design in CSCW Studies of Social Computing",
@@ -1245,12 +1385,14 @@ entities={
                 "name": "Steven J Jackson"
             },
             {
-                "name": " Tarleton Gillespie"
+                "name": "Tarleton Gillespie"
             },
             {
-                "name": " Sandy Payette"
+                "name": "Sandy Payette"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw413": {
         "title": "Characterizing and Predicting Postpartum Depression from Facebook Data",
@@ -1261,15 +1403,17 @@ entities={
                 "name": "Munmun De Choudhury"
             },
             {
-                "name": " Scott Counts"
+                "name": "Scott Counts"
             },
             {
-                "name": " Eric J Horvitz"
+                "name": "Eric J Horvitz"
             },
             {
-                "name": " Aaron Hoff"
+                "name": "Aaron Hoff"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw430": {
         "title": "Managing Political Differences in Social Media",
@@ -1280,12 +1424,14 @@ entities={
                 "name": "Catherine Grevet"
             },
             {
-                "name": " Loren G Terveen"
+                "name": "Loren G Terveen"
             },
             {
-                "name": " Eric Gilbert"
+                "name": "Eric Gilbert"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw431": {
         "title": "Integrating On-demand Fact-checking with Public Dialogue",
@@ -1296,18 +1442,20 @@ entities={
                 "name": "Travis Kriplean"
             },
             {
-                "name": " Caitlin Bonnar"
+                "name": "Caitlin Bonnar"
             },
             {
-                "name": " Alan Borning"
+                "name": "Alan Borning"
             },
             {
-                "name": " Bo Kinney"
+                "name": "Bo Kinney"
             },
             {
-                "name": " Brian Gill"
+                "name": "Brian Gill"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw432": {
         "title": "Coordinating Donors on Crowdfunding Websites",
@@ -1318,9 +1466,11 @@ entities={
                 "name": "Rick Wash"
             },
             {
-                "name": " Jacob Solomon"
+                "name": "Jacob Solomon"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw438": {
         "title": "Everyday Dwelling with WhatsApp",
@@ -1331,18 +1481,20 @@ entities={
                 "name": "Kenton P O'Hara"
             },
             {
-                "name": " Michael Massimi"
+                "name": "Michael Massimi"
             },
             {
-                "name": " Richard Harper"
+                "name": "Richard Harper"
             },
             {
-                "name": " Simon Rubens"
+                "name": "Simon Rubens"
             },
             {
-                "name": " Jessica Morris"
+                "name": "Jessica Morris"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw440": {
         "title": "The Motivations and Experiences of the On-Demand Mobile Workforce",
@@ -1353,18 +1505,20 @@ entities={
                 "name": "Rannie Teodoro"
             },
             {
-                "name": " Pinar Ozturk"
+                "name": "Pinar Ozturk"
             },
             {
-                "name": " Mor Naaman"
+                "name": "Mor Naaman"
             },
             {
-                "name": " Winter Mason"
+                "name": "Winter Mason"
             },
             {
-                "name": " Janne Lindqvist"
+                "name": "Janne Lindqvist"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw443": {
         "title": "Teammate Inaccuracy Blindness: When Information Sharing Tools Hinder Collaborative Analysis",
@@ -1375,12 +1529,14 @@ entities={
                 "name": "Ruogu Kang"
             },
             {
-                "name": " Aimee Kane"
+                "name": "Aimee Kane"
             },
             {
-                "name": " Sara Kiesler"
+                "name": "Sara Kiesler"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw455": {
         "title": "\"Real, but Glossy\" - Technology and the Practical Pursuit of Magic in Modern Weddings",
@@ -1391,12 +1547,14 @@ entities={
                 "name": "Michael Massimi"
             },
             {
-                "name": " Richard Harper"
+                "name": "Richard Harper"
             },
             {
-                "name": " Abigail J Sellen"
+                "name": "Abigail J Sellen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw462": {
         "title": "Framing the Conversation: The Role of Facebook Conversations in Shopping for Eyeglasses",
@@ -1407,15 +1565,17 @@ entities={
                 "name": "Karim Said"
             },
             {
-                "name": " Michele Annmarie Burton"
+                "name": "Michele Annmarie Burton"
             },
             {
-                "name": " Amy Hurst"
+                "name": "Amy Hurst"
             },
             {
-                "name": " Shaun K Kane"
+                "name": "Shaun K Kane"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw471": {
         "title": "Collaboration Surrounding Beacon Use During Companion Avalanche Rescue",
@@ -1426,15 +1586,17 @@ entities={
                 "name": "Audrey Desjardins"
             },
             {
-                "name": " Carman Neustaedter"
+                "name": "Carman Neustaedter"
             },
             {
-                "name": " Saul Greenberg"
+                "name": "Saul Greenberg"
             },
             {
-                "name": " Ron Wakkary"
+                "name": "Ron Wakkary"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw473": {
         "title": "Creepy but Inevitable? Evolution of Social Networking",
@@ -1445,12 +1607,14 @@ entities={
                 "name": "Hui Zhang"
             },
             {
-                "name": " Munmun De Choudhury"
+                "name": "Munmun De Choudhury"
             },
             {
-                "name": " Jonathan Grudin"
+                "name": "Jonathan Grudin"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw474": {
         "title": "Leveraging the Contributory Potential of User Feedback",
@@ -1461,9 +1625,11 @@ entities={
                 "name": "Mikhil Masli"
             },
             {
-                "name": " Loren G Terveen"
+                "name": "Loren G Terveen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw482": {
         "title": "The Role of Data in Aligning the 'Unique Identity' Infrastructure in India",
@@ -1474,9 +1640,11 @@ entities={
                 "name": "Aditya Johri"
             },
             {
-                "name": " Janaki Srinivasan"
+                "name": "Janaki Srinivasan"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw486": {
         "title": "Attachment to work groups increases loyalty on Mechanical Turk: Exploring bond- versus identity-based pathways to attachment formation",
@@ -1487,12 +1655,14 @@ entities={
                 "name": "Yla R. Tausczik"
             },
             {
-                "name": " Laura A. Dabbish"
+                "name": "Laura A. Dabbish"
             },
             {
-                "name": " Robert E Kraut"
+                "name": "Robert E Kraut"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw487": {
         "title": "Capturing Quality: Retaining provenance for curated volunteer monitoring data",
@@ -1503,12 +1673,14 @@ entities={
                 "name": "S. Andrew Sheppard"
             },
             {
-                "name": " Andrea Wiggins"
+                "name": "Andrea Wiggins"
             },
             {
-                "name": " Loren Terveen"
+                "name": "Loren Terveen"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw488": {
         "title": "Collaborative Problem Solving: A Study of MathOverflow",
@@ -1519,12 +1691,14 @@ entities={
                 "name": "Yla R. Tausczik"
             },
             {
-                "name": " Aniket Kittur"
+                "name": "Aniket Kittur"
             },
             {
-                "name": " Robert E Kraut"
+                "name": "Robert E Kraut"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw490": {
         "title": "Support for Deictic Pointing in CVEs: Still Fragmented After All These Years?",
@@ -1535,9 +1709,11 @@ entities={
                 "name": "Nelson Wong"
             },
             {
-                "name": " Carl Gutwin"
+                "name": "Carl Gutwin"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw492": {
         "title": "Planned Obsolescence or Designed Reparability? Infrastructures and Materialities of Breakdown",
@@ -1548,9 +1724,11 @@ entities={
                 "name": "Daniela K Rosner"
             },
             {
-                "name": " Morgan Ames"
+                "name": "Morgan Ames"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw493": {
         "title": "City, Self, Network: Transnational Migrants and Online Identity Work",
@@ -1561,12 +1739,14 @@ entities={
                 "name": "Jessica Lingel"
             },
             {
-                "name": " Mor Naaman"
+                "name": "Mor Naaman"
             },
             {
-                "name": " danah m boyd"
+                "name": "danah m boyd"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw494": {
         "title": "Beyond End User Content to Collaborative Knowledge Mapping: Interrelations Among Community Social Tools",
@@ -1577,15 +1757,17 @@ entities={
                 "name": "Tara Matthews"
             },
             {
-                "name": " Steve Whittaker"
+                "name": "Steve Whittaker"
             },
             {
-                "name": " Hernan Badenes"
+                "name": "Hernan Badenes"
             },
             {
-                "name": " Barton Smith"
+                "name": "Barton Smith"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw495": {
         "title": "Remixers' Understandings of Fair Use Online",
@@ -1596,9 +1778,11 @@ entities={
                 "name": "Casey Fiesler"
             },
             {
-                "name": " Amy S Bruckman"
+                "name": "Amy S Bruckman"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw499": {
         "title": "Adolescent Online Safety: The \"Moral\" of the Story",
@@ -1609,15 +1793,17 @@ entities={
                 "name": "Pamela J Wisniewski"
             },
             {
-                "name": " Heng Xu"
+                "name": "Heng Xu"
             },
             {
-                "name": " Mary Beth Rosson"
+                "name": "Mary Beth Rosson"
             },
             {
-                "name": " John M Carroll"
+                "name": "John M Carroll"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw517": {
         "title": "Enabling Relationship Building in Tabletop-supported Advisory Settings",
@@ -1628,15 +1814,17 @@ entities={
                 "name": "Peter Heinrich"
             },
             {
-                "name": " Mehmet Kilic"
+                "name": "Mehmet Kilic"
             },
             {
-                "name": " Felix-Robinson Aschoff"
+                "name": "Felix-Robinson Aschoff"
             },
             {
-                "name": " Gerhard Schwabe"
+                "name": "Gerhard Schwabe"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw526": {
         "title": "Cultivating Practice & Shepherding Technology Use: Supporting Appropriation Among Unanticipated Users",
@@ -1646,7 +1834,9 @@ entities={
             {
                 "name": "Pablo-Alejandro Quinones"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw527": {
         "title": "Trustworthy By Design",
@@ -1657,24 +1847,26 @@ entities={
                 "name": "Bran Knowles"
             },
             {
-                "name": " Mike Harding"
+                "name": "Mike Harding"
             },
             {
-                "name": " Lynne Blair"
+                "name": "Lynne Blair"
             },
             {
-                "name": " Nigel Davies"
+                "name": "Nigel Davies"
             },
             {
-                "name": " James Hannon"
+                "name": "James Hannon"
             },
             {
-                "name": " Mark Rouncefield"
+                "name": "Mark Rouncefield"
             },
             {
-                "name": " John Walden"
+                "name": "John Walden"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw530": {
         "title": "A kernel theory of research infrastructure",
@@ -1684,7 +1876,9 @@ entities={
             {
                 "name": "David Ribes"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw535": {
         "title": "GEMS: The Design and Evaluation of a Location-Based Storytelling Game",
@@ -1695,9 +1889,11 @@ entities={
                 "name": "Jason Procyk"
             },
             {
-                "name": " Carman Neustaedter"
+                "name": "Carman Neustaedter"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw537": {
         "title": "How Beliefs about the Presence of Machine Translation Impact Multilingual Collaborations",
@@ -1708,15 +1904,17 @@ entities={
                 "name": "Ge Gao"
             },
             {
-                "name": " Bin Xu"
+                "name": "Bin Xu"
             },
             {
-                "name": " Dan Cosley"
+                "name": "Dan Cosley"
             },
             {
-                "name": " Susan R. Fussell"
+                "name": "Susan R. Fussell"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw542": {
         "title": "Pair Research: Matching People for Collaboration, Learning, and Productivity",
@@ -1727,15 +1925,17 @@ entities={
                 "name": "Robert C. Miller"
             },
             {
-                "name": " Haoqi Zhang"
+                "name": "Haoqi Zhang"
             },
             {
-                "name": " Eric Gilbert"
+                "name": "Eric Gilbert"
             },
             {
-                "name": " Elizabeth Gerber"
+                "name": "Elizabeth Gerber"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw547": {
         "title": "Social Structure and Depression in TrevorSpace",
@@ -1746,18 +1946,20 @@ entities={
                 "name": "Christopher M Homan"
             },
             {
-                "name": " Naiji Lu"
+                "name": "Naiji Lu"
             },
             {
-                "name": " Xin Tu"
+                "name": "Xin Tu"
             },
             {
-                "name": " Megan C Lytle"
+                "name": "Megan C Lytle"
             },
             {
-                "name": " Vincent MB Silenzio"
+                "name": "Vincent MB Silenzio"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw548": {
         "title": "Investigating a Quid-Pro-Quo Approach to Motivating Contribution in a Participatory Sensing System",
@@ -1768,15 +1970,17 @@ entities={
                 "name": "Anthony Tomasic"
             },
             {
-                "name": " John Zimmerman"
+                "name": "John Zimmerman"
             },
             {
-                "name": " Aaron Steinfeld"
+                "name": "Aaron Steinfeld"
             },
             {
-                "name": " Yun Huang"
+                "name": "Yun Huang"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw550": {
         "title": "To Search or to Ask: The Routing of Information Needs Between Traditional Search Engines and Social Networks",
@@ -1787,18 +1991,20 @@ entities={
                 "name": "Anne Oeldorf-Hirsch"
             },
             {
-                "name": " Brent Hecht"
+                "name": "Brent Hecht"
             },
             {
-                "name": " Meredith Ringel Morris"
+                "name": "Meredith Ringel Morris"
             },
             {
-                "name": " Jaime Teevan"
+                "name": "Jaime Teevan"
             },
             {
-                "name": " Darren Gergle"
+                "name": "Darren Gergle"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw558": {
         "title": "Remote Shopping Advice: Enhancing In-Store Shopping with Social Technologies",
@@ -1809,12 +2015,14 @@ entities={
                 "name": "Meredith Ringel Morris"
             },
             {
-                "name": " Kori Inkpen"
+                "name": "Kori Inkpen"
             },
             {
-                "name": " Gina Venolia"
+                "name": "Gina Venolia"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw559": {
         "title": "\"Our Life is the Farm and Farming is Our Life\":  Home-Work Coordination in Organic Farm Families",
@@ -1825,12 +2033,14 @@ entities={
                 "name": "Gilly Leshed"
             },
             {
-                "name": " Maria Håkansson"
+                "name": "Maria Håkansson"
             },
             {
-                "name": " Joseph 'Jofish' Kaye"
+                "name": "Joseph 'Jofish' Kaye"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw566": {
         "title": "Study of Electronic Lab Notebook Design and Practices that Emerged in a Collaborative Scientific Environment",
@@ -1841,12 +2051,14 @@ entities={
                 "name": "Gerard Oleksik"
             },
             {
-                "name": " Natasa Milic-Frayling"
+                "name": "Natasa Milic-Frayling"
             },
             {
-                "name": " Rachel Jones"
+                "name": "Rachel Jones"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw570": {
         "title": "Supporting Task Resumption Using Visual Feedback",
@@ -1857,15 +2069,17 @@ entities={
                 "name": "Yikun Liu"
             },
             {
-                "name": " Yuan Jia"
+                "name": "Yuan Jia"
             },
             {
-                "name": " Wei Pan"
+                "name": "Wei Pan"
             },
             {
-                "name": " Mark S Pfaff"
+                "name": "Mark S Pfaff"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw576": {
         "title": "Can You Hear Me Now? Mitigating the Echo Chamber Effect by Source Position Indicators",
@@ -1876,9 +2090,11 @@ entities={
                 "name": "Q. Vera Liao"
             },
             {
-                "name": " Wai-Tat Fu"
+                "name": "Wai-Tat Fu"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw579": {
         "title": "Designing for the Deluge: Understanding & Supporting the Distributed, Collaborative Work of Crisis Volunteers",
@@ -1889,24 +2105,26 @@ entities={
                 "name": "Camille Cobb"
             },
             {
-                "name": " Ted McCarthy"
+                "name": "Ted McCarthy"
             },
             {
-                "name": " Annuska Perkins"
+                "name": "Annuska Perkins"
             },
             {
-                "name": " Ankitha Bharadwaj"
+                "name": "Ankitha Bharadwaj"
             },
             {
-                "name": " Jared Comis"
+                "name": "Jared Comis"
             },
             {
-                "name": " Brian Do"
+                "name": "Brian Do"
             },
             {
-                "name": " Kate Starbird"
+                "name": "Kate Starbird"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw584": {
         "title": "Mind the Map: The Impact of Culture and Economic Affluence on Crowd-Mapping Behaviours",
@@ -1917,12 +2135,14 @@ entities={
                 "name": "Giovanni Quattrone"
             },
             {
-                "name": " Afra Mashhadi"
+                "name": "Afra Mashhadi"
             },
             {
-                "name": " Licia Capra"
+                "name": "Licia Capra"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw586": {
         "title": "Civic action brokering platforms: Facilitating local engagement with ACTion Alexandria",
@@ -1933,18 +2153,20 @@ entities={
                 "name": "Derek L Hansen"
             },
             {
-                "name": " Jes A. Koepfler"
+                "name": "Jes A. Koepfler"
             },
             {
-                "name": " Paul T Jaeger"
+                "name": "Paul T Jaeger"
             },
             {
-                "name": " John C Bertot"
+                "name": "John C Bertot"
             },
             {
-                "name": " Tracy Viselli"
+                "name": "Tracy Viselli"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw588": {
         "title": "Understanding the Role of Community in Crowdfunding Work",
@@ -1955,12 +2177,14 @@ entities={
                 "name": "Julie S Hui"
             },
             {
-                "name": " Michael D Greenberg"
+                "name": "Michael D Greenberg"
             },
             {
-                "name": " Elizabeth M Gerber"
+                "name": "Elizabeth M Gerber"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw590": {
         "title": "Geographical and Organizational Distances in Enterprise Crowdfunding",
@@ -1971,15 +2195,17 @@ entities={
                 "name": "Michael Muller"
             },
             {
-                "name": " Werner Geyer"
+                "name": "Werner Geyer"
             },
             {
-                "name": " Todd Soule"
+                "name": "Todd Soule"
             },
             {
-                "name": " John Wafer"
+                "name": "John Wafer"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw596": {
         "title": "Exploring the social-technological gap in telesurgery: collaboration within distributed OR teams",
@@ -1990,12 +2216,14 @@ entities={
                 "name": "Pieter Duysburgh"
             },
             {
-                "name": " Shirley A. Elprama"
+                "name": "Shirley A. Elprama"
             },
             {
-                "name": " An Jacobs"
+                "name": "An Jacobs"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw597": {
         "title": "Reviewing versus Doing: Learning and Performance in Crowd Assessment",
@@ -2006,15 +2234,17 @@ entities={
                 "name": "Haiyi Zhu"
             },
             {
-                "name": " Steven P Dow"
+                "name": "Steven P Dow"
             },
             {
-                "name": " Robert E Kraut"
+                "name": "Robert E Kraut"
             },
             {
-                "name": " Aniket Kittur"
+                "name": "Aniket Kittur"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw598": {
         "title": "Hybrid Media Consumption: How Tweeting During a Televised Political Debate Influences the Vote Decision",
@@ -2025,18 +2255,20 @@ entities={
                 "name": "Misa T Maruyama"
             },
             {
-                "name": " Scott P Robertson"
+                "name": "Scott P Robertson"
             },
             {
-                "name": " Sara K Douglas"
+                "name": "Sara K Douglas"
             },
             {
-                "name": " Bryan C Semaan"
+                "name": "Bryan C Semaan"
             },
             {
-                "name": " Heather A Faucett"
+                "name": "Heather A Faucett"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw599": {
         "title": "Help is on the Way: Patterns of Responses to Resource Requests on Facebook",
@@ -2047,15 +2279,17 @@ entities={
                 "name": "Cliff Lampe"
             },
             {
-                "name": " Rebecca Gray"
+                "name": "Rebecca Gray"
             },
             {
-                "name": " Andrew T Fiore"
+                "name": "Andrew T Fiore"
             },
             {
-                "name": " Nicole Ellison"
+                "name": "Nicole Ellison"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw602": {
         "title": "Planet Hunters and Seafloor Explorers: Legitimate Peripheral Participation Through Practice Proxies in Online Citizen Science",
@@ -2066,18 +2300,20 @@ entities={
                 "name": "Gabriel Mugar"
             },
             {
-                "name": " Carsten Østerlund"
+                "name": "Carsten Østerlund"
             },
             {
-                "name": " Katie DeVries Hassman"
+                "name": "Katie DeVries Hassman"
             },
             {
-                "name": " Kevin Crowston"
+                "name": "Kevin Crowston"
             },
             {
-                "name": " Corey Brian Jackson"
+                "name": "Corey Brian Jackson"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw608": {
         "title": "Social Influences on Secure Development Tool Adoption: Why Security Tools Spread",
@@ -2088,12 +2324,14 @@ entities={
                 "name": "Shundan Xiao"
             },
             {
-                "name": " Jim Witschey"
+                "name": "Jim Witschey"
             },
             {
-                "name": " Emerson Murphy-Hill"
+                "name": "Emerson Murphy-Hill"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw609": {
         "title": "What Do Teens Ask Their Online Social Networks? Social Search Practices among High School Students",
@@ -2104,15 +2342,17 @@ entities={
                 "name": "Andrea Forte"
             },
             {
-                "name": " Michael Dickard"
+                "name": "Michael Dickard"
             },
             {
-                "name": " Rachel Magee"
+                "name": "Rachel Magee"
             },
             {
-                "name": " Denise E. Agosto"
+                "name": "Denise E. Agosto"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw620": {
         "title": "The Impact of Deviance on Retention in a Multiplayer Game",
@@ -2123,18 +2363,20 @@ entities={
                 "name": "Kenneth B Shores"
             },
             {
-                "name": " Yilin He"
+                "name": "Yilin He"
             },
             {
-                "name": " Kristina L Swanenburg"
+                "name": "Kristina L Swanenburg"
             },
             {
-                "name": " Robert Kraut"
+                "name": "Robert Kraut"
             },
             {
-                "name": " John Riedl"
+                "name": "John Riedl"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw622": {
         "title": "Twitter ain't Without Frontiers: Economic, Social, and Cultural Boundaries in International Communication",
@@ -2145,12 +2387,14 @@ entities={
                 "name": "Ruth García-Gavilanes"
             },
             {
-                "name": " Yelena Mejova"
+                "name": "Yelena Mejova"
             },
             {
-                "name": " Daniele Quercia"
+                "name": "Daniele Quercia"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw624": {
         "title": "Facebook Makes the Heart Grow Fonder: Relationship Maintenance Strategies Among Geographically Dispersed and Communication-Restricted Connections",
@@ -2160,7 +2404,9 @@ entities={
             {
                 "name": "Jessica Vitak"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw625": {
         "title": "Photoportals: Shared References in Space and Time",
@@ -2171,15 +2417,17 @@ entities={
                 "name": "André Kunert"
             },
             {
-                "name": " Alexander Kulik"
+                "name": "Alexander Kulik"
             },
             {
-                "name": " Stephan Beck"
+                "name": "Stephan Beck"
             },
             {
-                "name": " Bernd Froehlich"
+                "name": "Bernd Froehlich"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw626": {
         "title": "AskSheet:  Efficient Use of Web Workers to Support Decision Making",
@@ -2190,9 +2438,11 @@ entities={
                 "name": "Alexander J Quinn"
             },
             {
-                "name": " Benjamin B Bederson"
+                "name": "Benjamin B Bederson"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw629": {
         "title": "A Comparison of Social, Learning, and Financial  Strategies on Crowd Engagement and Output Quality",
@@ -2203,15 +2453,17 @@ entities={
                 "name": "Lixiu Yu"
             },
             {
-                "name": " Paul André"
+                "name": "Paul André"
             },
             {
-                "name": " Aniket Kittur"
+                "name": "Aniket Kittur"
             },
             {
-                "name": " Robert E Kraut"
+                "name": "Robert E Kraut"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw634": {
         "title": "The antecedents of remix",
@@ -2222,15 +2474,17 @@ entities={
                 "name": "Giorgos Cheliotis"
             },
             {
-                "name": " Nan Hu"
+                "name": "Nan Hu"
             },
             {
-                "name": " Jude Yew"
+                "name": "Jude Yew"
             },
             {
-                "name": " Jianhui Huang"
+                "name": "Jianhui Huang"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw636": {
         "title": "Fast, Functional, and Fitting: Expert Response Dynamics and Response Quality in an Online Newcomer Help Forum",
@@ -2241,9 +2495,11 @@ entities={
                 "name": "Hon Jie Teo"
             },
             {
-                "name": " Aditya Johri"
+                "name": "Aditya Johri"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw637": {
         "title": "Designing the virtual self: How avatar customization and psychological connections influence group collaboration",
@@ -2254,9 +2510,11 @@ entities={
                 "name": "Rabindra A Ratan"
             },
             {
-                "name": " Béatrice S Hasler"
+                "name": "Béatrice S Hasler"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw647": {
         "title": "Information Extraction and Manipulation Threats in Crowd-Powered Systems",
@@ -2267,12 +2525,14 @@ entities={
                 "name": "Walter S Lasecki"
             },
             {
-                "name": " Jaime Teevan"
+                "name": "Jaime Teevan"
             },
             {
-                "name": " Ece Kamar"
+                "name": "Ece Kamar"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw648": {
         "title": "Cursing in English on Twitter",
@@ -2283,15 +2543,17 @@ entities={
                 "name": "Wenbo Wang"
             },
             {
-                "name": " Lu Chen"
+                "name": "Lu Chen"
             },
             {
-                "name": " Krishnaprasad Thirunarayan"
+                "name": "Krishnaprasad Thirunarayan"
             },
             {
-                "name": " Amit P. Sheth"
+                "name": "Amit P. Sheth"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw654": {
         "title": "Tweet Acts: How Constituents Lobby Congress via Twitter",
@@ -2302,9 +2564,11 @@ entities={
                 "name": "Libby Hemphill"
             },
             {
-                "name": " Andrew J Roback"
+                "name": "Andrew J Roback"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw663": {
         "title": "Reconciling Rhythms: Plans and Temporal Alignment in Collaborative Scientific Work",
@@ -2315,9 +2579,11 @@ entities={
                 "name": "Stephanie B Steinhardt"
             },
             {
-                "name": " Steven J Jackson"
+                "name": "Steven J Jackson"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "cscw668": {
         "title": "Family Matters: Control and Conflict in Online Family History Production",
@@ -2328,9 +2594,11 @@ entities={
                 "name": "Heather L Willever-Farr"
             },
             {
-                "name": " Andrea Forte"
+                "name": "Andrea Forte"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "paper"
     },
     "tochi100": {
         "title": "Peer and Self Assessment in Massive Online Classes",
@@ -2339,8 +2607,31 @@ entities={
         "authors": [
             {
                 "name": "Chinmay Kulkarni"
+            },
+            {
+                "name": "Koh Pang Wei"
+            },
+            {
+                "name": "Huy Le"
+            },
+            {
+                "name": "Daniel Chia"
+            },
+            {
+                "name": "Kathryn Papadopoulos"
+            },
+            {
+                "name": "Justin Cheng"
+            },
+            {
+                "name": "Daphne Koller"
+            },
+            {
+                "name": "Scott Klemmer"
             }
-        ]
+        ],
+        "type": "paper",
+        "subtype": "tochi"
     },
     "pan100": {
         "title": "Computational Social Science: CSCW in the Social Media Era",
@@ -2371,7 +2662,9 @@ entities={
             {
                 "name": "Hanna Wallach"
             }
-        ]
+        ],
+        "type": "panel",
+        "subtype": "panel"
     },
     "pan101": {
         "title": "Making Cultures: Building Things & Building Communities",
@@ -2393,7 +2686,9 @@ entities={
             {
                 "name": "Daniela K Rosner"
             }
-        ]
+        ],
+        "type": "panel",
+        "subtype": "panel"
     },
     "pan102": {
         "title": " Lifestyle Teleworkers Speak Out!",
@@ -2415,7 +2710,9 @@ entities={
             {
                 "name": "Susan Herring"
             }
-        ]
+        ],
+        "type": "panel",
+        "subtype": "panel"
     },
     "pan103": {
         "title": "Facebook in the Developing World: The Myths and Realities Underlying a Socially Networked World",
@@ -2440,7 +2737,9 @@ entities={
             {
                 "name": "Judd Antin"
             }
-        ]
+        ],
+        "type": "panel",
+        "subtype": "panel"
     },
     "pan104": {
         "title": "The Ethos and Pragmatics of Data Sharing",
@@ -2468,6 +2767,8 @@ entities={
             {
                 "name": "Katie Shilton"
             }
-        ]
+        ],
+        "type": "panel",
+        "subtype": "panel"
     }
 }

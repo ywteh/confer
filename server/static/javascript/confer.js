@@ -664,8 +664,8 @@ function get_paper_html(id){
     raw_html += '<ul>'
 
     raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ entities[id].title +'</span>'
-    if(entities[id].type!=null){
-        raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].type + '</span>'
+    if(entities[id].subtype!=null){
+        raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].subtype + '</span>'
     }
     raw_html += '</h3>'
     raw_html += '</li>'
@@ -777,6 +777,9 @@ function get_session_html(id, day, time, slot_class, room){
         raw_html += '<span class="arrow arrow-right"></span>'
     }
     raw_html += '<span class="session-title">'+ sessions[id].s_title + '</span>'
+    if(sessions[id].subtype!=null){
+        raw_html += '<span class="paper-subtype">' + ' - ' + sessions[id].subtype + '</span>'
+    }
     raw_html += '</h3></li>'
     raw_html += '<li class="session-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span><span class="rec-icon">recommended</span>'
 
@@ -786,8 +789,19 @@ function get_session_html(id, day, time, slot_class, room){
       });
     }
     
+    if (room == null) {
+        room = 'TBD'
+    }
+
+    var chair = sessions[id].chair
+
+
+
     raw_html += '</li>';
-    raw_html += '<li class="session-info"><span class="session-room">Room: ' + room + '</span></li>'
+    raw_html += '<li class="session-info"><span class="session-room">Room: ' + room + '</span>'
+    if (chair != null && chair != "") {
+        raw_html += '<span class="session-room" style="margin-left:1em;">Chair: ' + chair + '</span></li>'
+    }
     raw_html += '</ul>'
 
     var size = 0
