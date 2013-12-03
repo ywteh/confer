@@ -36,7 +36,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Paper_116": {
     "title": "UMP-ST plug-in: a tool for documenting, maintaing, and evolving probabilistic ontologies", 
@@ -81,7 +81,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Industry_Track_Paper_6": {
     "title": "Semantic Business Architecture Modelling in Financial Industry Regulation", 
@@ -96,7 +96,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Paper_117": {
     "title": "Adaptive Semantic Publishing", 
@@ -123,7 +123,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_118": {
     "title": "Boosting RDF Adoption in Ruby with Goo", 
@@ -162,7 +162,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_29": {
     "title": "Do it yourself (DIY) Jeopardy QA System", 
@@ -183,7 +183,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Industry_Track_Paper_4": {
     "title": "Integrating Relational Databases with the Semantic Web: Four Scenarios", 
@@ -204,7 +204,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Paper_119": {
     "title": "On Managing Prefixes of LOD Vocabularies", 
@@ -237,7 +237,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_25": {
     "title": "Denoting Data in the Grounded Annotation Framework", 
@@ -294,7 +294,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_24": {
     "title": "Demonstration: Semantic Web Enabled Smart Farm with GSN", 
@@ -339,7 +339,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_27": {
     "title": "Discoverability of SPARQL Endpoints in Linked Open Data", 
@@ -360,7 +360,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Industry_Track_Paper_5": {
     "title": "OData and the Semantic Web", 
@@ -381,7 +381,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Poster_Demo_Paper_21": {
     "title": "DRETa: Extracting RDF from Wikitables", 
@@ -408,7 +408,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_20": {
     "title": "D-SPARQ: Distributed, Scalable and Efficient RDF Query Engine", 
@@ -441,7 +441,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_23": {
     "title": "Demonstrating The Entity Registry System: Implementing 5-Star Linked Data Without the Web", 
@@ -486,7 +486,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_22": {
     "title": "Demo: Swip, a Semantic Web Interface using Patterns", 
@@ -513,7 +513,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_19": {
     "title": "Curating Semantic Linked Open Datasets for Software Engineering", 
@@ -546,7 +546,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_41": {
     "title": "Statistical Analyses of Named Entity Disambiguation Benchmarks", 
@@ -573,7 +573,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_40": {
     "title": "Integrating Open and Closed Information Extraction: Challenges and First Steps", 
@@ -606,7 +606,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_43": {
     "title": "A case study on automated risk assessment of ships using newspaper-based event extraction", 
@@ -627,7 +627,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_42": {
     "title": "Using BabelNet in Bridging the Gap Between Natural Language Queries and Linked Data Concepts", 
@@ -654,7 +654,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_45": {
     "title": "Extractivism: Extracting activist events from news articles using existing NLP tools and services", 
@@ -699,7 +699,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_44": {
     "title": "Domain-Independent Quality Measures for Crowd Truth Disagreement", 
@@ -732,7 +732,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_47": {
     "title": "Full Syntactic Parsing for Enrichment of RDF dataset", 
@@ -759,7 +759,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_46": {
     "title": "Representing Supply Chain Events on the Web of Data", 
@@ -780,7 +780,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_49": {
     "title": "Named Entity Disambiguation using Freebase and Syntactic Parsing", 
@@ -795,7 +795,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_48": {
     "title": "Linked Data for Cross-disciplinary Collaboration Cohort Discovery", 
@@ -828,7 +828,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Demo_2": {
     "title": "tablet-based visualisation of transport data in Madrid using SPARQL-Stream", 
@@ -855,7 +855,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Demo"
+    "subtype": "Demo"
   }, 
   "Demo_1": {
     "title": "FRED as an Event Extraction Tool", 
@@ -888,7 +888,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Demo"
+    "subtype": "Demo"
   }, 
   "Evaluation_Track_Paper_1": {
     "title": "Crowdsourcing Linked Data Quality Assessment", 
@@ -933,7 +933,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_2": {
     "title": "Evaluating and benchmarking SPARQL query containment solvers", 
@@ -967,7 +967,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_3": {
     "title": "Evaluation measures for ontology matchers in supervised matching scenarios", 
@@ -994,7 +994,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_4": {
     "title": "Geographica: A Benchmark for Geospatial RDF Stores", 
@@ -1021,7 +1021,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_5": {
     "title": "Introducing Statistical Design of Experiments to SPARQL Endpoint Evaluation", 
@@ -1043,7 +1043,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_6": {
     "title": "NoSQL Databases for RDF: An Empirical Evaluation", 
@@ -1112,7 +1112,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_7": {
     "title": "On Correctness in RDF stream processor benchmarking", 
@@ -1151,7 +1151,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_8": {
     "title": "SPARQL Web-Querying Infrastructure: Ready for Action?", 
@@ -1185,7 +1185,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Evaluation_Track_Paper_9": {
     "title": "String Similarity Metrics for Ontology Alignment", 
@@ -1206,7 +1206,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Short_Paper_4": {
     "title": "Terminology-Based Patterns for Natural Language Definitions in Ontologies", 
@@ -1221,7 +1221,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Short Paper"
+    "subtype": "Short Paper"
   }, 
   "Evaluation_Track_Paper_10": {
     "title": "Towards a systematic benchmarking of ontology-based query rewriting systems", 
@@ -1242,7 +1242,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Evaluation Track Paper"
+    "subtype": "Evaluation Track Paper"
   }, 
   "Poster_Demo_Paper_58": {
     "title": "SEJP: Designing Interactive Scientometrics with Linked Data and Semantic Web Reasoning", 
@@ -1281,7 +1281,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_59": {
     "title": "SILURIAN: a Sparql vIsuaLizer for UndeRstanding querIes And federatioNs", 
@@ -1308,7 +1308,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_62": {
     "title": "Semantic Enrichment of Mobile Phone Data Records Using Linked Open Data", 
@@ -1329,7 +1329,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_62": {
     "title": "To repair or not to repair: reconciling correctness and coherence in ontology reference alignments", 
@@ -1362,7 +1362,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_50": {
     "title": "On the Semantics of R2RML and its Relationship with the Direct Mapping", 
@@ -1377,7 +1377,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_51": {
     "title": "Optique 1.0: Semantic Access to Big Data; The Case of Norwegian Petroleum Directorate\u2019s FactPages", 
@@ -1500,7 +1500,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_52": {
     "title": "PigSPARQL: A SPARQL Query Processing Baseline for Big Data", 
@@ -1533,7 +1533,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_53": {
     "title": "Profiling of Linked Datasets using Structured Descriptions", 
@@ -1572,7 +1572,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_54": {
     "title": "Publishing Data from the Smithsonian American Art Museum as Linked Open Data", 
@@ -1617,7 +1617,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_55": {
     "title": "Query Suggestion by Concept Instantiation", 
@@ -1650,7 +1650,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_56": {
     "title": "RDFChain: Chain Centric Storage for Scalable Join Processing of RDF Graphs using MapReduce and HBase", 
@@ -1677,7 +1677,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_57": {
     "title": "RelClus: Clustering-based Relationship Search", 
@@ -1704,7 +1704,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_64": {
     "title": "SexTant: Visualizing Time-Evolving Linked Geospatial Data", 
@@ -1743,7 +1743,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_102": {
     "title": "Event dashboard: Capturing user-defined semantics events for event detection over real-time sensor data", 
@@ -1764,7 +1764,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_67": {
     "title": "The Empirical Robustness of Description Logic Classification", 
@@ -1797,7 +1797,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_66": {
     "title": "The Benefits of Incremental Reasoning in OWL EL", 
@@ -1818,7 +1818,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_34": {
     "title": "A Rule-Based Relation Extraction System using DBpedia and Syntactic Parsing", 
@@ -1833,7 +1833,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_35": {
     "title": "A lemon lexicon for DBpedia", 
@@ -1872,7 +1872,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_36": {
     "title": "Argumentation-based Inconsistencies Detection for Question-Answering over DBpedia", 
@@ -1905,7 +1905,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_37": {
     "title": "Datasets and GATE Evaluation Framework for Benchmarking Wikipedia-Based NER Systems", 
@@ -1926,7 +1926,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_30": {
     "title": "Dr. Detective: combining gamification techniques and crowdsourcing to create a gold standard in medical text", 
@@ -1965,7 +1965,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_31": {
     "title": "Frame Semantics Annotation Made Easy with DBpedia", 
@@ -1992,7 +1992,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_32": {
     "title": "Information Reputation", 
@@ -2013,7 +2013,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_33": {
     "title": "SLUA: Towards Semantic Linking of Users with Actions in Crowdsourcing", 
@@ -2040,7 +2040,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_81": {
     "title": "OLAP Manipulations on RDF Data following a Constellation Model", 
@@ -2067,7 +2067,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_38": {
     "title": "Extending the Coverage of DBpedia Properties using Distant Supervision over Wikipedia", 
@@ -2094,7 +2094,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_39": {
     "title": "From Strings to Things SAR-Graphs: A New Type of Resource for Connecting Knowledge and Language", 
@@ -2115,7 +2115,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_28": {
     "title": "Distributed SPARQL Throughput Increase: On the effectiveness of Workload-driven RDF partitioning", 
@@ -2136,7 +2136,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_109": {
     "title": "Scalable Linked Data Stream Processing via Network-Aware Workload Scheduling", 
@@ -2163,7 +2163,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_3": {
     "title": "A Machine Reader for the Semantic Web", 
@@ -2196,7 +2196,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_108": {
     "title": "Rule-based Reasoning on Massively Parallel Hardware", 
@@ -2229,7 +2229,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_111": {
     "title": "A GUI for MLN", 
@@ -2262,7 +2262,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Research_Track_Paper_3": {
     "title": "A Query Tool for EL with Non-monotonic rules", 
@@ -2289,7 +2289,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_2": {
     "title": "A Graph-Based Approach to Learn Semantic Descriptions of Data Sources", 
@@ -2322,7 +2322,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_1": {
     "title": "A Confidentiality Model for Ontologies", 
@@ -2343,7 +2343,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Poster_Demo_Paper_1": {
     "title": "A Distributed Reasoning Platform to Preserve Energy in Wireless Sensor Networks", 
@@ -2376,7 +2376,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Research_Track_Paper_7": {
     "title": "Complete Query Answering Over Horn Ontologies Using a Triple Store", 
@@ -2409,7 +2409,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_6": {
     "title": "Bringing Math to LOD: A Semantic Publishing Platform Prototype for Scientific Collections in Mathematics", 
@@ -2460,7 +2460,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_5": {
     "title": "A snapshot of the OWL Web", 
@@ -2487,7 +2487,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_4": {
     "title": "A decision procedure for SHOIQ with transitive closure of roles", 
@@ -2514,7 +2514,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Poster_Demo_Paper_43": {
     "title": "KbQAS: A Knowledge-based QA System", 
@@ -2541,7 +2541,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_6": {
     "title": "A Search Interface for Researchers to Explore Affinities in a Linked Data Knowledge Base", 
@@ -2580,7 +2580,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Research_Track_Paper_9": {
     "title": "Controlled Query Evaluation over OWL 2 RL Ontologies", 
@@ -2613,7 +2613,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_8": {
     "title": "Completeness Statements about RDF Data Sources and Their Use for Query Answering", 
@@ -2646,7 +2646,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Poster_Demo_Paper_47": {
     "title": "NoHR: Querying EL with Non-monotonic rules", 
@@ -2673,7 +2673,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_46": {
     "title": "Network-Aware Workload Scheduling for Scalable Linked Data Stream Processing", 
@@ -2700,7 +2700,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_45": {
     "title": "Monitoring SPARQL Endpoint Status", 
@@ -2733,7 +2733,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_7": {
     "title": "A Study on the Correspondence between FCA and $\\mathcal{ELI}$ Ontologies", 
@@ -2754,7 +2754,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_78": {
     "title": "Design and generation of Linked Clinical Data Cubes", 
@@ -2775,7 +2775,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Research_Track_Paper_19": {
     "title": "Incremental Reasoning in OWL EL without Bookkeeping", 
@@ -2796,7 +2796,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_18": {
     "title": "Getting Lucky in Ontology Search: A Data-Driven Evaluation Framework for Ontology Ranking", 
@@ -2841,7 +2841,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Poster_Demo_Paper_4": {
     "title": "A Protein Annotation Framework Empowered with Semantic Reasoning", 
@@ -2880,7 +2880,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_79": {
     "title": "Detecting and Reporting Extensional Concept Drift in Statistical Linked Data", 
@@ -2913,7 +2913,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Research_Track_Paper_13": {
     "title": "Elastic and scalable processing of Linked Stream Data in the Cloud", 
@@ -2946,7 +2946,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_12": {
     "title": "DynamiTE: Parallel Materialization of Dynamic RDF Data", 
@@ -2985,7 +2985,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_11": {
     "title": "Discovering Missing Semantic Relations between Entities in Wikipedia", 
@@ -3036,7 +3036,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_10": {
     "title": "DAW: Duplicate-AWare Federated Query Processing over the Web of Data", 
@@ -3075,7 +3075,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_17": {
     "title": "Federated Entity Search using On-The-Fly Consolidation", 
@@ -3108,7 +3108,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_16": {
     "title": "FedSearch: efficiently combining structured queries and full-text search in a SPARQL federation", 
@@ -3135,7 +3135,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_15": {
     "title": "Exploring Scholarly Data with Rexplore", 
@@ -3162,7 +3162,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_14": {
     "title": "Empirical Study of Logic-Based Modules: Cheap Is Cheerful", 
@@ -3207,7 +3207,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Paper_27": {
     "title": "Crowdsourced Entity Markup", 
@@ -3240,7 +3240,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_26": {
     "title": "Content and Behaviour Based Metrics for Crowd Truth", 
@@ -3285,7 +3285,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_25": {
     "title": "A Role for Provenance in Social Computation", 
@@ -3312,7 +3312,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_24": {
     "title": "Towards an RDF Analytics Language: Learning from Successful Experiences", 
@@ -3333,7 +3333,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_23": {
     "title": "Self-Sustaining Platforms: a Semantic Workflow Engine", 
@@ -3366,7 +3366,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_22": {
     "title": "Rights declaration in Linked Data", 
@@ -3393,7 +3393,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_21": {
     "title": "Pleasantly Consuming Linked Data with RDF Data Descriptions", 
@@ -3414,7 +3414,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_20": {
     "title": "On-the-fly Integration of Static and Dynamic Linked Data", 
@@ -3453,7 +3453,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_103": {
     "title": "From RESTful to SPARQL: A Case Study on Generating Semantic Sensor Data", 
@@ -3486,7 +3486,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_29": {
     "title": "Developing Crowdsourced Ontology Engineering Tasks: An iterative process", 
@@ -3513,7 +3513,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_28": {
     "title": "Crowdsourced Semantics with Semantic Tagging: Don\u2019t just tag it, LexiTag it!", 
@@ -3528,7 +3528,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Dataset_Description_Paper_1": {
     "title": "DBpediaNYD A Silver Standard Benchmark Dataset for Semantic Relatedness in Dbpedia", 
@@ -3543,7 +3543,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Dataset Description Paper"
+    "subtype": "Dataset Description Paper"
   }, 
   "Paper_120": {
     "title": "Towards Linked Data based Enterprise Information Integration", 
@@ -3588,7 +3588,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_113": {
     "title": "Information Integration with Provenance on the Semantic Web via Probabilistic Datalog+/-", 
@@ -3609,7 +3609,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_92": {
     "title": "Early warning system for coffee rust disease based on error correcting output codes: a proposal", 
@@ -3648,7 +3648,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_93": {
     "title": "GIS-based Ontology on Organic Agriculture (On-going research)", 
@@ -3663,7 +3663,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_90": {
     "title": "AgroKnowledgeBase (AKB) for plant diseases: Poppy plant use case", 
@@ -3684,7 +3684,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_91": {
     "title": "Austrian Environmental Data Consumption \u2013 A Mashup-based Approach", 
@@ -3723,7 +3723,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_96": {
     "title": "Linked Open Robot Data", 
@@ -3756,7 +3756,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_97": {
     "title": "Opportunities created for agricultural and environmental informatics through whole-of-economy federated sensing", 
@@ -3795,7 +3795,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_94": {
     "title": "Learning Classifiers from Semantic Sensor Data with Application to Soil Drainage Classification", 
@@ -3822,7 +3822,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_95": {
     "title": "Linked Open Data and its applications for International development: The case study at International Food Policy Research Institute", 
@@ -3855,7 +3855,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_98": {
     "title": "Semantic Web Enabled Smart Farming", 
@@ -3900,7 +3900,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_99": {
     "title": "The role of vocabularies for estimating carbon footprint for food recipies using Linked Open Data", 
@@ -3921,7 +3921,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_72": {
     "title": "Gra\u00dfe\u2014Towards Flexible Search on Encrypted Graph Data", 
@@ -3954,7 +3954,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_26": {
     "title": "DiTTO: Diagrams Transformation inTo OWL", 
@@ -3975,7 +3975,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_18": {
     "title": "Linked Data for Financial Reporting", 
@@ -4008,7 +4008,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_19": {
     "title": "Natural Language Query Translation into SPARQL using Patterns", 
@@ -4035,7 +4035,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_123": {
     "title": "Ontology Patterns: Clarifying Concepts and Terminology", 
@@ -4068,7 +4068,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_114": {
     "title": "Reliability Analyses of Open Government Data", 
@@ -4125,7 +4125,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_12": {
     "title": "Change-a-LOD: Does the Schema on the Linked Data Cloud Change or Not?", 
@@ -4158,7 +4158,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_13": {
     "title": "Choosing Between Graph Databases and RDF Engines for Consuming and Mining Linked Data", 
@@ -4215,7 +4215,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_10": {
     "title": "Utilising Provenance to Enhance Social Computation", 
@@ -4230,7 +4230,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_11": {
     "title": "Bounds: Expressing Reservations about Incoming Data", 
@@ -4251,7 +4251,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_16": {
     "title": "Including Co-referent URIs in a SPARQL Query", 
@@ -4296,7 +4296,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_30": {
     "title": "Editing R2RML Mappings Made Easy.", 
@@ -4329,7 +4329,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_14": {
     "title": "Consuming Linked data in Supply Chains: Enabling data visibility via Linked Pedigrees", 
@@ -4350,7 +4350,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_15": {
     "title": "Content-Preserving Graphics", 
@@ -4377,7 +4377,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_31": {
     "title": "Efficient Computation of Relationship-Centrality in Large Entity-Relationship Graphs", 
@@ -4416,7 +4416,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_5": {
     "title": "A Restful Interface for RDF Stream Processors", 
@@ -4437,7 +4437,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_36": {
     "title": "Finite Models in RDF(S), with datatypes", 
@@ -4458,7 +4458,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Short_Paper_and_Pattern_1": {
     "title": "Diagrammatic Ontology Patterns", 
@@ -4503,7 +4503,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Short Paper and Pattern"
+    "subtype": "Short Paper and Pattern"
   }, 
   "Poster_Demo_Paper_37": {
     "title": "GRAPHIUM: Visualizing Performance of Graph and RDF Engines on Linked Data", 
@@ -4560,7 +4560,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_122": {
     "title": "Event Processing in RDF", 
@@ -4593,7 +4593,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_34": {
     "title": "Exploring Linked Open Data with Tag Clouds", 
@@ -4626,7 +4626,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_115": {
     "title": "Towards Vagueness-Aware Ontologies", 
@@ -4653,7 +4653,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_73": {
     "title": "Legibility, Privacy and Creativity: Linked Data in a Surveillance Society", 
@@ -4674,7 +4674,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_85": {
     "title": "Towards the Discovery of Person-Level Data - Reuse of Vocabularies and Related Use Cases", 
@@ -4707,7 +4707,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_84": {
     "title": "Towards a Vocabulary for Incorporating Predictive Models into the Linked Data Web", 
@@ -4740,7 +4740,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_87": {
     "title": "A knowledge-based approach to computational analysis of melody in Indian art music", 
@@ -4761,7 +4761,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_86": {
     "title": "XKOS: Extending SKOS for Describing Statistical Classifications", 
@@ -4788,7 +4788,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_48": {
     "title": "ONTOMS2: an Efficient and Scalable ONTOlogy Management System with an Incremental Reasoning", 
@@ -4827,7 +4827,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_80": {
     "title": "Discovering Related Data Sources in Data-Portals", 
@@ -4854,7 +4854,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_83": {
     "title": "Towards Linked Statistical Data Analysis", 
@@ -4881,7 +4881,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_82": {
     "title": "Towards Easy Matching Between Statistical Linked Data: Dimension Patterns", 
@@ -4902,7 +4902,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_107": {
     "title": "Eviction Strategies for Semantic Flow Processing", 
@@ -4929,7 +4929,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_106": {
     "title": "DistEL: A Distributed EL+ Ontology Classifier", 
@@ -4956,7 +4956,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_105": {
     "title": "Count Aggregation in Semantic Queries", 
@@ -4977,7 +4977,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_104": {
     "title": "A Distributed Directory System", 
@@ -4998,7 +4998,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_89": {
     "title": "Semantic Metadata for Music Production Projects", 
@@ -5025,7 +5025,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_88": {
     "title": "Mapping, Interlinking and Exposing MusicBrainz as Linked Data", 
@@ -5040,7 +5040,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_101": {
     "title": "An explicit OWL representation of ISO/OGC Observations and Measurements", 
@@ -5055,7 +5055,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_100": {
     "title": "An Ontology Framework for Water Quality Management", 
@@ -5082,7 +5082,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_72": {
     "title": "XLore: A Large-scale English-Chinese Bilingual Knowledge Graph", 
@@ -5145,7 +5145,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Pattern_1": {
     "title": "Abstracting Transport to an Ontology Design Pattern for the Geosciences", 
@@ -5196,7 +5196,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Pattern"
+    "subtype": "Pattern"
   }, 
   "Poster_Demo_Paper_70": {
     "title": "TripleRush", 
@@ -5229,7 +5229,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_71": {
     "title": "Using Ontologies to Identify Patients with Diabetes in Electronic Health Records", 
@@ -5262,7 +5262,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Research_Track_Paper_35": {
     "title": "Simplified OWL Ontology Editing for the Web: Is WebProt\u00e9g\u00e9 Enough?", 
@@ -5307,7 +5307,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_34": {
     "title": "Semantic Rule Filtering for Web-Scale Relation Extraction", 
@@ -5352,7 +5352,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_37": {
     "title": "Statistical Knowledge Patterns: Identifying Synonymous Relations in Large Linked Datasets", 
@@ -5391,7 +5391,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_36": {
     "title": "Simplifying Description Logic Ontologies", 
@@ -5412,7 +5412,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_31": {
     "title": "Real-time RDF extraction from unstructured data streams", 
@@ -5457,7 +5457,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_30": {
     "title": "QODI: Query as Context in Automatic Data Integration", 
@@ -5484,7 +5484,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_33": {
     "title": "Semantic Message Passing for Generating Linked Data from Tables", 
@@ -5511,7 +5511,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_32": {
     "title": "Secure Manipulation of Linked Data", 
@@ -5544,7 +5544,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_39": {
     "title": "TRank: Ranking Entity Types Using the Web of Data", 
@@ -5583,7 +5583,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_38": {
     "title": "TRM \u2013 Learning Dependencies between Text and Structure with Topical Relational Models", 
@@ -5610,7 +5610,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Poster_Demo_Paper_61": {
     "title": "SemantEco Annotator", 
@@ -5655,7 +5655,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_110": {
     "title": "TripleRush: A Fast and Scalable Triple Store", 
@@ -5688,7 +5688,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_75": {
     "title": "Semantic Web Technologies for Social Translucence and Privacy Mirrors on the Web", 
@@ -5709,7 +5709,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_14": {
     "title": "CEDAR: a Fast Taxonomic Reasoner Based on Lattice Operations", 
@@ -5730,7 +5730,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_15": {
     "title": "Cite4Me: A Semantic Search and Retrieval Web Application for Scientific Publications", 
@@ -5763,7 +5763,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_16": {
     "title": "Comparing ontologies with ecco", 
@@ -5790,7 +5790,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_17": {
     "title": "Context Aware Sensor Configuration Model for Internet of Things", 
@@ -5829,7 +5829,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_8": {
     "title": "Real-time Urban Monitoring in Dublin using Semantic and Stream Technologies", 
@@ -5868,7 +5868,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_9": {
     "title": "Reasoning on crowd-sourced semantic annotations to facilitate cataloguing of 3D artefacts in the cultural heritage domain", 
@@ -5896,7 +5896,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Poster_Demo_Paper_12": {
     "title": "Assisted Policy Management for SPARQL Endpoints Access Control", 
@@ -5929,7 +5929,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_13": {
     "title": "Best-effort Linked Data Query Processing with time constraints using ADERIS-Hybrid", 
@@ -5962,7 +5962,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_4": {
     "title": "Entity recommendations in Web Search", 
@@ -5996,7 +5996,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_5": {
     "title": "Incorporating Commercial and Private Data into an Open Linked Data Platform for Drug Discovery", 
@@ -6071,7 +6071,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_6": {
     "title": "Integrating NLP using Linked Data", 
@@ -6104,7 +6104,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_7": {
     "title": "Publishing the Norwegian Petroleum Directorate\u2019s FactPages as Semantic Web Data", 
@@ -6131,7 +6131,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Poster_Demo_Paper_18": {
     "title": "Coordinating Social Care and Healthcare using Semantic Web Technologies", 
@@ -6236,7 +6236,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_1": {
     "title": "A Linked-Data-driven and Semantically-enabled Journal Portal for Scientometrics", 
@@ -6275,7 +6275,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_2": {
     "title": "Cross-language Semantic Retrieval and Linking of E-gov Services", 
@@ -6302,7 +6302,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_3": {
     "title": "Deployment of RDFa, Microdata, and Microformats on the Web \u2013 A Quantitative Analysis", 
@@ -6347,7 +6347,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_16": {
     "title": "When History Matters - Assessing Reliability for the Reuse of Scientific Workflows", 
@@ -6380,7 +6380,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Poster_Demo_Paper_60": {
     "title": "SPACE: SParql index for efficient Auto ComplEtion", 
@@ -6407,7 +6407,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_14": {
     "title": "Using Semantic Web in ICD-11: Three Years Down the Road", 
@@ -6441,7 +6441,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_15": {
     "title": "Using the past to explain the present: interlinking current affairs with archives via the Semantic Web", 
@@ -6474,7 +6474,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_12": {
     "title": "The Energy Management Adviser at EDF", 
@@ -6513,7 +6513,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_13": {
     "title": "Using Linked Data to evaluate the impact of Research and Development in Europe: a Structural Equation Model", 
@@ -6546,7 +6546,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_10": {
     "title": "Semantic Data and Models Sharing in systems Biology: The Just Enough Results Model and the SEEK Platform", 
@@ -6597,7 +6597,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Semantic_Web_In_Use_Track_Paper_11": {
     "title": "Social listening of City Scale Events using the Streaming Linked Data Framework", 
@@ -6642,7 +6642,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Semantic Web In Use Track Paper"
+    "subtype": "Semantic Web In Use Track Paper"
   }, 
   "Poster_Demo_Paper_69": {
     "title": "Towards the Natural Ontology of Wikipedia", 
@@ -6675,7 +6675,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_68": {
     "title": "Towards Semantic Annotations of Web Tables", 
@@ -6708,7 +6708,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Position_Paper_1": {
     "title": "Extending DBpedia with Wikipedia List Pages", 
@@ -6729,7 +6729,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Position Paper"
+    "subtype": "Position Paper"
   }, 
   "Poster_Demo_Paper_49": {
     "title": "OU Social: Reaching Students in Social Media", 
@@ -6756,7 +6756,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Research_Track_Paper_22": {
     "title": "Knowledge Graph Identification", 
@@ -6789,7 +6789,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_23": {
     "title": "ORCHID \u2013 Reduction-Ratio-Optimal Computation of Geo-Spatial Distances for Link Discovery", 
@@ -6804,7 +6804,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_20": {
     "title": "Indented Tree or Graph? A Usability Study of Ontology Visualization Techniques in the Context of Class Mapping Evaluation", 
@@ -6831,7 +6831,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_21": {
     "title": "Infrastructure for Efficient Exploration of Large Scale Linked Data via Contextual Tag Clouds", 
@@ -6864,7 +6864,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_26": {
     "title": "Ontology-Based Data Access: Ontop of Databases", 
@@ -6891,7 +6891,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_27": {
     "title": "Pattern Based Knowledge Base Enrichment", 
@@ -6912,7 +6912,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_24": {
     "title": "On the Status of Experimental Research on the Semantic Web", 
@@ -6951,7 +6951,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_25": {
     "title": "One License to Compose Them All: a deontic logic approach to data licensing on the Web of Data", 
@@ -6984,7 +6984,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Paper_70": {
     "title": "A case for transparency", 
@@ -6999,7 +6999,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_71": {
     "title": "Energy efficient sensing for managing privacy on smartphones", 
@@ -7026,7 +7026,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Research_Track_Paper_28": {
     "title": "Personalized Best Answer Computation in Graph Databases", 
@@ -7065,7 +7065,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_29": {
     "title": "ProSWIP: Property-based Data Access for Semantic Web Interactive Programming", 
@@ -7092,7 +7092,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Paper_74": {
     "title": "Personal Privacy and the Web of Linked Data", 
@@ -7119,7 +7119,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_63": {
     "title": "Semantic tools for improving software development in open source communities", 
@@ -7134,7 +7134,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_76": {
     "title": "Towards a Configurable Framework for Iterative Signing of Distributed Graph Data", 
@@ -7155,7 +7155,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_77": {
     "title": "Australian Bureau of Statistics Implementation of Semantic Web Technology", 
@@ -7176,7 +7176,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_17": {
     "title": "Linked Data Platform as a novel approach for Enterprise Application Integration", 
@@ -7203,7 +7203,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_121": {
     "title": "Detecting Good Practices and Pitfalls when Publishing Vocabularies on the Web", 
@@ -7236,7 +7236,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_42": {
     "title": "Interlinking Multilingual LOD Resources: A Study on Connecting Chinese, Japanese, and Korean Resources Using the Unihan Database", 
@@ -7269,7 +7269,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_41": {
     "title": "IncMap: Pay as you go Matching of Relational Schemata to OWL Ontologies", 
@@ -7302,7 +7302,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_40": {
     "title": "Hunting for Inconsistencies in Multilingual DBpedia with QAKiS", 
@@ -7335,7 +7335,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Pattern_2": {
     "title": "The Event Processing ODP", 
@@ -7356,7 +7356,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Pattern"
+    "subtype": "Pattern"
   }, 
   "Pattern_3": {
     "title": "The Object with States Ontology Design Pattern", 
@@ -7377,7 +7377,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Pattern"
+    "subtype": "Pattern"
   }, 
   "Paper_60": {
     "title": "IncMap: pay as you go matching of relational schemata to OWL ontologies", 
@@ -7410,7 +7410,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_125": {
     "title": "Statistical Knowledge Patterns for Characterising Linked Data", 
@@ -7449,7 +7449,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_124": {
     "title": "Reasoning Performance Indicators for Ontology Design Patterns", 
@@ -7464,7 +7464,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_69": {
     "title": "SPARQL Update under RDFS Entailment in Fully Materialized and Redundancy-Free Triple Stores", 
@@ -7485,7 +7485,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_68": {
     "title": "SLUBM: An extented LUBM Benchmark for Stream Reasoning", 
@@ -7506,7 +7506,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_59": {
     "title": "Complex correspondences for query patterns rewriting", 
@@ -7539,7 +7539,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_63": {
     "title": "Unsupervised learning of link specifications: deterministic vs. non-deterministic", 
@@ -7560,7 +7560,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_65": {
     "title": "TRT - A Tripleset Recommendation Tool", 
@@ -7605,7 +7605,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_61": {
     "title": "Rapid execution of weighted edit distances", 
@@ -7626,7 +7626,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_44": {
     "title": "Modeling and Reasoning Upon Facebook Privacy Settings", 
@@ -7647,7 +7647,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_67": {
     "title": "Order Theoretical Semantic Recommendation", 
@@ -7692,7 +7692,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_66": {
     "title": "Extending SPARQL with Qualitative Preferences", 
@@ -7719,7 +7719,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_65": {
     "title": "Exploiting Stream Reasoning to Monitor multi-Cloud Applications", 
@@ -7758,7 +7758,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_64": {
     "title": "Event Object Boundaries in RDF Streams: A Position Paper", 
@@ -7779,7 +7779,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_2": {
     "title": "A Hybrid Natural Language Approach to Manage Semantic Interoperability for Public Health Analytics", 
@@ -7818,7 +7818,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_1": {
     "title": "Adaptive Navigation through Semantic Annotations and Service Descriptions", 
@@ -7833,7 +7833,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_2": {
     "title": "Enriching Ontologies through Data", 
@@ -7848,7 +7848,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_3": {
     "title": "Explaining data patterns using background knowledge from Linked Data", 
@@ -7863,7 +7863,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_4": {
     "title": "NLP for Interlinking Multilingual LOD", 
@@ -7878,7 +7878,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_5": {
     "title": "Ontology Evolution for End-User Communities", 
@@ -7893,7 +7893,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_6": {
     "title": "Ontology-based top-k query answering over massive, heterogeneous, and dynamic data", 
@@ -7908,7 +7908,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_7": {
     "title": "Optimizing RDF stores by coupling General-purpose Graphics Processing Units and Central Processing Units", 
@@ -7923,7 +7923,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_8": {
     "title": "Semantic Interpretation of Mobile Phone Records Exploiting Background Knowledge", 
@@ -7938,7 +7938,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_9": {
     "title": "Television meets the Web: a Multimedia Hypervideo Experience", 
@@ -7953,7 +7953,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_8": {
     "title": "A user interface to build interactive visualizations for the semantic web", 
@@ -7980,7 +7980,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_9": {
     "title": "ActiveRaUL: A Web form-based User Interface to create and maintain RDF data", 
@@ -8013,7 +8013,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_32": {
     "title": "Enriching Concept Search across Semantic Web Ontologies", 
@@ -8046,7 +8046,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_33": {
     "title": "Explaining Clusters with Inductive Logic Programming and Linked Data", 
@@ -8073,7 +8073,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Doctoral_Consortium_Paper_5": {
     "title": "Utilising Provenance to Enhance Social Computation", 
@@ -8088,7 +8088,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Doctoral Consortium Paper"
+    "subtype": "Doctoral Consortium Paper"
   }, 
   "Doctoral_Consortium_Paper_4": {
     "title": "The effects of Licensing on Open Data: Computing a measure of health for our Scholarly Record", 
@@ -8109,7 +8109,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Doctoral Consortium Paper"
+    "subtype": "Doctoral Consortium Paper"
   }, 
   "Doctoral_Consortium_Paper_3": {
     "title": "Interactive Pay as you go Relational-to-Ontology Mapping", 
@@ -8124,7 +8124,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Doctoral Consortium Paper"
+    "subtype": "Doctoral Consortium Paper"
   }, 
   "Doctoral_Consortium_Paper_2": {
     "title": "Crowdsourcing Ontology Verification", 
@@ -8139,7 +8139,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Doctoral Consortium Paper"
+    "subtype": "Doctoral Consortium Paper"
   }, 
   "Doctoral_Consortium_Paper_1": {
     "title": "Assessing Content Value for Digital Publishing through Relevance and Provenance-based Trust", 
@@ -8154,7 +8154,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Doctoral Consortium Paper"
+    "subtype": "Doctoral Consortium Paper"
   }, 
   "Poster_Demo_Paper_35": {
     "title": "Extending R2RML to a source-independent mapping language for RDF", 
@@ -8193,7 +8193,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_38": {
     "title": "GetThere: A Rural Passenger Information System Utilising Linked Data & Citizen Sensing", 
@@ -8238,7 +8238,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Poster_Demo_Paper_39": {
     "title": "Git2PROV: Exposing Version Control System Content as W3C PROV", 
@@ -8289,7 +8289,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Research_Track_Paper_44": {
     "title": "Type Inference on Noisy RDF Data", 
@@ -8310,7 +8310,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_45": {
     "title": "What's in a 'nym'? Synonyms in Biomedical Ontology Matching", 
@@ -8355,7 +8355,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Paper_55": {
     "title": "Building Exceutable Biological Pathway Models Automatically from BioPAX", 
@@ -8382,7 +8382,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Research_Track_Paper_40": {
     "title": "The Combined Approach to OBDA: Taming Role Hierarchies using Filters", 
@@ -8415,7 +8415,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_41": {
     "title": "The Logic of Extensional RDFS", 
@@ -8454,7 +8454,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_42": {
     "title": "Towards Constructive Evidence of Data Flow-oriented Web Service Composition", 
@@ -8469,7 +8469,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Research_Track_Paper_43": {
     "title": "Towards an automatic creation of localized versions of DBpedia", 
@@ -8496,7 +8496,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Research Track Paper"
+    "subtype": "Research Track Paper"
   }, 
   "Short_Paper_1": {
     "title": "Assessing the Quality of Semantic Sensor Data", 
@@ -8529,7 +8529,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Short Paper"
+    "subtype": "Short Paper"
   }, 
   "Short_Paper_3": {
     "title": "License Linked Data Resources Pattern", 
@@ -8562,7 +8562,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Short Paper"
+    "subtype": "Short Paper"
   }, 
   "Short_Paper_2": {
     "title": "Citizen Sensing within a Real Time Passenger Information System", 
@@ -8607,7 +8607,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Short Paper"
+    "subtype": "Short Paper"
   }, 
   "Paper_112": {
     "title": "Handling uncertainty in semantic information retrieval process", 
@@ -8634,7 +8634,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Industry_Track_Paper_2": {
     "title": "DISQOVER Links For Lives: Building a Linked Data UX (User eXperience) for Federated Query and Faceted Search Linking HealthCare and Life sciences Data for All Users", 
@@ -8649,7 +8649,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Paper_57": {
     "title": "Exploiting Semantics from Ontologies and Shared Annotations to Find Patterns in Annotated Linked Open Data", 
@@ -8682,7 +8682,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_58": {
     "title": "Using Semantic Web Technologies to Reproduce a Pharmacovigilance Case Study", 
@@ -8709,7 +8709,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Industry_Track_Paper_3": {
     "title": "How Semantic Technologies supercharge a platform for context-aware applications", 
@@ -8724,7 +8724,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Industry Track Paper"
+    "subtype": "Industry Track Paper"
   }, 
   "Paper_56": {
     "title": "Capturing intent and rationale for Linked Science: design patterns as a resource for linked laboratory experiments", 
@@ -8751,7 +8751,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_10": {
     "title": "Adding Time to Linked Data: A Generic Memento proxy through PROV", 
@@ -8790,7 +8790,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }, 
   "Paper_54": {
     "title": "BiographyNet: Managing Provenance at multiple levels and from different perspectives", 
@@ -8823,7 +8823,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_51": {
     "title": "Which of the following SPARQL Queries are Similar? Why?", 
@@ -8844,7 +8844,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_52": {
     "title": "A Checklist-Based Approach for Quality Assessment of Scientific Information", 
@@ -8877,7 +8877,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_53": {
     "title": "A Semantic Lab Notebook \u2013 Report on a Use Case Modelling an Experiment of a Microwave-based Quarantine Method", 
@@ -8910,7 +8910,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Paper_50": {
     "title": "Triplifying Wikipedia's Tables", 
@@ -8937,7 +8937,7 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Paper"
+    "subtype": "Paper"
   }, 
   "Poster_Demo_Paper_11": {
     "title": "An FCA Framework for Knowledge Discovery in SPARQL Query Answers", 
@@ -8958,6 +8958,6 @@ entities={
       }
     ], 
     "keywords": "", 
-    "type": "Poster/Demo Paper"
+    "subtype": "Poster/Demo Paper"
   }
 }
