@@ -73,25 +73,25 @@ s_filters=[
 					"data":"morning1", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Morning 1"
+					"label":"Early Morning"
 				},
 				{
 					"data":"morning2", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Morning 2"
+					"label":"Late Morning"
 				},
 				{
 					"data":"afternoon1", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Afternoon 1"
+					"label":"Early Afternoon"
 				},
 				{
 					"data":"afternoon2", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Afternoon 2"
+					"label":"Late Afternoon"
 				},
 				{
 					"data":"evening", 
