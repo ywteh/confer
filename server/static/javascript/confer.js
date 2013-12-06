@@ -692,7 +692,7 @@ function get_paper_html(id){
     if(entities[id].abstract != null && entities[id].abstract != ""){
         raw_html += '<li class="paper-cb">'+ entities[id].abstract.slice(0,350) + '...</li>'
     }else{
-        raw_html += '<li class="paper-cb">ABSTRACT not available.</li>'
+        raw_html += '<li class="paper-cb">abstract not available.</li>'
     }
     
     if(entities[id].keywords != null && entities[id].keywords != '' && entities[id].keywords != 'null'){
@@ -903,7 +903,11 @@ function get_selected_paper_html(id){
     }
     raw_html += '</li>'
     raw_html += '<hr />'
-    raw_html += '<li>' + entities[id].abstract + '</li>'
+    if(entities[id].abstract != null && entities[id].abstract != ""){
+        raw_html += '<li>' + entities[id].abstract + '</li>'
+    }else{
+        raw_html += '<li class="paper-cb">abstract not available.</li>'
+    }
     if(entities[id].keywords != null){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
     }

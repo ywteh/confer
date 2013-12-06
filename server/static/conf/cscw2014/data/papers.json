@@ -9,7 +9,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw105": {
         "title": "Voyant: Generating Structured Feedback on Visual Designs Using a Crowd of Non-Experts",
@@ -27,7 +29,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw108": {
         "title": "Social Media Supporting Political Deliberation Across Multiple Public Spheres: Towards Depolarization",
@@ -48,7 +52,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw119": {
         "title": "De-Virtualizing Social Events: Understanding the Gap between Online and Offline Participation for Event Invitations",
@@ -66,7 +72,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw128": {
         "title": "Inferring the Origin Locations of Tweets with Quantitative Confidence",
@@ -84,7 +92,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw130": {
         "title": "Understanding Individuals' Personal Values from Social Media Word Use",
@@ -105,7 +115,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw135": {
         "title": "A Partial Replication Approach for Anywhere Anytime Mobile Commenting",
@@ -132,7 +144,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw142": {
         "title": "How Social Cues Regulate Task Coordination and Communication",
@@ -147,7 +161,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw145": {
         "title": "Giving is Caring: Understanding Donation Behavior through Email",
@@ -168,7 +184,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw147": {
         "title": "\"Figure Out How to Code with the Hands of Others\": Recognizing Cultural Blind Spots in Global Software Development",
@@ -186,7 +204,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw161": {
         "title": "Aesthetic Capital: What Makes London Look Beautiful, Quiet, and Happy?",
@@ -204,7 +224,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw178": {
         "title": "\"It's in your spinal cord, it's in your fingertips\": Practices of tools and craft in building software",
@@ -219,7 +241,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw188": {
         "title": "Competing or Aiming to be Average? Normification as a means of engaging digital volunteers",
@@ -237,7 +261,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw190": {
         "title": "The Effects of Consistency Maintenance Methods on Player Experience and Performance in Networked Games",
@@ -258,7 +284,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw191": {
         "title": "Collaborative Web Search in Context: A Study of Tool Use in Everyday Tasks",
@@ -273,7 +301,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw204": {
         "title": "Making IT \"Pay a Bit Better\"- Design Challenges for Micro Rural Enterprise",
@@ -288,7 +318,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw209": {
         "title": "Supporting Group Interactions in Museum Visiting",
@@ -312,7 +344,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw210": {
         "title": "How Physicians \" Achieve Overview\": A Case-based Study in a Hospital Ward",
@@ -327,7 +361,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw211": {
         "title": "Articulation Spaces: Bridging the Gap between Formal and Informal Coordination",
@@ -348,7 +384,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw221": {
         "title": "Life Transitions and Online Health Communities:  Reflecting on Adoption, Use, and Disengagement",
@@ -369,7 +407,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw222": {
         "title": "Characterizing the Life Cycle of Online News Stories Using Social Media Reactions",
@@ -390,7 +430,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw223": {
         "title": "Ethnography of Scaling, Or, How to a fit a national research infrastructure in the room",
@@ -402,7 +444,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw227": {
         "title": "How to See Values in Social Computing: Methods for Studying Values Dimensions",
@@ -420,7 +464,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw228": {
         "title": "Understanding factors of successful engagement around energy consumption between and among households",
@@ -435,7 +481,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw229": {
         "title": "Can Plans and Situated Actions be Replicated?",
@@ -447,7 +495,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw233": {
         "title": "Monitoring Email to Indicate Project Team Performance and Mutual Attraction",
@@ -465,7 +515,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw234": {
         "title": "Achieving Convergence in Operational Transformation: Conditions, Mechanisms and Systems",
@@ -483,7 +535,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw239": {
         "title": "Exhaustive and Efficient Search of Puzzles in Operational Transformation",
@@ -501,7 +555,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw240": {
         "title": "Craving, Creating, and Constructing Comfort: Insights and Opportunities for Technology in Hospice",
@@ -522,7 +578,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": true,
+        "hm": false
     },
     "cscw241": {
         "title": "Enriching the Distressing Reality: Social Media Use by Chinese Migrant Workers",
@@ -543,7 +601,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw243": {
         "title": "Digital Mobilization in Disaster Response: The Work & Self-Organization of On-Line Pet Advocates in Response to Hurricane Sandy",
@@ -561,7 +621,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw244": {
         "title": "Towards a Questionnaire for Measuring Affective Benefits and Costs of Communication Technologies",
@@ -579,7 +641,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": true,
+        "hm": false
     },
     "cscw248": {
         "title": "Catalyst: Using Activation Thresholds to Trigger Collective Action",
@@ -594,7 +658,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw252": {
         "title": "Deep Twitter Diving: Exploring Topical Groups in Microblogs at Scale",
@@ -624,7 +690,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw253": {
         "title": "Smart Face: Enhancing Creativity During Video Conferences using Real-time Facial Deformation",
@@ -651,7 +719,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw254": {
         "title": "Ensemble: Exploring Complementary Strengths of Leaders and Crowds in Creative Collaboration",
@@ -669,7 +739,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw268": {
         "title": "MyPosition: The Impact of an Interactive Poll Visualization on Public Civic Participation",
@@ -690,7 +762,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw274": {
         "title": "Enhancing Community Awareness and Participation to  Local Heritage with an Mobile Application",
@@ -711,7 +785,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw277": {
         "title": "Tracking serendipitous interactions: How individual cultures shape the office",
@@ -735,7 +811,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw285": {
         "title": "Network Neighborhoods, Romantic Relationships, and the Dispersion of Social Ties",
@@ -750,7 +828,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": true,
+        "hm": false
     },
     "cscw290": {
         "title": "Privacy Practices in Collaborative Environments: A Study of Emergency Department Staff",
@@ -768,7 +848,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw293": {
         "title": "Standing on the Schemas of Giants: Socially Augmented Information Foraging",
@@ -789,7 +871,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw295": {
         "title": "Cancer Navigation: Opportunities and Challenges for Facilitating the Breast Cancer Journey",
@@ -807,7 +891,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw299": {
         "title": "Awkward Encounters of an \"Other\" Kind:  Collective Self-Presentation and Face Threat on Facebook",
@@ -834,7 +920,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw302": {
         "title": "Books as a Social Technology",
@@ -849,7 +937,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw305": {
         "title": "The role of founders in building online groups",
@@ -864,7 +954,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw308": {
         "title": "Understanding Workforce Chatter with Enterprise Social Pulse",
@@ -912,7 +1004,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw310": {
         "title": "From Rookie to All-Star: Professional Development in a Graphic Design Social Networking Site",
@@ -927,7 +1021,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw315": {
         "title": "Institutional Logics of the EMR and the Problem of 'Perfect' but Inaccurate Accounts",
@@ -942,7 +1038,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw317": {
         "title": "Crowd Synthesis: Extracting Categories and Clusters from Complex Data",
@@ -960,7 +1058,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw327": {
         "title": "Editing Beyond Articles: Diversity & Dynamics of Teamwork in Open Collaborations",
@@ -981,7 +1081,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw333": {
         "title": "Sounds of Silence: Exploring Contributions to Conversa-tions, Non-Responses and the Impact of Mediating Tech-nologies in Triple Space",
@@ -996,7 +1098,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw339": {
         "title": "The Language that Gets People to Give: Phrases that Predict Success on Kickstarter",
@@ -1011,7 +1115,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw348": {
         "title": "Should Your MOOC Forum Use a Reputation System?",
@@ -1032,7 +1138,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw352": {
         "title": "Modeling Search Processes using Hidden States in Collaborative Exploratory Web Search",
@@ -1050,7 +1158,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw354": {
         "title": "How Social Q&A Sites are Changing Knowledge Sharing in Open Source Software Communities",
@@ -1071,7 +1181,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw355": {
         "title": "Specialization, Homophily, and Gender in a Social Curation Site: Findings from Pinterest",
@@ -1092,7 +1204,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw356": {
         "title": "How Players Value their Characters in World of Warcraft",
@@ -1113,7 +1227,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw358": {
         "title": "Most Liked, Fewest Friends:  Patterns of Enterprise Social Media Use",
@@ -1134,7 +1250,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw365": {
         "title": "Being A Turker",
@@ -1155,7 +1273,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw369": {
         "title": "Think Globally, Act Locally: A Case Study of a Free Food Sharing Community and Social Networking",
@@ -1176,7 +1296,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw374": {
         "title": "Account Sharing in the Context of Networked Hospitality Exchange",
@@ -1191,7 +1313,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw384": {
         "title": "Document Classification and Visualization for the Support of Interdisciplinary Collaboration",
@@ -1209,7 +1333,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw387": {
         "title": "The Perception of Others: Inferring Reputation from Social Media in the Enterprise",
@@ -1233,7 +1359,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw389": {
         "title": "Exploring Family-driven Socio-interactive Care for Children with Language Delay: A Smartphone-supported In-situ Intervention Approach",
@@ -1266,7 +1394,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": true,
+        "hm": false
     },
     "cscw390": {
         "title": "Quick and Dirty: Streamlined 3D Scanning in Archaeology",
@@ -1299,7 +1429,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw391": {
         "title": "VidWiki: Enabling the Crowd to Improve the Legibility of Online Educational Videos",
@@ -1323,7 +1455,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw395": {
         "title": "The Communication Patterns of Technical Leaders:  Impact on Product Development Team Performance",
@@ -1338,7 +1472,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw399": {
         "title": "\"You can't block people offline\": Examining how Facebook's affordances shape users' disclosure process",
@@ -1353,7 +1489,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw409": {
         "title": "Capturing the Mood: Facebook and Face-to-Face  Encounters in the Workplace",
@@ -1374,7 +1512,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw411": {
         "title": "The Policy Knot: Re-integrating Policy, Practice and Design in CSCW Studies of Social Computing",
@@ -1392,7 +1532,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw413": {
         "title": "Characterizing and Predicting Postpartum Depression from Facebook Data",
@@ -1413,7 +1555,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw430": {
         "title": "Managing Political Differences in Social Media",
@@ -1431,7 +1575,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw431": {
         "title": "Integrating On-demand Fact-checking with Public Dialogue",
@@ -1455,7 +1601,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw432": {
         "title": "Coordinating Donors on Crowdfunding Websites",
@@ -1470,7 +1618,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw438": {
         "title": "Everyday Dwelling with WhatsApp",
@@ -1494,7 +1644,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw440": {
         "title": "The Motivations and Experiences of the On-Demand Mobile Workforce",
@@ -1518,7 +1670,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw443": {
         "title": "Teammate Inaccuracy Blindness: When Information Sharing Tools Hinder Collaborative Analysis",
@@ -1536,7 +1690,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw455": {
         "title": "\"Real, but Glossy\" - Technology and the Practical Pursuit of Magic in Modern Weddings",
@@ -1554,7 +1710,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw462": {
         "title": "Framing the Conversation: The Role of Facebook Conversations in Shopping for Eyeglasses",
@@ -1575,7 +1733,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw471": {
         "title": "Collaboration Surrounding Beacon Use During Companion Avalanche Rescue",
@@ -1596,7 +1756,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw473": {
         "title": "Creepy but Inevitable? Evolution of Social Networking",
@@ -1614,7 +1776,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw474": {
         "title": "Leveraging the Contributory Potential of User Feedback",
@@ -1629,7 +1793,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw482": {
         "title": "The Role of Data in Aligning the 'Unique Identity' Infrastructure in India",
@@ -1644,7 +1810,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw486": {
         "title": "Attachment to work groups increases loyalty on Mechanical Turk: Exploring bond- versus identity-based pathways to attachment formation",
@@ -1662,7 +1830,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw487": {
         "title": "Capturing Quality: Retaining provenance for curated volunteer monitoring data",
@@ -1680,7 +1850,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw488": {
         "title": "Collaborative Problem Solving: A Study of MathOverflow",
@@ -1698,7 +1870,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw490": {
         "title": "Support for Deictic Pointing in CVEs: Still Fragmented After All These Years?",
@@ -1713,7 +1887,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw492": {
         "title": "Planned Obsolescence or Designed Reparability? Infrastructures and Materialities of Breakdown",
@@ -1728,7 +1904,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw493": {
         "title": "City, Self, Network: Transnational Migrants and Online Identity Work",
@@ -1746,7 +1924,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw494": {
         "title": "Beyond End User Content to Collaborative Knowledge Mapping: Interrelations Among Community Social Tools",
@@ -1767,7 +1947,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw495": {
         "title": "Remixers' Understandings of Fair Use Online",
@@ -1782,7 +1964,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw499": {
         "title": "Adolescent Online Safety: The \"Moral\" of the Story",
@@ -1803,7 +1987,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw517": {
         "title": "Enabling Relationship Building in Tabletop-supported Advisory Settings",
@@ -1824,7 +2010,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw526": {
         "title": "Cultivating Practice & Shepherding Technology Use: Supporting Appropriation Among Unanticipated Users",
@@ -1836,7 +2024,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw527": {
         "title": "Trustworthy By Design",
@@ -1866,7 +2056,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw530": {
         "title": "A kernel theory of research infrastructure",
@@ -1878,7 +2070,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw535": {
         "title": "GEMS: The Design and Evaluation of a Location-Based Storytelling Game",
@@ -1893,7 +2087,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw537": {
         "title": "How Beliefs about the Presence of Machine Translation Impact Multilingual Collaborations",
@@ -1914,7 +2110,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw542": {
         "title": "Pair Research: Matching People for Collaboration, Learning, and Productivity",
@@ -1935,7 +2133,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw547": {
         "title": "Social Structure and Depression in TrevorSpace",
@@ -1959,7 +2159,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw548": {
         "title": "Investigating a Quid-Pro-Quo Approach to Motivating Contribution in a Participatory Sensing System",
@@ -1980,7 +2182,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw550": {
         "title": "To Search or to Ask: The Routing of Information Needs Between Traditional Search Engines and Social Networks",
@@ -2004,7 +2208,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw558": {
         "title": "Remote Shopping Advice: Enhancing In-Store Shopping with Social Technologies",
@@ -2022,7 +2228,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw559": {
         "title": "\"Our Life is the Farm and Farming is Our Life\":  Home-Work Coordination in Organic Farm Families",
@@ -2040,7 +2248,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw566": {
         "title": "Study of Electronic Lab Notebook Design and Practices that Emerged in a Collaborative Scientific Environment",
@@ -2058,7 +2268,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw570": {
         "title": "Supporting Task Resumption Using Visual Feedback",
@@ -2079,7 +2291,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw576": {
         "title": "Can You Hear Me Now? Mitigating the Echo Chamber Effect by Source Position Indicators",
@@ -2094,7 +2308,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw579": {
         "title": "Designing for the Deluge: Understanding & Supporting the Distributed, Collaborative Work of Crisis Volunteers",
@@ -2124,7 +2340,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw584": {
         "title": "Mind the Map: The Impact of Culture and Economic Affluence on Crowd-Mapping Behaviours",
@@ -2142,7 +2360,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw586": {
         "title": "Civic action brokering platforms: Facilitating local engagement with ACTion Alexandria",
@@ -2166,7 +2386,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw588": {
         "title": "Understanding the Role of Community in Crowdfunding Work",
@@ -2184,7 +2406,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw590": {
         "title": "Geographical and Organizational Distances in Enterprise Crowdfunding",
@@ -2205,7 +2429,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw596": {
         "title": "Exploring the social-technological gap in telesurgery: collaboration within distributed OR teams",
@@ -2223,7 +2449,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw597": {
         "title": "Reviewing versus Doing: Learning and Performance in Crowd Assessment",
@@ -2244,7 +2472,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw598": {
         "title": "Hybrid Media Consumption: How Tweeting During a Televised Political Debate Influences the Vote Decision",
@@ -2268,7 +2498,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw599": {
         "title": "Help is on the Way: Patterns of Responses to Resource Requests on Facebook",
@@ -2289,7 +2521,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw602": {
         "title": "Planet Hunters and Seafloor Explorers: Legitimate Peripheral Participation Through Practice Proxies in Online Citizen Science",
@@ -2313,7 +2547,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw608": {
         "title": "Social Influences on Secure Development Tool Adoption: Why Security Tools Spread",
@@ -2331,7 +2567,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw609": {
         "title": "What Do Teens Ask Their Online Social Networks? Social Search Practices among High School Students",
@@ -2352,7 +2590,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": true
     },
     "cscw620": {
         "title": "The Impact of Deviance on Retention in a Multiplayer Game",
@@ -2376,7 +2616,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw622": {
         "title": "Twitter ain't Without Frontiers: Economic, Social, and Cultural Boundaries in International Communication",
@@ -2394,7 +2636,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw624": {
         "title": "Facebook Makes the Heart Grow Fonder: Relationship Maintenance Strategies Among Geographically Dispersed and Communication-Restricted Connections",
@@ -2406,7 +2650,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw625": {
         "title": "Photoportals: Shared References in Space and Time",
@@ -2427,7 +2673,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw626": {
         "title": "AskSheet:  Efficient Use of Web Workers to Support Decision Making",
@@ -2442,7 +2690,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw629": {
         "title": "A Comparison of Social, Learning, and Financial  Strategies on Crowd Engagement and Output Quality",
@@ -2463,7 +2713,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw634": {
         "title": "The antecedents of remix",
@@ -2484,7 +2736,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw636": {
         "title": "Fast, Functional, and Fitting: Expert Response Dynamics and Response Quality in an Online Newcomer Help Forum",
@@ -2499,7 +2753,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw637": {
         "title": "Designing the virtual self: How avatar customization and psychological connections influence group collaboration",
@@ -2514,7 +2770,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw647": {
         "title": "Information Extraction and Manipulation Threats in Crowd-Powered Systems",
@@ -2532,7 +2790,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw648": {
         "title": "Cursing in English on Twitter",
@@ -2553,7 +2813,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw654": {
         "title": "Tweet Acts: How Constituents Lobby Congress via Twitter",
@@ -2568,7 +2830,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw663": {
         "title": "Reconciling Rhythms: Plans and Temporal Alignment in Collaborative Scientific Work",
@@ -2583,7 +2847,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "cscw668": {
         "title": "Family Matters: Control and Conflict in Online Family History Production",
@@ -2598,7 +2864,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "paper"
+        "subtype": "paper",
+        "award": false,
+        "hm": false
     },
     "tochi100": {
         "title": "Peer and Self Assessment in Massive Online Classes",
@@ -2631,7 +2899,9 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "tochi"
+        "subtype": "tochi",
+        "award": false,
+        "hm": false
     },
     "pan100": {
         "title": "Computational Social Science: CSCW in the Social Media Era",
@@ -2664,7 +2934,9 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel"
+        "subtype": "panel",
+        "award": false,
+        "hm": false
     },
     "pan101": {
         "title": "Making Cultures: Building Things & Building Communities",
@@ -2688,7 +2960,9 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel"
+        "subtype": "panel",
+        "award": false,
+        "hm": false
     },
     "pan102": {
         "title": " Lifestyle Teleworkers Speak Out!",
@@ -2712,7 +2986,9 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel"
+        "subtype": "panel",
+        "award": false,
+        "hm": false
     },
     "pan103": {
         "title": "Facebook in the Developing World: The Myths and Realities Underlying a Socially Networked World",
@@ -2739,7 +3015,9 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel"
+        "subtype": "panel",
+        "award": false,
+        "hm": false
     },
     "pan104": {
         "title": "The Ethos and Pragmatics of Data Sharing",
@@ -2769,6 +3047,92 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel"
+        "subtype": "panel",
+        "award": false,
+        "hm": false
+    },
+    "next1": {
+        "title": "Coworking: A sociotechnical approach to ameliorating the problems with distributed working",
+        "abstract": "",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Toni Ferro"
+            }
+        ],
+        "type": "paper",
+        "subtype": "paper",
+        "award": false,
+        "hm": false
+    },
+    "next2": {
+        "title": "Counting & Coordinating: How people track their personal finances",
+        "abstract": "",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Jofish Kaye"
+            }
+        ],
+        "type": "paper",
+        "subtype": "paper",
+        "award": false,
+        "hm": false
+    },
+    "next3": {
+        "title": "Schema-mediated idea generation: Innovating with crowds",
+        "abstract": "",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Lixiu Yu"
+            }
+        ],
+        "type": "paper",
+        "subtype": "paper",
+        "award": false,
+        "hm": false
+    },
+    "impact": {
+        "title": "CSCW Lasting Impact Award: Jonathan Grudin",
+        "abstract": "The first CSCW Lasting Impact Award recognizes Jonathan Grudin's groundbreaking 1988 paper \"Why CSCW applications fail: Problems in the design and evaluation of organizational interfaces.\" This paper epitomizes the goals of CSCW, surfacing hidden social dynamics, revealing their impact, and, ultimately, turning those insights into design principles for new systems. For example, because the benefits of using a system are often unequal among the required participants, it has to be designed to appeal to participants who have the least to gain.\n Irene Greif will present the award in a short formal part of the session, where we'll also hear from Jonathan on how he came to write the paper, and Tom Finholt on what the data shows about the impact of the paper.\n To bring the concepts up to date, we are assembling a panel that will look at current trends and technologies in the context of the cost/benefit trade-off. Why do people keep up their Facebook pages religiously, but still fail to update \"skills\" lists on internal work-related sites? Does the cost/benefit balance predict the extremely low completion rates of MOOCs? While many people scoff at using extrinsic rewards though gamification, do they make perfect sense when some people will get little to no intrinsic rewards? Bring your own favorite examples, as we'll welcome audience participation!\n Irene Greif, Award Presenter and Moderator\n Jonathan Grudin, Microsoft Research, Award Winner\n Thomas Finholt, University of Michigan, Impact Analysis",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Jonathan Grudin"
+            }
+        ],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "opening": {
+        "title": "Opening Keynote: Mary Flanagan",
+        "abstract": "Mary Flanagan (@criticlaplay) -- founder of the Tiltfactor research lab as well as an artist, writer, and scholar -- will share recent research on how games can influence and change attitudes, opinions, and behaviors. Flanagan expands the boundaries of medium, discipline, and genre across writing, visual arts, computer science, psychology, and design to innovate in these fields with a critical play-centered approach. She is interested in collaboration, social impact, and creating paradigms for productive social interaction based on our inherent capacity for play-- while highlighting and prioritizing human values in the design of new technologies and systems.\n As an artist, her collection of over 20 major works range from game-inspired systems to computer viruses, embodied interfaces to interactive texts; these works are exhibited internationally. As a scholar interested in how human values are in play across technologies and systems, Flanagan has written more than 20 critical essays and chapters on games, empathy, gender and digital representation, art and technology, and responsible design. Her recent books include Critical Play (2009, MIT Press) and Values at Play in Digital Games with Helen Nissenbaum (2014, MIT Press). Flanagan’s work has been supported by grants and commissions including The British Arts Council, the National Endowment for the Humanities, the Robert Wood Johnson Foundation, the ACLS, and the National Science Foundation. Flanagan is the Sherman Fairchild Distinguished Professor in Digital Humanities at Dartmouth College.",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Mary Flanagan"
+            }
+        ],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "closing": {
+        "title": "Next Generation Humanitarian Computing",
+        "abstract": "Humanitarian organizations are completely unprepared to deal with the rise of Big (Crisis) Data--the massive overflow of user-generated content posted on social media during disasters. To be sure, humanitarian organizations have no expertise in advanced computing. At the same time, the overflow of information during disasters can be as paralyzing to humanitarian response as the absence of information. This talk will highlight how the computing community can make a significant difference in humanitarian response. To demonstrate this, the talk will explain how we are experimenting with human and machine computing to make sense of--and verify--Big Crisis Data. For example, we can automatically extract crisis information from Twitter by combining microtasking with machine learning. This would enable UN information management officers to create their own classifiers on the fly. In terms of verification, we can draw on techniques from time-critical crowdsourcing to rapidly collect and triangulate evidence during disasters. This would allow emergency managers to quickly debunk rumors in the immediate aftermath of a crisis. In conclusion, the talk will outline how we can actively bridge the gap between humanitarian and computing communities.\n Patrick Meier (PhD) is an internationally recognized thought leader on the application of new technologies for humanitarian response. He presently serves as Director of Social Innovation at the Qatar Foundation’s Computing Research Institute (QCRI) where he and his team use Advanced Computing to develop Next Generation Humanitarian Technologies. Patrick is also a UNICEF Humanitarian Innovations Fellow, a Rockefeller Foundation and PopTech Fellow, and a Fellow at Harvard University where he previously co-directed the Harvard Humanitarian Initiative's Program on Crisis Mapping. His influential blog iRevolution has received well over 1 million hits and been cited by the New York Times, UK Guardian, Slate, Wired, Scientific American and New Scientist, amongst others. Patrick tweets at @patrickmeier.",
+        "keywords": "",
+        "authors": [
+            {
+                "name": "Patrick Meier"
+            }
+        ],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
     }
 }

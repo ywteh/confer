@@ -119,8 +119,8 @@ sessions={
         "s_title": "Collaborative Software Development",
         "time": "9:00-10:15",
         "submissions": [
-            "cscw147",
             "cscw608",
+            "cscw147",
             "cscw211"
         ],
         "personas": "Collaborative software development",
@@ -312,9 +312,9 @@ sessions={
         "s_title": "Friendsourcing",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw609",
             "cscw599",
-            "cscw550"
+            "cscw550",
+            "cscw609"
         ],
         "personas": "Computer-Mediated Communication",
         "venue": "paper",
@@ -433,8 +433,8 @@ sessions={
         "s_title": "ICT4D",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw482",
             "cscw204",
+            "cscw482",
             "cscw241"
         ],
         "personas": "Other domain-specific support",
@@ -742,9 +742,9 @@ sessions={
         "s_title": "Social Media in the Enterprise",
         "time": "9:00-10:15",
         "submissions": [
-            "cscw358",
+            "cscw473",
             "cscw308",
-            "cscw473"
+            "cscw358"
         ],
         "personas": "Organization/office/workplace support",
         "venue": "paper",
@@ -840,8 +840,8 @@ sessions={
         "s_title": "Telepresence",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw244",
             "cscw253",
+            "cscw244",
             "cscw142"
         ],
         "personas": "Telepresence/video/desktop conferencing",
@@ -1184,8 +1184,8 @@ sessions={
         "s_title": "Building Communities and Relationships",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw223",
             "cscw486",
+            "cscw223",
             "cscw517"
         ],
         "personas": "",
@@ -1197,15 +1197,15 @@ sessions={
         "chair": "Daniel Wigdor"
     },
     "s211": {
-        "s_title": "Video Track Session<br>",
+        "s_title": "Video Track Session",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "special",
         "day": "Monday, Feb 17th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     },
     "s212": {
@@ -1213,11 +1213,11 @@ sessions={
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "special",
         "day": "Monday, Feb 17th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     },
     "s213": {
@@ -1225,11 +1225,11 @@ sessions={
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "special",
         "day": "Monday, Feb 17th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     },
     "s214": {
@@ -1237,23 +1237,23 @@ sessions={
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "special",
         "day": "Monday, Feb 17th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     },
     "s215": {
-        "s_title": "Poster 3",
+        "s_title": "Posters",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "special",
         "day": "Monday, Feb 17th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     },
     "s216": {
@@ -1339,9 +1339,11 @@ sessions={
         "chair": ""
     },
     "s220": {
-        "s_title": "Intro &amp; Plenary",
+        "s_title": "Welcome and Opening Plenary: Mary Flanagan",
         "time": "8:45-10:15",
-        "submissions": [],
+        "submissions": [
+            "opening"
+        ],
         "personas": "",
         "venue": "special",
         "day": "Monday, Feb 17th",
@@ -1353,7 +1355,9 @@ sessions={
     "s221": {
         "s_title": "Lasting Impact",
         "time": "15:45-16:45",
-        "submissions": [],
+        "submissions": [
+            "impact"
+        ],
         "personas": "",
         "venue": "special",
         "day": "Tuesday, Feb 18th",
@@ -1399,15 +1403,213 @@ sessions={
         "chair": ""
     },
     "s225": {
-        "s_title": "Closing &amp; Plenary",
+        "s_title": "Closing Plenary: Patrick Meier",
         "time": "15:45-17:15",
-        "submissions": [],
+        "submissions": [
+            "closing"
+        ],
         "personas": "",
         "venue": "special",
         "day": "Wednesday, Feb 19th",
         "s_tags": [],
         "type": "special",
         "subtype": "special",
+        "chair": ""
+    },
+    "W1": {
+        "s_title": "W1: Sharing, Re-use and Circulation of Resources in Cooperative Scientific Work",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W2": {
+        "s_title": "W2: Structures for Knowledge Co-creation Between Organisations and the Public",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W3": {
+        "s_title": "W3: Designing with Users for Domestic Environments: Methods - Challenges - Lessons Learned",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W4": {
+        "s_title": "W4: Cross-Cultural Studies of Collaborative Systems: Making Methodological Advances as a Community",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W5": {
+        "s_title": "W5: Designing Futures for Peer-to-Peer Learning @ CSCW",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W6": {
+        "s_title": "W6: Back to the Future of Organizational Work: Crowdsourcing and Digital Work Marketplaces",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W7": {
+        "s_title": "W7: Co-creating & Identity-making in CSCW: Revisiting Ethics in Design Research",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W8": {
+        "s_title": "W8: Quick and Dirty: Lightweight Methods for Heavyweight Research",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W9": {
+        "s_title": "W9: The Fourteenth International Workshop on Collaborative Editing Systems",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W10": {
+        "s_title": "W10: Collaboration and Coordination in the Context of Informal Care (CCCiC 2014)",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W11": {
+        "s_title": "W11: Global Software Development in a CSCW Perspective",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W12": {
+        "s_title": "W12: Feminism and Social Media Research",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W13": {
+        "s_title": "W13: Designing for Interactive Arts and Performance Collaboration",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "W14": {
+        "s_title": "W14: OCData Hackathon: Online Communities Data Hackathon",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday, Feb 15th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "WD": {
+        "s_title": "Doctoral Colloquium",
+        "time": "all-day",
+        "submissions": [],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "workshop",
+        "subtype": "workshop",
+        "chair": ""
+    },
+    "next": {
+        "s_title": "CSCWhat's Next",
+        "time": "10:45-12:00",
+        "submissions": [
+            "next1",
+            "next2",
+            "next3"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday, Feb 18th",
+        "s_tags": [],
+        "type": "paper",
+        "subtype": "paper",
         "chair": ""
     }
 }
