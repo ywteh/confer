@@ -5,12 +5,19 @@
 <a class="button navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
 <a class="button active navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
 <a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
-<a class="button navitem" href="/">All Conferences</a>
+{% if conf == "cscw2014" %}
+<a class="button navitem" href="/login">Log In</a>
+{% else %}
+<a class="button navitem" href="/">All Conferences</a> 
+{% endif %}
 {% endblock %}
 {% block content %}   
 
 <div class="blurb nav_papers">
 Tag sessions and papers you want to see and get updated recommendations on the fly. Use your likes, recommendations, and other filtering options to discover your personal schedule.
+{% if conf == "cscw2014" %}
+<br/><br/>Authors: <a class="button" href="/login">log in</a> to see your papers and those you liked during authorsourcing.
+{% endif %}
 </div>
 <div class="goto-link">
 <a class="button nav_papers" href="/{{conf}}/papers">Go to My Papers</a>
