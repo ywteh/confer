@@ -119,8 +119,8 @@ sessions={
         "s_title": "Collaborative Software Development",
         "time": "9:00-10:15",
         "submissions": [
-            "cscw147",
             "cscw608",
+            "cscw147",
             "cscw211"
         ],
         "personas": "Collaborative software development",
@@ -312,9 +312,9 @@ sessions={
         "s_title": "Friendsourcing",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw609",
             "cscw599",
-            "cscw550"
+            "cscw550",
+            "cscw609"
         ],
         "personas": "Computer-Mediated Communication",
         "venue": "paper",
@@ -433,8 +433,8 @@ sessions={
         "s_title": "ICT4D",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw482",
             "cscw204",
+            "cscw482",
             "cscw241"
         ],
         "personas": "Other domain-specific support",
@@ -742,9 +742,9 @@ sessions={
         "s_title": "Social Media in the Enterprise",
         "time": "9:00-10:15",
         "submissions": [
-            "cscw358",
+            "cscw473",
             "cscw308",
-            "cscw473"
+            "cscw358"
         ],
         "personas": "Organization/office/workplace support",
         "venue": "paper",
@@ -840,8 +840,8 @@ sessions={
         "s_title": "Telepresence",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw244",
             "cscw253",
+            "cscw244",
             "cscw142"
         ],
         "personas": "Telepresence/video/desktop conferencing",
@@ -1184,8 +1184,8 @@ sessions={
         "s_title": "Building Communities and Relationships",
         "time": "10:45-12:00",
         "submissions": [
-            "cscw223",
             "cscw486",
+            "cscw223",
             "cscw517"
         ],
         "personas": "",
@@ -1417,7 +1417,7 @@ sessions={
         "chair": ""
     },
     "W1": {
-        "s_title": "W1: Sharing, re-use and circulation of resources in cooperative scientific work",
+        "s_title": "W1: Sharing, Re-use and Circulation of Resources in Cooperative Scientific Work",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1441,7 +1441,7 @@ sessions={
         "chair": ""
     },
     "W3": {
-        "s_title": "W3: Designing with Users for Domestic environments: Methods - Challenges - Lessons Learned",
+        "s_title": "W3: Designing with Users for Domestic Environments: Methods - Challenges - Lessons Learned",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1489,7 +1489,7 @@ sessions={
         "chair": ""
     },
     "W7": {
-        "s_title": "W7: Co-creating & Identity-making in CSCW: revisiting ethics in design research",
+        "s_title": "W7: Co-creating & Identity-making in CSCW: Revisiting Ethics in Design Research",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1501,7 +1501,7 @@ sessions={
         "chair": ""
     },
     "W8": {
-        "s_title": "W8: Quick and Dirty: Lightweight methods for heavyweight research",
+        "s_title": "W8: Quick and Dirty: Lightweight Methods for Heavyweight Research",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1585,7 +1585,7 @@ sessions={
         "chair": ""
     },
     "WD": {
-        "s_title": "Doctoral Workshop",
+        "s_title": "Doctoral Colloquium",
         "time": "all-day",
         "submissions": [],
         "personas": "",

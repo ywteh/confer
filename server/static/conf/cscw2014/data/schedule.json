@@ -6,7 +6,7 @@ schedule=[
             {
                 "slot_id": "Saturday__Feb_15th_all_day",
                 "time": "all-day",
-                "slot_class": "morning1 morning2 afternoon1 afternoon2",
+                "slot_class": "all-day",
                 "sessions": [
                     {
                         "session": "W1"
@@ -40,7 +40,7 @@ schedule=[
             {
                 "slot_id": "Sunday__Feb_16th_all_day",
                 "time": "all-day",
-                "slot_class": "morning1 morning2 afternoon1 afternoon2",
+                "slot_class": "all-day",
                 "sessions": [
                     {
                         "session": "W6"
