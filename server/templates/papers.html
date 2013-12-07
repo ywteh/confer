@@ -6,17 +6,17 @@
 <a class="button navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
 <a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
 
-{% if conf == "cscw2014" %}
-<a class="button navitem" href="/login">Log In</a>
+{% if login_id %}
+<a class="button" href="/logout">Log Out</a>
 {% else %}
-<a class="button navitem" href="/">All Conferences</a> 
+<a class="button" href="/login">Log In</a>
 {% endif %}
 {% endblock %}
 {% block content %} 
 <div class="blurb">
 Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more!
 {% if conf == "cscw2014" %}
-<br/><br/>Authors: <a class="button" href="/login">log in</a> to see your papers and those you liked during authorsourcing.
+<br/><br/>Authors: <a class="blue bold" href="/login">log in</a> to see your papers and those you liked during authorsourcing.
 {% endif %}
 </div>
 
