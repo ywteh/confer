@@ -5,7 +5,11 @@
 <a class="button navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
 <a class="button navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
 <a class="button active navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
-<a class="button navitem" href="/">All Conferences</a>
+{% if login_id %}
+<a class="button" href="/logout">Log Out</a>
+{% else %}
+<a class="button" href="/login">Log In</a>
+{% endif %}
 {% endblock %}
 {% block content %}  
 <div class="blurb">
