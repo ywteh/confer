@@ -15,7 +15,7 @@
 {% block content %} 
 <div class="blurb">
 Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more!
-{% if login_id and conf == "cscw2014" %}
+{% if not login_id and conf == "cscw2014" %}
 <br/><br/>Authors: <a class="blue bold" href="/login">Log in</a> to see your papers and those you liked during authorsourcing.
 {% endif %}
 </div>
