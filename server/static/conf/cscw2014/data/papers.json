@@ -3060,8 +3060,8 @@ entities={
                 "name": "Toni Ferro"
             }
         ],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "CSCWhat's Next",
+        "subtype": "CSCWhat's Next",
         "award": false,
         "hm": false
     },
@@ -3074,8 +3074,8 @@ entities={
                 "name": "Jofish Kaye"
             }
         ],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "CSCWhat's Next",
+        "subtype": "CSCWhat's Next",
         "award": false,
         "hm": false
     },
@@ -3088,8 +3088,8 @@ entities={
                 "name": "Lixiu Yu"
             }
         ],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "CSCWhat's Next",
+        "subtype": "CSCWhat's Next",
         "award": false,
         "hm": false
     },

@@ -1605,11 +1605,11 @@ sessions={
             "next3"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "CSCWhat's Next",
         "day": "Tuesday, Feb 18th",
         "s_tags": [],
-        "type": "paper",
-        "subtype": "paper",
+        "type": "CSCWhat's Next",
+        "subtype": "CSCWhat's Next",
         "chair": ""
     }
 }
