@@ -24,6 +24,11 @@ urlpatterns = patterns('',
     url(r'^(\w+?)/schedule$', 'server.views.schedule'),
     url(r'^(\w+?)/paper', 'server.views.paper'),
     url(r'^(\w+?)/meetups', 'server.views.meetups'),
+
+    # for the cts widget 
+    url(r'^(\w+?)/widget/papers.cts$', 'server.views.papersCts'),
+    url(r'^(\w+?)/widget/papers-widget.html$', 'server.views.papersWidget'),
+
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
 )
