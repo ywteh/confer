@@ -159,6 +159,16 @@ schedule=[
                         "session": "s216"
                     }
                 ]
+            },
+            {
+                "slot_id": "Monday__Feb_17th_20_00_22_00",
+                "time": "20:00-22:00",
+                "slot_class": "evening2",
+                "sessions": [
+                    {
+                        "session": "FB"
+                    }
+                ]
             }
         ]
     },

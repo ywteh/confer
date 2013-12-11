@@ -1610,6 +1610,18 @@ sessions={
         "s_tags": [],
         "type": "CSCWhat's Next",
         "subtype": "CSCWhat's Next",
+        "chair": "Mark Handel, Susan Wyche"
+    },
+    "FB": {
+        "s_title": "Facebook Happy Hour",
+        "time": "20:00-22:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday, Feb 17th",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     }
 }
