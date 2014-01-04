@@ -1,7 +1,7 @@
 schedule=[
     {
         "date": "Saturday, Feb 15th",
-        "day": "Saturday",
+        "day": "Sat (Feb, 15)",
         "slots": [
             {
                 "slot_id": "Saturday__Feb_15th_all_day",
@@ -35,7 +35,7 @@ schedule=[
     },
     {
         "date": "Sunday, Feb 16th",
-        "day": "Sunday",
+        "day": "Sun (Feb, 16)",
         "slots": [
             {
                 "slot_id": "Sunday__Feb_16th_all_day",
@@ -72,7 +72,7 @@ schedule=[
     },
     {
         "date": "Monday, Feb 17th",
-        "day": "Monday",
+        "day": "Mon (Feb, 17)",
         "slots": [
             {
                 "slot_id": "Monday__Feb_17th_8_45_10_15",
@@ -174,7 +174,7 @@ schedule=[
     },
     {
         "date": "Tuesday, Feb 18th",
-        "day": "Tuesday",
+        "day": "Tue (Feb, 18)",
         "slots": [
             {
                 "slot_id": "Tuesday__Feb_18th_9_00_10_15",
@@ -304,7 +304,7 @@ schedule=[
     },
     {
         "date": "Wednesday, Feb 19th",
-        "day": "Wednesday",
+        "day": "Wed (Feb, 19)",
         "slots": [
             {
                 "slot_id": "Wednesday__Feb_19th_9_00_10_15",
