@@ -43,31 +43,31 @@ s_filters=[
 					"data":"Saturday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Saturday"
+					"label":"Sat (Feb, 15)"
 				},
 				{
 					"data":"Sunday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Sunday"
+					"label":"Sun (Feb, 16)"
 				},
 				{
 					"data":"Monday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Monday"
+					"label":"Mon (Feb, 17)"
 				},
 				{
 					"data":"Tuesday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Tuesday"
+					"label":"Tuesday (Feb, 18)"
 				},
 				{
 					"data":"Wednesday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Wednesday"
+					"label":"Wed (Feb, 19)"
 				}
 		]
 	},
