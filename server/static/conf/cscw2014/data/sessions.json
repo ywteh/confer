@@ -113,7 +113,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Ed Chi"
+        "chair": "TBD"
     },
     "s104": {
         "s_title": "Collaborative Software Development",
@@ -161,7 +161,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Sameer Patil"
+        "chair": "TBD"
     },
     "s106": {
         "s_title": "Craft, Repair, and DIY",
@@ -190,7 +190,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Volker Wulf"
+        "chair": "Dave Randell"
     },
     "s107": {
         "s_title": "Crowdfunding: \"Show me the Money!\"",
@@ -283,7 +283,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "A.J. Brush"
+        "chair": "Erika Poole"
     },
     "s110": {
         "s_title": "Filter Bubbles & News",
@@ -366,7 +366,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Jacob Biehl"
+        "chair": "TBD"
     },
     "s113": {
         "s_title": "Geographic Distance",
@@ -399,7 +399,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Andrea Forte"
+        "chair": "Pernille Bjorn"
     },
     "s114": {
         "s_title": "Group Dynamics",
@@ -427,7 +427,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Les Nelson"
+        "chair": "Ido Guy"
     },
     "s115": {
         "s_title": "ICT4D",
@@ -513,7 +513,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Louise Barkhuus"
+        "chair": "TBD"
     },
     "s118": {
         "s_title": "MOOCs",
@@ -709,7 +709,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Vanessa Evers"
+        "chair": "TBD"
     },
     "s124": {
         "s_title": "Social Media & Politics",
@@ -736,7 +736,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "m.c. schraefel"
+        "chair": "Gloria Mark"
     },
     "s125": {
         "s_title": "Social Media in the Enterprise",
@@ -794,7 +794,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Jeffrey Bigham"
+        "chair": "Andrea Forte"
     },
     "s127": {
         "s_title": "Supporting Communities",
@@ -834,7 +834,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Wendy Kellogg"
+        "chair": "TBD"
     },
     "s128": {
         "s_title": "Telepresence",
@@ -990,7 +990,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Edward Cutrell"
+        "chair": "TBD"
     },
     "s133": {
         "s_title": "Work in Hospitals",
@@ -1066,7 +1066,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Ido Guy"
+        "chair": "Carsten Osterlund"
     },
     "s203": {
         "s_title": "Mobile Apps for Enhancing Connectedness",
@@ -1082,7 +1082,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Paul Aoki"
+        "chair": "TBD"
     },
     "s204": {
         "s_title": "Distributed Teams",
@@ -1098,7 +1098,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Mary Beth Rosson"
+        "chair": "TBD"
     },
     "s205": {
         "s_title": "Social Technologies and Well-Being",
@@ -1130,7 +1130,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Joseph Konstan"
+        "chair": "TBD"
     },
     "s207": {
         "s_title": "Identifying Opportunities for Collaboration",
@@ -1162,7 +1162,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Morten Fjeld"
+        "chair": "TBD"
     },
     "s209": {
         "s_title": "Promoting Participation and Engagement",
@@ -1194,7 +1194,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Daniel Wigdor"
+        "chair": "Vanessa Evars"
     },
     "s211": {
         "s_title": "Video Track Session",
