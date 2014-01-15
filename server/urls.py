@@ -6,7 +6,7 @@ urlpatterns = patterns('',
     url(r'^team', 'server.views.team'),
     
     url(r'^data', 'server.views.data'),
-    url(r'^data', 'server.views.similar_people'),
+    url(r'^similar_people', 'server.views.similar_people'),
     url(r'^recs', 'server.views.get_recs'),
     url(r'^like/(\w+)$', 'server.views.like'),
     url(r'^log/(\w+)$', 'server.views.log'),
