@@ -138,6 +138,35 @@ def meetups (request, conf):
 AJAX Calls
 '''
 @csrf_exempt
+def similar_people (request):
+  login = None
+  similar_people = []
+  conf = None
+  meetups_enabled = False
+  try:
+    request.session[kConf] = conf
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
+    meetups_enabled = user.meetups_enabled
+    if meetups_enabled:
+      similar_people = get_similar_people(login[0], conf)
+  
+  except Exception, e:
+    error = True
+    msg = str(e)
+
+  return HttpResponse(json.dumps( {
+        'conf':conf,
+        'similar_people': similar_people,
+        'meetups_enabled': meetups_enabled,
+        'login_id': login[0],
+        'login_name': login[1]
+      }
+    ))
+
+
+
+@csrf_exempt
 def data (request):
   recs = []
   likes = []
