@@ -144,7 +144,7 @@ def similar_people (request):
   conf = None
   meetups_enabled = False
   try:
-    request.session[kConf] = conf
+    conf = request.session[kConf]
     login = get_login(request)
     user = User.objects.get(email=login[0])
     meetups_enabled = user.meetups_enabled
