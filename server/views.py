@@ -160,9 +160,10 @@ def similar_people (request):
         'similar_people': similar_people,
         'meetups_enabled': meetups_enabled,
         'login_id': login[0],
-        'login_name': login[1]
-      }
-    ))
+        'login_name': login[1],
+        'error': error,
+        'msg':msg
+      }), mimetype="application/json")
 
 
 
