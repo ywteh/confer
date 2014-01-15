@@ -143,6 +143,8 @@ def similar_people (request):
   similar_people = []
   conf = None
   meetups_enabled = False
+  error = False
+  msg = "OK"
   try:
     conf = request.session[kConf]
     login = get_login(request)
@@ -155,7 +157,7 @@ def similar_people (request):
     error = True
     msg = str(e)
 
-  return HttpResponse(json.dumps( {
+  return HttpResponse(json.dumps({
         'conf':conf,
         'similar_people': similar_people,
         'meetups_enabled': meetups_enabled,
