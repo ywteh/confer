@@ -113,7 +113,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Chirag Shah"
     },
     "s104": {
         "s_title": "Collaborative Software Development",
@@ -366,7 +366,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Eric Gilbert"
     },
     "s113": {
         "s_title": "Geographic Distance",
@@ -399,7 +399,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "Pernille Bjorn"
+        "chair": "Danielle Quercia"
     },
     "s114": {
         "s_title": "Group Dynamics",
@@ -513,7 +513,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Steven Jackson"
     },
     "s118": {
         "s_title": "MOOCs",
@@ -709,7 +709,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Jofish Kaye"
     },
     "s124": {
         "s_title": "Social Media & Politics",
@@ -834,7 +834,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Cliff Lampe"
     },
     "s128": {
         "s_title": "Telepresence",
@@ -990,7 +990,7 @@ sessions={
         ],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Shelly Farnham"
     },
     "s133": {
         "s_title": "Work in Hospitals",
@@ -1082,7 +1082,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Jessica Vitak"
     },
     "s204": {
         "s_title": "Distributed Teams",
@@ -1098,7 +1098,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Pernille Bjorn"
     },
     "s205": {
         "s_title": "Social Technologies and Well-Being",
@@ -1130,7 +1130,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "subtype": "paper",
-        "chair": "TBD"
+        "chair": "Shaun Kane"
     },
     "s207": {
         "s_title": "Identifying Opportunities for Collaboration",
