@@ -90,6 +90,8 @@ public class Indexer {
       while (scanner.hasNextLine()){
         text.append(scanner.nextLine());
       }
+    } catch (Exception e){
+      
     }
 
     scanner.close();    
