@@ -261,7 +261,7 @@ Confer APIs
 
 
 @csrf_exempt
-def get_likes (request):
+def likes (request):
   likes = []
   error = False
   msg = 'OK'
@@ -293,7 +293,7 @@ def get_likes (request):
 
 
 @csrf_exempt
-def get_similar_people (request):
+def similar_people (request):
   login = None
   similar_people = []
   conf = None

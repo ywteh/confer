@@ -20,8 +20,8 @@ urlpatterns = patterns('',
     url(r'^settings', 'server.auth.settings'),
 
     #confer APIs
-    url(r'^api/get_likes$', 'server.views.get_likes'),
-    url(r'^api/get_similar_people$', 'server.views.get_similar_people'),
+    url(r'^api/likes$', 'server.views.get_likes'),
+    url(r'^api/similar_people$', 'server.views.get_similar_people'),
     
 
     #move this matching in the end
