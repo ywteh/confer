@@ -19,16 +19,23 @@ def http_post(host, path, params):
 	res = conn.getresponse().read()
 	return json.loads(res)
 
-print http_post('confer.csail.mit.edu', '/api/likes', {
+host = 'confer.csail.mit.edu'
+app_name = 'common_ties' #  your registered app name
+app_token = 'xxx' # your app token
+conf_id = 'cscw2014' # conference id
+
+# get likes for a confer login_id
+print http_post(host, '/api/likes', {
     'login_id': 'anantb@csail.mit.edu',
-    'conf_id': 'cscw2014', 'application_id':
-    'common_ties',
-    'application_token': 'xxx'
+    'conf_id': conf_id,
+    'application_id': app_name,
+    'application_token': app_token
   })
 
-print http_post('confer.csail.mit.edu', '/api/similar_people', {
+# get similar_people for a confer login_id
+print http_post(host, '/api/similar_people', {
     'login_id': 'anantb@csail.mit.edu',
-    'conf_id': 'cscw2014', 'application_id':
-    'common_ties',
-    'application_token': 'xxx'
+    'conf_id': conf_id,
+    'application_id': app_name,
+    'application_token': app_token
   })
