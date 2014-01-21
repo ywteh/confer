@@ -12,5 +12,5 @@ def http_post(url, params):
 
 
 
-print http_post('/api/likes', {'login_id': 'anantb@csail.mit.edu', 'conf_id': 'cscw2014'})
-print http_post('/api/similar_people', {'login_id': 'anantb@csail.mit.edu', 'conf_id': 'cscw2014'})
+print http_post('/api/likes', {'login_id': 'anantb@csail.mit.edu', 'conf_id': 'cscw2014', 'application_id': 'common_ties', 'application_token': 'xxx'})
+print http_post('/api/similar_people', {'login_id': 'anantb@csail.mit.edu', 'conf_id': 'cscw2014', 'application_id': 'common_ties', 'application_token': 'xxx'})
