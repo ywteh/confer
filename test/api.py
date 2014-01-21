@@ -9,15 +9,15 @@ A sample of how to use confer APIs
 
 
 def http_post(host, path, params):
-	conn = httplib.HTTPConnection(host)
-	headers = {
+  conn = httplib.HTTPConnection(host)
+  headers = {
       "Content-type": "application/x-www-form-urlencoded",
-			"Accept": "text/plain"
+      "Accept": "text/plain"
     }
-	params = urllib.urlencode(params)
-	conn.request("POST", path, params, headers)	
-	res = conn.getresponse().read()
-	return json.loads(res)
+  params = urllib.urlencode(params)
+  conn.request("POST", path, params, headers) 
+  res = conn.getresponse().read()
+  return json.loads(res)
 
 host = 'confer.csail.mit.edu'
 app_name = 'common_ties' #  your registered app name
