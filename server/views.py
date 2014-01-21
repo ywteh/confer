@@ -310,7 +310,7 @@ def get_similar_people (request):
     msg = str(e)
 
   return HttpResponse(json.dumps({
-        'login_id': login_id,
+        'login_id': login,
         'conf':conf,
         'similar_people': similar_people,
         'error': error,
