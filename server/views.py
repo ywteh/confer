@@ -134,40 +134,6 @@ def meetups (request, conf):
     return HttpResponseRedirect('/')
 
 
-'''
-AJAX Calls
-'''
-@csrf_exempt
-def similar_people (request):
-  login = None
-  similar_people = []
-  conf = None
-  meetups_enabled = False
-  error = False
-  msg = "OK"
-  try:
-    conf = request.session[kConf]
-    login = get_login(request)
-    user = User.objects.get(email=login[0])
-    meetups_enabled = user.meetups_enabled
-    if meetups_enabled:
-      similar_people = get_similar_people(login[0], conf)
-  
-  except Exception, e:
-    error = True
-    msg = str(e)
-
-  return HttpResponse(json.dumps({
-        'conf':conf,
-        'similar_people': similar_people,
-        'meetups_enabled': meetups_enabled,
-        'login_id': login[0],
-        'login_name': login[1],
-        'error': error,
-        'msg':msg
-      }), mimetype="application/json")
-
-
 
 @csrf_exempt
 def data (request):
@@ -286,6 +252,73 @@ def like (request, like_str):
     ),
     mimetype="application/json"
   )
+
+
+
+'''
+Confer APIs
+'''
+
+
+@csrf_exempt
+def get_likes (request):
+  likes = []
+  error = False
+  msg = 'OK'
+  login = None
+  conf = None
+  try:
+    login = request.POST["login_id"]
+    conf = request.POST["conf_id"]
+    registration = get_registration(login, conf)
+    data = None
+
+    try:
+      data = Likes.objects.get(registration = registration)
+      likes.extend(json.loads(data.likes))
+    except:
+      pass
+
+  except Exception, e:
+    error = True
+    msg = str(e)
+
+  return HttpResponse(json.dumps({
+      'login_id': login,
+      'conf':conf,
+      'likes':likes,
+      'error': error,
+      'msg':msg}), mimetype="application/json")
+
+
+
+@csrf_exempt
+def get_similar_people (request):
+  login = None
+  similar_people = []
+  conf = None
+  error = False
+  msg = "OK"
+  try:
+    login = request.POST["login_id"]
+    conf = request.POST["conf_id"]
+
+    similar_people = get_similar_people(login, conf)
+  
+  except Exception, e:
+    error = True
+    msg = str(e)
+
+  return HttpResponse(json.dumps({
+        'login_id': login_id,
+        'conf':conf,
+        'similar_people': similar_people,
+        'error': error,
+        'msg':msg
+      }), mimetype="application/json")
+
+
+
 
 
 

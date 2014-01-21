@@ -6,7 +6,6 @@ urlpatterns = patterns('',
     url(r'^team', 'server.views.team'),
     
     url(r'^data', 'server.views.data'),
-    url(r'^similar_people', 'server.views.similar_people'),
     url(r'^recs', 'server.views.get_recs'),
     url(r'^like/(\w+)$', 'server.views.like'),
     url(r'^log/(\w+)$', 'server.views.log'),
@@ -19,6 +18,11 @@ urlpatterns = patterns('',
     url(r'^reset/(\w+)', 'server.auth.reset'),
     url(r'^verify/(\w+)', 'server.auth.verify'),
     url(r'^settings', 'server.auth.settings'),
+
+    #confer APIs
+    url(r'^api/get_likes$', 'server.views.get_likes'),
+    url(r'^api/get_similar_people$', 'server.views.get_similar_people'),
+    
 
     #move this matching in the end
     url(r'^(\w+?)/papers$', 'server.views.papers'),
