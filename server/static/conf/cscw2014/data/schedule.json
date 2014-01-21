@@ -1,7 +1,7 @@
 schedule=[
     {
         "date": "Saturday, Feb 15th",
-        "day": "Sat (Feb, 15)",
+        "day": "Saturday",
         "slots": [
             {
                 "slot_id": "Saturday__Feb_15th_all_day",
@@ -35,7 +35,7 @@ schedule=[
     },
     {
         "date": "Sunday, Feb 16th",
-        "day": "Sun (Feb, 16)",
+        "day": "Sunday",
         "slots": [
             {
                 "slot_id": "Sunday__Feb_16th_all_day",
@@ -72,7 +72,7 @@ schedule=[
     },
     {
         "date": "Monday, Feb 17th",
-        "day": "Mon (Feb, 17)",
+        "day": "Monday",
         "slots": [
             {
                 "slot_id": "Monday__Feb_17th_8_45_10_15",
@@ -80,7 +80,8 @@ schedule=[
                 "slot_class": "morning1",
                 "sessions": [
                     {
-                        "session": "s220"
+                        "session": "s220",
+                        "room": "GB56"
                     }
                 ]
             },
@@ -90,19 +91,24 @@ schedule=[
                 "slot_class": "morning2",
                 "sessions": [
                     {
-                        "session": "s111"
+                        "session": "s111",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s107"
+                        "session": "s107",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s128"
+                        "session": "s128",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s100"
+                        "session": "s100",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s210"
+                        "session": "s210",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -112,19 +118,24 @@ schedule=[
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
-                        "session": "s110"
+                        "session": "s110",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s130"
+                        "session": "s130",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s133"
+                        "session": "s133",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s106"
+                        "session": "s106",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s121"
+                        "session": "s121",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -134,19 +145,24 @@ schedule=[
                 "slot_class": "afternoon2",
                 "sessions": [
                     {
-                        "session": "s213"
+                        "session": "s213",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s214"
+                        "session": "s214",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s212"
+                        "session": "s212",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s211"
+                        "session": "s211",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s215"
+                        "session": "s215",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -156,7 +172,8 @@ schedule=[
                 "slot_class": "afternoon3",
                 "sessions": [
                     {
-                        "session": "s216"
+                        "session": "s216",
+                        "room": "GB56"
                     }
                 ]
             },
@@ -174,7 +191,7 @@ schedule=[
     },
     {
         "date": "Tuesday, Feb 18th",
-        "day": "Tue (Feb, 18)",
+        "day": "Tuesday",
         "slots": [
             {
                 "slot_id": "Tuesday__Feb_18th_9_00_10_15",
@@ -182,25 +199,32 @@ schedule=[
                 "slot_class": "morning1",
                 "sessions": [
                     {
-                        "session": "s219"
+                        "session": "s219",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s125"
+                        "session": "s125",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s131"
+                        "session": "s131",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s126"
+                        "session": "s126",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s109"
+                        "session": "s109",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s105"
+                        "session": "s105",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s114"
+                        "session": "s114",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -210,25 +234,32 @@ schedule=[
                 "slot_class": "morning2",
                 "sessions": [
                     {
-                        "session": "next"
+                        "session": "next",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s122"
+                        "session": "s122",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s205"
+                        "session": "s205",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s200"
+                        "session": "s200",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s115"
+                        "session": "s115",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s116"
+                        "session": "s116",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s208"
+                        "session": "s208",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -238,25 +269,32 @@ schedule=[
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
-                        "session": "s217"
+                        "session": "s217",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s103"
+                        "session": "s103",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s123"
+                        "session": "s123",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s132"
+                        "session": "s132",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s127"
+                        "session": "s127",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s117"
+                        "session": "s117",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s209"
+                        "session": "s209",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -266,7 +304,8 @@ schedule=[
                 "slot_class": "afternoon2",
                 "sessions": [
                     {
-                        "session": "s221"
+                        "session": "s221",
+                        "room": "GB56"
                     }
                 ]
             },
@@ -276,7 +315,8 @@ schedule=[
                 "slot_class": "afternoon3",
                 "sessions": [
                     {
-                        "session": "s222"
+                        "session": "s222",
+                        "room": "GB56"
                     }
                 ]
             },
@@ -286,7 +326,8 @@ schedule=[
                 "slot_class": "evening1",
                 "sessions": [
                     {
-                        "session": "s223"
+                        "session": "s223",
+                        "room": "GB56"
                     }
                 ]
             },
@@ -296,7 +337,8 @@ schedule=[
                 "slot_class": "evening2",
                 "sessions": [
                     {
-                        "session": "s224"
+                        "session": "s224",
+                        "room": "GB56"
                     }
                 ]
             }
@@ -304,7 +346,7 @@ schedule=[
     },
     {
         "date": "Wednesday, Feb 19th",
-        "day": "Wed (Feb, 19)",
+        "day": "Wednesday",
         "slots": [
             {
                 "slot_id": "Wednesday__Feb_19th_9_00_10_15",
@@ -312,22 +354,28 @@ schedule=[
                 "slot_class": "morning1",
                 "sessions": [
                     {
-                        "session": "s2111"
+                        "session": "s2111",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s101"
+                        "session": "s101",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s207"
+                        "session": "s207",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s129"
+                        "session": "s129",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s104"
+                        "session": "s104",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s203"
+                        "session": "s203",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -337,25 +385,32 @@ schedule=[
                 "slot_class": "morning2",
                 "sessions": [
                     {
-                        "session": "s2110"
+                        "session": "s2110",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s118"
+                        "session": "s118",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s202"
+                        "session": "s202",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s201"
+                        "session": "s201",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s119"
+                        "session": "s119",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s102"
+                        "session": "s102",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s112"
+                        "session": "s112",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -365,25 +420,32 @@ schedule=[
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
-                        "session": "s218"
+                        "session": "s218",
+                        "room": "GB5"
                     },
                     {
-                        "session": "s206"
+                        "session": "s206",
+                        "room": "GB6"
                     },
                     {
-                        "session": "s124"
+                        "session": "s124",
+                        "room": "GB12"
                     },
                     {
-                        "session": "s108"
+                        "session": "s108",
+                        "room": "GB34"
                     },
                     {
-                        "session": "s120"
+                        "session": "s120",
+                        "room": "GB78"
                     },
                     {
-                        "session": "s113"
+                        "session": "s113",
+                        "room": "GB910"
                     },
                     {
-                        "session": "s204"
+                        "session": "s204",
+                        "room": "Dover AB"
                     }
                 ]
             },
@@ -393,7 +455,8 @@ schedule=[
                 "slot_class": "afternoon2",
                 "sessions": [
                     {
-                        "session": "s225"
+                        "session": "s225",
+                        "room": "GB56"
                     }
                 ]
             }

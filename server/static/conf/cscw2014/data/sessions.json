@@ -1,6 +1,7 @@
 sessions={
     "s100": {
         "s_title": "Blinding me with Science",
+        "room": "GB910",
         "time": "10:45-12:00",
         "submissions": [
             "cscw602",
@@ -34,6 +35,7 @@ sessions={
     },
     "s101": {
         "s_title": "Building on Others",
+        "room": "GB6",
         "time": "9:00-10:15",
         "submissions": [
             "cscw293",
@@ -63,6 +65,7 @@ sessions={
     },
     "s102": {
         "s_title": "Civic Participation",
+        "room": "GB910",
         "time": "10:45-12:00",
         "submissions": [
             "cscw145",
@@ -94,6 +97,7 @@ sessions={
     },
     "s103": {
         "s_title": "Collaborative Search and Sharing",
+        "room": "GB6",
         "time": "14:00-15:15",
         "submissions": [
             "cscw443",
@@ -117,6 +121,7 @@ sessions={
     },
     "s104": {
         "s_title": "Collaborative Software Development",
+        "room": "GB910",
         "time": "9:00-10:15",
         "submissions": [
             "cscw608",
@@ -144,6 +149,7 @@ sessions={
     },
     "s105": {
         "s_title": "Concurrency Control",
+        "room": "GB910",
         "time": "9:00-10:15",
         "submissions": [
             "cscw234",
@@ -165,6 +171,7 @@ sessions={
     },
     "s106": {
         "s_title": "Craft, Repair, and DIY",
+        "room": "GB910",
         "time": "14:00-15:15",
         "submissions": [
             "cscw178",
@@ -194,6 +201,7 @@ sessions={
     },
     "s107": {
         "s_title": "Crowdfunding: \"Show me the Money!\"",
+        "room": "GB34",
         "time": "10:45-12:00",
         "submissions": [
             "cscw432",
@@ -221,6 +229,7 @@ sessions={
     },
     "s108": {
         "s_title": "Crowdsourcing Complexity",
+        "room": "GB34",
         "time": "14:00-15:15",
         "submissions": [
             "cscw105",
@@ -254,6 +263,7 @@ sessions={
     },
     "s109": {
         "s_title": "Family",
+        "room": "GB78",
         "time": "9:00-10:15",
         "submissions": [
             "cscw668",
@@ -287,6 +297,7 @@ sessions={
     },
     "s110": {
         "s_title": "Filter Bubbles & News",
+        "room": "GB12",
         "time": "14:00-15:15",
         "submissions": [
             "cscw576",
@@ -310,6 +321,7 @@ sessions={
     },
     "s111": {
         "s_title": "Friendsourcing",
+        "room": "GB12",
         "time": "10:45-12:00",
         "submissions": [
             "cscw599",
@@ -344,6 +356,7 @@ sessions={
     },
     "s112": {
         "s_title": "Gaming",
+        "room": "Dover AB",
         "time": "10:45-12:00",
         "submissions": [
             "cscw356",
@@ -370,6 +383,7 @@ sessions={
     },
     "s113": {
         "s_title": "Geographic Distance",
+        "room": "GB910",
         "time": "14:00-15:15",
         "submissions": [
             "cscw493",
@@ -403,6 +417,7 @@ sessions={
     },
     "s114": {
         "s_title": "Group Dynamics",
+        "room": "Dover AB",
         "time": "9:00-10:15",
         "submissions": [
             "cscw233",
@@ -431,6 +446,7 @@ sessions={
     },
     "s115": {
         "s_title": "ICT4D",
+        "room": "GB78",
         "time": "10:45-12:00",
         "submissions": [
             "cscw204",
@@ -456,6 +472,7 @@ sessions={
     },
     "s116": {
         "s_title": "Leadership",
+        "room": "GB910",
         "time": "10:45-12:00",
         "submissions": [
             "cscw305",
@@ -484,6 +501,7 @@ sessions={
     },
     "s117": {
         "s_title": "Locations and Maps",
+        "room": "GB910",
         "time": "14:00-15:15",
         "submissions": [
             "cscw584",
@@ -517,6 +535,7 @@ sessions={
     },
     "s118": {
         "s_title": "MOOCs",
+        "room": "GB6",
         "time": "10:45-12:00",
         "submissions": [
             "cscw391",
@@ -542,6 +561,7 @@ sessions={
     },
     "s119": {
         "s_title": "Parents and Children",
+        "room": "GB78",
         "time": "10:45-12:00",
         "submissions": [
             "cscw499",
@@ -578,6 +598,7 @@ sessions={
     },
     "s120": {
         "s_title": "Personal Health Management",
+        "room": "GB78",
         "time": "14:00-15:15",
         "submissions": [
             "cscw295",
@@ -615,6 +636,7 @@ sessions={
     },
     "s121": {
         "s_title": "Q&A",
+        "room": "Dover AB",
         "time": "14:00-15:15",
         "submissions": [
             "cscw636",
@@ -651,6 +673,7 @@ sessions={
     },
     "s122": {
         "s_title": "Reflective Research",
+        "room": "GB6",
         "time": "10:45-12:00",
         "submissions": [
             "cscw530",
@@ -679,6 +702,7 @@ sessions={
     },
     "s123": {
         "s_title": "Romance",
+        "room": "GB12",
         "time": "14:00-15:15",
         "submissions": [
             "cscw285",
@@ -713,6 +737,7 @@ sessions={
     },
     "s124": {
         "s_title": "Social Media & Politics",
+        "room": "GB12",
         "time": "14:00-15:15",
         "submissions": [
             "cscw430",
@@ -740,6 +765,7 @@ sessions={
     },
     "s125": {
         "s_title": "Social Media in the Enterprise",
+        "room": "GB6",
         "time": "9:00-10:15",
         "submissions": [
             "cscw473",
@@ -771,6 +797,7 @@ sessions={
     },
     "s126": {
         "s_title": "Social Media: Online and Off",
+        "room": "GB34",
         "time": "9:00-10:15",
         "submissions": [
             "cscw119",
@@ -798,6 +825,7 @@ sessions={
     },
     "s127": {
         "s_title": "Supporting Communities",
+        "room": "GB78",
         "time": "14:00-15:15",
         "submissions": [
             "cscw494",
@@ -838,6 +866,7 @@ sessions={
     },
     "s128": {
         "s_title": "Telepresence",
+        "room": "GB78",
         "time": "10:45-12:00",
         "submissions": [
             "cscw253",
@@ -866,6 +895,7 @@ sessions={
     },
     "s129": {
         "s_title": "The Office",
+        "room": "GB78",
         "time": "9:00-10:15",
         "submissions": [
             "cscw527",
@@ -900,6 +930,7 @@ sessions={
     },
     "s130": {
         "s_title": "Performing Crowd Work",
+        "room": "GB34",
         "time": "14:00-15:15",
         "submissions": [
             "cscw365",
@@ -929,6 +960,7 @@ sessions={
     },
     "s131": {
         "s_title": "Values & Social Norms",
+        "room": "GB12",
         "time": "9:00-10:15",
         "submissions": [
             "cscw130",
@@ -960,6 +992,7 @@ sessions={
     },
     "s132": {
         "s_title": "Crowds in Crises",
+        "room": "GB34",
         "time": "14:00-15:15",
         "submissions": [
             "cscw243",
@@ -994,6 +1027,7 @@ sessions={
     },
     "s133": {
         "s_title": "Work in Hospitals",
+        "room": "GB78",
         "time": "14:00-15:15",
         "submissions": [
             "cscw210",
@@ -1022,6 +1056,7 @@ sessions={
     },
     "s200": {
         "s_title": "Shopping and Collecting",
+        "room": "GB34",
         "time": "10:45-12:00",
         "submissions": [
             "cscw462",
@@ -1038,6 +1073,7 @@ sessions={
     },
     "s201": {
         "s_title": "Volunteering and Doing Good",
+        "room": "GB34",
         "time": "10:45-12:00",
         "submissions": [
             "cscw188",
@@ -1054,6 +1090,7 @@ sessions={
     },
     "s202": {
         "s_title": "Mobilizing for Action",
+        "room": "GB12",
         "time": "10:45-12:00",
         "submissions": [
             "cscw431",
@@ -1070,6 +1107,7 @@ sessions={
     },
     "s203": {
         "s_title": "Mobile Apps for Enhancing Connectedness",
+        "room": "Dover AB",
         "time": "9:00-10:15",
         "submissions": [
             "cscw438",
@@ -1086,6 +1124,7 @@ sessions={
     },
     "s204": {
         "s_title": "Distributed Teams",
+        "room": "Dover AB",
         "time": "14:00-15:15",
         "submissions": [
             "cscw596",
@@ -1102,6 +1141,7 @@ sessions={
     },
     "s205": {
         "s_title": "Social Technologies and Well-Being",
+        "room": "GB12",
         "time": "10:45-12:00",
         "submissions": [
             "cscw547",
@@ -1118,6 +1158,7 @@ sessions={
     },
     "s206": {
         "s_title": "Multiple Dimensions and Displays",
+        "room": "GB6",
         "time": "14:00-15:15",
         "submissions": [
             "cscw390",
@@ -1134,6 +1175,7 @@ sessions={
     },
     "s207": {
         "s_title": "Identifying Opportunities for Collaboration",
+        "room": "GB34",
         "time": "9:00-10:15",
         "submissions": [
             "cscw384",
@@ -1150,6 +1192,7 @@ sessions={
     },
     "s208": {
         "s_title": "Technology and Information Workers",
+        "room": "Dover AB",
         "time": "10:45-12:00",
         "submissions": [
             "cscw387",
@@ -1166,6 +1209,7 @@ sessions={
     },
     "s209": {
         "s_title": "Promoting Participation and Engagement",
+        "room": "Dover AB",
         "time": "14:00-15:15",
         "submissions": [
             "cscw629",
@@ -1182,6 +1226,7 @@ sessions={
     },
     "s210": {
         "s_title": "Building Communities and Relationships",
+        "room": "Dover AB",
         "time": "10:45-12:00",
         "submissions": [
             "cscw486",
@@ -1198,6 +1243,7 @@ sessions={
     },
     "s211": {
         "s_title": "Video Track Session",
+        "room": "GB910",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
@@ -1210,6 +1256,7 @@ sessions={
     },
     "s212": {
         "s_title": "Demos",
+        "room": "GB78",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
@@ -1222,6 +1269,7 @@ sessions={
     },
     "s213": {
         "s_title": "Posters 1",
+        "room": "GB12",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
@@ -1234,6 +1282,7 @@ sessions={
     },
     "s214": {
         "s_title": "Posters 2",
+        "room": "GB34",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
@@ -1246,6 +1295,7 @@ sessions={
     },
     "s215": {
         "s_title": "Posters",
+        "room": "Dover AB",
         "time": "15:45-17:00",
         "submissions": [],
         "personas": "",
@@ -1258,6 +1308,7 @@ sessions={
     },
     "s216": {
         "s_title": "Poster & Demo Reception",
+        "room": "GB56",
         "time": "17:00-19:00",
         "submissions": [],
         "personas": "",
@@ -1270,6 +1321,7 @@ sessions={
     },
     "s217": {
         "s_title": "Computational Social Science: CSCW in the Social Media Era",
+        "room": "GB5",
         "time": "14:00-15:15",
         "submissions": [
             "pan100"
@@ -1284,6 +1336,7 @@ sessions={
     },
     "s218": {
         "s_title": "Making Cultures: Building Things &amp; Building Communities",
+        "room": "GB5",
         "time": "14:00-15:15",
         "submissions": [
             "pan101"
@@ -1298,6 +1351,7 @@ sessions={
     },
     "s219": {
         "s_title": "Lifestyle Teleworks Speak Out!",
+        "room": "GB5",
         "time": "9:00-10:15",
         "submissions": [
             "pan102"
@@ -1312,6 +1366,7 @@ sessions={
     },
     "s2110": {
         "s_title": "Facebook in the Developing World: The Myths and Realities Underlying a Socially Networked World",
+        "room": "GB5",
         "time": "10:45-12:00",
         "submissions": [
             "pan103"
@@ -1326,6 +1381,7 @@ sessions={
     },
     "s2111": {
         "s_title": "The Ethos and Pragmatics of Data Sharing",
+        "room": "GB5",
         "time": "9:00-10:15",
         "submissions": [
             "pan104"
@@ -1340,6 +1396,7 @@ sessions={
     },
     "s220": {
         "s_title": "Welcome and Opening Plenary: Mary Flanagan",
+        "room": "GB56",
         "time": "8:45-10:15",
         "submissions": [
             "opening"
@@ -1354,6 +1411,7 @@ sessions={
     },
     "s221": {
         "s_title": "Lasting Impact",
+        "room": "GB56",
         "time": "15:45-16:45",
         "submissions": [
             "impact"
@@ -1368,6 +1426,7 @@ sessions={
     },
     "s222": {
         "s_title": "Townhall",
+        "room": "GB56",
         "time": "16:45-17:45",
         "submissions": [],
         "personas": "",
@@ -1380,6 +1439,7 @@ sessions={
     },
     "s223": {
         "s_title": "Museum",
+        "room": "GB56",
         "time": "18:00-19:00",
         "submissions": [],
         "personas": "",
@@ -1392,6 +1452,7 @@ sessions={
     },
     "s224": {
         "s_title": "Reception",
+        "room": "GB56",
         "time": "19:00-22:00",
         "submissions": [],
         "personas": "",
@@ -1404,6 +1465,7 @@ sessions={
     },
     "s225": {
         "s_title": "Closing Plenary: Patrick Meier",
+        "room": "GB56",
         "time": "15:45-17:15",
         "submissions": [
             "closing"
@@ -1418,6 +1480,7 @@ sessions={
     },
     "W1": {
         "s_title": "W1: Sharing, Re-use and Circulation of Resources in Cooperative Scientific Work",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1430,6 +1493,7 @@ sessions={
     },
     "W2": {
         "s_title": "W2: Structures for Knowledge Co-creation Between Organisations and the Public",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1442,6 +1506,7 @@ sessions={
     },
     "W3": {
         "s_title": "W3: Designing with Users for Domestic Environments: Methods - Challenges - Lessons Learned",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1454,6 +1519,7 @@ sessions={
     },
     "W4": {
         "s_title": "W4: Cross-Cultural Studies of Collaborative Systems: Making Methodological Advances as a Community",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1466,6 +1532,7 @@ sessions={
     },
     "W5": {
         "s_title": "W5: Designing Futures for Peer-to-Peer Learning @ CSCW",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1478,6 +1545,7 @@ sessions={
     },
     "W6": {
         "s_title": "W6: Back to the Future of Organizational Work: Crowdsourcing and Digital Work Marketplaces",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1490,6 +1558,7 @@ sessions={
     },
     "W7": {
         "s_title": "W7: Co-creating & Identity-making in CSCW: Revisiting Ethics in Design Research",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1502,6 +1571,7 @@ sessions={
     },
     "W8": {
         "s_title": "W8: Quick and Dirty: Lightweight Methods for Heavyweight Research",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1514,6 +1584,7 @@ sessions={
     },
     "W9": {
         "s_title": "W9: The Fourteenth International Workshop on Collaborative Editing Systems",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1526,6 +1597,7 @@ sessions={
     },
     "W10": {
         "s_title": "W10: Collaboration and Coordination in the Context of Informal Care (CCCiC 2014)",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1538,6 +1610,7 @@ sessions={
     },
     "W11": {
         "s_title": "W11: Global Software Development in a CSCW Perspective",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1550,6 +1623,7 @@ sessions={
     },
     "W12": {
         "s_title": "W12: Feminism and Social Media Research",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1562,6 +1636,7 @@ sessions={
     },
     "W13": {
         "s_title": "W13: Designing for Interactive Arts and Performance Collaboration",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1574,6 +1649,7 @@ sessions={
     },
     "W14": {
         "s_title": "W14: OCData Hackathon: Online Communities Data Hackathon",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1586,6 +1662,7 @@ sessions={
     },
     "WD": {
         "s_title": "Doctoral Colloquium",
+        "room": "GB56",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1598,6 +1675,7 @@ sessions={
     },
     "next": {
         "s_title": "CSCWhat's Next",
+        "room": "GB5",
         "time": "10:45-12:00",
         "submissions": [
             "next1",
@@ -1614,6 +1692,7 @@ sessions={
     },
     "FB": {
         "s_title": "Facebook Happy Hour",
+        "room": "TBD",
         "time": "20:00-22:00",
         "submissions": [],
         "personas": "",
