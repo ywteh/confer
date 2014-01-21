@@ -1480,7 +1480,7 @@ sessions={
     },
     "W1": {
         "s_title": "W1: Sharing, Re-use and Circulation of Resources in Cooperative Scientific Work",
-        "room": "GB56",
+        "room": "GB2",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1493,7 +1493,7 @@ sessions={
     },
     "W2": {
         "s_title": "W2: Structures for Knowledge Co-creation Between Organisations and the Public",
-        "room": "GB56",
+        "room": "GB1",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1506,7 +1506,7 @@ sessions={
     },
     "W3": {
         "s_title": "W3: Designing with Users for Domestic Environments: Methods - Challenges - Lessons Learned",
-        "room": "GB56",
+        "room": "Dover C",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1519,7 +1519,7 @@ sessions={
     },
     "W4": {
         "s_title": "W4: Cross-Cultural Studies of Collaborative Systems: Making Methodological Advances as a Community",
-        "room": "GB56",
+        "room": "Dover A",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1532,7 +1532,7 @@ sessions={
     },
     "W5": {
         "s_title": "W5: Designing Futures for Peer-to-Peer Learning @ CSCW",
-        "room": "GB56",
+        "room": "GB3",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1545,7 +1545,7 @@ sessions={
     },
     "W6": {
         "s_title": "W6: Back to the Future of Organizational Work: Crowdsourcing and Digital Work Marketplaces",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1558,7 +1558,7 @@ sessions={
     },
     "W7": {
         "s_title": "W7: Co-creating & Identity-making in CSCW: Revisiting Ethics in Design Research",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1571,7 +1571,7 @@ sessions={
     },
     "W8": {
         "s_title": "W8: Quick and Dirty: Lightweight Methods for Heavyweight Research",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1584,7 +1584,7 @@ sessions={
     },
     "W9": {
         "s_title": "W9: The Fourteenth International Workshop on Collaborative Editing Systems",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1597,7 +1597,7 @@ sessions={
     },
     "W10": {
         "s_title": "W10: Collaboration and Coordination in the Context of Informal Care (CCCiC 2014)",
-        "room": "GB56",
+        "room": "Dover B",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1610,7 +1610,7 @@ sessions={
     },
     "W11": {
         "s_title": "W11: Global Software Development in a CSCW Perspective",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1623,7 +1623,7 @@ sessions={
     },
     "W12": {
         "s_title": "W12: Feminism and Social Media Research",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1636,7 +1636,7 @@ sessions={
     },
     "W13": {
         "s_title": "W13: Designing for Interactive Arts and Performance Collaboration",
-        "room": "GB56",
+        "room": "TBD",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1649,7 +1649,7 @@ sessions={
     },
     "W14": {
         "s_title": "W14: OCData Hackathon: Online Communities Data Hackathon",
-        "room": "GB56",
+        "room": "Bristol",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1662,7 +1662,7 @@ sessions={
     },
     "WD": {
         "s_title": "Doctoral Colloquium",
-        "room": "GB56",
+        "room": "Bristol",
         "time": "all-day",
         "submissions": [],
         "personas": "",
@@ -1691,8 +1691,8 @@ sessions={
         "chair": "Mark Handel, Susan Wyche"
     },
     "FB": {
-        "s_title": "Facebook Happy Hour",
-        "room": "TBD",
+        "s_title": "Facebook Reception",
+        "room": "Heavy Seas Brewing company",
         "time": "20:00-22:00",
         "submissions": [],
         "personas": "",

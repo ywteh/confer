@@ -9,25 +9,32 @@ schedule=[
                 "slot_class": "all-day",
                 "sessions": [
                     {
-                        "session": "W1"
+                        "session": "W1",
+                        "room": "GB2"
                     },
                     {
-                        "session": "W2"
+                        "session": "W2",
+                        "room": "GB1"
                     },
                     {
-                        "session": "W3"
+                        "session": "W3",
+                        "room": "Dover C"
                     },
                     {
-                        "session": "W4"
+                        "session": "W4",
+                        "room": "Dover A"
                     },
                     {
-                        "session": "W5"
+                        "session": "W5",
+                        "room": "GB3"
                     },
                     {
-                        "session": "W10"
+                        "session": "W10",
+                        "room": "Dover B"
                     },
                     {
-                        "session": "W14"
+                        "session": "W14",
+                        "room": "Bristol"
                     }
                 ]
             }
@@ -43,28 +50,36 @@ schedule=[
                 "slot_class": "all-day",
                 "sessions": [
                     {
-                        "session": "W6"
+                        "session": "W6",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W7"
+                        "session": "W7",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W8"
+                        "session": "W8",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W9"
+                        "session": "W9",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W11"
+                        "session": "W11",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W12"
+                        "session": "W12",
+                        "room": "TBD"
                     },
                     {
-                        "session": "W13"
+                        "session": "W13",
+                        "room": "TBD"
                     },
                     {
-                        "session": "WD"
+                        "session": "WD",
+                        "room": "Bristol"
                     }
                 ]
             }
@@ -183,7 +198,8 @@ schedule=[
                 "slot_class": "evening2",
                 "sessions": [
                     {
-                        "session": "FB"
+                        "session": "FB",
+                        "room": "Heavy Seas Brewing company"
                     }
                 ]
             }
