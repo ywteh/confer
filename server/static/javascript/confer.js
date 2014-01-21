@@ -894,10 +894,12 @@ function get_selected_paper_html(id){
        raw_html += '<span class="author"><span class="author-name">' 
                 + entities[id].authors[author].name 
                 + '</span>';
-        if(entities[id].authors[author].affiliation != null && entities[id].authors[author].location !=null){
-        raw_html += '<span class="author-affiliation">'
-                + entities[id].authors[author].affiliation + ', ' + entities[id].authors[author].location 
-                + '</span>';
+        if(entities[id].authors[author].affiliation != null){
+            raw_html += '<span class="author-affiliation">' + entities[id].authors[author].affiliation;
+            if(entities[id].authors[author].location !=null) {
+                raw_html += ', ' + entities[id].authors[author].location 
+            }
+            raw_html += '</span>';
         }
         
     }
