@@ -699,7 +699,6 @@ function get_paper_html(id){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
     }
     raw_html += '</ul>'
-    raw_html += '<div class="fb-comments" data-href="http://example.com/comments" data-numposts="1" data-colorscheme="light"></div>';
     raw_html += '</td>'
     
     raw_html += '</tr>'
@@ -915,6 +914,7 @@ function get_selected_paper_html(id){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
     }
     raw_html += '</ul>'
+    raw_html += '<div class="fb-comments" data-href="http://example.com/comments" data-numposts="1" data-colorscheme="light"></div>';
     raw_html += '</td>'
     raw_html += '</tr>'
     raw_html += '</tbody>'
