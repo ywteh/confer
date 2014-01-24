@@ -914,11 +914,9 @@ function get_selected_paper_html(id){
         raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
     }
     raw_html += '</ul>'
-    raw_html += '<div class="fb-comments" data-href="http://example.com/comments" data-numposts="1" data-colorscheme="light"></div>';
     raw_html += '</td>'
     raw_html += '</tr>'
     raw_html += '</tbody>'
-    raw_html += '</table>'
     return raw_html
 }
 
@@ -1285,6 +1283,7 @@ function load_paper(){
   console.log(paper_id)
   var selected_paper_html = get_selected_paper_html(paper_id)
   $('#selected_paper').find('.form').html(selected_paper_html)
+  <div class="fb-comments" data-href="http://example.com/comments" data-numposts="1" data-colorscheme="light"></div>
   $('#similar_papers').html('')
   var recs = offline_recs[paper_id]
   var raw_html = ''
