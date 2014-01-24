@@ -13,6 +13,14 @@
 {% endif %}
 {% endblock %}
 {% block content %} 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=652805441444150";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="blurb">
 Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more!
 {% if not login_id and conf == "cscw2014" %}
