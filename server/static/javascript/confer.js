@@ -1283,7 +1283,6 @@ function load_paper(){
   console.log(paper_id)
   var selected_paper_html = get_selected_paper_html(paper_id)
   $('#selected_paper').find('.form').html(selected_paper_html)
-  <div class="fb-comments" data-href="http://example.com/comments" data-numposts="1" data-colorscheme="light"></div>
   $('#similar_papers').html('')
   var recs = offline_recs[paper_id]
   var raw_html = ''
