@@ -7,9 +7,9 @@
 <a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
 
 {% if login_id %}
-<a class="button" href="/logout">Log Out</a>
+<a class="button navitem" href="/logout">Log Out</a>
 {% else %}
-<a class="button" href="/login?redirect_url=/{{conf}}/papers">Log In</a>
+<a class="button navitem" href="/login?redirect_url=/{{conf}}/papers">Log In</a>
 {% endif %}
 {% endblock %}
 {% block content %} 
