@@ -416,7 +416,7 @@ textarea {
   border-bottom: 1px solid #2B2B2B;
   width: 100%;
   z-index: 100;
-  padding:0em 0.2em 0em 0.2em;
+  padding:0em;
 }
 
 #wrap{
@@ -435,9 +435,9 @@ textarea {
 #headlink-right{
   position:absolute;
   top: 1.4em;
-  right: 0.2em;
+  right: 0em;
   color: #F6F6F6;
-  margin-right: 0em;
+  margin-right: 0.2em;
 }
 
 
@@ -448,6 +448,10 @@ textarea {
   width: 7em;
   height: 1.2em;
   display: inline-block;
+}
+
+#headlink-left {
+  margin-left: 0.2em;
 }
 
 #headlink-right a{
