@@ -19,6 +19,7 @@ class Migration(SchemaMigration):
             ('location', self.gf('django.db.models.fields.CharField')(max_length=100)),
             ('start_date', self.gf('django.db.models.fields.DateField')()),
             ('end_date', self.gf('django.db.models.fields.DateField')()),
+            ('hidden', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
         db.send_create_signal('server', ['Conference'])
 
@@ -30,6 +31,7 @@ class Migration(SchemaMigration):
             ('f_name', self.gf('django.db.models.fields.CharField')(max_length=50)),
             ('l_name', self.gf('django.db.models.fields.CharField')(max_length=50)),
             ('password', self.gf('django.db.models.fields.CharField')(max_length=500)),
+            ('meetups_enabled', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
         db.send_create_signal('server', ['User'])
 
@@ -85,6 +87,7 @@ class Migration(SchemaMigration):
             'blurb': ('django.db.models.fields.TextField', [], {}),
             'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'end_date': ('django.db.models.fields.DateField', [], {}),
+            'hidden': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'location': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'start_date': ('django.db.models.fields.DateField', [], {}),
@@ -120,6 +123,7 @@ class Migration(SchemaMigration):
             'f_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'l_name': ('django.db.models.fields.CharField', [], {'max_length': '50'}),
+            'meetups_enabled': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'password': ('django.db.models.fields.CharField', [], {'max_length': '500'}),
             'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         }
