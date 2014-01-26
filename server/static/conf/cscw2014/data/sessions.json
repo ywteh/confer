@@ -1702,5 +1702,18 @@ sessions={
         "type": "special",
         "subtype": "special",
         "chair": ""
+    },
+    "WR": {
+        "s_title": "Welcome Reception",
+        "room": "Marriott Waterfront, Grand Foyer West, 3rd Floor",
+        "time": "17:00-19:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Sunday, Feb 16th",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
     }
 }
