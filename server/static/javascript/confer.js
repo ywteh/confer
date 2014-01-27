@@ -257,7 +257,7 @@ function get_hash() {
     }
 
     if(hash.indexOf('#!') == 0) {
-        return hash.slice(1)
+        return hash.slice(2)
     } else {
         var paper_id = hash.slice(1)
         window.location.hash =  '#!' + paper_id;
