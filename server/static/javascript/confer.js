@@ -256,7 +256,7 @@ function get_hash() {
         hash = hash.slice(0, url.indexOf('#comment'))
     }
 
-    if(hash.startsWith('#!') == 0) {
+    if(hash.indexOf('#!') == 0) {
         return hash.slice(1)
     } else {
         var paper_id = hash.slice(1)
