@@ -609,7 +609,7 @@ function refresh_recommendations(){
 
 
 function select_paper(id){
-    if(window.location.pathname.endsWith('/paper')){
+    if(window.location.pathname.endsWith('/paper/')){
         window.location.hash = "/#!/" + id;
         window.location.reload(false);
     }else{
