@@ -1201,22 +1201,3 @@ form .credit {
 .link:hover{
   color: #447EAC;
 }
-
-
-/* Disquess stuff */
-#dsq-content #dsq-authenticate .dsq-login-buttons {
-  background: none !important;
-  background-image: none !important;
-  margin-bottom: 0 !important;
-}
-
-#dsq-subscribe a {
-  display: none !important;
-}
-#dsq-content #dsq-global-toolbar {
-  display: none !important;
-}
-
-#dsq-sort-by {
-  display: none !important;
-}

@@ -250,19 +250,18 @@ function get_params() {
 
 
 function get_hash() {
-    var url = window.location.href;
+    var hash = window.location.hash;
 
     if (url.indexOf('#comment')!= -1) {
-        url = url.slice(0, url.indexOf('#comment'))
+        hash = hash.slice(0, url.indexOf('#comment'))
     }
 
-    if(url.indexOf('/#!/') != -1) {
-        return url.slice(url.indexOf('/#!/') + 4)
-    } else if (url.indexOf('#') != -1) {
-        var paper_id = url.slice(url.indexOf('#') + 1)
-        window.location.href =  window.location.pathname + '/#!/' + paper_id
+    if(hash.startsWith('#!') == 0) {
+        return hash.slice(1)
     } else {
-        return window.location.href
+        var paper_id = hash.slice(1)
+        window.location.hash =  '#!' + paper_id;
+        window.location.reload(false)
     }
 }
 
@@ -619,11 +618,11 @@ function refresh_recommendations(){
 
 
 function select_paper(id){
-    if(window.location.pathname.endsWith('/paper/')){
-        window.location.hash = "/#!/" + id;
+    if(window.location.pathname.endsWith('/paper')){
+        window.location.hash = "#!" + id;
         window.location.reload(false);
     }else{
-        window.location.href = 'paper/#!/'+id
+        window.location.href = 'paper#!' + id
     }
     window.scrollTo(0,0)
 }
