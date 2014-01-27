@@ -250,10 +250,16 @@ function get_params() {
 
 
 function get_hash() {
-    if(window.location.href.indexOf('/#!/') != -1) {
-        return window.location.href.slice(window.location.href.indexOf('/#!/') + 4)
-    } else if (window.location.href.indexOf('#') != -1) {
-        var paper_id = window.location.href.slice(window.location.href.indexOf('#') + 1)
+    var url = window.location.href;
+
+    if (url.indexOf('#comment')!= -1) {
+        url = url.slice(0, url.indexOf('#comment'))
+    }
+
+    if(url.indexOf('/#!/') != -1) {
+        return url.slice(url.indexOf('/#!/') + 4)
+    } else if (url.indexOf('#') != -1) {
+        var paper_id = url.slice(url.indexOf('#') + 1)
         window.location.href =  window.location.pathname + '/#!/' + paper_id
     } else {
         return window.location.href
