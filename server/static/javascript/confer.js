@@ -253,7 +253,7 @@ function get_hash() {
     var hash = window.location.hash;
 
     if (hash.indexOf('#comment')!= -1) {
-        hash = hash.slice(0, url.indexOf('#comment'))
+        hash = hash.slice(0, hash.indexOf('#comment'))
     }
 
     if(hash.indexOf('#!') == 0) {
