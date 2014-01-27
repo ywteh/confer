@@ -252,7 +252,7 @@ function get_params() {
 function get_hash() {
     var hash = window.location.hash;
 
-    if (url.indexOf('#comment')!= -1) {
+    if (hash.indexOf('#comment')!= -1) {
         hash = hash.slice(0, url.indexOf('#comment'))
     }
 
