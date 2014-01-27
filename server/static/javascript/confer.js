@@ -252,6 +252,8 @@ function get_params() {
 function get_hash() {
     if(window.location.href.indexOf('/#!/') != -1)
         return window.location.href.slice(window.location.href.indexOf('/#!/') + 4)
+    else if (window.location.href.indexOf('#') != -1)
+        return window.location.href.slice(window.location.href.indexOf('#') + 1)
     else
         return window.location.href
 }
