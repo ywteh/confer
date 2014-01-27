@@ -1293,7 +1293,7 @@ function load_paper(){
   var selected_paper_html = get_selected_paper_html(paper_id)
   $('#selected_paper').find('.form').html(selected_paper_html)
   $('#similar_papers').html('')
-  $('#paper_comments').html('<div class="fb-comments" data-href="' + window.location.href + '" data-numposts="1" data-colorscheme="light"></div>');
+  $('#paper_comments').html('<div class="fb-comments" data-href="' + window.location.href + '" data-numposts="1" data-colorscheme="light" data-width="1024px"></div>');
   var recs = offline_recs[paper_id]
   var raw_html = ''
   for(var i = 0; i< recs.length; i++){        
