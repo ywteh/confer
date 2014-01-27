@@ -1210,7 +1210,9 @@ form .credit {
   margin-bottom: 0 !important;
 }
 
-
+#dsq-subscribe a {
+  display: none !important;
+}
 #dsq-content #dsq-global-toolbar {
   display: none !important;
 }
