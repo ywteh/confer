@@ -250,13 +250,14 @@ function get_params() {
 
 
 function get_hash() {
-    if(window.location.href.indexOf('/#!/') != -1)
+    if(window.location.href.indexOf('/#!/') != -1) {
         return window.location.href.slice(window.location.href.indexOf('/#!/') + 4)
-    else if (window.location.href.indexOf('#') != -1)
+    } else if (window.location.href.indexOf('#') != -1) {
         var paper_id = window.location.href.slice(window.location.href.indexOf('#') + 1)
         window.location.href =  window.location.pathname + '/#!/' + paper_id
-    else
+    } else {
         return window.location.href
+    }
 }
 
 
