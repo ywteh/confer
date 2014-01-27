@@ -1204,14 +1204,17 @@ form .credit {
 
 
 /* Disquess stuff */
-.dsq-options {
-  display: none;
+#dsq-content #dsq-authenticate .dsq-login-buttons {
+  background: none !important;
+  background-image: none !important;
+  margin-bottom: 0 !important;
 }
 
-.dsq-dc-logo {
-  display: none;
+
+#dsq-content #dsq-global-toolbar {
+  display: none !important;
 }
 
-#dsq-content #dsq-comments .dsq-comment-footer {
-  display: none;
+#dsq-sort-by {
+  display: none !important;
 }
