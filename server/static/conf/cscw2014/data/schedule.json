@@ -82,6 +82,17 @@ schedule=[
                         "room": "Bristol"
                     }
                 ]
+            },
+            {
+                "slot_id": "Sunday__Feb_16th_17_00_19_00",
+                "time": "17:00-19:00",
+                "slot_class": "evening2",
+                "sessions": [
+                    {
+                        "session": "WR",
+                        "room": "Marriott Waterfront, Grand Foyer West, 3rd Floor"
+                    }
+                ]
             }
         ]
     },
@@ -193,8 +204,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday__Feb_17th_20_00_22_00",
-                "time": "20:00-22:00",
+                "slot_id": "Monday__Feb_17th_19_30_22_00",
+                "time": "19:30-22:00",
                 "slot_class": "evening2",
                 "sessions": [
                     {
