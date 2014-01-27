@@ -250,8 +250,8 @@ function get_params() {
 
 
 function get_hash() {
-    if(window.location.href.indexOf('#!/') != -1)
-        return window.location.href.slice(window.location.href.indexOf('#!/') + 3)
+    if(window.location.href.indexOf('/#!/') != -1)
+        return window.location.href.slice(window.location.href.indexOf('/#!/') + 4)
     else
         return window.location.href
 }
@@ -610,10 +610,10 @@ function refresh_recommendations(){
 
 function select_paper(id){
     if(window.location.pathname.endsWith('/paper')){
-        window.location.hash = "#!/" + id;
+        window.location.hash = "/#!/" + id;
         window.location.reload(false);
     }else{
-        window.location.href = 'paper#!/'+id
+        window.location.href = 'paper/#!/'+id
     }
     window.scrollTo(0,0)
 }
