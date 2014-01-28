@@ -211,7 +211,7 @@ def log (request, action):
 def like (request, like_str):
   login = request.session[kLogIn]
   likes = []
-  res = {}
+  recs = []
   error = False
   msg = "OK"
   try:
