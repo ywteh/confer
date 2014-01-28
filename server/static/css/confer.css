@@ -1209,8 +1209,5 @@ form .credit {
 
  .fb-comments, .fb-comments * {
     width:100% !important;
-}
-
-.fbFeedbackContent {
-  min-height: 100px !important;
+    height: 100px;
 }
