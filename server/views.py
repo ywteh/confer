@@ -233,8 +233,8 @@ def like (request, like_str):
       if(like_str=='unstar' and (paper_id in likes) and paper_id != ''):
         likes.remove(paper_id)
 
-    l = list(set(likes))    
-    data.likes = json.dumps(l)
+    likes = list(set(likes))    
+    data.likes = json.dumps(likes)
     data.save()
     recs = []
 
@@ -245,7 +245,7 @@ def like (request, like_str):
   return HttpResponse(
     json.dumps({
         'recs':recs,
-        'likes':l,
+        'likes':likes,
         'error':error,
         'msg':msg
       }
