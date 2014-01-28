@@ -1211,6 +1211,6 @@ form .credit {
     width:100% !important;
 }
 
-.fbConnectWidgetFooter {
-  display: none !important;
+.fbConnectWidgetFooter, .fbFooterBorder {
+  display: none;
 }
