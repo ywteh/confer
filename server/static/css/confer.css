@@ -1201,3 +1201,12 @@ form .credit {
 .link:hover{
   color: #447EAC;
 }
+
+
+/**************
+ * FB COMMENTS
+ **************/
+
+ .fb-comments, .fb-comments * {
+    width:100% !important;
+}
