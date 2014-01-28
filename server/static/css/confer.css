@@ -1210,7 +1210,3 @@ form .credit {
  .fb-comments, .fb-comments * {
     width:100% !important;
 }
-
-.fbConnectWidgetFooter, .fbFooterBorder {
-  display: none;
-}
