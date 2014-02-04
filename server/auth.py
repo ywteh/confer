@@ -400,7 +400,7 @@ def register_app (request):
       app_name = request.POST["app_name"]
       user = User.objects.get(email=user_email)
       app_token = hashlib.sha1(app_id + '_token').hexdigest()
-      app = Apps(app_id=app_id, app_name=app_name, user=user, app_token=app_token)
+      app = App(app_id=app_id, app_name=app_name, user=user, app_token=app_token)
       app.save()
       return HttpResponseRedirect('/developer/apps')
     except Exception, e:
@@ -422,7 +422,7 @@ def register_app (request):
 def apps (request):
     login = get_login(request)
     user = User.objects.get(email=login[0])
-    apps = Apps.objects.filter(user=user)
+    apps = App.objects.filter(user=user)
     res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})

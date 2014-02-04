@@ -47,7 +47,7 @@ class User(models.Model):
     db_table = "users"
 
 
-class Apps(models.Model):
+class App(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)
   app_id = models.CharField (max_length=100, unique = True)
@@ -75,6 +75,22 @@ class Registration(models.Model):
   class Meta:
     app_label = 'server'
     db_table = "registrations"
+
+
+class Permissions(models.Model):
+  id = models.AutoField(primary_key=True)
+  timestamp = models.DateTimeField(auto_now=True)
+  user = models.ForeignKey('User')
+  app = models.ForeignKey('App')
+  access = models.BooleanField(default=False)
+
+
+  def __unicode__(self):
+    return self.id
+
+  class Meta:
+    app_label = 'server'
+    db_table = "permissions"
 
 
 class Likes(models.Model):
