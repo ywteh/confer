@@ -423,7 +423,7 @@ def apps (request):
     login = get_login(request)
     user = User.objects.get(email=login[0])
     apps = Apps.objects.filter(user=user)
-    res = {}
+    res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
     return render_to_response('apps.html', res)
