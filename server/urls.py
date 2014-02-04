@@ -22,6 +22,10 @@ urlpatterns = patterns('',
     #confer APIs
     url(r'^api/likes$', 'server.views.likes'),
     url(r'^api/similar_people$', 'server.views.similar_people'),
+
+    #confer APIs
+    url(r'^developer/apps$', 'server.auth.apps'),
+    url(r'^developer/register_app$', 'server.auth.register_app'),
     
 
     #move this matching in the end

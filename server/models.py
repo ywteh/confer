@@ -47,6 +47,22 @@ class User(models.Model):
     db_table = "users"
 
 
+class Apps(models.Model):
+  id = models.AutoField(primary_key=True)
+  timestamp = models.DateTimeField(auto_now=True)
+  app_id = models.CharField (max_length=100, unique = True)
+  app_name = models.CharField (max_length=100)
+  app_token = models.CharField (max_length=500)
+  user = models.ForeignKey ('User')
+
+  def __unicode__(self):
+    return self.app_name
+
+  class Meta:
+    app_label = 'server'
+    db_table = "apps"
+
+
 class Registration(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)

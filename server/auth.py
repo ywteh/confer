@@ -388,6 +388,35 @@ def settings (request):
     return render_to_response('settings.html', c)
 
 
+@login_required
+def apps (request):
+  errors = []
+  error = False
+
+  if request.method == "POST":
+    try:
+      user_email = request.POST["user_email"].lower()
+      app_id = request.POST["app_id"]
+      app_name = request.POST["app_name"]
+      user = User.objects.get(email=user_email)
+      app_token = hashlib.sha1(app_id + '_token').hexdigest()
+      app = App(app_id=app_id, app_name=app_name, user=user, app_token=app_token)
+      return HttpResponseRedirect('/apps')
+    except Exception, e:
+      errors.append(e)
+      c = {'errors': errors} 
+      c.update(csrf(request))
+      return render_to_response('register_app.html', c)
+  else:
+    return render_to_response('apps.html', csrf(request))
+
+@login_required
+def apps (request):
+    login = get_login(request)
+    apps = Apps.objects.filter(email=login[0])
+    return render_to_response('apps.html', apps)
+
+
 def get_login(request):
   login_id = None
   login_name = ''
