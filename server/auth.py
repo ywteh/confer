@@ -426,7 +426,7 @@ def apps (request):
     res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
-    return render_to_response('apps.html', res)
+    return render_to_response('apps.html', {'apps': res})
 
 
 def get_login(request):
