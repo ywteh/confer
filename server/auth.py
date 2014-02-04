@@ -413,7 +413,8 @@ def register_app (request):
 @login_required
 def apps (request):
     login = get_login(request)
-    apps = Apps.objects.filter(email=login[0])
+    user = User.objects.get(email=login[0])
+    apps = Apps.objects.filter(user=user)
     res = {}
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
