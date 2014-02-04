@@ -6,7 +6,7 @@
 {% block content %}
 <script type="text/javascript">
 </script>
-<form method="POST" action="/settings">
+<form method="POST" action="/developer/register_app">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
 	<h3>Register a new app</h3>
