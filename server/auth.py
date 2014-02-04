@@ -408,7 +408,7 @@ def register_app (request):
       c.update(csrf(request))
       return render_to_response('register_app.html', c)
   else:
-    return render_to_response('apps.html', csrf(request))
+    return render_to_response('register_app.html', csrf(request))
 
 @login_required
 def apps (request):
