@@ -408,7 +408,14 @@ def register_app (request):
       c.update(csrf(request))
       return render_to_response('register_app.html', c)
   else:
-    return render_to_response('register_app.html', csrf(request))
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
+    c = {
+        'user_email': login[0],
+        'login_id': login[0],
+        'login_name': login[1]}
+    c.update(csrf(request))
+    return render_to_response('register_app.html', c)
 
 @login_required
 def apps (request):
