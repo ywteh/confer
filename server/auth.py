@@ -401,6 +401,7 @@ def register_app (request):
       user = User.objects.get(email=user_email)
       app_token = hashlib.sha1(app_id + '_token').hexdigest()
       app = Apps(app_id=app_id, app_name=app_name, user=user, app_token=app_token)
+      app.save()
       return HttpResponseRedirect('/developer/apps')
     except Exception, e:
       errors.append(e)
