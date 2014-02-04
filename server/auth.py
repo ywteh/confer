@@ -414,7 +414,10 @@ def register_app (request):
 def apps (request):
     login = get_login(request)
     apps = Apps.objects.filter(email=login[0])
-    return render_to_response('apps.html', apps)
+    res = {}
+    for app in apps:
+      res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
+    return render_to_response('apps.html', res)
 
 
 def get_login(request):
