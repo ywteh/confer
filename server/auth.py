@@ -436,6 +436,22 @@ def allow_access (request):
     app = App.objects.get(app_id=app_id)
     access_allowed = True
     if request.method == "POST":
+      access_val = request.REQUEST["access_val"]
+      if access_val == "allow":
+        access_allowed = True
+      else:
+        access_allowed = False
+
+      perm = None
+
+      try:
+        perm = Permission.objects.get(app=app, user=user)
+      except Permission.DoesNotExist:
+        perm = Permission(app=app, user=user)
+
+      perm.access = access_allowed
+      perm.save()
+
       c = {
         'msg_title': 'Thank you',
         'msg_body': 'Your preference has been saved.'
