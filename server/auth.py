@@ -430,6 +430,8 @@ def apps (request):
 
 @login_required
 def allow_access (request):
+  errors = []
+  try:
     login = get_login(request)
     user = User.objects.get(email=login[0])
     app_id = request.REQUEST["app_id"].lower()
@@ -469,6 +471,13 @@ def allow_access (request):
         'access_allowed': access_allowed}
       c.update(csrf(request))
       return render_to_response('app_access.html', c)
+
+  except Exception, e:
+    errors.append(e)
+    
+    c = {'msg_title': 'App Access', 'errors': errors} 
+    c.update(csrf(request))
+    return render_to_response('confirmation.html', c)
     
 
 
