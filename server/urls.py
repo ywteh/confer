@@ -35,4 +35,5 @@ urlpatterns = patterns('',
     url(r'^(\w+?)/meetups', 'server.views.meetups'),
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
+    url(r'^(\w+?)/all_likes$', 'server.views.all_likes'),
 )
