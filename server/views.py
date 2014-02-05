@@ -160,13 +160,14 @@ def json_data (request, conf):
           res['likes'] = []
 
         likes.append(res)
+        random.shuffle(likes)
     else:
       msg = 'ACCESS DENIED: You are not an admin for this conference.'
     
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps({'msg': msg, 'data': random.shuffle(likes)}), mimetype="application/json")
+  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
