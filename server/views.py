@@ -147,7 +147,7 @@ def all_likes (request, conf):
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
             'meetups_enabled': r.user.meetups_enabled,
-            'likes': set(json.loads(r_likes.likes))
+            'likes': json.loads(r_likes.likes)
         })
     
   except:
