@@ -146,7 +146,7 @@ def all_likes (request, conf):
     if login[0] in admins:
       registrations = Registration.objects.filter(conference=conference)
       for r in registrations:
-       res = {
+        res = {
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
             'meetups_enabled': r.user.meetups_enabled
