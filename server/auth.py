@@ -445,9 +445,9 @@ def allow_access (request):
       perm = None
 
       try:
-        perm = Permissions.objects.get(app=app, user=user)
-      except Permissions.DoesNotExist:
-        perm = Permissions(app=app, user=user)
+        perm = Permission.objects.get(app=app, user=user)
+      except Permission.DoesNotExist:
+        perm = Permission(app=app, user=user)
 
       perm.access = access_allowed
       perm.save()

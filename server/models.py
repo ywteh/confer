@@ -77,7 +77,7 @@ class Registration(models.Model):
     db_table = "registrations"
 
 
-class Permissions(models.Model):
+class Permission(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)
   user = models.ForeignKey('User')
