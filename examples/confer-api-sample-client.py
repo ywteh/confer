@@ -26,7 +26,7 @@ conf_id = 'cscw2014' # conference id
 
 # get likes for a confer login_id
 print http_post(host, '/api/likes', {
-    'login_id': 'anantb@csail.mit.edu',
+    'login_id': 'anantb@mit.edu',
     'conf_id': conf_id,
     'app_id': app_id,
     'app_token': app_token
@@ -34,7 +34,7 @@ print http_post(host, '/api/likes', {
 
 # get similar_people for a confer login_id
 print http_post(host, '/api/similar_people', {
-    'login_id': 'anantb@csail.mit.edu',
+    'login_id': 'anantb@mit.edu',
     'conf_id': conf_id,
     'app_id': app_id,
     'app_token': app_token

@@ -275,8 +275,13 @@ def likes (request):
     app_id = request.POST["app_id"]
     app_token = request.POST["app_token"]
     app = App.objects.get(app_id=app_id, app_token=app_token)
-    perm = Permission.objects.get(app=app, user=user)
-    if perm.access:
+    perm = None
+    try:
+      perm = Permission.objects.get(app=app, user=user)
+    except:
+      pass
+
+    if perm and perm.access:
       data = None
 
       try:
@@ -315,9 +320,14 @@ def similar_people (request):
     app_id = request.POST["app_id"]
     app_token = request.POST["app_token"]
     app = App.objects.get(app_id=app_id, app_token=app_token)
-    perm = Permission.objects.get(app=app, user=user)
 
-    if perm.access:
+    perm = None
+    try:
+      perm = Permission.objects.get(app=app, user=user)
+    except:
+      pass
+
+    if perm and perm.access:
       similar_people = get_similar_people(login, conf, app=app)
     else:
       msg = 'ACCESS_DENIED'
