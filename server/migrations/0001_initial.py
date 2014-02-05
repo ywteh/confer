@@ -20,6 +20,7 @@ class Migration(SchemaMigration):
             ('start_date', self.gf('django.db.models.fields.DateField')()),
             ('end_date', self.gf('django.db.models.fields.DateField')()),
             ('hidden', self.gf('django.db.models.fields.BooleanField')(default=False)),
+            ('admins', self.gf('django.db.models.fields.TextField')(default='[]')),
         ))
         db.send_create_signal('server', ['Conference'])
 
@@ -120,6 +121,7 @@ class Migration(SchemaMigration):
         },
         'server.conference': {
             'Meta': {'ordering': "['-start_date']", 'object_name': 'Conference', 'db_table': "'conferences'"},
+            'admins': ('django.db.models.fields.TextField', [], {'default': "'[]'"}),
             'blurb': ('django.db.models.fields.TextField', [], {}),
             'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'end_date': ('django.db.models.fields.DateField', [], {}),
