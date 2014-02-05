@@ -20,7 +20,7 @@ def http_post(host, path, params):
   return json.loads(res)
 
 host = 'confer.csail.mit.edu'
-app_name = 'common_ties' #  your registered app name
+app_id = 'common_ties' #  your registered app name
 app_token = 'xxx' # your app token
 conf_id = 'cscw2014' # conference id
 
@@ -28,14 +28,14 @@ conf_id = 'cscw2014' # conference id
 print http_post(host, '/api/likes', {
     'login_id': 'anantb@csail.mit.edu',
     'conf_id': conf_id,
-    'application_id': app_name,
-    'application_token': app_token
+    'app_id': app_id,
+    'app_token': app_token
   })
 
 # get similar_people for a confer login_id
 print http_post(host, '/api/similar_people', {
     'login_id': 'anantb@csail.mit.edu',
     'conf_id': conf_id,
-    'application_id': app_name,
+    'application_id': app_id,
     'application_token': app_token
   })

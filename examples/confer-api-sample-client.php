@@ -10,8 +10,8 @@
 $params = array(
     'login_id' => 'anantb@csail.mit.edu',
     'conf_id' => 'cscw2014',
-    'application_id' => 'common_ties',
-    'application_token' => 'xxx');
+    'app_id' => 'common_ties',
+    'app_token' => 'xxx');
 
 $options = array(
     'http' => array(
