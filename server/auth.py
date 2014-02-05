@@ -473,7 +473,7 @@ def allow_access (request):
       return render_to_response('app_access.html', c)
 
   except Exception, e:
-    errors.append('Error': str(e))
+    errors.append('Error: ' + str(e))
     
     c = {'msg_title': 'App Access', 'errors': errors} 
     c.update(csrf(request))
