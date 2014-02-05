@@ -19,6 +19,7 @@ class Conference(models.Model):
   start_date = models.DateField()
   end_date = models.DateField()
   hidden = models.BooleanField(default=False)
+  admins = models.TextField(default="[]")
 
 
   def __unicode__(self):
