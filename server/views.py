@@ -167,7 +167,7 @@ def data (request, conf):
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps({'msg': msg, 'likes': likes}), mimetype="application/json")
+  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
