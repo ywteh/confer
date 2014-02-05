@@ -55,7 +55,7 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal('server', ['Registration'])
 
-        # Adding model 'Permissions'
+        # Adding model 'Permission'
         db.create_table('permissions', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
@@ -63,7 +63,7 @@ class Migration(SchemaMigration):
             ('app', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.App'])),
             ('access', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
-        db.send_create_signal('server', ['Permissions'])
+        db.send_create_signal('server', ['Permission'])
 
         # Adding model 'Likes'
         db.create_table('likes', (
@@ -98,7 +98,7 @@ class Migration(SchemaMigration):
         # Deleting model 'Registration'
         db.delete_table('registrations')
 
-        # Deleting model 'Permissions'
+        # Deleting model 'Permission'
         db.delete_table('permissions')
 
         # Deleting model 'Likes'
@@ -146,8 +146,8 @@ class Migration(SchemaMigration):
             'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"}),
             'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
         },
-        'server.permissions': {
-            'Meta': {'object_name': 'Permissions', 'db_table': "'permissions'"},
+        'server.permission': {
+            'Meta': {'object_name': 'Permission', 'db_table': "'permissions'"},
             'access': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'app': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.App']"}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
