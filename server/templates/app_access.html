@@ -6,12 +6,13 @@
 {% block content %}
 <script type="text/javascript">
 </script>
-<form method="POST" action="/settings">
+<form method="POST" action="/allow_access">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
 	<h3>Access to {{app_name}}</h3>
-	{{app_name}} wants to access your confer data (paper preferences). You can allow or deny the access to {{app_name}} by selecting the corresponding option.
 	<hr />
+	{{app_name}} wants to access your confer data. You can allow or deny the access to {{app_name}} by selecting the corresponding option.
+	
 	<div id="error">
 		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
         {% endfor %}
