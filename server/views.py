@@ -138,22 +138,28 @@ def meetups (request, conf):
 def all_likes (request, conf):
   conf = conf.lower()
   likes = []
+  msg = 'OK'
   try:
+    login = get_login(request)
     conference = Conference.objects.get(unique_name=conf)
-    registrations = Registration.objects.filter(conference=conference)
-    for r in registrations:
-      r_likes = Likes.objects.get(registration=r)
-      likes.append({
-            'name': r.user.f_name + ' ' + r.user.l_name,
-            'email': r.user.email,
-            'meetups_enabled': r.user.meetups_enabled,
-            'likes': json.loads(r_likes.likes)
-        })
+    admins = json.loads(conference.admins)
+    if login[0] in admins:
+      registrations = Registration.objects.filter(conference=conference)
+      for r in registrations:
+        r_likes = Likes.objects.get(registration=r)
+        likes.append({
+              'name': r.user.f_name + ' ' + r.user.l_name,
+              'email': r.user.email,
+              'meetups_enabled': r.user.meetups_enabled,
+              'likes': json.loads(r_likes.likes)
+          })
+    else:
+      msg = 'ACCESS DENIED: You are not an admin for this conference.'
     
-  except:
-    pass
+  except Exception, e:
+    msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps(likes), mimetype="application/json")
+  return HttpResponse({'msg':'OK', 'likes': json.dumps(likes)}, mimetype="application/json")
 
 @csrf_exempt
 def data (request):
