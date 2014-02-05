@@ -19,7 +19,7 @@ def http_post(host, path, params):
   res = conn.getresponse().read()
   return json.loads(res)
 
-host = 'confer.csail.mit.edu'
+host = 'confer-experimental.csail.mit.edu'
 app_id = 'test_app' #  your registered app name
 app_token = '68b6fdc3285886ac0f9f3d01bc86a9ad06867777' # your app token
 conf_id = 'cscw2014' # conference id

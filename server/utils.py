@@ -82,9 +82,12 @@ def get_similar_people (login, conf, meetups=False, app=None):
     if meetups and r.user.meetups_enabled:
       r_valid = True
     elif app:
-      perm = Permission.objects.get(user=r.user, app=app)
-      if perm.access:
-        r_valid= True
+      try:
+        perm = Permission.objects.get(user=r.user, app=app)
+        if perm.access:
+          r_valid= True
+      except Permission.DoesNotExist:
+        pass
     else:
       r_valid = True
 
