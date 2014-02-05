@@ -146,13 +146,18 @@ def all_likes (request, conf):
     if login[0] in admins:
       registrations = Registration.objects.filter(conference=conference)
       for r in registrations:
-        r_likes = Likes.objects.get(registration=r)
-        likes.append({
-              'name': r.user.f_name + ' ' + r.user.l_name,
-              'email': r.user.email,
-              'meetups_enabled': r.user.meetups_enabled,
-              'likes': json.loads(r_likes.likes)
-          })
+       res = {
+            'name': r.user.f_name + ' ' + r.user.l_name,
+            'email': r.user.email,
+            'meetups_enabled': r.user.meetups_enabled,
+        }
+        try:
+          r_likes = Likes.objects.get(registration=r)
+          res['likes'] = json.loads(r_likes.likes)
+        except:
+          res['likes'] = []
+
+        likes.append(res)
     else:
       msg = 'ACCESS DENIED: You are not an admin for this conference.'
     
