@@ -444,7 +444,7 @@ def allow_access (request):
         'login_id': login[0],
         'login_name': login[1],
         'app_id': app_id,
-        'app_name': app.app_name
+        'app_name': app.app_name,
         'access_allowed': access_allowed}
       c.update(csrf(request))
       return render_to_response('app_access.html', c)
