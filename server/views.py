@@ -137,18 +137,18 @@ def meetups (request, conf):
 @login_required
 def all_likes (request, conf):
   conf = conf.lower()
-  likes = {}
+  likes = []
   try:
     conference = Conference.objects.get(unique_name=conf)
     registrations = Registration.objects.filter(conference=conference)
     for r in registrations:
       r_likes = Likes.objects.get(registration=r)
-      likes[r.user] = {
+      likes.append({
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
             'meetups_enabled': r.user.meetups_enabled,
-            'papers': set(json.loads(r_likes.likes))
-        }
+            'likes': set(json.loads(r_likes.likes))
+        })
     
   except:
     pass
