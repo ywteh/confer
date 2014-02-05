@@ -268,6 +268,9 @@ def likes (request):
   login = None
   conf = None
   try:
+    app_id = request.POST["app_id"]
+    app_token = request.POST["app_token"]
+    app = App.objects.get(app_id=app_id, app_token=app_token)
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
     registration = get_registration(login, conf)
@@ -300,6 +303,9 @@ def similar_people (request):
   error = False
   msg = "OK"
   try:
+    app_id = request.POST["app_id"]
+    app_token = request.POST["app_token"]
+    app = App.objects.get(app_id=app_id, app_token=app_token)
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
 
