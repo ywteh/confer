@@ -159,7 +159,7 @@ def all_likes (request, conf):
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse({'msg':'OK', 'likes': json.dumps(likes)}, mimetype="application/json")
+  return HttpResponse(json.dumps({'msg':'OK', 'likes': likes}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
