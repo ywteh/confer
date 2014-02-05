@@ -436,7 +436,14 @@ def allow_access (request):
     app = App.objects.get(app_id=app_id)
     access_allowed = True
     if request.method == "POST":
-      pass
+      c = {
+        'msg_title': 'Thank you',
+        'msg_body': 'Your preference has been saved.'
+      } 
+      c.update(csrf(request))
+
+      return render_to_response('confirmation.html', c)
+
 
     else:
       c = {
