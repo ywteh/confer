@@ -26,7 +26,7 @@ urlpatterns = patterns('',
     #confer APIs
     url(r'^developer/apps$', 'server.auth.apps'),
     url(r'^developer/register_app$', 'server.auth.register_app'),
-    
+    url(r'^developer/allow_access$', 'server.auth.allow_access'),
 
     #move this matching in the end
     url(r'^(\w+?)/papers$', 'server.views.papers'),
