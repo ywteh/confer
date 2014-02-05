@@ -149,7 +149,7 @@ def all_likes (request, conf):
        res = {
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
-            'meetups_enabled': r.user.meetups_enabled,
+            'meetups_enabled': r.user.meetups_enabled
         }
         try:
           r_likes = Likes.objects.get(registration=r)
