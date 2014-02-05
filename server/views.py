@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random
 
 from auth import *
 from django.http import *
@@ -120,7 +120,7 @@ def meetups (request, conf):
     user = User.objects.get(email=login[0])
     meetups_enabled = user.meetups_enabled
     if meetups_enabled:
-      similar_people = get_similar_people(login[0], conf)
+      similar_people = get_similar_people(login[0], conf, meetups=True)
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': similar_people,
@@ -134,6 +134,40 @@ def meetups (request, conf):
     return HttpResponseRedirect('/')
 
 
+def all_likes (request, conf):
+  return HttpResponseRedirect('/%s/json_data' %(conf))
+
+@login_required
+def json_data (request, conf):
+  conf = conf.lower()
+  likes = []
+  msg = 'OK'
+  try:
+    login = get_login(request)
+    conference = Conference.objects.get(unique_name=conf)
+    admins = json.loads(conference.admins)
+    if login[0] in admins:
+      registrations = Registration.objects.filter(conference=conference)
+      for r in registrations:
+        res = {
+            'id': encrypt_text(r.user.email),
+            'meetups_enabled': r.user.meetups_enabled
+        }
+        try:
+          r_likes = Likes.objects.get(registration=r)
+          res['likes'] = json.loads(r_likes.likes)
+        except:
+          res['likes'] = []
+
+        likes.append(res)
+        random.shuffle(likes)
+    else:
+      msg = 'ACCESS DENIED: You are not an admin for this conference.'
+    
+  except Exception, e:
+    msg = 'Error: %s.' %(e)
+
+  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
@@ -271,13 +305,27 @@ def likes (request):
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
     registration = get_registration(login, conf)
-    data = None
-
+    user = User.objects.get(email=login)
+    app_id = request.POST["app_id"]
+    app_token = request.POST["app_token"]
+    app = App.objects.get(app_id=app_id, app_token=app_token)
+    perm = None
     try:
-      data = Likes.objects.get(registration = registration)
-      likes.extend(json.loads(data.likes))
+      perm = Permission.objects.get(app=app, user=user)
     except:
       pass
+
+    if perm and perm.access:
+      data = None
+
+      try:
+        data = Likes.objects.get(registration = registration)
+        likes.extend(json.loads(data.likes))
+      except:
+        pass
+
+    else:
+      msg = 'ACCESS_DENIED'
 
   except Exception, e:
     error = True
@@ -302,8 +350,21 @@ def similar_people (request):
   try:
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
+    user = User.objects.get(email=login)
+    app_id = request.POST["app_id"]
+    app_token = request.POST["app_token"]
+    app = App.objects.get(app_id=app_id, app_token=app_token)
 
-    similar_people = get_similar_people(login, conf)
+    perm = None
+    try:
+      perm = Permission.objects.get(app=app, user=user)
+    except:
+      pass
+
+    if perm and perm.access:
+      similar_people = get_similar_people(login, conf, app=app)
+    else:
+      msg = 'ACCESS_DENIED'
   
   except Exception, e:
     error = True

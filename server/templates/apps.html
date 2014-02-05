@@ -1,0 +1,30 @@
+{% extends "login-layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+<a class="button" href="/">Home</a>
+{% endblock %}
+{% block content %}
+<div id="app_container">
+  <h3 class="collapsible-title"> Your Apps</h3>
+  <table id="apps" class="paper-container"> 
+    {% for app in apps %}
+    <tr class="clickable">
+      <td class="content">
+        <ul>
+          <li>ID: {{app.app_id}}</li>
+		  <li>Name: {{app.app_name}}</li>
+          <li>Token: {{app.app_token}}</li>
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+  <br />
+  <br />
+<div>
+	<a class="button" href="/developer/register_app">Create a New App</a>
+</div>
+</div>  <!-- confer team -->
+  
+
+{% endblock %}

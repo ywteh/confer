@@ -20,6 +20,7 @@ class Migration(SchemaMigration):
             ('start_date', self.gf('django.db.models.fields.DateField')()),
             ('end_date', self.gf('django.db.models.fields.DateField')()),
             ('hidden', self.gf('django.db.models.fields.BooleanField')(default=False)),
+            ('admins', self.gf('django.db.models.fields.TextField')(default='[]')),
         ))
         db.send_create_signal('server', ['Conference'])
 
@@ -35,6 +36,17 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal('server', ['User'])
 
+        # Adding model 'App'
+        db.create_table('apps', (
+            ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
+            ('app_id', self.gf('django.db.models.fields.CharField')(unique=True, max_length=100)),
+            ('app_name', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('app_token', self.gf('django.db.models.fields.CharField')(max_length=500)),
+            ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.User'])),
+        ))
+        db.send_create_signal('server', ['App'])
+
         # Adding model 'Registration'
         db.create_table('registrations', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
@@ -43,6 +55,16 @@ class Migration(SchemaMigration):
             ('conference', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.Conference'])),
         ))
         db.send_create_signal('server', ['Registration'])
+
+        # Adding model 'Permission'
+        db.create_table('permissions', (
+            ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('timestamp', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
+            ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.User'])),
+            ('app', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['server.App'])),
+            ('access', self.gf('django.db.models.fields.BooleanField')(default=False)),
+        ))
+        db.send_create_signal('server', ['Permission'])
 
         # Adding model 'Likes'
         db.create_table('likes', (
@@ -71,8 +93,14 @@ class Migration(SchemaMigration):
         # Deleting model 'User'
         db.delete_table('users')
 
+        # Deleting model 'App'
+        db.delete_table('apps')
+
         # Deleting model 'Registration'
         db.delete_table('registrations')
+
+        # Deleting model 'Permission'
+        db.delete_table('permissions')
 
         # Deleting model 'Likes'
         db.delete_table('likes')
@@ -82,8 +110,18 @@ class Migration(SchemaMigration):
 
 
     models = {
+        'server.app': {
+            'Meta': {'object_name': 'App', 'db_table': "'apps'"},
+            'app_id': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '100'}),
+            'app_name': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'app_token': ('django.db.models.fields.CharField', [], {'max_length': '500'}),
+            'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.User']"})
+        },
         'server.conference': {
             'Meta': {'ordering': "['-start_date']", 'object_name': 'Conference', 'db_table': "'conferences'"},
+            'admins': ('django.db.models.fields.TextField', [], {'default': "'[]'"}),
             'blurb': ('django.db.models.fields.TextField', [], {}),
             'confer_name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '50'}),
             'end_date': ('django.db.models.fields.DateField', [], {}),
@@ -109,6 +147,14 @@ class Migration(SchemaMigration):
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'registration': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.Registration']"}),
             'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})
+        },
+        'server.permission': {
+            'Meta': {'object_name': 'Permission', 'db_table': "'permissions'"},
+            'access': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
+            'app': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.App']"}),
+            'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'timestamp': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['server.User']"})
         },
         'server.registration': {
             'Meta': {'object_name': 'Registration', 'db_table': "'registrations'"},

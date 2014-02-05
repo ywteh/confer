@@ -116,7 +116,8 @@
 	      "blurb": "CSCW is the premier venue for presenting research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners from academia and industry in the area of social computing, CSCW encompasses both the technical and social challenges encountered when supporting collaboration.",
 	      "location": "Baltimore, Maryland, USA",
 	      "start_date": "2014-02-15",
-	      "end_date": "2014-02-19"
+	      "end_date": "2014-02-19",
+	      "admins": "[\"anantb@csail.mit.edu\", \"merrie@microsoft.com\", \"hq@northwestern.edu\"]"
 	  	}
 	},
 	
@@ -130,7 +131,8 @@
 	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction. CHI 2014 is a celebration of the conference's one of a kind diversity; from the broad range of backgrounds of its attendees, to the diverse spectrum of communities and fields which the conference and its research have an impact on. CHI 2014 will take place at the Metro Toronto Convention Centre in Toronto, Canada, a city itself known for its one of a kind cultural diversity.",
 	      "location": "Toronto, Canada",
 	      "start_date": "2014-04-26",
-	      "end_date": "2014-05-01"
+	      "end_date": "2014-05-01",
+	      "admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]"
 	  	}
 	}
 ]

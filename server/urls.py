@@ -22,7 +22,11 @@ urlpatterns = patterns('',
     #confer APIs
     url(r'^api/likes$', 'server.views.likes'),
     url(r'^api/similar_people$', 'server.views.similar_people'),
-    
+
+    #confer APIs
+    url(r'^developer/apps$', 'server.auth.apps'),
+    url(r'^developer/register_app$', 'server.auth.register_app'),
+    url(r'^developer/allow_access$', 'server.auth.allow_access'),
 
     #move this matching in the end
     url(r'^(\w+?)/papers$', 'server.views.papers'),
@@ -31,4 +35,6 @@ urlpatterns = patterns('',
     url(r'^(\w+?)/meetups', 'server.views.meetups'),
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
+    url(r'^(\w+?)/all_likes$', 'server.views.all_likes'),
+    url(r'^(\w+?)/json_data$', 'server.views.json_data'),
 )

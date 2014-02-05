@@ -1,0 +1,27 @@
+{% extends "login-layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+<a class="button" href="/">Home</a>
+{% endblock %}
+{% block content %}
+<script type="text/javascript">
+</script>
+<form method="POST" action="/developer/register_app">
+	{% csrf_token %}
+	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
+	<h3>Register a new app</h3>
+	<hr />
+	<div id="error">
+		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
+        {% endfor %}
+        <br />
+    </div>
+	<input type="hidden" name="user_email" id="user_email" value="{{user_email}}" />
+	<label for="app_id">App Id</label><br />
+	<input type="text" name="app_id" id="app_id" placeholder="A unique identifier for your app" /><br /><br />
+	<label for="app_name">App Name</label><br />
+	<input type="text" name="app_name" id="app_name" placeholder="Your app name" /><br /><br />
+	
+	<input type="submit" class="button" value="Register" />
+</form>
+{% endblock %}

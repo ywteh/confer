@@ -388,6 +388,99 @@ def settings (request):
     return render_to_response('settings.html', c)
 
 
+@login_required
+def register_app (request):
+  errors = []
+  error = False
+
+  if request.method == "POST":
+    try:
+      user_email = request.POST["user_email"].lower()
+      app_id = request.POST["app_id"].lower()
+      app_name = request.POST["app_name"]
+      user = User.objects.get(email=user_email)
+      app_token = hashlib.sha1(app_id + '_token').hexdigest()
+      app = App(app_id=app_id, app_name=app_name, user=user, app_token=app_token)
+      app.save()
+      return HttpResponseRedirect('/developer/apps')
+    except Exception, e:
+      errors.append(e)
+      c = {'errors': errors} 
+      c.update(csrf(request))
+      return render_to_response('register_app.html', c)
+  else:
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
+    c = {
+        'user_email': login[0],
+        'login_id': login[0],
+        'login_name': login[1]}
+    c.update(csrf(request))
+    return render_to_response('register_app.html', c)
+
+@login_required
+def apps (request):
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
+    apps = App.objects.filter(user=user)
+    res = []
+    for app in apps:
+      res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
+    return render_to_response('apps.html', {'apps': res})
+
+@login_required
+def allow_access (request):
+  errors = []
+  try:
+    login = get_login(request)
+    user = User.objects.get(email=login[0])
+    app_id = request.REQUEST["app_id"].lower()
+    app = App.objects.get(app_id=app_id)
+    access_allowed = True
+    if request.method == "POST":
+      access_val = request.REQUEST["access_val"]
+      if access_val == "allow":
+        access_allowed = True
+      else:
+        access_allowed = False
+
+      perm = None
+
+      try:
+        perm = Permission.objects.get(app=app, user=user)
+      except Permission.DoesNotExist:
+        perm = Permission(app=app, user=user)
+
+      perm.access = access_allowed
+      perm.save()
+
+      c = {
+        'msg_title': 'Thank you',
+        'msg_body': 'Your preference has been saved.'
+      } 
+      c.update(csrf(request))
+
+      return render_to_response('confirmation.html', c)
+    else:
+      c = {
+        'user_email': login[0],
+        'login_id': login[0],
+        'login_name': login[1],
+        'app_id': app_id,
+        'app_name': app.app_name,
+        'access_allowed': access_allowed}
+      c.update(csrf(request))
+      return render_to_response('app_access.html', c)
+
+  except Exception, e:
+    errors.append('Error: ' + str(e))
+    
+    c = {'msg_title': 'App Access', 'errors': errors} 
+    c.update(csrf(request))
+    return render_to_response('confirmation.html', c)
+    
+
+
 def get_login(request):
   login_id = None
   login_name = ''

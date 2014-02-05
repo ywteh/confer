@@ -71,28 +71,42 @@ def get_registration (login, conf):
     print sys.exc_info()
     return None
 
-def get_similar_people (login, conf):
+def get_similar_people (login, conf, meetups=False, app=None):
   likes = {}
   similarity = []
   user = User.objects.get(email = login)
   conference = Conference.objects.get(unique_name=conf)
   registrations = Registration.objects.filter(conference=conference)
   for r in registrations:
-    try:
-      r_likes = Likes.objects.get(registration=r)
-      likes[r.user] = {
-          'name': r.user.f_name + ' ' + r.user.l_name,
-          'email': r.user.email,
-          'meetups_enabled': r.user.meetups_enabled,
-          'papers': set(json.loads(r_likes.likes))
-      }
-    except Likes.DoesNotExist:
-      pass
+    r_valid = False
+    if meetups and r.user.meetups_enabled:
+      r_valid = True
+    elif app:
+      try:
+        perm = Permission.objects.get(user=r.user, app=app)
+        if perm.access:
+          r_valid= True
+      except Permission.DoesNotExist:
+        pass
+    else:
+      r_valid = True
+
+    if r_valid:
+      try:        
+        r_likes = Likes.objects.get(registration=r)
+        likes[r.user] = {
+            'name': r.user.f_name + ' ' + r.user.l_name,
+            'email': r.user.email,
+            'meetups_enabled': r.user.meetups_enabled,
+            'papers': set(json.loads(r_likes.likes))
+        }
+      except Likes.DoesNotExist:
+        pass
 
   for person in likes:  
     p_likes = likes[person]
     common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
-    if common_likes > 0 and person!= user and person.meetups_enabled:
+    if common_likes > 0 and person!= user:
       similarity.append({
           'name': p_likes['name'],
           'email': p_likes['email'],
