@@ -274,13 +274,19 @@ def likes (request):
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
     registration = get_registration(login, conf)
-    data = None
+    user = User.objects.get(email=login[0])
+    perm = Permission.objects.get(app=app, user=user)
+    if perm.access:
+      data = None
 
-    try:
-      data = Likes.objects.get(registration = registration)
-      likes.extend(json.loads(data.likes))
-    except:
-      pass
+      try:
+        data = Likes.objects.get(registration = registration)
+        likes.extend(json.loads(data.likes))
+      except:
+        pass
+
+    else:
+      msg = 'ACCESS_DENIED'
 
   except Exception, e:
     error = True
@@ -308,8 +314,13 @@ def similar_people (request):
     app = App.objects.get(app_id=app_id, app_token=app_token)
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
+    user = User.objects.get(email=login[0])
+    perm = Permission.objects.get(app=app, user=user)
 
-    similar_people = get_similar_people(login, conf)
+    if perm.access:
+      similar_people = get_similar_people(login, conf)
+    else:
+      msg = 'ACCESS_DENIED'
   
   except Exception, e:
     error = True
