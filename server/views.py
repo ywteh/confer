@@ -135,10 +135,10 @@ def meetups (request, conf):
 
 
 def all_likes (request, conf):
-  return HttpResponseRedirect('/%s/data' %(conf))
+  return HttpResponseRedirect('/%s/json_data' %(conf))
 
 @login_required
-def all_data (request, conf):
+def json_data (request, conf):
   conf = conf.lower()
   likes = []
   msg = 'OK'
