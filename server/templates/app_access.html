@@ -11,7 +11,9 @@
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
 	<h3>Access to {{app_name}}</h3>
 	<hr />
-	{{app_name}} wants to access your confer data. You can allow or deny the access to {{app_name}} by selecting the corresponding option.
+	<div id="msg">
+	<span class="bold">{{app_name}}</span> wants to access your confer data. You can allow or deny the access by selecting the corresponding option.
+	</div>
 	
 	<div id="error">
 		{% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
