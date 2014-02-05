@@ -120,7 +120,7 @@ def meetups (request, conf):
     user = User.objects.get(email=login[0])
     meetups_enabled = user.meetups_enabled
     if meetups_enabled:
-      similar_people = get_similar_people(login[0], conf)
+      similar_people = get_similar_people(login[0], conf, meetups=True)
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': similar_people,
@@ -318,7 +318,7 @@ def similar_people (request):
     perm = Permission.objects.get(app=app, user=user)
 
     if perm.access:
-      similar_people = get_similar_people(login, conf)
+      similar_people = get_similar_people(login, conf, app=app)
     else:
       msg = 'ACCESS_DENIED'
   
