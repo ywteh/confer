@@ -117,7 +117,7 @@
 	      "location": "Baltimore, Maryland, USA",
 	      "start_date": "2014-02-15",
 	      "end_date": "2014-02-19",
-	      "admins": "[\"anantb@csail.mit.edu\", \"hq@northwestern.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"merrie@microsoft.com\", \"hq@northwestern.edu\"]"
 	  	}
 	},
 	
@@ -132,7 +132,7 @@
 	      "location": "Toronto, Canada",
 	      "start_date": "2014-04-26",
 	      "end_date": "2014-05-01",
-	      "admins": "[\"tovi.grossman@autodesk.com\", \"anantb@csail.mit.edu\", \"hq@northwestern.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]"
 	  	}
 	}
 ]
