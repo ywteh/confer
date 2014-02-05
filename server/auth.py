@@ -443,8 +443,6 @@ def allow_access (request):
       c.update(csrf(request))
 
       return render_to_response('confirmation.html', c)
-
-
     else:
       c = {
         'user_email': login[0],
