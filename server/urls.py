@@ -36,5 +36,5 @@ urlpatterns = patterns('',
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
     url(r'^(\w+?)/all_likes$', 'server.views.all_likes'),
-    url(r'^(\w+?)/data$', 'server.views.data'),
+    url(r'^(\w+?)/data$', 'server.views.all_data'),
 )

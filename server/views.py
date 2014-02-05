@@ -138,7 +138,7 @@ def all_likes (request, conf):
   return HttpResponseRedirect('/%s/data' %(conf))
 
 @login_required
-def data (request, conf):
+def all_data (request, conf):
   conf = conf.lower()
   likes = []
   msg = 'OK'
