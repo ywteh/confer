@@ -134,8 +134,11 @@ def meetups (request, conf):
     return HttpResponseRedirect('/')
 
 
-@login_required
 def all_likes (request, conf):
+  return HttpResponseRedirect('/%s/data' %(conf))
+
+@login_required
+def data (request, conf):
   conf = conf.lower()
   likes = []
   msg = 'OK'
