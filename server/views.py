@@ -274,7 +274,7 @@ def likes (request):
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
     registration = get_registration(login, conf)
-    user = User.objects.get(email=login[0])
+    user = User.objects.get(email=login)
     perm = Permission.objects.get(app=app, user=user)
     if perm.access:
       data = None
@@ -314,7 +314,7 @@ def similar_people (request):
     app = App.objects.get(app_id=app_id, app_token=app_token)
     login = request.POST["login_id"]
     conf = request.POST["conf_id"]
-    user = User.objects.get(email=login[0])
+    user = User.objects.get(email=login)
     perm = Permission.objects.get(app=app, user=user)
 
     if perm.access:
