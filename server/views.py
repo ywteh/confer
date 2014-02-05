@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random
 
 from auth import *
 from django.http import *
@@ -166,7 +166,7 @@ def json_data (request, conf):
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
+  return HttpResponse(json.dumps({'msg': msg, 'data': random.shuffle(likes)}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
