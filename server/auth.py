@@ -60,19 +60,13 @@ def register_form (request, redirect_url='/', errors=[]):
 
 def login (request):
   redirect_url = '/'
-  if('redirect_url' in request.GET.keys()):
-    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
-
-  if not redirect_url or redirect_url == '':
-    redirect_url = '/'
+  if('redirect_url' in request.REQUEST.keys()):
+    redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
 
   if request.method == "POST":
     errors = []
     login_email = ''
 
-    if('redirect_url' in request.POST.keys()):
-      redirect_url = urllib.unquote_plus(request.POST['redirect_url'])
-      
     try:
       login_email = request.POST["login_email"].lower()
       login_password = hashlib.sha1(request.POST["login_password"]).hexdigest()
@@ -110,16 +104,14 @@ def login (request):
 
 def register (request):
   redirect_url = '/'
-  if('redirect_url' in request.GET.keys()):
-    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
+  if('redirect_url' in request.REQUEST.keys()):
+    redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
 
   if request.method == "POST":
     errors = []
     email = ''
     try:
       error = False
-      if('redirect_url' in request.POST.keys()):
-        redirect_url = urllib.unquote_plus(request.POST['redirect_url'])
 
       email = request.POST["email"].lower()
       password = request.POST["password"]
