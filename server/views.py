@@ -522,9 +522,9 @@ def allow_access (request):
   except Exception, e:
     errors.append('Error: ' + str(e))
     
-    c = {'msg_title': 'Data Access Permission', 'errors': errors} 
-    c.update(csrf(request))
-    return render_to_response('confirmation.html', c)
+  c = {'msg_title': 'Data Access Permission', 'errors': errors} 
+  c.update(csrf(request))
+  return render_to_response('confirmation.html', c)
 
 
 
