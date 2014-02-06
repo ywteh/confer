@@ -63,6 +63,9 @@ def login (request):
   if('redirect_url' in request.REQUEST.keys()):
     redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
 
+  if not redirect_url or redirect_url == '':
+    redirect_url = '/'
+
   if request.method == "POST":
     errors = []
     login_email = ''
@@ -106,6 +109,9 @@ def register (request):
   redirect_url = '/'
   if('redirect_url' in request.REQUEST.keys()):
     redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
+
+  if not redirect_url or redirect_url == '':
+    redirect_url = '/'
 
   if request.method == "POST":
     errors = []
