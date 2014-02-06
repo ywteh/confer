@@ -1,7 +1,11 @@
 {% extends "login-layout.html" %}
 {% block links %}
 <span id="logged_in_name">{{login_name}}</span> &nbsp;
-<a class="button" href="/">Home</a>
+{% if login_id %}
+<a class="button" href="/logout">Log Out</a>
+{% else %}
+<a class="button" href="/login">Log In</a>
+{% endif %}
 {% endblock %}
 {% block content %}
 <script type="text/javascript">
@@ -9,7 +13,7 @@
 <form method="POST" action="/developer/allow_access">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
-	<h3>Access to {{app_name}}</h3>
+	<h3>Data Access Permission</h3>
 	<hr />
 	<div id="msg">
 	<span class="bold">{{app_name}}</span> wants to access your confer data. You can allow or deny the access by selecting the corresponding option.
@@ -22,8 +26,7 @@
     </div>
 	<input type="hidden" name="user_email" id="user_email" value="{{user_email}}" />
 	<input type="hidden" name="app_id" id="app_id" value="{{app_id}}" />
-	<label for="access_val">Access: </label>
-	<input type="radio" name="access_val" value="allow"> Allow </input>
+	<input type="radio" name="access_val" value="allow" checked="checked"> Allow </input> &nbsp;&nbsp;
 	<input type="radio" name="access_val" value="deny"> Deny </input> <br /><br />
 	<input type="submit" class="button" value="Save" />
 </form>

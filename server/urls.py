@@ -17,16 +17,18 @@ urlpatterns = patterns('',
     url(r'^forgot', 'server.auth.forgot'),
     url(r'^reset/(\w+)', 'server.auth.reset'),
     url(r'^verify/(\w+)', 'server.auth.verify'),
-    url(r'^settings', 'server.auth.settings'),
 
-    #confer APIs
+    #confer apps APIs
     url(r'^api/likes$', 'server.views.likes'),
     url(r'^api/similar_people$', 'server.views.similar_people'),
 
-    #confer APIs
-    url(r'^developer/apps$', 'server.auth.apps'),
-    url(r'^developer/register_app$', 'server.auth.register_app'),
-    url(r'^developer/allow_access$', 'server.auth.allow_access'),
+    #confer developer APIs
+    url(r'^developer/apps$', 'server.views.apps'),
+    url(r'^developer/register_app$', 'server.views.register_app'),
+    url(r'^developer/allow_access$', 'server.views.allow_access'),
+
+    #confer settings
+    url(r'^settings', 'server.views.settings'),
 
     #move this matching in the end
     url(r'^(\w+?)/papers$', 'server.views.papers'),
