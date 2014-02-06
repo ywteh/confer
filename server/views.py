@@ -463,7 +463,13 @@ def apps (request):
     res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
-    return render_to_response('apps.html', {'apps': res})
+    
+    c = {
+        'user_email': login[0],
+        'login_id': login[0],
+        'login_name': login[1],
+        'apps': res}
+    return render_to_response('apps.html', c)
 
 @login_required
 def allow_access (request):
