@@ -37,11 +37,8 @@ LOGIN/REGISTER/RESET
 '''
 def login_required (f):
   def wrap (request, *args, **kwargs):
-      if kLogIn not in request.session.keys():
-        if(len(args)>0):
-          redirect_url = urlquote_plus(request.get_full_path())
-        else:
-          redirect_url = "/"
+      if kLogIn not in request.session.keys():        
+        redirect_url = urlquote_plus(request.get_full_path())        
         return HttpResponseRedirect("/login?redirect_url=%s" %(redirect_url))
       return f(request, *args, **kwargs)
   wrap.__doc__ = f.__doc__
