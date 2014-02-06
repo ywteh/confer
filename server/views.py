@@ -477,48 +477,52 @@ def allow_access (request):
   try:
     login = get_login(request)
     user = User.objects.get(email=login[0])
-    app_id = request.REQUEST["app_id"].lower()
-    app = App.objects.get(app_id=app_id)
-    access_allowed = True
-    if request.method == "POST":
-      access_val = request.REQUEST["access_val"]
-      if access_val == "allow":
-        access_allowed = True
-      else:
-        access_allowed = False
 
-      perm = None
-
-      try:
-        perm = Permission.objects.get(app=app, user=user)
-      except Permission.DoesNotExist:
-        perm = Permission(app=app, user=user)
-
-      perm.access = access_allowed
-      perm.save()
-
-      c = {
-        'msg_title': 'Thank you',
-        'msg_body': 'Your preference has been saved.'
-      } 
-      c.update(csrf(request))
-
-      return render_to_response('confirmation.html', c)
+    if 'app_id' not in request.REQUEST.keys():
+      errors.append("Couldn't find required parameter 'app_id' in the request")
     else:
-      c = {
-        'user_email': login[0],
-        'login_id': login[0],
-        'login_name': login[1],
-        'app_id': app_id,
-        'app_name': app.app_name,
-        'access_allowed': access_allowed}
-      c.update(csrf(request))
-      return render_to_response('app_access.html', c)
+      app_id = request.REQUEST["app_id"].lower()
+      app = App.objects.get(app_id=app_id)
+      access_allowed = True
+      if request.method == "POST":
+        access_val = request.REQUEST["access_val"]
+        if access_val == "allow":
+          access_allowed = True
+        else:
+          access_allowed = False
+
+        perm = None
+
+        try:
+          perm = Permission.objects.get(app=app, user=user)
+        except Permission.DoesNotExist:
+          perm = Permission(app=app, user=user)
+
+        perm.access = access_allowed
+        perm.save()
+
+        c = {
+          'msg_title': 'Thank you',
+          'msg_body': 'Your preference has been saved.'
+        } 
+        c.update(csrf(request))
+
+        return render_to_response('confirmation.html', c)
+      else:
+        c = {
+          'user_email': login[0],
+          'login_id': login[0],
+          'login_name': login[1],
+          'app_id': app_id,
+          'app_name': app.app_name,
+          'access_allowed': access_allowed}
+        c.update(csrf(request))
+        return render_to_response('app_access.html', c)
 
   except Exception, e:
     errors.append('Error: ' + str(e))
     
-    c = {'msg_title': 'App Access', 'errors': errors} 
+    c = {'msg_title': 'Data Access Permission', 'errors': errors} 
     c.update(csrf(request))
     return render_to_response('confirmation.html', c)
 
