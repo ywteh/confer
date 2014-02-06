@@ -479,7 +479,7 @@ def allow_access (request):
     user = User.objects.get(email=login[0])
 
     if 'app_id' not in request.REQUEST.keys():
-      errors.append("Couldn't find required parameter 'app_id' in the request")
+      errors.append("Couldn't find a required parameter 'app_id' in the request")
     else:
       app_id = request.REQUEST["app_id"].lower()
       app = App.objects.get(app_id=app_id)
