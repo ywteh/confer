@@ -9,7 +9,8 @@
 	      "blurb": "The ACM Conference on Human Factors in Computing Systems (CHI) series of academic conferences is generally considered the most prestigious in the field of human-computer interaction. It is hosted by ACM SIGCHI, the Special Interest Group on Computer-Human Interaction. CHI has been held annually since 1982 and attracts thousands of international attendees.",
 	      "location": "Paris, France",
 	      "start_date": "2013-04-27",
-	      "end_date": "2013-05-02"
+	      "end_date": "2013-05-02",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	
@@ -23,7 +24,8 @@
 	      "blurb": "The annual ACM SIGMOD/PODS conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences.",
 	      "location": "New York, US",
 	      "start_date": "2013-06-22",
-	      "end_date": "2013-06-27"
+	      "end_date": "2013-06-27",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 
@@ -37,7 +39,8 @@
 	      "blurb": "SIGIR is the Association for Computing Machinery's Special Interest Group on Information Retrieval. The scope of the group's specialty is the theory and application of computers to the acquisition, organization, storage, retrieval and distribution of information; emphasis is placed on working with non-numeric information, ranging from natural language to highly structured databases.",
 	      "location": "Dublin, Ireland",
 	      "start_date": "2013-07-27",
-	      "end_date": "2013-08-01"
+	      "end_date": "2013-08-01",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 
@@ -51,7 +54,8 @@
 	      "blurb": "IJCAI 2013 is the 23rd International Joint Conference on Artificial Intelligence. For the first time in IJCAI’s 44 year history, it is hosted in Beijing, China, on August 3-9, 2013. IJCAI is the main and oldest international event covering all aspects of Artificial Intelligence. It is also one of the most active, with presentations, workshops, tutorials, panels, and competitions spanning all areas of AI.",
 	      "location": "Beijing, China",
 	      "start_date": "2013-08-03",
-	      "end_date": "2013-08-09"
+	      "end_date": "2013-08-09",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -64,7 +68,8 @@
 	      "blurb": "The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.",
 	      "location": "Chicago, US",
 	      "start_date": "2013-08-11",
-	      "end_date": "2013-08-14"
+	      "end_date": "2013-08-14",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -77,7 +82,8 @@
 	      "blurb": "ICTIR is the premier conference of theoretical information retrieval (IR), covering a broad spectrum of diverse research areas that are concerned with mathematical/formal aspects of IR, including foundational issues, description or integration of models, retrieval applications, mathematical/formal techniques, existing and/or new theories and theoretical aspects.",
 	      "location": "Copenhagen, Denmark",
 	      "start_date": "2013-09-29",
-	      "end_date": "2013-10-02"
+	      "end_date": "2013-10-02",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -90,7 +96,8 @@
 	      "blurb": "The International Semantic Web Conference (ISWC) is the leading conference for research on Semantic Web topics. It is held annually and is the successor of the Semantic Web Working Symposium (SWWS).",
 	      "location": "Sydney, Australia",
 	      "start_date": "2013-10-21",
-	      "end_date": "2013-10-25"
+	      "end_date": "2013-10-25",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -103,7 +110,8 @@
 	      "blurb": "ACM Multimedia 2013(MM’13) is the worldwide premier multimedia conference and a key event to present scientific achievements and innovative industrial products. The conference offers scientists and practitioners in the area of multimedia technical sessions, tutorials, competitions, panels and discussion meetings on relevant and challenging research questions.",
 	      "location": "Barcelona, Catalunya, Spain",
 	      "start_date": "2013-10-21",
-	      "end_date": "2013-10-25"
+	      "end_date": "2013-10-25",
+	      "admins": "[\"anantb@csail.mit.edu\", \"aymans@acm.org\"]"
 	  	}
 	},
 	{"model": "server.Conference",
