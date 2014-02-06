@@ -180,11 +180,8 @@ def settings (request):
     return render_to_response('settings.html', c)
 
 
-def all_likes (request, conf):
-  return HttpResponseRedirect('/%s/json_data' %(conf))
-
 @login_required
-def json_data (request, conf):
+def anonymized_data_dump (request, conf):
   conf = conf.lower()
   likes = []
   msg = 'OK'

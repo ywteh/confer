@@ -37,6 +37,5 @@ urlpatterns = patterns('',
     url(r'^(\w+?)/meetups', 'server.views.meetups'),
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
-    url(r'^(\w+?)/all_likes$', 'server.views.all_likes'),
-    url(r'^(\w+?)/json_data$', 'server.views.json_data'),
+    url(r'^(\w+?)/anonymized_data_dump$', 'server.views.anonymized_data_dump'),
 )
