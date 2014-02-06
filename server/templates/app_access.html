@@ -13,7 +13,7 @@
 <form method="POST" action="/developer/allow_access">
 	{% csrf_token %}
 	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
-	<h3>Access to {{app_name}}</h3>
+	<h3>Data Access Permission</h3>
 	<hr />
 	<div id="msg">
 	<span class="bold">{{app_name}}</span> wants to access your confer data. You can allow or deny the access by selecting the corresponding option.
