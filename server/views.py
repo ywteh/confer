@@ -223,7 +223,7 @@ def visualizations (request, conf):
     except:
       pass
     return render_to_response('visualizations.html', {
-        'strength' : strength
+        'strength' : strength,
         'conf':conf,
         'login_id': login[0],
         'login_name': login[1]
