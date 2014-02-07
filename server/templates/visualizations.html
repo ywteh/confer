@@ -81,17 +81,17 @@ d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
       .call(force.drag);
 	  
   node.append("circle")
-      .attr('r', 5)
+      .attr('r', 10)
       .style("fill", "#cfeb8a")
       .style("fill-opacity", 0.8);
   
   node.append("text")
   	.attr("x", 12)
   	.attr("dy", ".10em")
-  	.text(function(d) { return d; });
+  	.text(d);
 
   node.append("title")
-      .text(function(d) { return entities[d] });
+      .text(d);
 
   // Hook up some events to D3.js.
   force.on('tick', function() {
