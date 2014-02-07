@@ -47,6 +47,10 @@ function get_size(weight){
 	return (1 + Math.log(weight));
 }
 
+function get_title(id){
+	return entities[id].title;
+}
+
 
 
 var svg = d3.select("#visualization_container").append("svg")
@@ -91,7 +95,7 @@ d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, gra
   	.text(function(d) { return d.paper_id; });
 
   node.append("title")
-      .text(function(d) { return entities[d.paper_id].title; });
+      .text(function(d) { return get_title(d.paper_id); });
 
   // Hook up some events to D3.js.
   force.on('tick', function() {
