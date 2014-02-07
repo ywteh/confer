@@ -257,14 +257,18 @@ def paper_paper_graph (request, conf):
           common_likes = likes[p1].intersection(likes[p2])        
           edges[p1][p2] = len(common_likes)
 
-    nodesArray = list(nodes)
+    nodes = list(nodes)
+    k = 0
+    for node in nodes:
+      nodesArray.append({'id': k, 'paper_id': node, 'weight': len(likes[node])})
+      k += 1
 
     for edge in edges:
       links = edges[edge]
       for l in links:
         weight = edges[edge][l]
         if(weight >= strength):
-          linksArray.append({'source' : nodesArray.index(edge), 'target' : nodesArray.index(l), 'weight': weight})
+          linksArray.append({'source' : nodesArray.index(edge), 'target' : nodes.index(l), 'weight': weight})
 
   except Exception, e:
     errors.append(str(e))

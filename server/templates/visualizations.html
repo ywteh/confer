@@ -43,6 +43,12 @@ var width = 1024,
     height = 900;
 
 
+function get_size(weight){
+	return (1 + Math.log(weight));
+}
+
+
+
 var svg = d3.select("#visualization_container").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -75,17 +81,17 @@ d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
       .call(force.drag);
 	  
   node.append("circle")
-      .attr('r', 10)
+      .attr('r', function(d) { return get_size(d.weight); })
       .style("fill", "#cfeb8a")
       .style("fill-opacity", 0.8);
   
   node.append("text")
   	.attr("x", 12)
   	.attr("dy", ".10em")
-  	.text(function(d) { return d });
+  	.text(function(d) { return d.paper_id; });
 
   node.append("title")
-      .text(function(d) { console.log(d.length); return entities[d]['title']; });
+      .text(function(d) { return d.paper_id; });
 
   // Hook up some events to D3.js.
   force.on('tick', function() {
