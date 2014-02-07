@@ -217,7 +217,13 @@ def visualizations (request, conf):
   try:
     request.session[kConf] = conf
     login = get_login(request)
+    strength = 10
+    try:
+      strength = int(request.REQUEST["strength"])
+    except:
+      pass
     return render_to_response('visualizations.html', {
+        'strength' : strength
         'conf':conf,
         'login_id': login[0],
         'login_name': login[1]
@@ -251,7 +257,7 @@ def paper_paper_graph (request, conf):
         nodes.add(p)
     
     nodes = list(nodes)
-      
+
     for p1 in nodes:
       for p2 in nodes:
         edges[p1][p2] = -1
