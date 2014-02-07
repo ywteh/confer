@@ -133,7 +133,6 @@ def meetups (request, conf):
     print e
     return HttpResponseRedirect('/')
 
-
 @login_required
 def settings (request):
   errors = []
@@ -211,6 +210,22 @@ def anonymized_data_dump (request, conf):
     msg = 'Error: %s.' %(e)
 
   return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
+
+def visualizations (request, conf):
+  conf = conf.lower()
+  try:
+    request.session[kConf] = conf
+    login = get_login(request)
+    return render_to_response('visualizations.html', {
+        'conf':conf,
+        'login_id': login[0],
+        'login_name': login[1]
+      }
+    )
+  except:
+    return HttpResponseRedirect('/')
+
+
 
 @csrf_exempt
 def data (request):

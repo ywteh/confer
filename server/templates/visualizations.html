@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
+<a class="button navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
+
+{% if login_id %}
+<a class="button navitem" href="/logout">Log Out</a>
+{% else %}
+<a class="button navitem" href="/login?redirect_url=/{{conf}}/papers">Log In</a>
+{% endif %}
+{% endblock %}
+{% block content %} 
+<style>
+
+.node circle {
+  stroke: #cfeb8a;
+  stroke-width: 1px;
+  stroke-opacity: 0.8;
+
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .4;
+}
+
+text {
+  font: 8px sans-serif;
+  pointer-events: none;
+}
+
+</style>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+
+var width = 1200,
+    height = 1200;
+
+
+function get_size(weight){
+	return (1 + Math.log(weight));
+}
+
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+d3.json("/static/data.json", function(error, graph) {
+  // Create a force layout to display nodes.
+  var force = d3.layout.force()
+  	  .gravity(1)
+      .charge(-400)
+      .linkDistance(30)
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .size([width, height]);
+	 
+	  	
+
+  // Add the edges to the SVG.
+  var link = svg.selectAll('.link')
+      .data(graph.links)
+      .enter().append('line')
+      .attr('class', 'link')
+      .style('stroke-width', 1);
+
+  // Add the nodes to the SVG.
+  var node = svg.selectAll('.node')
+      .data(graph.nodes)
+	  .enter().append("g")
+	  .attr("class", "node")    
+      .call(force.drag);
+	  
+  node.append("circle")
+      .attr('r', function(d) { return get_size(d.weight); })
+      .style("fill", "#cfeb8a")
+      .style("fill-opacity", 0.8);
+  
+  node.append("text")
+  	.attr("x", 12)
+  	.attr("dy", ".10em")
+  	.text(function(d) { return d.session; });
+
+  node.append("title")
+      .text(function(d) { return d.title + " (" + d.session + ")"; });
+
+  // Hook up some events to D3.js.
+  force.on('tick', function() {
+	  node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+    link.attr('x1', function(d) { return d.source.x; })
+      .attr('y1', function(d) { return d.source.y; })
+      .attr('x2', function(d) { return d.target.x; })
+      .attr('y2', function(d) { return d.target.y; });
+  });
+  force.start()
+
+});
+
+</script>
+
+
+
+{% endblock %}
