@@ -91,7 +91,7 @@ d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, gra
   	.text(function(d) { return d.paper_id; });
 
   node.append("title")
-      .text(function(d) { return d.paper_id; });
+      .text(function(d) { return entities[d.paper_id].title; });
 
   // Hook up some events to D3.js.
   force.on('tick', function() {
