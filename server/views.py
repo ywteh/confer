@@ -264,7 +264,7 @@ def paper_paper_graph (request, conf):
       for l in links:
         weight = edges[edge][l]
         if(weight >= strength):
-          linksArray.append({'source' : nodes.index(edge), 'target' : nodes.index(l), 'weight': weight})
+          linksArray.append({'source' : nodesArray.index(edge), 'target' : nodesArray.index(l), 'weight': weight})
 
   except Exception, e:
     errors.append(str(e))
