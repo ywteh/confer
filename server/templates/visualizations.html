@@ -81,7 +81,7 @@ d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
       .call(force.drag);
 	  
   node.append("circle")
-      .attr('r', function(d) { return 30; })
+      .attr('r', function(d) { console.log(d); return 30; })
       .style("fill", "#cfeb8a")
       .style("fill-opacity", 0.8);
   
