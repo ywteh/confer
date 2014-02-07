@@ -40,7 +40,7 @@ text {
 <script>
 
 var width = 1024,
-    height = 1200;
+    height = 900;
 
 
 function get_size(weight){
@@ -54,7 +54,7 @@ var svg = d3.select("#visualization_container").append("svg")
     .attr("height", height);
 
 
-d3.json("/static/data.json", function(error, graph) {
+d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
   // Create a force layout to display nodes.
   var force = d3.layout.force()
   	  .gravity(1)
