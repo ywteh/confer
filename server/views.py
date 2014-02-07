@@ -249,12 +249,15 @@ def paper_paper_graph (request, conf):
 
     conference = Conference.objects.get(unique_name=conf)    
     registrations = Registration.objects.filter(conference=conference)
-    for r in registrations:        
-      r_likes = Likes.objects.get(registration=r)
-      r_papers = json.loads(r_likes.likes)
-      for p in r_papers:
-        likes[p].add(r)
-        nodes.add(p)
+    for r in registrations:
+      try:      
+        r_likes = Likes.objects.get(registration=r)
+        r_papers = json.loads(r_likes.likes)
+        for p in r_papers:
+          likes[p].add(r)
+          nodes.add(p)
+      except:
+        pass
     
     nodes = list(nodes)
 
