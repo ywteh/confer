@@ -231,8 +231,16 @@ def paper_paper_graph (request, conf):
   edges = defaultdict(dict)
   nodes = set()
   likes = defaultdict(set)
+  nodesArray = []
+  linksArray = []
   errors = []
   try:
+    strength = 10
+    try:
+      strength = int(request.REQUEST["strength"])
+    except:
+      pass
+
     conference = Conference.objects.get(unique_name=conf)    
     registrations = Registration.objects.filter(conference=conference)
     for r in registrations:        
@@ -248,10 +256,20 @@ def paper_paper_graph (request, conf):
         if(p1 != p2): 
           common_likes = likes[p1].intersection(likes[p2])        
           edges[p1][p2] = len(common_likes)
+
+  nodesArray = list(nodes)
+
+  for edge in edges:
+    links = edges[edge]
+    for l in links:
+      weight = edges[edge][l]
+      if(weight >= strength):
+        linksArray.append({'source' : nodes.index(edge), 'target' : nodes.index(l), 'weight': weight})
+
   except Exception, e:
     errors.append(str(e))
   
-  return HttpResponse(json.dumps({'nodes': list(nodes), 'edges': edges, 'errors': errors}), mimetype="application/json")
+  return HttpResponse(json.dumps({'nodes': nodesArray, 'links': linksArray, 'errors': errors}), mimetype="application/json")
 
 @csrf_exempt
 def data (request):
