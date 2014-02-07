@@ -31,12 +31,13 @@ urlpatterns = patterns('',
     url(r'^settings', 'server.views.settings'),
 
     #move this matching in the end
+    url(r'^(\w+?)/visualizations$', 'server.views.visualizations'),
+    url(r'^(\w+?)/paper_paper_graph$', 'server.views.paper_paper_graph'),
+    
     url(r'^(\w+?)/papers$', 'server.views.papers'),
     url(r'^(\w+?)/schedule$', 'server.views.schedule'),
     url(r'^(\w+?)/paper', 'server.views.paper'),
     url(r'^(\w+?)/meetups', 'server.views.meetups'),
-    url(r'^(\w+?)/visualizations$', 'server.views.visualizations'),
-    url(r'^(\w+?)/paper_paper_graph$', 'server.views.paper_paper_graph'),
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
     url(r'^(\w+?)/anonymized_data_dump$', 'server.views.anonymized_data_dump'),
