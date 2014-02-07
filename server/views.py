@@ -249,6 +249,8 @@ def paper_paper_graph (request, conf):
       for p in r_papers:
         likes[p].add(r)
         nodes.add(p)
+    
+    nodes = list(nodes)
       
     for p1 in nodes:
       for p2 in nodes:
@@ -257,7 +259,6 @@ def paper_paper_graph (request, conf):
           common_likes = likes[p1].intersection(likes[p2])        
           edges[p1][p2] = len(common_likes)
 
-    nodes = list(nodes)
     k = 0
     for node in nodes:
       nodesArray.append({'id': k, 'paper_id': node, 'weight': len(likes[node])})
