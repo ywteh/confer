@@ -47,6 +47,10 @@ function get_size(weight){
 	return (1 + Math.log(weight));
 }
 
+function get_width(weight){
+	return (1 + Math.log(weight));
+}
+
 function get_title(id){
 	paper = entities[id.toString()]
 	if(paper != null){
@@ -80,7 +84,7 @@ d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, gra
       .data(graph.links)
       .enter().append('line')
       .attr('class', 'link')
-      .style('stroke-width', 1);
+      .style('stroke-width', function(d) { return get_width(d.weight); });
 
   // Add the nodes to the SVG.
   var node = svg.selectAll('.node')
