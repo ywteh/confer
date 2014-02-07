@@ -6,6 +6,7 @@ from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
 from django.db.utils import IntegrityError
+from collections import defaultdict
 
 from utils import *
 from models import *
