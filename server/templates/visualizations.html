@@ -35,9 +35,11 @@ text {
 </style>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 
+<div id="visualization_container"></div>
+
 <script>
 
-var width = 1200,
+var width = 1024,
     height = 1200;
 
 
@@ -47,7 +49,7 @@ function get_size(weight){
 
 
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#visualization_container").append("svg")
     .attr("width", width)
     .attr("height", height);
 
