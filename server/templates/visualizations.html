@@ -85,7 +85,7 @@ d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
   	.text(function(d) { return d });
 
   node.append("title")
-      .text(function(d) { return entities[d]['title']; });
+      .text(function(d) { console.log(d) return entities[d]['title']; });
 
   // Hook up some events to D3.js.
   force.on('tick', function() {
