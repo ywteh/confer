@@ -70,8 +70,8 @@ var svg = d3.select("#visualization_container").append("svg")
 d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, graph) {
   // Create a force layout to display nodes.
   var force = d3.layout.force()
-      .charge(-70)
-      .linkDistance(function(e){return 100/(1 + e.weight)})
+      .charge(-100)
+      .linkDistance(function(e){return 50/(1 + e.weight/2)})
       .nodes(graph.nodes)
       .links(graph.links)
       .size([width, height]);
