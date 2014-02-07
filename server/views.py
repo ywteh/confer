@@ -225,7 +225,7 @@ def visualizations (request, conf):
     )
   except:
     return HttpResponseRedirect('/')
-
+'''
 def paper_paper_graph (request, conf):
   conf = conf.lower()
   edges = defaultdict(dict)
@@ -270,7 +270,7 @@ def paper_paper_graph (request, conf):
     errors.append(str(e))
   
   return HttpResponse(json.dumps({'nodes': nodesArray, 'links': linksArray, 'errors': errors}), mimetype="application/json")
-
+'''
 @csrf_exempt
 def data (request):
   recs = []
