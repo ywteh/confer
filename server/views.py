@@ -225,7 +225,7 @@ def visualizations (request, conf):
     )
   except:
     return HttpResponseRedirect('/')
-'''
+
 def paper_paper_graph (request, conf):
   conf = conf.lower()
   edges = defaultdict(dict)
@@ -257,20 +257,20 @@ def paper_paper_graph (request, conf):
           common_likes = likes[p1].intersection(likes[p2])        
           edges[p1][p2] = len(common_likes)
 
-  nodesArray = list(nodes)
+    nodesArray = list(nodes)
 
-  for edge in edges:
-    links = edges[edge]
-    for l in links:
-      weight = edges[edge][l]
-      if(weight >= strength):
-        linksArray.append({'source' : nodes.index(edge), 'target' : nodes.index(l), 'weight': weight})
+    for edge in edges:
+      links = edges[edge]
+      for l in links:
+        weight = edges[edge][l]
+        if(weight >= strength):
+          linksArray.append({'source' : nodes.index(edge), 'target' : nodes.index(l), 'weight': weight})
 
   except Exception, e:
     errors.append(str(e))
   
   return HttpResponse(json.dumps({'nodes': nodesArray, 'links': linksArray, 'errors': errors}), mimetype="application/json")
-'''
+
 @csrf_exempt
 def data (request):
   recs = []
