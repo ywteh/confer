@@ -79,8 +79,10 @@ d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, gra
 	 
 	  	
 
-  
-
+  // Add the edges to the SVG.
+  var link = svg.selectAll('.link')
+      .data(graph.links)
+ 
   // Add the nodes to the SVG.
   var node = svg.selectAll('.node')
       .data(graph.nodes)
