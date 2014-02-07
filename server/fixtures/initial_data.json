@@ -10,7 +10,8 @@
 	      "location": "Paris, France",
 	      "start_date": "2013-04-27",
 	      "end_date": "2013-05-02",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	
@@ -25,7 +26,8 @@
 	      "location": "New York, US",
 	      "start_date": "2013-06-22",
 	      "end_date": "2013-06-27",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 
@@ -40,7 +42,8 @@
 	      "location": "Dublin, Ireland",
 	      "start_date": "2013-07-27",
 	      "end_date": "2013-08-01",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 
@@ -55,7 +58,8 @@
 	      "location": "Beijing, China",
 	      "start_date": "2013-08-03",
 	      "end_date": "2013-08-09",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -69,7 +73,8 @@
 	      "location": "Chicago, US",
 	      "start_date": "2013-08-11",
 	      "end_date": "2013-08-14",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -83,7 +88,8 @@
 	      "location": "Copenhagen, Denmark",
 	      "start_date": "2013-09-29",
 	      "end_date": "2013-10-02",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -97,7 +103,8 @@
 	      "location": "Sydney, Australia",
 	      "start_date": "2013-10-21",
 	      "end_date": "2013-10-25",
-	      "admins": "[\"anantb@csail.mit.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -111,7 +118,8 @@
 	      "location": "Barcelona, Catalunya, Spain",
 	      "start_date": "2013-10-21",
 	      "end_date": "2013-10-25",
-	      "admins": "[\"anantb@csail.mit.edu\", \"aymans@acm.org\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"aymans@acm.org\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\", \"aymans@acm.org\"]"
 	  	}
 	},
 	{"model": "server.Conference",
@@ -125,7 +133,8 @@
 	      "location": "Baltimore, Maryland, USA",
 	      "start_date": "2014-02-15",
 	      "end_date": "2014-02-19",
-	      "admins": "[\"anantb@csail.mit.edu\", \"merrie@microsoft.com\", \"hq@northwestern.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"merrie@microsoft.com\", \"hq@northwestern.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\", \"merrie@microsoft.com\", \"hq@northwestern.edu\"]"
 	  	}
 	},
 	
@@ -140,7 +149,8 @@
 	      "location": "Toronto, Canada",
 	      "start_date": "2014-04-26",
 	      "end_date": "2014-05-01",
-	      "admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]"
 	  	}
 	}
 ]
