@@ -56,19 +56,20 @@ var svg = d3.select("#visualization_container").append("svg")
 
 d3.json("/{{conf}}/paper_paper_graph", function(error, graph) {
   // Create a force layout to display nodes.
+  console.log(graph)
   var force = d3.layout.force()
   	  .gravity(1)
       .charge(-400)
       .linkDistance(30)
       .nodes(graph.nodes)
-      .links(graph.links)
+      .links(graph.edges)
       .size([width, height]);
 	 
 	  	
 
   // Add the edges to the SVG.
   var link = svg.selectAll('.link')
-      .data(graph.links)
+      .data(graph.edges)
       .enter().append('line')
       .attr('class', 'link')
       .style('stroke-width', 1);
