@@ -17,8 +17,8 @@ A sample of how to use confer APIs
 
 
 host = 'confer.csail.mit.edu'
-app_id = 'test_app' #  your app_id
-app_token = '68b6fdc3285886ac0f9f3d01bc86a9ad06867777' # your app token
+app_id = 'eirik' #  your app_id
+app_token = '87d23cbdb543c5e97d9096e4a56afd457e3b73af' # your app token
 conf_id = 'cscw2014' # conference id
 
 
