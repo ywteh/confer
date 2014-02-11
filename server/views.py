@@ -290,8 +290,11 @@ def feed (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
+    login = get_login(request)
     return render_to_response('feed.html', {
-        'conf':conf
+        'conf':conf,
+        'login_id': login[0],
+        'login_name': login[1]
       }
     )
   except:
