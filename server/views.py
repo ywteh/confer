@@ -285,6 +285,18 @@ def paper_paper_graph (request, conf):
   
   return HttpResponse(json.dumps({'nodes': nodesArray, 'links': linksArray, 'errors': errors}), mimetype="application/json")
 
+
+def feed (request, conf):
+  conf = conf.lower()
+  try:
+    request.session[kConf] = conf
+    return render_to_response('feed.html', {
+        'conf':conf
+      }
+    )
+  except:
+    return HttpResponseRedirect('/')
+
 @csrf_exempt
 def data (request):
   recs = []

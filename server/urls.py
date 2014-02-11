@@ -32,6 +32,7 @@ urlpatterns = patterns('',
 
     #move this matching in the end
     url(r'^(\w+?)/visualizations$', 'server.views.visualizations'),
+    url(r'^(\w+?)/feed$', 'server.views.feed'),
     url(r'^(\w+?)/paper_paper_graph$', 'server.views.paper_paper_graph'),
     
     url(r'^(\w+?)/papers$', 'server.views.papers'),

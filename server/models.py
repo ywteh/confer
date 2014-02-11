@@ -107,6 +107,21 @@ class Likes(models.Model):
     app_label = 'server'
     db_table = "likes"
 
+class Following(models.Model):
+  id = models.AutoField(primary_key=True)
+  timestamp = models.DateTimeField(auto_now=True)
+  paper_id = models.TextField()
+  conference = models.ForeignKey('Conference')
+  user = models.ForeignKey('User')
+
+  def __unicode__(self):
+    return str(self.paper_id)
+
+  class Meta:
+    app_label = 'server'
+    db_table = "following"
+    unique_together = ("paper_id", "conference", "user")
+
 
 class Logs(models.Model):
   id = models.AutoField(primary_key=True)
