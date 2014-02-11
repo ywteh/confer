@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem nav_papers" href="/{{conf}}/papers">My Papers</a>
+<a class="button navitem nav_schedule" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem nav_meetups" href="/{{conf}}/meetups">My Meetups</a>
+
+{% if login_id %}
+<a class="button navitem" href="/logout">Log Out</a>
+{% else %}
+<a class="button navitem" href="/login?redirect_url=/{{conf}}/papers">Log In</a>
+{% endif %}
+{% endblock %}
+{% block content %} 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=652805441444150";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-activity" data-site="developers.facebook.com" data-action="likes, recommends" data-colorscheme="light" data-header="true"></div>
+
+
+{% endblock %}
