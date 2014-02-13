@@ -17,9 +17,9 @@ A sample of how to use confer APIs
 
 
 host = 'confer.csail.mit.edu'
-app_id = 'eirik' #  your app_id
-app_token = '87d23cbdb543c5e97d9096e4a56afd457e3b73af' # your app token
-conf_id = 'cscw2014' # conference id
+app_id = 'karger' #  your app_id
+app_token = 'cc9fd3c3400632d4ffd09a2077f54d1fb0e434b1' # your app token
+conf_id = 'chi2014' # conference id
 
 
 def http_post(host, path, params):

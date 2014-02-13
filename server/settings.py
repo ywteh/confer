@@ -7,7 +7,6 @@ ALLOWED_HOSTS = ['confer.csail.mit.edu', 'confer-experimental.csail.mit.edu', 'c
 
 ADMINS = (
     ('Confer Team', 'confer@csail.mit.edu'),
-    ('Confer Cobi', 'confer-cobi@csail.mit.edu'),
 )
 
 
