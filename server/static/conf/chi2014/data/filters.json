@@ -44,25 +44,25 @@ s_filters=[
 					"data":"Monday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Mon (Feb, 17)"
+					"label":"Monday"
 				},
 				{
 					"data":"Tuesday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Tuesday (Feb, 18)"
+					"label":"Tuesday"
 				},
 				{
 					"data":"Wednesday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Wed (Feb, 19)"
+					"label":"Wednesday"
 				},
 				{
 					"data":"Thursday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Wed (Feb, 19)"
+					"label":"Thursday"
 				}
 		]
 	},
