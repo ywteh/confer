@@ -25,11 +25,6 @@ Tag papers you want to see and get social recommendations of other papers you ma
 </div>	
 <!--- Papers Page -->
 <div id="home">
-  <div class="search-container">
-      <label id="search_label">Search:</label>
-      <input type="text" id="search_papers" placeholder="Enter paper titles, authors, or keywords" class="search-box"></input>&nbsp;&nbsp;
-      <span class="button" id="search_papers_btn">Search</span>
-  </div>
   <h3 class="collapsible-title collapsible" id="likes_toggle" data="likes_container"><span class="arrow arrow-down"></span>Papers you want to see <span class="count"></span></h3>	
 	<div id="likes_container">
 		<table id="likes" class="paper-container">		
@@ -53,6 +48,11 @@ Tag papers you want to see and get social recommendations of other papers you ma
 
 	<h3 class="collapsible-title collapsible" id="papers_toggle" data="all_papers_container"><span class="arrow arrow-down"></span>All Papers <span class="count"></span></h3>
 	<div id="all_papers_container">
+    <div class="search-container">
+      <label id="search_label">Search:</label>
+      <input type="text" id="search_papers" placeholder="Enter paper titles, authors, or keywords" class="search-box"></input>&nbsp;&nbsp;
+      <span class="button" id="search_papers_btn">Search</span>
+    </div>
 		<table id="all_papers" class="paper-container">	
 		</table>
         <br />
