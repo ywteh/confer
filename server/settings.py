@@ -157,5 +157,6 @@ LOGGING = {
 # server_settings
 try:
     from server_settings import *
+    USE_X_FORWARDED_HOST = True
 except ImportError:
     pass
