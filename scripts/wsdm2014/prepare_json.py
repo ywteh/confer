@@ -92,11 +92,11 @@ def prepare_data(data_file):
     s_time = s_info['time']
     if s_date in t_schedule:
       if s_time in t_schedule[s_date]:
-        t_schedule[s_date][s_time]['sessions'].append(s_info)
+        t_schedule[s_date][s_time]['sessions'].append(session)
       else:
-        t_schedule[s_date][s_time] = {'time': s_time, 'sessions':[s_info] }
+        t_schedule[s_date][s_time] = {'time': s_time, 'sessions':[session] }
     else:
-      t_schedule[s_date] =  {s_time: {'time': s_time, 'sessions':[s_info]}}
+      t_schedule[s_date] =  {s_time: {'time': s_time, 'sessions':[session]}}
 
   print t_schedule
   prepare_schedule(t_schedule)
