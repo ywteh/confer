@@ -33,7 +33,7 @@ def home (request):
         }
     )
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
 
 def team (request):
   current_team = json.loads(
@@ -59,7 +59,7 @@ def conf (request, conf):
   except Conference.DoesNotExist:
     raise Http404
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
 
 def papers (request, conf):
   conf = conf.lower()
@@ -77,9 +77,9 @@ def papers (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404
+    raise Http404()
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
   
   
 
@@ -99,9 +99,9 @@ def schedule (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404
+    raise Http404()
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
 
 
 def paper (request, conf):
@@ -120,9 +120,9 @@ def paper (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404
+    raise Http404()
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
 
 @login_required
 def meetups (request, conf):
@@ -144,9 +144,9 @@ def meetups (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404
+    raise Http404)()
   except:
-    raise HttpResponseServerError
+    raise HttpResponseServerError()
 
 @login_required
 def settings (request):
