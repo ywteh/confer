@@ -1,5 +1,4 @@
 fb_comment = true
-nav_hide = ["nav_schedule"]
 s_filters=[
 	{
 		"label":"Sessions", 
