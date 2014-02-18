@@ -24,13 +24,12 @@ if(os.path.abspath(p+"/..") not in sys.path):
 def home (request):
   try:
     conferences = Conference.objects.all().values()
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
     return render_to_response('home.html', {
           'conferences':conferences,
-          'login_id': user.email,
-          'login_name': user.f_name,
-          'meetups': user.meetups_enabled
+          'login_id': login_id,
+          'login_name': login_name
         }
     )
   except:
@@ -41,13 +40,13 @@ def team (request):
       open(p+'/fixtures/' + 'team.json').read())
   past_collaborators = json.loads(
       open(p+'/fixtures/' + 'collaborators.json').read())
-  login = get_login(request)
-  user = login[1]
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
   return render_to_response(
       'team.html', {'current_team': current_team,
       'past_collaborators': past_collaborators,
-      'login_id': user.email,
-      'login_name': user.f_name
+      'login_id': login_id,
+      'login_name': login_name
     }
   )
 
@@ -67,12 +66,14 @@ def papers (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    meetups = None if not user else user.meetups_enabled
     return render_to_response('papers.html', {
         'conf':conf,
-        'login_id': user.email,
-        'login_name': user.f_name
+        'login_id': login_id,
+        'login_name': login_name,
+        'meetups': user.meetups_enabled
       }
     )
   except Conference.DoesNotExist:
@@ -87,12 +88,14 @@ def schedule (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    meetups = None if not user else user.meetups_enabled
     return render_to_response('schedule.html', {
         'conf':conf,
-        'login_id': user.email,
-        'login_name': user.f_name
+        'login_id': login_id,
+        'login_name': login_name,
+        'meetups': user.meetups_enabled
       }
     )
   except Conference.DoesNotExist:
@@ -106,12 +109,14 @@ def paper (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    meetups = None if not user else user.meetups_enabled
     return render_to_response('paper.html', {
         'conf':conf,
-        'login_id': user.email,
-        'login_name': user.f_name
+        'login_id': login_id,
+        'login_name': login_name,
+        'meetups': user.meetups_enabled
       }
     )
   except Conference.DoesNotExist:
@@ -126,8 +131,7 @@ def meetups (request, conf):
     Conference.objects.get(unique_name=conf)
     similar_people = []
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
     meetups_enabled = user.meetups_enabled
     if meetups_enabled:
       similar_people = get_similar_people(user.email, conf, meetups=True)
@@ -195,8 +199,7 @@ def anonymized_data_dump (request, conf):
   likes = []
   msg = 'OK'
   try:
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
     conference = Conference.objects.get(unique_name=conf)
     admins = json.loads(conference.admins)
     if user.email in admins:
@@ -226,8 +229,8 @@ def visualizations (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
     strength = 10
     try:
       strength = int(request.REQUEST["strength"])
@@ -236,8 +239,8 @@ def visualizations (request, conf):
     return render_to_response('visualizations.html', {
         'strength' : strength,
         'conf':conf,
-        'login_id': user.email,
-        'login_name': user.f_name
+        'login_id': login_id,
+        'login_name': login_name
       }
     )
   except:
@@ -301,12 +304,12 @@ def feed (request, conf):
   conf = conf.lower()
   try:
     request.session[kConf] = conf
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
     return render_to_response('feed.html', {
         'conf':conf,
-        'login_id': user.email,
-        'login_name': user.f_name
+        'login_id': login_id,
+        'login_name': login_name
       }
     )
   except:
@@ -554,17 +557,18 @@ def register_app (request):
 
 @login_required
 def apps (request):
-    login = get_login(request)
-    user = login[1]
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    meetups = None if not user else user.meetups_enabled
     apps = App.objects.filter(user=user)
     res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
     
     c = {
-        'user_email': user.email,
-        'login_id': user.email,
-        'login_name': user.f_name,
+        'user_email': login_id,
+        'login_id': login_id,
+        'login_name': login_name,
         'apps': res}
     return render_to_response('apps.html', c)
 
@@ -572,9 +576,9 @@ def apps (request):
 def allow_access (request):
   errors = []
   try:
-    login = get_login(request)
-    user = login[1]
-
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    
     if 'app_id' not in request.REQUEST.keys():
       errors.append("Couldn't find a required parameter 'app_id' in the request")
     else:
@@ -607,9 +611,9 @@ def allow_access (request):
         return render_to_response('confirmation.html', c)
       else:
         c = {
-          'user_email': user.email,
-          'login_id': user.email,
-          'login_name': user.f_name,
+          'user_email': login_id,
+          'login_id': login_id,
+          'login_name': login_name,
           'app_id': app_id,
           'app_name': app.app_name,
           'access_allowed': access_allowed}
