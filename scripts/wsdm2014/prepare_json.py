@@ -28,14 +28,14 @@ def get_class(s_time):
   else:
     return 'evening'
 
-def prepare_schedule (schedule):
+def prepare_schedule (t_schedule):
   # sort schedule data
-  for s_date in schedule:
-    schedule[s_date] = sorted(
-      schedule[s_date].items(), key = lambda x: get_start_time(x[0]))
+  for s_date in t_schedule:
+    t_schedule[s_date] = sorted(
+      t_schedule[s_date].items(), key = lambda x: get_start_time(x[0]))
 
-  schedule = sorted(schedule.items(), key=lambda x: get_date_time(x[0]))
-  for day_schedule in schedule:
+  t_schedule = sorted(t_schedule.items(), key=lambda x: time.mktime(get_date_time(x[0])))
+  for day_schedule in t_schedule:
     slots = []
     print day_schedule
     s_date = day_schedule[0]
@@ -94,7 +94,7 @@ def prepare_data(data_file):
 
     p_id += 1
 
-  #prepare_schedule(t_schedule)
+  prepare_schedule(t_schedule)
 
 
 def main():
