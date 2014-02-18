@@ -255,7 +255,7 @@ function get_hash() {
         return hash.slice(2)
     } else {
         var paper_id = hash.slice(1)
-        window.location.href = window.location.protocol+'//' + window.location.host + window.location.port + window.location.pathname + '#!' + paper_id
+        window.location.hash = '#!' + paper_id
         window.location.reload(false)
         return null
     }
@@ -1290,7 +1290,8 @@ function load_paper(){
   }
   var selected_paper_html = get_selected_paper_html(paper_id)
   if(selected_paper_html == null) {
-    window.location.href='/PageNotFound'
+    //window.location.href='/PageNotFound'
+    return
   }
   $('#selected_paper').find('.paper_details').html(selected_paper_html)
   $('#similar_papers').html('')
