@@ -251,17 +251,12 @@ function get_params() {
 
 function get_hash() {
     var hash = window.location.hash;
-
-    if (hash.indexOf('#comment')!= -1) {
-        hash = hash.slice(0, hash.indexOf('#comment'))
-    }
-
     if(hash.indexOf('#!') == 0) {
         return hash.slice(2)
     } else {
         var paper_id = hash.slice(1)
-        window.location.hash =  '#!' + paper_id;
-        window.location.reload(false)
+        window.location.replace(window.location.protocol+'//' + window.location.host + window.location.port + window.location.pathname + '#!' + paper_id)
+        return null
     }
 }
 
@@ -618,11 +613,13 @@ function refresh_recommendations(){
 
 
 function select_paper(id){
+    var url = window.location.protocol + '//' + window.location.host + window.location.port + window.location.pathname
+ 
     if(window.location.pathname.endsWith('/paper')){
-        window.location.hash = "#!" + id;
-        window.location.reload(false);
+        var paper_id = "#!" + id;
+        window.location.assign(url + paper_id)
     }else{
-        window.location.href = 'paper#!' + id
+        window.location.assign(url + 'paper#!' + id)
     }
     window.scrollTo(0,0)
 }
@@ -1289,7 +1286,9 @@ function handle_star(event){
 
 function load_paper(){
   var paper_id = get_hash()
-  console.log(paper_id)
+  if(paper_id == null) {
+    return
+  }
   var selected_paper_html = get_selected_paper_html(paper_id)
   if(selected_paper_html == null) {
     window.location.href='/PageNotFound'
@@ -1302,7 +1301,7 @@ function load_paper(){
   for(var i = 0; i< recs.length; i++){        
     raw_html += get_paper_html(Object.keys(recs[i])[0])            
   } 
-  $('#similar_papers').html(raw_html)     
+  $('#similar_papers').html(raw_html)
 } 
 
 
