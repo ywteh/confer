@@ -1290,7 +1290,7 @@ function load_paper(){
   }
   var selected_paper_html = get_selected_paper_html(paper_id)
   if(selected_paper_html == null) {
-    //window.location.href='/PageNotFound'
+    window.location.href='/PageNotFound'
     return
   }
   $('#selected_paper').find('.paper_details').html(selected_paper_html)
