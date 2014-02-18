@@ -42,7 +42,7 @@ def prepare_schedule (t_schedule):
     all_slots = day_schedule[1]
     for slot_info in all_slots:
       slot_time = slot_info[0]
-      slot_sessions = slot_info[1]
+      slot_sessions = slot_info[1]['sessions']
       slots.append({
         'time': slot_time,
         'sessions': slot_sessions,
