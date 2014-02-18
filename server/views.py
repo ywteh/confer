@@ -22,18 +22,16 @@ if(os.path.abspath(p+"/..") not in sys.path):
 '''
 
 def home (request):
-  try:
-    conferences = Conference.objects.all().values()
-    login_id, user = get_login(request)
-    login_name = '' if not user else user.f_name
-    return render_to_response('home.html', {
-          'conferences':conferences,
-          'login_id': login_id,
-          'login_name': login_name
-        }
-    )
-  except:
-    raise HttpResponseServerError()
+  conferences = Conference.objects.all().values()
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
+  return render_to_response('home.html', {
+        'conferences':conferences,
+        'login_id': login_id,
+        'login_name': login_name
+      }
+  )
+
 
 def team (request):
   current_team = json.loads(
@@ -50,6 +48,7 @@ def team (request):
     }
   )
 
+
 def conf (request, conf):
   conf = conf.lower()
   try:
@@ -58,8 +57,7 @@ def conf (request, conf):
     return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
-  except:
-    raise HttpResponseServerError()
+
 
 def papers (request, conf):
   conf = conf.lower()
@@ -77,9 +75,7 @@ def papers (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404()
-  except:
-    raise HttpResponseServerError()
+    raise Http404
   
   
 
@@ -99,9 +95,7 @@ def schedule (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404()
-  except:
-    raise HttpResponseServerError()
+    raise Http404
 
 
 def paper (request, conf):
@@ -120,9 +114,8 @@ def paper (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404()
-  except:
-    raise HttpResponseServerError()
+    raise Http404
+
 
 @login_required
 def meetups (request, conf):
@@ -144,9 +137,8 @@ def meetups (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404()
-  except:
-    raise HttpResponseServerError()
+    raise Http404
+
 
 @login_required
 def settings (request):
