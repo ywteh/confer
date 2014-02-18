@@ -5,17 +5,7 @@ schedule=[
     "slots": [
       {
         "sessions": [
-          {
-            "date": "24-02-2014", 
-            "room": "TBD", 
-            "s_title": "Tutorial 1", 
-            "submissions": [
-              "paper_1", 
-              "paper_2", 
-              "paper_3"
-            ], 
-            "time": "9.00 _ 12.30"
-          }
+          "Tutorial_1"
         ], 
         "slot_class": "morning1", 
         "slot_id": "24_02_20149_00___12_30", 
@@ -23,17 +13,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "24-02-2014", 
-            "room": "TBD", 
-            "s_title": "Tutorial 2", 
-            "submissions": [
-              "paper_4", 
-              "paper_5", 
-              "paper_6"
-            ], 
-            "time": "14.00 _ 17.30"
-          }
+          "Tutorial_2"
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "24_02_201414_00___17_30", 
@@ -47,21 +27,7 @@ schedule=[
     "slots": [
       {
         "sessions": [
-          {
-            "date": "25-02-2014", 
-            "room": "TBD", 
-            "s_title": "Web Search", 
-            "submissions": [
-              "paper_7", 
-              "paper_8", 
-              "paper_9", 
-              "paper_10", 
-              "paper_11", 
-              "paper_12", 
-              "paper_13"
-            ], 
-            "time": "10.30 _ 12.00"
-          }
+          "Web_Search"
         ], 
         "slot_class": "morning2", 
         "slot_id": "25_02_201410_30___12_00", 
@@ -69,21 +35,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "25-02-2014", 
-            "room": "TBD", 
-            "s_title": "Web Search and Advertising", 
-            "submissions": [
-              "paper_14", 
-              "paper_15", 
-              "paper_16", 
-              "paper_17", 
-              "paper_18", 
-              "paper_19", 
-              "paper_20"
-            ], 
-            "time": "13.30 _ 15.00"
-          }
+          "Web_Search_and_Advertising"
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "25_02_201413_30___15_00", 
@@ -91,19 +43,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "25-02-2014", 
-            "room": "TBD", 
-            "s_title": "Advertising", 
-            "submissions": [
-              "paper_21", 
-              "paper_22", 
-              "paper_23", 
-              "paper_24", 
-              "paper_25"
-            ], 
-            "time": "15.30 _ 17.00"
-          }
+          "Advertising"
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "25_02_201415_30___17_00", 
@@ -117,20 +57,7 @@ schedule=[
     "slots": [
       {
         "sessions": [
-          {
-            "date": "26-02-2014", 
-            "room": "TBD", 
-            "s_title": "Log analysis", 
-            "submissions": [
-              "paper_26", 
-              "paper_27", 
-              "paper_28", 
-              "paper_29", 
-              "paper_30", 
-              "paper_31"
-            ], 
-            "time": "9.00 _ 10.30"
-          }
+          "Log_analysis"
         ], 
         "slot_class": "morning1", 
         "slot_id": "26_02_20149_00___10_30", 
@@ -138,18 +65,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "26-02-2014", 
-            "room": "TBD", 
-            "s_title": "Recommender systems", 
-            "submissions": [
-              "paper_32", 
-              "paper_33", 
-              "paper_34", 
-              "paper_35"
-            ], 
-            "time": "11.00 _ 12.30"
-          }
+          "Recommender_systems"
         ], 
         "slot_class": "morning2", 
         "slot_id": "26_02_201411_00___12_30", 
@@ -157,20 +73,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "26-02-2014", 
-            "room": "TBD", 
-            "s_title": "Recommender systems and networks", 
-            "submissions": [
-              "paper_36", 
-              "paper_37", 
-              "paper_38", 
-              "paper_39", 
-              "paper_40", 
-              "paper_41"
-            ], 
-            "time": "14.00 _ 15.30"
-          }
+          "Recommender_systems_and_networks"
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "26_02_201414_00___15_30", 
@@ -178,19 +81,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "26-02-2014", 
-            "room": "TBD", 
-            "s_title": "Networks: communities and labeling", 
-            "submissions": [
-              "paper_42", 
-              "paper_43", 
-              "paper_44", 
-              "paper_45", 
-              "paper_46"
-            ], 
-            "time": "16.00 _ 17.30"
-          }
+          "Networks_communities_and_labeling"
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "26_02_201416_00___17_30", 
@@ -204,20 +95,7 @@ schedule=[
     "slots": [
       {
         "sessions": [
-          {
-            "date": "27-02-2014", 
-            "room": "TBD", 
-            "s_title": "Networks: centrality and influence", 
-            "submissions": [
-              "paper_47", 
-              "paper_48", 
-              "paper_49", 
-              "paper_50", 
-              "paper_51", 
-              "paper_52"
-            ], 
-            "time": "9.00 _ 10.30"
-          }
+          "Networks_centrality_and_influence"
         ], 
         "slot_class": "morning1", 
         "slot_id": "27_02_20149_00___10_30", 
@@ -225,21 +103,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "27-02-2014", 
-            "room": "TBD", 
-            "s_title": "Natural language processing; topic models", 
-            "submissions": [
-              "paper_53", 
-              "paper_54", 
-              "paper_55", 
-              "paper_56", 
-              "paper_57", 
-              "paper_58", 
-              "paper_59"
-            ], 
-            "time": "11.00 _ 12.30"
-          }
+          "Natural_language_processing_topic_models"
         ], 
         "slot_class": "morning2", 
         "slot_id": "27_02_201411_00___12_30", 
@@ -247,21 +111,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "27-02-2014", 
-            "room": "TBD", 
-            "s_title": "Topic models; linked data", 
-            "submissions": [
-              "paper_60", 
-              "paper_61", 
-              "paper_62", 
-              "paper_63", 
-              "paper_64", 
-              "paper_65", 
-              "paper_66"
-            ], 
-            "time": "14.00 _ 15.30"
-          }
+          "Topic_models_linked_data"
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "27_02_201414_00___15_30", 
@@ -269,21 +119,7 @@ schedule=[
       }, 
       {
         "sessions": [
-          {
-            "date": "27-02-2014", 
-            "room": "TBD", 
-            "s_title": "Peer production; data analysis", 
-            "submissions": [
-              "paper_67", 
-              "paper_68", 
-              "paper_69", 
-              "paper_70", 
-              "paper_71", 
-              "paper_72", 
-              "paper_73"
-            ], 
-            "time": "16.00 _ 17.30"
-          }
+          "Peer_production_data_analysis"
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "27_02_201416_00___17_30", 
