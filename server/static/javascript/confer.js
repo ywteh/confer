@@ -1291,6 +1291,9 @@ function load_paper(){
   var paper_id = get_hash()
   console.log(paper_id)
   var selected_paper_html = get_selected_paper_html(paper_id)
+  if selected_paper_html == null {
+    window.location.href='/PageNotFound'
+  }
   $('#selected_paper').find('.paper_details').html(selected_paper_html)
   $('#similar_papers').html('')
   $('#paper_comments').html('<div class="fb-comments" data-href="' + window.location.href + '" data-numposts="1" data-colorscheme="light" data-width="1024px"></div>');
