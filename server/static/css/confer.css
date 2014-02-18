@@ -338,7 +338,7 @@ form{
   width: 100%;
 }
 
-#selected_paper .form{
+#selected_paper .paper_details{
   margin:0 auto;
   /*margin-top:2em; */
   padding:2em 2em 2em 0; 
