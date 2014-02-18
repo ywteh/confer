@@ -100,7 +100,7 @@ s_filters=[
 					"label":"Early Afternoon"
 				},
 				{
-					"data":"afternoon2", 
+					"data":"afternoon2, .afternoon3, .evening1, .evening2", 
 					"class":"time filter", 
 					"type":"time", 
 					"label":"Late Afternoon"
