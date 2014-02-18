@@ -124,7 +124,7 @@ def meetups (request, conf):
       similar_people = get_similar_people(login[0], conf, meetups=True)
     return render_to_response('meetups.html', {
         'conf':conf,
-        'similar_people': similar_people,
+        'similar_people': similar_people[:20],
         'meetups_enabled': meetups_enabled,
         'login_id': login[0],
         'login_name': login[1]
