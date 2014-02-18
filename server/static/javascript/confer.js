@@ -617,9 +617,9 @@ function select_paper(id){
  
     if(window.location.pathname.endsWith('/paper')){
         var paper_id = "#!" + id;
-        window.location.assign(url + paper_id)
+        window.location.href = url + paper_id
     }else{
-        window.location.assign(url + 'paper#!' + id)
+        window.location.href = url + 'paper#!' + id
     }
     window.scrollTo(0,0)
 }
