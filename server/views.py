@@ -73,7 +73,7 @@ def papers (request, conf):
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'meetups': meetups
+        'meetups_enabled': meetups
       }
     )
   except Conference.DoesNotExist:
@@ -95,7 +95,7 @@ def schedule (request, conf):
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'meetups': meetups
+        'meetups_enabled': meetups
       }
     )
   except Conference.DoesNotExist:
@@ -116,7 +116,7 @@ def paper (request, conf):
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'meetups': meetups
+        'meetups_enabled': meetups
       }
     )
   except Conference.DoesNotExist:
