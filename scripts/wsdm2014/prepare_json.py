@@ -86,7 +86,7 @@ def prepare_data(data_file):
       sessions[s_id]['submissions'].append(paper_id)
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date}
+          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date, 'type':paper_type}
 
     p_id += 1
 
