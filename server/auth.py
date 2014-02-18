@@ -340,14 +340,14 @@ def reset (request, encrypted_email):
 
 def get_login(request):
   login_id = None
-  login_name = ''
+  user = None
   try:
     login_id = request.session[kLogIn]
-    login_name = request.session[kName]
+    user = User.objects.get(email=login_id)
   except:
     pass
 
-  return [login_id, login_name]
+  return [login_id, user]
 
 
 

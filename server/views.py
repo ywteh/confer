@@ -25,10 +25,11 @@ def home (request):
   try:
     conferences = Conference.objects.all().values()
     login = get_login(request)
+    user = login[1]
     return render_to_response('home.html', {
           'conferences':conferences,
-          'login_id': login[0],
-          'login_name': login[1]
+          'login_id': user.email,
+          'login_name': user.f_name
         }
     )
   except:
@@ -40,11 +41,12 @@ def team (request):
   past_collaborators = json.loads(
       open(p+'/fixtures/' + 'collaborators.json').read())
   login = get_login(request)
+  user = login[1]
   return render_to_response(
       'team.html', {'current_team': current_team,
       'past_collaborators': past_collaborators,
-      'login_id': login[0],
-      'login_name': login[1]
+      'login_id': user.email,
+      'login_name': user.f_name
     }
   )
 
@@ -70,10 +72,11 @@ def papers (request, conf):
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
     login = get_login(request)
+    user = login[1]
     return render_to_response('papers.html', {
         'conf':conf,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except:
@@ -87,10 +90,11 @@ def schedule (request, conf):
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
     login = get_login(request)
+    user = login[1]
     return render_to_response('schedule.html', {
         'conf':conf,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except:
@@ -102,10 +106,11 @@ def paper (request, conf):
   try:
     request.session[kConf] = conf
     login = get_login(request)
+    user = login[1]
     return render_to_response('paper.html', {
         'conf':conf,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except:
@@ -118,16 +123,16 @@ def meetups (request, conf):
     similar_people = []
     request.session[kConf] = conf
     login = get_login(request)
-    user = User.objects.get(email=login[0])
+    user = login[1]
     meetups_enabled = user.meetups_enabled
     if meetups_enabled:
-      similar_people = get_similar_people(login[0], conf, meetups=True)
+      similar_people = get_similar_people(user.email, conf, meetups=True)
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': similar_people[:20],
         'meetups_enabled': meetups_enabled,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except Exception, e:
@@ -168,13 +173,12 @@ def settings (request):
       return render_to_response('settings.html', c)
   else:
     login = get_login(request)
-    user = User.objects.get(email=login[0])
-    meetups_enabled = user.meetups_enabled
+    user = login[1]
     c = {
-        'user_email': login[0],
-        'login_id': login[0],
-        'login_name': login[1],
-        'meetups_enabled': meetups_enabled,
+        'user_email': user.email,
+        'login_id': user.email,
+        'login_name': user.f_name,
+        'meetups_enabled': user.meetups_enabled,
         'redirect_url': redirect_url}
     c.update(csrf(request))
     return render_to_response('settings.html', c)
@@ -187,9 +191,10 @@ def anonymized_data_dump (request, conf):
   msg = 'OK'
   try:
     login = get_login(request)
+    user = login[1]
     conference = Conference.objects.get(unique_name=conf)
     admins = json.loads(conference.admins)
-    if login[0] in admins:
+    if user.email in admins:
       registrations = Registration.objects.filter(conference=conference)
       for r in registrations:
         res = {
@@ -217,6 +222,7 @@ def visualizations (request, conf):
   try:
     request.session[kConf] = conf
     login = get_login(request)
+    user = login[1]
     strength = 10
     try:
       strength = int(request.REQUEST["strength"])
@@ -225,8 +231,8 @@ def visualizations (request, conf):
     return render_to_response('visualizations.html', {
         'strength' : strength,
         'conf':conf,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except:
@@ -291,10 +297,11 @@ def feed (request, conf):
   try:
     request.session[kConf] = conf
     login = get_login(request)
+    user = login[1]
     return render_to_response('feed.html', {
         'conf':conf,
-        'login_id': login[0],
-        'login_name': login[1]
+        'login_id': user.email,
+        'login_name': user.f_name
       }
     )
   except:
@@ -532,27 +539,27 @@ def register_app (request):
       return render_to_response('register_app.html', c)
   else:
     login = get_login(request)
-    user = User.objects.get(email=login[0])
+    user = login[1]
     c = {
-        'user_email': login[0],
-        'login_id': login[0],
-        'login_name': login[1]}
+        'user_email': user.email,
+        'login_id': user.email,
+        'login_name': user.f_name}
     c.update(csrf(request))
     return render_to_response('register_app.html', c)
 
 @login_required
 def apps (request):
     login = get_login(request)
-    user = User.objects.get(email=login[0])
+    user = login[1]
     apps = App.objects.filter(user=user)
     res = []
     for app in apps:
       res.append({'app_id': app.app_id, 'app_name': app.app_name, 'app_token': app.app_token})
     
     c = {
-        'user_email': login[0],
-        'login_id': login[0],
-        'login_name': login[1],
+        'user_email': user.email,
+        'login_id': user.email,
+        'login_name': user.f_name,
         'apps': res}
     return render_to_response('apps.html', c)
 
@@ -561,7 +568,7 @@ def allow_access (request):
   errors = []
   try:
     login = get_login(request)
-    user = User.objects.get(email=login[0])
+    user = login[1]
 
     if 'app_id' not in request.REQUEST.keys():
       errors.append("Couldn't find a required parameter 'app_id' in the request")
@@ -595,9 +602,9 @@ def allow_access (request):
         return render_to_response('confirmation.html', c)
       else:
         c = {
-          'user_email': login[0],
-          'login_id': login[0],
-          'login_name': login[1],
+          'user_email': user.email,
+          'login_id': user.email,
+          'login_name': user.f_name,
           'app_id': app_id,
           'app_name': app.app_name,
           'access_allowed': access_allowed}
