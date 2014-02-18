@@ -144,7 +144,7 @@ def meetups (request, conf):
       }
     )
   except Conference.DoesNotExist:
-    raise Http404)()
+    raise Http404()
   except:
     raise HttpResponseServerError()
 
