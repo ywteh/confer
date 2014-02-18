@@ -255,7 +255,7 @@ function get_hash() {
         return hash.slice(2)
     } else {
         var paper_id = hash.slice(1)
-        window.location.replace(window.location.protocol+'//' + window.location.host + window.location.port + window.location.pathname + '#!' + paper_id)
+        window.location.href = window.location.protocol+'//' + window.location.host + window.location.port + window.location.pathname + '#!' + paper_id
         window.location.reload(false)
         return null
     }
