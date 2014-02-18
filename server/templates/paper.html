@@ -17,7 +17,7 @@
 {% block content %}
 <div id="fb-root"></div>
 <script>
-if (fb_comment == true) {
+if (typeof(fb_comment) != "undefined" && fb_comment == true) {
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
