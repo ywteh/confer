@@ -29,11 +29,12 @@ def home (request):
     return render_to_response('home.html', {
           'conferences':conferences,
           'login_id': user.email,
-          'login_name': user.f_name
+          'login_name': user.f_name,
+          'meetups': user.meetups_enabled
         }
     )
   except:
-    raise Http404
+    raise HttpResponseServerError
 
 def team (request):
   current_team = json.loads(
@@ -57,14 +58,9 @@ def conf (request, conf):
     Conference.objects.get(unique_name=conf)
     return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
-    try:
-      c = Conference.objects.get(confer_name=conf)
-      request.session[kConf] = c.unique_name
-      return HttpResponseRedirect('/%s/papers' %(c.unique_name))
-    except:
-      return HttpResponseRedirect('/')
-  except:
     raise Http404
+  except:
+    raise HttpResponseServerError
 
 def papers (request, conf):
   conf = conf.lower()
@@ -79,8 +75,10 @@ def papers (request, conf):
         'login_name': user.f_name
       }
     )
-  except:
+  except Conference.DoesNotExist:
     raise Http404
+  except:
+    raise HttpResponseServerError
   
   
 
@@ -97,13 +95,16 @@ def schedule (request, conf):
         'login_name': user.f_name
       }
     )
-  except:
+  except Conference.DoesNotExist:
     raise Http404
+  except:
+    raise HttpResponseServerError
 
 
 def paper (request, conf):
   conf = conf.lower()
   try:
+    Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
     login = get_login(request)
     user = login[1]
@@ -113,13 +114,16 @@ def paper (request, conf):
         'login_name': user.f_name
       }
     )
-  except:
+  except Conference.DoesNotExist:
     raise Http404
+  except:
+    raise HttpResponseServerError
 
 @login_required
 def meetups (request, conf):
   conf = conf.lower()
   try:
+    Conference.objects.get(unique_name=conf)
     similar_people = []
     request.session[kConf] = conf
     login = get_login(request)
@@ -135,8 +139,10 @@ def meetups (request, conf):
         'login_name': user.f_name
       }
     )
-  except:
+  except Conference.DoesNotExist:
     raise Http404
+  except:
+    raise HttpResponseServerError
 
 @login_required
 def settings (request):
