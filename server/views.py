@@ -33,7 +33,7 @@ def home (request):
         }
     )
   except:
-    pass
+    return HttpResponse(status=500)
 
 def team (request):
   current_team = json.loads(
@@ -64,7 +64,7 @@ def conf (request, conf):
     except:
       return HttpResponseRedirect('/')
   except:
-    return HttpResponseRedirect('/')
+    return HttpResponse(status=404)
 
 def papers (request, conf):
   conf = conf.lower()
@@ -80,7 +80,7 @@ def papers (request, conf):
       }
     )
   except:
-    return HttpResponseRedirect('/')
+    return HttpResponse(status=404)
   
   
 
@@ -98,7 +98,7 @@ def schedule (request, conf):
       }
     )
   except:
-    return HttpResponseRedirect('/')
+    return HttpResponse(status=404)
 
 
 def paper (request, conf):
@@ -114,7 +114,7 @@ def paper (request, conf):
       }
     )
   except:
-    return HttpResponseRedirect('/')
+    return HttpResponse(status=404)
 
 @login_required
 def meetups (request, conf):
