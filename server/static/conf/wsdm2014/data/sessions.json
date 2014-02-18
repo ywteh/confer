@@ -1,5 +1,6 @@
 sessions={
   "Advertising": {
+    "date": "25-02-2014", 
     "room": "TBD", 
     "s_title": "Advertising", 
     "submissions": [
@@ -8,9 +9,11 @@ sessions={
       "paper_23", 
       "paper_24", 
       "paper_25"
-    ]
+    ], 
+    "time": "15.30 _ 17.00"
   }, 
   "Log_analysis": {
+    "date": "26-02-2014", 
     "room": "TBD", 
     "s_title": "Log analysis", 
     "submissions": [
@@ -20,9 +23,11 @@ sessions={
       "paper_29", 
       "paper_30", 
       "paper_31"
-    ]
+    ], 
+    "time": "9.00 _ 10.30"
   }, 
   "Natural_language_processing_topic_models": {
+    "date": "27-02-2014", 
     "room": "TBD", 
     "s_title": "Natural language processing; topic models", 
     "submissions": [
@@ -33,9 +38,11 @@ sessions={
       "paper_57", 
       "paper_58", 
       "paper_59"
-    ]
+    ], 
+    "time": "11.00 _ 12.30"
   }, 
   "Networks_centrality_and_influence": {
+    "date": "27-02-2014", 
     "room": "TBD", 
     "s_title": "Networks: centrality and influence", 
     "submissions": [
@@ -45,9 +52,11 @@ sessions={
       "paper_50", 
       "paper_51", 
       "paper_52"
-    ]
+    ], 
+    "time": "9.00 _ 10.30"
   }, 
   "Networks_communities_and_labeling": {
+    "date": "26-02-2014", 
     "room": "TBD", 
     "s_title": "Networks: communities and labeling", 
     "submissions": [
@@ -56,9 +65,11 @@ sessions={
       "paper_44", 
       "paper_45", 
       "paper_46"
-    ]
+    ], 
+    "time": "16.00 _ 17.30"
   }, 
   "Peer_production_data_analysis": {
+    "date": "27-02-2014", 
     "room": "TBD", 
     "s_title": "Peer production; data analysis", 
     "submissions": [
@@ -69,9 +80,11 @@ sessions={
       "paper_71", 
       "paper_72", 
       "paper_73"
-    ]
+    ], 
+    "time": "16.00 _ 17.30"
   }, 
   "Recommender_systems": {
+    "date": "26-02-2014", 
     "room": "TBD", 
     "s_title": "Recommender systems", 
     "submissions": [
@@ -79,9 +92,11 @@ sessions={
       "paper_33", 
       "paper_34", 
       "paper_35"
-    ]
+    ], 
+    "time": "11.00 _ 12.30"
   }, 
   "Recommender_systems_and_networks": {
+    "date": "26-02-2014", 
     "room": "TBD", 
     "s_title": "Recommender systems and networks", 
     "submissions": [
@@ -91,9 +106,11 @@ sessions={
       "paper_39", 
       "paper_40", 
       "paper_41"
-    ]
+    ], 
+    "time": "14.00 _ 15.30"
   }, 
   "Topic_models_linked_data": {
+    "date": "27-02-2014", 
     "room": "TBD", 
     "s_title": "Topic models; linked data", 
     "submissions": [
@@ -104,27 +121,33 @@ sessions={
       "paper_64", 
       "paper_65", 
       "paper_66"
-    ]
+    ], 
+    "time": "14.00 _ 15.30"
   }, 
   "Tutorial_1": {
+    "date": "24-02-2014", 
     "room": "TBD", 
     "s_title": "Tutorial 1", 
     "submissions": [
       "paper_1", 
       "paper_2", 
       "paper_3"
-    ]
+    ], 
+    "time": "9.00 _ 12.30"
   }, 
   "Tutorial_2": {
+    "date": "24-02-2014", 
     "room": "TBD", 
     "s_title": "Tutorial 2", 
     "submissions": [
       "paper_4", 
       "paper_5", 
       "paper_6"
-    ]
+    ], 
+    "time": "14.00 _ 17.30"
   }, 
   "Web_Search": {
+    "date": "25-02-2014", 
     "room": "TBD", 
     "s_title": "Web Search", 
     "submissions": [
@@ -135,9 +158,11 @@ sessions={
       "paper_11", 
       "paper_12", 
       "paper_13"
-    ]
+    ], 
+    "time": "10.30 _ 12.00"
   }, 
   "Web_Search_and_Advertising": {
+    "date": "25-02-2014", 
     "room": "TBD", 
     "s_title": "Web Search and Advertising", 
     "submissions": [
@@ -148,6 +173,7 @@ sessions={
       "paper_18", 
       "paper_19", 
       "paper_20"
-    ]
+    ], 
+    "time": "13.30 _ 15.00"
   }
 }

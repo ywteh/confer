@@ -80,10 +80,16 @@ def prepare_data(data_file):
       sessions[s_id]['submissions'].append(paper_id)
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': 'TBD'}
+          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date}
 
-    # prepare schedule data
-    s_info = {'session': s_id, 'room': sessions[s_id]['room']}
+    p_id += 1
+
+
+  # prepare schedule data
+  for session in sessions:
+    s_info = sessions[session]
+    s_date = s_info['date']
+    s_time = s_info['time']
     if s_date in t_schedule:
       if s_time in t_schedule[s_date]:
         t_schedule[s_date][s_time]['sessions'].append(s_info)
@@ -92,8 +98,7 @@ def prepare_data(data_file):
     else:
       t_schedule[s_date] =  {s_time: {'time': s_time, 'sessions':[s_info]}}
 
-    p_id += 1
-
+  print t_schedule
   prepare_schedule(t_schedule)
 
 
