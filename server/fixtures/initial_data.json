@@ -152,6 +152,24 @@
 	      "admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]",
 	      "viz_admins": "[\"anantb@csail.mit.edu\", \"tovi.grossman@autodesk.com\", \"hq@northwestern.edu\"]"
 	  	}
+	},
+
+	{"model": "server.Conference",
+	    "pk": 11,
+	    "fields": {
+	      "unique_name": "wsdm2014",
+	      "confer_name": "mywsdi",
+	      "title": "WSDM 2014 - The 7th ACM WSDM Conference",
+	      "subtitle": "",
+	      "blurb": "WSDM (pronounced “wisdom”) is the premier international ACM conference covering research in the areas of search and data mining on the Web. The Seventh ACM WSDM Conference will take place in New York City, during February 24-28, 2014. WSDM publishes original, high quality papers and presentations related to search and data mining on the Web and the Social Web, with an emphasis on practical but principled novel models of search, retrieval and data mining, algorithm design and analysis, economic implications, and in-depth experimental analysis of accuracy and performance.",
+	      "location": "New York, USA",
+	      "start_date": "2014-02-24",
+	      "end_date": "2014-02-28",
+	      "admins": "[\"anantb@csail.mit.edu\"]",
+	      "viz_admins": "[\"anantb@csail.mit.edu\"]"
+	  	}
 	}
+
+
 ]
   
