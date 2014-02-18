@@ -89,7 +89,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
       except Permission.DoesNotExist:
         pass
     else:
-      r_valid = True
+      r_valid = False
 
     if r_valid:
       try:        
