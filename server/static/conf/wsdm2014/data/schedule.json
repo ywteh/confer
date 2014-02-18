@@ -1,11 +1,14 @@
 schedule=[
   {
     "date": "24-02-2014", 
-    "day": "Monday", 
+    "day": "24-02-2014", 
     "slots": [
       {
         "sessions": [
-          "Tutorial_1"
+          {
+            "room": "TBD", 
+            "session": "Tutorial_1"
+          }
         ], 
         "slot_class": "morning1", 
         "slot_id": "24_02_20149_00___12_30", 
@@ -13,7 +16,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Tutorial_2"
+          {
+            "room": "TBD", 
+            "session": "Tutorial_2"
+          }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "24_02_201414_00___17_30", 
@@ -23,11 +29,14 @@ schedule=[
   }, 
   {
     "date": "25-02-2014", 
-    "day": "Tuesday", 
+    "day": "25-02-2014", 
     "slots": [
       {
         "sessions": [
-          "Web_Search"
+          {
+            "room": "TBD", 
+            "session": "Web_Search"
+          }
         ], 
         "slot_class": "morning2", 
         "slot_id": "25_02_201410_30___12_00", 
@@ -35,7 +44,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Web_Search_and_Advertising"
+          {
+            "room": "TBD", 
+            "session": "Web_Search_and_Advertising"
+          }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "25_02_201413_30___15_00", 
@@ -43,7 +55,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Advertising"
+          {
+            "room": "TBD", 
+            "session": "Advertising"
+          }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "25_02_201415_30___17_00", 
@@ -53,11 +68,14 @@ schedule=[
   }, 
   {
     "date": "26-02-2014", 
-    "day": "Wednesday", 
+    "day": "26-02-2014", 
     "slots": [
       {
         "sessions": [
-          "Log_analysis"
+          {
+            "room": "TBD", 
+            "session": "Log_analysis"
+          }
         ], 
         "slot_class": "morning1", 
         "slot_id": "26_02_20149_00___10_30", 
@@ -65,7 +83,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Recommender_systems"
+          {
+            "room": "TBD", 
+            "session": "Recommender_systems"
+          }
         ], 
         "slot_class": "morning2", 
         "slot_id": "26_02_201411_00___12_30", 
@@ -73,7 +94,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Recommender_systems_and_networks"
+          {
+            "room": "TBD", 
+            "session": "Recommender_systems_and_networks"
+          }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "26_02_201414_00___15_30", 
@@ -81,7 +105,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Networks_communities_and_labeling"
+          {
+            "room": "TBD", 
+            "session": "Networks_communities_and_labeling"
+          }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "26_02_201416_00___17_30", 
@@ -91,11 +118,14 @@ schedule=[
   }, 
   {
     "date": "27-02-2014", 
-    "day": "Thursday", 
+    "day": "27-02-2014", 
     "slots": [
       {
         "sessions": [
-          "Networks_centrality_and_influence"
+          {
+            "room": "TBD", 
+            "session": "Networks_centrality_and_influence"
+          }
         ], 
         "slot_class": "morning1", 
         "slot_id": "27_02_20149_00___10_30", 
@@ -103,7 +133,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Natural_language_processing_topic_models"
+          {
+            "room": "TBD", 
+            "session": "Natural_language_processing_topic_models"
+          }
         ], 
         "slot_class": "morning2", 
         "slot_id": "27_02_201411_00___12_30", 
@@ -111,7 +144,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Topic_models_linked_data"
+          {
+            "room": "TBD", 
+            "session": "Topic_models_linked_data"
+          }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "27_02_201414_00___15_30", 
@@ -119,7 +155,10 @@ schedule=[
       }, 
       {
         "sessions": [
-          "Peer_production_data_analysis"
+          {
+            "room": "TBD", 
+            "session": "Peer_production_data_analysis"
+          }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "27_02_201416_00___17_30", 
