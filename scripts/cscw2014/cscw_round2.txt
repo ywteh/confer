@@ -1,0 +1,28 @@
+anantb@csail.mit.edu        , Anant           , Bhardwaj
+ karger@mit.edu              , David           , Karger
+ merrie@microsoft.com        , Meredith        , Morris
+ anantb@cs.stanford.edu      , Anant           , Bhardwaj
+ eugenewu@mit.edu            , e               , wu
+ tunlu.fudan@gmail.com       , Tun             , LU
+ bkeegan@gmail.com           , Brian           , Keegan
+ bjoern@eecs.berkeley.edu    , Bjoern          , Hartmann
+ libbyh@gmail.com            , Libby           , Hemphill
+ anneohirsch@gmail.com       , Anne            , Oeldorf-Hirsch
+ yelena.mejova@gmail.com     , Yelena          , Mejova
+ rteodoro@rutgers.edu        , Rannie          , Teodoro
+ tar@cs.nott.ac.uk           , Tom             , Rodden
+ chato@chato.cl              , Carlos          , Castillo
+ sheppard@umn.edu            , S. Andrew       , Sheppard
+ maia.jacobs@gmail.com       , maia            , jacobs
+ sfussell@cornell.edu        , Susan           , Fussell
+ cy294@cornell.edu           , Tina            , Yuan
+ azza@nyu.edu                , Azza            , Abouzied
+ divya@nyu.edu               , Divya           , Balaji
+ gilbera1@uci.edu            , Anita Marie     , Gilbert
+ cbogartdenver@gmail.com     , Chris           , Bogart
+ rena_bivens@carleton.ca     , Rena            , Bivens
+ ierick@gmail.com            , Ingrid          , Erickson
+ seanyalda@gmail.com         , Sean            , Yalda
+ gcheliotis@gmail.com        , Giorgos         , Cheliotis
+ alexiel_ljj@hotmail.com     , Jingjing        , LIU
+ john.g.howard@gmail.com     , John            , Howard

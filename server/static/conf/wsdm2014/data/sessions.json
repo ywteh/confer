@@ -1,0 +1,153 @@
+sessions={
+  "Advertising": {
+    "room": "TBD", 
+    "s_title": "Advertising", 
+    "submissions": [
+      "paper_21", 
+      "paper_22", 
+      "paper_23", 
+      "paper_24", 
+      "paper_25"
+    ]
+  }, 
+  "Log_analysis": {
+    "room": "TBD", 
+    "s_title": "Log analysis", 
+    "submissions": [
+      "paper_26", 
+      "paper_27", 
+      "paper_28", 
+      "paper_29", 
+      "paper_30", 
+      "paper_31"
+    ]
+  }, 
+  "Natural_language_processing_topic_models": {
+    "room": "TBD", 
+    "s_title": "Natural language processing; topic models", 
+    "submissions": [
+      "paper_53", 
+      "paper_54", 
+      "paper_55", 
+      "paper_56", 
+      "paper_57", 
+      "paper_58", 
+      "paper_59"
+    ]
+  }, 
+  "Networks_centrality_and_influence": {
+    "room": "TBD", 
+    "s_title": "Networks: centrality and influence", 
+    "submissions": [
+      "paper_47", 
+      "paper_48", 
+      "paper_49", 
+      "paper_50", 
+      "paper_51", 
+      "paper_52"
+    ]
+  }, 
+  "Networks_communities_and_labeling": {
+    "room": "TBD", 
+    "s_title": "Networks: communities and labeling", 
+    "submissions": [
+      "paper_42", 
+      "paper_43", 
+      "paper_44", 
+      "paper_45", 
+      "paper_46"
+    ]
+  }, 
+  "Peer_production_data_analysis": {
+    "room": "TBD", 
+    "s_title": "Peer production; data analysis", 
+    "submissions": [
+      "paper_67", 
+      "paper_68", 
+      "paper_69", 
+      "paper_70", 
+      "paper_71", 
+      "paper_72", 
+      "paper_73"
+    ]
+  }, 
+  "Recommender_systems": {
+    "room": "TBD", 
+    "s_title": "Recommender systems", 
+    "submissions": [
+      "paper_32", 
+      "paper_33", 
+      "paper_34", 
+      "paper_35"
+    ]
+  }, 
+  "Recommender_systems_and_networks": {
+    "room": "TBD", 
+    "s_title": "Recommender systems and networks", 
+    "submissions": [
+      "paper_36", 
+      "paper_37", 
+      "paper_38", 
+      "paper_39", 
+      "paper_40", 
+      "paper_41"
+    ]
+  }, 
+  "Topic_models_linked_data": {
+    "room": "TBD", 
+    "s_title": "Topic models; linked data", 
+    "submissions": [
+      "paper_60", 
+      "paper_61", 
+      "paper_62", 
+      "paper_63", 
+      "paper_64", 
+      "paper_65", 
+      "paper_66"
+    ]
+  }, 
+  "Tutorial_1": {
+    "room": "TBD", 
+    "s_title": "Tutorial 1", 
+    "submissions": [
+      "paper_1", 
+      "paper_2", 
+      "paper_3"
+    ]
+  }, 
+  "Tutorial_2": {
+    "room": "TBD", 
+    "s_title": "Tutorial 2", 
+    "submissions": [
+      "paper_4", 
+      "paper_5", 
+      "paper_6"
+    ]
+  }, 
+  "Web_Search": {
+    "room": "TBD", 
+    "s_title": "Web Search", 
+    "submissions": [
+      "paper_7", 
+      "paper_8", 
+      "paper_9", 
+      "paper_10", 
+      "paper_11", 
+      "paper_12", 
+      "paper_13"
+    ]
+  }, 
+  "Web_Search_and_Advertising": {
+    "room": "TBD", 
+    "s_title": "Web Search and Advertising", 
+    "submissions": [
+      "paper_14", 
+      "paper_15", 
+      "paper_16", 
+      "paper_17", 
+      "paper_18", 
+      "paper_19", 
+      "paper_20"
+    ]
+  }
+}

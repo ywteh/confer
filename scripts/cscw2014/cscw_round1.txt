@@ -1,0 +1,37 @@
+eladenheim@ladenheim.net    , Eric            , Ladenheim
+ account@crowston.name       , Kevin           , Crowston
+ xubin.max@gmail.com         , bin             , xu
+ anna.cox@ucl.ac.uk          , Anna            , Cox
+ evanpeck@gmail.com          , Evan            , Peck
+ subasioezge@gmail.com       , özge            , subasi
+ yukino.baba@gmail.com       , Yukino          , Baba
+ l.benton@ioe.ac.uk          , Laura           , Benton
+ msb@cs.stanford.edu         , Michael         , Bernstein
+ hainesj@uci.edu             , Julia           , Haines
+ anantb@mit.edu              , Anant           , Bhardwaj
+ xiangchen@acm.org           , Xiang 'Anthony' , Chen
+ simonsen@diku.dk            , Jakob Grue      , Simonsen
+ andalibi.drexel@gmail.com   , Nazanin         , Andalibi
+ nick.lalone@gmail.com       , Nicolas         , LaLone
+ lixiuyu@cs.cmu.edu          , Lisa            , Yu
+ carpat1@umbc.edu            , Patrick         , Carrington
+ juhokim@mit.edu             , Juho            , Kim
+ mjw23@drexel.edu            , Michelle        , Purcell
+ obinna.ajuruchi@gmail.com   , Obinna          , Ajuruchi
+ airilampinen@gmail.com      , Airi            , Lampinen
+ bastiaan.baccarne@ugent.be  , Bas             , Baccarne
+ snowfall@acm.org            , Tom             , Erickson
+ ekstrand@acm.org            , Michael         , Ekstrand
+ wulf@iisis.de               , Volker          , Wulf
+ mreda2@uic.edu              , Khairi          , Reda
+ xu26@illinois.edu           , Anbang          , Xu
+ mhjarahi@gmail.com          , Mohammad        , Jarrahi
+ kkarahal@illinois.edu       , Karrie          , Karahalios
+ jude.yew@gmail.com          , jude            , yew
+ ivan.breskovic@tuwien.ac.at , Ivan            , Breskovic
+ olttvmagazin@olttv.ro       , popa            , elena
+ max.wilson@nottingham.ac.uk , Max             , Wilson
+ ruthy_gg@hotmail.com        , Ruth            , Garcia
+ mehoque@gmail.com           , Ehsan           , Hoque
+ wsallen@fsu.edu             , Warren          , Allen
+ martin.morandell@ait.ac.at  , Martin          , Morandell
