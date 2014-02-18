@@ -15,7 +15,7 @@
 {% block content %} 
 <div class="blurb">
 Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more!
-{% if meetups_enabled | is_false %}
+{% if meetups_enabled  == False %}
 <br/><br/>Want to find people having similar interests as yours -- try <a href="/{{conf}}/meetups">My Meetups</a>
 {% endif %}
 </div>
