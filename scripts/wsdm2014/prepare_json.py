@@ -4,6 +4,7 @@ papers = {}
 sessions = {}
 schedule = []
 
+dt_format='%d-%m-%Y'
 
 def construct_id(s):
   return re.sub(r'\W+', '_', s)
@@ -11,9 +12,15 @@ def construct_id(s):
 def get_start_time (s_time):
   return int(re.match(r'\d+', s_time).group())
 
-def get_date_time(s_date):
-  dt = time.strptime(s_date, '%d-%m-%Y')
-  return dt
+def get_date_time(s_date, dt_format='%m/%d/%Y'):
+  time_struct = time.strptime(s_date, dt_format)
+  return time_struct
+
+def get_day(time_struct):
+  return time.strftime("%A", time_struct)
+
+def get_date(time_struct):
+  return time.strftime("%m/%d/%Y", time_struct)
 
 def get_class(s_time):
   v =  get_start_time(s_time)
@@ -34,10 +41,9 @@ def prepare_schedule (t_schedule):
     t_schedule[s_date] = sorted(
       t_schedule[s_date].items(), key = lambda x: get_start_time(x[0]))
 
-  t_schedule = sorted(t_schedule.items(), key=lambda x: time.mktime(get_date_time(x[0])))
+  t_schedule = sorted(t_schedule.items(), key=lambda x: time.mktime(get_date_time(x[0], dt_format=dt_format)))
   for day_schedule in t_schedule:
     slots = []
-    print day_schedule
     s_date = day_schedule[0]
     all_slots = day_schedule[1]
     for slot_info in all_slots:
@@ -49,7 +55,7 @@ def prepare_schedule (t_schedule):
         'slot_class': get_class(slot_time),
         'slot_id': construct_id(s_date + slot_time)
       })
-    schedule.append({'date': s_date, 'slots': slots, 'day': s_date})
+    schedule.append({'date': get_date(get_date_time(s_date, dt_format=dt_format)), 'slots': slots, 'day': get_day(get_date_time(s_date, dt_format=dt_format))})
 
 def prepare_data(data_file):
   f = open(data_file, 'rU')
@@ -99,7 +105,6 @@ def prepare_data(data_file):
     else:
       t_schedule[s_date] =  {s_time: {'time': s_time, 'sessions':[s_data]}}
 
-  print t_schedule
   prepare_schedule(t_schedule)
 
 
