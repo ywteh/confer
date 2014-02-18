@@ -256,6 +256,7 @@ function get_hash() {
     } else {
         var paper_id = hash.slice(1)
         window.location.replace(window.location.protocol+'//' + window.location.host + window.location.port + window.location.pathname + '#!' + paper_id)
+        window.location.reload(false)
         return null
     }
 }
