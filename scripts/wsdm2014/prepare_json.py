@@ -79,7 +79,7 @@ def prepare_data(data_file):
         'authors': [{'name': name.strip()}
             for name in paper_authors.strip('"').split(',')],
         'abstract': paper_abstract,
-        'subtype':paper_type}
+        'type':paper_type}
     
     # prepare sessions data
     s_id = construct_id(session)
