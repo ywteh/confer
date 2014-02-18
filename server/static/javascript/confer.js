@@ -613,13 +613,11 @@ function refresh_recommendations(){
 
 
 function select_paper(id){
-    var url = window.location.protocol + '//' + window.location.host + window.location.port + window.location.pathname
- 
     if(window.location.pathname.endsWith('/paper')){
-        var paper_id = "#!" + id;
-        window.location.href = url + paper_id
+        window.location.hash = "#!" + id;
+        window.location.reload(false);
     }else{
-        window.location.href = url + 'paper#!' + id
+        window.location.href = 'paper#!' + id
     }
     window.scrollTo(0,0)
 }
