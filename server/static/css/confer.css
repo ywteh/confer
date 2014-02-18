@@ -328,6 +328,16 @@ form{
   width: 100%;
 }
 
+.form{
+  margin:0 auto;
+  margin-top:1em; 
+  padding:1.8em 1.8em 1em 1.8em; 
+  vertical-align:top;
+  background-color: #fff;
+  max-width:280px;
+  width: 100%;
+}
+
 #selected_paper .form{
   margin:0 auto;
   /*margin-top:2em; */
