@@ -78,7 +78,8 @@ def prepare_data(data_file):
         'title': paper_title,
         'authors': [{'name': name.strip()}
             for name in paper_authors.strip('"').split(',')],
-        'abstract': paper_abstract}
+        'abstract': paper_abstract,
+        'type':paper_type}
     
     # prepare sessions data
     s_id = construct_id(session)
@@ -86,7 +87,7 @@ def prepare_data(data_file):
       sessions[s_id]['submissions'].append(paper_id)
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date, 'subtype':paper_type}
+          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date}
 
     p_id += 1
 
