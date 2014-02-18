@@ -5,9 +5,7 @@
 {% block content %}
 <script type="text/javascript">
 </script>
-<form method="POST" action="/reset">
-	{% csrf_token %}
-	<input type="hidden" name="redirect_url" value="{{redirect_url}}" />
+<div class="form">
 	<h3>{{msg_title}}</h3>
 	<hr />
 	<div id="msg">
@@ -16,5 +14,5 @@
     <br />
 		{% autoescape off %}{{msg_body}}{% endautoescape %}
   </div>
-</form>
+</div>
 {% endblock %}
