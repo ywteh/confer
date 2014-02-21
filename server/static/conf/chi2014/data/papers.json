@@ -30,9 +30,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig105": {
         "title": "Interaction Science SIG: Overcoming Challenges",
@@ -126,9 +124,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig107": {
         "title": "Jogging with Technology: Interaction Design Supporting Sport Activities",
@@ -187,9 +183,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig108": {
         "title": "Art And Interaction SIG: Cataloging The Digital Arts",
@@ -278,9 +272,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig109": {
         "title": "Current Issues in Assessing and Improving Information Usability",
@@ -317,9 +309,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig110": {
         "title": "Community Centered Collaborative HCI Design / Research in Developing Countries",
@@ -400,9 +390,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig111": {
         "title": "HCI in Food Product Innovation",
@@ -444,9 +432,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig112": {
         "title": "Child Computer Interaction SIG: Towards Sustainable Thinking and Being",
@@ -497,9 +483,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig114": {
         "title": "Interactions Magazine",
@@ -532,9 +516,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig117": {
         "title": "Games and Entertainment Community SIG: Reaching beyond CHI",
@@ -598,9 +580,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig118": {
         "title": "The Usability of Text Entry Systems Now and in the Future",
@@ -687,9 +667,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "sig119": {
         "title": "Managing UX Teams",
@@ -729,9 +707,7 @@ entities={
             }
         ],
         "type": "SIG",
-        "subtype": "SIG",
-        "award": false,
-        "hm": false
+        "subtype": "SIG"
     },
     "case115": {
         "title": "Measuring Product “Coolness” -- Developing a Measurement Instrument",
@@ -820,9 +796,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case118": {
         "title": "Quick and Participatory: Adopting Users' Designs to Improve a Mobile App",
@@ -866,9 +840,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case138": {
         "title": "GREYBOX Scheduling:  Designing a Joint Cognitive System  for Sustainable Manufacturing",
@@ -902,9 +874,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case147": {
         "title": "HCI Interventions with Nonprofit Organizations: Tactics for Effective Collaboration",
@@ -966,9 +936,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case150": {
         "title": "User-Centered Design for More Efficient Drill Rig Control System",
@@ -1048,9 +1016,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case163": {
         "title": "Redefinition of Requirements in the Design and Development of the Project Mapocci: from Digital Art to HCI Research",
@@ -1081,9 +1047,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case170": {
         "title": "An Extended Case Study Methodology for Investigating Influence of Cultural, Organizational, and Automation Factors on Human-Automation Trust",
@@ -1176,9 +1140,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case173": {
         "title": "Online Microsurveys for User Experience Research",
@@ -1265,9 +1227,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "case176": {
         "title": "Challenges at the Bottom of the Pyramid:  An Ethnographic Study of South African Mobile Users",
@@ -1291,9 +1251,7 @@ entities={
             }
         ],
         "type": "casestudy",
-        "subtype": "casestudy",
-        "award": false,
-        "hm": false
+        "subtype": "casestudy"
     },
     "crs100": {
         "title": "Introduction to Human-Computer Interaction",
@@ -1312,9 +1270,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs101": {
         "title": "Methods of Design Synthesis – Moving from Data to Innovation",
@@ -1333,9 +1289,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs102": {
         "title": "Conceptual Models: Core to Good Design",
@@ -1354,9 +1308,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs105": {
         "title": "Card Sorting for Navigation Design",
@@ -1375,9 +1327,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs106": {
         "title": "Agile User Experience and UCD",
@@ -1396,9 +1346,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs108": {
         "title": "HTML5 Game Development",
@@ -1417,9 +1365,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs111": {
         "title": "Empirical Research Methods for Human-Computer Interaction",
@@ -1447,9 +1393,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs113": {
         "title": "Introduction to Designing and Building Musical Interfaces",
@@ -1486,9 +1430,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs115": {
         "title": "Make This! Introduction to Electronics Prototyping Using Arduino",
@@ -1516,9 +1458,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs116": {
         "title": "Hands-on Sketching Course",
@@ -1537,9 +1477,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs121": {
         "title": "Including Children in Technology Design Processes: Techniques and Practices",
@@ -1576,9 +1514,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs122": {
         "title": "Multimodal Detection of Affective States: A Roadmap from Brain-Computer Interfaces, Face-Based Emotion Recognition, Eye Tracking Systems and Other Sensors",
@@ -1615,9 +1551,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs123": {
         "title": "Interaction Design for Online Video and Television",
@@ -1645,9 +1579,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs124": {
         "title": "Designing Unbiased Surveys for HCI Research",
@@ -1684,9 +1616,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs129": {
         "title": "Improving the User Interface for People with Disabilities",
@@ -1705,9 +1635,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs136": {
         "title": "A Crash Course in Modern Geography for HCI Researchers and Practitioners",
@@ -1735,9 +1663,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs137": {
         "title": "Computer Vision in interaction and UX",
@@ -1756,9 +1682,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs138": {
         "title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
@@ -1786,9 +1710,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs142": {
         "title": "How You Could Benefit from Using ISO Standards",
@@ -1807,9 +1729,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs143": {
         "title": "HCI Meets Data Mining: Principles and Tools for Big Data Analytics",
@@ -1828,9 +1748,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs144": {
         "title": "The Glass Class: Designing Wearable Interfaces",
@@ -1858,9 +1776,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs146": {
         "title": "Evaluating Children’s Interactive Products",
@@ -1888,9 +1804,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs147": {
         "title": "Rapid Design Labs—A Tool to Turbocharge Design-Led Innovation",
@@ -1918,9 +1832,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs149": {
         "title": "Online A/B Tests & Experiments: A Practical But Scientifically Informed Introduction",
@@ -1948,9 +1860,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs153": {
         "title": "Mobile HCI",
@@ -1978,9 +1888,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs156": {
         "title": "Sampling & Synthesis: The Two Sides of Experience Sketching",
@@ -1999,9 +1907,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs157": {
         "title": "Reflections on Design",
@@ -2020,9 +1926,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs158": {
         "title": "Designing for Seniors",
@@ -2041,9 +1945,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs160": {
         "title": "The Body in Design",
@@ -2062,9 +1964,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "crs161": {
         "title": "How social media design shapes society",
@@ -2083,9 +1983,7 @@ entities={
             }
         ],
         "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
+        "subtype": "course"
     },
     "to101": {
         "title": "Health Mashups: Presenting Statistical Patterns Between Wellbeing Data and Context in Natural Language to Promote Behavior Change",
@@ -2183,9 +2081,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to102": {
         "title": "Sharing Stories “in the Wild”: A Mobile Storytelling Case Study Using StoryKit",
@@ -2231,9 +2127,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to103": {
         "title": "Performance-led Research In The Wild",
@@ -2333,9 +2227,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to104": {
         "title": "Negotiating Food Waste: Using a Practice Lens to Inform Design",
@@ -2372,9 +2264,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to105": {
         "title": "P-LAYERS – A layered framework addressing the multi-faceted issues facing community-supporting public display deployments",
@@ -2434,9 +2324,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to106": {
         "title": "Uncovering practices of making energy consumption accountable: A phenomenological inquiry",
@@ -2482,9 +2370,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to107": {
         "title": "Crowdfunding: Motivations and Deterrents for Participation",
@@ -2512,9 +2398,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to108": {
         "title": "Influence of Personality on Satisfaction with Mobile Phone Services",
@@ -2555,9 +2439,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to110": {
         "title": "A Sustainable Design Fiction: Green Practices",
@@ -2603,9 +2485,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to111": {
         "title": "Moderated Online Social Therapy: Designing and Evaluating Technology for Mental Health",
@@ -2667,9 +2547,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to112": {
         "title": "Walking and the Social Life of Solar Charging in Rural Africa",
@@ -2768,9 +2646,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to113": {
         "title": "Age Differences in Credibility Judgments of Online Health Information",
@@ -2801,9 +2677,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to114": {
         "title": "Let’s Jam the Reactable: Peer Learning during Musical Improvisation with a Tabletop Tangible Interface",
@@ -2872,9 +2746,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to117": {
         "title": "Exploring Sustainable Practices in Workplace Settings through Visualizing Electricity Consumption",
@@ -2936,9 +2808,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to118": {
         "title": "Disambiguation of Imprecise Input with One-dimensional Rotational Text Entry",
@@ -2975,9 +2845,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to120": {
         "title": "Predicting Whether Users View Dynamic Content on the World Wide Web",
@@ -3018,9 +2886,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to122": {
         "title": "Wild at Home: The Neighborhood as a Living Laboratory for HCI",
@@ -3052,9 +2918,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to123": {
         "title": "Of Catwalk Technologies and Boundary Creatures",
@@ -3091,9 +2955,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to126": {
         "title": "Understand Users’ Comprehension and Preferences for Composing Information Visualizations",
@@ -3137,9 +2999,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to127": {
         "title": "Collapse Informatics and Practice: Theory, Method, and Design",
@@ -3203,9 +3063,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to128": {
         "title": "Evaluating a tool for improving accessibility to charts and graphs",
@@ -3254,9 +3112,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to129": {
         "title": "A Large Scale Study of Daily Information Needs Captured In-Situ",
@@ -3293,9 +3149,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to131": {
         "title": "Designing Interfaces for Multiple-Goal Environments: Experimental Insights from In-Vehicle Speech Interfaces",
@@ -3353,9 +3207,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to133": {
         "title": "Practices as a Unit of Design: An Exploration of Theoretical Guidelines in a Study on Bathing",
@@ -3392,9 +3244,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to134": {
         "title": "Complex Activity Recognition using Context Driven Activity Theory and Activity Signatures",
@@ -3431,9 +3281,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to135": {
         "title": "Complementing Text Entry Evaluations with a Composition Task",
@@ -3466,9 +3314,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to136": {
         "title": "Applying the Lens of Sensory Ethnography to Sustainable HCI",
@@ -3541,9 +3387,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "to137": {
         "title": "TaskGenies: Automatically Providing Action Plans Helps People Complete Tasks",
@@ -3607,9 +3451,7 @@ entities={
             }
         ],
         "type": "TOCHI",
-        "subtype": "TOCHI",
-        "award": false,
-        "hm": false
+        "subtype": "TOCHI"
     },
     "pn104": {
         "title": "Smarties: An Input System for Wall Display Development",
@@ -3652,9 +3494,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn111": {
         "title": "Improving Automatic Speech Recognition Through Head Pose Driven Visual Grounding",
@@ -3679,9 +3519,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn113": {
         "title": "Multi-finger Chords for Hand-held Tablets: Recognizable and Memorable",
@@ -3723,9 +3561,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn116": {
         "title": "Odin: Contextual Document Opinions On The Go",
@@ -3762,9 +3598,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn118": {
         "title": "Experience Design Theatre: Exploring the Role of Live Theatre in Scaffolding Design Dialogues",
@@ -3826,9 +3660,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn119": {
         "title": "Pay or Delay: The Role of Technology When Managing a Low Income",
@@ -3870,9 +3702,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn121": {
         "title": "The Effects of Embodied Persuasive Games on Player Attitudes Toward People Using Wheelchairs",
@@ -3932,9 +3762,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn122": {
         "title": "Effects of Balancing for Physical Abilities on Player Performance, Experience and Self-Esteem in Exergames",
@@ -3995,9 +3823,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn138": {
         "title": "Vulture: A Mid-Air Word-Gesture Keyboard",
@@ -4041,9 +3867,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn139": {
         "title": "Audience Experience in Social Videogaming: Effects of Turn Expectation and Game Physicality",
@@ -4103,9 +3927,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn142": {
         "title": "Duet: Exploring Joint Interactions on a Smart Phone and a Smart Watch",
@@ -4156,9 +3978,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn147": {
         "title": "Interactively Stylizing Camera Motion",
@@ -4198,9 +4018,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn150": {
         "title": "Crowdsourcing the Future: Predictions Made with a Social Network",
@@ -4253,9 +4071,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn155": {
         "title": "Towards an Holistic View of the Energy and Environmental Impacts of Domestic Media and IT",
@@ -4310,9 +4126,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn164": {
         "title": "CHI 1994-2013: Mapping Two Decades of Intellectual Progress through Co-word Analysis",
@@ -4383,9 +4197,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn166": {
         "title": "Posting for Community and Culture: Considerations for the Design of Interactive Digital Bulletin Boards",
@@ -4429,9 +4241,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn169": {
         "title": "Shared Values/Conflicting Logics: Working Around E-Government Systems",
@@ -4481,9 +4291,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn171": {
         "title": "Novice Use of a Predictive Human Performance Modeling Tool to Produce UI Recommendations",
@@ -4515,9 +4323,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn180": {
         "title": "Didn't You See My Message? Predicting Attentiveness to Mobile Instant Messages",
@@ -4570,9 +4376,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn183": {
         "title": "Measuring the Effect of Think Aloud Protocols on Workload using fNIRS",
@@ -4634,9 +4438,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn186": {
         "title": "Money Talks: Tracking Personal Finances",
@@ -4687,9 +4489,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn189": {
         "title": "The Usability of CommandMaps in Realistic Tasks",
@@ -4749,9 +4549,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn190": {
         "title": "Social Epistemic Cognition in Online Interactions",
@@ -4795,9 +4593,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn191": {
         "title": "Using Personal Examples to Improve Risk Communication for Security and Privacy Decisions",
@@ -4852,9 +4648,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn198": {
         "title": "Pixel-Based Methods for Widget State and Style in a Runtime Implementation of Sliding Widgets",
@@ -4897,9 +4691,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn205": {
         "title": "Interactive Development of Cross-Device User Interfaces",
@@ -4949,9 +4741,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn208": {
         "title": "Non-Intrusive Tongue Machine Interface",
@@ -5000,9 +4790,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn216": {
         "title": "The Impact of Visual Contextualization on UI Localization",
@@ -5036,9 +4824,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn219": {
         "title": "Giving up Twitter for Lent: How and Why We Take Breaks from Social Media",
@@ -5065,9 +4851,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn222": {
         "title": "Exploring the Use of Hand-To-Face Input for Interacting with Head-Worn Displays",
@@ -5111,9 +4895,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn223": {
         "title": "TransPhoner: Automated Mnemonic Keyword Generation",
@@ -5159,9 +4941,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn224": {
         "title": "Crowdsourcing Step-by-Step Information Extraction to Enhance Existing How-to Videos",
@@ -5229,9 +5009,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn228": {
         "title": "Draco: Bringing Life to Illustrations with Kinetic Textures",
@@ -5290,9 +5068,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn233": {
         "title": "Evaluating Multimodal Driver Displays under Varying Situational Urgency",
@@ -5340,9 +5116,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn235": {
         "title": "Combining Body Pose, Gaze, and Gesture to Determine Intention to Interact in Vision-Based Interfaces",
@@ -5403,9 +5177,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn239": {
         "title": "Causality – A Conceptual Model of Interaction History",
@@ -5438,9 +5210,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn241": {
         "title": "Designing Tangible Video Games: Lessons Learned from the Sifteo Cubes",
@@ -5484,9 +5254,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn245": {
         "title": "What's on Your Mind? Investigating Recommendations for Inclusive Social Networking and Older Adults",
@@ -5529,9 +5297,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn248": {
         "title": "AudioCanvas: Internet-Free Interactive Audio Photos",
@@ -5573,9 +5339,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn250": {
         "title": "A Billion Signposts: Repurposing Barcodes for Indoor Navigation",
@@ -5618,9 +5382,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn255": {
         "title": "You Read What You Value: Understanding Personal Values and Reading Interests",
@@ -5671,9 +5433,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn263": {
         "title": "Twitch Crowdsourcing: Crowd Contributions in Short Bursts of Time",
@@ -5732,9 +5492,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn264": {
         "title": "Impact of Form Factors and Input Conditions on Absolute Indirect-Touch Pointing Tasks",
@@ -5777,9 +5535,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn271": {
         "title": "Emergent, Crowd-scale Programming Practice in the IDE",
@@ -5837,9 +5593,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn272": {
         "title": "Automated Nonlinear Regression Modeling for HCI",
@@ -5862,9 +5616,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn276": {
         "title": "The BoomRoom: Mid-air Direct Interaction with Virtual Sound Sources",
@@ -5914,9 +5666,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn279": {
         "title": "Communiplay: A Field Study of a Public Display Mediaspace",
@@ -5957,9 +5707,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn286": {
         "title": "Help Beacons: Design and Evaluation of an Ad-Hoc Lightweight S.O.S. System for Smartphones",
@@ -6019,9 +5767,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn288": {
         "title": "Experimental Evaluation of User Interfaces for Visual Indoor Navigation",
@@ -6109,9 +5855,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn292": {
         "title": "Is Once Enough? On the Extent and Content of Replications in Human-Computer Interaction",
@@ -6157,9 +5901,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn297": {
         "title": "faBrickation: Fast 3D printing of Functional Objects by Integrating Construction Kit Building Blocks",
@@ -6220,9 +5962,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn313": {
         "title": "Changibles: Analyzing and Designing Shape Changing Constructive Assembly",
@@ -6273,9 +6013,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn319": {
         "title": "Temporal, Affective, and Embodied Characteristics of Taste Experiences: A Framework for Design",
@@ -6346,9 +6084,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn320": {
         "title": "Opportunities for Odor: Experiences with Smell and Implications for Technology",
@@ -6397,9 +6133,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn330": {
         "title": "History Assisted View Authoring for 3D Models",
@@ -6472,9 +6206,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn337": {
         "title": "Visualizing Dynamic Networks with Matrix Cubes",
@@ -6517,9 +6249,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn340": {
         "title": "Scalable Multi-label Annotation",
@@ -6586,9 +6316,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn343": {
         "title": "TouchTools: Leveraging Familiarity and Skill with Physical Tools to Augment Touch Interaction",
@@ -6641,9 +6369,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn345": {
         "title": "Overload is Overloaded: Email in the Age of Gmail",
@@ -6695,9 +6421,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn361": {
         "title": "Finder Highlights: Field Evaluation and Design of an Augmented File Browser",
@@ -6739,9 +6463,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn366": {
         "title": "Error Related Negativity in Observing Interactive Tasks",
@@ -6793,9 +6515,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn371": {
         "title": "Kickables: Tangibles for Feet",
@@ -6918,9 +6638,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn372": {
         "title": "Expanding the Input Expressivity of Smartwatches with Physical Pan, Twist, Tilt and Click",
@@ -6964,9 +6682,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn385": {
         "title": "Is my Phone Alive? A Large-Scale Study of Shape Change in Handheld Devices Using Videos",
@@ -7008,9 +6724,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn386": {
         "title": "Expressive Touch: Studying Tapping Force on Tabletops",
@@ -7045,9 +6759,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn389": {
         "title": "Effects of Display Size and Navigation Type on a Classification Task",
@@ -7109,9 +6821,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn395": {
         "title": "Simplifying Orientation Measurement for Mobile Audio Augmented Reality Applications",
@@ -7155,9 +6865,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn399": {
         "title": "Listening to the Forest and its Curators: Lessons Learnt from a Bioacoustic Smartphone Application Deployment",
@@ -7248,9 +6956,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn400": {
         "title": "PIM and Personality: What do our Personal File Systems Say About Us?",
@@ -7301,9 +7007,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn404": {
         "title": "Representatively Memorable: Sampling the Right Phrase Set to Get the Text Entry Experiment Right",
@@ -7336,9 +7040,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn405": {
         "title": "Smart Photo Selection: Interpret Gaze as Personal Interest",
@@ -7379,9 +7081,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn419": {
         "title": "Food Messaging: Using Edible Medium for Social Messaging",
@@ -7425,9 +7125,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn420": {
         "title": "Is Motion Capture-Based Biomechanical Simulation Valid for HCI Studies? Study and Implications",
@@ -7479,9 +7177,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn425": {
         "title": "Pinch-Drag-Flick vs. Spatial Input: Rethinking Zoom & Pan on Mobile Displays",
@@ -7533,9 +7229,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn426": {
         "title": "Prospective Motor Control on Tabletops: Planning Grasp for Multitouch Interaction",
@@ -7579,9 +7273,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn428": {
         "title": "Type-Hover-Swipe in 96 Bytes: A Motion Sensing Mechanical Keyboard",
@@ -7640,9 +7332,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn431": {
         "title": "A Comparative Study about Children's and Adults' Perception of Targeted Web Search Engines",
@@ -7684,9 +7374,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn435": {
         "title": "Show Me the Invisible: Visualizing Hidden Content",
@@ -7746,9 +7434,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn438": {
         "title": "Perception of Ultrasonic Haptic Feedback on the Hand: Localisation and Apparent Motion",
@@ -7799,9 +7485,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn443": {
         "title": "The Department of Hidden Stories: Playful Digital Storytelling for Children in a Public Library",
@@ -7919,9 +7603,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn444": {
         "title": "Recreating Living Experiences from Past Memories through Virtual Worlds for People with Dementia",
@@ -7955,9 +7637,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn455": {
         "title": "End-Users Publishing Structured Information on the Web: An Observational Study of What, Why, and How",
@@ -7990,9 +7670,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn464": {
         "title": "In the Blink of an Eye: Investigating Latency Perception during Stylus Interaction",
@@ -8054,9 +7732,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn490": {
         "title": "Investigating the Effects of using Biofeedback as Visual Stress Indicator during Video-mediated Collaboration",
@@ -8107,9 +7783,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn493": {
         "title": "Personal Tracking as Lived Informatics",
@@ -8159,9 +7833,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn495": {
         "title": "Gaze Gestures and Haptic Feedback in Mobile Devices",
@@ -8229,9 +7901,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn505": {
         "title": "OJAS - Open Source Bi-Directional Inductive Power Link",
@@ -8291,9 +7961,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn514": {
         "title": "Cloudy Forecast: An Exploration of the Factors Underlying Shared Repository Use",
@@ -8336,9 +8004,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn521": {
         "title": "Wave to Me: User Identification Using Body Lengths and Natural Gestures",
@@ -8379,9 +8045,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn525": {
         "title": "Slide to X: Unlocking the Potential of Smartphone Unlocking",
@@ -8422,9 +8086,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn526": {
         "title": "Show me the Money! An Analysis of Project Updates during Crowdfunding Campaigns",
@@ -8492,9 +8154,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn529": {
         "title": "3D Printed Interactive Speakers",
@@ -8531,9 +8191,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn532": {
         "title": "Bodies in Motion: Mobility, Presence, and Task Awareness in Telepresence",
@@ -8577,9 +8235,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn534": {
         "title": "Streaming on Twitch: Fostering Participatory Communities of Play within Live Mixed Media",
@@ -8623,9 +8279,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn541": {
         "title": "Coding Livecoding",
@@ -8674,9 +8328,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn547": {
         "title": "The Vocal Chorder - Empowering Opera Singers with a Large Interactive Instrument",
@@ -8720,9 +8372,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn549": {
         "title": "A Chair as Ubiquitous Input Device: Exploring Semaphoric Chair Gestures for Focused and Peripheral Interaction",
@@ -8781,9 +8431,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn555": {
         "title": "Quantifying Visual Preferences Around the World",
@@ -8818,9 +8466,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn558": {
         "title": "ZWERM: a Modular Component Network Approach for an Urban Participation Game",
@@ -8892,9 +8538,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn576": {
         "title": "Utilising Insight Journalism for Community Technology Design",
@@ -8993,9 +8637,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn581": {
         "title": "Always Somewhere, Never There: Using Critical Design to Understand Database Interactions",
@@ -9038,9 +8680,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn583": {
         "title": "Probabilistic Palm Rejection Using Spatiotemporal Touch Features and Iterative Classification",
@@ -9101,9 +8741,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn586": {
         "title": "Design Patterns for Exploring and Prototyping Human-Robot Interactions",
@@ -9139,9 +8777,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn589": {
         "title": "The Personal Cockpit: A Spatial Interface for Effective Task Switching on Head-Worn Displays",
@@ -9186,9 +8822,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn590": {
         "title": "Stewarding a Legacy: Responsibilities and Relationships in the Management of Post-mortem Data",
@@ -9251,9 +8885,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn601": {
         "title": "Kinect-taped Communication: Using Motion Sensing to Study Gesture Use and Similarity in Face-to-Face and Computer-Mediated Brainstorming",
@@ -9288,9 +8920,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn602": {
         "title": "Towards Community-Centered Support for Peer-to-Peer Service Exchange: Rethinking the Timebanking Metaphor",
@@ -9367,9 +8997,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn614": {
         "title": "Offline Painted Media for Digital Animation Authoring",
@@ -9411,9 +9039,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn621": {
         "title": "In-Your-Face, Yet Unseen? Improving Head-Stabilized Warnings to Reduce Reaction Time",
@@ -9445,9 +9071,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn626": {
         "title": "How Does Knowing What You Are Looking For Change Visual Search Behavior?",
@@ -9498,9 +9122,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn639": {
         "title": "The Influence of Emotion on Number Entry Errors",
@@ -9542,9 +9164,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn641": {
         "title": "Interrupted by a Phone Call: Exploring Designs for Lowering the Impact of Call Notifications for Smartphone Users",
@@ -9604,9 +9224,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn643": {
         "title": "Broken Display = Broken Interface? The Impact of Display Damage on Smartphone Interaction",
@@ -9676,9 +9294,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn648": {
         "title": "Classifying Driver Workload Using Physiological and  Driving Performance Data: Two Field Studies",
@@ -9740,9 +9356,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn650": {
         "title": "Choice-Based Preference Elicitation for Collaborative Filtering Recommender Systems",
@@ -9784,9 +9398,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn653": {
         "title": "Together Alone: Motivations for Live-Tweeting a Television Series",
@@ -9830,9 +9442,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn654": {
         "title": "Bigger is not always better: Display Size, Performance, and Task Load during Peephole Map Navigation",
@@ -9885,9 +9495,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn657": {
         "title": "Designing Information Savvy Societies: An Introduction to Assessability",
@@ -9938,9 +9546,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn664": {
         "title": "The Patchworks Code Editor: Toward Faster Navigation with Less Code Arranging and Fewer Navigation Mistakes",
@@ -9973,9 +9579,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn671": {
         "title": "Spending Real Money: Purchasing Patterns of Virtual Goods in an Online Social Game",
@@ -10002,9 +9606,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn672": {
         "title": "SurfacePhone: A Mobile Projection Device for Single- and Multiuser Everywhere Tabletop Interaction",
@@ -10063,9 +9665,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn673": {
         "title": "An EEG-based Approach for Evaluating Audio Notifications under Ambient Sounds",
@@ -10135,9 +9735,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn677": {
         "title": "DDF Seeks Same: Sexual Health-Related Language in Online Personal Ads For Men Who Have Sex With Men",
@@ -10183,9 +9781,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn683": {
         "title": "A Systematic Review of Quantitative Studies on the Enjoyment of Digital Entertainment Games",
@@ -10236,9 +9832,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn686": {
         "title": "Don't Forget Your Pill! Designing Effective Medication Reminder Apps That Support Users' Daily Routines",
@@ -10281,9 +9875,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn687": {
         "title": "Personas is Applicable – A Study On the Use of Personas In Denmark",
@@ -10316,9 +9908,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn691": {
         "title": "What If We Ask A Different Question?: Social Inferences Create Product Ratings Faster",
@@ -10342,9 +9932,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn692": {
         "title": "Panopticon as an eLearning Support Search Tool",
@@ -10393,9 +9981,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn701": {
         "title": "Monadic Exploration: Seeing the Whole Through Its Parts",
@@ -10439,9 +10025,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn704": {
         "title": "From Checking On to Checking In: Designing for Low Socio-Economic Status Older Adults",
@@ -10509,9 +10093,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn714": {
         "title": "Current and Future Mobile and Wearable Device  Use by People With Visual Impairments",
@@ -10561,9 +10143,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn718": {
         "title": "Pupil Responses during Discrete Goal-directed Movements",
@@ -10623,9 +10203,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn728": {
         "title": "SensaBubble: A Chrono-Sensory Mid-Air Display of Sight and Smell",
@@ -10713,9 +10291,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn730": {
         "title": "Coordination of Tilt and Touch in One- and Two-Handed Use",
@@ -10767,9 +10343,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn734": {
         "title": "Depth Perception with Gaze-contingent Depth of Field",
@@ -10823,9 +10397,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn736": {
         "title": "MixFab: a Mixed-Reality Environment for Personal Fabrication",
@@ -10886,9 +10458,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn737": {
         "title": "Human Factors of Speed-based Exergame Controllers",
@@ -10956,9 +10526,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn739": {
         "title": "Exploring the Acceptability of Google Glass as an Everyday Assistive Device for People with Parkinson’s",
@@ -11036,9 +10604,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn750": {
         "title": "Model of Visual Search and Selection Time in Linear Menus",
@@ -11090,9 +10656,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn751": {
         "title": "Growing Closer on Facebook: Changes in Tie Strength Through Social Network Site Use",
@@ -11128,9 +10692,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn755": {
         "title": "The Implicit Fan Cursor: A Velocity Dependent Area Cursor",
@@ -11172,9 +10734,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn756": {
         "title": "LinearDragger: a Linear Selector for Target Acquisition on Touch Screens",
@@ -11215,9 +10775,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn757": {
         "title": "Now You See Me, Now You Don't - Protecting Smartphone Authentication from Shoulder Surfers",
@@ -11294,9 +10852,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn758": {
         "title": "Research Through Design Fiction: Narratives in Real and Imaginary Abstracts",
@@ -11320,9 +10876,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn761": {
         "title": "Persuasive Technology for Overcoming Food Cravings and Improving Snack Choices",
@@ -11393,9 +10947,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn763": {
         "title": "A Pool of Dreams : Facebook, Politics and the Emergence of a Social Movement",
@@ -11456,9 +11008,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn775": {
         "title": "Haptic Turk: A Motion Platform Based on People",
@@ -11518,9 +11068,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn785": {
         "title": "Let’s Do It at My Place Instead?  Attitudinal and Behavioral Study of Privacy in Client-Side Personalization",
@@ -11564,9 +11112,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn787": {
         "title": "Taking Part: Role-play in the Design of Therapeutic Systems",
@@ -11609,9 +11155,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn791": {
         "title": "The MOY Framework for Collaborative Play Design in Integrated Shared and Private Interactive Spaces",
@@ -11671,9 +11215,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn794": {
         "title": "GaussBricks: Magnetic Building Blocks for Constructive Tangible Interactions on Portable Displays",
@@ -11751,9 +11293,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn796": {
         "title": "Visualization of Personal History for Video Navigation",
@@ -11804,9 +11344,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn799": {
         "title": "Jump and Shoot! - Prioritizing Primary and Alternative Body Gestures for Intense Gameplay",
@@ -11840,9 +11378,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn802": {
         "title": "Support Matching and Satisfaction in an Online Breast Cancer Support Community",
@@ -11894,9 +11430,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn806": {
         "title": "CRISP - An Interruption Management Algorithm based on Collaborative Filtering",
@@ -11946,9 +11480,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn810": {
         "title": "Learning to Fail: Experiencing Public Failure Online Through Crowdfunding",
@@ -11981,9 +11513,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn838": {
         "title": "The Turn to Practice in HCI: Towards a Research Agenda",
@@ -12016,9 +11546,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn845": {
         "title": "Structuring the Space: A Study on Enriching Node-Link Diagrams with Visual References",
@@ -12060,9 +11588,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn847": {
         "title": "Multi-Viewer Gesture-Based Interaction for Omni-Directional Video",
@@ -12122,9 +11648,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn862": {
         "title": "Finding “Real People”: Trust and Diversity in the Interface Between Professional and Citizen Journalists",
@@ -12185,9 +11709,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn866": {
         "title": "Co-constructing Child Personas for Health-Promoting Services with Vulnerable Children",
@@ -12233,9 +11755,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn876": {
         "title": "RecoFit: Using a Wearable Sensor to Find, Recognize, and Count Repetitive Exercises",
@@ -12285,9 +11805,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn883": {
         "title": "OneSpace: Shared Visual Scenes for Active Freeplay",
@@ -12347,9 +11865,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn884": {
         "title": "TaggedComments: Promoting and Integrating User Comments in Online Application Tutorials",
@@ -12408,9 +11924,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn887": {
         "title": "Reflection through Design: Immigrant Women’s Self-Reflection on Managing Health and Wellness",
@@ -12453,9 +11967,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn896": {
         "title": "SurfaceLink: Using Inertial and Acoustic Sensing to Enable Multi-Device Interaction on a Surface",
@@ -12528,9 +12040,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn897": {
         "title": "Reflection or Action?: How Feedback and Control Affect Location Sharing Decisions",
@@ -12582,9 +12092,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn898": {
         "title": "Exploring the Usefulness of Finger-Based 3D Gesture Menu Selection",
@@ -12624,9 +12132,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn905": {
         "title": "Fostering Social Capital in Economically Distressed Communities",
@@ -12650,9 +12156,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn906": {
         "title": "Interface Design for Older Adults with Varying Cultural Attitudes toward Uncertainty",
@@ -12695,9 +12199,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn916": {
         "title": "The Use of Surrounding Visual Context in Handheld AR: Device vs. User Perspective Rendering",
@@ -12741,9 +12243,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn924": {
         "title": "Necessary, Unpleasant, and Disempowering: Reputation Management in the Internet Age",
@@ -12766,9 +12266,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn941": {
         "title": "The Lonely Raccoon at the Ball:  Designing for Intimacy, Sociability, and Selfhood",
@@ -12826,9 +12324,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn950": {
         "title": "“Kid-in-the-Loop” Content Control:  A Collaborative and Education-oriented Content Filtering Approach",
@@ -12869,9 +12365,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn951": {
         "title": "Stimulating a Blink: Reduction of Eye Fatigue With Visual Stimulus",
@@ -12913,9 +12407,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn965": {
         "title": "Consumed Endurance: A Metric to Quantify Arm Fatigue of Mid-Air Interactions",
@@ -12968,9 +12460,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn966": {
         "title": "Sample-Oriented Task-Driven Visualizations: Allowing Users to Make Better, More Confident Decisions",
@@ -13013,9 +12503,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn967": {
         "title": "Emerging Sites of HCI Innovation: Hackerspaces, Hardware Startups & Incubators",
@@ -13062,9 +12550,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn975": {
         "title": "Understanding Digital and Material Social Communications for Older Adults",
@@ -13106,9 +12592,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn977": {
         "title": "Imperceptible Depth Shifts for Touch Interaction with Stereoscopic Objects",
@@ -13148,9 +12632,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn983": {
         "title": "Using Asymmetric Cores to Reduce Power Consumption for Interactive Devices with Bi-stable Displays",
@@ -13202,9 +12684,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn988": {
         "title": "Faster Command Selection on Tablets with FastTap",
@@ -13263,9 +12743,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn999": {
         "title": "Reading Critical Designs:  Supporting Reasoned Interpretations of Critical Design",
@@ -13308,9 +12786,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1007": {
         "title": "Interaction on the Edge: Offset Sensing for Small Devices",
@@ -13343,9 +12819,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1009": {
         "title": "Estimating County Health Statistics with Twitter",
@@ -13368,9 +12842,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1014": {
         "title": "Upvoting Hurricane Sandy: Event-Based News Production Processes on a Social News Site",
@@ -13406,9 +12878,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1015": {
         "title": "Highlighting Interventions and User Differences: Informing Adaptive Information Visualization Support",
@@ -13475,9 +12945,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1020": {
         "title": "Investigating the Feasibility of Extracting Tool Demonstrations from In-Situ Video Content",
@@ -13530,9 +12998,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1032": {
         "title": "Share your View: Impact of Co-Navigation Support and Status Composition in Collaborative Online Shopping",
@@ -13579,9 +13045,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1034": {
         "title": "Understanding Physical Activity through 3D Printed Material Artifacts",
@@ -13625,9 +13089,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1036": {
         "title": "Unraveling Abstinence and Relapse: Smoking Cessation Reflected in Social Media",
@@ -13662,9 +13124,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1046": {
         "title": "Presstures: Exploring Pressure-Sensitive Multi-Touch Gestures on Trackpads",
@@ -13724,9 +13184,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1055": {
         "title": "Predictors of Life Satisfaction based on Daily Activities from Mobile Sensor Data",
@@ -13767,9 +13225,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1057": {
         "title": "28 Frames Later: Predicting Screen Touches From Back-of-Device Grip Changes",
@@ -13838,9 +13294,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn1071": {
         "title": "Choice Overload in Search Engine Use?",
@@ -13872,9 +13326,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1081": {
         "title": "Sticker Circuits: A New Technique for Constructing Prototype Physical Interfaces",
@@ -13954,9 +13406,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1092": {
         "title": "Understanding Finger Input Above Desktop Devices",
@@ -14008,9 +13458,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1095": {
         "title": "Metaphone: Machine Aesthetics Meets Interaction Design",
@@ -14072,9 +13520,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1097": {
         "title": "Passhint: Memorable and Secure Authentication",
@@ -14115,9 +13561,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1099": {
         "title": "Sensing a Live Audience",
@@ -14166,9 +13610,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1103": {
         "title": "Cognitively Inspired Task Design to Improve User Performance on Crowdsourcing Platforms",
@@ -14213,9 +13655,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1110": {
         "title": "Digitally Driven: How Location Based Services Impact the Work Practices of London Bus Drivers",
@@ -14278,9 +13718,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1120": {
         "title": "Brain Points: A Growth Mindset Incentive Structure Boosts Persistence in an Educational Game",
@@ -14339,9 +13777,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1123": {
         "title": "Effects of Simultaneous and Sequential Work Structures on Distributed Collaborative Interdependent Tasks",
@@ -14383,9 +13819,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1161": {
         "title": "Crowd Storage: Storing Information on Existing Memories",
@@ -14417,9 +13851,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1171": {
         "title": "Investigating the Long-Term Use of Exergames in the Home with Elderly Fallers",
@@ -14455,9 +13887,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1179": {
         "title": "SmartVoice: A Presentation Support System For Overcoming the Language Barrier",
@@ -14492,9 +13922,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1182": {
         "title": "Supporting Learners in Collecting and Exploring Data from Immersive Simulations in Collective Inquiry",
@@ -14557,9 +13985,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1183": {
         "title": "Movement-Based Game Guidelines",
@@ -14593,9 +14019,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1186": {
         "title": "Evaluating the Effectiveness of Physical Shape-Change for In-pocket Mobile Device Notifications",
@@ -14627,9 +14051,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1188": {
         "title": "Under Pressure: Sensing Stress of Computer Users",
@@ -14680,9 +14102,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1190": {
         "title": "Wrigglo: Shape-Changing Peripheral for Interpersonal Mobile Communication",
@@ -14723,9 +14143,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1192": {
         "title": "Doing the Laundry with Agents: a Field Trial of a Future Smart Energy System in the Home",
@@ -14796,9 +14214,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1193": {
         "title": "Evaluation of Hear-Through Sound Localization",
@@ -14826,9 +14242,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1199": {
         "title": "Remote Handshaking: Touch Enhances Video-Mediated Social Telepresence",
@@ -14873,9 +14287,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1200": {
         "title": "Conductor: Enabling and Understanding Cross-Device Interaction",
@@ -14910,9 +14322,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1203": {
         "title": "Improving Machine Translation by Showing Two Outputs",
@@ -14961,9 +14371,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1222": {
         "title": "Mechanical Force Redistribution: Enabling Seamless, Large-Format, High-Accuracy Surface Interaction",
@@ -15019,9 +14427,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1225": {
         "title": "PrintSense: A Versatile Sensing Technique to Support Multimodal Flexible Surface Interaction",
@@ -15100,9 +14506,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1227": {
         "title": "Measuring Operator Anticipatory Inputs in Response to Time-delay for Teleoperated Human-robot Interfaces",
@@ -15144,9 +14548,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1236": {
         "title": "Is Anyone Out There? Unpacking Q&A Hashtags on Twitter",
@@ -15207,9 +14609,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1237": {
         "title": "Finding Dependencies Between Actions Using the Crowd",
@@ -15259,9 +14659,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1238": {
         "title": "Room for Interpretation: The Role of Self-Esteem  and CMC in Romantic Couple Conflict",
@@ -15305,9 +14703,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1241": {
         "title": "Designing for Slowness, Anticipation and Re-visitation: A Long Term Field Study of the Photobox",
@@ -15394,9 +14790,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1242": {
         "title": "Gaining Empathy for Non-Routine Mobile Device Use Through Autoethnography",
@@ -15439,9 +14833,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1252": {
         "title": "Improving Social Presence in Human-Agent Interaction",
@@ -15483,9 +14875,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1255": {
         "title": "Estimating the Social Costs of Friendsourcing",
@@ -15518,9 +14908,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1257": {
         "title": "MinEMail: SMS Alert System for Managing Critical Emails",
@@ -15553,9 +14941,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1262": {
         "title": "FrameBox and MirrorBox: Tools and Guidelines to Support Designers in Prototyping Interfaces for 3D Displays",
@@ -15605,9 +14991,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1264": {
         "title": "Never Too Old: Engaging Retired People Inventing The Future With MaKey MaKey",
@@ -15679,9 +15063,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1268": {
         "title": "Binding the Material and the Discursive with a Relational Approach of Affordances",
@@ -15720,9 +15102,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1269": {
         "title": "I Can Wait a Minute: Uncovering the Optimal Delay Time for Pre-Moderated User-Generated Content on Public Displays",
@@ -15772,9 +15152,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1275": {
         "title": "Let me catch this! Experiencing Interactive 3D Cinema through Collecting Content with a Mobile Phone",
@@ -15844,9 +15222,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1281": {
         "title": "EmergencyMessenger: A text based communication concept for indoor firefighting",
@@ -15885,9 +15261,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1282": {
         "title": "Large-Scale Assessment of Mobile Notifications",
@@ -15958,9 +15332,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1290": {
         "title": "StepStream: A School-based Pervasive Social Fitness System for Everyday Adolescent Health",
@@ -15995,9 +15367,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1293": {
         "title": "Edit Distance Modulo Bisimulation: A Quantitative Measure to Study Evolution of User Models",
@@ -16056,9 +15426,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1295": {
         "title": "Photographing Information Needs: The Role of Photos in Experience Sampling Method-Style Research",
@@ -16145,9 +15513,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1296": {
         "title": "Just Awful Enough – The Functional Dysfunction of the Something Awful Forums",
@@ -16198,9 +15564,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1298": {
         "title": "My Journey Compass: A Preliminary Investigation of a Mobile Tool for Cancer Patients",
@@ -16241,9 +15605,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1316": {
         "title": "Dive In! Enabling Progressive Loading for  Real-Time Navigation of Data Visualizations",
@@ -16285,9 +15647,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1325": {
         "title": "Human Values in Curating a Human Rights Media Archive",
@@ -16331,9 +15691,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1330": {
         "title": "“Narco” Emotions: Affect and Desensitization in Social Media during the Mexican Drug War",
@@ -16375,9 +15733,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1333": {
         "title": "Exploring Video Streaming in Public Settings: Shared Geocaching Over Distance Using Mobile Video Chat",
@@ -16436,9 +15792,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1336": {
         "title": "Panelrama: Enabling Easy Specification of Cross-Device Web Applications",
@@ -16469,9 +15823,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1337": {
         "title": "Task-Driven Evaluation of Aggregation in Time Series Visualization",
@@ -16513,9 +15865,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1341": {
         "title": "Goals and Perceived Success of Online Enterprise Communities: What Is Important to Leaders & Members?",
@@ -16595,9 +15945,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1343": {
         "title": "Towards Crowd-based Customer Service: A Mixed-Initiative Tool for Managing Q&A Sites",
@@ -16657,9 +16005,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1347": {
         "title": "Global Connectivity and Multilinguals in the Twitter Network",
@@ -16686,9 +16032,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1351": {
         "title": "Bored Mondays and Focused Afternoons: The Rhythm of Attention and Online Activity in the Workplace",
@@ -16743,9 +16087,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1354": {
         "title": "What Did Spot Hide?: A Question-Answering Game For Preschool Children",
@@ -16778,9 +16120,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1360": {
         "title": "SonicExplorer: Fluid Exploration of Audio Parameters",
@@ -16823,9 +16163,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1362": {
         "title": "Showing Face in Video Instruction: Effects on Information Retention, Visual Attention, and Affect",
@@ -16866,9 +16204,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1372": {
         "title": "Exploiting Thermal Reflection for Interactive Systems",
@@ -16938,9 +16274,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1375": {
         "title": "Using Annotations in Online Group Chats",
@@ -16973,9 +16307,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1377": {
         "title": "Real-time Feedback for Improving Medication Taking",
@@ -17012,9 +16344,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1398": {
         "title": "Customization Bias in Decision Support Systems",
@@ -17036,9 +16366,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1399": {
         "title": "The Presentation Effect on Graphical Passwords",
@@ -17088,9 +16416,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1410": {
         "title": "The Impact of Membership Overlap on the Survival of Online Communities",
@@ -17131,9 +16457,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1413": {
         "title": "Seeking and Sharing Health Information Online: Comparing Search Engines and Social Media",
@@ -17176,9 +16500,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1414": {
         "title": "“Maybe It Was a Joke” - Emotion Detection in Text-Only Communication by Non-Native English Speakers",
@@ -17221,9 +16543,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1417": {
         "title": "Causal Interactions",
@@ -17267,9 +16587,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1421": {
         "title": "Combining crowdsourcing and learning to improve engagement and performance",
@@ -17319,9 +16637,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1423": {
         "title": "MotionMontage: A System to Annotate and Combine Motion Takes for 3D Animations",
@@ -17372,9 +16688,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1425": {
         "title": "Making Big Gestures: Effects of Gesture Size on Observability and Identification for Co-Located Group Awareness",
@@ -17406,9 +16720,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1426": {
         "title": "Toss ‘N’ Turn: Smartphone as Sleep and Sleep Quality Detector",
@@ -17477,9 +16789,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1428": {
         "title": "“Now That’s Definitely a Proper Hack”: Self-Made Tools in Hackerspaces",
@@ -17524,9 +16834,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn1442": {
         "title": "Non-Finito Products: A New Design Space of User Creativity for Personal User Experience",
@@ -17569,9 +16877,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1446": {
         "title": "BodyDiagrams: Improving Communication of Pain Symptoms through Drawing",
@@ -17613,9 +16919,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1447": {
         "title": "Traffigram: Distortion for Clarification via Isochronal Cartography",
@@ -17668,9 +16972,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1448": {
         "title": "EnergyBugs: Energy Harvesting Wearables for Children",
@@ -17723,9 +17025,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1452": {
         "title": "Exploring Percussive Gesture on iPads with Ensemble Metatone",
@@ -17769,9 +17069,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1454": {
         "title": "Online Public Communications by Police & Fire Services during the 2012 Hurricane Sandy",
@@ -17825,9 +17123,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1460": {
         "title": "NewsViews: An Automated Pipeline for Creating Custom Geovisualizations for News",
@@ -17888,9 +17184,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1470": {
         "title": "Effects of Implicit Sharing in Collaborative Analysis",
@@ -17940,9 +17234,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1471": {
         "title": "Dynamic Difficulty Using Brain Metrics of Workload",
@@ -18032,9 +17324,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1472": {
         "title": "Kinetica: Naturalistic Multi-touch Data Visualization",
@@ -18067,9 +17357,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1473": {
         "title": "Expanding Touch Input Vocabulary  by Using Consecutive Distant Taps",
@@ -18112,9 +17400,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1475": {
         "title": "Supporting Treatment of People Living with HIV / AIDS in Resource Limited Settings with IVRs",
@@ -18250,9 +17536,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1482": {
         "title": "Wearables and Chairables: Inclusive Design of Mobile Input and Output Techniques for Power Wheelchair Users",
@@ -18298,9 +17582,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1485": {
         "title": "Structured Labeling for Facilitating Concept Evolution in Machine Learning",
@@ -18358,9 +17640,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1488": {
         "title": "More Than Touch: Understanding How People Use Skin as an Input Surface for Mobile Computing",
@@ -18404,9 +17684,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1490": {
         "title": "Expert Voices in Echo Chambers: Effects of Source Expertise Indicators on Exposure to Diverse Opinions",
@@ -18438,9 +17716,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1503": {
         "title": "Extracting References Between Text and Charts via Crowdsourcing",
@@ -18481,9 +17757,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1513": {
         "title": "Direct Drawing on 3D Shapes with Automated Camera Control",
@@ -18515,9 +17789,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1514": {
         "title": "MouStress: Detecting Stress from Mouse Motion",
@@ -18558,9 +17830,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1517": {
         "title": "Diversity for Design: A Framework for Involving Neurodiverse Children in the Technology Design Process",
@@ -18621,9 +17891,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1518": {
         "title": "Design Tactics for Authentic Interactive Fiction: Insights from Alternate Reality Game Designers",
@@ -18691,9 +17959,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1521": {
         "title": "“Healthifying” Exergames: Improving Health Outcomes through Intentional Priming",
@@ -18735,9 +18001,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1525": {
         "title": "Photo Sharing of the Subject, by the Owner, for the Viewer – Examining the Subject’s Preference",
@@ -18768,9 +18032,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1549": {
         "title": "Being Senior and ICT: A Study of Seniors Using ICT in China",
@@ -18833,9 +18095,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1558": {
         "title": "ThumbReels: Query Sensitive Web Video Previews Based on Temporal, Crowdsourced, Semantic Tagging",
@@ -18880,9 +18140,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1569": {
         "title": "Walk this Way: Musically Guided Walking Experiences",
@@ -18925,9 +18183,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1579": {
         "title": "Designing For Movement: Evaluating Computational Models using LMA Effort Qualities",
@@ -18988,9 +18244,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1583": {
         "title": "VacuumTouch: Attractive Force Feedback Interface for Haptic Interactive Surface using Air Suction",
@@ -19024,9 +18278,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1586": {
         "title": "ISSE: An Interactive Source Separation Editor",
@@ -19068,9 +18320,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1587": {
         "title": "DemoWiz: Re-Performing Software Demonstrations for a Live Presentation",
@@ -19113,9 +18363,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1617": {
         "title": "The Routines and Needs of Grandparents and Parents for Grandparent-Grandchild Conversations Over Distance",
@@ -19147,9 +18395,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1623": {
         "title": "Smart Subtitles for Vocabulary Learning",
@@ -19181,9 +18427,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1626": {
         "title": "i-dentity: Innominate Movement Representation as Engaging Game Element",
@@ -19246,9 +18490,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1628": {
         "title": "TouchSense: Expanding Touchscreen Input Vocabulary Using Different Areas of Users' Finger Pads",
@@ -19336,9 +18578,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1632": {
         "title": "Gifting Personal Interpretations in Galleries",
@@ -19393,9 +18633,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1635": {
         "title": "Transient and Transitional States: Pressure as an Auxiliary Input Modality for Bimanual Interaction",
@@ -19437,9 +18675,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1642": {
         "title": "Research on Research: Design Research at the Margins: Academia, Industry and End-Users",
@@ -19480,9 +18716,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1646": {
         "title": "Designing for Dabblers and Deterring Drop-Outs in Citizen Science",
@@ -19542,9 +18776,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1651": {
         "title": "Gesture Script: Recognizing Gestures and their Structure using Rendering Scripts and Interactively Trained Parts",
@@ -19584,9 +18816,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1667": {
         "title": "Evolution of Design Competence in UX Practice",
@@ -19611,9 +18841,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1670": {
         "title": "Designing Usable Web Forms – Empirical Evaluation of Web Form Improvement Guidelines",
@@ -19675,9 +18903,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1675": {
         "title": "Studying Digital Graffiti as a Location-Based Social Network",
@@ -19719,9 +18945,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1682": {
         "title": "Taking Things Apart: Reaching Common Ground and Shared Material Understanding",
@@ -19772,9 +18996,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1684": {
         "title": "Motivating People with Chronic Pain to do Physical Activity: Opportunities for Technology Design",
@@ -19861,9 +19083,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1700": {
         "title": "B#: Chord-based Correction for Multitouch Braille Input",
@@ -19924,9 +19144,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1704": {
         "title": "Visual Recognition in Museum Guide Apps: Do Visitors Want It?",
@@ -19951,9 +19169,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn1707": {
         "title": "How Carat Affects User Behavior: Implications for Mobile Battery Awareness Applications",
@@ -20031,9 +19247,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1709": {
         "title": "Supporting the Creative Game Design Process with Exertion Cards",
@@ -20087,9 +19301,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1710": {
         "title": "Everyday Ideation: All of My Ideas Are On Pinterest",
@@ -20132,9 +19344,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1722": {
         "title": "Robot Gestures Make Difficult Tasks Easier: The Impact of Gestures on Perceived Workload and Task Performance",
@@ -20194,9 +19404,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1724": {
         "title": "Betrayed By Updates: How Negative Experiences Affect Future Security",
@@ -20237,9 +19445,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1727": {
         "title": "Comparing Flat and Spherical Displays in a Trust Scenario in Avatar-Mediated Interaction",
@@ -20282,9 +19488,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1732": {
         "title": "How Technology Supports Family Communication in Rural, Suburban, and Urban Kenya",
@@ -20353,9 +19557,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1736": {
         "title": "GaitAssist: A Daily-life Support and Training System for Parkinson's Disease Patients with Freezing of Gait",
@@ -20425,9 +19627,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1742": {
         "title": "Collocating Interface Objects: Zooming into Maps",
@@ -20462,9 +19662,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1745": {
         "title": "Conversing with Children: Cartoon and Video People Elicit Similar Conversational Behaviors",
@@ -20518,9 +19716,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1750": {
         "title": "A Game-Based Learning Approach to Road Safety: The Code of Everand",
@@ -20600,9 +19796,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1756": {
         "title": "Quantitative Measurement of Virtual vs. Physical Object Embodiment through Kinesthetic Figural After Effects",
@@ -20645,9 +19839,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1758": {
         "title": "Altering Gameplay Behavior using Stereoscopic 3D Vision-Based Video Game Design",
@@ -20692,9 +19884,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1760": {
         "title": "Design Insights for the Next Wave Ontology Authoring Tools",
@@ -20735,9 +19925,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1763": {
         "title": "Does Content Determine Information Popularity in Social Media? A Case Study of YouTube Videos’ Content and their Popularity",
@@ -20787,9 +19975,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1773": {
         "title": "PitchPerfect: Integrated Rehearsal Environment for Structured Presentation Preparation",
@@ -20830,9 +20016,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1776": {
         "title": "Personalisation and Privacy in Future Pervasive Display Networks",
@@ -20910,9 +20094,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1783": {
         "title": "On the Selection of 2D Objects Using External Labeling",
@@ -20954,9 +20136,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1796": {
         "title": "Smart Flashlight: Map Navigation Using a Bike-Mounted Projector",
@@ -21001,9 +20181,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1800": {
         "title": "Captioned Photographs in Psychosocial Aged Care: Relationship Building and Boundary Work",
@@ -21081,9 +20259,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1806": {
         "title": "Curation through Use: Understanding the Personal Value of Social Media",
@@ -21115,9 +20291,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1811": {
         "title": "Experimenting At Scale With Google Chrome's SSL Warning",
@@ -21169,9 +20343,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn1814": {
         "title": "Weaving Clinical Expertise in Online Health Communities",
@@ -21204,9 +20376,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1817": {
         "title": "Information-Building Applications: Designing for Data Exploration and Analysis by Elementary School Students",
@@ -21274,9 +20444,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1818": {
         "title": "Mobile Attachment - Causes and Consequences for Emotional Bonding with Mobile Phones",
@@ -21317,9 +20485,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1820": {
         "title": "Visualizing Interactive Narratives: Employing a Branching Comic to Tell a Story and Show its Readings",
@@ -21352,9 +20518,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1821": {
         "title": "Staccato Social Support in Mobile Health Applications",
@@ -21395,9 +20559,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1834": {
         "title": "Coming in from the Margins: Amateur Musicians in the Online Age",
@@ -21454,9 +20616,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1845": {
         "title": "Social Fabric Fitness: The Design and Evaluation of Wearable E-Textile Displays to Support Group Running",
@@ -21500,9 +20660,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1850": {
         "title": "Social Dependency and Mobile Autonomy – Supporting Older Adults’ Mobility with Ridesharing ICT",
@@ -21563,9 +20721,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1859": {
         "title": "Balancing Design Tensions: Iterative Display Design to Support Ad Hoc and Multidisciplinary Medical Teamwork",
@@ -21645,9 +20801,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1865": {
         "title": "InkAnchor: Enhancing Informal Ink-Based Note Taking on Touchscreen Mobile Phones",
@@ -21690,9 +20844,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1867": {
         "title": "Effects of Public vs. Private Automated Transcripts on Multiparty Communication between Native and Non-Native English Speakers",
@@ -21751,9 +20903,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1872": {
         "title": "LACES: Live Authoring through Compositing and Editing of Streaming Video",
@@ -21812,9 +20962,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1881": {
         "title": "Documentscape: Intertextuality, Sequentiality, & Autonomy at Work",
@@ -21842,9 +20990,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1883": {
         "title": "What is a Device Bend Gesture Really Good for?",
@@ -21889,9 +21035,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1896": {
         "title": "Addressing the Subtleties in Dementia Care: Pre-study & Evaluation of a GPS Monitoring System",
@@ -21943,9 +21087,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1901": {
         "title": "The Effectiveness (or Lack Thereof) of Aim-Assist Techniques in First-Person Shooter Games",
@@ -21995,9 +21137,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1904": {
         "title": "Do-It-Yourself Cellphones: An Investigation into the Possibilities and Limits of High-Tech DIY",
@@ -22033,9 +21173,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1911": {
         "title": "Supporting The Design and Fabrication of Physical Visualizations",
@@ -22103,9 +21241,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1915": {
         "title": "Rethinking Plan A for Sustainable HCI",
@@ -22157,9 +21293,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1916": {
         "title": "Investigating the Effects of Encumbrance on One- and Two- Handed Interactions with Mobile Devices",
@@ -22201,9 +21335,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1918": {
         "title": "Snuggle: Designing for Efﬁcient Socialization and Ideological Critique",
@@ -22246,9 +21378,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1923": {
         "title": "Invisible Connections: Investigating Older People’s Emotions and Social Relations Around Objects",
@@ -22328,9 +21458,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1932": {
         "title": "Long Tail TV Revisited: From Ordinary Camera Phone use to Pro-Am Video Production",
@@ -22379,9 +21507,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1936": {
         "title": "Let's Kick It: How to Stop Wasting the Bottom Third of your Large Screen Display",
@@ -22432,9 +21558,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1942": {
         "title": "A User Study of Different Gameplay Visualizations",
@@ -22477,9 +21601,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1949": {
         "title": "Performativity in Sustainable Interaction:  The Case of Seasonal Grocery Shopping in EcoFriends",
@@ -22511,9 +21633,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1954": {
         "title": "Tensions in Scaling-up Community Social Media: A Multi-Neighborhood Study of Nextdoor",
@@ -22573,9 +21693,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1958": {
         "title": "A Gaze-preserving Situated Multiview Telepresence System",
@@ -22607,9 +21725,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn1969": {
         "title": "A Smartphone-based Sensing Platform to Model Aggressive Driving Behaviors",
@@ -22650,9 +21766,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1976": {
         "title": "Easy Does It:  More Usable CAPTCHAs",
@@ -22723,9 +21837,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1978": {
         "title": "Understanding Sustained Community Engagement: A Case Study in Heritage Preservation in Rural Argentina",
@@ -22786,9 +21898,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn1982": {
         "title": "Towards Accurate and Practical Predictive Models of Active-Vision-Based Visual Search",
@@ -22822,9 +21932,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1983": {
         "title": "MisTable: Reach-through Personal Screens for Tabletops",
@@ -22866,9 +21974,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1987": {
         "title": "Combining Think-aloud and Physiological Data to Understand Video Game Experiences",
@@ -22909,9 +22015,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn1992": {
         "title": "Juxtapoze: Supporting Serendipity and Creative Expression in Clipart Compositions",
@@ -22981,9 +22085,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2001": {
         "title": "The Last Meter: Blind Visual Guidance to a Target",
@@ -23016,9 +22118,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2003": {
         "title": "Establishing Design Guidelines in Interactive Exercise Gaming: Preliminary Data from Two Posing Studies",
@@ -23056,9 +22156,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2005": {
         "title": "“My religious aunt asked why I was trying to sell her viagra”: Experiences with account hijacking",
@@ -23115,9 +22213,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2010": {
         "title": "A Low-cost Transparent Electric Field Sensor for 3D Interaction on Mobile Devices",
@@ -23169,9 +22265,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn2011": {
         "title": "Breakdown, Obsolescence and Reuse:  HCI and The Art of Repair",
@@ -23205,9 +22299,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2016": {
         "title": "An Assistive Robotic Table for Older and Post-Stroke  Adults: Results from Participatory Design and   Evaluation Activities with Clinical Staff",
@@ -23278,9 +22370,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2020": {
         "title": "DoDo Game, a Color Vision Deficiency Screening Test for Young children",
@@ -23339,9 +22429,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2022": {
         "title": "RetroDepth: 3D Silhouette Sensing for High-Precision Input On and Above Physical Surfaces",
@@ -23478,9 +22566,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2027": {
         "title": "The Role of Interactive Biclusters in Sensemaking",
@@ -23530,9 +22616,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2029": {
         "title": "Printing Teddy Bears: A Technique for 3D Printing of Soft Interactive Objects",
@@ -23556,9 +22640,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2031": {
         "title": "FOCUS: Enhancing Children’s Engagement in Reading by Using Contextual BCI Training Sessions",
@@ -23653,9 +22735,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2041": {
         "title": "Paddle: Highly Deformable Mobile Devices with Physical Controls",
@@ -23696,9 +22776,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2046": {
         "title": "Understanding Procedural Content Generation: A Design-Centric Analysis of the Role of PCG in Games",
@@ -23723,9 +22801,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2048": {
         "title": "Between Theory and Practice: Bridging Concepts in HCI research",
@@ -23758,9 +22834,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2054": {
         "title": "Exploring Affective Communication Through Variable-Friction Surface Haptics",
@@ -23812,9 +22886,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2074": {
         "title": "Sweet Home: Understanding Diabetes Management via a Chinese Online Community",
@@ -23858,9 +22930,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2084": {
         "title": "The influence of controllers on immersion in mobile games",
@@ -23912,9 +22982,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2090": {
         "title": "An Implicit Author Verification System for Text Messages Based on Gesture Typing Biometrics",
@@ -23947,9 +23015,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2094": {
         "title": "Effects of Security Warnings and Instant Gratification Cues on Attitudes toward Mobile Websites",
@@ -24010,9 +23076,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2095": {
         "title": "Selecting an Effective Niche: An Ecological View of the Success of Online Communities",
@@ -24081,9 +23145,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2096": {
         "title": "WADE: Simplified GUI Add-on Development for Third-party Software",
@@ -24153,9 +23215,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2103": {
         "title": "Design Considerations for Parallel Performance Tools",
@@ -24207,9 +23267,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2105": {
         "title": "Understanding Multitasking Through Parallelized Strategy Exploration and Individualized Cognitive Modeling",
@@ -24244,9 +23302,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2112": {
         "title": "In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies",
@@ -24288,9 +23344,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2115": {
         "title": "A Novel Knee Rehabilitation System for the Home",
@@ -24324,9 +23378,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2117": {
         "title": "Modeling the Functional Area of the Thumb on Mobile Touchscreen Surfaces",
@@ -24359,9 +23411,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2119": {
         "title": "Modeling the Perception of User Performance",
@@ -24401,9 +23451,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2128": {
         "title": "Searching for Myself:  Motivations and Strategies for Self-Search",
@@ -24440,9 +23488,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2129": {
         "title": "Generating Implications for Design through Design Research",
@@ -24501,9 +23547,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2134": {
         "title": "Poverty on the Cheap: Estimating Poverty Maps Using Aggregated Mobile Communication Networks",
@@ -24545,9 +23589,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2140": {
         "title": "Making Public Things: How HCI Design Can Express Matters of Concern",
@@ -24606,9 +23648,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2150": {
         "title": "Causing Commotion with a Shape-changing Bench  - Experiencing Shape-Changing Interfaces in Use",
@@ -24661,9 +23701,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2153": {
         "title": "Stress and Multitasking in Everyday College Life: An Empirical Study of Online Activity",
@@ -24708,9 +23746,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2157": {
         "title": "GestKeyboard: Enabling Gesture-Based Interaction on Ordinary Physical Keyboard",
@@ -24742,9 +23778,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2159": {
         "title": "Understanding User Adaptation Strategies for the Launching of Facebook Timeline",
@@ -24788,9 +23822,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2160": {
         "title": "Towards a Closer Dialogue between Policy and Practice: Responsible Design in HCI",
@@ -24837,9 +23869,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2168": {
         "title": "Pervasive Information through Constant Personal Projection: The Ambient Mobile Pervasive Display (AMP-D)",
@@ -24890,9 +23920,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2175": {
         "title": "Hooked on Smartphones: An Exploratory Study on Smartphone Overuse among College Students",
@@ -24995,9 +24023,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2193": {
         "title": "HCI as a Means to Prosociality in the Economy",
@@ -25038,9 +24064,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2200": {
         "title": "L.IVE: An Integrated Interactive Video-based Learning Environment",
@@ -25090,9 +24114,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2202": {
         "title": "Watching the Footwork: Second Screen Interaction at a Dance and Music Performance",
@@ -25133,9 +24155,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2203": {
         "title": "Partially Intelligent Automobiles and Driving Experience at the Moment of System Transition",
@@ -25178,9 +24198,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2208": {
         "title": "Distributed Analogical Idea Generation: Inventing with Crowds",
@@ -25223,9 +24241,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2214": {
         "title": "Understanding Quantified-Selfers’ Practices in  Collecting and Exploring Personal Data",
@@ -25288,9 +24304,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2216": {
         "title": "Exploring the Design Space of Gestural Interaction with Active Tokens through User-Defined Gestures",
@@ -25379,9 +24393,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2220": {
         "title": "Beyond Ethnography: Engagement and Reciprocity as Foundations for Design Research Out Here",
@@ -25431,9 +24443,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2225": {
         "title": "Frenzy: Collaborative Data Organization for Creating Conference Sessions",
@@ -25528,9 +24538,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2226": {
         "title": "Protibadi: A Platform for Fighting Sexual Harassment in Urban Bangladesh",
@@ -25620,9 +24628,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2227": {
         "title": "Can Long Passwords be Secure and Usable?",
@@ -25728,9 +24734,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2235": {
         "title": "Searching for Analogical Ideas with Crowds",
@@ -25772,9 +24776,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2242": {
         "title": "A Table! Improving Temporal Navigation in Soccer Ranking Tables",
@@ -25816,9 +24818,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2244": {
         "title": "Making Sustainability Sustainable: Challenges in the Design of Eco-Interaction Technologies",
@@ -25860,9 +24860,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2266": {
         "title": "The Product of Availability: Understanding the Economic Underpinnings of Constant Connectivity",
@@ -25897,9 +24895,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2268": {
         "title": "WaaZam! Supporting Creative Play at a Distance in Customized Video Environments",
@@ -25962,9 +24958,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2274": {
         "title": "Persuasive Technology in the Real World: A Study of Long-Term Use of Activity Sensing Devices for Fitness",
@@ -26017,9 +25011,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2276": {
         "title": "Nutriflect: Reflecting Collective Shopping Behavior and Nutrition",
@@ -26064,9 +25056,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2277": {
         "title": "Exertion in the Small: Improving Differentiation and Expressiveness in Sports Games with Physical Controls",
@@ -26098,9 +25088,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2284": {
         "title": "@BabySteps: Design and Evaluation of a System for using Twitter for Tracking Children’s Developmental Milestones",
@@ -26156,9 +25144,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2293": {
         "title": "Learning to See the Body: Supporting Instructional Practices in Laparoscopic Surgical Procedures",
@@ -26201,9 +25187,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2294": {
         "title": "The Doing of Doing Stuff: Understanding the Coordination of Social Group-Activities",
@@ -26268,9 +25252,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2303": {
         "title": "TurningPoint: Narrative-Driven Presentation Planning",
@@ -26311,9 +25293,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn2317": {
         "title": "Spent: Changing Students’ Affective Learning Toward Homelessness Through Persuasive Video Game Play",
@@ -26336,9 +25316,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2327": {
         "title": "Sketching in Circuits:  Designing and building electronics on paper",
@@ -26371,9 +25349,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2328": {
         "title": "Towards Automatic Experimentation of Educational Knowledge",
@@ -26423,9 +25399,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2330": {
         "title": "Using Extracted Features to Inform Alignment-Driven Design Ideas in an Educational Game",
@@ -26476,9 +25450,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2343": {
         "title": "skWiki: A Multimedia Sketching System for Collaborative Creativity",
@@ -26556,9 +25528,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2358": {
         "title": "Stay on the Boundary: Artifact Analysis Exploring Researcher and User Framing of Robot Design",
@@ -26599,9 +25569,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2368": {
         "title": "Canine-Centered Interface Design: Supporting the Work of Diabetes Alert Dogs",
@@ -26662,9 +25630,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2372": {
         "title": "Crossing-Based Selection with Direct Touch Input",
@@ -26703,9 +25669,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2380": {
         "title": "KnowMe and ShareMe: Understanding Automatically Discovered Personality Traits from Social Media and User Sharing Preferences",
@@ -26749,9 +25713,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2394": {
         "title": "Orientation Matters: Efficiency of Translation-Rotation Multitouch tasks",
@@ -26783,9 +25745,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2399": {
         "title": "The Effect of Developer-Specified Explanations for Permission Requests on Smartphone User Behavior",
@@ -26863,9 +25823,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2401": {
         "title": "Curated City: Capturing Individual City Guides Through Social Curation",
@@ -26917,9 +25875,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2406": {
         "title": "Rafigh: A Living Media Interface for Speech Intervention",
@@ -26951,9 +25907,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": false
+        "subtype": "Note"
     },
     "pn2417": {
         "title": "Faces Engage Us: Photos with Faces Attract More Likes and Comments on Instagram",
@@ -27004,9 +25958,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2420": {
         "title": "HaptiMoto: Turn-by-Turn Haptic Route Guidance Interface for Motorcyclists",
@@ -27057,9 +26009,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2424": {
         "title": "Permulin: Mixed-Focus Collaboration on Multi-View Tabletops",
@@ -27121,9 +26071,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2432": {
         "title": "Mouse Pointing Endpoint Prediction Using Kinematic Template Matching",
@@ -27157,9 +26105,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2441": {
         "title": "EverTutor: Automatically Creating Interactive Guided Tutorials on Smartphones by User Demonstration",
@@ -27219,9 +26165,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2442": {
         "title": "Automatic Generation of Semantic Icon Encodings for Visualizations",
@@ -27254,9 +26198,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2447": {
         "title": "Addressing Misconceptions About Code with Always-On Programming Visualizations",
@@ -27297,9 +26239,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2449": {
         "title": "Beating the Bubble: Using Kinematic Triggering in the Bubble Lens for Acquiring Small, Dense Targets",
@@ -27337,9 +26277,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2451": {
         "title": "Supporting Informal Design with Interactive Whiteboards",
@@ -27390,9 +26328,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2454": {
         "title": "Uncertain Text Entry on Mobile Devices",
@@ -27450,9 +26386,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2463": {
         "title": "A Field Trial of Privacy Nudges for Facebook",
@@ -27525,9 +26459,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2464": {
         "title": "Both Complete and Correct? Multi-Objective Optimization of Touchscreen Keyboard",
@@ -27573,9 +26505,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2472": {
         "title": "CADament: A Gamified Multiplayer Software Tutorial System",
@@ -27617,9 +26547,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2483": {
         "title": "Visually Impaired Users on an Online Social Network",
@@ -27653,9 +26581,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2487": {
         "title": "A Technology Probe of Wearable In-Home Computer-Assisted Physical Therapy",
@@ -27728,9 +26654,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2488": {
         "title": "Social Media Participation and Performance at Work: A Longitudinal Study",
@@ -27772,9 +26696,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Note",
-        "award": false,
-        "hm": true
+        "subtype": "Note"
     },
     "pn2489": {
         "title": "Incentives to Participate in Online Research: An Experimental Examination of “Surprise” Incentives",
@@ -27824,9 +26746,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2490": {
         "title": "The Influence of Aesthetics in Usability Testing: the Case of Dual-Domain Products",
@@ -27878,9 +26798,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2522": {
         "title": "Practical Trigger-Action Programming in the Smart Home",
@@ -27932,9 +26850,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pn2525": {
         "title": "Leakiness and Creepiness in App Space:  Perceptions of Privacy and Mobile App Use",
@@ -27986,9 +26902,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": true
+        "subtype": "Paper"
     },
     "pn2560": {
         "title": "The Law of Unintended Consequences: The Case of External Subgoal Support",
@@ -28021,9 +26935,7 @@ entities={
             }
         ],
         "type": "paper",
-        "subtype": "Paper",
-        "award": false,
-        "hm": false
+        "subtype": "Paper"
     },
     "pan102": {
         "title": "Design Methods for the Future that is NOW: Have Disruptive Technologies Disrupted Our Design Methodologies?",
@@ -28089,9 +27001,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan103": {
         "title": "Panel: Designing for the Experiential Body",
@@ -28155,9 +27065,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan106": {
         "title": "Electronic Privacy and Surveillance",
@@ -28218,9 +27126,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan107": {
         "title": "Can You Do Good and Do Well? Exploring HCI Careers for Societal Impact",
@@ -28283,9 +27189,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan108": {
         "title": "Making Cultures: Empowerment, Participation, and Democracy – or Not?",
@@ -28361,9 +27265,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan110": {
         "title": "CROWDFUNDING: An Emerging Field of Research",
@@ -28433,9 +27335,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan114": {
         "title": "The Meaning of Design in Healthcare: Industry, Academia, Visual Design, Clinician, Patient and HF Consultant Perspectives",
@@ -28508,9 +27408,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "pan118": {
         "title": "Opportunities and Risks of Discovering Personality Traits from Social Media",
@@ -28579,9 +27477,7 @@ entities={
             }
         ],
         "type": "panel",
-        "subtype": "panel",
-        "award": false,
-        "hm": false
+        "subtype": "panel"
     },
     "alt101": {
         "title": "Abba-Dabba-Ooga-Booga-Hoojee-Goojee-Yabba-Dabba-Doo: Stupidity, Ignorance & Nonsense as Tools for Nurturing Creative Thinking",
@@ -28600,9 +27496,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt104": {
         "title": "Building Castles in Quicksand: Blueprint for a Crowdsourced Study",
@@ -28639,9 +27533,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt105": {
         "title": "Mining Online Software Tutorials: Challenges and Open Problems",
@@ -28669,9 +27561,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt107": {
         "title": "CHI 2039: Speculative Research Visions",
@@ -28933,9 +27823,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt109": {
         "title": "Reflections on a Synergistic Format for Disseminating Research Through Design",
@@ -28972,9 +27860,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt112": {
         "title": "Reliability of NIRS-Based BCIs: a Placebo-Controlled Replication and Reanalysis of Brainput",
@@ -29011,9 +27897,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt116": {
         "title": "Hot Topics in CHI: Trend Maps for Visualising Research",
@@ -29059,9 +27943,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt119": {
         "title": "None of a CHInd: Relationship Counselling for HCI and Speech Technology",
@@ -29107,9 +27989,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt121": {
         "title": "HCI Over Multiple Screens",
@@ -29173,9 +28053,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt133": {
         "title": "Gamified Co-design with Cooperative Learning",
@@ -29221,9 +28099,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt143": {
         "title": "Quantification in Alt.Chi Open Review: Liking and Ticking on a Likert Scale",
@@ -29260,9 +28136,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt145": {
         "title": "Teaching Digital Craft",
@@ -29317,9 +28191,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt146": {
         "title": "Concordance: Design Ideal for Facilitating Situated Negotiations in Out-of-clinic Healthcare",
@@ -29356,9 +28228,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt153": {
         "title": "Fifty Shades of CHI: The Perverse and Humiliating Human-Computer Relationship",
@@ -29404,9 +28274,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt155": {
         "title": "A Funny Thing Happened On The Way To The Website: Telling About Browsing",
@@ -29425,9 +28293,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt156": {
         "title": "A three-dimensional mirror augmented by medical imaging: Questioning self-portraying at the limit of intimacy",
@@ -29482,9 +28348,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt163": {
         "title": "Translation from text to touch - Touching a “Japanese old tale”",
@@ -29521,9 +28385,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt168": {
         "title": "The Minimal Effective Dose of Reminder Technology",
@@ -29542,9 +28404,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt170": {
         "title": "Designing for the Internet of Things: Prototyping Material Interactions",
@@ -29572,9 +28432,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt172": {
         "title": "Never Mind the Bollocks, I Wanna Be AnarCHI: A Manifesto for Punk HCI",
@@ -29602,9 +28460,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt174": {
         "title": "Running an HCI Experiment in Multiple Parallel Universes",
@@ -29641,9 +28497,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt179": {
         "title": "Brave New Interactions: Performance-Enhancing Drugs for Human-Computer Interaction",
@@ -29662,9 +28516,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt188": {
         "title": "A Path to Understanding the Effects of Algorithm Awareness",
@@ -29710,9 +28562,7 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     },
     "alt191": {
         "title": "QnDReview: Read 100 CHI Papers in 7 Hours",
@@ -29731,8 +28581,6 @@ entities={
             }
         ],
         "type": "altchi",
-        "subtype": "altchi",
-        "award": false,
-        "hm": false
+        "subtype": "altchi"
     }
 }
