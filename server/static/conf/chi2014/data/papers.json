@@ -4042,7 +4042,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn139": {
@@ -4157,7 +4157,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn147": {
@@ -7110,7 +7110,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn395": {
@@ -7641,7 +7641,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn431": {
@@ -10394,7 +10394,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Note",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn701": {
@@ -10887,7 +10887,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn737": {
@@ -11037,7 +11037,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Note",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn750": {
@@ -11129,7 +11129,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn755": {
@@ -13063,7 +13063,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn975": {
@@ -15395,7 +15395,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1242": {
@@ -15519,7 +15519,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1257": {
@@ -16332,7 +16332,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1330": {
@@ -16376,7 +16376,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1333": {
@@ -17013,7 +17013,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1398": {
@@ -18359,7 +18359,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1488": {
@@ -19925,7 +19925,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Note",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1704": {
@@ -22823,7 +22823,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn1983": {
@@ -23479,7 +23479,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn2027": {
@@ -24245,7 +24245,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn2112": {
@@ -25432,7 +25432,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Note",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn2225": {
@@ -25861,7 +25861,7 @@ entities={
         ],
         "type": "paper",
         "subtype": "Paper",
-        "award": true,
+        "award": false,
         "hm": false
     },
     "pn2266": {
