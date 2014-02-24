@@ -48,6 +48,16 @@ def team (request):
     }
   )
 
+def credits (request):
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
+  return render_to_response(
+      'credits.html', {
+      'login_id': login_id,
+      'login_name': login_name
+    }
+  )
+
 
 def conf (request, conf):
   conf = conf.lower()

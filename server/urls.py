@@ -4,6 +4,7 @@ urlpatterns = patterns('',
     url(r'^$','server.views.home'),
     url(r'^home$', 'server.views.home'),
     url(r'^team', 'server.views.team'),
+    url(r'^credits', 'server.views.credits'),
     
     url(r'^data', 'server.views.data'),
     url(r'^recs', 'server.views.get_recs'),
