@@ -35,7 +35,14 @@ You can also get a user's personal data through confer-connect if the user autho
 Step 1: Create a confer app at <a class="blue" href="http://confer.csail.mit.edu/developer/apps">http://confer.csail.mit.edu/developer/apps</a>
 </li>
 <li>
-Step 2: Call confer APIs with your app token to get user's private data:
+Step 2: Get your app_token at <a class="blue" href="http://confer.csail.mit.edu/developer/apps">http://confer.csail.mit.edu/developer/apps</a>
+</li>
+<li>
+Step 3: Redirect your first-time users to http://confer.csail.mit.edu/developer/allow_access?app_id=&lt;your app id&gt; so that they can authorize your app to access their data.
+</li>
+<li>
+Step 4: Call confer APIs with your app token to get user's private data:</li>
+</ul>
 <br /> <br />
 <h4>Python Example</h4>
 <div style="height:15em; border:1px solid gray; padding:1em; overflow-y:scroll;">
@@ -45,7 +52,7 @@ Step 2: Call confer APIs with your app token to get user's private data:
 # Step 2: You can get your app_token at http://confer.csail.mit.edu/developer/apps at any time
 
 # Step 3: Redirect your first-time users to http://confer.csail.mit.edu/developer/allow_access?app_id=&lt;your app id&gt;
-#         so that they can allow your app to access their data.
+#         so that they can authorize your app to access their data.
 
 
 
@@ -97,7 +104,7 @@ print http_post(host, '/api/similar_people', {
  * Step 1: Create your app at http://confer.csail.mit.edu/developer/apps (click on the button 'Create a New App')
  * Step 2: You can get your app_token at http://confer.csail.mit.edu/developer/apps at any time
  * Step 3: Redirect your first-time users to http://confer.csail.mit.edu/developer/allow_access?app_id=&lt;your app id&gt; 
- *         so that they can allow your app to access their data.
+ *         so that they can authorize your app to access their data.
  */
 $params = array(
     'login_id' => 'anantb@csail.mit.edu',
