@@ -24,6 +24,7 @@ urlpatterns = patterns('',
     url(r'^api/similar_people$', 'server.views.similar_people'),
 
     #confer developer APIs
+    url(r'^developer$', 'server.views.developer'),
     url(r'^developer/apps$', 'server.views.apps'),
     url(r'^developer/register_app$', 'server.views.register_app'),
     url(r'^developer/allow_access$', 'server.views.allow_access'),

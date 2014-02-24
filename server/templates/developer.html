@@ -1,0 +1,48 @@
+{% extends "login-layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+{% if login_id %}
+<a class="button" href="/logout">Log Out</a>
+{% else %}
+<a class="button" href="/login">Log In</a>
+{% endif %}
+{% endblock %}
+{% block content %}
+<div class="blurb">
+Use the Confer APIs for querying user's preferences, recommendations and network. Leverage confer data for building conference tools.
+</div>
+<!-- Credits -->
+<div>
+<h3>Public Data</h3>
+<p style="padding-top:1em;">
+For any conference you can get all the public data here -- http://confer.csail.mit.edu/static/conf/&lt;conf-name&gt;/data/
+
+For eg:
+<ul>
+<li>
+CHI 2014 Data: http://confer.csail.mit.edu/static/conf/cscw2014/data/ </li>
+<li>
+CHI 2013 Data: http://confer.csail.mit.edu/static/conf/chi2014/data/ </li>
+</ul>
+</p>
+<h3>User's Preference Data</h3>
+<p style="padding-top:1em;">
+You can also get a user's personal data through confer-connect if the user authorize your app to collect his/her data. 
+<ul>
+<li>
+Step 1: Create a confer app at http://confer.csail.mit.edu/developer/apps
+</li>
+<li>
+Step 2: Call confer APIs with your app token to get user's private data:
+<ul><li>
+	Python Example: https://github.com/abhardwaj/confer/tree/master/examples</li>
+	<li>PHP Example: https://github.com/abhardwaj/confer/tree/master/examples</li>
+	</ul>
+</li>
+</p>
+
+
+</div>  <!-- confer team -->
+  
+
+{% endblock %}
