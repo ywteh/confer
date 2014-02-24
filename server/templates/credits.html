@@ -1,0 +1,31 @@
+{% extends "login-layout.html" %}
+{% block links %}
+<span id="logged_in_name">{{login_name}}</span> &nbsp;
+{% if login_id %}
+<a class="button" href="/logout">Log Out</a>
+{% else %}
+<a class="button" href="/login">Log In</a>
+{% endif %}
+{% endblock %}
+{% block content %}
+<div class="blurb">
+
+</div>
+<!-- Confer Team -->
+<div id="confer_credits_container">
+<h3>Confer uses following thirs-party tools:</h3>
+<ul>
+<li>Apache Webserver</li>
+<li>Python + Django</li>
+<li>Java</li>
+<li>Apache Lucene</li>
+<li>The Lenskit Recommender Framework</li>
+<li>Mahout</li>
+<li></li>
+<li></li>
+</ul>
+  
+</div>  <!-- confer team -->
+  
+
+{% endblock %}
