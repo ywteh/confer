@@ -1444,6 +1444,51 @@ sessions={
         "subtype": "paper",
         "chair": ""
     },
+    "s112": {
+        "s_title": "Student Research Competition (Closed Judging Session)",
+        "room": "715B",
+        "time": "16:00-17:20",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
+        "s_tags": [
+            "community structures",
+            "crowd innovation",
+            "Prosociality",
+            "User-Centered Design / Human-Centered Design",
+            "alternative currency",
+            "Economics & HCI",
+            "HCI in Economic Life",
+            "communities",
+            "Crowd-Powered Systems",
+            "Computer Supported Cooperative Work (CSCW)",
+            "SC_Usability",
+            "Social justice",
+            "Sustainability",
+            "Multidisciplinary Design / Interdisciplinary Design",
+            "SC_Design-B",
+            "Shopping",
+            "Video Content / Communications",
+            "collaboration",
+            "E-Commerce",
+            "information search",
+            "navigation",
+            "SC_Beyond Individual",
+            "Field Study",
+            "Visualization",
+            "Food",
+            "health",
+            "Social Computing and Social Navigation",
+            "Home",
+            "User Studies",
+            "Nutrition",
+            "SC_Applications-B"
+        ],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
     "s113": {
         "s_title": "Touch Input",
         "room": "718B",
@@ -2939,7 +2984,7 @@ sessions={
         "room": "716B",
         "time": "11:00-12:20",
         "submissions": [
-            "pn1171",
+            "pn2115",
             "pn1736",
             "pn2487",
             "pn739",
@@ -3501,7 +3546,7 @@ sessions={
         "chair": ""
     },
     "s165": {
-        "s_title": "Studying Mobile Behavior",
+        "s_title": "Social Local Mobile",
         "room": "714AB",
         "time": "11:00-12:20",
         "submissions": [
@@ -4854,7 +4899,7 @@ sessions={
         "time": "14:00-15:20",
         "submissions": [
             "pn1684",
-            "pn2115",
+            "pn1171",
             "pn1290",
             "pn1845"
         ],
@@ -5006,8 +5051,7 @@ sessions={
             "to103",
             "to122",
             "to123",
-            "to129",
-            "to132"
+            "to129"
         ],
         "personas": "Methods and Models",
         "venue": "paper",
@@ -5450,7 +5494,7 @@ sessions={
     "s-float-3": {
         "s_title": "Student Research Competition",
         "room": "717AB",
-        "time": "16:00-17:20",
+        "time": "11:00-12:20",
         "submissions": [],
         "personas": "",
         "venue": "special",
@@ -5482,45 +5526,51 @@ sessions={
         "s_title": "Social Impact Award: Richard Ladner",
         "room": "701B",
         "time": "14:00-15:20",
-        "submissions": [],
+        "submissions": [
+            "key105"
+        ],
         "personas": "",
-        "venue": "special",
+        "venue": "keynote",
         "day": "Monday",
         "s_tags": [],
-        "type": "special",
-        "subtype": "special",
+        "type": "keynote",
+        "subtype": "keynote",
         "chair": ""
     },
     "s-float-6": {
         "s_title": "Lifetime Research Award: Steve Whittaker",
         "room": "701B",
         "time": "14:00-15:20",
-        "submissions": [],
+        "submissions": [
+            "key101"
+        ],
         "personas": "",
-        "venue": "special",
+        "venue": "keynote",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "special",
-        "subtype": "special",
+        "type": "keynote",
+        "subtype": "keynote",
         "chair": ""
     },
     "s-float-7": {
         "s_title": "Lifetime Practice Award: Gillian Crampton Smith",
         "room": "701B",
         "time": "14:00-15:20",
-        "submissions": [],
+        "submissions": [
+            "key107"
+        ],
         "personas": "",
-        "venue": "special",
+        "venue": "keynote",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "special",
-        "subtype": "special",
+        "type": "keynote",
+        "subtype": "keynote",
         "chair": ""
     },
     "s-float-8": {
         "s_title": "Student Game Competition",
         "room": "717AB",
-        "time": "11:00-12:20",
+        "time": "16:00-17:20",
         "submissions": [],
         "personas": "",
         "venue": "special",
@@ -5787,6 +5837,191 @@ sessions={
         "s_tags": [],
         "type": "altchi",
         "subtype": "altchi",
+        "chair": ""
+    },
+    "s-crs162": {
+        "s_title": "Citizen Science: An Introduction",
+        "room": "713AB",
+        "time": "9:00-10:20",
+        "submissions": [
+            "crs162"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs163": {
+        "s_title": "A Conversation with Susan Dray: Uncovering the Ordinary, Inspiring the Extraordinary",
+        "room": "713AB",
+        "time": "14:00-15:20",
+        "submissions": [
+            "crs163"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "course",
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-key106": {
+        "s_title": "Opening Keynote, Margaret Atwood",
+        "room": "Exhibit Hall G",
+        "time": "9:00-10:20",
+        "submissions": [
+            "key106"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "keynote",
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "s-key104": {
+        "s_title": "Provoke! Wisdom! Impact! - Nathan Eagle",
+        "room": "Exhibit Hall G",
+        "time": "8:30-8:50",
+        "submissions": [
+            "key104"
+        ],
+        "personas": "",
+        "venue": "plenary",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "plenary",
+        "subtype": "plenary",
+        "chair": ""
+    },
+    "s-key103": {
+        "s_title": "Provoke! Wisdom! Impact! - Scooter Morris",
+        "room": "Exhibit Hall G",
+        "time": "8:30-8:50",
+        "submissions": [
+            "key103"
+        ],
+        "personas": "",
+        "venue": "plenary",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "plenary",
+        "subtype": "plenary",
+        "chair": ""
+    },
+    "s-key102": {
+        "s_title": "Provoke! Wisdom! Impact! - Elizabeth F. Churchill",
+        "room": "Exhibit Hall G",
+        "time": "8:30-8:50",
+        "submissions": [
+            "key102"
+        ],
+        "personas": "",
+        "venue": "plenary",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "plenary",
+        "subtype": "plenary",
+        "chair": ""
+    },
+    "s-key100": {
+        "s_title": "Closing Keynote - Scott Jenson",
+        "room": "Exhibit Hall G",
+        "time": "16:00-17:20",
+        "submissions": [
+            "key100"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "keynote",
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "s-preview-1": {
+        "s_title": "Video Preview",
+        "room": "801AB",
+        "time": "7:30-8:30",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-preview-2": {
+        "s_title": "Video Preview",
+        "room": "Exhibit Hall G",
+        "time": "7:00-8:20",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-preview-3": {
+        "s_title": "Video Preview",
+        "room": "Exhibit Hall G",
+        "time": "7:00-8:20",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-preview-4": {
+        "s_title": "Video Preview",
+        "room": "Exhibit Hall G",
+        "time": "7:00-8:20",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-townhall": {
+        "s_title": "SIGCHI Town Hall Lunch",
+        "room": "718A",
+        "time": "12:20-14:00",
+        "submissions": [
+            "townhall"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-showcase": {
+        "s_title": "Video Showcase",
+        "room": "718A",
+        "time": "17:30-19:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "subtype": "special",
         "chair": ""
     }
 }

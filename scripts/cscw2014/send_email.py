@@ -38,7 +38,7 @@ def send_email(addr, subject, msg_body):
 def send_survey_email():
 	f = open(sys.argv[1]).read()
 	names = re.split('\n', f)
-	subject = "Meet at CSCW"
+	subject = "Confer@CSCW 2014 -- your feedback would help us improve."
 	for name in names:
 		tokens = re.split(',', name.strip())
 		tokens = map(lambda x: x.strip(), tokens)
@@ -46,13 +46,15 @@ def send_survey_email():
 		msg_body = """
 Dear %s,
 
-Welcome to CSCW!  We're glad you've been using Confer to mark the papers that interest you. While you're here, we'd like to help you also meet some new interesting people.
+Hope you enjoyed using Confer at CSCW 2014! We would love to hear from you about your experience with Confer during the conference. Please share your comments and suggestions by completing this short survey:
 
-Based on your paper selections, we've identified some other CSCW attendees who share your interests and listed them in your Meetups tab on Confer. If you don't know them, the next few days are the perfect opportunity to meet them. Like you, they've opted in to this connection service, so don't be shy -- use the Meetup tab's one-click option to send them an email suggesting a meeting.
+https://docs.google.com/forms/d/1Vuc_tQsNwFtZ4k7b_Rumcaim7MM8hSPjw7uIdL6TSm8/viewform
 
-Have fun building bridges!
--The Confer Team
+We value your feedback and we look forward to serve you at future conferences! If you like, you can also contact us directly at confer@csail.mit.edu.
 
+Best,
+The Confer Team
+confer@csail.mit.edu
 		""" %(tokens[1])
 		send_email(tokens[0], subject, msg_body)
 		

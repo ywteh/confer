@@ -1267,6 +1267,15 @@ entities={
                 "country": "United States",
                 "affiliation": "Towson University",
                 "location": "Towson, United States"
+            },
+            {
+                "name": "Simone Barbosa",
+                "dept": "Departamento de Informática",
+                "institution": "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
+                "city": "Rio de Janeiro",
+                "country": "Brazil",
+                "affiliation": "Departamento de Informática, Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
+                "location": "Rio de Janeiro, Brazil"
             }
         ],
         "type": "course",
@@ -1434,8 +1443,8 @@ entities={
     },
     "crs115": {
         "title": "Make This! Introduction to Electronics Prototyping Using Arduino",
-        "abstract": "",
-        "cAndB": "Course is a hands-on introduction to interactive electronics prototyping for people with a variety of backgrounds, including those with no prior experience in electronics. ",
+        "abstract": "This course is a hands-on introduction to interactive electronics prototyping for people with a variety of backgrounds, including those with no prior experience in electronics. Familiarity with programming is helpful, but not required. Participants learn basic electronics, microcontroller programming and physical prototyping using the Arduino platform, then use digital and analog sensors, LED lights and motors to build, program and customize a small paper robot.",
+        "cAndB": "The course is a hands-on introduction to interactive electronics prototyping for people with a variety of backgrounds, including those with no prior experience in electronics. ",
         "keywords": [],
         "authors": [
             {
@@ -1517,8 +1526,8 @@ entities={
         "subtype": "course"
     },
     "crs122": {
-        "title": "Multimodal Detection of Affective States: A Roadmap from Brain-Computer Interfaces, Face-Based Emotion Recognition, Eye Tracking Systems and Other Sensors",
-        "abstract": "One novel part of the design of interactions between people and computers, related with the facet of securing user satisfaction, is the capability of systems to adapt to their individual users showing empathy. Being empathetic implies that the computer is able to recognize user’s affective states and understand the implication of those states. Automatic detection of affective states requires the computer: to sense information; to process and understand information integrating several sources that could range from brain-waves signals and biofeedback readings, passing from gestures recognition, to posture and pressure sensing; and to apply algorithms and data processing tools to understand user’s affective states. Through this course, attendees will:  a)\tLearn about sensing approaches used to detect affective states: brain-computer interfaces, face-based emotion recognition systems, eye-tracking system, and physiological sensors –including skin conductivity, posture, and pressure sensors—. b)\tUnderstand the pros and cons of the diverse sensing approaches used to detect affective states. c)\tLearn about the data that is gathered from each device and understand its characteristics. d)\tLearn about approaches and tools to pre-process, synchronize, and analyze data. This course is open to researchers, practitioners, and educators interested in incorporating affective computing as part of their adaptive and personalized technology toolbox. The presentation will be a mix of enthusiastic instruction with demonstrations and exercises, all aimed to help making the topic concrete, memorable, and actionable. ",
+        "title": "Multimodal Detection of Affective States: A Roadmap Through Diverse Technologies",
+        "abstract": "One important way for systems to adapt to their individual users is related to their ability to show empathy. Being empathetic implies that the computer is able to recognize a user’s affective states and understand the implication of those states. Detection of affective states is a step forward to provide machines with the necessary intelligence to appropriately interact with humans. This course provides a description and demonstration of tools and methodologies for automatically detecting affective states with a multimodal approach.",
         "cAndB": "This course presents devices and explores methodologies for multimodal detection of affective states, as well as a discussion about presenter’s experiences using them both in learning and gaming scenarios.",
         "keywords": [],
         "authors": [
@@ -1542,6 +1551,15 @@ entities={
             },
             {
                 "name": "Robert Atkinson",
+                "dept": "",
+                "institution": "Arizona State University",
+                "city": "Tempe",
+                "country": "United States",
+                "affiliation": "Arizona State University",
+                "location": "Tempe, United States"
+            },
+            {
+                "name": "Winslow Burleson",
                 "dept": "",
                 "institution": "Arizona State University",
                 "city": "Tempe",
@@ -1714,7 +1732,7 @@ entities={
     },
     "crs142": {
         "title": "How You Could Benefit from Using ISO Standards",
-        "abstract": "",
+        "abstract": "The course explains how international standards can provide a sound basis for education and training, can provide authority for design and development, and are a rich source of guidance and reference material.  It provides an overview of the contribution that international standards can make to: better user interface design, measuring usability, documenting information about usability, broadening the concept of usability, good practice in human-centred design, helping your organisation improve its process, and making usability and UX a part of systems engineering.",
         "cAndB": "How international standards can provide a sound basis for educational and training, can provide authority for design and development, and are a rich source of guidance and reference material.   ",
         "keywords": [],
         "authors": [
@@ -1780,7 +1798,7 @@ entities={
     },
     "crs146": {
         "title": "Evaluating Children’s Interactive Products",
-        "abstract": "",
+        "abstract": "Over the last decade there has been an increased interest in designing for children within the context of HCI.  This activity has lead to a community of researchers and practitioners seeking information on best practice on how to work with children.  This course will introduce attendees to some of the pitfalls and difficulties when carrying out evaluations with children but will then balance these with tips and tricks, methods and processes that will ensure that anyone attending this course will leave being able to plan and carry out a reasonable and safe evaluation with children.",
         "cAndB": "This course is an introduction to the exciting area of evaluation of interactive products for children.  The focus is on empowering developers and researchers to do more robust, more appropriate and more suitable evaluations with children ",
         "keywords": [],
         "authors": [
@@ -1808,7 +1826,7 @@ entities={
     },
     "crs147": {
         "title": "Rapid Design Labs—A Tool to Turbocharge Design-Led Innovation",
-        "abstract": "",
+        "abstract": "We as researchers and User Experience (UX) designers want to identify and create products that change the world and therefore, we choose to engage in strategic research and design. In the real world though, coming up with a breakthrough idea or transformative design doesn’t mean it will automatically be accepted in the research community or get to market. By definition, innovative ideas represent new ways of thinking. Organizations by nature seem to have anti-innovation antibodies that often kill new ideas—even disruptive innovations that could help companies differentiate themselves from their competition. As difficult as coming up with a game-changing idea can be, getting an organization to act on the idea often seems impossible. Perhaps we find ourselves in work routines that do not provide space to think differently. Our experience is that practitioners and academics alike need new tools to meet this challenge—tools that empower UX teams in both business and universities to identify transformative new ideas, and then to get these big ideas and designs accepted. This course proposes rapid design labs—a design-led, facilitative, cross-functional, iterative approach to innovation that aligns organizations and generates value at each step. It provides tools and methods that turn attendees into catalysts, who systemically identify new ideas, and align multi-disciplinary teams around their ideas. Attendees learn how to lead workshops that foster ideation, collaboration, trust, and free expression. These workshops enable intensive brainstorming, purposeful play, design, user testing, and rapid prototyping. Learn how innovative companies, design firms, and universities identify, design, and bring great products to market.",
         "cAndB": "\"Attendees learn how to lead workshops that foster ideation, collaboration, trust, and free expression. These workshops enable intensive brainstorming, purposeful play, design, user testing, and rapid prototyping.\" ",
         "keywords": [],
         "authors": [
@@ -1930,18 +1948,18 @@ entities={
     },
     "crs158": {
         "title": "Designing for Seniors",
-        "abstract": "",
+        "abstract": "Designing for Seniors The world is aging rapidly. The U.N. recently quantified the phenomenon: Whereas 5.2 percent of the population was over 65 in 1950, this percentage is projected to grow to 15.9 percent in 2050, to 27.5 percent by 2150, and to 32.3 percent by 2300. These demographic trends and extreme diversity among older adults (social, cognitive, sensory, motor) afford exciting design opportunities and challenges for HCI. Attendees of this course will better understand what these opportunities and challenges are and how to address them. We shall present two frameworks for envisioning solutions, and illustrate with landmark achievements, promising approaches, and open problems. We shall mention approximately 20 and review in some detail 10 examples, a few from our own work and but mainly representing the work of others, to highlight promising technologies at levels and points in these frameworks. We shall conclude with a challenge to the audience — seize and address one of the open problems!",
         "cAndB": "Demographic trends and user diversity afford exciting design opportunities and challenges. We shall present two frameworks for envisioning solutions, and illustrate with landmark achievements, promising approaches, and open problems.",
         "keywords": [],
         "authors": [
             {
                 "name": "Ronald Baecker",
-                "dept": "",
+                "dept": "Technologies for Aging Gracefully Laboratory (TAGlab)",
                 "institution": "University of Toronto",
-                "city": "Toronto ",
+                "city": "Toronto",
                 "country": "Canada",
-                "affiliation": "University of Toronto",
-                "location": "Toronto , Canada"
+                "affiliation": "Technologies for Aging Gracefully Laboratory (TAGlab), University of Toronto",
+                "location": "Toronto, Canada"
             }
         ],
         "type": "course",
@@ -1967,8 +1985,8 @@ entities={
         "subtype": "course"
     },
     "crs161": {
-        "title": "How social media design shapes society",
-        "abstract": "",
+        "title": "How Social Media Design Shapes Society",
+        "abstract": "The design of social media influences the way people interact with each other online – and shapes our society. This course will look at three key areas: how social identity is portrayed online; our changing social networks and the technologies that support them; and the role of pseudonymity in supporting privacy.",
         "cAndB": "This course uses empirical studies and design critiques to inspire designers to create radically innovative interfaces while also thoughtfully assessing the likely social impact of their designs. ",
         "keywords": [],
         "authors": [
@@ -2054,12 +2072,12 @@ entities={
             },
             {
                 "name": "Ed Price",
-                "dept": "Georgia Tech, Atlanta, Georgia, United States",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Georgia Tech, Atlanta, Georgia, United States",
-                "location": ""
+                "dept": "Institute for People and Technology",
+                "institution": "Georgia Institute of Technology",
+                "city": "Atlanta",
+                "country": "United States",
+                "affiliation": "Institute for People and Technology, Georgia Institute of Technology",
+                "location": "Atlanta, United States"
             },
             {
                 "name": "Richard Catrambone",
@@ -2085,9 +2103,18 @@ entities={
     },
     "to102": {
         "title": "Sharing Stories “in the Wild”: A Mobile Storytelling Case Study Using StoryKit",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "Today’s mobile devices are equipped with a variety of tools that enable users to capture and share their daily experiences. However, designing authoring tools that effectively integrate the discrete media-capture components of mobile devices to enable rich expression—especially by children—remains a challenge. Evaluating such tools authentically, as they are being used in-situ, can be even more challenging. We detail a long-term, multimethod study on the use of StoryKit, a mobile storytelling application. By taking advantage of a public distribution channel, we were able to evaluate StoryKit’s use on a scale beyond that usually found in lab settings or limited field trials. Our results show that StoryKit’s simple but well-integrated interface attracted a high number of dedicated users in education contexts at all levels, including children with special learning needs. We include a discussion of the challenges and opportunities that similar “in the wild” studies hold for HCI research.",
+        "cAndB": "Presents a long-term, multi-method study on the use of StoryKit, a mobile storytelling application. Includes a discussion of challenges and opportunities that similar “in-the-wild” studies hold for HCI research.",
+        "keywords": [
+            "Mobile devices",
+            "mobile storytelling",
+            "creativity",
+            "authoring",
+            "children",
+            "social apps",
+            "participatory design",
+            "literacy"
+        ],
         "authors": [
             {
                 "name": "Elizabeth M Bonsignore",
@@ -2131,9 +2158,17 @@ entities={
     },
     "to103": {
         "title": "Performance-led Research In The Wild",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "We explore the approach of performance-led research in the wild in which artists drive the creation of novel performances with the support of HCI researchers that are then deployed and studied at public performance in cultural settings such as galleries, festivals and on the city streets. We motivate the approach and then describe how it consists of three distinct activities – practice, studies and theory – that are interleaved in complex ways through nine different relationships. We present a historical account of how the approach has evolved over a fifteen-year period, charting the evolution of a complex web of projects, papers and relationships between them. We articulate the challenges of pursuing each activity as well as overarching challenges of balancing artistic and research interests, flexible management of relationships, and finally ethics.",
+        "cAndB": "Performance-led research in the wild involves artists and HCI researchers creating performances that are deployed and studied in cultural settings such as galleries, festivals and on the city streets.",
+        "keywords": [
+            "Art",
+            "performance",
+            "methodology",
+            "ethnography",
+            "theory",
+            "performance-led",
+            "in the wild"
+        ],
         "authors": [
             {
                 "name": "Steve Benford",
@@ -2231,9 +2266,16 @@ entities={
     },
     "to104": {
         "title": "Negotiating Food Waste: Using a Practice Lens to Inform Design",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "Ecological sustainability is becoming of increasing concern to the HCI community, though little focus has been given yet to issues around food waste. Given the environmental impact of food waste, there is potential to contribute to a significant difference. To understand everyday domestic practices around food and waste, we took a ‘practice’ lens and carried out a study in 14 households that involved interviews, in-home tours and, in 5 of the households, a FridgeCam technology probe. The analysis highlights that food waste is the unintended result of multiple moments of consumption dispersed in space and time across other integrated practices such as shopping and cooking, which are themselves embedded in broader contextual factors and values. We highlight the importance of respecting the complex negotiations that people make within given structural conditions and competing values and practices, and suggest design strategies to support dispersed as well as integrated food practices, rather than focusing on waste itself.",
+        "cAndB": "Our study highlights food waste and the complex negotiations that people make around food practices. We suggest that interventions should focus on dispersed and integrated practices rather than waste itself.",
+        "keywords": [
+            "Everyday practice",
+            "food",
+            "food waste",
+            "gardening",
+            "sustainability",
+            "technology probe;"
+        ],
         "authors": [
             {
                 "name": "Eva Ganglbauer",
@@ -2328,8 +2370,8 @@ entities={
     },
     "to106": {
         "title": "Uncovering practices of making energy consumption accountable: A phenomenological inquiry",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "Reacting to the discussion on global warming, the HCI community has started to explore the design of tools to support responsible energy consumption. An important part of this research focuses on motivating energy savings by providing feedback tools which present consumption metrics interactively. In this line of work, the configuration of feedback has been mainly discussed using cognitive or behavioral factors. This narrow focus, however, misses a highly relevant perspective for the design of technology that supports sustainable lifestyles: to investigate into the multiplicity of forms in which individuals or collectives actually consume energy. In this paper, we broaden this focus, by taking a phenomenological lens to study how people use off-the-shelf eco-feedback systems in private households to make energy consumption accountable and explainable. By reconstructing accounting practices, we delineate several constitutive elements of the phenomenon of energy usage in daily life. We complement these elements with a description of the sophisticated methods used by people to organize their energy practices and to give a meaning to their energy consumption. We describe these elements and methods, providing examples coming from the fieldwork and uncovering observed strategies to account for consumption. Based on our results, we provide a critical perspective on existing eco-feedback mechanisms and describe several elements for a design rationale for designing support for responsible energy consumption. We argue that interactive feedback systems should not simply be an end, but rather a resource for the construction of the artful practice of making energy consumption accountable.",
+        "cAndB": "In this paper we study how people use off-the-shelf eco-feedback systems in private households to make energy consumption accountable and explainable.",
         "keywords": [],
         "authors": [
             {
@@ -2374,12 +2416,20 @@ entities={
     },
     "to107": {
         "title": "Crowdfunding: Motivations and Deterrents for Participation",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "Crowdfunding is changing how, why, and which ideas are brought into existence. With the increasing number of crowdfunded projects, it is important to understand what drives people to either create or fund these projects. To shed light on this new social phenomenon, we present a grounded theory of motivation informed by the first cross-platform qualitative study of the crowdfunding community. By performing 83 semi-structured interviews, we uncover creator motivations which include the desire to raise funds, expand awareness of work, connect with others, gain approval, maintain control, and to learn; and supporter motivations which include the desire to collect rewards, help others, support causes and be part of a community. We also explore ¬deterrents to crowdfunding participation, including, among creators, fear of failure, and, for supporters, lack of trust.  Based on these findings, we provide three emergent design principles to inform the design of effective crowdfunding platforms and support tools.",
+        "cAndB": "Crowdfunding is an emergent way to use social media to raise money. Participants often give as much money as they earn. We identify powerful motivations for participation beyond fundraising.",
+        "keywords": [
+            "crowdfunding",
+            "crowdsourcing",
+            "learning",
+            "motivation",
+            "online community",
+            "design",
+            "entrepreneurship"
+        ],
         "authors": [
             {
-                "name": "Liz M Gerber",
+                "name": "Elizabeth M Gerber",
                 "dept": "",
                 "institution": "Northwestern University",
                 "city": "Evanston",
@@ -2443,9 +2493,17 @@ entities={
     },
     "to110": {
         "title": "A Sustainable Design Fiction: Green Practices",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "In this paper, we argue that an approach informed by practice theory coupled with design fiction provides useful insights into the role of interaction design with respect to environmental sustainability. We argue that a practice-oriented approach can help interaction designers step away from models of individual behavior and studies of artifacts towards seeing sustainable behaviors as part of multidimensional and interrelated practices and practice elements. We analyze two previously conducted studies. The first study of everyday repair focuses on how people repair their broken objects. The second study of green-DIY examines how green enthusiasts facilitate their practices of making sustainable DIY (do-it-yourself) projects. We describe the practices of everyday repairers and green enthusiasts in terms of materials, competences, and meanings, and the interrelations among those elements, using the framework of Shove et al. (2012). We argue that understanding the dynamics of practice and their unique configurations is a starting point to redefine the roles of sustainable interaction design (SID). We propose that designers design towards resources and tools in ways that reflect on the challenges of intelligibility of their design interventions in practices. In addition to considering SID in the light of practice theories, we reveal how design fictions are readily incorporated into green practices in ways that transform those practices and hold implications for transformations of design as well. We bring forward opportunities for designers to co-design with DIY enthusiasts, targeted as practitioners in their own right, designing toward or within a design fiction. As a result, we conclude with the possibility for sustainable interaction designers to become practice-oriented designers who design with transparent open strategies and accessible materials and competences.",
+        "cAndB": "In this paper, we argue that an approach informed by practice theory coupled with design fiction provides useful insights into the role of interaction design with respect to environmental sustainability. ",
+        "keywords": [
+            "sustainable interaction design",
+            "social practices",
+            "practice oriented-design",
+            "DIY",
+            "sustainability",
+            "repair",
+            "design fiction"
+        ],
         "authors": [
             {
                 "name": "Ron Wakkary",
@@ -2685,9 +2743,9 @@ entities={
         "cAndB": "Multi-session study detailing peer learning over time with groups of expert musicians improvising with the Reactable interface. A contribution to understanding long-term user interactions with tabletop collaborative systems.",
         "keywords": [
             "Tabletop interfaces",
-            "tangible user interfaces",
-            "collaborative learning",
-            "musical improvisation"
+            "Tangible user interfaces",
+            "Collaborative learning",
+            "Musical improvisation"
         ],
         "authors": [
             {
@@ -2812,9 +2870,18 @@ entities={
     },
     "to118": {
         "title": "Disambiguation of Imprecise Input with One-dimensional Rotational Text Entry",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "We introduce a distinction between disambiguation supporting continuous vs. discrete ambiguous text entry. With continuous ambiguous text entry methods, letter selections are treated as ambiguous due to expected imprecision rather than due to discretized letter groupings. We investigate the simple case of a one-dimensional character layout to demonstrate the potential of techniques designed for imprecise entry. Our rotation-based sight-free technique, Rotext, maps device orientation to a layout optimized for disambiguation, motor efficiency, and learnability. We also present an audio feedback system for efficient selection of disambiguated word candidates, and explore the role that time spent acknowledging word-level feedback plays in text entry performance. Through a user study, we show that despite missing on average by 2.46–2.92 character positions, with the aid of a maximum a posteriori (MAP) disambiguation algorithm, users can average sight-free entry speed of 12.6 wpm with 98.9% accuracy within 13 sessions (4.3 hours). In a second study, expert users are found to reach 21 wpm with 99.6% accuracy after session 20 (6.7 hours) and continue to grow in performance, with individual phrases entered at up to 37 wpm. A final study revisits the learnability of the optimized layout. Our modelling of ultimate performance indicates maximum overall sight-free entry speeds of 29.0 wpm with audio feedback, or 40.7 wpm if an expert user could operate without relying on audio feedback.",
+        "cAndB": "We explore how to design a technique to allow continuous ambiguous input in support of sight-free text entry on a mobile device.",
+        "keywords": [
+            "Sight-free",
+            "text entry",
+            "mobile",
+            "gyroscope",
+            "accelerometer",
+            "alphabet design",
+            "disambiguation",
+            "ambiguous text layout"
+        ],
         "authors": [
             {
                 "name": "Will Walmsley",
@@ -2850,7 +2917,7 @@ entities={
     "to120": {
         "title": "Predicting Whether Users View Dynamic Content on the World Wide Web",
         "abstract": "Dynamic micro-content—interactive or updating widgets and features—is now widely used on the Web, but there is little understanding of how people allocate attention to it. In this article we present the results of an eye-tracking investigation examining how the nature of dynamic micro-content influences whether or not the user views it. We propose and validate the Dynamic Update Viewing-likelihood (DUV) model, a CHi-squared Automatic Interaction Detector (CHAID) model that predicts with around 80% accuracy whether users view dynamic updates as a function of how they are initiated, their size, and their duration. The model is constructed with data from live Web sites and does not rely on knowledge of the user's task to make its predictions, giving it a high level of external validity. We discuss one example of its application: informing how dynamic content should be presented in audio via assistive technology for people with visual impairments.",
-        "cAndB": "This paper presents the Dynamic Update Viewing-likelihood model, which predicts whether people view interactive or updating content on the Web as a function of content features, independent of user task.",
+        "cAndB": "The Dynamic Update Viewing-likelihood model predicts whether people view interactive or updating Web content as a function of content features, independent of user task. We'll discuss its application to television.",
         "keywords": [
             "interaction modeling",
             "Web",
@@ -2877,12 +2944,12 @@ entities={
             },
             {
                 "name": "Simon Harper",
-                "dept": "School  of Computer Science, University of Manchester, Manchester, United Kingdom",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "School  of Computer Science, University of Manchester, Manchester, United Kingdom",
-                "location": ""
+                "dept": "School  of Computer Science",
+                "institution": "The University of Manchester",
+                "city": "Manchester",
+                "country": "United Kingdom",
+                "affiliation": "School  of Computer Science, The University of Manchester",
+                "location": "Manchester, United Kingdom"
             }
         ],
         "type": "TOCHI",
@@ -2909,12 +2976,12 @@ entities={
             },
             {
                 "name": "Mary Beth Rosson",
-                "dept": "Center for Human-Computer Interaction, http://www.chiplace.org/content/Members/show-profile.jsp?id=213, University Park, Pennsylvania, United States",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Center for Human-Computer Interaction, http://www.chiplace.org/content/Members/show-profile.jsp?id=213, University Park, Pennsylvania, United States",
-                "location": ""
+                "dept": "Center for Human-Computer Interaction",
+                "institution": "Pennsylvania State University",
+                "city": "University Park",
+                "country": "United States",
+                "affiliation": "Center for Human-Computer Interaction, Pennsylvania State University",
+                "location": "University Park, United States"
             }
         ],
         "type": "TOCHI",
@@ -2922,9 +2989,16 @@ entities={
     },
     "to123": {
         "title": "Of Catwalk Technologies and Boundary Creatures",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "Researchers designing and deploying technologies in the wild can find it difficult to balance pure innovation with scalable solutions. We propose a catwalk technology metaphor where researchers as boundary creatures focus on innovation whilst providing links to prêt-a-porter (ready to wear) developments. Evidence from three ‘in-the-wild’ field-based learning case studies with 140 geosciences and history learners are used to conceptualise the researchers’ ‘boundary creature’ role in managing these design process tensions, specifically for e-learning using mobile systems, distributed collaboration, sensors and augmented reality in quarries, up mountains and in the city. The analysis details the researcher issues of spatial/temporal acuity and socio-political astuteness in an adapted practitioner inquiry approach. Ultimately, a researcher design role (RDR) model reveals how researchers establish expectations with the design team, stakeholders and users around what is to be innovated (e.g. technology, activities) and how the system will change or enable current practices.",
+        "cAndB": "Understanding researchers as boundary creatures using a catwalk technology metaphor supports the role of researchers, designing in the wild, with multiple stakeholders and competing expectations of what is being designed.  ",
+        "keywords": [
+            "researchers role",
+            "in the wild",
+            "boundary creatures",
+            "catwalk technologies",
+            "innovation design",
+            "scalability"
+        ],
         "authors": [
             {
                 "name": "Anne Adams",
@@ -3003,9 +3077,15 @@ entities={
     },
     "to127": {
         "title": "Collapse Informatics and Practice: Theory, Method, and Design",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "What happens if efforts to achieve sustainability fail? Research in many fields argues that contemporary global industrial civilization will not persist indefinitely in its current form, and may, like many past human societies, eventually collapse. Arguments in environmental studies, anthropology, and other fields indicate that this transformation could begin within the next half-century. While imminent collapse is far from certain, it is prudent to consider now how to develop sociotechnical systems for use in these scenarios. We introduce the notion of collapse informatics—the study, design, and development of sociotechnical systems in the abundant present for use in a future of scarcity. We sketch the design space of collapse informatics and a variety of example projects. We ask how notions of practice—theorized as collective activity in the “here and now”—can shift to the future since collapse has yet to occur.",
+        "cAndB": "What happens if efforts to achieve sustainability fail? Collapse informatics is the study, design, and development of sociotechnical systems in the abundant present for use in a future of scarcity. ",
+        "keywords": [
+            "Sustainable HCI",
+            "collapse",
+            "sustainability",
+            "mitigation",
+            "practice theory"
+        ],
         "authors": [
             {
                 "name": "Bill Tomlinson",
@@ -3035,7 +3115,7 @@ entities={
                 "location": "irvine, United States"
             },
             {
-                "name": "Donald J. J Patterson",
+                "name": "Donald J Patterson",
                 "dept": "",
                 "institution": "University of California, Irvine",
                 "city": "Irvine",
@@ -3116,30 +3196,42 @@ entities={
     },
     "to129": {
         "title": "A Large Scale Study of Daily Information Needs Captured In-Situ",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "The goal of this work is to provide a fundamental understanding of the daily information needs of people through a large-scale, in-depth, quantitative investigation. To this end, we have conducted one of the most comprehensive studies of information needs to date, spanning a 3-month period and involving over 100 users. The study employed a contextual experience sampling method (ESM); a snippet-based diary technique using SMS technology and an on-line Web diary to gather in-situ insights into the types of needs that occur from day to day, how those needs are addressed and how contextual, technological and demographic factors impact on those needs. Our results not only complement earlier studies but also provide a new understanding of the intricacies of people's daily information needs.",
+        "cAndB": "Provides real-world insights into the daily information needs of people, how their needs are currently addressed (if at all) and the impact of contextual, demographic and technological factors on those daily needs. ",
+        "keywords": [
+            "Information needs",
+            "daily needs",
+            "mobile needs",
+            "contextual experience sampling method",
+            "ESM",
+            "context",
+            "diary study",
+            "SMS",
+            "user behavior",
+            "mobile computing",
+            "mobile hci;"
+        ],
         "authors": [
             {
                 "name": "Karen Church",
                 "dept": "",
-                "institution": "Yahoo Labs",
-                "city": "Sunnyvale",
-                "country": "United States",
-                "affiliation": "Yahoo Labs",
-                "location": "Sunnyvale, United States"
+                "institution": "Telefonica Research",
+                "city": "Barcelona",
+                "country": "Spain",
+                "affiliation": "Telefonica Research",
+                "location": "Barcelona, Spain"
             },
             {
                 "name": "Mauro Cherubini",
                 "dept": "",
-                "institution": "Google, Inc.",
-                "city": "Zurich",
-                "country": "Switzerland",
-                "affiliation": "Google, Inc.",
-                "location": "Zurich, Switzerland"
+                "institution": "Telefonica Research",
+                "city": "Barcelona",
+                "country": "Spain",
+                "affiliation": "Telefonica Research",
+                "location": "Barcelona, Spain"
             },
             {
-                "name": "Nuria m Oliver",
+                "name": "Nuria Oliver",
                 "dept": "",
                 "institution": "Telefonica Research",
                 "city": "Barcelona",
@@ -3211,9 +3303,18 @@ entities={
     },
     "to133": {
         "title": "Practices as a Unit of Design: An Exploration of Theoretical Guidelines in a Study on Bathing",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "The sustainability challenges facing society today require approaches that look beyond single productuser interactions. Focusing on socially shared practices—e.g. cooking, laundering—has been identified as a promising direction. Building on a growing body of research in sustainable HCI that takes practices as unit of analysis, this article explores what it means to take practices as a unit of design. Drawing on theories of practice, it proposes that practice-oriented design approaches should: involve bodily performance, create crises of routine and generate a variety of performances. These guidelines were integrated into a Generative Improv Performances (GIP) approach, entailing a series of performances by improvisation actors with lowfidelity prototypes in a lab environment. The approach was implemented in an empirical study on bathing. Although the empirical example does not deal with common types of interactive technologies, the guidelines and GIP approach offer sustainable HCI a way to think beyond immediate interactions and to conceptualize change on a practice level.",
+        "cAndB": "The paper was part of a special issue of TOCHI that explored implications of social practice theory for sustainable HCI. It contains an innovative case study on bathing involving improvisation actors.",
+        "keywords": [
+            "Bathing",
+            "design",
+            "sustainable HCI",
+            "improvisation actors",
+            "performances",
+            "practice theory",
+            "research through design",
+            "sustainability"
+        ],
         "authors": [
             {
                 "name": "Lenneke Kuijer",
@@ -3235,12 +3336,12 @@ entities={
             },
             {
                 "name": "Daan Van Eijk",
-                "dept": "Industrial Design",
+                "dept": "",
                 "institution": "Delft University of Technology",
                 "city": "Delft",
-                "country": "Netherlands",
-                "affiliation": "Industrial Design, Delft University of Technology",
-                "location": "Delft, Netherlands"
+                "country": "The Netherlands",
+                "affiliation": "Delft University of Technology",
+                "location": "Delft, The Netherlands"
             }
         ],
         "type": "TOCHI",
@@ -3248,9 +3349,16 @@ entities={
     },
     "to134": {
         "title": "Complex Activity Recognition using Context Driven Activity Theory and Activity Signatures",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "In pervasive and ubiquitous computing systems, human activity recognition has immense potential in a large number of application domains. Current activity recognition techniques (i) do not handle variations in sequence, concurrency and interleaving of complex activities; (ii) do not incorporate context; and (iii) require large amounts of training data. There is a lack of a unifying theoretical framework which exploits both domain knowledge and data-driven observations to infer complex activities. In this article, we propose, develop and validate a novel Context-Driven Activity Theory (CDAT) for recognizing complex activities. We develop a mechanism using probabilistic and Markov chain analysis to discover complex activity signatures and generate complex activity definitions. We also develop a Complex Activity Recognition (CAR) algorithm. It achieves an overall accuracy of 95.73% using extensive experimentation with real-life test data. CDAT utilizes context and links complex activities to situations, which reduces inference time by 32.5% and also reduces training data by 66%.",
+        "cAndB": "A novel Context-Driven Activity Theory (CDAT) and a Complex Activity Recognition (CAR) algorithm are presented that efficiently handle variations in sequence, concurrency and interleaving of complex activities of daily living.",
+        "keywords": [
+            "activity recognition",
+            "complex activity",
+            "context-driven activity theory",
+            "context awareness",
+            "concurrent activities",
+            "interleaved activities"
+        ],
         "authors": [
             {
                 "name": "Saguna Saguna",
@@ -3391,9 +3499,19 @@ entities={
     },
     "to137": {
         "title": "TaskGenies: Automatically Providing Action Plans Helps People Complete Tasks",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
+        "abstract": "People complete tasks more quickly when they have concrete plans. However, they often fail to create such action plans. (How) can systems provide these concrete steps automatically? This paper demonstrates that these benefits can also be realized when these plans are created by others or reused from similar tasks. Four experiments test these approaches, finding that people indeed complete more tasks when they receive externally-created action plans. To automatically provide plans, we introduce the Genies workflow that combines benefits of crowd wisdom, collaborative refinement, and automation. We demonstrate and evaluate this approach through the TaskGenies system, and introduce an NLP similarity algorithm for reusing plans. We demonstrate that it is possible for people to create action plans for others, and we show that it can be cost effective.",
+        "cAndB": "Experiments showing that people complete more tasks with crowd-created action plans. We also introduce the Genies workﬂow that combines benefits of crowd wisdom, collaborative refinement, and automation.",
+        "keywords": [
+            "Task management",
+            "Crowdsourcing",
+            "Action Plans",
+            "Implementation Intentions",
+            "Time Management",
+            "Task Lists",
+            "Tasks",
+            "To-do",
+            "TODO"
+        ],
         "authors": [
             {
                 "name": "Nicolas Kokkalis",
@@ -3717,12 +3835,12 @@ entities={
         "authors": [
             {
                 "name": "Kathrin M Gerling",
-                "dept": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada",
-                "location": ""
+                "dept": "Interaction Lab",
+                "institution": "University  of Saskatchewan",
+                "city": "Saskatoon",
+                "country": "Canada",
+                "affiliation": "Interaction Lab, University  of Saskatchewan",
+                "location": "Saskatoon, Canada"
             },
             {
                 "name": "Regan L Mandryk",
@@ -3778,12 +3896,12 @@ entities={
         "authors": [
             {
                 "name": "Kathrin M Gerling",
-                "dept": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada",
-                "location": ""
+                "dept": "Interaction Lab",
+                "institution": "University  of Saskatchewan",
+                "city": "Saskatoon",
+                "country": "Canada",
+                "affiliation": "Interaction Lab, University  of Saskatchewan",
+                "location": "Saskatoon, Canada"
             },
             {
                 "name": "Matthew Miller",
@@ -3858,12 +3976,12 @@ entities={
             },
             {
                 "name": "Kasper Hornbaek",
-                "dept": "",
-                "institution": "University of Copenhagen",
-                "city": "Copenhagen",
-                "country": "Denmark",
-                "affiliation": "University of Copenhagen",
-                "location": "Copenhagen, Denmark"
+                "dept": "University of Copenhagen, Copenhagen, Denmark",
+                "institution": "",
+                "city": "",
+                "country": "",
+                "affiliation": "University of Copenhagen, Copenhagen, Denmark",
+                "location": ""
             }
         ],
         "type": "paper",
@@ -4806,12 +4924,12 @@ entities={
         "authors": [
             {
                 "name": "Luis A. Leiva",
-                "dept": "ITI/DSIC, Universitat Politècnica de València, Valencia, Spain",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "ITI/DSIC, Universitat Politècnica de València, Valencia, Spain",
-                "location": ""
+                "dept": "ITI/DSIC",
+                "institution": "Universitat Politècnica de València",
+                "city": "Valencia",
+                "country": "Spain",
+                "affiliation": "ITI/DSIC, Universitat Politècnica de València",
+                "location": "Valencia, Spain"
             },
             {
                 "name": "Vicent Alabau",
@@ -4868,11 +4986,11 @@ entities={
         "authors": [
             {
                 "name": "Marcos Serrano",
-                "dept": "",
+                "dept": "University of Manitoba, Winnipeg, Manitoba, Canada",
                 "institution": "University of Manitoba",
                 "city": "Winnipeg",
                 "country": "Canada",
-                "affiliation": "University of Manitoba",
+                "affiliation": "University of Manitoba, Winnipeg, Manitoba, Canada, University of Manitoba",
                 "location": "Winnipeg, Canada"
             },
             {
@@ -6641,7 +6759,7 @@ entities={
         "subtype": "Paper"
     },
     "pn372": {
-        "title": "Expanding the Input Expressivity of Smartwatches with Physical Pan, Twist, Tilt and Click",
+        "title": "Expanding the Input Expressivity of Smartwatches with Mechanical Pan, Twist, Tilt and Click",
         "abstract": "Smartwatches promise to bring enhanced convenience to common communication, creation and information retrieval tasks. Due to their prominent placement on the wrist, they must be small and otherwise unobtrusive, which limits the sophistication of interactions we can perform. This problem is particularly acute if the smartwatch relies on a touchscreen for input, as the display is small and our fingers are relatively large. In this work, we propose a complementary input approach: using the watch face as a multi-degree-of-freedom, mechanical interface. We developed a proof of concept smartwatch that supports continuous 2D panning and twist, as well as binary tilt and click. To illustrate the potential of our approach, we developed a series of example applications, many of which are cumbersome – or even impossible – on today’s smartwatch devices.",
         "cAndB": "We present a novel, six-degree-of-freedom mechanical input method for smartwatches, and a series of input techniques and example applications that demonstrate the potential of this approach.",
         "keywords": [
@@ -7022,12 +7140,12 @@ entities={
         "authors": [
             {
                 "name": "Luis A. Leiva",
-                "dept": "ITI/DSIC, Universitat Politècnica de València, Valencia, Spain",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "ITI/DSIC, Universitat Politècnica de València, Valencia, Spain",
-                "location": ""
+                "dept": "ITI/DSIC",
+                "institution": "Universitat Politècnica de València",
+                "city": "Valencia",
+                "country": "Spain",
+                "affiliation": "ITI/DSIC, Universitat Politècnica de València",
+                "location": "Valencia, Spain"
             },
             {
                 "name": "Germán Sanchis-Trilles",
@@ -7247,10 +7365,10 @@ entities={
             {
                 "name": "Halla B Olafsdottir",
                 "dept": "",
-                "institution": "Univ Paris-Sud",
+                "institution": "Univ Paris-Sud, CNRS",
                 "city": "Orsay",
                 "country": "France",
-                "affiliation": "Univ Paris-Sud",
+                "affiliation": "Univ Paris-Sud, CNRS",
                 "location": "Orsay, France"
             },
             {
@@ -7265,10 +7383,10 @@ entities={
             {
                 "name": "Caroline Appert",
                 "dept": "",
-                "institution": "Univ Paris-Sud",
+                "institution": "Univ Paris-Sud, CNRS",
                 "city": "Orsay",
                 "country": "France",
-                "affiliation": "Univ Paris-Sud",
+                "affiliation": "Univ Paris-Sud, CNRS",
                 "location": "Orsay, France"
             }
         ],
@@ -11995,12 +12113,12 @@ entities={
             },
             {
                 "name": "Md. Tanvir Islam Aumi",
-                "dept": "University of Washington, Seattle, Washington, United States",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "University of Washington, Seattle, Washington, United States",
-                "location": ""
+                "dept": "Computer Science and Engineering",
+                "institution": "University of Washington",
+                "city": "Seattle",
+                "country": "United States",
+                "affiliation": "Computer Science and Engineering, University of Washington",
+                "location": "Seattle, United States"
             },
             {
                 "name": "Shwetak N Patel",
@@ -13352,17 +13470,17 @@ entities={
             },
             {
                 "name": "Nicolas Villar",
-                "dept": "Microsoft Research, Cambridge, United Kingdom",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Microsoft Research, Cambridge, United Kingdom",
-                "location": ""
+                "dept": "",
+                "institution": "Microsoft Research",
+                "city": "Cambridge",
+                "country": "United Kingdom",
+                "affiliation": "Microsoft Research",
+                "location": "Cambridge, United Kingdom"
             },
             {
                 "name": "Nicholas Chen",
-                "dept": "",
-                "institution": "Microsoft Research",
+                "dept": "Microsoft Research",
+                "institution": "",
                 "city": "Cambridge",
                 "country": "United Kingdom",
                 "affiliation": "Microsoft Research",
@@ -15116,12 +15234,12 @@ entities={
         "authors": [
             {
                 "name": "Miriam Greis",
-                "dept": "University of Stuttgart, Stuttgart, Germany",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "University of Stuttgart, Stuttgart, Germany",
-                "location": ""
+                "dept": "",
+                "institution": "University of Stuttgart",
+                "city": "Stuttgart",
+                "country": "Germany",
+                "affiliation": "University of Stuttgart",
+                "location": "Stuttgart, Germany"
             },
             {
                 "name": "Florian Alt",
@@ -20458,11 +20576,11 @@ entities={
         "authors": [
             {
                 "name": "Alexander Meschtscherjakov",
-                "dept": "",
+                "dept": "University of Salzburg, Salzburg, Austria",
                 "institution": "University of Salzburg",
                 "city": "Salzburg",
                 "country": "Austria",
-                "affiliation": "University of Salzburg",
+                "affiliation": "University of Salzburg, Salzburg, Austria, University of Salzburg",
                 "location": "Salzburg, Austria"
             },
             {
@@ -20476,11 +20594,11 @@ entities={
             },
             {
                 "name": "Manfred Tscheligi",
-                "dept": "",
+                "dept": "ICT&S Center",
                 "institution": "University of Salzburg",
                 "city": "Salzburg",
                 "country": "Austria",
-                "affiliation": "University of Salzburg",
+                "affiliation": "ICT&S Center, University of Salzburg",
                 "location": "Salzburg, Austria"
             }
         ],
@@ -25542,11 +25660,11 @@ entities={
         "authors": [
             {
                 "name": "HEE RIN LEE",
-                "dept": "",
-                "institution": "Indiana University Bloomington",
+                "dept": "Indiana University Bloomington, Bloomington, Indiana, United States",
+                "institution": "Indiana University",
                 "city": "Bloomington",
                 "country": "United States",
-                "affiliation": "Indiana University Bloomington",
+                "affiliation": "Indiana University Bloomington, Bloomington, Indiana, United States, Indiana University",
                 "location": "Bloomington, United States"
             },
             {
@@ -25673,7 +25791,7 @@ entities={
     },
     "pn2380": {
         "title": "KnowMe and ShareMe: Understanding Automatically Discovered Personality Traits from Social Media and User Sharing Preferences",
-        "abstract": "There is much recent work on using the digital footprints left by people on social media to predict personal traits and gain a deeper understanding of individuals. Due to the veracity of social media, imperfections in prediction algorithms, and the sensitive nature of one’s personal traits, much research is still needed to better understand the effectiveness of this line of work, including users’ preferences of sharing their computationally derived traits. In this paper, we report a two- part study involving 256 participants, which (1) examines the feasibility and effectiveness of automatically deriving three types of personality traits from Twitter, including Big 5 personality, basic human values, and fundamental needs, and (2) investigates users’ opinions of using and sharing these traits. Our findings show there is a potential feasibility of automatically deriving one’s personality traits from social media with various factors impacting the accuracy of models, and the trait of basic human values outperforms the models of Big 5 personality and fundamental needs. The results also indicate over 61.5% users are willing to share their derived traits in the workplace and that a number of factors significantly influence their sharing preferences. Since our findings demonstrate the feasibility of automatically inferring a user’s personal traits from social media, we discuss their implications for designing a new generation of privacy-preserving, hyper-personalized systems.",
+        "abstract": "There is much recent work on using the digital footprints left by people on social media to predict personal traits and gain a deeper understanding of individuals. Due to the veracity of social media, imperfections in prediction algorithms, and the sensitive nature of one’s personal traits, much research is still needed to better understand the effectiveness of this line of work, including users’ preferences of sharing their computationally derived traits. In this paper, we report a two- part study involving 256 participants, which (1) examines the feasibility and effectiveness of automatically deriving three types of personality traits from Twitter, including Big 5 personality, basic human values, and fundamental needs, and (2) investigates users’ opinions of using and sharing these traits. Our findings show there is a potential feasibility of automatically deriving one’s personality traits from social media with various factors impacting the accuracy of models. The results also indicate over 61.5% users are willing to share their derived traits in the workplace and that a number of factors significantly influence their sharing preferences. Since our findings demonstrate the feasibility of automatically inferring a user’s personal traits from social media, we discuss their implications for designing a new generation of privacy-preserving, hyper-personalized systems.",
         "cAndB": "This work strengthen our understanding of automatically inferring a user's personal traits from social media and designing a new generation of privacy-preserving, hyper-personalized systems.",
         "keywords": [
             "Personality traits",
@@ -25694,7 +25812,7 @@ entities={
                 "location": "San Jose, United States"
             },
             {
-                "name": "Michelle Zhou",
+                "name": "Michelle X Zhou",
                 "dept": "",
                 "institution": "IBM Research",
                 "city": "San Jose",
@@ -25828,13 +25946,15 @@ entities={
     "pn2401": {
         "title": "Curated City: Capturing Individual City Guides Through Social Curation",
         "abstract": "We report on our design of Curated City, a website that lets people build their own personal guide to the city's neighborhoods by chronicling their favorite experiences. Although users make their own personal guides, they are immersed in a social curatorial experience where they are influenced directly and indirectly by the guides of others.  We use a 2-week field trial involving 20 residents of Pittsburgh as a technological probe to explore the initial design decisions, and we further refine the design landscape through subject interviews.  Based on this study, we identify a set of design recommendations for building scalable social platforms for curating the experiences of the city.",
-        "cAndB": "We propose a new supply-side emphasis for sustainable HCI and offer an initial five-point strategy for addressing barriers to action toward affecting supply.",
+        "cAndB": "Curated City is a website that lets people build personal city guides.  Social mechanisms allow users to interact with each other’s guides, highlighting the shared urban experience through social curation.",
         "keywords": [
-            "Sustainability",
-            "climate change",
-            "supply",
-            "psychological barriers",
-            "activism"
+            "Location-based services",
+            "local search",
+            "mental maps",
+            "social computing",
+            "neighborhoods",
+            "urban computing",
+            "social curation"
         ],
         "authors": [
             {
@@ -26350,11 +26470,11 @@ entities={
             },
             {
                 "name": "Henning Pohl",
-                "dept": "FG Mensch-Computer-Interaktion",
-                "institution": "University of Hanover",
+                "dept": "",
+                "institution": "University of Hannover",
                 "city": "Hannover",
                 "country": "Germany",
-                "affiliation": "FG Mensch-Computer-Interaktion, University of Hanover",
+                "affiliation": "University of Hannover",
                 "location": "Hannover, Germany"
             },
             {
@@ -26917,12 +27037,12 @@ entities={
         "authors": [
             {
                 "name": "J. G Trafton",
-                "dept": "AI Center, Naval Research Laboratory, Washington, DC, United States",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "AI Center, Naval Research Laboratory, Washington, DC, United States",
-                "location": ""
+                "dept": "AI Center",
+                "institution": "Naval Research Laboratory",
+                "city": "Washington",
+                "country": "United States",
+                "affiliation": "AI Center, Naval Research Laboratory",
+                "location": "Washington, United States"
             },
             {
                 "name": "Raj M Ratwani",
@@ -27004,10 +27124,17 @@ entities={
         "subtype": "panel"
     },
     "pan103": {
-        "title": "Panel: Designing for the Experiential Body",
-        "abstract": "",
+        "title": "Designing for the Experiential Body",
+        "abstract": "The goal of this panel is to reflect on the past and discuss the present and future of designing for an experiencing body in HCI. The motivation is to discuss the full range of rich body/movement-based experiences and how the CHI community can embrace and extend these perspectives on designing for the body. The panelists and audience will be asked to share their perspectives on what has most influenced thought in designing for the body, how new sensing technologies are crafting the HCI perspective, and where they see this line of research and design heading in the next ten years.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Measurement",
+            "evaluation",
+            "bodily interaction",
+            "health",
+            "exertion interface",
+            "whole-body interaction."
+        ],
         "authors": [
             {
                 "name": "Helena Mentis",
@@ -27364,47 +27491,47 @@ entities={
             {
                 "name": "Waxberg Sara",
                 "dept": "Philips Healthcare, Andover, Massachusetts, United States",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Philips Healthcare, Andover, Massachusetts, United States",
-                "location": ""
+                "institution": "Philips Healthcare",
+                "city": "Andover",
+                "country": "United States",
+                "affiliation": "Philips Healthcare, Andover, Massachusetts, United States, Philips Healthcare",
+                "location": "Andover, United States"
             },
             {
                 "name": "Goss Julian",
                 "dept": "Ontario College of Art and Design University , Toronto, Ontario, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Ontario College of Art and Design University , Toronto, Ontario, Canada",
-                "location": ""
+                "institution": "Ontario College of Art and Design University",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "Ontario College of Art and Design University , Toronto, Ontario, Canada, Ontario College of Art and Design University",
+                "location": "Toronto, Canada"
             },
             {
                 "name": "Rossos Peter",
                 "dept": "University Health Network, Toronto, Ontario, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "University Health Network, Toronto, Ontario, Canada",
-                "location": ""
+                "institution": "University Health Network",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "University Health Network, Toronto, Ontario, Canada, University Health Network",
+                "location": "Toronto, Canada"
             },
             {
                 "name": "Nicholas Emily",
                 "dept": "Patients Canada, Toronto, Ontario, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Patients Canada, Toronto, Ontario, Canada",
-                "location": ""
+                "institution": "Patients Canada",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "Patients Canada, Toronto, Ontario, Canada, Patients Canada",
+                "location": "Toronto, Canada"
             },
             {
                 "name": "Cafazzo Joseph",
                 "dept": "Healthcare Human Factors, Toronto, Ontario, Canada",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "Healthcare Human Factors, Toronto, Ontario, Canada",
-                "location": ""
+                "institution": "Healthcare Human Factors",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "Healthcare Human Factors, Toronto, Ontario, Canada, Healthcare Human Factors",
+                "location": "Toronto, Canada"
             }
         ],
         "type": "panel",
@@ -27500,8 +27627,8 @@ entities={
     },
     "alt104": {
         "title": "Building Castles in Quicksand: Blueprint for a Crowdsourced Study",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "Finding participants for experiments has always been a challenge. As technology advanced, running experiments online became a viable way to carry out research that did not require anything more than a personal computer. The natural next step in this progression emerged as crowdsourcing became an option. We report on our experience of joining this new wave of practice, and the difficulties and challenges we encountered when crowdsourcing a study. This led us to re-evaluate the validity of crowdsourced research. We report our findings, and conclude with guidelines for crowdsourced experiments.",
+        "cAndB": "We identified bugs in a major crowdsourcing platform, and synthesised guidelines for replicable and valid crowdsourced studies in HCI.",
         "keywords": [],
         "authors": [
             {
@@ -28103,12 +28230,12 @@ entities={
     },
     "alt143": {
         "title": "Quantification in Alt.Chi Open Review: Liking and Ticking on a Likert Scale",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "We analyze quantification in the open review process of Alt.Chi panels. We find that reviewers differ systematically regarding their activity patterns. We distinguish 'critical', 'supportive', 'discerning' and 'keen' reviewers, with distinctive contributions for two resources of meaningful numeric evaluation: intersubjectivity and intra-personal commensurability. The acceptance decision is associated with the average paper grade and, to a lesser extent, with the number of paper reviews. We identify four categories of articles that reflect the article distribution of reviewer types.",
+        "cAndB": "We analyze the Alt.Chi open review process. We distinguish 'critical', 'supportive', 'discerning' and 'keen' reviewers, with distinctive contributions for meaningful numeric evaluation and paper acceptance. ",
         "keywords": [],
         "authors": [
             {
-                "name": "Razvan Rughinis",
+                "name": "Răzvan Rughiniș",
                 "dept": "",
                 "institution": "University POLITEHNICA of Bucharest",
                 "city": "Bucharest",
@@ -28117,7 +28244,7 @@ entities={
                 "location": "Bucharest, Romania"
             },
             {
-                "name": "Cosima Rughinis",
+                "name": "Cosima Rughiniș",
                 "dept": "",
                 "institution": "University of Bucharest",
                 "city": "Bucharest",
@@ -28351,9 +28478,9 @@ entities={
         "subtype": "altchi"
     },
     "alt163": {
-        "title": "Translation from text to touch - Touching a “Japanese old tale”",
-        "abstract": "",
-        "cAndB": "",
+        "title": "Translation from Text to Touch -- Touching a “Japanese Old Tale”",
+        "abstract": "The character display and interface through visual and auditory senses have been the focus of the Computer Human Interaction and also tactile sense interface has been studied. We propose a method for integrating character information and tactile sense, by focusing on the structure of texts and phonetic aspects of language. By using this method, we extract the tactile elements of “The Tale of the Heike, which has been handed down in Japan over a thousand years. Also, we extract the tactile elements of the English version of the tale and a passage from Hamlet and compare their tactile characteristics. ",
+        "cAndB": "We propose the method of extracting tactile sense from text and describing into the Tactile score, which is a method of describing tactile sense such as massage",
         "keywords": [],
         "authors": [
             {
@@ -28368,20 +28495,20 @@ entities={
             {
                 "name": "RIeko Suzuki",
                 "dept": "",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "",
-                "location": ""
+                "institution": "Face Therapie, Co. Ltd. ",
+                "city": "Tokyo",
+                "country": "Japan",
+                "affiliation": "Face Therapie, Co. Ltd. ",
+                "location": "Tokyo, Japan"
             },
             {
                 "name": "Junji Watanabe",
-                "dept": "",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "",
-                "location": ""
+                "dept": "NTT Communication Science Lab.",
+                "institution": "Nippon Telegraph and Telephone Corporationtion",
+                "city": "Atsugi city, Kanagawa perfecture",
+                "country": "Japan",
+                "affiliation": "NTT Communication Science Lab., Nippon Telegraph and Telephone Corporationtion",
+                "location": "Atsugi city, Kanagawa perfecture, Japan"
             }
         ],
         "type": "altchi",
@@ -28464,8 +28591,8 @@ entities={
     },
     "alt174": {
         "title": "Running an HCI Experiment in Multiple Parallel Universes",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "We experimentally evaluated a haptic touch slider in 8 parallel universes. The results were overall similar but exhibited surprisingly high variability in terms of statistical significance patterns. We discuss the general implications of these findings for empirical HCI research.",
+        "cAndB": "We conducted an HCI experiment in 8 parallel universes and found surprisingly high variability in terms of statistical significance patterns. We discuss the implications for HCI research.",
         "keywords": [],
         "authors": [
             {
@@ -28501,17 +28628,17 @@ entities={
     },
     "alt179": {
         "title": "Brave New Interactions: Performance-Enhancing Drugs for Human-Computer Interaction",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "In sports, some athletes resort to performance enhancing drugs to gain an advantage. Similarly, people use pharmaceutical drugs to aid learning, dexterity, or concentration. We look at how such drugs could potentially be used to enhance interactions. We envision that in the future, people might take pills along with their vitamins in the morning to improve how they can interact over the day. In addition to performance boosts this, e.g., could also include improvements in enjoyment or fatigue.",
+        "cAndB": "We open up the question of how performance-enhancing drugs could impact the field of HCI. This could, e.g., mean designing systems for users who have enhanced memorization capabilities.",
         "keywords": [],
         "authors": [
             {
                 "name": "Henning Pohl",
-                "dept": "FG Mensch-Computer-Interaktion",
-                "institution": "University of Hanover",
+                "dept": "",
+                "institution": "University of Hannover",
                 "city": "Hannover",
                 "country": "Germany",
-                "affiliation": "FG Mensch-Computer-Interaktion, University of Hanover",
+                "affiliation": "University of Hannover",
                 "location": "Hannover, Germany"
             }
         ],
@@ -28520,8 +28647,8 @@ entities={
     },
     "alt188": {
         "title": "A Path to Understanding the Effects of Algorithm Awareness",
-        "abstract": "",
-        "cAndB": "",
+        "abstract": "The rise in prevalence of algorithmically curated feeds in online news and social media sites raises a new question for designers, critics, and scholars of media: how aware are users of the role of algorithms and filters in their news sources? This paper situates this problem within the history of design for interaction, with an emphasis on the contemporary challenges of studying, and designing for, the algorithmic \"curation\" of feeds. Such a problem presents particular challenges when, as is common, neither the user nor the researcher has access to the actual proprietary algorithms at work.",
+        "cAndB": "This paper situates recent debates about algorithmic information sources within a call for new design and perception studies.",
         "keywords": [],
         "authors": [
             {
@@ -28566,8 +28693,8 @@ entities={
     },
     "alt191": {
         "title": "QnDReview: Read 100 CHI Papers in 7 Hours",
-        "abstract": "In 2013, 392 CHI research papers and notes were published and even more papers in the domain of Human-Computer Interaction (HCI) are published in various conferences and journals. It is quite arduous, if not impossible, to read all of these papers. One approach to deal with this information deluge is focusing on skimming through lots of papers in a short period of time, so that one can more wisely choose what to read before investing time to actually them them. In order to teach such skimming technique, I teach graduate-level students in an HCI course a technique, called \"Quick and Dirty Review (QnDReview).\" The method has been employed in the course for five semesters, and students' responses were collected and analyzed. Results showed that students reviewed about on average 4.3 minutes per paper and believe that they got a gist out of the paper. However, the bigger benefits we noticed are that students get the overall pictures of the fields and generate interesting ideas while exposing themselves to various new ideas through this approach.",
-        "cAndB": "To be updated.",
+        "abstract": "In 2013, 392 research papers and notes were published in the CHI conference (The ACM CHI Conference on Human Factors in Computing Systems) and even more papers in the domain of Human-Computer Interaction (HCI) are constantly published in various conferences and journals. It is quite arduous, if not impossible, to read all of these papers. One approach to deal with this information deluge is to focus on skimming through lots of papers in a short period of time, so that one can more wisely choose what to read before investing time in them. In order to teach such a skimming technique, I have taught a technique, called \"Quick and Dirty Review (QnDReview),\" in a graduate-level HCI course. The method has been employed in the course for five semesters, and students' responses were collected and analyzed. Results showed that students spent, on average, 4.3 minutes per paper and believed that they got the gist of each paper. However, the largest benefit I noticed is that students get the overall pictures of the fields while exposing themselves to various new ideas through this approach.",
+        "cAndB": "This paper introduces an education method, \"QnDReview,\" which helps HCI students to read 100 papers in 7 hours.",
         "keywords": [],
         "authors": [
             {
@@ -28582,5 +28709,203 @@ entities={
         ],
         "type": "altchi",
         "subtype": "altchi"
+    },
+    "crs162": {
+        "title": "What HCI can do for Citizen Science",
+        "abstract": "",
+        "cAndB": "Citizen science supports public participation in scientific research. Increasingly new devices including smartphones, sensors, and technologies for validating and communicating data, are integrated into these practices. We suggest design, privacy and security guidelines.",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Jenny Preece",
+                "dept": "iSchool",
+                "institution": "University of Maryland",
+                "city": "College Park",
+                "country": "United States",
+                "affiliation": "iSchool, University of Maryland",
+                "location": "College Park, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course"
+    },
+    "crs163": {
+        "title": "Uncovering the Ordinary, Inspiring the Extraordinary: A Conversation with Susan Dray",
+        "abstract": "",
+        "cAndB": "From studying the neurophysiology of learning, to championing HCI in industry and promoting user-centered approaches to international development, Susan Dray, a 2014 inductee to the CHI Academy, will share key projects and key lessons for HCI from her career. ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Susan Dray",
+                "dept": "",
+                "institution": "Dray & Associates, Inc.",
+                "city": "Oakland",
+                "country": "United States",
+                "affiliation": "Dray & Associates, Inc.",
+                "location": "Oakland, United States"
+            },
+            {
+                "name": "Elizabeth Churchill",
+                "dept": "",
+                "institution": "eBay Research Lab, eBay Inc.",
+                "city": "San Jose",
+                "country": "United States",
+                "affiliation": "eBay Research Lab, eBay Inc.",
+                "location": "San Jose, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course"
+    },
+    "key100": {
+        "title": "The Physical Web",
+        "abstract": "Too often when we discuss \"interaction\" we think of it as a desktop vs tablet vs mobile issue. However, with the plummeting cost of both processing and connectivity, our understanding of a 'smart device' is rapidly changing. The challenge is that this new, amazing category of devices will blind side us, requiring entirely new ways of interacting. This talk will discuss the exploding new area of smart devices, how the Internet of things is a UX disaster, and how we are on the verge of an entirely new way of interacting with devices.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Scott Jenson",
+                "dept": "",
+                "institution": "Google",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Google",
+                "location": "Palo Alto, United States"
+            }
+        ]
+    },
+    "key101": {
+        "title": "Technology and Memory: from Lifelogging to Strategic Reminiscence",
+        "abstract": "We now have available huge amounts of data about our personal pasts in the form of photos, social media posts, communications, GPS locations, sensor data and so on. But what can we do with all this data? Is it useful to us or is it a problem? The Lifelogging vision argues that such data promotes 'total recall' addressing problems with everyday forgetting. I first show that Lifelogging doesn't live up to these claims, both overgenerating data and failing to focus on what is important. I then explore other problematic memory situations where people actively want to forget aspects of their past in the context of a relationship breakup, or when they have experienced other negative past events. Drawing on literature from psychological and social theories of memory, I describe how rich personal digital data about a breakup can prevent moving on, and present new designs that help people better deal with data relating to their breakup. Finally I explore new designs for technology mediated reflection; these designs promote demonstrable improvements in psychological well-being by helping us to actively process our pasts to understand our emotional patterns and habits.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Steve Whittaker",
+                "dept": "HCI Lab",
+                "institution": "University of California at Santa Cruz",
+                "city": "Santa Cruz",
+                "country": "USA",
+                "affiliation": "HCI Lab, University of California at Santa Cruz",
+                "location": "Santa Cruz, USA"
+            }
+        ],
+        "type": "keynote",
+        "subtype": "keynote"
+    },
+    "key102": {
+        "title": "Reasons to be Cheerful, Part 4",
+        "abstract": "Reasons to be Cheerful, Part 3 was a song released by the UK's Ian Dury and the Blockheads in 1979. The song simply enumerates a series of reasons for being cheerful: Summer, Buddy Holly... 18-wheeler Scammels, Domenecker camels... The list includes sex, generosity and politeness, yellow socks, breakfast cereal, John Coltrane... and more.  In 1979 when the song was released HCI was still in its infancy, starting its 'first wave'. Much focus was on efficiency and on communication as command. Satisfaction was noted, but not central. Frustration was acknowledged but not deeply theorized. Now, in 2014, in the third or perhaps even fourth wave of HCI, we talk about engagement, connection, emotion, enjoyment, delight and joy... Efficiency is still on the table but not dominant. In this talk, I reflect on cheer, on joy and the human capacity for optimism. I will update the Blockheads' list, to include some reasons I believe we should be cheerful about the emerging landscape of mediated interaction and social connection. My list will offer examples from my own collaborative work in the design and development of engaging Internet experiences.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Elizabeth Churchill",
+                "dept": "",
+                "institution": "eBay Research Lab, eBay Inc.",
+                "city": "San Jose",
+                "country": "United States",
+                "affiliation": "eBay Research Lab, eBay Inc.",
+                "location": "San Jose, United States"
+            }
+        ]
+    },
+    "key103": {
+        "title": "A CHI story - past, present, and the next chapters",
+        "abstract": "I became part of the CHI community in 1985, when I signed up to be the first AV Chair for the CHI conference. For the CHI 2014 conference, I'm still the AV Chair (we call it 'technology liaison' now). Along the way, I've co-chaired a CHI conference, served on the SIGCHI Conference Management Committee for many years, and I'm now the Vice President for Conferences for SIGCHI. What is it about CHI that would induce a bioinformatician and hard-core hacker to become passionate about HCI and devote a significant amount of time and energy to support the field of HCI through service to the CHI conference? In this brief talk, we'll look at the CHI conference through the eyes of a volunteer who has spent time in the lowest levels of conference operations, chaired the conference, and now is responsible for overseeing all of the SIGCHI conferences. I'll try to address some or all of the following questions: Where did we come from? What is CHI trying to achieve and have we been successful? If we have been successful, what are the key ingredients to that success? Where are going and how are we going to get there without losing what we currently have? And finally, why should you care? Oh, and along the way, it will probably become clear why I care.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Scooter Morris",
+                "dept": "",
+                "institution": "University of California",
+                "city": "San Francisco",
+                "country": "United States",
+                "affiliation": "University of California",
+                "location": "San Francisco, United States"
+            }
+        ]
+    },
+    "key104": {
+        "title": "Big Data for Social Good",
+        "abstract": "Petabytes of data about human movements, transactions, and communication patterns are continuously being generated by everyday technologies such as mobile phones and credit cards. This unprecedented volume of information facilitates a novel set of research questions applicable to a wide range of development issues. In a collaboration involving 237 mobile operators across 102 countries, Jana's mobile technology platform can instantly poll and compensate 3.48 billion active mobile subscriptions. This talk will discuss how insights gained from living in Kenya became the genesis of a technology company currently working with global clients in over 50 countries, including P&G, Google, Unilever, Danone, General Mills, Nestle, Johnson & Johnson, Microsoft, the World Bank, and the United Nations. After providing an overview of the mobile and social media landscapes in emerging markets, it will conclude by emphasizing the value of consumer data in underserved and understudied regions of the world.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Nathan Eagle",
+                "dept": "",
+                "institution": "Jana Mobile Inc",
+                "city": "Boston",
+                "country": "United States",
+                "affiliation": "Jana Mobile Inc",
+                "location": "Boston, United States"
+            }
+        ]
+    },
+    "key105": {
+        "title": "Design for User Empowerment",
+        "abstract": "Approaches to to the design of technology for people with disabilities are surveyed. These include universal design, user centered design, participatory design, ability based design, and finally, design for user empowerment. A key feature of the latter is access to advanced education for disabled scientists and engineers to create the next generation of technology that will benefit them and others like them. AccessComputing, an alliance of more than thirty partners with the common goal of increasing the participation of people with disabilities in computing fields, is discussed.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Richard Ladner",
+                "dept": "",
+                "institution": "University of Washington",
+                "city": "Seattle",
+                "country": "United States",
+                "affiliation": "University of Washington",
+                "location": "Seattle, United States"
+            }
+        ],
+        "type": "keynote",
+        "subtype": "keynote"
+    },
+    "key106": {
+        "title": "Robotics in my Work and Life",
+        "abstract": "Margaret Atwood is a giant of modern literature who refuses to rest on her laurels. She has anticipated, satirized, and even changed the popular pre-conceptions of our time, and is the rare writer whose work is adored by the public, acclaimed by the critics, and read on university campuses. On stage, Atwood is both serious minded and wickedly funny. A winner of many international literary awards, including the prestigious Booker Prize, Margaret Atwood is the author of more than thirty volumes of poetry, children's literature, fiction, and non-fiction. She is perhaps best known for her novels, which include The Edible Woman, The Handmaid's Tale, The Robber Bride, Alias Grace, The Blind Assassin, Oryx and Crake, and The Year of the Flood. Her non-fiction book Payback: Debt and the Shadow Side of Wealth, part of the Massey Lecture series, was recently made into a documentary. Her new book, Madaddam (the third novel in the Oryx and Crake trilogy), has received rave reviews: \"An extraordinary achievement\" (The Independent); \"A fitting and joyous conclusion\" (The New York Times). Atwood's work has been published in more than forty languages, including Farsi, Japanese, Turkish, Finnish, Korean, Icelandic and Estonian. In 2004, she co-invented the LongPen, a remote signing device that allows someone to write in ink anywhere in the world via tablet PC and the internet. She is also a popular personality on Twitter, with over 300,000 followers. Atwood was born in 1939 in Ottawa and grew up in northern Ontario, Quebec, and Toronto. She received her undergraduate degree from Victoria College at the University of Toronto and her master's degree from Radcliffe College.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Margaret Atwood",
+                "dept": "",
+                "institution": "",
+                "city": "",
+                "country": "",
+                "affiliation": "",
+                "location": ""
+            }
+        ]
+    },
+    "key107": {
+        "title": "Design: No Longer an Optional Extra",
+        "abstract": "Mark Rettig said interaction design is designing the right thing and designing the thing right. With the recent emphasis on design thinking—finding the right thing to design—design doing—designing the thing right—has rather dropped from view.  As a graphic designer in the early 80s, I realised, starting to program, that simple artist-designer graphic skills and knowledge could make interfaces work better—easier to understand, quicker to use. But with affordable colour graphic screens, designers could really make interfaces sing. They could become a pleasure to use and express character—the difference, for instance, between the Star interface—serious, as befits an office—and the Apple Mac—jaunty, irreverent, appropriate for the Californian college audience it targeted. It is accepted that designers are concerned with form—the optional cost of making something a bit more elegant—but Apple’s unbending commitment to good design is persuading people that design is not an optional extra. However they often do not understand that design is not just about appearance. Apple knows that design is also about the aesthetic of function: a system's behaviour, its interactivity, which, as well as satisfyingly usable, must be elegant, poetic, maybe witty. Design also concerns the implicit meanings that subtly speak to us, that make the difference between a product that works and one that sings.  This presentation will discuss how design works, how it flourishes, and how to grow young designers. As the digital increasingly shapes our world it is not just the profitability of a company that rides on good design. It is the quality of our lives as we experience them. ",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Gillian Crampton Smith",
+                "dept": "Interface Design Programme,  Design Department",
+                "institution": "University of Applied Sciences, Potsdam",
+                "city": "Potsdam",
+                "country": "Germany",
+                "affiliation": "Interface Design Programme,  Design Department, University of Applied Sciences, Potsdam",
+                "location": "Potsdam, Germany"
+            }
+        ],
+        "type": "keynote",
+        "subtype": "keynote"
+    },
+    "townhall": {
+        "title": "SIGCHI Town Hall Lunch",
+        "abstract": "SIGCHI officers present ongoing programs and activities, followed by an audience Q&A session. Participants interested in shaping SIGCHI’s future are encouraged to attend. An informal lunch is available on a first-come, first-served basis.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special"
     }
 }
