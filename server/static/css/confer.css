@@ -744,14 +744,12 @@ textarea {
 }
 
 .metadata{
-  /*padding: 0 5px 0 5px !important;*/
   width: 2.7em;
   vertical-align: middle !important;
 
 }
 
 .no-touch-device .metadata{
-  /*padding: 0 5px 0 5px !important;*/
   width: 4.5em;
   vertical-align: middle !important;
 
