@@ -745,15 +745,7 @@ textarea {
 
 .metadata{
   /*padding: 0 5px 0 5px !important;*/
-  padding: 0;
-  padding-left: 0.5em;
-  vertical-align: middle !important;
-
-}
-
-.no-touch-device .metadata{
-  /*padding: 0 5px 0 5px !important;*/
-  padding: 1.5em;
+  width: 4.5em;
   vertical-align: middle !important;
 
 }
@@ -834,6 +826,7 @@ textarea {
 .star-open{
   height: 2.1em;
   width: 2.1em;
+  margin-left: 1em;
   background-image:url(/static/img/star_open.png);
   background-size: 2.1em 2.1em;
   background-repeat:no-repeat;
@@ -843,6 +836,7 @@ textarea {
 .star-filled{
   height: 2.1em;
   width: 2.1em;
+  margin-left: 1em;
   background-image:url(/static/img/star_yellow.png);
   background-size: 2.1em 2.1em;
   background-repeat:no-repeat;
