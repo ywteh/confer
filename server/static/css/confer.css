@@ -745,8 +745,8 @@ textarea {
 
 .metadata{
   /*padding: 0 5px 0 5px !important;*/
-  padding: 0.1em;
-  padding-left: 1em;
+  padding: 0;
+  padding-left: 0.5em;
   vertical-align: middle !important;
 
 }
