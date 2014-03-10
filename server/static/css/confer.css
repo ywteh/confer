@@ -745,11 +745,18 @@ textarea {
 
 .metadata{
   /*padding: 0 5px 0 5px !important;*/
-  width: 4.5em;
+  padding: 0;
+  padding-left: 0.5em;
   vertical-align: middle !important;
 
 }
 
+.no-touch-device .metadata{
+  /*padding: 0 5px 0 5px !important;*/
+  padding: 0 1.5em 0 1.5em;
+  vertical-align: middle !important;
+
+}
 
 
 .collapsible-subtitle{
