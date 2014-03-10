@@ -654,14 +654,18 @@ function get_paper_html(id){
   }
 
   raw_html += '">'
-  
-  raw_html += '<td class="content">' 
+    
+  raw_html += '<td class="metadata">'   
   if(starred.indexOf(id) == -1){
-    raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);" style="display:inline-block !important; float:left;">'        
+    raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);">'        
   }else{
-    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);" style="display:inline-block !important; float:left;">'       
+    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);">'       
   }
-  raw_html += '</div>'   
+  raw_html += '</div>'
+  
+  raw_html += '</td>'
+  
+  raw_html += '<td class="content">'    
   raw_html += '<ul>'
 
   raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ entities[id].title +'</span>'
