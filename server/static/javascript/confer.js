@@ -701,7 +701,7 @@ function get_paper_html(id){
     }
     
     if(entities[id].keywords != null && entities[id].keywords != '' && entities[id].keywords != 'null'){
-        raw_html += '<li class="paper-keywords">' + entities[id].keywords + '</li>'
+        raw_html += '<li class="paper-keywords">' + entities[id].keywords.toString().split(new RegExp(",|;", 'g')).join(", ") + '</li>'
     }
     raw_html += '</ul>'
     raw_html += '</td>'
