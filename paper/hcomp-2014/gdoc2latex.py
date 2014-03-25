@@ -10,7 +10,7 @@ usage: python gdoc2latex.py <URL or .gdoc filename>
      example: python gdoc2latex.py https://docs.google.com/document/d/1yEyXxtEeQ5_E7PibjYpofPC6kP4jMG-EieKhwkK7oQE/edit
      example: python gdoc2latex.py test.gdoc
 """
-    gdoc = "https://docs.google.com/document/d/1sdXb8pCzEoZjrrndDiNROg7Q5wPvBiwA9vm3muiOnKQ/edit"
+    gdoc = sys.argv[1]
     html = fetchGoogleDoc(gdoc)
     text = html_to_text(html)
     latex = unicode_to_latex(text)

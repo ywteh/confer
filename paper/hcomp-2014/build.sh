@@ -1,5 +1,6 @@
 #!/bin/bash
-python gdoc2latex.py > confer-hcomp-14.tex
+echo "preparing latex"
+python gdoc2latex.py "https://docs.google.com/document/d/1sdXb8pCzEoZjrrndDiNROg7Q5wPvBiwA9vm3muiOnKQ/edit" > confer-hcomp-14.tex
 echo "latexing"
 latex confer-hcomp-14.tex
 echo "latexing once more"
