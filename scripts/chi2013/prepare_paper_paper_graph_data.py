@@ -40,11 +40,12 @@ def load_data():
 		for p in papers:
 			likes[p].add(row[0])
 
+
 	for p1 in entities:
 		for p2 in entities:
 			edges[p1][p2] = -1
 			if(p1 != p2):	
-				common_likes = likes[p1].intersection(likes[p2])				
+				common_likes = likes[p1].intersection(likes[p2])
 				edges[p1][p2] = len(common_likes)
 
 	for s in sessions:
@@ -67,7 +68,7 @@ def main():
 	nodesArray = []
 	linksArray = []
 
-	print numpy.mean(scon.values()), numpy.std(scon.values()), numpy.median(scon.values()), numpy.min(scon.values()), numpy.max(scon.values())
+	#print numpy.mean(scon.values()), numpy.std(scon.values()), numpy.median(scon.values()), numpy.min(scon.values()), numpy.max(scon.values())
 	
 	
 	'''
@@ -134,6 +135,7 @@ def main():
 				edgesToRemove.add(nodes[edge]['id'])
 				edgesToRemove.add(nodes[l]['id'])
 	'''
+	
 
 	for edge in edges:
 		links = edges[edge]
@@ -145,7 +147,6 @@ def main():
 	p = open('data-15.json','w')
 	p.write(json.dumps({"nodes": nodesArray, "links": linksArray}))
 
-	
 
 if __name__ == '__main__':
     main()

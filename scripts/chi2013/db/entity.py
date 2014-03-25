@@ -19,7 +19,7 @@ class Entity:
 		connection = MySQLdb.connect(host="mysql.csail.mit.edu",
                      user="cobi",
                       passwd="su4Biha",
-                      db="cobi") 
+                      db="cobiCHI") 
 		cursor = connection.cursor()
 		cursor.execute("SELECT id , authors, title, cAndB, keywords, abstract, session, bestPaperAward, bestPaperNominee, coreCommunities, subtype FROM entity;")
 		data = cursor.fetchall()
@@ -30,7 +30,6 @@ class Entity:
 				authors_list = json.loads(unicode(row[1], "ISO-8859-1").strip())
 
 				for author in authors_list:
-					print author
 					institution = ''
 					if 'primary' in author and author['primary']:
 						if 'institution' in  author['primary']:
