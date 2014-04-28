@@ -1190,7 +1190,7 @@ function populate_people_you_favorited () {
   if (people_you_favorited.length > 0) {
     raw_html = ''
     for(p in people_you_favorited) {
-      raw_html += create_person_html(id)
+      raw_html += create_person_html(people_you_favorited[p])
     }
     $("#people_you_favorited").html(raw_html)
   } else {
@@ -1203,7 +1203,7 @@ function populate_people_favorited_you () {
   if (people_favorited_you.length > 0) {
     raw_html = ''
     for(p in people_favorited_you) {
-      raw_html += create_person_html(id)
+      raw_html += create_person_html(people_favorited_you[p])
     }
     $("#people_favorited_you").html(raw_html)
   } else {
