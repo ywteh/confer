@@ -1234,7 +1234,7 @@ function populate_similar_people () {
 function highlight_favorite(){
   $('.m_star').removeClass('star-filled').addClass('star-open')
   for(p in people_you_favorited) {
-    $('.user_' + p.id).removeClass('star-open').addClass('star-filled')
+    $('.user_' + people_you_favorited[p].id).removeClass('star-open').addClass('star-filled')
   }
 }
 
