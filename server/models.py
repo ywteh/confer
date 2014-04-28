@@ -107,6 +107,20 @@ class Likes(models.Model):
     app_label = 'server'
     db_table = "likes"
 
+class AList(models.Model):
+  id = models.AutoField(primary_key=True)
+  timestamp = models.DateTimeField(auto_now=True)
+  registration = models.ForeignKey('Registration')
+  user = models.ForeignKey('User', related_name='user')
+  user_starred = models.ForeignKey('User', related_name='user_starred')
+
+  def __unicode__(self):
+    return str(self.id)
+
+  class Meta:
+    app_label = 'server'
+    db_table = "alist"
+
 class Following(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)
