@@ -1167,8 +1167,63 @@ function compute_recs(recs) {
   recommended = final_recs
 }
 
+function create_person_html() {
+  raw_html = '<tr class="clickable">'
+  raw_html += '<td class="metadata">'
+  raw_html += '<div class="star star-open m_star" data="" onclick="handle_person_star(event);">'      
+  raw_html += '</div>'  
+  raw_html += '</td>'
+
+  raw_html += '<td class="content">'
+  raw_html += '<ul>'
+  raw_html += '<li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>'
+  raw_html += '<li><span class="paper-subtype" style="text-align: left !important;">'
+  raw_html += 'You and {{p.name}} have {{p.common_likes}} papers in common. <a class="blue" href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}
+            &amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">Say hello</a> to {{p.name}}!</li>'
+  raw_html += '</span>'
+  raw_html += '</ul>'
+  raw_html += '</td>'
+  raw_html += '</tr>'
+}
+
+function populate_people_you_favorited () {
+  if (people_you_favorited.length > 0) {
+    for(p in people_you_favorited) {
+    
+    }
+  } else {
+  raw_html = '<tr>
+    <td class="content">You haven\'t favorited anyone yet.
+    </td>
+    </tr>'
+  }
+}
 
 
+function handle_person_star(event){
+  console.log(event)
+  var obj = $(event.target).parents("td:first").find('.m_star')
+  var user_id = obj.attr("data")
+ 
+  if(obj.hasClass('star-filled')){
+    console.log("unstar")
+    $.post('/meetups/unstar', {'email': JSON.stringify([paper_id])}, function(res) {
+      
+    })
+    .done(function(){
+      enable_alert("You favorited a person.");
+    });
+    
+  }else{
+    console.log("star")
+    $.post('/meetup/star', {'papers': JSON.stringify([paper_id])}, function(res) {
+      
+    })
+    .done(function(){
+      enable_alert("You un-favorited a person.");
+    });
+  }
+}
 
 
 function handle_star(event){ 
@@ -1457,13 +1512,31 @@ function populate_recs(){
 
 function populate_likes(){
   if(typeof starred == "undefined" || starred == null){
-  console.log("Error populating stars.")
-  return
+    raw_html = '<tr>
+    <td class="content">Error populating stars.
+    </td>
+    </tr>'
+    $("#likes").html(raw_html)
+    return
   }
   if(typeof entities == "undefined" || entities == null){
-  console.log("Error fetching entities.")
-  return
+    raw_html = '<tr>
+    <td class="content">Error populating stars.
+    </td>
+    </tr>'
+    $("#likes").html(raw_html)
+    return
   }
+
+  if(starred.length == 0){
+    raw_html = '<tr>
+    <td class="content">You haven\'t starred any paper yet.
+    </td>
+    </tr>'
+    $("#likes").html(raw_html)
+    return
+  }
+
   var raw_html = '' 
   for(var i = starred.length; i>=0 ; i--){
   raw_html += get_paper_html(starred[i])

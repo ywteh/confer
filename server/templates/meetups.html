@@ -25,31 +25,6 @@ The Meetups feature allows you to discover people with similar interests as your
 <h3 class="collapsible-title collapsible" id="people_you_favorited_toggle" data="people_you_favorited_container"><span class="arrow arrow-down"></span> People you have favorited</h3>
 <div id="people_you_favorited_container">
   <table id="people_you_favorited" class="paper-container">
-    {% if people_you_favorited|length %}
-    {% for p in people_you_favorited %}
-    <tr class="clickable">
-      <td class="metadata">  
-        <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
-        </div>  
-      </td>
-
-      <td class="content">
-        <ul>
-          <li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>
-          <li><span class="paper-subtype" style="text-align: left !important;">
-            You and {{p.name}} have {{p.common_likes}} papers in common. <a class="blue" href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}
-            &amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">Say hello</a> to {{p.name}}!</li>
-            </span>
-        </ul>
-      </td>
-    </tr>
-    {% endfor %}
-    {% else %}
-    <tr>
-    <td class="content">You haven't favorited anyone yet.
-    </td>
-    </tr>
-    {% endif %}
   </table>
 </div>
 
