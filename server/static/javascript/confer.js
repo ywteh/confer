@@ -1192,10 +1192,10 @@ function populate_people_you_favorited () {
     
     }
   } else {
-  raw_html = '<tr>
-    <td class="content">You haven\'t favorited anyone yet.
-    </td>
-    </tr>'
+    raw_html = '<tr>'
+    raw_html += '<td class="content">You haven\'t favorited anyone yet.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
   }
 }
 
@@ -1512,27 +1512,27 @@ function populate_recs(){
 
 function populate_likes(){
   if(typeof starred == "undefined" || starred == null){
-    raw_html = '<tr>
-    <td class="content">Error populating stars.
-    </td>
-    </tr>'
+    raw_html = '<tr>'
+    raw_html += '<td class="content">Error populating stars.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
     $("#likes").html(raw_html)
     return
   }
   if(typeof entities == "undefined" || entities == null){
-    raw_html = '<tr>
-    <td class="content">Error populating stars.
-    </td>
-    </tr>'
+    raw_html = '<tr>'
+    raw_html += '<td class="content">Error populating stars.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
     $("#likes").html(raw_html)
     return
   }
 
   if(starred.length == 0){
-    raw_html = '<tr>
-    <td class="content">You haven\'t starred any paper yet.
-    </td>
-    </tr>'
+    raw_html = '<tr>'
+    raw_html += '<td class="content">You haven\'t starred any paper yet.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
     $("#likes").html(raw_html)
     return
   }
