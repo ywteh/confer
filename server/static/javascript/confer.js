@@ -1183,6 +1183,7 @@ function create_person_html(p) {
   raw_html += '</ul>'
   raw_html += '</td>'
   raw_html += '</tr>'
+  return raw_html
 }
 
 function populate_people_you_favorited () {
