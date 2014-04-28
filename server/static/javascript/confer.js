@@ -1199,6 +1199,7 @@ function populate_people_you_favorited () {
 function handle_person_star(event){
   console.log(event)
   var obj = $(event.target).parents("td:first").find('.m_star')
+  console.log(obj)
   var user_id = obj.attr("data")
  
   if(obj.hasClass('star-filled')){
