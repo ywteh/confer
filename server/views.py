@@ -467,13 +467,19 @@ def person_like (request, like_str):
     conf = request.session[kConf]
     registration = get_registration(login, conf)
 
-    if(like_str=='star'):      
-      alist = AList(registration=registration, user=user, user_starred=user_starred)
-      alist.save()
-           
-    if(like_str=='unstar'):      
-      alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
-      alist.delete()
+    if(like_str=='star'):
+      try:
+        alist = AList(registration=registration, user=user, user_starred=user_starred)
+        alist.save()
+      except:
+        pass      
+    if(like_str=='unstar'):
+      try:
+        alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
+        alist.delete()
+      except:
+        pass   
+
   except Exception, e:
     error = True
     msg = str(e)
