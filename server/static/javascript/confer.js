@@ -1244,7 +1244,9 @@ function handle_person_star(event){
   var user_id = obj.attr("data")
  
   if(obj.hasClass('star-filled')){
-    $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {      
+    $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {
+      people_you_favorited = res.people_you_favorited   
+      people_favorited_you = res.people_favorited_you   
     })
     .done(function(){
       populate_people_you_favorited()
@@ -1255,7 +1257,9 @@ function handle_person_star(event){
     });
     
   }else{
-    $.post('/person_like/star', {'person': obj.attr("data")}, function(res) {      
+    $.post('/person_like/star', {'person': obj.attr("data")}, function(res) {
+      people_you_favorited = res.people_you_favorited   
+      people_favorited_you = res.people_favorited_you 
     })
     .done(function(){
       populate_people_you_favorited()
