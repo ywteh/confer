@@ -24,7 +24,7 @@ The Meetups feature allows you to discover people with similar interests as your
 <h3 class="collapsible-title" id="similar_people_toggle"> People you have starred</h3>
 <div id="similar_people_container">
   <table id="similar_people" class="paper-container">
-    {% if starred_people|length %}
+    {% if similar_people|length %}
     {% for p in similar_people %}
     <tr class="clickable">
       <td class="metadata">  
@@ -52,6 +52,8 @@ The Meetups feature allows you to discover people with similar interests as your
   </table>
 </div>
 
+<br />
+<br />
 
 <!-- Similar People -->
 <div id="simiar_people_page">
