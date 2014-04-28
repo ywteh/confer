@@ -21,7 +21,8 @@ The Meetups feature allows you to discover people with similar interests as your
 </div>  
 
 {% if meetups_enabled %}
-<h3 class="collapsible-title" id="similar_people_toggle"> People you have starred</h3>
+<!-- Favorite List -->
+<h3 class="collapsible-title" id="similar_people_toggle"> People you have favorited</h3>
 <div id="similar_people_container">
   <table id="similar_people" class="paper-container">
     {% if similar_people|length %}
@@ -54,40 +55,72 @@ The Meetups feature allows you to discover people with similar interests as your
 
 <br />
 <br />
+<!-- People Favorited -->
+<h3 class="collapsible-title" id="similar_people_toggle"> People who have favorited you</h3>
+<div id="similar_people_container">
+  <table id="similar_people" class="paper-container">
+    {% if similar_people|length %}
+    {% for p in similar_people %}
+    <tr class="clickable">
+      <td class="metadata">  
+        <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
+        </div>  
+      </td>
 
-<!-- Similar People -->
-<div id="simiar_people_page">
-  {% if similar_people|length %}
-  <h3 class="collapsible-title" id="similar_people_toggle"> People who have similar interests as you</h3>
-  <div id="similar_people_container">
-    <table id="similar_people" class="paper-container"> 
-      {% for p in similar_people %}
-      <tr class="clickable">
-        <td class="metadata">  
-          <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
-          </div>  
-        </td>
-  
-        <td class="content">
-          <ul>
-            <li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>
-            <li><span class="paper-subtype" style="text-align: left !important;">
-              You and {{p.name}} have {{p.common_likes}} papers in common. <a class="blue" href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}
-              &amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">Send hello</a> to {{p.name}}!</li>
-              </span>
-          </ul>
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
-  </div>
-  {% else %}
-  <div class="blurb">
-  <span class="error">We tried hard to find people having similar interests as you but we couldn't find any -- this may be because you haven't starred enough papers or there aren't enough other people in the system yet.</span>
-  </div>
-  {% endif %}
+      <td class="content">
+        <ul>
+          <li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>
+          <li><span class="paper-subtype" style="text-align: left !important;">
+            You and {{p.name}} have {{p.common_likes}} papers in common. <a class="blue" href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}
+            &amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">Send hello</a> to {{p.name}}!</li>
+            </span>
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+    {% else %}
+    <tr>
+    <td class="error">We tried hard to find people having similar interests as you but we couldn't find any -- this may be because you haven't starred enough papers or there aren't enough other people in the system yet.</span>
+    </td>
+    </tr>
+    {% endif %}
+  </table>
+</div>
 
-</div>  <!-- similar people -->
+<br />
+<br />
+<!-- People Recommended -->
+<h3 class="collapsible-title" id="similar_people_toggle"> People who you may like to meet</h3>
+<div id="similar_people_container">
+  <table id="similar_people" class="paper-container">
+    {% if similar_people|length %}
+    {% for p in similar_people %}
+    <tr class="clickable">
+      <td class="metadata">  
+        <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
+        </div>  
+      </td>
+
+      <td class="content">
+        <ul>
+          <li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>
+          <li><span class="paper-subtype" style="text-align: left !important;">
+            You and {{p.name}} have {{p.common_likes}} papers in common. <a class="blue" href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}
+            &amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">Send hello</a> to {{p.name}}!</li>
+            </span>
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+    {% else %}
+    <tr>
+    <td class="error">We tried hard to find people having similar interests as you but we couldn't find any -- this may be because you haven't starred enough papers or there aren't enough other people in the system yet.</span>
+    </td>
+    </tr>
+    {% endif %}
+  </table>
+</div>
+
 {% endif %}
 {% endblock %}
 
