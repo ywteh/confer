@@ -451,7 +451,7 @@ def like (request, like_str):
     ),
     mimetype="application/json"
   )
-'''
+
 @csrf_exempt
 @login_required
 def person_like (request, like_str):
@@ -497,7 +497,7 @@ def person_like (request, like_str):
     ),
     mimetype="application/json"
   )
-'''
+
 '''
 Confer APIs
 '''
