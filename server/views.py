@@ -156,8 +156,8 @@ def meetups (request, conf):
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': json.dumps(similar_people[:20]),
-        'people_favorited_you': people_favorited_you,
-        'people_you_favorited': people_you_favorited,
+        'people_favorited_you': json.dumps(people_favorited_you),
+        'people_you_favorited': json.dumps(people_you_favorited),
         'meetups_enabled': meetups_enabled,
         'login_id': user.email,
         'login_name': user.f_name

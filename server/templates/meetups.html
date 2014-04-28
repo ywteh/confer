@@ -47,7 +47,9 @@ The Meetups feature allows you to discover people with similar interests as your
 </div>
 <script type="text/javascript">
 var similar_people = {{similar_people|safe}}
-console.log(similar_people)
+var people_favorited_you = {{people_favorited_you|safe}}
+var people_you_favorited = {{people_you_favorited|safe}}
+
 </script>
 {% endif %}
 {% endblock %}
