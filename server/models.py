@@ -120,6 +120,7 @@ class AList(models.Model):
   class Meta:
     app_label = 'server'
     db_table = "alist"
+    unique_together = ("registration", "user", "user_starred")
 
 class Following(models.Model):
   id = models.AutoField(primary_key=True)
