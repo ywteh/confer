@@ -1203,7 +1203,7 @@ function handle_person_star(event){
  
   if(obj.hasClass('star-filled')){
     console.log("unstar")
-    $(this).find('.m_star').removeClass('star-filled').addClass('star-open')
+    obj.removeClass('star-filled').addClass('star-open')
     $.post('/meetups/unstar', {'email': null}, function(res) {
       
     })
@@ -1213,7 +1213,7 @@ function handle_person_star(event){
     
   }else{
     console.log("star")
-    $(this).find('.m_star').removeClass('star-open').addClass('star-filled')
+    obj.removeClass('star-open').addClass('star-filled')
     $.post('/meetup/star', {'papers': null}, function(res) {
       
     })
