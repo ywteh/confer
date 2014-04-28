@@ -1197,15 +1197,14 @@ function populate_people_you_favorited () {
 
 
 function handle_person_star(event){
-  console.log(event)
-  var obj = $(event.target).parents("td:first").find('.m_star')
+  var obj = $(this)
   console.log(obj)
   var user_id = obj.attr("data")
  
   if(obj.hasClass('star-filled')){
     console.log("unstar")
     $(this).find('.m_star').removeClass('star-filled').addClass('star-open')
-    $.post('/meetups/unstar', {'email': JSON.stringify([paper_id])}, function(res) {
+    $.post('/meetups/unstar', {'email': {}, function(res) {
       
     })
     .done(function(){
@@ -1215,7 +1214,7 @@ function handle_person_star(event){
   }else{
     console.log("star")
     $(this).find('.m_star').removeClass('star-open').addClass('star-filled')
-    $.post('/meetup/star', {'papers': JSON.stringify([paper_id])}, function(res) {
+    $.post('/meetup/star', {'papers': {}, function(res) {
       
     })
     .done(function(){
