@@ -95,6 +95,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
       try:        
         r_likes = Likes.objects.get(registration=r)
         likes[r.user] = {
+            'id': r.user.id,
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
             'meetups_enabled': r.user.meetups_enabled,
@@ -108,6 +109,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
     common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
     if common_likes > 4 and person!= user:
       similarity.append({
+          'id': p_likes['id'],
           'name': p_likes['name'],
           'email': p_likes['email'],
           'common_likes': common_likes
