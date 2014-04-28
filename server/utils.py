@@ -131,7 +131,7 @@ def get_favorites (login, conf):
   for person in you_favorited: 
     people_you_favorited.append({
         'id': person.user_starred.id,
-        'name': person.user_starred.f_name + ' ' + person.user.l_name,
+        'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
         'email': person.user_starred.email
     })
 
