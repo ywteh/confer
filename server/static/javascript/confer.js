@@ -1191,8 +1191,10 @@ function populate_people_you_favorited () {
     for(p in people_you_favorited) {
       raw_html += create_person_html(id)
     }
+    $("#people_you_favorited").html(raw_html)
   } else {
     raw_html = '<tr><td class="content">You haven\'t favorited anyone yet.</td></tr>'
+    $("#people_you_favorited").html(raw_html)
   }
 }
 
@@ -1202,8 +1204,10 @@ function populate_people_favorited_you () {
     for(p in people_favorited_you) {
       raw_html += create_person_html(id)
     }
+    $("#people_favorited_you").html(raw_html)
   } else {
     raw_html = '<tr><td class="content">No one has favorited you yet.</td></tr>'
+    $("#people_favorited_you").html(raw_html)
   }
 }
 
@@ -1213,8 +1217,10 @@ function populate_similar_people () {
     for(p in similar_people) {
       raw_html += create_person_html(id)
     }
+    $("#similar_people").html(raw_html)
   } else {
     raw_html = '<tr><td class="content">We tried hard to find people having similar interests as you but we couldn\'t find any -- this may be because you haven\'t starred enough papers or there aren\'t enough other people in the system yet.</td></tr>'
+    $("#similar_people").html(raw_html)
   }
 }
 
