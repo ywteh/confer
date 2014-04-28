@@ -22,9 +22,9 @@ The Meetups feature allows you to discover people with similar interests as your
 
 {% if meetups_enabled %}
 <!-- Favorite List -->
-<h3 class="collapsible-title collapsible" id="similar_people_toggle"> People you have favorited</h3>
-<div id="similar_people_container">
-  <table id="similar_people" class="paper-container">
+<h3 class="collapsible-title collapsible" id="people_you_favorited_toggle" data="people_you_favorited_container"><span class="arrow arrow-down"></span> People you have favorited</h3>
+<div id="people_you_favorited_container">
+  <table id="people_you_favorited" class="paper-container">
     {% if people_you_favorited|length %}
     {% for p in people_you_favorited %}
     <tr class="clickable">
@@ -56,9 +56,9 @@ The Meetups feature allows you to discover people with similar interests as your
 <br />
 <br />
 <!-- People Favorited -->
-<h3 class="collapsible-title collapsible" id="similar_people_toggle"> People who have favorited you</h3>
-<div id="similar_people_container">
-  <table id="similar_people" class="paper-container">
+<h3 class="collapsible-title collapsible" id="people_favorited_you_toggle" data="people_favorited_you_container"><span class="arrow arrow-down"></span> People who have favorited you</h3>
+<div id="people_favorited_you_container">
+  <table id="people_favorited_you" class="paper-container">
     {% if people_favorited_you|length %}
     {% for p in people_favorited_you %}
     <tr class="clickable">
@@ -90,7 +90,7 @@ The Meetups feature allows you to discover people with similar interests as your
 <br />
 <br />
 <!-- People Recommended -->
-<h3 class="collapsible-title collapsible" id="similar_people_toggle"> People who you may like to meet</h3>
+<h3 class="collapsible-title collapsible" id="similar_people_toggle" data="similar_people_container"><span class="arrow arrow-down"></span> People who you may like to meet</h3>
 <div id="similar_people_container">
   <table id="similar_people" class="paper-container">
     {% if similar_people|length %}
