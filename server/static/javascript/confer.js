@@ -1170,7 +1170,7 @@ function compute_recs(recs) {
 function create_person_html(p) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
-  raw_html += '<div class="star star-open m_star" data="" onclick="handle_person_star(event);">'      
+  raw_html += '<div class="star star-open m_star" data="' + p.email + '" onclick="handle_person_star(event);">'      
   raw_html += '</div>'  
   raw_html += '</td>'
 
@@ -1232,7 +1232,7 @@ function handle_person_star(event){
  
   if(obj.hasClass('star-filled')){
     obj.removeClass('star-filled').addClass('star-open')
-    $.post('/meetups/unstar', {'email': null}, function(res) {
+    $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {
       
     })
     .done(function(){
@@ -1241,7 +1241,7 @@ function handle_person_star(event){
     
   }else{
     obj.removeClass('star-open').addClass('star-filled')
-    $.post('/meetup/star', {'papers': null}, function(res) {
+    $.post('/person_like/star', {'person': obj.attr("data")}, function(res) {
       
     })
     .done(function(){
