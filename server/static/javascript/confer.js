@@ -1167,7 +1167,7 @@ function compute_recs(recs) {
   recommended = final_recs
 }
 
-function create_person_html() {
+function create_person_html(id) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
   raw_html += '<div class="star star-open m_star" data="" onclick="handle_person_star(event);">'      
@@ -1187,22 +1187,43 @@ function create_person_html() {
 
 function populate_people_you_favorited () {
   if (people_you_favorited.length > 0) {
+    raw_html = ''
     for(p in people_you_favorited) {
-    
+      raw_html += create_person_html(id)
     }
   } else {
     raw_html = '<tr><td class="content">You haven\'t favorited anyone yet.</td></tr>'
   }
 }
 
+function populate_people_favorited_you () {
+  if (people_favorited_you.length > 0) {
+    raw_html = ''
+    for(p in people_favorited_you) {
+      raw_html += create_person_html(id)
+    }
+  } else {
+    raw_html = '<tr><td class="content">No one has favorited you yet.</td></tr>'
+  }
+}
+
+function populate_similar_people () {
+  if (similar_people.length > 0) {
+    raw_html = ''
+    for(p in similar_people) {
+      raw_html += create_person_html(id)
+    }
+  } else {
+    raw_html = '<tr><td class="content">We tried hard to find people having similar interests as you but we couldn\'t find any -- this may be because you haven\'t starred enough papers or there aren\'t enough other people in the system yet.</td></tr>'
+  }
+}
+
 
 function handle_person_star(event){
   var obj = $(event.target)
-  console.log(obj)
   var user_id = obj.attr("data")
  
   if(obj.hasClass('star-filled')){
-    console.log("unstar")
     obj.removeClass('star-filled').addClass('star-open')
     $.post('/meetups/unstar', {'email': null}, function(res) {
       
@@ -1212,7 +1233,6 @@ function handle_person_star(event){
     });
     
   }else{
-    console.log("star")
     obj.removeClass('star-open').addClass('star-filled')
     $.post('/meetup/star', {'papers': null}, function(res) {
       
