@@ -451,42 +451,41 @@ def like (request, like_str):
     ),
     mimetype="application/json"
   )
-
+'''
 @csrf_exempt
 @login_required
 def person_like (request, like_str):
-  login = request.session[kLogIn]
   people_you_favorited = []
   people_favorited_you = []
   error = False
   msg = "OK"
   try:
-    person = request.POST["person"]
-    user = User.objects.get(email=login)
-    user_starred = User.objects.get(email=person)
+    login = request.session[kLogIn]
     conf = request.session[kConf]
-    registration = get_registration(login, conf)
+    login_id, user = get_login(request)
+    try:
+      person = request.POST["person"]
+      user_starred = User.objects.get(email=person)
+      registration = get_registration(login, conf)
 
-    if(like_str=='star'):
-      try:
+      if(like_str=='star'):      
         alist = AList(registration=registration, user=user, user_starred=user_starred)
         alist.save()
-      except:
-        pass      
-    if(like_str=='unstar'):
-      try:
+             
+      if(like_str=='unstar'):      
         alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
         alist.delete()
-      except:
-        pass   
 
+    except Exception, e:
+      error = True
+      msg = str(e)
+
+    favorites = get_favorites(user.email, conf)
+    people_favorited_you = favorites['people_favorited_you']
+    people_you_favorited = favorites['people_you_favorited']
   except Exception, e:
     error = True
     msg = str(e)
-
-  favorites = get_favorites(user.email, conf)
-  people_favorited_you = favorites['people_favorited_you']
-  people_you_favorited = favorites['people_you_favorited']
 
   return HttpResponse(
     json.dumps({
@@ -498,7 +497,7 @@ def person_like (request, like_str):
     ),
     mimetype="application/json"
   )
-
+'''
 '''
 Confer APIs
 '''
