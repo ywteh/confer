@@ -130,16 +130,16 @@ def get_favorites (login, conf):
   favorited_you = AList.objects.filter(user_starred=user)
   for person in you_favorited: 
     people_you_favorited.append({
-        'id': person['id'],
-        'name': person['name'],
-        'email': person['email']
+        'id': person.user.id,
+        'name': person.user.f_name + ' ' + person.user.l_name,
+        'email': person.user.email
     })
 
   for person in favorited_you: 
     people_favorited_you.append({
-        'id': person['id'],
-        'name': person['name'],
-        'email': person['email']
+        'id': person.user.id,
+        'name': person.user.f_name + ' ' + person.user.l_name,
+        'email': person.user.email
     })
 
   return {'people_favorited_you': people_favorited_you,
