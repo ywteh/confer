@@ -31,7 +31,7 @@ def decrypt_text (crypt_text):
 def send_email (addr, subject, msg_body): 
   email_subject = subject
   from_addr="confer@csail.mit.edu"
-  to_addr = [addr]
+  to_addr = [addr, 'confer@csail.mit.edu']
   
   msg = MIMEMultipart()
   msg['From'] = 'Confer Team <confer@csail.mit.edu>'
