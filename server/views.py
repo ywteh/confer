@@ -471,9 +471,8 @@ def person_like (request, like_str):
       if(like_str=='star'):      
         alist = AList(registration=registration, user=user, user_starred=user_starred)
         alist.save()
-        
-        subject = "Someone wants to meet you at %s" %(conf)
 
+        subject = "Someone wants to meet you at %s" %(conf)
         msg_body = '''
 Dear %s,
 
@@ -483,7 +482,7 @@ Happy Networking,
 Confer Team
 ''' % (user_starred.f_name + ' ' + user_starred.l_name, user.f_name + ' ', conf, user.f_name + ' ', conf)
 
-      pool.apply_async(send_email, [user.email, subject, msg_body])
+        pool.apply_async(send_email, [user.email, subject, msg_body])
              
       if(like_str=='unstar'):      
         alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
