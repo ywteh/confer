@@ -1382,7 +1382,7 @@ function update_recs_count(){
 }
 
 function update_recs_count_async(){
-  $("#recs_toggle .count").text("(" + $("#recs tr:visible").length + ")");  
+  $("#recs_toggle .count").text("(" + $("#recs tr:visible td.metadata").length + ")");  
 }
 
 function update_likes_count(){
@@ -1390,7 +1390,7 @@ function update_likes_count(){
 }
 
 function update_likes_count_async(){
-  $("#likes_toggle .count").text("(" + $("#likes tr").length + ")");  
+  $("#likes_toggle .count").text("(" + $("#likes tr td.metadata").length + ")");  
 }
 
 function update_sessions_count(){
@@ -1488,6 +1488,7 @@ function populate_recs(){
     raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
     raw_html += '</td>'
     raw_html += '</tr>'
+    $("#recs").html(raw_html)
     return
   }
   if(typeof entities == "undefined" || entities == null){
@@ -1495,6 +1496,7 @@ function populate_recs(){
     raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
     raw_html += '</td>'
     raw_html += '</tr>'
+    $("#recs").html(raw_html)
     return
   }
 
@@ -1503,6 +1505,7 @@ function populate_recs(){
     raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
     raw_html += '</td>'
     raw_html += '</tr>'
+    $("#recs").html(raw_html)
     return
   }
 
