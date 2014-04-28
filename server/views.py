@@ -471,6 +471,20 @@ def person_like (request, like_str):
       if(like_str=='star'):      
         alist = AList(registration=registration, user=user, user_starred=user_starred)
         alist.save()
+        encrypted_email = encrypt_text(user_starred.email)
+
+        subject = "Someone wants to meet you at %s"
+
+        msg_body = '''
+Dear %s,
+
+%s indicated an interest in meeting you at %s. You can say hello to %s by going to http://confer.csail.mit.edu/%s/meetups
+
+Happy Networking,
+Confer Team
+''' % (conf, user_starred.f_name + ' ' + user_starred.l_name, user.f_name + ' ', user.f_name + ' ', conf, encrypted_email)
+
+      pool.apply_async(send_email, [user.email, subject, msg_body])
              
       if(like_str=='unstar'):      
         alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
