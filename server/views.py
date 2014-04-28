@@ -460,11 +460,11 @@ def person_like (request, like_str):
   people_favorited_you = []
   error = False
   msg = "OK"
+  conf = request.session[kConf]
+  user = User.objects.get(email=login)
   try:
     person = request.POST["person"]
-    user = User.objects.get(email=login)
     user_starred = User.objects.get(email=person)
-    conf = request.session[kConf]
     registration = get_registration(login, conf)
 
     if(like_str=='star'):      
