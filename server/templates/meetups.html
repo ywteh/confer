@@ -29,6 +29,11 @@ The Meetups feature allows you to discover people with similar interests as your
     <table id="similar_people" class="paper-container"> 
       {% for p in similar_people %}
       <tr class="clickable">
+        <td class="metadata">  
+          <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
+          </div>  
+        </td>
+  
         <td class="content">
           <ul>
             <li><h3><a href="mailto:?to={{p.email}}&amp;subject=Hello from {{login_name}}&amp;body=Hi {{p.name}},%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A{{login_name}}" target="_blank">{{p.name}}</a></h3></li>
