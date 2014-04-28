@@ -1170,7 +1170,7 @@ function compute_recs(recs) {
 function create_person_html(p) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
-  raw_html += '<div class="star star-open m_star" data="' + p.email + '" onclick="handle_person_star(event);">'      
+  raw_html += '<div class="star star-open m_star user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">'      
   raw_html += '</div>'  
   raw_html += '</td>'
 
@@ -1190,6 +1190,7 @@ function create_person_html(p) {
 }
 
 function populate_people_you_favorited () {
+  $("#people_you_favorited").html('')
   if (people_you_favorited.length > 0) {
     raw_html = ''
     for(p in people_you_favorited) {
@@ -1203,6 +1204,7 @@ function populate_people_you_favorited () {
 }
 
 function populate_people_favorited_you () {
+  $("#people_favorited_you").html('')
   if (people_favorited_you.length > 0) {
     raw_html = ''
     for(p in people_favorited_you) {
@@ -1216,6 +1218,7 @@ function populate_people_favorited_you () {
 }
 
 function populate_similar_people () {
+  $("#similar_people").html('')
   if (similar_people.length > 0) {
     raw_html = ''
     for(p in similar_people) {
@@ -1228,27 +1231,38 @@ function populate_similar_people () {
   }
 }
 
+function highlight_favorite(){
+  $('.m_star').removeClass('star-filled').addClass('star-open')
+  for(p in people_you_favorited) {
+    $('.user_' + p.id).removeClass('star-open').addClass('star-filled')
+  }
+}
+
 
 function handle_person_star(event){
   var obj = $(event.target)
   var user_id = obj.attr("data")
  
   if(obj.hasClass('star-filled')){
-    obj.removeClass('star-filled').addClass('star-open')
-    $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {
-      
+    $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {      
     })
     .done(function(){
-      enable_alert("You favorited a person.");
+      populate_people_you_favorited()
+      populate_people_favorited_you()
+      populate_similar_people()
+      highlight_favorite()
+      enable_alert("You un-favorited a person.");
     });
     
   }else{
-    obj.removeClass('star-open').addClass('star-filled')
-    $.post('/person_like/star', {'person': obj.attr("data")}, function(res) {
-      
+    $.post('/person_like/star', {'person': obj.attr("data")}, function(res) {      
     })
     .done(function(){
-      enable_alert("You un-favorited a person.");
+      populate_people_you_favorited()
+      populate_people_favorited_you()
+      populate_similar_people()
+      highlight_favorite()
+      enable_alert("You favorited a person.");
     });
   }
 }
