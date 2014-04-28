@@ -473,7 +473,7 @@ def person_like (request, like_str):
         alist.save()
         encrypted_email = encrypt_text(user_starred.email)
 
-        subject = "Someone wants to meet you at %s"
+        subject = "Someone wants to meet you at %s" %(conf)
 
         msg_body = '''
 Dear %s,
@@ -482,7 +482,7 @@ Dear %s,
 
 Happy Networking,
 Confer Team
-''' % (conf, user_starred.f_name + ' ' + user_starred.l_name, user.f_name + ' ', user.f_name + ' ', conf, encrypted_email)
+''' % (user_starred.f_name + ' ' + user_starred.l_name, user.f_name + ' ', user.f_name + ' ', conf, encrypted_email)
 
       pool.apply_async(send_email, [user.email, subject, msg_body])
              
