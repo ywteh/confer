@@ -117,3 +117,37 @@ def get_similar_people (login, conf, meetups=False, app=None):
 
   similarity = sorted(similarity, key=lambda k: k['common_likes'], reverse=True)
   return similarity[:20]
+
+
+def get_favorites (login, conf):
+  people_you_favorited = []
+  people_favorited_you = []
+  user = User.objects.get(email = login)
+  conference = Conference.objects.get(unique_name=conf)
+  registrations = Registration.objects.filter(conference=conference)
+  
+  you_favorited = AList.objects.filter(user=user)
+  favorited_you = AList.objects.filter(user_starred=user)
+  for person in you_favorited:  
+    p_likes = likes[person]
+    common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))    
+    people_you_favorited.append({
+        'id': p_likes['id'],
+        'name': p_likes['name'],
+        'email': p_likes['email'],
+        'common_likes': common_likes
+    })
+
+  for person in favorited_you:  
+    p_likes = likes[person]
+    common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))    
+    people_favorited_you.append({
+        'id': p_likes['id'],
+        'name': p_likes['name'],
+        'email': p_likes['email'],
+        'common_likes': common_likes
+    })
+
+  people_you_favorited = sorted(people_you_favorited, key=lambda k: k['common_likes'], reverse=True)
+  people_favorited_you = sorted(people_favorited_you, key=lambda k: k['common_likes'], reverse=True)
+  return {'people_favorited_you':people_favorited_you, people_you_favorited:people_you_favorited}
