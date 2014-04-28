@@ -25,8 +25,8 @@ The Meetups feature allows you to discover people with similar interests as your
 <h3 class="collapsible-title collapsible" id="similar_people_toggle"> People you have favorited</h3>
 <div id="similar_people_container">
   <table id="similar_people" class="paper-container">
-    {% if starred_people|length %}
-    {% for p in starred_people %}
+    {% if people_you_favorited|length %}
+    {% for p in people_you_favorited %}
     <tr class="clickable">
       <td class="metadata">  
         <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
@@ -46,7 +46,7 @@ The Meetups feature allows you to discover people with similar interests as your
     {% endfor %}
     {% else %}
     <tr>
-    <td class="error">You haven't favorited anyone yet.</span>
+    <td class="content">You haven't favorited anyone yet.
     </td>
     </tr>
     {% endif %}
@@ -59,8 +59,8 @@ The Meetups feature allows you to discover people with similar interests as your
 <h3 class="collapsible-title collapsible" id="similar_people_toggle"> People who have favorited you</h3>
 <div id="similar_people_container">
   <table id="similar_people" class="paper-container">
-    {% if similar_people|length %}
-    {% for p in similar_people %}
+    {% if people_favorited_you|length %}
+    {% for p in people_favorited_you %}
     <tr class="clickable">
       <td class="metadata">  
         <div class="star star-open m_star" data="" onclick="handle_alist(event);">       
@@ -80,7 +80,7 @@ The Meetups feature allows you to discover people with similar interests as your
     {% endfor %}
     {% else %}
     <tr>
-    <td class="error">No one has favorited you yet.</span>
+    <td class="content">No one has favorited you yet.
     </td>
     </tr>
     {% endif %}
@@ -114,7 +114,7 @@ The Meetups feature allows you to discover people with similar interests as your
     {% endfor %}
     {% else %}
     <tr>
-    <td class="error">We tried hard to find people having similar interests as you but we couldn't find any -- this may be because you haven't starred enough papers or there aren't enough other people in the system yet.</span>
+    <td class="content">We tried hard to find people having similar interests as you but we couldn't find any -- this may be because you haven't starred enough papers or there aren't enough other people in the system yet.
     </td>
     </tr>
     {% endif %}
