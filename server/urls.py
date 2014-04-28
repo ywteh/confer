@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     url(r'^data', 'server.views.data'),
     url(r'^recs', 'server.views.get_recs'),
     url(r'^like/(\w+)$', 'server.views.like'),
+    url(r'^person_like/(\w+)$', 'server.views.person_like'),
     url(r'^log/(\w+)$', 'server.views.log'),
 
     url(r'^login', 'server.auth.login'),
