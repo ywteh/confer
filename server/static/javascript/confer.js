@@ -1166,7 +1166,7 @@ function compute_recs(recs) {
   }
   recommended = final_recs
 }
-
+/*
 function create_person_html() {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
@@ -1185,7 +1185,7 @@ function create_person_html() {
   raw_html += '</td>'
   raw_html += '</tr>'
 }
-
+*/
 function populate_people_you_favorited () {
   if (people_you_favorited.length > 0) {
     for(p in people_you_favorited) {
