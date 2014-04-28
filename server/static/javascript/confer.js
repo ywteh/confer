@@ -1484,12 +1484,26 @@ function populate_papers(){
 
 function populate_recs(){
   if(typeof recommended == "undefined" || recommended == null){
-  console.log("Error populating recommendations.")
-  return
+    raw_html = '<tr>'
+    raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
+    return
   }
   if(typeof entities == "undefined" || entities == null){
-  console.log("Error fetching entities.")
-  return
+    raw_html = '<tr>'
+    raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
+    return
+  }
+
+  if(recommended.length == 0){
+    raw_html = '<tr>'
+    raw_html += '<td class="content">We don\'t have any recommendations for you yet.'
+    raw_html += '</td>'
+    raw_html += '</tr>'
+    return
   }
 
   var raw_html = ''   
