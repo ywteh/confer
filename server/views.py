@@ -455,37 +455,32 @@ def like (request, like_str):
 @csrf_exempt
 @login_required
 def person_like (request, like_str):
+  login = request.session[kLogIn]
   people_you_favorited = []
   people_favorited_you = []
   error = False
   msg = "OK"
   try:
-    login = request.session[kLogIn]
-    conf = request.session[kConf]
+    person = request.POST["person"]
     user = User.objects.get(email=login)
-    try:
-      person = request.POST["person"]
-      user_starred = User.objects.get(email=person)
-      registration = get_registration(login, conf)
+    user_starred = User.objects.get(email=person)
+    conf = request.session[kConf]
+    registration = get_registration(login, conf)
 
-      if(like_str=='star'):      
-        alist = AList(registration=registration, user=user, user_starred=user_starred)
-        alist.save()
-             
-      if(like_str=='unstar'):      
-        alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
-        alist.delete()
-
-    except Exception, e:
-      error = True
-      msg = str(e)
-
-    favorites = get_favorites(user.email, conf)
-    people_favorited_you = favorites['people_favorited_you']
-    people_you_favorited = favorites['people_you_favorited']
+    if(like_str=='star'):      
+      alist = AList(registration=registration, user=user, user_starred=user_starred)
+      alist.save()
+           
+    if(like_str=='unstar'):      
+      alist = AList.objects.get(registration=registration, user=user, user_starred=user_starred)
+      alist.delete()
   except Exception, e:
     error = True
     msg = str(e)
+
+  favorites = get_favorites(user.email, conf)
+  people_favorited_you = favorites['people_favorited_you']
+  people_you_favorited = favorites['people_you_favorited']
 
   return HttpResponse(
     json.dumps({
