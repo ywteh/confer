@@ -1197,7 +1197,7 @@ function populate_people_you_favorited () {
 
 
 function handle_person_star(event){
-  var obj = $(this)
+  var obj = $(event.target)
   console.log(obj)
   var user_id = obj.attr("data")
  
