@@ -1,0 +1,370 @@
+sessions={
+  "11": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Craft", 
+    "submissions": [
+      "1101", 
+      "1102", 
+      "1103", 
+      "1104", 
+      "1105"
+    ], 
+    "time": "10:50"
+  }, 
+  "12": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Domestic Life", 
+    "submissions": [
+      "1201", 
+      "1202", 
+      "1203", 
+      "1204"
+    ], 
+    "time": "10:50"
+  }, 
+  "13": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Reflection", 
+    "submissions": [
+      "1301", 
+      "1302", 
+      "1303", 
+      "1304", 
+      "1305"
+    ], 
+    "time": "10:50"
+  }, 
+  "14": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Pictorials 1", 
+    "submissions": [
+      "1401", 
+      "1402", 
+      "1403", 
+      "1404"
+    ], 
+    "time": "13:30"
+  }, 
+  "15": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Touch", 
+    "submissions": [
+      "1501", 
+      "1502", 
+      "1503", 
+      "1504", 
+      "1505"
+    ], 
+    "time": "13:30"
+  }, 
+  "16": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Sound", 
+    "submissions": [
+      "1601", 
+      "1602", 
+      "1603", 
+      "1604"
+    ], 
+    "time": "13:30"
+  }, 
+  "17": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Design Methods", 
+    "submissions": [
+      "1701", 
+      "1702", 
+      "1703", 
+      "1704", 
+      "1705"
+    ], 
+    "time": "15:20"
+  }, 
+  "18": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Hedonic", 
+    "submissions": [
+      "1801", 
+      "1802", 
+      "1803", 
+      "1804"
+    ], 
+    "time": "15:20"
+  }, 
+  "19": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Well-Being", 
+    "submissions": [
+      "1901", 
+      "1902", 
+      "1903", 
+      "1904"
+    ], 
+    "time": "15:20"
+  }, 
+  "21": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Critical Design", 
+    "submissions": [
+      "2101", 
+      "2102", 
+      "2103", 
+      "2104"
+    ], 
+    "time": "10:50"
+  }, 
+  "22": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Communication & Collaboration", 
+    "submissions": [
+      "2201", 
+      "2202", 
+      "2203", 
+      "2204", 
+      "2205"
+    ], 
+    "time": "10:50"
+  }, 
+  "23": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Analysis & Visualization", 
+    "submissions": [
+      "2301", 
+      "2302", 
+      "2303", 
+      "2304"
+    ], 
+    "time": "10:50"
+  }, 
+  "24": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Pictorials II", 
+    "submissions": [
+      "2401", 
+      "2402", 
+      "2403", 
+      "2404", 
+      "2405"
+    ], 
+    "time": "13:30"
+  }, 
+  "25": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Body Interaction", 
+    "submissions": [
+      "2501", 
+      "2502", 
+      "2503", 
+      "2504"
+    ], 
+    "time": "13:30"
+  }, 
+  "26": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Health & Community", 
+    "submissions": [
+      "2601", 
+      "2602", 
+      "2603", 
+      "2604"
+    ], 
+    "time": "13:30"
+  }, 
+  "27": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Horror, Vampires, Magic & Hobbits", 
+    "submissions": [
+      "2701", 
+      "2702", 
+      "2703", 
+      "2704"
+    ], 
+    "time": "15:20"
+  }, 
+  "28": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Social Data", 
+    "submissions": [
+      "2801", 
+      "2802", 
+      "2803", 
+      "2804", 
+      "2805"
+    ], 
+    "time": "15:20"
+  }, 
+  "29": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Games", 
+    "submissions": [
+      "2901", 
+      "2902", 
+      "2903", 
+      "2904"
+    ], 
+    "time": "15:20"
+  }, 
+  "31": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Design Research", 
+    "submissions": [
+      "3101", 
+      "3102", 
+      "3103", 
+      "3104"
+    ], 
+    "time": "10:50"
+  }, 
+  "32": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Communities", 
+    "submissions": [
+      "3201", 
+      "3202", 
+      "3203", 
+      "3204"
+    ], 
+    "time": "10:50"
+  }, 
+  "33": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Digital Fabrication Landscapes", 
+    "submissions": [
+      "3301", 
+      "3302", 
+      "3303", 
+      "3304"
+    ], 
+    "time": "10:50"
+  }, 
+  "34": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Social Interactions", 
+    "submissions": [
+      "3401", 
+      "3402", 
+      "3403", 
+      "3404"
+    ], 
+    "time": "13:30"
+  }, 
+  "35": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "DesignPractice", 
+    "submissions": [
+      "3501", 
+      "3502", 
+      "3503", 
+      "3504"
+    ], 
+    "time": "13:30"
+  }, 
+  "36": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Urban Screens", 
+    "submissions": [
+      "3601", 
+      "3602", 
+      "3603", 
+      "3604"
+    ], 
+    "time": "13:30"
+  }, 
+  "37": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Digital Memory", 
+    "submissions": [
+      "3701", 
+      "3702", 
+      "3703", 
+      "3704"
+    ], 
+    "time": "15:20"
+  }, 
+  "38": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Sustainability", 
+    "submissions": [
+      "3801", 
+      "3802", 
+      "3803", 
+      "3804"
+    ], 
+    "time": "15:20"
+  }, 
+  "39": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Perfoming Interactions", 
+    "submissions": [
+      "3901", 
+      "3902", 
+      "3903", 
+      "3904", 
+      "3905"
+    ], 
+    "time": "15:20"
+  }, 
+  "700": {
+    "date": "6.22.2014", 
+    "room": "TBD", 
+    "s_title": "Design Jam & welcome reception", 
+    "submissions": [
+      "700"
+    ], 
+    "time": "18:30"
+  }, 
+  "710": {
+    "date": "6.23.2014", 
+    "room": "TBD", 
+    "s_title": "Plenary", 
+    "submissions": [
+      "710"
+    ], 
+    "time": "9:00"
+  }, 
+  "720": {
+    "date": "6.24.2014", 
+    "room": "TBD", 
+    "s_title": "Special Program Panel", 
+    "submissions": [
+      "720"
+    ], 
+    "time": "9:00"
+  }, 
+  "730": {
+    "date": "6.25.2014", 
+    "room": "TBD", 
+    "s_title": "Plenary", 
+    "submissions": [
+      "730"
+    ], 
+    "time": "15:20"
+  }
+}

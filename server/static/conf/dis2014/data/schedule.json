@@ -1,0 +1,234 @@
+schedule=[
+  {
+    "date": "06/22/2014", 
+    "day": "Sunday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "700"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "6_22_201418_30", 
+        "time": "18:30"
+      }
+    ]
+  }, 
+  {
+    "date": "06/23/2014", 
+    "day": "Monday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "710"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "6_23_20149_00", 
+        "time": "9:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "11"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "13"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "12"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "6_23_201410_50", 
+        "time": "10:50"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "15"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "14"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "16"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "6_23_201413_30", 
+        "time": "13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "17"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "19"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "18"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "6_23_201415_20", 
+        "time": "15:20"
+      }
+    ]
+  }, 
+  {
+    "date": "06/24/2014", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "720"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "6_24_20149_00", 
+        "time": "9:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "21"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "22"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "23"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "6_24_201410_50", 
+        "time": "10:50"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "24"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "25"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "26"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "6_24_201413_30", 
+        "time": "13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "27"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "28"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "29"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "6_24_201415_20", 
+        "time": "15:20"
+      }
+    ]
+  }, 
+  {
+    "date": "06/25/2014", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "31"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "33"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "32"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "6_25_201410_50", 
+        "time": "10:50"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "36"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "35"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "34"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "6_25_201413_30", 
+        "time": "13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "730"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "39"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "38"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "37"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "6_25_201415_20", 
+        "time": "15:20"
+      }
+    ]
+  }
+]
