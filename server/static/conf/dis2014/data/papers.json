@@ -12,6 +12,8 @@ entities={
         "name": "Schaub"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "Leather as a Material for Crafting Interactive and Physical Artifacts"
   }, 
@@ -34,6 +36,8 @@ entities={
         "name": "Rode"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Sewing Interest in E-Textiles: Analyzing Making from a Gendered Perspective"
   }, 
@@ -53,6 +57,8 @@ entities={
         "name": "Nass"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Participatory Materials: Having a Reflective Conversation with an Artifact in the Making"
   }, 
@@ -69,6 +75,8 @@ entities={
         "name": "Halskov"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Crafting Code at the Demo-scene (Note)"
   }, 
@@ -85,6 +93,8 @@ entities={
         "name": "McGhee"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Enhancing Everyday Paper Interactions with Paper Circuits (Note)"
   }, 
@@ -98,6 +108,8 @@ entities={
         "name": "Neustaedter"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Moving from Talking Heads to Newlyweds _ Exploring Video Chat Use during Major Life Events"
   }, 
@@ -123,6 +135,8 @@ entities={
         "name": "Jacucci"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "Domestic Appropriations of Tokens to the Web "
   }, 
@@ -139,6 +153,8 @@ entities={
         "name": "Newman"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "If These Walls Could Talk: Designing with Memories of Places "
   }, 
@@ -167,6 +183,8 @@ entities={
         "name": "Vaisutis"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Homemade Cookbooks: A Recipe for Sharing"
   }, 
@@ -186,6 +204,8 @@ entities={
         "name": "Beale"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Situated Design for Creative, Reflective, Collaborative, Technology-Mediated Learning"
   }, 
@@ -211,6 +231,8 @@ entities={
         "name": "Gay"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Reviewing Reflection: On the Use of Reflection in Interactive System Design"
   }, 
@@ -230,6 +252,8 @@ entities={
         "name": "Kim"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Ripening Room: Designing Social Media for Self-reflection in Self-expression "
   }, 
@@ -246,6 +270,8 @@ entities={
         "name": "Nylander"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Experiencing Art through Kinesthetic Dialogue (Note)"
   }, 
@@ -256,6 +282,8 @@ entities={
         "name": "Schofield"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Time Telescope: Engagement with Heritage through Participatory Design (Note)"
   }, 
@@ -269,6 +297,8 @@ entities={
         "name": "Redstrom"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Materializing Infrastructures for Participatory Hacking"
   }, 
@@ -282,6 +312,8 @@ entities={
         "name": "Paulos"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Some Variations on a CounterFunctional Digital Camera"
   }, 
@@ -301,6 +333,8 @@ entities={
         "name": "Kuusk"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Growth Plan for an Inspirational Test-Bed of Smart Textile Services"
   }, 
@@ -323,6 +357,8 @@ entities={
         "name": "Aflatoony"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Eclipse: Eliciting the Subjective Qualities of Public Places"
   }, 
@@ -348,6 +384,8 @@ entities={
         "name": "Irani"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "tPad: Designing Transparent-Display Mobile Interactions"
   }, 
@@ -364,6 +402,8 @@ entities={
         "name": "Butz"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "What You See Is What You Touch: Visualizing Touch Screen Interaction in the Head-Up Display?"
   }, 
@@ -383,6 +423,8 @@ entities={
         "name": "Bruns Alonso"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Design Space of Shape-changing Interfaces: A Repertory Grid Study"
   }, 
@@ -402,6 +444,8 @@ entities={
         "name": "Lee"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Previewable Switch: a Light Switch with Feedforward_ (Note)"
   }, 
@@ -418,6 +462,8 @@ entities={
         "name": "Vertegaal"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Sensing Touch Using Resistive Graphs (Note)"
   }, 
@@ -437,6 +483,8 @@ entities={
         "name": "Mackay"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Structured Observation with Polyphony: a Multifaceted Tool for Studying Music Composition"
   }, 
@@ -453,6 +501,8 @@ entities={
         "name": "Olivier"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Cinejack: Using Live Music to Control Narrative Visuals"
   }, 
@@ -466,6 +516,8 @@ entities={
         "name": "Hogg"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Musical Meshworks: From Networked Performance to Cultures of Exchange"
   }, 
@@ -488,6 +540,8 @@ entities={
         "name": "Sellen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Collaborating with Computer Vision Systems: An Exploration of Audio Feedback"
   }, 
@@ -501,6 +555,8 @@ entities={
         "name": "Khanipour Roshan"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Medium Probes: Exploring the Medium not the Message"
   }, 
@@ -514,6 +570,8 @@ entities={
         "name": "Marsden"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Interactive Personal Storytelling: An Ethnographic Study and Simulation of Apartheid-Era Narratives"
   }, 
@@ -530,6 +588,8 @@ entities={
         "name": "Kim"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The PumpSpark Fountain Development Kit"
   }, 
@@ -549,6 +609,8 @@ entities={
         "name": "Marquardt"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Design of Slow-Motion Feedback (Note)?"
   }, 
@@ -562,6 +624,8 @@ entities={
         "name": "Stolterman"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Temporal Anchors in User Experience Research (Note"
   }, 
@@ -575,6 +639,8 @@ entities={
         "name": "Nam"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Let's Giggle! : Design Principles for Humorous Products"
   }, 
@@ -591,6 +657,8 @@ entities={
         "name": "Helmes"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "A Small Space for Playful Messaging in the Workplace: Designing and Deploying Picco"
   }, 
@@ -607,6 +675,8 @@ entities={
         "name": "Neustaedter"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Understanding Guide Dog Team Interactions: Design Opportunities to Support Work and Play"
   }, 
@@ -623,6 +693,8 @@ entities={
         "name": "Hassenzahl"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The 'Hedonic' in Human-Computer Interaction _ History, Contributions, and Future Research Directions"
   }, 
@@ -651,6 +723,8 @@ entities={
         "name": "Klemmer"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Supporting Crisis Response with Dynamic Procedure Aids"
   }, 
@@ -685,6 +759,8 @@ entities={
         "name": "Lee"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Shape-changing Robot for Stroke Rehabilitation"
   }, 
@@ -704,6 +780,8 @@ entities={
         "name": "Giaccardi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Design for Complex Persuasive Experiences: Helping Parents of Hospitalized Children Take Care of Themselves"
   }, 
@@ -723,6 +801,8 @@ entities={
         "name": "Whittle"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Prototyping 'Clasp': Implications for Designing Digital Technology for and with Adults with Autism"
   }, 
@@ -742,6 +822,8 @@ entities={
         "name": "Louraine"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Analyzing Critical Designs: Categories, Distinctions, and Canons of Exemplars"
   }, 
@@ -758,6 +840,8 @@ entities={
         "name": "Pohlner"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "PKI: Crafting Critical Design"
   }, 
@@ -771,6 +855,8 @@ entities={
         "name": "Paulos"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Counterfunctional Things: Exploring Possibilities in Designing Digital Limitations"
   }, 
@@ -787,6 +873,8 @@ entities={
         "name": "Bullard"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "A Story Without End: Writing the Residual into Descriptive Infrastructure"
   }, 
@@ -806,6 +894,8 @@ entities={
         "name": "Jorge"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Interactive Two-Sided Transparent Displays: Designing for Collaboration"
   }, 
@@ -825,6 +915,8 @@ entities={
         "name": "Gerber"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Computer Supported Novice Group Critique"
   }, 
@@ -838,6 +930,8 @@ entities={
         "name": "M. Huang"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "A Qualitative Study of Workplace Intercultural Communication Tensions in Dyadic Face-to-Face and Computer-Mediated Interactions"
   }, 
@@ -851,6 +945,8 @@ entities={
         "name": "Resnick"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Product Versus Process: Representing and Appropriating DIY Projects Online (Note)"
   }, 
@@ -867,6 +963,8 @@ entities={
         "name": "McNeese"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Exploring the Perceptions and Use of Electronic Medical Record Systems by Non-Clinicians (Note)"
   }, 
@@ -889,6 +987,8 @@ entities={
         "name": "Mauerer"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "Constructive Visualization"
   }, 
@@ -902,6 +1002,8 @@ entities={
         "name": "Jones"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "?Using Data to Stimulate Creative Thinking in the Design of New Products and Services"
   }, 
@@ -918,6 +1020,8 @@ entities={
         "name": "Halskov"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "A Constraint-Based Understanding of Design Spaces"
   }, 
@@ -934,6 +1038,8 @@ entities={
         "name": "Meinel"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Supporting the Synthesis of Information in Design Teams"
   }, 
@@ -953,6 +1059,8 @@ entities={
         "name": "D'Olivo"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "Growing Traces on Objects of Daily Use: A Product Design Perspective for HCI"
   }, 
@@ -969,6 +1077,8 @@ entities={
         "name": "McGhee"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Practical Notes on Paper Circuits"
   }, 
@@ -979,6 +1089,8 @@ entities={
         "name": "Blevis"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Stillness and Motion, Meaning and Form"
   }, 
@@ -1001,6 +1113,8 @@ entities={
         "name": "Collomosse"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Admixed Portrait: Reflections on Being Online as a New Parent"
   }, 
@@ -1026,6 +1140,8 @@ entities={
         "name": "Park"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Unpacking The Thinking And Making Behind A User Enactments Project"
   }, 
@@ -1045,6 +1161,8 @@ entities={
         "name": "Dostal"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Dark Patterns in Proxemic Interactions: A Critical Perspective"
   }, 
@@ -1079,6 +1197,8 @@ entities={
         "name": "Altimira"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "Proxemics Play: Understanding Proxemics for Designing Digital Play Experiences"
   }, 
@@ -1092,6 +1212,8 @@ entities={
         "name": "Faste"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Implications of Location and Touch for On-Body Projected Interfaces"
   }, 
@@ -1105,6 +1227,8 @@ entities={
         "name": "Loke"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Crafting the Body-Tool: A Body-Centred Perspective on Wearable Technology"
   }, 
@@ -1124,6 +1248,8 @@ entities={
         "name": "Forster"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Crafting Diversity in Radiology Image Stack Scrolling: Control and Annotations"
   }, 
@@ -1146,6 +1272,8 @@ entities={
         "name": "Chuang"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Every Pregnancy is Different': Designing mHealth for the Pregnancy Ecology"
   }, 
@@ -1165,6 +1293,8 @@ entities={
         "name": "Eisenberg"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Towards the Crafting of Personal Health Technologies?"
   }, 
@@ -1187,6 +1317,8 @@ entities={
         "name": "Wright"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "A Study of the Challenges Related to DIY Assistive Technology in the Context of Children with Disabilities"
   }, 
@@ -1200,6 +1332,8 @@ entities={
         "name": "Sengers"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Freaky: Performing Hybrid Human-Machine Emotion"
   }, 
@@ -1219,6 +1353,8 @@ entities={
         "name": "Schaufler"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Remediation of Nosferatu _ Exploring Transmedia Experiences"
   }, 
@@ -1229,6 +1365,8 @@ entities={
         "name": "Andersen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Deliberate Cargo Cult"
   }, 
@@ -1245,6 +1383,8 @@ entities={
         "name": "H_kkil_"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Unexpected Journeys with the HOBBIT _ The Design and Evaluation of an Asocial Hiking App"
   }, 
@@ -1264,6 +1404,8 @@ entities={
         "name": "Ojala"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Winter is Coming: Introducing Climate Sensitive Urban Computing"
   }, 
@@ -1280,6 +1422,8 @@ entities={
         "name": "Whittle"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Sharing Real-Time Biometric Data Across Social Networks: Requirements for Research Experiments"
   }, 
@@ -1302,6 +1446,8 @@ entities={
         "name": "Munson"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data?"
   }, 
@@ -1318,6 +1464,8 @@ entities={
         "name": "Gergle"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Understanding and Leveraging Social Networks for Crowdfunding: Opportunities and Challenges (Note)"
   }, 
@@ -1334,6 +1482,8 @@ entities={
         "name": "Staddon"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Exploring the Benefits and Uses of Web Analytics Tools for Non-Transactional Websites (Note)"
   }, 
@@ -1350,6 +1500,8 @@ entities={
         "name": "Gr\u00c0nb_k"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Design Sensitivities for Interactive Sport-Training Games"
   }, 
@@ -1366,6 +1518,8 @@ entities={
         "name": "Neustaedter"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Tango Cards: A Card-Based Design Tool for Informing the Design of Tangible Learning Games"
   }, 
@@ -1382,6 +1536,8 @@ entities={
         "name": "Kostakos"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Game of Words: Tagging Places through Crowdsourcing on Public Displays"
   }, 
@@ -1416,6 +1572,8 @@ entities={
         "name": "Tscheligi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Gaming to Sit Safe: The Restricted Body as an Integral Part of Gameplay"
   }, 
@@ -1432,6 +1590,8 @@ entities={
         "name": "Siegel"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Reprioritizing the Relationship Between HCI Research and Practice: Bubble-Up and Trickle-Down Effects"
   }, 
@@ -1442,6 +1602,8 @@ entities={
         "name": "Pierce"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "On the Presentation and Production of Design Research Artifacts in HCI"
   }, 
@@ -1458,6 +1620,8 @@ entities={
         "name": "Basballe"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Emergent Boundary Objects and Boundary Zones in Collaborative Design Research Projects"
   }, 
@@ -1483,6 +1647,8 @@ entities={
         "name": "Balaam"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Making Wellbeing: A Process of User-Centered Design"
   }, 
@@ -1499,6 +1665,8 @@ entities={
         "name": "Kuhn"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Informing Online and Mobile Map Design with the Collective Wisdom of Cartographers"
   }, 
@@ -1515,6 +1683,8 @@ entities={
         "name": "Neustaedter"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "\u00a5alksjdf;lksfd\u0090: Tumblr and the Fandom User Experience"
   }, 
@@ -1528,6 +1698,8 @@ entities={
         "name": "Le Dantec"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Community Historians: Scaffolding Community Engagement through Culture and Heritage"
   }, 
@@ -1553,6 +1725,8 @@ entities={
         "name": "Olivier"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "PosterVote: Expanding the Action Repertoire for Local Political Activism"
   }, 
@@ -1569,6 +1743,8 @@ entities={
         "name": "Neustaedter"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Liveness, Localization and Lookahead: Interaction elements for parametric design"
   }, 
@@ -1585,6 +1761,8 @@ entities={
         "name": "Kane"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Everyday Making: Identifying Future Uses for 3D Printing in the Home"
   }, 
@@ -1607,6 +1785,8 @@ entities={
         "name": "Newell"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Volvelles, Domes and Wristbands: Embedding Digital Fabrication within a Visitor\u0090s Trajectory of Engagement"
   }, 
@@ -1626,6 +1806,8 @@ entities={
         "name": "Pipek"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Towards Sociable Technologies: An Empirical Study on Designing Appropriation Infrastructures for 3D Printing"
   }, 
@@ -1639,6 +1821,8 @@ entities={
         "name": "Duggan"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "Paper", 
     "title": "TuneTracker: Tensions in the Surveillance of Traditional Music"
   }, 
@@ -1658,6 +1842,8 @@ entities={
         "name": "Sharlin"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Designing Social Greetings in Human Robot Interaction"
   }, 
@@ -1680,6 +1866,8 @@ entities={
         "name": "Lewis"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "An Interactive, Cyber-Physical Read-Aloud Environment: Results and Lessons from an Evaluation Activity with Children and their Teachers"
   }, 
@@ -1696,6 +1884,8 @@ entities={
         "name": "Dow"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Crowd-Based Design Activities: Helping Students Connect with Users Online?"
   }, 
@@ -1709,6 +1899,8 @@ entities={
         "name": "Atwood"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "What Does it Mean for a System to be Useful An Exploratory Study of Usefulness?"
   }, 
@@ -1722,6 +1914,8 @@ entities={
         "name": "Wakkary"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Understanding the Role of Designers\u0090 Personal Experiences in Interaction Design Practice"
   }, 
@@ -1738,6 +1932,8 @@ entities={
         "name": "Rifat"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Learning, Innovation, and Sustainability among Mobile Phone Repairers in Dhaka, Bangladesh"
   }, 
@@ -1751,6 +1947,8 @@ entities={
         "name": "Vallg\u00d4rda"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Ajna: Negotiating Forms in the Making of a Musical Cabinet"
   }, 
@@ -1764,6 +1962,8 @@ entities={
         "name": "Wiethoff"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "LightSet: Enabling Urban Prototyping of Interactive Media Fa\u008dades"
   }, 
@@ -1783,6 +1983,8 @@ entities={
         "name": "Butz"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Puppeteer Display: Attracting and Actively Shaping the Audience with an Interactive Public Banner Display"
   }, 
@@ -1802,6 +2004,8 @@ entities={
         "name": "Young"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Using Embodied Audio-Visual Interaction to Promote Social Encounters Around Large Media Fa\u008dades"
   }, 
@@ -1818,6 +2022,8 @@ entities={
         "name": "Hennessy"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Appropriation of a Digital 'Speakers Corner': Lessons Learned from the Deployment of M_gaphone"
   }, 
@@ -1831,6 +2037,8 @@ entities={
         "name": "Kirk"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "An Emergent Framework for Digital Memorials"
   }, 
@@ -1850,6 +2058,8 @@ entities={
         "name": "Forlizzi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Legacy in the Age of the Internet: Reflections on How Interactive Systems Shape How We Are Remembered"
   }, 
@@ -1866,6 +2076,8 @@ entities={
         "name": "Forlizzi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Placelessness, Spacelessness, and Formlessness: Experiential Qualities of Virtual Possessions"
   }, 
@@ -1888,6 +2100,8 @@ entities={
         "name": "Hsu"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Reflexive Printer: Toward Making Sense of Perceived Drawbacks in Technology-Mediated Reminiscence"
   }, 
@@ -1901,6 +2115,8 @@ entities={
         "name": "Blevis"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Fashion Thinking: Lessons from Fashion and Sustainable Interaction Design, Concepts and Issues"
   }, 
@@ -1920,6 +2136,8 @@ entities={
         "name": "Lord"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Catch my Drift Achieving Comfort More Sustainably in Conventionally Heated Buildings"
   }, 
@@ -1933,6 +2151,8 @@ entities={
         "name": "Sengers"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "No Easy Compromise: Sustainability and the Dilemmas and Dynamics of Change"
   }, 
@@ -1958,6 +2178,8 @@ entities={
         "name": "Mullagh"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Patterns of Persuasion for Sustainability"
   }, 
@@ -1971,6 +2193,8 @@ entities={
         "name": "Oulasvirta"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "PianoText: Redesigning the Piano Keyboard for Text Entry"
   }, 
@@ -1987,6 +2211,8 @@ entities={
         "name": "Shusterman"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Practicing Somaesthetics: Exploring Its Impact on Interactive Product Design Ideation"
   }, 
@@ -2003,6 +2229,8 @@ entities={
         "name": "Jensen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Human Actions Made Tangible: Analysing the Temporal Organization of Activities"
   }, 
@@ -2022,6 +2250,8 @@ entities={
         "name": "Radinsky"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "The Uncanny Valley of Embodied Interaction Design (Note)"
   }, 
@@ -2041,6 +2271,8 @@ entities={
         "name": "Bevilacqua"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Vocalizing Dance Movement for Interactive Sonification of Laban Effort Factors (Note)"
   }, 
@@ -2051,6 +2283,8 @@ entities={
         "name": "Vancouver Design Nerds"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Design Jam & welcome reception"
   }, 
@@ -2061,6 +2295,8 @@ entities={
         "name": "Peter Paul Verbeek"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Plenary"
   }, 
@@ -2071,6 +2307,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Special Program Panel"
   }, 
@@ -2081,6 +2319,8 @@ entities={
         "name": "Janet Moore and Duane Elervum/CityStudio of Vancouver"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "Paper", 
     "title": "Plenary"
   }
