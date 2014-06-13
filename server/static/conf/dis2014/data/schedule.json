@@ -7,7 +7,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "700"
+            "session": "9700"
           }
         ], 
         "slot_class": "evening", 
@@ -24,7 +24,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "710"
+            "session": "9710"
           }
         ], 
         "slot_class": "morning1", 
@@ -98,7 +98,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "720"
+            "session": "9720"
           }
         ], 
         "slot_class": "morning1", 
@@ -210,7 +210,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "730"
+            "session": "9730"
           }, 
           {
             "room": "TBD", 

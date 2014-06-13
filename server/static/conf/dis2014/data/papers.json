@@ -16,7 +16,7 @@ entities={
     "title": "Leather as a Material for Crafting Interactive and Physical Artifacts"
   }, 
   "1102": {
-    "abstract": "In this paper we explore the appropriateness of e-textiles for teaching programming to mixed gender groups ages 8-12, allowing children to construct maker identities around technology. Our findings demonstrate the potential of e-textiles to promote girls\u00ea and boys\u00ea computational literacy, and the required craft and programming skills for making that can disrupt binary gender roles. We argue it allows both girls and boys to demonstrate technical mastery as well as to explore and construct a spectrum of gendered sociotechnical identities that might otherwise be obscured by conventional masculinist attitudes towards technology.", 
+    "abstract": "In this paper we explore the appropriateness of e-textiles for teaching programming to mixed gender groups ages 8-12, allowing children to construct maker identities around technology. Our findings demonstrate the potential of e-textiles to promote girls\u0090 and boys\u0090 computational literacy, and the required craft and programming skills for making that can disrupt binary gender roles. We argue it allows both girls and boys to demonstrate technical mastery as well as to explore and construct a spectrum of gendered sociotechnical identities that might otherwise be obscured by conventional masculinist attitudes towards technology.", 
     "authors": [
       {
         "name": "Weibert"
@@ -38,7 +38,7 @@ entities={
     "title": "Sewing Interest in E-Textiles: Analyzing Making from a Gendered Perspective"
   }, 
   "1103": {
-    "abstract": "Designing and building mechatronic systems has gradually ceased to be the domain of only highly trained professionals and has become broadly accessible. Drawing from a notion of designing as a conversation with the materials of the situation we built an artifact that could actively engage in its own making by embedding a Wizard of Oz operated animated agent into an Arduino prototyping platform. In a 2x2 between-participants Wizard of Oz laboratory experiment with (N=68) high-school students we specifically examined how this prototyping agent\u00eas expression of interest affected perceptions of the agent and learning outcomes dependent on the embodiment of the agent as embedded in the prototyping material itself or as an external entity. We found evidence that embedding an agent into the prototyping material can positively influence learning processes and outcomes while not harming perceptions of the agent.?", 
+    "abstract": "Designing and building mechatronic systems has gradually ceased to be the domain of only highly trained professionals and has become broadly accessible. Drawing from a notion of designing as a conversation with the materials of the situation we built an artifact that could actively engage in its own making by embedding a Wizard of Oz operated animated agent into an Arduino prototyping platform. In a 2x2 between-participants Wizard of Oz laboratory experiment with (N=68) high-school students we specifically examined how this prototyping agent\u0090s expression of interest affected perceptions of the agent and learning outcomes dependent on the embodiment of the agent as embedded in the prototyping material itself or as an external entity. We found evidence that embedding an agent into the prototyping material can positively influence learning processes and outcomes while not harming perceptions of the agent.?", 
     "authors": [
       {
         "name": "Jung"
@@ -63,7 +63,7 @@ entities={
         "name": "Hansen"
       }, 
       {
-        "name": "N\u00bfrg\u008crd"
+        "name": "N\u00c0rg\u00cerd"
       }, 
       {
         "name": "Halskov"
@@ -89,7 +89,7 @@ entities={
     "title": "Enhancing Everyday Paper Interactions with Paper Circuits (Note)"
   }, 
   "1201": {
-    "abstract": "Video chat programs for home and personal use (e.g., Skype) are becoming increasingly popular for doing more than simply conversing with a remote friend or family member. This creates a need to understand the broader use of video chat that moves \u0096beyond talking heads.\u0094 In this paper, we investigate one emergent scenario: major life events where video chat is used to connect remote participants to a ritual gathering (e.g., a wedding, a funeral). To explore this scenario, we conducted an online survey with 87 people who reported on their usage of video chat for viewing or sharing major life events. Our results show that major life events, as an example of a burgeoning set of video chat scenarios, bring unique socio-technical contexts and challenges. Asymmetry characterized much of the findings: we find differences between local and remote group sizes, environments, atmosphere, and emotionality. We discuss these situations and identify ways to improve the design of video chat to better support shared experiences.", 
+    "abstract": "Video chat programs for home and personal use (e.g., Skype) are becoming increasingly popular for doing more than simply conversing with a remote friend or family member. This creates a need to understand the broader use of video chat that moves \u00d0beyond talking heads.\u00d3 In this paper, we investigate one emergent scenario: major life events where video chat is used to connect remote participants to a ritual gathering (e.g., a wedding, a funeral). To explore this scenario, we conducted an online survey with 87 people who reported on their usage of video chat for viewing or sharing major life events. Our results show that major life events, as an example of a burgeoning set of video chat scenarios, bring unique socio-technical contexts and challenges. Asymmetry characterized much of the findings: we find differences between local and remote group sizes, environments, atmosphere, and emotionality. We discuss these situations and identify ways to improve the design of video chat to better support shared experiences.", 
     "authors": [
       {
         "name": "Massimi"
@@ -102,7 +102,7 @@ entities={
     "title": "Moving from Talking Heads to Newlyweds _ Exploring Video Chat Use during Major Life Events"
   }, 
   "1202": {
-    "abstract": "We present findings from a study of Tokens of Search, a system comprising physical RFID \u0095tokens\u00ea that point to web content, and a wooden tray fixed to a small screen, which can be used to access that content. Three families lived with the system for a month, as an exploration of how tokens might be used as resources for practical action. Our findings highlight existing web practices and their individual and collective nuances; tokens were employed in the creation of short-term collections and long-lasting mementos, their physicality giving bookmarking a visibility that could be used to attract attention, serve as reminders, and make observable progress through tasks. However, while all families saw the potential for shared use, only one used it this way in earnest. We reflect on design choices that were expected to encourage collaboration, and the need to support key users such as parents when establishing joint practices.", 
+    "abstract": "We present findings from a study of Tokens of Search, a system comprising physical RFID \u00a5tokens\u0090 that point to web content, and a wooden tray fixed to a small screen, which can be used to access that content. Three families lived with the system for a month, as an exploration of how tokens might be used as resources for practical action. Our findings highlight existing web practices and their individual and collective nuances; tokens were employed in the creation of short-term collections and long-lasting mementos, their physicality giving bookmarking a visibility that could be used to attract attention, serve as reminders, and make observable progress through tasks. However, while all families saw the potential for shared use, only one used it this way in earnest. We reflect on design choices that were expected to encourage collaboration, and the need to support key users such as parents when establishing joint practices.", 
     "authors": [
       {
         "name": "Lee"
@@ -127,7 +127,7 @@ entities={
     "title": "Domestic Appropriations of Tokens to the Web "
   }, 
   "1203": {
-    "abstract": "This work explores the potential value of using the enormous amount of activity traces latest ubicomp environments have started to capture. We sought to understand potential practices of using these traces in the long term through a field-based study in the United States that examines how today\u00eas people use traces left by their predecessors in the houses where they live. We found that our participants received, discovered, and made use of many small traces held by artifacts, people, and building materials. Those traces were used to provide practical assistance to participants\u00ea appropriation of their houses as well as to connect participants with the past in an evocative manner. Our analysis highlights the roles played by the social context and the mutability of the house in the experience of remembering the house as well as in shaping participants\u00ea attitudes of passing on traces of prior appropriation of the place. To illustrate the design implications of those findings, we offer three design concepts to characterize potential ways of using traces captured by ubicomp environments in the long term.", 
+    "abstract": "This work explores the potential value of using the enormous amount of activity traces latest ubicomp environments have started to capture. We sought to understand potential practices of using these traces in the long term through a field-based study in the United States that examines how today\u0090s people use traces left by their predecessors in the houses where they live. We found that our participants received, discovered, and made use of many small traces held by artifacts, people, and building materials. Those traces were used to provide practical assistance to participants\u0090 appropriation of their houses as well as to connect participants with the past in an evocative manner. Our analysis highlights the roles played by the social context and the mutability of the house in the experience of remembering the house as well as in shaping participants\u0090 attitudes of passing on traces of prior appropriation of the place. To illustrate the design implications of those findings, we offer three design concepts to characterize potential ways of using traces captured by ubicomp environments in the long term.", 
     "authors": [
       {
         "name": "Dong"
@@ -215,7 +215,7 @@ entities={
     "title": "Reviewing Reflection: On the Use of Reflection in Interactive System Design"
   }, 
   "1303": {
-    "abstract": "This study proposed some considerations for designing social media to encourage self-reflection of users, referring to rationales of exemplary case, \u0096Ripening Room\u0094. Ripening Room provides ripening time, a delay period between the time of writing and sharing posts, and a ripening score to evaluate users\u00ea self-reflection. To give insights for the design a preliminary exploration was conducted on university students about their perceptions and experience of self-reflection in social media. To evaluate the effect of Ripening Room\u00eas design, an empirical study on Ripening Room was conducted. Participants mentioned that the features of Ripening Room inspired them to self-reflect upon their thoughts, emotions, and behaviors. From the findings of the empirical study, further implications were suggested.", 
+    "abstract": "This study proposed some considerations for designing social media to encourage self-reflection of users, referring to rationales of exemplary case, \u00d0Ripening Room\u00d3. Ripening Room provides ripening time, a delay period between the time of writing and sharing posts, and a ripening score to evaluate users\u0090 self-reflection. To give insights for the design a preliminary exploration was conducted on university students about their perceptions and experience of self-reflection in social media. To evaluate the effect of Ripening Room\u0090s design, an empirical study on Ripening Room was conducted. Participants mentioned that the features of Ripening Room inspired them to self-reflect upon their thoughts, emotions, and behaviors. From the findings of the empirical study, further implications were suggested.", 
     "authors": [
       {
         "name": "Bae"
@@ -305,7 +305,7 @@ entities={
     "title": "Growth Plan for an Inspirational Test-Bed of Smart Textile Services"
   }, 
   "1404": {
-    "abstract": "In this Pictorial we explain and describe Eclipse, a method aimed at eliciting subjective qualities of people\u00eas experiences of and relationships with public places. Our method guides participants to sequentially explore their memories, sensations, sense of place, and stories related to a public place. Our goal is to present this method in a pictorial form to make it more concise and more easily usable by other interaction designers; in this, we want to depict the richness and qualities of the elicitations, and ultimately the subjective qualities of a public place.", 
+    "abstract": "In this Pictorial we explain and describe Eclipse, a method aimed at eliciting subjective qualities of people\u0090s experiences of and relationships with public places. Our method guides participants to sequentially explore their memories, sensations, sense of place, and stories related to a public place. Our goal is to present this method in a pictorial form to make it more concise and more easily usable by other interaction designers; in this, we want to depict the richness and qualities of the elicitations, and ultimately the subjective qualities of a public place.", 
     "authors": [
       {
         "name": "Wakkary"
@@ -330,13 +330,13 @@ entities={
     "abstract": "As a novel class of mobile devices with rich interaction capabilities we introduce tPads _ transparent display tablets. tPads are the result of a systematic design investigation into the ways and benefits of interacting with transparent mobiles which goes beyond traditional mobile interactions and augmented reality (AR) applications. Through a user-centered design process we explored interaction techniques for transparent-display mobiles and classified them into four categories: overlay, dual display & input, surface capture and model-based interactions. We investigated the technical feasibility of such interactions by designing and building two touch-enabled semi-transparent tablets called tPads and a range of tPad applications. Further, a user study shows that tPad interactions applied to everyday mobile tasks (application switching and image capture) outperform current mobile interactions and were preferred by users. Our hands-on design process and experimental evaluation demonstrate that transparent displays provide valuable interaction opportunities for mobile devices.?", 
     "authors": [
       {
-        "name": "Hincapi\u008e-Ramos"
+        "name": "Hincapi_-Ramos"
       }, 
       {
         "name": "Roscher"
       }, 
       {
-        "name": "B\u0099schel"
+        "name": "B\u00aaschel"
       }, 
       {
         "name": "Kister"
@@ -352,7 +352,7 @@ entities={
     "title": "tPad: Designing Transparent-Display Mobile Interactions"
   }, 
   "1502": {
-    "abstract": "Touch screens are increasingly used for secondary in-vehicle controls. While they are more flexible than traditional knobs and dials, interacting with them requires more visual attention. In this paper, we propose several variations of a concept we call \u0096What You See Is What You Touch\u0094 (WYSIWYT), which allows touch screen interaction without removing one\u00eas eyes from the road. This becomes possible by showing both, the current content of the touch screen as well as the position of the user\u00eas hand in relation to it, within the car\u00eas head-up display (HUD). In an initial study we compared six different variations of this concept in a driving simulation mockup. After excluding some concept variations, we conducted a second study comparing the remaining ones with traditional touch interaction. The best performing variation obtains better subjective ratings without any significant disadvantages in driving performance.", 
+    "abstract": "Touch screens are increasingly used for secondary in-vehicle controls. While they are more flexible than traditional knobs and dials, interacting with them requires more visual attention. In this paper, we propose several variations of a concept we call \u00d0What You See Is What You Touch\u00d3 (WYSIWYT), which allows touch screen interaction without removing one\u0090s eyes from the road. This becomes possible by showing both, the current content of the touch screen as well as the position of the user\u0090s hand in relation to it, within the car\u0090s head-up display (HUD). In an initial study we compared six different variations of this concept in a driving simulation mockup. After excluding some concept variations, we conducted a second study comparing the remaining ones with traditional touch interaction. The best performing variation obtains better subjective ratings without any significant disadvantages in driving performance.", 
     "authors": [
       {
         "name": "Lauber"
@@ -368,13 +368,13 @@ entities={
     "title": "What You See Is What You Touch: Visualizing Touch Screen Interaction in the Head-Up Display?"
   }, 
   "1503": {
-    "abstract": "Technologies for shape-changing user interfaces are rapidly evolving, but our understanding of the design space of such interfaces is still limited. We report a repertory grid study that aims to describe the design space from the users\u00ea point of view by eliciting personal constructs about shape-change. The study is based on six similar-sized, shape-changing artifacts that combine simple sensing of users with actuation that change volume, texture, and orientation. Our results show that the 18 respondents distinguish artifacts on dimensions that differ from those of most models of shape change. For instance, they characterize shape-change in terms of personality, territoriality, and state of mind, in addition to more common categories such as appearance and product properties. We discuss how the dimensions derived from users might be used to design shape-changing interfaces.", 
+    "abstract": "Technologies for shape-changing user interfaces are rapidly evolving, but our understanding of the design space of such interfaces is still limited. We report a repertory grid study that aims to describe the design space from the users\u0090 point of view by eliciting personal constructs about shape-change. The study is based on six similar-sized, shape-changing artifacts that combine simple sensing of users with actuation that change volume, texture, and orientation. Our results show that the 18 respondents distinguish artifacts on dimensions that differ from those of most models of shape change. For instance, they characterize shape-change in terms of personality, territoriality, and state of mind, in addition to more common categories such as appearance and product properties. We discuss how the dimensions derived from users might be used to design shape-changing interfaces.", 
     "authors": [
       {
         "name": "Kwak"
       }, 
       {
-        "name": "Hornb\u00bek"
+        "name": "Hornb_k"
       }, 
       {
         "name": "Markopoulos"
@@ -403,10 +403,10 @@ entities={
       }
     ], 
     "subtype": "Paper", 
-    "title": "The Previewable Switch: a Light Switch with Feedforward\u00be (Note)"
+    "title": "The Previewable Switch: a Light Switch with Feedforward_ (Note)"
   }, 
   "1505": {
-    "abstract": "In early design, instrumenting an object with touch sensing capability, especially one with complex surface geometry, can be problematic. In this paper, we show how resistive graph patterns\u00e3or resigraphs\u00e3can be used to quickly fabricate multi-touch sensors tailored to an object\u00eas shape. In very early ideation, resigraphs can be drawn using conductive ink. In later refinements they can be silk-screened or laser cut from off-the-shelf materials. A resigraph uses a commonly available microprocessor (e.g. Arduino), re-quires only three wires, and enables touch input on non-planar and non-developable surfaces.", 
+    "abstract": "In early design, instrumenting an object with touch sensing capability, especially one with complex surface geometry, can be problematic. In this paper, we show how resistive graph patterns\u008bor resigraphs\u008bcan be used to quickly fabricate multi-touch sensors tailored to an object\u0090s shape. In very early ideation, resigraphs can be drawn using conductive ink. In later refinements they can be silk-screened or laser cut from off-the-shelf materials. A resigraph uses a commonly available microprocessor (e.g. Arduino), re-quires only three wires, and enables touch input on non-planar and non-developable surfaces.", 
     "authors": [
       {
         "name": "Holman"
@@ -441,7 +441,7 @@ entities={
     "title": "Structured Observation with Polyphony: a Multifaceted Tool for Studying Music Composition"
   }, 
   "1602": {
-    "abstract": "We present Cinejack, a system for directing narrative video through live musical performance. Cinejack interprets high-level musical content from live instruments and translates it into cinematographic actions such as edits, framings and simulated camera movements. We describe Cinejack\u00eas technical development in terms of a novel and highly pragmatic approach to interface design, where the affordances of users\u00ea own musical instruments are used as controllers through an interpretive interaction scheme.", 
+    "abstract": "We present Cinejack, a system for directing narrative video through live musical performance. Cinejack interprets high-level musical content from live instruments and translates it into cinematographic actions such as edits, framings and simulated camera movements. We describe Cinejack\u0090s technical development in terms of a novel and highly pragmatic approach to interface design, where the affordances of users\u0090 own musical instruments are used as controllers through an interpretive interaction scheme.", 
     "authors": [
       {
         "name": "Schofield"
@@ -470,7 +470,7 @@ entities={
     "title": "Musical Meshworks: From Networked Performance to Cultures of Exchange"
   }, 
   "1604": {
-    "abstract": "Computer visions (CV) systems are increasingly finding new roles in domains such as healthcare. These collaborative settings are a new challenge for CV systems, requiring the design of appropriate interaction paradigms. The provision of feedback, particularly of what the CV system can \u0096see,\u0094 is a key aspect, and may not always be possible to present visually. We explore the design space for audio feedback for a scenario of interest, the clinical assessment of Multiple Sclerosis using a CV system. We then present a mixed-methods experimental study aimed at providing some first insights into the challenges and opportunities of designing audio feedback of this kind. Specifically, we compare audio feedback that differentiates which body parts the CV system can see to audio feedback that is undifferentiated. The findings reveal that it is not enough to simply convey that something might be out of view of the camera as what the camera can \u0096see\u0094 depends on the specific configuration of participants and the peculiarities of the skeleton inference algorithms. The results highlight the importance of providing feedback which more naturally conveys spatial information in developing CV systems for collaborative use.", 
+    "abstract": "Computer visions (CV) systems are increasingly finding new roles in domains such as healthcare. These collaborative settings are a new challenge for CV systems, requiring the design of appropriate interaction paradigms. The provision of feedback, particularly of what the CV system can \u00d0see,\u00d3 is a key aspect, and may not always be possible to present visually. We explore the design space for audio feedback for a scenario of interest, the clinical assessment of Multiple Sclerosis using a CV system. We then present a mixed-methods experimental study aimed at providing some first insights into the challenges and opportunities of designing audio feedback of this kind. Specifically, we compare audio feedback that differentiates which body parts the CV system can see to audio feedback that is undifferentiated. The findings reveal that it is not enough to simply convey that something might be out of view of the camera as what the camera can \u00d0see\u00d3 depends on the specific configuration of participants and the peculiarities of the skeleton inference algorithms. The results highlight the importance of providing feedback which more naturally conveys spatial information in developing CV systems for collaborative use.", 
     "authors": [
       {
         "name": "Morrison"
@@ -492,7 +492,7 @@ entities={
     "title": "Collaborating with Computer Vision Systems: An Exploration of Audio Feedback"
   }, 
   "1701": {
-    "abstract": "Frequently in information design, we lean toward selecting a platform based upon our knowledge, values, and interests, independent of our audience\u00eas practices with information. We found ourselves facing this issue when seeking a technology platform to increase access to learning resources for parents within a financially depressed community. We did not want to choose a platform based upon our biases, yet it was difficult for community members to engage in conversations about technology. We looked at cultural probes and technology probes as methods to seed dialogue within the community. However, neither directly addressed the goal of engaging the community with discussions of information medium In response, we developed the Medium Probe, which meets this goal by placing the focus on the experience of using multiple mediums to respond to prompts, rather than the responses themself.", 
+    "abstract": "Frequently in information design, we lean toward selecting a platform based upon our knowledge, values, and interests, independent of our audience\u0090s practices with information. We found ourselves facing this issue when seeking a technology platform to increase access to learning resources for parents within a financially depressed community. We did not want to choose a platform based upon our biases, yet it was difficult for community members to engage in conversations about technology. We looked at cultural probes and technology probes as methods to seed dialogue within the community. However, neither directly addressed the goal of engaging the community with discussions of information medium In response, we developed the Medium Probe, which meets this goal by placing the focus on the experience of using multiple mediums to respond to prompts, rather than the responses themself.", 
     "authors": [
       {
         "name": "DiSalvo"
@@ -553,7 +553,7 @@ entities={
     "title": "The Design of Slow-Motion Feedback (Note)?"
   }, 
   "1705": {
-    "abstract": "As HCI becomes more aware of long-term use experience, users\u00ea retrospection might be one starting point to explore prior interactive use. However, due to the limitation of current methodologies and human memory, research participants might recall specific prior use episodes and less their experience over time. In this note, we examine how to encourage retrospection and reflection concerning the changes of use experience in the past and over time. We have reviewed relevant research and traced the usage of temporal references in those studies, such as diagrams of use measurement over time or the history of interactive products. We propose the notion of temporal anchors as way of capturing and grounding temporal aspects of long-term use experience. We have found that methods that include temporal anchors have facilitated opportunities for rich reflections and communications around use experience and temporality.", 
+    "abstract": "As HCI becomes more aware of long-term use experience, users\u0090 retrospection might be one starting point to explore prior interactive use. However, due to the limitation of current methodologies and human memory, research participants might recall specific prior use episodes and less their experience over time. In this note, we examine how to encourage retrospection and reflection concerning the changes of use experience in the past and over time. We have reviewed relevant research and traced the usage of temporal references in those studies, such as diagrams of use measurement over time or the history of interactive products. We propose the notion of temporal anchors as way of capturing and grounding temporal aspects of long-term use experience. We have found that methods that include temporal anchors have facilitated opportunities for rich reflections and communications around use experience and temporality.", 
     "authors": [
       {
         "name": "Huang"
@@ -655,7 +655,7 @@ entities={
     "title": "Supporting Crisis Response with Dynamic Procedure Aids"
   }, 
   "1902": {
-    "abstract": "Computing technologies are increasingly designed to support motor-impaired people with physical rehabilitation. Although it is important to reflect patients\u00ea motivation to maintain effectiveness in therapy, these studies mostly show that these technologies can increase rehabilitation effectiveness by providing patients with certain stimulations repetitively. Patients can lose interest because of passive motion from limited stimulation. To understand the effects of multisensory manipulation and to reflect patients\u00ea motivation during therapy, we introduce the novel Shape-changing Robot (SR) that can alter its surface in response to users\u00ea movements, including visuo-tactile stimulus. The proposed SR was evaluated through an experiment with five post-stroke patients. This study shows that the SR\u00eas physical movement can entice patients into a physical and emotional engagement by capturing their attention through physical motion, rather than through virtual motion. Furthermore, the SR can induce communicative gestures. This gesture pattern might help stroke patients become motivated to practice movement in therapy.", 
+    "abstract": "Computing technologies are increasingly designed to support motor-impaired people with physical rehabilitation. Although it is important to reflect patients\u0090 motivation to maintain effectiveness in therapy, these studies mostly show that these technologies can increase rehabilitation effectiveness by providing patients with certain stimulations repetitively. Patients can lose interest because of passive motion from limited stimulation. To understand the effects of multisensory manipulation and to reflect patients\u0090 motivation during therapy, we introduce the novel Shape-changing Robot (SR) that can alter its surface in response to users\u0090 movements, including visuo-tactile stimulus. The proposed SR was evaluated through an experiment with five post-stroke patients. This study shows that the SR\u0090s physical movement can entice patients into a physical and emotional engagement by capturing their attention through physical motion, rather than through virtual motion. Furthermore, the SR can induce communicative gestures. This gesture pattern might help stroke patients become motivated to practice movement in therapy.", 
     "authors": [
       {
         "name": "Lee"
@@ -727,7 +727,7 @@ entities={
     "title": "Prototyping 'Clasp': Implications for Designing Digital Technology for and with Adults with Autism"
   }, 
   "2101": {
-    "abstract": "The use of design as a critical tool to explore design\u00eas potential roles in society and the future has emerged as a trend in HCI and design research, but several questions remain open. How can we explain and teach how criticality can be applied to design? How can we assess, compare and give context to critical designs? How should we understand the relationships among practices that bear affinities to critical design, such as speculative design or critical engineering? We argue that many of these issues would be clarified if the HCI and design research communities had a collection of examples that exemplified not just critical design in general, but also its major genres, styles, historical trends, rhetorics, and other distinctions. As a first step in this direction, we detail our efforts to develop a more systematic vocabulary to talk about critical design. After assembling a small operative corpus from a wider inventory of critical designs, we apply poststructuralist semiotic theory to propose a number of analytic distinctions and concepts that could be used\u00e3along with others like them\u00e3to more systematically and deliberately construct a canon of exemplars and a more mature conceptual vocabulary for critical design.", 
+    "abstract": "The use of design as a critical tool to explore design\u0090s potential roles in society and the future has emerged as a trend in HCI and design research, but several questions remain open. How can we explain and teach how criticality can be applied to design? How can we assess, compare and give context to critical designs? How should we understand the relationships among practices that bear affinities to critical design, such as speculative design or critical engineering? We argue that many of these issues would be clarified if the HCI and design research communities had a collection of examples that exemplified not just critical design in general, but also its major genres, styles, historical trends, rhetorics, and other distinctions. As a first step in this direction, we detail our efforts to develop a more systematic vocabulary to talk about critical design. After assembling a small operative corpus from a wider inventory of critical designs, we apply poststructuralist semiotic theory to propose a number of analytic distinctions and concepts that could be used\u008balong with others like them\u008bto more systematically and deliberately construct a canon of exemplars and a more mature conceptual vocabulary for critical design.", 
     "authors": [
       {
         "name": "Ferri"
@@ -746,7 +746,7 @@ entities={
     "title": "Analyzing Critical Designs: Categories, Distinctions, and Canons of Exemplars"
   }, 
   "2102": {
-    "abstract": "In this paper we discuss the value of an open, responsive research structure in the context of a multi faceted, critical design project that has participation at its core. Problems with data delivery rendered our original design research structure unviable. Turning to the crafts that underpinned our research enabled the emergence of a new_open and responsive_structure. As a direct result, we arrived at a number of unexpected, highly valuable outcomes. The contributions of this paper are fourfold: 1) we provide a \u0095live\u00ea story from research practice, within which, 2) we argue the usefulness of a core provocative question to ensure saliency of critical designs, 3) we demonstrate the value of unresolved prototypes in eliciting participant engagement, and 4) we discuss how craft can serve as method, technique and tool to scaffold an open, responsive research structure. A number of researchers have highlighted the need for documentation and reporting of design process [9, 20, 37, 42] including, specifically, in the context of critical design [6]. We respond to these calls.", 
+    "abstract": "In this paper we discuss the value of an open, responsive research structure in the context of a multi faceted, critical design project that has participation at its core. Problems with data delivery rendered our original design research structure unviable. Turning to the crafts that underpinned our research enabled the emergence of a new_open and responsive_structure. As a direct result, we arrived at a number of unexpected, highly valuable outcomes. The contributions of this paper are fourfold: 1) we provide a \u00a5live\u0090 story from research practice, within which, 2) we argue the usefulness of a core provocative question to ensure saliency of critical designs, 3) we demonstrate the value of unresolved prototypes in eliciting participant engagement, and 4) we discuss how craft can serve as method, technique and tool to scaffold an open, responsive research structure. A number of researchers have highlighted the need for documentation and reporting of design process [9, 20, 37, 42] including, specifically, in the context of critical design [6]. We respond to these calls.", 
     "authors": [
       {
         "name": "Wilde"
@@ -762,7 +762,7 @@ entities={
     "title": "PKI: Crafting Critical Design"
   }, 
   "2103": {
-    "abstract": "This paper presents a set of design studies and discussions investigating new possibilities in designing digital limitations. Focusing on digital photography as a medium, we present design prototypes and experiments including Ultra-Low Resolution Displays, Inaccessible Cameras, and a set of point-and-shoot digital camera variants. Our design work is based on the concept of a counterfunctional thing\u00e3a thing that figuratively counters some of its own functionality. We present the concept of counterfunctionality as a way of approaching the design of interactive technology. In conclusion we connect our work with critical discourses surrounding technology and the value of designing limitations.", 
+    "abstract": "This paper presents a set of design studies and discussions investigating new possibilities in designing digital limitations. Focusing on digital photography as a medium, we present design prototypes and experiments including Ultra-Low Resolution Displays, Inaccessible Cameras, and a set of point-and-shoot digital camera variants. Our design work is based on the concept of a counterfunctional thing\u008ba thing that figuratively counters some of its own functionality. We present the concept of counterfunctionality as a way of approaching the design of interactive technology. In conclusion we connect our work with critical discourses surrounding technology and the value of designing limitations.", 
     "authors": [
       {
         "name": "Pierce"
@@ -775,7 +775,7 @@ entities={
     "title": "Counterfunctional Things: Exploring Possibilities in Designing Digital Limitations"
   }, 
   "2104": {
-    "abstract": "To enable efficient searching and consistent interpretation of information, traditional metadata design practice emphasizes precisely delineated attributes. These sharp boundaries, however, reject data points that lie outside permissible values. For example, a Gender attribute with associated Male and Female values may appear perfectly clear and unambiguous, in line with traditional standards. Increasingly, however, people have begun to identify themselves as both, neither, other, or dynamic gender, rejecting cleanly separated Male/Female duality. In this project, student designers used critical design to explore how the descriptive infrastructure of a database might foreground, instead of restrict, the \u0096residual\u0094\u00e3a term that encapsulates the ambiguity and plurality masked by simple category structures like Male/Female. Our findings suggest that \u0096writing\u0094 a database to exploit the residual is enmeshed with \u0096reading\u0094 the content being structured. We identify three modes of reading that characterize these designs, and we describe how the residual emerges from each mode.", 
+    "abstract": "To enable efficient searching and consistent interpretation of information, traditional metadata design practice emphasizes precisely delineated attributes. These sharp boundaries, however, reject data points that lie outside permissible values. For example, a Gender attribute with associated Male and Female values may appear perfectly clear and unambiguous, in line with traditional standards. Increasingly, however, people have begun to identify themselves as both, neither, other, or dynamic gender, rejecting cleanly separated Male/Female duality. In this project, student designers used critical design to explore how the descriptive infrastructure of a database might foreground, instead of restrict, the \u00d0residual\u00d3\u008ba term that encapsulates the ambiguity and plurality masked by simple category structures like Male/Female. Our findings suggest that \u00d0writing\u00d3 a database to exploit the residual is enmeshed with \u00d0reading\u00d3 the content being structured. We identify three modes of reading that characterize these designs, and we describe how the residual emerges from each mode.", 
     "authors": [
       {
         "name": "Feinberg"
@@ -791,7 +791,7 @@ entities={
     "title": "A Story Without End: Writing the Residual into Descriptive Infrastructure"
   }, 
   "2201": {
-    "abstract": "Transparent displays can serve as an important collaborative medium supporting face-to-face interactions over a shared visual work surface. Such displays enhance workspace awareness: when a person is working on one side of a transparent display, the person on the other side can see the other\u00eas body, hand gestures, gaze and what he or she is actually manipulating on the shared screen. Even so, we argue that designing such transparent displays must go beyond current offerings if it is to support collaboration. First, both sides of the display must accept interactive input, preferably by at least touch and / or pen, as that affords the ability for either person to directly interact with the workspace items. Second, and more controversially, both sides of the display must be able to present different content, albeit selectively. Third (and related to the second point), because screen contents and lighting can partially obscure what can be seen through the surface, the display should visually enhance the actions of the person on the other side to better support workspace awareness. We describe our prototype FACINGBOARD-2 system, where we concentrate on how its design supports these three collaborative requirements.", 
+    "abstract": "Transparent displays can serve as an important collaborative medium supporting face-to-face interactions over a shared visual work surface. Such displays enhance workspace awareness: when a person is working on one side of a transparent display, the person on the other side can see the other\u0090s body, hand gestures, gaze and what he or she is actually manipulating on the shared screen. Even so, we argue that designing such transparent displays must go beyond current offerings if it is to support collaboration. First, both sides of the display must accept interactive input, preferably by at least touch and / or pen, as that affords the ability for either person to directly interact with the workspace items. Second, and more controversially, both sides of the display must be able to present different content, albeit selectively. Third (and related to the second point), because screen contents and lighting can partially obscure what can be seen through the surface, the display should visually enhance the actions of the person on the other side to better support workspace awareness. We describe our prototype FACINGBOARD-2 system, where we concentrate on how its design supports these three collaborative requirements.", 
     "authors": [
       {
         "name": "Li"
@@ -829,7 +829,7 @@ entities={
     "title": "Computer Supported Novice Group Critique"
   }, 
   "2203": {
-    "abstract": "We present findings from a qualitative study with 28 participants of the dyadic intercultural communication tensions professionals experience in Face-to-Face (FTF) and Computer-Mediated Communication (CMC) workplace interactions. We identify four categories of intercultural communication tensions that emerged most frequently in our dataset including range of emotional expression, level of formality, \u0096fixed\u0094 versus flexible appointments and task versus social-orientation. We discuss how these tensions manifested in FTF and CMC media and unravel the ways media supports or hinders intercultural communication. We present the adaptations participants made to mitigate such tensions and offer implications for design. Our findings demonstrate that the most frequently occurring intercultural communication tensions manifested in both FTF and CMC, regardless of the medium used. This indicates that cultural communication challenges will persist no matter the medium, highlighting the opportunity for technologies to better support workplace intercultural communication.", 
+    "abstract": "We present findings from a qualitative study with 28 participants of the dyadic intercultural communication tensions professionals experience in Face-to-Face (FTF) and Computer-Mediated Communication (CMC) workplace interactions. We identify four categories of intercultural communication tensions that emerged most frequently in our dataset including range of emotional expression, level of formality, \u00d0fixed\u00d3 versus flexible appointments and task versus social-orientation. We discuss how these tensions manifested in FTF and CMC media and unravel the ways media supports or hinders intercultural communication. We present the adaptations participants made to mitigate such tensions and offer implications for design. Our findings demonstrate that the most frequently occurring intercultural communication tensions manifested in both FTF and CMC, regardless of the medium used. This indicates that cultural communication challenges will persist no matter the medium, highlighting the opportunity for technologies to better support workplace intercultural communication.", 
     "authors": [
       {
         "name": "Ai He"
@@ -842,7 +842,7 @@ entities={
     "title": "A Qualitative Study of Workplace Intercultural Communication Tensions in Dyadic Face-to-Face and Computer-Mediated Interactions"
   }, 
   "2204": {
-    "abstract": "Despite the growth of online communities for sharing DIY projects, little research has focused on the methods by which project documentation is created and utilized \u00e3 that is, what techniques do designers use to document their work, how do they describe their work to others, and how do readers utilize design documentation in the context of their own projects? Through interviews and surveys with authors and readers of Instructables, we describe differences found in the practices of these two types of users in creating and applying design documentation. Based on the results, we identify design opportunities for members of the HCI community developing tools to better support people sharing creative work online.", 
+    "abstract": "Despite the growth of online communities for sharing DIY projects, little research has focused on the methods by which project documentation is created and utilized \u008b that is, what techniques do designers use to document their work, how do they describe their work to others, and how do readers utilize design documentation in the context of their own projects? Through interviews and surveys with authors and readers of Instructables, we describe differences found in the practices of these two types of users in creating and applying design documentation. Based on the results, we identify design opportunities for members of the HCI community developing tools to better support people sharing creative work online.", 
     "authors": [
       {
         "name": "Tseng"
@@ -871,7 +871,7 @@ entities={
     "title": "Exploring the Perceptions and Use of Electronic Medical Record Systems by Non-Clinicians (Note)"
   }, 
   "2301": {
-    "abstract": "If visualization is to be democratized, we need to provide means for non-experts to create visualizations that allow them to engage directly with datasets. We present constructive visualization a new paradigm for the simple creation of flexible, dynamic visualizations. Constructive visualization is simple\u00e3in that the skills required to build and manipulate the visualizations are akin to kindergarten play; it is expressive\u00e3 in that one can build within the constraints of the chosen environment, and it also supports dynamics \u00e3 in that these constructed visualizations can be rebuilt and adjusted. We de- scribe the conceptual components and processes underlying constructive visualization, and present real-world examples to illustrate the utility of this approach. The constructive visualization approach builds on our inherent understanding and experience with physical building blocks, offering a model that enables non-experts to create entirely novel visualizations, and to engage with datasets in a manner that would not have otherwise been possible.", 
+    "abstract": "If visualization is to be democratized, we need to provide means for non-experts to create visualizations that allow them to engage directly with datasets. We present constructive visualization a new paradigm for the simple creation of flexible, dynamic visualizations. Constructive visualization is simple\u008bin that the skills required to build and manipulate the visualizations are akin to kindergarten play; it is expressive\u008b in that one can build within the constraints of the chosen environment, and it also supports dynamics \u008b in that these constructed visualizations can be rebuilt and adjusted. We de- scribe the conceptual components and processes underlying constructive visualization, and present real-world examples to illustrate the utility of this approach. The constructive visualization approach builds on our inherent understanding and experience with physical building blocks, offering a model that enables non-experts to create entirely novel visualizations, and to engage with datasets in a manner that would not have otherwise been possible.", 
     "authors": [
       {
         "name": "Huron"
@@ -938,7 +938,7 @@ entities={
     "title": "Supporting the Synthesis of Information in Design Teams"
   }, 
   "2401": {
-    "abstract": "This paper offers a product design perspective to emerging material-oriented design methods in HCI. It outlines a research process for facilitating the design of interactive media products that enable a patina of deliberate material traces to grow on objects of daily use. In doing so, the paper reports on initial findings on how materials are perceived to \u0095mature\u00ea with use, discusses a design concept related to such findings, and offers a new direction for rich communication and interaction through and with objects.", 
+    "abstract": "This paper offers a product design perspective to emerging material-oriented design methods in HCI. It outlines a research process for facilitating the design of interactive media products that enable a patina of deliberate material traces to grow on objects of daily use. In doing so, the paper reports on initial findings on how materials are perceived to \u00a5mature\u0090 with use, discusses a design concept related to such findings, and offers a new direction for rich communication and interaction through and with objects.", 
     "authors": [
       {
         "name": "Giaccardi"
@@ -983,7 +983,7 @@ entities={
     "title": "Stillness and Motion, Meaning and Form"
   }, 
   "2404": {
-    "abstract": "This Pictorial documents the process of designing a device as an intervention within a field study of new parents. The device was deployed in participating parents\u00ea homes to invite reflection on their everyday experiences of portraying self and others through social media in their transition to parenthood. The design creates a dynamic representation of each participant\u00eas Facebook photo collection, extracting and amalgamating \u0095faces\u00ea from it to create an alternative portrait of an online self. We document the rationale behind our design, explaining how its features were inspired and developed, and how they function to address research questions about human experience.", 
+    "abstract": "This Pictorial documents the process of designing a device as an intervention within a field study of new parents. The device was deployed in participating parents\u0090 homes to invite reflection on their everyday experiences of portraying self and others through social media in their transition to parenthood. The design creates a dynamic representation of each participant\u0090s Facebook photo collection, extracting and amalgamating \u00a5faces\u0090 from it to create an alternative portrait of an online self. We document the rationale behind our design, explaining how its features were inspired and developed, and how they function to address research questions about human experience.", 
     "authors": [
       {
         "name": "Trujillo-Pisanty"
@@ -1005,7 +1005,7 @@ entities={
     "title": "Admixed Portrait: Reflections on Being Online as a New Parent"
   }, 
   "2405": {
-    "abstract": "We have developed User Enactments to help support design teams in more successfully investigating radical alterations to technologies\u00ea roles, forms and behaviors in uncharted design spaces. To date, no work exists that explicitly unpacks the practical development of a cohesive set of user enactments. Interest is growing in the method with its recent inclusion in a popular design method handbook for practitioners and also as it becomes integrated into graduate-level university curriculum in interaction design. The contribution of this Pictorial is to unpack the thinking and making behind a set of user enactments through visual documentation and annotations.", 
+    "abstract": "We have developed User Enactments to help support design teams in more successfully investigating radical alterations to technologies\u0090 roles, forms and behaviors in uncharted design spaces. To date, no work exists that explicitly unpacks the practical development of a cohesive set of user enactments. Interest is growing in the method with its recent inclusion in a popular design method handbook for practitioners and also as it becomes integrated into graduate-level university curriculum in interaction design. The contribution of this Pictorial is to unpack the thinking and making behind a set of user enactments through visual documentation and annotations.", 
     "authors": [
       {
         "name": "Odom"
@@ -1030,7 +1030,7 @@ entities={
     "title": "Unpacking The Thinking And Making Behind A User Enactments Project"
   }, 
   "2501": {
-    "abstract": "Proxemics theory explains peoples\u00ea use of interpersonal distances to mediate their social interactions with others. Within Ubicomp, proxemic interaction researchers argue that people have a similar social understanding of their spatial relations with nearby digital devices, which can be exploited to better facilitate seamless and natural interactions. To do so, both people and devices are tracked to determine their spatial relationships. While interest in proxemic interactions has increased over the last few years, it also has a dark side: knowledge of proxemics may (and likely will) be easily exploited to the detriment of the user. In this paper, we offer a critical perspective on proxemic interactions in the form of dark patterns: ways proxemic interactions can be misused. We discuss a series of these patterns and describe how they apply to these types of interactions. In addition, we identify several root problems that underlie these patterns and discuss potential solutions that could lower their harmfulness.", 
+    "abstract": "Proxemics theory explains peoples\u0090 use of interpersonal distances to mediate their social interactions with others. Within Ubicomp, proxemic interaction researchers argue that people have a similar social understanding of their spatial relations with nearby digital devices, which can be exploited to better facilitate seamless and natural interactions. To do so, both people and devices are tracked to determine their spatial relationships. While interest in proxemic interactions has increased over the last few years, it also has a dark side: knowledge of proxemics may (and likely will) be easily exploited to the detriment of the user. In this paper, we offer a critical perspective on proxemic interactions in the form of dark patterns: ways proxemic interactions can be misused. We discuss a series of these patterns and describe how they apply to these types of interactions. In addition, we identify several root problems that underlie these patterns and discuss potential solutions that could lower their harmfulness.", 
     "authors": [
       {
         "name": "Greenberg"
@@ -1096,7 +1096,7 @@ entities={
     "title": "Implications of Location and Touch for On-Body Projected Interfaces"
   }, 
   "2504": {
-    "abstract": "Wearable technology brings computation in intimate proximity to the body, raising questions about the role of the body in interacting with tools. The disappearance of self and technology in achieving transparent and skilful action _ the ideal aspiration of ubiquitous and context-aware computing _ overlooks the potential of self-awareness as a critical resource for interactive experiences grounded in the body. We propose a body-centred perspective on wearable technology informed by phenomenological theories on the body-tool relationship and pragmatist Somaesthetics prioritizing the cultivation of the self through somatic awareness for improved life quality. We extend Heidegger\u00eas concept of present-at-hand with a new concept of present-at-body, defined as the reflective use of tools for developing bodily self-awareness. In our body-centred approach to wearable technology, we emphasize the dynamic interplay between visibility and transparency of body and tool as a fundamental resource for learning and self-development.", 
+    "abstract": "Wearable technology brings computation in intimate proximity to the body, raising questions about the role of the body in interacting with tools. The disappearance of self and technology in achieving transparent and skilful action _ the ideal aspiration of ubiquitous and context-aware computing _ overlooks the potential of self-awareness as a critical resource for interactive experiences grounded in the body. We propose a body-centred perspective on wearable technology informed by phenomenological theories on the body-tool relationship and pragmatist Somaesthetics prioritizing the cultivation of the self through somatic awareness for improved life quality. We extend Heidegger\u0090s concept of present-at-hand with a new concept of present-at-body, defined as the reflective use of tools for developing bodily self-awareness. In our body-centred approach to wearable technology, we emphasize the dynamic interplay between visibility and transparency of body and tool as a fundamental resource for learning and self-development.", 
     "authors": [
       {
         "name": "Nunez-Pacheco"
@@ -1109,7 +1109,7 @@ entities={
     "title": "Crafting the Body-Tool: A Body-Centred Perspective on Wearable Technology"
   }, 
   "2601": {
-    "abstract": "To make a single diagnosis, today\u00eas radiologists must examine thousands of images; yet little effort has been put into refining this time-consuming, repetitive task. Meanwhile, automatic or radiologist-generated annotations may impact how radiologists navigate image stacks as they review lesions of interest. Observation and/or interviews of 19 radiologists revealed that stack scrolling dominated the resulting task examples. We iteratively crafted and obtained radiologist feedback for a variety of prototypes, then evaluated their scrolling and annotation-review support for lay users. With a simplified stack seeded with correct / incorrect annotations, we compared the effect of four scrolling techniques (traditional scrollwheel and click-and-drag, plus sliding-touch, and tilt rate control) and visual vs. haptic annotation cues on scrolling dynamics, detection accuracy and subjective factors. Scrollwheel was fastest overall, and combined visual / haptic annotation cues sped target-finding relative to either modality alone. We share insights on integrating our findings into radiologist practice.", 
+    "abstract": "To make a single diagnosis, today\u0090s radiologists must examine thousands of images; yet little effort has been put into refining this time-consuming, repetitive task. Meanwhile, automatic or radiologist-generated annotations may impact how radiologists navigate image stacks as they review lesions of interest. Observation and/or interviews of 19 radiologists revealed that stack scrolling dominated the resulting task examples. We iteratively crafted and obtained radiologist feedback for a variety of prototypes, then evaluated their scrolling and annotation-review support for lay users. With a simplified stack seeded with correct / incorrect annotations, we compared the effect of four scrolling techniques (traditional scrollwheel and click-and-drag, plus sliding-touch, and tilt rate control) and visual vs. haptic annotation cues on scrolling dynamics, detection accuracy and subjective factors. Scrollwheel was fastest overall, and combined visual / haptic annotation cues sped target-finding relative to either modality alone. We share insights on integrating our findings into radiologist practice.", 
     "authors": [
       {
         "name": "Oram"
@@ -1128,7 +1128,7 @@ entities={
     "title": "Crafting Diversity in Radiology Image Stack Scrolling: Control and Annotations"
   }, 
   "2602": {
-    "abstract": "This paper presents the results of an ongoing study into the potential role of mobile or wireless health applications for targeting the prevention of excessive gestational weight gain in pregnant lower-income American women. Informed by a qualitative study of pregnant women\u00eas experiences, we develop a set of design requirements for designing mobile health (mHealth) interventions related to healthy pregnancies. We identify a disconnection between physical activity and food tracking application design paradigms, and the reality of pregnant women\u00eas lives and capacities. We introduce the concept of an individualized pregnancy ecology, which provides an alternative paradigm for design of health and wellness management tools for lower-income pregnant women.?", 
+    "abstract": "This paper presents the results of an ongoing study into the potential role of mobile or wireless health applications for targeting the prevention of excessive gestational weight gain in pregnant lower-income American women. Informed by a qualitative study of pregnant women\u0090s experiences, we develop a set of design requirements for designing mobile health (mHealth) interventions related to healthy pregnancies. We identify a disconnection between physical activity and food tracking application design paradigms, and the reality of pregnant women\u0090s lives and capacities. We introduce the concept of an individualized pregnancy ecology, which provides an alternative paradigm for design of health and wellness management tools for lower-income pregnant women.?", 
     "authors": [
       {
         "name": "Peyton"
@@ -1191,7 +1191,7 @@ entities={
     "title": "A Study of the Challenges Related to DIY Assistive Technology in the Context of Children with Disabilities"
   }, 
   "2701": {
-    "abstract": "This paper explores the possibility of using statistical classification of physiological signals into emotion categories as a resource for open-ended human interpretation of emotion. Typically, design studies for affect assume either that it is possible for computers to objectively identify users\u00ea emotions, or that emotion is completely subjective and thus rely solely on human interpretation. By drawing on the feminist concept of performativity, we explain how to conceive of computational representations and human actors as co-constructing emotions. Through a case study of Freaky, a system that uses such models of emotion to sup-port human interpretation, we demonstrate how machine learning models of affect can be constructed and incorporated in systems designed for open-ended user interpretation of affect. Qualitative results from a user deployment show that a performative approach to modeling emotion is possible. We thus demonstrate the potential of performative theories to be generative of new computational and design practices that support hybrid human-machine enactments of emotion.", 
+    "abstract": "This paper explores the possibility of using statistical classification of physiological signals into emotion categories as a resource for open-ended human interpretation of emotion. Typically, design studies for affect assume either that it is possible for computers to objectively identify users\u0090 emotions, or that emotion is completely subjective and thus rely solely on human interpretation. By drawing on the feminist concept of performativity, we explain how to conceive of computational representations and human actors as co-constructing emotions. Through a case study of Freaky, a system that uses such models of emotion to sup-port human interpretation, we demonstrate how machine learning models of affect can be constructed and incorporated in systems designed for open-ended user interpretation of affect. Qualitative results from a user deployment show that a performative approach to modeling emotion is possible. We thus demonstrate the potential of performative theories to be generative of new computational and design practices that support hybrid human-machine enactments of emotion.", 
     "authors": [
       {
         "name": "Leahu"
@@ -1204,7 +1204,7 @@ entities={
     "title": "Freaky: Performing Hybrid Human-Machine Emotion"
   }, 
   "2702": {
-    "abstract": "In this paper we present The Remediation of Nosferatu, a location based augmented reality horror adventure. Using the theory of fictional universe elements, we work with diverse material from Nosferatu\u00eas horror genre and vampire themes as a case study. In this interdisciplinary research we intertwine traditional storytelling and scriptwriting skills with interaction design methods. For the game setting, we create hybrid spaces merging the fictional universe and the physical environment into one pervasive experience, centering around a variety of augmented reality activities played out at sunset. Focusing on the phenomenological world of 21 participants, we analyse triangulated data by distinguishing between a range of more \u0095open\u00ea and \u0095closed\u00ea styles of interactions. Our study illustrates how Speculative Play may enable non-linear storytelling elements within a transmedia fictional universe. We believe our approach can be more generally useful for designing future rich, enjoyable and meaningful transmedia experiences.", 
+    "abstract": "In this paper we present The Remediation of Nosferatu, a location based augmented reality horror adventure. Using the theory of fictional universe elements, we work with diverse material from Nosferatu\u0090s horror genre and vampire themes as a case study. In this interdisciplinary research we intertwine traditional storytelling and scriptwriting skills with interaction design methods. For the game setting, we create hybrid spaces merging the fictional universe and the physical environment into one pervasive experience, centering around a variety of augmented reality activities played out at sunset. Focusing on the phenomenological world of 21 participants, we analyse triangulated data by distinguishing between a range of more \u00a5open\u0090 and \u00a5closed\u0090 styles of interactions. Our study illustrates how Speculative Play may enable non-linear storytelling elements within a transmedia fictional universe. We believe our approach can be more generally useful for designing future rich, enjoyable and meaningful transmedia experiences.", 
     "authors": [
       {
         "name": "Ghellal"
@@ -1223,7 +1223,7 @@ entities={
     "title": "The Remediation of Nosferatu _ Exploring Transmedia Experiences"
   }, 
   "2703": {
-    "abstract": "Taking it\u00eas origin from the notion of the cargo cult as an elaborate misunderstanding, this paper suggests a series of exploratory design methods to support users in generating requirements and scenarios-of-use for technological objects that do not yet exist. Strategies from fields such as art and performance are used to create experiences of user-involvement centered on the making of non-functional mock-ups. These can then act as props through which the participant can express their intuitions and concerns with a given technological notion. The processes described makes use of a broad range of cultural drivers to engage users in playful misunderstandings that facilitate new, out of the ordinary, interpretations of objects. The paper outlines the basis of three projects, discuss the drivers behind each project and suggests guidelines for creating these kinds of exploratory embodied experiences.", 
+    "abstract": "Taking it\u0090s origin from the notion of the cargo cult as an elaborate misunderstanding, this paper suggests a series of exploratory design methods to support users in generating requirements and scenarios-of-use for technological objects that do not yet exist. Strategies from fields such as art and performance are used to create experiences of user-involvement centered on the making of non-functional mock-ups. These can then act as props through which the participant can express their intuitions and concerns with a given technological notion. The processes described makes use of a broad range of cultural drivers to engage users in playful misunderstandings that facilitate new, out of the ordinary, interpretations of objects. The paper outlines the basis of three projects, discuss the drivers behind each project and suggests guidelines for creating these kinds of exploratory embodied experiences.", 
     "authors": [
       {
         "name": "Andersen"
@@ -1233,23 +1233,23 @@ entities={
     "title": "The Deliberate Cargo Cult"
   }, 
   "2704": {
-    "abstract": "In the age of mobile communications and social media, users are connected to interact with other people, and often obliged to be socially active as technology drives to connect us. In this paper, we harness the technology for the opposite use: helping people to avoid company instead of encouraging interaction. We have developed the concept of an asocial hiking application (app), in which users can generate routes that avoid meeting other people. We developed the concept based on user feedback data derived from an online survey (n=157) and two focus groups, and created a tool that generates solitary hiking routes based on OpenStreetMap data and additional information from the web. In addition, to make the application react to dynamic changes in the environment, we developed a mobile application prototype that scans Wi-Fi signals to detect other hikers nearby and warn of their approach. The prototype was tested and evaluated with 8 hikers in-the-wild. In addition to the concept design and the functional prototype, we present findings on people\u00eas, especially hikers, need for solitude, and introduce user feedback from each stage of the prototype design process as well as design recommendations for an asocial navigation application.", 
+    "abstract": "In the age of mobile communications and social media, users are connected to interact with other people, and often obliged to be socially active as technology drives to connect us. In this paper, we harness the technology for the opposite use: helping people to avoid company instead of encouraging interaction. We have developed the concept of an asocial hiking application (app), in which users can generate routes that avoid meeting other people. We developed the concept based on user feedback data derived from an online survey (n=157) and two focus groups, and created a tool that generates solitary hiking routes based on OpenStreetMap data and additional information from the web. In addition, to make the application react to dynamic changes in the environment, we developed a mobile application prototype that scans Wi-Fi signals to detect other hikers nearby and warn of their approach. The prototype was tested and evaluated with 8 hikers in-the-wild. In addition to the concept design and the functional prototype, we present findings on people\u0090s, especially hikers, need for solitude, and introduce user feedback from each stage of the prototype design process as well as design recommendations for an asocial navigation application.", 
     "authors": [
       {
         "name": "Posti"
       }, 
       {
-        "name": "Sch\u009aning"
+        "name": "Sch_ning"
       }, 
       {
-        "name": "H\u008akkil\u008a"
+        "name": "H_kkil_"
       }
     ], 
     "subtype": "Paper", 
     "title": "Unexpected Journeys with the HOBBIT _ The Design and Evaluation of an Asocial Hiking App"
   }, 
   "2801": {
-    "abstract": "We propose a novel way to approach the research and design of urban ICT, namely, climate sensitive urban computing. This approach considers the climatic patterns, weather conditions and people\u00eas adaptations to them on the level of everyday practices. Our theoretical and methodological foundations lay in the fields of cultural anthropology, architecture, and HCI. First, we present a multidisciplinary discussion of prior works relating to technology, weather and climate conditions. Secondly, through two empirical, mostly qualitative data sets, we demonstrate the vast impact weather and climate have on young adults\u00ea ICT use at our research site located in Northern Finland. Thirdly, based on the theoretical discussion and findings from the real-world studies, we argue that climate sensitive thinking should be part of the design of urban ICT, and outline some central design challenges.", 
+    "abstract": "We propose a novel way to approach the research and design of urban ICT, namely, climate sensitive urban computing. This approach considers the climatic patterns, weather conditions and people\u0090s adaptations to them on the level of everyday practices. Our theoretical and methodological foundations lay in the fields of cultural anthropology, architecture, and HCI. First, we present a multidisciplinary discussion of prior works relating to technology, weather and climate conditions. Secondly, through two empirical, mostly qualitative data sets, we demonstrate the vast impact weather and climate have on young adults\u0090 ICT use at our research site located in Northern Finland. Thirdly, based on the theoretical discussion and findings from the real-world studies, we argue that climate sensitive thinking should be part of the design of urban ICT, and outline some central design challenges.", 
     "authors": [
       {
         "name": "Ylipulli"
@@ -1268,7 +1268,7 @@ entities={
     "title": "Winter is Coming: Introducing Climate Sensitive Urban Computing"
   }, 
   "2802": {
-    "abstract": "There is growing research interest in exploring how biometric data is and can be shared across online social networks. However, most existing tools for sharing biometric data lock researchers into vendor-specific solutions that cannot be easily adapted to the specific researchers\u00ea requirements, users\u00ea needs and ethical considerations. To mitigate this, we investigate the requirements for open source researcher-oriented biometric data sharing systems. Requirements were captured using: first-hand insights from two prototype deployments, a systematic review of the literature, and interviews with HCI researchers who have built such tools. The requirements thus captured were implemented in the BioShare system and insights from implementing these requirements are presented. BioShare allows users both to share data but also receive inputs from remote viewers of the data in real-time. Concurrently it provides logging capabilities for researchers to analyze system interactions.?", 
+    "abstract": "There is growing research interest in exploring how biometric data is and can be shared across online social networks. However, most existing tools for sharing biometric data lock researchers into vendor-specific solutions that cannot be easily adapted to the specific researchers\u0090 requirements, users\u0090 needs and ethical considerations. To mitigate this, we investigate the requirements for open source researcher-oriented biometric data sharing systems. Requirements were captured using: first-hand insights from two prototype deployments, a systematic review of the literature, and interviews with HCI researchers who have built such tools. The requirements thus captured were implemented in the BioShare system and insights from implementing these requirements are presented. BioShare allows users both to share data but also receive inputs from remote viewers of the data in real-time. Concurrently it provides logging capabilities for researchers to analyze system interactions.?", 
     "authors": [
       {
         "name": "Curmi"
@@ -1338,7 +1338,7 @@ entities={
     "title": "Exploring the Benefits and Uses of Web Analytics Tools for Non-Transactional Websites (Note)"
   }, 
   "2901": {
-    "abstract": "This paper presents the design and development process of an interactive football-training game that aims to improve players\u00ea ball-handling skills, and their ability to simultaneously survey the playing field. A small-scale experiment was conducted to test the game, and the results are presented and reflected upon. Based on the experiences gained from the design and development process, as well as examples from the existing field and skill acquisition theory, we present three areas of interest to consider for interactive sport-training game designers: Context Characteristics, Movement Patterns and Perceptual Reaction. From a discussion of these areas, we derive eight design sensitivities that emphasize issues, challenges and opportunities, important for the design, development and analysis of interactive sport-training games in general.", 
+    "abstract": "This paper presents the design and development process of an interactive football-training game that aims to improve players\u0090 ball-handling skills, and their ability to simultaneously survey the playing field. A small-scale experiment was conducted to test the game, and the results are presented and reflected upon. Based on the experiences gained from the design and development process, as well as examples from the existing field and skill acquisition theory, we present three areas of interest to consider for interactive sport-training game designers: Context Characteristics, Movement Patterns and Perceptual Reaction. From a discussion of these areas, we derive eight design sensitivities that emphasize issues, challenges and opportunities, important for the design, development and analysis of interactive sport-training games in general.", 
     "authors": [
       {
         "name": "Jensen"
@@ -1347,14 +1347,14 @@ entities={
         "name": "Rasmussen"
       }, 
       {
-        "name": "Gr\u00bfnb\u00bek"
+        "name": "Gr\u00c0nb_k"
       }
     ], 
     "subtype": "Paper", 
     "title": "Design Sensitivities for Interactive Sport-Training Games"
   }, 
   "2902": {
-    "abstract": "For over thirty years researchers have suggested that both tangible user interfaces and digital games have potential to support learning. Each domain now has a well-developed body of literature about how to design them to enable learning benefits. What is needed is a way to bring this knowledge, which is often lengthy, dense, and jargon laden to design practice. To address this need, we designed Tango Cards\u00e3a card-based design tool. In this paper we report on the design and evaluation of the cards. We found that Tango Cards enabled a variety of uses that made design knowledge about tangible learning games accessible to designers. We identify and discuss how specific card features support or limit use by designers. We draw on our findings to set forth design considerations that may support others to create design tools (card-based or alike) that make academic design knowledge accessible to designers.", 
+    "abstract": "For over thirty years researchers have suggested that both tangible user interfaces and digital games have potential to support learning. Each domain now has a well-developed body of literature about how to design them to enable learning benefits. What is needed is a way to bring this knowledge, which is often lengthy, dense, and jargon laden to design practice. To address this need, we designed Tango Cards\u008ba card-based design tool. In this paper we report on the design and evaluation of the cards. We found that Tango Cards enabled a variety of uses that made design knowledge about tangible learning games accessible to designers. We identify and discuss how specific card features support or limit use by designers. We draw on our findings to set forth design considerations that may support others to create design tools (card-based or alike) that make academic design knowledge accessible to designers.", 
     "authors": [
       {
         "name": "Deng"
@@ -1370,7 +1370,7 @@ entities={
     "title": "Tango Cards: A Card-Based Design Tool for Informing the Design of Tangible Learning Games"
   }, 
   "2903": {
-    "abstract": "In this paper we present Game of Words, a crowdsourcing game for public displays that allows the creation of a keyword dictionary to describe locations. It relies on crowdsourcing and gamification to identify, filter, and rank keywords based on their relevance to the location of the public display itself. We demonstrate that crowdsourcing on public displays can leverage users\u00ea knowledge of their environment, can work with a generic gaming task, and can be deployed on displays with multiple concurrent services. Our analysis shows that our approach has important benefits, such as the ability to identify undesired input, provide words of high semantic relevance, as well as a broader scope of keywords. Finally, our analysis also demonstrates that the chosen game design coped well with the challenges of this complex setting (i.e. public urban space) by disincentivising incorrect use of the system.", 
+    "abstract": "In this paper we present Game of Words, a crowdsourcing game for public displays that allows the creation of a keyword dictionary to describe locations. It relies on crowdsourcing and gamification to identify, filter, and rank keywords based on their relevance to the location of the public display itself. We demonstrate that crowdsourcing on public displays can leverage users\u0090 knowledge of their environment, can work with a generic gaming task, and can be deployed on displays with multiple concurrent services. Our analysis shows that our approach has important benefits, such as the ability to identify undesired input, provide words of high semantic relevance, as well as a broader scope of keywords. Finally, our analysis also demonstrates that the chosen game design coped well with the challenges of this complex setting (i.e. public urban space) by disincentivising incorrect use of the system.", 
     "authors": [
       {
         "name": "Goncalves"
@@ -1389,7 +1389,7 @@ entities={
     "abstract": "This paper presents a design exploration of full-body interaction games played in cars. It describes how we have designed, implemented, and evaluated the core experiences of three different games, which were all aimed at making sitting properly more fun for players/children while travelling by car. By making the restricted body an integral part of gameplay, we hope to, as a side product of gameplay, bring about the best and also most safe body posture for young players/children travelling by car, i.e., sitting reasonably upright and still in their child seat with their head leaning back on the neck rest. Another outcome of this could also be an overall safer situation in the car, in that children not sitting still in their child seats while being driven might be stressful for the driver. By presenting the details of our design efforts in this particular design context, we hope to add also to the knowledge we, in HCI, have for how to design bodily experiences with technology at large.", 
     "authors": [
       {
-        "name": "Sundstr\u009am"
+        "name": "Sundstr_m"
       }, 
       {
         "name": "Baumgartner"
@@ -1398,7 +1398,7 @@ entities={
         "name": "Beck"
       }, 
       {
-        "name": "D\u009attlinger"
+        "name": "D_ttlinger"
       }, 
       {
         "name": "Murer"
@@ -1420,7 +1420,7 @@ entities={
     "title": "Gaming to Sit Safe: The Restricted Body as an Integral Part of Gameplay"
   }, 
   "3101": {
-    "abstract": "There has been an ongoing conversation about the role and relationship of theory and practice in the HCI community. This paper explores this relationship privileging a practice perspective through a tentative model, which describes a \u0096bubble-up\u0094 of ideas from practice to inform research and theory development, and an accompanying \u0096trickle-down\u0094 of theory into practice. Interviews were conducted with interaction designers, which included a description of their use of design methods in practice, and their knowledge and use of two common design methods\u00e3affinity diagramming and the concept of affordance. Based on these interviews, potential relationships between theory and practice are explored through this model. Disseminating agents already common in HCI practice are addressed as possible mechanisms for the research community to understand practice more completely. Opportunities for future research, based on the use of the tentative model in a generative way, are considered.", 
+    "abstract": "There has been an ongoing conversation about the role and relationship of theory and practice in the HCI community. This paper explores this relationship privileging a practice perspective through a tentative model, which describes a \u00d0bubble-up\u00d3 of ideas from practice to inform research and theory development, and an accompanying \u00d0trickle-down\u00d3 of theory into practice. Interviews were conducted with interaction designers, which included a description of their use of design methods in practice, and their knowledge and use of two common design methods\u008baffinity diagramming and the concept of affordance. Based on these interviews, potential relationships between theory and practice are explored through this model. Disseminating agents already common in HCI practice are addressed as possible mechanisms for the research community to understand practice more completely. Opportunities for future research, based on the use of the tentative model in a generative way, are considered.", 
     "authors": [
       {
         "name": "Gray"
@@ -1436,7 +1436,7 @@ entities={
     "title": "Reprioritizing the Relationship Between HCI Research and Practice: Bubble-Up and Trickle-Down Effects"
   }, 
   "3102": {
-    "abstract": "This paper reviews diverse examples of \u0096research through design\u0094 in HCI. Various forms and functions of design research artifacts are highlighted, including 3 general types: (1) operational design prototypes and products, (2) conceptual and material design studies and experiments and (3) design proposals. The role of both design artifacts and the research publication itself are highlighted. These roles are further explicated through the concepts of verbal articulation, design articulation, and concept-things. As concluding questions/provocations, the notions of thingly publications, pure design research, and making design research artifacts more public are offered for the HCI community and DIS conference in particular.", 
+    "abstract": "This paper reviews diverse examples of \u00d0research through design\u00d3 in HCI. Various forms and functions of design research artifacts are highlighted, including 3 general types: (1) operational design prototypes and products, (2) conceptual and material design studies and experiments and (3) design proposals. The role of both design artifacts and the research publication itself are highlighted. These roles are further explicated through the concepts of verbal articulation, design articulation, and concept-things. As concluding questions/provocations, the notions of thingly publications, pure design research, and making design research artifacts more public are offered for the HCI community and DIS conference in particular.", 
     "authors": [
       {
         "name": "Pierce"
@@ -1487,10 +1487,10 @@ entities={
     "title": "Making Wellbeing: A Process of User-Centered Design"
   }, 
   "3201": {
-    "abstract": "Despite the large and growing prominence of online and mobile maps, they have not been broadly and systematically examined with a lens informed by traditional cartography. Using an approach rooted in cartographic theory and a unique dataset of 382 publicly-displayed local maps, we identify the \u0096collective wisdom\u0094 of hundreds of cartographers with respect to a number of cartographic design decisions. We compare our findings to the approaches taken in popular online and mobile map platforms and develop suggestions for incorporating the collective wisdom of cartographers into these systems. Our suggestions include the adoption of location-aware cartography, in which cartographic approaches are intelligently varied based on the type of location being viewed. We provide mockup designs of online and mobile maps that implement our suggestions and discuss means by which the surprising gap between online and mobile maps and traditional cartography may be bridged.", 
+    "abstract": "Despite the large and growing prominence of online and mobile maps, they have not been broadly and systematically examined with a lens informed by traditional cartography. Using an approach rooted in cartographic theory and a unique dataset of 382 publicly-displayed local maps, we identify the \u00d0collective wisdom\u00d3 of hundreds of cartographers with respect to a number of cartographic design decisions. We compare our findings to the approaches taken in popular online and mobile map platforms and develop suggestions for incorporating the collective wisdom of cartographers into these systems. Our suggestions include the adoption of location-aware cartography, in which cartographic approaches are intelligently varied based on the type of location being viewed. We provide mockup designs of online and mobile maps that implement our suggestions and discuss means by which the surprising gap between online and mobile maps and traditional cartography may be bridged.", 
     "authors": [
       {
-        "name": "Sch\u009aning"
+        "name": "Sch_ning"
       }, 
       {
         "name": "Hecht"
@@ -1503,7 +1503,7 @@ entities={
     "title": "Informing Online and Mobile Map Design with the Collective Wisdom of Cartographers"
   }, 
   "3202": {
-    "abstract": "A growing trend is the participation in online fandom communities through the support of the blogging platform Tumblr. While past research has investigated backchannels\u00e3chatter related to live entertainment on micro-blogging sites such as Twitter\u00e3there is a lack of research on the behaviours and motivations of Tumblr users. In our study, we investigate why fandom users chose Tumblr over other social networking sites, their motivations behind participating in fandoms, and how they interact within the Tumblr community. Our findings show that users face many user interface challenges when participating in Tumblr fandoms, especially initially; yet, despite this, Tumblr fandom communities thrive with a common sense of social purpose and exclusivity where users feel they can present a more authentic reflection of themselves to those sharing similar experiences and interests. We describe how this suggests design directions for social networking and blogging sites in order to promote communities of users?", 
+    "abstract": "A growing trend is the participation in online fandom communities through the support of the blogging platform Tumblr. While past research has investigated backchannels\u008bchatter related to live entertainment on micro-blogging sites such as Twitter\u008bthere is a lack of research on the behaviours and motivations of Tumblr users. In our study, we investigate why fandom users chose Tumblr over other social networking sites, their motivations behind participating in fandoms, and how they interact within the Tumblr community. Our findings show that users face many user interface challenges when participating in Tumblr fandoms, especially initially; yet, despite this, Tumblr fandom communities thrive with a common sense of social purpose and exclusivity where users feel they can present a more authentic reflection of themselves to those sharing similar experiences and interests. We describe how this suggests design directions for social networking and blogging sites in order to promote communities of users?", 
     "authors": [
       {
         "name": "Hillman"
@@ -1516,7 +1516,7 @@ entities={
       }
     ], 
     "subtype": "Paper", 
-    "title": "\u0095alksjdf;lksfd\u00ea: Tumblr and the Fandom User Experience"
+    "title": "\u00a5alksjdf;lksfd\u0090: Tumblr and the Fandom User Experience"
   }, 
   "3203": {
     "abstract": "This paper describes the Community Historians project, which was a series of public, participatory workshops focused on conceptualizing and enacting forms of citizen engagement through technology. The goal of the project was to provide the space and resources to discover, discuss, and document inherent communal values and tangible resources present in a low-income community. The result of the first workshop was an interactive, alternative asset map of the area. The second workshop involved residents building their own digital cameras from component parts. The purpose of these activities was to reinforce critical thought about how technology affected the lives of residents and to empower adaptation of technology as a tool for communal development.", 
@@ -1532,7 +1532,7 @@ entities={
     "title": "Community Historians: Scaffolding Community Engagement through Culture and Heritage"
   }, 
   "3204": {
-    "abstract": "Online and digital technologies support and extend the action repertoires of localized social movements. In this paper we examine the ways by which digital technologies can support \u0095on-the-ground\u00ea activist communities in the development of social movements. After identifying some of the challenges of deploying conventional voting and consultation technologies for activism, we examine situated political action in local communities through the design and deployment of a low-cost community voting prototype, PosterVote. We deploy PosterVote in two case studies with two local community organizations identifying the features that supported or hindered grassroots democratic practices. Through interviews with these communities, we explore the design of situated voting systems to support participation within an ecology of social action.", 
+    "abstract": "Online and digital technologies support and extend the action repertoires of localized social movements. In this paper we examine the ways by which digital technologies can support \u00a5on-the-ground\u0090 activist communities in the development of social movements. After identifying some of the challenges of deploying conventional voting and consultation technologies for activism, we examine situated political action in local communities through the design and deployment of a low-cost community voting prototype, PosterVote. We deploy PosterVote in two case studies with two local community organizations identifying the features that supported or hindered grassroots democratic practices. Through interviews with these communities, we explore the design of situated voting systems to support participation within an ecology of social action.", 
     "authors": [
       {
         "name": "Vlachokyriakos"
@@ -1557,7 +1557,7 @@ entities={
     "title": "PosterVote: Expanding the Action Repertoire for Local Political Activism"
   }, 
   "3301": {
-    "abstract": "Scripting has become an integral part of design work in Computer-Aided Design (CAD), especially with parametric systems. Designers who script face a very steep learning and use curve due to the new (to them) script notation and the loss of direct manipulation of the model. Programming In the Model (PIM) is a prototype parametric CAD system with a live interface with side-by-side model and script windows; real-time updating of the script and the model; on-demand dependency, object and script representations in the model; and operation preview (lookahead). These features aim to break the steep learning and use curve of scripting into small steps and to bring programming and modeling tasks `closer together.\u00ea A qualitative user study with domain experts shows the importance of multi-directional live scripting and script localization within the model. Other PIM features show promise but require additional design work to create a better user experience.", 
+    "abstract": "Scripting has become an integral part of design work in Computer-Aided Design (CAD), especially with parametric systems. Designers who script face a very steep learning and use curve due to the new (to them) script notation and the loss of direct manipulation of the model. Programming In the Model (PIM) is a prototype parametric CAD system with a live interface with side-by-side model and script windows; real-time updating of the script and the model; on-demand dependency, object and script representations in the model; and operation preview (lookahead). These features aim to break the steep learning and use curve of scripting into small steps and to bring programming and modeling tasks `closer together.\u0090 A qualitative user study with domain experts shows the importance of multi-directional live scripting and script localization within the model. Other PIM features show promise but require additional design work to create a better user experience.", 
     "authors": [
       {
         "name": "Maleki"
@@ -1573,7 +1573,7 @@ entities={
     "title": "Liveness, Localization and Lookahead: Interaction elements for parametric design"
   }, 
   "3302": {
-    "abstract": "Low-cost and commercially available 3D printers are predicted to be the next disruptive innovation in technology. However, little research has examined how non-designers might interact with fabrication tools in their homes. To explore the potential uses of 3D printers and other fabrication devices in the home, we conducted a study in which 10 households (with 28 individuals) kept a faux 3D printer in their homes for four weeks. Participants kept a log of items that they would want to print, and completed a series of design probes. We found that participants\u00ea use of the fabrication tools involved three activities: replicating existing objects, modifying and customizing existing objects, and creating new custom objects. Our study also provides insights on the types of objects that individuals wish to create, and how the faux 3D printer was situated in our participants\u00ea homes.", 
+    "abstract": "Low-cost and commercially available 3D printers are predicted to be the next disruptive innovation in technology. However, little research has examined how non-designers might interact with fabrication tools in their homes. To explore the potential uses of 3D printers and other fabrication devices in the home, we conducted a study in which 10 households (with 28 individuals) kept a faux 3D printer in their homes for four weeks. Participants kept a log of items that they would want to print, and completed a series of design probes. We found that participants\u0090 use of the fabrication tools involved three activities: replicating existing objects, modifying and customizing existing objects, and creating new custom objects. Our study also provides insights on the types of objects that individuals wish to create, and how the faux 3D printer was situated in our participants\u0090 homes.", 
     "authors": [
       {
         "name": "Shewbridge"
@@ -1589,7 +1589,7 @@ entities={
     "title": "Everyday Making: Identifying Future Uses for 3D Printing in the Home"
   }, 
   "3303": {
-    "abstract": "We present the findings of an empirical design study exploring how situating digital fabrication within a souvenir-making activity can enrich an audience\u00eas encounter with cultural events and engage visitors in discussion and reflection upon their experiences. During an incremental accumulative design process, in collaboration with an arts organisation, we developed a series of fabrication activities that offered visitors the opportunity to create their own personalised souvenirs based on their experience of a cultural event. By analyzing visitors\u00ea trajectories of engagement with the event we explore three key findings: activity embedded digital fabrication engages new audiences, encourages conversation and reflection, and presents organisations with new and more playful ways to gain insights into audience experiences.", 
+    "abstract": "We present the findings of an empirical design study exploring how situating digital fabrication within a souvenir-making activity can enrich an audience\u0090s encounter with cultural events and engage visitors in discussion and reflection upon their experiences. During an incremental accumulative design process, in collaboration with an arts organisation, we developed a series of fabrication activities that offered visitors the opportunity to create their own personalised souvenirs based on their experience of a cultural event. By analyzing visitors\u0090 trajectories of engagement with the event we explore three key findings: activity embedded digital fabrication engages new audiences, encourages conversation and reflection, and presents organisations with new and more playful ways to gain insights into audience experiences.", 
     "authors": [
       {
         "name": "Nissen"
@@ -1608,7 +1608,7 @@ entities={
       }
     ], 
     "subtype": "Paper", 
-    "title": "Volvelles, Domes and Wristbands: Embedding Digital Fabrication within a Visitor\u00eas Trajectory of Engagement"
+    "title": "Volvelles, Domes and Wristbands: Embedding Digital Fabrication within a Visitor\u0090s Trajectory of Engagement"
   }, 
   "3304": {
     "abstract": "Over the last years, digital fabrication technologies such as 3D printers have become more and more common at universities and small businesses as well as in communities of hobbyist makers. The high complexity of such technologies, the rapid technological progress and the close link between hardware and software in this field poses challenges for users and communities learning how to operate these machines, especially in the contexts of existing (and changing) practices. We present an empirical study on the appropriation of 3D printers in two different communities and derive design implications and challenges for building appropriation infrastructures to help users face those challenges and making technologies more sociable.", 
@@ -1630,7 +1630,7 @@ entities={
     "title": "Towards Sociable Technologies: An Empirical Study on Designing Appropriation Infrastructures for 3D Printing"
   }, 
   "3401": {
-    "abstract": "We describe the design and deployment of the first system ever to dynamically track and publish records of folk music playing. TuneTracker is a software system that has been, at time of writing, deployed at a pub in Dublin, Ireland for five months. It captures, stores, and posts the names of tunes played in Irish traditional music sessions on a public website. This paper makes two contributions: (1) drawing from a two year ethnographic study of trad musicians, it details the design and development of a system to track and publish traditional musicians\u00ea practices while respecting the ethos of tradition, and (2) it presents a discussion of professional musicians\u00ea reactions to having their music practices surveilled. This latter fieldwork revealed divergent viewpoints on the effect that TuneTracker would have on local sessions and the process of tradition.", 
+    "abstract": "We describe the design and deployment of the first system ever to dynamically track and publish records of folk music playing. TuneTracker is a software system that has been, at time of writing, deployed at a pub in Dublin, Ireland for five months. It captures, stores, and posts the names of tunes played in Irish traditional music sessions on a public website. This paper makes two contributions: (1) drawing from a two year ethnographic study of trad musicians, it details the design and development of a system to track and publish traditional musicians\u0090 practices while respecting the ethos of tradition, and (2) it presents a discussion of professional musicians\u0090 reactions to having their music practices surveilled. This latter fieldwork revealed divergent viewpoints on the effect that TuneTracker would have on local sessions and the process of tradition.", 
     "authors": [
       {
         "name": "Su"
@@ -1643,7 +1643,7 @@ entities={
     "title": "TuneTracker: Tensions in the Surveillance of Traditional Music"
   }, 
   "3402": {
-    "abstract": "We designed and operationalized a greetings model for human robot interaction as a state machine, derived from a subset of social behaviors as detailed by Kendon\u00eas observations of greetings and augmented by Hall\u00eas proxemics theory. Our premise is that designing robot greetings on the social science of human greetings will make the robot\u00eas greeting actions socially understandable. Specifically, we track the location and orientation of a Nao humanoid robot relative to a person, and programmed the robot via state transitions to engage in a distance salutation, approach, close salutation and transition as described by theory. Overall, our design appears effective in simulating social intelligence during greetings.", 
+    "abstract": "We designed and operationalized a greetings model for human robot interaction as a state machine, derived from a subset of social behaviors as detailed by Kendon\u0090s observations of greetings and augmented by Hall\u0090s proxemics theory. Our premise is that designing robot greetings on the social science of human greetings will make the robot\u0090s greeting actions socially understandable. Specifically, we track the location and orientation of a Nao humanoid robot relative to a person, and programmed the robot via state transitions to engage in a distance salutation, approach, close salutation and transition as described by theory. Overall, our design appears effective in simulating social intelligence during greetings.", 
     "authors": [
       {
         "name": "Heenan"
@@ -1662,7 +1662,7 @@ entities={
     "title": "Designing Social Greetings in Human Robot Interaction"
   }, 
   "3403": {
-    "abstract": "As we come to live, work and play in an increasingly digital society, the future of interactive systems research, design, and practice will be shaped partly by larger-scale, cyber-physical systems. The cyber-physical LIT KIT enhances children\u00eas picturebook reading, both during and after interactive read-alouds, creating a multi-media, mixed-reality experience that transforms everyday environments into an environment evocative of the picturebook being read. The room-filled audio-visual-spatial effects of the LIT KIT contextualize language and provide feedback to the participants. The LIT KIT also acts as a story-extension tool, allowing children to customize environmental effects towards interpreting picturebooks for themselves. This paper offers a scenario of the child-computer interaction afforded by the LIT KIT, elucidates the motivations for its design, and focuses on an evaluation activity and its results. Particularly for DIS researchers in the educational domain, the LIT KIT represents a design exemplar that supports children\u00eas enjoyment of learning and meaning-making.", 
+    "abstract": "As we come to live, work and play in an increasingly digital society, the future of interactive systems research, design, and practice will be shaped partly by larger-scale, cyber-physical systems. The cyber-physical LIT KIT enhances children\u0090s picturebook reading, both during and after interactive read-alouds, creating a multi-media, mixed-reality experience that transforms everyday environments into an environment evocative of the picturebook being read. The room-filled audio-visual-spatial effects of the LIT KIT contextualize language and provide feedback to the participants. The LIT KIT also acts as a story-extension tool, allowing children to customize environmental effects towards interpreting picturebooks for themselves. This paper offers a scenario of the child-computer interaction afforded by the LIT KIT, elucidates the motivations for its design, and focuses on an evaluation activity and its results. Particularly for DIS researchers in the educational domain, the LIT KIT represents a design exemplar that supports children\u0090s enjoyment of learning and meaning-making.", 
     "authors": [
       {
         "name": "Schafer"
@@ -1700,7 +1700,7 @@ entities={
     "title": "Crowd-Based Design Activities: Helping Students Connect with Users Online?"
   }, 
   "3501": {
-    "abstract": "HCI has always focused on designing useful and usable interactive systems, but usability has dominated the field while research on usefulness has been largely absent. With user experience (UX) emerging as a dominant paradigm, it is necessary to consider the meaning of usefulness for modern computing contexts. This paper describes the results of an exploratory study of usefulness and its relation to contextual and experiential factors. The results show that a system\u00eas usefulness is shaped by the context in which it is used, usability is closely linked to usefulness, usefulness may have both pragmatic and hedonic attributes, and usefulness is critical in defining users\u00ea overall evaluation of a system (i.e., its goodness). We conclude by discussing the implications of this research and describing plans for extending our understanding of usefulness in other settings.", 
+    "abstract": "HCI has always focused on designing useful and usable interactive systems, but usability has dominated the field while research on usefulness has been largely absent. With user experience (UX) emerging as a dominant paradigm, it is necessary to consider the meaning of usefulness for modern computing contexts. This paper describes the results of an exploratory study of usefulness and its relation to contextual and experiential factors. The results show that a system\u0090s usefulness is shaped by the context in which it is used, usability is closely linked to usefulness, usefulness may have both pragmatic and hedonic attributes, and usefulness is critical in defining users\u0090 overall evaluation of a system (i.e., its goodness). We conclude by discussing the implications of this research and describing plans for extending our understanding of usefulness in other settings.", 
     "authors": [
       {
         "name": "MacDonald"
@@ -1713,7 +1713,7 @@ entities={
     "title": "What Does it Mean for a System to be Useful An Exploratory Study of Usefulness?"
   }, 
   "3502": {
-    "abstract": "Using designers\u00ea personal experiences in interaction design practice is often questioned in a predominantly rationalist practice like HCI and professional interaction design. Perhaps for this reason, little work has been conducted to investigate how designers\u00ea personal experiences can contribute to technology design. Yet it\u00eas undeniable designers have applied their personal experiences to their design practice and also benefited from such experiences. This paper reports on a multiple case study that looks at how interaction designers worked with their personal experiences in three industrial interaction design projects, thus calling for the need to explicitly recognize the legitimacy of using and better support of the use of designers\u00ea personal experiences in interaction design practice. In this study, a designer\u00eas personal experiences refer to the collections of his/her individual experiences derived from his/her direct observation or past real-life events and activities, as well as his/her interaction with design artifacts and systems whether digital or not.", 
+    "abstract": "Using designers\u0090 personal experiences in interaction design practice is often questioned in a predominantly rationalist practice like HCI and professional interaction design. Perhaps for this reason, little work has been conducted to investigate how designers\u0090 personal experiences can contribute to technology design. Yet it\u0090s undeniable designers have applied their personal experiences to their design practice and also benefited from such experiences. This paper reports on a multiple case study that looks at how interaction designers worked with their personal experiences in three industrial interaction design projects, thus calling for the need to explicitly recognize the legitimacy of using and better support of the use of designers\u0090 personal experiences in interaction design practice. In this study, a designer\u0090s personal experiences refer to the collections of his/her individual experiences derived from his/her direct observation or past real-life events and activities, as well as his/her interaction with design artifacts and systems whether digital or not.", 
     "authors": [
       {
         "name": "Zhang"
@@ -1723,7 +1723,7 @@ entities={
       }
     ], 
     "subtype": "Paper", 
-    "title": "Understanding the Role of Designers\u00ea Personal Experiences in Interaction Design Practice"
+    "title": "Understanding the Role of Designers\u0090 Personal Experiences in Interaction Design Practice"
   }, 
   "3503": {
     "abstract": "Acts of technology maintenance and repair constitute important and often overlooked moments in the operation of complex interactive systems. They also provide fresh insight on a series of problems _ innovation, learning, and sustainability _ long core to HCI concern. This paper builds on original ethnographic fieldwork in the repair markets of Dhaka, Bangladesh to advance three basic arguments: first, that repair activities in such locations reveal novel and significant forms of craft-based knowledge and innovation; second, that repair work is embedded in local and transnational flows that connect local practices to global networks and institutions; and third, that taking repair work seriously can cast new light on problems of learning and sustainability in the design and operation of complex interactive systems. We conclude with observations that relate our repair-based findings back to problems in interactive systems research and design.", 
@@ -1748,7 +1748,7 @@ entities={
         "name": "Fernaeus"
       }, 
       {
-        "name": "Vallg\u0091rda"
+        "name": "Vallg\u00d4rda"
       }
     ], 
     "subtype": "Paper", 
@@ -1758,7 +1758,7 @@ entities={
     "abstract": "In this work we present our approach for creating interactive media fa\u008dades by using purpose-built tools. They are intended to create prototypes and conduct field investigations in this domain. We share our vision of an extended design process which describes ways to engage large user groups by urban prototyping and experience novel interventions in public places. Architects, designers and researchers can receive first hand insights into the suitability of their chosen interaction design concept for media architecture by using our tools and approach.", 
     "authors": [
       {
-        "name": "Hoggenm\u0099ller"
+        "name": "Hoggenm\u00aaller"
       }, 
       {
         "name": "Wiethoff"
@@ -1777,7 +1777,7 @@ entities={
         "name": "Binder"
       }, 
       {
-        "name": "J\u008ager"
+        "name": "J_ger"
       }, 
       {
         "name": "Butz"
@@ -1806,7 +1806,7 @@ entities={
     "title": "Using Embodied Audio-Visual Interaction to Promote Social Encounters Around Large Media Fa\u008dades"
   }, 
   "3604": {
-    "abstract": "Interactive digital technologies embedded in urban spaces typically tend to be used to deliver news, context-relevant information and commercial advertisements. To design urban technologies that will serve other ends, we first need to know how people might want to interact with them. Using an ethnographic approach, we collected field data in order to better understand this. This study presents some of the findings of our qualitative evaluation of M\u0080GAPHONE, an interactive artistic installation deployed in a public space in downtown Montr_al, Canada. In this paper, we provide thick descriptions of our detailed field observations and interviews with participants conducted over the ten-week deployment with a deep focus on how users appropriated this system. Our results highlight four public interaction strategies as a set of abstractions that suggest how people might want to make use of interactive public installations: place-making, self-representing, first-person news reporting and bootstrapping online presence with digital recordings.", 
+    "abstract": "Interactive digital technologies embedded in urban spaces typically tend to be used to deliver news, context-relevant information and commercial advertisements. To design urban technologies that will serve other ends, we first need to know how people might want to interact with them. Using an ethnographic approach, we collected field data in order to better understand this. This study presents some of the findings of our qualitative evaluation of M\u00dbGAPHONE, an interactive artistic installation deployed in a public space in downtown Montr_al, Canada. In this paper, we provide thick descriptions of our detailed field observations and interviews with participants conducted over the ten-week deployment with a deep focus on how users appropriated this system. Our results highlight four public interaction strategies as a set of abstractions that suggest how people might want to make use of interactive public installations: place-making, self-representing, first-person news reporting and bootstrapping online presence with digital recordings.", 
     "authors": [
       {
         "name": "Fortin"
@@ -1822,7 +1822,7 @@ entities={
     "title": "The Appropriation of a Digital 'Speakers Corner': Lessons Learned from the Deployment of M_gaphone"
   }, 
   "3701": {
-    "abstract": "Memorialization is a ubiquitous human practice, which is increasingly intersecting with our digital lives. It is becoming ever more commonplace to see discussions and examples of digital memorials in research literature, technology shows and art galleries. However, the design space for digital memorials has, to date, been little explored. In this paper, we propose an emergent framework for digital memorials, based around notions of actors, inputs, form and message. The framework is grounded in examples of current memorialization practice, and situated within a contextual understanding of memorials as an emergent digital phenomenon within a networked society. In detailing the framework we highlight features of the design space that can be exploited in the development of bespoke memorial technologies, and identify potential areas of future interest that this framework brings to the fore, such as HCI\u00eas engagement with critical concepts of the postself and temporality.", 
+    "abstract": "Memorialization is a ubiquitous human practice, which is increasingly intersecting with our digital lives. It is becoming ever more commonplace to see discussions and examples of digital memorials in research literature, technology shows and art galleries. However, the design space for digital memorials has, to date, been little explored. In this paper, we propose an emergent framework for digital memorials, based around notions of actors, inputs, form and message. The framework is grounded in examples of current memorialization practice, and situated within a contextual understanding of memorials as an emergent digital phenomenon within a networked society. In detailing the framework we highlight features of the design space that can be exploited in the development of bespoke memorial technologies, and identify potential areas of future interest that this framework brings to the fore, such as HCI\u0090s engagement with critical concepts of the postself and temporality.", 
     "authors": [
       {
         "name": "Moncur"
@@ -1835,7 +1835,7 @@ entities={
     "title": "An Emergent Framework for Digital Memorials"
   }, 
   "3702": {
-    "abstract": "The creation of a personal legacy is a process through which information, values, and memories are passed down to future generations. This process is inherently subjective, both as a curated collection of the elements of one\u00eas life, and as an evolving form of remembrance that is subject to the interpretations of those to whom it is left. Based on directed storytelling sessions with 14 adults from a large Midwestern city in the United States, we explore users\u00ea perceptions of how their use of digital systems and information will impact how their lives are interpreted and reflected upon by their families and by future generations. Our findings describe nuances regarding how shifting notions about technological systems and the long-term accessibility of digital information impact the ways in which we share, and subsequently manage, information online. This work, explored here in the context of legacy, exposes opportunities to help users engage with their digital information through the curation of meaningful records, the dispossession of digital debris, and a reexamination of how digital systems and services influence the accessibility and lifespan of digital information.", 
+    "abstract": "The creation of a personal legacy is a process through which information, values, and memories are passed down to future generations. This process is inherently subjective, both as a curated collection of the elements of one\u0090s life, and as an evolving form of remembrance that is subject to the interpretations of those to whom it is left. Based on directed storytelling sessions with 14 adults from a large Midwestern city in the United States, we explore users\u0090 perceptions of how their use of digital systems and information will impact how their lives are interpreted and reflected upon by their families and by future generations. Our findings describe nuances regarding how shifting notions about technological systems and the long-term accessibility of digital information impact the ways in which we share, and subsequently manage, information online. This work, explored here in the context of legacy, exposes opportunities to help users engage with their digital information through the curation of meaningful records, the dispossession of digital debris, and a reexamination of how digital systems and services influence the accessibility and lifespan of digital information.", 
     "authors": [
       {
         "name": "Gulotta"
@@ -1854,7 +1854,7 @@ entities={
     "title": "Legacy in the Age of the Internet: Reflections on How Interactive Systems Shape How We Are Remembered"
   }, 
   "3703": {
-    "abstract": "People worldwide are increasingly acquiring virtual possessions. While virtual possessions have become ubiquitous, little work exists on how people value them, and how their experiences of them differ from material possessions. In this paper, we reflect on and synthesize findings from five studies we conducted over the past five years that investigated people\u00eas perceptions of and practices with virtual possessions. Through the higher-level perspective we adopt, we propose three thematic qualities that help characterize people\u00eas experiences with virtual possessions, as compared to their material things: placelessness, spacelessness, and formlessness. We draw on these proposed qualities as lenses to help frame future research and practice opportunities for better supporting value construction activities with virtual possessions.", 
+    "abstract": "People worldwide are increasingly acquiring virtual possessions. While virtual possessions have become ubiquitous, little work exists on how people value them, and how their experiences of them differ from material possessions. In this paper, we reflect on and synthesize findings from five studies we conducted over the past five years that investigated people\u0090s perceptions of and practices with virtual possessions. Through the higher-level perspective we adopt, we propose three thematic qualities that help characterize people\u0090s experiences with virtual possessions, as compared to their material things: placelessness, spacelessness, and formlessness. We draw on these proposed qualities as lenses to help frame future research and practice opportunities for better supporting value construction activities with virtual possessions.", 
     "authors": [
       {
         "name": "Odom"
@@ -1870,7 +1870,7 @@ entities={
     "title": "Placelessness, Spacelessness, and Formlessness: Experiential Qualities of Virtual Possessions"
   }, 
   "3704": {
-    "abstract": "The Reflexive Printer is a physical artifact combined with a mobile application. It allows digital-photo natives to enrich their experiences of daily reminiscence. Each day, the system takes one picture from a user\u00eas smartphone album, prints it on thermal paper as a halftone image, and deletes it from the smartphone. With a critical lens, we reframe technology-mediated reminiscence as an intersubjective interaction between human and artifact. In this mutually informed relationship, we propose perceived drawbacks as a design quality for provoking the critical sensibilities of users and engaging them in transgressing the normality of digital photo consumption. We focus our design thinking on three themes: simple materiality and monological performance, fast consumption and slow rumination, and powerful artifact and feeble user. This paper describes the initial lessons that we have learned through this critical making process and highlights several insights that HCI communities can leverage in the future.", 
+    "abstract": "The Reflexive Printer is a physical artifact combined with a mobile application. It allows digital-photo natives to enrich their experiences of daily reminiscence. Each day, the system takes one picture from a user\u0090s smartphone album, prints it on thermal paper as a halftone image, and deletes it from the smartphone. With a critical lens, we reframe technology-mediated reminiscence as an intersubjective interaction between human and artifact. In this mutually informed relationship, we propose perceived drawbacks as a design quality for provoking the critical sensibilities of users and engaging them in transgressing the normality of digital photo consumption. We focus our design thinking on three themes: simple materiality and monological performance, fast consumption and slow rumination, and powerful artifact and feeble user. This paper describes the initial lessons that we have learned through this critical making process and highlights several insights that HCI communities can leverage in the future.", 
     "authors": [
       {
         "name": "Tsai"
@@ -1892,7 +1892,7 @@ entities={
     "title": "The Reflexive Printer: Toward Making Sense of Perceived Drawbacks in Technology-Mediated Reminiscence"
   }, 
   "3801": {
-    "abstract": "This paper explores the relationships between fashion and Sustainable HCI, with an eye towards identifying positive design opportunities that create sustainable good. First, we report on a review of fashion-related literatures outside of HCI, mostly in sociocultural studies, business and marketing research. Within HCI, we use Blevis\u00ea five sustainable interaction design principles as a frame to present new directions that arise from thinking about fashion in relation to sustainability. In order to construct a clear basis for fashion thinking within the domain of HCI, we postulate six fashion concepts that owe to literatures outside of HCI. For each fashion concept, we derive a fashion thinking issue, provide design examples, and propose actionable design principles, to illustrate the instrumental value that each fashion concept offers to sustainable HCI. We conclude simply by identifying future research directions to which we and others may contribute.", 
+    "abstract": "This paper explores the relationships between fashion and Sustainable HCI, with an eye towards identifying positive design opportunities that create sustainable good. First, we report on a review of fashion-related literatures outside of HCI, mostly in sociocultural studies, business and marketing research. Within HCI, we use Blevis\u0090 five sustainable interaction design principles as a frame to present new directions that arise from thinking about fashion in relation to sustainability. In order to construct a clear basis for fashion thinking within the domain of HCI, we postulate six fashion concepts that owe to literatures outside of HCI. For each fashion concept, we derive a fashion thinking issue, provide design examples, and propose actionable design principles, to illustrate the instrumental value that each fashion concept offers to sustainable HCI. We conclude simply by identifying future research directions to which we and others may contribute.", 
     "authors": [
       {
         "name": "Pan"
@@ -1905,7 +1905,7 @@ entities={
     "title": "Fashion Thinking: Lessons from Fashion and Sustainable Interaction Design, Concepts and Issues"
   }, 
   "3802": {
-    "abstract": "Tightly regulating indoor building temperatures using mechanical heating and cooling contributes significantly to worldwide greenhouse gas emissions. One promising approach for reducing the energy demand associated with indoor climate control is the adaptive model for thermal comfort. In this paper, we explore the challenges and opportunities for supporting the transition toward adaptive thermal comfort in conventionally heated buildings. We replaced the heating control system for eight university undergraduates living on campus for fifty days from January-March 2013. We report on the participants\u00ea experiences of living with and adapting to the change in conditions. We reflect on the lessons arising from our intervention for researchers and practitioners seeking to design for sustainability and thermal comfort.", 
+    "abstract": "Tightly regulating indoor building temperatures using mechanical heating and cooling contributes significantly to worldwide greenhouse gas emissions. One promising approach for reducing the energy demand associated with indoor climate control is the adaptive model for thermal comfort. In this paper, we explore the challenges and opportunities for supporting the transition toward adaptive thermal comfort in conventionally heated buildings. We replaced the heating control system for eight university undergraduates living on campus for fifty days from January-March 2013. We report on the participants\u0090 experiences of living with and adapting to the change in conditions. We reflect on the lessons arising from our intervention for researchers and practitioners seeking to design for sustainability and thermal comfort.", 
     "authors": [
       {
         "name": "Clear"
@@ -1924,10 +1924,10 @@ entities={
     "title": "Catch my Drift Achieving Comfort More Sustainably in Conventionally Heated Buildings"
   }, 
   "3803": {
-    "abstract": "Sustainable HCI grapples with how to use technology design to make social change. This is made difficult by recurring dilemmas about how to truly make change, like how to increase the scale and duration of design impact. In this essay, we reflect on our own journey to better understand design for social change by taking inspiration from two groups that have long engaged in making change towards sustainability _ simple living and organic farm families. We describe 5 key dilemmas that both the families and HCI designers struggle with and reflect on how we can learn from families\u00ea practices to negotiate these dilemmas. We contribute a deepened understanding of the dilemmas of and opportunities for making change for sustainable HCI.", 
+    "abstract": "Sustainable HCI grapples with how to use technology design to make social change. This is made difficult by recurring dilemmas about how to truly make change, like how to increase the scale and duration of design impact. In this essay, we reflect on our own journey to better understand design for social change by taking inspiration from two groups that have long engaged in making change towards sustainability _ simple living and organic farm families. We describe 5 key dilemmas that both the families and HCI designers struggle with and reflect on how we can learn from families\u0090 practices to negotiate these dilemmas. We contribute a deepened understanding of the dilemmas of and opportunities for making change for sustainable HCI.", 
     "authors": [
       {
-        "name": "H\u008ckansson"
+        "name": "H\u00cekansson"
       }, 
       {
         "name": "Sengers"
@@ -1975,7 +1975,7 @@ entities={
     "title": "PianoText: Redesigning the Piano Keyboard for Text Entry"
   }, 
   "3902": {
-    "abstract": "Somaesthetics has been adapted as a theoretical foundation for explaining the aesthetic experience of interaction. However, the practice of somaesthetics remains relatively unexplored in HCI, and it has potential to improve the ideation process of interactive product design by improving designers and developers\u00ea sensibility of haptic, dynamic, and invisible qualities of movements. We introduce somaesthetic reflection, a somatic introspection method in pragmatic somaesthetics, and explore its impact on the ideation through a practical workshop. This study revealed that somaesthetic reflection helps the participants experience and recognize unconscious movements and coordination of movements, which further contributes to discovery of design issues in the ideation, and more effective experience prototyping of interaction with moving products. The characteristics of the design approaches found in this study are discussed.", 
+    "abstract": "Somaesthetics has been adapted as a theoretical foundation for explaining the aesthetic experience of interaction. However, the practice of somaesthetics remains relatively unexplored in HCI, and it has potential to improve the ideation process of interactive product design by improving designers and developers\u0090 sensibility of haptic, dynamic, and invisible qualities of movements. We introduce somaesthetic reflection, a somatic introspection method in pragmatic somaesthetics, and explore its impact on the ideation through a practical workshop. This study revealed that somaesthetic reflection helps the participants experience and recognize unconscious movements and coordination of movements, which further contributes to discovery of design issues in the ideation, and more effective experience prototyping of interaction with moving products. The characteristics of the design approaches found in this study are discussed.", 
     "authors": [
       {
         "name": "Lee"
@@ -2007,7 +2007,7 @@ entities={
     "title": "Human Actions Made Tangible: Analysing the Temporal Organization of Activities"
   }, 
   "3904": {
-    "abstract": "The 'Uncanny Valley' theory explains the counter-intuitive phenomenon where people may get suddenly uncomfortable with an artificial entity when it becomes very similar to humans. We propose the existence of an \u0096uncanny valley\u0094 for embodied interaction, when a user\u00eas body motions in the physical space (the locus of interaction) are incompletely mapped into effects in the virtual space (the focus of interaction). It is generally assumed that this mapping should be as veridical as possible to promote seamless embodied interaction. Many design factors (e.g., synchronicity, sensitivity, shared realism) contribute to veridical locus-focus mapping. We intentionally varied the level of veridicality of these different factors, affecting how the user\u00eas movements were mapped to virtual effects. Our results indicate that there is a dip (valley) in user preferences when the design contains mixed degrees of veridicality. Thus, when one veridical dimension is limited, designers should likewise reduce the veridicality of other dimensions.", 
+    "abstract": "The 'Uncanny Valley' theory explains the counter-intuitive phenomenon where people may get suddenly uncomfortable with an artificial entity when it becomes very similar to humans. We propose the existence of an \u00d0uncanny valley\u00d3 for embodied interaction, when a user\u0090s body motions in the physical space (the locus of interaction) are incompletely mapped into effects in the virtual space (the focus of interaction). It is generally assumed that this mapping should be as veridical as possible to promote seamless embodied interaction. Many design factors (e.g., synchronicity, sensitivity, shared realism) contribute to veridical locus-focus mapping. We intentionally varied the level of veridicality of these different factors, affecting how the user\u0090s movements were mapped to virtual effects. Our results indicate that there is a dip (valley) in user preferences when the design contains mixed degrees of veridicality. Thus, when one veridical dimension is limited, designers should likewise reduce the veridicality of other dimensions.", 
     "authors": [
       {
         "name": "Cafaro"
@@ -2044,7 +2044,7 @@ entities={
     "subtype": "Paper", 
     "title": "Vocalizing Dance Movement for Interactive Sonification of Laban Effort Factors (Note)"
   }, 
-  "700": {
+  "9700": {
     "abstract": "Design Jam & welcome reception", 
     "authors": [
       {
@@ -2054,7 +2054,7 @@ entities={
     "subtype": "Paper", 
     "title": "Design Jam & welcome reception"
   }, 
-  "710": {
+  "9710": {
     "abstract": "Opening Plenary", 
     "authors": [
       {
@@ -2064,7 +2064,7 @@ entities={
     "subtype": "Paper", 
     "title": "Plenary"
   }, 
-  "720": {
+  "9720": {
     "abstract": "Honoring Protocol: Design by, for and with Aboriginal Peoples", 
     "authors": [
       {
@@ -2074,7 +2074,7 @@ entities={
     "subtype": "Paper", 
     "title": "Special Program Panel"
   }, 
-  "730": {
+  "9730": {
     "abstract": "Closing Plenary", 
     "authors": [
       {
