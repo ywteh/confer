@@ -1,0 +1,16 @@
+
+pn235: Combining Body Pose, Gaze, and Gesture to Determine Intention to Interact in Vision-Based Interfaces -- Paper
+
+Vision-based interfaces, such as those made popular by the Microsoft Kinect, suffer from the Midas Touch problem: every user motion can be interpreted as an interaction. In response, we developed an algorithm that combines facial features, body pose and motion to approximate a user’s intention to interact with the system. We show how this can be used to determine when to pay attention to a user’s actions and when to ignore them. To demonstrate the value of our approach, we present results from a 30-person lab study conducted to compare four engagement algorithms in single and multi-user scenarios. We found that combining intention to interact with a “raise an open hand in front of you” gesture yielded the best results. The latter approach offers a 12% improvement in accuracy and a 20% reduction in time to engage over a baseline “wave to engage” gesture currently used on the Xbox 360.
+Free-space interaction,vision-based input,user engagement,input segmentation,learned models
+
+
+pn138: Vulture: A Mid-Air Word-Gesture Keyboard -- Paper
+
+Word-gesture keyboards enable fast text entry by letting users draw the shape of a word on the input surface. Such keyboards have been used extensively for touch devices, but not in mid-air, even though their fluent gestural input seems well suited for this modality. We present Vulture, a word-gesture keyboard for mid-air operation. Vulture adapts touch based word-gesture algorithms to work in mid-air, projects users’ movement onto the display, and uses pinch as a word delimiter. A first 10-session study suggests text-entry rates of 20.6 Words Per Minute (WPM) and finds hand-movement speed to be the primary predictor of WPM. A second study shows that with training on a few phrases, participants do 28.1 WPM, 59% of the text-entry rate of direct touch input. Participants’ recall of trained gestures in mid-air was low, suggesting that visual feedback is important but also limits performance. Based on data from the studies, we discuss improvements to Vulture and some alternative designs for mid-air text entry.
+Word-gesture keyboard,shape writing,text entry,mid-air interaction,in-air interaction,freehand interaction
+
+pn142: Duet: Exploring Joint Interactions on a Smart Phone and a Smart Watch -- Paper
+
+The emergence of smart devices (e.g., smart watches and smart eyewear) is redefining mobile interaction from the solo performance of a smart phone, to a symphony of multiple devices. In this paper, we present Duet – an interactive system that explores a design space of interactions between a smart phone and a smart watch. Based on the devices’ spatial configurations, Duet coordinates their motion and touch input, and extends their visual and tactile output to one another. This transforms the watch into an active element that enhances a wide range of phone-based interactive tasks, and enables a new class of multi-device gestures and sensing techniques. A technical evaluation shows the accuracy of these gestures and sensing techniques, and a subjective study on Duet provides insights, observations, and guidance for future work.
+Duet,joint interaction,smart phone,smart watch.

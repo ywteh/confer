@@ -157,6 +157,20 @@
 	      "end_date": "2014-02-28",
 	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 12,
+	    "fields": {
+	      "unique_name": "dis2014",
+	      "confer_name": "mydis",
+	      "title": "DIS 2014 - The ACM conference on Designing Interactive Systems (DIS) 2014ss",
+	      "subtitle": "",
+	      "blurb": "The ACM conference on Designing Interactive Systems is the premier, international arena where designers, artists, psychologists, user experience researchers, systems engineers & many more debate & shape the future of interactive systems design & practice.",
+	      "location": "Vancouver, Canada",
+	      "start_date": "2014-06-21",
+	      "end_date": "2014-06-25",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
+	  	}
 	}
 
 
