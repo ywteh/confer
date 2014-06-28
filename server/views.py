@@ -38,17 +38,26 @@ def create_conference(request):
   login_name = '' if not user else user.f_name
   if (request.method == "POST"):
     conf_name = request.POST["conference_name"]
-    conf_date = request.POST["conference_date"]
+    conf_start_date = request.POST["conference_start_date"]
+    conf_end_date = request.POST["conference_end_date"]
+    conf_title = request.POST["conference_title"]
     conf_location = request.POST["conference_location"]
     conf_description = request.POST["conference_description"]
     c = {
         'login_id': login_id,
         'login_name': login_name,
         'conf_name' : conf_name,
-        'conf_date' : conf_date,
+        'conf_start_date' : conf_start_date,
+        'conf_end_date' : conf_end_date,
+        'conf_title' : conf_title,
         'conf_location' : conf_location,
         'conf_description' : conf_description
-        }
+        }  
+
+    conf = Conference(unique_name=conf_name, confer_name=conf_name, title=conf_title, 
+                      location=conf_location, start_date=conf_start_date, end_date=conf_end_date,
+                      subtitle="",blurb=conf_description,admins="[%s]" %(login_id), hidden=False) 
+    conf.save()
     c.update(csrf(request))
     return render_to_response("data_entry.html", c)
 
