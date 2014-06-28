@@ -1,4 +1,4 @@
-import sys, json, csv, re, time
+import sys, json, csv, re, time, os
 
 papers = {}
 sessions = {}
@@ -128,12 +128,19 @@ def prepare_json_from_file(conf_name, file):
   data_file = file
   prepare_data (data_file)
   # write files
-  p = open('data/' + conf_name + '/papers.json','w')
+  path = os.path.abspath(os.path.dirname(__file__))
+  if not os.path.exists(path + '/data/' + conf_name):
+    os.mkdir(path + '/data/' + conf_name)
+  p = open(path + '/data/' + conf_name + '/papers.json','w')
   p.write(json.dumps(papers, indent=2, sort_keys=True))
-  p = open('server/static/conf/' + conf_name + '/data/papers.json','w')
+  if not os.path.exists(path + '/server/static/conf/' + conf_name):
+    os.mkdir(path + '/server/static/conf/' + conf_name)
+  if not os.path.exists(path + '/server/static/conf/' + conf_name + '/data/'):
+    os.mkdir(path + '/server/static/conf/' + conf_name + '/data/')
+  p = open(path + '/server/static/conf/' + conf_name + '/data/papers.json','w')
   p.write('entities='+json.dumps(papers, indent=2, sort_keys=True))
-  p = open('server/static/conf/' + conf_name + '/data/sessions.json','w')
+  p = open(path + '/server/static/conf/' + conf_name + '/data/sessions.json','w')
   p.write('sessions='+json.dumps(sessions, indent=2, sort_keys=True))
-  p = open('server/static/conf/' + conf_name +'/data/schedule.json','w')
+  p = open(path + '/server/static/conf/' + conf_name +'/data/schedule.json','w')
   p.write('schedule='+json.dumps(schedule, indent=2, sort_keys=True))
   

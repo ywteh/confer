@@ -115,7 +115,7 @@ def create_table_from_file(request):
       conference_name = request.POST['conference_name']
       save_uploaded_file(conference_name, file_data)
       prepare_json_from_file(conference_name, conference_name)
-      return HttpResponseRedirect('/browse/%s/%s' %(login, repo))
+      return HttpResponseRedirect('/')
   except Exception, e:
     return HttpResponse(
         json.dumps(
