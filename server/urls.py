@@ -5,7 +5,11 @@ urlpatterns = patterns('',
     url(r'^home$', 'server.views.home'),
     url(r'^team', 'server.views.team'),
     url(r'^credits', 'server.views.credits'),
-    
+
+    url(r'^admin', 'server.views.admin'),
+    url(r'^create_conference', 'server.views.create_conference'),
+    url(r'^data_entry', 'server.views.data_entry'),
+    url(r'^create_table_from_file', 'server.views.create_table_from_file'),
     url(r'^data', 'server.views.data'),
     url(r'^recs', 'server.views.get_recs'),
     url(r'^like/(\w+)$', 'server.views.like'),

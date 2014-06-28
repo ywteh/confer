@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random, codecs, csv
 
 from auth import *
 from django.http import *
@@ -8,6 +8,7 @@ from django.core.context_processors import csrf
 from django.db.utils import IntegrityError
 from collections import defaultdict
 
+from prepare_json import * 
 from utils import *
 from models import *
 
@@ -32,6 +33,24 @@ def home (request):
       }
   )
 
+def create_conference(request):
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
+  if (request.method == "POST"):
+    conf_name = request.POST["conference_name"]
+    conf_date = request.POST["conference_date"]
+    conf_location = request.POST["conference_location"]
+    conf_description = request.POST["conference_description"]
+    c = {
+        'login_id': login_id,
+        'login_name': login_name,
+        'conf_name' : conf_name,
+        'conf_date' : conf_date,
+        'conf_location' : conf_location,
+        'conf_description' : conf_description
+        }
+    c.update(csrf(request))
+    return render_to_response("data_entry.html", c)
 
 def team (request):
   current_team = json.loads(
@@ -46,6 +65,18 @@ def team (request):
       'login_id': login_id,
       'login_name': login_name
     }
+  )
+
+def admin(request):
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
+  c = {
+      'login_id': login_id,
+      'login_name': login_name
+    }
+  c.update(csrf(request))
+  return render_to_response (
+    'admin.html', c
   )
 
 def credits (request):
@@ -67,6 +98,29 @@ def developer (request):
       'login_name': login_name
     }
   )
+
+def save_uploaded_file(file_name, file_data):
+  with open(file_name, 'wb+') as destination:
+    for chunk in file_data.chunks():
+      destination.write(chunk)
+
+#@login_required
+def create_table_from_file(request):
+  try:
+    login = get_login(request)
+    repo = ''
+    if request.method == 'POST':
+      file_data = request.FILES['data_file']
+      table_name = request.POST['table_name']
+      conference_name = request.POST['conference_name']
+      save_uploaded_file(conference_name, file_data)
+      prepare_json_from_file(conference_name, conference_name)
+      return HttpResponseRedirect('/browse/%s/%s' %(login, repo))
+  except Exception, e:
+    return HttpResponse(
+        json.dumps(
+          {'error': str(e)}),
+        mimetype="application/json")
 
 
 def conf (request, conf):
