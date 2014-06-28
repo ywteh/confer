@@ -24,14 +24,22 @@
     </div>
         <label for="conference_name">Conference Name</label><br />
         <input type="text" name="conference_name" placeholder="Conference Name"><br /><br />
-        <label for="conference_date">Conference Date</label><br />
-	<input type="text" name="conference_date" placeholder="June 8 - June 15"><br /><br />
+	<label for="conference_title">Conference Title</label><br />
+        <input type="text" name="conference_title" placeholder="Conference Title"><br /><br />
+        <label for="conference_start_date">Conference Start Date</label><br />
+	<input type="text" class="date" name="conference_start_date" placeholder="June 8"><br /><br />
+	<label for="conference_end_date">Conference End Date</label><br />
+        <input type="text" class="date" name="conference_end_date" placeholder="June 15"><br /><br />
 	<label for="conference_location">Conference Location</label><br />
 	<input type="text" name="conference_location" placeholder="San Francisco, California"><br /><br />
 	<label for="conference_description">Description in a few sentences</label><br />
         <textarea type="textarea" style="width:100%; height:200px;" name="conference_description" placeholder="The ACM conference on Designing Interactive Systems is the premier, international arena where designers, artists, psychologists, user experience researchers, systems engineers & many more debate & shape the future of interactive systems design & practice."></textarea>
 	<input class="button" type="submit" value="Create Table"/>
-
         </form>
+ <script type="text/javascript">
+ $(document).ready(function() {
+   $(".date").datepicker({ dateFormat: 'yy-mm-dd' });
+ });
+ </script>
 
 {% endblock %}
