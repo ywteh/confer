@@ -36,14 +36,16 @@ def home (request):
 def create_conference(request):
   login_id, user = get_login(request)
   login_name = '' if not user else user.f_name
-  if (request.method == "POST"):
-    conf_name = request.POST["conference_name"]
-    conf_start_date = request.POST["conference_start_date"]
-    conf_end_date = request.POST["conference_end_date"]
-    conf_title = request.POST["conference_title"]
-    conf_location = request.POST["conference_location"]
-    conf_description = request.POST["conference_description"]
-    c = {
+  errors = []
+  try:
+    if (request.method == "POST"):
+      conf_name = request.POST["conference_name"]
+      conf_start_date = request.POST["conference_start_date"]
+      conf_end_date = request.POST["conference_end_date"]
+      conf_title = request.POST["conference_title"]
+      conf_location = request.POST["conference_location"]
+      conf_description = request.POST["conference_description"]
+      c = {
         'login_id': login_id,
         'login_name': login_name,
         'conf_name' : conf_name,
@@ -53,14 +55,20 @@ def create_conference(request):
         'conf_location' : conf_location,
         'conf_description' : conf_description
         }  
-
-    conf = Conference(unique_name=conf_name, confer_name=conf_name, title=conf_title, 
-                      location=conf_location, start_date=conf_start_date, end_date=conf_end_date,
-                      subtitle="",blurb=conf_description,admins="[%s]" %(login_id), hidden=False) 
-    conf.save()
+      
+      conf = Conference(unique_name=conf_name, confer_name=conf_name, title=conf_title, 
+                        location=conf_location, start_date=conf_start_date, end_date=conf_end_date,
+                        subtitle="",blurb=conf_description,admins="[%s]" %(login_id), hidden=False) 
+      conf.save()
+      c.update(csrf(request))
+      return render_to_response("data_entry.html", c)
+  except Exception, e:
+    errors.append('Error: %s ' %(str(e)))
+    c = {'errors': errors}
     c.update(csrf(request))
-    return render_to_response("data_entry.html", c)
+    return render_to_response('admin.html', c)
 
+      
 def team (request):
   current_team = json.loads(
       open(p+'/fixtures/' + 'team.json').read())
@@ -114,13 +122,12 @@ def save_uploaded_file(file_name, file_data):
       destination.write(chunk)
 
 #@login_required
-def create_table_from_file(request):
+def process_conference_data(request):
   try:
     login = get_login(request)
     repo = ''
     if request.method == 'POST':
       file_data = request.FILES['data_file']
-      table_name = request.POST['table_name']
       conference_name = request.POST['conference_name']
       save_uploaded_file(conference_name, file_data)
       prepare_json_from_file(conference_name, conference_name)

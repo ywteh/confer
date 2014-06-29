@@ -13,8 +13,8 @@
 {% endif %}
 {% endblock %}
 {% block content %}
-<form class="form-container" method="POST" action="/create_table_from_file" enctype='multipart/form-data'>
-        <h3 style="padding-bottom:0.5em;">Create new table by uploading a csv file</h3>
+<form class="form-container" method="POST" action="/process_conference_data" enctype='multipart/form-data'>
+        <h3 style="padding-bottom:0.5em;">Enter your conference data by uploading a csv file</h3>
         {% csrf_token %}
         <input type="hidden" name="conference_name" value="{{conf_name}}" />
         <div id="error">
@@ -22,11 +22,9 @@
         {% endfor %}
         <br />
     </div>
-        <label for="data_file">Table Data File (csv with headers)</label><br />
-        <input type="file" name="data_file" placeholder="Data File"> <br /> <br /> <br />
-        <label for="table_name">Table Name</label><br />
-        <input type="text" name="table_name" placeholder="Table Name"><br /><br />
-        <input class="button" type="submit" value="Create Table"/>
+        <label for="data_file" style="line-height:21px;">Conference Data File (CSV format with required headers)</label><br />
+        <input type="file" style="padding-top:7px;" name="data_file" placeholder="Data File"> <br /> <br /> <br />
+        <input class="button" type="submit" value="Enter conference data"/>
 
         </form>
 
