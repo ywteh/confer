@@ -1,4 +1,4 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random, codecs, csv
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random, codecs, csv, subprocess
 
 from auth import *
 from django.http import *
@@ -131,6 +131,9 @@ def process_conference_data(request):
       conference_name = request.POST['conference_name']
       save_uploaded_file(conference_name, file_data)
       prepare_json_from_file(conference_name, conference_name)
+      cmd = ["sh java/indexer/run.sh %s " % (conference_name)]
+      indexer_process = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell = True)
+      indexer_process.communicate()  # wait for process to complete.
       return HttpResponseRedirect('/')
   except Exception, e:
     return HttpResponse(
