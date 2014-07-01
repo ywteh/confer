@@ -1,17 +1,5 @@
 [
 	{
-		"name": "Anant Bhardwaj",
-		"web": "http://people.csail.mit.edu/anantb",
-		"affiliation": "Ph.D. Student, MIT CSAIL"  
-	},
-
-	{
-		"name": "David Karger",
-		"web": "http://people.csail.mit.edu/karger",
-		"affiliation": "Professor, MIT CSAIL"  
-	},
-
-	{
 		"name": "Juho Kim",
 		"web": "http://www.juhokim.com",
 		"affiliation": "Ph.D. Student, MIT CSAIL"  
@@ -26,12 +14,6 @@
 	{
 		"name": "Rob Miller",
 		"web": "http://people.csail.mit.edu/rcm",
-		"affiliation": "Professor, MIT CSAIL"  
-	},
-
-	{
-		"name": "Sam Madden",
-		"web": "http://people.csail.mit.edu/madden",
 		"affiliation": "Professor, MIT CSAIL"  
 	}
 	
