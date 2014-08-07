@@ -1,0 +1,128 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Allen}{2000}]{EventPlanning}
+Allen, J.
+\newblock 2000.
+\newblock {\em Event Planning: The Ultimate Guide To Successful Meetings,
+  Corporate Events, Fundraising Galas, Conferences, Conventions, Incentives,
+  And Other Special Events}.
+\newblock Toronto: John Wiley \& Sons Canada.
+
+\bibitem[\protect\citeauthoryear{Andr{\'e} \bgroup et al\mbox.\egroup
+  }{2013}]{CommunityClusteringHCOMP13}
+Andr{\'e}, P.; Zhang, H.; Kim, J.; Chilton, L.~B.; Dow, S.~P.; and Miller,
+  R.~C.
+\newblock 2013.
+\newblock Community clustering: Leveraging an academic crowd to form coherent
+  conference sessions.
+\newblock In {\em First AAAI Conference on Human Computation and
+  Crowdsourcing}.
+\newblock AAAI.
+
+\bibitem[\protect\citeauthoryear{Chilton \bgroup et al\mbox.\egroup
+  }{2014}]{FrenzyCHI2014}
+Chilton, L.~B.; Kim, J.; Andr{\'e}, P.; Cordeiro, F.; Landay, J.~A.; Weld,
+  D.~S.; Dow, S.~P.; Miller, R.~C.; and Zhang, H.
+\newblock 2014.
+\newblock Frenzy: Collaborative data organization for creating conference
+  sessions.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '14.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Confer}{2014}]{Confer}
+Confer.
+\newblock 2014.
+\newblock Confer.
+\newblock http://confer.csail.mit.edu.
+
+\bibitem[\protect\citeauthoryear{Confex}{2014}]{Confex}
+Confex.
+\newblock 2014.
+\newblock Confex.
+\newblock http://confex.com.
+
+\bibitem[\protect\citeauthoryear{DiSalvo \bgroup et al\mbox.\egroup
+  }{2011}]{CoDesign}
+DiSalvo, C.; Lodato, T.; Fries, L.; Schechter, B.; and Barnwell, T.
+\newblock 2011.
+\newblock The collective articulation of issues as design practice.
+\newblock {\em CoDesign} 7(3-4):185--197.
+
+\bibitem[\protect\citeauthoryear{Ekstrand, Riedl, and
+  Konstan}{2011}]{CollaborativeFiltering}
+Ekstrand, M.~D.; Riedl, J.~T.; and Konstan, J.~A.
+\newblock 2011.
+\newblock Collaborative filtering recommender systems.
+\newblock {\em Foundations and Trendstextregistered in Human-Computer
+  Interaction} 4:175--243.
+
+\bibitem[\protect\citeauthoryear{Heimerl \bgroup et al\mbox.\egroup
+  }{2012}]{CommunitySourcing}
+Heimerl, K.; Gawalt, B.; Chen, K.; Parikh, T.; and Hartmann, B.
+\newblock 2012.
+\newblock Communitysourcing: Engaging local crowds to perform expert work via
+  physical kiosks.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '12,  1539--1548.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Kandasamy \bgroup et al\mbox.\egroup
+  }{2012}]{CrowdDiversity}
+Kandasamy, D.~M.; Curtis, K.; Fox, A.; and Patterson, D.
+\newblock 2012.
+\newblock Diversity within the crowd.
+\newblock In {\em Proceedings of the ACM 2012 Conference on Computer Supported
+  Cooperative Work Companion}, CSCW '12,  115--118.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Kim \bgroup et al\mbox.\egroup
+  }{2013}]{CobiUIST2013}
+Kim, J.; Zhang, H.; Andr{\'e}, P.; Chilton, L.~B.; Mackay, W.; Beaudouin-Lafon,
+  M.; Miller, R.~C.; and Dow, S.~P.
+\newblock 2013.
+\newblock Cobi: A community-informed conference scheduling tool.
+\newblock In {\em Proceedings of the 26th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '13.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Law and Zhang}{2011}]{CollaborativePlanning}
+Law, E., and Zhang, H.
+\newblock 2011.
+\newblock Towards large-scale collaborative planning: Answering high-level
+  search queries using human computation.
+\newblock In {\em In AAAI}.
+
+\bibitem[\protect\citeauthoryear{Macek \bgroup et al\mbox.\egroup
+  }{2012}]{ConferenceAnatomy}
+Macek, B.-E.; Scholz, C.; Atzmueller, M.; and Stumme, G.
+\newblock 2012.
+\newblock Anatomy of a conference.
+\newblock In {\em Proceedings of the 23rd ACM Conference on Hypertext and
+  Social Media}, HT '12,  245--254.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{McNee \bgroup et al\mbox.\egroup
+  }{2002}]{CitationRecommendation}
+McNee, S.~M.; Albert, I.; Cosley, D.; Gopalkrishnan, P.; Lam, S.~K.; Rashid,
+  A.~M.; Konstan, J.~A.; and Riedl, J.
+\newblock 2002.
+\newblock On the recommending of citations for research papers.
+\newblock In {\em Proceedings of the 2002 ACM Conference on Computer Supported
+  Cooperative Work}, CSCW '02,  116--125.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Sampson}{2004}]{AutomaticScheduling}
+Sampson, S.~E.
+\newblock 2004.
+\newblock Practical implications of preference-based conference scheduling.
+\newblock {\em Production and Operations Management} 13(3):205--215.
+
+\bibitem[\protect\citeauthoryear{Wongchokprasitti, Brusilovsky, and
+  Parra-Santander}{2010}]{ConferenceNavigator}
+Wongchokprasitti, C.; Brusilovsky, P.; and Parra-Santander, D.
+\newblock 2010.
+\newblock Conference navigator 2.0: community-based recommendation for academic
+  conferences.
+
+\end{thebibliography}
