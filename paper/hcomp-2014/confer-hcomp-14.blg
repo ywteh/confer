@@ -1,60 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: confer-hcomp-14.aux
-White space in argument---line 9 of file confer-hcomp-14.aux
- : \citation{
- :            Turkomatic}
-I'm skipping whatever remains of this command
-White space in argument---line 10 of file confer-hcomp-14.aux
- : \citation{
- :            HCT}
-I'm skipping whatever remains of this command
-White space in argument---line 11 of file confer-hcomp-14.aux
- : \citation{
- :            EmailVallet}
-I'm skipping whatever remains of this command
 The style file: aaai.bst
 Database file #1: references.bib.bib
 Warning--empty journal in ConferenceNavigator
-You've used 15 entries,
+You've used 18 entries,
             2568 wiz_defined-function locations,
-            673 strings with 7931 characters,
-and the built_in function-call counts, 6882 in all, are:
-= -- 711
-> -- 346
-< -- 4
-+ -- 123
-- -- 122
-* -- 548
-:= -- 1119
-add.period$ -- 81
-call.type$ -- 15
-change.case$ -- 120
-chr.to.int$ -- 15
-cite$ -- 16
-duplicate$ -- 255
-empty$ -- 465
-format.name$ -- 142
-if$ -- 1428
+            692 strings with 8642 characters,
+and the built_in function-call counts, 8827 in all, are:
+= -- 925
+> -- 430
+< -- 7
++ -- 153
+- -- 152
+* -- 698
+:= -- 1403
+add.period$ -- 99
+call.type$ -- 18
+change.case$ -- 147
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 334
+empty$ -- 597
+format.name$ -- 177
+if$ -- 1859
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 99
-num.names$ -- 45
-pop$ -- 116
+missing$ -- 17
+newline$ -- 120
+num.names$ -- 54
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 166
 quote$ -- 0
-skip$ -- 209
+skip$ -- 283
 stack$ -- 0
-substring$ -- 279
-swap$ -- 67
-text.length$ -- 4
+substring$ -- 406
+swap$ -- 104
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 140
 warning$ -- 1
-while$ -- 46
-width$ -- 16
-write$ -- 222
-(There were 3 error messages)
+while$ -- 61
+width$ -- 20
+write$ -- 273
+(There was 1 warning)

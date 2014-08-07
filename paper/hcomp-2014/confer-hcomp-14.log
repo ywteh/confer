@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  7 AUG 2014 01:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  7 AUG 2014 07:46
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **confer-hcomp-14.tex
 (./confer-hcomp-14.tex
@@ -202,17 +203,7 @@ File: all-accepted-papers.png Graphic file (type png)
 <use all-accepted-papers.png>
 Package pdftex.def Info: all-accepted-papers.png used on input line 76.
 (pdftex.def)             Requested size: 215.45348pt x 201.46138pt.
-
-
-LaTeX Warning: Citation ` Turkomatic' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation ` HCT' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation ` EmailVallet' on page 2 undefined on input line 92.
-
-[2 <./all-accepted-papers.png>]
+ [2 <./all-accepted-papers.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 
@@ -222,9 +213,7 @@ File: author-sourcing.png Graphic file (type png)
 Package pdftex.def Info: author-sourcing.png used on input line 126.
 (pdftex.def)             Requested size: 215.45348pt x 99.30667pt.
 
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [3 <./author-sourcing.png>]
+[3 <./author-sourcing.png>]
 Underfull \hbox (badness 1852) in paragraph at lines 138--139
 \OT1/ptm/m/n/10 We use the \OT1/ptm/m/it/10 Con-fer \OT1/ptm/m/n/10 in-ter-face
  (Fig-ure 1[]) for attendee-
@@ -271,64 +260,49 @@ Package pdftex.def Info: chi-announcement-1.png used on input line 171.
 File: attendees-response.png Graphic file (type png)
 
 <use attendees-response.png>
-Package pdftex.def Info: attendees-response.png used on input line 182.
+Package pdftex.def Info: attendees-response.png used on input line 181.
 (pdftex.def)             Requested size: 215.45348pt x 73.91798pt.
 
-Underfull \hbox (badness 1609) in paragraph at lines 195--196
+Underfull \hbox (badness 1609) in paragraph at lines 194--195
 []\OT1/ptm/b/n/10 H2: \OT1/ptm/m/n/10 Attendee-sourcing pro-vides more al-ter-n
 a-
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 201--203
+Underfull \hbox (badness 1622) in paragraph at lines 200--202
 \OT1/ptm/m/n/10 In this sec-tion we present a com-par-a-tive anal-y-sis for
  []
 
 [5 <./confer-recommendations.png> <./chi-announcement-2.png> <./chi-announcemen
 t-1.png> <./attendees-response.png>]
-Underfull \hbox (badness 1072) in paragraph at lines 215--217
+Underfull \hbox (badness 1072) in paragraph at lines 214--216
 []\OT1/ptm/m/n/10 We com-pare attendee-sourcing and author-sourcing
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 217--218
+Underfull \hbox (badness 1838) in paragraph at lines 216--217
 []\OT1/ptm/m/it/10 We didn't find any pair for which attendee-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 217--218
+Underfull \hbox (badness 1365) in paragraph at lines 216--217
 \OT1/ptm/m/it/10 sourcing re-ported a zero affin-ity and author-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 217--218
+Underfull \hbox (badness 1377) in paragraph at lines 216--217
 \OT1/ptm/m/n/10 that author-sourcing can dis-cover. Also, there
  []
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 222--223
-\OT1/ptm/m/n/10 In author-sourcing, au-thors se-lect their pref-er-ences
+[]\OT1/ptm/m/n/10 In author-sourcing, au-thors se-lect their pref-er-ences
  []
 
 [6]
-Underfull \hbox (badness 1394) in paragraph at lines 242--244
-[]\OT1/ptm/m/it/10 Measure Pa-per Pop-u-lar-ity. \OT1/ptm/m/n/10 De-ter-min-ing
- pa-per
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 242--244
-\OT1/ptm/m/n/10 pop-u-lar-ity in ad-vance is use-ful for mak-ing
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 242--244
-\OT1/ptm/m/n/10 pop-u-lar-ity es-ti-mates can avoid sit-u-a-tions like
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
-
+Underfull \hbox (badness 1389) in paragraph at lines 241--242
+[]\OT1/ptm/m/it/10 Reduce Con-flicts. \OT1/ptm/m/n/10 This is straight-forward 
+-- don't
  []
 
 <crowded-room.png, id=38, 722.7pt x 542.025pt>
@@ -337,43 +311,37 @@ File: crowded-room.png Graphic file (type png)
 Package pdftex.def Info: crowded-room.png used on input line 247.
 (pdftex.def)             Requested size: 215.45348pt x 161.59146pt.
 
+Underfull \vbox (badness 1354) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 1221) in paragraph at lines 263--264
+Underfull \hbox (badness 1221) in paragraph at lines 262--263
 []\OT1/ptm/m/it/10 Author-Sourcing gives Pre-ci-sion, Attendee-Sourcing
  []
 
 [7 <./crowded-room.png>]
-Underfull \hbox (badness 2818) in paragraph at lines 273--274
+Underfull \hbox (badness 2818) in paragraph at lines 272--273
 []\OT1/ptm/b/n/10 Attendee-Sourcing Pro-vides Valu-able Data: \OT1/ptm/m/n/10 W
 e
  []
 
-(./confer-hcomp-14.bbl [8]) [9
-
-] (./confer-hcomp-14.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./confer-hcomp-14.bbl [8]) [9] (./confer-hcomp-14.aux) ) 
 Here is how much of TeX's memory you used:
- 1686 strings out of 493488
- 25093 string characters out of 3141326
- 88635 words of memory out of 3000000
- 4967 multiletter control sequences out of 15000+200000
+ 1687 strings out of 493488
+ 25098 string characters out of 3141326
+ 88736 words of memory out of 3000000
+ 4968 multiletter control sequences out of 15000+200000
  18458 words of font info for 34 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,10n,23p,1854b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on confer-hcomp-14.pdf (9 pages, 5575422 bytes).
+ 37i,10n,23p,1854b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/20
+12/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on confer-hcomp-14.pdf (9 pages, 5575957 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

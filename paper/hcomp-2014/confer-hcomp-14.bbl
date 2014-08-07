@@ -86,6 +86,27 @@ Kim, J.; Zhang, H.; Andr{\'e}, P.; Chilton, L.~B.; Mackay, W.; Beaudouin-Lafon,
   Interface Software and Technology}, UIST '13.
 \newblock New York, NY, USA: ACM.
 
+\bibitem[\protect\citeauthoryear{Kokkalis \bgroup et al\mbox.\egroup
+  }{2013}]{EmailVallet}
+Kokkalis, N.; K\"{o}hn, T.; Pfeiffer, C.; Chornyi, D.; Bernstein, M.~S.; and
+  Klemmer, S.~R.
+\newblock 2013.
+\newblock Emailvalet: Managing email overload through private, accountable
+  crowdsourcing.
+\newblock In {\em Proceedings of the 2013 Conference on Computer Supported
+  Cooperative Work}, CSCW '13,  1291--1300.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Kulkarni, Can, and
+  Hartmann}{2011}]{Turkomatic}
+Kulkarni, A.~P.; Can, M.; and Hartmann, B.
+\newblock 2011.
+\newblock Turkomatic: Automatic recursive task and workflow design for
+  mechanical turk.
+\newblock In {\em CHI '11 Extended Abstracts on Human Factors in Computing
+  Systems}, CHI EA '11,  2053--2058.
+\newblock New York, NY, USA: ACM.
+
 \bibitem[\protect\citeauthoryear{Law and Zhang}{2011}]{CollaborativePlanning}
 Law, E., and Zhang, H.
 \newblock 2011.
@@ -124,5 +145,13 @@ Wongchokprasitti, C.; Brusilovsky, P.; and Parra-Santander, D.
 \newblock 2010.
 \newblock Conference navigator 2.0: community-based recommendation for academic
   conferences.
+
+\bibitem[\protect\citeauthoryear{Zhang \bgroup et al\mbox.\egroup }{2012}]{HCT}
+Zhang, H.; Law, E.; Miller, R.; Gajos, K.; Parkes, D.; and Horvitz, E.
+\newblock 2012.
+\newblock Human computation tasks with global constraints.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '12,  217--226.
+\newblock New York, NY, USA: ACM.
 
 \end{thebibliography}
