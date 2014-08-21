@@ -10,7 +10,7 @@ schedule=[
             "session": "keynote_session_1"
           }
         ], 
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "slot_id": "8_25_20149_10am", 
         "time": "9 - 10AM"
       }, 
@@ -37,7 +37,7 @@ schedule=[
             "session": "research_session_2"
           }
         ], 
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "slot_id": "8_25_201410_30am_12pm", 
         "time": "10:30AM-12PM"
       }, 
@@ -64,7 +64,7 @@ schedule=[
             "session": "research_session_8"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon", 
         "slot_id": "8_25_20141_30pm_3_00pm", 
         "time": "1:30PM - 3:00PM"
       }, 
@@ -91,7 +91,7 @@ schedule=[
             "session": "research_session_9"
           }
         ], 
-        "slot_class": "afternoon2", 
+        "slot_class": "afternoon", 
         "slot_id": "8_25_20143_00pm_3_30pm", 
         "time": "3:00PM-3:30PM"
       }, 
@@ -102,7 +102,7 @@ schedule=[
             "session": "industry_government_track_invited_talks_session_1"
           }
         ], 
-        "slot_class": "evening", 
+        "slot_class": "afternoon2", 
         "slot_id": "8_25_201410_30_12pm", 
         "time": "10:30-12pm"
       }
@@ -119,7 +119,7 @@ schedule=[
             "session": "keynote_session_2"
           }
         ], 
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "slot_id": "8_26_20149_10am", 
         "time": "9 - 10AM"
       }, 
@@ -146,7 +146,7 @@ schedule=[
             "session": "research_session_16"
           }
         ], 
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "slot_id": "8_26_201410_30am_12pm", 
         "time": "10:30AM-12PM"
       }, 
@@ -157,7 +157,7 @@ schedule=[
             "session": "industry_government_track_invited_talks_session_2"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon", 
         "slot_id": "8_26_20141_30_3_00pm", 
         "time": "1:30-3:00PM"
       }, 
@@ -180,7 +180,7 @@ schedule=[
             "session": "research_session_18"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon", 
         "slot_id": "8_26_20141_30pm_3_00pm", 
         "time": "1:30PM-3:00PM"
       }, 
@@ -203,7 +203,7 @@ schedule=[
             "session": "research_session_22"
           }
         ], 
-        "slot_class": "afternoon2", 
+        "slot_class": "afternoon", 
         "slot_id": "8_26_20143_30pm_5_00pm_", 
         "time": "3:30PM-5:00PM "
       }, 
@@ -214,7 +214,7 @@ schedule=[
             "session": "industry_government_track_invited_talks_session_3"
           }
         ], 
-        "slot_class": "afternoon2", 
+        "slot_class": "afternoon", 
         "slot_id": "8_26_20143_30_5_00pm", 
         "time": "3:30-5:00PM"
       }
@@ -231,7 +231,7 @@ schedule=[
             "session": "keynote_session_3"
           }
         ], 
-        "slot_class": "morning1", 
+        "slot_class": "morning", 
         "slot_id": "8_27_20149_10am", 
         "time": "9 - 10AM"
       }, 
@@ -258,7 +258,7 @@ schedule=[
             "session": "research_session_23"
           }
         ], 
-        "slot_class": "morning2", 
+        "slot_class": "morning", 
         "slot_id": "8_27_201410_30am_12pm", 
         "time": "10:30AM - 12PM"
       }, 
@@ -285,7 +285,7 @@ schedule=[
             "session": "research_session_27"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon", 
         "slot_id": "8_27_20141_30pm_3pm", 
         "time": "1:30PM - 3PM"
       }, 
@@ -296,7 +296,7 @@ schedule=[
             "session": "keynote_session_4"
           }
         ], 
-        "slot_class": "afternoon2", 
+        "slot_class": "afternoon", 
         "slot_id": "8_27_20143_30_4_30pm_", 
         "time": "3:30 - 4:30PM "
       }, 
@@ -307,7 +307,7 @@ schedule=[
             "session": "industry_government_track_invited_talks_session_4"
           }
         ], 
-        "slot_class": "evening", 
+        "slot_class": "afternoon2", 
         "slot_id": "8_27_201410_30_12pm", 
         "time": "10:30 - 12PM"
       }

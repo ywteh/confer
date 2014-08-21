@@ -28,7 +28,7 @@ def get_date(time_struct):
 
 def get_class(s_time):
   v =  get_start_time(s_time)
-  elif(v < 12):
+  if(v < 12):
     return 'morning'
   elif(v >= 12 and v < 18):
     return 'afternoon'
