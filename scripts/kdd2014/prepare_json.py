@@ -30,9 +30,9 @@ def get_class(s_time):
   v =  get_start_time(s_time)
   if(v < 12):
     return 'morning'
-  elif(v >= 12 and v < 18):
-    return 'afternoon'
-  elif(v >= 18):
+  elif(v >= 12 and v < 15):
+    return 'afternoon1'
+  elif(v>= 15 and v < 18):
     return 'afternoon2'
   else:
     return 'evening'

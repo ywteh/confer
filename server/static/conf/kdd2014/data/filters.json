@@ -70,10 +70,16 @@ s_filters=[
 					"label":"Morning"
 				},
 				{
-					"data":"afternoon", 
+					"data":"afternoon1", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Afternoon"
+					"label":"Early Afternoon"
+				},
+				{
+					"data":"afternoon2", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Late Afternoon"
 				},
 				{
 					"data":"evening", 
