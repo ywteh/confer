@@ -1,0 +1,578 @@
+sessions={
+  "industry_government_session_1": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Health & Safety", 
+    "submissions": [
+      "indg0105", 
+      "indg0854", 
+      "indg1357", 
+      "indg1518", 
+      "indg1541", 
+      "indg1704"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "industry_government_session_2": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Social Media & Listening", 
+    "submissions": [
+      "indg0230", 
+      "indg0731", 
+      "indg1045", 
+      "indg1320", 
+      "indg1572", 
+      "indg1706"
+    ], 
+    "time": "1:30PM - 3:00PM"
+  }, 
+  "industry_government_session_3": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Fraud/Threat Detection & Environment", 
+    "submissions": [
+      "indg0142", 
+      "indg0422", 
+      "indg0874", 
+      "indg1404", 
+      "indg1480"
+    ], 
+    "time": "3:00PM-3:30PM"
+  }, 
+  "industry_government_session_4": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom", 
+    "s_title": "Education, Privacy and Best Paper Presentations", 
+    "submissions": [
+      "indg0146", 
+      "indg0284", 
+      "indg0951", 
+      "indg1304"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "industry_government_session_5": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Monitoring & Maintenance", 
+    "submissions": [
+      "indg0345", 
+      "indg0371", 
+      "indg0660", 
+      "indg1256", 
+      "indg1434", 
+      "indg1652"
+    ], 
+    "time": "1:30PM-3:00PM"
+  }, 
+  "industry_government_session_6": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Workforce Analytics & Personalization", 
+    "submissions": [
+      "indg0131", 
+      "indg0267", 
+      "indg0795", 
+      "indg0958", 
+      "indg1497", 
+      "indg1716"
+    ], 
+    "time": "3:30PM-5:00PM "
+  }, 
+  "industry_government_session_7": {
+    "date": "8.27.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Web", 
+    "submissions": [
+      "frp0672", 
+      "indg0402", 
+      "indg0506", 
+      "indg0639", 
+      "indg0651", 
+      "indg0699"
+    ], 
+    "time": "10:30AM - 12PM"
+  }, 
+  "industry_government_session_8": {
+    "date": "8.27.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Ads & Transportation", 
+    "submissions": [
+      "indg0143", 
+      "indg0711", 
+      "indg0815", 
+      "indg0986", 
+      "indg1075", 
+      "indg1454"
+    ], 
+    "time": "1:30PM - 3PM"
+  }, 
+  "industry_government_track_invited_talks_session_1": {
+    "date": "8.25.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Commercial & Industrial Applications", 
+    "submissions": [
+      "ind55", 
+      "ind58"
+    ], 
+    "time": "10:30-12pm"
+  }, 
+  "industry_government_track_invited_talks_session_2": {
+    "date": "8.26.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Medicine & Interpretable Models ", 
+    "submissions": [
+      "ind61", 
+      "ind64"
+    ], 
+    "time": "1:30-3:00PM"
+  }, 
+  "industry_government_track_invited_talks_session_3": {
+    "date": "8.26.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Government Applications", 
+    "submissions": [
+      "ind67", 
+      "ind73i"
+    ], 
+    "time": "3:30-5:00PM"
+  }, 
+  "industry_government_track_invited_talks_session_4": {
+    "date": "8.27.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Social/Emerging Markets", 
+    "submissions": [
+      "ind52", 
+      "ind70"
+    ], 
+    "time": "10:30 - 12PM"
+  }, 
+  "keynote_session_1": {
+    "date": "8.25.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "", 
+    "submissions": [
+      "inv43"
+    ], 
+    "time": "9 - 10AM"
+  }, 
+  "keynote_session_2": {
+    "date": "8.26.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "", 
+    "submissions": [
+      "inv40"
+    ], 
+    "time": "9 - 10AM"
+  }, 
+  "keynote_session_3": {
+    "date": "8.27.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "", 
+    "submissions": [
+      "inv46"
+    ], 
+    "time": "9 - 10AM"
+  }, 
+  "keynote_session_4": {
+    "date": "8.27.2014", 
+    "room": "Metro Foyer", 
+    "s_title": "", 
+    "submissions": [
+      "inv49"
+    ], 
+    "time": "3:30 - 4:30PM "
+  }, 
+  "research_session_1": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Applications to Healthcare and Medicine I", 
+    "submissions": [
+      "frp0399", 
+      "frp0599", 
+      "frp0991", 
+      "frp1350", 
+      "frp1500"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_10": {
+    "date": "8.25.2014", 
+    "room": "Empire East", 
+    "s_title": "Text Mining", 
+    "submissions": [
+      "frp0096", 
+      "frp0148", 
+      "frp0726", 
+      "frp0754", 
+      "frp0763"
+    ], 
+    "time": "3:00PM-3:30PM"
+  }, 
+  "research_session_11": {
+    "date": "8.25.2014", 
+    "room": "Empire West", 
+    "s_title": "Supervised Learning II", 
+    "submissions": [
+      "frp0114", 
+      "frp0491", 
+      "frp0606", 
+      "frp0727", 
+      "frp0888"
+    ], 
+    "time": "3:00PM-3:30PM"
+  }, 
+  "research_session_12": {
+    "date": "8.25.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Applications to Healthcare and Medicine II", 
+    "submissions": [
+      "frp0188", 
+      "frp0584", 
+      "frp0843", 
+      "frp0892", 
+      "frp1450", 
+      "frp1517"
+    ], 
+    "time": "3:00PM-3:30PM"
+  }, 
+  "research_session_13": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Diffusion in Social and Information Networks", 
+    "submissions": [
+      "frp0488", 
+      "frp0800", 
+      "frp0856", 
+      "frp1230", 
+      "frp1384"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_14": {
+    "date": "8.26.2014", 
+    "room": "Empire East", 
+    "s_title": "Recommender Systems", 
+    "submissions": [
+      "frp0029", 
+      "frp0085", 
+      "frp0622", 
+      "frp0838", 
+      "frp1603"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_15": {
+    "date": "8.26.2014", 
+    "room": "Empire West", 
+    "s_title": "Security and Privacy", 
+    "submissions": [
+      "frp0265", 
+      "frp0441", 
+      "frp0745", 
+      "frp0859", 
+      "frp1198"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_16": {
+    "date": "8.26.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Active Learning", 
+    "submissions": [
+      "frp0708", 
+      "frp1234", 
+      "frp1241", 
+      "frp1621", 
+      "frp1642"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_17": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Graph Mining and Modeling", 
+    "submissions": [
+      "frp0459", 
+      "frp0554", 
+      "frp0743", 
+      "frp1142", 
+      "frp1346"
+    ], 
+    "time": "1:30PM-3:00PM"
+  }, 
+  "research_session_18": {
+    "date": "8.26.2014", 
+    "room": "Empire East", 
+    "s_title": "Clustering", 
+    "submissions": [
+      "frp0534", 
+      "frp0808", 
+      "frp0993", 
+      "frp1212", 
+      "frp1281"
+    ], 
+    "time": "1:30PM-3:00PM"
+  }, 
+  "research_session_19": {
+    "date": "8.26.2014", 
+    "room": "Empire West", 
+    "s_title": "Trend, Anomaly, and Novelty Detection", 
+    "submissions": [
+      "frp0051", 
+      "frp0802", 
+      "frp0831", 
+      "frp0887", 
+      "frp1150"
+    ], 
+    "time": "1:30PM-3:00PM"
+  }, 
+  "research_session_2": {
+    "date": "8.25.2014", 
+    "room": "Empire East", 
+    "s_title": "Location-based Services", 
+    "submissions": [
+      "frp0227", 
+      "frp0557", 
+      "frp0679", 
+      "frp0741", 
+      "frp0851"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_20": {
+    "date": "8.26.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Social Network Analysis", 
+    "submissions": [
+      "frp0492", 
+      "frp0625", 
+      "frp1177", 
+      "frp1479", 
+      "frp1483"
+    ], 
+    "time": "3:30PM-5:00PM "
+  }, 
+  "research_session_21": {
+    "date": "8.26.2014", 
+    "room": "Empire East", 
+    "s_title": "Large-scale Optimization and Learning", 
+    "submissions": [
+      "frp0040", 
+      "frp0328", 
+      "frp0740", 
+      "frp1252", 
+      "frp1314"
+    ], 
+    "time": "3:30PM-5:00PM "
+  }, 
+  "research_session_22": {
+    "date": "8.26.2014", 
+    "room": "Empire West", 
+    "s_title": "Topic Modeling", 
+    "submissions": [
+      "frp0489", 
+      "frp0683", 
+      "frp0786", 
+      "frp1341", 
+      "frp1519"
+    ], 
+    "time": "3:30PM-5:00PM "
+  }, 
+  "research_session_23": {
+    "date": "8.27.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Network Community Detection", 
+    "submissions": [
+      "frp0147", 
+      "frp0258", 
+      "frp0862", 
+      "frp0884", 
+      "frp1321"
+    ], 
+    "time": "10:30AM - 12PM"
+  }, 
+  "research_session_24": {
+    "date": "8.27.2014", 
+    "room": "Empire East", 
+    "s_title": "Dimensionality Reduction", 
+    "submissions": [
+      "frp0140", 
+      "frp0697", 
+      "frp0826", 
+      "frp0975", 
+      "frp1224"
+    ], 
+    "time": "10:30AM - 12PM"
+  }, 
+  "research_session_25": {
+    "date": "8.27.2014", 
+    "room": "Empire West", 
+    "s_title": "Novel Applications", 
+    "submissions": [
+      "frp0542", 
+      "frp0549", 
+      "frp0716", 
+      "frp1231", 
+      "frp1402"
+    ], 
+    "time": "10:30AM - 12PM"
+  }, 
+  "research_session_26": {
+    "date": "8.27.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Crowds and Markets", 
+    "submissions": [
+      "frp0266", 
+      "frp0291", 
+      "frp0706", 
+      "frp1136", 
+      "frp1154"
+    ], 
+    "time": "10:30AM - 12PM"
+  }, 
+  "research_session_27": {
+    "date": "8.27.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Social and Information Networks", 
+    "submissions": [
+      "frp0466", 
+      "frp0747", 
+      "frp0842", 
+      "frp1266", 
+      "frp1319"
+    ], 
+    "time": "1:30PM - 3PM"
+  }, 
+  "research_session_28": {
+    "date": "8.27.2014", 
+    "room": "Empire East", 
+    "s_title": "Web Mining", 
+    "submissions": [
+      "frp0203", 
+      "frp0518", 
+      "frp0733", 
+      "frp1419", 
+      "frp1686"
+    ], 
+    "time": "1:30PM - 3PM"
+  }, 
+  "research_session_29": {
+    "date": "8.27.2014", 
+    "room": "Empire West", 
+    "s_title": "Recommendations and Rankings", 
+    "submissions": [
+      "frp0261", 
+      "frp0343", 
+      "frp0794", 
+      "frp1161", 
+      "frp1361"
+    ], 
+    "time": "1:30PM - 3PM"
+  }, 
+  "research_session_3": {
+    "date": "8.25.2014", 
+    "room": "Empire West", 
+    "s_title": "Statistical Techniques for Big Data", 
+    "submissions": [
+      "frp0155", 
+      "frp0315", 
+      "frp0885", 
+      "frp1081", 
+      "frp1228"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_30": {
+    "date": "8.27.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Transfer Learning", 
+    "submissions": [
+      "frp0437", 
+      "frp0574", 
+      "frp0773", 
+      "frp0819", 
+      "frp1329"
+    ], 
+    "time": "1:30PM - 3PM"
+  }, 
+  "research_session_4": {
+    "date": "8.25.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Feature Selection", 
+    "submissions": [
+      "frp0038", 
+      "frp0295", 
+      "frp0615", 
+      "frp0762", 
+      "frp1397"
+    ], 
+    "time": "10:30AM-12PM"
+  }, 
+  "research_session_5": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Dynamic Graph Analysis", 
+    "submissions": [
+      "frp0128", 
+      "frp0465", 
+      "frp0715", 
+      "frp0784", 
+      "frp1202"
+    ], 
+    "time": "1:30PM - 3:00PM"
+  }, 
+  "research_session_6": {
+    "date": "8.25.2014", 
+    "room": "Empire East", 
+    "s_title": "Supervised Learning I", 
+    "submissions": [
+      "frp0532", 
+      "frp0657", 
+      "frp0725", 
+      "frp0774", 
+      "frp0936"
+    ], 
+    "time": "1:30PM - 3:00PM"
+  }, 
+  "research_session_7": {
+    "date": "8.25.2014", 
+    "room": "Empire West", 
+    "s_title": "Scaling-up Methods for Big Data", 
+    "submissions": [
+      "frp0066", 
+      "frp0069", 
+      "frp0210", 
+      "frp0414", 
+      "frp1360"
+    ], 
+    "time": "1:30PM - 3:00PM"
+  }, 
+  "research_session_8": {
+    "date": "8.25.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Data Streams", 
+    "submissions": [
+      "frp0018", 
+      "frp0263", 
+      "frp0680", 
+      "frp1301", 
+      "frp1478"
+    ], 
+    "time": "1:30PM - 3:00PM"
+  }, 
+  "research_session_9": {
+    "date": "8.25.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Scaling-up Graph Algorithms", 
+    "submissions": [
+      "frp0206", 
+      "frp0602", 
+      "frp0811", 
+      "frp1370", 
+      "frp1521"
+    ], 
+    "time": "3:00PM-3:30PM"
+  }
+}

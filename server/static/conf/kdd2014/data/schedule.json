@@ -1,0 +1,316 @@
+schedule=[
+  {
+    "date": "08/25/2014", 
+    "day": "Monday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_2"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_5"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_7"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_6"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_8"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8_25_20141_30pm_3_00pm", 
+        "time": "1:30PM - 3:00PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_3"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_11"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_10"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_12"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_9"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "8_25_20143_00pm_3_30pm", 
+        "time": "3:00PM-3:30PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "keynote_session_1"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_25_20149_10am", 
+        "time": "9 - 10AM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_1"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_25_201410_30_12pm", 
+        "time": "10:30-12pm"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_1"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_4"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_1"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_3"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_2"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_25_201410_30am_12pm", 
+        "time": "10:30AM-12PM"
+      }
+    ]
+  }, 
+  {
+    "date": "08/26/2014", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_2"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8_26_20141_30_3_00pm", 
+        "time": "1:30-3:00PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_5"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_17"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_19"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_18"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8_26_20141_30pm_3_00pm", 
+        "time": "1:30PM-3:00PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_6"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_20"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_21"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_22"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "8_26_20143_30pm_5_00pm_", 
+        "time": "3:30PM-5:00PM "
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_3"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "8_26_20143_30_5_00pm", 
+        "time": "3:30-5:00PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "keynote_session_2"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_26_20149_10am", 
+        "time": "9 - 10AM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom", 
+            "session": "industry_government_session_4"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_13"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_15"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_14"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_16"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_26_201410_30am_12pm", 
+        "time": "10:30AM-12PM"
+      }
+    ]
+  }, 
+  {
+    "date": "08/27/2014", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_8"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_30"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_28"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_29"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_27"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8_27_20141_30pm_3pm", 
+        "time": "1:30PM - 3PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Foyer", 
+            "session": "keynote_session_4"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "8_27_20143_30_4_30pm_", 
+        "time": "3:30 - 4:30PM "
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "keynote_session_3"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_27_20149_10am", 
+        "time": "9 - 10AM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "NY Ballroom East", 
+            "session": "industry_government_session_7"
+          }, 
+          {
+            "room": "Empire East", 
+            "session": "research_session_24"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "research_session_25"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "research_session_26"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "research_session_23"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_27_201410_30am_12pm", 
+        "time": "10:30AM - 12PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_4"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_27_201410_30_12pm", 
+        "time": "10:30 - 12PM"
+      }
+    ]
+  }
+]

@@ -62,7 +62,7 @@
 	    "pk": 5,
 	    "fields": {
 	      "unique_name": "kdd2013",
-	      "confer_name": "mykdd",
+	      "confer_name": "kdd2013",
 	      "title": "KDD 2013 - The 19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
 	      "subtitle": "",
 	      "blurb": "The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.",
@@ -171,7 +171,21 @@
 	      "end_date": "2014-06-25",
 	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
-	}
+	},
+	{"model": "server.Conference",
+	    "pk": 13,
+	    "fields": {
+	      "unique_name": "kdd2014",
+	      "confer_name": "mykdd",
+	      "title": "KDD 2014 - The 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+	      "subtitle": "",
+	      "blurb": "The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.",
+	      "location": "New York, US",
+	      "start_date": "2013-08-24",
+	      "end_date": "2013-08-27",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
+	  	}
+	},
 
 
 ]
