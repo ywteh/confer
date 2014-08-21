@@ -34,6 +34,12 @@ s_filters=[
 					"label":"All"
 				},
 				{
+					"data":"Sunday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Sunday"
+				},
+				{
 					"data":"Monday", 
 					"class":"day filter", 
 					"type":"day", 
