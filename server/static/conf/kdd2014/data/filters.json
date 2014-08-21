@@ -64,28 +64,22 @@ s_filters=[
 					"label":"All"
 				},
 				{
-					"data":"morning1", 
+					"data":"morning", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Early Morning"
+					"label":"Morning"
 				},
 				{
-					"data":"morning2", 
+					"data":"afternoon", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Late Morning"
+					"label":"Afternoon"
 				},
 				{
-					"data":"afternoon1", 
+					"data":"evening", 
 					"class":"time filter", 
 					"type":"time", 
-					"label":"Early Afternoon"
-				},
-				{
-					"data":"afternoon2 evening", 
-					"class":"time filter", 
-					"type":"time", 
-					"label":"Late Afternoon"
+					"label":"Evening"
 				}
 		]
 	}
