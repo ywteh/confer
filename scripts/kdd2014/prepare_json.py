@@ -72,6 +72,7 @@ def prepare_data(data_file):
     #paper_id = 'paper_%s' %(p_id)
     paper_id = unicode(row[0], "ISO-8859-1")
     paper_title = unicode(row[1], "ISO-8859-1")
+    keywords = unicode(row[3], "ISO-8859-1").lower()
     paper_abstract = unicode(row[2], "ISO-8859-1")
     paper_authors = unicode(row[4], "ISO-8859-1")
     s_date = unicode(row[7], "ISO-8859-1")
@@ -91,12 +92,21 @@ def prepare_data(data_file):
     if hm_s.lower() == "true":
       hm = True
 
+    authors = []
+    for name in paper_authors.strip('"').split(';'):
+      author = {}
+      terms = name.split("-")
+      author['name'] = terms[0].strip()
+      if len(terms) == 2:
+        author['affiliation'] = terms[1].strip()
+
+      authors.append(author)
 
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
-        'authors': [{'name': name.split("-")[0].strip()}
-            for name in paper_authors.strip('"').split(';')],
+        'authors': authors,
+        'keywords': keywords,
         'abstract': paper_abstract,
         'subtype':paper_type,
         'award': award,
