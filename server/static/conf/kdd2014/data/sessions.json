@@ -1,4 +1,113 @@
 sessions={
+  "1": {
+    "date": "8.27.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Panel", 
+    "submissions": [
+      "panel37", 
+      "tut01"
+    ], 
+    "time": "1:30-3PM "
+  }, 
+  "10": {
+    "date": "8.24.2014", 
+    "room": "Empire West", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut10"
+    ], 
+    "time": "9am - 12:30pm"
+  }, 
+  "11": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut11"
+    ], 
+    "time": "9am - 12:30pm"
+  }, 
+  "12": {
+    "date": "8.24.2014", 
+    "room": "Riverside Suite", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut12"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
+  "2": {
+    "date": "8.24.2014", 
+    "room": "Empire East", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut02"
+    ], 
+    "time": "9am - 12:30pm"
+  }, 
+  "3": {
+    "date": "8.24.2014", 
+    "room": "Empire East", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut03"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
+  "4": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut04"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
+  "5": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut05"
+    ], 
+    "time": "9 - 12:30am"
+  }, 
+  "6": {
+    "date": "8.24.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut06"
+    ], 
+    "time": "9am - 12:30pm"
+  }, 
+  "7": {
+    "date": "8.24.2014", 
+    "room": "Empire West", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut07"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
+  "8": {
+    "date": "8.24.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut08"
+    ], 
+    "time": "9am - 12:30pm"
+  }, 
+  "9": {
+    "date": "8.24.2014", 
+    "room": "Riverside Ballroom", 
+    "s_title": "Tutorial", 
+    "submissions": [
+      "tut09"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
   "industry_government_session_1": {
     "date": "8.25.2014", 
     "room": "NY Ballroom East", 
@@ -151,7 +260,7 @@ sessions={
   "keynote_session_1": {
     "date": "8.25.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "", 
+    "s_title": "Keynote", 
     "submissions": [
       "inv43"
     ], 
@@ -160,7 +269,7 @@ sessions={
   "keynote_session_2": {
     "date": "8.26.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "", 
+    "s_title": "Keynote", 
     "submissions": [
       "inv40"
     ], 
@@ -169,7 +278,7 @@ sessions={
   "keynote_session_3": {
     "date": "8.27.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "", 
+    "s_title": "Keynote", 
     "submissions": [
       "inv46"
     ], 
@@ -178,7 +287,7 @@ sessions={
   "keynote_session_4": {
     "date": "8.27.2014", 
     "room": "Metro Foyer", 
-    "s_title": "", 
+    "s_title": "Keynote", 
     "submissions": [
       "inv49"
     ], 

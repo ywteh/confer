@@ -2340,7 +2340,7 @@
     "title": "Fast DTT -- A Near Linear Algorithm for Decomposing a Tensor into Factor Tensors"
   }, 
   "frp0991": {
-    "abstract": "Online health communities are a valuable source of information for patients and physicians. However, such user-generated resources are often plagued by inaccuracies and misinformation. In this work we propose a method for automatically establishing the credibility of user-generated medical statements and the trustworthiness of their authors by exploiting linguistic cues and distant supervision from expert sources. To this end we introduce a probabilistic graphical model that jointly learns user trustworthiness, statement credibility, and language objectivity. We apply this methodology to the task of extracting rare or unknown side-eff\u000bects of medical drugs --- this being one of the problems where large scale non-expert data has the potential to complement expert medical knowledge. We show that our method can reliably extract side-e\u000bffects and \ffilter out false statements, while identifying trustworthy users that are likely to contribute valuable medical information.", 
+    "abstract": "Online health communities are a valuable source of information for patients and physicians. However, such user-generated resources are often plagued by inaccuracies and misinformation. In this work we propose a method for automatically establishing the credibility of user-generated medical statements and the trustworthiness of their authors by exploiting linguistic cues and distant supervision from expert sources. To this end we introduce a probabilistic graphical model that jointly learns user trustworthiness, statement credibility, and language objectivity. We apply this methodology to the task of extracting rare or unknown side-eff\u000bects of medical drugs --- this being one of the problems where large scale non-expert data has the potential to complement expert medical knowledge. We show that our method can reliably extract side-e\u000bffects and filter out false statements, while identifying trustworthy users that are likely to contribute valuable medical information.", 
     "authors": [
       {
         "name": "Subhabrata Mukherjee"
@@ -4164,7 +4164,7 @@
     "title": "Knock It Off: Profiling the Online Storefronts of Counterfeit Merchandise"
   }, 
   "indg0951": {
-    "abstract": "Poor academic performance in K-12 is often a precursor to unsatisfactory educational outcomes such as dropout, which are associated with \fsignificant personal and social costs.\nHence, it is important to be able to predict students at risk of poor performance, so that the right personalized intervention plans can be initiated. In this paper, we report on a\nlarge-scale study to identify students at risk of not meeting acceptable levels of performance in one state-level and one national standardized assessment in Grade 8 of a major US school district. An important highlight of our study is its scale - both in terms of the number of students included, the number of years and the number of features, which provide a very solid grounding to the research. We report on our experience with handling the scale and complexity of data, and on the relative performance of various machine learning techniques we used for building predictive models. Our results demonstrate that it is possible to predict students at-risk of poor assessment performance with a high degree of accuracy, and to do so well in advance. These insights can be used to pro-actively initiate personalized intervention programs and improve the chances of student success.", 
+    "abstract": "Poor academic performance in K-12 is often a precursor to unsatisfactory educational outcomes such as dropout, which are associated with significant personal and social costs.\nHence, it is important to be able to predict students at risk of poor performance, so that the right personalized intervention plans can be initiated. In this paper, we report on a\nlarge-scale study to identify students at risk of not meeting acceptable levels of performance in one state-level and one national standardized assessment in Grade 8 of a major US school district. An important highlight of our study is its scale - both in terms of the number of students included, the number of years and the number of features, which provide a very solid grounding to the research. We report on our experience with handling the scale and complexity of data, and on the relative performance of various machine learning techniques we used for building predictive models. Our results demonstrate that it is possible to predict students at-risk of poor assessment performance with a high degree of accuracy, and to do so well in advance. These insights can be used to pro-actively initiate personalized intervention programs and improve the chances of student success.", 
     "authors": [
       {
         "name": "Ashay Tamhane"
@@ -4876,5 +4876,257 @@
     "hm": false, 
     "subtype": "Paper", 
     "title": "Bugbears or Legitimate Threats? (Social) Scientists' Criticisms of Machine Learning"
+  }, 
+  "panel37": {
+    "abstract": "When data-driven improvements involve personally identifiable data, or even data that can be used to infer sensitive information about individuals, we face the dilemma that we potentially risk compromising privacy.  As we see increased emphasis on using data mining to effect improvements in a range of socially beneficial activities, from improving matching of talented students to opportunities for higher education, or improving allocation of funds across competing school programs, or reducing hospitalization time following surgery, the dilemma can often be especially acute.  The data involved often is personally identifiable or revealing and sensitive, and many of the institutions that must be involved in gathering and maintaining custody of the data are not equipped to adequately secure the data, raising the risk of privacy breaches.  How should we approach this trade-off?  Can we assess the risks?  Can we control or mitigate them?  Can we develop guidelines for when the risk is or is not worthwhile, and for how best to handle data in different common scenarios?\n\nChairs Raghu Ramakrishnan and \nGeoffrey I. Webb bring this panel of leading data miners and privacy experts together to address these critical issues.", 
+    "authors": [
+      {
+        "name": "Raghu Ramakrishnan"
+      }, 
+      {
+        "name": "Geoffrey I Webb"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Does Social Good Justify Risking Personal Privacy?"
+  }, 
+  "tut01": {
+    "abstract": "Deep learning has rapidly moved from a marginal approach in the machine learning community less than ten years ago to one that has strong industrial impact, in particular for high-dimensional perceptual data such as speech and images, but also natural language. The demand for experts in deep learning is growing very fast (faster than we can graduate PhDs), thereby considerably increasing their market value. Deep learning is based on the idea of learning multiple levels of representation, with higher levels computed as a function of lower levels, and corresponding to more abstract concepts automatically discovered by the learner. Deep learning arose out of research on artificial neural networks and graphical models and the literature on that subject has considerably grown in recent years, culminating in the creation of a dedicated conference (ICLR). The tutorial will introduce some of the basic algorithms, both on the supervised and unsupervised sides, as well as discuss some of the guidelines for successfully using them in practice. Finally, it will introduce current research questions regarding the challenge of scaling up deep learning to much larger models that can successfully extract information from huge datasets.", 
+    "authors": [
+      {
+        "name": "Yoshua Bengio"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Scaling Up Deep Learning"
+  }, 
+  "tut02": {
+    "abstract": "Recent years have witnessed a proliferation of large-scale knowledge graphs, such as Freebase, YAGO, Google's Knowledge Graph, and Microsoft's Satori. Whereas there is a large body of research on mining homogeneous graphs, this new generation of information networks are highly heterogeneous, with thousands of entity and relation types and billions of instances of vertices and edges. In this tutorial, we will present the state of the art in constructing, mining, and growing knowledge graphs. The purpose of the tutorial is to equip newcomers to this exciting field with an understanding of the basic concepts, tools and methodologies, available datasets, and open research challenges. A publicly available knowledge base (Freebase) will be used throughout the tutorial to exemplify the different techniques.", 
+    "authors": [
+      {
+        "name": "Antoine Bordes"
+      }, 
+      {
+        "name": "Evgeniy Gabrilovich"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Constructing and Mining Web-Scale Knowledge Graphs"
+  }, 
+  "tut03": {
+    "abstract": "Mining phrases, entity concepts, topics, and hierarchies from massive text corpus is an essential problem in the age of big data.  Text data in electronic forms are ubiquitous, ranging from scientific articles to social networks, enterprise logs, news articles, social media and general web pages.  It is highly desirable but challenging to bring structure to unstructured text data, uncover underlying hierarchies, relationships, patterns and trends, and gain knowledge from such data.\n\nIn this tutorial, we provide a comprehensive survey on the state-of-the art of data-driven methods that automatically mine phrases, extract and infer latent structures from text corpus, and construct multi-granularity topical groupings and hierarchies of the underlying themes.  We study their principles, methodologies, algorithms and applications using several real datasets including research papers and news articles and demonstrate how these methods work and how the uncovered latent entity structures may help text understanding, knowledge discovery and management.", 
+    "authors": [
+      {
+        "name": "Jiawei Han"
+      }, 
+      {
+        "name": "Chi Wang"
+      }, 
+      {
+        "name": "Ahmed El"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Bringing Structure to Text: Mining Phrases, Entities, Topics, and Hierarchies"
+  }, 
+  "tut04": {
+    "abstract": "\nAs recent pandemics such as SARS and the Swine Flu outbreak have shown, diseases\nspread very fast in today's interconnected world, making public health an important\nresearch area. Some of the basic questions are: How can\nan outbreak be contained before it becomes an epidemic, and what\ndisease surveillance strategies should be implemented?\nThese problems have been studied traditionally using differential\nequation methods, which are amenable to analysis and closed form solutions.\nHowever, these models are based on complete mixing assumptions, which\ndo not hold for realistic populations, thereby limiting their utility.\n\nIn this tutorial, we focus on an approach\nbased on diffusion processes on complex networks. This captures more realistic\npopulations, but leads to novel mathematical and computational challenges. The\nstructure of the underlying networks has a significant impact on the dynamical\nproperties, motivating the need for improved network models, and efficient\nalgorithms for computing network and dynamical properties that scale to\nlarge networks.  We provide an overview of the state of the art in\ncomputational epidemiology, which is a multi-disciplinary research area,\nthat overlaps different areas in computer science, including data mining,\nmachine learning, high performance computing and theoretical computer science,\nas well as mathematics, economics and statistics. Specifically, we will\ndiscuss mathematical and computational models, problems of inference,\nforecasting and state assessment, and epidemic containment.\n", 
+    "authors": [
+      {
+        "name": "Madhav V Marathe"
+      }, 
+      {
+        "name": "Anil Kumar S Vullikanti"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Computational Epidemiology"
+  }, 
+  "tut05": {
+    "abstract": "Analyzing Biomedical Big Data (BBD) is computationally expensive due to high dimensionality and large data volume. Performance and scalability issues of traditional database management systems (DBMS) often limit the usage of more sophisticated and complex data queries and analytic models. Moreover, in the conventional setting, data management and analysis use separate software platforms. Exporting and importing large amounts of data across platforms require a significant amount of computational and I/O resources, as well as potentially putting sensitive data at a security risk. In this tutorial, the participants will learn the difference between in-memory DBMS and traditional DBMS through hands-on exercises using SAP's cloud-based HANA in-memory DBMS in conjunction with the Multi-parameter Intelligent Monitoring in Intensive Care (MIMIC)  dataset. MIMIC is an open-access critical care EHR archive (over 4TB in size) and consists of structured, unstructured and waveform data. Furthermore, this tutorial will seek to educate the participants on how a combination of dynamic querying, and in-memory DBMS may enhance the management and analysis of complex clinical data.", 
+    "authors": [
+      {
+        "name": "Mengling Feng"
+      }, 
+      {
+        "name": "Mohammad Ghassemi"
+      }, 
+      {
+        "name": "Thomas Brennan"
+      }, 
+      {
+        "name": "John Ellenberger"
+      }, 
+      {
+        "name": "Ishrar Hussain"
+      }, 
+      {
+        "name": "Roger Mark"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Management and Analytic of Biomedical Big Data with Cloud-based In-Memory Database and Dynamic Querying: A Hands-on Experience with Real-world Data"
+  }, 
+  "tut06": {
+    "abstract": "In 2006, Netflix announced a $1M prize competition to advance recommendation algorithms. The recommendation problem was simplified as the accuracy in predicting a user rating measured by the Root Mean Squared Error. While that formulation helped get the attention of the research community in the area, it may have put an excessive focus on what is simply one of possible approaches to recommendations. In this tutorial we will describe different components of modern recommender systems such as: personalized ranking, similarity, explanations, context-awareness, or search as recommendation. In the first part, we will use the Netflix use case as a driving example of a prototypical industrial-scale recommender system. We will also review the usage of modern algorithmic approaches that include algorithms such as Factorization Machines, Restricted Boltzmann Machines, SimRank, Deep Neural Networks, or Listwise Learning-to-rank. In the second part, we will focus on the area of context-aware recommendations where the \ntwo dimensional user-item  recommender problem is turned into an n-dimensional space.", 
+    "authors": [
+      {
+        "name": "Xavier Amatriain"
+      }, 
+      {
+        "name": "Bamshad Mobasher"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "The Recommender Problem Revisited"
+  }, 
+  "tut07": {
+    "abstract": "Correlation clustering is arguably the most natural formulation of clustering. Given a set of objects and a\npairwise similarity measure between them, the goal is to cluster the objects so that, to the best possible extent,\n         similar objects are put in the same cluster and dissimilar objects are put in different clusters. As it just\n         needs a definition of similarity, its broad generality  makes it applicable to a wide range of problems in different contexts, and in particular makes it naturally suitable to clustering structured objects for which feature vectors can be difficult to obtain.\n\nDespite its simplicity, generality and wide applicability, correlation clustering has so far received much more attention from the algorithmic theory community than from the data mining community. The goal of this tutorial is to show how correlation clustering can be a powerful addition to the toolkit of the data mining researcher and practitioner, and to\nencourage discussions and further research in the area.\n\nIn the tutorial we will survey the problem and its most common variants, with an emphasis on the algorithmic techniques and key ideas developed to derive efficient solutions. We will motivate the problems and discuss real-world applications, the scalability issues that may arise, and the existing approaches to handle them.", 
+    "authors": [
+      {
+        "name": "Francesco Bonchi"
+      }, 
+      {
+        "name": "David Garcia"
+      }, 
+      {
+        "name": "Edo Liberty"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Correlation Clustering: from Theory to Practice"
+  }, 
+  "tut08": {
+    "abstract": "Building intelligent systems that are capable of extracting high-level representations from high-dimensional data lies at the core of solving many AI related tasks, including visual object or pattern recognition, speech perception, and language understanding. Theoretical and biological arguments strongly suggest that building such systems requires deep architectures that involve many layers of nonlinear processing. Many existing learning algorithms use shallow architectures, including neural networks with only one hidden layer, support vector machines, kernel logistic regression, and many others. The internal representations learned by such systems are necessarily simple and are incapable of extracting some types of complex structure from high-dimensional input. In the past few years, researchers across many different communities, from applied statistics to engineering, computer science, and neuroscience, have proposed several deep (hierarchical) models that are capable of extracting meaningful, high-level representations. An important property of these models is that they can extract complex statistical dependencies from data and efficiently learn high-level representations by re-using and combining intermediate concepts, allowing these models to generalize well across a wide variety of tasks. The learned high-level representations have been shown to give state-of-the-art results in many challenging learning problems and have been successfully applied in a wide variety of application domains, including visual object recognition, information retrieval, natural language processing, and speech perception. A few notable examples of such models include Deep Belief Networks, Deep Boltzmann Machines, Deep Autoencoders, and sparse coding-based methods. The goal of the tutorial is to introduce the recent developments of various deep learning methods to the KDD community. The core focus will be placed on algorithms that can learn multi-layer hierarchies of representations, emphasizing their applications in information retrieval, object recognition, and speech perception.", 
+    "authors": [
+      {
+        "name": "Ruslan Salakhutdinov"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Deep Learning"
+  }, 
+  "tut09": {
+    "abstract": "The recent blossom of social network and communication services in both public and corporate settings have generated a staggering amount of network data of all kinds. Unlike the bio-networks and the chemical compound graph data often used in traditional network mining and analysis, the new network data grown out of the social applications are characterized by their rich attributes, high heterogeneity, enormous sizes and complex patterns of various semantic meanings, all of which have posed significant research challenges to the graph/network mining community.  In this tutorial, we aim to examine some recent advances in network mining and analysis for social applications, covering a diverse collection of methodologies and applications from the perspectives of event, relationship, collaboration, and network pattern. We would present the problem settings, the challenges, the recent research advances and some future directions for each perspective. Topics include but are not limited to correlation mining, iceberg finding, anomaly detection, relationship discovery, information flow, task routing, and pattern mining.", 
+    "authors": [
+      {
+        "name": "Feida Zhu"
+      }, 
+      {
+        "name": "Huan Sun"
+      }, 
+      {
+        "name": "Xifeng Yan"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Network Mining and Analysis for Social Applications"
+  }, 
+  "tut10": {
+    "abstract": "One response to the proliferation of large datasets has been to\ndevelop ingenious ways to throw resources at the problem, using\nmassive fault tolerant storage architectures, parallel and graphical computation\nmodels such as MapReduce, Pregel and Giraph.\nHowever, not all environments can support\nthis scale of resources, and not all queries need an exact\nresponse. \nThis motivates the use of sampling to generate summary\ndatasets that support rapid queries, and prolong the useful life of\nthe data in storage. \nTo be effective, sampling must mediate the\ntensions between resource constraints, data characteristics, and the\nrequired query accuracy.  \nThe state-of-the-art in sampling goes far beyond simple uniform\nselection of elements, to maximize the usefulness of the resulting\nsample. \nThis tutorial reviews progress in sample\ndesign for large datasets, including streaming and graph-structured\ndata.\nApplications are discussed to sampling network traffic and social\nnetworks. ", 
+    "authors": [
+      {
+        "name": "Graham Cormode"
+      }, 
+      {
+        "name": "Nick Duffield"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Sampling for Big Data: A tutorial"
+  }, 
+  "tut11": {
+    "abstract": "Pattern discovery is a core data mining activity. Initial approaches\nwere dominated by the frequent pattern discovery paradigm -- only\npatterns that occur frequently in the data were explored. Having been thoroughly researched and\nits limitations now well understood, this paradigm is giving way to a\nnew one, which can be called {\\em statistically sound pattern discovery}. In\nthis paradigm, the main impetus is to discover statistically\nsignificant patterns, which are unlikely to have occurred by chance and are \nlikely to hold in future data. Thus, the new paradigm provides a strict\ncontrol over false discoveries and overfitting.\n\n\nThis tutorial covers both classic and cutting-edge research topics on\npattern discovery combined to statistical significance testing. We start with an advanced introduction to the relevant forms of statistical significance\ntesting, including different schools and alternative models, their\nunderlying assumptions, practical issues, and limitations. We then discuss their application to data mining specific problems, including evaluation of nested\npatterns, the multiple testing problem, algorithmic strategies and\nreal-world considerations. We present the current state-of-the art\nsolutions and explore in detail how this approach to pattern discovery\ncan deliver efficient and effective discovery of small sets of\ninteresting patterns.", 
+    "authors": [
+      {
+        "name": "Wilhelmiina H?m?l?inen"
+      }, 
+      {
+        "name": "Geoffrey I Webb"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Statistically Sound Pattern Discovery"
+  }, 
+  "tut12": {
+    "abstract": "The pervasive use of social media generates massive data in an unprecedented rate and the information overload problem becomes increasingly severe for social media users. Recommendation has been proven to be effective in mitigating the information overload problem, demonstrated its strength in improving the quality of user experience, and positively impacted the success of social media. New types of data introduced by social media not only provide more information to advance traditional recommender systems but also manifest new research possibilities for recommendation. In this tutorial, we aim to provide a comprehensive overview of various recommendation tasks in social media, especially their recent advances and new frontiers. We introduce basic concepts, review state-of-the-art algorithms, and deliberate the emerging challenges and opportunities. Finally we summarize the tutorial with discussions on open issues and challenges about recommendation in social media. Updated information about the tutorial can be found at \\url{http://www.public.asu.edu/~jtang20/Recommendation.htm}. ", 
+    "authors": [
+      {
+        "name": "Jiliang Tang"
+      }, 
+      {
+        "name": "Jie Tang"
+      }, 
+      {
+        "name": "Huan Liu"
+      }, 
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "Paper", 
+    "title": "Recommendation in Social Media:Recent Advances and New Frontiers"
   }
 }
