@@ -17,6 +17,17 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_1"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_25_201410_30_12pm", 
+        "time": "10:30-12pm"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "NY Ballroom East", 
             "session": "industry_government_session_1"
           }, 
@@ -94,17 +105,6 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "8_25_20143_00pm_3_30pm", 
         "time": "3:00PM-3:30PM"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Metro Ballroom", 
-            "session": "industry_government_track_invited_talks_session_1"
-          }
-        ], 
-        "slot_class": "evening", 
-        "slot_id": "8_25_201410_30_12pm", 
-        "time": "10:30-12pm"
       }
     ]
   }, 
@@ -265,6 +265,17 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_4"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_27_201410_30_12pm", 
+        "time": "10:30 - 12PM"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "NY Ballroom East", 
             "session": "industry_government_session_8"
           }, 
@@ -299,17 +310,6 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "8_27_20143_30_4_30pm_", 
         "time": "3:30 - 4:30PM "
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Metro Ballroom", 
-            "session": "industry_government_track_invited_talks_session_4"
-          }
-        ], 
-        "slot_class": "evening", 
-        "slot_id": "8_27_201410_30_12pm", 
-        "time": "10:30 - 12PM"
       }
     ]
   }
