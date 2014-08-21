@@ -20,6 +20,12 @@ s_filters=[
 					"class":"p_session filter", 
 					"type":"p_session", 
 					"label":"Liked + Recommended"
+				},
+				{
+					"data":"s_award, .s_nominated, .s_hm", 
+					"class":"p_session filter", 
+					"type":"p_session", 
+					"label":"Award + Nominated"
 				}
 		]
 	},
