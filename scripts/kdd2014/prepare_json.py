@@ -14,7 +14,10 @@ def get_start_time (s_time):
   if "AM" in s_time or "am" in s_time:
     return t
   else:
-    return t + 12
+    if t + 12 < 22:
+      return t + 12
+    else:
+      return t
 
 def get_date_time(s_date, dt_format='%m/%d/%Y'):
   time_struct = time.strptime(s_date, dt_format)
