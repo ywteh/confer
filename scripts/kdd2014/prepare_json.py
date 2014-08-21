@@ -10,9 +10,8 @@ def construct_id(s):
   return re.sub(r'\W+', '_', s.lower())
 
 def get_start_time (s_time):
-  x = s_time.split('-')
   t = int(re.match(r'\d+', s_time).group())
-  if "AM" in x or "am" in x:
+  if "AM" in s_time or "am" in s_time:
     return t
   else:
     return t + 12
@@ -95,8 +94,8 @@ def prepare_data(data_file):
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
-        'authors': [{'name': name.strip()}
-            for name in paper_authors.strip('"').split(',')],
+        'authors': [{'name': name.split("-")[0].strip()}
+            for name in paper_authors.strip('"').split(';')],
         'abstract': paper_abstract,
         'subtype':paper_type,
         'award': award,
