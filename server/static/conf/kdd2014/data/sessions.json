@@ -2,7 +2,7 @@ sessions={
   "1": {
     "date": "8.27.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "Panel", 
+    "s_title": "Panel: Does Social Good Justify Risking Personal Privacy?", 
     "submissions": [
       "panel37", 
       "tut01", 
@@ -42,7 +42,7 @@ sessions={
   "13": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Outlier Detection & Description under Data Diversity (ODD^2)", 
     "submissions": [
       "w13"
     ], 
@@ -51,7 +51,7 @@ sessions={
   "14": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Big CHat: Connected Health at Big Data Era", 
     "submissions": [
       "w14"
     ], 
@@ -60,7 +60,7 @@ sessions={
   "15": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Standards for Predictive Analytics in the Era of Big Data", 
     "submissions": [
       "w15"
     ], 
@@ -69,7 +69,7 @@ sessions={
   "16": {
     "date": "8.24.2014", 
     "room": "Liberty 4", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: The Second Workshop on User Engagement Optimization (UEO)", 
     "submissions": [
       "w16"
     ], 
@@ -78,7 +78,7 @@ sessions={
   "17": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Data Mining for Educational Assessment and Feedback", 
     "submissions": [
       "w17"
     ], 
@@ -87,7 +87,7 @@ sessions={
   "18": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Workshop on Healthcare Informatics (HI-KDD 2014)", 
     "submissions": [
       "w18"
     ], 
@@ -96,7 +96,7 @@ sessions={
   "19": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Large-Scale Sports Analytics", 
     "submissions": [
       "w19"
     ], 
@@ -115,7 +115,7 @@ sessions={
   "20": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights", 
     "submissions": [
       "w20"
     ], 
@@ -124,7 +124,7 @@ sessions={
   "21": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Learning about Emergencies from Social Information (LESI)", 
     "submissions": [
       "w21"
     ], 
@@ -133,7 +133,7 @@ sessions={
   "22": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Workshop on Discovery Informatics", 
     "submissions": [
       "w22"
     ], 
@@ -142,7 +142,7 @@ sessions={
   "23": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: The 8th International Workshop on Data Mining for Online Advertising (ADKDD\u00c2\u00b0\u00c3\u009814)", 
     "submissions": [
       "w23"
     ], 
@@ -151,7 +151,7 @@ sessions={
   "24": {
     "date": "8.24.2014", 
     "room": "Liberty 3", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: NewsKDD \u00c2\u00aeC \u00c2\u00b0\u00e2\u0088\u009eData Science for News Publishing\u00c2\u00b0\u00c2\u00b1", 
     "submissions": [
       "w24"
     ], 
@@ -160,7 +160,7 @@ sessions={
   "25": {
     "date": "8.24.2014", 
     "room": "DonorsChoose Headquarters", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: KDD Cup 2014 - Predicting Excitement at DonorsChoose", 
     "submissions": [
       "w25"
     ], 
@@ -169,7 +169,7 @@ sessions={
   "26": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop", 
+    "s_title": "Workshop: Broadening Participation in Data Mining (BPDM)", 
     "submissions": [
       "W26"
     ], 
@@ -397,7 +397,7 @@ sessions={
   "keynote_session_1": {
     "date": "8.25.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "Keynote", 
+    "s_title": "Keynote: The Battle for the Future of Data Mining", 
     "submissions": [
       "inv43"
     ], 
@@ -406,7 +406,7 @@ sessions={
   "keynote_session_2": {
     "date": "8.26.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "Keynote", 
+    "s_title": "Keynote: Data, Predictions, and Decisions in Support of People and Society", 
     "submissions": [
       "inv40"
     ], 
@@ -415,7 +415,7 @@ sessions={
   "keynote_session_3": {
     "date": "8.27.2014", 
     "room": "Metro Ballroom", 
-    "s_title": "Keynote", 
+    "s_title": "Keynote: A Data Driven Approach to Diagnosing and Treating Disease", 
     "submissions": [
       "inv46"
     ], 
@@ -424,7 +424,7 @@ sessions={
   "keynote_session_4": {
     "date": "8.27.2014", 
     "room": "Metro Foyer", 
-    "s_title": "Keynote", 
+    "s_title": "Keynote: Bugbears or Legitimate Threats? (Social) Scientists' Criticisms of Machine Learning", 
     "submissions": [
       "inv49"
     ], 

@@ -5785,7 +5785,7 @@
     "hm": false, 
     "keywords": "machine learning; probabilistic inference; decision analysis; probabilistic graphical models; transportation; healthcare", 
     "subtype": "Paper", 
-    "title": "Keynote: Data, Predictions, and Decisions in Support of People and Society"
+    "title": "Data, Predictions, and Decisions in Support of People and Society"
   }, 
   "inv43": {
     "abstract": "Deep learning has catapulted to the front page of the New York Times, formed the core of the so-called ?Google brain?, and achieved impressive results in vision, speech recognition, and elsewhere. Yet researchers have offered simple conundrums that deep learning doesn?t address. For example, consider the sentence:  ?The large ball crashed right through the table because it was made of Styrofoam.? What was made of Styrofoam? The large ball? Or the table? The answer is obviously ?the table?, but if we change the word ?Styrofoam? to ?steel?, the answer is clearly ?the large ball?. To automatically answer this type of question, our computers require an extensive body of knowledge. We believe that text mining can provide the requisite body of knowledge. My talk will describe work at the new Allen Institute for AI towards building the next-generation of text-mining systems.", 
@@ -5802,7 +5802,7 @@
     "hm": false, 
     "keywords": "data mining; deep learning; text-mining", 
     "subtype": "Paper", 
-    "title": "Keynote: The Battle for the Future of Data Mining"
+    "title": "The Battle for the Future of Data Mining"
   }, 
   "inv46": {
     "abstract": "Throughout the biomedical and life sciences research community, advanced integrative biology algorithms are employed to integrate large scale data across many different high-dimensional datatypes to construct predictive network models of disease.  The causal inference approaches we employ for this purpose well complement the types of natural artificial intelligence/machine learning approaches that have become nearly standard in the life and biomedical sciences for building classifiers for a range of problems, from disease classification and subtype stratification, to the identification of responders and non-responders for a given treatment strategy.  By building a causal network model that spans multiple scales (from the molecular to the cellular, to the tissue/organ, to the organism and community) we can understand the flow of information and how best to modulate that flow to improve human wellbeing, whether better diagnosing and treating disease or improving overall health(1-4).  More specifically, we have constructed predictive network models for Alzheimer?s disease, along with other common human diseases such as obesity, diabetes, heart disease, and inflammatory bowel disease, and cancer, and demonstrated a causal network common across all of these diseases(3, 5-10).  Not only do we demonstrate that our predictive models uncover important mechanisms of disease and mechanistic connections among different diseases, but that they have led to a natural way to prioritize therapeutic points of intervention and provide optimal molecular phenotypes for high throughput screening. Our application of these models in a number of disease areas has led to the identification of novel genes that are causal for disease and that may serve as efficacious points of therapeutic intervention, as well as to personalized treatment strategies that provide a more quantitative and accurate approach to tailoring treatments to specific forms of disease.", 
@@ -5819,7 +5819,7 @@
     "hm": false, 
     "keywords": "systems biology, multiscale biology, causal network inference, predictive network modeling, drug discovery", 
     "subtype": "Paper", 
-    "title": "Keynote: A Data Driven Approach to Diagnosing and Treating Disease"
+    "title": "A Data Driven Approach to Diagnosing and Treating Disease"
   }, 
   "inv49": {
     "abstract": "Social scientists increasingly criticize the use of machine learning techniques to understand human behavior. Criticisms include: (1) They are atheoretical and hence of limited scientific value; (2) They do not address causality and are hence of limited policy value; and (3) They are uninterpretable and hence of limited generalizability value (outside contexts very narrowly similar to the training dataset).  These criticisms, I argue, miss the enormous opportunity offered by ML techniques to fundamentally improve the practice of empirical social science. Yet each criticism does contain a grain of truth and overcoming them will require innovations to existing methodologies. Some of these innovations are being developed today and some are yet to be tackled. I will in this talk sketch (1) what these innovations look like or should look like; (2) why they are needed; and (3) the technical challenges they raise.  I will illustrate my points using a set of applications that range from financial markets to social policy problems to computational models of basic psychological processes. This talk describes joint work with Jon Kleinberg and individual projects with Himabindu Lakkaraju, Jure Leskovec, Jens Ludwig, Anuj Shah, Chenhao Tan, Mike Yeomans and Tom Zimmerman. ", 
@@ -5836,7 +5836,7 @@
     "hm": false, 
     "keywords": "n/a", 
     "subtype": "Paper", 
-    "title": "Keynote: Bugbears or Legitimate Threats? (Social) Scientists' Criticisms of Machine Learning"
+    "title": "Bugbears or Legitimate Threats? (Social) Scientists' Criticisms of Machine Learning"
   }, 
   "panel37": {
     "abstract": "When data-driven improvements involve personally identifiable data, or even data that can be used to infer sensitive information about individuals, we face the dilemma that we potentially risk compromising privacy.  As we see increased emphasis on using data mining to effect improvements in a range of socially beneficial activities, from improving matching of talented students to opportunities for higher education, or improving allocation of funds across competing school programs, or reducing hospitalization time following surgery, the dilemma can often be especially acute.  The data involved often is personally identifiable or revealing and sensitive, and many of the institutions that must be involved in gathering and maintaining custody of the data are not equipped to adequately secure the data, raising the risk of privacy breaches.  How should we approach this trade-off?  Can we assess the risks?  Can we control or mitigate them?  Can we develop guidelines for when the risk is or is not worthwhile, and for how best to handle data in different common scenarios?\n\nChairs Raghu Ramakrishnan and \nGeoffrey I. Webb bring this panel of leading data miners and privacy experts together to address these critical issues.", 
@@ -5857,7 +5857,7 @@
     "hm": false, 
     "keywords": "privacy; social good", 
     "subtype": "Paper", 
-    "title": "Panel: Does Social Good Justify Risking Personal Privacy?"
+    "title": "Does Social Good Justify Risking Personal Privacy?"
   }, 
   "tut01": {
     "abstract": "Deep learning has rapidly moved from a marginal approach in the machine learning community less than ten years ago to one that has strong industrial impact, in particular for high-dimensional perceptual data such as speech and images, but also natural language. The demand for experts in deep learning is growing very fast (faster than we can graduate PhDs), thereby considerably increasing their market value. Deep learning is based on the idea of learning multiple levels of representation, with higher levels computed as a function of lower levels, and corresponding to more abstract concepts automatically discovered by the learner. Deep learning arose out of research on artificial neural networks and graphical models and the literature on that subject has considerably grown in recent years, culminating in the creation of a dedicated conference (ICLR). The tutorial will introduce some of the basic algorithms, both on the supervised and unsupervised sides, as well as discuss some of the guidelines for successfully using them in practice. Finally, it will introduce current research questions regarding the challenge of scaling up deep learning to much larger models that can successfully extract information from huge datasets.", 
