@@ -10,6 +10,7 @@ def construct_id(s):
   return re.sub(r'\W+', '_', s.lower())
 
 def get_start_time (s_time):
+  print s_time
   t = int(re.match(r'\d+', s_time).group())
   if "AM" in s_time or "am" in s_time:
     return t

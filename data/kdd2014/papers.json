@@ -1,4 +1,17 @@
 {
+  "W26": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Broadening Participation in Data Mining (BPDM)"
+  }, 
   "frp0018": {
     "abstract": "Data stream mining has gained growing attentions due to its wide emerging applications such as target marketing, email filtering and network intrusion detection.In this paper, we propose a prototype-based classification model for evolving data streams, called SyncStream, which dynamically models time-changing concepts and makes predictions in a local fashion. Instead of learning a single model on a sliding window or ensemble learning, SyncStream captures evolving concepts by dynamically maintaining a set of prototypes in a new data structure called the P-tree. The prototypes are obtained by error-driven representativeness learning and synchronization-inspired constrained clustering. To identify abrupt concept drift in data streams, PCA and statistics based heuristic approaches are employed. SyncStream has several attractive benefits: (a) It is capable of dynamically modeling evolving concepts from even a small set of prototypes and is robust against noisy examples. (b) Owing to synchronization-based constrained clustering and the P-Tree, it supports an efficient and effective data representation and maintenance. (c) Gradual and abrupt concept drift can be effectively detected. Empirical results shows that our method achieves good predictive performance compared to state-of-the-art algorithms and that it requires much less time than another instance-based stream mining algorithm.", 
     "authors": [
@@ -6119,5 +6132,317 @@
     "keywords": "social recommendation; friend recommendation; content recommendation; location recommendation; cross-domain recommendation;location-aware recommendation;social-aware recommendation; spatio-temporal-social", 
     "subtype": "Paper", 
     "title": "Recommendation in Social Media:Recent Advances and New Frontiers"
+  }, 
+  "w01": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg)"
+  }, 
+  "w02": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "2nd International Workshop on Multimodal Crowd Sensing (CrowdSens 2014)"
+  }, 
+  "w03": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "3rd Int\u00c2\u00b0\u00c3\u0098l ACM SIGKDD International Workshop on Urban Computing (starts at 10:30am in Track 2 KDD at Bloomberg)"
+  }, 
+  "w04": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "BrainKDD: International Workshop on Data Mining for Brain Science"
+  }, 
+  "w05": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "3rd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications - BigMine-14"
+  }, 
+  "w06": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Big Data Opportunities and Challenges in Mobile Health"
+  }, 
+  "w07": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "13th International Workshop on Data Mining in Bioinformatics (BIOKDD\u00c2\u00b0\u00c3\u009814)"
+  }, 
+  "w08": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Big Data Discovery and Curation (BDDC)"
+  }, 
+  "w09": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Data Ethics"
+  }, 
+  "w10": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Interactive Data Exploration and Analytics (IDEA\u00c2\u00b0\u00c3\u009814)"
+  }, 
+  "w12": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Big Data Analytic Technology for Bioinformatics and Health Informatics (KDDBHI)"
+  }, 
+  "w13": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Outlier Detection & Description under Data Diversity (ODD^2)"
+  }, 
+  "w14": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Big CHat: Connected Health at Big Data Era"
+  }, 
+  "w15": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Standards for Predictive Analytics in the Era of Big Data"
+  }, 
+  "w16": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "The Second Workshop on User Engagement Optimization (UEO)"
+  }, 
+  "w17": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Data Mining for Educational Assessment and Feedback"
+  }, 
+  "w18": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Workshop on Healthcare Informatics (HI-KDD 2014)"
+  }, 
+  "w19": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Large-Scale Sports Analytics"
+  }, 
+  "w20": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights"
+  }, 
+  "w21": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Learning about Emergencies from Social Information (LESI)"
+  }, 
+  "w22": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "Workshop on Discovery Informatics"
+  }, 
+  "w23": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "The 8th International Workshop on Data Mining for Online Advertising (ADKDD\u00c2\u00b0\u00c3\u009814)"
+  }, 
+  "w24": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "NewsKDD \u00c2\u00aeC \u00c2\u00b0\u00e2\u0088\u009eData Science for News Publishing\u00c2\u00b0\u00c2\u00b1"
+  }, 
+  "w25": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "subtype": "Paper", 
+    "title": "KDD Cup 2014 - Predicting Excitement at DonorsChoose"
   }
 }
