@@ -1,3 +1,4 @@
+fb_comment = true
 s_filters=[
 	{
 		"label":"Sessions", 
