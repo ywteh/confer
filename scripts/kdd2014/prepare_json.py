@@ -78,7 +78,6 @@ def prepare_data(data_file):
     paper_authors = unicode(row[4], "ISO-8859-1")
     s_date = unicode(row[7], "ISO-8859-1")
     s_time = unicode(row[8], "ISO-8859-1")
-    paper_type = unicode("Paper", "ISO-8859-1")
     s_id = construct_id(unicode(row[5], "ISO-8859-1"))
     session = unicode(row[6], "ISO-8859-1")
     room = unicode(row[9], "ISO-8859-1")
@@ -112,7 +111,6 @@ def prepare_data(data_file):
         'authors': authors,
         'keywords': keywords,
         'abstract': paper_abstract,
-        'subtype':paper_type,
         'award': award,
         'hm': hm}
     

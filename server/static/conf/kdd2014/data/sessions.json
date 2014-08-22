@@ -13,7 +13,7 @@ sessions={
   "10": {
     "date": "8.24.2014", 
     "room": "Empire West", 
-    "s_title": "Tutorial on Sampling for Big Data: A tutorial", 
+    "s_title": "Tutorial: Sampling for Big Data: A tutorial", 
     "submissions": [
       "tut10", 
       "w10"
@@ -23,7 +23,7 @@ sessions={
   "11": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Tutorial on Statistically Sound Pattern Discovery", 
+    "s_title": "Tutorial: Statistically Sound Pattern Discovery", 
     "submissions": [
       "tut11"
     ], 
@@ -32,7 +32,7 @@ sessions={
   "12": {
     "date": "8.24.2014", 
     "room": "Riverside Suite", 
-    "s_title": "Tutorial on Recommendation in Social Media:Recent Advances and New Frontiers", 
+    "s_title": "Tutorial: Recommendation in Social Media:Recent Advances and New Frontiers", 
     "submissions": [
       "tut12", 
       "w12"
@@ -105,7 +105,7 @@ sessions={
   "2": {
     "date": "8.24.2014", 
     "room": "Empire East", 
-    "s_title": "Tutorial on Constructing and Mining Web-Scale Knowledge Graphs", 
+    "s_title": "Tutorial: Constructing and Mining Web-Scale Knowledge Graphs", 
     "submissions": [
       "tut02", 
       "w02"
@@ -178,7 +178,7 @@ sessions={
   "3": {
     "date": "8.24.2014", 
     "room": "Empire East", 
-    "s_title": "Tutorial on Bringing Structure to Text: Mining Phrases, Entities, Topics, and Hierarchies", 
+    "s_title": "Tutorial: Bringing Structure to Text: Mining Phrases, Entities, Topics, and Hierarchies", 
     "submissions": [
       "tut03", 
       "w03"
@@ -188,7 +188,7 @@ sessions={
   "4": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Tutorial on Computational Epidemiology", 
+    "s_title": "Tutorial: Computational Epidemiology", 
     "submissions": [
       "tut04", 
       "w04"
@@ -198,7 +198,7 @@ sessions={
   "5": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Tutorial on Management and Analytic of Biomedical Big Data with Cloud-based In-Memory Database and Dynamic Querying: A Hands-on Experience with Real-world Data", 
+    "s_title": "Tutorial: Management and Analytic of Biomedical Big Data with Cloud-based In-Memory Database and Dynamic Querying: A Hands-on Experience with Real-world Data", 
     "submissions": [
       "tut05", 
       "w05"
@@ -208,7 +208,7 @@ sessions={
   "6": {
     "date": "8.24.2014", 
     "room": "Riverside Ballroom", 
-    "s_title": "Tutorial on The Recommender Problem Revisited", 
+    "s_title": "Tutorial: The Recommender Problem Revisited", 
     "submissions": [
       "tut06", 
       "w06"
@@ -218,7 +218,7 @@ sessions={
   "7": {
     "date": "8.24.2014", 
     "room": "Empire West", 
-    "s_title": "Tutorial on Correlation Clustering: from Theory to Practice", 
+    "s_title": "Tutorial: Correlation Clustering: from Theory to Practice", 
     "submissions": [
       "tut07", 
       "w07"
@@ -228,7 +228,7 @@ sessions={
   "8": {
     "date": "8.24.2014", 
     "room": "NY Ballroom West", 
-    "s_title": "Tutorial on Deep Learning", 
+    "s_title": "Tutorial: Deep Learning", 
     "submissions": [
       "tut08", 
       "w08"
@@ -238,7 +238,7 @@ sessions={
   "9": {
     "date": "8.24.2014", 
     "room": "Riverside Ballroom", 
-    "s_title": "Tutorial on Network Mining and Analysis for Social Applications", 
+    "s_title": "Tutorial: Network Mining and Analysis for Social Applications", 
     "submissions": [
       "tut09", 
       "w09"

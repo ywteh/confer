@@ -9,7 +9,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Broadening Participation in Data Mining (BPDM)"
   }, 
   "frp0018": {
@@ -34,7 +33,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data stream; concept drift;  classification; synchronization", 
-    "subtype": "Paper", 
     "title": "Prototype-based Learning on Concept-drifting Data Streams"
   }, 
   "frp0029": {
@@ -63,7 +61,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "diversity; user effort minimization; mobile applications", 
-    "subtype": "Paper", 
     "title": "User Effort Minimization Through Adaptive Diversification"
   }, 
   "frp0038": {
@@ -92,7 +89,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "feature selection; mutual information; spectral relaxation; semi-definite programming; global optimization", 
-    "subtype": "Paper", 
     "title": "Effective Global Approaches for Mutual Information Based Feature Selection"
   }, 
   "frp0040": {
@@ -121,7 +117,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "minibatch,distributed computing,stochastic gradient descent,machine learning,big data", 
-    "subtype": "Paper", 
     "title": "Efficient Mini-batch Training for Stochastic Optimization"
   }, 
   "frp0051": {
@@ -149,7 +144,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "time-series classification; shapelets; supervised feature extraction", 
-    "subtype": "Paper", 
     "title": "Learning Time-Series Shapelets"
   }, 
   "frp0066": {
@@ -178,7 +172,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "kernel approximation; the nystr?m method; large-scale machine\nlearning", 
-    "subtype": "Paper", 
     "title": "Improving the Modified Nystr?m Method Using Spectral Shifting"
   }, 
   "frp0069": {
@@ -199,7 +192,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "big data; missing value; clustering", 
-    "subtype": "Paper", 
     "title": "Scaling Out Big Data Missing Value Imputations"
   }, 
   "frp0085": {
@@ -223,7 +215,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "group recommendation; collaborative filtering; topic models", 
-    "subtype": "Paper", 
     "title": "COM: a Generative Model for Group Recommendation"
   }, 
   "frp0096": {
@@ -244,7 +235,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "information extraction; spreadsheets; graphical model", 
-    "subtype": "Paper", 
     "title": "Integrating Spreadsheet Data via Accurate and Low-Effort Extraction"
   }, 
   "frp0114": {
@@ -273,7 +263,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "deep neural networks; supervision; autoencoder;", 
-    "subtype": "Paper", 
     "title": "Supervised Deep Learning with Auxiliary Networks"
   }, 
   "frp0128": {
@@ -294,7 +283,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "non-parametric scan statistics, event detection and forecasting, social media, heterogeneous graphs", 
-    "subtype": "Paper", 
     "title": "Non-Parametric Scan Statistics for Event Detection and Forecasting in Heterogeneous Social Media Graphs"
   }, 
   "frp0140": {
@@ -315,7 +303,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "semantic visualization; topic model; generative model; spherical space; spherical semantic embedding; dimensionality reduction; l2-normalized vector;", 
-    "subtype": "Paper", 
     "title": "Semantic Visualization for Spherical Representation"
   }, 
   "frp0147": {
@@ -336,7 +323,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "seed set expansion; ground-truth communities", 
-    "subtype": "Paper", 
     "title": "Community Membership Identification from Small Seed Sets"
   }, 
   "frp0148": {
@@ -357,7 +343,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "topic model; lifelong learning; opinion aspect extraction.", 
-    "subtype": "Paper", 
     "title": "Mining Topics in Documents: Standing on the Shoulders of Big Data"
   }, 
   "frp0155": {
@@ -406,7 +391,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "knowledge bases; information extraction; probabilistic  models; machine learning", 
-    "subtype": "Paper", 
     "title": "Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion"
   }, 
   "frp0188": {
@@ -435,7 +419,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "epidemics; time-series; automatic mining", 
-    "subtype": "Paper", 
     "title": "FUNNEL: Automatic Mining of Spatially Coevolving Epidemics"
   }, 
   "frp0203": {
@@ -468,7 +451,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "video tagging; crowdsourcing; topic modeling; temporal and personalized model", 
-    "subtype": "Paper", 
     "title": "Crowdsourced Time-sync Video Tagging using Temporal and Personalized Topic Modeling"
   }, 
   "frp0206": {
@@ -485,7 +467,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "adaptive betweenness centrality; adaptive coverage centrality; randomized algorithm", 
-    "subtype": "Paper", 
     "title": "Almost Linear-Time Algorithms for Adaptive Betweenness Centrality using Hypergraph Sketches"
   }, 
   "frp0210": {
@@ -510,7 +491,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "classification; interpretability; sparsity; submodularity", 
-    "subtype": "Paper", 
     "title": "Fast Flux Discriminant for Large-Scale Sparse Nonlinear Classification"
   }, 
   "frp0227": {
@@ -539,7 +519,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "human mobility; disaster informatics; spatio-temporal data mining", 
-    "subtype": "Paper", 
     "title": "Prediction of Human Emergency Behavior and their Mobility following Large-scale Disaster"
   }, 
   "frp0258": {
@@ -568,7 +547,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "community detection; correlation analysis; modularity; leverage; likelihood ratio", 
-    "subtype": "Paper", 
     "title": "Community Detection in Graphs through Correlation"
   }, 
   "frp0261": {
@@ -602,7 +580,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "citation recommendation; heterogeneous information network; clustering; citation behavioral pattern", 
-    "subtype": "Paper", 
     "title": "ClusCite: Effective Citation Recommendation by Information Network-Based Clustering"
   }, 
   "frp0263": {
@@ -627,7 +604,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "expectation maximization; kalman filter; learning analytics; personalized learning; sparse factor analysis", 
-    "subtype": "Paper", 
     "title": "Time-Varying Learning and Content Analytics via Sparse Factor Analysis"
   }, 
   "frp0265": {
@@ -660,7 +636,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "zombie follower,anomalous behavior,outlier detection", 
-    "subtype": "Paper", 
     "title": "CatchSync: Catching Synchronized Behavior in Large Directed Graphs"
   }, 
   "frp0266": {
@@ -685,7 +660,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "demand-side platform; bid optimisation; real-time bidding; display advertising", 
-    "subtype": "Paper", 
     "title": "Optimal Real-Time Bidding for Display Advertising"
   }, 
   "frp0291": {
@@ -702,7 +676,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "display advertising;machine learning;conversion prediction", 
-    "subtype": "Paper", 
     "title": "Modeling Delayed Feedback in Display Advertising"
   }, 
   "frp0295": {
@@ -731,7 +704,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "feature selection; large-scale; gradient boosting", 
-    "subtype": "Paper", 
     "title": "Gradient Boosted Feature Selection"
   }, 
   "frp0315": {
@@ -753,7 +725,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "adaptive learning; chinese restaurant process; nonparametric; online learning", 
-    "subtype": "Paper", 
     "title": "Online Chinese Restaurant Process"
   }, 
   "frp0328": {
@@ -782,7 +753,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "submodular functions; streaming algorithms", 
-    "subtype": "Paper", 
     "title": "Streaming Submodular Maximization: Massive Data Summarization on the Fly"
   }, 
   "frp0343": {
@@ -819,7 +789,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "weighted matrix factorization; location recommendation; kernel density estimation; location-based social network", 
-    "subtype": "Paper", 
     "title": "GeoMF: Joint Geographical Modeling and Matrix Factorization for Point-of-Interest Recommendation"
   }, 
   "frp0399": {
@@ -856,7 +825,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "brain activity analysis; system identification; brain functional connectivity; control theory; neuroscience", 
-    "subtype": "Paper", 
     "title": "Good-Enough Brain Model: Challenges, Algorithms and Discoveries in Multi-Subject Experiments"
   }, 
   "frp0414": {
@@ -877,7 +845,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "histogram; scalable method; probabilistic database", 
-    "subtype": "Paper", 
     "title": "Scalable Histograms on Large Probabilistic Data"
   }, 
   "frp0437": {
@@ -906,7 +873,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multi-task learning; feature selection; calibration; dual problem; accelerated gradient descent", 
-    "subtype": "Paper", 
     "title": "Efficient Multi-Task Feature Learning with Calibration"
   }, 
   "frp0441": {
@@ -930,7 +896,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "network data; differential privacy; structural inference", 
-    "subtype": "Paper", 
     "title": "Differentially Private Network Data Release via Structural Inference"
   }, 
   "frp0459": {
@@ -959,7 +924,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "network of networks; ranking; query", 
-    "subtype": "Paper", 
     "title": "Inside the Atoms: Ranking on a Network of Networks"
   }, 
   "frp0465": {
@@ -996,7 +960,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "behavior modeling,behavioral pattern,evolutionary analysis,tensor factorization,flexible regularizers", 
-    "subtype": "Paper", 
     "title": "FEMA: Flexible Evolutionary Multi-faceted Analysis for Dynamic Behavioral Pattern Discovery"
   }, 
   "frp0466": {
@@ -1020,7 +983,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "link prediction, classification, transfer learning, data mining", 
-    "subtype": "Paper", 
     "title": "Meta-path based Multi-network Collective Link Prediction"
   }, 
   "frp0488": {
@@ -1049,7 +1011,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "diffusion network; network visualization; survival analysis", 
-    "subtype": "Paper", 
     "title": "Probabilistic Latent Network Visualization: Inferring and Embedding Diffusion Networks"
   }, 
   "frp0489": {
@@ -1074,7 +1035,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "crowd-oriented service; probabilistic topic model; crowdsourcing", 
-    "subtype": "Paper", 
     "title": "TCS: Efficient Topic Discovery over Crowd-oriented Service Data"
   }, 
   "frp0491": {
@@ -1095,7 +1055,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "classification; imbalanced data; decision trees", 
-    "subtype": "Paper", 
     "title": "Box Drawings for Learning with Imbalanced Data"
   }, 
   "frp0492": {
@@ -1124,7 +1083,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "question answering; long-term impact; impact correlation", 
-    "subtype": "Paper", 
     "title": "Predicting Long-Term Impact of CQA Posts: A Comprehensive Viewpoint"
   }, 
   "frp0518": {
@@ -1149,7 +1107,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "personalization; diversity; structured svms; ad hoc retrieval", 
-    "subtype": "Paper", 
     "title": "Personalized Search Result Diversification via Structured Learning"
   }, 
   "frp0532": {
@@ -1169,7 +1126,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multi-label learning;ranking;extreme classification", 
-    "subtype": "Paper", 
     "title": "FastXML: A Fast, Accurate and Stable Tree-classifier for eXtreme Multi-label Learning"
   }, 
   "frp0534": {
@@ -1202,7 +1158,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "relevant subspace clustering; categorical data; minimum description length", 
-    "subtype": "Paper", 
     "title": "Relevant Overlapping Subspace Clusters on Categorical Data"
   }, 
   "frp0542": {
@@ -1235,7 +1190,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "urban computing; traffic pollution; gas consumption; spatial trajectories.", 
-    "subtype": "Paper", 
     "title": "Inferring Gas Consumption and Pollution Emission of Vehicles throughout a City"
   }, 
   "frp0549": {
@@ -1256,7 +1210,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "peer grading; ordinal feedback; rank aggregation", 
-    "subtype": "Paper", 
     "title": "Methods for Ordinal Peer Grading"
   }, 
   "frp0554": {
@@ -1283,7 +1236,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "uncertain graphs; dense subgraph; core decomposition", 
-    "subtype": "Paper", 
     "title": "Core Decomposition of Uncertain Graphs"
   }, 
   "frp0557": {
@@ -1308,7 +1260,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "travel time estimation; tensor decomposition; spatial trajectories; urban computing; spatio-temporal data mining.", 
-    "subtype": "Paper", 
     "title": "Travel Time Estimation of a Path using Sparse Trajectories"
   }, 
   "frp0574": {
@@ -1327,7 +1278,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "collaborative filtering; transfer learning; matrix factorization", 
-    "subtype": "Paper", 
     "title": "Matching Users and Items Across Domains to Improve the Recommendation Quality"
   }, 
   "frp0584": {
@@ -1352,7 +1302,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "tensor; dimensionality reduction; ehr phenotyping; application", 
-    "subtype": "Paper", 
     "title": "Marble: High-throughput Phenotyping from Electronic Health Records via Sparse Nonnegative Tensor Factorization"
   }, 
   "frp0599": {
@@ -1373,7 +1322,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data aggregation; low rank approximation; multi-level model;", 
-    "subtype": "Paper", 
     "title": "LUDIA: An Aggregate-Constrained Low-Rank Reconstruction Algorithm to Leverage Publicly Released Health Data"
   }, 
   "frp0602": {
@@ -1397,7 +1345,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "graph edge partition, distributed massive computation, approximation algorithms, streaming heuristics", 
-    "subtype": "Paper", 
     "title": "Balanced Graph Edge Partition"
   }, 
   "frp0606": {
@@ -1419,7 +1366,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "warm start; incremental learning; decremental learning; linear classification", 
-    "subtype": "Paper", 
     "title": "Incremental and Decremental Training for Linear Classification"
   }, 
   "frp0615": {
@@ -1444,7 +1390,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "feature selection;supervised learning;bi-level learning;com- binatorics;optimization;dynamic programming", 
-    "subtype": "Paper", 
     "title": "Simultaneous Feature and Feature Group Selection through Hard Thresholding"
   }, 
   "frp0622": {
@@ -1469,7 +1414,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "document recommendations; side information; topic modeling; collaborative ?ltering; cold start", 
-    "subtype": "Paper", 
     "title": "Leveraging User Libraries to Bootstrap Collaborative Filtering"
   }, 
   "frp0625": {
@@ -1490,7 +1434,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "strong triadic closure; social networks; approximation algorithms", 
-    "subtype": "Paper", 
     "title": "Using Strong Triadic Closure to Characterize Ties in Social Networks"
   }, 
   "frp0657": {
@@ -1515,7 +1458,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "sparse learning; non-convex; weak hierarchical lasso; proximal\noperator", 
-    "subtype": "Paper", 
     "title": "An Efficient Algorithm For Weak Hierarchical Lasso"
   }, 
   "frp0672": {
@@ -1604,7 +1546,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "text mining;scientific discovery;hypothesis generation", 
-    "subtype": "Paper", 
     "title": "Automated Hypothesis Generation Based On Mining Scientific Literature"
   }, 
   "frp0679": {
@@ -1637,7 +1578,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "cost-effective;mobile recommender systems;taxi drivers", 
-    "subtype": "Paper", 
     "title": "A Cost-Effective Recommender System for Taxi Drivers"
   }, 
   "frp0680": {
@@ -1654,7 +1594,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "distinct elements; martingale; cardinality estimation; randomized algorithms", 
-    "subtype": "Paper", 
     "title": "Streamed Approximate Counting of Distinct Elements"
   }, 
   "frp0683": {
@@ -1679,7 +1618,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "news dynamics; information spread; social media; sentiment analysis;", 
-    "subtype": "Paper", 
     "title": "Dynamics of News Events and Social Media Reaction"
   }, 
   "frp0697": {
@@ -1700,7 +1638,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "incremental singular value decomposition; data streams", 
-    "subtype": "Paper", 
     "title": "LWI-SVD: Low-rank, Windowed, Incremental Singular Value Decompositions on Time-Evolving Data Sets"
   }, 
   "frp0706": {
@@ -1721,7 +1658,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "networked bandits; social network; exploration/exploitation dilemma", 
-    "subtype": "Paper", 
     "title": "Networked Bandits with Disjoint Linear Payoffs"
   }, 
   "frp0708": {
@@ -1737,7 +1673,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "classification; transductive learning; graph; active learning; uncertainty sampling", 
-    "subtype": "Paper", 
     "title": "Active-Transductive Learning with Label-Adapted Kernels"
   }, 
   "frp0715": {
@@ -1766,7 +1701,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "event detection; submodular function maximization; prize-collecting steiner tree; maximum cut", 
-    "subtype": "Paper", 
     "title": "Event Detection in Activity Networks"
   }, 
   "frp0716": {
@@ -1802,7 +1736,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "real estate appraisal; geographic dependencies; clusranking;", 
-    "subtype": "Paper", 
     "title": "Exploiting Geographic Dependencies for Real Estate Appraisal"
   }, 
   "frp0725": {
@@ -1835,7 +1768,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "ensemble; large margin; generalization error", 
-    "subtype": "Paper", 
     "title": "Class-Distribution Regularized Consensus Maximization for Alleviating Overfitting in Model Combination"
   }, 
   "frp0726": {
@@ -1860,7 +1792,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "algorithms, experimentation", 
-    "subtype": "Paper", 
     "title": "Open Question Answering Over Curated and Extracted Knowledge Bases"
   }, 
   "frp0727": {
@@ -1893,7 +1824,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "distance metric learning, dropout", 
-    "subtype": "Paper", 
     "title": "Distance Metric Learning Using Dropout: A Structured Regularization Approach"
   }, 
   "frp0733": {
@@ -1926,7 +1856,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "hawkes process; latent dirichlet allocation; variational inference; search task;", 
-    "subtype": "Paper", 
     "title": "Identifying and Labeling Search Tasks via Query-based Hawkes Processes"
   }, 
   "frp0740": {
@@ -1943,7 +1872,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "distance queries; poisson sampling; bottom-k sampling; euclidean distance; manhattan distance", 
-    "subtype": "Paper", 
     "title": "Distance Queries from Sampled Data: Accurate and Efficient"
   }, 
   "frp0741": {
@@ -1964,7 +1892,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "spatial; kernel density estimation; anomaly/novelty detection; probabilistic methods; social media; user modeling", 
-    "subtype": "Paper", 
     "title": "Modeling Human Location Data with Mixtures of Kernel Densities"
   }, 
   "frp0743": {
@@ -1993,7 +1920,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "focused graph mining; infer user preference; attributed graphs; clustering; outlier mining; distance metric learning", 
-    "subtype": "Paper", 
     "title": "Focused Clustering and Outlier Detection in Large Attributed Graphs"
   }, 
   "frp0745": {
@@ -2014,7 +1940,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "differential privacy; exponential random graph model", 
-    "subtype": "Paper", 
     "title": "Exponential Random Graph Estimation under Differential Privacy"
   }, 
   "frp0747": {
@@ -2047,7 +1972,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social networks; influence diffusion; independent cascade model; seed minimization", 
-    "subtype": "Paper", 
     "title": "Minimizing Seed Set Selection with Probabilistic Coverage Guarantee in a Social Network"
   }, 
   "frp0754": {
@@ -2072,7 +1996,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "record linkage; source reliability; truth discovery; entity profiling", 
-    "subtype": "Paper", 
     "title": "Entity Profiling with Varying Source Reliabilities"
   }, 
   "frp0762": {
@@ -2097,7 +2020,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "screening; sparse support vector machine; feature selection", 
-    "subtype": "Paper", 
     "title": "Safe and Efficient Screening For Sparse Support Vector Machine"
   }, 
   "frp0763": {
@@ -2126,7 +2048,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multidimensional sentiment analysis; sentiment as social; sentiment transitions", 
-    "subtype": "Paper", 
     "title": "Sentiment Expression Conditioned by Affective Transitions and Social Forces"
   }, 
   "frp0773": {
@@ -2158,7 +2079,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "hash function learning; heterogeneous translated hashing; scalability", 
-    "subtype": "Paper", 
     "title": "Scalable Heterogeneous Translated Hashing"
   }, 
   "frp0774": {
@@ -2183,7 +2103,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "classification;supervised learning;boosting;direct optimization;noise tolerance", 
-    "subtype": "Paper", 
     "title": "A Multi-class Boosting Method with Direct Optimization"
   }, 
   "frp0784": {
@@ -2208,7 +2127,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "team formation; online marketplaces", 
-    "subtype": "Paper", 
     "title": "Profit-maximizing Cluster Hires"
   }, 
   "frp0786": {
@@ -2229,7 +2147,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "topic modelling, experimental results, non-parametric prior, text", 
-    "subtype": "Paper", 
     "title": "Experiments with Non-parametric Topic Models"
   }, 
   "frp0794": {
@@ -2249,7 +2166,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "product selection; consumer behavior; model learning; submodular set function; approximation algorithm", 
-    "subtype": "Paper", 
     "title": "Product Selection Problem: Improve Market Share by Learning Consumer Behavior"
   }, 
   "frp0800": {
@@ -2274,7 +2190,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social influence analysis; information cascades; networks of diffusion; bayesian analysis; gibbs sampling", 
-    "subtype": "Paper", 
     "title": "A Bayesian Framework for Estimating Properties of Network Diffusions"
   }, 
   "frp0802": {
@@ -2299,7 +2214,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "interpretability; earliness; uncertainty; time series; reliability", 
-    "subtype": "Paper", 
     "title": "Utilizing Temporal Patterns for Estimating Uncertainty in Interpretable Early Decision Making"
   }, 
   "frp0808": {
@@ -2324,7 +2238,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "hierarchical dirichlet process;random effects;batch clustering;recurring classes;rare classes;anomaly detection", 
-    "subtype": "Paper", 
     "title": "Batch Discovery of Recurring Rare Classes toward Identifying Anomalous Samples"
   }, 
   "frp0811": {
@@ -2348,7 +2261,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "similarity measure; simrank; linearized simrank", 
-    "subtype": "Paper", 
     "title": "Efficient SimRank Computation via Linearization"
   }, 
   "frp0819": {
@@ -2369,7 +2281,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multi-task learning, copula, semi-parametric model, sparse structured learning, covariance regression", 
-    "subtype": "Paper", 
     "title": "Multi-task Copula by Sparse Graph Regression"
   }, 
   "frp0826": {
@@ -2394,7 +2305,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "subset selection; low-rank matrix approximation; leverage scores; deterministic sampling; power law distributions", 
-    "subtype": "Paper", 
     "title": "Provable Deterministic Leverage Score Sampling"
   }, 
   "frp0831": {
@@ -2419,7 +2329,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "\\terms{anomaly/novelty detection, mining rich data types}\n\n\\keywords{sleep eeg anomalies, dynamic residue model}", 
-    "subtype": "Paper", 
     "title": "Sleep Analytics and Online Selective Anomaly Detection"
   }, 
   "frp0838": {
@@ -2451,7 +2360,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "ideal point estimation; legislative voting network; topic model; voting prediction", 
-    "subtype": "Paper", 
     "title": "Topic-Factorized Ideal Point Estimation Model for Legislative Voting Network"
   }, 
   "frp0842": {
@@ -2484,7 +2392,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "graph mining; propagation; diffusion; coarsening", 
-    "subtype": "Paper", 
     "title": "Fast Influence-based Coarsening for Large Networks"
   }, 
   "frp0843": {
@@ -2504,7 +2411,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "cardiovascular disease; electrocardiogram; adaptive downsampling; time-warping; noise mining", 
-    "subtype": "Paper", 
     "title": "Scalable Noise Mining in Long-Term Electrocardiographic Time-Series to Predict Death Following Heart Attacks"
   }, 
   "frp0851": {
@@ -2537,7 +2443,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "demographic prediction: social strategy: mobile social network: human communication", 
-    "subtype": "Paper", 
     "title": "Inferring User Demographics and Social Strategies in Mobile Social Networks"
   }, 
   "frp0856": {
@@ -2562,7 +2467,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "di\u000bffusion networks; network optimization; supermodularity;\napproximation", 
-    "subtype": "Paper", 
     "title": "Scalable Diffusion-Aware Optimization of Network Topology"
   }, 
   "frp0859": {
@@ -2591,7 +2495,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "mobile apps;recommender systems;security and privacy", 
-    "subtype": "Paper", 
     "title": "Mobile App Recommendations with Security and Privacy Awareness"
   }, 
   "frp0862": {
@@ -2612,7 +2515,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "heat kernel; local clustering", 
-    "subtype": "Paper", 
     "title": "Heat Kernel Based Community Detection"
   }, 
   "frp0884": {
@@ -2645,7 +2547,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "permanence; community analysis; modularity", 
-    "subtype": "Paper", 
     "title": "On the Permanence of Vertices in Network Communities"
   }, 
   "frp0885": {
@@ -2666,7 +2567,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "parallel inference, hierarchical dirichlet process, topic model", 
-    "subtype": "Paper", 
     "title": "Parallel Gibbs Sampling for Hierarchical Dirichlet Processes via Gamma Processes Equivalence"
   }, 
   "frp0887": {
@@ -2691,7 +2591,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "time series analysis, granger causality, generalized linear model", 
-    "subtype": "Paper", 
     "title": "FBLG: A Simple and Effective Approach for Temporal Dependence Discovery from Time Series Data"
   }, 
   "frp0888": {
@@ -2711,7 +2610,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "margin distribution, minimum margin, classification", 
-    "subtype": "Paper", 
     "title": "Large Margin Distribution Machine"
   }, 
   "frp0892": {
@@ -2740,7 +2638,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "medical informatics, phenotyping, sparse learning, matrix completion, densification", 
-    "subtype": "Paper", 
     "title": "From Micro to Macro: Data Driven Phenotyping by Densification of Longitudinal Electronic Medical Records"
   }, 
   "frp0936": {
@@ -2765,7 +2662,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "online learning; multiple kernel learning; kernel regression; time series prediction", 
-    "subtype": "Paper", 
     "title": "Online Multiple Kernel Regression"
   }, 
   "frp0975": {
@@ -2784,7 +2680,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "tensor decomposition; dtt", 
-    "subtype": "Paper", 
     "title": "Fast DTT -- A Near Linear Algorithm for Decomposing a Tensor into Factor Tensors"
   }, 
   "frp0991": {
@@ -2808,7 +2703,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "credibility; trustworthiness; objectivity; veracity; probabilistic graphical models", 
-    "subtype": "Paper", 
     "title": "People on Drugs: Credibility of User Statements in Health Communities"
   }, 
   "frp0993": {
@@ -2829,7 +2723,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "short text clustering; dirichlet multinomial mixture; gibbs sampling", 
-    "subtype": "Paper", 
     "title": "A Dirichlet Multinomial Mixture Model-based Approach for Short Text Clustering"
   }, 
   "frp1081": {
@@ -2852,7 +2745,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data quality; quantitative data cleaning; glitch explanations; crossover subsampling", 
-    "subtype": "Paper", 
     "title": "Empirical Glitch Explanations"
   }, 
   "frp1136": {
@@ -2877,7 +2769,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "crowdsourcing; human computation; social media; market", 
-    "subtype": "Paper", 
     "title": "From Labor to Trader: Opinion Elicitation via Online Crowds as a Market"
   }, 
   "frp1142": {
@@ -2902,7 +2793,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "graph mining; real-world networks; multifractal; method of moments; graph sampling; stochastic kronecker graph; random graphs", 
-    "subtype": "Paper", 
     "title": "Learning Multifractal Structure in Large Networks"
   }, 
   "frp1150": {
@@ -2927,7 +2817,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "anomaly detection; social media analysis; hierarchical bayes modeling", 
-    "subtype": "Paper", 
     "title": "GLAD: Group Anomaly Detection in Social Media Analysis"
   }, 
   "frp1154": {
@@ -2952,7 +2841,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "crowd wisdom; social influence; herding effect", 
-    "subtype": "Paper", 
     "title": "Quantifying Herding Effects in Crowd Wisdom"
   }, 
   "frp1161": {
@@ -2977,7 +2865,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "robust mining; anomaly detection; categorical mixtures", 
-    "subtype": "Paper", 
     "title": "Detecting Anomalies in Dynamic Rating Data: A Robust Probabilistic Model for Rating Evolution"
   }, 
   "frp1177": {
@@ -3018,7 +2905,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "collaborative network; generative model; task routing; user modeling", 
-    "subtype": "Paper", 
     "title": "Analyzing Expert Behaviors in Collaborative Networks"
   }, 
   "frp1198": {
@@ -3039,7 +2925,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "frequent itemset, differential privacy, fp-tree", 
-    "subtype": "Paper", 
     "title": "Top-k Frequent Itemsets via Differentially Private FP-trees"
   }, 
   "frp1202": {
@@ -3072,7 +2957,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social networks; event organization; assignment problems", 
-    "subtype": "Paper", 
     "title": "On Social Event Organization"
   }, 
   "frp1212": {
@@ -3109,7 +2993,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "clustering; uncertain data; possible worlds", 
-    "subtype": "Paper", 
     "title": "Representative Clustering of Uncertain Data"
   }, 
   "frp1224": {
@@ -3134,7 +3017,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "clustering, block diagonal similarity matrix, adaptive neighbors, clustering with dimensionality reduction", 
-    "subtype": "Paper", 
     "title": "Clustering and Projected Clustering with Adaptive Neighbors"
   }, 
   "frp1228": {
@@ -3155,7 +3037,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "nonparametric bayes modeling, multi-task multi-view, gibbs\nsampler.", 
-    "subtype": "Paper", 
     "title": "Learning with Dual Heterogeneity: A Nonparametric Bayes Model"
   }, 
   "frp1230": {
@@ -3184,7 +3065,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "information diffusion;graph mining;social network", 
-    "subtype": "Paper", 
     "title": "MMRate: Inferring Multi-aspect Diffusion Networks with Multi-pattern Cascades"
   }, 
   "frp1231": {
@@ -3224,7 +3104,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data mining; graph mining; root cause analysis; critical alert mining; data center troubleshooting", 
-    "subtype": "Paper", 
     "title": "Towards Scalable Critical Alert Mining"
   }, 
   "frp1234": {
@@ -3249,7 +3128,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "collaborative ranking, active learning, matrix factorization", 
-    "subtype": "Paper", 
     "title": "Active Collaborative Permutation Learning"
   }, 
   "frp1241": {
@@ -3274,7 +3152,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "semi-supervised learning; large-scale semi-supervised learning; unified inductive and transductive model", 
-    "subtype": "Paper", 
     "title": "Large-Scale Adaptive Semi-Supervised Learning via Unified Inductive and Transductive Model"
   }, 
   "frp1252": {
@@ -3298,7 +3175,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social networks; deep learning; latent representations; learning with partial labels; network classification; online learning", 
-    "subtype": "Paper", 
     "title": "DeepWalk: Online Learning of Social Representations"
   }, 
   "frp1266": {
@@ -3322,7 +3198,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social networks; link prediction", 
-    "subtype": "Paper", 
     "title": "Who to Follow and Why: Link Prediction with Explanations"
   }, 
   "frp1281": {
@@ -3351,7 +3226,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "semi-supervised learning; subspace clustering; constraints", 
-    "subtype": "Paper", 
     "title": "SMVC: Semi-Supervised Multi-View Clustering in Subspace Projections"
   }, 
   "frp1301": {
@@ -3380,7 +3254,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "outlier;moving object;trajectory stream", 
-    "subtype": "Paper", 
     "title": "Detecting Moving Object Outliers In Massive-Scale Trajectory Streams"
   }, 
   "frp1314": {
@@ -3404,7 +3277,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "dimensionality reduction; principal component analysis; property\ntesting; robustness; stable rank", 
-    "subtype": "Paper", 
     "title": "Improved Testing of Low Rank Matrices"
   }, 
   "frp1319": {
@@ -3425,7 +3297,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multi-label classification; heterogeneous network; activity-based edge classification; collaboration multigraph; label vicinity", 
-    "subtype": "Paper", 
     "title": "Activity-edge Centric Multi-label Classification for Mining Heterogeneous Information Networks"
   }, 
   "frp1321": {
@@ -3453,7 +3324,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "graph theory; community detection; centrality; spectral clustering; cheeger's inequality", 
-    "subtype": "Paper", 
     "title": "The Interplay Between Dynamics and Networks: Centrality, Communities, and Cheeger Inequality"
   }, 
   "frp1329": {
@@ -3472,7 +3342,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "learning to rank; domain adaptation; feature decoupling; tree-structured restricted boltzmann machine", 
-    "subtype": "Paper", 
     "title": "Unifying Learning to Rank and Domain Adaptation: Enabling Cross-Task Document Scoring"
   }, 
   "frp1341": {
@@ -3496,7 +3365,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "trend detection; hashing; text-mining; outlier detection", 
-    "subtype": "Paper", 
     "title": "SigniTrend: Scalable Detection of Emerging Topics in Textual Streams by Hashed Significance Thresholds"
   }, 
   "frp1346": {
@@ -3529,7 +3397,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "temporal skeletonization, curse of cardinality, sequential pattern mining, network embedding", 
-    "subtype": "Paper", 
     "title": "Temporal Skeletonization on Sequential Data: Patterns, Categorization, and Visualization"
   }, 
   "frp1350": {
@@ -3569,7 +3436,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data mining for social good; healthcare and medicine; topic, graphical and latent variable models; text; support vector machines", 
-    "subtype": "Paper", 
     "title": "Unfolding Physiological State: Mortality Modelling in Intensive Care Units"
   }, 
   "frp1360": {
@@ -3594,7 +3460,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "scalable clustering; signed networks.", 
-    "subtype": "Paper", 
     "title": "Correlation Clustering in MapReduce"
   }, 
   "frp1361": {
@@ -3623,7 +3488,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "recommender systems; interest evolution; attraction; aversion", 
-    "subtype": "Paper", 
     "title": "Optimal Recommendations under Attraction, Aversion, and Social Influence"
   }, 
   "frp1370": {
@@ -3652,7 +3516,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "personalized pagerank; social search", 
-    "subtype": "Paper", 
     "title": "FAST-PPR: Scaling Personalized PageRank Estimation for Large Graphs"
   }, 
   "frp1384": {
@@ -3673,7 +3536,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "influence maximization, uncertainty, noise, submodular optimization, robust optimization", 
-    "subtype": "Paper", 
     "title": "Stability of Influence Maximization"
   }, 
   "frp1397": {
@@ -3701,7 +3563,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "sparse learning; feature selection", 
-    "subtype": "Paper", 
     "title": "Factorized Sparse Learning Models with Interpretable High Order Feature Interactions"
   }, 
   "frp1402": {
@@ -3726,7 +3587,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "clustering;partitioning;teams;groups;large classes;massive courses;mooc", 
-    "subtype": "Paper", 
     "title": "Grouping Students in Educational Settings"
   }, 
   "frp1419": {
@@ -3747,7 +3607,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "number and unit extraction, web tables, collective inference", 
-    "subtype": "Paper", 
     "title": "Open-domain Quantity Queries on Web Tables:Annotation, Response, and Consensus Models"
   }, 
   "frp1450": {
@@ -3776,7 +3635,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "gaussian processes; beta processes; bayesian nonparametrics; latent clusters; disease trajectories", 
-    "subtype": "Paper", 
     "title": "Dual Beta Process Priors for Latent Cluster Discovery in Chronic Obstructive Pulmonary Disease"
   }, 
   "frp1478": {
@@ -3793,7 +3651,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data streams; data classification", 
-    "subtype": "Paper", 
     "title": "The Setwise Stream Classification Problem"
   }, 
   "frp1479": {
@@ -3822,7 +3679,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "topic-specific authority analysis; bayesian model; content sharing services", 
-    "subtype": "Paper", 
     "title": "Who Are Experts Specializing in Landscape Photography?"
   }, 
   "frp1483": {
@@ -3846,7 +3702,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "tree-decomposition; tree-width; core-tree-decomposition; expander; social network; web graph", 
-    "subtype": "Paper", 
     "title": "Network Structural Analysis via Core-Tree-Decomposition"
   }, 
   "frp1500": {
@@ -3871,7 +3726,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "bayesian network; markov jump process; disease progression modeling; medical informatics", 
-    "subtype": "Paper", 
     "title": "Unsupervised Learning of Disease Progression Models"
   }, 
   "frp1517": {
@@ -3904,7 +3758,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "logistic regression; multilinear; proximal gradient; healthcare", 
-    "subtype": "Paper", 
     "title": "Clinical Risk Prediction with Multilinear Sparse Logistic Regression"
   }, 
   "frp1519": {
@@ -3933,7 +3786,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "sampling; scalability; topic models; alias method", 
-    "subtype": "Paper", 
     "title": "Reducing the Sampling Complexity of Topic Models"
   }, 
   "frp1521": {
@@ -3962,7 +3814,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "network sampling; graph streams; statistical estimation", 
-    "subtype": "Paper", 
     "title": "Graph Sample and Hold: A Framework for Big-Graph Analytics"
   }, 
   "frp1603": {
@@ -3998,7 +3849,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "collaborative filtering; topic models; integrated modeling; sentiment analysis", 
-    "subtype": "Paper", 
     "title": "Jointly Modeling Aspects, Ratings and Sentiments for Movie Recommendation (JMARS)"
   }, 
   "frp1621": {
@@ -4027,7 +3877,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "multi-label learning; active learning; mutual information", 
-    "subtype": "Paper", 
     "title": "Active Learning For Sparse Bayesian Multilabel Classification"
   }, 
   "frp1642": {
@@ -4052,7 +3901,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "active semi-supervised learning; graph signal processing;\nsampling theory; graph signal filtering", 
-    "subtype": "Paper", 
     "title": "Active Semi-Supervised Learning Using Sampling Theory for Graph Signals"
   }, 
   "frp1686": {
@@ -4073,7 +3921,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "semi-structured data; domain-specific languages; structure\nextraction; web programming; question answering.", 
-    "subtype": "Paper", 
     "title": "LaSEWeb: Automating Search Strategies over Semi-structured Web Data"
   }, 
   "ind52": {
@@ -4090,7 +3937,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "mobile technology; polling systems; social media; emerging markets", 
-    "subtype": "Paper", 
     "title": "Big Data for Social Good"
   }, 
   "ind55": {
@@ -4107,7 +3953,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "e-commerce; mobile technology; geolocation data; recommender systems", 
-    "subtype": "Paper", 
     "title": "Frontiers in E-commerce Personalization"
   }, 
   "ind58": {
@@ -4128,7 +3973,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning;logistic regression;random forests,predictive modeling; machine learning; logistic regression; random forests; real-world applications", 
-    "subtype": "Paper", 
     "title": "Predictive Modeling in Practice: A Case Study from Sprint"
   }, 
   "ind61": {
@@ -4145,7 +3989,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "learning health system; unstructured ehr; clinical data warehouse; practice-based evidence", 
-    "subtype": "Paper", 
     "title": "Medicine in the Age of Electronic Health Records"
   }, 
   "ind64": {
@@ -4162,7 +4005,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning; interpretability; comprehensibility; understandability; sparsity, medical calculators", 
-    "subtype": "Paper", 
     "title": "Algorithms for Interpretable Machine Learning"
   }, 
   "ind67": {
@@ -4179,7 +4021,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data science; social science; local government", 
-    "subtype": "Paper", 
     "title": "Data Science Through the Lens of Social Science"
   }, 
   "ind70": {
@@ -4196,7 +4037,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "natural language processing; human-computer interaction; crowdsourcing; education; disaster-response; healthcare; employment; social development", 
-    "subtype": "Paper", 
     "title": "Bringing Data Science to the Speakers of Every Language"
   }, 
   "ind73i": {
@@ -4213,7 +4053,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "information environment; security; cognitive science; computer\nscience; social science; marketing; political campaigning; public\npolicy; psychology", 
-    "subtype": "Paper", 
     "title": "Information Environment Security"
   }, 
   "indg0105": {
@@ -4242,7 +4081,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "complex networks; network diffusion; propagation in networks", 
-    "subtype": "Paper", 
     "title": "Reducing Gang Violence Through Network Influence Based Targeting of Social Programs"
   }, 
   "indg0131": {
@@ -4275,7 +4113,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "visual recommenders; fashion; e-commerce; color modeling; user behavior", 
-    "subtype": "Paper", 
     "title": "Large Scale Visual Recommendations From Street Fashion Images"
   }, 
   "indg0142": {
@@ -4312,7 +4149,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "fraud detection; corporate residence fraud; transactional data; structured data", 
-    "subtype": "Paper", 
     "title": "Corporate Residence Fraud Detection"
   }, 
   "indg0143": {
@@ -4349,7 +4185,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "contextual advertising;learning-to-rank;click feedback;modeling", 
-    "subtype": "Paper", 
     "title": "Filling Context-Ad Vocabulary Gaps with Click Logs"
   }, 
   "indg0146": {
@@ -4374,7 +4209,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "poverty economics; remote sensing; social good", 
-    "subtype": "Paper", 
     "title": "Targeting Direct Cash Transfers to the Extremely Poor"
   }, 
   "indg0230": {
@@ -4402,7 +4236,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "topic modeling; social media; text classification; large-scale machine learning;", 
-    "subtype": "Paper", 
     "title": "Large-Scale High-Precision Topic Modeling on Twitter"
   }, 
   "indg0267": {
@@ -4439,7 +4272,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "expertise assessment; human resources; supervised classification; talent planning; workforce analytics", 
-    "subtype": "Paper", 
     "title": "Predicting Employee Expertise for Talent Management in the Enterprise"
   }, 
   "indg0284": {
@@ -4464,7 +4296,6 @@ entities={
     "award": true, 
     "hm": false, 
     "keywords": "recommender systems, collaborative filtering, topic modeling", 
-    "subtype": "Paper", 
     "title": "Style in the Long Tail: Discovering Unique Interests with Latent Variable Models in Large Scale Social E-commerce"
   }, 
   "indg0345": {
@@ -4485,7 +4316,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "mobile network, air-interface load, linear regression, simulation", 
-    "subtype": "Paper", 
     "title": "Large Scale Predictive Modeling for Micro-Simulation of 3G Air Interface Load"
   }, 
   "indg0371": {
@@ -4514,7 +4344,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning; log mining; predictive maintenance; crisp-dm", 
-    "subtype": "Paper", 
     "title": "Log-based Predictive Maintenance"
   }, 
   "indg0402": {
@@ -4543,7 +4372,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "controlled experiments; randomized experiments; a/b testing", 
-    "subtype": "Paper", 
     "title": "Seven Rules of Thumb for Web Site Experimenters"
   }, 
   "indg0422": {
@@ -4568,7 +4396,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "malware detection; graph mining; file graph; belief propagation; locality sensitive hashing", 
-    "subtype": "Paper", 
     "title": "Guilt by Association: Large Scale Malware Detection by Mining File-relation Graphs"
   }, 
   "indg0506": {
@@ -4585,7 +4412,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "shallow semantic parsing; automated terminology extraction; composite crf ensembles; product offer titles; hyperlink insertion", 
-    "subtype": "Paper", 
     "title": "Shallow Semantic Parsing of Product Offering Titles <i>(for better automatic hyperlink insertion)</i>"
   }, 
   "indg0639": {
@@ -4617,7 +4443,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "video retrieval; related video suggestion; video representation", 
-    "subtype": "Paper", 
     "title": "Up Next: Retrieval Methods for Large Scale Related Video Suggestion"
   }, 
   "indg0651": {
@@ -4677,7 +4502,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "text mining for images;  text snippets; interestingness; relevance; diversity; browsing; semantic image browsing; web image augmentation", 
-    "subtype": "Paper", 
     "title": "Mining Text Snippets for Images on the Web"
   }, 
   "indg0660": {
@@ -4742,7 +4566,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "advanced manufacturing;big data;data mining platform;process optimization", 
-    "subtype": "Paper", 
     "title": "Applying Data Mining Techniques to Address Critical Process Optimization Needs in Advanced Manufacturing"
   }, 
   "indg0699": {
@@ -4771,7 +4594,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "online user behavior; customer relationship management; growth and retention; hazard based methods", 
-    "subtype": "Paper", 
     "title": "A Hazard Based Approach to User Return Time Prediction"
   }, 
   "indg0711": {
@@ -4808,7 +4630,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "transfer learning; stochastic gradient descent; online advertising", 
-    "subtype": "Paper", 
     "title": "Scalable Hands-Free Transfer Learning for Online Advertising"
   }, 
   "indg0731": {
@@ -4837,7 +4658,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "online social networks; interest mining; topic assignment; large scale; user modeling; distributed systems", 
-    "subtype": "Paper", 
     "title": "LASTA: Large Scale Topic Assignment on Multiple Social Networks"
   }, 
   "indg0795": {
@@ -4874,7 +4694,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "e-commerce;product recommender;product demographic;microblog", 
-    "subtype": "Paper", 
     "title": "We Know What You Want to Buy: A Demographic-based System for Product Recommendation On Microblogs"
   }, 
   "indg0815": {
@@ -4903,7 +4722,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "ez-link; tourists; data analytics; public transport", 
-    "subtype": "Paper", 
     "title": "Identifying Tourists from Public Transport Commuters"
   }, 
   "indg0854": {
@@ -4932,7 +4750,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social network; link prediction; co-offence prediction", 
-    "subtype": "Paper", 
     "title": "Spatially Embedded Co-offence Prediction Using Supervised Learning"
   }, 
   "indg0874": {
@@ -4961,7 +4778,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "web page classification; email spam", 
-    "subtype": "Paper", 
     "title": "Knock It Off: Profiling the Online Storefronts of Counterfeit Merchandise"
   }, 
   "indg0951": {
@@ -4994,7 +4810,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "education, risk, prediction, longitudinal data, analysis", 
-    "subtype": "Paper", 
     "title": "Predicting Student Risks Through Longitudinal Analysis"
   }, 
   "indg0958": {
@@ -5023,7 +4838,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "impression discounting; recommender system", 
-    "subtype": "Paper", 
     "title": "Modeling Impression Discounting in Large-scale Recommender Systems"
   }, 
   "indg0986": {
@@ -5056,7 +4870,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "display advertising; reserve price; revenue optimisation; online advertising; real-time bidding", 
-    "subtype": "Paper", 
     "title": "An Empirical Study of Reserve Price Optimisation in Real-Time Bidding"
   }, 
   "indg1045": {
@@ -5089,7 +4902,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social sensing; social mining; decision support system; disaster management; event detection", 
-    "subtype": "Paper", 
     "title": "EARS (Earthquake Alert and Report System): a Real Time Decision Support System for Earthquake Crisis Management"
   }, 
   "indg1075": {
@@ -5117,7 +4929,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "transportation; demand management", 
-    "subtype": "Paper", 
     "title": "New Algorithms for Parking Demand Management and a City-Scale Deployment"
   }, 
   "indg1256": {
@@ -5154,7 +4965,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "hierarchical clustering; connected components; graph cut; complete linkage; kd-tree; non-negative matrix factorization; tickets analysis; alerts and incidents management", 
-    "subtype": "Paper", 
     "title": "Unveiling Clusters of Events for Alert and Incident Management in Large-Scale Enterprise IT"
   }, 
   "indg1304": {
@@ -5175,7 +4985,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "differential privacy; call-data-record (cdr); spatio-temporal density;", 
-    "subtype": "Paper", 
     "title": "A Case Study: Privacy Preserving Release of Spatio-temporal Density in Paris"
   }, 
   "indg1320": {
@@ -5231,7 +5040,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "activity ranking; relevance; large scale learning", 
-    "subtype": "Paper", 
     "title": "Activity Ranking in LinkedIn Feed"
   }, 
   "indg1357": {
@@ -5264,7 +5072,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "indoor location traces, workflow modeling, healthcare operation and management", 
-    "subtype": "Paper", 
     "title": "Proactive Workflow Modeling by Stochastic Processes with Application to Healthcare Operation and Management"
   }, 
   "indg1404": {
@@ -5309,7 +5116,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data mining, networks, clustering, risk assessment, invasive species, data mining for social good", 
-    "subtype": "Paper", 
     "title": "Improving Management of Aquatic Invasions by Integrating Shipping Network, Ecological, and Environmental Data: Data Mining for Social Good"
   }, 
   "indg1434": {
@@ -5342,7 +5148,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "failure localization; data center networks", 
-    "subtype": "Paper", 
     "title": "Scalable Near Real-Time Failure Localization of Data Center Networks"
   }, 
   "indg1454": {
@@ -5371,7 +5176,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "budget pacing; targeted online advertising; generalized second price auction", 
-    "subtype": "Paper", 
     "title": "Budget Pacing for Targeted Online Advertisements at LinkedIn"
   }, 
   "indg1480": {
@@ -5392,7 +5196,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "geospatial interpolation, analytics, meteorological measurements, bayesian inference, smart grid", 
-    "subtype": "Paper", 
     "title": "Novel Geospatial Interpolation Analytics for General Meteorological Measurements"
   }, 
   "indg1497": {
@@ -5429,7 +5232,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social networks; similarity; user profiles; career paths", 
-    "subtype": "Paper", 
     "title": "Modeling Professional Similarity by Mining Professional Career Trajectories"
   }, 
   "indg1518": {
@@ -5458,7 +5260,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning, text classification, ranking, semi-supervised\nlearning, information gathering", 
-    "subtype": "Paper", 
     "title": "FoodSIS: A Text Mining System to Improve the State of Food Safety in Singapore"
   }, 
   "indg1541": {
@@ -5491,7 +5292,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning; data mining; svm; code blue; cardiac arrest; electronic medical records; early prediction", 
-    "subtype": "Paper", 
     "title": "Early Prediction of Code Blue using Electronic Medical Records"
   }, 
   "indg1572": {
@@ -5624,7 +5424,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "civil unrest; event forecasting; open source indicators", 
-    "subtype": "Paper", 
     "title": "'Beating the News' with EMBERS: Forecasting Civil Unrest using Open Source Indicators"
   }, 
   "indg1652": {
@@ -5664,7 +5463,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "correlation; incident diagnosis; two-sample problem", 
-    "subtype": "Paper", 
     "title": "Correlating Events with Time Series for Incident Diagnosis"
   }, 
   "indg1704": {
@@ -5701,7 +5499,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "web app; computational epidemiology; simulation; hpc; public health", 
-    "subtype": "Paper", 
     "title": "ISIS: A Networked-Epidemiology Based Pervasive Web App for Infectious Disease Pandemic Planning and Response"
   }, 
   "indg1706": {
@@ -5746,7 +5543,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "information diffusion; social networks; geometric brownian\nmotion", 
-    "subtype": "Paper", 
     "title": "Modeling Mass Protest Adoption in Social Network Communities using Geometric Brownian Motion"
   }, 
   "indg1716": {
@@ -5767,7 +5563,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "recruitment; automatic grading; mooc; feature engineering; supervised learning; one-class learning", 
-    "subtype": "Paper", 
     "title": "A System to Grade Computer Programming Skills using Machine Learning"
   }, 
   "inv40": {
@@ -5784,7 +5579,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "machine learning; probabilistic inference; decision analysis; probabilistic graphical models; transportation; healthcare", 
-    "subtype": "Paper", 
     "title": "Data, Predictions, and Decisions in Support of People and Society"
   }, 
   "inv43": {
@@ -5801,7 +5595,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "data mining; deep learning; text-mining", 
-    "subtype": "Paper", 
     "title": "The Battle for the Future of Data Mining"
   }, 
   "inv46": {
@@ -5818,7 +5611,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "systems biology, multiscale biology, causal network inference, predictive network modeling, drug discovery", 
-    "subtype": "Paper", 
     "title": "A Data Driven Approach to Diagnosing and Treating Disease"
   }, 
   "inv49": {
@@ -5835,7 +5627,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "n/a", 
-    "subtype": "Paper", 
     "title": "Bugbears or Legitimate Threats? (Social) Scientists' Criticisms of Machine Learning"
   }, 
   "panel37": {
@@ -5856,7 +5647,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "privacy; social good", 
-    "subtype": "Paper", 
     "title": "Does Social Good Justify Risking Personal Privacy?"
   }, 
   "tut01": {
@@ -5873,7 +5663,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "deep learning; neural networks; conditional computing; big data", 
-    "subtype": "Paper", 
     "title": "Scaling Up Deep Learning"
   }, 
   "tut02": {
@@ -5894,7 +5683,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "big knowledge", 
-    "subtype": "Paper", 
     "title": "Constructing and Mining Web-Scale Knowledge Graphs"
   }, 
   "tut03": {
@@ -5918,7 +5706,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "text mining; phrase mining; topic model; information networks;", 
-    "subtype": "Paper", 
     "title": "Bringing Structure to Text: Mining Phrases, Entities, Topics, and Hierarchies"
   }, 
   "tut04": {
@@ -5939,7 +5726,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "epidemiology; social networks; agent based simulations; diffusion", 
-    "subtype": "Paper", 
     "title": "Computational Epidemiology"
   }, 
   "tut05": {
@@ -5976,7 +5762,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "big data; in-memory dbms; dynamic querying; biomedical data", 
-    "subtype": "Paper", 
     "title": "Management and Analytic of Biomedical Big Data with Cloud-based In-Memory Database and Dynamic Querying: A Hands-on Experience with Real-world Data"
   }, 
   "tut06": {
@@ -5997,7 +5782,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "recommender systems, personalization, machine learning, data mining", 
-    "subtype": "Paper", 
     "title": "The Recommender Problem Revisited"
   }, 
   "tut07": {
@@ -6021,7 +5805,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "clustering", 
-    "subtype": "Paper", 
     "title": "Correlation Clustering: from Theory to Practice"
   }, 
   "tut08": {
@@ -6038,7 +5821,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "deep learning; graphical models; boltzmann machines; autoencoders; sparse coding", 
-    "subtype": "Paper", 
     "title": "Deep Learning"
   }, 
   "tut09": {
@@ -6063,7 +5845,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "network mining; network analysis; social applications", 
-    "subtype": "Paper", 
     "title": "Network Mining and Analysis for Social Applications"
   }, 
   "tut10": {
@@ -6084,7 +5865,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "random sampling", 
-    "subtype": "Paper", 
     "title": "Sampling for Big Data: A tutorial"
   }, 
   "tut11": {
@@ -6105,7 +5885,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "pattern discovery; association mining; statistics", 
-    "subtype": "Paper", 
     "title": "Statistically Sound Pattern Discovery"
   }, 
   "tut12": {
@@ -6130,7 +5909,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "social recommendation; friend recommendation; content recommendation; location recommendation; cross-domain recommendation;location-aware recommendation;social-aware recommendation; spatio-temporal-social", 
-    "subtype": "Paper", 
     "title": "Recommendation in Social Media:Recent Advances and New Frontiers"
   }, 
   "w01": {
@@ -6143,7 +5921,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg)"
   }, 
   "w02": {
@@ -6156,7 +5933,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "2nd International Workshop on Multimodal Crowd Sensing (CrowdSens 2014)"
   }, 
   "w03": {
@@ -6169,7 +5945,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "3rd Int\u00c2\u00b0\u00c3\u0098l ACM SIGKDD International Workshop on Urban Computing (starts at 10:30am in Track 2 KDD at Bloomberg)"
   }, 
   "w04": {
@@ -6182,7 +5957,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "BrainKDD: International Workshop on Data Mining for Brain Science"
   }, 
   "w05": {
@@ -6195,7 +5969,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "3rd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications - BigMine-14"
   }, 
   "w06": {
@@ -6208,7 +5981,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Big Data Opportunities and Challenges in Mobile Health"
   }, 
   "w07": {
@@ -6221,7 +5993,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "13th International Workshop on Data Mining in Bioinformatics (BIOKDD\u00c2\u00b0\u00c3\u009814)"
   }, 
   "w08": {
@@ -6234,7 +6005,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Big Data Discovery and Curation (BDDC)"
   }, 
   "w09": {
@@ -6247,7 +6017,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Data Ethics"
   }, 
   "w10": {
@@ -6260,7 +6029,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Interactive Data Exploration and Analytics (IDEA\u00c2\u00b0\u00c3\u009814)"
   }, 
   "w12": {
@@ -6273,7 +6041,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Big Data Analytic Technology for Bioinformatics and Health Informatics (KDDBHI)"
   }, 
   "w13": {
@@ -6286,7 +6053,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Outlier Detection & Description under Data Diversity (ODD^2)"
   }, 
   "w14": {
@@ -6299,7 +6065,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Big CHat: Connected Health at Big Data Era"
   }, 
   "w15": {
@@ -6312,7 +6077,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Standards for Predictive Analytics in the Era of Big Data"
   }, 
   "w16": {
@@ -6325,7 +6089,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "The Second Workshop on User Engagement Optimization (UEO)"
   }, 
   "w17": {
@@ -6338,7 +6101,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Data Mining for Educational Assessment and Feedback"
   }, 
   "w18": {
@@ -6351,7 +6113,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Workshop on Healthcare Informatics (HI-KDD 2014)"
   }, 
   "w19": {
@@ -6364,7 +6125,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Large-Scale Sports Analytics"
   }, 
   "w20": {
@@ -6377,7 +6137,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights"
   }, 
   "w21": {
@@ -6390,7 +6149,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Learning about Emergencies from Social Information (LESI)"
   }, 
   "w22": {
@@ -6403,7 +6161,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "Workshop on Discovery Informatics"
   }, 
   "w23": {
@@ -6416,7 +6173,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "The 8th International Workshop on Data Mining for Online Advertising (ADKDD\u00c2\u00b0\u00c3\u009814)"
   }, 
   "w24": {
@@ -6429,7 +6185,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "NewsKDD \u00c2\u00aeC \u00c2\u00b0\u00e2\u0088\u009eData Science for News Publishing\u00c2\u00b0\u00c2\u00b1"
   }, 
   "w25": {
@@ -6442,7 +6197,6 @@ entities={
     "award": false, 
     "hm": false, 
     "keywords": "", 
-    "subtype": "Paper", 
     "title": "KDD Cup 2014 - Predicting Excitement at DonorsChoose"
   }
 }
