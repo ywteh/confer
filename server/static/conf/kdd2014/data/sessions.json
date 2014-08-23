@@ -1,10 +1,75 @@
 sessions={
-  "W26": {
+  "afternoon_workshop_bloomberg": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
-    "s_title": "Workshop: Broadening Participation in Data Mining (BPDM)", 
+    "s_title": "Afternoon Workshop : Bloomberg", 
     "submissions": [
+      "w04", 
+      "w08", 
+      "w09", 
+      "w12", 
+      "w13", 
+      "w14", 
+      "w17", 
+      "w21"
+    ], 
+    "time": "2PM - 6PM"
+  }, 
+  "full_day_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_": {
+    "date": "8.24.2014", 
+    "room": "Riverside Suite", 
+    "s_title": "Full Day Workshop :Big Data, Streams and Heterogeneous Source Mining (BigMine 14)", 
+    "submissions": [
+      "w05"
+    ], 
+    "time": "8:30AM - 12:30PM"
+  }, 
+  "full_day_workshop_bloomberg": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Full Day Workshop: Bloomberg", 
+    "submissions": [
+      "w01", 
+      "w03", 
+      "w07", 
+      "w19", 
       "W26"
+    ], 
+    "time": "8:30AM - 6PM"
+  }, 
+  "full_day_workshop_interactive_data_exploration_and_analytics_idea_14_": {
+    "date": "8.24.2014", 
+    "room": "NY Ballroom East", 
+    "s_title": "Full Day Workshop :Interactive Data Exploration and Analytics (IDEA 14)", 
+    "submissions": [
+      "w10"
+    ], 
+    "time": "8:30AM - 6PM"
+  }, 
+  "full_day_workshop_kdd_cup_2014": {
+    "date": "8.24.2014", 
+    "room": "DonorsChoose Headquarters", 
+    "s_title": "Workshop : KDD Cup 2014", 
+    "submissions": [
+      "w25"
+    ], 
+    "time": "9:30AM - 5:00PM"
+  }, 
+  "full_day_workshop_newskdd": {
+    "date": "8.24.2014", 
+    "room": "Liberty 3", 
+    "s_title": "Workshop : NewsKDD", 
+    "submissions": [
+      "w24"
+    ], 
+    "time": "8:30AM - 6PM"
+  }, 
+  "full_day_workshop_user_engagement_optimization_ueo_": {
+    "date": "8.24.2014", 
+    "room": "Liberty 4", 
+    "s_title": "Full Day Workshop : User Engagement Optimization (UEO)", 
+    "submissions": [
+      "w16"
     ], 
     "time": "8:30AM - 6PM"
   }, 
@@ -192,6 +257,21 @@ sessions={
       "inv49"
     ], 
     "time": "3:30PM - 4:30PM"
+  }, 
+  "morning_workshop_bloomberg": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Morning Workshop : Bloomberg", 
+    "submissions": [
+      "w02", 
+      "w06", 
+      "w15", 
+      "w18", 
+      "w20", 
+      "w22", 
+      "w23"
+    ], 
+    "time": "8:30AM - 12:30PM"
   }, 
   "panel37": {
     "date": "8.27.2014", 
@@ -700,221 +780,5 @@ sessions={
       "tut12"
     ], 
     "time": "2:30PM - 6PM"
-  }, 
-  "w01": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg)", 
-    "submissions": [
-      "w01"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w02": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: 2nd International Workshop on Multimodal Crowd Sensing (CrowdSens 2014)", 
-    "submissions": [
-      "w02"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w03": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: 3rd Int\u00c2\u00b0\u00c3\u0098l ACM SIGKDD International Workshop on Urban Computing (starts at 10:30am in Track 2 KDD at Bloomberg)", 
-    "submissions": [
-      "w03"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w04": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: BrainKDD: International Workshop on Data Mining for Brain Science", 
-    "submissions": [
-      "w04"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w05": {
-    "date": "8.24.2014", 
-    "room": "Riverside Suite", 
-    "s_title": "Workshop: 3rd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications - BigMine-14", 
-    "submissions": [
-      "w05"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w06": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Big Data Opportunities and Challenges in Mobile Health", 
-    "submissions": [
-      "w06"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w07": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: 13th International Workshop on Data Mining in Bioinformatics (BIOKDD\u00c2\u00b0\u00c3\u009814)", 
-    "submissions": [
-      "w07"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w08": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Big Data Discovery and Curation (BDDC)", 
-    "submissions": [
-      "w08"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w09": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Data Ethics", 
-    "submissions": [
-      "w09"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w10": {
-    "date": "8.24.2014", 
-    "room": "NY Ballroom East", 
-    "s_title": "Workshop: Interactive Data Exploration and Analytics (IDEA\u00c2\u00b0\u00c3\u009814)", 
-    "submissions": [
-      "w10"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w12": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Big Data Analytic Technology for Bioinformatics and Health Informatics (KDDBHI)", 
-    "submissions": [
-      "w12"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w13": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Outlier Detection & Description under Data Diversity (ODD^2)", 
-    "submissions": [
-      "w13"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w14": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Big CHat: Connected Health at Big Data Era", 
-    "submissions": [
-      "w14"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w15": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Standards for Predictive Analytics in the Era of Big Data", 
-    "submissions": [
-      "w15"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w16": {
-    "date": "8.24.2014", 
-    "room": "Liberty 4", 
-    "s_title": "Workshop: The Second Workshop on User Engagement Optimization (UEO)", 
-    "submissions": [
-      "w16"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w17": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Data Mining for Educational Assessment and Feedback", 
-    "submissions": [
-      "w17"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w18": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Workshop on Healthcare Informatics (HI-KDD 2014)", 
-    "submissions": [
-      "w18"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w19": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Large-Scale Sports Analytics", 
-    "submissions": [
-      "w19"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w20": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights", 
-    "submissions": [
-      "w20"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w21": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Learning about Emergencies from Social Information (LESI)", 
-    "submissions": [
-      "w21"
-    ], 
-    "time": "2PM - 6PM"
-  }, 
-  "w22": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Workshop on Discovery Informatics", 
-    "submissions": [
-      "w22"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w23": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: The 8th International Workshop on Data Mining for Online Advertising (ADKDD\u00c2\u00b0\u00c3\u009814)", 
-    "submissions": [
-      "w23"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
-  "w24": {
-    "date": "8.24.2014", 
-    "room": "Liberty 3", 
-    "s_title": "Workshop: NewsKDD \u00c2\u00aeC \u00c2\u00b0\u00e2\u0088\u009eData Science for News Publishing\u00c2\u00b0\u00c2\u00b1", 
-    "submissions": [
-      "w24"
-    ], 
-    "time": "8:30AM - 6PM"
-  }, 
-  "w25": {
-    "date": "8.24.2014", 
-    "room": "DonorsChoose Headquarters", 
-    "s_title": "Workshop: KDD Cup 2014 - Predicting Excitement at DonorsChoose", 
-    "submissions": [
-      "w25"
-    ], 
-    "time": "9:30AM - 5:00PM"
   }
 }

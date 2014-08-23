@@ -6,36 +6,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Bloomberg ", 
-            "session": "w15"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w18"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w22"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w23"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w20"
-          }, 
-          {
             "room": "Riverside Suite", 
-            "session": "w05"
+            "session": "full_day_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_"
           }, 
           {
             "room": "Bloomberg ", 
-            "session": "w06"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w02"
+            "session": "morning_workshop_bloomberg"
           }
         ], 
         "slot_class": "morning", 
@@ -45,36 +21,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Bloomberg ", 
-            "session": "w19"
+            "room": "Liberty 4", 
+            "session": "full_day_workshop_user_engagement_optimization_ueo_"
           }, 
           {
             "room": "NY Ballroom East", 
-            "session": "w10"
+            "session": "full_day_workshop_interactive_data_exploration_and_analytics_idea_14_"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "full_day_workshop_bloomberg"
           }, 
           {
             "room": "Liberty 3", 
-            "session": "w24"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w01"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w07"
-          }, 
-          {
-            "room": "Liberty 4", 
-            "session": "w16"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w03"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "W26"
+            "session": "full_day_workshop_newskdd"
           }
         ], 
         "slot_class": "morning", 
@@ -85,7 +45,7 @@ schedule=[
         "sessions": [
           {
             "room": "DonorsChoose Headquarters", 
-            "session": "w25"
+            "session": "full_day_workshop_kdd_cup_2014"
           }
         ], 
         "slot_class": "morning", 
@@ -127,35 +87,7 @@ schedule=[
         "sessions": [
           {
             "room": "Bloomberg ", 
-            "session": "w17"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w14"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w13"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w12"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w09"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w21"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w04"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "w08"
+            "session": "afternoon_workshop_bloomberg"
           }
         ], 
         "slot_class": "afternoon1", 
