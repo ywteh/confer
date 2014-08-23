@@ -77,7 +77,7 @@ schedule=[
             "session": "W26"
           }
         ], 
-        "slot_class": "morning", 
+        "slot_class": "morning afternoon1 afternoon2", 
         "slot_id": "8_24_20148_30am_6pm", 
         "time": "8:30AM - 6PM"
       }, 
@@ -88,7 +88,7 @@ schedule=[
             "session": "w25"
           }
         ], 
-        "slot_class": "morning", 
+        "slot_class": "morning afternoon1 afternoon2", 
         "slot_id": "8_24_20149_30am_5_00pm", 
         "time": "9:30AM - 5:00PM"
       }, 
@@ -158,7 +158,7 @@ schedule=[
             "session": "w08"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon1 afternoon2", 
         "slot_id": "8_24_20142pm_6pm", 
         "time": "2PM - 6PM"
       }, 
@@ -189,7 +189,7 @@ schedule=[
             "session": "tut12"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon1 afternoon2", 
         "slot_id": "8_24_20142_30pm_6pm", 
         "time": "2:30PM - 6PM"
       }
