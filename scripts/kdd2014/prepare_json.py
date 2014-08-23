@@ -70,6 +70,8 @@ def prepare_data(data_file):
   p_id = 1
   t_schedule = {}
   for row in reader:
+    if "kddfm" in row[0]:
+      continue
     #paper_id = 'paper_%s' %(p_id)
     paper_id = unicode(row[0], "ISO-8859-1")
     paper_title = unicode(row[1], "ISO-8859-1")

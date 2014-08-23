@@ -111,6 +111,17 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Bloomberg ", 
+            "session": "tut05"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_24_20149_12_30am", 
+        "time": "9 - 12:30am"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "DonorsChoose Headquarters", 
             "session": "w25"
           }
@@ -118,17 +129,6 @@ schedule=[
         "slot_class": "morning", 
         "slot_id": "8_24_20149_30am_5_00pm", 
         "time": "9:30am-5:00pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Bloomberg ", 
-            "session": "tut05"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20149am_12_30am", 
-        "time": "9am - 12:30am"
       }, 
       {
         "sessions": [
