@@ -7,7 +7,74 @@ schedule=[
         "sessions": [
           {
             "room": "Bloomberg ", 
-            "session": "workshop"
+            "session": "w15"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w18"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w22"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w23"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w20"
+          }, 
+          {
+            "room": "Riverside Suite", 
+            "session": "w05"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w06"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w02"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_24_20148_30am_12_30pm", 
+        "time": "8:30am-12:30pm"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Bloomberg ", 
+            "session": "w19"
+          }, 
+          {
+            "room": "NY Ballroom East", 
+            "session": "w10"
+          }, 
+          {
+            "room": "Liberty 3", 
+            "session": "w24"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w01"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w07"
+          }, 
+          {
+            "room": "Liberty 4", 
+            "session": "w16"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w03"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "W26"
           }
         ], 
         "slot_class": "morning", 
@@ -17,13 +84,121 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Empire East", 
+            "session": "tut02"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "tut06"
+          }, 
+          {
             "room": "NY Ballroom West", 
-            "session": "tutorial"
+            "session": "tut08"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "tut11"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "tut10"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_24_20149am_12_30pm", 
+        "time": "9am - 12:30pm"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "DonorsChoose Headquarters", 
+            "session": "w25"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_24_20149_30am_5_00pm", 
+        "time": "9:30am-5:00pm"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Bloomberg ", 
+            "session": "tut05"
+          }
+        ], 
+        "slot_class": "morning", 
+        "slot_id": "8_24_20149am_12_30am", 
+        "time": "9am - 12:30am"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Empire East", 
+            "session": "tut03"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "tut01"
+          }, 
+          {
+            "room": "Empire West", 
+            "session": "tut07"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "tut04"
+          }, 
+          {
+            "room": "Riverside Ballroom", 
+            "session": "tut09"
+          }, 
+          {
+            "room": "Riverside Suite", 
+            "session": "tut12"
           }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "8_24_20142_30_6pm", 
         "time": "2:30 - 6pm"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Bloomberg ", 
+            "session": "w17"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w14"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w13"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w12"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w09"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w21"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w04"
+          }, 
+          {
+            "room": "Bloomberg ", 
+            "session": "w08"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8_24_20142pm_6pm", 
+        "time": "2pm-6pm"
       }
     ]
   }, 
@@ -35,7 +210,7 @@ schedule=[
         "sessions": [
           {
             "room": "Metro Ballroom", 
-            "session": "keynote_session_1"
+            "session": "inv43"
           }
         ], 
         "slot_class": "morning", 
@@ -144,7 +319,7 @@ schedule=[
         "sessions": [
           {
             "room": "Metro Ballroom", 
-            "session": "keynote_session_2"
+            "session": "inv40"
           }
         ], 
         "slot_class": "morning", 
@@ -256,7 +431,7 @@ schedule=[
         "sessions": [
           {
             "room": "Metro Ballroom", 
-            "session": "keynote_session_3"
+            "session": "inv46"
           }
         ], 
         "slot_class": "morning", 
@@ -332,7 +507,7 @@ schedule=[
         "sessions": [
           {
             "room": "Metro Ballroom", 
-            "session": "1"
+            "session": "panel37"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -343,7 +518,7 @@ schedule=[
         "sessions": [
           {
             "room": "Metro Foyer", 
-            "session": "keynote_session_4"
+            "session": "inv49"
           }
         ], 
         "slot_class": "afternoon2", 

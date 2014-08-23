@@ -87,6 +87,7 @@ def prepare_data(data_file):
     hm = False
 
     if (session.lower() in ['tutorial', 'keynote', 'panel', 'workshop']):
+      s_id = paper_id
       session = session + ': '  + paper_title 
 
     if award_s.lower() == "true":
