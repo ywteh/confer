@@ -47,7 +47,7 @@ sessions={
       "indg1404", 
       "indg1480"
     ], 
-    "time": "3:00PM-3:30PM"
+    "time": "3:30PM-5:00PM "
   }, 
   "industry_government_session_4": {
     "date": "8.26.2014", 
@@ -125,7 +125,7 @@ sessions={
       "ind55", 
       "ind58"
     ], 
-    "time": "10:30-12pm"
+    "time": "10:30AM-12pm"
   }, 
   "industry_government_track_invited_talks_session_2": {
     "date": "8.26.2014", 
@@ -135,7 +135,7 @@ sessions={
       "ind61", 
       "ind64"
     ], 
-    "time": "1:30-3:00PM"
+    "time": "1:30PM-3:00PM"
   }, 
   "industry_government_track_invited_talks_session_3": {
     "date": "8.26.2014", 
@@ -145,7 +145,7 @@ sessions={
       "ind67", 
       "ind73i"
     ], 
-    "time": "3:30-5:00PM"
+    "time": "3:30PM-5:00PM"
   }, 
   "industry_government_track_invited_talks_session_4": {
     "date": "8.27.2014", 
@@ -155,7 +155,7 @@ sessions={
       "ind52", 
       "ind70"
     ], 
-    "time": "10:30 - 12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "inv40": {
     "date": "8.26.2014", 
@@ -164,7 +164,7 @@ sessions={
     "submissions": [
       "inv40"
     ], 
-    "time": "9 - 10AM"
+    "time": "9AM - 10AM"
   }, 
   "inv43": {
     "date": "8.25.2014", 
@@ -173,7 +173,7 @@ sessions={
     "submissions": [
       "inv43"
     ], 
-    "time": "9 - 10AM"
+    "time": "9AM - 10AM"
   }, 
   "inv46": {
     "date": "8.27.2014", 
@@ -182,7 +182,7 @@ sessions={
     "submissions": [
       "inv46"
     ], 
-    "time": "9 - 10AM"
+    "time": "9AM - 10AM"
   }, 
   "inv49": {
     "date": "8.27.2014", 
@@ -191,7 +191,7 @@ sessions={
     "submissions": [
       "inv49"
     ], 
-    "time": "3:30 - 4:30PM "
+    "time": "3:30PM - 4:30PM "
   }, 
   "panel37": {
     "date": "8.27.2014", 
@@ -200,7 +200,7 @@ sessions={
     "submissions": [
       "panel37"
     ], 
-    "time": "1:30-3PM "
+    "time": "1:30PM-3PM "
   }, 
   "research_session_1": {
     "date": "8.25.2014", 
@@ -226,7 +226,7 @@ sessions={
       "frp0754", 
       "frp0763"
     ], 
-    "time": "3:00PM-3:30PM"
+    "time": "3:30PM-5:00PM "
   }, 
   "research_session_11": {
     "date": "8.25.2014", 
@@ -239,7 +239,7 @@ sessions={
       "frp0727", 
       "frp0888"
     ], 
-    "time": "3:00PM-3:30PM"
+    "time": "3:30PM-5:00PM "
   }, 
   "research_session_12": {
     "date": "8.25.2014", 
@@ -253,7 +253,7 @@ sessions={
       "frp1450", 
       "frp1517"
     ], 
-    "time": "3:00PM-3:30PM"
+    "time": "3:30PM-5:00PM "
   }, 
   "research_session_13": {
     "date": "8.26.2014", 
@@ -591,7 +591,7 @@ sessions={
       "frp1370", 
       "frp1521"
     ], 
-    "time": "3:00PM-3:30PM"
+    "time": "3:30PM-5:00PM "
   }, 
   "tut01": {
     "date": "8.24.2014", 
@@ -600,7 +600,7 @@ sessions={
     "submissions": [
       "tut01"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30PM - 6pm"
   }, 
   "tut02": {
     "date": "8.24.2014", 
@@ -618,7 +618,7 @@ sessions={
     "submissions": [
       "tut03"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30pm - 6pm"
   }, 
   "tut04": {
     "date": "8.24.2014", 
@@ -627,7 +627,7 @@ sessions={
     "submissions": [
       "tut04"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30pm - 6pm"
   }, 
   "tut05": {
     "date": "8.24.2014", 
@@ -636,7 +636,7 @@ sessions={
     "submissions": [
       "tut05"
     ], 
-    "time": "9 - 12:30am"
+    "time": "9am - 12:30am"
   }, 
   "tut06": {
     "date": "8.24.2014", 
@@ -654,7 +654,7 @@ sessions={
     "submissions": [
       "tut07"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30pm - 6pm"
   }, 
   "tut08": {
     "date": "8.24.2014", 
@@ -672,7 +672,7 @@ sessions={
     "submissions": [
       "tut09"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30pm - 6pm"
   }, 
   "tut10": {
     "date": "8.24.2014", 
@@ -699,7 +699,7 @@ sessions={
     "submissions": [
       "tut12"
     ], 
-    "time": "2:30 - 6pm"
+    "time": "2:30pm - 6pm"
   }, 
   "w01": {
     "date": "8.24.2014", 
