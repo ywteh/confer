@@ -103,6 +103,10 @@ schedule=[
             "session": "tut06"
           }, 
           {
+            "room": "Bloomberg ", 
+            "session": "tut05"
+          }, 
+          {
             "room": "NY Ballroom West", 
             "session": "tut08"
           }, 
@@ -118,17 +122,6 @@ schedule=[
         "slot_class": "morning", 
         "slot_id": "8_24_20149am_12_30pm", 
         "time": "9AM - 12:30PM"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Bloomberg ", 
-            "session": "tut05"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20149am_12_30am", 
-        "time": "9AM - 12:30AM"
       }, 
       {
         "sessions": [
