@@ -40,7 +40,7 @@ schedule=[
         ], 
         "slot_class": "morning", 
         "slot_id": "8_24_20148_30am_12_30pm", 
-        "time": "8:30am - 12:30pm"
+        "time": "8:30AM - 12:30PM"
       }, 
       {
         "sessions": [
@@ -79,7 +79,7 @@ schedule=[
         ], 
         "slot_class": "morning", 
         "slot_id": "8_24_20148_30am_6pm", 
-        "time": "8:30am - 6pm"
+        "time": "8:30AM - 6PM"
       }, 
       {
         "sessions": [
@@ -90,7 +90,7 @@ schedule=[
         ], 
         "slot_class": "morning", 
         "slot_id": "8_24_20149_30am_5_00pm", 
-        "time": "9:30am - 5:00pm"
+        "time": "9:30AM - 5:00PM"
       }, 
       {
         "sessions": [
@@ -117,7 +117,7 @@ schedule=[
         ], 
         "slot_class": "morning", 
         "slot_id": "8_24_20149am_12_30pm", 
-        "time": "9am - 12:30pm"
+        "time": "9AM - 12:30PM"
       }, 
       {
         "sessions": [
@@ -128,7 +128,7 @@ schedule=[
         ], 
         "slot_class": "morning", 
         "slot_id": "8_24_20149am_12_30am", 
-        "time": "9am - 12:30am"
+        "time": "9AM - 12:30AM"
       }, 
       {
         "sessions": [
@@ -167,24 +167,17 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "8_24_20142pm_6pm", 
-        "time": "2pm - 6pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "NY Ballroom West", 
-            "session": "tut01"
-          }
-        ], 
-        "slot_class": "afternoon1", 
-        "slot_id": "8_24_20142_30pm_6pm", 
-        "time": "2:30PM - 6pm"
+        "time": "2PM - 6PM"
       }, 
       {
         "sessions": [
           {
             "room": "Empire East", 
             "session": "tut03"
+          }, 
+          {
+            "room": "NY Ballroom West", 
+            "session": "tut01"
           }, 
           {
             "room": "Empire West", 
@@ -205,7 +198,7 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "8_24_20142_30pm_6pm", 
-        "time": "2:30pm - 6pm"
+        "time": "2:30PM - 6PM"
       }
     ]
   }, 
@@ -231,6 +224,10 @@ schedule=[
             "session": "industry_government_session_1"
           }, 
           {
+            "room": "Metro Ballroom", 
+            "session": "industry_government_track_invited_talks_session_1"
+          }, 
+          {
             "room": "Riverside Ballroom", 
             "session": "research_session_4"
           }, 
@@ -250,17 +247,6 @@ schedule=[
         "slot_class": "morning", 
         "slot_id": "8_25_201410_30am_12pm", 
         "time": "10:30AM - 12PM"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Metro Ballroom", 
-            "session": "industry_government_track_invited_talks_session_1"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_25_201410_30am_12pm", 
-        "time": "10:30AM - 12pm"
       }, 
       {
         "sessions": [

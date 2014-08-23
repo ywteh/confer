@@ -6,7 +6,7 @@ sessions={
     "submissions": [
       "W26"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "industry_government_session_1": {
     "date": "8.25.2014", 
@@ -125,7 +125,7 @@ sessions={
       "ind55", 
       "ind58"
     ], 
-    "time": "10:30AM - 12pm"
+    "time": "10:30AM - 12PM"
   }, 
   "industry_government_track_invited_talks_session_2": {
     "date": "8.26.2014", 
@@ -600,7 +600,7 @@ sessions={
     "submissions": [
       "tut01"
     ], 
-    "time": "2:30PM - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "tut02": {
     "date": "8.24.2014", 
@@ -609,7 +609,7 @@ sessions={
     "submissions": [
       "tut02"
     ], 
-    "time": "9am - 12:30pm"
+    "time": "9AM - 12:30PM"
   }, 
   "tut03": {
     "date": "8.24.2014", 
@@ -618,7 +618,7 @@ sessions={
     "submissions": [
       "tut03"
     ], 
-    "time": "2:30pm - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "tut04": {
     "date": "8.24.2014", 
@@ -627,7 +627,7 @@ sessions={
     "submissions": [
       "tut04"
     ], 
-    "time": "2:30pm - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "tut05": {
     "date": "8.24.2014", 
@@ -636,7 +636,7 @@ sessions={
     "submissions": [
       "tut05"
     ], 
-    "time": "9am - 12:30am"
+    "time": "9AM - 12:30AM"
   }, 
   "tut06": {
     "date": "8.24.2014", 
@@ -645,7 +645,7 @@ sessions={
     "submissions": [
       "tut06"
     ], 
-    "time": "9am - 12:30pm"
+    "time": "9AM - 12:30PM"
   }, 
   "tut07": {
     "date": "8.24.2014", 
@@ -654,7 +654,7 @@ sessions={
     "submissions": [
       "tut07"
     ], 
-    "time": "2:30pm - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "tut08": {
     "date": "8.24.2014", 
@@ -663,7 +663,7 @@ sessions={
     "submissions": [
       "tut08"
     ], 
-    "time": "9am - 12:30pm"
+    "time": "9AM - 12:30PM"
   }, 
   "tut09": {
     "date": "8.24.2014", 
@@ -672,7 +672,7 @@ sessions={
     "submissions": [
       "tut09"
     ], 
-    "time": "2:30pm - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "tut10": {
     "date": "8.24.2014", 
@@ -681,7 +681,7 @@ sessions={
     "submissions": [
       "tut10"
     ], 
-    "time": "9am - 12:30pm"
+    "time": "9AM - 12:30PM"
   }, 
   "tut11": {
     "date": "8.24.2014", 
@@ -690,7 +690,7 @@ sessions={
     "submissions": [
       "tut11"
     ], 
-    "time": "9am - 12:30pm"
+    "time": "9AM - 12:30PM"
   }, 
   "tut12": {
     "date": "8.24.2014", 
@@ -699,7 +699,7 @@ sessions={
     "submissions": [
       "tut12"
     ], 
-    "time": "2:30pm - 6pm"
+    "time": "2:30PM - 6PM"
   }, 
   "w01": {
     "date": "8.24.2014", 
@@ -708,7 +708,7 @@ sessions={
     "submissions": [
       "w01"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w02": {
     "date": "8.24.2014", 
@@ -717,7 +717,7 @@ sessions={
     "submissions": [
       "w02"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w03": {
     "date": "8.24.2014", 
@@ -726,7 +726,7 @@ sessions={
     "submissions": [
       "w03"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w04": {
     "date": "8.24.2014", 
@@ -735,7 +735,7 @@ sessions={
     "submissions": [
       "w04"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w05": {
     "date": "8.24.2014", 
@@ -744,7 +744,7 @@ sessions={
     "submissions": [
       "w05"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w06": {
     "date": "8.24.2014", 
@@ -753,7 +753,7 @@ sessions={
     "submissions": [
       "w06"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w07": {
     "date": "8.24.2014", 
@@ -762,7 +762,7 @@ sessions={
     "submissions": [
       "w07"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w08": {
     "date": "8.24.2014", 
@@ -771,7 +771,7 @@ sessions={
     "submissions": [
       "w08"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w09": {
     "date": "8.24.2014", 
@@ -780,7 +780,7 @@ sessions={
     "submissions": [
       "w09"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w10": {
     "date": "8.24.2014", 
@@ -789,7 +789,7 @@ sessions={
     "submissions": [
       "w10"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w12": {
     "date": "8.24.2014", 
@@ -798,7 +798,7 @@ sessions={
     "submissions": [
       "w12"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w13": {
     "date": "8.24.2014", 
@@ -807,7 +807,7 @@ sessions={
     "submissions": [
       "w13"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w14": {
     "date": "8.24.2014", 
@@ -816,7 +816,7 @@ sessions={
     "submissions": [
       "w14"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w15": {
     "date": "8.24.2014", 
@@ -825,7 +825,7 @@ sessions={
     "submissions": [
       "w15"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w16": {
     "date": "8.24.2014", 
@@ -834,7 +834,7 @@ sessions={
     "submissions": [
       "w16"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w17": {
     "date": "8.24.2014", 
@@ -843,7 +843,7 @@ sessions={
     "submissions": [
       "w17"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w18": {
     "date": "8.24.2014", 
@@ -852,7 +852,7 @@ sessions={
     "submissions": [
       "w18"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w19": {
     "date": "8.24.2014", 
@@ -861,7 +861,7 @@ sessions={
     "submissions": [
       "w19"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w20": {
     "date": "8.24.2014", 
@@ -870,7 +870,7 @@ sessions={
     "submissions": [
       "w20"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w21": {
     "date": "8.24.2014", 
@@ -879,7 +879,7 @@ sessions={
     "submissions": [
       "w21"
     ], 
-    "time": "2pm - 6pm"
+    "time": "2PM - 6PM"
   }, 
   "w22": {
     "date": "8.24.2014", 
@@ -888,7 +888,7 @@ sessions={
     "submissions": [
       "w22"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w23": {
     "date": "8.24.2014", 
@@ -897,7 +897,7 @@ sessions={
     "submissions": [
       "w23"
     ], 
-    "time": "8:30am - 12:30pm"
+    "time": "8:30AM - 12:30PM"
   }, 
   "w24": {
     "date": "8.24.2014", 
@@ -906,7 +906,7 @@ sessions={
     "submissions": [
       "w24"
     ], 
-    "time": "8:30am - 6pm"
+    "time": "8:30AM - 6PM"
   }, 
   "w25": {
     "date": "8.24.2014", 
@@ -915,6 +915,6 @@ sessions={
     "submissions": [
       "w25"
     ], 
-    "time": "9:30am - 5:00pm"
+    "time": "9:30AM - 5:00PM"
   }
 }
