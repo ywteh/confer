@@ -7,7 +7,7 @@ schedule=[
         "sessions": [
           {
             "room": "Riverside Suite", 
-            "session": "full_day_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_"
+            "session": "morning_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_"
           }, 
           {
             "room": "Bloomberg ", 

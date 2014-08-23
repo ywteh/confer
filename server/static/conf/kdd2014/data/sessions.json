@@ -15,15 +15,6 @@ sessions={
     ], 
     "time": "2PM - 6PM"
   }, 
-  "full_day_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_": {
-    "date": "8.24.2014", 
-    "room": "Riverside Suite", 
-    "s_title": "Full Day Workshop :Big Data, Streams and Heterogeneous Source Mining (BigMine 14)", 
-    "submissions": [
-      "w05"
-    ], 
-    "time": "8:30AM - 12:30PM"
-  }, 
   "full_day_workshop_bloomberg": {
     "date": "8.24.2014", 
     "room": "Bloomberg ", 
@@ -49,7 +40,7 @@ sessions={
   "full_day_workshop_kdd_cup_2014": {
     "date": "8.24.2014", 
     "room": "DonorsChoose Headquarters", 
-    "s_title": "Workshop : KDD Cup 2014", 
+    "s_title": "Full Day Workshop : KDD Cup 2014", 
     "submissions": [
       "w25"
     ], 
@@ -58,7 +49,7 @@ sessions={
   "full_day_workshop_newskdd": {
     "date": "8.24.2014", 
     "room": "Liberty 3", 
-    "s_title": "Workshop : NewsKDD", 
+    "s_title": "Full Day Workshop : NewsKDD", 
     "submissions": [
       "w24"
     ], 
@@ -257,6 +248,15 @@ sessions={
       "inv49"
     ], 
     "time": "3:30PM - 4:30PM"
+  }, 
+  "morning_workshop_big_data_streams_and_heterogeneous_source_mining_bigmine_14_": {
+    "date": "8.24.2014", 
+    "room": "Riverside Suite", 
+    "s_title": "Morning Workshop :Big Data, Streams and Heterogeneous Source Mining (BigMine 14)", 
+    "submissions": [
+      "w05"
+    ], 
+    "time": "8:30AM - 12:30PM"
   }, 
   "morning_workshop_bloomberg": {
     "date": "8.24.2014", 
