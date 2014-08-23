@@ -982,28 +982,28 @@ solutions and explore in detail how this approach to pattern discovery
 can deliver efficient and effective discovery of small sets of
 interesting patterns.",Pattern Discovery; Association Mining; Statistics,Wilhelmiina H?m?l?inen - University of Eastern Finland ; Geoffrey I Webb - Monash University;,11,Tutorial,8.24.2014,9am - 12:30pm,Bloomberg ,FALSE,FALSE
 tut12,Recommendation in Social Media:Recent Advances and New Frontiers,"The pervasive use of social media generates massive data in an unprecedented rate and the information overload problem becomes increasingly severe for social media users. Recommendation has been proven to be effective in mitigating the information overload problem, demonstrated its strength in improving the quality of user experience, and positively impacted the success of social media. New types of data introduced by social media not only provide more information to advance traditional recommender systems but also manifest new research possibilities for recommendation. In this tutorial, we aim to provide a comprehensive overview of various recommendation tasks in social media, especially their recent advances and new frontiers. We introduce basic concepts, review state-of-the-art algorithms, and deliberate the emerging challenges and opportunities. Finally we summarize the tutorial with discussions on open issues and challenges about recommendation in social media. Updated information about the tutorial can be found at \url{http://www.public.asu.edu/~jtang20/Recommendation.htm}. ",Social Recommendation; Friend Recommendation; Content Recommendation; Location Recommendation; Cross-Domain Recommendation;Location-aware Recommendation;Social-aware Recommendation; Spatio-temporal-social,Jiliang Tang - Arizona State University; Jie Tang - Tsinghua University; Huan Liu - Arizona State University;,12,Tutorial,8.24.2014,2:30pm - 6pm,Riverside Suite,FALSE,FALSE
-w01,Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg),,,,Full Day Workshop: Bloomberg,Full Day Workshop: Bloomberg,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
-w02,2nd International Workshop on Multimodal Crowd Sensing (CrowdSens 2014),,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w03,3rd Int°Øl ACM SIGKDD International Workshop on Urban Computing (starts at 10:30am in Track 2 KDD at Bloomberg),,,,Full Day Workshop: Bloomberg,Full Day Workshop: Bloomberg,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
-w04,BrainKDD: International Workshop on Data Mining for Brain Science,,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w05,"3rd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications - BigMine-14",,,,"Morning Workshop :Big Data, Streams and Heterogeneous Source Mining (BigMine 14)","Morning Workshop :Big Data, Streams and Heterogeneous Source Mining (BigMine 14)",8.24.2014,8:30am-12:30pm,Riverside Suite,FALSE,FALSE
-w06,Big Data Opportunities and Challenges in Mobile Health,,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w07,13th International Workshop on Data Mining in Bioinformatics (BIOKDD°Ø14),,,,Full Day Workshop: Bloomberg,Full Day Workshop: Bloomberg,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
-w08,Big Data Discovery and Curation (BDDC),,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w09,Data Ethics,,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w10,Interactive Data Exploration and Analytics (IDEA 14),,,,Full Day Workshop :Interactive Data Exploration and Analytics (IDEA 14),Full Day Workshop :Interactive Data Exploration and Analytics (IDEA 14),8.24.2014,8:30am-6pm,NY Ballroom East,FALSE,FALSE
-w12,Big Data Analytic Technology for Bioinformatics and Health Informatics (KDDBHI),,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w13,Outlier Detection & Description under Data Diversity (ODD^2),,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w14,Big CHat: Connected Health at Big Data Era,,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w15,Standards for Predictive Analytics in the Era of Big Data,,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w16,The Second Workshop on User Engagement Optimization (UEO),,,,Full Day Workshop : User Engagement Optimization (UEO),Full Day Workshop : User Engagement Optimization (UEO),8.24.2014,8:30am-6pm,Liberty 4,FALSE,FALSE
-w17,Data Mining for Educational Assessment and Feedback,,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w18,Workshop on Healthcare Informatics (HI-KDD 2014),,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w19,Large-Scale Sports Analytics,,,,Full Day Workshop: Bloomberg,Full Day Workshop: Bloomberg,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
-w20,"The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights",,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w21,Learning about Emergencies from Social Information (LESI),,,,Afternoon Workshop : Bloomberg,Afternoon Workshop : Bloomberg,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
-w22,Workshop on Discovery Informatics,,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w23,The 8th International Workshop on Data Mining for Online Advertising (ADKDD°Ø14),,,,Morning Workshop : Bloomberg,Morning Workshop : Bloomberg,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
-w24,NewsKDD : Data Science for News Publishing,,,,Full Day Workshop : NewsKDD,Full Day Workshop : NewsKDD,8.24.2014,8:30am-6pm,Liberty 3,FALSE,FALSE
-w25,KDD Cup 2014 - Predicting Excitement at DonorsChoose,,,,Full Day Workshop : KDD Cup 2014,Full Day Workshop : KDD Cup 2014,8.24.2014,9:30am-5:00pm,DonorsChoose Headquarters,FALSE,FALSE
-W26,Broadening Participation in Data Mining (BPDM),,,,Full Day Workshop: Bloomberg,Full Day Workshop: Bloomberg,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
+w01,Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg),,,,1,Workshop,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
+w02,2nd International Workshop on Multimodal Crowd Sensing (CrowdSens 2014),,,,2,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w03,3rd International ACM SIGKDD International Workshop on Urban Computing (starts at 10:30am in Track 2 KDD at Bloomberg),,,,3,Workshop,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
+w04,BrainKDD: International Workshop on Data Mining for Brain Science,,,,4,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w05,"3rd International Workshop on Big Data, Streams and Heterogeneous Source Mining: Algorithms, Systems, Programming Models and Applications - BigMine-14",,,,5,Workshop,8.24.2014,8:30am-12:30pm,Riverside Suite,FALSE,FALSE
+w06,Big Data Opportunities and Challenges in Mobile Health,,,,6,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w07,13th International Workshop on Data Mining in Bioinformatics (BIOKDD 14),,,,7,Workshop,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
+w08,Big Data Discovery and Curation (BDDC),,,,8,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w09,Data Ethics,,,,9,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w10,Interactive Data Exploration and Analytics (IDEA 14),,,,10,Workshop,8.24.2014,8:30am-6pm,NY Ballroom East,FALSE,FALSE
+w12,Big Data Analytic Technology for Bioinformatics and Health Informatics (KDDBHI),,,,12,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w13,Outlier Detection & Description under Data Diversity (ODD^2),,,,13,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w14,Big CHat: Connected Health at Big Data Era,,,,14,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w15,Standards for Predictive Analytics in the Era of Big Data,,,,15,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w16,The Second Workshop on User Engagement Optimization (UEO),,,,16,Workshop,8.24.2014,8:30am-6pm,Liberty 4,FALSE,FALSE
+w17,Data Mining for Educational Assessment and Feedback,,,,17,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w18,Workshop on Healthcare Informatics (HI-KDD 2014),,,,18,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w19,Large-Scale Sports Analytics,,,,19,Workshop,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
+w20,"The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights",,,,20,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w21,Learning about Emergencies from Social Information (LESI),,,,21,Workshop,8.24.2014,2pm-6pm,Bloomberg ,FALSE,FALSE
+w22,Workshop on Discovery Informatics,,,,22,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w23,The 8th International Workshop on Data Mining for Online Advertising (ADKDD 14),,,,23,Workshop,8.24.2014,8:30am-12:30pm,Bloomberg ,FALSE,FALSE
+w24,NewsKDD : Data Science for News Publishing,,,,24,Workshop,8.24.2014,8:30am-6pm,Liberty 3,FALSE,FALSE
+w25,KDD Cup 2014 - Predicting Excitement at DonorsChoose,,,,25,Workshop,8.24.2014,9:30am-5:00pm,DonorsChoose Headquarters,FALSE,FALSE
+W26,Broadening Participation in Data Mining (BPDM),,,,26,Workshop,8.24.2014,8:30am-6pm,Bloomberg ,FALSE,FALSE
