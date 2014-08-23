@@ -7,46 +7,7 @@ schedule=[
         "sessions": [
           {
             "room": "Bloomberg ", 
-            "session": "20"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "22"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "23"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "18"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "15"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20148_30am_12_30pm", 
-        "time": "8:30am-12:30pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Liberty 3", 
-            "session": "24"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "26"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "19"
-          }, 
-          {
-            "room": "Liberty 4", 
-            "session": "16"
+            "session": "workshop"
           }
         ], 
         "slot_class": "morning", 
@@ -56,101 +17,13 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Empire East", 
-            "session": "2"
-          }, 
-          {
-            "room": "Riverside Ballroom", 
-            "session": "6"
-          }, 
-          {
             "room": "NY Ballroom West", 
-            "session": "8"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "11"
-          }, 
-          {
-            "room": "Empire West", 
-            "session": "10"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20149am_12_30pm", 
-        "time": "9am - 12:30pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "DonorsChoose Headquarters", 
-            "session": "25"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20149_30am_5_00pm", 
-        "time": "9:30am-5:00pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Bloomberg ", 
-            "session": "5"
-          }
-        ], 
-        "slot_class": "morning", 
-        "slot_id": "8_24_20149am_12_30am", 
-        "time": "9am - 12:30am"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Empire East", 
-            "session": "3"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "4"
-          }, 
-          {
-            "room": "Empire West", 
-            "session": "7"
-          }, 
-          {
-            "room": "Riverside Ballroom", 
-            "session": "9"
-          }, 
-          {
-            "room": "Riverside Suite", 
-            "session": "12"
+            "session": "tutorial"
           }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "8_24_20142_30_6pm", 
         "time": "2:30 - 6pm"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Bloomberg ", 
-            "session": "21"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "13"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "14"
-          }, 
-          {
-            "room": "Bloomberg ", 
-            "session": "17"
-          }
-        ], 
-        "slot_class": "afternoon1", 
-        "slot_id": "8_24_20142pm_6pm", 
-        "time": "2pm-6pm"
       }
     ]
   }, 

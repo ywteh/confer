@@ -4,246 +4,9 @@ sessions={
     "room": "Metro Ballroom", 
     "s_title": "Panel: Does Social Good Justify Risking Personal Privacy?", 
     "submissions": [
-      "panel37", 
-      "tut01", 
-      "w01"
+      "panel37"
     ], 
     "time": "1:30-3PM "
-  }, 
-  "10": {
-    "date": "8.24.2014", 
-    "room": "Empire West", 
-    "s_title": "Tutorial: Sampling for Big Data: A tutorial", 
-    "submissions": [
-      "tut10", 
-      "w10"
-    ], 
-    "time": "9am - 12:30pm"
-  }, 
-  "11": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Tutorial: Statistically Sound Pattern Discovery", 
-    "submissions": [
-      "tut11"
-    ], 
-    "time": "9am - 12:30pm"
-  }, 
-  "12": {
-    "date": "8.24.2014", 
-    "room": "Riverside Suite", 
-    "s_title": "Tutorial: Recommendation in Social Media:Recent Advances and New Frontiers", 
-    "submissions": [
-      "tut12", 
-      "w12"
-    ], 
-    "time": "2:30 - 6pm"
-  }, 
-  "13": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Outlier Detection & Description under Data Diversity (ODD^2)", 
-    "submissions": [
-      "w13"
-    ], 
-    "time": "2pm-6pm"
-  }, 
-  "14": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Big CHat: Connected Health at Big Data Era", 
-    "submissions": [
-      "w14"
-    ], 
-    "time": "2pm-6pm"
-  }, 
-  "15": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Standards for Predictive Analytics in the Era of Big Data", 
-    "submissions": [
-      "w15"
-    ], 
-    "time": "8:30am-12:30pm"
-  }, 
-  "16": {
-    "date": "8.24.2014", 
-    "room": "Liberty 4", 
-    "s_title": "Workshop: The Second Workshop on User Engagement Optimization (UEO)", 
-    "submissions": [
-      "w16"
-    ], 
-    "time": "8:30am-6pm"
-  }, 
-  "17": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Data Mining for Educational Assessment and Feedback", 
-    "submissions": [
-      "w17"
-    ], 
-    "time": "2pm-6pm"
-  }, 
-  "18": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Workshop on Healthcare Informatics (HI-KDD 2014)", 
-    "submissions": [
-      "w18"
-    ], 
-    "time": "8:30am-12:30pm"
-  }, 
-  "19": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Large-Scale Sports Analytics", 
-    "submissions": [
-      "w19"
-    ], 
-    "time": "8:30am-6pm"
-  }, 
-  "2": {
-    "date": "8.24.2014", 
-    "room": "Empire East", 
-    "s_title": "Tutorial: Constructing and Mining Web-Scale Knowledge Graphs", 
-    "submissions": [
-      "tut02", 
-      "w02"
-    ], 
-    "time": "9am - 12:30pm"
-  }, 
-  "20": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: The 8th SNA-KDD Workshop on Social Network Mining and Analysis Social Network Study for Business, Consumer and Social Insights", 
-    "submissions": [
-      "w20"
-    ], 
-    "time": "8:30am-12:30pm"
-  }, 
-  "21": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Learning about Emergencies from Social Information (LESI)", 
-    "submissions": [
-      "w21"
-    ], 
-    "time": "2pm-6pm"
-  }, 
-  "22": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Workshop on Discovery Informatics", 
-    "submissions": [
-      "w22"
-    ], 
-    "time": "8:30am-12:30pm"
-  }, 
-  "23": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: The 8th International Workshop on Data Mining for Online Advertising (ADKDD\u00c2\u00b0\u00c3\u009814)", 
-    "submissions": [
-      "w23"
-    ], 
-    "time": "8:30am-12:30pm"
-  }, 
-  "24": {
-    "date": "8.24.2014", 
-    "room": "Liberty 3", 
-    "s_title": "Workshop: NewsKDD \u00c2\u00aeC \u00c2\u00b0\u00e2\u0088\u009eData Science for News Publishing\u00c2\u00b0\u00c2\u00b1", 
-    "submissions": [
-      "w24"
-    ], 
-    "time": "8:30am-6pm"
-  }, 
-  "25": {
-    "date": "8.24.2014", 
-    "room": "DonorsChoose Headquarters", 
-    "s_title": "Workshop: KDD Cup 2014 - Predicting Excitement at DonorsChoose", 
-    "submissions": [
-      "w25"
-    ], 
-    "time": "9:30am-5:00pm"
-  }, 
-  "26": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Workshop: Broadening Participation in Data Mining (BPDM)", 
-    "submissions": [
-      "W26"
-    ], 
-    "time": "8:30am-6pm"
-  }, 
-  "3": {
-    "date": "8.24.2014", 
-    "room": "Empire East", 
-    "s_title": "Tutorial: Bringing Structure to Text: Mining Phrases, Entities, Topics, and Hierarchies", 
-    "submissions": [
-      "tut03", 
-      "w03"
-    ], 
-    "time": "2:30 - 6pm"
-  }, 
-  "4": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Tutorial: Computational Epidemiology", 
-    "submissions": [
-      "tut04", 
-      "w04"
-    ], 
-    "time": "2:30 - 6pm"
-  }, 
-  "5": {
-    "date": "8.24.2014", 
-    "room": "Bloomberg ", 
-    "s_title": "Tutorial: Management and Analytic of Biomedical Big Data with Cloud-based In-Memory Database and Dynamic Querying: A Hands-on Experience with Real-world Data", 
-    "submissions": [
-      "tut05", 
-      "w05"
-    ], 
-    "time": "9am - 12:30am"
-  }, 
-  "6": {
-    "date": "8.24.2014", 
-    "room": "Riverside Ballroom", 
-    "s_title": "Tutorial: The Recommender Problem Revisited", 
-    "submissions": [
-      "tut06", 
-      "w06"
-    ], 
-    "time": "9am - 12:30pm"
-  }, 
-  "7": {
-    "date": "8.24.2014", 
-    "room": "Empire West", 
-    "s_title": "Tutorial: Correlation Clustering: from Theory to Practice", 
-    "submissions": [
-      "tut07", 
-      "w07"
-    ], 
-    "time": "2:30 - 6pm"
-  }, 
-  "8": {
-    "date": "8.24.2014", 
-    "room": "NY Ballroom West", 
-    "s_title": "Tutorial: Deep Learning", 
-    "submissions": [
-      "tut08", 
-      "w08"
-    ], 
-    "time": "9am - 12:30pm"
-  }, 
-  "9": {
-    "date": "8.24.2014", 
-    "room": "Riverside Ballroom", 
-    "s_title": "Tutorial: Network Mining and Analysis for Social Applications", 
-    "submissions": [
-      "tut09", 
-      "w09"
-    ], 
-    "time": "2:30 - 6pm"
   }, 
   "industry_government_session_1": {
     "date": "8.25.2014", 
@@ -820,5 +583,58 @@ sessions={
       "frp1521"
     ], 
     "time": "3:00PM-3:30PM"
+  }, 
+  "tutorial": {
+    "date": "8.24.2014", 
+    "room": "NY Ballroom West", 
+    "s_title": "Tutorial: Scaling Up Deep Learning", 
+    "submissions": [
+      "tut01", 
+      "tut02", 
+      "tut03", 
+      "tut04", 
+      "tut05", 
+      "tut06", 
+      "tut07", 
+      "tut08", 
+      "tut09", 
+      "tut10", 
+      "tut11", 
+      "tut12"
+    ], 
+    "time": "2:30 - 6pm"
+  }, 
+  "workshop": {
+    "date": "8.24.2014", 
+    "room": "Bloomberg ", 
+    "s_title": "Workshop: Data Science for Social Good (starts at 10:30am in Track 1 KDD at Bloomberg)", 
+    "submissions": [
+      "w01", 
+      "w02", 
+      "w03", 
+      "w04", 
+      "w05", 
+      "w06", 
+      "w07", 
+      "w08", 
+      "w09", 
+      "w10", 
+      "w12", 
+      "w13", 
+      "w14", 
+      "w15", 
+      "w16", 
+      "w17", 
+      "w18", 
+      "w19", 
+      "w20", 
+      "w21", 
+      "w22", 
+      "w23", 
+      "w24", 
+      "w25", 
+      "W26"
+    ], 
+    "time": "8:30am-6pm"
   }
 }
