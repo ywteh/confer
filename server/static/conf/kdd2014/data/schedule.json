@@ -84,17 +84,6 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "DonorsChoose Headquarters", 
-            "session": "w25"
-          }
-        ], 
-        "slot_class": "morning afternoon1 afternoon2", 
-        "slot_id": "8_24_20149_30am_5_00pm", 
-        "time": "9:30AM - 5:00PM"
-      }, 
-      {
-        "sessions": [
-          {
             "room": "Empire East", 
             "session": "tut02"
           }, 
@@ -122,6 +111,17 @@ schedule=[
         "slot_class": "morning", 
         "slot_id": "8_24_20149am_12_30pm", 
         "time": "9AM - 12:30PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "DonorsChoose Headquarters", 
+            "session": "w25"
+          }
+        ], 
+        "slot_class": "morning afternoon1 afternoon2", 
+        "slot_id": "8_24_20149_30am_5_00pm", 
+        "time": "9:30AM - 5:00PM"
       }, 
       {
         "sessions": [
@@ -192,6 +192,17 @@ schedule=[
         "slot_class": "afternoon1 afternoon2", 
         "slot_id": "8_24_20142_30pm_6pm", 
         "time": "2:30PM - 6PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Metro Ballroom", 
+            "session": "opening_ceremony"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "8_24_20146_30pm_8_30pm", 
+        "time": "6:30PM - 8:30PM"
       }
     ]
   }, 

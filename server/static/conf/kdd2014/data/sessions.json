@@ -193,6 +193,18 @@ sessions={
     ], 
     "time": "3:30PM - 4:30PM"
   }, 
+  "opening_ceremony": {
+    "date": "8.24.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Opening Ceremony", 
+    "submissions": [
+      "kddfm01g", 
+      "kddfm03p", 
+      "kddfm21it", 
+      "kddfm22bl"
+    ], 
+    "time": "6:30PM - 8:30PM"
+  }, 
   "panel37": {
     "date": "8.27.2014", 
     "room": "Metro Ballroom", 
