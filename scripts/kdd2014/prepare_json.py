@@ -81,7 +81,7 @@ def prepare_data(data_file):
     s_date = unicode(row[7], "ISO-8859-1")
     t_str = unicode(row[8], "ISO-8859-1")
     t_str.replace('am', 'AM')
-    t_str.replace('pm', 'AM')
+    t_str.replace('pm', 'PM')
     tokens = t_str.split("-")
     s_time = tokens[0].strip() + ' - ' + tokens[1].strip()
       
