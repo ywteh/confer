@@ -79,8 +79,11 @@ def prepare_data(data_file):
     paper_abstract = unicode(row[2], "ISO-8859-1")
     paper_authors = unicode(row[4], "ISO-8859-1")
     s_date = unicode(row[7], "ISO-8859-1")
-    t_str = unicode(row[8], "ISO-8859-1").split("-");
-    s_time = t_str[0].strip() + ' - ' + t_str[1].strip()
+    t_str = unicode(row[8], "ISO-8859-1")
+    t_str.replace('am', 'AM')
+    t_str.replace('pm', 'AM')
+    tokens = t_str.split("-")
+    s_time = tokens[0].strip() + ' - ' + tokens[1].strip()
       
     s_id = construct_id(unicode(row[5], "ISO-8859-1"))
     session = unicode(row[6], "ISO-8859-1")
