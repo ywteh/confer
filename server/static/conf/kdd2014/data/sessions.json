@@ -6,7 +6,7 @@ sessions={
     "submissions": [
       "W26"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "industry_government_session_1": {
     "date": "8.25.2014", 
@@ -20,7 +20,7 @@ sessions={
       "indg1541", 
       "indg1704"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "industry_government_session_2": {
     "date": "8.25.2014", 
@@ -47,7 +47,7 @@ sessions={
       "indg1404", 
       "indg1480"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "industry_government_session_4": {
     "date": "8.26.2014", 
@@ -59,7 +59,7 @@ sessions={
       "indg0951", 
       "indg1304"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "industry_government_session_5": {
     "date": "8.26.2014", 
@@ -73,7 +73,7 @@ sessions={
       "indg1434", 
       "indg1652"
     ], 
-    "time": "1:30PM-3:00PM"
+    "time": "1:30PM - 3:00PM"
   }, 
   "industry_government_session_6": {
     "date": "8.26.2014", 
@@ -87,7 +87,7 @@ sessions={
       "indg1497", 
       "indg1716"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "industry_government_session_7": {
     "date": "8.27.2014", 
@@ -125,7 +125,7 @@ sessions={
       "ind55", 
       "ind58"
     ], 
-    "time": "10:30AM-12pm"
+    "time": "10:30AM - 12pm"
   }, 
   "industry_government_track_invited_talks_session_2": {
     "date": "8.26.2014", 
@@ -135,7 +135,7 @@ sessions={
       "ind61", 
       "ind64"
     ], 
-    "time": "1:30PM-3:00PM"
+    "time": "1:30PM - 3:00PM"
   }, 
   "industry_government_track_invited_talks_session_3": {
     "date": "8.26.2014", 
@@ -145,7 +145,7 @@ sessions={
       "ind67", 
       "ind73i"
     ], 
-    "time": "3:30PM-5:00PM"
+    "time": "3:30PM - 5:00PM"
   }, 
   "industry_government_track_invited_talks_session_4": {
     "date": "8.27.2014", 
@@ -191,7 +191,7 @@ sessions={
     "submissions": [
       "inv49"
     ], 
-    "time": "3:30PM - 4:30PM "
+    "time": "3:30PM - 4:30PM"
   }, 
   "panel37": {
     "date": "8.27.2014", 
@@ -200,7 +200,7 @@ sessions={
     "submissions": [
       "panel37"
     ], 
-    "time": "1:30PM-3PM "
+    "time": "1:30PM - 3PM"
   }, 
   "research_session_1": {
     "date": "8.25.2014", 
@@ -213,7 +213,7 @@ sessions={
       "frp1350", 
       "frp1500"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_10": {
     "date": "8.25.2014", 
@@ -226,7 +226,7 @@ sessions={
       "frp0754", 
       "frp0763"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_11": {
     "date": "8.25.2014", 
@@ -239,7 +239,7 @@ sessions={
       "frp0727", 
       "frp0888"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_12": {
     "date": "8.25.2014", 
@@ -253,7 +253,7 @@ sessions={
       "frp1450", 
       "frp1517"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_13": {
     "date": "8.26.2014", 
@@ -266,7 +266,7 @@ sessions={
       "frp1230", 
       "frp1384"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_14": {
     "date": "8.26.2014", 
@@ -279,7 +279,7 @@ sessions={
       "frp0838", 
       "frp1603"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_15": {
     "date": "8.26.2014", 
@@ -292,7 +292,7 @@ sessions={
       "frp0859", 
       "frp1198"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_16": {
     "date": "8.26.2014", 
@@ -305,7 +305,7 @@ sessions={
       "frp1621", 
       "frp1642"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_17": {
     "date": "8.26.2014", 
@@ -318,7 +318,7 @@ sessions={
       "frp1142", 
       "frp1346"
     ], 
-    "time": "1:30PM-3:00PM"
+    "time": "1:30PM - 3:00PM"
   }, 
   "research_session_18": {
     "date": "8.26.2014", 
@@ -331,7 +331,7 @@ sessions={
       "frp1212", 
       "frp1281"
     ], 
-    "time": "1:30PM-3:00PM"
+    "time": "1:30PM - 3:00PM"
   }, 
   "research_session_19": {
     "date": "8.26.2014", 
@@ -344,7 +344,7 @@ sessions={
       "frp0887", 
       "frp1150"
     ], 
-    "time": "1:30PM-3:00PM"
+    "time": "1:30PM - 3:00PM"
   }, 
   "research_session_2": {
     "date": "8.25.2014", 
@@ -357,7 +357,7 @@ sessions={
       "frp0741", 
       "frp0851"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_20": {
     "date": "8.26.2014", 
@@ -370,7 +370,7 @@ sessions={
       "frp1479", 
       "frp1483"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_21": {
     "date": "8.26.2014", 
@@ -383,7 +383,7 @@ sessions={
       "frp1252", 
       "frp1314"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_22": {
     "date": "8.26.2014", 
@@ -396,7 +396,7 @@ sessions={
       "frp1341", 
       "frp1519"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "research_session_23": {
     "date": "8.27.2014", 
@@ -500,7 +500,7 @@ sessions={
       "frp1081", 
       "frp1228"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_30": {
     "date": "8.27.2014", 
@@ -526,7 +526,7 @@ sessions={
       "frp0762", 
       "frp1397"
     ], 
-    "time": "10:30AM-12PM"
+    "time": "10:30AM - 12PM"
   }, 
   "research_session_5": {
     "date": "8.25.2014", 
@@ -591,7 +591,7 @@ sessions={
       "frp1370", 
       "frp1521"
     ], 
-    "time": "3:30PM-5:00PM "
+    "time": "3:30PM - 5:00PM"
   }, 
   "tut01": {
     "date": "8.24.2014", 
@@ -708,7 +708,7 @@ sessions={
     "submissions": [
       "w01"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w02": {
     "date": "8.24.2014", 
@@ -717,7 +717,7 @@ sessions={
     "submissions": [
       "w02"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w03": {
     "date": "8.24.2014", 
@@ -726,7 +726,7 @@ sessions={
     "submissions": [
       "w03"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w04": {
     "date": "8.24.2014", 
@@ -735,7 +735,7 @@ sessions={
     "submissions": [
       "w04"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w05": {
     "date": "8.24.2014", 
@@ -744,7 +744,7 @@ sessions={
     "submissions": [
       "w05"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w06": {
     "date": "8.24.2014", 
@@ -753,7 +753,7 @@ sessions={
     "submissions": [
       "w06"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w07": {
     "date": "8.24.2014", 
@@ -762,7 +762,7 @@ sessions={
     "submissions": [
       "w07"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w08": {
     "date": "8.24.2014", 
@@ -771,7 +771,7 @@ sessions={
     "submissions": [
       "w08"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w09": {
     "date": "8.24.2014", 
@@ -780,7 +780,7 @@ sessions={
     "submissions": [
       "w09"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w10": {
     "date": "8.24.2014", 
@@ -789,7 +789,7 @@ sessions={
     "submissions": [
       "w10"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w12": {
     "date": "8.24.2014", 
@@ -798,7 +798,7 @@ sessions={
     "submissions": [
       "w12"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w13": {
     "date": "8.24.2014", 
@@ -807,7 +807,7 @@ sessions={
     "submissions": [
       "w13"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w14": {
     "date": "8.24.2014", 
@@ -816,7 +816,7 @@ sessions={
     "submissions": [
       "w14"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w15": {
     "date": "8.24.2014", 
@@ -825,7 +825,7 @@ sessions={
     "submissions": [
       "w15"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w16": {
     "date": "8.24.2014", 
@@ -834,7 +834,7 @@ sessions={
     "submissions": [
       "w16"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w17": {
     "date": "8.24.2014", 
@@ -843,7 +843,7 @@ sessions={
     "submissions": [
       "w17"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w18": {
     "date": "8.24.2014", 
@@ -852,7 +852,7 @@ sessions={
     "submissions": [
       "w18"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w19": {
     "date": "8.24.2014", 
@@ -861,7 +861,7 @@ sessions={
     "submissions": [
       "w19"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w20": {
     "date": "8.24.2014", 
@@ -870,7 +870,7 @@ sessions={
     "submissions": [
       "w20"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w21": {
     "date": "8.24.2014", 
@@ -879,7 +879,7 @@ sessions={
     "submissions": [
       "w21"
     ], 
-    "time": "2pm-6pm"
+    "time": "2pm - 6pm"
   }, 
   "w22": {
     "date": "8.24.2014", 
@@ -888,7 +888,7 @@ sessions={
     "submissions": [
       "w22"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w23": {
     "date": "8.24.2014", 
@@ -897,7 +897,7 @@ sessions={
     "submissions": [
       "w23"
     ], 
-    "time": "8:30am-12:30pm"
+    "time": "8:30am - 12:30pm"
   }, 
   "w24": {
     "date": "8.24.2014", 
@@ -906,7 +906,7 @@ sessions={
     "submissions": [
       "w24"
     ], 
-    "time": "8:30am-6pm"
+    "time": "8:30am - 6pm"
   }, 
   "w25": {
     "date": "8.24.2014", 
@@ -915,6 +915,6 @@ sessions={
     "submissions": [
       "w25"
     ], 
-    "time": "9:30am-5:00pm"
+    "time": "9:30am - 5:00pm"
   }
 }
