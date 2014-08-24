@@ -193,6 +193,33 @@ sessions={
     ], 
     "time": "3:30PM - 4:30PM"
   }, 
+  "mad1": {
+    "date": "8.27.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Paper Spotlights (KDD Madness)", 
+    "submissions": [
+      "Mad1"
+    ], 
+    "time": "8:30AM - 9AM"
+  }, 
+  "mad2": {
+    "date": "8.25.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Paper Spotlights (KDD Madness)", 
+    "submissions": [
+      "Mad2"
+    ], 
+    "time": "8:30AM - 9AM"
+  }, 
+  "mad3": {
+    "date": "8.26.2014", 
+    "room": "Metro Ballroom", 
+    "s_title": "Paper Spotlights (KDD Madness)", 
+    "submissions": [
+      "Mad3"
+    ], 
+    "time": "8:30AM - 9AM"
+  }, 
   "opening_ceremony": {
     "date": "8.24.2014", 
     "room": "Metro Ballroom", 

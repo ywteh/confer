@@ -1,4 +1,40 @@
 {
+  "Mad1": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "title": "Paper Spotlights (KDD Madness)"
+  }, 
+  "Mad2": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "title": "Paper Spotlights (KDD Madness)"
+  }, 
+  "Mad3": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "keywords": "", 
+    "title": "Paper Spotlights (KDD Madness)"
+  }, 
   "W26": {
     "abstract": "", 
     "authors": [
