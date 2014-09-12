@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  7 AUG 2014 07:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  12 SEP 2014 00:59
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **confer-hcomp-14.tex
 (./confer-hcomp-14.tex
@@ -324,7 +323,11 @@ Underfull \hbox (badness 2818) in paragraph at lines 272--273
 e
  []
 
-(./confer-hcomp-14.bbl [8]) [9] (./confer-hcomp-14.aux) ) 
+(./confer-hcomp-14.bbl [8]) [9] (./confer-hcomp-14.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  1687 strings out of 493488
  25098 string characters out of 3141326
@@ -333,14 +336,13 @@ Here is how much of TeX's memory you used:
  18458 words of font info for 34 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,10n,23p,1854b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/20
-12/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
 Output written on confer-hcomp-14.pdf (9 pages, 5575957 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
