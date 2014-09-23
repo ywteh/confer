@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  12 SEP 2014 01:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.6)  23 SEP 2014 08:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -198,7 +198,39 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen124
+\captionmargin@=\dimen125
+\captionwidth=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 2pt \setbox \@t
+empboxa \hbox {\small \textbf {#1. #2}} \ifdim \wd \@tempboxa >\hsize \small \t
+extbf {#1. #2}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\par \fi 
+.
+\c@ContinuedFloat=\count109
+)
+\c@subfigure=\count110
+\c@subtable=\count111
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/10/31 v6.83l Hypertext links for LaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -255,14 +287,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen124
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
+\@linkdim=\dimen130
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/10/31 v6.83l Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count111
+\Hy@SavedSpaceFactor=\count114
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -274,12 +306,12 @@ Package hyperref Info: Plain pages OFF on input line 4343.
 Package hyperref Info: Backreferencing OFF on input line 4348.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4573.
-\c@Hy@tempcnt=\count112
+\c@Hy@tempcnt=\count115
 LaTeX Info: Redefining \url on input line 4926.
-\XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count113
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
+\XeTeXLinkMargin=\dimen131
+\Fld@menulength=\count116
+\Field@Width=\dimen132
+\Fld@charsize=\dimen133
 Package hyperref Info: Hyper figures OFF on input line 6180.
 Package hyperref Info: Link nesting OFF on input line 6185.
 Package hyperref Info: Hyper index ON on input line 6188.
@@ -289,24 +321,28 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6205.
 Package hyperref Info: PDF/A mode OFF on input line 6210.
 LaTeX Info: Redefining \ref on input line 6250.
 LaTeX Info: Redefining \pageref on input line 6254.
-\Hy@abspage=\count114
-\c@Item=\count115
-\c@Hfootnote=\count116
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count117
+\c@Hfootnote=\count118
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/10/31 v6.83l Hyperref driver for pdfTeX
-\Fld@listcount=\count117
-\c@bookmark@seq@number=\count118
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip46
+\Hy@SectionHShift=\skip48
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 Package hyperref Info: Option `colorlinks' set `true' on input line 59.
@@ -336,16 +372,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen128
+\scratchcounter=\count121
+\scratchdimen=\dimen134
 \scratchbox=\box29
-\nofMPsegments=\count120
-\nofMParguments=\count121
+\nofMPsegments=\count122
+\nofMParguments=\count123
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen129
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen135
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -362,6 +398,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box30
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
@@ -380,7 +419,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count127
 )
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
@@ -390,104 +429,21 @@ LaTeX Info: Redefining \nameref on input line 66.
 \@outlinefile=\write3
 \openout3 = `confer-chi-15.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 91.
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 91.
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 91.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 90.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
-
-
-LaTeX Warning: Citation `chi2013' on page 1 undefined on input line 111.
-
-
-LaTeX Warning: Citation `chi2012' on page 1 undefined on input line 111.
-
-
-LaTeX Warning: Citation `chi2013' on page 1 undefined on input line 111.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -496,105 +452,230 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Non-PDF special ignored!
 
 ]
-<mychi-papers-view-recommendations.png, id=58, 1014.79124pt x 809.0225pt>
-File: mychi-papers-view-recommendations.png Graphic file (type png)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
 
-<use mychi-papers-view-recommendations.png>
-Package pdftex.def Info: mychi-papers-view-recommendations.png used on input li
-ne 126.
-(pdftex.def)             Requested size: 219.58264pt x 175.04747pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
-
-
-LaTeX Warning: Citation `Zhang:2013:CCL:2468356.2479597' on page 2 undefined on
- input line 131.
-
-<mychi-schedule-view.png, id=59, 1009.7725pt x 831.105pt>
-File: mychi-schedule-view.png Graphic file (type png)
-
-<use mychi-schedule-view.png>
-Package pdftex.def Info: mychi-schedule-view.png used on input line 135.
-(pdftex.def)             Requested size: 219.58264pt x 180.72583pt.
+<confer-search.png, id=95, 1556.81625pt x 828.09375pt>
+File: confer-search.png Graphic file (type png)
+ <use confer-search.png>
+Package pdftex.def Info: confer-search.png used on input line 145.
+(pdftex.def)             Requested size: 231.7825pt x 123.2863pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<papers_likes.png, id=60, 657.45625pt x 482.80376pt>
-File: papers_likes.png Graphic file (type png)
- <use papers_likes.png>
-Package pdftex.def Info: papers_likes.png used on input line 149.
-(pdftex.def)             Requested size: 219.58264pt x 161.2485pt.
+<confer-similar-papers.png, id=98, 1569.865pt x 1515.6625pt>
+File: confer-similar-papers.png Graphic file (type png)
 
-[2 <./mychi-papers-view-recommendations.png> <./mychi-schedule-view.png> <./pap
-ers_likes.png>]
+<use confer-similar-papers.png>
+Package pdftex.def Info: confer-similar-papers.png used on input line 153.
+(pdftex.def)             Requested size: 231.7825pt x 223.77798pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 
+       [2] <confer-recommendations.png, id=117, 1549.79pt x 1355.0625pt>
+File: confer-recommendations.png Graphic file (type png)
 
-LaTeX Warning: Citation `Eades00navigatingclustered' on page 3 undefined on inp
-ut line 168.
-
-<mychi-community-view-10.png, id=71, 723.70375pt x 686.565pt>
-File: mychi-community-view-10.png Graphic file (type png)
-
-<use mychi-community-view-10.png>
-Package pdftex.def Info: mychi-community-view-10.png used on input line 178.
-(pdftex.def)             Requested size: 219.58264pt x 208.31773pt.
+<use confer-recommendations.png>
+Package pdftex.def Info: confer-recommendations.png used on input line 162.
+(pdftex.def)             Requested size: 231.7825pt x 202.65099pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<mychi-community-view-15.png, id=73, 753.81625pt x 659.46375pt>
-File: mychi-community-view-15.png Graphic file (type png)
+<confer-meetup.png, id=118, 791.95876pt x 538.01pt>
+File: confer-meetup.png Graphic file (type png)
+ <use confer-meetup.png>
+Package pdftex.def Info: confer-meetup.png used on input line 171.
+(pdftex.def)             Requested size: 231.7825pt x 157.45554pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.180 \end {itemize}
+                     [3 <./confer-search.png> <./confer-similar-papers.png> <./
+confer-recommendations.png> <./confer-meetup.png>]
+<confer-personal-schedule.png, id=129, 778.91pt x 727.71875pt>
+File: confer-personal-schedule.png Graphic file (type png)
 
-<use mychi-community-view-15.png>
-Package pdftex.def Info: mychi-community-view-15.png used on input line 190.
-(pdftex.def)             Requested size: 219.58264pt x 192.09491pt.
- [3 <./mychi-community-view-10.png> <./mychi-community-view-15.png>]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no š in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no „ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¹ in font ptmr7t!
- (./confer-chi-15.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+<use confer-personal-schedule.png>
+Package pdftex.def Info: confer-personal-schedule.png used on input line 187.
+(pdftex.def)             Requested size: 231.7825pt x 216.54065pt.
+
+Underfull \vbox (badness 2617) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \section
+              {Survey Results \& Log Analysis} [4 <./confer-personal-schedule.p
+ng>] <survey-q-1.png, id=136, 362.7954pt x 217.7736pt>
+File: survey-q-1.png Graphic file (type png)
+ <use survey-q-1.png>
+Package pdftex.def Info: survey-q-1.png used on input line 218.
+(pdftex.def)             Requested size: 197.62303pt x 118.62943pt.
+
+<survey-q-2.png, id=137, 362.7954pt x 217.7736pt>
+File: survey-q-2.png Graphic file (type png)
+ <use survey-q-2.png>
+Package pdftex.def Info: survey-q-2.png used on input line 226.
+(pdftex.def)             Requested size: 197.62303pt x 118.62943pt.
+
+<survey-q-4.png, id=138, 362.7954pt x 217.7736pt>
+File: survey-q-4.png Graphic file (type png)
+ <use survey-q-4.png>
+Package pdftex.def Info: survey-q-4.png used on input line 234.
+(pdftex.def)             Requested size: 197.62303pt x 118.62943pt.
+
+<survey-q-5.png, id=139, 362.7954pt x 218.2554pt>
+File: survey-q-5.png Graphic file (type png)
+ <use survey-q-5.png>
+Package pdftex.def Info: survey-q-5.png used on input line 242.
+(pdftex.def)             Requested size: 197.62303pt x 118.89188pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 B
+       oth the log analysis and the survey results suggest that Meetups wasn...
+[5 <./survey-q-1.png> <./survey-q-2.png> <./survey-q-4.png> <./survey-q-5.png>]
+
+Underfull \hbox (badness 1412) in paragraph at lines 270--271
+[]\OT1/ptm/m/n/10 Because of pri-vacy con-sid-er-a-tions, we kept ev-ery-one
+ []
+
+<all-accepted-papers.png, id=158, 772.8875pt x 722.7pt>
+File: all-accepted-papers.png Graphic file (type png)
+
+<use all-accepted-papers.png>
+Package pdftex.def Info: all-accepted-papers.png used on input line 286.
+(pdftex.def)             Requested size: 231.7825pt x 216.73447pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chi-announcement-1.png, id=159, 604.2575pt x 208.78pt>
+File: chi-announcement-1.png Graphic file (type png)
+
+<use chi-announcement-1.png>
+Package pdftex.def Info: chi-announcement-1.png used on input line 293.
+(pdftex.def)             Requested size: 231.7825pt x 80.08267pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chi-announcement-2.png, id=161, 602.25pt x 194.7275pt>
+File: chi-announcement-2.png Graphic file (type png)
+
+<use chi-announcement-2.png>
+Package pdftex.def Info: chi-announcement-2.png used on input line 302.
+(pdftex.def)             Requested size: 231.7825pt x 74.94208pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 
+       [6 <./all-accepted-papers.png> <./chi-announcement-1.png> <./chi-announc
+ement-2.png>] <attendees-response.png, id=173, 617.30624pt x 211.79124pt>
+File: attendees-response.png Graphic file (type png)
+
+<use attendees-response.png>
+Package pdftex.def Info: attendees-response.png used on input line 313.
+(pdftex.def)             Requested size: 231.7825pt x 79.5217pt.
+ <crowded-room.png, id=176, 722.7pt x 542.025pt>
+File: crowded-room.png Graphic file (type png)
+
+<use crowded-room.png>
+Package pdftex.def Info: crowded-room.png used on input line 333.
+(pdftex.def)             Requested size: 231.7825pt x 173.83199pt.
+
+<chi2013-community-view-10.png, id=178, 723.70375pt x 686.565pt>
+File: chi2013-community-view-10.png Graphic file (type png)
+
+<use chi2013-community-view-10.png>
+Package pdftex.def Info: chi2013-community-view-10.png used on input line 343.
+(pdftex.def)             Requested size: 231.7825pt x 219.88338pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.349 
+       [7 <./attendees-response.png> <./crowded-room.png>]
+<chi2013-community-view-15.png, id=188, 753.81625pt x 659.46375pt>
+File: chi2013-community-view-15.png Graphic file (type png)
+
+<use chi2013-community-view-15.png>
+Package pdftex.def Info: chi2013-community-view-15.png used on input line 352.
+(pdftex.def)             Requested size: 231.7825pt x 202.77132pt.
+ (./confer-chi-15.bbl
+Underfull \vbox (badness 3601) has occurred while \output is active []
+
 
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \begin{thebibliography}{10}
+                                [8 <./chi2013-community-view-10.png> <./chi2013
+-community-view-15.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 \end{document}
+                     [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
  (./confer-chi-15.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 394.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
 Package rerunfilecheck Info: File `confer-chi-15.out' has not changed.
-(rerunfilecheck)             Checksum: 8190E3C4DA8A48126D5B44DB4919C015;548.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
+(rerunfilecheck)             Checksum: 6F5C7C6A547C16894CCCD5C77E632401;789.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
  ) 
 Here is how much of TeX's memory you used:
- 6257 strings out of 493488
- 90092 string characters out of 3141326
- 177496 words of memory out of 3000000
- 9436 multiletter control sequences out of 15000+200000
- 33133 words of font info for 72 fonts, out of 3000000 for 9000
+ 7336 strings out of 493488
+ 110263 string characters out of 3141326
+ 198534 words of memory out of 3000000
+ 10484 multiletter control sequences out of 15000+200000
+ 26101 words of font info for 53 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,30p,1566b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.13} has been referenced but does not exi
+ 42i,10n,40p,1294b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.30} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.12} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.28} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.18} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.7} has been referenced but does not exist,
+ replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
  replaced by a fixed one
@@ -602,19 +683,17 @@ pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
 pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
- replaced by a fixed one
-
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on confer-chi-15.pdf (4 pages, 1866653 bytes).
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on confer-chi-15.pdf (9 pages, 6527838 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 30 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

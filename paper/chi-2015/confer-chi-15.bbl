@@ -1,3 +1,84 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Abouzied:2014:CCN:2556420.2556783}
+Abouzied, A., and Chen, J.
+\newblock Commonties: A context-aware nudge towards social interaction.
+\newblock In {\em Proceedings of the Companion Publication of the 17th ACM
+  Conference on Computer Supported Cooperative Work \& Social Computing}, CSCW
+  Companion '14, ACM (New York, NY, USA, 2014), 1--4.
+
+\bibitem{EventPlanning}
+Allen, J.
+\newblock {\em Event Planning: The Ultimate Guide To Successful Meetings,
+  Corporate Events, Fundraising Galas, Conferences, Conventions, Incentives,
+  And Other Special Events}.
+\newblock John Wiley \& Sons Canada, Toronto, 2000.
+
+\bibitem{AttendeeSourcingHCOMP14}
+Bhardwaj, A., Kim, J., Dow, S., Karger, D., Madden, S., Miller, R., and Zhang,
+  H.
+\newblock Attendee-sourcing: Exploring the design space of community-informed
+  conference scheduling.
+\newblock In {\em Second AAAI Conference on Human Computation and
+  Crowdsourcing}, AAAI (2014).
+
+\bibitem{Confex}
+Confex.
+\newblock Confex, 2014.
+\newblock http://confex.com.
+
+\bibitem{CoDesign}
+DiSalvo, C., Lodato, T., Fries, L., Schechter, B., and Barnwell, T.
+\newblock The collective articulation of issues as design practice.
+\newblock {\em CoDesign 7}, 3-4 (2011), 185--197.
+
+\bibitem{CollaborativeFiltering}
+Ekstrand, M.~D., Riedl, J.~T., and Konstan, J.~A.
+\newblock Collaborative filtering recommender systems.
+\newblock {\em Foundations and Trends in Human-Computer Interaction 4\/}
+  (2011), 175--243.
+
+\bibitem{Hill:1992:EWR:142750.142751}
+Hill, W.~C., Hollan, J.~D., Wroblewski, D., and McCandless, T.
+\newblock Edit wear and read wear.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '92, ACM (New York, NY, USA, 1992), 3--9.
+
+\bibitem{lecturescape}
+Kim, J., Guo, P.~J., Cai, C.~J., Li, S.-W.~D., Gajos, K.~Z., and Miller, R.~C.
+\newblock Data-driven interaction techniques for improving navigation of
+  educational videos.
+\newblock In {\em UIST'14}, ACM (2014), to appear.
+
+\bibitem{CobiUIST2013}
+Kim, J., Zhang, H., Andr{\'e}, P., Chilton, L.~B., Mackay, W., Beaudouin-Lafon,
+  M., Miller, R.~C., and Dow, S.~P.
+\newblock Cobi: A community-informed conference scheduling tool.
+\newblock In {\em Proceedings of the 26th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '13, ACM (New York, NY, USA, 2013).
+
+\bibitem{ConferenceAnatomy}
+Macek, B.-E., Scholz, C., Atzmueller, M., and Stumme, G.
+\newblock Anatomy of a conference.
+\newblock In {\em Proceedings of the 23rd ACM Conference on Hypertext and
+  Social Media}, HT '12, ACM (New York, NY, USA, 2012), 245--254.
+
+\bibitem{patina}
+Matejka, J., Grossman, T., and Fitzmaurice, G.
+\newblock Patina: Dynamic heatmaps for visualizing application usage.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '13, ACM (New York, NY, USA, 2013), 3227--3236.
+
+\bibitem{CitationRecommendation}
+McNee, S.~M., Albert, I., Cosley, D., Gopalkrishnan, P., Lam, S.~K., Rashid,
+  A.~M., Konstan, J.~A., and Riedl, J.
+\newblock On the recommending of citations for research papers.
+\newblock In {\em Proceedings of the 2002 ACM Conference on Computer Supported
+  Cooperative Work}, CSCW '02, ACM (New York, NY, USA, 2002), 116--125.
+
+\bibitem{ConferenceNavigator}
+Wongchokprasitti, C., Brusilovsky, P., and Parra-Santander, D.
+\newblock Conference navigator 2.0: community-based recommendation for academic
+  conferences.
 
 \end{thebibliography}

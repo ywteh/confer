@@ -11,10 +11,9 @@
 % DOI string from ACM form confirmation}
 %% EXAMPLE END -- HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP -- (July 22, 2013 - Paul Baumann)
 
-
 % Arabic page numbers for submission. 
 % Remove this line to eliminate page numbers for the camera ready copy
-\pagenumbering{arabic}
+% \pagenumbering{arabic}
 
 
 % Load basic packages
@@ -22,6 +21,7 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage{subcaption}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -65,156 +65,307 @@ breaklinks=true,
 % End of preamble. Here it comes the document.
 \begin{document}
 
-\title{The Quanti-CHI-ed Self: A Data Driven Analysis of the Structure of Research Communities at the CHI 2013 Conference.}
+\title{Mining Attendee Data to Improve Academic Conferences}
 
 \numberofauthors{3}
 \author{
-  \alignauthor Anant Bhardwaj\\
-    \affaddr{MIT CSAIL}\\
-    \email{anantb@csail.mit.edu}\\
- \alignauthor Juho Kim\\
-    \affaddr{MIT CSAIL}\\
-    \email{juhokim@mit.edu}\\
-\alignauthor Haoqi Zhang\\
-    \affaddr{Northwestern University}\\
-    \email{hq@northwestern.edu}\\
-\alignauthor David Karger\\
-    \affaddr{MIT CSAIL}\\
-    \email{karger@mit.edu}\\
-\alignauthor Sam Madden\\
-    \affaddr{MIT CSAIL}\\
-    \email{madden@csail.mit.edu}\\
+  \alignauthor 1st Author Name\\
+    \affaddr{Affiliation}\\
+    \affaddr{Address}\\
+    \email{e-mail address}\\
+    \affaddr{Optional phone number}
+  \alignauthor 2nd Author Name\\
+    \affaddr{Affiliation}\\
+    \affaddr{Address}\\
+    \email{e-mail address}\\
+    \affaddr{Optional phone number}    
+  \alignauthor 3rd Author Name\\
+    \affaddr{Affiliation}\\
+    \affaddr{Address}\\
+    \email{e-mail address}\\
+    \affaddr{Optional phone number}
 }
-
 
 \maketitle
 
 \begin{abstract}
-CHI has traditionally supported diverse and interdisciplinary work and continues to expand into new topics not previously explored.  While many of us have opinions about the distribution of interests in this community, there has been little data available to support these opinions.
+One of the primary goals of academic conferences is to promote scientific exchange of advances among people who may otherwise not have the opportunity to hear from one another. Conference organizers put time and effort in various activities such as putting papers in thematically coherent sessions, ensuring related papers are not scheduled at the same time, planning various events to bring together people with shared interests, choosing speakers, etc.  They often struggle to gather all the information necessary to do these right. Despite all the efforts from conference organizers it is still not easy for attendees to find and attend all the papers/talks they want to see, and meet/exchange ideas with other attendees who share similar interests as theirs.
 
-At CHI 2013, 630 attendees used the myCHI interactive conference program to select the papers they considered of interest to see or attend.  We use this data to understand the CHI 2013 community structure --- specifically, the sub-areas of interest and the connections between them. We believe the data and our analysis demonstrate how the CHI community can better understand its own structure and use this knowledge in planning future conferences and community interactions. The data can also be useful in discovering new areas of research and practice, new methodologies, and emerging application areas.
+We present \emph{Confer}, a tool designed to help conference attendees find interesting papers/talks, discover/meet people with shared interests, and manage their time using a personalized schedule for the conference. So far, we have deployed Confer to 13 academic conferences including CHI, CSCW, KDD, ACM MM, SIGMOD, SIGIR, and WSDM. Our log analysis and survey results show that the tool helps conference attendees find interesting papers, manage schedule, and discover other attendees with shared interests. We explore how the large-scale usage data of the tool can help plan various conference organization activities such as scheduling sessions, forming communities and sub-communities, assigning speakers, planning community interactions, etc., and present a case for a data-driven decision making for academic conferences.
 \end{abstract}
 
 \keywords{
-        CHI Community Structure; myCHI; 
+        data-driven conference planning; confer.
 }
 
 \category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous}
 
 \section{Introduction}
-A primary role of academic conferences is to bring together people with shared interest to exchange ideas and knowledge.  It thus seems crucial to understand whether and how attendees are connected by shared interests.  Understanding the structure of shared interests can help in scheduling sessions, choosing speakers, creating program committees, and helping people get to know others with similar interests.  
+A primary role of academic conferences is to bring together people with shared interests to exchange ideas and knowledge. Conference attendees go to academic conferences with two major goals -- a) see papers/talks relevant to their interests, and b) meet and exchange ideas with other people who share similar interests. Conference organizers do their best to facilitate these needs -- they try to create thematically relevant sessions (to help attendees find papers/talks relevant to their interest) and schedule them in a way that will minimize conflicts for attendees (papers an attendee wants to see shouldn't be scheduled at the same time in parallel); they plan various events/activities to bring people with shared interests together to meet and exchange ideas.  For logistic and pragmatic reasons, it typically becomes a responsibility of a few dedicated organizers ~\cite{EventPlanning}. Organizers often struggle to \emph{gather all the information necessary to do it right} and despite their best effort they often fail to accommodate unforeseen issues and unvoiced opinions~\cite{CoDesign}.
 
-To date, such interests structures have been inferred primarily by hearsay.  In this note, we argue that and show how it is possible to use data gathered from conference attendees to quantify our understanding of the CHI community structure -- to apply the ‚Äúquantified self‚Äù perspective to our own community.  We consider conferences as a collaborative activity that can benefit from CSCW approaches.   We identify subcommunities with shared interests -- some apparently so strong that are almost a separate ‚Äúconference within a conference‚Äù-- that might benefit from greater recognition or autonomy within CHI.  We take the position that gathering such data more aggressively prior to CHI 2014 could allow us to enhance the quality of CHI 2014 by structuring sessions better, by scheduling shared-interest events, and by better-choosing invited speakers, and could enhance the quality of future CHIs by informing us about the proper arrangement of subcommittees (submission tracks).
+We present Confer, a tool designed to help attendees find relevant papers/talks, meet people with shared interests, and manage their time efficiently using a personalized schedule for their conference. Conference attendees use Confer to search for papers (Figure~\ref{confer-search}) and explore by browsing through recommended papers (Figure~\ref{confer-similar-papers}). While exploring, they add interesting papers to their preference list (Figure~\ref{confer-recommendations}). Confer automatically creates a personalized schedule (Figure~\ref{confer-personal-schedule}) based on their preference list which they use to manage their time at the conference. We launched the tool in April 2013 for CHI 2013, and since then have hosted 13 academic conferences including CHI, CSCW, KDD, ACM MM, SIGMOD, SIGIR, and WSDM. Over the last 18 months, the tool has been used by more than 18,000 attendees. 6,600 attendees have registered accounts on confer. To understand how useful the tool is for attendees, we analyzed the usage data and conducted surveys. Our analysis indicates that the tool helped attendees find relevant papers/talks, meet other attendees with shared interests, and manage their time efficiently using their personalized schedule.
 
-Our analysis uses data from myCHI, a ‚Äúconference program app‚Äù for desktop and mobile that gave attendees a list and schedule of talks and allowed them to ‚Äústar‚Äù those talks they wanted to attend or otherwise found interesting.  Of the 3400 CHI attendees, 630 used myCHI to star an average of 25 papers each.  We use these stars as an indication of the interests of different attendees.  We cluster papers and attendees based on these shared interests, and use the clusters to understand major ‚Äúsub-areas‚Äù of CHI and the degree of connection between them.
+Confer collects natural, rich preference data on how attendees plan to spend their time at the conference. Attendees use the tool for their own benefit, but the collective data can help organizers and the community. We argue for a data-driven approach towards conference planning. We explore how we can use the natural, rich preference data gathered from the usage of the tool. We describe various experiments we ran at CHI 2014 to evaluate the feasibility of using the data. The data can be mined to gain insights into the structure of shared interests, community, sub-communities, different areas of research, new/emerging areas, etc. We show that the data is valuable for various conference planning activities such as scheduling sessions, choosing speakers, creating program committees, planning community interactions, etc.
 
-Over the years, CHI~\cite{chi2013} has strived to maintain diversity, balance, collaboration and evolution. There is a set of conference-defined core communities that have persisted over several years including User Experience, Design, Engineering, and Management. These core communities seek to cover HCI as a discipline, and are overlapping. Each year, CHI also has a different set of \emph{featured communities} which are more domain-oriented to provide an environment in which community members can incubate and grow a new community.  CHI 2012~\cite{chi2012} had several featured communities including Health, Games and Entertainment, Sustainability, Child-Computer Interaction, and Digital Arts. CHI 2013~\cite{chi2013} evolved by adding HCI for Development as a new community to the list.
+The contributions of the paper are as follows:
+\begin{itemize}
+\item Confer, a web-based conference navigation interface for attendees to discover relevant papers/talks, meet other attendees with shared interests, and navigate the conference using a personalized schedule.
+\item An analysis of the usage data and user surveys demonstrating the usefulness of the tool for conference attendees.
+\item An argument for a data-driven conference planning with exploration of various use-cases, with the case study of CHI 2014.
+\end{itemize}
 
-We are aware that our data, which covers only 1/5 of the attendees, is biased.  However, we believe this data suffices to (i) demonstrate the existence of communities that are not explicitly recognized as CHI Communities and (ii) demonstrate how much more could be done with a concerted effort to gather this data from a larger portion of the attendees.
+This paper is organized as follows. First, we describe the system, various design decisions, and how it helps attendees find relevant papers/talks and meet other people with similar interests. Next, we discuss our analysis of usage data and attendees' responses to the surveys we conducted. We then explore the data gathered from the usage of the tool and how the data can be useful to help conference organizers make important decisions. In the end we discuss the possible implications of data-driven decision making for academic conferences.
 
-This paper is organized into three major parts. In the first part, we very briefly describe the myCHI system and how attendees used myCHI at CHI 2013. In the second part we present the data we collected, and an analysis of the data. We analyze the data at different zoom levels to see if it illuminates us with new information. The third part is a discussion on what is the implication of our analysis on the CHI community at large. Before concluding we take a brief digression to discuss why we chose not to include certain kinds of data in our analysis and the possible risks associated with it.
+\section{Related Work}
+Confer is a tool that collects natural, rich preference data on how attendees plan to spend their time at the conference. We look at how the data collected as a by-product of a natural exploration by conference attendees can be used for making various decisions in conference planning.
 
+Conference Navigator ~\cite{ConferenceNavigator}, Conferator ~\cite{ConferenceAnatomy}, and Confex ~\cite{Confex} are other tools designed to help conference attendees find relevant papers/talks. We try to pursue gathering attendees' preferences prior to holding (or scheduling) the conference so that the data can be used for planning the conference itself. We explore how we can use the data gathered as a by-product of natural exploration by conference attendees to various use-cases in conference planning. The use-cases we present can make use of data generated by other tools too.
 
-\section{MyCHI}
-myCHI is a tool for conference attendees to plan their conference. Conference attendees can search for a keyword and mark papers they find interesting. 
+Cobi~\cite{CobiUIST2013} is a tool that pursues gathering data prior to scheduling the conference. It collects data from authors by inviting the authors of the accepted papers to identify papers that would fit well in a session with their own, and which papers would they like to see. Attendee-Sourcing ~\cite{AttendeeSourcingHCOMP14} shows that the data gathered as a by-product of natural exploration by attendees are of very different nature than the data collected by Cobi from authors. The data collected from Confer and Cobi complement each other.
 
-As soon as a user marks at least one paper as interesting, the system starts recommending more papers similar to ones the user has marked as interesting. This way, the user can create a personalized list of all the papers he or she wants to see in the conference. 
- 
+The idea of leveraging large-scale user interaction data organically generated from users' collective behaviors has been an active area of research in the HCI community. Read wear~\cite{Hill:1992:EWR:142750.142751} collects users' natural document browsing behaviors to augment the scrollbar with visitation frequency information, Patina~\cite{patina} collects personal and community usage data of a GUI to visualize and recommend menu items of the user's interest, and LectureScape~\cite{lecturescape} uses video watchers' video player interaction data (e.g., play, pause clicks) to support various information needs to improve the navigation experience of educational videos. Confer contributes to this line of research with using usage data in the unique domain of academic conferences. Also, previous research has focused on collecting usage data from applications, users are already familiar with (e.g., reading a page, watching educational videos, using Word for document editing), but with Confer, we create the application itself that did not exist for the target population in addition to collecting and using the data.
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.9\columnwidth]{mychi-papers-view-recommendations}
-\caption{My Paper View -- the top section shows all the starred papers, the middle section shows all the recommended papers, and the bottom section (not visible in the figure) shows all the papers.}
-\label{fig:MyCHI -- My Papers}
-\end{figure}
+There is an active area of research in matchmaking. Confer contributes to this area of research by providing APIs which can be used by tools/applications targeting conference attendees. CommonTies \cite{Abouzied:2014:CCN:2556420.2556783} is a simple technological nudge that uses context-aware profile-matching system to encourage social interactions among strangers. The profile matching system of CommonTies is powered by Confer Meetups APIs.
 
-Our recommendation system uses collaborative filtering to recommend new papers and thus the recommendations are based on what other people with a similar set of interests have in their personalized list. For CHI 2013, we used cobi~\cite{Zhang:2013:CCL:2468356.2479597} generated preference list to bootstrap the system so that our initial recommendations aren't biased.
-
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.9\columnwidth]{mychi-schedule-view}
-\caption{My Schedule View -- a set of filters to easily navigate through the conference schedule.}
-\label{MyCHI -- My Schedule}
-\end{figure}
-
-To incentivize users to use myCHI, we recommend a personalized schedule to each user which helps the user navigate through the conference. This personalized schedule is created based on all the papers the user has starred, and the papers recommended by our recommendation system based on his or her preferences. We provide a set of filters that allows users to see different views of their personalized schedule and make an informed decision of where they should spend their time. Fig. 2 shows myCHI schedule view.
+Collaborative filtering is a method of making automatic predictions about the interests of a user by collecting preferences or taste information from many other similar users ~\cite{CollaborativeFiltering}. It has proven to be valuable for recommending items in many different domains. CitationRecommendation ~\cite{CitationRecommendation} has explored the use of collaborative filtering to recommend research papers, using the citation web between papers to create the ratings matrix. We recommend new papers/talks to attendees using the attendees' marked papers to construct the ratings matrix.
 
 
-\section{MyCHI Data and Analysis}
-\subsection{Usage Statistics}
-Before we present an analysis, we present usage statistics. We dropped all the users with 0 starred papers from our analysis. There were total of 630 users who starred at least 1 paper. The avg. number of starred papers per user was 20.6 (std. Dev: 22.7, median: 13,  min: 1, max 155). The avg. number of people starring a paper was 24.2 (std. Dev: 12.1, median: 22,  min: 1, max 80). Every paper presented in the conference was starred by at least 1 person. 
+\section{System Description}
+\subsection{Design Goals}
+Confer is a web-based application primarily designed to help conference attendees a) discover relevant papers/talks, b) meet people who share similar interests, and c) manage their time efficiently using a personalized schedule. Responsive design is applied to support small-screens and smartphones. In this section, we describe the interface and the design rationale in detail.
+
+
+\textbf{Design Goal 1. Discover Relevant Papers}\\
+The goal is to make it easy for attendees to find papers they would want to see. Confer supports three main affordances for discovering relevant papers/talks.
+
+\emph{Discovery by search:} Attendees can search using keywords (any word in the title, abstract, author, paper-keywords, etc.) to find papers matching the keywords in the query (Figure~\ref{confer-search}). This interface is important for attendees to find and mark papers they already know they want to see. From our logs we find that attendees search for papers from a particular institution/organization, papers by a particular author, papers related to a particular topic, etc. 
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.9\columnwidth]{papers_likes}
-\caption{A histogram plot of Popularity of Papers}
-\label{fig:A histogram plot of Number of People Starred (any single paper)}
+\includegraphics[width=0.95\columnwidth]{confer-search.png}
+\caption{Attendees can search for papers using keywords, author names, affiliation, etc.}
+\label{confer-search}
+\end{figure}
+
+\emph{Discovery while exploring:} When an attendee clicks on a paper to explore (read more about the paper), we show the paper's abstract and a list of other papers similar to the selected paper (Figure~\ref{confer-similar-papers}). Showing the list of similar papers helps attendees navigate to other papers similar to the selected paper. We consider ``opening a paper for reading'' as an implicit signal for the user's next navigation. Our log analysis suggests that a user is more likely to navigate to a paper similar to the one the user is currently looking at. This interface is designed to help attendees quickly navigate to another paper/talk related to the one they are currently looking at.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{confer-similar-papers.png}
+\caption{Attendees see similar papers while exploring a paper of interest.}
+\label{confer-similar-papers}
 \end{figure}
 
 
+\emph{Discovery by looking at the recommendations:} Attendees can mark a paper as ``interested in seeing'' by starring it. This adds the marked paper to their ``interested in seeing'' list. For each attendee, we generate a personalized set of recommendations based on the papers the attendee has already marked as ``interested in seeing'' (Figure~\ref{confer-recommendations}). The recommendations are dynamic and they automatically get refreshed when either the attendee adds/removes a paper from her/his ``interested in seeing'' list, or the changes in the community network cause the recommendations to change. The social recommendations help attendees discover new papers in their interest area. The interest area for an attendee is inferred by looking at all the papers he/she has already marked as ``interested in seeing''.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{confer-recommendations.png}
+\caption{Attendees are presented with a set of recommendations based on their current selection to help them discover relevant papers.}
+\label{confer-recommendations}
+\end{figure}
 
-\subsection{Award Papers}
+\textbf{Design Goal 2. Meeting People with Shared Interests}\\
+Another important goal of Confer is to encourage attendees with shared interests to meet and exchange ideas. Since attendees mark papers they are interested in seeing, we can compute similarity between attendees by looking at their preferences. For each attendee, we can now show a list of other attendees with similar interests. There are two important design considerations though:
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{confer-meetup.png}
+\caption{Confer interface to help attendees meet other people with shared interests.}
+\label{confer-meetup}
+\end{figure}
+\begin {itemize}
 
-To understand if the papers popular on myCHI were the award and honorable mention (hm) papers, we compute the popularity stats for award and honorable mention papers. For award and honorable mention papers, the average popularity (``number of people selecting the paper") goes up by 26\% (mean: 30.97, std dev: 15.3, median: 30.0 min: 6, max: 80). For award only papers, these numbers improve a bit more (mean: 33.3, std dev: 17.3,  median: 29.5, min: 6, max: 77)---a 37\% increase.
+\item \emph{Privacy}:  People are usually not comfortable receiving an email from a stranger asking to meet. For this reason we made a decision to keep this as an ``opt-in'' feature with a default of ``opted out'' (Figure~\ref{confer-meetup}). We do not show any attendee as a recommendation to other attendees unless the attendee has explicitly opted in the Meetups functionality. We recommend only those attendees as recommendations who have explicitly opted in.
 
-While we see that award/hm papers have better average popularity,  there are papers that were very popular on myCHI ( more than 50 stars) but they were not part of award/hm papers. Out of 14 papers that got more than 50 stars, only 9 of them were part of award/hm papers (approximately 35\% of popular papers were not part of award/hm papers). Also, there are quite a few award/hm papers (see the plot) for which the popularity was less than the overall average.
+\item \emph{Initial communication barrier}: Even after explicit opt in, we realize that there is an initial barrier in starting a communication. Attendees do not feel comfortable taking the initiative of sending an email to someone they do not know. To reduce this barrier, we put a ``Star'' icon next to each recommended person. Attendees can add a person to their ``Favorite'' list by clicking on the Star icon next to the person in the interface (Figure~\ref{confer-meetup}). Once an attendee favorites a person from the recommended list, the system sends a notification to the person favorited. If the person favorites back the attendee, then it becomes socially less awkward for the two to exchange email and meet. We did A/B test and our log analysis concludes that attendees are more likely to use the ``favoriting'' interface to initiate the communication. We discuss our log analysis in detail later in the paper.
+\end {itemize}
+
+\textbf{Design Goal 3. Personalized Scheduling for Conference Attendees}\\
+To help attendees manage their time at the conference, we generate a personalized schedule for them. The personalized schedule for an attendee is generated based on all the papers the attendee has marked as ``interested in seeing'', and the papers recommended by our recommendation system. We provide a set of filters that allows attendees to see different views of their personalized schedule and make an informed decision about where they should spend their time.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{confer-personal-schedule.png}
+\caption{Confer creates a personalized schedule for attendees.}
+\label{confer-personal-schedule}
+\end{figure}
+
+\subsection{Implementation Details}
+For recommending papers, Confer uses collaborative filtering ~\cite{CollaborativeFiltering} based social recommendations. Collaborative filtering is a method of making automatic predictions about the interests of a user by collecting preferences or taste information from many other similar users. The idea is to automatically find similar attendees in the community, and then recommend new papers/talks to attendees based on the fact that other similar attendees liked the papers/talks. In the beginning, when there aren't enough preferences to support collaborative filtering, the system automatically falls back to content-based (TF-IDF) recommendations. This bootstrapping ensures that attendees always get some relevant recommendations when they open Confer. The design goal is to keep the attendees engaged by showing them papers they are most likely to find interesting.
+
+There are a number of different mathematical formulations that can be used for finding similar people. We use cosine-based similarity, also known as vector-based similarity. To find similarity between two attendees, we take the papers they are interested in seeing as two vectors. The similarity between the two attendees is computed as the cosine of the angle between the two vectors. 
+
+\subsection{Deployment \& Usage}
+Confer has been running since April, 2013 and so far we have hosted 13 academic conferences including CHI, CSCW, KDD, ACMMM, SIGMOD, SIGIR, and WSDM. Some of these conferences have been hosted twice.
+
+\emph{Tool Usage:} The app has been used by more than 18,000 attendees. 6,600 attendees have registered accounts on Confer. Out of 6,600 registered accounts, 5239 have starred at least 1 paper. We consider only these 5239 users in our analysis. They marked a total of 114, 472 preferences (interested in seeing) with an average of 21.85 preferences per user (std-dev: 19.7, median: 15, min: 1, max: 155). On an average, a paper appears in the preference list of 21.94 (std-dev: 11.87, median: 21, min: 0, max: 156) attendees. The most popular paper appeared in the preference list of 156 attendees. While these numbers vary for each conference, the variation is not too much and thus we do not report the usage for each individual conference.
+
+\emph{Usage of Paper Recommendations:} On an average, 63.8\% (median 66.45, std-dev: 14.76) of the ``papers interested in seeing'' list came from clicking on recommendations. Rest of the papers in the list were starred from the search results and the schedule page.
+
+\emph{Meetups Usage:} The Meetups feature, recommending people with similar paper interests inside Confer, has been launched recently, and we have only activated it for three conferences - CSCW 2014, CHI 2014, and KDD 2014 so far. As of now,  a total of 436 users (21.8\% of the total registered users for these conferences) explicitly enabled the Meetups functionality. There are 139 pairs with both-way favoriting (a pair favorited papers by each other), and 179 pairs with one-way favoriting (only one side favorited the other in a pair). Because of some problem in our system, we don't have the exact numbers of emails exchanged. Also, we do not know how many of these pairs really met in person.
+
+Confer data has also been used by other tools/applications targeting conference attendees. 
+CommonTies ~\cite{Abouzied:2014:CCN:2556420.2556783}, a simple technological nudge that uses context-aware profile-matching system to encourage social interactions among strangers was deployed at CSCW 2014. The profile matching system of CommonTies was powered by Confer Meetups APIs.
+
+\section{Survey Results \& Log Analysis}
+
+We log all the user activities to understand how Confer users use the system. However, to complement the usage statistics with a more qualitative understanding, we conducted a web-based survey that conference attendees could voluntarily participate in. The survey responses from various conferences have been aggregated. There were a total of 247 attendees who responded to the survey. Since the Meetups feature was activated recently, we have only 103 responses for meetups-related questions (Figure~\ref{survey-responses}).
+
+\begin{figure}[!h]
+\centering
+
+\begin{subfigure}[t]{0.9\columnwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{survey-q-1.png}
+\caption{Distribution of 247 responses to ``did you find Confer useful?''}
+\label{survey-q-1}
+\end{subfigure}
+
+\vspace{10pt}
+\begin{subfigure}[t]{0.9\columnwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{survey-q-2.png}
+\caption{Distribution of 247 responses to ``were the recommendations relevant and helpful?''}
+\label{survey-q-2}
+\end{subfigure}
+
+\vspace{10pt}
+\begin{subfigure}[t]{.9\columnwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{survey-q-4.png}
+\caption{Distribution of 247 responses to ``did you find confer personalized schedule helpful? Did it make navigation easier?''}
+\label{survey-q-4}
+\end{subfigure}
+
+\vspace{10pt}
+\begin{subfigure}[t]{0.9\columnwidth}
+\centering
+\includegraphics[width=0.9\columnwidth]{survey-q-5.png}
+\caption{Distribution of 103 responses to ``what was your experience with the confer meetups feature?''}
+\label{survey-q-5}
+\end{subfigure}
 
 
+\caption{Survey Results (all ratings are on 1-7 likert scale)}
+\label{survey-responses}
+\end{figure}
 
+We look at the survey responses along with the usage statistics in the context of the three design goals we described earlier.
 
+\textbf{Confer helps attendees discover relevant papers/talks.}\\
+We asked attendees to rate the relevance and usefulness of Confer recommendations on 1-7 likert scale (Figure~\ref{survey-q-2}). 74\% of the respondents rated it as 5 or above. Only 19\% of the respondents gave a 3 or below rating. We also asked the attendees if the recommendations helped them discover new interesting papers.  A large majority (83\% of the respondents) responded with a `Yes'.
 
-\subsection{Community Analysis}
-\footnote[1]{Links to these visualizations: http://double-blind.org/mychi}
-A community is a set of people with a common area of interest. We wanted to understand whether clear subcommunities exist at CHI, or whether the community is an undifferentiated whole.  This is a clustering problem. We could have focused on clustering people based on shared interest in papers, but it is difficult to inspect a given person and understand their interests.  So we instead chose to cluster papers, which have meaningful titles, based on shared people.  We created a graph where each node represents a paper, and two papers are connected by an edge if the number of people interested in both exceeds some threshold X..  We will vary X below.   For visualization, we clustered the graph's nodes using force-directed~\cite{Eades00navigatingclustered} drawing.
+Log analysis suggests that on an average 63.8\% (median 66.45, std-dev: 14.76) of the papers an attendee has marked as ``interested in seeing'' come from clicking on recommendations. This shows that a huge fraction of what an attendee could be interested in seeing was covered by Confer recommendations.
 
-This allows us to understand communities at different zoom levels. At very low common interest (X = 5), almost the entire graph is connected and that shows all of CHI as a single community. As we increase X, we see different communities within CHI. Below is a graph with a common interest threshold 10 (there is an edge between two nodes if and only if at least 10 people have starred both the papers). At this level three strong communities appear within CHI.  One on the right, containing 57 papers about hardware (multi-touch, gesture, tabletop, sensing surfaces), is quite isolated.  On the left are two clusters more closely coupled: at the bottom, a cluster of 39 papers on crowds, social media, and education, and above it, a cluster of 37 papers on design.  These three clusters together contain 133 papers, more than 1/3 of the total at the conference.  We will defer our discussion on the isolated nodes until next subsection.
+Recommendations are tricky to get right. While most respondents found the recommendations relevant and useful, a few respondents mentioned in their comments that they expected the recommendations to show papers outside their interest areas too. Our current recommendation approach generates recommendations for an attendee based on only the interests inferred from all the papers already marked by the attendee. It would be interesting to explore the effect of adding diverse recommendations.
 
+\textbf{Confer helps attendees find and meet other attendees with shared interests.}\\
+Meetups was active for only three conferences and thus we consider only those respondents (103) who registered for one of these conferences. 23\% of the respondents responded that they were not aware of it and 33\% didn't opt in. Out of the remaining (44\% of 103 = 45), 33\% did find other attendees with similar interests (Figure~\ref{survey-q-5}). 11\% said they didn't find anything interesting.
 
-An important task in conference preparation is to assign papers to sessions that hopefully reflect the relationships between the papers.  To visually explore this, we labeled each node (represents a paper) with its session\_id (a unique id assigned to the session at which this paper was presented).  Examining the graph, one can see that almost all the papers within a session are part of the same cluster, suggesting that sessions were well-chosen. 
+Out of the 45 respondents who opted in, 56\% initiated a communication with other attendees recommended to them by Confer. 52\% of the respondents said they got contacted by other attendees.
+
+From the log analysis we find 436 users (21.8\% of the total registered users) who explicitly enabled the Meetups functionality. There are 139 pairs with both-way favoriting (a pair favorited each other), and 179 pairs with one-way favoriting (only one side favorited the other in a pair).
+
+Both the log analysis and the survey results suggest that Meetups wasn't used as much as we'd like. The low Meetups usage could be because of the following reasons: 
+\begin{itemize}
+\item Because of privacy considerations, we kept everyone ``opted out'' as default which affected the number of users who can appear in the recommendation lists of attendees. Attendees discovered this feature either by word of mouth, or by clicking on the Meetup link.
+\item A possible reason for one-way favoriting could be due to the fact that many attendees favorite famous professors/researchers -- these famous professors/researchers often tend not to respond to unsolicited meeting requests.
+\end {itemize}
+
+\textbf{Confer helps attendees navigate using a personalized schedule.}\\
+We asked if the personalized schedule was helpful and if it helped them in navigating the conference. 71\% of the respondents gave a 5 or above rating on 1-7 likert scale (Figure~\ref{survey-q-4}). Only 16\% of the respondents gave a 3 or below rating. Our log analysis suggests that 83\% of the attendees visited the personalized schedule page at least once during the conference days.
+
+Many respondents mentioned in their comment that they expect more features such as export to calendar, reminders, etc. integrated with the personalized schedule.
+
+\section{A Case For A Data-Driven Decision Making}
+Now we shift our focus to analyzing how the data gathered from the usage of Confer can be used to help conference organizing committee in various activities such as scheduling sessions, choosing speakers, creating program committees, planning community interactions, etc. In this paper, we argue for a data-driven approach towards conference planning. We did an experiment for CHI 2014 to understand if it is feasible to gather enough data before the conference that can be helpful to the organizing committee. 
+\subsection{CHI 2014 Experiment}
+For CHI 2014, the program chairs released the list of accepted papers (Figure~\ref{all-accepted-papers}) on Confer 4 months before the conference (45 days before releasing the sessions and schedule). It was simply a list of papers with no sessions and schedule information. The CHI 2014 organizing committee also ensured that the first list of papers was \emph{only} available on Confer. The chairs made an official announcement on Twitter (Figure~\ref{chi-announcement-2}) that attendees can explore and mark the papers they want to see at the conference. They also announced that the preferences collected from Confer would be used for optimal session planning (Figure~\ref{chi-announcement-1}). Conference attendees marked papers they want to see at the conference (Figure~\ref{attendee-response}) by either searching (Figure~\ref{confer-search}) or using recommendations (Figure~\ref{confer-recommendations}).
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{all-accepted-papers.png}
+\caption{For CHI 2014, all the accepted papers were released on Confer 4 months before the conference (45 days before releasing the schedule).}
+\label{all-accepted-papers}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{chi-announcement-1.png}
+\caption{CHI announcement on Twitter: ``attendees' preference would be used to create optimal sessions''}
+\label{chi-announcement-1}
+\end{figure}
+
+The primary motivation for attendees was to get an early preview of all the accepted papers which they can explore and interact with. From our logs we find that attendees search for papers from a particular institution/organization, papers by a particular author, papers related to a particular topic, etc. They spend time exploring different papers by clicking the recommendations we show. While exploring, they add interesting papers to their preference list. The Confer interface and underlying recommendation engine are designed to support the exploratory behavior and keep the attendees engaged by showing them papers they are most likely to find interesting. To encourage participation, after releasing the accepted papers on Confer, CHI officially announced that attendees should explore CHI 2014 papers on Confer (Figure~\ref{chi-announcement-2}). CHI also put Confer links in all the official announcements for honorable mention and best paper awards. 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{chi-announcement-2.png}
+\caption{CHI announcement on Twitter: ``Attendees can explore CHI 2014 papers on Confer''}
+\label{chi-announcement-2}
+\end{figure}
+
+Another inherent motivation for attendees was that they want a schedule which takes into account their preferences (Figure~\ref{chi-announcement-1}) so that they can see all the papers they want to see without any conflict. A conflict is when two papers that an attendee wants to see are scheduled at the same time. To motivate attendees, CHI officially made an announcement that the data collected from Confer would be used to determine the optimal sessions.
+
 
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.9\columnwidth]{mychi-community-view-10}
-\caption{A cluster of papers based on a common interest threshold 10 (there is an edge between two nodes if and only if at least 10 people have starred both the papers). A force-directed drawing creates a cluster of densly connected nodes. }
-\label{fig:Community View of threshold 10}
+\includegraphics[width=0.95\columnwidth]{attendees-response.png}
+\caption{An attendee tweets about his ``wants to see'' list for CHI 2014}
+\label{attendee-response}
 \end{figure}
 
-To further refine our understanding of the community structure, we increase the common interest threshold to 15 (there is an edge between two nodes if and only if at least 15 people have starred both the papers). This reveals six different communities. At this point hardware community remains densely packed but new communities emerge from the second and the third clusters. Now, the second cluster has new communities like crowdsourcing, social media, education, and information visualization. The third cluster gets divided into communities like design research and participatory design. Also, there are some strongly connected isolated subgraphs that separated out from the two larger clusters are health, games, gesture etc.
+We saw a really good response from attendees (Figure~\ref{attendee-response}). For CHI 2014, during those 45 days, 347 attendees marked 7228 preferences in total \emph{(mean: 20.83, median: 14, std-dev: 21.47, min: 1, max: 156)}. It covered 581 papers (98.98\% of all the accepted papers). On an average, each paper was in the preference list of 12.44 attendees \emph{(mean: 12.44, median: 10, std-dev: 7.98, min: 1, max: 56)}. While this number might look too small (12\% of the total attendance), we find that after a certain threshold, the similarity structure doesn't change much even if we get data from more attendees. We however agree that more the early participation is, more confident the conference organizing committee would be in making decisions based on the data.
 
+The data collected from Confer was used by CHI organizing committee for making various decisions for CHI 2014. Along with Cobi's author-sourcing data, the data collected from Confer was fed into Cobi's scheduling tool to optimally plan sessions. The data was also used to get a sense of popular papers in advance.
 
+\subsection {Data-Driven Decision Making Use-Cases}
+We saw an active participation for CHI 2014. We believe that with organizational support, enough data can be gathered prior to holding (or scheduling) a conference. Now we present various use-cases for which the data collected from Confer usage could be useful. 
 
+\emph{Create Coherent Sessions.} If many attendees want to see a pair of papers together, then the two papers can be categorized as related. Ideally, it would make sense to put a set of papers a lot of attendees want to see together in the same session. Sessions can be generated by creating clusters based on shared-interests.
+
+\emph{Reduce Conflicts.} This is straight-forward -- don't schedule two papers in different sessions at the same time if many attendees want to see both of them.
+
+\emph{Measure Paper Popularity.} Determining paper popularity in advance is useful for making various decisions on the organizers' side. For example, when assigning rooms, organizers can put popular papers in bigger rooms, and less popular papers in smaller rooms. More accurate popularity estimates can avoid situations like Figure~\ref{crowded-room}, which shows a session from CHI 2013 when a paper a lot of attendees wanted to see was assigned a smaller room. An alternative strategy for scheduling would be as follows: assign a paper very few people want to see in a session with more popular papers, rather than clustering all the less popular papers in the same session. This can help conference organizers maintain popularity balance in the schedule.
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.9\columnwidth]{mychi-community-view-15}
-\caption{A cluster of papers based on a common interest threshold 15 (there is an edge between two nodes if and only if at least 15 people have starred both the papers). A force-directed drawing creates a cluster of densly connected nodes. }
-\label{Community View of threshold 15}
+\includegraphics[width=0.95\columnwidth]{crowded-room.png}
+\caption{CHI 2013: A popular paper scheduled in a small room}
+\label{crowded-room}
 \end{figure}
 
-As we see from the above two graphs, there are more isolated nodes as we increase the threshold of common interest to detect the clusters. If we lower the threshold of common interest then the established communities dominate and all nodes become part of some established community.  In order to recognize emerging clusters, we removed all the connected subgraphs (all the established communities) from Fig. 5, and re-clustered the remaining nodes with a lower common interest threshold. Because of space constraints, we are not able to put another visualization but new communities such as accessibility, rural development, pointing devices, multi touch, gesture, etc. emerged from that exercise.
+\emph{Understanding Community:} The data collected from Confer is useful not just for creating sessions and schedule but for making strategic decisions. The data can be used to understand the community structure -- specifically the areas of interest and the connections between them. It provides rich preference data that can be used to detect networks within the community and understand the connections within and outside the network.
 
+Figure~\ref{chi2013-community-view-10} shows the major communities detected using Confer data for CHI 2013. We see education, crowdsourcing, and social media communities very much connected but have very little connection with hardware communities. It does not make sense to run education, crowdsourcing, and social media sessions in parallel. We also see hardware communities very strongly connected within themselves but don't have many connections outside the community.  On the other hand, the design research community connects to every other community. These insights can help conference organizers make important decisions for planning future conferences and community interactions.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{chi2013-community-view-10.png}
+\caption{CHI 2013 Community Structure: 3 major communities emerge from CHI 2013 by clustering confer preference data.}
+\label{chi2013-community-view-10}
+\end{figure}
 
+A good understanding of the community network can also be useful in discovering new areas of research and practice, new methodologies, and emerging application areas. After zooming in, we find that within the hardware community there are smaller sub-communities such as gesture, multitouch etc. We observe many emerging communities such as pointing devices, accessibility, analytics, etc.  Many of these smaller sub-communities are officially not recognized as a sub-community within CHI. We believe that conference organizing committee would benefit from the insights that we can gain by mining the usage data.
 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.95\columnwidth]{chi2013-community-view-15.png}
+\caption{CHI 2013 Community Structure: smaller sub-communities emerge by refining the clusters}
+\label{chi2013-community-view-15}
+\end{figure}
 
 \section{Discussion}
-The preliminary analysis carried out here suggests that there is significant community sub-structure at CHI that is not really reflected at the organizational level.  While CHI formally labels a community around ‚ÄúDesign‚Äù, it offers no corresponding community around Social Media, or around the incredibly tight Hardware community.  Indeed, the Hardware community seems so densely connected that it might benefit from more autonomy, perhaps running its own events or its own program committee under the CHI umbrella.  
+One interesting aspect of this paper is to look at how data collected as a by-product of a natural exploration by conference attendees can be useful for making various decisions in conference planning. Attendees use the tool for their own benefit, but the collective data can help organizers and the community. Our CHI 2014 experiment was a proof of concept demonstrating that it is possible to gather a rich preference data well in advance that it can be used for creating sessions and schedule, choosing speakers, planning rooms, etc. The preference data is valuable for scheduling, ensuring that sessions drew together individuals with shared interests, and that conflicts between papers with the same audience were minimized.  Detecting communities of interest could be useful for deciding panels. Specific to CHI community, birds-of-a-feather gatherings could be organized to discuss the papers and topics of greatest interest within each sub-community.
 
-As we stated above, it is clear that data from only 1/5 of attendees cannot give a complete picture of interests at the conference.  But this could easily be improved.  Were the CHI organizers to explicitly pursue gathering this data prior to holding (or scheduling) the conference, then a far higher rate of data gathering could be achieved, especially if attendees understood that it could make the conference better for them.  Paper preference lists would provide invaluable data for scheduling, ensuring that sessions drew together individuals with shared interests, and that conflicts between papers with the same audience were minimized.  Once communities of interest were identified for a given year (possibly unrelated to other years), panels and birds-of-a-feather gatherings could be organized to discuss the papers and topics of greatest interest to that subcommunity.  Communities of interest that persisted over many years could be granted more autonomy within the CHI conferences, reducing the coordination burden at the top.  
+Confer data has also been used by other tools/applications targeting conference attendees. 
+CommonTies ~\cite{Abouzied:2014:CCN:2556420.2556783}, a simple technological nudge that uses context-aware profile-matching system to encourage social interactions among strangers was deployed at CSCW 2014. The profile matching system of CommonTies was powered by Confer Meetups APIs. Confer APIs allow researchers and practitioners to build new applications that can make use of the Confer data.
 
-\subsection{Deeper Analysis and Risks}
-We have restricted our analysis to group scale because mis-use of the data may lead to undesirable perturbations in the quantities being measured. Clearly, it would infringe on privacy to report on individual users.  But there are even risks in reporting on individual papers. Readers will note that we have not reported obvious facts in our possession such as the most popular papers overall or per cluster. Our reasoning is as follows: as soon as the data is analyzed to reflect positively on a specific paper, people will face a motivation to game the system to their own benefit.  For example, if we begin reporting popular papers, then authors might be motivated to ask friends to mark his or her paper as interesting, whether or not it truly is, simply to attain more visibility for the paper.   We may already face a similar risk at the group scale, where our reporting on clusters/interest groups may motivate members of a group to ``link farm", promising to ``like" each others' papers in order to increase the apparent density and importance of their own group.  However, we believe that risks are substantially higher at the individual level, so have chosen to limit our analysis to the group level.
+While the data from only a fraction of attendees cannot give a complete picture of interests at the conference, we find that after a certain threshold, the similarity structure doesn't change much even if we get data from more attendees. We however agree that more the early participation is, more confident the conference organizing committee would be in making decisions based on the data. We saw that if conference organizers explicitly pursue gathering this data prior to holding (or scheduling) the conference, then a far higher rate of data gathering can be achieved.
 
-Looking ahead, this may well be a matter to be tackled by the CHI community leadership.  What should our community policy be on the reporting of these kind of statistics?  Should the policy be different for an academic setting such as this one compared to e.g. a pure-entertainment ``popularity contest" at the conference itself? We do have statistics on the most popular papers, and providing that information could be of value to the community in understanding where it is headed.  If the program committee argues for it, we could include that information in the revision of this submission.
-
-
-
-
+It's worth mentioning the flip side too though -- the preferences marked by attendees could be susceptible to external influence such as Confer recommendations, social trends (links shared on social media by friends), CHI award/honorable mention tweets, etc. While the current system doesn't take any special care for external influences, we can model some of these influences by looking at the referer page and other HTTP parameters.
 
 \section{Conclusion}
-
-myCHI is a tool that collects natural, rich preference data on how attendees plan to spend their time at the conference. This data provides information on the communities' interests and substructure, emerging sub-communities, and interactions within a community and between communities. We use this dataset to analyze how CHI 2013 attendees' interests are distributed over different topic areas, the strength of different established communities, and emerging communities. At very high level we see two broader communities at CHI -- hardware community and everything else. Once we zoom in, we observe that the non-hardware community gets clustered into crowdsourcing, education, social media, design, information visualization, etc. The hardware community also spawns sub-communities like gesture, multitouch etc. We try to dig deeper by removing the influence of stronger communities and we observe emerging communities like pointing devices, accessibility, analytics, etc.  Many of these communities are officially recognized at CHI, while some of them are scattered over multiple communities. While we defer from making strong claims, we believe that the data-driven technique can discover the latent community structure and thus can help in refining the CHI community structure. It can influence how sessions are planned, and how subcommunities are formed to enable better communication and reduce conflicts. Also, the organically emerging communities and subcommunities reflect the future direction of where CHI is heading to as a community.
-
+Confer is a tool that collects natural, rich preference data on how attendees plan to spend their time at the conference. While the tool is useful for conference attendees to discover relevant papers/talks, navigate using a personalized schedule, and meet other attendees with shared interests, the data collected from the usage of the tool can be mined to gain deeper insights into the structure of shared interests, community, sub-communities, different areas of research, new/emerging areas, etc. Our experiment at CHI 2014 demonstrates that with some help from conference organizers, it is possible to collect attendees' preference data prior to holding (or scheduling) the conference so that it is useful for creating sessions and schedule, room planning, etc. We show how data-driven technique can help conference organizers gain deeper insights into the structure of shared interests, community, sub-communities, different areas of research, new/emerging areas, etc. which can be useful for future conferences and community interactions.
 
 
 % Balancing columns in a ref list is a bit of a pain because you
@@ -239,5 +390,5 @@ myCHI is a tool that collects natural, rich preference data on how attendees pla
 \balance
 
 \bibliographystyle{acm-sigchi}
-\bibliography{mychi}
+\bibliography{references}
 \end{document}
