@@ -262,9 +262,12 @@ def all_data_dump (request, conf):
         }
         try:
           r_likes = Likes.objects.get(registration=r)
-          r_logs = Logs.objects.filter(registration=r)[:]
+          r_logs = Logs.objects.filter(registration=r)
           res['likes'] = json.loads(r_likes.likes)
-          res['logs'] = r_logs
+          res['logs'] = [
+              {'timestamp': row.timestamp,
+              'action': row.action,
+              'data': row.data} for row in r_logs]
         except:
           res['likes'] = []
 
