@@ -45,4 +45,5 @@ urlpatterns = patterns('',
     url(r'^(\w+)$', 'server.views.conf'),
     url(r'^(\w+?)/$', 'server.views.conf'),
     url(r'^(\w+?)/anonymized_data_dump$', 'server.views.anonymized_data_dump'),
+    url(r'^(\w+?)/all_data_dump$', 'server.views.all_data_dump'),
 )

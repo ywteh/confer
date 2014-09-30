@@ -244,6 +244,40 @@ def anonymized_data_dump (request, conf):
 
   return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
 
+@login_required
+def all_data_dump (request, conf):
+  conf = conf.lower()
+  likes = []
+  msg = 'OK'
+  try:
+    login_id, user = get_login(request)
+    conference = Conference.objects.get(unique_name=conf)
+    admins = json.loads(conference.admins)
+    if user.email in admins:
+      registrations = Registration.objects.filter(conference=conference)
+      for r in registrations:
+        res = {
+            'id': r.user.email,
+            'meetups_enabled': r.user.meetups_enabled
+        }
+        try:
+          r_likes = Likes.objects.get(registration=r)
+          r_logs = Logs.objects.filter(registration=r).values()
+          res['likes'] = json.loads(r_likes.likes)
+          res['logs'] = json.loads(r_likes.likes)
+        except:
+          res['likes'] = []
+
+        likes.append(res)
+        random.shuffle(likes)
+    else:
+      msg = 'ACCESS DENIED: You are not an admin for this conference.'
+    
+  except Exception, e:
+    msg = 'Error: %s.' %(e)
+
+  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
+
 def visualizations (request, conf):
   conf = conf.lower()
   try:
