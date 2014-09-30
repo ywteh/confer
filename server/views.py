@@ -269,7 +269,7 @@ def all_data_dump (request, conf):
         try:
           r_logs = Logs.objects.filter(registration=r)
           res['logs'] = [
-              {'timestamp': row.timestamp,
+              {'timestamp': str(row.timestamp),
               'action': row.action,
               'data': row.data} for row in r_logs]
         except:
