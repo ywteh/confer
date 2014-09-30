@@ -262,7 +262,7 @@ def all_data_dump (request, conf):
         }
         try:
           r_likes = Likes.objects.get(registration=r)
-          r_logs = list(Logs.objects.values('timestamp', 'action', 'data').filter(registration=r))
+          r_logs = Logs.objects.filter(registration=r)[:]
           res['likes'] = json.loads(r_likes.likes)
           res['logs'] = r_logs
         except:
