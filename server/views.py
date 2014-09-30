@@ -271,7 +271,7 @@ def all_data_dump (request, conf):
           res['logs'] = [
               {'timestamp': str(row.timestamp),
               'action': row.action,
-              'data': row.data} for row in r_logs]
+              'target': row.data} for row in r_logs]
         except:
           res['logs'] = []
 
