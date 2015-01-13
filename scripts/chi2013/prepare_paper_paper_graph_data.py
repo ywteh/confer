@@ -141,10 +141,10 @@ def main():
 		links = edges[edge]
 		for l in links:
 			weight = edges[edge][l]
-			if(weight > 14 and (nodes[edge]['id'] not in edgesToRemove) and (nodes[l]['id'] not in edgesToRemove)):
+			if(weight > 0 and (nodes[edge]['id'] not in edgesToRemove) and (nodes[l]['id'] not in edgesToRemove)):
 				linksArray.append({'source' : nodes[edge]['id'], 'target' : nodes[l]['id'], 'weight': weight})
 	
-	p = open('data-15.json','w')
+	p = open('data-all.json','w')
 	p.write(json.dumps({"nodes": nodesArray, "links": linksArray}))
 
 

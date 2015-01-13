@@ -1,0 +1,262 @@
+schedule=[
+    {
+        "date": "Monday",
+        "day": "Monday",
+        "slots": [
+            {
+                "slot_id": "Monday_10_45_12_00",
+                "time": "10:45-12:00",
+                "slot_class": "morning2",
+                "sessions": [
+                    {
+                        "session": "s116"
+                    },
+                    {
+                        "session": "s107"
+                    },
+                    {
+                        "session": "s108"
+                    },
+                    {
+                        "session": "s105"
+                    },
+                    {
+                        "session": "s147"
+                    },
+                    {
+                        "session": "s112"
+                    },
+                    {
+                        "session": "s202"
+                    },
+                    {
+                        "session": "s110"
+                    }
+                ]
+            },
+            {
+                "slot_id": "Monday_14_00_15_15",
+                "time": "14:00-15:15",
+                "slot_class": "afternoon1",
+                "sessions": [
+                    {
+                        "session": "s114"
+                    },
+                    {
+                        "session": "s144"
+                    },
+                    {
+                        "session": "s203"
+                    },
+                    {
+                        "session": "s131"
+                    },
+                    {
+                        "session": "s100"
+                    },
+                    {
+                        "session": "s125"
+                    },
+                    {
+                        "session": "s151"
+                    },
+                    {
+                        "session": "s210"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Tuesday",
+        "day": "Tuesday",
+        "slots": [
+            {
+                "slot_id": "Tuesday_09_00_10_15",
+                "time": "09:00-10:15",
+                "slot_class": "morning1",
+                "sessions": [
+                    {
+                        "session": "s136"
+                    },
+                    {
+                        "session": "s115"
+                    },
+                    {
+                        "session": "s146"
+                    },
+                    {
+                        "session": "s140"
+                    },
+                    {
+                        "session": "s123"
+                    },
+                    {
+                        "session": "s118"
+                    },
+                    {
+                        "session": "s120"
+                    }
+                ]
+            },
+            {
+                "slot_id": "Tuesday_10_45_12_00",
+                "time": "10:45-12:00",
+                "slot_class": "morning2",
+                "sessions": [
+                    {
+                        "session": "s129"
+                    },
+                    {
+                        "session": "s101"
+                    },
+                    {
+                        "session": "s209"
+                    },
+                    {
+                        "session": "s138"
+                    },
+                    {
+                        "session": "s119"
+                    },
+                    {
+                        "session": "s117"
+                    },
+                    {
+                        "session": "s127"
+                    },
+                    {
+                        "session": "s106"
+                    }
+                ]
+            },
+            {
+                "slot_id": "Tuesday_14_00_15_15",
+                "time": "14:00-15:15",
+                "slot_class": "afternoon1",
+                "sessions": [
+                    {
+                        "session": "s121"
+                    },
+                    {
+                        "session": "s132"
+                    },
+                    {
+                        "session": "s208"
+                    },
+                    {
+                        "session": "s102"
+                    },
+                    {
+                        "session": "s130"
+                    },
+                    {
+                        "session": "s139"
+                    },
+                    {
+                        "session": "s122"
+                    },
+                    {
+                        "session": "s135"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Wednesday",
+        "day": "Wednesday",
+        "slots": [
+            {
+                "slot_id": "Wednesday_09_00_10_15",
+                "time": "09:00-10:15",
+                "slot_class": "morning1",
+                "sessions": [
+                    {
+                        "session": "s133"
+                    },
+                    {
+                        "session": "s113"
+                    },
+                    {
+                        "session": "s143"
+                    },
+                    {
+                        "session": "s134"
+                    },
+                    {
+                        "session": "s104"
+                    },
+                    {
+                        "session": "s137"
+                    },
+                    {
+                        "session": "s150"
+                    }
+                ]
+            },
+            {
+                "slot_id": "Wednesday_10_45_12_00",
+                "time": "10:45-12:00",
+                "slot_class": "morning2",
+                "sessions": [
+                    {
+                        "session": "s126"
+                    },
+                    {
+                        "session": "s204"
+                    },
+                    {
+                        "session": "s206"
+                    },
+                    {
+                        "session": "s145"
+                    },
+                    {
+                        "session": "s128"
+                    },
+                    {
+                        "session": "s109"
+                    },
+                    {
+                        "session": "s152"
+                    },
+                    {
+                        "session": "s103"
+                    }
+                ]
+            },
+            {
+                "slot_id": "Wednesday_14_00_15_15",
+                "time": "14:00-15:15",
+                "slot_class": "afternoon1",
+                "sessions": [
+                    {
+                        "session": "s201"
+                    },
+                    {
+                        "session": "s148"
+                    },
+                    {
+                        "session": "s207"
+                    },
+                    {
+                        "session": "s142"
+                    },
+                    {
+                        "session": "s124"
+                    },
+                    {
+                        "session": "s205"
+                    },
+                    {
+                        "session": "s141"
+                    },
+                    {
+                        "session": "s111"
+                    }
+                ]
+            }
+        ]
+    }
+]

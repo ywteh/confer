@@ -9,7 +9,6 @@ if __name__ == "__main__":
 	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "server.settings")
 
 from django.db import connection
-from algorithm.utils import *
 from db.session import *
 from db.entity import *
 from collections import defaultdict

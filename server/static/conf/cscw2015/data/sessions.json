@@ -1,0 +1,1106 @@
+sessions={
+    "s100": {
+        "s_title": "Annotation Systems and Approaches",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw134",
+            "cscw284",
+            "cscw432"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s101": {
+        "s_title": "My Mobile, My Friends",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw151",
+            "cscw363",
+            "tochi103"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s102": {
+        "s_title": "Communities for Individual Behavior Change",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw291",
+            "cscw340",
+            "cscw466"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s103": {
+        "s_title": "Collaborating Under Constraints",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw161",
+            "cscw444",
+            "cscw213",
+            "cscw703"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s104": {
+        "s_title": "Community-Based Participatory Research",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw166",
+            "cscw171",
+            "cscw531"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s105": {
+        "s_title": "Policy and the Legislative Context",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw459",
+            "cscw481",
+            "tochi101"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s106": {
+        "s_title": "Creative Collaborating",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw506",
+            "cscw508",
+            "cscw685"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s107": {
+        "s_title": "Hacking and Making",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw343",
+            "cscw443",
+            "cscw654"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s108": {
+        "s_title": "Aging Gracefully and Collaboratively",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw439",
+            "cscw641",
+            "tochi102"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s109": {
+        "s_title": "The Powers of Co-location",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw294",
+            "cscw389",
+            "cscw419"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s110": {
+        "s_title": "Understanding Deviance in Collaboration",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw564",
+            "cscw129",
+            "cscw652"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s111": {
+        "s_title": "Motivation and Dynamics of the Open Classroom",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw429",
+            "cscw686",
+            "cscw663"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s112": {
+        "s_title": "Framing Collaboration: Systems and Analysis",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw121",
+            "cscw218",
+            "cscw350"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s113": {
+        "s_title": "Recommender Systems",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw181",
+            "cscw412",
+            "cscw630"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s114": {
+        "s_title": "Urban Environments",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw235",
+            "cscw476",
+            "cscw644"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s115": {
+        "s_title": "Studies of Coordination",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw281",
+            "cscw505",
+            "cscw717"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s116": {
+        "s_title": "Crowdfunding",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw148",
+            "cscw155",
+            "cscw312"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s117": {
+        "s_title": "Collaboration in a Globalised World",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw358",
+            "cscw364",
+            "cscw474"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s118": {
+        "s_title": "Teamwork Challenges",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw107",
+            "cscw248",
+            "cscw271",
+            "cscw603"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s119": {
+        "s_title": "Leveraging Language",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw179",
+            "cscw664",
+            "cscw403"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s120": {
+        "s_title": "Politics and Social Networks",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw231",
+            "cscw383",
+            "cscw714"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s121": {
+        "s_title": "Collaborating Around Crisis",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw380",
+            "cscw430",
+            "cscw518"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s122": {
+        "s_title": "Journalism and Politics",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw217",
+            "cscw309",
+            "cscw396"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s123": {
+        "s_title": "Volunteerism",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw544",
+            "cscw634"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s124": {
+        "s_title": "Motivating Crowdwork",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw303",
+            "cscw582"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s125": {
+        "s_title": "Scientific Domains",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw267",
+            "cscw295",
+            "cscw736"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s126": {
+        "s_title": "Temporality and Rhythms of Work",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw212",
+            "cscw469",
+            "cscw650"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s127": {
+        "s_title": "Technologies in the workplace",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw259",
+            "cscw438",
+            "cscw753"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s128": {
+        "s_title": "Distance Still Matters",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw145",
+            "cscw436",
+            "cscw677"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s129": {
+        "s_title": "Motivating Peer Production",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw293",
+            "cscw516",
+            "cscw558"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s130": {
+        "s_title": "Wikipedia: Structure &amp; Function",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw202",
+            "cscw587",
+            "cscw672"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s131": {
+        "s_title": "Computer Supported Happiness",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw225",
+            "cscw304",
+            "cscw749"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s132": {
+        "s_title": "Location, Location, Location",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw285",
+            "cscw483",
+            "cscw627"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s133": {
+        "s_title": "Social Dynamics and My Phone",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw497",
+            "cscw465",
+            "cscw527"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s134": {
+        "s_title": "Collaborative Counseling",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw488",
+            "cscw679",
+            "cscw326"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s135": {
+        "s_title": "Gender and Sexual Identity",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw188",
+            "cscw332",
+            "cscw106"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s136": {
+        "s_title": "Mobile Collaboration",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw257",
+            "cscw262",
+            "cscw392"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s137": {
+        "s_title": "Collaborative Software Development",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw424",
+            "cscw574"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s138": {
+        "s_title": "Is There a Doctor in the Room?",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw233",
+            "cscw457",
+            "cscw563"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s139": {
+        "s_title": "Collaboration in the Open Classroom",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw237",
+            "cscw530",
+            "cscw560"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s140": {
+        "s_title": "Crowd Work and Crowd Process",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw421",
+            "cscw452",
+            "cscw593"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s141": {
+        "s_title": "Games and Virtual Worlds",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw296",
+            "cscw319",
+            "cscw588"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s142": {
+        "s_title": "Children and Families",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw633",
+            "cscw215",
+            "cscw428"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s143": {
+        "s_title": "Systems in Support of Health &amp; Wellness",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw252",
+            "cscw523",
+            "cscw174"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s144": {
+        "s_title": "All in the family",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw342",
+            "cscw365",
+            "cscw687"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s145": {
+        "s_title": "Managing Chronic Illness through Collaboration",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw164",
+            "cscw371",
+            "cscw554"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s146": {
+        "s_title": "Young Adults and Online Behavior",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw138",
+            "cscw599",
+            "cscw673"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s147": {
+        "s_title": "Mood and Emotion",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw269",
+            "cscw331",
+            "cscw723"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s148": {
+        "s_title": "Experiencing Social Media&nbsp;",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw596",
+            "cscw681",
+            "cscw405"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s149": {
+        "s_title": "Session with no papers",
+        "time": "",
+        "submissions": [],
+        "personas": "",
+        "venue": "paper",
+        "day": "",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s150": {
+        "s_title": "Influence and the Social Network",
+        "time": "09:00-10:15",
+        "submissions": [
+            "cscw415",
+            "cscw445",
+            "cscw585"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s151": {
+        "s_title": "Leveraging the Crowd",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw557",
+            "cscw626",
+            "cscw658"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s152": {
+        "s_title": "Collaborative Design Approaches",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw118",
+            "cscw144",
+            "cscw653"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s201": {
+        "s_title": "Civic Participation",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw209",
+            "cscw191",
+            "cscw417"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s202": {
+        "s_title": "CRA-Ed \"Workshop\"",
+        "time": "10:45-12:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s203": {
+        "s_title": "Trust &amp; Anonynimity",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw272",
+            "cscw193",
+            "cscw386"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s204": {
+        "s_title": "Collaborating through Social Media",
+        "time": "10:45-12:00",
+        "submissions": [
+            "cscw707",
+            "cscw590",
+            "cscw597"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s205": {
+        "s_title": "There's Just Something about Hands",
+        "time": "14:00-15:15",
+        "submissions": [
+            "cscw278",
+            "cscw447"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "paper",
+        "chair": ""
+    },
+    "s206": {
+        "s_title": "Panel #4 Online Dating as Pandora's Box",
+        "time": "10:45-12:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "panel",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "panel",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "panel",
+        "chair": ""
+    },
+    "s207": {
+        "s_title": "Panel #5 Collective Problem Solving",
+        "time": "14:00-15:15",
+        "submissions": [],
+        "personas": "",
+        "venue": "panel",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "panel",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "panel",
+        "chair": ""
+    },
+    "s208": {
+        "s_title": "Panel #3 Sociomateriality and design",
+        "time": "14:00-15:15",
+        "submissions": [],
+        "personas": "",
+        "venue": "panel",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "panel",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "panel",
+        "chair": ""
+    },
+    "s209": {
+        "s_title": "Panel #2 Facebooking in \"Face\"",
+        "time": "10:45-12:00",
+        "submissions": [],
+        "personas": "",
+        "venue": "panel",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "panel",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "panel",
+        "chair": ""
+    },
+    "s210": {
+        "s_title": "Panel #1 Studying the sharing economy",
+        "time": "14:00-15:15",
+        "submissions": [],
+        "personas": "",
+        "venue": "panel",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "panel",
+        "hasAward": 0,
+        "hasHonorableMention": 0,
+        "subtype": "panel",
+        "chair": ""
+    }
+}
