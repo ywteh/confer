@@ -4,8 +4,8 @@ schedule=[
         "day": "Monday",
         "slots": [
             {
-                "slot_id": "Monday_10_45_12_00",
-                "time": "10:45-12:00",
+                "slot_id": "Monday_10_30_11_45",
+                "time": "10:30-11:45",
                 "slot_class": "morning2",
                 "sessions": [
                     {
@@ -35,8 +35,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Monday_14_00_15_15",
-                "time": "14:00-15:15",
+                "slot_id": "Monday_13_45_15_00",
+                "time": "13:45-15:00",
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
@@ -72,8 +72,8 @@ schedule=[
         "day": "Tuesday",
         "slots": [
             {
-                "slot_id": "Tuesday_09_00_10_15",
-                "time": "09:00-10:15",
+                "slot_id": "Tuesday_08_45_10_00",
+                "time": "08:45-10:00",
                 "slot_class": "morning1",
                 "sessions": [
                     {
@@ -100,8 +100,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday_10_45_12_00",
-                "time": "10:45-12:00",
+                "slot_id": "Tuesday_10_30_11_45",
+                "time": "10:30-11:45",
                 "slot_class": "morning2",
                 "sessions": [
                     {
@@ -131,8 +131,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Tuesday_14_00_15_15",
-                "time": "14:00-15:15",
+                "slot_id": "Tuesday_13_45_15_00",
+                "time": "13:45-15:00",
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
@@ -168,8 +168,8 @@ schedule=[
         "day": "Wednesday",
         "slots": [
             {
-                "slot_id": "Wednesday_09_00_10_15",
-                "time": "09:00-10:15",
+                "slot_id": "Wednesday_08_45_10_00",
+                "time": "08:45-10:10",
                 "slot_class": "morning1",
                 "sessions": [
                     {
@@ -196,8 +196,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Wednesday_10_45_12_00",
-                "time": "10:45-12:00",
+                "slot_id": "Wednesday_10_30_11_45",
+                "time": "10:30-11:45",
                 "slot_class": "morning2",
                 "sessions": [
                     {
@@ -227,8 +227,8 @@ schedule=[
                 ]
             },
             {
-                "slot_id": "Wednesday_14_00_15_15",
-                "time": "14:00-15:15",
+                "slot_id": "Wednesday_13_45_15_00",
+                "time": "13:45-15:00",
                 "slot_class": "afternoon1",
                 "sessions": [
                     {

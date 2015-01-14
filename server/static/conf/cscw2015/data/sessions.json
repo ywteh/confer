@@ -1,7 +1,7 @@
 sessions={
     "s100": {
         "s_title": "Annotation Systems and Approaches",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw134",
             "cscw284",
@@ -19,7 +19,7 @@ sessions={
     },
     "s101": {
         "s_title": "My Mobile, My Friends",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw151",
             "cscw363",
@@ -37,7 +37,7 @@ sessions={
     },
     "s102": {
         "s_title": "Communities for Individual Behavior Change",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw291",
             "cscw340",
@@ -55,7 +55,7 @@ sessions={
     },
     "s103": {
         "s_title": "Collaborating Under Constraints",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw161",
             "cscw444",
@@ -68,13 +68,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s104": {
         "s_title": "Community-Based Participatory Research",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw166",
             "cscw171",
@@ -85,14 +85,14 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasAward": 1,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s105": {
         "s_title": "Policy and the Legislative Context",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw459",
             "cscw481",
@@ -103,14 +103,14 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasAward": 1,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s106": {
         "s_title": "Creative Collaborating",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw506",
             "cscw508",
@@ -122,13 +122,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s107": {
         "s_title": "Hacking and Making",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw343",
             "cscw443",
@@ -139,14 +139,14 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
+        "hasAward": 1,
         "hasHonorableMention": 0,
         "subtype": "paper",
         "chair": ""
     },
     "s108": {
         "s_title": "Aging Gracefully and Collaboratively",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw439",
             "cscw641",
@@ -164,7 +164,7 @@ sessions={
     },
     "s109": {
         "s_title": "The Powers of Co-location",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw294",
             "cscw389",
@@ -182,7 +182,7 @@ sessions={
     },
     "s110": {
         "s_title": "Understanding Deviance in Collaboration",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw564",
             "cscw129",
@@ -200,7 +200,7 @@ sessions={
     },
     "s111": {
         "s_title": "Motivation and Dynamics of the Open Classroom",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw429",
             "cscw686",
@@ -218,7 +218,7 @@ sessions={
     },
     "s112": {
         "s_title": "Framing Collaboration: Systems and Analysis",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw121",
             "cscw218",
@@ -236,7 +236,7 @@ sessions={
     },
     "s113": {
         "s_title": "Recommender Systems",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw181",
             "cscw412",
@@ -254,7 +254,7 @@ sessions={
     },
     "s114": {
         "s_title": "Urban Environments",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw235",
             "cscw476",
@@ -272,7 +272,7 @@ sessions={
     },
     "s115": {
         "s_title": "Studies of Coordination",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw281",
             "cscw505",
@@ -283,14 +283,14 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasAward": 1,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s116": {
         "s_title": "Crowdfunding",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw148",
             "cscw155",
@@ -308,7 +308,7 @@ sessions={
     },
     "s117": {
         "s_title": "Collaboration in a Globalised World",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw358",
             "cscw364",
@@ -320,13 +320,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s118": {
         "s_title": "Teamwork Challenges",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw107",
             "cscw248",
@@ -339,13 +339,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s119": {
         "s_title": "Leveraging Language",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw179",
             "cscw664",
@@ -356,14 +356,14 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
+        "hasAward": 1,
         "hasHonorableMention": 0,
         "subtype": "paper",
         "chair": ""
     },
     "s120": {
         "s_title": "Politics and Social Networks",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw231",
             "cscw383",
@@ -381,7 +381,7 @@ sessions={
     },
     "s121": {
         "s_title": "Collaborating Around Crisis",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw380",
             "cscw430",
@@ -399,7 +399,7 @@ sessions={
     },
     "s122": {
         "s_title": "Journalism and Politics",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw217",
             "cscw309",
@@ -417,7 +417,7 @@ sessions={
     },
     "s123": {
         "s_title": "Volunteerism",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw544",
             "cscw634"
@@ -434,7 +434,7 @@ sessions={
     },
     "s124": {
         "s_title": "Motivating Crowdwork",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw303",
             "cscw582"
@@ -444,14 +444,14 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": 0,
+        "hasAward": 1,
         "hasHonorableMention": 0,
         "subtype": "paper",
         "chair": ""
     },
     "s125": {
         "s_title": "Scientific Domains",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw267",
             "cscw295",
@@ -463,13 +463,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s126": {
         "s_title": "Temporality and Rhythms of Work",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw212",
             "cscw469",
@@ -481,13 +481,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s127": {
         "s_title": "Technologies in the workplace",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw259",
             "cscw438",
@@ -499,13 +499,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s128": {
         "s_title": "Distance Still Matters",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw145",
             "cscw436",
@@ -523,7 +523,7 @@ sessions={
     },
     "s129": {
         "s_title": "Motivating Peer Production",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw293",
             "cscw516",
@@ -541,7 +541,7 @@ sessions={
     },
     "s130": {
         "s_title": "Wikipedia: Structure &amp; Function",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw202",
             "cscw587",
@@ -559,7 +559,7 @@ sessions={
     },
     "s131": {
         "s_title": "Computer Supported Happiness",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw225",
             "cscw304",
@@ -577,7 +577,7 @@ sessions={
     },
     "s132": {
         "s_title": "Location, Location, Location",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw285",
             "cscw483",
@@ -595,7 +595,7 @@ sessions={
     },
     "s133": {
         "s_title": "Social Dynamics and My Phone",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw497",
             "cscw465",
@@ -613,7 +613,7 @@ sessions={
     },
     "s134": {
         "s_title": "Collaborative Counseling",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw488",
             "cscw679",
@@ -631,7 +631,7 @@ sessions={
     },
     "s135": {
         "s_title": "Gender and Sexual Identity",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw188",
             "cscw332",
@@ -643,13 +643,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s136": {
         "s_title": "Mobile Collaboration",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw257",
             "cscw262",
@@ -667,7 +667,7 @@ sessions={
     },
     "s137": {
         "s_title": "Collaborative Software Development",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw424",
             "cscw574"
@@ -684,7 +684,7 @@ sessions={
     },
     "s138": {
         "s_title": "Is There a Doctor in the Room?",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw233",
             "cscw457",
@@ -702,7 +702,7 @@ sessions={
     },
     "s139": {
         "s_title": "Collaboration in the Open Classroom",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw237",
             "cscw530",
@@ -720,7 +720,7 @@ sessions={
     },
     "s140": {
         "s_title": "Crowd Work and Crowd Process",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw421",
             "cscw452",
@@ -732,13 +732,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s141": {
         "s_title": "Games and Virtual Worlds",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw296",
             "cscw319",
@@ -756,7 +756,7 @@ sessions={
     },
     "s142": {
         "s_title": "Children and Families",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw633",
             "cscw215",
@@ -774,7 +774,7 @@ sessions={
     },
     "s143": {
         "s_title": "Systems in Support of Health &amp; Wellness",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw252",
             "cscw523",
@@ -792,7 +792,7 @@ sessions={
     },
     "s144": {
         "s_title": "All in the family",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw342",
             "cscw365",
@@ -804,13 +804,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s145": {
         "s_title": "Managing Chronic Illness through Collaboration",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw164",
             "cscw371",
@@ -822,13 +822,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s146": {
         "s_title": "Young Adults and Online Behavior",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw138",
             "cscw599",
@@ -846,7 +846,7 @@ sessions={
     },
     "s147": {
         "s_title": "Mood and Emotion",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw269",
             "cscw331",
@@ -864,7 +864,7 @@ sessions={
     },
     "s148": {
         "s_title": "Experiencing Social Media&nbsp;",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw596",
             "cscw681",
@@ -876,7 +876,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
@@ -896,7 +896,7 @@ sessions={
     },
     "s150": {
         "s_title": "Influence and the Social Network",
-        "time": "09:00-10:15",
+        "time": "08:45-10:00",
         "submissions": [
             "cscw415",
             "cscw445",
@@ -914,7 +914,7 @@ sessions={
     },
     "s151": {
         "s_title": "Leveraging the Crowd",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw557",
             "cscw626",
@@ -926,13 +926,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s152": {
         "s_title": "Collaborative Design Approaches",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw118",
             "cscw144",
@@ -950,7 +950,7 @@ sessions={
     },
     "s201": {
         "s_title": "Civic Participation",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw209",
             "cscw191",
@@ -962,13 +962,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s202": {
         "s_title": "CRA-Ed \"Workshop\"",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [],
         "personas": "",
         "venue": "paper",
@@ -982,7 +982,7 @@ sessions={
     },
     "s203": {
         "s_title": "Trust &amp; Anonynimity",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw272",
             "cscw193",
@@ -994,13 +994,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s204": {
         "s_title": "Collaborating through Social Media",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [
             "cscw707",
             "cscw590",
@@ -1012,13 +1012,13 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": 0,
-        "hasHonorableMention": 0,
+        "hasHonorableMention": 1,
         "subtype": "paper",
         "chair": ""
     },
     "s205": {
         "s_title": "There's Just Something about Hands",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [
             "cscw278",
             "cscw447"
@@ -1035,7 +1035,7 @@ sessions={
     },
     "s206": {
         "s_title": "Panel #4 Online Dating as Pandora's Box",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [],
         "personas": "",
         "venue": "panel",
@@ -1049,7 +1049,7 @@ sessions={
     },
     "s207": {
         "s_title": "Panel #5 Collective Problem Solving",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [],
         "personas": "",
         "venue": "panel",
@@ -1063,7 +1063,7 @@ sessions={
     },
     "s208": {
         "s_title": "Panel #3 Sociomateriality and design",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [],
         "personas": "",
         "venue": "panel",
@@ -1077,7 +1077,7 @@ sessions={
     },
     "s209": {
         "s_title": "Panel #2 Facebooking in \"Face\"",
-        "time": "10:45-12:00",
+        "time": "10:30-11:45",
         "submissions": [],
         "personas": "",
         "venue": "panel",
@@ -1091,7 +1091,7 @@ sessions={
     },
     "s210": {
         "s_title": "Panel #1 Studying the sharing economy",
-        "time": "14:00-15:15",
+        "time": "13:45-15:00",
         "submissions": [],
         "personas": "",
         "venue": "panel",
