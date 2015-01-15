@@ -170,17 +170,22 @@ def meetups (request, conf):
 def admin (request, conf):
   conf = conf.lower()
   try:
-    Conference.objects.get(unique_name=conf)
-    request.session[kConf] = conf
+    conference = Conference.objects.get(unique_name=conf)
+    admins = json.loads(conference.admins)
     login_id, user = get_login(request)
-    login_name = '' if not user else user.f_name
-    c = {
-        'conf':conf,
-        'login_id': login_id,
-        'login_name': login_name
-    }
-    c.update(csrf(request))
-    return render_to_response('admin.html', c)
+    if user.email in admins:
+      request.session[kConf] = conf
+      login_name = '' if not user else user.f_name
+      c = {
+          'conf':conf,
+          'login_id': login_id,
+          'login_name': login_name
+      }
+      c.update(csrf(request))
+      return render_to_response('admin.html', c)
+    else:
+      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), mimetype="application/json")
+
   except Conference.DoesNotExist:
     raise Http404
 
@@ -196,25 +201,31 @@ def update_conference (request, conf):
   login_name = '' if not user else user.f_name
   errors = []
   try:
-    Conference.objects.get(unique_name=conf)
-    request.session[kConf] = conf
-    if 'papers_json' in request.FILES:
-      papers_json = request.FILES['papers_json']
-      save_uploaded_file(papers_json, p + '/static/conf/%s/data/papers.json' %(conf))
-    
-    if 'sessions_json' in request.FILES:
-      sessions_json = request.FILES['sessions_json']
-      save_uploaded_file(sessions_json, p + '/static/conf/%s/data/sessions.json' %(conf))
-    
-    if 'schedule_json' in request.FILES:
-      schedule_json = request.FILES['schedule_json']
-      save_uploaded_file(schedule_json, p + '/static/conf/%s/data/schedule.json' %(conf))
+    conference = Conference.objects.get(unique_name=conf)
+    admins = json.loads(conference.admins)
+    login_id, user = get_login(request)
+    if user.email in admins:
+      request.session[kConf] = conf
+      if 'papers_json' in request.FILES:
+        papers_json = request.FILES['papers_json']
+        save_uploaded_file(papers_json, p + '/static/conf/%s/data/papers.json' %(conf))
+      
+      if 'sessions_json' in request.FILES:
+        sessions_json = request.FILES['sessions_json']
+        save_uploaded_file(sessions_json, p + '/static/conf/%s/data/sessions.json' %(conf))
+      
+      if 'schedule_json' in request.FILES:
+        schedule_json = request.FILES['schedule_json']
+        save_uploaded_file(schedule_json, p + '/static/conf/%s/data/schedule.json' %(conf))
 
-    if 'filters_json' in request.FILES:
-      filters_json = request.FILES['filters_json']
-      save_uploaded_file(filters_json, p + '/static/conf/%s/data/filters.json' %(conf))
-    
-    return HttpResponseRedirect('/%s/papers' %(conf))
+      if 'filters_json' in request.FILES:
+        filters_json = request.FILES['filters_json']
+        save_uploaded_file(filters_json, p + '/static/conf/%s/data/filters.json' %(conf))
+      
+      return HttpResponseRedirect('/%s/papers' %(conf))
+    else:
+      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), mimetype="application/json")
+
   except Conference.DoesNotExist:
     raise Http404
   except Exception, e:
