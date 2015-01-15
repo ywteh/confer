@@ -198,9 +198,22 @@ def update_conference (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    papers_json = request.FILES['papers_json']
-    sessions_json = request.FILES['sessions_json']
-    schedule_json = request.FILES['schedule_json']
+    if papers_json in request.FILES:
+      papers_json = request.FILES['papers_json']
+      save_uploaded_file(papers_json, p + '/static/conf/%s/data/papers.json' %(conf))
+    
+    if sessions_json in request.FILES:
+      sessions_json = request.FILES['sessions_json']
+      save_uploaded_file(sessions_json, p + '/static/conf/%s/data/sessions.json' %(conf))
+    
+    if schedule_json in request.FILES:
+      schedule_json = request.FILES['schedule_json']
+      save_uploaded_file(schedule_json, p + '/static/conf/%s/data/schedule.json' %(conf))
+
+    if filters_json in request.FILES:
+      schedule_json = request.FILES['filters_json']
+      save_uploaded_file(filters_json, p + '/static/conf/%s/data/filters.json' %(conf))
+    
     return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
