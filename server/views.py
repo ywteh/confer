@@ -174,12 +174,13 @@ def admin (request, conf):
     request.session[kConf] = conf
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
-    return render_to_response('admin.html', {
+    c = {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name
-      }
-    )
+    }
+    c.update(csrf(request))
+    return render_to_response('admin.html', c)
   except Conference.DoesNotExist:
     raise Http404
 
