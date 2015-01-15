@@ -184,6 +184,11 @@ def admin (request, conf):
   except Conference.DoesNotExist:
     raise Http404
 
+def save_uploaded_file(file_name, file_data):
+  with open(file_name, 'wb+') as destination:
+    for chunk in file_data.chunks():
+      destination.write(chunk)
+
 @login_required
 def update_conference (request, conf):
   conf = conf.lower()
@@ -193,6 +198,9 @@ def update_conference (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
+    papers_json = request.FILES['papers_json']
+    sessions_json = request.FILES['sessions_json']
+    schedule_json = request.FILES['schedule_json']
     return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
