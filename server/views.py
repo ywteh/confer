@@ -204,7 +204,8 @@ def update_conference (request, conf):
     return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
-  except Exception, ex:
+  except Exception, e:
+    errors.append(str(e))
     c = {
         'conf':conf,
         'login_id': login_id,
