@@ -167,7 +167,7 @@ def meetups (request, conf):
     raise Http404
 
 
-def paper (request, conf):
+def admin (request, conf):
   conf = conf.lower()
   try:
     Conference.objects.get(unique_name=conf)
