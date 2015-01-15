@@ -184,7 +184,7 @@ def admin (request, conf):
   except Conference.DoesNotExist:
     raise Http404
 
-def save_uploaded_file(file_name, file_data):
+def save_uploaded_file(file_data, file_name):
   with open(file_name, 'wb+') as destination:
     for chunk in file_data.chunks():
       destination.write(chunk)
