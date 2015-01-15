@@ -167,6 +167,22 @@ def meetups (request, conf):
     raise Http404
 
 
+def paper (request, conf):
+  conf = conf.lower()
+  try:
+    Conference.objects.get(unique_name=conf)
+    request.session[kConf] = conf
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    return render_to_response('admin.html', {
+        'conf':conf,
+        'login_id': login_id,
+        'login_name': login_name
+      }
+    )
+  except Conference.DoesNotExist:
+    raise Http404
+
 @login_required
 def settings (request):
   errors = []
