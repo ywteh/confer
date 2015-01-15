@@ -166,7 +166,7 @@ def meetups (request, conf):
   except Conference.DoesNotExist:
     raise Http404
 
-
+@login_required
 def admin (request, conf):
   conf = conf.lower()
   try:
@@ -184,20 +184,25 @@ def admin (request, conf):
   except Conference.DoesNotExist:
     raise Http404
 
-
+@login_required
 def update_conference (request, conf):
   conf = conf.lower()
+  login_id, user = get_login(request)
+  login_name = '' if not user else user.f_name
   errors = []
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    login_id, user = get_login(request)
-    login_name = '' if not user else user.f_name
     HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
   except Exception, ex:
-    c = {'errors': errors} 
+    c = {
+        'conf':conf,
+        'login_id': login_id,
+        'login_name': login_name,
+        'errors': errors
+    }
     c.update(csrf(request))
     return render_to_response('admin.html', c)
 
