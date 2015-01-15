@@ -183,6 +183,24 @@ def admin (request, conf):
   except Conference.DoesNotExist:
     raise Http404
 
+
+def update_conference (request, conf):
+  conf = conf.lower()
+  errors = []
+  try:
+    Conference.objects.get(unique_name=conf)
+    request.session[kConf] = conf
+    login_id, user = get_login(request)
+    login_name = '' if not user else user.f_name
+    HttpResponseRedirect('/%s/papers' %(conf))
+  except Conference.DoesNotExist:
+    raise Http404
+  except Exception, ex:
+    c = {'errors': errors} 
+    c.update(csrf(request))
+    return render_to_response('admin.html', c)
+
+
 @login_required
 def settings (request):
   errors = []

@@ -13,12 +13,12 @@
 {% endif %}
 {% endblock %}
 {% block content %}
-<form class="form-container" method="POST" action="/{{conf_name}}/process_conference_data" enctype='multipart/form-data'>
+<form class="form-container" method="POST" action="/{{conf_name}}/update_conference" enctype='multipart/form-data'>
 <h3 style="padding-bottom:0.5em;">Update your conference data by uploading JSON files</h3>
 {% csrf_token %}
 <input type="hidden" name="conference_name" value="{{conf_name}}" />
 <div id="error">
-        {% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
+    {% for error in errors %}<span class="error">{% autoescape off %}{{error}}{% endautoescape %}</span><br />
 {% endfor %}
 <br />
 </div>
