@@ -193,7 +193,7 @@ def update_conference (request, conf):
   try:
     Conference.objects.get(unique_name=conf)
     request.session[kConf] = conf
-    HttpResponseRedirect('/%s/papers' %(conf))
+    return HttpResponseRedirect('/%s/papers' %(conf))
   except Conference.DoesNotExist:
     raise Http404
   except Exception, ex:
