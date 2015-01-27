@@ -103,7 +103,10 @@ def login (request):
           request, redirect_url = urllib.quote_plus(redirect_url),
           errors = errors)          
   else:
-    return login_form(request, urllib.quote_plus(redirect_url))
+    if request.session[kLogIn]:
+      return HttpResponseRedirect(redirect_url)
+    else:
+      return login_form(request, urllib.quote_plus(redirect_url))
 
 def register (request):
   redirect_url = '/'
