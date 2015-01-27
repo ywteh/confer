@@ -712,7 +712,7 @@ entities={
         "hm": 0
     },
     "cscw237": {
-        "title": "Making distance matter  with small groups in massive classes",
+        "title": "Talkabout: Making distance matter  with small groups in massive classes",
         "abstract": "Massive online classes are global and diverse. (How) can we harness this diversity to improve engagement and learning? Currently, though enrollments are high, students' interactions with each other are minimal: most are alone together. This isolation is particularly disappointing given that a global community is a major draw of online classes. This paper illustrates the potential of leveraging geographic diversity of massive online classes. It introduces a peer discussion system called Talkabout that connects students through small-group video discussions to peers from around the world. To date, over 3,400 students in eight massive classes have used Talkabout. Three studies with 2,670 students from two classes found that globally diverse discussions boost student performance and engagement: the more geographically diverse the discussion group, the better the students performed on later quizzes. Through this work, we challenge the view that online classes are useful only when in-person classes are unavailable. Instead, we demonstrate how diverse online classrooms can create benefits that are largely unavailable in traditional classrooms. ",
         "keywords": "",
         "authors": [
@@ -2102,8 +2102,8 @@ entities={
         "hm": 0
     },
     "cscw466": {
-        "title": "Understanding the Roles of Mediators in Social Reinforcement for Health Behavior Change",
-        "abstract": "Social reinforcement from other social members is important in maintaining health behavior change. Along with the advancement of persuasive technology and social networking technologies, the place where social interaction occur has been expanded. While social media users become potential mediators for social reinforcement, little work exists on what roles the mediators have in social reinforcement and how differently the mediators motivate and affect to maintain health behavior change of users. To investigate this, we conducted interviews with 13 participants who use a running exercise application for maintaining their health behavior change. Participants were asked to explain their social interaction experience of using the running exercise application, within the application and in social media. This study discovered different effects of three different types of mediators on participants' health behavior maintenance. These findings point to several implications such as successful mediators giving virtual encouragement at an appropriate time in social media.",
+        "title": "Understanding the Roles and Influences of Mediators from Multiple Social Channels for Health Behavior Change",
+        "abstract": "People become increasingly influenced by others in changing and maintaining health behaviors. Along with the advancement of persuasive technology and social networking technologies, the place where social interaction occurs has expanded. As a result, mediators who influence an individual’s behavior change can come from diverse social channels. However, little work exists on what roles the mediators have and how differently the mediators motivate and affect the maintenance of health behavior changes of users through various social channels. To investigate this, we conducted interviews with 13 participants who use a running exercise application for maintaining their health behavior changes. This study reveals the roles of mediators from three different social channels, which are the social feature in the application, general social media, and the agent feature in the application. Mediators from the application could influence participants’ health behavior change either positively or negatively according to the level of intimacy and the similarity of the physical condition. Social media mediators influence participants’ social face and support their health behavior changes by keeping participants in countenance. Lastly, the agent mediator of the application provides continuous reinforcement to participants for maintaining their health behavior changes.",
         "keywords": "",
         "authors": [
             {
@@ -3379,7 +3379,7 @@ entities={
         "hm": 0
     },
     "cscw714": {
-        "title": "Participatory Militias: A Case Study of the Mexican Self-Defense Militias and their Online Audience",
+        "title": "Participatory Militias: An Analysis of an Armed Movement's Online Audience",
         "abstract": "Armed groups of civilians, known as the \"self-defense militias,\" have ousted powerful drug cartels from several Mexican towns. This militia uprising has unfolded on social media, in particular in a Facebook page reaching almost 160,000 fans.  Unlike previously documented uses of social media in the Mexican Drug War,  the page not only posts reports of the violent clashes, but it also plays a pro-militia propagandistic role, and engages in two-way communication with its audience. This work presents a descriptive analysis of VXM and its audience. We examine the full 6,000 posts by the VXM administrators, and more than 108,000 comments by their fans. We extract themes, post frequency, and its relationship with offline events and public figures. We argue that VXM presents a novel form of participatory propaganda online that helps people make sense of the violence, and, in some cases, foster offline collective action. We conclude by discussing possible applications of these findings for the design of civic engagement technologies.",
         "keywords": "",
         "authors": [
