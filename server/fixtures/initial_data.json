@@ -133,7 +133,7 @@
 	    "pk": 10,
 	    "fields": {
 	      "unique_name": "chi2014",
-	      "confer_name": "mychi",
+	      "confer_name": "chi2014",
 	      "title": "CHI 2014 - ACM CHI Conference on Human Factors in Computing Systems",
 	      "subtitle": "",
 	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction. CHI 2014 is a celebration of the conference's one of a kind diversity; from the broad range of backgrounds of its attendees, to the diverse spectrum of communities and fields which the conference and its research have an impact on. CHI 2014 will take place at the Metro Toronto Convention Centre in Toronto, Canada, a city itself known for its one of a kind cultural diversity.",
@@ -199,6 +199,20 @@
 	      "start_date": "2015-03-14",
 	      "end_date": "2015-03-18",
 	      "admins": "[\"anantb@csail.mit.edu\", \"drc44@cornell.edu\"]"
+	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 15,
+	    "fields": {
+	      "unique_name": "chi2015",
+	      "confer_name": "mychi",
+	      "title": "CHI 2015 - ACM CHI Conference on Human Factors in Computing Systems",
+	      "subtitle": "",
+	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction. The theme for CHI 2015 is "Crossings": crossing borders, crossing boundaries, crossing disciplines, crossing people and technology, crossing past and future, crossing physical and digital, crossing art and science, … crossing you and me.",
+	      "location": "Seoul, Korea",
+	      "start_date": "2015-04-18",
+	      "end_date": "2015-04-23",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
 	  	}
 	}
 ]
