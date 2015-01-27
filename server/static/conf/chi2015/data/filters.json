@@ -1,4 +1,4 @@
-nav_hide=["schedule", "meetups"]
+nav_hide=["nav_schedule", "nav_meetups"]
 fb_comment = true
 s_filters=[
 	{
