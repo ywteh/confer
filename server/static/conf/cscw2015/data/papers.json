@@ -3569,5 +3569,1547 @@ entities={
         "subtype": "paper",
         "award": 0,
         "hm": 0
-    }
+    },
+    "cscwpp101": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Dharma Dailey"
+            }, 
+            {
+                "name": "Kate Starbird"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "\"It's Raining Dispersants\": Collective Sensemaking of Complex Information in a Crisis Context", 
+        "type": "poster"
+    }, 
+    "cscwpp122": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Tiffany Tang"
+            }, 
+            {
+                "name": "Relic Wang"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Alone Together: Multiplayer Online Ball Passing using Kinects --- an Experimental Study", 
+        "type": "poster"
+    }, 
+    "cscwpp124": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Donghun Lee"
+            }, 
+            {
+                "name": "Woochang Hyun"
+            }, 
+            {
+                "name": "Jeongwoo Ryu"
+            }, 
+            {
+                "name": "Woo Jung Lee"
+            }, 
+            {
+                "name": "Wonjong Rhee"
+            }, 
+            {
+                "name": "Bongwon Suh"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "An Analysis of Social Features Associated with Room Sales of Airbnb", 
+        "type": "poster"
+    }, 
+    "cscwpp125": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Ivan Srba"
+            }, 
+            {
+                "name": "Maria Bielikova"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Askalot: Community Question Answering as a Means for Knowledge Sharing in an Educational Organization", 
+        "type": "poster"
+    }, 
+    "cscwpp127": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Dhaval Vyas"
+            }, 
+            {
+                "name": "Stephen Snow"
+            }, 
+            {
+                "name": "Margot Brereton"
+            }, 
+            {
+                "name": "Uwe Dulleck"
+            }, 
+            {
+                "name": "Xavier Boyen"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Being Thrifty at $100K Wage: Austerity in Family Finances", 
+        "type": "poster"
+    }, 
+    "cscwpp128": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Huseyin Cavusoglu"
+            }, 
+            {
+                "name": "Zhuolun Li"
+            }, 
+            {
+                "name": "Ke-Wei Huang"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Can Gamification Motivate Voluntary Contributions? The Case of StackOverflow Q&A Community", 
+        "type": "poster"
+    }, 
+    "cscwpp129": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Erica C. Ostermann"
+            }, 
+            {
+                "name": "Long Ma"
+            }, 
+            {
+                "name": "Daniel Sussman"
+            }, 
+            {
+                "name": "Susan R. Fussell"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "CommunityConnect: An Interactive Display for Educational Residential Settings", 
+        "type": "poster"
+    }, 
+    "cscwpp132": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Daniel Thiemann"
+            }, 
+            {
+                "name": "Tanja Engelmann"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Computer-Supported Preference Awareness in Negotiation Teams for Fostering Accurate Joint Priorities", 
+        "type": "poster"
+    }, 
+    "cscwpp133": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Nazanin Andalibi"
+            }, 
+            {
+                "name": "Pinar Ozturk"
+            }, 
+            {
+                "name": "Andrea Forte"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Depression-related Imagery on Instagram", 
+        "type": "poster"
+    }, 
+    "cscwpp134": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Sneha Narayan"
+            }, 
+            {
+                "name": "Jake Orlowitz"
+            }, 
+            {
+                "name": "Jonathan T. Morgan"
+            }, 
+            {
+                "name": "Aaron Shaw"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Effects of a Wikipedia Orientation Game on New User Edits", 
+        "type": "poster"
+    }, 
+    "cscwpp135": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Kristin Dew"
+            }, 
+            {
+                "name": "Anne Turner"
+            }, 
+            {
+                "name": "Loma Desai"
+            }, 
+            {
+                "name": "Nathalie Martin"
+            }, 
+            {
+                "name": "Katrin Kirchhoff"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Evaluating Groupware Prototypes with Discount Methods", 
+        "type": "poster"
+    }, 
+    "cscwpp137": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Claudia López"
+            }, 
+            {
+                "name": "Rosta Farzan"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "From community networks to hyper-local social media", 
+        "type": "poster"
+    }, 
+    "cscwpp145": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Andreas Kaas Johansen"
+            }, 
+            {
+                "name": "Frederik Vahr BjarnØ Lauridsen"
+            }, 
+            {
+                "name": "Vlad Manea"
+            }, 
+            {
+                "name": "Konstantin Slavin-Borovskij"
+            }, 
+            {
+                "name": "Troels Mønsted"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Improving Coordination of Care Centers for the Elderly through IT Support", 
+        "type": "poster"
+    }, 
+    "cscwpp146": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Ryan Kelly"
+            }, 
+            {
+                "name": "Daniel Gooch"
+            }, 
+            {
+                "name": "Leon Watts"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Is 'Additional' Effort Always Negative? Understanding Discretionary Work in Interpersonal Communications", 
+        "type": "poster"
+    }, 
+    "cscwpp147": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Shah Rukh Humayoun"
+            }, 
+            {
+                "name": "Artem Avtandilov"
+            }, 
+            {
+                "name": "Syed Atif Mehdi"
+            }, 
+            {
+                "name": "Achim Ebert"
+            }, 
+            {
+                "name": "Karsten Berns"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Live-Feedback Supported Collaborative Environment for Emergency Scenarios", 
+        "type": "poster"
+    }, 
+    "cscwpp148": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Nataly Moreno"
+            }, 
+            {
+                "name": "Saiph Savage"
+            }, 
+            {
+                "name": "Anamary Leal"
+            }, 
+            {
+                "name": "Jessica Cornick"
+            }, 
+            {
+                "name": "Matthew Turk"
+            }, 
+            {
+                "name": "Tobias Höllerer"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Motivating Crowds to Volunteer Neighborhood Data", 
+        "type": "poster"
+    }, 
+    "cscwpp149": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Claudia Mueller-Birn"
+            }, 
+            {
+                "name": "Tina Klüwer"
+            }, 
+            {
+                "name": "Andre Breitenfeld"
+            }, 
+            {
+                "name": "Alexa Schlegel"
+            }, 
+            {
+                "name": "Lukas Benedix"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "neonion - combining human and machine intelligence", 
+        "type": "poster"
+    }, 
+    "cscwpp150": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Walter Ángel"
+            }, 
+            {
+                "name": "Saiph Savage"
+            }, 
+            {
+                "name": "Nataly Moreno"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Participatory Stoves: Designing Renewable Energy Technologies for the Rural Sector", 
+        "type": "poster"
+    }, 
+    "cscwpp152": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Robin Brewer"
+            }, 
+            {
+                "name": "Jasmine Jones"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Pinteresce: Exploring Reminiscence as an Incentive to Digital Reciprocity for Older Adults", 
+        "type": "poster"
+    }, 
+    "cscwpp155": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Igor A Podgorny"
+            }, 
+            {
+                "name": "Matthew Cannon"
+            }, 
+            {
+                "name": "Todd Goodyear"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Pro-Active Detection of Content Quality in TurboTax AnswerXchange", 
+        "type": "poster"
+    }, 
+    "cscwpp157": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jonathan Chung"
+            }, 
+            {
+                "name": "Adiyan Mujibiya"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Shuriken: User Grouping and Data Transfer for Collaborative Shopping and Offline Meetings Based on Inter-Device Relative Positioning", 
+        "type": "poster"
+    }, 
+    "cscwpp158": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Markus Luczak-Roesch"
+            }, 
+            {
+                "name": "Ramine Tinati"
+            }, 
+            {
+                "name": "Kieron O'Hara"
+            }, 
+            {
+                "name": "Nigel R Shadbolt"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Socio-technical Computation", 
+        "type": "poster"
+    }, 
+    "cscwpp161": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Melissa Niiya"
+            }, 
+            {
+                "name": "Stephanie Reich"
+            }, 
+            {
+                "name": "Yiran Wang"
+            }, 
+            {
+                "name": "Gloria Mark"
+            }, 
+            {
+                "name": "Mark Warschauer"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Strictly by the Facebook: Unobtrusive Method for Differentiating Users", 
+        "type": "poster"
+    }, 
+    "cscwpp162": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Serena Hillman"
+            }, 
+            {
+                "name": "Jason Procyk"
+            }, 
+            {
+                "name": "Carman Neustaedter"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "tApp: A Tumblr Analytics System", 
+        "type": "poster"
+    }, 
+    "cscwpp164": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Nuwan Waidyanatha"
+            }, 
+            {
+                "name": "Gordon Gow"
+            }, 
+            {
+                "name": "Chandana Jayathilake"
+            }, 
+            {
+                "name": "Timothy Barlott"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Technology Stewardship, Text Messaging, and Collaboration in Agricultural Work: Preliminary Results from an Action Research Study in Sri Lanka", 
+        "type": "poster"
+    }, 
+    "cscwpp165": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Joanna Weidler-Lewis"
+            }, 
+            {
+                "name": "Sean Fullerton"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "The Coaching Companion: Computer-Mediated Instructional Coaching", 
+        "type": "poster"
+    }, 
+    "cscwpp167": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Rui Pan"
+            }, 
+            {
+                "name": "Azadeh Forghani"
+            }, 
+            {
+                "name": "Carman Neustaedter"
+            }, 
+            {
+                "name": "Nick Strauss"
+            }, 
+            {
+                "name": "Ashley Guindon"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "The Family Board: An Information Sharing System for Family Members", 
+        "type": "poster"
+    }, 
+    "cscwpp171": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Alyson Young"
+            }, 
+            {
+                "name": "Barbara Linam-Church"
+            }, 
+            {
+                "name": "Wayne Lutters"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "The Solicitation Situation: Examining the Language of Team Science in Federally-Funded Research", 
+        "type": "poster"
+    }, 
+    "cscwpp172": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jamiahus Walton"
+            }, 
+            {
+                "name": "Desmond Bonner"
+            }, 
+            {
+                "name": "Kelsey Walker"
+            }, 
+            {
+                "name": "Samantha Mater"
+            }, 
+            {
+                "name": "Michael Dorneich"
+            }, 
+            {
+                "name": "Stephen Gilbert"
+            }, 
+            {
+                "name": "Rob West"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "The Team Multiple Errands Test: A Platform to Evaluate Distributed Teams", 
+        "type": "poster"
+    }, 
+    "cscwpp174": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Dan Wu"
+            }, 
+            {
+                "name": "Wenting Yu"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Undergraduates' Team Work Strategies in Writing Research Proposals", 
+        "type": "poster"
+    }, 
+    "cscwpp177": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Yurong He"
+            }, 
+            {
+                "name": "Jenny J Preece"
+            }, 
+            {
+                "name": "Jen Hammock"
+            }, 
+            {
+                "name": "Brian Butler"
+            }, 
+            {
+                "name": "Daniel Pauw"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "Understanding Data Providers in a Global Scientific Data Hub", 
+        "type": "poster"
+    }, 
+    "cscwpp178": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Di Lu"
+            }, 
+            {
+                "name": "Rosta Farzan"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "poster", 
+        "title": "When to Break the Ice: Self-disclosure Strategies for Newcomers in Online Communities", 
+        "type": "poster"
+    }, 
+    "dc1": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Joshua Clark"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Parsing a Network: Unpacking Counter Normative Actors from Multi-Network Systems", 
+        "type": "dc"
+    }, 
+    "dc10": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Austin Toombs"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Enacting Care Through Collaboration in Communities of Makers", 
+        "type": "dc"
+    }, 
+    "dc2": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Danilo Giglitto"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Enhancing community heritage empowerment through wiki software", 
+        "type": "dc"
+    }, 
+    "dc3": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Yiching Huang"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Leveraging Micro-Volunteering in Situated Crowdsourcing", 
+        "type": "dc"
+    }, 
+    "dc4": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Katerena Kuksenok"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Adoption and Adaptation of Data Science in Oceanography", 
+        "type": "dc"
+    }, 
+    "dc5": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Alex Leavitt"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Open-Source Culture: The Production & Politics of Distributed Creative Peer Production", 
+        "type": "dc"
+    }, 
+    "dc6": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Moira McGregor"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "The App in Everyday Life", 
+        "type": "dc"
+    }, 
+    "dc7": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Nigini  Oliveira"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Culture-aware Q&A environments", 
+        "type": "dc"
+    }, 
+    "dc8": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Preethi Srinivas"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Modeling Clinical Workflow in Daily ICU Rounds to Support Task-based Patient Monitoring and Care", 
+        "type": "dc"
+    }, 
+    "dc9": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Sarah Tausch"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "dc", 
+        "title": "Investigating the Different Characteristics of Group Mirrors", 
+        "type": "dc"
+    }, 
+    "demo1": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Tiffany Y. Tang"
+            }, 
+            {
+                "name": "Pinata Winoto"
+            }, 
+            {
+                "name": "Yongfu Wang"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Alone Together: A Multiplayer Augmented Reality Online Ball Passing Game", 
+        "type": "demo"
+    }, 
+    "demo10": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Thomas S. Methven"
+            }, 
+            {
+                "name": "Stefano Padilla"
+            }, 
+            {
+                "name": "Mike J. Chantler"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "I Don't Think We've Met: Encouraging Collaboration via Topic-Based Search", 
+        "type": "demo"
+    }, 
+    "demo11": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Nakull Gupta"
+            }, 
+            {
+                "name": "Indrani Medhi-Thies"
+            }, 
+            {
+                "name": "Pedro Ferreira"
+            }, 
+            {
+                "name": "Jacki O'Neill"
+            }, 
+            {
+                "name": "Edward Cutrell"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "KrishiPustak: A Social Networking System for Low-Literate Farmers", 
+        "type": "demo"
+    }, 
+    "demo12": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Kosuke Sasaki"
+            }, 
+            {
+                "name": "Akira Hirata"
+            }, 
+            {
+                "name": "Tomoo Inoue"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Method of Creating Illustrations by Crowd-sourced Microtasks", 
+        "type": "demo"
+    }, 
+    "demo13": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "David A. Robb"
+            }, 
+            {
+                "name": "Stefano Padilla"
+            }, 
+            {
+                "name": "Britta Kalkreuter"
+            }, 
+            {
+                "name": "Mike J. Chantler"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Moodsource: Enabling Perceptual and Emotional Feedback from Crowds", 
+        "type": "demo"
+    }, 
+    "demo14": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "D. Ellwanger"
+            }, 
+            {
+                "name": "N. Dillon"
+            }, 
+            {
+                "name": "T. Wu"
+            }, 
+            {
+                "name": "P. Dewan"
+            }, 
+            {
+                "name": "J. Carter"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Multi-degree Awareness for scalable Mixed-Focus collaborative Difficulty Resolution", 
+        "type": "demo"
+    }, 
+    "demo15": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Andrea H. Tapia"
+            }, 
+            {
+                "name": "Michelle Hall"
+            }, 
+            {
+                "name": "Nicolas LaLone"
+            }, 
+            {
+                "name": "Nathan Case"
+            }, 
+            {
+                "name": "Elizabeth MacDonald"
+            }, 
+            {
+                "name": "Matt Heavner"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Nowcasting Crowdsourced Alerts for Aurora Borealis Viewing", 
+        "type": "demo"
+    }, 
+    "demo16": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Kazunori Shiomi"
+            }, 
+            {
+                "name": "Ryo Nishide"
+            }, 
+            {
+                "name": "Hideyuki Takada"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Terminal Group Formation with Detection of Relative Position Using Camera Image Recognition", 
+        "type": "demo"
+    }, 
+    "demo17": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Christian Rapp"
+            }, 
+            {
+                "name": "Otto Kruse"
+            }, 
+            {
+                "name": "Jennifer Erlemann"
+            }, 
+            {
+                "name": "Jakob Ott"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Thesis Writer -- A System for Supporting Academic Writing", 
+        "type": "demo"
+    }, 
+    "demo18": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Panagiotis Takis Metaxas"
+            }, 
+            {
+                "name": "Samantha Finn"
+            }, 
+            {
+                "name": "Eni Mustafaraj"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Using TwitterTrails.com to Investigate Rumor Propagation", 
+        "type": "demo"
+    }, 
+    "demo2": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Ofer Arazy"
+            }, 
+            {
+                "name": "Henry Brausen"
+            }, 
+            {
+                "name": "David Turner"
+            }, 
+            {
+                "name": "Adam Balila"
+            }, 
+            {
+                "name": "Eleni Stroulia"
+            }, 
+            {
+                "name": "Joel Lanir"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "coDNA: Visualizing Peer Production Processes", 
+        "type": "demo"
+    }, 
+    "demo3": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Seongtaek Lim"
+            }, 
+            {
+                "name": "Patrick Chiu"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Collaboration Map: Visualizing Temporal Dynamics of Small Group Collaboration", 
+        "type": "demo"
+    }, 
+    "demo4": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "William Widjaja"
+            }, 
+            {
+                "name": "Masayuki Sawamura"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "DADS System:Distributed approach to digital affinity diagram collaboration", 
+        "type": "demo"
+    }, 
+    "demo5": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Ashley Colley"
+            }, 
+            {
+                "name": "Juho Rantakari"
+            }, 
+            {
+                "name": "Jonna Häkkilä"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Dual Sided Tablet Supporting Doctor -- Patient Interaction", 
+        "type": "demo"
+    }, 
+    "demo6": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Sanghoo Park"
+            }, 
+            {
+                "name": "Been Jeon"
+            }, 
+            {
+                "name": "Jaewon Cho"
+            }, 
+            {
+                "name": "Byung-Chull Bae"
+            }, 
+            {
+                "name": "Jun-Dong Cho"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Experiment on Emotional Exchange Method through Phone Stack Game", 
+        "type": "demo"
+    }, 
+    "demo7": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Motahhare Eslami"
+            }, 
+            {
+                "name": "Amirhossein Aleyasen"
+            }, 
+            {
+                "name": "Karrie Karahalios"
+            }, 
+            {
+                "name": "Kevin Hamilton"
+            }, 
+            {
+                "name": "Christian Sandvig"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "FeedVis: A Path for Exploring News Feed Curation Algorithms", 
+        "type": "demo"
+    }, 
+    "demo8": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Lucian Leahu"
+            }, 
+            {
+                "name": "Phoebe Sengers"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Freaky: Collaborative Enactments of Emotion", 
+        "type": "demo"
+    }, 
+    "demo9": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "James Wen"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "demo", 
+        "title": "Getting Things Started in Cooperative Photography", 
+        "type": "demo"
+    }, 
+    "w1": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jessica Vitak"
+            }, 
+            {
+                "name": "Pamela Wisniewski"
+            }, 
+            {
+                "name": "Xinru Page"
+            }, 
+            {
+                "name": "Airi Lampinen"
+            }, 
+            {
+                "name": "Eden Litt"
+            }, 
+            {
+                "name": "Ralf de Wolf"
+            }, 
+            {
+                "name": "Patrick Gage Kelley"
+            }, 
+            {
+                "name": "Manya Sleeper"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W1: The Future of Networked Privacy: Challenges and Opportunities", 
+        "type": "workshop"
+    }, 
+    "w10": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Joseph Jay Williams"
+            }, 
+            {
+                "name": "Markus Krause"
+            }, 
+            {
+                "name": "Praveen Paritosh"
+            }, 
+            {
+                "name": "Jacob Whitehill"
+            }, 
+            {
+                "name": "Justin Reich"
+            }, 
+            {
+                "name": "Juho Kim"
+            }, 
+            {
+                "name": "Piotr Mitros"
+            }, 
+            {
+                "name": "Neil Heffernan"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W10: Connecting Collaborative & Crowd Work with Online Education", 
+        "type": "workshop"
+    }, 
+    "w11": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Stacey D. Scott , T.C. Nicholas Graham , James R. Wallace , Mark Hancock , Miguel Nacenta"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W11: Supporting \"Local Remote\" Collaboration: Applying and Adapting Remote Group Awareness Techniques to Co-located Settings", 
+        "type": "workshop"
+    }, 
+    "w2": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Alan Chamberlain"
+            }, 
+            {
+                "name": "mc schraefel"
+            }, 
+            {
+                "name": "Erika Poole"
+            }, 
+            {
+                "name": "Sean Munson"
+            }, 
+            {
+                "name": "Catalina Danis"
+            }, 
+            {
+                "name": "Elizabeth Churchill"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W2: Moving Beyond e-Health and the Quantified Self", 
+        "type": "workshop"
+    }, 
+    "w3": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Elizabeth Daly"
+            }, 
+            {
+                "name": "Sheena Erte"
+            }, 
+            {
+                "name": "Rosta Farzan"
+            }, 
+            {
+                "name": "Gary Hsieh"
+            }, 
+            {
+                "name": "Cliff Lampe"
+            }, 
+            {
+                "name": "Claudia Lopez"
+            }, 
+            {
+                "name": "Andres Monroy-Hernandez"
+            }, 
+            {
+                "name": "Daniele Quercia"
+            }, 
+            {
+                "name": "Raz Schwartz"
+            }, 
+            {
+                "name": "Amy Voida"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W3: Information Technology and City Life", 
+        "type": "workshop"
+    }, 
+    "w4": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jeremy Birnholtz"
+            }, 
+            {
+                "name": "Mark Handel"
+            }, 
+            {
+                "name": "Irina Shklovski"
+            }, 
+            {
+                "name": "Eran Toch"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W4: Let's Talk About Sex(Apps), CSCW", 
+        "type": "workshop"
+    }, 
+    "w5": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Amy Bruckman"
+            }, 
+            {
+                "name": "Casey Fiesler"
+            }, 
+            {
+                "name": "Mary Gray"
+            }, 
+            {
+                "name": "Jeff Hancock"
+            }, 
+            {
+                "name": "Wayne Lutters"
+            }, 
+            {
+                "name": "Tamara Peyton"
+            }, 
+            {
+                "name": "Alyson Young"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W5: Ethics for Studying Online Sociotechnical Systems in a Big Data World", 
+        "type": "workshop"
+    }, 
+    "w6": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jonathan T. Morgan"
+            }, 
+            {
+                "name": "Aaron Halfaker"
+            }, 
+            {
+                "name": "Dario Taraborelli"
+            }, 
+            {
+                "name": "Tim Hwang"
+            }, 
+            {
+                "name": "Sean Goggins"
+            }, 
+            {
+                "name": ""
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W6: Advancing an industry/academic partnership model for Open Collaboration research", 
+        "type": "workshop"
+    }, 
+    "w7": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Rogério de Paula"
+            }, 
+            {
+                "name": "Marcos R S Borges"
+            }, 
+            {
+                "name": "Cleidson R. B. de Souza"
+            }, 
+            {
+                "name": "David Randall"
+            }, 
+            {
+                "name": "David Millen"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W7: Doing CSCW Research in Latin American: Differences, Opportunities, Challenges, and Lessons Learned", 
+        "type": "workshop"
+    }, 
+    "w8": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Stephanie Steinhardt"
+            }, 
+            {
+                "name": "Amanda Menking"
+            }, 
+            {
+                "name": "Andrea Marshall"
+            }, 
+            {
+                "name": "Asta Zelenkauskaite"
+            }, 
+            {
+                "name": "Ingrid Erickson"
+            }, 
+            {
+                "name": "Jennifer Rode"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W8: Feminism and Feminist Approaches in Social Computing", 
+        "type": "workshop"
+    }, 
+    "w9": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "David Millen"
+            }, 
+            {
+                "name": "Claudio Pinhanez"
+            }, 
+            {
+                "name": "Silvia Cristina Sardela Bianchi"
+            }, 
+            {
+                "name": "Jofish Kaye"
+            }, 
+            {
+                "name": "John Vines"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "workshop", 
+        "title": "W9: Collaboration and Social Computing in Emerging Financial Services", 
+        "type": "workshop"
+    },
+    "key-op": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Jeffrey Hancock"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "keynote", 
+        "title": "The Facebook Study: A Personal Account of Data Science, Ethics and Change", 
+        "type": "keynote"
+    }, 
+    "key-li": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Wanda Orlikowski"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "keynote", 
+        "title": "Learning from Notes: organizational issues in groupware implementation", 
+        "type": "keynote"
+    }, 
+    "town-hall": {
+        "abstract": "The CSCW Town Hall Meeting is a time dedicated for the SIGCHI CSCW Community steering committee to interact with attendees of CSCW 2014, harnessing their interests, and addressing their concerns about future directions of the CSCW conference series.", 
+        "authors": [
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "keynote", 
+        "title": "CSCW Town Hall Meeting", 
+        "type": "keynote"
+    }, 
+    "key-cl": {
+        "abstract": "", 
+        "authors": [
+            {
+                "name": "Zeynep Tufekci"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "keynote", 
+        "title": "Algorithms in our Midst: Information, Power and Choice when Software is Everywhere", 
+        "type": "keynote"
+    }, 
+    "rec-tues": {
+        "abstract": "", 
+        "authors": [
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "reception", 
+        "title": "Steamworks", 
+        "type": "reception"
+    }, 
+
+
 }
