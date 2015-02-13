@@ -1,4 +1,251 @@
 sessions={
+    "sws-sat": {
+        "s_title": "Saturday Workshops",
+        "time": "09:00-17:00",
+        "submissions": [
+            "w1", 
+            "w2", 
+            "w3", 
+            "w4", 
+            "w5", 
+            "w6",
+            "w7"
+        ],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Saturday",
+        "s_tags": [],
+        "type": "workshop",
+        "award": 0,
+        "hm": 0,
+        "subtype": "workshop",
+        "chair": ""
+    }, 
+    "sws-sun": {
+        "s_title": "Sunday Workshops",
+        "time": "09:00-17:00",
+        "submissions": [
+            "w1", 
+            "w2", 
+            "w3", 
+            "w8", 
+            "w9", 
+            "w10",
+            "w11"
+        ],
+        "personas": "",
+        "venue": "workshop",
+        "day": "Sunday",
+        "s_tags": [],
+        "type": "workshop",
+        "award": 0,
+        "hm": 0,
+        "subtype": "workshop",
+        "chair": ""
+    }, 
+    "sdc": {
+        "s_title": "Doctoral Consortium",
+        "time": "09:00-17:00",
+        "submissions": [
+            "dc1", 
+            "dc2", 
+            "dc3", 
+            "dc4", 
+            "dc5", 
+            "dc6", 
+            "dc7", 
+            "dc8", 
+            "dc9", 
+            "dc10"
+        ],
+        "personas": "",
+        "venue": "dc",
+        "day": "Sunday",
+        "s_tags": [],
+        "type": "dc",
+        "award": 0,
+        "hm": 0,
+        "subtype": "dc",
+        "chair": ""
+    }, 
+
+    "spd-madness": {
+        "s_title": "Poster Madness Sessions",
+        "time": "15:30-16:45",
+        "submissions": [
+        ],
+        "personas": "",
+        "venue": "poster",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "poster",
+        "award": 0,
+        "hm": 0,
+        "subtype": "poster",
+        "chair": ""
+    },
+
+    "spd-reception": {
+        "s_title": "Posters and Demos Reception",
+        "time": "17:00-19:00",
+        "submissions": [
+            "cscwpp101",
+            "cscwpp122",
+            "cscwpp124",
+            "cscwpp125",
+            "cscwpp127",
+            "cscwpp128",
+            "cscwpp129",
+            "cscwpp132",
+            "cscwpp133",
+            "cscwpp134",
+            "cscwpp135",
+            "cscwpp137",
+            "cscwpp145",
+            "cscwpp146",
+            "cscwpp147",
+            "cscwpp148",
+            "cscwpp149",
+            "cscwpp150",
+            "cscwpp152",
+            "cscwpp155",
+            "cscwpp157",
+            "cscwpp158",
+            "cscwpp161",
+            "cscwpp162",
+            "cscwpp164",
+            "cscwpp165",
+            "cscwpp167",
+            "cscwpp171",
+            "cscwpp172",
+            "cscwpp174",
+            "cscwpp177",
+            "cscwpp178",
+            "demo1",
+            "demo2",
+            "demo3",
+            "demo4",
+            "demo5",
+            "demo6",
+            "demo7",
+            "demo8",
+            "demo9",
+            "demo10",
+            "demo11",
+            "demo12",
+            "demo13",
+            "demo14",
+            "demo15",
+            "demo16",
+            "demo17",
+            "demo18"
+        ],
+        "personas": "",
+        "venue": "poster",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "poster",
+        "award": 0,
+        "hm": 0,
+        "subtype": "poster",
+        "chair": ""
+    },
+
+    "skey-open": {
+        "s_title": "Welcome and Opening Keynote",
+        "time": "08:30-10:00",
+        "submissions": [
+            "key-op"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "keynote",
+        "award": 0,
+        "hm": 0,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "skey-lasting": {
+        "s_title": "Lasting Impact and Town Hall",
+        "time": "15:30-17:30",
+        "submissions": [
+            "key-li", 
+            "town-hall"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "keynote",
+        "award": 0,
+        "hm": 0,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "skey-close": {
+        "s_title": "Closing Keynote",
+        "time": "15:30-17:30",
+        "submissions": [
+            "key-cl"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "keynote",
+        "award": 0,
+        "hm": 0,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "skey-las": {
+        "s_title": "L@S Closing Keynote (open to CSCW attendees)",
+        "time": "16:00-17:15",
+        "submissions": [
+            "key-ls"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Sunday",
+        "s_tags": [],
+        "type": "keynote",
+        "award": 0,
+        "hm": 0,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "sreception-sun": {
+        "s_title": "Joint Reception with L@S",
+        "time": "17:30-18:30",
+        "submissions": [
+        ],
+        "personas": "",
+        "venue": "reception",
+        "day": "Sunday",
+        "s_tags": [],
+        "type": "reception",
+        "award": 0,
+        "hm": 0,
+        "subtype": "reception",
+        "chair": ""
+    },
+    "sreception-tues": {
+        "s_title": "CSCW Tuesday Reception at Steamworks",
+        "time": "18:00-22:30",
+        "submissions": [
+        ],
+        "personas": "",
+        "venue": "reception",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "reception",
+        "award": 0,
+        "hm": 0,
+        "subtype": "reception",
+        "chair": ""
+    },
     "s100": {
         "s_title": "Annotation Systems and Approaches",
         "time": "13:45-15:00",
@@ -15,7 +262,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Mark Handel"
     },
     "s101": {
         "s_title": "My Mobile, My Friends",
@@ -33,7 +280,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Louise Barkhuus"
     },
     "s102": {
         "s_title": "Communities for Individual Behavior Change",
@@ -51,7 +298,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Aleksandra Sarcevic"
     },
     "s103": {
         "s_title": "Collaborating Under Constraints",
@@ -59,8 +306,7 @@ sessions={
         "submissions": [
             "cscw161",
             "cscw444",
-            "cscw213",
-            "cscw703"
+            "cscw213"
         ],
         "personas": "",
         "venue": "paper",
@@ -70,7 +316,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Rick Wash"
     },
     "s104": {
         "s_title": "Community-Based Participatory Research",
@@ -88,7 +334,7 @@ sessions={
         "award": 1,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Scott Robertson"
     },
     "s105": {
         "s_title": "Policy and the Legislative Context",
@@ -106,7 +352,7 @@ sessions={
         "award": 1,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Bryan Semaan"
     },
     "s106": {
         "s_title": "Creative Collaborating",
@@ -124,7 +370,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Daniela Rosner"
     },
     "s107": {
         "s_title": "Hacking and Making",
@@ -142,7 +388,7 @@ sessions={
         "award": 1,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kurt Luther"
     },
     "s108": {
         "s_title": "Aging Gracefully and Collaboratively",
@@ -160,7 +406,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Erik Grönvall"
     },
     "s109": {
         "s_title": "The Powers of Co-location",
@@ -178,7 +424,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Mark Perry"
     },
     "s110": {
         "s_title": "Understanding Deviance in Collaboration",
@@ -196,7 +442,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "David Ribes"
     },
     "s111": {
         "s_title": "Motivation and Dynamics of the Open Classroom",
@@ -214,7 +460,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Aaron Shaw"
     },
     "s112": {
         "s_title": "Framing Collaboration: Systems and Analysis",
@@ -232,7 +478,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "John Tang"
     },
     "s113": {
         "s_title": "Recommender Systems",
@@ -250,7 +496,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Aaron Halfaker"
     },
     "s114": {
         "s_title": "Urban Environments",
@@ -268,7 +514,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sián Lindley"
     },
     "s115": {
         "s_title": "Studies of Coordination",
@@ -286,7 +532,7 @@ sessions={
         "award": 1,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jake (Jacob) Biehl"
     },
     "s116": {
         "s_title": "Crowdfunding",
@@ -304,7 +550,8 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Michael Bernstein",
+        "room": "Salon A"
     },
     "s117": {
         "s_title": "Collaboration in a Globalised World",
@@ -322,13 +569,12 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Marco Gerosa"
     },
     "s118": {
         "s_title": "Teamwork Challenges",
         "time": "08:45-10:00",
         "submissions": [
-            "cscw107",
             "cscw248",
             "cscw271",
             "cscw603"
@@ -341,7 +587,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ido Guy"
     },
     "s119": {
         "s_title": "Leveraging Language",
@@ -359,7 +605,7 @@ sessions={
         "award": 1,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Rosta Farzan"
     },
     "s120": {
         "s_title": "Politics and Social Networks",
@@ -377,7 +623,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ayman Shamma"
     },
     "s121": {
         "s_title": "Collaborating Around Crisis",
@@ -395,7 +641,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Andres Monroy-Hernandez"
     },
     "s122": {
         "s_title": "Journalism and Politics",
@@ -413,7 +659,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Moira Burke"
     },
     "s123": {
         "s_title": "Volunteerism",
@@ -430,7 +676,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Steve Jackson"
     },
     "s124": {
         "s_title": "Motivating Crowdwork",
@@ -447,7 +693,7 @@ sessions={
         "award": 1,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Steven Dow"
     },
     "s125": {
         "s_title": "Scientific Domains",
@@ -465,7 +711,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Anne Marie Piper"
     },
     "s126": {
         "s_title": "Temporality and Rhythms of Work",
@@ -483,7 +729,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Dave Randall"
     },
     "s127": {
         "s_title": "Technologies in the workplace",
@@ -501,7 +747,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Charlotte Lee"
     },
     "s128": {
         "s_title": "Distance Still Matters",
@@ -519,7 +765,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Judy Olson"
     },
     "s129": {
         "s_title": "Motivating Peer Production",
@@ -537,7 +783,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Felipe Ortega"
     },
     "s130": {
         "s_title": "Wikipedia: Structure &amp; Function",
@@ -555,7 +801,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Dario Taraborelli"
     },
     "s131": {
         "s_title": "Computer Supported Happiness",
@@ -573,7 +819,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Leysia Palen"
     },
     "s132": {
         "s_title": "Location, Location, Location",
@@ -591,7 +837,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Brent Hecht"
     },
     "s133": {
         "s_title": "Social Dynamics and My Phone",
@@ -609,7 +855,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Suki Grandhi"
     },
     "s134": {
         "s_title": "Collaborative Counseling",
@@ -627,7 +873,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Wayne Lutters"
     },
     "s135": {
         "s_title": "Gender and Sexual Identity",
@@ -645,7 +891,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ingrid Erickson"
     },
     "s136": {
         "s_title": "Mobile Collaboration",
@@ -663,7 +909,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jeni Paay"
     },
     "s137": {
         "s_title": "Collaborative Software Development",
@@ -680,7 +926,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kate Starbird"
     },
     "s138": {
         "s_title": "Is There a Doctor in the Room?",
@@ -698,7 +944,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Wanda Pratt"
     },
     "s139": {
         "s_title": "Collaboration in the Open Classroom",
@@ -716,7 +962,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ed Cutrell"
     },
     "s140": {
         "s_title": "Crowd Work and Crowd Process",
@@ -734,7 +980,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Liz Gerber"
     },
     "s141": {
         "s_title": "Games and Virtual Worlds",
@@ -752,7 +998,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jesper Kjeldskov"
     },
     "s142": {
         "s_title": "Children and Families",
@@ -770,7 +1016,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Lana Yarosh"
     },
     "s143": {
         "s_title": "Systems in Support of Health &amp; Wellness",
@@ -788,7 +1034,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Pernille Bjørn"
     },
     "s144": {
         "s_title": "All in the family",
@@ -806,7 +1052,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Carman Neustadter"
     },
     "s145": {
         "s_title": "Managing Chronic Illness through Collaboration",
@@ -824,7 +1070,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Andrea Wiggins"
     },
     "s146": {
         "s_title": "Young Adults and Online Behavior",
@@ -842,7 +1088,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sarita Schoenebeck (Yardi)"
     },
     "s147": {
         "s_title": "Mood and Emotion",
@@ -860,10 +1106,10 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Gloria Mark"
     },
     "s148": {
-        "s_title": "Experiencing Social Media&nbsp;",
+        "s_title": "Experiencing Social Media",
         "time": "13:45-15:00",
         "submissions": [
             "cscw596",
@@ -878,7 +1124,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jessica Vitak"
     },
     "s149": {
         "s_title": "Session with no papers",
@@ -910,7 +1156,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Brian Keegan"
     },
     "s151": {
         "s_title": "Leveraging the Crowd",
@@ -928,7 +1174,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Eric Gilbert"
     },
     "s152": {
         "s_title": "Collaborative Design Approaches",
@@ -946,7 +1192,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "John Vines"
     },
     "s201": {
         "s_title": "Civic Participation",
@@ -964,20 +1210,20 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Luigina Ciolfi"
     },
     "s202": {
         "s_title": "CRA-Ed \"Workshop\"",
         "time": "10:30-11:45",
         "submissions": [],
         "personas": "",
-        "venue": "paper",
+        "venue": "workshop",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "workshop",
         "award": 0,
         "hm": 0,
-        "subtype": "paper",
+        "subtype": "workshop",
         "chair": ""
     },
     "s203": {
@@ -996,7 +1242,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jeremy Birnholtz"
     },
     "s204": {
         "s_title": "Collaborating through Social Media",
@@ -1014,7 +1260,7 @@ sessions={
         "award": 0,
         "hm": 1,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Judd Antin"
     },
     "s205": {
         "s_title": "There's Just Something about Hands",
@@ -1031,7 +1277,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jina Huh"
     },
     "s206": {
         "s_title": "Panel #4 Online Dating as Pandora's Box",
