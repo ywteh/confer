@@ -1,7 +1,7 @@
 entities={
     "cscw106": {
         "title": "Outnumbered but Well-Spoken: Female Commenters in the New York Times",
-        "abstract": "Using eight months of online comments on New York Times articles, we find that only 28% of commenters of identifiable gender are female, but that their comments receive more recommendations from other readers. Comments from women are more common on forums about parenting, fashion, and health, and on articles written by women. The number of recommendations comments from women receive is positively correlated with the percentage of men on a forum, and the number of recommendations men receive is negatively correlated with the percentage of men on a forum. Female commenters are more likely to remain anonymous and anonymous commenters receive fewer recommendations. Male and female commenters differ in their choice of topics to emphasize,  backgrounds, and language; we find three specific examples in responses to articles about sexual assault, contraception, and farm subsidies. We discuss the implications of these gender differences for democratic discourse and suggest ways to increase gender parity.",
+        "abstract": "Using eight months of online comments on New York Times articles, we find that only 28% of commenters of identifiable gender are female, but that their comments receive more recommendations from other readers. Comments from women are more common on forums about parenting, fashion, and health, and on articles written by women. The number of recommendations comments from women receive is positively correlated with the percentage of men on a forum, and the number of recommendations men receive is negatively correlated with the percentage of men on a forum. Female commenters are more likely to remain anonymous and anonymous commenters receive fewer recommendations. Male and female commenters differ in their choice of topics to emphasize, backgrounds, and language; we find three specific examples in responses to articles about sexual assault, contraception, and farm subsidies. We discuss the implications of these gender differences for democratic discourse and suggest ways to increase gender parity.",
         "keywords": "",
         "authors": [
             {
@@ -58,7 +58,7 @@ entities={
     },
     "cscw129": {
         "title": "An Agent for Deception Detection in Discussion Based Environments",
-        "abstract": "Extensive use of computerized forums and chat-rooms provides a modern venue for deception. We propose introducing an agent to assist in detecting and incriminating a deceptive participant. We designed a game, where deception in a text based discussion environment occurs. In this game several participants attempt to collectively detect a deceptive member. We compose an automated agent which participates in this game as a regular player. The goal of the agent is to detect the deceptive participant and alert other members, without raising suspicion itself.  We use machine learning on the data collected from human players to design this agent.  Extensive evaluation of our agent shows that it succeeds in raising the players collective success rate in catching the deceptive player.",
+        "abstract": "Extensive use of computerized forums and chat-rooms provides a modern venue for deception. We propose introducing an agent to assist in detecting and incriminating a deceptive participant. We designed a game, where deception in a text based discussion environment occurs. In this game several participants attempt to collectively detect a deceptive member. We compose an automated agent which participates in this game as a regular player. The goal of the agent is to detect the deceptive participant and alert other members, without raising suspicion itself. We use machine learning on the data collected from human players to design this agent. Extensive evaluation of our agent shows that it succeeds in raising the players collective success rate in catching the deceptive player.",
         "keywords": "",
         "authors": [
             {
@@ -114,7 +114,7 @@ entities={
                 "name": "Meeyoung Cha"
             },
             {
-                "name": "bumseok jeong"
+                "name": "Bumseok Jeong"
             }
         ],
         "type": "paper",
@@ -131,7 +131,7 @@ entities={
                 "name": "Anbang Xu"
             },
             {
-                "name": "huaming rao"
+                "name": "Huaming Rao"
             },
             {
                 "name": "Brian P Bailey"
@@ -216,11 +216,11 @@ entities={
     },
     "cscw155": {
         "title": "Crowds on Wall Street: Extracting Value from Collaborative Investing Platforms",
-        "abstract": " In crowdsourced systems, it is often difficult to separate the highly capable \"experts\" from the average worker.  In this paper, we study the problem of evaluating and identifying experts in the context of SeekingAlpha and StockTwits, two crowdsourced investment services that are  encroaching on a space dominated for decades by large investment banks.  We seek to understand the quality and impact of content on collaborative investment platforms, by empirically analyzing complete datasets of SeekingAlpha articles (9 years) and StockTwits messages (4 years).  We develop sentiment analysis tools and correlate contributed content to the historical performance of relevant stocks. While SeekingAlpha articles and StockTwits messages provide minimal correlation to stock performance in aggregate, a subset of experts contribute more valuable (predictive) content.  We show that these authors can be easily identified by user interactions, and investments using their analysis significantly outperform broader markets. Finally, we conduct a user survey that sheds light on users views of SeekingAlpha content and stock manipulation.",
+        "abstract": " In crowdsourced systems, it is often difficult to separate the highly capable \"experts\" from the average worker. In this paper, we study the problem of evaluating and identifying experts in the context of SeekingAlpha and StockTwits, two crowdsourced investment services that are encroaching on a space dominated for decades by large investment banks. We seek to understand the quality and impact of content on collaborative investment platforms, by empirically analyzing complete datasets of SeekingAlpha articles (9 years) and StockTwits messages (4 years). We develop sentiment analysis tools and correlate contributed content to the historical performance of relevant stocks. While SeekingAlpha articles and StockTwits messages provide minimal correlation to stock performance in aggregate, a subset of experts contribute more valuable (predictive) content. We show that these authors can be easily identified by user interactions, and investments using their analysis significantly outperform broader markets. Finally, we conduct a user survey that sheds light on users views of SeekingAlpha content and stock manipulation.",
         "keywords": "",
         "authors": [
             {
-                "name": "GANG WANG"
+                "name": "Gang Wang"
             },
             {
                 "name": "Tianyi Wang"
@@ -386,7 +386,7 @@ entities={
     },
     "cscw181": {
         "title": "Studying and Modeling the Connection between People's Preferences and Content Sharing",
-        "abstract": "People regularly share items using online social media. However, people's decisions around sharing -- who shares what to whom and why -- is not well understood. We present a user study involving 87 pairs of Facebook users to understand how people make their sharing decisions. We find that even when sharing to a specific individual, people's own preference for an item (individuation) dominates over the recipient's preferences (altruism). People's open-ended responses about how they share, however, indicate that they do try to personalize shares based on the recipient. To explain these contrasting results, we propose a novel process model of sharing that takes into account people's preferences and the salience of an item.  We also present encouraging results for a sharing prediction model that incorporates both the senders' and the recipients' preferences. These results suggest improvements to both algorithms that support sharing in social media and to information diffusion models.",
+        "abstract": "People regularly share items using online social media. However, people's decisions around sharing -- who shares what to whom and why -- is not well understood. We present a user study involving 87 pairs of Facebook users to understand how people make their sharing decisions. We find that even when sharing to a specific individual, people's own preference for an item (individuation) dominates over the recipient's preferences (altruism). People's open-ended responses about how they share, however, indicate that they do try to personalize shares based on the recipient. To explain these contrasting results, we propose a novel process model of sharing that takes into account people's preferences and the salience of an item. We also present encouraging results for a sharing prediction model that incorporates both the senders' and the recipients' preferences. These results suggest improvements to both algorithms that support sharing in social media and to information diffusion models.",
         "keywords": "",
         "authors": [
             {
@@ -627,7 +627,7 @@ entities={
     },
     "cscw225": {
         "title": "Designing for Discomfort: Supporting Critical Reflection through Interactive Tools",
-        "abstract": "A focus of human-computer interaction work and a central principle of user experience is that design should avoid discomfort and aim to craft positive experiences for individuals. However, for contexts in which an uncomfortable reaction is intended, instrumental, or indeed inevitable, we recognize that it is inappropriate to design for a positive or \"feel good\" experience. Herein we describe an investigation into the use of interactive technologies to support transformative learning, a process through which individuals engage with feelings of discomfort. The project is grounded by work with graduate students enrolled in a course that employed decolonizing pedagogies. Throughout the course students responded to uncomfortable, problematic scenarios through interactive tools.   We present our analysis of students' learning experiences, their interactions with technologies and their reflections on the effectiveness of these engagements in terms of supporting opportunities for critical reflection, a crucial stage of the transformative learning process. ",
+        "abstract": "A focus of human-computer interaction work and a central principle of user experience is that design should avoid discomfort and aim to craft positive experiences for individuals. However, for contexts in which an uncomfortable reaction is intended, instrumental, or indeed inevitable, we recognize that it is inappropriate to design for a positive or \"feel good\" experience. Herein we describe an investigation into the use of interactive technologies to support transformative learning, a process through which individuals engage with feelings of discomfort. The project is grounded by work with graduate students enrolled in a course that employed decolonizing pedagogies. Throughout the course students responded to uncomfortable, problematic scenarios through interactive tools. We present our analysis of students' learning experiences, their interactions with technologies and their reflections on the effectiveness of these engagements in terms of supporting opportunities for critical reflection, a crucial stage of the transformative learning process. ",
         "keywords": "",
         "authors": [
             {
@@ -644,7 +644,7 @@ entities={
     },
     "cscw231": {
         "title": "Content and Network Dynamics Behind Egyptian Political Polarization on Twitter",
-        "abstract": "At this point, there is little question about whether social networks play a role in modern protests. This agreement has triggered an entire research avenue, in which social structure and content analysis have been central -- but exploited separately.  Here, we combine these two approaches to shed light on the opinion evolution dynamics in Egypt during the summer of 2013 along two axis (Islamist/Secularist, pro/anti-military intervention). We intend to find traces of opinion changes in Egypt's population, paralleling those in the international community -- which oscillated from sympathetic to condemnatory as civil clashes grew. We find little evidence of people \"switching\" sides, along with clear changes in volume in both pro- and anti-military camps. Our work contributes new insights into the dynamics of large protest movements, specially in the aftermath of the main events -- rather unattended previously. It questions the standard narrative concerning a simplistic mapping between Secularist/pro-military and Islamist/anti-military. Finally, our conclusions provide empirical validation to sociological models regarding the behavior of individuals in conflictive contexts.",
+        "abstract": "At this point, there is little question about whether social networks play a role in modern protests. This agreement has triggered an entire research avenue, in which social structure and content analysis have been central -- but exploited separately. Here, we combine these two approaches to shed light on the opinion evolution dynamics in Egypt during the summer of 2013 along two axis (Islamist/Secularist, pro/anti-military intervention). We intend to find traces of opinion changes in Egypt's population, paralleling those in the international community -- which oscillated from sympathetic to condemnatory as civil clashes grew. We find little evidence of people \"switching\" sides, along with clear changes in volume in both pro- and anti-military camps. Our work contributes new insights into the dynamics of large protest movements, specially in the aftermath of the main events -- rather unattended previously. It questions the standard narrative concerning a simplistic mapping between Secularist/pro-military and Islamist/anti-military. Finally, our conclusions provide empirical validation to sociological models regarding the behavior of individuals in conflictive contexts.",
         "keywords": "",
         "authors": [
             {
@@ -712,7 +712,7 @@ entities={
         "hm": 0
     },
     "cscw237": {
-        "title": "Talkabout: Making distance matter  with small groups in massive classes",
+        "title": "Talkabout: Making distance matter with small groups in massive classes",
         "abstract": "Massive online classes are global and diverse. (How) can we harness this diversity to improve engagement and learning? Currently, though enrollments are high, students' interactions with each other are minimal: most are alone together. This isolation is particularly disappointing given that a global community is a major draw of online classes. This paper illustrates the potential of leveraging geographic diversity of massive online classes. It introduces a peer discussion system called Talkabout that connects students through small-group video discussions to peers from around the world. To date, over 3,400 students in eight massive classes have used Talkabout. Three studies with 2,670 students from two classes found that globally diverse discussions boost student performance and engagement: the more geographically diverse the discussion group, the better the students performed on later quizzes. Through this work, we challenge the view that online classes are useful only when in-person classes are unavailable. Instead, we demonstrate how diverse online classrooms can create benefits that are largely unavailable in traditional classrooms. ",
         "keywords": "",
         "authors": [
@@ -865,7 +865,7 @@ entities={
         "hm": 0
     },
     "cscw267": {
-        "title": "From Personal Tool to Community Resource:  What's the Extra Work and Who Will Do It?",
+        "title": "From Personal Tool to Community Resource: What's the Extra Work and Who Will Do It?",
         "abstract": "Sharing scientific data, software, and instruments is becoming increasingly common as science moves toward large-scale, distributed collaborations. Sharing these resources requires extra work to make them generally useful. Although we know much about the extra work associated with sharing data, we know little about the work associated with sharing contributions to software, even though software is of vital importance to nearly every scientific result. This paper presents a qualitative, interview-based study of the extra work that developers and end users of scientific software undertake. Our findings indicate that they conduct a rich set of extra work around community management, code maintenance, education and training, developer-user interaction, and foreseeing user needs. We identify several conditions under which they are likely to do this work, as well as design principles that can facilitate it. Our results have important implications for future empirical studies as well as funding policy.",
         "keywords": "",
         "authors": [
@@ -889,7 +889,7 @@ entities={
     },
     "cscw269": {
         "title": "Emotion Map: A Location-based Mobile Social System for Improving Emotion Awareness and Regulation",
-        "abstract": "Effective emotion regulation can benefit many aspects of our lives such as mental health and work performance. Informed by emotion regulation theories and in consultation with our university counseling center, we designed a novel location-based mobile social app, Emotion Map, to help improve people's awareness and regulations of their emotions. The app allows users to log their emotions with the associated time, location, and activity information. Users can keep these logged emotions to themselves or share them with others publicly or anonymously. We conducted a 4-week field trial of the app with 14 university students. Combining usage logs and in-person interviews, our analysis shows promising results of the app.  Specifically, we found that the app improved some participants' self-knowledge of their emotions, supported their various emotion regulations, and enabled better awareness of the emotion statuses of their friends and communities.",
+        "abstract": "Effective emotion regulation can benefit many aspects of our lives such as mental health and work performance. Informed by emotion regulation theories and in consultation with our university counseling center, we designed a novel location-based mobile social app, Emotion Map, to help improve people's awareness and regulations of their emotions. The app allows users to log their emotions with the associated time, location, and activity information. Users can keep these logged emotions to themselves or share them with others publicly or anonymously. We conducted a 4-week field trial of the app with 14 university students. Combining usage logs and in-person interviews, our analysis shows promising results of the app. Specifically, we found that the app improved some participants' self-knowledge of their emotions, supported their various emotion regulations, and enabled better awareness of the emotion statuses of their friends and communities.",
         "keywords": "",
         "authors": [
             {
@@ -931,7 +931,7 @@ entities={
         "hm": 0
     },
     "cscw272": {
-        "title": "\"This is a Throwaway Account\":  Temporary Technical Identities and Perceptions of Anonymity in a Massive Online Community",
+        "title": "\"This is a Throwaway Account\": Temporary Technical Identities and Perceptions of Anonymity in a Massive Online Community",
         "abstract": "This paper explores temporary identities on social media platforms and individuals' uses of these identities with respect to their perceptions of anonymity. Given the research on multiple profile maintenance, little research has examined the role that some social media platforms play in affording users with temporary identities. Further, most of the research on anonymity stops short of the concept of varying perceptions of anonymity. This paper builds on these research areas by describing the phenomenon of temporary \"throwaway accounts\" and their uses on reddit.com, a popular social news site. In addition to ethnographic trace analysis to examine the contexts in which throwaway accounts are adopted, this paper presents a predictive model that suggests that perceptions of anonymity significantly shape the potential uses of throwaway accounts and that female users are much more likely to adopt temporary identities than male users.",
         "keywords": "",
         "authors": [
@@ -966,7 +966,7 @@ entities={
     },
     "cscw281": {
         "title": "Supporting Developers' Coordination in The IDE",
-        "abstract": "Teamwork in software engineering is time-consuming and problematic. In this paper, we explore how to better support developers' collaboration in teamwork, focusing on the software implementation phase happening in the integrated development environment (IDE), where developers spend most of their time. Conducting a qualitative investigation, we learn that developers' teamwork needs mostly regard coordination, rather than concurrent work on the same (sub)task, and that developers have problems dealing with breaking changes made by peers on the same project, but they successfully deal with other scenarios considered problematic in literature. We derive implications and recommendations.  Based on one of these recommendations we analyze the current IDE support for receiving code changes, finding that historical information is neither visible nor easily accessible. Consequently, we devise and qualitatively evaluate Bellevue, the design of an IDE extension that makes received changes always visible and code history accessible in the editor.",
+        "abstract": "Teamwork in software engineering is time-consuming and problematic. In this paper, we explore how to better support developers' collaboration in teamwork, focusing on the software implementation phase happening in the integrated development environment (IDE), where developers spend most of their time. Conducting a qualitative investigation, we learn that developers' teamwork needs mostly regard coordination, rather than concurrent work on the same (sub)task, and that developers have problems dealing with breaking changes made by peers on the same project, but they successfully deal with other scenarios considered problematic in literature. We derive implications and recommendations. Based on one of these recommendations we analyze the current IDE support for receiving code changes, finding that historical information is neither visible nor easily accessible. Consequently, we devise and qualitatively evaluate Bellevue, the design of an IDE extension that makes received changes always visible and code history accessible in the editor.",
         "keywords": "",
         "authors": [
             {
@@ -989,7 +989,7 @@ entities={
     },
     "cscw284": {
         "title": "Piloting TrACE: Exploring Spatiotemporal Anchored Collaboration in Asynchronous Learning",
-        "abstract": "The use of multimedia content such as video is becoming more prevalent in educational environments.  However, current platforms for hosting these media provide few collaborative tools to foster social learning between students or request help from instructors.  In this paper, we explore the potential of spatiotemporal anchored collaboration, and we present a prototype media-playback environment called TrACE that exemplifies the approach.  We examine a first design-based research (DBR) pilot deployment of TrACE in two post-secondary courses.  Results indicate that students do take advantage of the system's affordances to interact in meaningful ways, though overall student annotation authoring was limited. Using the pilot data, we propose socio-technical modifications for the next iteration in the DBR cycle. Specifically we focus on tools to support instructors' use of the system and for promoting collaboration between students.",
+        "abstract": "The use of multimedia content such as video is becoming more prevalent in educational environments. However, current platforms for hosting these media provide few collaborative tools to foster social learning between students or request help from instructors. In this paper, we explore the potential of spatiotemporal anchored collaboration, and we present a prototype media-playback environment called TrACE that exemplifies the approach. We examine a first design-based research (DBR) pilot deployment of TrACE in two post-secondary courses. Results indicate that students do take advantage of the system's affordances to interact in meaningful ways, though overall student annotation authoring was limited. Using the pilot data, we propose socio-technical modifications for the next iteration in the DBR cycle. Specifically we focus on tools to support instructors' use of the system and for promoting collaboration between students.",
         "keywords": "",
         "authors": [
             {
@@ -1026,7 +1026,7 @@ entities={
     },
     "cscw291": {
         "title": "Snack Buddy: Supporting Healthy Snacking in Low Socioeconomic Status Families",
-        "abstract": "We conducted a 12-week comparative field trial with 20 low socioeconomic status (SES) caregivers from 10 families to explore their use of a sociotechnical mobile application designed to promote healthy snacking, Snack Buddy. Our analysis of the semi-structured interviews, pre/post-intervention instruments, and photo-elicitation interviews suggests that participants gained a greater awareness of their own snacking practices and those of their family members. Users were empowered to adjust their own practices and   beliefs around healthy eating because they were more aware of their family's snacking behaviors. We describe the unique social dynamics of how families engaged with each other and the application, which   includes positive social support for healthy eating. By providing insights into family interactions and experiences with the application, we identify benefits, challenges, and strategies when designing family-level sociotechnical interventions for healthy behavior.",
+        "abstract": "We conducted a 12-week comparative field trial with 20 low socioeconomic status (SES) caregivers from 10 families to explore their use of a sociotechnical mobile application designed to promote healthy snacking, Snack Buddy. Our analysis of the semi-structured interviews, pre/post-intervention instruments, and photo-elicitation interviews suggests that participants gained a greater awareness of their own snacking practices and those of their family members. Users were empowered to adjust their own practices and beliefs around healthy eating because they were more aware of their family's snacking behaviors. We describe the unique social dynamics of how families engaged with each other and the application, which includes positive social support for healthy eating. By providing insights into family interactions and experiences with the application, we identify benefits, challenges, and strategies when designing family-level sociotechnical interventions for healthy behavior.",
         "keywords": "",
         "authors": [
             {
@@ -1381,7 +1381,7 @@ entities={
         "hm": 0
     },
     "cscw350": {
-        "title": "The Effects of View Portals on Performance and  Awareness in Co-Located Tabletop Groupware",
+        "title": "The Effects of View Portals on Performance and Awareness in Co-Located Tabletop Groupware",
         "abstract": "Tabletop work surfaces have natural advantages for collaboration, but also have constraints that can make group work difficult. View portals are one way to provide access to other parts of a table surface, and as a way to re-orient content for group members in different locations; however, there is little research on whether portals improve group performance, how much they help, and whether they change other aspects of collaboration. We report on studies that evaluate the effects of portals on group performance and behavior. Our first study showed significant performance advantages for portals: people completed tasks more quickly and with more equal division of labor. Our second study showed that people used portals extensively and saw them as valuable, but that they affected people's ability to maintain awareness, coordinate access to objects, and understand the organization of the workspace. Our work demonstrates benefits and drawbacks of table portals, and suggests that designers must consider both individual and group needs before implementing tabletop view augmentations.",
         "keywords": "",
         "authors": [
@@ -1506,7 +1506,7 @@ entities={
         "keywords": "",
         "authors": [
             {
-                "name": "Y. Linlin Huang"
+                "name": "Y Linlin Huang"
             },
             {
                 "name": "Kate Starbird"
@@ -1579,7 +1579,7 @@ entities={
     },
     "cscw392": {
         "title": "Searchable Objects: Search in Everyday Conversation",
-        "abstract": "This paper examines mobile internet search, presenting  search not as a process of information retrieval, but as part of conversation and talk. Through video extracts of mobile search we explore how mobile phones are interwoven into talk, and how searchers manage the participation of other conversationalists alongside the search itself. We introduce the notion of a 'searchable object' -- an object that arises in conversation that can be searched for online -- and document how such an object occasions a search.  In turn we discuss the differing roles of the device 'driver' and 'passenger', and how participation is managed through questions and narration. Rather than search being solely about getting the correct information, the conversations that search can be part of may be just as important. We conclude by critiquing some of the pessimistic views of interaction around mobile phones and their use in ordinary life and talk.",
+        "abstract": "This paper examines mobile internet search, presenting search not as a process of information retrieval, but as part of conversation and talk. Through video extracts of mobile search we explore how mobile phones are interwoven into talk, and how searchers manage the participation of other conversationalists alongside the search itself. We introduce the notion of a 'searchable object' -- an object that arises in conversation that can be searched for online -- and document how such an object occasions a search. In turn we discuss the differing roles of the device 'driver' and 'passenger', and how participation is managed through questions and narration. Rather than search being solely about getting the correct information, the conversations that search can be part of may be just as important. We conclude by critiquing some of the pessimistic views of interaction around mobile phones and their use in ordinary life and talk.",
         "keywords": "",
         "authors": [
             {
@@ -1896,7 +1896,7 @@ entities={
         "hm": 0
     },
     "cscw438": {
-        "title": "Focused, Aroused, but so Distractible:  Temporal Perspectives on Multitasking and Communications",
+        "title": "Focused, Aroused, but so Distractible: Temporal Perspectives on Multitasking and Communications",
         "abstract": "A common assumption in studies of interruptions is that one is focused in an activity and then distracted by other stimuli. We take the reverse perspective and examine whether one might first be in an attentional state that makes one susceptible to communications typically associated with distraction. We explore the confluence of multitasking and workplace communications from three temporal perspectives -- prior to an interaction, when tasks and communications are interleaved, and at the end of the day. Using logging techniques and experience sampling, we observed 32 employees in situ for five days. We found that certain attentional states lead people to be more susceptible to particular types of interaction. Rote work is followed by more Facebook or face-to-face interaction. Focused and aroused states are followed by more email. Switching projects and Internet switching increases with Facebook and Email use, which are also associated with a lower reported end-of-day productivity. We discuss how emotional homeostasis can explain the results and discuss implications for multitasking research.",
         "keywords": "",
         "authors": [
@@ -2103,7 +2103,7 @@ entities={
     },
     "cscw466": {
         "title": "Understanding the Roles and Influences of Mediators from Multiple Social Channels for Health Behavior Change",
-        "abstract": "People become increasingly influenced by others in changing and maintaining health behaviors. Along with the advancement of persuasive technology and social networking technologies, the place where social interaction occurs has expanded. As a result, mediators who influence an individual’s behavior change can come from diverse social channels. However, little work exists on what roles the mediators have and how differently the mediators motivate and affect the maintenance of health behavior changes of users through various social channels. To investigate this, we conducted interviews with 13 participants who use a running exercise application for maintaining their health behavior changes. This study reveals the roles of mediators from three different social channels, which are the social feature in the application, general social media, and the agent feature in the application. Mediators from the application could influence participants’ health behavior change either positively or negatively according to the level of intimacy and the similarity of the physical condition. Social media mediators influence participants’ social face and support their health behavior changes by keeping participants in countenance. Lastly, the agent mediator of the application provides continuous reinforcement to participants for maintaining their health behavior changes.",
+        "abstract": "People become increasingly influenced by others in changing and maintaining health behaviors. Along with the advancement of persuasive technology and social networking technologies, the place where social interaction occurs has expanded. As a result, mediators who influence an individual's behavior change can come from diverse social channels. However, little work exists on what roles the mediators have and how differently the mediators motivate and affect the maintenance of health behavior changes of users through various social channels. To investigate this, we conducted interviews with 13 participants who use a running exercise application for maintaining their health behavior changes. This study reveals the roles of mediators from three different social channels, which are the social feature in the application, general social media, and the agent feature in the application. Mediators from the application could influence participants' health behavior change either positively or negatively according to the level of intimacy and the similarity of the physical condition. Social media mediators influence participants' social face and support their health behavior changes by keeping participants in countenance. Lastly, the agent mediator of the application provides continuous reinforcement to participants for maintaining their health behavior changes.",
         "keywords": "",
         "authors": [
             {
@@ -2120,7 +2120,7 @@ entities={
     },
     "cscw469": {
         "title": "Circumscribed time and porous time: Logics as a way of studying temporality",
-        "abstract": "In this paper, we introduce the notion of a temporal logic to characterize sets of 'organizing principles' that serve to perpetuate a particular orientation to temporality. We identify a dominant temporal logic, circumscribed time, which suggests that time is chunkable, single-purpose, linear, and ownable. We analyze this logic against the everyday temporal experiences of participants in three ethnographic datasets to identify a set of alternative understandings of time, namely that it is also spectral, mosaic, rhythmic, and obligated. We call this initial typology porous time. Our goal in positing porous time as an expansion of circumscribed time is to provoke reflection on how temporal logics underpin the ways that people orient to each other, research and design technologies, and normalize visions of success in contemporary life.  ",
+        "abstract": "In this paper, we introduce the notion of a temporal logic to characterize sets of 'organizing principles' that serve to perpetuate a particular orientation to temporality. We identify a dominant temporal logic, circumscribed time, which suggests that time is chunkable, single-purpose, linear, and ownable. We analyze this logic against the everyday temporal experiences of participants in three ethnographic datasets to identify a set of alternative understandings of time, namely that it is also spectral, mosaic, rhythmic, and obligated. We call this initial typology porous time. Our goal in positing porous time as an expansion of circumscribed time is to provoke reflection on how temporal logics underpin the ways that people orient to each other, research and design technologies, and normalize visions of success in contemporary life.",
         "keywords": "",
         "authors": [
             {
@@ -2240,7 +2240,7 @@ entities={
     },
     "cscw497": {
         "title": "Predicting a Community's Flu Dynamics with Mobile Phone Data",
-        "abstract": "Human interactions sensed ubiquitously by cellphones can benefit many domains, particularly for monitoring the spread of disease. We consider various network configurations for integrating real interaction data into a standard epidemic model to model the diffusion of influenza. We present two ways of simulating such dynamics on the interactions of a community over a period of 17 weeks.  Our focus is to determine the accuracy of incorporating interaction data into dynamic models for infection prediction. The dataset considered contains the actual flu symptoms of participants over the 17 week period, providing a concrete source for evaluation. Given the real participant flu cases obtained by surveys simultaneous to the mobile phone data collection, we find obtain errors of less than 2 infected people on average (when predicting the number of infected people over time considering a population of 72 people) and precisions of approximately 30% (when predicting exactly which individual was infected at a given time).",
+        "abstract": "Human interactions sensed ubiquitously by cellphones can benefit many domains, particularly for monitoring the spread of disease. We consider various network configurations for integrating real interaction data into a standard epidemic model to model the diffusion of influenza. We present two ways of simulating such dynamics on the interactions of a community over a period of 17 weeks. Our focus is to determine the accuracy of incorporating interaction data into dynamic models for infection prediction. The dataset considered contains the actual flu symptoms of participants over the 17 week period, providing a concrete source for evaluation. Given the real participant flu cases obtained by surveys simultaneous to the mobile phone data collection, we find obtain errors of less than 2 infected people on average (when predicting the number of infected people over time considering a population of 72 people) and precisions of approximately 30% (when predicting exactly which individual was infected at a given time).",
         "keywords": "",
         "authors": [
             {
@@ -2277,7 +2277,7 @@ entities={
     },
     "cscw506": {
         "title": "Toward Collaborative Ideation at Scale -- Leveraging Ideas from Others to Generate More Creative and Diverse Ideas",
-        "abstract": "A growing number of large collaborative idea generation platforms promise that by ideating together, people can create better ideas than any would have alone. But how might these platforms support collaboration beyond just aggregation?  Prior research suggests that seeing particularly creative or diverse ideas from others can inspire you, but few scalable mechanisms exist to assess diversity. We contribute a new scalable crowd-powered method for evaluating the diversity of sets of ideas.  The method relies on similarity comparisons (is idea A more similar to B or C?) generated by non-experts to create an abstract spatial idea map. Our validation study reveals that human raters agree with the estimates of dissimilarity derived from our idea map as much or more than they agree with each other. People seeing the diverse sets of examples from our idea map  generate more diverse ideas than those seeing randomly selected examples. We see this work as a step toward building more effective online systems for supporting large scale collective ideation.",
+        "abstract": "A growing number of large collaborative idea generation platforms promise that by ideating together, people can create better ideas than any would have alone. But how might these platforms support collaboration beyond just aggregation? Prior research suggests that seeing particularly creative or diverse ideas from others can inspire you, but few scalable mechanisms exist to assess diversity. We contribute a new scalable crowd-powered method for evaluating the diversity of sets of ideas. The method relies on similarity comparisons (is idea A more similar to B or C?) generated by non-experts to create an abstract spatial idea map. Our validation study reveals that human raters agree with the estimates of dissimilarity derived from our idea map as much or more than they agree with each other. People seeing the diverse sets of examples from our idea map generate more diverse ideas than those seeing randomly selected examples. We see this work as a step toward building more effective online systems for supporting large scale collective ideation.",
         "keywords": "",
         "authors": [
             {
@@ -2300,7 +2300,7 @@ entities={
     },
     "cscw508": {
         "title": "Towards an Appropriable CSCW Tool Ecology: Lessons from the Greatest International Scavenger Hunt the World Has Ever Seen",
-        "abstract": "If you could accomplish a complex, collaborative work task with one tool or many tools working together, which would you choose?  In this paper, we present a case study of GISHWHES (the \"Greatest International Scavenger Hunt the World Has Ever Seen\"), an annual event in which teams spend one week completing complex, creative tasks. Building on the literature of IT ecosystems, we show how teams used different collections of tools to meet their communication needs. We interviewed team members, finding that most teams used multiple tools during GISHWHES.  By analyzing which tools they chose over others for each function, we gain insight into the strengths and weaknesses of these tools, and the complexity surrounding work processes. In light of this complexity, this research highlights the importance of designing appropriable tools that can work with unanticipated workflows and mesh well with other tools in a communicative ecology.",
+        "abstract": "If you could accomplish a complex, collaborative work task with one tool or many tools working together, which would you choose? In this paper, we present a case study of GISHWHES (the \"Greatest International Scavenger Hunt the World Has Ever Seen\"), an annual event in which teams spend one week completing complex, creative tasks. Building on the literature of IT ecosystems, we show how teams used different collections of tools to meet their communication needs. We interviewed team members, finding that most teams used multiple tools during GISHWHES. By analyzing which tools they chose over others for each function, we gain insight into the strengths and weaknesses of these tools, and the complexity surrounding work processes. In light of this complexity, this research highlights the importance of designing appropriable tools that can work with unanticipated workflows and mesh well with other tools in a communicative ecology.",
         "keywords": "",
         "authors": [
             {
@@ -2402,7 +2402,7 @@ entities={
                 "name": "Uichin Lee"
             },
             {
-                "name": "DAE HEE SHIN"
+                "name": "Dae Hee Shin"
             },
             {
                 "name": "Koji Yatani"
@@ -2411,7 +2411,7 @@ entities={
                 "name": "Junehwa Song"
             },
             {
-                "name": "KM Chung"
+                "name": "K M Chung"
             }
         ],
         "type": "paper",
@@ -2420,7 +2420,7 @@ entities={
         "hm": 0
     },
     "cscw530": {
-        "title": "Massive  Open Online Proctor: protecting the credibility of MOOCs certificates",
+        "title": "Massive Open Online Proctor: protecting the credibility of MOOCs certificates",
         "abstract": "Massive Open Online Courses (MOOCs) enable everyone to receive high-quality education. However, current MOOC creators cannot provide an effective, economical, and scalable method to detect cheating on test, which would be required for any certification. In this paper, we propose a Massive Open Online Proctoring (MOOP) framework, which combines both automatic and collaborative approaches to detect cheating behaviors in online tests. The MOOP framework consists of three major components: Automatic Cheating Detector (ACD), Peer Cheating Detector (PCD), and Final Review Committee (FRC). ACD uses webcam video or other sensors to monitor students and automatically flag suspected cheating behavior. Ambiguous cases are then sent to the PCD, where students peer-review flagged webcam video to confirm suspicious cheating behaviors. Finally, the list of suspicious cheating behaviors is sent to the FCD to make the final punishing decision. Our experiment show that ACD and PCD can detect usage a cheat sheet with good accuracy and can reduce the overall human resources required to monitor MOOCs for cheating.",
         "keywords": "",
         "authors": [
@@ -2507,7 +2507,7 @@ entities={
     },
     "cscw557": {
         "title": "Social Eye Tracking: Gaze Recall with Online Crowds",
-        "abstract": "Eye tracking is a compelling tool for revealing people's spatial-temporal distribution of visual attention. But quality eye tracking hardware is expensive and can only be used with one person at a time.  Further, webcam eye tracking systems have significant limitations on head movement and lighting conditions that result in significant data loss and inaccuracies. To address these drawbacks, we introduce a new approach that harnesses the crowd to understand allocation of visual attention. In our approach, crowdsourcing participants use mouse clicks to self-report the positions and trajectory for the following valuable eye tracking measures: first gaze, last gaze and all gazes. We validate our crowdsourcing approach with a user study, which demonstrated good accuracy when compared to a real eye tracker. We then deployed our prototype, GazeCrowd, in a crowdsourcing setting, and showed that it accurately generated gaze heatmaps and trajectory maps. Such an approach will allow designers to evaluate and refine their visual design without requiring the use of limited/expensive eye trackers.",
+        "abstract": "Eye tracking is a compelling tool for revealing people's spatial-temporal distribution of visual attention. But quality eye tracking hardware is expensive and can only be used with one person at a time. Further, webcam eye tracking systems have significant limitations on head movement and lighting conditions that result in significant data loss and inaccuracies. To address these drawbacks, we introduce a new approach that harnesses the crowd to understand allocation of visual attention. In our approach, crowdsourcing participants use mouse clicks to self-report the positions and trajectory for the following valuable eye tracking measures: first gaze, last gaze and all gazes. We validate our crowdsourcing approach with a user study, which demonstrated good accuracy when compared to a real eye tracker. We then deployed our prototype, GazeCrowd, in a crowdsourcing setting, and showed that it accurately generated gaze heatmaps and trajectory maps. Such an approach will allow designers to evaluate and refine their visual design without requiring the use of limited/expensive eye trackers.",
         "keywords": "",
         "authors": [
             {
@@ -2536,7 +2536,7 @@ entities={
     },
     "cscw558": {
         "title": "The Effects of Visualizing Activity History on Attitudes and Behaviors in a Peer Production Context",
-        "abstract": "In a variety of peer production settings, from Wikipedia to open source software development to crowdsourcing, individuals may encounter, edit, or review the work of unknown others.  Typically this is done without much context to the person's past behavior or performance.  To understand how exposure to an unknown individual's activity history influences attitudes and behaviors, we conducted an online experiment on Mechanical Turk varying the content, quality, and presentation of information about another Turker's work history.  Surprisingly, negative work history did not lead to negative outcomes, but in contrast, a positive work history led to positive initial impressions that persisted in the face of contrary information.  This work provides insight into the impact of activity history design factors on psychological and behavioral outcomes that can be of use in other related settings.",
+        "abstract": "In a variety of peer production settings, from Wikipedia to open source software development to crowdsourcing, individuals may encounter, edit, or review the work of unknown others. Typically this is done without much context to the person's past behavior or performance. To understand how exposure to an unknown individual's activity history influences attitudes and behaviors, we conducted an online experiment on Mechanical Turk varying the content, quality, and presentation of information about another Turker's work history. Surprisingly, negative work history did not lead to negative outcomes, but in contrast, a positive work history led to positive initial impressions that persisted in the face of contrary information. This work provides insight into the impact of activity history design factors on psychological and behavioral outcomes that can be of use in other related settings.",
         "keywords": "",
         "authors": [
             {
@@ -2553,7 +2553,7 @@ entities={
     },
     "cscw560": {
         "title": "Structuring Interactions for Large-Scale Synchronous Peer Learning",
-        "abstract": "This research investigates how to introduce synchronous interactive peer learning into an online setting appropriate both for crowdworkers (learning new tasks) and students in massive online courses (learning course material). We present an interaction framework in which groups of learners are formed on demand and then proceed through a sequence of activities that include synchronous group discussion on learner-generated responses.  Via controlled experiments with crowdworkers, we show that  discussing challenging problems leads to better outcomes than working individually, and incentivizing people to help one another yields still better results.   We then show that providing  a mini-lesson in which workers consider the principles underlying the tested concept and justify their answers leads to further improvements.  Combining the mini-lesson with the discussion of the multiple-choice question leads to significant improvements on that question. We also find positive subjective responses to the peer interactions, suggesting that discussions can improve morale in remote work or learning settings. ",
+        "abstract": "This research investigates how to introduce synchronous interactive peer learning into an online setting appropriate both for crowdworkers (learning new tasks) and students in massive online courses (learning course material). We present an interaction framework in which groups of learners are formed on demand and then proceed through a sequence of activities that include synchronous group discussion on learner-generated responses. Via controlled experiments with crowdworkers, we show that discussing challenging problems leads to better outcomes than working individually, and incentivizing people to help one another yields still better results. We then show that providing a mini-lesson in which workers consider the principles underlying the tested concept and justify their answers leads to further improvements. Combining the mini-lesson with the discussion of the multiple-choice question leads to significant improvements on that question. We also find positive subjective responses to the peer interactions, suggesting that discussions can improve morale in remote work or learning settings. ",
         "keywords": "",
         "authors": [
             {
@@ -2598,7 +2598,7 @@ entities={
         "hm": 0
     },
     "cscw564": {
-        "title": "The Perverse Effects of Social Transparency  on Online Advice Taking",
+        "title": "The Perverse Effects of Social Transparency on Online Advice Taking",
         "abstract": "Increasingly, the advice people receive on the Internet is socially transparent in the sense that it displays contextual information about the advice-giver or his actions. We hypothesize that activity transparency -- seeing an advice giver's process while creating his recommendations -- will increase advice taking. We report three experiments testing the effect of activity transparency on taking mediocre advice. We found that the presence of a web history increased the likelihood of following a financial advisor's advice and reduced participant earnings (Exp. 1), especially when the web history implied greater task focus (Exp. 2, 3). CSCW research usually emphasizes how to increase information sharing; this work suggests when shared information may be inappropriate. We suggest ways to counter activity transparency's potential downsides.",
         "keywords": "",
         "authors": [
@@ -2669,7 +2669,7 @@ entities={
                 "name": "Pamela J Wisniewski"
             },
             {
-                "name": "A.K.M. Najmul Islam"
+                "name": "A K M Najmul Islam"
             },
             {
                 "name": "Bart P Knijnenburg"
@@ -2742,7 +2742,7 @@ entities={
     },
     "cscw593": {
         "title": "And Now for Something Completely Different: Improving Crowdsourcing Workflows with Micro-Diversions",
-        "abstract": "Crowdsourcing has become a popular and indispensable component of many problem-solving pipelines in the research literature, with crowd workers often treated as computational resources that can reliably solve problems that computers have trouble with, such as image labeling/classification, natural language processing, or document writing. Yet, obviously crowd workers are human, and long sequences of the same monotonous tasks might intuitively reduce the amount of good quality work done. Here we propose an investigation into how we can use diversions containing small amounts of entertainment to improve crowd workers' experiences.  We call these small period of entertainment \"micro-diversions\", which we hypothesize to provide timely relief to workers during long sequences of micro-tasks.  We hope to improve productivity by retaining workers to work on our tasks longer and to either improve or retain the same quality of work.  We experimentally test micro-diversions on Amazon Mechanical Turk, a large paid-crowdsourcing platform. We find that micro-diversions can significantly improve worker retention rate while retaining the same work quality.",
+        "abstract": "Crowdsourcing has become a popular and indispensable component of many problem-solving pipelines in the research literature, with crowd workers often treated as computational resources that can reliably solve problems that computers have trouble with, such as image labeling/classification, natural language processing, or document writing. Yet, obviously crowd workers are human, and long sequences of the same monotonous tasks might intuitively reduce the amount of good quality work done. Here we propose an investigation into how we can use diversions containing small amounts of entertainment to improve crowd workers' experiences. We call these small period of entertainment \"micro-diversions\", which we hypothesize to provide timely relief to workers during long sequences of micro-tasks. We hope to improve productivity by retaining workers to work on our tasks longer and to either improve or retain the same quality of work. We experimentally test micro-diversions on Amazon Mechanical Turk, a large paid-crowdsourcing platform. We find that micro-diversions can significantly improve worker retention rate while retaining the same work quality.",
         "keywords": "",
         "authors": [
             {
@@ -2765,7 +2765,7 @@ entities={
     },
     "cscw596": {
         "title": "\"I LOVE THIS SITE!\" vs. \"It's a little girly\": Perceptions of and Initial User Experience with Pinterest",
-        "abstract": "Pinterest is a popular social networking site that lets people discover, collect, and share pictures of items from the Web. Among popular social media sites, Pinterest has by far the most skewed gender distribution: women are four times more likely than men to use it. To better understand this, we examined two factors that generally affect whether people try a social site and whether they continue using it: the external perception of a site (e.g., as conveyed in popular media) and the site's initial user experience. For the latter, we focused on the role of social bootstrapping, importing contacts from one social site to another. We conducted a survey study, finding that: perceptions of Pinterest among users and non-users of the site differed significantly; trying Pinterest led to substantial changes in user perceptions of the site; social bootstrapping affected users' initial impression of Pinterest, generally improving it for women and harming it for men. We present implications of our findings for design and research.",
+        "abstract": "Pinterest is a popular social networking site that lets people discover, collect, and share pictures of items from the Web. Among popular social media sites, Pinterest has by far the most skewed gender distribution: women are four times more likely than men to use it. To better understand this, we examined two factors that generally affect whether people try a social site and whether they continue using it: the external perception of a site and the site's initial user experience. For the latter, we focused on the role of social bootstrapping, importing contacts from one social site to another. We conducted a survey study, finding that: perceptions of Pinterest among users and non-users of the site differed significantly; trying Pinterest led to substantial changes in user perceptions of the site; social bootstrapping affected users' initial impression of Pinterest, generally improving it for women and harming it for men. We present implications of our findings for design and research.",
         "keywords": "",
         "authors": [
             {
@@ -2848,7 +2848,7 @@ entities={
     },
     "cscw626": {
         "title": "Strategic Voting Behavior in Doodle Polls",
-        "abstract": "Finding a common time slot for a group event is a daily conundrum and illustrates key features of group decision-making. It is a complex interplay of individual incentives and group dynamics. We combine large-scale data analysis with theoretical models from voting literature to investigate strategic behaviors in event-scheduling.  We analyze all the Doodle polls created in the US from July-September 2011 (over 340,000 polls), consisting of both hidden polls (where you cannot see other people's votes) and open polls (where you can see all the previous responses). By analyzing the differences in behavior in hidden and open polls, we gain insights into strategies that people apply in natural voting settings. Responders in open polls are more likely to approve slots that are very popular or very unpopular, but not intermediate slots. We show that this behavior is inconsistent with models that have been proposed in the voting literature, and propose a new model based on combining personal and social utilities to explain the data.  ",
+        "abstract": "Finding a common time slot for a group event is a daily conundrum and illustrates key features of group decision-making. It is a complex interplay of individual incentives and group dynamics. We combine large-scale data analysis with theoretical models from voting literature to investigate strategic behaviors in event-scheduling. We analyze all the Doodle polls created in the US from July-September 2011 (over 340,000 polls), consisting of both hidden polls (where you cannot see other people's votes) and open polls (where you can see all the previous responses). By analyzing the differences in behavior in hidden and open polls, we gain insights into strategies that people apply in natural voting settings. Responders in open polls are more likely to approve slots that are very popular or very unpopular, but not intermediate slots. We show that this behavior is inconsistent with models that have been proposed in the voting literature, and propose a new model based on combining personal and social utilities to explain the data. ",
         "keywords": "",
         "authors": [
             {
@@ -2875,12 +2875,6 @@ entities={
                 "name": "Tapio I Ikkala"
             },
             {
-                "name": "Tapio I Ikkala"
-            },
-            {
-                "name": "Airi M Lampinen"
-            },
-            {
                 "name": "Airi M Lampinen"
             }
         ],
@@ -2891,7 +2885,7 @@ entities={
     },
     "cscw630": {
         "title": "Understanding Online Reviews: Funny, Cool or Useful?",
-        "abstract": "Increasingly online reviews are relied upon to make choices about the  purchases and services we use daily. In order for an online review community  to be effective to both users and businesses, it is important to  understand what constitutes a high quality review as perceived by  people, and how to maximize quality of reviews in the community. In  this paper, we study Yelp to answer these questions. We analyze about  230,000 reviews and member interaction (votes) with these  reviews. We find that active and regular members are the highest  contributors to good quality reviews and longer reviews have higher  chances of being popular in the community. We find that reviews voted  useful tend to be the early ones reviews for a specific  business. Our findings have implications on enabling high quality  member contributions and community effectiveness.  We discuss the  implications to design of social systems with diverse feedback  signals.",
+        "abstract": "Increasingly online reviews are relied upon to make choices about the purchases and services we use daily. In order for an online review community to be effective to both users and businesses, it is important to understand what constitutes a high quality review as perceived by people, and how to maximize quality of reviews in the community. In this paper, we study Yelp to answer these questions. We analyze about 230,000 reviews and member interaction (votes) with these reviews. We find that active and regular members are the highest contributors to good quality reviews and longer reviews have higher chances of being popular in the community. We find that reviews voted useful tend to be the early ones reviews for a specific business. Our findings have implications on enabling high quality member contributions and community effectiveness. We discuss the implications to design of social systems with diverse feedback signals.",
         "keywords": "",
         "authors": [
             {
@@ -2911,7 +2905,7 @@ entities={
     },
     "cscw633": {
         "title": "Transition and Reflection in the Use of Health Information: The Case of Pediatric Bone Marrow Transplant Caregivers",
-        "abstract": "The impact of health information on caregivers is of increasing interest in order to design systems that support the social and emotional dimensions of managing health. Drawing on an interview study, as well as a multi-year ethnography, we detail the practices of caregivers in a bone marrow transplant  center. We examine the interconnections between information and emotional work performed by caregivers through a liminal lens, highlighting the BMT experience as a time of transition and reflection in which caregivers must quickly adapt to the new social world of the hospital  and manage a wide range of patient needs. The transition from parent to \"caregiver\" is challenging, placing additional emotional burdens on the intensive information work for managing BMT. As a time of reflection, the BMT experience also provides an occasion for generative thinking and alternative approaches to health management. Our study findings call for health systems that reflect a design paradigm focused on 'transforming lives' rather than 'transferring information.'",
+        "abstract": "The impact of health information on caregivers is of increasing interest in order to design systems that support the social and emotional dimensions of managing health. Drawing on an interview study, as well as a multi-year ethnography, we detail the practices of caregivers in a bone marrow transplant center. We examine the interconnections between information and emotional work performed by caregivers through a liminal lens, highlighting the BMT experience as a time of transition and reflection in which caregivers must quickly adapt to the new social world of the hospital and manage a wide range of patient needs. The transition from parent to \"caregiver\" is challenging, placing additional emotional burdens on the intensive information work for managing BMT. As a time of reflection, the BMT experience also provides an occasion for generative thinking and alternative approaches to health management. Our study findings call for health systems that reflect a design paradigm focused on 'transforming lives' rather than 'transferring information.'",
         "keywords": "",
         "authors": [
             {
@@ -3075,7 +3069,7 @@ entities={
     },
     "cscw654": {
         "title": "Worship, Faith, and Evangelism: Religion as an Ideological Lens for Engineering Worlds",
-        "abstract": "While some in the CSCW community have researched the values in technology design and engineering practices, the underlying ideologies that reinforce and protect those val-ues remain under-explored. This paper seeks to address this gap by identifying a common ideological framework that appears across four engineering endeavors: the OLPC Pro-ject, the National Day of Civic Hacking, the Fixit Clinic, and the Stanford d.school. We found that all four of these communities utilized elements of religious practice to af-firm their membership and shared vision. We describe the forms of worship we saw in these engineering worlds, their practices of evangelism, and the ways in which they ad-dressed doubt. We also demonstrate the role mythologies play as ideologically-charged narratives. Our discussion of these parallels illuminates the extent and consequences of quasi-religious practices in engineering worlds and illustrates the utility of using religion as a 'lens' for understanding ideological commitments in engineering culture.",
+        "abstract": "While some in the CSCW community have researched the values in technology design and engineering practices, the underlying ideologies that reinforce and protect those values remain under-explored. This paper seeks to address this gap by identifying a common ideological framework that appears across four engineering endeavors: the OLPC Project, the National Day of Civic Hacking, the Fixit Clinic, and the Stanford d.school. We found that all four of these communities utilized elements of religious practice to affirm their membership and shared vision. We describe the forms of worship we saw in these engineering worlds, their practices of evangelism, and the ways in which they ad-dressed doubt. We also demonstrate the role mythologies play as ideologically-charged narratives. Our discussion of these parallels illuminates the extent and consequences of quasi-religious practices in engineering worlds and illustrates the utility of using religion as a 'lens' for understanding ideological commitments in engineering culture.",
         "keywords": "",
         "authors": [
             {
@@ -3213,7 +3207,7 @@ entities={
         "hm": 0
     },
     "cscw673": {
-        "title": "Risk-taking as a Learning Process for Shaping  Teen's Online Information Privacy Behaviors",
+        "title": "Risk-taking as a Learning Process for Shaping Teen's Online Information Privacy Behaviors",
         "abstract": "Through a secondary data analysis of a nationally representative Pew survey [35-36], we empirically test the validity of two contrasting theoretical models of adolescent information privacy behaviors. Our results suggest that in seeking to understand the underlying processes of teens' privacy risk-taking and risk-coping behaviors within social media, a \"risk-centric\" framework may be more useful than a traditional \"concern-centric\" framework that emphasizes privacy antecedents and outcomes. Our newly proposed and validated \"risk-centric\" framework implies a possible risk escalation process wherein teens make online disclosures and render themselves more susceptible to experiences of risky online interactions; in turn, these risky experiences are associated with higher levels of teen privacy concern. Higher levels of teen privacy concern predict both advice-seeking and remedy/corrective risk-coping behaviors. Drawing on theories of information privacy and developmental psychology, we discuss these findings from the perspective of allowing teens to experience some level of online risk so that they can learn how to navigate the dangers and reap the benefits of online engagement.",
         "keywords": "",
         "authors": [
@@ -3380,7 +3374,7 @@ entities={
     },
     "cscw714": {
         "title": "Participatory Militias: An Analysis of an Armed Movement's Online Audience",
-        "abstract": "Armed groups of civilians, known as the \"self-defense militias,\" have ousted powerful drug cartels from several Mexican towns. This militia uprising has unfolded on social media, in particular in a Facebook page reaching almost 160,000 fans.  Unlike previously documented uses of social media in the Mexican Drug War,  the page not only posts reports of the violent clashes, but it also plays a pro-militia propagandistic role, and engages in two-way communication with its audience. This work presents a descriptive analysis of VXM and its audience. We examine the full 6,000 posts by the VXM administrators, and more than 108,000 comments by their fans. We extract themes, post frequency, and its relationship with offline events and public figures. We argue that VXM presents a novel form of participatory propaganda online that helps people make sense of the violence, and, in some cases, foster offline collective action. We conclude by discussing possible applications of these findings for the design of civic engagement technologies.",
+        "abstract": "Armed groups of civilians, known as the \"self-defense militias,\" have ousted powerful drug cartels from several Mexican towns. This militia uprising has unfolded on social media, in particular in a Facebook page reaching almost 160,000 fans. Unlike previously documented uses of social media in the Mexican Drug War, the page not only posts reports of the violent clashes, but it also plays a pro-militia propagandistic role, and engages in two-way communication with its audience. This work presents a descriptive analysis of VXM and its audience. We examine the full 6,000 posts by the VXM administrators, and more than 108,000 comments by their fans. We extract themes, post frequency, and its relationship with offline events and public figures. We argue that VXM presents a novel form of participatory propaganda online that helps people make sense of the violence, and, in some cases, foster offline collective action. We conclude by discussing possible applications of these findings for the design of civic engagement technologies.",
         "keywords": "",
         "authors": [
             {
@@ -3464,7 +3458,7 @@ entities={
         "keywords": "",
         "authors": [
             {
-                "name": "A.K.M. Najmul Islam"
+                "name": "A K M Najmul Islam"
             },
             {
                 "name": "Sameer Patil"
@@ -3599,7 +3593,7 @@ entities={
         "award": 0, 
         "hm": 0, 
         "subtype": "poster", 
-        "title": "Alone Together: Multiplayer Online Ball Passing using Kinects --- an Experimental Study", 
+        "title": "Alone Together: Multiplayer Online Ball Passing using Kinects -- an Experimental Study", 
         "type": "poster"
     }, 
     "cscwpp124": {
@@ -3757,7 +3751,7 @@ entities={
                 "name": "Jake Orlowitz"
             }, 
             {
-                "name": "Jonathan T. Morgan"
+                "name": "Jonathan T Morgan"
             }, 
             {
                 "name": "Aaron Shaw"
@@ -4333,7 +4327,7 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "Nigini  Oliveira"
+                "name": "Nigini Oliveira"
             }
         ], 
         "award": 0, 
@@ -4372,7 +4366,7 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "Tiffany Y. Tang"
+                "name": "Tiffany Y Tang"
             }, 
             {
                 "name": "Pinata Winoto"
@@ -4391,13 +4385,13 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "Thomas S. Methven"
+                "name": "Thomas S Methven"
             }, 
             {
                 "name": "Stefano Padilla"
             }, 
             {
-                "name": "Mike J. Chantler"
+                "name": "Mike J Chantler"
             }
         ], 
         "award": 0, 
@@ -4454,7 +4448,7 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "David A. Robb"
+                "name": "David A Robb"
             }, 
             {
                 "name": "Stefano Padilla"
@@ -4463,7 +4457,7 @@ entities={
                 "name": "Britta Kalkreuter"
             }, 
             {
-                "name": "Mike J. Chantler"
+                "name": "Mike J Chantler"
             }
         ], 
         "award": 0, 
@@ -4476,19 +4470,19 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "D. Ellwanger"
+                "name": "D Ellwanger"
             }, 
             {
-                "name": "N. Dillon"
+                "name": "N Dillon"
             }, 
             {
-                "name": "T. Wu"
+                "name": "T Wu"
             }, 
             {
-                "name": "P. Dewan"
+                "name": "P Dewan"
             }, 
             {
-                "name": "J. Carter"
+                "name": "J Carter"
             }
         ], 
         "award": 0, 
@@ -4501,7 +4495,7 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "Andrea H. Tapia"
+                "name": "Andrea H Tapia"
             }, 
             {
                 "name": "Michelle Hall"
@@ -4744,7 +4738,7 @@ entities={
         "type": "demo"
     }, 
     "w1": {
-        "abstract": "", 
+        "abstract": "Building on recent research in privacy management and disclosure in networked spaces, this two-day workshop examines networked privacy challenges from a broader perspective by (1) identifying the most important issues researchers will need to address in the next decade and (2) working to create actionable solutions for these privacy issues. This workshop comes at a critical time for organizations, researchers, and consumers, as content-sharing applications soar in popularity and more privacy and security vulnerabilities emerge. Workshop participants and organizers will work together to develop a guiding framework for the community that highlights the future challenges and opportunities of networked privacy.", 
         "authors": [
             {
                 "name": "Jessica Vitak"
@@ -4778,7 +4772,7 @@ entities={
         "type": "workshop"
     }, 
     "w10": {
-        "abstract": "", 
+        "abstract": "Human behavior increasingly involves digital online software, where the activities and resources that support (1) learning, (2) work, and (3) collaboration overlap and are placed in far greater proximity than the physical world -- often just a tab or window away. What scientific and practical gains in 21st century learning, work, and collaboration can be achieved by integrating and contrasting these three areas' relevant technologies, scientific communities, and industry practitioners? For example: How can software for collaborative work incorporate learning? Which methods are effective for coordinating diverse experts to iteratively improve online educational resources? How can online learning improve the skill set and labor force for crowd work? The workshop tackles such questions by bringing together participants from industry (e.g., platforms similar to Odesk, MechanicalTurk); education, psychology, & MOOCs (e.g., attendees of AERA, EDM, AIED, Learning at Scale); crowdsourcing and collaborative work (e.g. attendees of CHI, CSCW, AAAI's HCOMP).", 
         "authors": [
             {
                 "name": "Joseph Jay Williams"
@@ -4812,10 +4806,22 @@ entities={
         "type": "workshop"
     }, 
     "w11": {
-        "abstract": "", 
+        "abstract": "Co-located environments are often seen as ideal group work settings since they provide a rich communication environment (e.g. delay-free voice communication, face-to-face interaction, eye gaze, and non-verbal communication) that promotes awareness and coordination. However, multi-device ecologies, in which co-located collaborators utilize multiple personal devices (e.g., laptops, tablets) or personal devices in conjunction with large shared displays, such as digital walls or tabletops, can interfere with common face-to-face communication and collaboration strategies. These contexts shift group members' focus, at least some of the time, toward their personal devices and away from their collaborators or any shared artifacts. Group communication and coordination can easily breakdown in these scenarios due to the lack of shared group focus. This workshop will explore design techniques to address this issue, and improve group awareness in these co-located multi-device ecologies. This will be accomplished through group presentations, brainstorming sessions, and small-group breakout sessions.", 
         "authors": [
             {
-                "name": "Stacey D. Scott , T.C. Nicholas Graham , James R. Wallace , Mark Hancock , Miguel Nacenta"
+                "name": "Stacey D Scott"
+            },            
+            {
+                "name": "T C Nicholas Graham"
+            },
+            {
+                "name": "James R Wallace"
+            },
+            {
+                "name": "Mark Hancock"
+            },
+            {
+                "name": "Miguel Nacenta"
             }
         ], 
         "award": 0, 
@@ -4825,7 +4831,7 @@ entities={
         "type": "workshop"
     }, 
     "w2": {
-        "abstract": "", 
+        "abstract": "In this workshop, we propose to situate health, first as a proactive (de-medicalised) experience that facilitates innovation, creativity and improved quality of life; second, we seek specifically to use this workshop to explore how CSCW methods and design experience may inform such an exploration to support interactive technology from social/industrial collaborative infrastructure to individual/social interactive systems for what we call Wellth Creation, that is sustainable health and wellbeing IT that is Proactive and Aspirational. We ask, what is the role of CSCW as methodology and epistemology in the development of interactive technology for Proactive Health & Wellbing? What contributions are CSCW researchers best prepared make to the critical and timely development of re-designing our cultures to support health as a social good? This workshop proposes to dedicate its two days to exploring these questions and to produce a research agenda for CSCW for Proactive Health. These questions are both critical and timely.", 
         "authors": [
             {
                 "name": "Alan Chamberlain"
@@ -4853,7 +4859,7 @@ entities={
         "type": "workshop"
     }, 
     "w3": {
-        "abstract": "", 
+        "abstract": "Challenges of local communities such as encouraging civic engagement and facilitating collaboration to address local issues have motivated researchers and practitioners to explore the role of technologies in the city life. The goal of this workshop is to open a discussion on how to design, build and study technology infrastructure to support cities, neighborhoods and local communities. We aim to create a publicly accessible repository of infrastructure tools and to facilitate the cross-pollination of ideas about technology in local contexts among the researchers, practitioners and residents interested in this area. At the workshop, participants will collaborate with Vancouver's residents and technology practitioners in order to explore the past, present and future of research in this space, co-construct the infrastructuring tools repository, discuss key information challenges of local communities and brainstorm solutions and opportunities to address them. Discussion and ideas generated will be archived online to be available to the larger research community.", 
         "authors": [
             {
                 "name": "Elizabeth Daly"
@@ -4893,7 +4899,7 @@ entities={
         "type": "workshop"
     }, 
     "w4": {
-        "abstract": "", 
+        "abstract": "Location-based social network apps for dating have had explosive growth over the past few years. Although they have many possible uses, casual and sexual encounters remain an important part of their draw. For CSCW, these apps are interesting to study: they offer a context to explore issues of identity and self-presentation, geography and locality, privacy and security, as well as motivation and usage habits. In this one-day workshop, we invite researchers, students, and practitioners from a diverse range of backgrounds, including CSCW, computer science, sociology, and public health, to discuss these issues and more, as well as exploring the difficulties and challenges inherent in this research. In addition to exploring the issues around apps for sex and dating, participants will also help to bring some of these sensitive, yet important topics into the mainstream of CSCW research.", 
         "authors": [
             {
                 "name": "Jeremy Birnholtz"
@@ -4915,7 +4921,7 @@ entities={
         "type": "workshop"
     }, 
     "w5": {
-        "abstract": "", 
+        "abstract": "The evolution of social technology and research methods present ongoing challenges to studying people online. Recent high-profile cases have prompted discussion among both the research community and the general public about the ethical implications of researching humans, their information, and their activities in large-scale digital contexts. Examples of scientific and market research involving Facebook users and OKCupid clients exemplify the ethical complexities of both studying and manipulating online user behavior. When does data science become human subjects research, and what are our obligations to these subjects as researchers? Drawing from previous work around the ethics of digital research, one goal of this workshop is to work towards a set of guiding principles for CSCW scholars doing research online.", 
         "authors": [
             {
                 "name": "Amy Bruckman"
@@ -4946,10 +4952,10 @@ entities={
         "type": "workshop"
     }, 
     "w6": {
-        "abstract": "", 
+        "abstract": "Open collaboration systems like Wikipedia, Imgur, Zooniverse, StackExchange, and Reddit have shown that networked communities of volunteer contributors can produce and maintain immense, valuable public resources. A growing body of work within the CSCW research community has come to recognize novel opportunities and challenges that openness brings with it. For example: (1) Distributed production and the need for quality control; (2) Maintaining volunteer motivation to participate; (3); Distributing the processes for articulation and governance; (4) Community maintenance via socializing newcomers. However, findings from these academic studies do not always permeate the boundaries between scholarship and practice. Furthermore, many important phenomena related to peer production are not yet fully understood. This workshop will focus on characterizing areas of research within the domain of Open Collaboration Systems (OCS's) where partnerships between academic and industry researchers can both increase our scientific understanding of OCS's and also support those systems through research. This workshop's purpose is to bring together researchers on both sides of the \"data divide\" to identify current challenges and opportunities for future research within these research areas, and to develop a preliminary set of requirements for improved resource sharing and collaboration between OC enterprises and academic research institutions.", 
         "authors": [
             {
-                "name": "Jonathan T. Morgan"
+                "name": "Jonathan T Morgan"
             }, 
             {
                 "name": "Aaron Halfaker"
@@ -4962,9 +4968,6 @@ entities={
             }, 
             {
                 "name": "Sean Goggins"
-            }, 
-            {
-                "name": ""
             }
         ], 
         "award": 0, 
@@ -4974,7 +4977,7 @@ entities={
         "type": "workshop"
     }, 
     "w7": {
-        "abstract": "", 
+        "abstract": "The workshop organizers are members of an informal committee currently planning CSCW 2017 in Brazil. As we get set for this event, it is paramount to enroll a broader number of CSCW researchers in Latin America (LA) in the broader CSCW community. CSCW research in LA has been active since the mid 1990's although largely disconnected from the broader international CSCW. It is critical to acknowledge this history and collectively understand how the CSCW community can learn from CSCW in LA and how LA researchers can be better represented in and integrated into international CSCW. The goal of this workshop is twofold. First, to provide a forum for researchers working in LA to present their work for the international CSCW community, and second, to allow the international CSCW community to understand the issues around doing CSCW research in LA. Senior discussants will be invited to discuss the work of LA researchers and introduce key issues from their regions, therefore facilitating the cross-region conversations among participants.", 
         "authors": [
             {
                 "name": "Rogério de Paula"
@@ -4983,7 +4986,7 @@ entities={
                 "name": "Marcos R S Borges"
             }, 
             {
-                "name": "Cleidson R. B. de Souza"
+                "name": "Cleidson R B de Souza"
             }, 
             {
                 "name": "David Randall"
@@ -4999,7 +5002,7 @@ entities={
         "type": "workshop"
     }, 
     "w8": {
-        "abstract": "", 
+        "abstract": "Building on last year's successful CSCW 2014 workshop on Feminism and Social Media, we propose a follow-on workshop to bring together a set of CSCW scholars around the theme of feminist perspectives in social computing and technology. We will explore theoretical and methodological approaches to the topic and, draw on literature and empirical studies to build a set of generative and creative dialogues around the topics of diversity, sexual orientation, cultural attitudes, sociopolitical affiliations, and other emergent themes. Conversations will be particularly directed toward the challenges of using a feminist approach in CSCW scholarship, identifying both productive and problematic research practices. We expect this session to open new feminist dialogues about current issues in CSCW from sexuality and identity on social media, labor and technology development, and gender inequality within Science, Technology, Engineering, and Math + Arts and Design (STEAM) collaborative efforts, and other emergent areas of interest.", 
         "authors": [
             {
                 "name": "Stephanie Steinhardt"
@@ -5027,7 +5030,7 @@ entities={
         "type": "workshop"
     }, 
     "w9": {
-        "abstract": "", 
+        "abstract": "In this workshop we consider new financial services from a CSCW and Social Computing perspective. In particular, we will bring together researchers, policy-makers and practitioners who are interested in new financial services such as mobile payments, digital money, microfinance, mobile commerce, and are interested in the adoption and use of these new services by special sub-populations. Also of interest in this workshop will be the use of social analytics to understand financial markets and create new services. We also hope to explore the underlying group and network mechanisms that promote trust and enable commerce (e.g., solidarity lending groups).", 
         "authors": [
             {
                 "name": "David Millen"
@@ -5100,6 +5103,19 @@ entities={
         "title": "Algorithms in our Midst: Information, Power and Choice when Software is Everywhere", 
         "type": "keynote"
     }, 
+    "key-ls": {
+        "abstract": "There is great enthusiasm for the idea that massive amounts of data from online interactions of learners with material can lead to a rapid improvement cycle, driven by analysis of the data, experimentation, and intervention to do more of what works and less of what doesn't. This talk discusses techniques for working with massive amounts of data.", 
+        "authors": [
+            {
+                "name": "Peter Norvig"
+            }
+        ], 
+        "award": 0, 
+        "hm": 0, 
+        "subtype": "keynote", 
+        "title": "Machine Learning for Learning at Scale", 
+        "type": "keynote"
+    }, 
     "rec-tues": {
         "abstract": "", 
         "authors": [
@@ -5109,7 +5125,5 @@ entities={
         "subtype": "reception", 
         "title": "Steamworks", 
         "type": "reception"
-    }, 
-
-
+    }
 }
