@@ -641,7 +641,7 @@ sessions={
         "award": 0,
         "hm": 0,
         "subtype": "paper",
-        "chair": "Andres Monroy-Hernandez"
+        "chair": "Andrés Monroy-Hernández"
     },
     "s122": {
         "s_title": "Journalism and Politics",
@@ -732,7 +732,7 @@ sessions={
         "chair": "Dave Randall"
     },
     "s127": {
-        "s_title": "Technologies in the workplace",
+        "s_title": "Technologies in the Workplace",
         "time": "10:30-11:45",
         "submissions": [
             "cscw259",
@@ -1037,7 +1037,7 @@ sessions={
         "chair": "Pernille Bjørn"
     },
     "s144": {
-        "s_title": "All in the family",
+        "s_title": "All in the Family",
         "time": "13:45-15:00",
         "submissions": [
             "cscw342",

@@ -24,7 +24,7 @@
 
 .link {
   stroke: #999;
-  stroke-opacity: .4;
+  stroke-opacity: 0.8;
 }
 
 text {
@@ -44,11 +44,11 @@ var width = 1024,
 
 
 function get_size(weight){
-	return 5;
+	return weight;
 }
 
 function get_width(weight){
-	return 1;
+	return weight;
 }
 
 function get_title(id){
@@ -70,17 +70,26 @@ var svg = d3.select("#visualization_container").append("svg")
 d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, graph) {
   // Create a force layout to display nodes.
   var force = d3.layout.force()
-      .charge(-40)
-      .linkDistance(function(e){return 50/(1 + e.weight*2.5)})
       .nodes(graph.nodes)
       .links(graph.links)
-      .size([width, height]);
+      .size([width, height])
+      .linkStrength(0.1)
+      .friction(0.9)
+      .linkDistance(20)
+      .charge(-30)
+      .gravity(0.1)
+      .theta(0.8)
+      .alpha(0.1)
+      .start();
 	 
 	  	
 
   // Add the edges to the SVG.
   var link = svg.selectAll('.link')
       .data(graph.links)
+      .enter().append('line')
+      .attr('class', 'link')
+      .style('stroke-width', function(d) { return 1; })
  
   // Add the nodes to the SVG.
   var node = svg.selectAll('.node')
@@ -90,7 +99,7 @@ d3.json("/{{conf}}/paper_paper_graph?strength={{strength}}", function(error, gra
       .call(force.drag);
 	  
   node.append("circle")
-      .attr('r', function(d) { return get_size(d.weight); })
+      .attr('r', function(d) { return 5; })
       .style("fill", "#cfeb8a")
       .style("fill-opacity", 0.8);
   
