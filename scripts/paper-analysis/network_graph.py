@@ -44,8 +44,6 @@ def get_user_preferences (conf):
 '''
 Constructs a similarity graph from an affinity_map
 
-For Example:
-
 Input:
 
 friends_affinity_map = {
@@ -99,7 +97,7 @@ For a given conference, generates 3 graphs
                                  the papers in their preference list.
 '''
 def get_network_graph (conf):
-  user_preferences = get_user_preferences('cscw2015')
+  user_preferences = get_user_preferences(conf)
   paper_preferences = defaultdict(set)
   
   paper_person_graph = nx.Graph()
