@@ -4,7 +4,6 @@ import os
 import networkx as nx
 import sys
 from networkx.readwrite import json_graph
-import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
   p = os.path.abspath(os.path.dirname(__file__))
@@ -14,38 +13,6 @@ if __name__ == "__main__":
 
 from collections import defaultdict
 from server.models import *
-
-
-'''
-Finds all the cliques in the graph and prints various print_graph_stats
-'''
-def print_graph_stats(graph):
-  cliques = [c for c in nx.find_cliques(graph)]
-
-  num_cliques = len(cliques)
-
-  clique_sizes = [len(c) for c in cliques]
-  max_clique_size = max(clique_sizes)
-  avg_clique_size = sum(clique_sizes) / num_cliques
-
-  max_cliques = [c for c in cliques if len(c) == max_clique_size]
-
-  num_max_cliques = len(max_cliques)
-
-  max_clique_sets = [set(c) for c in max_cliques]
-  nodes_in_all_max_cliques = list(
-      reduce(lambda x, y: x.intersection(y), max_clique_sets))
-
-  print 'Num cliques:', num_cliques
-  print 'Avg clique size:', avg_clique_size
-  print 'Max clique size:', max_clique_size
-  print 'Num max cliques:', num_max_cliques
-  print
-  print 'nodes in all max cliques:'
-  print json.dumps(nodes_in_all_max_cliques, indent=1)
-  print
-  print 'Max cliques:'
-  print json.dumps(max_cliques, indent=1)
 
 
 '''
@@ -85,6 +52,38 @@ def construct_network_graph(affinity_map):
             key1, key2, weight=weight, common_data=list(common_data))
 
   return network
+
+
+'''
+Finds all the cliques in the graph and prints various print_graph_stats
+'''
+def print_graph_stats(graph):
+  cliques = [c for c in nx.find_cliques(graph)]
+
+  num_cliques = len(cliques)
+
+  clique_sizes = [len(c) for c in cliques]
+  max_clique_size = max(clique_sizes)
+  avg_clique_size = sum(clique_sizes) / num_cliques
+
+  max_cliques = [c for c in cliques if len(c) == max_clique_size]
+
+  num_max_cliques = len(max_cliques)
+
+  max_clique_sets = [set(c) for c in max_cliques]
+  nodes_in_all_max_cliques = list(
+      reduce(lambda x, y: x.intersection(y), max_clique_sets))
+
+  print 'Num cliques:', num_cliques
+  print 'Avg clique size:', avg_clique_size
+  print 'Max clique size:', max_clique_size
+  print 'Num max cliques:', num_max_cliques
+  print
+  print 'nodes in all max cliques:'
+  print json.dumps(nodes_in_all_max_cliques, indent=1)
+  print
+  print 'Max cliques:'
+  print json.dumps(max_cliques, indent=1)
 
 
 '''
