@@ -28,6 +28,14 @@
 <div id="visualization_container"></div>
 <script>
 
+function get_text(d) {
+  var text = d.id[1] + ": " + d.id[0]
+  if(d.id[1] == "paper" && d.id[0] != undefined) {
+    text += entities[d.id[0]].title
+  }
+  return text
+}
+
 var width = 1024,
     height = 900,
     fill = d3.scale.category20(),
@@ -67,14 +75,7 @@ d3.json("/{{conf}}/network_graph", function(json) {
   node.append("title")
       .attr("dx", 12)
       .attr("dy", ".35em")
-      .text(function(d) { 
-        text = d.id[1] + ": " + d.id[0]
-        if(d.id[1] == "paper" && d.id[0] != undefined) {
-          var paper_id = d.id[0];
-          text += entities[paper_id].title
-        }
-        return text
-      });
+      .text(get_text(d));
 
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
