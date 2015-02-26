@@ -70,7 +70,7 @@ d3.json("/{{conf}}/network_graph", function(json) {
       .text(function(d) { 
         text = d.id[1] + ": " + d.id[0]
         if(d.id[1] == "paper") {
-          text += entities[d.id[0]].title
+          text += entities[(d.id[0]).toString()].title
         }
         return text
       });
