@@ -386,27 +386,29 @@ def network_graph (request, conf):
   conf = conf.lower()
   errors = []
   try:
-    paper_person_graph = nx.Graph()  
-    try:
-      conference = Conference.objects.get(unique_name=conf)    
-      users = Registration.objects.filter(conference=conference)
-      for user in users:
-        try: 
-          papers_liked_by_user = json.loads(
-              Likes.objects.get(registration=user).likes)
-          
-          for paper in papers_liked_by_user:
-            paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
+    paper_person_graph = nx.Graph()
+    conference = Conference.objects.get(unique_name=conf)    
+    users = Registration.objects.filter(conference=conference)
+    for user in users:
+      try: 
+        papers_liked_by_user = json.loads(
+            Likes.objects.get(registration=user).likes)
         
-        except Likes.DoesNotExist:
-          pass
-      return HttpResponse(
-          json_graph.node_link_data(paper_person_graph),
-          mimetype="application/json")
-
+        for paper in papers_liked_by_user:
+          paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
+      
+      except Likes.DoesNotExist:
+        pass
+    
+    return HttpResponse(
+      json_graph.node_link_data(paper_person_graph),
+      mimetype="application/json")
+  
   except Exception, e:
     errors.append(str(e))
-    return HttpResponse("error"))
+    return HttpResponse("error")
+
+
 
 
 def feed (request, conf):
