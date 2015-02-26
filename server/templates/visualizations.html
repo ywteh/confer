@@ -31,7 +31,9 @@
 function get_text(d) {
   var text = d.id[1] + ": " + d.id[0]
   if(d.id[1] == "paper" && d.id[0] != undefined) {
-    text += entities[d.id[0]].title
+    if (entities[d.id[0]] != undefined) {
+      text += entities[d.id[0]].title
+    }
   }
   return text
 }
