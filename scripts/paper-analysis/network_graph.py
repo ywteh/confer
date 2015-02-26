@@ -112,7 +112,6 @@ def get_network_graph (conf):
       paper_person_graph.add_edge((user, 'person'), (paper, 'paper'))
       paper_preferences[paper].add(user)
 
-
   paper_paper_similarity_graph = construct_similarity_graph(paper_preferences)
   person_person_similarity_graph = construct_similarity_graph(user_preferences)
 
