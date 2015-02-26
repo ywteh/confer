@@ -16,45 +16,6 @@ from server.models import *
 
 
 '''
-Constructs a network graph from an affinity_map
-
-For Example:
-
-Input
-
-friends_affinity_map = {
-  'rob': ['david', 'daniel', 'sam'],
-  'david': ['rob', 'sam', 'anant'],
-  'sam': ['rob', 'david', 'anant']
-}
-
-Output Graph:
-
-Nodes = ['rob', 'anant', 'sam', 'david', 'daniel']
-Edges = [
-  {source: 'rob', target: 'david', 'weight': 1},
-  {source: 'rob', target: 'sam', 'weight': 1},
-  {source: 'david', target: 'sam', 'weight': 2}
-]
-'''
-def construct_network_graph(affinity_map):
-  network = nx.Graph()
-  for key1 in affinity_map:
-    for key2 in affinity_map:
-      if key1 == key2:
-        continue
-      
-      common_data = affinity_map[key1].intersection(affinity_map[key2])
-      weight = len(common_data)
-      
-      if weight > 0:
-        network.add_edge(
-            key1, key2, weight=weight, common_data=list(common_data))
-
-  return network
-
-
-'''
 Finds all the cliques in the graph and prints various print_graph_stats
 '''
 def print_graph_stats(graph):
@@ -84,6 +45,45 @@ def print_graph_stats(graph):
   print
   print 'Max cliques:'
   print json.dumps(max_cliques, indent=1)
+
+
+'''
+Constructs a similarity graph from an affinity_map
+
+For Example:
+
+Input
+
+friends_affinity_map = {
+  'rob': ['david', 'daniel', 'sam'],
+  'david': ['rob', 'sam', 'anant'],
+  'sam': ['rob', 'david', 'anant']
+}
+
+Output Graph:
+
+Nodes = ['rob', 'anant', 'sam', 'david', 'daniel']
+Edges = [
+  {source: 'rob', target: 'david', 'weight': 1},
+  {source: 'rob', target: 'sam', 'weight': 1},
+  {source: 'david', target: 'sam', 'weight': 2}
+]
+'''
+def construct_similarity_graph(affinity_map):
+  network = nx.Graph()
+  for key1 in affinity_map:
+    for key2 in affinity_map:
+      if key1 == key2:
+        continue
+      
+      common_data = affinity_map[key1].intersection(affinity_map[key2])
+      weight = len(common_data)
+      
+      if weight > 0:
+        network.add_edge(
+            key1, key2, weight=weight, common_data=list(common_data))
+
+  return network
 
 
 '''
@@ -145,8 +145,8 @@ def get_network_graph (conf):
       paper_preferences[paper].add(user)
 
 
-  paper_paper_similarity_graph = construct_network_graph(paper_preferences)
-  person_person_similarity_graph = construct_network_graph(user_preferences)
+  paper_paper_similarity_graph = construct_similarity_graph(paper_preferences)
+  person_person_similarity_graph = construct_similarity_graph(user_preferences)
 
   return {
     'paper_person_graph': paper_person_graph,
