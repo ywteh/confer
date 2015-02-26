@@ -1,4 +1,6 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random, networkx as nx
+import sys
+from networkx.readwrite import json_graph
 
 from auth import *
 from django.http import *
@@ -7,6 +9,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core.context_processors import csrf
 from django.db.utils import IntegrityError
 from collections import defaultdict
+from networkx.readwrite import json_graph
 
 from utils import *
 from models import *
@@ -378,58 +381,31 @@ def visualizations (request, conf):
   except:
     return HttpResponseRedirect('/')
 
-def paper_paper_graph (request, conf):
+def network_graph (request, conf):
   conf = conf.lower()
-  edges = defaultdict(dict)
-  nodes = set()
-  likes = defaultdict(set)
-  nodesArray = []
-  linksArray = []
   errors = []
   try:
-    strength = 10
+    paper_person_graph = nx.Graph()  
     try:
-      strength = int(request.REQUEST["strength"])
-    except:
-      pass
-
-    conference = Conference.objects.get(unique_name=conf)    
-    registrations = Registration.objects.filter(conference=conference)
-    for r in registrations:
-      try:      
-        r_likes = Likes.objects.get(registration=r)
-        r_papers = json.loads(r_likes.likes)
-        for p in r_papers:
-          likes[p].add(r)
-          nodes.add(p)
-      except:
-        pass
-    
-    nodes = list(nodes)
-
-    for p1 in nodes:
-      for p2 in nodes:
-        edges[p1][p2] = -1
-        if(p1 != p2): 
-          common_likes = likes[p1].intersection(likes[p2])        
-          edges[p1][p2] = len(common_likes)
-
-    k = 0
-    for node in nodes:
-      nodesArray.append({'id': k, 'paper_id': node, 'weight': len(likes[node])})
-      k += 1
-
-    for edge in edges:
-      links = edges[edge]
-      for l in links:
-        weight = edges[edge][l]
-        if(weight >= strength):
-          linksArray.append({'source' : nodes.index(edge), 'target' : nodes.index(l), 'weight': weight})
+      conference = Conference.objects.get(unique_name=conf)    
+      users = Registration.objects.filter(conference=conference)
+      for user in users:
+        try: 
+          papers_liked_by_user = json.loads(
+              Likes.objects.get(registration=user).likes)
+          
+          for paper in papers_liked_by_user:
+            paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
+        
+        except Likes.DoesNotExist:
+          pass
+      return HttpResponse(
+          json_graph.node_link_data(paper_person_graph),
+          mimetype="application/json")
 
   except Exception, e:
     errors.append(str(e))
-  
-  return HttpResponse(json.dumps({'nodes': nodesArray, 'links': linksArray, 'errors': errors}), mimetype="application/json")
+    return HttpResponse("error"))
 
 
 def feed (request, conf):
