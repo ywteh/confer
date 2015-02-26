@@ -15,8 +15,41 @@ if __name__ == "__main__":
 from collections import defaultdict
 from server.models import *
 
+
 '''
-Constructs a network graph from an affinity affinity_map
+Finds all the cliques in the graph and prints various print_graph_stats
+'''
+def print_graph_stats(graph):
+  cliques = [c for c in nx.find_cliques(graph)]
+
+  num_cliques = len(cliques)
+
+  clique_sizes = [len(c) for c in cliques]
+  max_clique_size = max(clique_sizes)
+  avg_clique_size = sum(clique_sizes) / num_cliques
+
+  max_cliques = [c for c in cliques if len(c) == max_clique_size]
+
+  num_max_cliques = len(max_cliques)
+
+  max_clique_sets = [set(c) for c in max_cliques]
+  nodes_in_all_max_cliques = list(
+      reduce(lambda x, y: x.intersection(y), max_clique_sets))
+
+  print 'Num cliques:', num_cliques
+  print 'Avg clique size:', avg_clique_size
+  print 'Max clique size:', max_clique_size
+  print 'Num max cliques:', num_max_cliques
+  print
+  print 'nodes in all max cliques:'
+  print json.dumps(nodes_in_all_max_cliques, indent=1)
+  print
+  print 'Max cliques:'
+  print json.dumps(max_cliques, indent=1)
+
+
+'''
+Constructs a network graph from an affinity_map
 
 For Example:
 
@@ -37,7 +70,6 @@ Edges = [
   {source: 'david', target: 'sam', 'weight': 2}
 ]
 '''
-
 def construct_network_graph(affinity_map):
   network = nx.Graph()
   for key1 in affinity_map:
@@ -55,69 +87,79 @@ def construct_network_graph(affinity_map):
   return network
 
 
-def get_network_graph (conf):
-  paper_likes = defaultdict(set)
-  person_likes = defaultdict(set)
-  paper_person_graph = nx.Graph()
+'''
+Fetches data from the databse
+
+For a given conf, returns a dictionary of <user: set(preferences)>
+
+Sample Output:
+
+{
+  'rob': ('paper1', 'paper2', 'paper3'),
+  'david': ('paper3', 'paper5', 'paper7')
+}
+'''
+def get_user_preferences (conf):
   conference = Conference.objects.get(unique_name=conf)    
   users = Registration.objects.filter(conference=conference)
+
+  user_preferences = defaultdict(set)
   for user in users:
     try: 
-      papers_liked_by_user = json.loads(
+      preferences = json.loads(
           Likes.objects.get(registration=user).likes)
 
-      person_likes[user.id] = set(papers_liked_by_user)
-      
-      for paper in papers_liked_by_user:
-        paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
-        paper_likes[paper].add(user.id)
+      user_preferences[user.id] = set(preferences)
     
     except Likes.DoesNotExist:
       pass
 
-  paper_paper_affinity_graph = construct_network_graph(paper_likes)
-  person_person_affinity_graph = construct_network_graph(person_likes)
+  return user_preferences
+
+
+'''
+For a given conference, generates 3 graphs
+
+1) paper_person_graph: Each person and each paper is a node and there is an
+                       edge between a paper and a person if the paper is in
+                       the preference list of the person.
+
+2) person_person_similarity_graph: Each person is a node and there is an edge
+                                   between two people if they have one or more
+                                   papers in common, with the weight = number
+                                   of papers in common.
+
+3) paper_paper_similarity_graph: Each paper is a node and there is an edge
+                                 between two papers if one or more people have
+                                 both the papers in their preference list, with
+                                 the weight = number of people who have both
+                                 the papers in their preference list.
+'''
+def get_network_graph (conf):
+  user_preferences = get_user_preferences('cscw2015')
+  paper_preferences = defaultdict(set)
+  
+  paper_person_graph = nx.Graph()
+  for user, preferences in user_preferences.iteritems():    
+    for paper in preferences:
+      paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
+      paper_preferences[paper].add(user.id)
+
+
+  paper_paper_similarity_graph = construct_network_graph(paper_preferences)
+  person_person_similarity_graph = construct_network_graph(user_preferences)
 
   return {
     'paper_person_graph': paper_person_graph,
-    'paper_paper_affinity_graph': paper_paper_affinity_graph,
-    'person_person_affinity_graph': person_person_affinity_graph
+    'paper_paper_similarity_graph': paper_paper_similarity_graph,
+    'person_person_similarity_graph': person_person_similarity_graph
   }
-
-
-def print_graph_stats(graph):
-  cliques = [c for c in nx.find_cliques(graph)]
-
-  num_cliques = len(cliques)
-
-  clique_sizes = [len(c) for c in cliques]
-  max_clique_size = max(clique_sizes)
-  avg_clique_size = sum(clique_sizes) / num_cliques
-
-  max_cliques = [c for c in cliques if len(c) == max_clique_size]
-
-  num_max_cliques = len(max_cliques)
-
-  max_clique_sets = [set(c) for c in max_cliques]
-  nodes_in_all_max_cliques = list(reduce(lambda x, y: x.intersection(y),
-                                    max_clique_sets))
-
-  print 'Num cliques:', num_cliques
-  print 'Avg clique size:', avg_clique_size
-  print 'Max clique size:', max_clique_size
-  print 'Num max cliques:', num_max_cliques
-  print
-  print 'nodes in all max cliques:'
-  print json.dumps(nodes_in_all_max_cliques, indent=1)
-  print
-  print 'Max cliques:'
-  print json.dumps(max_cliques, indent=1)
 
 
 def main():
   network = get_network_graph('cscw2015')
-  person_person_affinity_graph = network['person_person_affinity_graph']
-  print_graph_stats(person_person_affinity_graph)
+  person_person_similarity_graph = network['person_person_similarity_graph']
+  print_graph_stats(person_person_similarity_graph)
 
 
 if __name__ == "__main__":
