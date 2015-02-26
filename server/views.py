@@ -1,4 +1,5 @@
-import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random, networkx as nx
+import json, sys, re, hashlib, smtplib, base64, urllib, os, difflib, random
+import networkx as nx
 import sys
 from networkx.readwrite import json_graph
 
