@@ -401,7 +401,7 @@ def network_graph (request, conf):
         pass
     
     return HttpResponse(
-      json_graph.node_link_data(paper_person_graph),
+      json.dumps(json_graph.node_link_data(paper_person_graph)),
       mimetype="application/json")
   
   except Exception, e:
