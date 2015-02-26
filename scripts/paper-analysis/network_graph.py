@@ -141,8 +141,8 @@ def get_network_graph (conf):
   paper_person_graph = nx.Graph()
   for user, preferences in user_preferences.iteritems():    
     for paper in preferences:
-      paper_person_graph.add_edge((user.id, 'person'), (paper, 'paper'))
-      paper_preferences[paper].add(user.id)
+      paper_person_graph.add_edge((user, 'person'), (paper, 'paper'))
+      paper_preferences[paper].add(user)
 
 
   paper_paper_similarity_graph = construct_network_graph(paper_preferences)
