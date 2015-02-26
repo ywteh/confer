@@ -16,12 +16,11 @@ from server.models import *
 
 
 '''
-Fetches data from the databse
+Fetches data from the database
 
 For a given conf, returns a dictionary of <user: set(preferences)>
 
 Sample Output:
-
 {
   'rob': ('paper1', 'paper2', 'paper3'),
   'david': ('paper3', 'paper5', 'paper7')
@@ -34,11 +33,8 @@ def get_user_preferences (conf):
   user_preferences = defaultdict(set)
   for user in users:
     try: 
-      preferences = json.loads(
-          Likes.objects.get(registration=user).likes)
-
+      preferences = json.loads(Likes.objects.get(registration=user).likes)
       user_preferences[user.id] = set(preferences)
-    
     except Likes.DoesNotExist:
       pass
 
@@ -50,7 +46,7 @@ Constructs a similarity graph from an affinity_map
 
 For Example:
 
-Input
+Input:
 
 friends_affinity_map = {
   'rob': ['david', 'daniel', 'sam'],
