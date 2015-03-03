@@ -889,6 +889,10 @@ function get_selected_paper_html(id){
   if(entities[id].subtype != null){
     raw_html += '<span class="paper-subtype"> -- ' + entities[id].subtype + '</span>'
   }
+
+  if(entities[id].acm_link != null) {
+    raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
+  }
   
   
   raw_html += '</h3>';
