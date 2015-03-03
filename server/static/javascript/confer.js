@@ -669,9 +669,15 @@ function get_paper_html(id){
   raw_html += '<ul>'
 
   raw_html += '<li class="paper-title"><h3><span class="link" onclick=select_paper("'+id+'")>'+ entities[id].title +'</span>'
-  if(entities[id].subtype!=null){
+  
+  if(entities[id].subtype != null){
     raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].subtype + '</span>'
   }
+
+  if(entities[id].acm_link != null) {
+    raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
+  }
+
   raw_html += '</h3>'
   raw_html += '</li>'
 
