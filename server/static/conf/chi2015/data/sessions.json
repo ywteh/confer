@@ -661,7 +661,7 @@ sessions={
         "chair": ""
     },
     "s100": {
-        "s_title": "Interaction in 3D Space",
+        "s_title": "Papers: Interaction in 3D Space",
         "room": "402",
         "time": "14:30-15:50",
         "submissions": [
@@ -677,12 +677,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Kening Zhu"
     },
     "s101": {
-        "s_title": "Accessibility at Home &amp; on The Go",
+        "s_title": "Papers: Accessibility at Home &amp; on The Go",
         "room": "E5",
         "time": "9:30-10:50",
         "submissions": [
@@ -702,7 +702,7 @@ sessions={
         "chair": "Hironobu Takagi"
     },
     "s102": {
-        "s_title": "Feeling &amp; Communicating Emotions",
+        "s_title": "Papers: Feeling &amp; Communicating Emotions",
         "room": "E6",
         "time": "16:30-17:50",
         "submissions": [
@@ -717,12 +717,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Rongrong Wang"
     },
     "s103": {
-        "s_title": "Quantified&nbsp;Self&nbsp;for Humans &amp;&nbsp;Pets&nbsp;",
+        "s_title": "Papers: Quantified&nbsp;Self&nbsp;for Humans &amp;&nbsp;Pets&nbsp;",
         "room": "E5",
         "time": "11:30-12:50",
         "submissions": [
@@ -737,12 +737,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Rodrigo de Oliveira"
     },
     "s104": {
-        "s_title": "Art &amp; Performance",
+        "s_title": "Papers: Art &amp; Performance",
         "room": "E1/E2",
         "time": "11:30-12:50",
         "submissions": [
@@ -758,12 +758,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Thecla Schiphorst"
     },
     "s105": {
-        "s_title": "Augmented &amp; Virtual Reality in the Real World&nbsp;",
+        "s_title": "Papers: Augmented &amp; Virtual Reality in the Real World&nbsp;",
         "room": "401",
         "time": "9:30-10:50",
         "submissions": [
@@ -783,7 +783,7 @@ sessions={
         "chair": "Morten Fjeld"
     },
     "s106": {
-        "s_title": "Using Random Body Parts for Input",
+        "s_title": "Papers: Using Random Body Parts for Input",
         "room": "401",
         "time": "16:30-17:50",
         "submissions": [
@@ -798,13 +798,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Patrick Baudisch"
     },
     "s107": {
-        "s_title": "HCI for Civic Engagement",
+        "s_title": "Papers: HCI for Civic Engagement",
         "room": "E3",
         "time": "14:30-15:50",
         "submissions": [
@@ -819,12 +819,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "John Vines"
     },
     "s108": {
-        "s_title": "Matching &amp; Facilitating Social Interactions",
+        "s_title": "Papers: Matching &amp; Facilitating Social Interactions",
         "room": "E6",
         "time": "14:30-15:50",
         "submissions": [
@@ -844,7 +844,7 @@ sessions={
         "chair": "Jofish Kaye"
     },
     "s109": {
-        "s_title": "Reflecting Upon Design Reflection",
+        "s_title": "Papers: Reflecting Upon Design Reflection",
         "room": "307",
         "time": "14:30-15:50",
         "submissions": [
@@ -859,12 +859,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Ron Wakkary"
     },
     "s110": {
-        "s_title": "Crowdsourcing Fans &amp; Friends",
+        "s_title": "Papers: Crowdsourcing Fans &amp; Friends",
         "room": "E3",
         "time": "16:30-17:50",
         "submissions": [
@@ -884,7 +884,7 @@ sessions={
         "chair": "Shaun Lawson"
     },
     "s111": {
-        "s_title": "Storytelling in InfoVis",
+        "s_title": "Papers: Storytelling in InfoVis",
         "room": "E6",
         "time": "11:30-12:50",
         "submissions": [
@@ -904,7 +904,7 @@ sessions={
         "chair": "Charles Perin"
     },
     "s112": {
-        "s_title": "Disasters &amp; Humanitarian Events",
+        "s_title": "Papers: Disasters &amp; Humanitarian Events",
         "room": "E4",
         "time": "14:30-15:50",
         "submissions": [
@@ -924,7 +924,7 @@ sessions={
         "chair": "Tawanna R Dillahunt"
     },
     "s113": {
-        "s_title": "Eco-Green: Encouraging Energy Conservation",
+        "s_title": "Papers: Eco-Green: Encouraging Energy Conservation",
         "room": "E4",
         "time": "16:30-17:50",
         "submissions": [
@@ -939,13 +939,13 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Germaine Irwin"
     },
     "s114": {
-        "s_title": "Empowering Users",
+        "s_title": "Papers: Empowering Users",
         "room": "E4",
         "time": "9:30-10:50",
         "submissions": [
@@ -965,7 +965,7 @@ sessions={
         "chair": "Maarten Thissen"
     },
     "s115": {
-        "s_title": "Digital Collections, Practice &amp; Legacy",
+        "s_title": "Papers: Digital Collections, Practice &amp; Legacy",
         "room": "E1/E2",
         "time": "9:30-10:50",
         "submissions": [
@@ -985,7 +985,7 @@ sessions={
         "chair": "Will Odom"
     },
     "s116": {
-        "s_title": "Privacy, Security &amp; Interruptions",
+        "s_title": "Papers: Privacy, Security &amp; Interruptions",
         "room": "E4",
         "time": "14:30-15:50",
         "submissions": [
@@ -1000,12 +1000,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Emilee Rader"
     },
     "s117": {
-        "s_title": "Design and 3D Object Fabrication",
+        "s_title": "Papers: Design and 3D Object Fabrication",
         "room": "401",
         "time": "16:30-17:50",
         "submissions": [
@@ -1020,12 +1020,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "David Kim"
     },
     "s118": {
-        "s_title": "Family Communication",
+        "s_title": "Papers: Family Communication",
         "room": "E1/E2",
         "time": "16:30-17:50",
         "submissions": [
@@ -1041,12 +1041,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Siân E Lindley"
     },
     "s119": {
-        "s_title": "Improving Game Experiences",
+        "s_title": "Papers: Improving Game Experiences",
         "room": "E1/E2",
         "time": "11:30-12:50",
         "submissions": [
@@ -1067,7 +1067,7 @@ sessions={
         "chair": "Lennart E Nacke"
     },
     "s120": {
-        "s_title": "Understanding Gamers",
+        "s_title": "Papers: Understanding Gamers",
         "room": "E1/E2",
         "time": "11:30-12:50",
         "submissions": [
@@ -1088,7 +1088,7 @@ sessions={
         "chair": "Toni-Jan Keith Monserrat"
     },
     "s121": {
-        "s_title": "She or He - Does it Matter?",
+        "s_title": "Papers: Gender &amp; Technology",
         "room": "E4",
         "time": "11:30-12:50",
         "submissions": [
@@ -1102,13 +1102,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Antonella De Angeli"
     },
     "s122": {
-        "s_title": "Interactive &amp; Multi-Surface Maps",
+        "s_title": "Papers: Interactive &amp; Multi-Surface Maps",
         "room": "E6",
         "time": "9:30-10:50",
         "submissions": [
@@ -1122,13 +1122,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Brent Hecht"
     },
     "s123": {
-        "s_title": "Gesture Elicitation &amp; Recognition",
+        "s_title": "Papers: Gesture Elicitation &amp; Recognition",
         "room": "402",
         "time": "9:30-10:50",
         "submissions": [
@@ -1149,7 +1149,7 @@ sessions={
         "chair": "Niels Henze"
     },
     "s124": {
-        "s_title": "Activism in Wikipedia &amp; Beyond",
+        "s_title": "Papers: Activism in Wikipedia &amp; Beyond",
         "room": "E4",
         "time": "11:30-12:50",
         "submissions": [
@@ -1165,13 +1165,13 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Gary Hsieh"
     },
     "s125": {
-        "s_title": "GUI Size, Resolution &amp; Layout",
+        "s_title": "Papers: GUI Size, Resolution &amp; Layout",
         "room": "403",
         "time": "14:30-15:50",
         "submissions": [
@@ -1192,7 +1192,7 @@ sessions={
         "chair": "Enrico Rukzio"
     },
     "s126": {
-        "s_title": "Bridging Communities",
+        "s_title": "Papers: Bridging Communities",
         "room": "E3",
         "time": "11:30-12:50",
         "submissions": [
@@ -1212,7 +1212,7 @@ sessions={
         "chair": "Edward Cutrell"
     },
     "s127": {
-        "s_title": "Wellness &amp; Wearables",
+        "s_title": "Papers: Wellness &amp; Wearables",
         "room": "E5",
         "time": "14:30-15:50",
         "submissions": [
@@ -1227,12 +1227,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Marianna Obrist"
     },
     "s128": {
-        "s_title": "Understanding Health through Online Behavior",
+        "s_title": "Papers: Understanding Health through Online Behavior",
         "room": "E5",
         "time": "16:30-17:50",
         "submissions": [
@@ -1252,7 +1252,7 @@ sessions={
         "chair": "Mary P Czerwinski"
     },
     "s129": {
-        "s_title": "Coping &amp; Wellbeing Through HCI",
+        "s_title": "Papers: Coping &amp; Wellbeing Through HCI",
         "room": "E5",
         "time": "11:30-12:50",
         "submissions": [
@@ -1267,12 +1267,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jina Huh"
     },
     "s130": {
-        "s_title": "Visualizing Data",
+        "s_title": "Papers: Visualizing Data",
         "room": "E6",
         "time": "11:30-12:50",
         "submissions": [
@@ -1287,12 +1287,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Christophe Hurter"
     },
     "s131": {
-        "s_title": "Supporting Change in Developing Countries",
+        "s_title": "Papers: Supporting Change in Developing Countries",
         "room": "E3",
         "time": "14:30-15:50",
         "submissions": [
@@ -1306,13 +1306,13 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Anirudha Joshi"
     },
     "s132": {
-        "s_title": "I Like What I See - Interface Aesthetics",
+        "s_title": "Papers: I Like What I See - Interface Aesthetics",
         "room": "E6",
         "time": "9:30-10:50",
         "submissions": [
@@ -1327,13 +1327,13 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Simon J Bowen"
     },
     "s133": {
-        "s_title": "Kids Haptic, Wearable, Tangible Learning",
+        "s_title": "Papers: Kids Haptic, Wearable, Tangible Learning",
         "room": "E1/E2",
         "time": "9:30-10:50",
         "submissions": [
@@ -1348,12 +1348,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Shuli Gilutz"
     },
     "s134": {
-        "s_title": "Makers &amp; Hackers",
+        "s_title": "Papers: Makers &amp; Hackers",
         "room": "401",
         "time": "16:30-17:50",
         "submissions": [
@@ -1368,12 +1368,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Ellen Yi-Luen Do"
     },
     "s135": {
-        "s_title": "Evaluating Crowdsourcing ",
+        "s_title": "Papers: Evaluating Crowdsourcing ",
         "room": "E3",
         "time": "11:30-12:50",
         "submissions": [
@@ -1389,12 +1389,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Bongwon Suh"
     },
     "s136": {
-        "s_title": "Innovation in Theories &amp; Products",
+        "s_title": "Papers: Innovation in Theories &amp; Products",
         "room": "307",
         "time": "14:30-15:50",
         "submissions": [
@@ -1408,13 +1408,13 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Volker Wulf"
     },
     "s137": {
-        "s_title": "Understanding Everyday Use of Mobile Phones",
+        "s_title": "Papers: Understanding Everyday Use of Mobile Phones",
         "room": "402",
         "time": "14:30-15:50",
         "submissions": [
@@ -1434,7 +1434,7 @@ sessions={
         "chair": "Matt Jones"
     },
     "s138": {
-        "s_title": "Grip, Move &amp; Tilt: Novel Interaction",
+        "s_title": "Papers: Grip, Move &amp; Tilt: Novel Interaction",
         "room": "402",
         "time": "14:30-15:50",
         "submissions": [
@@ -1450,12 +1450,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jessica Cauchard"
     },
     "s139": {
-        "s_title": "Interactive Video &amp; Collaborative Annotations",
+        "s_title": "Papers: Interactive Video &amp; Collaborative Annotations",
         "room": "403",
         "time": "14:30-15:50",
         "submissions": [
@@ -1471,12 +1471,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Amy Ogan"
     },
     "s140": {
-        "s_title": "Task Interruption &amp; Resumption",
+        "s_title": "Papers: Task Interruption &amp; Resumption",
         "room": "E6",
         "time": "14:30-15:50",
         "submissions": [
@@ -1491,13 +1491,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Martin Halvey"
     },
     "s141": {
-        "s_title": "Muscle-Computer Interfaces",
+        "s_title": "Papers: Muscle-Computer Interfaces",
         "room": "401",
         "time": "9:30-10:50",
         "submissions": [
@@ -1517,7 +1517,7 @@ sessions={
         "chair": "Chris Harrison"
     },
     "s142": {
-        "s_title": "HCI for the Elderly",
+        "s_title": "Papers: HCI for the Elderly",
         "room": "E1/E2",
         "time": "14:30-15:50",
         "submissions": [
@@ -1537,7 +1537,7 @@ sessions={
         "chair": "Maria K Wolters"
     },
     "s143": {
-        "s_title": "Visualizing Statistics &amp; Graphs ",
+        "s_title": "Papers: Visualizing Statistics &amp; Graphs ",
         "room": "E6",
         "time": "11:30-12:50",
         "submissions": [
@@ -1553,12 +1553,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Benjamin Bach"
     },
     "s144": {
-        "s_title": "Brain &amp; Physiological Data use for HCI",
+        "s_title": "Papers: Brain &amp; Physiological Data use for HCI",
         "room": "402",
         "time": "16:30-17:50",
         "submissions": [
@@ -1578,7 +1578,7 @@ sessions={
         "chair": "Jacob Robert"
     },
     "s145": {
-        "s_title": "Socio-Political Interactions",
+        "s_title": "Papers: Socio-Political Interactions",
         "room": "E4",
         "time": "16:30-17:50",
         "submissions": [
@@ -1592,13 +1592,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Liang Gou"
     },
     "s146": {
-        "s_title": "Managing Personal Privacy",
+        "s_title": "Papers: Managing Personal Privacy",
         "room": "E4",
         "time": "16:30-17:50",
         "submissions": [
@@ -1618,7 +1618,7 @@ sessions={
         "chair": "Sameer Patil"
     },
     "s147": {
-        "s_title": "Software Engineering Tools",
+        "s_title": "Papers: Software Engineering Tools",
         "room": "403",
         "time": "16:30-17:50",
         "submissions": [
@@ -1638,7 +1638,7 @@ sessions={
         "chair": "Feng Tian"
     },
     "s148": {
-        "s_title": "Phones for more than Just Talking &amp; Text&nbsp;",
+        "s_title": "Papers: Phones for more than Just Talking &amp; Text&nbsp;",
         "room": "402",
         "time": "9:30-10:50",
         "submissions": [
@@ -1655,12 +1655,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Naomi Yamashita"
     },
     "s149": {
-        "s_title": "Interacting with Floors &amp; Situated Displays",
+        "s_title": "Papers: Interacting with Floors &amp; Situated Displays",
         "room": "E6",
         "time": "11:30-12:50",
         "submissions": [
@@ -1674,13 +1674,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Diego Martinez Plasencia"
     },
     "s150": {
-        "s_title": "Robot Personalities",
+        "s_title": "Papers: Robot Personalities",
         "room": "401",
         "time": "11:30-12:50",
         "submissions": [
@@ -1694,13 +1694,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Malte F Jung"
     },
     "s151": {
-        "s_title": "Search &amp; Recommendations",
+        "s_title": "Papers: Search &amp; Recommendations",
         "room": "403",
         "time": "9:30-10:50",
         "submissions": [
@@ -1715,12 +1715,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Susan Dumais"
     },
     "s152": {
-        "s_title": "Enhanced Security with Passwords &amp; CAPTCHAs ",
+        "s_title": "Papers: Enhanced Security with Passwords &amp; CAPTCHAs ",
         "room": "E4",
         "time": "9:30-10:50",
         "submissions": [
@@ -1741,7 +1741,7 @@ sessions={
         "chair": "Serge Egelman"
     },
     "s153": {
-        "s_title": "How Fast Can you Type on your Phone?",
+        "s_title": "Papers: How Fast Can you Type on your Phone?",
         "room": "402",
         "time": "16:30-17:50",
         "submissions": [
@@ -1755,13 +1755,13 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Michael Rohs"
     },
     "s154": {
-        "s_title": "Smartwatch Interaction",
+        "s_title": "Papers: Smartwatch Interaction",
         "room": "401",
         "time": "11:30-12:50",
         "submissions": [
@@ -1782,7 +1782,7 @@ sessions={
         "chair": "Daniel Ashbrook"
     },
     "s155": {
-        "s_title": "Facebook Newsfeeds &amp; Friendships",
+        "s_title": "Papers: Facebook Newsfeeds &amp; Friendships",
         "room": "E3",
         "time": "11:30-12:50",
         "submissions": [
@@ -1796,7 +1796,7 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "David Shamma"
@@ -1819,10 +1819,10 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Scott R Klemmer"
     },
     "s157": {
-        "s_title": "What do I hear? Communicating with Sound",
+        "s_title": "Papers: What do I hear? Communicating with Sound",
         "room": "402",
         "time": "11:30-12:50",
         "submissions": [
@@ -1838,12 +1838,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Ian Oakley"
     },
     "s158": {
-        "s_title": "Speech &amp; Auditory Interfaces",
+        "s_title": "Papers: Speech &amp; Auditory Interfaces",
         "room": "402",
         "time": "14:30-15:50",
         "submissions": [
@@ -1864,7 +1864,7 @@ sessions={
         "chair": "Cosmin Munteanu"
     },
     "s159": {
-        "s_title": "Telepresence Video, Robots, and Walls",
+        "s_title": "Papers: Telepresence Video, Robots, and Walls",
         "room": "E6",
         "time": "9:30-10:50",
         "submissions": [
@@ -1884,7 +1884,7 @@ sessions={
         "chair": "John Tang"
     },
     "s160": {
-        "s_title": "Tactile Notifications for Phones &amp; Wearables",
+        "s_title": "Papers: Tactile Notifications for Phones &amp; Wearables",
         "room": "402",
         "time": "11:30-12:50",
         "submissions": [
@@ -1899,13 +1899,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Max Wilson"
     },
     "s161": {
-        "s_title": "Tangible Interactions",
+        "s_title": "Papers: Tangible Interactions",
         "room": "402",
         "time": "11:30-12:50",
         "submissions": [
@@ -1926,7 +1926,7 @@ sessions={
         "chair": "Otmar Hilliges"
     },
     "s162": {
-        "s_title": "Tangible InfoVis",
+        "s_title": "Papers: Natural User Interfaces for InfoVis",
         "room": "E6",
         "time": "16:30-17:50",
         "submissions": [
@@ -1942,12 +1942,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Bongshin Lee"
     },
     "s163": {
-        "s_title": "Interacting with GUIs",
+        "s_title": "Papers: Interacting with GUIs",
         "room": "307",
         "time": "14:30-15:50",
         "submissions": [
@@ -1963,12 +1963,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "David R Flatla"
     },
     "s164": {
-        "s_title": "The Impact of Crowd Work on Workers",
+        "s_title": "Papers: The Impact of Crowd Work on Workers",
         "room": "E3",
         "time": "14:30-15:50",
         "submissions": [
@@ -1984,12 +1984,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jaime Teevan"
     },
     "s165": {
-        "s_title": "UX Methods 4 ",
+        "s_title": "Papers: UX Methods 4 ",
         "room": "307",
         "time": "16:30-17:50",
         "submissions": [
@@ -2004,12 +2004,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Benjamin V Hanrahan"
     },
     "s166": {
-        "s_title": "HMDs in Augmented &amp; Virtual Reality",
+        "s_title": "Papers: HMDs in Augmented &amp; Virtual Reality",
         "room": "401",
         "time": "9:30-10:50",
         "submissions": [
@@ -2047,7 +2047,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sharon Oviatt"
     },
     "s-panel1": {
         "s_title": "Panel: Transfer of HCI Research Innovations",
@@ -2069,13 +2069,13 @@ sessions={
     "s-panel2": {
         "s_title": "Panel: You've Been Acquired!",
         "room": "307",
-        "time": "9:30-10:50",
+        "time": "11:30-12:50",
         "submissions": [
             "pan108"
         ],
         "personas": "",
         "venue": "panel",
-        "day": "Thursday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "panel",
         "hasAward": false,
@@ -2092,7 +2092,7 @@ sessions={
         ],
         "personas": "",
         "venue": "panel",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "panel",
         "hasAward": false,
@@ -2120,13 +2120,13 @@ sessions={
     "s-panel5": {
         "s_title": "Panel: Mobile Devices Revolutionizing UI",
         "room": "307",
-        "time": "11:30-12:50",
+        "time": "9:30-10:50",
         "submissions": [
             "pan120"
         ],
         "personas": "",
         "venue": "panel",
-        "day": "Wednesday",
+        "day": "Thursday",
         "s_tags": [],
         "type": "panel",
         "hasAward": false,
@@ -2252,7 +2252,7 @@ sessions={
         "chair": "Aaron Quigley"
     },
     "s-float-1": {
-        "s_title": "Accessibility for Vision Impaired Users",
+        "s_title": "Papers: Accessibility for Vision Impaired Users",
         "room": "E5",
         "time": "9:30-10:50",
         "submissions": [
@@ -2266,13 +2266,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Xiaojuan Ma"
     },
     "s-float-2": {
-        "s_title": "HMDs &amp; Wearables to Overcome Disabilities",
+        "s_title": "Papers: HMDs &amp; Wearables to Overcome Disabilities",
         "room": "E5",
         "time": "11:30-12:50",
         "submissions": [
@@ -2288,12 +2288,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Shaun K Kane"
     },
     "s-float-3": {
-        "s_title": "HCI at Home",
+        "s_title": "Papers: HCI at Home",
         "room": "E1/E2",
         "time": "16:30-17:50",
         "submissions": [
@@ -2308,12 +2308,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "David Geerts"
     },
     "s-float-4": {
-        "s_title": "Email &amp; Social Media at Work",
+        "s_title": "Papers: Email &amp; Social Media at Work",
         "room": "403",
         "time": "14:30-15:50",
         "submissions": [
@@ -2329,12 +2329,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Pernille Bjorn"
     },
     "s-float-5": {
-        "s_title": "Sharing &amp; Collaboration @ Work",
+        "s_title": "Papers: Sharing &amp; Collaboration @ Work",
         "room": "403",
         "time": "16:30-17:50",
         "submissions": [
@@ -2349,12 +2349,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Steven M Drucker"
     },
     "s-float-6": {
-        "s_title": "Non-Rigid Interaction Surfaces",
+        "s_title": "Papers: Non-Rigid Interaction Surfaces",
         "room": "401",
         "time": "11:30-12:50",
         "submissions": [
@@ -2370,12 +2370,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jörg Müller"
     },
     "s-float-7": {
-        "s_title": "Mid-Air Gestures and Interaction",
+        "s_title": "Papers: Mid-Air Gestures and Interaction",
         "room": "402",
         "time": "11:30-12:50",
         "submissions": [
@@ -2391,12 +2391,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Yang Li"
     },
     "s-float-8": {
-        "s_title": "Understanding &amp; Extending Touch Interfaces",
+        "s_title": "Papers: Understanding &amp; Extending Touch Interfaces",
         "room": "402",
         "time": "16:30-17:50",
         "submissions": [
@@ -2412,12 +2412,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Theophanis Tsandilas"
     },
     "s-float-9": {
-        "s_title": "Multi-Device Interaction",
+        "s_title": "Papers: Multi-Device Interaction",
         "room": "401",
         "time": "14:30-15:50",
         "submissions": [
@@ -2437,7 +2437,7 @@ sessions={
         "chair": "Michael Nebeling"
     },
     "s-float-10": {
-        "s_title": "Neighborhoods &amp; Disadvantaged Communities",
+        "s_title": "Papers: Neighborhoods &amp; Disadvantaged Communities",
         "room": "E3",
         "time": "9:30-10:50",
         "submissions": [
@@ -2452,12 +2452,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Katharina Reinecke"
     },
     "s-float-11": {
-        "s_title": "Multilingual Communication",
+        "s_title": "Papers: Multilingual Communication",
         "room": "E3",
         "time": "9:30-10:50",
         "submissions": [
@@ -2472,12 +2472,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Hao-Chuan Wang"
     },
     "s-float-12": {
-        "s_title": "Sustainability &amp; Recycling",
+        "s_title": "Papers: Sustainability &amp; Recycling",
         "room": "E4",
         "time": "9:30-10:50",
         "submissions": [
@@ -2492,12 +2492,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Adrian K Clear"
     },
     "s-float-13": {
-        "s_title": "Understanding Crowdwork in Many Domains",
+        "s_title": "Papers: Understanding Crowdwork in Many Domains",
         "room": "E3",
         "time": "16:30-17:50",
         "submissions": [
@@ -2512,12 +2512,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Uichin Lee"
     },
     "s-float-14": {
-        "s_title": "Motivating Crowd Workers",
+        "s_title": "Papers: Motivation &amp; Participation",
         "room": "E3",
         "time": "9:30-10:50",
         "submissions": [
@@ -2532,12 +2532,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Meredith R Morris"
     },
     "s-float-15": {
-        "s_title": "Experience Design for Games",
+        "s_title": "Papers: Experience Design for Games",
         "room": "307",
         "time": "9:30-10:50",
         "submissions": [
@@ -2557,7 +2557,7 @@ sessions={
         "chair": "Florian Mueller"
     },
     "s-float-16": {
-        "s_title": "Player Performance &amp; Experience in Games&nbsp; ",
+        "s_title": "Papers: Player Performance &amp; Experience in Games&nbsp; ",
         "room": "E1/E2",
         "time": "9:30-10:50",
         "submissions": [
@@ -2572,12 +2572,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jan D Smeddinck"
     },
     "s-float-17": {
-        "s_title": "Families and Their Use of Technology",
+        "s_title": "Papers: Families and Their Use of Technology",
         "room": "E1/E2",
         "time": "16:30-17:50",
         "submissions": [
@@ -2591,13 +2591,13 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Jennifer Marlow"
     },
     "s-float-18": {
-        "s_title": "Kids Social, Emotional &amp; Special Needs",
+        "s_title": "Papers: Kids Social, Emotional &amp; Special Needs",
         "room": "E1/E2",
         "time": "14:30-15:50",
         "submissions": [
@@ -2619,7 +2619,7 @@ sessions={
         "chair": "Konstantinos Kazakos"
     },
     "s-float-19": {
-        "s_title": "Understanding &amp; Protecting Kids Tech Use",
+        "s_title": "Papers: Understanding &amp; Protecting Kids Tech Use",
         "room": "E1/E2",
         "time": "14:30-15:50",
         "submissions": [
@@ -2633,13 +2633,13 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Svetlana Yarosh"
     },
     "s-float-20": {
-        "s_title": "Sports Tracking &amp; Training",
+        "s_title": "Papers: Sports Tracking &amp; Training",
         "room": "E5",
         "time": "16:30-17:50",
         "submissions": [
@@ -2659,7 +2659,7 @@ sessions={
         "chair": "Hao-Hua Chu"
     },
     "s-float-21": {
-        "s_title": "Making &amp; Sharing Assistive Technologies",
+        "s_title": "Papers: Making &amp; Sharing Assistive Technologies",
         "room": "E5",
         "time": "14:30-15:50",
         "submissions": [
@@ -2674,13 +2674,13 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Suranga Nanayakkara"
     },
     "s-float-22": {
-        "s_title": "The Value of the Village in Caregiving",
+        "s_title": "Papers: The Value of the Village in Caregiving",
         "room": "E5",
         "time": "9:30-10:50",
         "submissions": [
@@ -2696,12 +2696,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Lena Mamykina"
     },
     "s-float-23": {
-        "s_title": "Health Sensors &amp; Monitoring",
+        "s_title": "Papers: Health Sensors &amp; Monitoring",
         "room": "E5",
         "time": "16:30-17:50",
         "submissions": [
@@ -2716,12 +2716,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Regan L Mandryk"
     },
     "s-float-24": {
-        "s_title": "DIY Healthcare: Apps &amp; Wearables",
+        "s_title": "Papers: DIY Healthcare: Apps &amp; Wearables",
         "room": "E5",
         "time": "14:30-15:50",
         "submissions": [
@@ -2736,12 +2736,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "David Coyle"
     },
     "s-float-25": {
-        "s_title": "Healthcare Bias, Engagement &amp; Adaptation",
+        "s_title": "Papers: Healthcare Bias, Engagement &amp; Adaptation",
         "room": "E5",
         "time": "11:30-12:50",
         "submissions": [
@@ -2756,12 +2756,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Tae-Jung Yun"
     },
     "s-float-26": {
-        "s_title": "Home Physiotherapy &amp; Rehabilitation",
+        "s_title": "Papers: Home Physiotherapy &amp; Rehabilitation",
         "room": "E5",
         "time": "14:30-15:50",
         "submissions": [
@@ -2777,12 +2777,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Yi-Ping Hung"
     },
     "s-float-27": {
-        "s_title": "Bridging People &amp; Beliefs with Social Media",
+        "s_title": "Papers: Bridging People &amp; Beliefs with Social Media",
         "room": "E3",
         "time": "11:30-12:50",
         "submissions": [
@@ -2797,12 +2797,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "N. Sadat Shami"
     },
     "s-float-28": {
-        "s_title": "UI Impact on Performance &amp; Decisions",
+        "s_title": "Papers: UI Impact on Performance &amp; Decisions",
         "room": "403",
         "time": "9:30-10:50",
         "submissions": [
@@ -2817,14 +2817,14 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Tom Gross"
     },
     "s-float-29": {
-        "s_title": "The Value of Things",
+        "s_title": "Papers: The Value of Things",
         "room": "307",
-        "time": "9:30-10:50",
+        "time": "16:30-17:50",
         "submissions": [
             "pn5113",
             "pn1376",
@@ -2833,16 +2833,16 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Tuesday",
+        "day": "Monday",
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Mark Blythe"
     },
     "s-float-30": {
-        "s_title": "Understand &amp; Enhancing Learning",
+        "s_title": "Papers: Understand &amp; Enhancing Learning",
         "room": "403",
         "time": "16:30-17:50",
         "submissions": [
@@ -2862,7 +2862,7 @@ sessions={
         "chair": "Chris Quintana"
     },
     "s-float-31": {
-        "s_title": "MOOCS &amp;&nbsp;e-Learning",
+        "s_title": "Papers: MOOCS &amp;&nbsp;e-Learning",
         "room": "403",
         "time": "11:30-12:50",
         "submissions": [
@@ -2877,12 +2877,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Juho Kim"
     },
     "s-float-32": {
-        "s_title": "Security Feedback &amp; Warnings ",
+        "s_title": "Papers: Security Feedback &amp; Warnings ",
         "room": "E4",
         "time": "14:30-15:50",
         "submissions": [
@@ -2897,12 +2897,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Alexander De Luca"
     },
     "s-float-33": {
-        "s_title": "Smart Smartphone Authentication",
+        "s_title": "Papers: Smart Smartphone Authentication",
         "room": "E4",
         "time": "11:30-12:50",
         "submissions": [
@@ -2919,12 +2919,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Andrea Bianchi"
     },
     "s-float-34": {
-        "s_title": "Interaction Techniques for Tables &amp; Walls",
+        "s_title": "Papers: Interaction Techniques for Tables &amp; Walls",
         "room": "E6",
         "time": "14:30-15:50",
         "submissions": [
@@ -2945,7 +2945,7 @@ sessions={
         "chair": "Tom Bartindale"
     },
     "s-float-35": {
-        "s_title": "Social Media &amp; Citizen Science",
+        "s_title": "Papers: Social Media &amp; Citizen Science",
         "room": "E3",
         "time": "14:30-15:50",
         "submissions": [
@@ -2962,12 +2962,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Elena L Glassman"
     },
     "s-float-36": {
-        "s_title": "Tangible Interaction with Phones",
+        "s_title": "Papers: Tangible Interaction with Phones",
         "room": "402",
         "time": "9:30-10:50",
         "submissions": [
@@ -2981,13 +2981,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": "Shengdong Zhao"
     },
     "s-float-37": {
-        "s_title": "Programming Environments",
+        "s_title": "Papers: Programming Environments",
         "room": "403",
         "time": "9:30-10:50",
         "submissions": [
@@ -3003,12 +3003,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Joonhwan Lee"
     },
     "s-float-38": {
-        "s_title": "Social Media and Mobile Camera Privacy",
+        "s_title": "Papers: Social Media and Mobile Camera Privacy",
         "room": "E4",
         "time": "14:30-15:50",
         "submissions": [
@@ -3029,7 +3029,7 @@ sessions={
         "chair": "Pam Briggs"
     },
     "s-float-39": {
-        "s_title": "Critical Design",
+        "s_title": "Papers: Critical Design",
         "room": "307",
         "time": "16:30-17:50",
         "submissions": [
@@ -3044,14 +3044,14 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Giulio Jacucci"
     },
     "s-float-40": {
-        "s_title": "Supporting Creativity&nbsp;through UX Design",
+        "s_title": "Papers: Supporting Creativity&nbsp;through UX Design",
         "room": "307",
-        "time": "16:30-17:50",
+        "time": "9:30-10:50",
         "submissions": [
             "pn5104",
             "pn1419",
@@ -3061,16 +3061,16 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Monday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Luciano Gamberini"
     },
     "s-float-41": {
-        "s_title": "Understanding &amp; Evaluating Performance",
+        "s_title": "Papers: Understanding &amp; Evaluating Performance",
         "room": "403",
         "time": "14:30-15:50",
         "submissions": [
@@ -3090,7 +3090,7 @@ sessions={
         "chair": "Richard C Davis"
     },
     "s-float-42": {
-        "s_title": "New Evaluation Approaches",
+        "s_title": "Papers: New Evaluation Approaches",
         "room": "403",
         "time": "11:30-12:50",
         "submissions": [
@@ -3105,12 +3105,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "David England"
     },
     "s-float-43": {
-        "s_title": "Rethinking Evaluation for Today's HCI",
+        "s_title": "Papers: Rethinking Evaluation for Today's HCI",
         "room": "403",
         "time": "11:30-12:50",
         "submissions": [
@@ -3126,12 +3126,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Wendy E Mackay"
     },
     "s-float-45": {
-        "s_title": "Music &amp; Art",
+        "s_title": "Papers: Music &amp; Art",
         "room": "E1/E2",
         "time": "14:30-15:50",
         "submissions": [
@@ -3146,12 +3146,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Jonathan Hook"
     },
     "s-float-46": {
-        "s_title": "Automation and Interactive&nbsp;Feedback",
+        "s_title": "Papers: Automation and Interactive&nbsp;Feedback",
         "room": "403",
         "time": "11:30-12:50",
         "submissions": [
@@ -3166,12 +3166,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Davide Spano"
     },
     "s-float-47": {
-        "s_title": "Social Embodied Interaction",
+        "s_title": "Papers: Social Embodied Interaction",
         "room": "E6",
         "time": "14:30-15:50",
         "submissions": [
@@ -3191,7 +3191,7 @@ sessions={
         "chair": "Gina Venolia"
     },
     "s-float-48": {
-        "s_title": "Collaborative Tables, Walls &amp; Rooms",
+        "s_title": "Papers: Collaborative Tables, Walls &amp; Rooms",
         "room": "E6",
         "time": "16:30-17:50",
         "submissions": [
@@ -3205,13 +3205,13 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Harald Reiterer"
     },
     "s-float-49": {
-        "s_title": "Digital &amp; Materials Fabrication",
+        "s_title": "Papers: Digital &amp; Materials Fabrication",
         "room": "401",
         "time": "11:30-12:50",
         "submissions": [
@@ -3226,12 +3226,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Stefanie Mueller"
     },
     "s-float-50": {
-        "s_title": "Voting &amp; Volunteerism",
+        "s_title": "Papers: Voting &amp; Volunteerism",
         "room": "E3",
         "time": "16:30-17:50",
         "submissions": [
@@ -3246,7 +3246,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Andres Monroy-Hernandez"
     },
@@ -3265,7 +3265,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "special",
-        "chair": ""
+        "chair": "Jacob Robert"
     },
     "s-award2": {
         "s_title": "Special: SIGCHI Lifetime Research Award",
@@ -3282,7 +3282,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "special",
-        "chair": ""
+        "chair": "Scott R Klemmer"
     },
     "s-award3": {
         "s_title": "Special: SIGCHI Social Impact Award",
@@ -3299,7 +3299,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "special",
-        "chair": ""
+        "chair": "Loren Terveen"
     },
     "s-src": {
         "s_title": "Special: Student Research Competition Finals",

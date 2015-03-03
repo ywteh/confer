@@ -4470,25 +4470,25 @@ entities={
         "abstract": "", 
         "authors": [
             {
-                "name": "D Ellwanger"
+                "name": "Dayton Ellwanger"
             }, 
             {
-                "name": "N Dillon"
+                "name": "Nick Dillon"
             }, 
             {
-                "name": "T Wu"
+                "name": "Tim Wu"
             }, 
             {
-                "name": "P Dewan"
-            }, 
+                "name": "Jason Carter"
+            },
             {
-                "name": "J Carter"
-            }
+                "name": "Prasun Dewan"
+            } 
         ], 
         "award": 0, 
         "hm": 0, 
         "subtype": "demo", 
-        "title": "Multi-degree Awareness for scalable Mixed-Focus collaborative Difficulty Resolution", 
+        "title": "Scalable Mixed-Focus Collaborative Difficulty Resolution: A Demonstration", 
         "type": "demo"
     }, 
     "demo15": {
