@@ -152,6 +152,7 @@ def meetups (request, conf):
     request.session[kConf] = conf
     login_id, user = get_login(request)
     meetups_enabled = user.meetups_enabled
+    friendly = user.friendly
     if meetups_enabled:
       similar_people = get_similar_people(user.email, conf, meetups=True)
       favorites = get_favorites(user.email, conf)
