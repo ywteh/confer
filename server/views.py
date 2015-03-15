@@ -154,10 +154,10 @@ def meetups (request, conf):
     meetups_enabled = user.meetups_enabled
     friendly = user.friendly
     if meetups_enabled:
-      similar_people = get_similar_people(user.email, conf, meetups=True)
+      similar_people, c_likes = get_similar_people(user.email, conf, meetups=True)
       favorites = get_favorites(user.email, conf)
-      people_favorited_you = favorites['people_favorited_you']
-      people_you_favorited = favorites['people_you_favorited']
+      people_favorited_you = [p.update({'common_likes': c_likes[p['id']]}) for p in favorites['people_favorited_you']]
+      people_you_favorited = [p.update({'common_likes': c_likes[p['id']]}) for p in favorites['people_you_favorited']]
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': json.dumps(similar_people[:20]),
@@ -684,7 +684,7 @@ def similar_people (request):
       pass
 
     if perm and perm.access:
-      similar_people = get_similar_people(login, conf, app=app)
+      similar_people, likes = get_similar_people(login, conf, app=app)
     else:
       msg = 'ACCESS_DENIED'
   

@@ -104,9 +104,11 @@ def get_similar_people (login, conf, meetups=False, app=None):
       except Likes.DoesNotExist:
         pass
 
+  c_likes = {}
   for person in likes:  
     p_likes = likes[person]
     common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
+    c_likes[p_likes['id']] = common_likes
     if common_likes > 4 and person!= user:
       similarity.append({
           'id': p_likes['id'],
@@ -116,7 +118,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
       })
 
   similarity = sorted(similarity, key=lambda k: k['common_likes'], reverse=True)
-  return similarity[:20]
+  return similarity[:20], c_likes
 
 
 def get_favorites (login, conf):
