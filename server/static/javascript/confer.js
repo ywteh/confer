@@ -1182,8 +1182,6 @@ function create_person_html(p) {
   raw_html += '<td class="content">'
   raw_html += '<ul>'
   raw_html += '<li>'
-  raw_html += '<span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span>&nbsp; &nbsp;'
-  
   raw_html += '<h3><a href="mailto:?to=' + p.email + '&amp;subject=Hello from ' + login_name + '&amp;body=Hi + ' + p.name + ',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">'+p.name+'</a></h3>'
   
   raw_html += '</li>'
@@ -1191,8 +1189,10 @@ function create_person_html(p) {
   if (p.common_likes > 0) {
     raw_html += 'You and ' + p.name + ' have '+ p.common_likes +' papers in common. '
   }
-  raw_html += '<a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">Say hello</a> to '+p.name+'!</li>'
   raw_html += '</span>'
+  raw_html += '<a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">Say hello</a> to '+p.name+'!</li>'
+  raw_html += '<div class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</div>'
+  
   raw_html += '</ul>'
   raw_html += '</td>'
   raw_html += '</tr>'
