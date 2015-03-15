@@ -1177,7 +1177,7 @@ function compute_recs(recs) {
   recommended = final_recs
 }
 
-function create_person_html(p, email) {
+function create_person_html(p, email, button_filled) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="content">'
   raw_html += '<ul>'
@@ -1196,7 +1196,12 @@ function create_person_html(p, email) {
 
   raw_html += '</span></li>'
 
-  raw_html += '<li><br /> <br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
+  if (button_filled == true) {
+    raw_html += '<li><br /><span class="button button-filled user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_unstar(event);">Remove</span></li>'
+  } else {
+    raw_html += '<li><br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
+  }
+
   
   raw_html += '</ul>'
   raw_html += '</td>'
@@ -1209,7 +1214,7 @@ function populate_people_you_favorited () {
   if (people_you_favorited.length > 0) {
     raw_html = ''
     for(p in people_you_favorited) {
-      raw_html += create_person_html(people_you_favorited[p], false)
+      raw_html += create_person_html(people_you_favorited[p], false, true)
     }
     $("#people_you_favorited").html(raw_html)
   } else {
@@ -1223,7 +1228,7 @@ function populate_people_favorited_you () {
   if (people_favorited_you.length > 0) {
     raw_html = ''
     for(p in people_favorited_you) {
-      raw_html += create_person_html(people_favorited_you[p], true)
+      raw_html += create_person_html(people_favorited_you[p], true, false)
     }
     $("#people_favorited_you").html(raw_html)
   } else {
@@ -1237,7 +1242,7 @@ function populate_similar_people () {
   if (similar_people.length > 0) {
     raw_html = ''
     for(p in similar_people) {
-      raw_html += create_person_html(similar_people[p], false)
+      raw_html += create_person_html(similar_people[p], false, false)
     }
     $("#similar_people").html(raw_html)
   } else {
@@ -1259,7 +1264,7 @@ function handle_person_star(event){
   var obj = $(event.target)
   var user_id = obj.attr("data")
  
-  if(obj.hasClass('star-filled')){
+  if(obj.hasClass('button-filled')){
     $.post('/person_like/unstar', {'person': obj.attr("data")}, function(res) {
       people_you_favorited = res.people_you_favorited   
       people_favorited_you = res.people_favorited_you   
