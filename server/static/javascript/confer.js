@@ -1198,7 +1198,7 @@ function create_person_html(p, email, button_filled) {
 
   if (email == false) {
     if (button_filled == true) {
-      raw_html += '<li><br /><span class="conf-button button-filled user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Remove</span></li>'
+      raw_html += '<li><br /><span class="button button-filled user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Remove</span></li>'
     } else {
       raw_html += '<li><br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
     }
@@ -1256,7 +1256,7 @@ function populate_similar_people () {
 function highlight_favorite(){
   $('.m_star').removeClass('star-filled').addClass('star-open')
   for(p in people_you_favorited) {
-    $('.user_' + people_you_favorited[p].id).removeClass('button').addClass('conf-button')
+    $('.user_' + people_you_favorited[p].id).removeClass('button').addClass('button-filled')
     $('#similar_people').find('.user_' + people_you_favorited[p].id).parent().parent().hide()
   }
 }
