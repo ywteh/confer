@@ -568,11 +568,11 @@ def person_like (request, like_str):
         msg_body = '''
 Dear %s,
 
-%s indicated an interest in meeting you at %s. You can say hello to %s by going to http://confer.csail.mit.edu/%s/meetups
+Someone indicated an interest in meeting you at %s. You can see the list of people interested in meeting you by going to http://confer.csail.mit.edu/%s/meetups
 
 Happy Networking,
 Confer Team
-''' % (user_starred.f_name + ' ' + user_starred.l_name, user.f_name + ' ', conf, user.f_name + ' ', conf)
+''' % (user_starred.f_name, conf, conf)
 
         pool.apply_async(send_email, [user_starred.email, subject, msg_body])
              

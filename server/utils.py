@@ -126,8 +126,10 @@ def get_favorites (login, conf):
   conference = Conference.objects.get(unique_name=conf)
   registrations = Registration.objects.filter(conference=conference)
   
-  you_favorited = AList.objects.filter(user=user)
+  registration = Registration.objects.get(user=user, conference=conference)
+  you_favorited = AList.objects.filter(registration=registration)
   favorited_you = AList.objects.filter(user_starred=user)
+
   for person in you_favorited: 
     people_you_favorited.append({
         'id': person.user_starred.id,
@@ -135,7 +137,10 @@ def get_favorites (login, conf):
         'email': person.user_starred.email
     })
 
-  for person in favorited_you: 
+  for person in favorited_you:
+    if person.registration.conference.unique_name != conf:
+      continue
+
     people_favorited_you.append({
         'id': person.user.id,
         'name': person.user.f_name + ' ' + person.user.l_name,
