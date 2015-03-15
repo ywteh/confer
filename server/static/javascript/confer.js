@@ -1179,12 +1179,8 @@ function compute_recs(recs) {
 
 function create_person_html(p) {
   raw_html = '<tr class="clickable">'
-  raw_html += '<td class="metadata">'
-  raw_html += '<div class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting'      
-  raw_html += '</div>'  
-  raw_html += '</td>'
-
   raw_html += '<td class="content">'
+  raw_html += '<div class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting'
   raw_html += '<ul>'
   raw_html += '<li><h3><a href="mailto:?to=' + p.email + '&amp;subject=Hello from ' + login_name + '&amp;body=Hi + ' + p.name + ',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">'+p.name+'</a></h3></li>'
   raw_html += '<li><span class="paper-subtype" style="text-align: left !important;">'
