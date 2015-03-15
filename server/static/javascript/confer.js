@@ -1177,21 +1177,26 @@ function compute_recs(recs) {
   recommended = final_recs
 }
 
-function create_person_html(p) {
+function create_person_html(p, email) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="content">'
   raw_html += '<ul>'
   raw_html += '<li>'
-  raw_html += '<h3><a href="mailto:?to=' + p.email + '&amp;subject=Hello from ' + login_name + '&amp;body=Hi + ' + p.name + ',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">'+p.name+'</a></h3>'
+  raw_html += '<h3>' + p.name+ '</h3>'
   
   raw_html += '</li>'
   raw_html += '<li><span class="paper-subtype" style="text-align: left !important;">'
   if (p.common_likes > 0) {
     raw_html += 'You and ' + p.name + ' have '+ p.common_likes +' papers in common. '
   }
-  raw_html += '</span>'
 
-  raw_html += '<li><br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
+  if (email == true) {
+    raw_html += '<a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">Send Email</a> to '+p.name+'!</li>'
+  }
+
+  raw_html += '</span></li>'
+
+  raw_html += '<li><br /> <br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
   
   raw_html += '</ul>'
   raw_html += '</td>'
@@ -1204,7 +1209,7 @@ function populate_people_you_favorited () {
   if (people_you_favorited.length > 0) {
     raw_html = ''
     for(p in people_you_favorited) {
-      raw_html += create_person_html(people_you_favorited[p])
+      raw_html += create_person_html(people_you_favorited[p], false)
     }
     $("#people_you_favorited").html(raw_html)
   } else {
@@ -1218,7 +1223,7 @@ function populate_people_favorited_you () {
   if (people_favorited_you.length > 0) {
     raw_html = ''
     for(p in people_favorited_you) {
-      raw_html += create_person_html(people_favorited_you[p])
+      raw_html += create_person_html(people_favorited_you[p], true)
     }
     $("#people_favorited_you").html(raw_html)
   } else {
@@ -1232,7 +1237,7 @@ function populate_similar_people () {
   if (similar_people.length > 0) {
     raw_html = ''
     for(p in similar_people) {
-      raw_html += create_person_html(similar_people[p])
+      raw_html += create_person_html(similar_people[p], false)
     }
     $("#similar_people").html(raw_html)
   } else {
