@@ -1180,7 +1180,7 @@ function compute_recs(recs) {
 function create_person_html(p) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
-  raw_html += '<div class="star star-open m_star user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">'      
+  raw_html += '<div class="button m_star user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting'      
   raw_html += '</div>'  
   raw_html += '</td>'
 
@@ -1208,7 +1208,7 @@ function populate_people_you_favorited () {
     }
     $("#people_you_favorited").html(raw_html)
   } else {
-    raw_html = '<tr><td class="content">You haven\'t favorited anyone yet.</td></tr>'
+    raw_html = '<tr><td class="content">You haven\'t selected anyone for meeting.</td></tr>'
     $("#people_you_favorited").html(raw_html)
   }
 }
@@ -1222,7 +1222,7 @@ function populate_people_favorited_you () {
     }
     $("#people_favorited_you").html(raw_html)
   } else {
-    raw_html = '<tr><td class="content">No one has favorited you yet.</td></tr>'
+    raw_html = '<tr><td class="content">No one has selected you for meeting yet.</td></tr>'
     $("#people_favorited_you").html(raw_html)
   }
 }
