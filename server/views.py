@@ -163,6 +163,7 @@ def meetups (request, conf):
         'people_favorited_you': json.dumps(people_favorited_you),
         'people_you_favorited': json.dumps(people_you_favorited),
         'meetups_enabled': meetups_enabled,
+        'friendly': friendly,
         'login_id': user.email,
         'login_name': user.f_name
       }
@@ -259,12 +260,18 @@ def settings (request):
         redirect_url = request.POST['redirect_url']
 
       user_email = request.POST["user_email"].lower()
-      meetups = request.POST["meetups_enabled"] 
+      meetups = request.POST["meetups_enabled"]
+      friendly = request.POST["friendly"] 
       user = User.objects.get(email=user_email)
       if meetups == 'enabled':
         user.meetups_enabled = True
       else:
         user.meetups_enabled = False
+
+      if friendly == 'yes':
+        user.friendly = True
+      else:
+        user.friendly = False
 
       user.save()
       return HttpResponseRedirect(redirect_url)
@@ -284,6 +291,7 @@ def settings (request):
         'login_id': user.email,
         'login_name': user.f_name,
         'meetups_enabled': user.meetups_enabled,
+        'friendly': user.friendly,
         'redirect_url': redirect_url}
     c.update(csrf(request))
     return render_to_response('settings.html', c)

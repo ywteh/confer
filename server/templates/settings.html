@@ -24,6 +24,10 @@
 	<label for="meetups_enabled">Meetups: </label>
 	<input type="radio" name="meetups_enabled" value="enabled" {% if meetups_enabled %} checked="checked" {% endif %}> Enabled </input>
 	<input type="radio" name="meetups_enabled" value="disabled" {% if not meetups_enabled %} checked="checked" {% endif %} > Disabled </input> <br /><br />
+
+	<label for="friendly">Are you friendly? </label>
+	<input type="radio" name="friendly" value="yes" {% if friendly %} checked="checked" {% endif %}> Yes </input>
+	<input type="radio" name="friendly" value="no" {% if not friendly %} checked="checked" {% endif %} > No </input> <br /><br />
 	<input type="submit" class="button" value="Save Settings" />
 </form>
 {% endblock %}
