@@ -1180,7 +1180,7 @@ function compute_recs(recs) {
 function create_person_html(p) {
   raw_html = '<tr class="clickable">'
   raw_html += '<td class="metadata">'
-  raw_html += '<div class="button m_star user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting'      
+  raw_html += '<div class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting'      
   raw_html += '</div>'  
   raw_html += '</td>'
 
