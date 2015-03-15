@@ -1196,10 +1196,12 @@ function create_person_html(p, email, button_filled) {
 
   raw_html += '</span></li>'
 
-  if (button_filled == true) {
-    raw_html += '<li><br /><span class="button button-filled user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_unstar(event);">Remove</span></li>'
-  } else {
-    raw_html += '<li><br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
+  if (email == false) {
+    if (button_filled == true) {
+      raw_html += '<li><br /><span class="button button-filled user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_unstar(event);">Remove</span></li>'
+    } else {
+      raw_html += '<li><br /><span class="button user_'+ p.id + '" data="' + p.email + '" onclick="handle_person_star(event);">Interested in Meeting</span></li>'
+    }
   }
 
   
