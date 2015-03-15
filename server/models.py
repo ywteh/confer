@@ -39,6 +39,7 @@ class User(models.Model):
   l_name = models.CharField(max_length=50)
   password = models.CharField(max_length=500)
   meetups_enabled = models.BooleanField(default=False)
+  friendly = models.BooleanField(default=False)
 
   def __unicode__(self):
     return self.f_name + ' ' + self.l_name
