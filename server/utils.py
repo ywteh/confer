@@ -5,6 +5,7 @@ from Crypto.Cipher import AES
 from Crypto import Random
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from collections import defaultdict
 
 '''
 @author: Anant Bhardwaj
@@ -104,7 +105,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
       except Likes.DoesNotExist:
         pass
 
-  c_likes = {}
+  c_likes = defaultdict(int)
   for person in likes:  
     p_likes = likes[person]
     common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
