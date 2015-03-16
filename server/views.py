@@ -156,8 +156,8 @@ def meetups (request, conf):
     if meetups_enabled:
       similar_people, c_likes = get_similar_people(user.email, conf, meetups=True)
       favorites = get_favorites(user.email, conf)
-      [p.update({}) for p in favorites['people_favorited_you']]
-      [p.update({}) for p in favorites['people_you_favorited']]
+      [p.update({'common_likes': c_likes[p['id']]}) for p in favorites['people_favorited_you']]
+      [p.update({'common_likes': c_likes[p['id']]}) for p in favorites['people_you_favorited']]
 
       people_favorited_you = favorites['people_favorited_you']
       people_you_favorited = favorites['people_you_favorited']
