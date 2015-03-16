@@ -1185,7 +1185,7 @@ function create_person_html(p, email, button_filled) {
   raw_html += '<h3>' + p.name
 
   if (p.friendly == true) {
-    raw_html += '<span class="smiley-icon"></span>'
+    raw_html += '&nbsp; &nbsp; <span class="smiley-icon"></span>'
   }
 
   raw_html += '</h3>'
