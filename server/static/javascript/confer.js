@@ -1182,12 +1182,14 @@ function create_person_html(p, email, button_filled) {
   raw_html += '<td class="content">'
   raw_html += '<ul>'
   raw_html += '<li>'
-  raw_html += '<h3>' + p.name+ '</h3>'
+  raw_html += '<h3>' + p.name
 
   if (p.friendly == true) {
     raw_html += '<span class="smiley-icon"></span>'
   }
-  
+
+  raw_html += '</h3>'
+
   raw_html += '</li>'
   raw_html += '<li><span class="paper-subtype" style="text-align: left !important;">'
   if (p.common_likes > 0) {
