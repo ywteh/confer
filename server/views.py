@@ -344,6 +344,7 @@ def all_data_dump (request, conf):
       for r in registrations:
         res = {
             'id': r.user.email,
+            'name': r.user.f_name + ' ' + r.user.l_name,
             'meetups_enabled': r.user.meetups_enabled
         }
         try:
