@@ -156,8 +156,8 @@ def meetups (request, conf):
     if meetups_enabled:
       similar_people, c_likes = get_similar_people(user.email, conf, meetups=True)
       favorites = get_favorites(user.email, conf)
-      people_favorited_you = [p for p in favorites['people_favorited_you']]
-      people_you_favorited = [p for p in favorites['people_you_favorited']]
+      people_favorited_you = [p.update({}) for p in favorites['people_favorited_you']]
+      people_you_favorited = [p.update({}) for p in favorites['people_you_favorited']]
     return render_to_response('meetups.html', {
         'conf':conf,
         'similar_people': json.dumps(similar_people[:20]),
