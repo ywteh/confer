@@ -99,6 +99,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
             'id': r.user.id,
             'name': r.user.f_name + ' ' + r.user.l_name,
             'email': r.user.email,
+            'friendly': r.user.friendly,
             'meetups_enabled': r.user.meetups_enabled,
             'papers': set(json.loads(r_likes.likes))
         }
@@ -114,6 +115,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
           'id': p_likes['id'],
           'name': p_likes['name'],
           'email': p_likes['email'],
+          'friendly': p_likes['friendly'],
           'common_likes': common_likes
       })
 
@@ -142,6 +144,7 @@ def get_favorites (login, conf):
         'id': person.user_starred.id,
         'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
         'email': person.user_starred.email,
+        'friendly': person.user.friendly,
         'common_likes': len(
             set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
     })
@@ -155,6 +158,7 @@ def get_favorites (login, conf):
     people_favorited_you.append({
         'id': person.user.id,
         'name': person.user.f_name + ' ' + person.user.l_name,
+        'friendly': person.user.friendly,
         'email': person.user.email,
         'common_likes': len(
             set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
