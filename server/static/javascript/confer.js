@@ -1191,7 +1191,8 @@ function create_person_html(p, email, button_filled) {
   }
 
   if (email == true) {
-    raw_html += '<a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">Send Email</a> to '+p.name+'!</li>'
+    raw_html += p.name + ' has indicated an interest in meeting you. '
+    raw_html += 'You can <a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AThanks for the meetup request! Let\'s catch up!.%0A%0A'+login_name+'" target="_blank">send an email</a> to '+p.name+'!</li>'
   }
 
   raw_html += '</span></li>'
