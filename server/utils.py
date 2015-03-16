@@ -142,7 +142,8 @@ def get_favorites (login, conf):
         'id': person.user_starred.id,
         'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
         'email': person.user_starred.email,
-        'common_likes': len(set(user_likes.likes).intersection(set(p_likes.likes)))
+        'common_likes': len(
+            set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
     })
 
   for person in favorited_you:
@@ -155,7 +156,9 @@ def get_favorites (login, conf):
         'id': person.user.id,
         'name': person.user.f_name + ' ' + person.user.l_name,
         'email': person.user.email,
-        'common_likes': len(set(user_likes.likes).intersection(set(p_likes.likes)))
+        'common_likes': len(
+            set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
+
     })
 
   return {'people_favorited_you': people_favorited_you,
