@@ -105,11 +105,10 @@ def get_similar_people (login, conf, meetups=False, app=None):
       except Likes.DoesNotExist:
         pass
 
-  c_likes = defaultdict(int)
   for person in likes:  
     p_likes = likes[person]
     common_likes = len(likes[user]['papers'].intersection(p_likes['papers']))
-    c_likes[p_likes['id']] = common_likes
+    
     if common_likes > 4 and person!= user:
       similarity.append({
           'id': p_likes['id'],
@@ -119,7 +118,7 @@ def get_similar_people (login, conf, meetups=False, app=None):
       })
 
   similarity = sorted(similarity, key=lambda k: k['common_likes'], reverse=True)
-  return similarity[:20], c_likes
+  return similarity[:20]
 
 
 def get_favorites (login, conf):
@@ -130,24 +129,33 @@ def get_favorites (login, conf):
   registrations = Registration.objects.filter(conference=conference)
   
   registration = Registration.objects.get(user=user, conference=conference)
+  user_likes = Likes.objects.get(registration=registration)
+
+
   you_favorited = AList.objects.filter(registration=registration)
   favorited_you = AList.objects.filter(user_starred=user)
 
-  for person in you_favorited: 
+  for person in you_favorited:
+    r = Registration.objects.get(user=person.user_starred)
+    p_likes = Likes.objects.get(registration=r)
     people_you_favorited.append({
         'id': person.user_starred.id,
         'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
-        'email': person.user_starred.email
+        'email': person.user_starred.email,
+        'common_likes': len(set(user_likes.likes).intersection(set(p_likes.likes)))
     })
 
   for person in favorited_you:
     if person.registration.conference.unique_name != conf:
       continue
 
+    r = Registration.objects.get(user=person.user)
+    p_likes = Likes.objects.get(registration=r)
     people_favorited_you.append({
         'id': person.user.id,
         'name': person.user.f_name + ' ' + person.user.l_name,
-        'email': person.user.email
+        'email': person.user.email,
+        'common_likes': len(set(user_likes.likes).intersection(set(p_likes.likes)))
     })
 
   return {'people_favorited_you': people_favorited_you,
