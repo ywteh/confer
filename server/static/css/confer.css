@@ -1046,6 +1046,18 @@ textarea {
 
 }
 
+
+.smiley-icon{
+  display:inline-block;
+  background-image:url(/static/img/smiley.png);
+  background-repeat: no-repeat;
+  background-size: 1.9em 1.6em;
+  width: 1.9em;
+  height: 1.6em;
+  margin-bottom: -0.4em;
+
+}
+
 .cover-icon{
   display:inline-block;
   background-repeat: no-repeat;
