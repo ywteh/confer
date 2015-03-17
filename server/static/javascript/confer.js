@@ -1196,9 +1196,8 @@ function create_person_html(p, email, button_filled) {
     raw_html += 'You and ' + p.name + ' have '+ p.common_likes +' papers in common. '
   }
 
-  if (email == true) {
-    raw_html += '<br />' + p.name + ' has indicated interest in meeting you. '
-    raw_html += 'You can <a class="blue" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AThanks for the meetup request! Let\'s catch up!.%0A%0A'+login_name+'" target="_blank">send an email</a> to '+p.name+'!</li>'
+  if (email == true || p.friendly == true) {
+    raw_html += '<a class="blue bold" href="mailto:?to='+p.email+'&amp;subject=Hello from '+ login_name + '&amp;body=Hi '+p.name+',%0A%0AConfer thinks that we two have similar research interests. Would you be interested in meeting?%0A%0A'+login_name+'" target="_blank">Say hello</a> to '+p.name+'!</li>'
   }
 
   raw_html += '</span></li>'
