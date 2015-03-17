@@ -138,16 +138,19 @@ def get_favorites (login, conf):
   favorited_you = AList.objects.filter(user_starred=user)
 
   for person in you_favorited:
-    r = Registration.objects.get(user=person.user_starred, conference=conference)
-    p_likes = Likes.objects.get(registration=r)
-    people_you_favorited.append({
-        'id': person.user_starred.id,
-        'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
-        'email': person.user_starred.email,
-        'friendly': person.user_starred.friendly,
-        'common_likes': len(
-            set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
-    })
+    try:
+      r = Registration.objects.get(user=person.user_starred, conference=conference)
+      p_likes = Likes.objects.get(registration=r)
+      people_you_favorited.append({
+          'id': person.user_starred.id,
+          'name': person.user_starred.f_name + ' ' + person.user_starred.l_name,
+          'email': person.user_starred.email,
+          'friendly': person.user_starred.friendly,
+          'common_likes': len(
+              set(json.loads(user_likes.likes)).intersection(set(json.loads(p_likes.likes))))
+      })
+    except:
+      pass
 
   for person in favorited_you:
     if person.registration.conference.unique_name != conf:
