@@ -657,11 +657,17 @@ function get_paper_html(id){
     
   raw_html += '<td class="metadata">'   
   if(starred.indexOf(id) == -1){
-    raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);">'        
+    raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);"></div>'        
   }else{
-    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);">'       
+    raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);"></div>'       
   }
-  raw_html += '</div>'
+  raw_html += '<br />'
+  if(1==1){
+    raw_html += '<div class="besttalk" data="'+ id + '" onclick="select_besttalk(event);"></div>'        
+  }else{
+    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="unselect_besttalk(event);"></div>'       
+  }
+  
   
   raw_html += '</td>'
   

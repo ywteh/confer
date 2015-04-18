@@ -851,6 +851,32 @@ textarea {
   cursor: pointer;
 }
 
+.besttalk{
+  height: 2.1em;
+  width: 2.1em;
+  margin: 0 auto;
+  margin-left: 0.5em;
+  background-image:url(/static/img/besttalk.png);
+  background-size: 2.1em 2.1em;
+  background-repeat:no-repeat;
+  cursor: pointer;
+}
+
+.besttalk-selected{
+  height: 2.1em;
+  width: 2.1em;
+  margin: 0 auto;
+  margin-left: 0.5em;
+  background-image:url(/static/img/besttalk-selected.png);
+  background-size: 2.1em 2.1em;
+  background-repeat:no-repeat;
+  cursor: pointer;
+}
+
+.besttalk:hover {
+  background-image:url(/static/img/besttalk-selected.png);
+}
+
 .no-touch-device .star:hover{
   background-image:url(/static/img/star_yellow.png);
 }

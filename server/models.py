@@ -52,7 +52,7 @@ class User(models.Model):
 class App(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)
-  app_id = models.CharField (max_length=100, unique = True)
+  app_id = models.CharField (max_length=100, unique=True)
   app_name = models.CharField (max_length=100)
   app_token = models.CharField (max_length=500)
   user = models.ForeignKey ('User')
@@ -69,6 +69,7 @@ class Registration(models.Model):
   id = models.AutoField(primary_key=True)
   timestamp = models.DateTimeField(auto_now=True)
   user = models.ForeignKey('User')
+  voter_id = models.CharField(max_length=20, unique=True, null=True)
   conference = models.ForeignKey('Conference')
 
   def __unicode__(self):
