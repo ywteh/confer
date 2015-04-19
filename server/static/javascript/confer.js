@@ -36,17 +36,15 @@ var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
 
-function get_all_votes() {
+function get_all_votes(_async_) {
   $.ajax({
     type: 'GET',
+    async: _async_,
     dataType: "json",
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=get_votes',
     success: function(res) {
-      console.log(res)
-      console.log(res.result)
       if (res.result == 'ok') {          
         besttalks = res.value.split(',')
-        console.log(besttalks)
       }
     }
   });
@@ -119,7 +117,7 @@ function refresh(_async_){
     }
   });
 
-  get_all_votes()
+  get_all_votes(true)
 }
 
 
@@ -127,6 +125,7 @@ setInterval('refresh();', 60*1000)
 
 refresh(false)
 compute_recs()
+get_all_votes(false)
 /* data structure for pending stars */
 
 function refresh_pending(){
