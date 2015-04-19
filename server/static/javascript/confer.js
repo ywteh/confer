@@ -21,6 +21,7 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
+var user_voter_id = localStorage.getItem('user_voter_id')
 var login_name = localStorage.getItem('login_name')
 var starred = []
 var s = JSON.parse(localStorage.getItem('starred'))
@@ -49,7 +50,10 @@ function refresh(_async_){
       localStorage.setItem('login_id', login_id)  
 
       login_name = res.login_name 
-      localStorage.setItem('login_name', login_name)                       
+      localStorage.setItem('login_name', login_name)
+
+      user_voter_id = res.user_voter_id
+      localStorage.setItem('user_voter_id', user_voter_id)                     
 
       if(res.likes != null){
         starred = res.likes
