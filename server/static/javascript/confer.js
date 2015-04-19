@@ -40,8 +40,10 @@ function get_all_votes() {
   $.ajax({
     type: 'GET',
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=get_votes',
-    success: function(res) {            
-      besttalks = res.value.split(",")
+    success: function(res) {
+      if (res.value != undefined) {          
+        besttalks = res.value.split(",")
+      }
     }
   });
 }
