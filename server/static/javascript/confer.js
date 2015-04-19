@@ -48,7 +48,8 @@ function get_all_votes() {
   });
 }
 
-function add_vote(obj) {
+function add_vote(event) {
+  var obj = $(event.target)
   var id = obj.attr("data")
   $.ajax({
     type: 'GET',
@@ -58,7 +59,8 @@ function add_vote(obj) {
   });
 }
 
-function remove_vote(obj) {
+function remove_vote(event) {
+  var obj = $(event.target)
   var id = obj.attr("data")
   $.ajax({
     type: 'GET',
@@ -104,6 +106,8 @@ function refresh(_async_){
       }
     }
   });
+
+  get_all_votes()
 }
 
 
@@ -111,7 +115,6 @@ setInterval('refresh();', 60*1000)
 
 refresh(false)
 compute_recs()
-get_all_votes()
 /* data structure for pending stars */
 
 function refresh_pending(){
