@@ -761,6 +761,8 @@ function get_session_html(id, day, time, slot_class, room){
   }
   var award_type = get_award_type(sessions[id])
   var award = ''
+  var venues = ''
+  
   if(award_type == 'award'){
     award += ' s_award'
   }
@@ -771,12 +773,12 @@ function get_session_html(id, day, time, slot_class, room){
     award += ' s_nominated'
   }
 
-  var tags = ''
-  if(sessions[id].s_tags){
-    //tags = ' tags'
+  var venue = ''
+  if(sessions[id].venue){
+    venues += ' ' + sessions[id].venue
   }
 
-  var raw_html = '<div class="session ' + award +  ' ' + tags +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '
+  var raw_html = '<div class="session ' + award +  ' ' + venues +  ' ' + id  + ' ' + day + ' ' + slot_class + ' '
         + ' ' + room + '" data="' + id + '">'
   raw_html += '<table class="session-container session-collapsible" data="' + id + '"><tr class="clickable">'
   
@@ -1685,15 +1687,15 @@ function apply_filters(){
     select_class = select_class.filter(day_classes)
   }
   
-  if(time_classes!='.all'){               
+  if(time_classes != '.all'){               
     select_class = select_class.filter(time_classes)                
   }
 
-  if(papers_classes!='.all'){             
+  if(papers_classes != '.all'){             
     select_class = select_class.filter(papers_classes)              
   }
 
-  if(venue_classes!='.all'){             
+  if(venue_classes != '.all'){             
     select_class = select_class.filter(venue_classes)              
   }
 
