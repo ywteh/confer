@@ -31,7 +31,7 @@ urlpatterns = patterns('',
     url(r'^developer/allow_access$', 'server.views.allow_access'),
 
     #confer settings
-    url(r'^settings', 'server.views.settings'),
+    url(r'^(\w+?)/settings', 'server.views.settings'),
 
     #move this matching in the end
     url(r'^(\w+?)/visualizations$', 'server.views.visualizations'),

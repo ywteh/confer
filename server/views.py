@@ -247,7 +247,7 @@ def update_conference (request, conf):
 
 
 @login_required
-def settings (request):
+def settings (request, conf):
   errors = []
   error = False
   redirect_url = '/'
@@ -261,6 +261,7 @@ def settings (request):
         redirect_url = request.POST['redirect_url']
 
       user_email = request.POST["user_email"].lower()
+      user_voter_id = request.POST["user_voter_id"].strip()
       meetups = request.POST["meetups_enabled"]
       friendly = request.POST["friendly"] 
       user = User.objects.get(email=user_email)
@@ -275,8 +276,14 @@ def settings (request):
         user.friendly = False
 
       user.save()
+
+      registration = get_registration(user.email, conf)
+      registration.voter_id = user_voter_id
+      registration.save()
+
       return HttpResponseRedirect(redirect_url)
     except Exception, e:
+      print e
       errors.append(
           'Some unknown error happened. '
           'Please try again or send an email to '
@@ -288,6 +295,7 @@ def settings (request):
     login = get_login(request)
     user = login[1]
     c = {
+        'conf': conf,
         'user_email': user.email,
         'login_id': user.email,
         'login_name': user.f_name,
