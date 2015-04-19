@@ -51,13 +51,13 @@ function get_all_votes(_async_) {
 }
 
 function get_paper_schedule (id) {
-  if (sessions!= null) {
-    for (var i=0; i< sessions.length; i++) {
+  if (sessions) {
+    $.each(sessions, function(s_id, session) {
       var session = sessions[i]
       if(session.submissions && sessions.submissions.indexOf(id) >= 0) {
         return {'time': session.time, 'room': session.room, 'day': session.day}
       }
-    }
+    });
   }
   
   return null
