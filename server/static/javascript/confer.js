@@ -50,36 +50,29 @@ function get_all_votes(_async_) {
   });
 }
 
-function add_vote(event) {
+function handle_vote(event) {
   var obj = $(event.target)
   var id = obj.attr("data")
+
+  value = true
+  if obj.hasClass("besttalk-selected") {
+    value = false
+  }
   $.ajax({
     type: 'GET',
     dataType: "json",
-    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=true',
+    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=' + value,
     success: function(res) {
       if(res.result == 'ok'){
-        obj.removeClass("besttalk").addClass("besttalk-selected")
+        if(value) {
+          obj.removeClass("besttalk").addClass("besttalk-selected")
+        } else {
+          obj.removeClass("besttalk-selected").addClass("besttalk")
+        }
       }
     }
   });
 }
-
-function remove_vote(event) {
-  var obj = $(event.target)
-  var id = obj.attr("data")
-  $.ajax({
-    type: 'GET',
-    dataType: "json",
-    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=false',
-    success: function(res) {
-      if(res.result == 'ok'){
-        obj.removeClass("besttalk-selected").addClass("besttalk")
-      }
-    }
-  });
-}
-
 
 function refresh(_async_){
   if(!navigator.onLine){
@@ -717,9 +710,9 @@ function get_paper_html(id){
   }
   raw_html += '<br />'
   if(besttalks.indexOf(id) == -1){
-    raw_html += '<div class="besttalk" data="'+ id + '" onclick="add_vote(event);"></div>'        
+    raw_html += '<div class="besttalk" data="'+ id + '" onclick="handle_vote(event);"></div>'        
   }else{
-    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="remove_vote(event);"></div>'       
+    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="handle_vote(event);"></div>'       
   }
   
   
