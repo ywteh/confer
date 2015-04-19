@@ -1,4 +1,514 @@
 sessions={
+    "keynote-1": {
+        "s_title": "Opening Plenary - Crossing: HCI, Design and Sustainability",
+        "room": "Plenary Hall",
+        "time": "8:30-10:00",
+        "submissions": [
+            "key1"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "keynote",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "keynote-2": {
+        "s_title": "Plenary Session - UX Design in the IoT Era ",
+        "room": "Plenary Hall",
+        "time": "8:30-10:00",
+        "submissions": [
+            "key2"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "keynote",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "keynote-3": {
+        "s_title": "Plenary Session - Journey to a Better Life",
+        "room": "Plenary Hall",
+        "time": "8:30-10:00",
+        "submissions": [
+            "key3"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "keynote",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "keynote-4": {
+        "s_title": "Plenary Session - ACM-W Athena Lecture: Large-Scale Behavioral Data: Potential and Pitfalls",
+        "room": "Plenary Hall",
+        "time": "8:30-10:00",
+        "submissions": [
+            "key4"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "keynote",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "keynote-5": {
+        "s_title": "Plenary Session - Cultural Crossing from Local to Global through Music: Technology, Media, and Future",
+        "room": "Plenary Hall",
+        "time": "16:30-17:50",
+        "submissions": [
+            "key5"
+        ],
+        "personas": "",
+        "venue": "keynote",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "keynote",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "keynote",
+        "chair": ""
+    },
+    "wip-1": {
+        "s_title": "Work in Progress Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "wip",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "wip",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "wip",
+        "chair": ""
+    },
+    "int-1": {
+        "s_title": "Interactivity Demos Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "interactivity",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "interactivity",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "interactivity",
+        "chair": ""
+    },
+    "wip-2": {
+        "s_title": "Work in Progress Exhibit",
+        "room": "Exhibit Hall",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "wip",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "wip",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "wip",
+        "chair": ""
+    },
+    "int-2": {
+        "s_title": "Interactivity Demos Exhibit",
+        "room": "Exhibit Hall",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "interactivity",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "interactivity",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "interactivity",
+        "chair": ""
+    },
+    "wip-3": {
+        "s_title": "Work in Progress Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "wip",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "wip",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "wip",
+        "chair": ""
+    },
+    "int-3": {
+        "s_title": "Interactivity Demos Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "interactivity",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "interactivity",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "interactivity",
+        "chair": ""
+    },
+    "wip-4": {
+        "s_title": "Work in Progress Exhibit",
+        "room": "Exhibit Hall",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "wip",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "wip",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "wip",
+        "chair": ""
+    },
+    "int-4": {
+        "s_title": "Interactivity Demos Exhibit",
+        "room": "Exhibit Hall",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "interactivity",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "interactivity",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "interactivity",
+        "chair": ""
+    },
+    "int-5": {
+        "s_title": "Interactivity Demos Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "interactivity",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "interactivity",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "interactivity",
+        "chair": ""
+    },
+    "break-1": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "10:00-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-2": {
+        "s_title": "Lunch Break (on your own)",
+        "room": "",
+        "time": "12:50-14:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-3": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-4": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-5": {
+        "s_title": "Lunch Break (on your own)",
+        "room": "",
+        "time": "12:50-14:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-6": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-7": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-8": {
+        "s_title": "Lunch Break (on your own)",
+        "room": "",
+        "time": "12:50-14:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-9": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-10": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "10:50-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-11": {
+        "s_title": "Lunch Break (on your own) - Exhibit hall closes at 13:30",
+        "room": "",
+        "time": "12:50-14:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "break-12": {
+        "s_title": "Coffee Break",
+        "room": "",
+        "time": "15:50-16:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "breaks",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "breaks",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "breaks",
+        "chair": ""
+    },
+    "sgc-ex-1": {
+        "s_title": "Student Game Competition Exhibit",
+        "room": "Exhibit Hall",
+        "time": "10:00-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "special-1": {
+        "s_title": "Opening Reception & Exhibit Hall Grand Opening",
+        "room": "Exhbit Hall",
+        "time": "18:00-19:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "special-2": {
+        "s_title": "Job Fair",
+        "room": "Exhbit Hall",
+        "time": "18:00-19:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "vid-1": {
+        "s_title": "Video Showcase",
+        "room": "401",
+        "time": "10:00-11:30",
+        "submissions": [
+
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
     "s-sig1": {
         "s_title": "SIG: Start and Run a SIGCHI Local Chapter",
         "room": "318A",
@@ -77,6 +587,40 @@ sessions={
         "personas": "",
         "venue": "SIG",
         "day": "Monday",
+        "s_tags": [],
+        "type": "SIG",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "SIG",
+        "chair": ""
+    },
+    "s-sig6": {
+        "s_title": "SIG: Games Research Subcommittee",
+        "room": "318A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "sig111"
+        ],
+        "personas": "",
+        "venue": "SIG",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "SIG",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "SIG",
+        "chair": ""
+    },
+    "s-sig7": {
+        "s_title": "SIG: Moving to a Virtual PC Meeting",
+        "room": "318A",
+        "time": "11:30-12:50",
+        "submissions": [
+            "sig112"
+        ],
+        "personas": "",
+        "venue": "SIG",
+        "day": "Thursday",
         "s_tags": [],
         "type": "SIG",
         "hasAward": false,
@@ -187,6 +731,23 @@ sessions={
     "s-crs100": {
         "s_title": "Course: Learn to Sketch (Even if You Can’t Draw) 1/2",
         "room": "317BC",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs100"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs100-1": {
+        "s_title": "Course: Learn to Sketch (Even if You Can’t Draw) 2/2",
+        "room": "317BC",
         "time": "11:30-12:50",
         "submissions": [
             "crs100"
@@ -204,6 +765,23 @@ sessions={
     "s-crs101": {
         "s_title": "Course: Intro to Creating Musical Interfaces 1/2",
         "room": "317A",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs101"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs101-1": {
+        "s_title": "Course: Intro to Creating Musical Interfaces 2/2",
+        "room": "317A",
         "time": "11:30-12:50",
         "submissions": [
             "crs101"
@@ -219,7 +797,7 @@ sessions={
         "chair": ""
     },
     "s-crs103": {
-        "s_title": "Course: Designing with the Mind in Mind 1/1",
+        "s_title": "Course: Designing with the Mind in Mind",
         "room": "317BC",
         "time": "11:30-12:50",
         "submissions": [
@@ -238,6 +816,23 @@ sessions={
     "s-crs104": {
         "s_title": "Course: Experience Sampling to Collect Deep Data 1/2",
         "room": "317A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs104"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs104-1": {
+        "s_title": "Course: Experience Sampling to Collect Deep Data 2/2",
+        "room": "317A",
         "time": "16:30-17:50",
         "submissions": [
             "crs104"
@@ -254,6 +849,23 @@ sessions={
     },
     "s-crs106": {
         "s_title": "Course: Practical UX Research Methodologies 1/2",
+        "room": "318BC",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs106"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs106-1": {
+        "s_title": "Course: Practical UX Research Methodologies 2/2",
         "room": "318BC",
         "time": "11:30-12:50",
         "submissions": [
@@ -272,6 +884,23 @@ sessions={
     "s-crs107": {
         "s_title": "Course: Conceptual Models: Core to Good Design 1/2",
         "room": "318BC",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs107"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs107-1": {
+        "s_title": "Course: Conceptual Models: Core to Good Design 2/2",
+        "room": "318BC",
         "time": "16:30-17:50",
         "submissions": [
             "crs107"
@@ -287,7 +916,7 @@ sessions={
         "chair": ""
     },
     "s-crs108": {
-        "s_title": "Course: Designing Websites for Adults 55+ 1/1",
+        "s_title": "Course: Designing Websites for Adults 55+ ",
         "room": "317A",
         "time": "11:30-12:50",
         "submissions": [
@@ -306,6 +935,23 @@ sessions={
     "s-crs109": {
         "s_title": "Course: HCI Lessons: From Earth to Outer Space 1/2",
         "room": "E7",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs109"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs109-1": {
+        "s_title": "Course: HCI Lessons: From Earth to Outer Space 2/2",
+        "room": "E7",
         "time": "16:30-17:50",
         "submissions": [
             "crs109"
@@ -321,7 +967,7 @@ sessions={
         "chair": ""
     },
     "s-crs110": {
-        "s_title": "Course: Introduction to Positive Computing 1/1",
+        "s_title": "Course: Introduction to Positive Computing ",
         "room": "318BC",
         "time": "9:30-10:50",
         "submissions": [
@@ -340,6 +986,23 @@ sessions={
     "s-crs111": {
         "s_title": "Course: Design for Online Video &amp; Television 1/2",
         "room": "318BC",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs111"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs111-1": {
+        "s_title": "Course: Design for Online Video &amp; Television 2/2",
+        "room": "318BC",
         "time": "16:30-17:50",
         "submissions": [
             "crs111"
@@ -355,8 +1018,25 @@ sessions={
         "chair": ""
     },
     "s-crs112": {
+        "s_title": "Course: Intro to Human-Computer Interaction 1/2",
+        "room": "317A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs112"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs112-1": {
         "s_title": "Course: Intro to Human-Computer Interaction 2/2",
-        "room": "317BC",
+        "room": "317A",
         "time": "16:30-17:50",
         "submissions": [
             "crs112"
@@ -371,16 +1051,16 @@ sessions={
         "subtype": "course",
         "chair": ""
     },
-    "s-crs113": {
-        "s_title": "Course: Cross-channel Conceptual Design 1/1",
-        "room": "E7",
-        "time": "11:30-12:50",
+    "s-crs115": {
+        "s_title": "Course: Designing Wearable Interfaces 1/2",
+        "room": "308",
+        "time": "14:30-15:50",
         "submissions": [
-            "crs113"
+            "crs115"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Monday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -388,8 +1068,8 @@ sessions={
         "subtype": "course",
         "chair": ""
     },
-    "s-crs115": {
-        "s_title": "Course: Designing Wearable Interfaces 1/2",
+    "s-crs115-1": {
+        "s_title": "Course: Designing Wearable Interfaces 2/2",
         "room": "308",
         "time": "16:30-17:50",
         "submissions": [
@@ -408,6 +1088,23 @@ sessions={
     "s-crs116": {
         "s_title": "Course: Speech-based Interaction 1/2",
         "room": "E7",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs116"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs116-1": {
+        "s_title": "Course: Speech-based Interaction 2/2",
+        "room": "E7",
         "time": "11:30-12:50",
         "submissions": [
             "crs116"
@@ -424,6 +1121,23 @@ sessions={
     },
     "s-crs117": {
         "s_title": "Course: Rapid Design Labs - Design-Led Innovation 1/2",
+        "room": "E7",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs117"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs117-1": {
+        "s_title": "Course: Rapid Design Labs - Design-Led Innovation 2/2",
         "room": "E7",
         "time": "16:30-17:50",
         "submissions": [
@@ -442,6 +1156,23 @@ sessions={
     "s-crs118": {
         "s_title": "Course: Actionable Inexpensive Games Research 1/2",
         "room": "E7",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs118"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs118-1": {
+        "s_title": "Course: Actionable Inexpensive Games Research 2/2",
+        "room": "E7",
         "time": "16:30-17:50",
         "submissions": [
             "crs118"
@@ -457,7 +1188,7 @@ sessions={
         "chair": ""
     },
     "s-crs119": {
-        "s_title": "Course: Interaction Design for Reading Devices 1/1",
+        "s_title": "Course: Interaction Design for Reading Devices ",
         "room": "E7",
         "time": "9:30-10:50",
         "submissions": [
@@ -476,6 +1207,23 @@ sessions={
     "s-crs121": {
         "s_title": "Course: Designing Surveys for HCI Research 1/2",
         "room": "318BC",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs121"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs121-1": {
+        "s_title": "Course: Designing Surveys for HCI Research 2/2",
+        "room": "318BC",
         "time": "11:30-12:50",
         "submissions": [
             "crs121"
@@ -493,6 +1241,23 @@ sessions={
     "s-crs122": {
         "s_title": "Course: Designing &amp; Assessing Task Models 1/2",
         "room": "317A",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs122"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs122-1": {
+        "s_title": "Course: Designing &amp; Assessing Task Models 2/2",
+        "room": "317A",
         "time": "11:30-12:50",
         "submissions": [
             "crs122"
@@ -508,7 +1273,7 @@ sessions={
         "chair": ""
     },
     "s-crs124": {
-        "s_title": "Course: Benefit from Using ISO Standards 1/1",
+        "s_title": "Course: Benefit from Using ISO Standards ",
         "room": "E7",
         "time": "11:30-12:50",
         "submissions": [
@@ -525,7 +1290,7 @@ sessions={
         "chair": ""
     },
     "s-crs128": {
-        "s_title": "Course: Cross-Device, Context-dependent UI 1/1",
+        "s_title": "Course: Cross-Device, Context-dependent UI ",
         "room": "317BC",
         "time": "11:30-12:50",
         "submissions": [
@@ -544,6 +1309,23 @@ sessions={
     "s-crs129": {
         "s_title": "Course:&nbsp;Methods for Child Computer Interaction 1/2",
         "room": "E7",
+        "time": "9:30-10:50",
+        "submissions": [
+            "crs129"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs129-1": {
+        "s_title": "Course:&nbsp;Methods for Child Computer Interaction 2/2",
+        "room": "E7",
         "time": "11:30-12:50",
         "submissions": [
             "crs129"
@@ -561,6 +1343,23 @@ sessions={
     "s-crs131": {
         "s_title": "Course: Sketching User Experiences 1/2",
         "room": "318BC",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs131"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs131-1": {
+        "s_title": "Course: Sketching User Experiences 2/2",
+        "room": "318BC",
         "time": "16:30-17:50",
         "submissions": [
             "crs131"
@@ -576,7 +1375,7 @@ sessions={
         "chair": ""
     },
     "s-crs132": {
-        "s_title": "Course: Body, Whys &amp; Videotape: Somatic Approaches 1/1",
+        "s_title": "Course: Body, Whys &amp; Videotape: Somatic Approaches ",
         "room": "318BC",
         "time": "11:30-12:50",
         "submissions": [
@@ -594,7 +1393,24 @@ sessions={
     },
     "s-crs133": {
         "s_title": "Course: Mobile Human-Computer Interaction 1/2",
-        "room": "317BC",
+        "room": "317A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs133"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs133-1": {
+        "s_title": "Course: Mobile Human-Computer Interaction 2/2",
+        "room": "317A",
         "time": "16:30-17:50",
         "submissions": [
             "crs133"
@@ -611,7 +1427,24 @@ sessions={
     },
     "s-crs134": {
         "s_title": "Course: Methods for&nbsp;HCI &nbsp;Research 1/2",
-        "room": "317A",
+        "room": "317BC",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs134"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs134-1": {
+        "s_title": "Course: Methods for&nbsp;HCI &nbsp;Research 2/2",
+        "room": "317BC",
         "time": "16:30-17:50",
         "submissions": [
             "crs134"
@@ -628,7 +1461,24 @@ sessions={
     },
     "s-crs135": {
         "s_title": "Course: Design for Searching &amp; Finding 1/2",
-        "room": "317A",
+        "room": "317BC",
+        "time": "14:30-15:50",
+        "submissions": [
+            "crs135"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Monday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-crs135-1": {
+        "s_title": "Course: Design for Searching &amp; Finding 2/2",
+        "room": "317BC",
         "time": "16:30-17:50",
         "submissions": [
             "crs135"
@@ -644,7 +1494,7 @@ sessions={
         "chair": ""
     },
     "s-crs138": {
-        "s_title": "Course: Vision-Driven: Beyond Tangible Bits 1/1",
+        "s_title": "Course: Vision-Driven: Beyond Tangible Bits ",
         "room": "317BC",
         "time": "9:30-10:50",
         "submissions": [
@@ -1153,11 +2003,10 @@ sessions={
         "room": "E4",
         "time": "11:30-12:50",
         "submissions": [
-            "pn965",
             "pn1135",
             "pn1626",
-            "pn323",
             "pn2108",
+            "pn323",
             "pn2370"
         ],
         "personas": "",
@@ -1350,7 +2199,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Shuli Gilutz"
+        "chair": "Kori Inkpen"
     },
     "s134": {
         "s_title": "Papers: Makers &amp; Hackers",
@@ -1869,9 +2718,9 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "pn271",
-            "pn1688",
             "pn2196",
-            "pn5112"
+            "pn5112",
+            "pn1688"
         ],
         "personas": "",
         "venue": "paper",
@@ -2212,7 +3061,7 @@ sessions={
         "chair": "Henry Duh"
     },
     "s-alt4": {
-        "s_title": "alt.chi: Arts and Phiolosphy",
+        "s_title": "alt.chi: Arts and Philosophy",
         "room": "308",
         "time": "9:30-10:50",
         "submissions": [
@@ -2663,9 +3512,9 @@ sessions={
         "room": "E5",
         "time": "14:30-15:50",
         "submissions": [
-            "pn885",
-            "pn1001",
             "pn1118",
+            "pn1001",
+            "pn885",
             "pn1124",
             "pn2191"
         ],
@@ -2899,7 +3748,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Alexander De Luca"
+        "chair": "Emanuel von Zezschwitz"
     },
     "s-float-33": {
         "s_title": "Papers: Smart Smartphone Authentication",
@@ -2952,8 +3801,8 @@ sessions={
             "pn1386",
             "pn2224",
             "pn207",
-            "pn586",
             "pn1558",
+            "pn586",
             "pn1257"
         ],
         "personas": "",
@@ -3046,7 +3895,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Giulio Jacucci"
+        "chair": "Mark Blythe"
     },
     "s-float-40": {
         "s_title": "Papers: Supporting Creativity&nbsp;through UX Design",
@@ -3345,6 +4194,40 @@ sessions={
         "personas": "",
         "venue": "special",
         "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-src2": {
+        "s_title": "Special: Student Research Competition 1st Round",
+        "room": "Exhibit Hall",
+        "time": "11:30-12:50",
+        "submissions": [
+            "src2"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-sdc2": {
+        "s_title": "Special: Student Design Competition 1st Round",
+        "room": "327ABC",
+        "time": "10:00-11:30",
+        "submissions": [
+            "sdc2"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Monday",
         "s_tags": [],
         "type": "special",
         "hasAward": false,
