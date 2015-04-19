@@ -42,8 +42,9 @@ function get_all_votes() {
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=get_votes',
     success: function(res) {
       console.log(res)
-      if (res.value != undefined) {          
+      if (res.result == 'ok') {          
         besttalks = res.value.split(',')
+        console.log(besttalks)
       }
     }
   });
