@@ -91,13 +91,10 @@ def papers (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
-    registration = get_registration(user.email, conf)
-    user_voter_id = registration.voter_id
     return render_to_response('papers.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
@@ -114,13 +111,10 @@ def schedule (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
-    registration = get_registration(user.email, conf)
-    user_voter_id = registration.voter_id
     return render_to_response('schedule.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
@@ -136,13 +130,10 @@ def paper (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
-    registration = get_registration(user.email, conf)
-    user_voter_id = registration.voter_id
     return render_to_response('paper.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
-        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
@@ -463,11 +454,13 @@ def data (request):
   msg = 'OK'
   login = None
   login_name = None
+  user_voter_id = None
   try:
     login = request.session[kLogIn]
     login_name = request.session[kName]
     conf = request.session[kConf]
     registration = get_registration(login, conf)
+    user_voter_id = registration.voter_id
     data = None
 
     try:
@@ -504,6 +497,7 @@ def data (request):
   return HttpResponse(json.dumps({
       'login_id': login,
       'login_name': login_name,
+      'user_voter_id': user_voter_id,
       'recs':recs, 
       'likes':likes,
       'error': error,
