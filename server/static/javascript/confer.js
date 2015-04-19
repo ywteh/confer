@@ -72,8 +72,10 @@ function handle_vote(event) {
       if(res.result == 'ok'){
         if(value) {
           obj.removeClass("besttalk").addClass("besttalk-selected")
+          enable_alert("You voted a paper for the best talk.");
         } else {
           obj.removeClass("besttalk-selected").addClass("besttalk")
+          enable_alert("You un-voted a paper for the best talk.");
         }
         get_all_votes(true)
       } else {
