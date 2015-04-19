@@ -1676,27 +1676,36 @@ function apply_filters(){
   var day_classes = '.'+$('.day.active').attr("data")
   var time_classes = '.'+$('.time.active').attr("data")
   var papers_classes = '.'+$('.p_session.active').attr("data")
+  var venue_classes = '.'+$('.venue.active').attr("data")
   
 
   var select_class = $('.session')
+  
   if(day_classes != '.all'){
-  select_class = select_class.filter(day_classes)
+    select_class = select_class.filter(day_classes)
   }
   
   if(time_classes!='.all'){               
-  select_class = select_class.filter(time_classes)                
+    select_class = select_class.filter(time_classes)                
   }
 
   if(papers_classes!='.all'){             
-  select_class = select_class.filter(papers_classes)              
+    select_class = select_class.filter(papers_classes)              
   }
- $('.session').hide();
- $('.session-timeslot').each(function(){
-  $(this).prev().hide()
+
+  if(venue_classes!='.all'){             
+    select_class = select_class.filter(venue_classes)              
+  }
+
+
+  $('.session').hide();
+  
+  $('.session-timeslot').each(function(){
+    $(this).prev().hide()
   });
 
- select_class.show();
- select_class.each(function(){
+  select_class.show();
+  select_class.each(function(){
   $(this).parent().prev().show()
   });
 
