@@ -91,10 +91,13 @@ def papers (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
+    registration = get_registration(user.email, conf)
+    user_voter_id = registration.voter_id
     return render_to_response('papers.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
+        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
@@ -111,10 +114,13 @@ def schedule (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
+    registration = get_registration(user.email, conf)
+    user_voter_id = registration.voter_id
     return render_to_response('schedule.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
+        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
@@ -130,10 +136,13 @@ def paper (request, conf):
     login_id, user = get_login(request)
     login_name = '' if not user else user.f_name
     meetups = None if not user else user.meetups_enabled
+    registration = get_registration(user.email, conf)
+    user_voter_id = registration.voter_id
     return render_to_response('paper.html', {
         'conf':conf,
         'login_id': login_id,
         'login_name': login_name,
+        'user_voter_id': user_voter_id,
         'meetups_enabled': meetups
       }
     )
