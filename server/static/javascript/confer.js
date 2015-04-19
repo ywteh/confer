@@ -76,7 +76,7 @@ function handle_vote(event) {
           obj.removeClass("besttalk-selected").addClass("besttalk")
         }
       } else {
-        persistent_alert(res.error + ' ' + <a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to update your voter id.')
+        persistent_alert(res.error + ' ' + '<a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to update your voter id.')
       }
     }
   });
