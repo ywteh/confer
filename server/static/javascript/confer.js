@@ -50,6 +50,19 @@ function get_all_votes(_async_) {
   });
 }
 
+function get_paper_schedule (id) {
+  if (sessions!= null) {
+    for (var i=0; i< sessions.length; i++) {
+      var session = sessions[i]
+      if(session.submissions && sessions.submissions.indexOf(id) >= 0) {
+        return {'time': session.time, 'room': session.room}
+      }
+    }
+  }
+  
+  return null
+}
+
 function handle_vote(event) {
   if (user_voter_id == null) {
     persistent_alert('You haven\'t set your voter id. <a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to set your voter id.'); 
