@@ -55,7 +55,7 @@ function get_paper_schedule (id) {
     for (var i=0; i< sessions.length; i++) {
       var session = sessions[i]
       if(session.submissions && sessions.submissions.indexOf(id) >= 0) {
-        return {'time': session.time, 'room': session.room}
+        return {'time': session.time, 'room': session.room, 'day': session.day}
       }
     }
   }
