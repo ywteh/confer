@@ -75,6 +75,7 @@ function handle_vote(event) {
         } else {
           obj.removeClass("besttalk-selected").addClass("besttalk")
         }
+        get_all_votes(true)
       } else {
         persistent_alert('The voter id set in your profile is incorrect. ' + '<a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to update your voter id.')
       }
