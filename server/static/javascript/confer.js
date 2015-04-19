@@ -51,6 +51,12 @@ function get_all_votes(_async_) {
 }
 
 function handle_vote(event) {
+  if (user_voter_id == null) {
+    persistent_alert('You haven\'t set your voter id. <a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to set your voter id.'); 
+    
+    event.stopPropagation();
+    return
+  }
   var obj = $(event.target)
   var id = obj.attr("data")
 
@@ -69,6 +75,8 @@ function handle_vote(event) {
         } else {
           obj.removeClass("besttalk-selected").addClass("besttalk")
         }
+      } else {
+        persistent_alert(res.error + ' ' + <a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to update your voter id.')
       }
     }
   });
