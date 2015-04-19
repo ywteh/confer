@@ -59,7 +59,7 @@ function add_vote(event) {
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=true',
     success: function(res) {
       if(res.result == 'ok'){
-
+        obj.removeClass("besttalk").addClass("besttalk-selected")
       }
     }
   });
@@ -74,7 +74,7 @@ function remove_vote(event) {
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=false',
     success: function(res) {
       if(res.result == 'ok'){
-        
+        obj.removeClass("besttalk-selected").addClass("besttalk")
       }
     }
   });
