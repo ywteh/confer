@@ -24,7 +24,11 @@ var login_id = localStorage.getItem('login_id')
 var user_voter_id = localStorage.getItem('user_voter_id')
 var login_name = localStorage.getItem('login_name')
 var starred = []
+
+var besttalks = []
+
 var s = JSON.parse(localStorage.getItem('starred'))
+
 if (s != null){
   starred = s
 }
@@ -32,6 +36,35 @@ var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
 
+function get_all_votes() {
+  $.ajax({
+    type: 'GET',
+    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=get_votes',
+    success: function(res) {            
+      besttalks = res.value.split(",")
+    }
+  });
+}
+
+function add_vote(obj) {
+  var id = obj.attr("data")
+  $.ajax({
+    type: 'GET',
+    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + 'command=set_vote_value&event_fk=' + id + '&value=true',
+    success: function(res) {
+    }
+  });
+}
+
+function remove_vote(obj) {
+  var id = obj.attr("data")
+  $.ajax({
+    type: 'GET',
+    url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + 'command=set_vote_value&event_fk=' + id + '&value=false',
+    success: function(res) {
+    }
+  });
+}
 
 
 function refresh(_async_){
@@ -76,6 +109,7 @@ setInterval('refresh();', 60*1000)
 
 refresh(false)
 compute_recs()
+get_all_votes()
 /* data structure for pending stars */
 
 function refresh_pending(){
@@ -666,10 +700,10 @@ function get_paper_html(id){
     raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);"></div>'       
   }
   raw_html += '<br />'
-  if(1==1){
-    raw_html += '<div class="besttalk" data="'+ id + '" onclick="select_besttalk(event);"></div>'        
+  if(besttalks.indexOf(id) == -1){
+    raw_html += '<div class="besttalk" data="'+ id + '" onclick="add_vote(event);"></div>'        
   }else{
-    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="unselect_besttalk(event);"></div>'       
+    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="remove_vote(event);"></div>'       
   }
   
   
