@@ -39,6 +39,7 @@ var recommended = []
 function get_all_votes() {
   $.ajax({
     type: 'GET',
+    dataType: "json",
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=get_votes',
     success: function(res) {
       console.log(res)
@@ -56,6 +57,7 @@ function add_vote(event) {
   var id = obj.attr("data")
   $.ajax({
     type: 'GET',
+    dataType: "json",
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=true',
     success: function(res) {
       if(res.result == 'ok'){
@@ -70,6 +72,7 @@ function remove_vote(event) {
   var id = obj.attr("data")
   $.ajax({
     type: 'GET',
+    dataType: "json",
     url: 'http://confapp.from.so/vote.php?id=' + user_voter_id + '&command=set_vote_value&event_fk=' + id + '&value=false',
     success: function(res) {
       if(res.result == 'ok'){
