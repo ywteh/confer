@@ -55,7 +55,7 @@ function handle_vote(event) {
   var id = obj.attr("data")
 
   value = true
-  if obj.hasClass("besttalk-selected") {
+  if(obj.hasClass("besttalk-selected")) {
     value = false
   }
   $.ajax({
