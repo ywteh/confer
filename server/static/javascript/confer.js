@@ -53,6 +53,7 @@ function get_all_votes(_async_) {
 function get_paper_schedule (id) {
   if (sessions) {
     $.each(sessions, function(s_id, session) {
+      console.log(session)
       if(session.submissions && sessions.submissions.indexOf(id) >= 0) {
         return {'time': session.time, 'room': session.room, 'day': session.day}
       }
