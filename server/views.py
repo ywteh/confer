@@ -294,11 +294,13 @@ def settings (request, conf):
   else:
     login = get_login(request)
     user = login[1]
+    registration = get_registration(user.email, conf)
     c = {
         'conf': conf,
         'user_email': user.email,
         'login_id': user.email,
         'login_name': user.f_name,
+        'user_voter_id': registration.voter_id,
         'meetups_enabled': user.meetups_enabled,
         'friendly': user.friendly,
         'redirect_url': redirect_url}
