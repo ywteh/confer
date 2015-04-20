@@ -980,7 +980,7 @@ function get_selected_paper_html(id){
   }
   
   if(entities[id].subtype != null){
-    raw_html += '<span class="paper-subtype"> ' + entities[id].subtype + '</span>'
+    raw_html += '<span class="paper-subtype"> [' + entities[id].subtype + ']</span>'
   }
 
   p_schedule = get_paper_schedule(id)
