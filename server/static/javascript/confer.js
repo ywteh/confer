@@ -971,8 +971,16 @@ function get_selected_paper_html(id){
 
 
   raw_html += '<h3>' + entities[id].title
+  if(entities[id].award){
+    raw_html += '<span class="award-icon"></span>'
+  }
+
+  if(entities[id].hm){
+    raw_html += '<span class="hm-icon"></span>'
+  }
+  
   if(entities[id].subtype != null){
-    raw_html += '<span class="paper-subtype"> -- ' + entities[id].subtype + '</span>'
+    raw_html += '<span class="paper-subtype"> ' + entities[id].subtype + '</span>'
   }
 
   p_schedule = get_paper_schedule(id)
