@@ -977,7 +977,7 @@ function get_selected_paper_html(id){
 
   p_schedule = get_paper_schedule(id)
   if( p_schedule!= null){
-    raw_html += '<span class="paper-subtype"> Room: ' + p_schedule.room  + ', Time: [' + p_schedule.day + ' ' + p_schedule.time + ']</span>'
+    raw_html += '<span class="paper-subtype">' + p_schedule.day + ' ' + p_schedule.time + ' Room: ' + p_schedule.room + '</span>'
   }
 
   if(entities[id].acm_link != null) {
