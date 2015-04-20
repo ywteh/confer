@@ -51,15 +51,16 @@ function get_all_votes(_async_) {
 }
 
 function get_paper_schedule (id) {
+  var res = null
   if (sessions) {
     $.each(sessions, function(s_id, session) {
       if(session.submissions && session.submissions.indexOf(id) >= 0) {
-        return {'time': session.time, 'room': session.room, 'day': session.day}
+        res = {'time': session.time, 'room': session.room, 'day': session.day}
       }
     });
   }
   
-  return null
+  return res
 }
 
 function handle_vote(event) {
@@ -972,6 +973,11 @@ function get_selected_paper_html(id){
   raw_html += '<h3>' + entities[id].title
   if(entities[id].subtype != null){
     raw_html += '<span class="paper-subtype"> -- ' + entities[id].subtype + '</span>'
+  }
+
+  p_schedule = get_paper_schedule(id)
+  if( p_schedule!= null){
+    raw_html += '<span class="paper-subtype"> Room: ' + p_schedule.room  + ', Time: [' + p_schedule.day + ' ' + p_schedule.time + ']</span>'
   }
 
   if(entities[id].acm_link != null) {
