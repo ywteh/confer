@@ -976,11 +976,6 @@ function get_selected_paper_html(id){
     raw_html += '<span class="paper-subtype"> [' + entities[id].subtype + ']</span>'
   }
 
-  p_schedule = get_paper_schedule(id)
-  if( p_schedule!= null){
-    raw_html += '<span class="paper-subtype">' + p_schedule.day + ' ' + p_schedule.time + ' Room: ' + p_schedule.room + '</span>'
-  }
-
   if(entities[id].acm_link != null) {
     raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
   }
@@ -1019,11 +1014,6 @@ function get_selected_paper_html(id){
   raw_html += '</tbody>'
   return raw_html
 }
-
-
-
-
-
 
 
 function update_session_view(){
