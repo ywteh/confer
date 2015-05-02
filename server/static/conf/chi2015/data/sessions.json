@@ -1792,7 +1792,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Germaine Irwin"
+        "chair": "Jon Froehlich"
     },
     "s114": {
         "s_title": "Papers: Empowering Users",
@@ -3728,7 +3728,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Juho Kim"
+        "chair": "Krzysztof Z. Gajos"
     },
     "s-float-32": {
         "s_title": "Papers: Security Feedback &amp; Warnings ",
@@ -3916,7 +3916,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": "Luciano Gamberini"
+        "chair": "Paul Dourish"
     },
     "s-float-41": {
         "s_title": "Papers: Understanding &amp; Evaluating Performance",
