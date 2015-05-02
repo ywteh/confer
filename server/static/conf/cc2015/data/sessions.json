@@ -1,1 +1,190 @@
-sessions={"Oral_Session_6_Streaming_and_Synchronization_": {"room": "Room 114", "s_title": "Oral Session 6: Streaming and Synchronization)", "start": 16, "time": "16:30-17:45", "date": "10/23/13", "submissions": ["33", "36", "35", "34"]}, "Oral_Session_1_Experience": {"room": "Room 113", "s_title": "Oral Session 1: Experience", "start": 11, "time": "11:45-13:00", "date": "10/23/13", "submissions": ["9", "8", "7", "10"]}, "Doctorial_Symposium_1": {"room": "Room 115", "s_title": "Doctorial Symposium 1", "start": 14, "time": "14:30-15:45", "date": "10/25/13", "submissions": ["203", "205", "204"]}, "Doctorial_Symposium_2": {"room": "Room 115", "s_title": "Doctorial Symposium 2", "start": 15, "time": "15:45-16:30", "date": "10/25/13", "submissions": ["206"]}, "Doctorial_Symposium_3": {"room": "Room 115", "s_title": "Doctorial Symposium 3", "start": 16, "time": "16:30-17:30", "date": "10/25/13", "submissions": ["216", "217", "215"]}, "Open_Source_Software": {"room": "Room 114", "s_title": "Open Source Software", "start": 16, "time": "16:00-18:55", "date": "10/24/13", "submissions": ["123", "120", "121", "122", "130", "124", "125", "126", "127", "128", "129"]}, "Oral_Session_8_Multimodal_Analysis": {"room": "Room 113", "s_title": "Oral Session 8: Multimodal Analysis", "start": 14, "time": "14:30-15:45", "date": "10/25/13", "submissions": ["195", "197", "196", "198"]}, "Oral_Session_5_Action_and_Event_Recognition": {"room": "Room 113", "s_title": "Oral Session 5: Action and Event Recognition", "start": 16, "time": "16:30-17:45", "date": "10/23/13", "submissions": ["32", "31", "30", "29"]}, "Oral_Session_10_Similarity_Search": {"room": "Room 113", "s_title": "Oral Session 10: Similarity Search", "start": 16, "time": "16:15-17:30", "date": "10/25/13", "submissions": ["209", "208", "207", "210"]}, "Oral_Session_7_Security_and_Forensics": {"room": "Room 113", "s_title": "Oral Session 7: Security and Forensics", "start": 16, "time": "16:00-16:55", "date": "10/24/13", "submissions": ["117", "119", "118"]}, "Multimedia_Grand_Challenge": {"room": "Rooms 113-115", "s_title": "Multimedia Grand Challenge", "start": 10, "time": "10:30-12:30", "date": "10/24/13", "submissions": ["48", "49", "46", "47", "44", "45", "51", "43", "53", "42", "55", "54", "52", "50"]}, "_Oral_Session_4_Art_Performance_and_Sports_": {"room": "Room 114", "s_title": "\"Oral Session 4: Art, Performance, and Sports\"", "start": 14, "time": "14:45-16:00", "date": "10/23/13", "submissions": ["24", "25", "22", "23"]}, "Oral_Session_2_Music_and_Play": {"room": "Room 114", "s_title": "Oral Session 2: Music and Play", "start": 11, "time": "11:45-13:00", "date": "10/23/13", "submissions": ["11", "13", "12", "14"]}, "Posters_2": {"room": "Room 116", "s_title": "Posters 2", "start": 11, "time": "11:15-12:45", "date": "10/25/13", "submissions": ["151", "150", "153", "152", "155", "154", "157", "156", "159", "158", "137", "136", "135", "139", "138", "171", "170", "146", "147", "144", "145", "142", "143", "140", "141", "148", "149", "168", "169", "164", "165", "166", "167", "160", "161", "162", "163"]}, "Brave_New_Topics_Social_and_Cognitive_Aspects": {"room": "Room 115", "s_title": "Brave New Topics: Social and Cognitive Aspects", "start": 14, "time": "14:45-16:00", "date": "10/23/13", "submissions": ["26", "27", "28"]}, "Best_Paper_Session": {"room": "Rooms 113-115", "s_title": "Best Paper Session", "start": 10, "time": "10:00-11:15", "date": "10/23/13", "submissions": ["3", "5", "4", "6"]}, "Posters_1": {"room": "Room 116", "s_title": "Posters 1", "start": 14, "time": "14:30-16:00", "date": "10/24/13", "submissions": ["115", "91", "88", "89", "111", "110", "113", "112", "82", "83", "80", "81", "86", "87", "84", "85", "92", "95", "94", "104", "78", "97", "99", "98", "108", "109", "102", "103", "100", "101", "106", "107", "79", "105", "77", "114", "93", "116", "90"]}, "Keynote_1": {"room": "Rooms 113-115", "s_title": "Keynote 1", "start": 9, "time": "9:00-10:00", "date": "10/23/13", "submissions": ["2"]}, "Keynote_2": {"room": "Rooms 113-115", "s_title": "Keynote 2", "start": 9, "time": "9:00-10:00", "date": "10/24/13", "submissions": ["41"]}, "Brave_New_Topics_New_Data_and_Modalities": {"room": "Room 115", "s_title": "Brave New Topics: New Data and Modalities", "start": 16, "time": "16:30-17:45", "date": "10/23/13", "submissions": ["39", "38", "37"]}, "Oral_Session_3_Annotation_": {"room": "Room 113", "s_title": "Oral Session 3: Annotation ", "start": 14, "time": "14:45-16:00", "date": "10/23/13", "submissions": ["19", "18", "20", "21"]}, "Oral_Session_11_Scene_Understanding": {"room": "Room 114", "s_title": "Oral Session 11: Scene Understanding", "start": 16, "time": "16:15-17:30", "date": "10/25/13", "submissions": ["214", "212", "213", "211"]}, "Oral_Session_9_Social_Dynamics": {"room": "Room 114", "s_title": "Oral Session 9: Social Dynamics", "start": 14, "time": "14:30-15:45", "date": "10/25/13", "submissions": ["201", "200", "202", "199"]}, "Demos_2": {"room": "Room 116", "s_title": "Demos 2", "start": 11, "time": "11:15-12:45", "date": "10/25/13", "submissions": ["174", "179", "178", "191", "190", "172", "182", "183", "180", "181", "186", "187", "184", "185", "177", "176", "188", "189", "173", "175"]}, "Demos_1": {"room": "Room 116", "s_title": "Demos 1", "start": 14, "time": "14:30-16:00", "date": "10/24/13", "submissions": ["66", "59", "58", "61", "57", "67", "62", "60", "76", "75", "63", "64", "65", "71", "70", "68", "69", "73", "74", "72"]}}
+sessions={
+  "Conference_Dinner": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Conference Dinner", 
+    "submissions": [
+      "event_39"
+    ], 
+    "time": "19:00"
+  }, 
+  "Finding_Inspriation": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Finding Inspriation", 
+    "submissions": [
+      "CCp131", 
+      "CCp129", 
+      "CCp237", 
+      "CCp199"
+    ], 
+    "time": "15:30"
+  }, 
+  "Graduate_Symposium": {
+    "date": "6/25/15", 
+    "room": "TBD", 
+    "s_title": "Graduate Symposium", 
+    "submissions": [
+      "CCdc111", 
+      "CCdc112", 
+      "CCdc113", 
+      "CCdc121", 
+      "CCdc126", 
+      "CCdc127", 
+      "CCdc129", 
+      "CCdc130", 
+      "CCdc132", 
+      "CCdc133", 
+      "CCdc134", 
+      "CCdc137", 
+      "CCdc138", 
+      "CCdc139"
+    ], 
+    "time": "9:00"
+  }, 
+  "Ideation_Play_and_Experience": {
+    "date": "6/24/15", 
+    "room": "TBD", 
+    "s_title": "Ideation Play, and Experience", 
+    "submissions": [
+      "CCp122", 
+      "CCp240", 
+      "CCp142"
+    ], 
+    "time": "11:00"
+  }, 
+  "Keynote_Session_1": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Keynote Session 1", 
+    "submissions": [
+      "event_1"
+    ], 
+    "time": "9:00"
+  }, 
+  "Keynote_Session_2": {
+    "date": "6/23/15", 
+    "room": "TBD", 
+    "s_title": "Keynote Session 2", 
+    "submissions": [
+      "event_15"
+    ], 
+    "time": "9:00"
+  }, 
+  "Keynote_Session_3": {
+    "date": "6/24/15", 
+    "room": "TBD", 
+    "s_title": "Keynote Session 3", 
+    "submissions": [
+      "event_53"
+    ], 
+    "time": "15:30"
+  }, 
+  "Moments_and_Movements": {
+    "date": "6/23/15", 
+    "room": "TBD", 
+    "s_title": "Moments and Movements", 
+    "submissions": [
+      "CCp999", 
+      "CCp173", 
+      "CCp172", 
+      "CCp194"
+    ], 
+    "time": "11:00"
+  }, 
+  "Performance_Event": {
+    "date": "6/24/15", 
+    "room": "TBD", 
+    "s_title": "Performance Event", 
+    "submissions": [
+      "event_54"
+    ], 
+    "time": "19:00"
+  }, 
+  "Places_of_Creativity": {
+    "date": "6/24/15", 
+    "room": "TBD", 
+    "s_title": "Places of Creativity", 
+    "submissions": [
+      "CCp231", 
+      "CCp127", 
+      "CCp248", 
+      "CCp209", 
+      "CCp186"
+    ], 
+    "time": "13:30"
+  }, 
+  "Posters_and_Demos": {
+    "date": "6/23/15", 
+    "room": "TBD", 
+    "s_title": "Posters and Demos", 
+    "submissions": [
+      "CCdp109", 
+      "CCdp110", 
+      "CCdp111", 
+      "CCdp114", 
+      "CCdp116", 
+      "CCdp117", 
+      "CCdp118", 
+      "CCdp124", 
+      "CCdp125", 
+      "CCdp128", 
+      "CCdp130", 
+      "CCdp139", 
+      "CCdp142", 
+      "CCdp144", 
+      "CCdp115", 
+      "CCdp119", 
+      "CCdp120", 
+      "CCdp138", 
+      "CCdp154"
+    ], 
+    "time": "13:30"
+  }, 
+  "Reception_Art_Exhibit": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Reception & Art Exhibit", 
+    "submissions": [
+      "event_14"
+    ], 
+    "time": "17:30"
+  }, 
+  "Textiles_and_Objects": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Textiles and Objects", 
+    "submissions": [
+      "CCp211", 
+      "CCp189", 
+      "CCp136", 
+      "CCp185"
+    ], 
+    "time": "11:00"
+  }, 
+  "Tools_and_Interfaces": {
+    "date": "6/22/15", 
+    "room": "TBD", 
+    "s_title": "Tools and Interfaces", 
+    "submissions": [
+      "CCp219", 
+      "CCp178", 
+      "CCp167", 
+      "CCp147"
+    ], 
+    "time": "13:30"
+  }, 
+  "Working_and_Learning": {
+    "date": "6/24/15", 
+    "room": "TBD", 
+    "s_title": "Working and Learning", 
+    "submissions": [
+      "CCp137", 
+      "CCp227", 
+      "CCp203", 
+      "CCp224", 
+      "CCp239"
+    ], 
+    "time": "9:00"
+  }
+}
