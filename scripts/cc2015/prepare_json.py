@@ -71,6 +71,7 @@ def prepare_data(data_file):
     
     s_date = unicode(row[2], "ISO-8859-1")
     s_time = unicode(row[3], "ISO-8859-1")
+    s_end_time = unicode(row[4], "ISO-8859-1")
     paper_type = unicode(row[10], "ISO-8859-1")
     session = unicode(row[8], "ISO-8859-1")
     paper_title = unicode(row[9], "ISO-8859-1")
@@ -91,7 +92,7 @@ def prepare_data(data_file):
       sessions[s_id]['submissions'].append(paper_id)
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time, 'date': s_date}
+          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time + '-' + s_end_time, 'date': s_date}
 
     p_id += 1
 
@@ -119,7 +120,7 @@ def main():
   prepare_data (data_file)
   # write files
   p = open('data/' + conf + '/papers.json','w')
-  p.write(json.dumps(papers, indent=2, sort_keys=True))
+  p.write(json.dumps(papers, indent=2, sort_keys=False))
   p = open('server/static/conf/' + conf + '/data/papers.json','w')
   p.write('entities='+json.dumps(papers, indent=2, sort_keys=True))
   p = open('server/static/conf/' + conf + '/data/sessions.json','w')

@@ -1,4 +1,20 @@
-entities = { 
+entities={
+  "CCp122": {
+    "abstract": "Creativity thrives when people experience positive emotions. How to design an interactive system that can effectively make use of this potential is, however, still an unanswered question. In this paper, we propose one approach to this problem that relies on hacking into the cognitive appraisal processes that form part of positive emotions. To demonstrate our approach we have conceived, made, and evaluated a novel interactive system that influences an individual_\u00e3_s appraisals of their own idea generation processes by providing real-time and believable feedback about the originality of their ideas. The system can be used to manipulate this feedback to make the user_\u00e3_s ideas appear more or less original. This has enabled us to test experimentally the hypothesis that providing more positive feedback, rather than neutral, or more negative feedback than the user is expecting, causes more positive emotion, which in turn causes more creativity during idea generation. The findings demonstrate that an interactive system can be designed to use the function of cognitive appraisal processes in positive emotion to help people to get more out of their own creative capabilities.", 
+    "authors": [
+      {
+        "name": "Alwin de Rooij"
+      }, 
+      {
+        "name": "Philip Corr"
+      }, 
+      {
+        "name": "Sara Jones"
+      }
+    ], 
+    "subtype": "paper", 
+    "title": "Emotion and Creativity: Hacking into Cognitive Appraisal Processes to Augment Creative Ideation"
+  }, 
   "CCp127": {
     "abstract": "This paper describes everyday technologies in use in a long-term dementia care ward, and ways in which these technologies facilitated creative expression for residents within. Drawing on ethnographic research focusing on participation in creative activities for people with dementia living in care, the paper details how residents engaged with technologies (such as television) in a passive way (spending hours sitting in front of the TV without engaging with others around them), and in an active way (singing and dancing to music played via stereo and record player). Findings from this research emphasise the importance for interaction design for dementia in appreciating the role of active creative participation in sustaining personhood in dementia. Given a lack of both time and resources in publicly-funded care homes, we also highlight the value of opportunistic design in the field.", 
     "authors": [
@@ -534,7 +550,7 @@ entities = {
     "subtype": "paper", 
     "title": "Captured Moments: Defining a Communicative Framework for Social Photography"
   }, 
-    "CCdc111": {
+  "CCdc111": {
     "abstract": "", 
     "authors": [
       {
@@ -920,22 +936,6 @@ entities = {
     ], 
     "subtype": "demo", 
     "title": "Psychogeographical sound-drift"
-  }, 
-  "CCp122": {
-    "abstract": "Creativity thrives when people experience positive emotions. How to design an interactive system that can effectively make use of this potential is, however, still an unanswered question. In this paper, we propose one approach to this problem that relies on hacking into the cognitive appraisal processes that form part of positive emotions. To demonstrate our approach we have conceived, made, and evaluated a novel interactive system that influences an individual_\u00e3_s appraisals of their own idea generation processes by providing real-time and believable feedback about the originality of their ideas. The system can be used to manipulate this feedback to make the user_\u00e3_s ideas appear more or less original. This has enabled us to test experimentally the hypothesis that providing more positive feedback, rather than neutral, or more negative feedback than the user is expecting, causes more positive emotion, which in turn causes more creativity during idea generation. The findings demonstrate that an interactive system can be designed to use the function of cognitive appraisal processes in positive emotion to help people to get more out of their own creative capabilities.", 
-    "authors": [
-      {
-        "name": "Alwin de Rooij"
-      }, 
-      {
-        "name": "Philip Corr"
-      }, 
-      {
-        "name": "Sara Jones"
-      }
-    ], 
-    "subtype": "paper", 
-    "title": "Emotion and Creativity: Hacking into Cognitive Appraisal Processes to Augment Creative Ideation"
   },
   "event_1": {
     "abstract": "Steve Benford is Professor of Collaborative Computing in the Mixed Reality Laboratory at the University of Nottingham.  He is currently an EPSRC Dream Fellow and Director of the EPSRC-funded \u00a5Horizon: My Life in Data\u0090 Centre for Doctoral Training. He was a Visiting Professor at the BBC in 2012 and a Visiting Researcher at Microsoft Research in 2013. He has received best paper awards at the ACM\u0090s annual Computer-Human Interaction (CHI) conference in 2005, 2009, 2011 and 2012. He also won the 2003 Prix Ars Elctronica for Interactive Art, the 2007 Nokia Mindtrek award for Innovative Applications of Ubiquitous Computing, and has received four BAFTA nominations. He was elected to the CHI Academy in 2012. His book Performing Mixed Reality was published by MIT Press in 2011.", 

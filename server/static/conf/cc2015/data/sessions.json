@@ -6,7 +6,7 @@ sessions={
     "submissions": [
       "event_39"
     ], 
-    "time": "19:00"
+    "time": "19:00-21:00"
   }, 
   "Finding_Inspriation": {
     "date": "6/22/15", 
@@ -18,7 +18,7 @@ sessions={
       "CCp237", 
       "CCp199"
     ], 
-    "time": "15:30"
+    "time": "15:30-17:00"
   }, 
   "Graduate_Symposium": {
     "date": "6/25/15", 
@@ -40,7 +40,7 @@ sessions={
       "CCdc138", 
       "CCdc139"
     ], 
-    "time": "9:00"
+    "time": "9:00-17:00"
   }, 
   "Ideation_Play_and_Experience": {
     "date": "6/24/15", 
@@ -51,7 +51,7 @@ sessions={
       "CCp240", 
       "CCp142"
     ], 
-    "time": "11:00"
+    "time": "11:00-12:30"
   }, 
   "Keynote_Session_1": {
     "date": "6/22/15", 
@@ -60,7 +60,7 @@ sessions={
     "submissions": [
       "event_1"
     ], 
-    "time": "9:00"
+    "time": "9:00-10:30"
   }, 
   "Keynote_Session_2": {
     "date": "6/23/15", 
@@ -69,7 +69,7 @@ sessions={
     "submissions": [
       "event_15"
     ], 
-    "time": "9:00"
+    "time": "9:00-10:30"
   }, 
   "Keynote_Session_3": {
     "date": "6/24/15", 
@@ -78,7 +78,7 @@ sessions={
     "submissions": [
       "event_53"
     ], 
-    "time": "15:30"
+    "time": "15:30-17:00"
   }, 
   "Moments_and_Movements": {
     "date": "6/23/15", 
@@ -90,7 +90,7 @@ sessions={
       "CCp172", 
       "CCp194"
     ], 
-    "time": "11:00"
+    "time": "11:00-12:30"
   }, 
   "Performance_Event": {
     "date": "6/24/15", 
@@ -99,7 +99,7 @@ sessions={
     "submissions": [
       "event_54"
     ], 
-    "time": "19:00"
+    "time": "19:00-21:00"
   }, 
   "Places_of_Creativity": {
     "date": "6/24/15", 
@@ -112,7 +112,7 @@ sessions={
       "CCp209", 
       "CCp186"
     ], 
-    "time": "13:30"
+    "time": "13:30-15:00"
   }, 
   "Posters_and_Demos": {
     "date": "6/23/15", 
@@ -139,7 +139,7 @@ sessions={
       "CCdp138", 
       "CCdp154"
     ], 
-    "time": "13:30"
+    "time": "13:30-17:00"
   }, 
   "Reception_Art_Exhibit": {
     "date": "6/22/15", 
@@ -148,7 +148,7 @@ sessions={
     "submissions": [
       "event_14"
     ], 
-    "time": "17:30"
+    "time": "17:30-19:00"
   }, 
   "Textiles_and_Objects": {
     "date": "6/22/15", 
@@ -160,7 +160,7 @@ sessions={
       "CCp136", 
       "CCp185"
     ], 
-    "time": "11:00"
+    "time": "11:00-12:30"
   }, 
   "Tools_and_Interfaces": {
     "date": "6/22/15", 
@@ -172,7 +172,7 @@ sessions={
       "CCp167", 
       "CCp147"
     ], 
-    "time": "13:30"
+    "time": "13:30-15:00"
   }, 
   "Working_and_Learning": {
     "date": "6/24/15", 
@@ -185,6 +185,6 @@ sessions={
       "CCp224", 
       "CCp239"
     ], 
-    "time": "9:00"
+    "time": "9:00-10:30"
   }
 }
