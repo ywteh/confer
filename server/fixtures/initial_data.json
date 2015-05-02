@@ -214,6 +214,20 @@
 	      "end_date": "2015-04-23",
 	      "admins": "[\"anantb@csail.mit.edu\", \"juhokim@mit.edu\"]"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 16,
+	    "fields": {
+	      "unique_name": "cc2015",
+	      "confer_name": "mycc",
+	      "title": "C&C 2015 - ACM Creativity and Cognition 2015",
+	      "subtitle": "",
+	      "blurb": "ACM Creativity and Cognition 2015 will serve as a premier forum for presenting the world’s best new research investigating computing’s impact on human creativity in a broad range of disciplines including the arts, design, science, and engineering. The 2015 conference theme is Computers | Arts | Data. The theme will serve as the basis for a curated art exhibition, as well as for research presentations.",
+	      "location": "Glasgow, Scotland",
+	      "start_date": "2015-06-22",
+	      "end_date": "2015-06-25",
+	      "admins": "[\"anantb@csail.mit.edu\"]"
+	  	}
 	}
 ]
   
