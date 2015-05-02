@@ -1,407 +1,4 @@
-{
-  "CCdc111": {
-    "abstract": "", 
-    "authors": [
-      {
-        "name": "Mina Tahsiri"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Architecture by Tools: The Syntax of Drawing and the Creativity of Thought"
-  }, 
-  "CCdc112": {
-    "abstract": "The term design fiction was first used in 2005 by Bruce Sterling [18:30] and in 2009 Julian Bleecker built on the idea by combining it with various other characterisations [cf. 1,2,10] and catalysed a step change in design fiction discourse. Since then design fiction has gained significant traction across academic contexts; at symposia and conference events; and through its practice within commercial design studios and industry. Despite becoming a popular way of framing speculative design, the characterisation of design fiction as research approach still remains \u008a\u0097\u0093up for grabs\u008a\u0097\u009d [19:22] as it is \u008a\u0097\u0093enticing and provocative, yet [\u008a\u0097_] remains elusive\u008a\u0097\u009d [7:1]. In 2013 Bleecker remarked in terms of his studios own practice \u008a\u0097\u0093I don\u008a\u0097\u00c8t think we\u008a\u0097\u00c8ve figured it out\u008a\u0097\u009d and that \u008a\u0097\u0093studying it, understanding it and trying to devise some of the principles - of what we\u008a\u0097\u00c8re calling design fiction - is what we\u008a\u0097\u00c8re trying to do\u008a\u0097\u009d [1]. Adopting a research through design approach [5,6], this doctoral research intends to shed light on the questions raised by Bleecker by researching design fiction, with design fiction.", 
-    "authors": [
-      {
-        "name": "Joseph Lindley"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Researching Design Fiction With Design Fiction"
-  }, 
-  "CCdc113": {
-    "abstract": "In recent years, it has become possible for large groups of people to collaborate and generate ideas together in ways that were not possible before. However, the large number of ideas and participants in this setting also pose new challenges in helping people find inspiration from a large pool of ideas, and coordinating the collective effort. My research aims to address the challenges of large scale idea generation platforms by developing methods and systems for helping people make effective use of each other\u008a\u0097\u00c8s ideas, and orchestrate collective effort to reduce redundancy and increase the breadth of generated ideas.", 
-    "authors": [
-      {
-        "name": "Pao Siangliulue"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Intelligent Systems to Support Large-Scale Collective Creative Idea Generation"
-  }, 
-  "CCdc121": {
-    "abstract": "SolidSketch is a solid and parametric modeling program that enables users to rapidly construct 3D parametric and semantic models through sketch and multi-touch input. The interaction design principles of SolidSketch are based on the cognitive science theory of enaction. We argue enactive interactions would support design creativity by enabling rapid iteration and continuous feedback throughout a flexible design exploration. SolidSketch infers the intention of the user by continuously analyzing the surrounding context and user\u008a\u0097\u00c8s behavior. This paper briefly introduces the enaction theory, the interaction designs as well as the implementations of SolidSketch.", 
-    "authors": [
-      {
-        "name": "Chih-PIn Hsiao"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "SolidSketch: Toward Enactive Interactions for Semantic Model Creation"
-  }, 
-  "CCdc126": {
-    "abstract": "Ideation, the process of generating new ideas, is central to design where the goal is to find novel solutions around a set of requirements. Designers engage in diagramming, creating external representations of ideas. Diagramming connects the body and creative cognitive processes, as the hands transform physical media to explore ideas. HCI researchers need to leverage body-based interaction to support creativity. My Ph.D. research develops a new body-based diagramming environment to stimulate design ideation.", 
-    "authors": [
-      {
-        "name": "Andrew Webb"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Pen + Touch Diagramming to Stimulate Design Ideation"
-  }, 
-  "CCdc127": {
-    "abstract": "Kickstarter is a growing online crowdfunding platform where individuals attempt to raise funds for creative projects by leveraging their personal social networks for small financial contributions. Crowdfunding platforms like Kickstarter are actively growing, with thousands of individuals attempting projects each month. While other scholarly research and the popular press has focused on the success stories from crowd- funding, the fact remains that a majority of projects fail. Little attention has focused on the majority of individuals who have run failed projects and experienced a publicly embarrassing event in the process. We see crowdfunding platforms as a unique opportunity to study and understand how individuals react to online embarrassment.", 
-    "authors": [
-      {
-        "name": "Michael Greenberg"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Public Online Failure With Crowdfunding"
-  }, 
-  "CCdc129": {
-    "abstract": "Historically, the study of affect has been intimately tied to theories of both cognition and creativity, and there are still unexplored connections between these related phenomena. This paper discusses research to expand and refine the formulation of distributed affect as a theoretical framework for analyzing and understanding creative collaboration. I elaborate on parallels between theories of cognition that extend beyond the individual as the unit of analysis and the text-based chat communication of affect between members of a distributed group who utilize creative problem solving to achieve their goals. Directions for future research are also discussed. A better understanding of the way in which distributed affect operates will have a significant impact on research into collaborative creativity as well as implications for the design of interfaces to support this type of distributed work.", 
-    "authors": [
-      {
-        "name": "Taylor Scott"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Distributed Affect as a Framework for Understanding Creative Collaboration"
-  }, 
-  "CCdc130": {
-    "abstract": "Urban knitting (also known as yarn bombing, knitted graffiti and guerilla knitting) is a globally occurring street art trend which uses traditional craft techniques to modify objects in urban space. It is the chosen tool of present-day craftspeople for creative expression in public. However, the personal narratives woven into the installations usually remain inaccessible for the broad audience. This paper presents my Master's thesis work on \"Tools for Wools\", an interactive prototype which integrates physical wool panels, touch sensors and an information device with intent to fill the identified information gap. The subsequent evaluation allowed insights on the manifold reasons for urban knitters to engage in this particular form of everyday creativity. I therefore suggest that such prototype projects can also serve as a qualitative research tool to reveal motivations underlying creative craft practices.", 
-    "authors": [
-      {
-        "name": "Janis Meissner"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Tools for Wools: An Interactive Urban Knitting Installation and Creative Research Method"
-  }, 
-  "CCdc132": {
-    "abstract": "How best to assess the creativity of a large number of designed artifacts remains an open problem. The typical approach is to have a panel of experts answer likert questions about individual artifacts. This process typically requires a substantial amount of training to ensure the judges achieve an acceptable level of agreement. Consequently, the approach does not scale well as it is infeasible to have a panel of experts regularly evaluate the creativity of a large number of designs. The current work explores an alternative approach that uses both individual and pairwise judgements from novice crowd workers to support reliable and scalable assessment of creative designs. This approach, which we call TrueCreativity, can operate over a set of evaluations from a large number of judges and appropriately weights their evaluations based on their past reliability and agreement with other judges.  We show that this approach produces results that strongly correlate with another measure of creativity. ", 
-    "authors": [
-      {
-        "name": "Christopher MacLellan"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Assessing the Creativity of Designs at Scale"
-  }, 
-  "CCdc133": {
-    "abstract": "This paper describes the work I have conducted with colleagues in and around feminist hackerspaces \u008a\u0097\u0094 workspaces that support the creative and professional pursuits of women. Through action research, interviews, and participant observation, I have explored the motivations, activities, and ideals of people organizing feminist hackerspaces. Additionally, I have begun to investigate what feminist design of technology might look like through the facilitation of a series of design workshops in two of these spaces. Through this work, I examine the feminist ideals that develop in these spaces as both discursive and material phenomena that shed new light on what counts as hacking, technology and collaboration.", 
-    "authors": [
-      {
-        "name": "Sarah Fox"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Feminist Hackerspaces as Sites for Feminist Design"
-  }, 
-  "CCdc134": {
-    "abstract": "Creative projects can span weeks, months, or even years. Working on these timescales can be difficult due to the need to restore context - a task's physical, digital, and mental resources - after each break. Prior research on using computers to restore context has focused on digital context, reopening collections of documents or visualizing interactions with a single program. My research explores how visualizing system-wide activity can help people restore the mental context of creative work.", 
-    "authors": [
-      {
-        "name": "Adam Rule"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Visualizing Computer Activity to Support the Resumption of Long-term Creative Work"
-  }, 
-  "CCdc137": {
-    "abstract": "This paper introduces a novel approach to developing co-creative agents that collaborate in real time creative contexts, such as art and pretend play. Our approach builds upon recent work in computational creativity called interactive machine learning (IML). In IML, agents learn through demonstration, interaction, and real time feedback from a human user (as opposed to offline training). To apply IML to open-ended creative collaboration, we developed an enactive model of creativity (EMC) based upon the cognitive science theories of enaction. This paper introduces our enactive approach to building co-creative agents within the broader field of interactive machine learning by describing the theory, design, and initial prototypes of two co-creative agents.", 
-    "authors": [
-      {
-        "name": "Nicholas Davis"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Teaching Enactive Co-Creative Agents through Human Computation in Meaningful Collaborative Contexts"
-  }, 
-  "CCdc138": {
-    "abstract": "While universities teach students how to build new products, few students choose to further implement their work due to limited resources and mentorship. Theories of learning and innovation describe the importance of working in a social context to acquire resources from peers. While HCI researchers have built recommender and expert routing systems to identify help givers, novice designers still fail to contact expert peers for various psychological reasons, such as fear of contacting someone older or more experienced. By designing online tools and platforms that encourage and scaffold that act of help-seeking, we can connect more designers with informal mentors who can help them improve and implement their work as a professional product. The goal of my dissertation is to support help-seeking among novice designers by 1) developing an emergent model of help-seeking behavior in the context of crowdfunding, and building a tool that 2) recommends potential help-givers from one\u008a\u0097\u00c8s social network and 3) presents their information in a way that encourages reaching out for advice. ", 
-    "authors": [
-      {
-        "name": "Julie Hui"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Leveraging Online Communities for Novice Designers"
-  }, 
-  "CCdc139": {
-    "abstract": "Current crowdsourcing workflows comprise of discrete tasks that guide the crowd towards predetermined goals. However, this approach is ill-suited towards supporting massively collaborative open-ended creative work, which often involves an exploration of possible end results and revision of creative goals. My dissertation explores how existing expert creative practice can inform new crowdsourcing techniques that allow the crowd to collaborate on complex creative tasks such as writing short stories.", 
-    "authors": [
-      {
-        "name": "Joy Kim"
-      }
-    ], 
-    "subtype": "student", 
-    "title": "Designing Crowdsourcing Techniques Based on Expert Creative Practice"
-  }, 
-  "CCdp109": {
-    "abstract": "In conclusion, what emerges through the data is a visual speech code that tacitly leverages traditional photographic genres while at the same time supporting a system of meanings and symbols that enhance the instantaneous posts and communications of the day-to-day ebb and flow of life.", 
-    "authors": [
-      {
-        "name": "Kim"
-      }, 
-      {
-        "name": "Joy"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Designing creativity support tools for failure"
-  }, 
-  "CCdp110": {
-    "abstract": "In 2004, he was honored to become a Fellow of the World Technology Network. Since 2013, he is Distinguished Affiliated of the Fleming BSRC (Alexander Fleming Biomedical Sciences Research Center), Athens, Greece. He serves on numerous editorial boards and scientific committees. ", 
-    "authors": [
-      {
-        "name": "Ilsar"
-      }, 
-      {
-        "name": "Alon"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Choreography in the Mapping of New Instruments"
-  }, 
-  "CCdp111": {
-    "abstract": "", 
-    "authors": [
-      {
-        "name": "Horkoff"
-      }, 
-      {
-        "name": "Jennifer"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Creativity and Goal Modeling for Software Requirements Engineering"
-  }, 
-  "CCdp114": {
-    "abstract": "In studying cognitive activity in design it is common practice to use designers\u008a\u0097\u00c8 verbalizations during a design process to elicit the reasoning behind design actions. These verbalizations are segmented in order to enable a quantifiable analysis of the cognitive processes. Researchers have shown how Shannon\u008a\u0097\u00c8s entropy can be applied to coded verbal data to provide a measure of creativity of those processes. We applied this method to a pilot study, investigating the effects of different design tools on creativity in the context of architectural design. Participants had to design three tasks of isomorphic nature, each with a different tool, in one design session. As shown a significant number of verbal comments were repetitions of already established ideas. Such comments brought nothing new to the sequence of activities but affected the value of information carried within that process which biased the measure of creativity. The paper regards these utterance as verbal noise. It proposes the use of corpus linguistic tools together with a coding scheme that can depict the hierarchical relationship of cognitive patterns used in the process to eliminate verbal noise from analysis. The method was applied to one participant\u008a\u0097\u00c8s data, which shows a promising step in increasing the veracity of using verbal data in analyzing cognitive activity. ", 
-    "authors": [
-      {
-        "name": "Tahsiri"
-      }, 
-      {
-        "name": "Mina"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Decreasing the Effect of Verbal Noise in Analyzing Cognitive Activity of a Design Process"
-  }, 
-  "CCdp115": {
-    "abstract": "In this paper we present #Scanners, a digital arts installation that aims to bridge the gap between digital arts and neuroscience. #Scanners is an experience in which an individual wears a wireless brain scanners whilst being presented media which is dynamically affected by the individuals physiology. A prototype system has been successfully trialled on roughly 100 users over the past 18 months and has received unanimously positive feedback. We state the minimal additional requirements for demonstrating a Higher Fidelity prototype system and argue the value of including #Scanners at C&C2015.", 
-    "authors": [
-      {
-        "name": "Pike"
-      }, 
-      {
-        "name": "Matthew"
-      }
-    ], 
-    "subtype": "demo", 
-    "title": "#Scanners: Integrating Physiology into Cinematic Experiences"
-  }, 
-  "CCdp116": {
-    "abstract": "Nature Bot is a two-part, interactive art installation that uses technology to facilitate a remote exploration of nature through a remote controlled robot with video link, whilst simultaneously reflecting the exploration through a kinetic reactive sculpture within a local built environment. Attention Restoration Theory (ART) was used to design the system so that it harnesses the beneficial properties of \u008a\u0097\u0085wild nature.\u008a\u0097\u00c8 The project presents a unique approach to using technology to mediate a sense of immersive connection to nature, providing the user with agency within an external natural environment. The results of a qualitative user experience study suggest the installation fulfilled the elements of ART necessary for an environment conducive of mental restoration and feelings of wellbeing, and that it reflected a sense of nature within the built environment.", 
-    "authors": [
-      {
-        "name": "McDonald"
-      }, 
-      {
-        "name": "Sophie"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Nature Bot: Experiencing Nature in the Built Environment"
-  }, 
-  "CCdp117": {
-    "abstract": "This paper examines factors that influence how long audience members actively engage with an interactive installation in public settings. The study draws on data from three field studies of an interactive multi-person installation, encompassing questionnaires,video recordings and user-system interaction data. The studies were conducted with unsolicited exhibition audiences during public exhibitions in the UK, China and Spain. In all three studies it was found that the time participants spent interacting with the installation was  largely determined by social and contextual factors rather than by how they rated their playing experience. Common triggers identified for leaving were an 'obligation to leave' to accommodate other, potentially waiting audience members, and 'leaving by necessity' in order to follow companions who were moving on.", 
-    "authors": [
-      {
-        "name": "Bengler"
-      }, 
-      {
-        "name": "Ben"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "_\u00d1\u00d2I could play here for hours.._\u00d1\u009d (thinks the visitor and leaves): Why People Disengage from Public Interactives"
-  }, 
-  "CCdp118": {
-    "abstract": "This paper describes [self.], an open source art installation that embodies artificial intelligence (AI) in order to learn, react, respond and be creative in its environment. Biologically inspired models are implemented to achieve this behaviour. The robot is built using a moving head, projector, camera and microphones. No form of knowledge or grammar have been implemented in the AI, the system starts in a ``tabula rasa'' state and learns everything via its own sensory channels, forming categories in a bottom-up fashion. The robot recognizes sounds, and is able to recognize similar sounds, link them with the corresponding faces, and use the knowledge of past experiences to form new sentences. It projects neural memories that represent an association between sound and video as experienced during interaction. ", 
-    "authors": [
-      {
-        "name": "Tidemann"
-      }, 
-      {
-        "name": "Axel"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "[self.]: an Interactive Art Installation that Embodies Artificial Intelligence and Creativity"
-  }, 
-  "CCdp119": {
-    "abstract": "This demonstration paper describes [self.], an open source art installation that embodies artificial intelligence in order to learn, react, respond and be creative in its environment. Biologically inspired models are implemented to achieve this behaviour. The robot is built using a moving head, projector, camera and microphones. No form of knowledge or grammar have been implemented in the AI, the entity learns everything via its own sensory channels, forming categories in a bottom-up fashion. The robot recognizes sounds, and is able to recognize similar sounds, link them with the corresponding faces, and use the knowledge of past experiences to form new sentences. It projects neural memories that represent an association between sound and video as experienced during interaction.  ", 
-    "authors": [
-      {
-        "name": "Tidemann"
-      }, 
-      {
-        "name": "Axel"
-      }
-    ], 
-    "subtype": "demo", 
-    "title": "[self.]: an Interactive Art Installation that Embodies Artificial Intelligence and Creativity"
-  }, 
-  "CCdp120": {
-    "abstract": "For this demonstration the authors intend to present the Aesthetics of Activism as a work-in-progress. The artwork is designed to aggregate visual material from social networks to form themed compositions that can be explored jointly within a shared interactive space. Visual elements are programmatically arranged according to formal aesthetic criteria, while motion within the exhibition space is detected via optical sensors. Artistry built into the algorithms used for creating the visual compositions and those used to present, filter and rank content within the social web are exposed for people interested in the relationships between the cultural and computer layers inherent to the system design.", 
-    "authors": [
-      {
-        "name": "Moulder"
-      }, 
-      {
-        "name": "Vicki"
-      }
-    ], 
-    "subtype": "demo", 
-    "title": "The Aesthetics of Activism"
-  }, 
-  "CCdp124": {
-    "abstract": "In this paper we present the initial results of a pilot study designed to explore the reactions and actions of children who experience a power failure while playing a hybrid physical/digital game.  We wanted to see whether we can maintain the engagement of the children with the game if the digital component of the game (a tablet based game) ceases to function and if so whether they will continue from where they left off in the digital game or whether they will start a new round of gameplay.  Early results suggests that the power failure and the resultant interruption to gameplay did not hamper the children engagement with the game but provided them with the opportunity to re-engage with the physical elements of the game.  This suggests new directions for exploring the design of hybrid physical/digital games.", 
-    "authors": [
-      {
-        "name": "Chisik"
-      }, 
-      {
-        "name": "Yoram"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Between the bottle cap and the battery: An investigation of interrupted gameplay"
-  }, 
-  "CCdp125": {
-    "abstract": "This paper contributes an approach to create playable art consisting of physical art with a playable digital counterpart. We propose the use of Inventame, an App that allows the user to focus on the creative and artistic part. He crafts his own game in the real world with his preferred physical materials (pencils, markers, coloured wooden blocks, etc.). Then, he takes a picture of his creation, configures a few options in the App, and the picture becomes playable. This paper also describes four examples that illustrate the creation of playable art from several different kinds of art, using different materials and with different functions and playability. ", 
-    "authors": [
-      {
-        "name": "Ibanez"
-      }, 
-      {
-        "name": "Jesus"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Playable Art: Physical Art with a Playable Digital Counterpart"
-  }, 
-  "CCdp128": {
-    "abstract": "Movement based interactive artworks are capable of instantly engaging audiences by reacting to physical motion consistently with real-world physics. Sustaining this engagement, however, requires a constant alteration of both the output and interaction aesthetics. Mobile devices (such as the iPad or iPhone) can be used to control the often-overwhelming plethora of parameters found in many interactive systems. The effect that mobile control of these parameters has on the inception, refinement and live performance of two separate art works is examined.  An open-source dynamic remote control system is being developed to further facilitate the creative development and performance of interactive artwork as demonstrated by these case studies.", 
-    "authors": [
-      {
-        "name": "Bluff"
-      }, 
-      {
-        "name": "Andrew"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Remote Control of Complex Interactive Art Installations"
-  }, 
-  "CCdp130": {
-    "abstract": "As computing increasingly deals with our complex daily experiences, designers are challenged with new methods and ways of implementing complex interactions in limited user space and tools, but without hindering user experience and creativity. In this paper, we present the results of an empirical investigation regarding the effect of space and tool availability on user experience and creativity. The goal is to understand whether and how space and tool availability allow users to be more creative and improve their overall experience. To do so, we developed a connect-the-dots drawing multi-user application with a focus on having certain restrictions in size and specific tool availability. Based on this application, we conducted an empirical study with 38 users. For the evaluation, surveys, photos and observations were recorded and used in our analysis. The results showed that: (a) tool availability does not affect user creativity and experience and (b) space availability affects user creativity, collaboration and hedonic motivation (pleasure). Although our results are early, provide insights that tools\u008a\u0097\u00c8 limitation does not hinder users\u008a\u0097\u00c8 ability to be creative; and space availability is of great importance in creative activities.", 
-    "authors": [
-      {
-        "name": "Leftheriotis"
-      }, 
-      {
-        "name": "Ioannis"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "How space and tool availability affect user experience and creativity in interactive surfaces?"
-  }, 
-  "CCdp138": {
-    "abstract": "This paper describes a co-creative web-based drawing application called the Drawing Apprentice. This system collaborates with users in real time abstract drawing. We describe the theory, interaction design, and user experience of the Drawing Apprentice system. We evaluate the system with formative user studies and expert evaluations from a juried art competition in which a Drawing Apprentice submission won the code-based art category. ", 
-    "authors": [
-      {
-        "name": "Davis"
-      }, 
-      {
-        "name": "Nicholas"
-      }
-    ], 
-    "subtype": "demo", 
-    "title": "Drawing Apprentice: An Enactive Co-Creative Agent That Learning Through Experience in Artistic Collaboration"
-  }, 
-  "CCdp139": {
-    "abstract": "This eye tracking study investigated the association between individuals\u008a\u0097\u00c8 field dependence - independence cognitive style and level of creative thinking based on users\u008a\u0097\u00c8 eye movement behaviour while interacting with a set of visual perceptual tasks. Subjects FD-I cognitive style and creativity were measured with the use of the Hidden Figures Test (HFT) and Torrance Test of Creative Thinking (TTCT). The psychometric methods and the eye tracking-derived data were statistically examined demonstrating a relationship between users\u008a\u0097\u00c8 cognitive style, creativity attributes and eye gaze behaviour. This research study adds further to the evidence and theory base of Human-computer interaction for applications in the user-centred design and suggests future directions for research. ", 
-    "authors": [
-      {
-        "name": "Nisiforou"
-      }, 
-      {
-        "name": "Efi"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Examine the association between users creative thinking and field dependence-independence cognitive style through eye movement components"
-  }, 
-  "CCdp142": {
-    "abstract": "Feedback is important for cultivating creativity. Constructive feedback on design is crucial for helping design students and amateur designers iterate towards better solutions. However most of the current platforms don\u008a\u0097\u00c8t promote honest design feedback and are primarily used only for self-promotion. This paper proposes Scranvas, a community for students and non-experts to encourage sharing of creative work and generate constructive feedback. Users interpret the designs based to the context and goals stated by the designer and share feedback through annotations.", 
-    "authors": [
-      {
-        "name": "Chakraborty"
-      }, 
-      {
-        "name": "Abhishek"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Scranvas: Gamified Forum for Amateur Designers to Share Creative Work and Generate Constructive Feedback"
-  }, 
-  "CCdp144": {
-    "abstract": "In this paper, we introduce Sketch-Play-Learn, an augmented paper-based tabletop system to support students learning of the principles of light behaviour. This project emphasises the use of the most ubiquitous and inexpensive learning medium, which is paper. Students engage themselves in completing a goal-based task sketched by the teacher on paper and observing the visual feedback on the same paper. We argue that augmenting the paper with digital information while providing a tabletop setup provides a novel and appealing approach to learning for classroom use. In this paper, we discuss the motivations for our project and describe the design and implementation our system. We also describe an initial evaluation with children and outline future research goals.", 
-    "authors": [
-      {
-        "name": "Tripathi"
-      }, 
-      {
-        "name": "Richa"
-      }
-    ], 
-    "subtype": "poster", 
-    "title": "Sketch-Play-Learn - An augmented paper based environment for learning the concepts of optics"
-  }, 
-  "CCdp154": {
-    "abstract": "This demo is one of the results of a practice-based research, which explored the generation of interactive experiences based on the cooperative collection of data for ethnographical purposes. In this case, a collection of soundscapes from Stockholm has lead to some experiments where the audio clips gathered are controlled in real-time according to a brain computer interface and a set of rules that determines a real time composition. \\ One of the most significant inputs at this point has been the theory of Psychogeography, which posits that the territory and its transformation can be understood as an psychological and emotional setup, susceptible of being understood by means of different kinds of dynamic measurements and modes of representation.  \\ The result described here is an experimental performance and sound-video installation in which the visitors can \u008a\u0097\u0085stroll\u008a\u0097\u00c8 through a data archive, according to their brain activity, and by means of a brain scan device. The measurement of specific brain waves creates a sound and video synthesis related to the media collection.  \\ This demo seeks to expose the concept and technological implementation behind the result and also to perform the interactive sound experience at the event.  \\ ", 
-    "authors": [
-      {
-        "name": "Chaparro"
-      }, 
-      {
-        "name": "Ivan"
-      }
-    ], 
-    "subtype": "demo", 
-    "title": "Psychogeographical sound-drift"
-  }, 
-  "CCp122": {
-    "abstract": "Creativity thrives when people experience positive emotions. How to design an interactive system that can effectively make use of this potential is, however, still an unanswered question. In this paper, we propose one approach to this problem that relies on hacking into the cognitive appraisal processes that form part of positive emotions. To demonstrate our approach we have conceived, made, and evaluated a novel interactive system that influences an individual_\u0084\u008es appraisals of their own idea generation processes by providing real-time and believable feedback about the originality of their ideas. The system can be used to manipulate this feedback to make the user_\u0084\u008es ideas appear more or less original. This has enabled us to test experimentally the hypothesis that providing more positive feedback, rather than neutral, or more negative feedback than the user is expecting, causes more positive emotion, which in turn causes more creativity during idea generation. The findings demonstrate that an interactive system can be designed to use the function of cognitive appraisal processes in positive emotion to help people to get more out of their own creative capabilities.", 
-    "authors": [
-      {
-        "name": "Alwin de Rooij"
-      }, 
-      {
-        "name": "Philip Corr"
-      }, 
-      {
-        "name": "Sara Jones"
-      }
-    ], 
-    "subtype": "paper", 
-    "title": "Emotion and Creativity: Hacking into Cognitive Appraisal Processes to Augment Creative Ideation"
-  }, 
+{ 
   "CCp127": {
     "abstract": "This paper describes everyday technologies in use in a long-term dementia care ward, and ways in which these technologies facilitated creative expression for residents within. Drawing on ethnographic research focusing on participation in creative activities for people with dementia living in care, the paper details how residents engaged with technologies (such as television) in a passive way (spending hours sitting in front of the TV without engaging with others around them), and in an active way (singing and dancing to music played via stereo and record player). Findings from this research emphasise the importance for interaction design for dementia in appreciating the role of active creative participation in sustaining personhood in dementia. Given a lack of both time and resources in publicly-funded care homes, we also highlight the value of opportunistic design in the field.", 
     "authors": [
@@ -461,7 +58,7 @@
     "title": "The Textility of Emotion: A Study Relating Computational Textile Textural Expression to Emotion"
   }, 
   "CCp137": {
-    "abstract": "Secondhand retail in the UK charity sector plays a number of important social and economic roles: charity shops are community focal points; money is generated for good causes; and goods are re-circulated that might otherwise be discarded as abject and unwanted. However, like much of the UK high street, the prosperity of charity shops is under significant threat from the rise of internet shopping. Access to online markets via smart phones equips customers to check prices for secondhand items, some customers then deploy information, usually from eBay, to haggle with shop staff. The Haggle-o-Tron playfully subverts both normative and emerging secondhand retail valuation practices by revealing secondhand goods_\u0084\u008e financial, moral, social and aesthetic properties. This paper reports on how we employ vibrant yet uncomplicated design interventions that embed the charity's values and ethos to reconfigure store-based economic transactions. ", 
+    "abstract": "Secondhand retail in the UK charity sector plays a number of important social and economic roles: charity shops are community focal points; money is generated for good causes; and goods are re-circulated that might otherwise be discarded as abject and unwanted. However, like much of the UK high street, the prosperity of charity shops is under significant threat from the rise of internet shopping. Access to online markets via smart phones equips customers to check prices for secondhand items, some customers then deploy information, usually from eBay, to haggle with shop staff. The Haggle-o-Tron playfully subverts both normative and emerging secondhand retail valuation practices by revealing secondhand goods_\u00e3_ financial, moral, social and aesthetic properties. This paper reports on how we employ vibrant yet uncomplicated design interventions that embed the charity's values and ethos to reconfigure store-based economic transactions. ", 
     "authors": [
       {
         "name": "Siobhan Magee"
@@ -486,7 +83,7 @@
     "title": "The Haggle-O-Tron: Re-inventing economic transactions in secondhand retail"
   }, 
   "CCp142": {
-    "abstract": "This paper explores the potential of a pervasive user experience to inspire, provoke and support creative thinking amongst participants in an intensive ideation workshop. The pervasive experience used a iPad-based virtual narrator to guide groups of participants around a physical and digital environment. It took place towards the start of a three-day workshop and the playful, self-directed nature of the experience was designed to align with subsequent workshop activities. This paper describes the user experience, presenting observations and findings through the lens of space (facilitation, augmentation and story), considering how the experience related to and supported the overall workshop aims of ideation and creative thinking. We conclude by examining some of the tensions that emerged, namely; 1) the disconnect between researcher and participant expectations, 2) the potential trade off between _\u0084\u0083authentic_\u0084\u008e outputs and participant engagement, and 3) bridging the knowledge within the workshop with the world outside the workshop.", 
+    "abstract": "This paper explores the potential of a pervasive user experience to inspire, provoke and support creative thinking amongst participants in an intensive ideation workshop. The pervasive experience used a iPad-based virtual narrator to guide groups of participants around a physical and digital environment. It took place towards the start of a three-day workshop and the playful, self-directed nature of the experience was designed to align with subsequent workshop activities. This paper describes the user experience, presenting observations and findings through the lens of space (facilitation, augmentation and story), considering how the experience related to and supported the overall workshop aims of ideation and creative thinking. We conclude by examining some of the tensions that emerged, namely; 1) the disconnect between researcher and participant expectations, 2) the potential trade off between _\u00e3\u00c4authentic_\u00e3_ outputs and participant engagement, and 3) bridging the knowledge within the workshop with the world outside the workshop.", 
     "authors": [
       {
         "name": "Deborah Maxwell"
@@ -518,10 +115,10 @@
     "title": "MetaMorphe: Designing Expressive 3D Models for Digital Fabrication"
   }, 
   "CCp167": {
-    "abstract": "Minority groups are the fastest growing demographic in the U.S. In addition, the poverty level in the U.S. is the highest it has been in the last 50 years. We argue that the community needs more research addressing this user segment, and we present a novel study about how underserved youths react when presented with different UI designs aimed at promoting creative writing. The act of creative writing per se can become the driver of change among underserved teenagers, and researchers should strive to discover novel UI designs that can effectively increase this target group_\u0084\u008es productivity, creativity and mental well-being. Using MS Word as baseline, our contribution analyzes the influence of a Zen-like tool (designed by the authors and called Haven), a nostalgic but realistic typewriting tool (Hanx Writer), and a stress-based tool that eliminates writer_\u0084\u008es block by providing consequences for procrastination (Write or Die). Our results suggest that the Zen characteristics of our tool Haven were capable of conveying a sense of calm and concentration to the users, making them feel better and also write more. The nostalgic Hanx typewriter also fared very well with regard to mental well-being and productivity, as measured by average number of words written. Contrary to our initial expectations, the stress-based UI (Write or Die) had the lowest productivity levels.", 
+    "abstract": "Minority groups are the fastest growing demographic in the U.S. In addition, the poverty level in the U.S. is the highest it has been in the last 50 years. We argue that the community needs more research addressing this user segment, and we present a novel study about how underserved youths react when presented with different UI designs aimed at promoting creative writing. The act of creative writing per se can become the driver of change among underserved teenagers, and researchers should strive to discover novel UI designs that can effectively increase this target group_\u00e3_s productivity, creativity and mental well-being. Using MS Word as baseline, our contribution analyzes the influence of a Zen-like tool (designed by the authors and called Haven), a nostalgic but realistic typewriting tool (Hanx Writer), and a stress-based tool that eliminates writer_\u00e3_s block by providing consequences for procrastination (Write or Die). Our results suggest that the Zen characteristics of our tool Haven were capable of conveying a sense of calm and concentration to the users, making them feel better and also write more. The nostalgic Hanx typewriter also fared very well with regard to mental well-being and productivity, as measured by average number of words written. Contrary to our initial expectations, the stress-based UI (Write or Die) had the lowest productivity levels.", 
     "authors": [
       {
-        "name": "Frederica Gon\u00cd_alves"
+        "name": "Frederica Gon\u00ea_alves"
       }, 
       {
         "name": "Pedro Campos"
@@ -534,10 +131,10 @@
       }
     ], 
     "subtype": "paper", 
-    "title": "You_\u0084\u008ere the Voice: Evaluating User Interfaces for Encouraging Underserved Youths to express themselves through Creative Writing"
+    "title": "You_\u00e3_re the Voice: Evaluating User Interfaces for Encouraging Underserved Youths to express themselves through Creative Writing"
   }, 
   "CCp172": {
-    "abstract": "This paper applies research results from a qualitative visual ethnographic study focusing on the non-verbal posts of a select group of Facebook users. The Dell Hymes\u00ea SPEAKING framework was used to structure the visual data; analysis leveraged Gerry Philipsen\u00eas Speech Codes Theory and James W. Carey\u00eas Ritual Communication Theory contributes to the creation of a communicative framework for the non-verbal social media postings.", 
+    "abstract": "This paper applies research results from a qualitative visual ethnographic study focusing on the non-verbal posts of a select group of Facebook users. The Dell Hymes\u0090 SPEAKING framework was used to structure the visual data; analysis leveraged Gerry Philipsen\u0090s Speech Codes Theory and James W. Carey\u0090s Ritual Communication Theory contributes to the creation of a communicative framework for the non-verbal social media postings.", 
     "authors": [
       {
         "name": "Kristin Carlson"
@@ -587,7 +184,7 @@
     "title": "Strategies for Embodied Design: The Value and Challenges of Observing Movement"
   }, 
   "CCp178": {
-    "abstract": "We extend the Twitter interface to stimulate exploratory browsing of social media and develop a creative cognition method to establish its efficacy. Exploratory browsing is a creative process in which users seek and traverse diverse and novel information as they investigate a conceptual space. The TweetBubble browser extension extends Twitter  to enable expansion of  social media associations_\u0084\u00ee@usernames and #hashtags_\u0084\u00eein-context, without overwriting initial content. We build on a prior metadata type system, developing new presentation semantics, which enable an integrated look and feel consistent with Twitter. \\  \\ We show how exploratory browsing constitutes a mini-c creative process. We use prior ideation metrics as a basis for new ideation metrics of exploratory browsing. We conducted a mixed methods crowdsourced study, with data from 54 participants, amidst the 2014 Academy Awards. Quantitative and qualitative findings validate the technique of in-context exploratory browsing interfaces for social media. Their consistency supports the validity of ideation metrics of exploratory browsing as an evaluation methodology for interactive systems designed to promote creative engagement.", 
+    "abstract": "We extend the Twitter interface to stimulate exploratory browsing of social media and develop a creative cognition method to establish its efficacy. Exploratory browsing is a creative process in which users seek and traverse diverse and novel information as they investigate a conceptual space. The TweetBubble browser extension extends Twitter  to enable expansion of  social media associations_\u00e3\u0094@usernames and #hashtags_\u00e3\u0094in-context, without overwriting initial content. We build on a prior metadata type system, developing new presentation semantics, which enable an integrated look and feel consistent with Twitter. \\  \\ We show how exploratory browsing constitutes a mini-c creative process. We use prior ideation metrics as a basis for new ideation metrics of exploratory browsing. We conducted a mixed methods crowdsourced study, with data from 54 participants, amidst the 2014 Academy Awards. Quantitative and qualitative findings validate the technique of in-context exploratory browsing interfaces for social media. Their consistency supports the validity of ideation metrics of exploratory browsing as an evaluation methodology for interactive systems designed to promote creative engagement.", 
     "authors": [
       {
         "name": "Ajit Jain"
@@ -625,7 +222,7 @@
     "title": "Intersecting with Unaware Objects"
   }, 
   "CCp186": {
-    "abstract": "This paper describes three interactive artefacts created for a children_\u0084\u008es exhibition intended to encourage creativity and allow educational opportunities to emerge naturally through playful exploration. We describe five sensibilities that were used to inform our designs: considering artefacts as resources and scaffolds for imaginative engagement, rewarding extended investment, facilitating requisite unpredictability, encouraging an imaginative orientation to participation, and permitting multiple loci for interaction. Based on observation of how our interactives were used by the public, we discuss how our approach facilitated _\u0084\u0083open interactions_\u0084\u008e in a manner that was sensitive to the museum context, favoured a mix of materialities, and manifested a subtle mix of participation and designer autonomy. ", 
+    "abstract": "This paper describes three interactive artefacts created for a children_\u00e3_s exhibition intended to encourage creativity and allow educational opportunities to emerge naturally through playful exploration. We describe five sensibilities that were used to inform our designs: considering artefacts as resources and scaffolds for imaginative engagement, rewarding extended investment, facilitating requisite unpredictability, encouraging an imaginative orientation to participation, and permitting multiple loci for interaction. Based on observation of how our interactives were used by the public, we discuss how our approach facilitated _\u00e3\u00c4open interactions_\u00e3_ in a manner that was sensitive to the museum context, favoured a mix of materialities, and manifested a subtle mix of participation and designer autonomy. ", 
     "authors": [
       {
         "name": "Robyn Taylor"
@@ -691,7 +288,7 @@
       }
     ], 
     "subtype": "paper", 
-    "title": "Express it!: An Interactive System for Visualizing Expressiveness of Conductor_\u0084\u008es Gestures"
+    "title": "Express it!: An Interactive System for Visualizing Expressiveness of Conductor_\u00e3_s Gestures"
   }, 
   "CCp199": {
     "abstract": "We present a system designed with the aim to facilitate the social creativity processes underlying creative research. It provides asynchronous and synchronous facilities for multi-user interaction while leveraging creativity with computational tools for inspirational search, inspirational clue generation and problem solving advice. Initial evaluation with a small group of users indicated that the software is in-line with the creative research approach where users work together with concept developers taking on multiple roles throughout the design process.", 
@@ -719,7 +316,7 @@
     "title": "A Playful Affinity Space for Creative Research"
   }, 
   "CCp203": {
-    "abstract": "This paper reports the development and deployment of digi-tal support for human creativity in a domain outside of the creative industries _\u0084_ health-and-safety management in man-ufacturing plants. It reports applied research to extend a risk detection and resolution process at a world-class manufac-turing plant that produces tractors with creativity techniques and new digital support for the plant employees to use these techniques effectively as part of the risk detection and reso-lution process. The development of the digital support was constrained by the plant_\u0084\u008es processes, resources and manu-facturing culture, and the new digital support reported in this paper was designed for quick use across the plant with minimum training or management overhead. The paper reports the development, implementation and early evalua-tion of the creativity techniques and digital support in the plant as a demonstrator for the wider application of creativi-ty techniques and digital support tools.", 
+    "abstract": "This paper reports the development and deployment of digi-tal support for human creativity in a domain outside of the creative industries _\u00e3_ health-and-safety management in man-ufacturing plants. It reports applied research to extend a risk detection and resolution process at a world-class manufac-turing plant that produces tractors with creativity techniques and new digital support for the plant employees to use these techniques effectively as part of the risk detection and reso-lution process. The development of the digital support was constrained by the plant_\u00e3_s processes, resources and manu-facturing culture, and the new digital support reported in this paper was designed for quick use across the plant with minimum training or management overhead. The paper reports the development, implementation and early evalua-tion of the creativity techniques and digital support in the plant as a demonstrator for the wider application of creativi-ty techniques and digital support tools.", 
     "authors": [
       {
         "name": "Konstantinos Zachos"
@@ -741,7 +338,7 @@
     "title": "Creativity Support to Improve Health-and-Safety in Manu-facturing Plants: Demonstrating Everyday Creativity"
   }, 
   "CCp209": {
-    "abstract": "Low-cost genetic sequencing, coupled with novel social media platforms and visualization techniques, present a new frontier for scientific participation, whereby people can learn, share, and act on data embedded within their own bodies. Our study of 23andMe, a popular genetic testing service, reveals how users make sense of and contextualize their genetic results, critique and evaluate the underlying research, and reflect on the broader implications of genetic testing. We frame user groups as citizen science publics_\u0084\u00eegroups that coalesce around scientific issues and work towards resolving shared concerns. Our findings show that personal genetics serves as a site for public engagement with science, whereby communities of biological citizens creatively interpret, debate, and act on professional research. We conclude with design trajectories at the intersection of genetics and creativity support tools: platforms for aggregating hybrid knowledge; tools for creative reflection on professional science; and strategies for supporting collaborations across communities.", 
+    "abstract": "Low-cost genetic sequencing, coupled with novel social media platforms and visualization techniques, present a new frontier for scientific participation, whereby people can learn, share, and act on data embedded within their own bodies. Our study of 23andMe, a popular genetic testing service, reveals how users make sense of and contextualize their genetic results, critique and evaluate the underlying research, and reflect on the broader implications of genetic testing. We frame user groups as citizen science publics_\u00e3\u0094groups that coalesce around scientific issues and work towards resolving shared concerns. Our findings show that personal genetics serves as a site for public engagement with science, whereby communities of biological citizens creatively interpret, debate, and act on professional research. We conclude with design trajectories at the intersection of genetics and creativity support tools: platforms for aggregating hybrid knowledge; tools for creative reflection on professional science; and strategies for supporting collaborations across communities.", 
     "authors": [
       {
         "name": "Stacey Kuznetsov"
@@ -757,7 +354,7 @@
     "title": "Biological citizen publics: personal genetics as a site of public engagement with science"
   }, 
   "CCp211": {
-    "abstract": "The traditional approach for developing assistive technologies for blind and visually impaired users is to focus on problems and to try and resolve them by compensating for the loss of vision. In this research we took the approach of involving blind and visually impaired people, from a range of ages, in a hands-on making activity using an eTextile physical computing toolkit. Our aim was to create an environment where people could both make and learn form each other, but also where they would share their thoughts and imagine future scenarios for the technologies they were developing. We observed highly creative ways of working at all levels, from unique weaving techniques to choices in fabrics and materials, as well as expressions of personal preferences. We discuss the _\u0084\u0083in-home enjoyment_\u0084\u008e scenarios sketched by the participants and point to the role of creative workshops and eTextile toolkits as a tool for imagining future technologies. ", 
+    "abstract": "The traditional approach for developing assistive technologies for blind and visually impaired users is to focus on problems and to try and resolve them by compensating for the loss of vision. In this research we took the approach of involving blind and visually impaired people, from a range of ages, in a hands-on making activity using an eTextile physical computing toolkit. Our aim was to create an environment where people could both make and learn form each other, but also where they would share their thoughts and imagine future scenarios for the technologies they were developing. We observed highly creative ways of working at all levels, from unique weaving techniques to choices in fabrics and materials, as well as expressions of personal preferences. We discuss the _\u00e3\u00c4in-home enjoyment_\u00e3_ scenarios sketched by the participants and point to the role of creative workshops and eTextile toolkits as a tool for imagining future technologies. ", 
     "authors": [
       {
         "name": "Emilie Giles"
@@ -770,7 +367,7 @@
     "title": "Imagining Future Technologies: eTextile Weaving Workshops with Blind and Visually Impaired People"
   }, 
   "CCp219": {
-    "abstract": "Creativity support tools help learners undertake creative work, such as facilitating coaching by creative professionals. How might we design creativity support tools that in-crease learners_\u0084\u008e access to coaching by creative professionals? This study took place in an extracurricular project-based learning program where students were co-located, and met professional coaches face-to-face once a week but otherwise communicated online. To test an online creativity support tool called the Loft and investigate coach-student communication we collected data from 47 interviews, online log data and field observations. We found that (a) explicit help-seeking was rare outside of meetings, (b) help from professionals was highly-valued but not sought out, and (c) online systems could surface learner struggles and trigger help-giving.  Our findings suggested that online creativity platforms can support professional coaching through: (1) structured virtual updates (2) coach thanking, (3) Computer-Supported Group Critique, (4) disclosure of expertise, and (5) help-seeking training. ", 
+    "abstract": "Creativity support tools help learners undertake creative work, such as facilitating coaching by creative professionals. How might we design creativity support tools that in-crease learners_\u00e3_ access to coaching by creative professionals? This study took place in an extracurricular project-based learning program where students were co-located, and met professional coaches face-to-face once a week but otherwise communicated online. To test an online creativity support tool called the Loft and investigate coach-student communication we collected data from 47 interviews, online log data and field observations. We found that (a) explicit help-seeking was rare outside of meetings, (b) help from professionals was highly-valued but not sought out, and (c) online systems could surface learner struggles and trigger help-giving.  Our findings suggested that online creativity platforms can support professional coaching through: (1) structured virtual updates (2) coach thanking, (3) Computer-Supported Group Critique, (4) disclosure of expertise, and (5) help-seeking training. ", 
     "authors": [
       {
         "name": "Daniel Rees Lewis"
@@ -893,7 +490,7 @@
     "title": "A Modular Approach to Promote Creativity and Inspiration in Search"
   }, 
   "CCp240": {
-    "abstract": "This paper presents the result of an empirical study of 32 adult dyads (i.e. groups of two people) engaged in pretend play. Our analysis indicates that participatory sense-making plays a key role in the success of pretend play sessions. We use the cognitive science theory of enaction as a theoretical lens to analyze the empirical data given its robust conceptual framework for describing participatory sense-making. We present here five enactive characteristics of pretend play that appear to be necessary and sufficient for the emergence and maintenance of successful pretend play _\u0084_ mental preparation, meaning building, narrative enaction, narrative deepening, and flow maintenance. This enactive formalization is used to propose a computational model of pretend play that can be used to design an agent capable of playing in real time with human users. ", 
+    "abstract": "This paper presents the result of an empirical study of 32 adult dyads (i.e. groups of two people) engaged in pretend play. Our analysis indicates that participatory sense-making plays a key role in the success of pretend play sessions. We use the cognitive science theory of enaction as a theoretical lens to analyze the empirical data given its robust conceptual framework for describing participatory sense-making. We present here five enactive characteristics of pretend play that appear to be necessary and sufficient for the emergence and maintenance of successful pretend play _\u00e3_ mental preparation, meaning building, narrative enaction, narrative deepening, and flow maintenance. This enactive formalization is used to propose a computational model of pretend play that can be used to design an agent capable of playing in real time with human users. ", 
     "authors": [
       {
         "name": "Nicholas Davis"
@@ -937,8 +534,411 @@
     "subtype": "paper", 
     "title": "Captured Moments: Defining a Communicative Framework for Social Photography"
   }, 
+    "CCdc111": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Mina Tahsiri"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Architecture by Tools: The Syntax of Drawing and the Creativity of Thought"
+  }, 
+  "CCdc112": {
+    "abstract": "The term design fiction was first used in 2005 by Bruce Sterling [18:30] and in 2009 Julian Bleecker built on the idea by combining it with various other characterisations [cf. 1,2,10] and catalysed a step change in design fiction discourse. Since then design fiction has gained significant traction across academic contexts; at symposia and conference events; and through its practice within commercial design studios and industry. Despite becoming a popular way of framing speculative design, the characterisation of design fiction as research approach still remains _\u00d1\u00d2up for grabs_\u00d1\u009d [19:22] as it is _\u00d1\u00d2enticing and provocative, yet [_\u00d1_] remains elusive_\u00d1\u009d [7:1]. In 2013 Bleecker remarked in terms of his studios own practice _\u00d1\u00d2I don_\u00d1\u00e9t think we_\u00d1\u00e9ve figured it out_\u00d1\u009d and that _\u00d1\u00d2studying it, understanding it and trying to devise some of the principles - of what we_\u00d1\u00e9re calling design fiction - is what we_\u00d1\u00e9re trying to do_\u00d1\u009d [1]. Adopting a research through design approach [5,6], this doctoral research intends to shed light on the questions raised by Bleecker by researching design fiction, with design fiction.", 
+    "authors": [
+      {
+        "name": "Joseph Lindley"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Researching Design Fiction With Design Fiction"
+  }, 
+  "CCdc113": {
+    "abstract": "In recent years, it has become possible for large groups of people to collaborate and generate ideas together in ways that were not possible before. However, the large number of ideas and participants in this setting also pose new challenges in helping people find inspiration from a large pool of ideas, and coordinating the collective effort. My research aims to address the challenges of large scale idea generation platforms by developing methods and systems for helping people make effective use of each other_\u00d1\u00e9s ideas, and orchestrate collective effort to reduce redundancy and increase the breadth of generated ideas.", 
+    "authors": [
+      {
+        "name": "Pao Siangliulue"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Intelligent Systems to Support Large-Scale Collective Creative Idea Generation"
+  }, 
+  "CCdc121": {
+    "abstract": "SolidSketch is a solid and parametric modeling program that enables users to rapidly construct 3D parametric and semantic models through sketch and multi-touch input. The interaction design principles of SolidSketch are based on the cognitive science theory of enaction. We argue enactive interactions would support design creativity by enabling rapid iteration and continuous feedback throughout a flexible design exploration. SolidSketch infers the intention of the user by continuously analyzing the surrounding context and user_\u00d1\u00e9s behavior. This paper briefly introduces the enaction theory, the interaction designs as well as the implementations of SolidSketch.", 
+    "authors": [
+      {
+        "name": "Chih-PIn Hsiao"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "SolidSketch: Toward Enactive Interactions for Semantic Model Creation"
+  }, 
+  "CCdc126": {
+    "abstract": "Ideation, the process of generating new ideas, is central to design where the goal is to find novel solutions around a set of requirements. Designers engage in diagramming, creating external representations of ideas. Diagramming connects the body and creative cognitive processes, as the hands transform physical media to explore ideas. HCI researchers need to leverage body-based interaction to support creativity. My Ph.D. research develops a new body-based diagramming environment to stimulate design ideation.", 
+    "authors": [
+      {
+        "name": "Andrew Webb"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Pen + Touch Diagramming to Stimulate Design Ideation"
+  }, 
+  "CCdc127": {
+    "abstract": "Kickstarter is a growing online crowdfunding platform where individuals attempt to raise funds for creative projects by leveraging their personal social networks for small financial contributions. Crowdfunding platforms like Kickstarter are actively growing, with thousands of individuals attempting projects each month. While other scholarly research and the popular press has focused on the success stories from crowd- funding, the fact remains that a majority of projects fail. Little attention has focused on the majority of individuals who have run failed projects and experienced a publicly embarrassing event in the process. We see crowdfunding platforms as a unique opportunity to study and understand how individuals react to online embarrassment.", 
+    "authors": [
+      {
+        "name": "Michael Greenberg"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Public Online Failure With Crowdfunding"
+  }, 
+  "CCdc129": {
+    "abstract": "Historically, the study of affect has been intimately tied to theories of both cognition and creativity, and there are still unexplored connections between these related phenomena. This paper discusses research to expand and refine the formulation of distributed affect as a theoretical framework for analyzing and understanding creative collaboration. I elaborate on parallels between theories of cognition that extend beyond the individual as the unit of analysis and the text-based chat communication of affect between members of a distributed group who utilize creative problem solving to achieve their goals. Directions for future research are also discussed. A better understanding of the way in which distributed affect operates will have a significant impact on research into collaborative creativity as well as implications for the design of interfaces to support this type of distributed work.", 
+    "authors": [
+      {
+        "name": "Taylor Scott"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Distributed Affect as a Framework for Understanding Creative Collaboration"
+  }, 
+  "CCdc130": {
+    "abstract": "Urban knitting (also known as yarn bombing, knitted graffiti and guerilla knitting) is a globally occurring street art trend which uses traditional craft techniques to modify objects in urban space. It is the chosen tool of present-day craftspeople for creative expression in public. However, the personal narratives woven into the installations usually remain inaccessible for the broad audience. This paper presents my Master's thesis work on \"Tools for Wools\", an interactive prototype which integrates physical wool panels, touch sensors and an information device with intent to fill the identified information gap. The subsequent evaluation allowed insights on the manifold reasons for urban knitters to engage in this particular form of everyday creativity. I therefore suggest that such prototype projects can also serve as a qualitative research tool to reveal motivations underlying creative craft practices.", 
+    "authors": [
+      {
+        "name": "Janis Meissner"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Tools for Wools: An Interactive Urban Knitting Installation and Creative Research Method"
+  }, 
+  "CCdc132": {
+    "abstract": "How best to assess the creativity of a large number of designed artifacts remains an open problem. The typical approach is to have a panel of experts answer likert questions about individual artifacts. This process typically requires a substantial amount of training to ensure the judges achieve an acceptable level of agreement. Consequently, the approach does not scale well as it is infeasible to have a panel of experts regularly evaluate the creativity of a large number of designs. The current work explores an alternative approach that uses both individual and pairwise judgements from novice crowd workers to support reliable and scalable assessment of creative designs. This approach, which we call TrueCreativity, can operate over a set of evaluations from a large number of judges and appropriately weights their evaluations based on their past reliability and agreement with other judges.  We show that this approach produces results that strongly correlate with another measure of creativity. ", 
+    "authors": [
+      {
+        "name": "Christopher MacLellan"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Assessing the Creativity of Designs at Scale"
+  }, 
+  "CCdc133": {
+    "abstract": "This paper describes the work I have conducted with colleagues in and around feminist hackerspaces _\u00d1\u00d3 workspaces that support the creative and professional pursuits of women. Through action research, interviews, and participant observation, I have explored the motivations, activities, and ideals of people organizing feminist hackerspaces. Additionally, I have begun to investigate what feminist design of technology might look like through the facilitation of a series of design workshops in two of these spaces. Through this work, I examine the feminist ideals that develop in these spaces as both discursive and material phenomena that shed new light on what counts as hacking, technology and collaboration.", 
+    "authors": [
+      {
+        "name": "Sarah Fox"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Feminist Hackerspaces as Sites for Feminist Design"
+  }, 
+  "CCdc134": {
+    "abstract": "Creative projects can span weeks, months, or even years. Working on these timescales can be difficult due to the need to restore context - a task's physical, digital, and mental resources - after each break. Prior research on using computers to restore context has focused on digital context, reopening collections of documents or visualizing interactions with a single program. My research explores how visualizing system-wide activity can help people restore the mental context of creative work.", 
+    "authors": [
+      {
+        "name": "Adam Rule"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Visualizing Computer Activity to Support the Resumption of Long-term Creative Work"
+  }, 
+  "CCdc137": {
+    "abstract": "This paper introduces a novel approach to developing co-creative agents that collaborate in real time creative contexts, such as art and pretend play. Our approach builds upon recent work in computational creativity called interactive machine learning (IML). In IML, agents learn through demonstration, interaction, and real time feedback from a human user (as opposed to offline training). To apply IML to open-ended creative collaboration, we developed an enactive model of creativity (EMC) based upon the cognitive science theories of enaction. This paper introduces our enactive approach to building co-creative agents within the broader field of interactive machine learning by describing the theory, design, and initial prototypes of two co-creative agents.", 
+    "authors": [
+      {
+        "name": "Nicholas Davis"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Teaching Enactive Co-Creative Agents through Human Computation in Meaningful Collaborative Contexts"
+  }, 
+  "CCdc138": {
+    "abstract": "While universities teach students how to build new products, few students choose to further implement their work due to limited resources and mentorship. Theories of learning and innovation describe the importance of working in a social context to acquire resources from peers. While HCI researchers have built recommender and expert routing systems to identify help givers, novice designers still fail to contact expert peers for various psychological reasons, such as fear of contacting someone older or more experienced. By designing online tools and platforms that encourage and scaffold that act of help-seeking, we can connect more designers with informal mentors who can help them improve and implement their work as a professional product. The goal of my dissertation is to support help-seeking among novice designers by 1) developing an emergent model of help-seeking behavior in the context of crowdfunding, and building a tool that 2) recommends potential help-givers from one_\u00d1\u00e9s social network and 3) presents their information in a way that encourages reaching out for advice. ", 
+    "authors": [
+      {
+        "name": "Julie Hui"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Leveraging Online Communities for Novice Designers"
+  }, 
+  "CCdc139": {
+    "abstract": "Current crowdsourcing workflows comprise of discrete tasks that guide the crowd towards predetermined goals. However, this approach is ill-suited towards supporting massively collaborative open-ended creative work, which often involves an exploration of possible end results and revision of creative goals. My dissertation explores how existing expert creative practice can inform new crowdsourcing techniques that allow the crowd to collaborate on complex creative tasks such as writing short stories.", 
+    "authors": [
+      {
+        "name": "Joy Kim"
+      }
+    ], 
+    "subtype": "Graduate Symposium", 
+    "title": "Designing Crowdsourcing Techniques Based on Expert Creative Practice"
+  }, 
+  "CCdp109": {
+    "abstract": "In conclusion, what emerges through the data is a visual speech code that tacitly leverages traditional photographic genres while at the same time supporting a system of meanings and symbols that enhance the instantaneous posts and communications of the day-to-day ebb and flow of life.", 
+    "authors": [
+      {
+        "name": "Kim"
+      }, 
+      {
+        "name": "Joy"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Designing creativity support tools for failure"
+  }, 
+  "CCdp110": {
+    "abstract": "In 2004, he was honored to become a Fellow of the World Technology Network. Since 2013, he is Distinguished Affiliated of the Fleming BSRC (Alexander Fleming Biomedical Sciences Research Center), Athens, Greece. He serves on numerous editorial boards and scientific committees. ", 
+    "authors": [
+      {
+        "name": "Ilsar"
+      }, 
+      {
+        "name": "Alon"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Choreography in the Mapping of New Instruments"
+  }, 
+  "CCdp111": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Horkoff"
+      }, 
+      {
+        "name": "Jennifer"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Creativity and Goal Modeling for Software Requirements Engineering"
+  }, 
+  "CCdp114": {
+    "abstract": "In studying cognitive activity in design it is common practice to use designers_\u00d1\u00e9 verbalizations during a design process to elicit the reasoning behind design actions. These verbalizations are segmented in order to enable a quantifiable analysis of the cognitive processes. Researchers have shown how Shannon_\u00d1\u00e9s entropy can be applied to coded verbal data to provide a measure of creativity of those processes. We applied this method to a pilot study, investigating the effects of different design tools on creativity in the context of architectural design. Participants had to design three tasks of isomorphic nature, each with a different tool, in one design session. As shown a significant number of verbal comments were repetitions of already established ideas. Such comments brought nothing new to the sequence of activities but affected the value of information carried within that process which biased the measure of creativity. The paper regards these utterance as verbal noise. It proposes the use of corpus linguistic tools together with a coding scheme that can depict the hierarchical relationship of cognitive patterns used in the process to eliminate verbal noise from analysis. The method was applied to one participant_\u00d1\u00e9s data, which shows a promising step in increasing the veracity of using verbal data in analyzing cognitive activity. ", 
+    "authors": [
+      {
+        "name": "Tahsiri"
+      }, 
+      {
+        "name": "Mina"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Decreasing the Effect of Verbal Noise in Analyzing Cognitive Activity of a Design Process"
+  }, 
+  "CCdp115": {
+    "abstract": "In this paper we present #Scanners, a digital arts installation that aims to bridge the gap between digital arts and neuroscience. #Scanners is an experience in which an individual wears a wireless brain scanners whilst being presented media which is dynamically affected by the individuals physiology. A prototype system has been successfully trialled on roughly 100 users over the past 18 months and has received unanimously positive feedback. We state the minimal additional requirements for demonstrating a Higher Fidelity prototype system and argue the value of including #Scanners at C&C2015.", 
+    "authors": [
+      {
+        "name": "Pike"
+      }, 
+      {
+        "name": "Matthew"
+      }
+    ], 
+    "subtype": "demo", 
+    "title": "#Scanners: Integrating Physiology into Cinematic Experiences"
+  }, 
+  "CCdp116": {
+    "abstract": "Nature Bot is a two-part, interactive art installation that uses technology to facilitate a remote exploration of nature through a remote controlled robot with video link, whilst simultaneously reflecting the exploration through a kinetic reactive sculpture within a local built environment. Attention Restoration Theory (ART) was used to design the system so that it harnesses the beneficial properties of _\u00d1\u00c9wild nature._\u00d1\u00e9 The project presents a unique approach to using technology to mediate a sense of immersive connection to nature, providing the user with agency within an external natural environment. The results of a qualitative user experience study suggest the installation fulfilled the elements of ART necessary for an environment conducive of mental restoration and feelings of wellbeing, and that it reflected a sense of nature within the built environment.", 
+    "authors": [
+      {
+        "name": "McDonald"
+      }, 
+      {
+        "name": "Sophie"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Nature Bot: Experiencing Nature in the Built Environment"
+  }, 
+  "CCdp117": {
+    "abstract": "This paper examines factors that influence how long audience members actively engage with an interactive installation in public settings. The study draws on data from three field studies of an interactive multi-person installation, encompassing questionnaires,video recordings and user-system interaction data. The studies were conducted with unsolicited exhibition audiences during public exhibitions in the UK, China and Spain. In all three studies it was found that the time participants spent interacting with the installation was  largely determined by social and contextual factors rather than by how they rated their playing experience. Common triggers identified for leaving were an 'obligation to leave' to accommodate other, potentially waiting audience members, and 'leaving by necessity' in order to follow companions who were moving on.", 
+    "authors": [
+      {
+        "name": "Bengler"
+      }, 
+      {
+        "name": "Ben"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "_\u0084\u00f1I could play here for hours.._\u0084\u009d (thinks the visitor and leaves): Why People Disengage from Public Interactives"
+  }, 
+  "CCdp118": {
+    "abstract": "This paper describes [self.], an open source art installation that embodies artificial intelligence (AI) in order to learn, react, respond and be creative in its environment. Biologically inspired models are implemented to achieve this behaviour. The robot is built using a moving head, projector, camera and microphones. No form of knowledge or grammar have been implemented in the AI, the system starts in a ``tabula rasa'' state and learns everything via its own sensory channels, forming categories in a bottom-up fashion. The robot recognizes sounds, and is able to recognize similar sounds, link them with the corresponding faces, and use the knowledge of past experiences to form new sentences. It projects neural memories that represent an association between sound and video as experienced during interaction. ", 
+    "authors": [
+      {
+        "name": "Tidemann"
+      }, 
+      {
+        "name": "Axel"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "[self.]: an Interactive Art Installation that Embodies Artificial Intelligence and Creativity"
+  }, 
+  "CCdp119": {
+    "abstract": "This demonstration paper describes [self.], an open source art installation that embodies artificial intelligence in order to learn, react, respond and be creative in its environment. Biologically inspired models are implemented to achieve this behaviour. The robot is built using a moving head, projector, camera and microphones. No form of knowledge or grammar have been implemented in the AI, the entity learns everything via its own sensory channels, forming categories in a bottom-up fashion. The robot recognizes sounds, and is able to recognize similar sounds, link them with the corresponding faces, and use the knowledge of past experiences to form new sentences. It projects neural memories that represent an association between sound and video as experienced during interaction.  ", 
+    "authors": [
+      {
+        "name": "Tidemann"
+      }, 
+      {
+        "name": "Axel"
+      }
+    ], 
+    "subtype": "demo", 
+    "title": "[self.]: an Interactive Art Installation that Embodies Artificial Intelligence and Creativity"
+  }, 
+  "CCdp120": {
+    "abstract": "For this demonstration the authors intend to present the Aesthetics of Activism as a work-in-progress. The artwork is designed to aggregate visual material from social networks to form themed compositions that can be explored jointly within a shared interactive space. Visual elements are programmatically arranged according to formal aesthetic criteria, while motion within the exhibition space is detected via optical sensors. Artistry built into the algorithms used for creating the visual compositions and those used to present, filter and rank content within the social web are exposed for people interested in the relationships between the cultural and computer layers inherent to the system design.", 
+    "authors": [
+      {
+        "name": "Moulder"
+      }, 
+      {
+        "name": "Vicki"
+      }
+    ], 
+    "subtype": "demo", 
+    "title": "The Aesthetics of Activism"
+  }, 
+  "CCdp124": {
+    "abstract": "In this paper we present the initial results of a pilot study designed to explore the reactions and actions of children who experience a power failure while playing a hybrid physical/digital game.  We wanted to see whether we can maintain the engagement of the children with the game if the digital component of the game (a tablet based game) ceases to function and if so whether they will continue from where they left off in the digital game or whether they will start a new round of gameplay.  Early results suggests that the power failure and the resultant interruption to gameplay did not hamper the children engagement with the game but provided them with the opportunity to re-engage with the physical elements of the game.  This suggests new directions for exploring the design of hybrid physical/digital games.", 
+    "authors": [
+      {
+        "name": "Chisik"
+      }, 
+      {
+        "name": "Yoram"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Between the bottle cap and the battery: An investigation of interrupted gameplay"
+  }, 
+  "CCdp125": {
+    "abstract": "This paper contributes an approach to create playable art consisting of physical art with a playable digital counterpart. We propose the use of Inventame, an App that allows the user to focus on the creative and artistic part. He crafts his own game in the real world with his preferred physical materials (pencils, markers, coloured wooden blocks, etc.). Then, he takes a picture of his creation, configures a few options in the App, and the picture becomes playable. This paper also describes four examples that illustrate the creation of playable art from several different kinds of art, using different materials and with different functions and playability. ", 
+    "authors": [
+      {
+        "name": "Ibanez"
+      }, 
+      {
+        "name": "Jesus"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Playable Art: Physical Art with a Playable Digital Counterpart"
+  }, 
+  "CCdp128": {
+    "abstract": "Movement based interactive artworks are capable of instantly engaging audiences by reacting to physical motion consistently with real-world physics. Sustaining this engagement, however, requires a constant alteration of both the output and interaction aesthetics. Mobile devices (such as the iPad or iPhone) can be used to control the often-overwhelming plethora of parameters found in many interactive systems. The effect that mobile control of these parameters has on the inception, refinement and live performance of two separate art works is examined.  An open-source dynamic remote control system is being developed to further facilitate the creative development and performance of interactive artwork as demonstrated by these case studies.", 
+    "authors": [
+      {
+        "name": "Bluff"
+      }, 
+      {
+        "name": "Andrew"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Remote Control of Complex Interactive Art Installations"
+  }, 
+  "CCdp130": {
+    "abstract": "As computing increasingly deals with our complex daily experiences, designers are challenged with new methods and ways of implementing complex interactions in limited user space and tools, but without hindering user experience and creativity. In this paper, we present the results of an empirical investigation regarding the effect of space and tool availability on user experience and creativity. The goal is to understand whether and how space and tool availability allow users to be more creative and improve their overall experience. To do so, we developed a connect-the-dots drawing multi-user application with a focus on having certain restrictions in size and specific tool availability. Based on this application, we conducted an empirical study with 38 users. For the evaluation, surveys, photos and observations were recorded and used in our analysis. The results showed that: (a) tool availability does not affect user creativity and experience and (b) space availability affects user creativity, collaboration and hedonic motivation (pleasure). Although our results are early, provide insights that tools_\u00d1\u00e9 limitation does not hinder users_\u00d1\u00e9 ability to be creative; and space availability is of great importance in creative activities.", 
+    "authors": [
+      {
+        "name": "Leftheriotis"
+      }, 
+      {
+        "name": "Ioannis"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "How space and tool availability affect user experience and creativity in interactive surfaces?"
+  }, 
+  "CCdp138": {
+    "abstract": "This paper describes a co-creative web-based drawing application called the Drawing Apprentice. This system collaborates with users in real time abstract drawing. We describe the theory, interaction design, and user experience of the Drawing Apprentice system. We evaluate the system with formative user studies and expert evaluations from a juried art competition in which a Drawing Apprentice submission won the code-based art category. ", 
+    "authors": [
+      {
+        "name": "Davis"
+      }, 
+      {
+        "name": "Nicholas"
+      }
+    ], 
+    "subtype": "demo", 
+    "title": "Drawing Apprentice: An Enactive Co-Creative Agent That Learning Through Experience in Artistic Collaboration"
+  }, 
+  "CCdp139": {
+    "abstract": "This eye tracking study investigated the association between individuals_\u00d1\u00e9 field dependence - independence cognitive style and level of creative thinking based on users_\u00d1\u00e9 eye movement behaviour while interacting with a set of visual perceptual tasks. Subjects FD-I cognitive style and creativity were measured with the use of the Hidden Figures Test (HFT) and Torrance Test of Creative Thinking (TTCT). The psychometric methods and the eye tracking-derived data were statistically examined demonstrating a relationship between users_\u00d1\u00e9 cognitive style, creativity attributes and eye gaze behaviour. This research study adds further to the evidence and theory base of Human-computer interaction for applications in the user-centred design and suggests future directions for research. ", 
+    "authors": [
+      {
+        "name": "Nisiforou"
+      }, 
+      {
+        "name": "Efi"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Examine the association between users creative thinking and field dependence-independence cognitive style through eye movement components"
+  }, 
+  "CCdp142": {
+    "abstract": "Feedback is important for cultivating creativity. Constructive feedback on design is crucial for helping design students and amateur designers iterate towards better solutions. However most of the current platforms don_\u00d1\u00e9t promote honest design feedback and are primarily used only for self-promotion. This paper proposes Scranvas, a community for students and non-experts to encourage sharing of creative work and generate constructive feedback. Users interpret the designs based to the context and goals stated by the designer and share feedback through annotations.", 
+    "authors": [
+      {
+        "name": "Chakraborty"
+      }, 
+      {
+        "name": "Abhishek"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Scranvas: Gamified Forum for Amateur Designers to Share Creative Work and Generate Constructive Feedback"
+  }, 
+  "CCdp144": {
+    "abstract": "In this paper, we introduce Sketch-Play-Learn, an augmented paper-based tabletop system to support students learning of the principles of light behaviour. This project emphasises the use of the most ubiquitous and inexpensive learning medium, which is paper. Students engage themselves in completing a goal-based task sketched by the teacher on paper and observing the visual feedback on the same paper. We argue that augmenting the paper with digital information while providing a tabletop setup provides a novel and appealing approach to learning for classroom use. In this paper, we discuss the motivations for our project and describe the design and implementation our system. We also describe an initial evaluation with children and outline future research goals.", 
+    "authors": [
+      {
+        "name": "Tripathi"
+      }, 
+      {
+        "name": "Richa"
+      }
+    ], 
+    "subtype": "poster", 
+    "title": "Sketch-Play-Learn - An augmented paper based environment for learning the concepts of optics"
+  }, 
+  "CCdp154": {
+    "abstract": "This demo is one of the results of a practice-based research, which explored the generation of interactive experiences based on the cooperative collection of data for ethnographical purposes. In this case, a collection of soundscapes from Stockholm has lead to some experiments where the audio clips gathered are controlled in real-time according to a brain computer interface and a set of rules that determines a real time composition. \\ One of the most significant inputs at this point has been the theory of Psychogeography, which posits that the territory and its transformation can be understood as an psychological and emotional setup, susceptible of being understood by means of different kinds of dynamic measurements and modes of representation.  \\ The result described here is an experimental performance and sound-video installation in which the visitors can _\u00d1\u00c9stroll_\u00d1\u00e9 through a data archive, according to their brain activity, and by means of a brain scan device. The measurement of specific brain waves creates a sound and video synthesis related to the media collection.  \\ This demo seeks to expose the concept and technological implementation behind the result and also to perform the interactive sound experience at the event.  \\ ", 
+    "authors": [
+      {
+        "name": "Chaparro"
+      }, 
+      {
+        "name": "Ivan"
+      }
+    ], 
+    "subtype": "demo", 
+    "title": "Psychogeographical sound-drift"
+  }, 
+  "CCp122": {
+    "abstract": "Creativity thrives when people experience positive emotions. How to design an interactive system that can effectively make use of this potential is, however, still an unanswered question. In this paper, we propose one approach to this problem that relies on hacking into the cognitive appraisal processes that form part of positive emotions. To demonstrate our approach we have conceived, made, and evaluated a novel interactive system that influences an individual_\u00e3_s appraisals of their own idea generation processes by providing real-time and believable feedback about the originality of their ideas. The system can be used to manipulate this feedback to make the user_\u00e3_s ideas appear more or less original. This has enabled us to test experimentally the hypothesis that providing more positive feedback, rather than neutral, or more negative feedback than the user is expecting, causes more positive emotion, which in turn causes more creativity during idea generation. The findings demonstrate that an interactive system can be designed to use the function of cognitive appraisal processes in positive emotion to help people to get more out of their own creative capabilities.", 
+    "authors": [
+      {
+        "name": "Alwin de Rooij"
+      }, 
+      {
+        "name": "Philip Corr"
+      }, 
+      {
+        "name": "Sara Jones"
+      }
+    ], 
+    "subtype": "paper", 
+    "title": "Emotion and Creativity: Hacking into Cognitive Appraisal Processes to Augment Creative Ideation"
+  },
   "event_1": {
-    "abstract": "Steve Benford is Professor of Collaborative Computing in the Mixed Reality Laboratory at the University of Nottingham.  He is currently an EPSRC Dream Fellow and Director of the EPSRC-funded \u0095Horizon: My Life in Data\u00ea Centre for Doctoral Training. He was a Visiting Professor at the BBC in 2012 and a Visiting Researcher at Microsoft Research in 2013. He has received best paper awards at the ACM\u00eas annual Computer-Human Interaction (CHI) conference in 2005, 2009, 2011 and 2012. He also won the 2003 Prix Ars Elctronica for Interactive Art, the 2007 Nokia Mindtrek award for Innovative Applications of Ubiquitous Computing, and has received four BAFTA nominations. He was elected to the CHI Academy in 2012. His book Performing Mixed Reality was published by MIT Press in 2011.", 
+    "abstract": "Steve Benford is Professor of Collaborative Computing in the Mixed Reality Laboratory at the University of Nottingham.  He is currently an EPSRC Dream Fellow and Director of the EPSRC-funded \u00a5Horizon: My Life in Data\u0090 Centre for Doctoral Training. He was a Visiting Professor at the BBC in 2012 and a Visiting Researcher at Microsoft Research in 2013. He has received best paper awards at the ACM\u0090s annual Computer-Human Interaction (CHI) conference in 2005, 2009, 2011 and 2012. He also won the 2003 Prix Ars Elctronica for Interactive Art, the 2007 Nokia Mindtrek award for Innovative Applications of Ubiquitous Computing, and has received four BAFTA nominations. He was elected to the CHI Academy in 2012. His book Performing Mixed Reality was published by MIT Press in 2011.", 
     "authors": [
       {
         "name": "Steve Benford"
