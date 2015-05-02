@@ -134,7 +134,7 @@ function refresh(_async_){
     }
   });
 
-  get_all_votes(true)
+  //get_all_votes(true)
 }
 
 
@@ -142,7 +142,7 @@ setInterval('refresh();', 60*1000)
 
 refresh(false)
 compute_recs()
-get_all_votes(false)
+//get_all_votes(false)
 /* data structure for pending stars */
 
 function refresh_pending(){
@@ -731,14 +731,7 @@ function get_paper_html(id){
     raw_html += '<div class="star star-open p_star" data="'+ id + '" onclick="handle_star(event);"></div>'        
   }else{
     raw_html += '<div class="star star-filled p_star" data="'+ id + '" onclick="handle_star(event);"></div>'       
-  }
-  raw_html += '<br />'
-  if(besttalks.indexOf(id) == -1){
-    raw_html += '<div class="besttalk" data="'+ id + '" onclick="handle_vote(event);"></div>'        
-  }else{
-    raw_html += '<div class="besttalk-selected" data="'+ id + '" onclick="handle_vote(event);"></div>'       
-  }
-  
+  }  
   
   raw_html += '</td>'
   
