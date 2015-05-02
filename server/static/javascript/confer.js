@@ -1750,19 +1750,19 @@ function apply_filters(){
 
   var select_class = $('.session')
   
-  if(day_classes != '.all'){
+  if(day_classes != '.all' && day_classes != '.undefined'){
     select_class = select_class.filter(day_classes)
   }
   
-  if(time_classes != '.all'){               
+  if(time_classes != '.all' && time_classes != '.undefined'){               
     select_class = select_class.filter(time_classes)                
   }
 
-  if(papers_classes != '.all'){             
+  if(papers_classes != '.all' && papers_classes != '.undefined'){             
     select_class = select_class.filter(papers_classes)              
   }
 
-  if(venue_classes != '.all'){             
+  if(venue_classes != '.all' && venue_classes != '.undefined'){             
     select_class = select_class.filter(venue_classes)              
   }
 
