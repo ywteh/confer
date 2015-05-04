@@ -745,7 +745,7 @@ function get_paper_html(id){
   }
 
   if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
-    raw_html += '<span class="paper-subtype">' + entities[id].date + ' [' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
+    raw_html += '<span class="paper-subtype"> [' + entities[id].date + '&nbsp;&nbsp;' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
   }
 
   if(entities[id].acm_link != null) {
