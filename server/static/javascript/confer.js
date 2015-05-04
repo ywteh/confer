@@ -744,6 +744,10 @@ function get_paper_html(id){
     raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].subtype + '</span>'
   }
 
+  if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
+    raw_html += '<span class="paper-subtype">' + entities[id].date + ' [' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
+  }
+
   if(entities[id].acm_link != null) {
     raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
   }
@@ -761,10 +765,6 @@ function get_paper_html(id){
   raw_html += '</li>'
   raw_html += '<li class="paper-icons"><span class="award-icon"></span><span class="hm-icon"></span><span class="nominated-icon"></span>'
   raw_html += '<span class="rec-icon">recommended</span>'
-
-  if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
-    raw_html += '<span class="details-icon">' + entities[id].date + ' [' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
-  }
 
   if (entities[id].tags != null){
     $.each(entities[id].tags, function(i, v){
