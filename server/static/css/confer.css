@@ -1011,6 +1011,20 @@ textarea {
   font-size: 0.9em;
 }
 
+.default-icon{
+  display:inline-block;
+  vertical-align: top;
+  margin-top: 0.2em;
+  margin-right: 0.7em;
+  border: 1px solid #AAAAAA;
+  background-color: #AAAAAA;
+  color: #F6F6F6;
+  padding: 0.2em 0.5em;
+  /*height: 1.5em;*/
+  text-align: center;
+  font-size: 0.9em;
+}
+
 .paper-icons, .session-icons {
   margin-top: 0.3em;
   max-height: 4em;

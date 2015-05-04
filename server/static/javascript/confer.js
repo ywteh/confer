@@ -763,7 +763,7 @@ function get_paper_html(id){
   raw_html += '<span class="rec-icon">recommended</span>'
 
   if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
-    raw_html += '<span class="tag-icon">' + entities[id].date + '[' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
+    raw_html += '<span class="details-icon">' + entities[id].date + ' [' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
   }
 
   if (entities[id].tags != null){
