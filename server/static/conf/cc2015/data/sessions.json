@@ -4,9 +4,7 @@ sessions={
     "room": "TBD", 
     "s_title": "Conference Dinner", 
     "start_time": "19:00", 
-    "submissions": [
-      "event_39"
-    ], 
+    "submissions": [], 
     "time": "19:00 - 21:00"
   }, 
   "Finding_Inspriation": {
@@ -109,9 +107,7 @@ sessions={
     "room": "TBD", 
     "s_title": "Performance Event", 
     "start_time": "19:00", 
-    "submissions": [
-      "event_54"
-    ], 
+    "submissions": [], 
     "time": "19:00 - 21:00"
   }, 
   "Places_of_Creativity": {
@@ -163,9 +159,7 @@ sessions={
     "room": "TBD", 
     "s_title": "Reception & Art Exhibit", 
     "start_time": "17:30", 
-    "submissions": [
-      "event_14"
-    ], 
+    "submissions": [], 
     "time": "17:30 - 19:00"
   }, 
   "Textiles_and_Objects": {

@@ -744,10 +744,6 @@ function get_paper_html(id){
     raw_html += '<span class="paper-subtype">' + ' - ' + entities[id].subtype + '</span>'
   }
 
-  if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
-    raw_html += '<span class="paper-subtype"> [' + entities[id].date + '&nbsp;&nbsp;' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
-  }
-
   if(entities[id].acm_link != null) {
     raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
   }
@@ -981,7 +977,11 @@ function get_selected_paper_html(id){
   if(entities[id].acm_link != null) {
     raw_html += '<a href="' + entities[id].acm_link +'" target="_blank"><span class="acm-icon" data="'+ id + '"></span></a>'
   }
-  
+
+
+  if (entities[id].date != null && entities[id].start_time != null && entities[id].end_time != null) {
+    raw_html += '<span class="paper-subtype"> [' + entities[id].date + '&nbsp;&nbsp;' + entities[id].start_time + '-' + entities[id].end_time + ']' + '</span>'
+  }  
   
   raw_html += '</h3>';
 
