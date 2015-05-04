@@ -22,8 +22,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "6_22_1511_00_12_30", 
-        "time": "11:00-12:30"
+        "slot_id": "6_22_1511_00_11_22", 
+        "time": "11:00-11:22"
       }, 
       {
         "sessions": [
@@ -33,8 +33,8 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "6_22_1513_30_15_00", 
-        "time": "13:30-15:00"
+        "slot_id": "6_22_1513_30_13_52", 
+        "time": "13:30-13:52"
       }, 
       {
         "sessions": [
@@ -44,8 +44,8 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "6_22_1515_30_17_00", 
-        "time": "15:30-17:00"
+        "slot_id": "6_22_1515_30_15_52", 
+        "time": "15:30-15:52"
       }, 
       {
         "sessions": [
@@ -94,8 +94,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "6_23_1511_00_12_30", 
-        "time": "11:00-12:30"
+        "slot_id": "6_23_1511_00_11_22", 
+        "time": "11:00-11:22"
       }, 
       {
         "sessions": [
@@ -122,8 +122,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "6_24_159_00_10_30", 
-        "time": "9:00-10:30"
+        "slot_id": "6_24_159_00_9_11", 
+        "time": "9:00-9:11"
       }, 
       {
         "sessions": [
@@ -133,8 +133,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "6_24_1511_00_12_30", 
-        "time": "11:00-12:30"
+        "slot_id": "6_24_1511_00_11_22", 
+        "time": "11:00-11:22"
       }, 
       {
         "sessions": [
@@ -144,8 +144,8 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "6_24_1513_30_15_00", 
-        "time": "13:30-15:00"
+        "slot_id": "6_24_1513_30_13_52", 
+        "time": "13:30-13:52"
       }, 
       {
         "sessions": [
