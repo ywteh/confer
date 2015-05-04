@@ -90,6 +90,7 @@ def prepare_data(data_file):
         'subtype':paper_type}
 
     if paper_type == 'note' or paper_type == 'paper':
+      papers[paper_id]['date'] = get_date(get_date_time(s_date, dt_format=dt_format))
       papers[paper_id]['start_time'] = s_time
       papers[paper_id]['end_time'] = s_end_time
 
