@@ -899,7 +899,7 @@ function get_session_html(id, day, time, slot_class, room){
       }else{
         weight[i] = 1.0
       }
-      weight[i] = 1.0
+
       sum += weight[i]
     }
     
