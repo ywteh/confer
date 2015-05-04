@@ -898,13 +898,11 @@ function get_session_html(id, day, time, slot_class, room){
     var weight = []
     var sum = 0
     for(i=0; i<size; i++){
-      /*
-      if(entities[sessions[id].submissions[i]].subtype == 'Note'){
+      if(entities[sessions[id].submissions[i]].subtype != null && entities[sessions[id].submissions[i]].subtype.toLowerCase() == 'note'){
         weight[i] = 0.5
       }else{
         weight[i] = 1.0
       }
-      */
       weight[i] = 1.0
       sum += weight[i]
     }
