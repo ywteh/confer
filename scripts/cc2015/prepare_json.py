@@ -78,21 +78,32 @@ def prepare_data(data_file):
     paper_authors = unicode(row[12], "ISO-8859-1")
     paper_abstract = unicode(row[14], "ISO-8859-1")
 
+
+
+
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
         'authors': [{'name': name.strip()}
             for name in paper_authors.strip('"').split(',')],
-        'abstract': paper_abstract,
+        'abstract': paper_abstract, 
         'subtype':paper_type}
+
+    if paper_type == 'note' or paper_type == 'paper':
+      papers[paper_id]['start_time'] = s_time
+      papers[paper_id]['end_time'] = s_end_time
+
     
     # prepare sessions data
     s_id = construct_id(session)
     if(s_id in sessions):
       sessions[s_id]['submissions'].append(paper_id)
+      sessions[s_id]['end_time'] = s_end_time
+      sessions[s_id]['time'] = sessions[s_id]['start_time'] + ' - ' + sessions[s_id]['end_time']
+
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time + '-' + s_end_time, 'date': s_date}
+          'submissions': [paper_id], 's_title': session, 'room': 'TBD', 'time': s_time + ' - ' + s_end_time, 'start_time': s_time, 'date': s_date}
 
     p_id += 1
 

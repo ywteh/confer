@@ -3,27 +3,32 @@ sessions={
     "date": "6/22/15", 
     "room": "TBD", 
     "s_title": "Conference Dinner", 
+    "start_time": "19:00", 
     "submissions": [
       "event_39"
     ], 
-    "time": "19:00-21:00"
+    "time": "19:00 - 21:00"
   }, 
   "Finding_Inspriation": {
     "date": "6/22/15", 
+    "end_time": "16:37", 
     "room": "TBD", 
     "s_title": "Finding Inspriation", 
+    "start_time": "15:30", 
     "submissions": [
       "CCp131", 
       "CCp129", 
       "CCp237", 
       "CCp199"
     ], 
-    "time": "15:30-15:52"
+    "time": "15:30 - 16:37"
   }, 
   "Graduate_Symposium": {
     "date": "6/25/15", 
+    "end_time": "17:00", 
     "room": "TBD", 
     "s_title": "Graduate Symposium", 
+    "start_time": "9:00", 
     "submissions": [
       "CCdc111", 
       "CCdc112", 
@@ -40,71 +45,81 @@ sessions={
       "CCdc138", 
       "CCdc139"
     ], 
-    "time": "9:00-17:00"
+    "time": "9:00 - 17:00"
   }, 
   "Ideation_Play_and_Experience": {
     "date": "6/24/15", 
+    "end_time": "12:07", 
     "room": "TBD", 
     "s_title": "Ideation Play, and Experience", 
+    "start_time": "11:00", 
     "submissions": [
       "CCp122", 
       "CCp240", 
       "CCp142"
     ], 
-    "time": "11:00-11:22"
+    "time": "11:00 - 12:07"
   }, 
   "Keynote_Session_1": {
     "date": "6/22/15", 
     "room": "TBD", 
     "s_title": "Keynote Session 1", 
+    "start_time": "9:00", 
     "submissions": [
       "event_1"
     ], 
-    "time": "9:00-10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Keynote_Session_2": {
     "date": "6/23/15", 
     "room": "TBD", 
     "s_title": "Keynote Session 2", 
+    "start_time": "9:00", 
     "submissions": [
       "event_15"
     ], 
-    "time": "9:00-10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Keynote_Session_3": {
     "date": "6/24/15", 
     "room": "TBD", 
     "s_title": "Keynote Session 3", 
+    "start_time": "15:30", 
     "submissions": [
       "event_53"
     ], 
-    "time": "15:30-17:00"
+    "time": "15:30 - 17:00"
   }, 
   "Moments_and_Movements": {
     "date": "6/23/15", 
+    "end_time": "12:30", 
     "room": "TBD", 
     "s_title": "Moments and Movements", 
+    "start_time": "11:00", 
     "submissions": [
       "CCp999", 
       "CCp173", 
       "CCp172", 
       "CCp194"
     ], 
-    "time": "11:00-11:22"
+    "time": "11:00 - 12:30"
   }, 
   "Performance_Event": {
     "date": "6/24/15", 
     "room": "TBD", 
     "s_title": "Performance Event", 
+    "start_time": "19:00", 
     "submissions": [
       "event_54"
     ], 
-    "time": "19:00-21:00"
+    "time": "19:00 - 21:00"
   }, 
   "Places_of_Creativity": {
     "date": "6/24/15", 
+    "end_time": "15:00", 
     "room": "TBD", 
     "s_title": "Places of Creativity", 
+    "start_time": "13:30", 
     "submissions": [
       "CCp231", 
       "CCp127", 
@@ -112,12 +127,14 @@ sessions={
       "CCp209", 
       "CCp186"
     ], 
-    "time": "13:30-13:52"
+    "time": "13:30 - 15:00"
   }, 
   "Posters_and_Demos": {
     "date": "6/23/15", 
+    "end_time": "17:00", 
     "room": "TBD", 
     "s_title": "Posters and Demos", 
+    "start_time": "13:30", 
     "submissions": [
       "CCdp109", 
       "CCdp110", 
@@ -139,45 +156,52 @@ sessions={
       "CCdp138", 
       "CCdp154"
     ], 
-    "time": "13:30-17:00"
+    "time": "13:30 - 17:00"
   }, 
   "Reception_Art_Exhibit": {
     "date": "6/22/15", 
     "room": "TBD", 
     "s_title": "Reception & Art Exhibit", 
+    "start_time": "17:30", 
     "submissions": [
       "event_14"
     ], 
-    "time": "17:30-19:00"
+    "time": "17:30 - 19:00"
   }, 
   "Textiles_and_Objects": {
     "date": "6/22/15", 
+    "end_time": "12:30", 
     "room": "TBD", 
     "s_title": "Textiles and Objects", 
+    "start_time": "11:00", 
     "submissions": [
       "CCp211", 
       "CCp189", 
       "CCp136", 
       "CCp185"
     ], 
-    "time": "11:00-11:22"
+    "time": "11:00 - 12:30"
   }, 
   "Tools_and_Interfaces": {
     "date": "6/22/15", 
+    "end_time": "15:00", 
     "room": "TBD", 
     "s_title": "Tools and Interfaces", 
+    "start_time": "13:30", 
     "submissions": [
       "CCp219", 
       "CCp178", 
       "CCp167", 
       "CCp147"
     ], 
-    "time": "13:30-13:52"
+    "time": "13:30 - 15:00"
   }, 
   "Working_and_Learning": {
     "date": "6/24/15", 
+    "end_time": "10:30", 
     "room": "TBD", 
     "s_title": "Working and Learning", 
+    "start_time": "9:00", 
     "submissions": [
       "CCp137", 
       "CCp227", 
@@ -185,6 +209,6 @@ sessions={
       "CCp224", 
       "CCp239"
     ], 
-    "time": "9:00-9:11"
+    "time": "9:00 - 10:30"
   }
 }

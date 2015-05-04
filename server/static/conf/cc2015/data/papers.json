@@ -1,4 +1,4 @@
-entities={
+entities={ 
   "CCp122": {
     "abstract": "Creativity thrives when people experience positive emotions. How to design an interactive system that can effectively make use of this potential is, however, still an unanswered question. In this paper, we propose one approach to this problem that relies on hacking into the cognitive appraisal processes that form part of positive emotions. To demonstrate our approach we have conceived, made, and evaluated a novel interactive system that influences an individual_\u00cc\u00d4\u00cc\u00a9s appraisals of their own idea generation processes by providing real-time and believable feedback about the originality of their ideas. The system can be used to manipulate this feedback to make the user_\u00cc\u00d4\u00cc\u00a9s ideas appear more or less original. This has enabled us to test experimentally the hypothesis that providing more positive feedback, rather than neutral, or more negative feedback than the user is expecting, causes more positive emotion, which in turn causes more creativity during idea generation. The findings demonstrate that an interactive system can be designed to use the function of cognitive appraisal processes in positive emotion to help people to get more out of their own creative capabilities.", 
     "authors": [
@@ -12,6 +12,8 @@ entities={
         "name": "Sara Jones"
       }
     ], 
+    "end_time": "11:22", 
+    "start_time": "11:00", 
     "subtype": "paper", 
     "title": "Emotion and Creativity: Hacking into Cognitive Appraisal Processes to Augment Creative Ideation"
   }, 
@@ -25,6 +27,8 @@ entities={
         "name": "John McCarthy"
       }
     ], 
+    "end_time": "14:03", 
+    "start_time": "13:52", 
     "subtype": "note", 
     "title": "Creative and Opportunistic Use of Everyday Music Technologies in a Dementia Care Unit"
   }, 
@@ -41,6 +45,8 @@ entities={
         "name": "Jilin Chen"
       }
     ], 
+    "end_time": "16:15", 
+    "start_time": "15:52", 
     "subtype": "paper", 
     "title": "InkWell: A Creative Writer's Creative Assistant"
   }, 
@@ -60,6 +66,8 @@ entities={
         "name": "Steven Dow"
       }
     ], 
+    "end_time": "15:52", 
+    "start_time": "15:30", 
     "subtype": "paper", 
     "title": "Providing Timely Examples Improves the Quantity and Quality of Generated Ideas"
   }, 
@@ -70,6 +78,8 @@ entities={
         "name": "Felecia Davis"
       }
     ], 
+    "end_time": "12:07", 
+    "start_time": "11:45", 
     "subtype": "paper", 
     "title": "The Textility of Emotion: A Study Relating Computational Textile Textural Expression to Emotion"
   }, 
@@ -95,6 +105,8 @@ entities={
         "name": "Chris Speed"
       }
     ], 
+    "end_time": "9:11", 
+    "start_time": "9:00", 
     "subtype": "note", 
     "title": "The Haggle-O-Tron: Re-inventing economic transactions in secondhand retail"
   }, 
@@ -114,6 +126,8 @@ entities={
         "name": "Diego Zamora"
       }
     ], 
+    "end_time": "12:07", 
+    "start_time": "11:45", 
     "subtype": "paper", 
     "title": "Creating a Collaborative Space for Creativity through a Pervasive User Experience"
   }, 
@@ -127,6 +141,8 @@ entities={
         "name": "Eric Paulos"
       }
     ], 
+    "end_time": "15:00", 
+    "start_time": "14:37", 
     "subtype": "paper", 
     "title": "MetaMorphe: Designing Expressive 3D Models for Digital Fabrication"
   }, 
@@ -146,6 +162,8 @@ entities={
         "name": "Simone Ashby"
       }
     ], 
+    "end_time": "14:37", 
+    "start_time": "14:15", 
     "subtype": "paper", 
     "title": "You're the Voice: Evaluating User Interfaces for Encouraging Underserved Youths to express themselves through Creative Writing"
   }, 
@@ -171,6 +189,8 @@ entities={
         "name": "Tom Calvert"
       }
     ], 
+    "end_time": "12:07", 
+    "start_time": "11:45", 
     "subtype": "paper", 
     "title": "Moment by Moment: Creating Movement Sketches with Camera Stillframes"
   }, 
@@ -196,6 +216,8 @@ entities={
         "name": "Karen Bradley"
       }
     ], 
+    "end_time": "11:45", 
+    "start_time": "11:22", 
     "subtype": "paper", 
     "title": "Strategies for Embodied Design: The Value and Challenges of Observing Movement"
   }, 
@@ -221,6 +243,8 @@ entities={
         "name": "Steven M. Smith"
       }
     ], 
+    "end_time": "14:15", 
+    "start_time": "13:52", 
     "subtype": "paper", 
     "title": "Evaluating TweetBubble with Ideation Metrics of Exploratory Browsing"
   }, 
@@ -234,6 +258,8 @@ entities={
         "name": "Ron Wakkary"
       }
     ], 
+    "end_time": "12:30", 
+    "start_time": "12:07", 
     "subtype": "paper", 
     "title": "Intersecting with Unaware Objects"
   }, 
@@ -271,6 +297,8 @@ entities={
         "name": "Roy Bearpark"
       }
     ], 
+    "end_time": "15:00", 
+    "start_time": "14:37", 
     "subtype": "paper", 
     "title": "Making Magic: Designing for Open Interactions in Museum Settings"
   }, 
@@ -284,6 +312,8 @@ entities={
         "name": "Eva Hornecker"
       }
     ], 
+    "end_time": "11:45", 
+    "start_time": "11:22", 
     "subtype": "paper", 
     "title": "Challenges for Creating and Staging Interactive Costumes for the Theatre Stage"
   }, 
@@ -303,6 +333,8 @@ entities={
         "name": "Michael Junokas"
       }
     ], 
+    "end_time": "12:30", 
+    "start_time": "12:07", 
     "subtype": "paper", 
     "title": "Express it!: An Interactive System for Visualizing Expressiveness of Conductor_\u00cc\u00d4\u00cc\u00a9s Gestures"
   }, 
@@ -328,6 +360,8 @@ entities={
         "name": "Gregoris N. Mentzas"
       }
     ], 
+    "end_time": "16:37", 
+    "start_time": "16:26", 
     "subtype": "note", 
     "title": "A Playful Affinity Space for Creative Research"
   }, 
@@ -350,6 +384,8 @@ entities={
         "name": "Gianluca Allemandi"
       }
     ], 
+    "end_time": "9:45", 
+    "start_time": "9:22", 
     "subtype": "paper", 
     "title": "Creativity Support to Improve Health-and-Safety in Manu-facturing Plants: Demonstrating Everyday Creativity"
   }, 
@@ -366,6 +402,8 @@ entities={
         "name": "Eric Paulos"
       }
     ], 
+    "end_time": "14:37", 
+    "start_time": "14:15", 
     "subtype": "paper", 
     "title": "Biological citizen publics: personal genetics as a site of public engagement with science"
   }, 
@@ -379,6 +417,8 @@ entities={
         "name": "Janet van der Linden"
       }
     ], 
+    "end_time": "11:22", 
+    "start_time": "11:00", 
     "subtype": "paper", 
     "title": "Imagining Future Technologies: eTextile Weaving Workshops with Blind and Visually Impaired People"
   }, 
@@ -398,6 +438,8 @@ entities={
         "name": "Matthew Easterday"
       }
     ], 
+    "end_time": "13:52", 
+    "start_time": "13:30", 
     "subtype": "paper", 
     "title": "Building Support Tools to Connect Novice Designers with Professional Coaches"
   }, 
@@ -414,6 +456,8 @@ entities={
         "name": "Elizabeth Gerber"
       }
     ], 
+    "end_time": "10:07", 
+    "start_time": "9:45", 
     "subtype": "paper", 
     "title": "Critiki: A Scaffolded Approach to Gathering Design Feedback from Paid Crowdworkers"
   }, 
@@ -430,6 +474,8 @@ entities={
         "name": "Mike Winiski"
       }
     ], 
+    "end_time": "9:22", 
+    "start_time": "9:11", 
     "subtype": "note", 
     "title": "Creative Language in a Student-generated Bioorganic Chemistry Wiki Textbook"
   }, 
@@ -464,6 +510,8 @@ entities={
         "name": "Elizabeth Kellogg"
       }
     ], 
+    "end_time": "13:52", 
+    "start_time": "13:30", 
     "subtype": "paper", 
     "title": "Beyond Slideware: How a  Free-form Presentation Medium Stimulates Free-form Thinking in the Classroom"
   }, 
@@ -486,6 +534,8 @@ entities={
         "name": "Giulio Jacucci"
       }
     ], 
+    "end_time": "16:26", 
+    "start_time": "16:15", 
     "subtype": "note", 
     "title": "InspirationWall: Supporting Idea Generation Through Automatic Information Exploration"
   }, 
@@ -502,6 +552,8 @@ entities={
         "name": "Sheelagh Carpendale"
       }
     ], 
+    "end_time": "10:30", 
+    "start_time": "10:07", 
     "subtype": "paper", 
     "title": "A Modular Approach to Promote Creativity and Inspiration in Search"
   }, 
@@ -524,6 +576,8 @@ entities={
         "name": "Brian Magerko"
       }
     ], 
+    "end_time": "11:45", 
+    "start_time": "11:22", 
     "subtype": "paper", 
     "title": "An Enactive Characterization of Pretend Play"
   }, 
@@ -537,6 +591,8 @@ entities={
         "name": "Nicholas Ward"
       }
     ], 
+    "end_time": "14:15", 
+    "start_time": "14:03", 
     "subtype": "note", 
     "title": "Tightly Coupled Agents in Live Performance Metacreations"
   }, 
@@ -547,6 +603,8 @@ entities={
         "name": "Robin Avni"
       }
     ], 
+    "end_time": "11:22", 
+    "start_time": "11:00", 
     "subtype": "paper", 
     "title": "Captured Moments: Defining a Communicative Framework for Social Photography"
   }, 
@@ -610,7 +668,7 @@ entities={
     "subtype": "event", 
     "title": "Performance Event"
   },
-  "CCdc111": {
+    "CCdc111": {
     "abstract": "This short paper summarizes a PhD research in progress as titled in the heading. The research investigates the effect that design tools have on the method of drawing and creativity in early stages of architectural design with an intention of contribution to the procurement of CAD tools. Currently into the second year of the PhD, pilot protocol studies have been executed and new propositions for coding schemes and method of analysis are being tested. ", 
     "authors": [
       {
