@@ -72,11 +72,11 @@ def prepare_data(data_file):
     s_date = unicode(row[2], "ISO-8859-1")
     s_time = unicode(row[3], "ISO-8859-1")
     s_end_time = unicode(row[4], "ISO-8859-1")
-    paper_type = unicode(row[10], "ISO-8859-1")
+    paper_type = unicode(row[11], "ISO-8859-1")
     session = unicode(row[8], "ISO-8859-1")
-    paper_title = unicode(row[9], "ISO-8859-1")
-    paper_authors = unicode(row[11], "ISO-8859-1")
-    paper_abstract = unicode(row[13], "ISO-8859-1")
+    paper_title = unicode(row[10], "ISO-8859-1")
+    paper_authors = unicode(row[12], "ISO-8859-1")
+    paper_abstract = unicode(row[14], "ISO-8859-1")
 
     # prepare papers data
     papers[paper_id] = {
