@@ -104,7 +104,7 @@ schedule=[
             "session": "Posters_and_Demos"
           }
         ], 
-        "slot_class": "afternoon1", 
+        "slot_class": "afternoon1 afternoon2", 
         "slot_id": "6_23_1513_30_17_00", 
         "time": "13:30 - 17:00"
       }
@@ -182,7 +182,7 @@ schedule=[
             "session": "Graduate_Symposium"
           }
         ], 
-        "slot_class": "morning1", 
+        "slot_class": "morning1 morning2 afternoon1 afternoon2", 
         "slot_id": "6_25_159_00_17_00", 
         "time": "9:00 - 17:00"
       }
