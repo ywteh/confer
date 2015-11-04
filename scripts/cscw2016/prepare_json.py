@@ -10,8 +10,13 @@ def construct_id(s):
   return re.sub(r'\W+', '_', s)
 
 def get_start_time(s_time):
-  #return int(re.match(r'\d+', s_time).group())
-  return s_time.split('-')[0].strip()
+  s = s_time.split('-')[0].strip()
+  if s == "2:30":
+      s = "14:30"
+  if s == "4:30":
+      s = "16:30"
+  return int(re.match(r'\d+', s).group())
+  return s
 
 def get_date_time(s_date, dt_format='%m/%d/%Y'):
   if s_date == "Monday":
