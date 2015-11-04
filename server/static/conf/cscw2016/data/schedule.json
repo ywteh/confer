@@ -6,20 +6,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Crowd", 
-            "session": "C_Crowd"
-          }, 
-          {
-            "room": "Social", 
-            "session": "C_Social"
-          }, 
-          {
             "room": "Health/Wellness/Home", 
-            "session": "C_Health_Wellness_Home"
+            "session": "Towards_Physical_and_Social_Wellness"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "Crowd_Workers"
           }, 
           {
             "room": "Work", 
-            "session": "C_Work"
+            "session": "Museums_and_Public_Spaces"
+          }, 
+          {
+            "room": "Social", 
+            "session": "Modeling_Social_Media"
           }
         ], 
         "slot_class": "evening", 
@@ -29,20 +29,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Social", 
-            "session": "G_Social"
+            "room": "Health/Wellness/Home", 
+            "session": "Relationships_and_Romance"
           }, 
           {
             "room": "Work", 
-            "session": "G_Work"
+            "session": "Distance_Coordination_and_Motivation"
           }, 
           {
             "room": "Crowd", 
-            "session": "G_Crowd"
+            "session": "Distributed_Teams"
           }, 
           {
-            "room": "Health/Wellness/Home", 
-            "session": "G_Health_Wellness_Home"
+            "room": "Social", 
+            "session": "Digital_Learning_Environments_"
           }
         ], 
         "slot_class": "evening", 
@@ -52,24 +52,24 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Health/Wellness/Home", 
-            "session": "I_Health_Wellness_Home"
-          }, 
-          {
-            "room": "Crowd", 
-            "session": "I_Crowd"
+            "room": "Social", 
+            "session": "Credibility_and_Social_Media"
           }, 
           {
             "room": "Rich Telepresence", 
-            "session": "I_Rich_Telepresence"
-          }, 
-          {
-            "room": "Social", 
-            "session": "I_Social"
+            "session": "Rich_Telepresence"
           }, 
           {
             "room": "Work", 
-            "session": "I_Work"
+            "session": "Managing_Personal_Data"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "Co_present_and_Remote_Media_Use"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "Internatonal_Insights"
           }
         ], 
         "slot_class": "evening", 
@@ -85,20 +85,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Work", 
-            "session": "H_Work"
+            "room": "Health/Wellness/Home", 
+            "session": "Hospital_Work"
           }, 
           {
-            "room": "Crowd", 
-            "session": "H_Crowd"
+            "room": "Work", 
+            "session": "Ethics_and_Policy"
           }, 
           {
             "room": "Social", 
-            "session": "H_Social"
+            "session": "Education_in_the_Classroom_and_Beyond"
           }, 
           {
-            "room": "Health/Wellness/Home", 
-            "session": "H_Health_Wellness_Home"
+            "room": "Crowd", 
+            "session": "Engaging_the_Crowd"
           }
         ], 
         "slot_class": "evening", 
@@ -108,20 +108,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Health/Wellness/Home", 
-            "session": "D_Health_Wellness_Home"
-          }, 
-          {
             "room": "Social", 
-            "session": "D_Social"
-          }, 
-          {
-            "room": "Crowd", 
-            "session": "D_Crowd"
+            "session": "Social_Network_Methods"
           }, 
           {
             "room": "Work", 
-            "session": "D_Work"
+            "session": "Hacking_Making_and_Discovering"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "Crowd_Powered_Applications"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "Food_and_Health"
           }
         ], 
         "slot_class": "evening", 
@@ -132,19 +132,19 @@ schedule=[
         "sessions": [
           {
             "room": "Crowd", 
-            "session": "A_Crowd"
-          }, 
-          {
-            "room": "Work", 
-            "session": "A_Work"
-          }, 
-          {
-            "room": "Health/Wellness/Home", 
-            "session": "A_Health_Wellness_Home"
+            "session": "Newcomers_in_Peer_Production"
           }, 
           {
             "room": "Social", 
-            "session": "A_Social"
+            "session": "Games"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "Healthcare_Providers"
+          }, 
+          {
+            "room": "Work", 
+            "session": "Online_Communities"
           }
         ], 
         "slot_class": "evening", 
@@ -160,20 +160,20 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Social", 
+            "session": "Unpacking_Social_Networks"
+          }, 
+          {
             "room": "Work", 
-            "session": "E_Work"
+            "session": "Open_Science_and_Infrastructures"
           }, 
           {
             "room": "Health/Wellness/Home", 
-            "session": "E_Health_Wellness_Home"
-          }, 
-          {
-            "room": "Social", 
-            "session": "E_Social"
+            "session": "Accessibility_and_Universal_Design"
           }, 
           {
             "room": "Crowd", 
-            "session": "E_Crowd"
+            "session": "Multimedia_Creation_and_Remixing"
           }
         ], 
         "slot_class": "evening", 
@@ -184,19 +184,19 @@ schedule=[
         "sessions": [
           {
             "room": "Social", 
-            "session": "B_Social"
-          }, 
-          {
-            "room": "Health/Wellness/Home", 
-            "session": "B_Health_Wellness_Home"
+            "session": "Mobile_Design_and_Usage"
           }, 
           {
             "room": "Work", 
-            "session": "B_Work"
+            "session": "Computer_Mediated_Communication"
           }, 
           {
             "room": "Crowd", 
-            "session": "B_Crowd"
+            "session": "Crowd_Workflows"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "Home_and_Family"
           }
         ], 
         "slot_class": "evening", 
@@ -207,19 +207,19 @@ schedule=[
         "sessions": [
           {
             "room": "Work", 
-            "session": "F_Work"
+            "session": "Work_and_Work_Environments"
           }, 
           {
             "room": "Health/Wellness/Home", 
-            "session": "F_Health_Wellness_Home"
-          }, 
-          {
-            "room": "Crowd", 
-            "session": "F_Crowd"
+            "session": "Parents_and_Children"
           }, 
           {
             "room": "Social", 
-            "session": "F_Social"
+            "session": "Non_Profits_and_Humanitarian_Responses"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "Crowd_Innovation_and_Crowdfunding"
           }
         ], 
         "slot_class": "evening", 

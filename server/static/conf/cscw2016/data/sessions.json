@@ -1,211 +1,8 @@
 sessions={
-  "A_Crowd": {
-    "date": "Tuesday", 
-    "room": "Crowd", 
-    "s_title": "A-Crowd", 
-    "submissions": [
-      "561", 
-      "503", 
-      "731", 
-      "156"
-    ], 
-    "time": "9 - 10:30"
-  }, 
-  "A_Health_Wellness_Home": {
-    "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "A-Health/Wellness/Home", 
-    "submissions": [
-      "395", 
-      "419", 
-      "157", 
-      "468"
-    ], 
-    "time": "9 - 10:30"
-  }, 
-  "A_Social": {
-    "date": "Tuesday", 
-    "room": "Social", 
-    "s_title": "A-Social", 
-    "submissions": [
-      "553", 
-      "400", 
-      "387", 
-      "199"
-    ], 
-    "time": "9 - 10:30"
-  }, 
-  "A_Work": {
-    "date": "Tuesday", 
-    "room": "Work", 
-    "s_title": "A-Work", 
-    "submissions": [
-      "196", 
-      "548", 
-      "273", 
-      "386"
-    ], 
-    "time": "9 - 10:30"
-  }, 
-  "B_Crowd": {
-    "date": "Wednesday", 
-    "room": "Crowd", 
-    "s_title": "B-Crowd", 
-    "submissions": [
-      "493", 
-      "301", 
-      "513", 
-      "532"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "B_Health_Wellness_Home": {
+  "Accessibility_and_Universal_Design": {
     "date": "Wednesday", 
     "room": "Health/Wellness/Home", 
-    "s_title": "B-Health/Wellness/Home", 
-    "submissions": [
-      "284", 
-      "495", 
-      "363", 
-      "212"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "B_Social": {
-    "date": "Wednesday", 
-    "room": "Social", 
-    "s_title": "B-Social", 
-    "submissions": [
-      "522", 
-      "266", 
-      "728", 
-      "443"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "B_Work": {
-    "date": "Wednesday", 
-    "room": "Work", 
-    "s_title": "B-Work", 
-    "submissions": [
-      "640", 
-      "406", 
-      "254"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "C_Crowd": {
-    "date": "Monday", 
-    "room": "Crowd", 
-    "s_title": "C-Crowd", 
-    "submissions": [
-      "568", 
-      "228", 
-      "238", 
-      "235"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "C_Health_Wellness_Home": {
-    "date": "Monday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "C-Health/Wellness/Home", 
-    "submissions": [
-      "253", 
-      "578", 
-      "358", 
-      "105"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "C_Social": {
-    "date": "Monday", 
-    "room": "Social", 
-    "s_title": "C-Social", 
-    "submissions": [
-      "552", 
-      "655", 
-      "505", 
-      "437"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "C_Work": {
-    "date": "Monday", 
-    "room": "Work", 
-    "s_title": "C-Work", 
-    "submissions": [
-      "359", 
-      "354", 
-      "215", 
-      "609"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "D_Crowd": {
-    "date": "Tuesday", 
-    "room": "Crowd", 
-    "s_title": "D-Crowd", 
-    "submissions": [
-      "283", 
-      "714", 
-      "484", 
-      "461"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "D_Health_Wellness_Home": {
-    "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "D-Health/Wellness/Home", 
-    "submissions": [
-      "300", 
-      "377", 
-      "608", 
-      "327"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "D_Social": {
-    "date": "Tuesday", 
-    "room": "Social", 
-    "s_title": "D-Social", 
-    "submissions": [
-      "501", 
-      "325", 
-      "556", 
-      "407"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "D_Work": {
-    "date": "Tuesday", 
-    "room": "Work", 
-    "s_title": "D-Work", 
-    "submissions": [
-      "573", 
-      "256", 
-      "554", 
-      "598"
-    ], 
-    "time": "2:30 - 4"
-  }, 
-  "E_Crowd": {
-    "date": "Wednesday", 
-    "room": "Crowd", 
-    "s_title": "E-Crowd", 
-    "submissions": [
-      "179", 
-      "316", 
-      "423", 
-      "182"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "E_Health_Wellness_Home": {
-    "date": "Wednesday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "E-Health/Wellness/Home", 
+    "s_title": "Accessibility and Universal Design", 
     "submissions": [
       "180", 
       "315", 
@@ -214,34 +11,43 @@ sessions={
     ], 
     "time": "11 - 12:30"
   }, 
-  "E_Social": {
-    "date": "Wednesday", 
-    "room": "Social", 
-    "s_title": "E-Social", 
+  "Co_present_and_Remote_Media_Use": {
+    "date": "Monday", 
+    "room": "Crowd", 
+    "s_title": "Co-present and Remote Media Use", 
     "submissions": [
-      "373", 
-      "125", 
-      "195", 
-      "656"
+      "481", 
+      "109", 
+      "383"
     ], 
-    "time": "11 - 12:30"
+    "time": "4:30 - 6:00"
   }, 
-  "E_Work": {
+  "Computer_Mediated_Communication": {
     "date": "Wednesday", 
     "room": "Work", 
-    "s_title": "E-Work", 
+    "s_title": "Computer-Mediated Communication", 
     "submissions": [
-      "734", 
-      "685", 
-      "435", 
-      "652"
+      "640", 
+      "406", 
+      "254"
     ], 
-    "time": "11 - 12:30"
+    "time": "2:30 - 4"
   }, 
-  "F_Crowd": {
+  "Credibility_and_Social_Media": {
+    "date": "Monday", 
+    "room": "Social", 
+    "s_title": "Credibility and Social Media", 
+    "submissions": [
+      "356", 
+      "429", 
+      "328"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "Crowd_Innovation_and_Crowdfunding": {
     "date": "Wednesday", 
     "room": "Crowd", 
-    "s_title": "F-Crowd", 
+    "s_title": "Crowd Innovation and Crowdfunding", 
     "submissions": [
       "562", 
       "558", 
@@ -250,70 +56,46 @@ sessions={
     ], 
     "time": "9-10:30"
   }, 
-  "F_Health_Wellness_Home": {
-    "date": "Wednesday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "F-Health/Wellness/Home", 
+  "Crowd_Powered_Applications": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "Crowd-Powered Applications", 
     "submissions": [
-      "162", 
-      "229", 
-      "171", 
-      "471"
+      "283", 
+      "714", 
+      "484", 
+      "461"
     ], 
-    "time": "9-10:30"
+    "time": "2:30 - 4"
   }, 
-  "F_Social": {
-    "date": "Wednesday", 
-    "room": "Social", 
-    "s_title": "F-Social", 
-    "submissions": [
-      "475", 
-      "669", 
-      "666", 
-      "257"
-    ], 
-    "time": "9-10:30"
-  }, 
-  "F_Work": {
-    "date": "Wednesday", 
-    "room": "Work", 
-    "s_title": "F-Work", 
-    "submissions": [
-      "184", 
-      "531", 
-      "451", 
-      "610"
-    ], 
-    "time": "9-10:30"
-  }, 
-  "G_Crowd": {
+  "Crowd_Workers": {
     "date": "Monday", 
     "room": "Crowd", 
-    "s_title": "G-Crowd", 
+    "s_title": "Crowd Workers", 
     "submissions": [
-      "733", 
-      "396", 
-      "237", 
-      "690"
+      "568", 
+      "228", 
+      "238", 
+      "235"
     ], 
-    "time": "2:30 - 4:00"
+    "time": "11 - 12:30"
   }, 
-  "G_Health_Wellness_Home": {
-    "date": "Monday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "G-Health/Wellness/Home", 
+  "Crowd_Workflows": {
+    "date": "Wednesday", 
+    "room": "Crowd", 
+    "s_title": "Crowd Workflows", 
     "submissions": [
-      "752", 
-      "142", 
-      "743", 
-      "628"
+      "493", 
+      "301", 
+      "513", 
+      "532"
     ], 
-    "time": "2:30 - 4:00"
+    "time": "2:30 - 4"
   }, 
-  "G_Social": {
+  "Digital_Learning_Environments_": {
     "date": "Monday", 
     "room": "Social", 
-    "s_title": "G-Social", 
+    "s_title": "Digital Learning Environments ", 
     "submissions": [
       "276", 
       "756", 
@@ -322,10 +104,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "G_Work": {
+  "Distance_Coordination_and_Motivation": {
     "date": "Monday", 
     "room": "Work", 
-    "s_title": "G-Work", 
+    "s_title": "Distance, Coordination, and Motivation", 
     "submissions": [
       "653", 
       "445", 
@@ -334,34 +116,22 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "H_Crowd": {
-    "date": "Tuesday", 
+  "Distributed_Teams": {
+    "date": "Monday", 
     "room": "Crowd", 
-    "s_title": "H-Crowd", 
+    "s_title": "Distributed Teams", 
     "submissions": [
-      "457", 
-      "424", 
-      "207", 
-      "596"
+      "733", 
+      "396", 
+      "237", 
+      "690"
     ], 
-    "time": "11 - 12:30"
+    "time": "2:30 - 4:00"
   }, 
-  "H_Health_Wellness_Home": {
-    "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
-    "s_title": "H-Health/Wellness/Home", 
-    "submissions": [
-      "737", 
-      "480", 
-      "494", 
-      "279"
-    ], 
-    "time": "11 - 12:30"
-  }, 
-  "H_Social": {
+  "Education_in_the_Classroom_and_Beyond": {
     "date": "Tuesday", 
     "room": "Social", 
-    "s_title": "H-Social", 
+    "s_title": "Education in the Classroom and Beyond", 
     "submissions": [
       "312", 
       "371", 
@@ -370,10 +140,22 @@ sessions={
     ], 
     "time": "11 - 12:30"
   }, 
-  "H_Work": {
+  "Engaging_the_Crowd": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "Engaging the Crowd", 
+    "submissions": [
+      "457", 
+      "424", 
+      "207", 
+      "596"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Ethics_and_Policy": {
     "date": "Tuesday", 
     "room": "Work", 
-    "s_title": "H-Work", 
+    "s_title": "Ethics and Policy", 
     "submissions": [
       "520", 
       "267", 
@@ -382,21 +164,82 @@ sessions={
     ], 
     "time": "11 - 12:30"
   }, 
-  "I_Crowd": {
-    "date": "Monday", 
-    "room": "Crowd", 
-    "s_title": "I-Crowd", 
+  "Food_and_Health": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Food and Health", 
     "submissions": [
-      "481", 
-      "109", 
-      "383"
+      "300", 
+      "377", 
+      "608", 
+      "327"
     ], 
-    "time": "4:30 - 6:00"
+    "time": "2:30 - 4"
   }, 
-  "I_Health_Wellness_Home": {
+  "Games": {
+    "date": "Tuesday", 
+    "room": "Social", 
+    "s_title": "Games", 
+    "submissions": [
+      "553", 
+      "400", 
+      "387", 
+      "199"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "Hacking_Making_and_Discovering": {
+    "date": "Tuesday", 
+    "room": "Work", 
+    "s_title": "Hacking, Making, and Discovering", 
+    "submissions": [
+      "573", 
+      "256", 
+      "554", 
+      "598"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "Healthcare_Providers": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Healthcare Providers", 
+    "submissions": [
+      "395", 
+      "419", 
+      "157", 
+      "468"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "Home_and_Family": {
+    "date": "Wednesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Home and Family", 
+    "submissions": [
+      "284", 
+      "495", 
+      "363", 
+      "212"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "Hospital_Work": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Hospital Work", 
+    "submissions": [
+      "737", 
+      "480", 
+      "494", 
+      "279"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Internatonal_Insights": {
     "date": "Monday", 
     "room": "Health/Wellness/Home", 
-    "s_title": "I-Health/Wellness/Home", 
+    "s_title": "Internatonal Insights", 
     "submissions": [
       "452", 
       "335", 
@@ -404,10 +247,141 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "I_Rich_Telepresence": {
+  "Managing_Personal_Data": {
+    "date": "Monday", 
+    "room": "Work", 
+    "s_title": "Managing Personal Data", 
+    "submissions": [
+      "546", 
+      "449", 
+      "458"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "Mobile_Design_and_Usage": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "Mobile Design and Usage", 
+    "submissions": [
+      "522", 
+      "266", 
+      "728", 
+      "443"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "Modeling_Social_Media": {
+    "date": "Monday", 
+    "room": "Social", 
+    "s_title": "Modeling Social Media", 
+    "submissions": [
+      "552", 
+      "655", 
+      "505", 
+      "437"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Multimedia_Creation_and_Remixing": {
+    "date": "Wednesday", 
+    "room": "Crowd", 
+    "s_title": "Multimedia Creation and Remixing", 
+    "submissions": [
+      "179", 
+      "316", 
+      "423", 
+      "182"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Museums_and_Public_Spaces": {
+    "date": "Monday", 
+    "room": "Work", 
+    "s_title": "Museums and Public Spaces", 
+    "submissions": [
+      "359", 
+      "354", 
+      "215", 
+      "609"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Newcomers_in_Peer_Production": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "Newcomers in Peer Production", 
+    "submissions": [
+      "561", 
+      "503", 
+      "731", 
+      "156"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "Non_Profits_and_Humanitarian_Responses": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "Non-Profits and Humanitarian Responses", 
+    "submissions": [
+      "475", 
+      "669", 
+      "666", 
+      "257"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "Online_Communities": {
+    "date": "Tuesday", 
+    "room": "Work", 
+    "s_title": "Online Communities", 
+    "submissions": [
+      "196", 
+      "548", 
+      "273", 
+      "386"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "Open_Science_and_Infrastructures": {
+    "date": "Wednesday", 
+    "room": "Work", 
+    "s_title": "Open Science and Infrastructures", 
+    "submissions": [
+      "734", 
+      "685", 
+      "435", 
+      "652"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Parents_and_Children": {
+    "date": "Wednesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Parents and Children", 
+    "submissions": [
+      "162", 
+      "229", 
+      "171", 
+      "471"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "Relationships_and_Romance": {
+    "date": "Monday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Relationships and Romance", 
+    "submissions": [
+      "752", 
+      "142", 
+      "743", 
+      "628"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "Rich_Telepresence": {
     "date": "Monday", 
     "room": "Rich Telepresence", 
-    "s_title": "I-Rich Telepresence", 
+    "s_title": "Rich Telepresence", 
     "submissions": [
       "305", 
       "332", 
@@ -415,26 +389,52 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "I_Social": {
-    "date": "Monday", 
+  "Social_Network_Methods": {
+    "date": "Tuesday", 
     "room": "Social", 
-    "s_title": "I-Social", 
+    "s_title": "Social Network Methods", 
     "submissions": [
-      "356", 
-      "429", 
-      "328"
+      "501", 
+      "325", 
+      "556", 
+      "407"
     ], 
-    "time": "4:30 - 6:00"
+    "time": "2:30 - 4"
   }, 
-  "I_Work": {
+  "Towards_Physical_and_Social_Wellness": {
     "date": "Monday", 
-    "room": "Work", 
-    "s_title": "I-Work", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "Towards Physical and Social Wellness", 
     "submissions": [
-      "546", 
-      "449", 
-      "458"
+      "253", 
+      "578", 
+      "358", 
+      "105"
     ], 
-    "time": "4:30 - 6:00"
+    "time": "11 - 12:30"
+  }, 
+  "Unpacking_Social_Networks": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "Unpacking Social Networks", 
+    "submissions": [
+      "373", 
+      "125", 
+      "195", 
+      "656"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "Work_and_Work_Environments": {
+    "date": "Wednesday", 
+    "room": "Work", 
+    "s_title": "Work and Work Environments", 
+    "submissions": [
+      "184", 
+      "531", 
+      "451", 
+      "610"
+    ], 
+    "time": "9-10:30"
   }
 }

@@ -81,12 +81,11 @@ def prepare_data(data_file1, data_file2):
     s_date = unicode(row[5], "ISO-8859-1").split(' ')[0]
     s_time = ' '.join(unicode(row[5], "ISO-8859-1").split(' ')[1:])
     #paper_type = unicode(row[2], "ISO-8859-1")
-    session = unicode(row[0], "ISO-8859-1")
+    session = unicode(row[6], "ISO-8859-1")
     room = unicode(row[1], "ISO-8859-1")
     paper_title = unicode(row[3], "ISO-8859-1")
     paper_authors = unicode(row[4], "ISO-8859-1")
 
-    session = '%s-%s' % (session, room)
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
