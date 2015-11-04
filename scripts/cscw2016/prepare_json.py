@@ -15,7 +15,7 @@ def get_start_time(s_time):
 
 def get_date_time(s_date, dt_format='%m/%d/%Y'):
   if s_date == "Monday":
-      return time.strptime('02/27/2016', dt_format)
+      return time.strptime('02/29/2016', dt_format)
   if s_date == 'Tuesday':
       return time.strptime('03/01/2016', dt_format)
   if s_date == 'Wednesday':
