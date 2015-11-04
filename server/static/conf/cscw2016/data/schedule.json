@@ -1,0 +1,231 @@
+schedule=[
+  {
+    "date": "02/27/2016", 
+    "day": "Saturday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Crowd", 
+            "session": "C_Crowd"
+          }, 
+          {
+            "room": "Social", 
+            "session": "C_Social"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "C_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Work", 
+            "session": "C_Work"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday11_12_30", 
+        "time": "11 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Social", 
+            "session": "G_Social"
+          }, 
+          {
+            "room": "Work", 
+            "session": "G_Work"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "G_Crowd"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "G_Health_Wellness_Home"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday2_30_4_00", 
+        "time": "2:30 - 4:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "I_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "I_Crowd"
+          }, 
+          {
+            "room": "Rich Telepresence", 
+            "session": "I_Rich_Telepresence"
+          }, 
+          {
+            "room": "Social", 
+            "session": "I_Social"
+          }, 
+          {
+            "room": "Work", 
+            "session": "I_Work"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday4_30_6_00", 
+        "time": "4:30 - 6:00"
+      }
+    ]
+  }, 
+  {
+    "date": "03/01/2016", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Work", 
+            "session": "H_Work"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "H_Crowd"
+          }, 
+          {
+            "room": "Social", 
+            "session": "H_Social"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "H_Health_Wellness_Home"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Tuesday11_12_30", 
+        "time": "11 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "D_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Social", 
+            "session": "D_Social"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "D_Crowd"
+          }, 
+          {
+            "room": "Work", 
+            "session": "D_Work"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Tuesday2_30_4", 
+        "time": "2:30 - 4"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Crowd", 
+            "session": "A_Crowd"
+          }, 
+          {
+            "room": "Work", 
+            "session": "A_Work"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "A_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Social", 
+            "session": "A_Social"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Tuesday9_10_30", 
+        "time": "9 - 10:30"
+      }
+    ]
+  }, 
+  {
+    "date": "03/02/2016", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Work", 
+            "session": "E_Work"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "E_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Social", 
+            "session": "E_Social"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "E_Crowd"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Wednesday11_12_30", 
+        "time": "11 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Social", 
+            "session": "B_Social"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "B_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Work", 
+            "session": "B_Work"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "B_Crowd"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Wednesday2_30_4", 
+        "time": "2:30 - 4"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Work", 
+            "session": "F_Work"
+          }, 
+          {
+            "room": "Health/Wellness/Home", 
+            "session": "F_Health_Wellness_Home"
+          }, 
+          {
+            "room": "Crowd", 
+            "session": "F_Crowd"
+          }, 
+          {
+            "room": "Social", 
+            "session": "F_Social"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Wednesday9_10_30", 
+        "time": "9-10:30"
+      }
+    ]
+  }
+]

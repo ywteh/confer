@@ -1,0 +1,440 @@
+sessions={
+  "A_Crowd": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "A-Crowd", 
+    "submissions": [
+      "561", 
+      "503", 
+      "731", 
+      "156"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "A_Health_Wellness_Home": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "A-Health/Wellness/Home", 
+    "submissions": [
+      "395", 
+      "419", 
+      "157", 
+      "468"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "A_Social": {
+    "date": "Tuesday", 
+    "room": "Social", 
+    "s_title": "A-Social", 
+    "submissions": [
+      "553", 
+      "400", 
+      "387", 
+      "199"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "A_Work": {
+    "date": "Tuesday", 
+    "room": "Work", 
+    "s_title": "A-Work", 
+    "submissions": [
+      "196", 
+      "548", 
+      "273", 
+      "386"
+    ], 
+    "time": "9 - 10:30"
+  }, 
+  "B_Crowd": {
+    "date": "Wednesday", 
+    "room": "Crowd", 
+    "s_title": "B-Crowd", 
+    "submissions": [
+      "493", 
+      "301", 
+      "513", 
+      "532"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "B_Health_Wellness_Home": {
+    "date": "Wednesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "B-Health/Wellness/Home", 
+    "submissions": [
+      "284", 
+      "495", 
+      "363", 
+      "212"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "B_Social": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "B-Social", 
+    "submissions": [
+      "522", 
+      "266", 
+      "728", 
+      "443"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "B_Work": {
+    "date": "Wednesday", 
+    "room": "Work", 
+    "s_title": "B-Work", 
+    "submissions": [
+      "640", 
+      "406", 
+      "254"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "C_Crowd": {
+    "date": "Monday", 
+    "room": "Crowd", 
+    "s_title": "C-Crowd", 
+    "submissions": [
+      "568", 
+      "228", 
+      "238", 
+      "235"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "C_Health_Wellness_Home": {
+    "date": "Monday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "C-Health/Wellness/Home", 
+    "submissions": [
+      "253", 
+      "578", 
+      "358", 
+      "105"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "C_Social": {
+    "date": "Monday", 
+    "room": "Social", 
+    "s_title": "C-Social", 
+    "submissions": [
+      "552", 
+      "655", 
+      "505", 
+      "437"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "C_Work": {
+    "date": "Monday", 
+    "room": "Work", 
+    "s_title": "C-Work", 
+    "submissions": [
+      "359", 
+      "354", 
+      "215", 
+      "609"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "D_Crowd": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "D-Crowd", 
+    "submissions": [
+      "283", 
+      "714", 
+      "484", 
+      "461"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "D_Health_Wellness_Home": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "D-Health/Wellness/Home", 
+    "submissions": [
+      "300", 
+      "377", 
+      "608", 
+      "327"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "D_Social": {
+    "date": "Tuesday", 
+    "room": "Social", 
+    "s_title": "D-Social", 
+    "submissions": [
+      "501", 
+      "325", 
+      "556", 
+      "407"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "D_Work": {
+    "date": "Tuesday", 
+    "room": "Work", 
+    "s_title": "D-Work", 
+    "submissions": [
+      "573", 
+      "256", 
+      "554", 
+      "598"
+    ], 
+    "time": "2:30 - 4"
+  }, 
+  "E_Crowd": {
+    "date": "Wednesday", 
+    "room": "Crowd", 
+    "s_title": "E-Crowd", 
+    "submissions": [
+      "179", 
+      "316", 
+      "423", 
+      "182"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "E_Health_Wellness_Home": {
+    "date": "Wednesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "E-Health/Wellness/Home", 
+    "submissions": [
+      "180", 
+      "315", 
+      "521", 
+      "466"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "E_Social": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "E-Social", 
+    "submissions": [
+      "373", 
+      "125", 
+      "195", 
+      "656"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "E_Work": {
+    "date": "Wednesday", 
+    "room": "Work", 
+    "s_title": "E-Work", 
+    "submissions": [
+      "734", 
+      "685", 
+      "435", 
+      "652"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "F_Crowd": {
+    "date": "Wednesday", 
+    "room": "Crowd", 
+    "s_title": "F-Crowd", 
+    "submissions": [
+      "562", 
+      "558", 
+      "564", 
+      "298"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "F_Health_Wellness_Home": {
+    "date": "Wednesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "F-Health/Wellness/Home", 
+    "submissions": [
+      "162", 
+      "229", 
+      "171", 
+      "471"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "F_Social": {
+    "date": "Wednesday", 
+    "room": "Social", 
+    "s_title": "F-Social", 
+    "submissions": [
+      "475", 
+      "669", 
+      "666", 
+      "257"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "F_Work": {
+    "date": "Wednesday", 
+    "room": "Work", 
+    "s_title": "F-Work", 
+    "submissions": [
+      "184", 
+      "531", 
+      "451", 
+      "610"
+    ], 
+    "time": "9-10:30"
+  }, 
+  "G_Crowd": {
+    "date": "Monday", 
+    "room": "Crowd", 
+    "s_title": "G-Crowd", 
+    "submissions": [
+      "733", 
+      "396", 
+      "237", 
+      "690"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "G_Health_Wellness_Home": {
+    "date": "Monday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "G-Health/Wellness/Home", 
+    "submissions": [
+      "752", 
+      "142", 
+      "743", 
+      "628"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "G_Social": {
+    "date": "Monday", 
+    "room": "Social", 
+    "s_title": "G-Social", 
+    "submissions": [
+      "276", 
+      "756", 
+      "430", 
+      "133"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "G_Work": {
+    "date": "Monday", 
+    "room": "Work", 
+    "s_title": "G-Work", 
+    "submissions": [
+      "653", 
+      "445", 
+      "613", 
+      "620"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "H_Crowd": {
+    "date": "Tuesday", 
+    "room": "Crowd", 
+    "s_title": "H-Crowd", 
+    "submissions": [
+      "457", 
+      "424", 
+      "207", 
+      "596"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "H_Health_Wellness_Home": {
+    "date": "Tuesday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "H-Health/Wellness/Home", 
+    "submissions": [
+      "737", 
+      "480", 
+      "494", 
+      "279"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "H_Social": {
+    "date": "Tuesday", 
+    "room": "Social", 
+    "s_title": "H-Social", 
+    "submissions": [
+      "312", 
+      "371", 
+      "508", 
+      "730"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "H_Work": {
+    "date": "Tuesday", 
+    "room": "Work", 
+    "s_title": "H-Work", 
+    "submissions": [
+      "520", 
+      "267", 
+      "684", 
+      "735"
+    ], 
+    "time": "11 - 12:30"
+  }, 
+  "I_Crowd": {
+    "date": "Monday", 
+    "room": "Crowd", 
+    "s_title": "I-Crowd", 
+    "submissions": [
+      "481", 
+      "109", 
+      "383"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "I_Health_Wellness_Home": {
+    "date": "Monday", 
+    "room": "Health/Wellness/Home", 
+    "s_title": "I-Health/Wellness/Home", 
+    "submissions": [
+      "452", 
+      "335", 
+      "232"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "I_Rich_Telepresence": {
+    "date": "Monday", 
+    "room": "Rich Telepresence", 
+    "s_title": "I-Rich Telepresence", 
+    "submissions": [
+      "305", 
+      "332", 
+      "385"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "I_Social": {
+    "date": "Monday", 
+    "room": "Social", 
+    "s_title": "I-Social", 
+    "submissions": [
+      "356", 
+      "429", 
+      "328"
+    ], 
+    "time": "4:30 - 6:00"
+  }, 
+  "I_Work": {
+    "date": "Monday", 
+    "room": "Work", 
+    "s_title": "I-Work", 
+    "submissions": [
+      "546", 
+      "449", 
+      "458"
+    ], 
+    "time": "4:30 - 6:00"
+  }
+}
