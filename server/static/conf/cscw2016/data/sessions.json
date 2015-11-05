@@ -1,7 +1,7 @@
 sessions={
   "Accessibility_and_Universal_Design": {
     "date": "Wednesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Accessibility and Universal Design", 
     "submissions": [
       "180", 
@@ -13,7 +13,7 @@ sessions={
   }, 
   "Co_present_and_Remote_Media_Use": {
     "date": "Monday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Co-present and Remote Media Use", 
     "submissions": [
       "481", 
@@ -24,7 +24,7 @@ sessions={
   }, 
   "Computer_Mediated_Communication": {
     "date": "Wednesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Computer-Mediated Communication", 
     "submissions": [
       "640", 
@@ -35,7 +35,7 @@ sessions={
   }, 
   "Credibility_and_Social_Media": {
     "date": "Monday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Credibility and Social Media", 
     "submissions": [
       "356", 
@@ -46,7 +46,7 @@ sessions={
   }, 
   "Crowd_Innovation_and_Crowdfunding": {
     "date": "Wednesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Crowd Innovation and Crowdfunding", 
     "submissions": [
       "562", 
@@ -58,7 +58,7 @@ sessions={
   }, 
   "Crowd_Powered_Applications": {
     "date": "Tuesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Crowd-Powered Applications", 
     "submissions": [
       "283", 
@@ -70,7 +70,7 @@ sessions={
   }, 
   "Crowd_Workers": {
     "date": "Monday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Crowd Workers", 
     "submissions": [
       "568", 
@@ -82,7 +82,7 @@ sessions={
   }, 
   "Crowd_Workflows": {
     "date": "Wednesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Crowd Workflows", 
     "submissions": [
       "493", 
@@ -94,7 +94,7 @@ sessions={
   }, 
   "Digital_Learning_Environments_": {
     "date": "Monday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Digital Learning Environments ", 
     "submissions": [
       "276", 
@@ -106,7 +106,7 @@ sessions={
   }, 
   "Distance_Coordination_and_Motivation": {
     "date": "Monday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Distance, Coordination, and Motivation", 
     "submissions": [
       "653", 
@@ -118,7 +118,7 @@ sessions={
   }, 
   "Distributed_Teams": {
     "date": "Monday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Distributed Teams", 
     "submissions": [
       "733", 
@@ -130,7 +130,7 @@ sessions={
   }, 
   "Education_in_the_Classroom_and_Beyond": {
     "date": "Tuesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Education in the Classroom and Beyond", 
     "submissions": [
       "312", 
@@ -142,7 +142,7 @@ sessions={
   }, 
   "Engaging_the_Crowd": {
     "date": "Tuesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Engaging the Crowd", 
     "submissions": [
       "457", 
@@ -154,7 +154,7 @@ sessions={
   }, 
   "Ethics_and_Policy": {
     "date": "Tuesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Ethics and Policy", 
     "submissions": [
       "520", 
@@ -166,7 +166,7 @@ sessions={
   }, 
   "Food_and_Health": {
     "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Food and Health", 
     "submissions": [
       "300", 
@@ -178,7 +178,7 @@ sessions={
   }, 
   "Games": {
     "date": "Tuesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Games", 
     "submissions": [
       "553", 
@@ -190,7 +190,7 @@ sessions={
   }, 
   "Hacking_Making_and_Discovering": {
     "date": "Tuesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Hacking, Making, and Discovering", 
     "submissions": [
       "573", 
@@ -202,7 +202,7 @@ sessions={
   }, 
   "Healthcare_Providers": {
     "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Healthcare Providers", 
     "submissions": [
       "395", 
@@ -214,7 +214,7 @@ sessions={
   }, 
   "Home_and_Family": {
     "date": "Wednesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Home and Family", 
     "submissions": [
       "284", 
@@ -226,7 +226,7 @@ sessions={
   }, 
   "Hospital_Work": {
     "date": "Tuesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Hospital Work", 
     "submissions": [
       "737", 
@@ -238,7 +238,7 @@ sessions={
   }, 
   "Internatonal_Insights": {
     "date": "Monday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Internatonal Insights", 
     "submissions": [
       "452", 
@@ -249,7 +249,7 @@ sessions={
   }, 
   "Managing_Personal_Data": {
     "date": "Monday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Managing Personal Data", 
     "submissions": [
       "546", 
@@ -260,7 +260,7 @@ sessions={
   }, 
   "Mobile_Design_and_Usage": {
     "date": "Wednesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Mobile Design and Usage", 
     "submissions": [
       "522", 
@@ -272,7 +272,7 @@ sessions={
   }, 
   "Modeling_Social_Media": {
     "date": "Monday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Modeling Social Media", 
     "submissions": [
       "552", 
@@ -284,7 +284,7 @@ sessions={
   }, 
   "Multimedia_Creation_and_Remixing": {
     "date": "Wednesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Multimedia Creation and Remixing", 
     "submissions": [
       "179", 
@@ -296,7 +296,7 @@ sessions={
   }, 
   "Museums_and_Public_Spaces": {
     "date": "Monday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Museums and Public Spaces", 
     "submissions": [
       "359", 
@@ -308,7 +308,7 @@ sessions={
   }, 
   "Newcomers_in_Peer_Production": {
     "date": "Tuesday", 
-    "room": "Crowd", 
+    "room": "TBD", 
     "s_title": "Newcomers in Peer Production", 
     "submissions": [
       "561", 
@@ -320,7 +320,7 @@ sessions={
   }, 
   "Non_Profits_and_Humanitarian_Responses": {
     "date": "Wednesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Non-Profits and Humanitarian Responses", 
     "submissions": [
       "475", 
@@ -332,7 +332,7 @@ sessions={
   }, 
   "Online_Communities": {
     "date": "Tuesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Online Communities", 
     "submissions": [
       "196", 
@@ -344,7 +344,7 @@ sessions={
   }, 
   "Open_Science_and_Infrastructures": {
     "date": "Wednesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Open Science and Infrastructures", 
     "submissions": [
       "734", 
@@ -356,7 +356,7 @@ sessions={
   }, 
   "Parents_and_Children": {
     "date": "Wednesday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Parents and Children", 
     "submissions": [
       "162", 
@@ -368,7 +368,7 @@ sessions={
   }, 
   "Relationships_and_Romance": {
     "date": "Monday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Relationships and Romance", 
     "submissions": [
       "752", 
@@ -380,7 +380,7 @@ sessions={
   }, 
   "Rich_Telepresence": {
     "date": "Monday", 
-    "room": "Rich Telepresence", 
+    "room": "TBD", 
     "s_title": "Rich Telepresence", 
     "submissions": [
       "305", 
@@ -391,7 +391,7 @@ sessions={
   }, 
   "Social_Network_Methods": {
     "date": "Tuesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Social Network Methods", 
     "submissions": [
       "501", 
@@ -403,7 +403,7 @@ sessions={
   }, 
   "Towards_Physical_and_Social_Wellness": {
     "date": "Monday", 
-    "room": "Health/Wellness/Home", 
+    "room": "TBD", 
     "s_title": "Towards Physical and Social Wellness", 
     "submissions": [
       "253", 
@@ -415,7 +415,7 @@ sessions={
   }, 
   "Unpacking_Social_Networks": {
     "date": "Wednesday", 
-    "room": "Social", 
+    "room": "TBD", 
     "s_title": "Unpacking Social Networks", 
     "submissions": [
       "373", 
@@ -427,7 +427,7 @@ sessions={
   }, 
   "Work_and_Work_Environments": {
     "date": "Wednesday", 
-    "room": "Work", 
+    "room": "TBD", 
     "s_title": "Work and Work Environments", 
     "submissions": [
       "184", 

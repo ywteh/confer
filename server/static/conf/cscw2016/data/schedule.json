@@ -6,19 +6,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Towards_Physical_and_Social_Wellness"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Crowd_Workers"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Museums_and_Public_Spaces"
           }, 
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Modeling_Social_Media"
           }
         ], 
@@ -29,19 +29,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Relationships_and_Romance"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Distance_Coordination_and_Motivation"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Distributed_Teams"
           }, 
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Digital_Learning_Environments_"
           }
         ], 
@@ -52,23 +52,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Credibility_and_Social_Media"
           }, 
           {
-            "room": "Rich Telepresence", 
+            "room": "TBD", 
             "session": "Rich_Telepresence"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Managing_Personal_Data"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Co_present_and_Remote_Media_Use"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Internatonal_Insights"
           }
         ], 
@@ -85,19 +85,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Newcomers_in_Peer_Production"
           }, 
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Games"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Healthcare_Providers"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Online_Communities"
           }
         ], 
@@ -108,19 +108,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Hospital_Work"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Ethics_and_Policy"
           }, 
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Education_in_the_Classroom_and_Beyond"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Engaging_the_Crowd"
           }
         ], 
@@ -131,19 +131,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Social_Network_Methods"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Hacking_Making_and_Discovering"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Crowd_Powered_Applications"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Food_and_Health"
           }
         ], 
@@ -160,19 +160,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Work_and_Work_Environments"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Parents_and_Children"
           }, 
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Non_Profits_and_Humanitarian_Responses"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Crowd_Innovation_and_Crowdfunding"
           }
         ], 
@@ -183,19 +183,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Unpacking_Social_Networks"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Open_Science_and_Infrastructures"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Accessibility_and_Universal_Design"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Multimedia_Creation_and_Remixing"
           }
         ], 
@@ -206,19 +206,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Social", 
+            "room": "TBD", 
             "session": "Mobile_Design_and_Usage"
           }, 
           {
-            "room": "Work", 
+            "room": "TBD", 
             "session": "Computer_Mediated_Communication"
           }, 
           {
-            "room": "Crowd", 
+            "room": "TBD", 
             "session": "Crowd_Workflows"
           }, 
           {
-            "room": "Health/Wellness/Home", 
+            "room": "TBD", 
             "session": "Home_and_Family"
           }
         ], 
