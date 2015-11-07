@@ -2673,55 +2673,5 @@ entities={
     "subtype": "paper", 
     "title": "Ask the Instructors: Motivations and Challenges of Teaching Massive Open Online Courses", 
     "type": "paper"
-  },
-  "impact": {
-    "title": "Lasting Impact Plenary Session",
-    "abstract": "",
-    "keywords": "",
-    "authors": [
-        {}
-    ],
-    "type": "special",
-    "subtype": "special"
-  },
-  "townhall": {
-    "title": "Town Hall Meeting",
-    "abstract": "",
-    "keywords": "",
-    "authors": [
-        {}
-    ],
-    "type": "special",
-    "subtype": "special"
-  },
-  "poster": {
-    "title": "Poster & Demo Reception",
-    "abstract": "",
-    "keywords": "",
-    "authors": [
-        {}
-    ],
-    "type": "special",
-    "subtype": "special"
-  },
-    "opening": {
-      "title": "Opening & Keynote: Simon Rogers, Google",
-      "abstract": "",
-      "keywords": "",
-      "authors": [
-        {}
-      ],
-      "type": "special",
-      "subtype": "special",
-    },
-    "closing": {
-      "title": "Closing & Keynote: Mike Krieger, Instagram",
-      "abstract": "",
-      "keywords": "",
-      "authors": [
-        {}
-      ],
-      "type": "special",
-      "subtype": "special"
-    }
+  }
 }

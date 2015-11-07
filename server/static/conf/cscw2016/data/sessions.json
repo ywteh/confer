@@ -442,7 +442,6 @@ sessions={
     "room": "TBD",
     "s_title": "Opening & Keynote: Simon Rogers, Google",
     "submissions": [
-      "opening"
     ],
     "type": "special",
     "subtype": "special",
@@ -453,7 +452,6 @@ sessions={
     "room": "TBD",
     "s_title": "Poster & Demo Reception",
     "submissions": [
-      "poster"
     ],
     "type": "special",
     "subtype": "special",
@@ -464,7 +462,6 @@ sessions={
     "room": "TBD",
     "s_title": "Lasting Impact Plenary Session",
     "submissions": [
-      "impact"
     ],
     "type": "special",
     "subtype": "special",
@@ -475,7 +472,6 @@ sessions={
     "room": "TBD",
     "s_title": "Town Hall Meeting",
     "submissions": [
-  	   "townhall"
     ],
     "type": "special",
     "subtype": "special",
@@ -486,7 +482,6 @@ sessions={
     "room": "TBD",
     "s_title": "Closing & Keynote: Mike Krieger, Instagram",
     "submissions": [
-      "closing"
     ],
     "type": "special",
     "subtype": "special",
