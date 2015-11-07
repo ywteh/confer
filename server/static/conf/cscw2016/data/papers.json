@@ -2705,24 +2705,23 @@ entities={
     "subtype": "special"
   },
     "opening": {
-        "title": "Opening & Keynote: Simon Rogers, Google",
-        "abstract": "",
-        "keywords": "",
-        "authors": [
-            {
-            }
-        ],
-        "type": "special",
-        "subtype": "special",
+      "title": "Opening & Keynote: Simon Rogers, Google",
+      "abstract": "",
+      "keywords": "",
+      "authors": [
+        {}
+      ],
+      "type": "special",
+      "subtype": "special",
     },
     "closing": {
-        "title": "Closing & Keynote: Mike Krieger, Instagram",
-        "abstract": "",
-        "keywords": "",
-        "authors": [
-            {}
-        ],
-        "type": "special",
-        "subtype": "special"
+      "title": "Closing & Keynote: Mike Krieger, Instagram",
+      "abstract": "",
+      "keywords": "",
+      "authors": [
+        {}
+      ],
+      "type": "special",
+      "subtype": "special"
     }
 }
