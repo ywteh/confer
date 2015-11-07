@@ -436,5 +436,60 @@ sessions={
       "610"
     ], 
     "time": "9-10:30"
-  }
+  },
+  "Opening_Keynote": {
+  	"date": "Monday",
+  	"room": "TBD",
+  	"s_title": "Opening & Keynote: Simon Rogers, Google",
+  	"submissions": [
+  	  "opening"
+  	]
+  	"type": "special",
+    "subtype": "special",
+    "time": "9:00-10:30"
+  },
+  "Poster_Demo_Reception": {
+  	"date": "Monday",
+  	"room": "TBD",
+  	"s_title": "Poster & Demo Reception",
+  	"submissions": [
+  	  "poster"
+  	]
+  	"type": "special",
+    "subtype": "special",
+    "time": "6:00-8:00"
+  },
+   "Lasting_Impact": {
+  	"date": "Tuesday",
+  	"room": "TBD",
+  	"s_title": "Lasting Impact Plenary Session",
+  	"submissions": [
+  	  "impact"
+  	]
+  	"type": "special",
+    "subtype": "special",
+    "time": "4:30-5:30"
+  },
+   "Town_Hall": {
+  	"date": "Tuesday",
+  	"room": "TBD",
+  	"s_title": "Town Hall Meeting",
+  	"submissions": [
+  	  "townhall"
+  	]
+  	"type": "special",
+    "subtype": "special",
+    "time": "5:30-6:00"
+  },
+  "Closing_Keynote": {
+  	"date": "Wednesday",
+  	"room": "TBD",
+  	"s_title": "Closing & Keynote: Mike Krieger, Instagram",
+  	"submissions": [
+  	  "closing"
+  	]
+  	"type": "special",
+    "subtype": "special",
+    "time": "4:30-6"
+  },
 }

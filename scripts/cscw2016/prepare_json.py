@@ -94,7 +94,8 @@ def prepare_data(data_file1, data_file2):
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
-        'subtype':'paper'}
+        'subtype':'paper',
+        'type': 'paper'}
     
     # prepare sessions data
     s_id = construct_id(session)

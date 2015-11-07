@@ -4,6 +4,17 @@ schedule=[
     "day": "Monday", 
     "slots": [
       {
+        "slot_id": "Monday9_10_30",
+        "time": "9 - 10:30",
+        "slot_class": "morning1",
+        "sessions": [
+            {
+                "session": "Opening_Keynote",
+                "room": "TBD"
+            }
+        ]
+      },
+      {
         "sessions": [
           {
             "room": "TBD", 
@@ -75,6 +86,17 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Monday4_30_6_00", 
         "time": "4:30 - 6:00"
+      },
+      {
+        "slot_id": "Monday6_8",
+        "time": "6 - 8",
+        "slot_class": "evening1",
+        "sessions": [
+            {
+                "session": "Poster_Demo",
+                "room": "TBD"
+            }
+        ]
       }
     ]
   }, 
@@ -150,7 +172,29 @@ schedule=[
         "slot_class": "afternoon1", 
         "slot_id": "Tuesday2_30_4", 
         "time": "2:30 - 4"
-      }
+      },
+      {
+        "slot_id": "Tuesday4_30_5_30",
+        "time": "4:30 - 5:30",
+        "slot_class": "afternoon2",
+        "sessions": [
+            {
+                "session": "Lasting_Impact",
+                "room": "TBD"
+            }
+        ]
+      },
+      {
+        "slot_id": "Tuesday5_30_6",
+        "time": "5:30 - 6",
+        "slot_class": "afternoon2",
+        "sessions": [
+            {
+                "session": "Town_Hall",
+                "room": "TBD"
+            }
+        ]
+      }     
     ]
   }, 
   {
@@ -225,6 +269,17 @@ schedule=[
         "slot_class": "afternoon1", 
         "slot_id": "Wednesday2_30_4", 
         "time": "2:30 - 4"
+      },
+      {
+        "slot_id": "Wednesday4_30_6",
+        "time": "4:30 - 6",
+        "slot_class": "afternoon2",
+        "sessions": [
+            {
+                "session": "Closing_Keynote",
+                "room": "TBD"
+            }
+        ]
       }
     ]
   }
