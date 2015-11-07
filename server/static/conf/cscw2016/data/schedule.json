@@ -93,7 +93,7 @@ schedule=[
         "slot_class": "evening1",
         "sessions": [
             {
-                "session": "Poster_Demo",
+                "session": "Poster_Demo_Reception",
                 "room": "TBD"
             }
         ]
