@@ -2673,5 +2673,16 @@ entities={
     "subtype": "paper", 
     "title": "Ask the Instructors: Motivations and Challenges of Teaching Massive Open Online Courses", 
     "type": "paper"
+  },
+  "closing": {
+    "abstract": "CSCW research is rich with examples of how the design, defaults, and social norms of digital systems affect behavior, be it in shared calendars or on social sites. How does this play out at a scale of 400 million users? In this talk, Instagram co-founder Mike Krieger will walk through how design decisions at Instagram -- large and small -- have influenced user behavior in the first five years of the product. For example, how has Instagram's asymmetric “follow” model shaped the connections its users have formed? Mike will also discuss examples of emergent norms that have arisen unexpectedly on Instagram, but can be traced to specific design decisions in the product.",
+    "authors": [
+      {
+        "name": "Mike Krieger"
+      }
+    ], 
+    "subtype": "keynote", 
+    "title": "How Design Decisions Have Shaped Instagram's Community, and Vice-Versa", 
+    "type": "keynote"
   }
 }
