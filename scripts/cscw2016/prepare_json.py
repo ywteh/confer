@@ -108,6 +108,7 @@ def prepare_data(data_file1):
     
     paper_abstract = unicode(row[9], "ISO-8859-1")
     paper_authors = unicode(row[8], "ISO-8859-1")
+    type = unicode(row[0], "ISO-8859-1")
 
     
     if 'Hyatt' in row[1] or 'Explor' in row[1]:
@@ -119,8 +120,8 @@ def prepare_data(data_file1):
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
-        'subtype':'paper',
-        'type': 'paper'}
+        'subtype':type,
+        'type': type}
     
     papers[paper_id]['abstract'] = paper_abstract
     papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',')]

@@ -11,6 +11,42 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
+  "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications", 
+    "submissions": [
+      "16"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies", 
+    "submissions": [
+      "11"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Breaking into new Data-Spaces: Infrastructure for Open Community Science", 
+    "submissions": [
+      "5"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "CSCW and the \"Sharing Economy\": The Future of Platforms as Sites of Work, Collaboration and Trust", 
+    "submissions": [
+      "6"
+    ], 
+    "time": "9:00-5:00"
+  }, 
   "Closing_Keynote": {
     "date": "Wednesday", 
     "room": "TBD", 
@@ -32,19 +68,32 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Coffee_Break": {
-    "date": "Monday", 
+  "Collaboration_and_Decision_Making_in_Crisis_Situations": {
+    "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Collaboration and Decision Making in Crisis Situations", 
     "submissions": [
-      "21", 
-      "23", 
-      "26", 
-      "28", 
-      "32", 
-      "34"
+      "8"
     ], 
-    "time": "10:30-11:00"
+    "time": "9:00-5:00"
+  }, 
+  "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies", 
+    "submissions": [
+      "3"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Collocated Interaction: New Challenges in 'Same Time, Same Place' Research", 
+    "submissions": [
+      "2"
+    ], 
+    "time": "9:00-5:00"
   }, 
   "Computer_Mediated_Communication": {
     "date": "Monday", 
@@ -126,6 +175,42 @@ sessions={
       "532"
     ], 
     "time": "2:30 - 4:00"
+  }, 
+  "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures", 
+    "submissions": [
+      "9"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
+    "submissions": [
+      "4"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Designing_online_experiments_Citizen_science_approaches_to_research": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Designing online experiments: Citizen science approaches to research", 
+    "submissions": [
+      "7"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Developing_a_Research_Agenda_for_Human_Centered_Data_Science": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Developing a Research Agenda for Human-Centered Data Science", 
+    "submissions": [
+      "15"
+    ], 
+    "time": "9:00-5:00"
   }, 
   "Digital_Learning_Environments_": {
     "date": "Monday", 
@@ -232,6 +317,15 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
+  "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
+    "submissions": [
+      "14"
+    ], 
+    "time": "9:00-5:00"
+  }, 
   "Hacking_Making_and_Discovering": {
     "date": "Tuesday", 
     "room": "TBD", 
@@ -292,6 +386,15 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
+  "Large_scale_Collaborative_Projects_to_Affect_Societal_Change": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Large-scale Collaborative Projects to Affect Societal Change", 
+    "submissions": [
+      "13"
+    ], 
+    "time": "9:00-5:00"
+  }, 
   "Lasting_Impact_Plenary_Session": {
     "date": "Tuesday", 
     "room": "TBD", 
@@ -301,16 +404,14 @@ sessions={
     ], 
     "time": "4:30-5:30"
   }, 
-  "Lunch": {
-    "date": "Monday", 
+  "Let_s_talk_about_the_Quantified_Workplace": {
+    "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Lunch", 
+    "s_title": "Let's talk about the Quantified Workplace", 
     "submissions": [
-      "22", 
-      "27", 
-      "33"
+      "12"
     ], 
-    "time": "12:30-2:30"
+    "time": "9:00-5:00"
   }, 
   "Managing_Personal_Data": {
     "date": "Monday", 
@@ -347,6 +448,30 @@ sessions={
       "437"
     ], 
     "time": "11:00 - 12:30"
+  }, 
+  "Mon_Afternoon_Coffee_Break": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "4:00-4:30"
+  }, 
+  "Mon_Lunch": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Lunch", 
+    "submissions": [
+    ], 
+    "time": "12:30-2:30"
+  }, 
+  "Mon_Morn_Coffee_Break": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "10:30-11:00"
   }, 
   "Multimedia_Creation_and_Remixing": {
     "date": "Wednesday", 
@@ -495,6 +620,15 @@ sessions={
     ], 
     "time": "8:00PM-10:30PM"
   }, 
+  "Toward_a_Typology_of_Participation_in_Crowdwork": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Toward a Typology of Participation in Crowdwork", 
+    "submissions": [
+      "10"
+    ], 
+    "time": "9:00-5:00"
+  }, 
   "Towards_Physical_and_Social_Wellness": {
     "date": "Monday", 
     "room": "TBD", 
@@ -516,6 +650,30 @@ sessions={
     ], 
     "time": "5:30-6:00"
   }, 
+  "Tues_Afternoon_Coffee_Break": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "4:00-4:30"
+  }, 
+  "Tues_Lunch": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Lunch", 
+    "submissions": [
+    ], 
+    "time": "12:30-2:30"
+  }, 
+  "Tues_Morn_Coffee_Break": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "10:30-11:00"
+  }, 
   "Unpacking_Social_Networks": {
     "date": "Wednesday", 
     "room": "TBD", 
@@ -528,6 +686,30 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
+  "Wed_Afternoon_Coffee_Break": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "4:00-4:30"
+  }, 
+  "Wed_Lunch": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Lunch", 
+    "submissions": [
+    ], 
+    "time": "12:30-2:30"
+  }, 
+  "Wed_Morn_Coffee_Break": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+    ], 
+    "time": "10:30-11:00"
+  }, 
   "Welcome_Reception": {
     "date": "Sunday", 
     "room": "Hyatt Regency", 
@@ -536,6 +718,15 @@ sessions={
       "18"
     ], 
     "time": "5:00-6:30"
+  }, 
+  "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Where did my Office go? Is it in the Cloud!?? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments", 
+    "submissions": [
+      "1"
+    ], 
+    "time": "9:00-5:00"
   }, 
   "Work_and_Work_Environments": {
     "date": "Wednesday", 
@@ -548,149 +739,5 @@ sessions={
       "610"
     ], 
     "time": "9:00-10:30"
-  }, 
-  "Wp_01_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-01. Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures", 
-    "submissions": [
-      "9"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_03_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-03. Where did my Office go? Is it in the Cloud!? ? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments", 
-    "submissions": [
-      "1"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_04_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-04. Collocated Interaction: New Challenges in \u00d4Same Time, Same Place\u00d5 Research", 
-    "submissions": [
-      "2"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_06_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-06. Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies", 
-    "submissions": [
-      "3"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_07_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-07. Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
-    "submissions": [
-      "4"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_08_Toward_a_Typology_of_Participation_in_Crowdwork": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-08. Toward a Typology of Participation in Crowdwork", 
-    "submissions": [
-      "10"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_09_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-09. Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies", 
-    "submissions": [
-      "11"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_10_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-10. Breaking into new Data-Spaces: Infrastructure for Open Community Science", 
-    "submissions": [
-      "5"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_14_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-14. CSCW and the \u00d2Sharing Economy\u00d3: The Future of Platforms as Sites of Work, Collaboration and Trust", 
-    "submissions": [
-      "6"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_15_Let_s_talk_about_the_Quantified_Workplace": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-15. Let\u00d5s talk about the Quantified Workplace", 
-    "submissions": [
-      "12"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_18_Large_scale_Collaborative_Projects_to_Affect_Societal_Change": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-18. Large-scale Collaborative Projects to Affect Societal Change", 
-    "submissions": [
-      "13"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_20_Designing_online_experiments_Citizen_science_approaches_to_research": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-20. Designing online experiments: Citizen science approaches to research", 
-    "submissions": [
-      "7"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_21_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-21. Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
-    "submissions": [
-      "14"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_26_Developing_a_Research_Agenda_for_Human_Centered_Data_Science": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-26. Developing a Research Agenda for Human-Centered Data Science", 
-    "submissions": [
-      "15"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_28_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Wp-28. Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications", 
-    "submissions": [
-      "16"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Wp_29_Collaboration_and_Decision_Making_in_Crisis_Situations": {
-    "date": "Saturday", 
-    "room": "TBD", 
-    "s_title": "Wp-29. Collaboration and Decision Making in Crisis Situations", 
-    "submissions": [
-      "8"
-    ], 
-    "time": "9:00-5:00"
   }
 }

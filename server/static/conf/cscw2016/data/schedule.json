@@ -7,35 +7,35 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Wp_06_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies"
+            "session": "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_03_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments"
+            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_07_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
+            "session": "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_20_Designing_online_experiments_Citizen_science_approaches_to_research"
+            "session": "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_14_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
+            "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_10_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
+            "session": "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_29_Collaboration_and_Decision_Making_in_Crisis_Situations"
+            "session": "Designing_online_experiments_Citizen_science_approaches_to_research"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_04_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
+            "session": "Collaboration_and_Decision_Making_in_Crisis_Situations"
           }
         ], 
         "slot_class": "morning1", 
@@ -52,27 +52,31 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Wp_09_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies"
+            "session": "Let_s_talk_about_the_Quantified_Workplace"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_18_Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
+            "session": "Toward_a_Typology_of_Participation_in_Crowdwork"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_08_Toward_a_Typology_of_Participation_in_Crowdwork"
+            "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_21_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
+            "session": "Developing_a_Research_Agenda_for_Human_Centered_Data_Science"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_01_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
+            "session": "Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_26_Developing_a_Research_Agenda_for_Human_Centered_Data_Science"
+            "session": "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
           }, 
           {
             "room": "TBD", 
@@ -80,11 +84,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Wp_15_Let_s_talk_about_the_Quantified_Workplace"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Wp_28_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
+            "session": "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
           }
         ], 
         "slot_class": "morning1", 
@@ -123,7 +123,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Coffee_Break"
+            "session": "Mon_Morn_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -157,7 +157,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Lunch"
+            "session": "Mon_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -218,6 +218,17 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Mon_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Monday4_00_4_30", 
+        "time": "4:00-4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Poster_Demo_Reception"
           }
         ], 
@@ -269,6 +280,17 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Tues_Morn_Coffee_Break"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Tuesday10_30_11_00", 
+        "time": "10:30-11:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Hospital_Work"
           }, 
           {
@@ -287,6 +309,17 @@ schedule=[
         "slot_class": "morning2", 
         "slot_id": "Tuesday11_00_12_30", 
         "time": "11:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Tues_Lunch"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Tuesday12_30_2_30", 
+        "time": "12:30-2:30"
       }, 
       {
         "sessions": [
@@ -326,6 +359,17 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Tues_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday4_00_4_30", 
+        "time": "4:00-4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Town_Hall_Meeting"
           }
         ], 
@@ -354,6 +398,17 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Crowd_Innovation_and_Crowdfunding"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Wednesday9_10_30", 
+        "time": "9-10:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Work_and_Work_Environments"
           }, 
           {
@@ -373,12 +428,12 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Crowd_Innovation_and_Crowdfunding"
+            "session": "Wed_Morn_Coffee_Break"
           }
         ], 
-        "slot_class": "morning1", 
-        "slot_id": "Wednesday9_10_30", 
-        "time": "9-10:30"
+        "slot_class": "morning2", 
+        "slot_id": "Wednesday10_30_11_00", 
+        "time": "10:30-11:00"
       }, 
       {
         "sessions": [
@@ -402,6 +457,17 @@ schedule=[
         "slot_class": "morning2", 
         "slot_id": "Wednesday11_00_12_30", 
         "time": "11:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Wed_Lunch"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Wednesday12_30_2_30", 
+        "time": "12:30-2:30"
       }, 
       {
         "sessions": [
@@ -436,6 +502,17 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_30_6_00", 
         "time": "4:30-6:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Wed_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_00_4_30", 
+        "time": "4:00-4:30"
       }
     ]
   }
