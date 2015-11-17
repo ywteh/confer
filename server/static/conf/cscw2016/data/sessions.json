@@ -549,147 +549,147 @@ sessions={
     ], 
     "time": "9:00-10:30"
   }, 
-  "Workshop_1": {
+  "Wp_01_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-01. Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures", 
+    "submissions": [
+      "9"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_03_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 1", 
+    "s_title": "Wp-03. Where did my Office go? Is it in the Cloud!? ? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments", 
     "submissions": [
       "1"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_10": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 10", 
-    "submissions": [
-      "10"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_11": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 11", 
-    "submissions": [
-      "11"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_12": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 12", 
-    "submissions": [
-      "12"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_13": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 13", 
-    "submissions": [
-      "13"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_14": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 14", 
-    "submissions": [
-      "14"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_15": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 15", 
-    "submissions": [
-      "15"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_16": {
-    "date": "Sunday", 
-    "room": "TBD", 
-    "s_title": "Workshop 16", 
-    "submissions": [
-      "16"
-    ], 
-    "time": "9:00-5:00"
-  }, 
-  "Workshop_2": {
+  "Wp_04_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 2", 
+    "s_title": "Wp-04. Collocated Interaction: New Challenges in \u00d4Same Time, Same Place\u00d5 Research", 
     "submissions": [
       "2"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_3": {
+  "Wp_06_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 3", 
+    "s_title": "Wp-06. Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies", 
     "submissions": [
       "3"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_4": {
+  "Wp_07_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 4", 
+    "s_title": "Wp-07. Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
     "submissions": [
       "4"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_5": {
+  "Wp_08_Toward_a_Typology_of_Participation_in_Crowdwork": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-08. Toward a Typology of Participation in Crowdwork", 
+    "submissions": [
+      "10"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_09_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-09. Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies", 
+    "submissions": [
+      "11"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_10_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 5", 
+    "s_title": "Wp-10. Breaking into new Data-Spaces: Infrastructure for Open Community Science", 
     "submissions": [
       "5"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_6": {
+  "Wp_14_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 6", 
+    "s_title": "Wp-14. CSCW and the \u00d2Sharing Economy\u00d3: The Future of Platforms as Sites of Work, Collaboration and Trust", 
     "submissions": [
       "6"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_7": {
+  "Wp_15_Let_s_talk_about_the_Quantified_Workplace": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-15. Let\u00d5s talk about the Quantified Workplace", 
+    "submissions": [
+      "12"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_18_Large_scale_Collaborative_Projects_to_Affect_Societal_Change": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-18. Large-scale Collaborative Projects to Affect Societal Change", 
+    "submissions": [
+      "13"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_20_Designing_online_experiments_Citizen_science_approaches_to_research": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Workshop 7", 
+    "s_title": "Wp-20. Designing online experiments: Citizen science approaches to research", 
     "submissions": [
       "7"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_8": {
-    "date": "Saturday", 
+  "Wp_21_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools": {
+    "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Workshop 8", 
+    "s_title": "Wp-21. Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
     "submissions": [
-      "8"
+      "14"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Workshop_9": {
+  "Wp_26_Developing_a_Research_Agenda_for_Human_Centered_Data_Science": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Workshop 9", 
+    "s_title": "Wp-26. Developing a Research Agenda for Human-Centered Data Science", 
     "submissions": [
-      "9"
+      "15"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_28_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Wp-28. Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications", 
+    "submissions": [
+      "16"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Wp_29_Collaboration_and_Decision_Making_in_Crisis_Situations": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Wp-29. Collaboration and Decision Making in Crisis Situations", 
+    "submissions": [
+      "8"
     ], 
     "time": "9:00-5:00"
   }

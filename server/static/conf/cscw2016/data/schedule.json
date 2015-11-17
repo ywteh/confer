@@ -7,35 +7,35 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Workshop_6"
+            "session": "Wp_06_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_7"
+            "session": "Wp_03_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_1"
+            "session": "Wp_07_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_2"
+            "session": "Wp_20_Designing_online_experiments_Citizen_science_approaches_to_research"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_5"
+            "session": "Wp_14_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_8"
+            "session": "Wp_10_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_4"
+            "session": "Wp_29_Collaboration_and_Decision_Making_in_Crisis_Situations"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_3"
+            "session": "Wp_04_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
           }
         ], 
         "slot_class": "morning1", 
@@ -52,19 +52,27 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Workshop_16"
+            "session": "Wp_09_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_14"
+            "session": "Wp_18_Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_15"
+            "session": "Wp_08_Toward_a_Typology_of_Participation_in_Crowdwork"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_9"
+            "session": "Wp_21_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Wp_01_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Wp_26_Developing_a_Research_Agenda_for_Human_Centered_Data_Science"
           }, 
           {
             "room": "TBD", 
@@ -72,19 +80,11 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_12"
+            "session": "Wp_15_Let_s_talk_about_the_Quantified_Workplace"
           }, 
           {
             "room": "TBD", 
-            "session": "Workshop_10"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Workshop_11"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Workshop_13"
+            "session": "Wp_28_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
           }
         ], 
         "slot_class": "morning1", 
