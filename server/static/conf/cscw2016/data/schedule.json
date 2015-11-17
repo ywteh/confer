@@ -1,19 +1,135 @@
 schedule=[
   {
+    "date": "02/27/2016", 
+    "day": "Saturday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Workshop_6"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_7"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_1"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_2"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_5"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_8"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_4"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_3"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Saturday9_00_5_00", 
+        "time": "9:00-5:00"
+      }
+    ]
+  }, 
+  {
+    "date": "02/28/2016", 
+    "day": "Sunday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Workshop_16"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_14"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_15"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_9"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Doctoral_Symposium"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_12"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_10"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_11"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Workshop_13"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Sunday9_00_5_00", 
+        "time": "9:00-5:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Hyatt Regency", 
+            "session": "Welcome_Reception"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Sunday5_00_6_30", 
+        "time": "5:00-6:30"
+      }
+    ]
+  }, 
+  {
     "date": "02/29/2016", 
     "day": "Monday", 
     "slots": [
       {
-        "slot_id": "Monday9_10_30",
-        "time": "9 - 10:30",
-        "slot_class": "morning1",
         "sessions": [
-            {
-                "session": "Opening_Keynote",
-                "room": "TBD"
-            }
-        ]
-      },
+          {
+            "room": "TBD", 
+            "session": "Opening_Keynote"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Monday9_00_10_30", 
+        "time": "9:00 - 10:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Coffee_Break"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Monday10_30_11_00", 
+        "time": "10:30-11:00"
+      }, 
       {
         "sessions": [
           {
@@ -34,8 +150,19 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "Monday11_12_30", 
-        "time": "11 - 12:30"
+        "slot_id": "Monday11_00_12_30", 
+        "time": "11:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Lunch"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday12_30_2_30", 
+        "time": "12:30-2:30"
       }, 
       {
         "sessions": [
@@ -68,15 +195,15 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Rich_Telepresence"
-          }, 
-          {
-            "room": "TBD", 
             "session": "Managing_Personal_Data"
           }, 
           {
             "room": "TBD", 
             "session": "Co_present_and_Remote_Media_Use"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Computer_Mediated_Communication"
           }, 
           {
             "room": "TBD", 
@@ -86,17 +213,28 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Monday4_30_6_00", 
         "time": "4:30 - 6:00"
-      },
+      }, 
       {
-        "slot_id": "Monday6_8",
-        "time": "6 - 8",
-        "slot_class": "evening1",
         "sessions": [
-            {
-                "session": "Poster_Demo_Reception",
-                "room": "TBD"
-            }
-        ]
+          {
+            "room": "TBD", 
+            "session": "Poster_Demo_Reception"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday6_00_8_00PM", 
+        "time": "6:00-8:00PM"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Sponsored_Hospitality_Receptions"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday8_00PM_10_30PM", 
+        "time": "8:00PM-10:30PM"
       }
     ]
   }, 
@@ -124,8 +262,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "Tuesday9_10_30", 
-        "time": "9 - 10:30"
+        "slot_id": "Tuesday9_00_10_30", 
+        "time": "9:00 - 10:30"
       }, 
       {
         "sessions": [
@@ -147,8 +285,8 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "Tuesday11_12_30", 
-        "time": "11 - 12:30"
+        "slot_id": "Tuesday11_00_12_30", 
+        "time": "11:00 - 12:30"
       }, 
       {
         "sessions": [
@@ -170,31 +308,42 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "Tuesday2_30_4", 
-        "time": "2:30 - 4"
-      },
+        "slot_id": "Tuesday2_30_4_00", 
+        "time": "2:30 - 4:00"
+      }, 
       {
-        "slot_id": "Tuesday4_30_5_30",
-        "time": "4:30 - 5:30",
-        "slot_class": "afternoon2",
         "sessions": [
-            {
-                "session": "Lasting_Impact",
-                "room": "TBD"
-            }
-        ]
-      },
+          {
+            "room": "TBD", 
+            "session": "Lasting_Impact_Plenary_Session"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday4_30_5_30", 
+        "time": "4:30-5:30"
+      }, 
       {
-        "slot_id": "Tuesday5_30_6",
-        "time": "5:30 - 6",
-        "slot_class": "afternoon2",
         "sessions": [
-            {
-                "session": "Town_Hall",
-                "room": "TBD"
-            }
-        ]
-      }     
+          {
+            "room": "TBD", 
+            "session": "Town_Hall_Meeting"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday5_30_6_00", 
+        "time": "5:30-6:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Exploratorium", 
+            "session": "Conference_Banquet"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Tuesday7_00PM_10_30PM", 
+        "time": "7:00PM-10:30PM"
+      }
     ]
   }, 
   {
@@ -214,7 +363,14 @@ schedule=[
           {
             "room": "TBD", 
             "session": "Non_Profits_and_Humanitarian_Responses"
-          }, 
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Wednesday9_00_10_30", 
+        "time": "9:00-10:30"
+      }, 
+      {
+        "sessions": [
           {
             "room": "TBD", 
             "session": "Crowd_Innovation_and_Crowdfunding"
@@ -244,22 +400,22 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "Wednesday11_12_30", 
-        "time": "11 - 12:30"
+        "slot_id": "Wednesday11_00_12_30", 
+        "time": "11:00 - 12:30"
       }, 
       {
         "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Crowd_Workflows"
+          }, 
           {
             "room": "TBD", 
             "session": "Mobile_Design_and_Usage"
           }, 
           {
             "room": "TBD", 
-            "session": "Computer_Mediated_Communication"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Crowd_Workflows"
+            "session": "Rich_Telepresence"
           }, 
           {
             "room": "TBD", 
@@ -267,19 +423,19 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "Wednesday2_30_4", 
-        "time": "2:30 - 4"
-      },
+        "slot_id": "Wednesday2_30_4_00", 
+        "time": "2:30 - 4:00"
+      }, 
       {
-        "slot_id": "Wednesday4_30_6",
-        "time": "4:30 - 6",
-        "slot_class": "afternoon2",
         "sessions": [
-            {
-                "session": "Closing_Keynote",
-                "room": "TBD"
-            }
-        ]
+          {
+            "room": "TBD", 
+            "session": "Closing_Keynote"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_30_6_00", 
+        "time": "4:30-6:00"
       }
     ]
   }

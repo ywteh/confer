@@ -9,7 +9,16 @@ sessions={
       "521", 
       "466"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
+  }, 
+  "Closing_Keynote": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Closing Keynote", 
+    "submissions": [
+      "20"
+    ], 
+    "time": "4:30-6:00"
   }, 
   "Co_present_and_Remote_Media_Use": {
     "date": "Monday", 
@@ -18,22 +27,45 @@ sessions={
     "submissions": [
       "481", 
       "109", 
-      "383",
-      "001"
+      "383", 
+      ""
     ], 
     "time": "4:30 - 6:00"
   }, 
+  "Coffee_Break": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Coffee Break", 
+    "submissions": [
+      "21", 
+      "23", 
+      "26", 
+      "28", 
+      "32", 
+      "34"
+    ], 
+    "time": "10:30-11:00"
+  }, 
   "Computer_Mediated_Communication": {
-    "date": "Wednesday", 
+    "date": "Monday", 
     "room": "TBD", 
     "s_title": "Computer-Mediated Communication", 
     "submissions": [
       "640", 
       "406", 
-      "254",
-      "002"
+      "254", 
+      ""
     ], 
-    "time": "2:30 - 4"
+    "time": "4:30 - 6:00"
+  }, 
+  "Conference_Banquet": {
+    "date": "Tuesday", 
+    "room": "Exploratorium", 
+    "s_title": "Conference Banquet", 
+    "submissions": [
+      "31"
+    ], 
+    "time": "7:00PM-10:30PM"
   }, 
   "Credibility_and_Social_Media": {
     "date": "Monday", 
@@ -42,8 +74,8 @@ sessions={
     "submissions": [
       "356", 
       "429", 
-      "328",
-      "003"
+      "328", 
+      ""
     ], 
     "time": "4:30 - 6:00"
   }, 
@@ -69,7 +101,7 @@ sessions={
       "484", 
       "461"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Crowd_Workers": {
     "date": "Monday", 
@@ -81,7 +113,7 @@ sessions={
       "238", 
       "235"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Crowd_Workflows": {
     "date": "Wednesday", 
@@ -93,7 +125,7 @@ sessions={
       "513", 
       "532"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Digital_Learning_Environments_": {
     "date": "Monday", 
@@ -131,6 +163,15 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
+  "Doctoral_Symposium": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Doctoral Symposium", 
+    "submissions": [
+      "17"
+    ], 
+    "time": "9:00-5:00"
+  }, 
   "Education_in_the_Classroom_and_Beyond": {
     "date": "Tuesday", 
     "room": "TBD", 
@@ -141,7 +182,7 @@ sessions={
       "508", 
       "730"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Engaging_the_Crowd": {
     "date": "Tuesday", 
@@ -153,7 +194,7 @@ sessions={
       "207", 
       "596"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Ethics_and_Policy": {
     "date": "Tuesday", 
@@ -165,7 +206,7 @@ sessions={
       "684", 
       "735"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Food_and_Health": {
     "date": "Tuesday", 
@@ -177,7 +218,7 @@ sessions={
       "608", 
       "327"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Games": {
     "date": "Tuesday", 
@@ -189,7 +230,7 @@ sessions={
       "387", 
       "199"
     ], 
-    "time": "9 - 10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Hacking_Making_and_Discovering": {
     "date": "Tuesday", 
@@ -201,7 +242,7 @@ sessions={
       "554", 
       "598"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Healthcare_Providers": {
     "date": "Tuesday", 
@@ -213,7 +254,7 @@ sessions={
       "157", 
       "468"
     ], 
-    "time": "9 - 10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Home_and_Family": {
     "date": "Wednesday", 
@@ -225,7 +266,7 @@ sessions={
       "363", 
       "212"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Hospital_Work": {
     "date": "Tuesday", 
@@ -237,7 +278,7 @@ sessions={
       "494", 
       "279"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Internatonal_Insights": {
     "date": "Monday", 
@@ -246,10 +287,30 @@ sessions={
     "submissions": [
       "452", 
       "335", 
-      "232",
-      "004"
+      "232", 
+      ""
     ], 
     "time": "4:30 - 6:00"
+  }, 
+  "Lasting_Impact_Plenary_Session": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Lasting Impact Plenary Session", 
+    "submissions": [
+      "29"
+    ], 
+    "time": "4:30-5:30"
+  }, 
+  "Lunch": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Lunch", 
+    "submissions": [
+      "22", 
+      "27", 
+      "33"
+    ], 
+    "time": "12:30-2:30"
   }, 
   "Managing_Personal_Data": {
     "date": "Monday", 
@@ -258,8 +319,8 @@ sessions={
     "submissions": [
       "546", 
       "449", 
-      "458",
-      "005"
+      "458", 
+      ""
     ], 
     "time": "4:30 - 6:00"
   }, 
@@ -273,7 +334,7 @@ sessions={
       "728", 
       "443"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
   }, 
   "Modeling_Social_Media": {
     "date": "Monday", 
@@ -285,7 +346,7 @@ sessions={
       "505", 
       "437"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Multimedia_Creation_and_Remixing": {
     "date": "Wednesday", 
@@ -297,7 +358,7 @@ sessions={
       "423", 
       "182"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Museums_and_Public_Spaces": {
     "date": "Monday", 
@@ -309,7 +370,7 @@ sessions={
       "215", 
       "609"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
   }, 
   "Newcomers_in_Peer_Production": {
     "date": "Tuesday", 
@@ -321,7 +382,7 @@ sessions={
       "731", 
       "156"
     ], 
-    "time": "9 - 10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Non_Profits_and_Humanitarian_Responses": {
     "date": "Wednesday", 
@@ -333,7 +394,7 @@ sessions={
       "666", 
       "257"
     ], 
-    "time": "9-10:30"
+    "time": "9:00-10:30"
   }, 
   "Online_Communities": {
     "date": "Tuesday", 
@@ -345,7 +406,7 @@ sessions={
       "273", 
       "386"
     ], 
-    "time": "9 - 10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Open_Science_and_Infrastructures": {
     "date": "Wednesday", 
@@ -357,7 +418,16 @@ sessions={
       "435", 
       "652"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
+  }, 
+  "Opening_Keynote": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Opening & Keynote", 
+    "submissions": [
+      "19"
+    ], 
+    "time": "9:00 - 10:30"
   }, 
   "Parents_and_Children": {
     "date": "Wednesday", 
@@ -369,7 +439,16 @@ sessions={
       "171", 
       "471"
     ], 
-    "time": "9-10:30"
+    "time": "9:00-10:30"
+  }, 
+  "Poster_Demo_Reception": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Poster & Demo Reception", 
+    "submissions": [
+      "24"
+    ], 
+    "time": "6:00-8:00PM"
   }, 
   "Relationships_and_Romance": {
     "date": "Monday", 
@@ -384,16 +463,16 @@ sessions={
     "time": "2:30 - 4:00"
   }, 
   "Rich_Telepresence": {
-    "date": "Monday", 
+    "date": "Wednesday", 
     "room": "TBD", 
     "s_title": "Rich Telepresence", 
     "submissions": [
       "305", 
       "332", 
-      "385",
-      "006"
+      "385", 
+      ""
     ], 
-    "time": "4:30 - 6:00"
+    "time": "2:30 - 4:00"
   }, 
   "Social_Network_Methods": {
     "date": "Tuesday", 
@@ -405,7 +484,16 @@ sessions={
       "556", 
       "407"
     ], 
-    "time": "2:30 - 4"
+    "time": "2:30 - 4:00"
+  }, 
+  "Sponsored_Hospitality_Receptions": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Sponsored Hospitality Receptions", 
+    "submissions": [
+      "25"
+    ], 
+    "time": "8:00PM-10:30PM"
   }, 
   "Towards_Physical_and_Social_Wellness": {
     "date": "Monday", 
@@ -417,7 +505,16 @@ sessions={
       "358", 
       "105"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
+  }, 
+  "Town_Hall_Meeting": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Town Hall Meeting", 
+    "submissions": [
+      "30"
+    ], 
+    "time": "5:30-6:00"
   }, 
   "Unpacking_Social_Networks": {
     "date": "Wednesday", 
@@ -429,7 +526,16 @@ sessions={
       "195", 
       "656"
     ], 
-    "time": "11 - 12:30"
+    "time": "11:00 - 12:30"
+  }, 
+  "Welcome_Reception": {
+    "date": "Sunday", 
+    "room": "Hyatt Regency", 
+    "s_title": "Welcome Reception", 
+    "submissions": [
+      "18"
+    ], 
+    "time": "5:00-6:30"
   }, 
   "Work_and_Work_Environments": {
     "date": "Wednesday", 
@@ -441,57 +547,150 @@ sessions={
       "451", 
       "610"
     ], 
-    "time": "9-10:30"
-  },
-  "Opening_Keynote": {
-    "date": "Monday",
-    "room": "TBD",
-    "s_title": "Opening & Keynote: Simon Rogers, Google",
-    "submissions": [
-    ],
-    "type": "special",
-    "subtype": "special",
     "time": "9:00-10:30"
-  },
-  "Poster_Demo_Reception": {
-    "date": "Monday",
-    "room": "TBD",
-    "s_title": "Poster & Demo Reception",
+  }, 
+  "Workshop_1": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 1", 
     "submissions": [
-    ],
-    "type": "special",
-    "subtype": "special",
-    "time": "6:00-8:00"
-  },
-  "Lasting_Impact": {
-    "date": "Tuesday",
-    "room": "TBD",
-    "s_title": "Lasting Impact Plenary Session",
+      "1"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_10": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 10", 
     "submissions": [
-    ],
-    "type": "special",
-    "subtype": "special",
-    "time": "4:30-5:30"
-  },
-  "Town_Hall": {
-    "date": "Tuesday",
-    "room": "TBD",
-    "s_title": "Town Hall Meeting",
+      "10"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_11": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 11", 
     "submissions": [
-    ],
-    "type": "special",
-    "subtype": "special",
-    "time": "5:30-6:00"
-  },
-  "Closing_Keynote": {
-    "date": "Wednesday",
-    "room": "TBD",
-    "s_title": "Closing & Keynote: Mike Krieger, Instagram",
+      "11"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_12": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 12", 
     "submissions": [
-    	"closing"
-    ],
-    "type": "special",
-    "subtype": "special",
-    "time": "4:30-6"
+      "12"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_13": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 13", 
+    "submissions": [
+      "13"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_14": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 14", 
+    "submissions": [
+      "14"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_15": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 15", 
+    "submissions": [
+      "15"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_16": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 16", 
+    "submissions": [
+      "16"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_2": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 2", 
+    "submissions": [
+      "2"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_3": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 3", 
+    "submissions": [
+      "3"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_4": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 4", 
+    "submissions": [
+      "4"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_5": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 5", 
+    "submissions": [
+      "5"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_6": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 6", 
+    "submissions": [
+      "6"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_7": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 7", 
+    "submissions": [
+      "7"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_8": {
+    "date": "Saturday", 
+    "room": "TBD", 
+    "s_title": "Workshop 8", 
+    "submissions": [
+      "8"
+    ], 
+    "time": "9:00-5:00"
+  }, 
+  "Workshop_9": {
+    "date": "Sunday", 
+    "room": "TBD", 
+    "s_title": "Workshop 9", 
+    "submissions": [
+      "9"
+    ], 
+    "time": "9:00-5:00"
   }
 }

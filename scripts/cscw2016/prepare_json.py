@@ -13,8 +13,24 @@ def get_start_time(s_time):
   s = s_time.split('-')[0].strip()
   if s == "2:30":
       s = "14:30"
+  if s == "4:00":
+      s = "16:00"
   if s == "4:30":
       s = "16:30"
+  if s == "5:00":
+      s = "17:00"
+  if s == "5:30":
+      s = "17:30"
+  if s == "6:00":
+      s = "18:00"
+  if s == "7:00PM":
+      s = "19:00"
+  if s == "8:00PM":
+      s = "20:00"
+  if s == "10:00PM":
+      s = "22:00"
+  if s == "10:30PM":
+      s = "22:30"
   return int(re.match(r'\d+', s).group())
   return s
 
@@ -24,7 +40,11 @@ def get_date_time(s_date, dt_format='%m/%d/%Y'):
   if s_date == 'Tuesday':
       return time.strptime('03/01/2016', dt_format)
   if s_date == 'Wednesday':
-      return time.strptime('03/02/2016', dt_format)       
+      return time.strptime('03/02/2016', dt_format) 
+  if s_date == "Saturday":
+      return time.strptime('02/27/2016', dt_format)
+  if s_date == "Sunday":
+      return time.strptime('02/28/2016', dt_format)      
   #time_struct = time.strptime(s_date, dt_format)
   #return time_struct
 
@@ -70,12 +90,10 @@ def prepare_schedule (t_schedule):
       })
     schedule.append({'date': get_date(get_date_time(s_date, dt_format=dt_format)), 'slots': slots, 'day': get_day(get_date_time(s_date, dt_format=dt_format))})
 
-def prepare_data(data_file1, data_file2):
+def prepare_data(data_file1):
   f1 = open(data_file1, 'rU')
   reader1 = csv.reader(f1)
   
-  f2 = open(data_file2, 'rU')
-  reader2 = csv.reader(f2)
   p_id = 1
   
   reader1.next()
@@ -87,15 +105,26 @@ def prepare_data(data_file1, data_file2):
     s_time = ' '.join(unicode(row[5], "ISO-8859-1").split(' ')[1:])
     #paper_type = unicode(row[2], "ISO-8859-1")
     session = unicode(row[6], "ISO-8859-1")
-    room = 'TBD'
+    
+    paper_abstract = unicode(row[9], "ISO-8859-1")
+    paper_authors = unicode(row[8], "ISO-8859-1")
+
+    
+    if 'Hyatt' in row[1] or 'Explor' in row[1]:
+        room = row[1]
+    else:
+        room = 'TBD'
     paper_title = unicode(row[3], "ISO-8859-1")
-    paper_authors = unicode(row[4], "ISO-8859-1")
 
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
         'subtype':'paper',
         'type': 'paper'}
+    
+    papers[paper_id]['abstract'] = paper_abstract
+    papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',')]
+
     
     # prepare sessions data
     s_id = construct_id(session)
@@ -123,21 +152,11 @@ def prepare_data(data_file1, data_file2):
 
   prepare_schedule(t_schedule)
 
-  for i in range(4):
-    reader2.next()
-    
-  for row in reader2:
-    paper_id = unicode(row[0], "ISO-8859-1")[5:]
-    paper_abstract = unicode(row[163], "ISO-8859-1")
-    paper_authors = unicode(row[11], "ISO-8859-1")
-    papers[paper_id]['abstract'] = paper_abstract
-    papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',')]
 
 def main():
-  conf = sys.argv[3]
+  conf = sys.argv[2]
   data_file1 = sys.argv[1]
-  data_file2 = sys.argv[2]
-  prepare_data(data_file1, data_file2)
+  prepare_data(data_file1)
   # write files
   p = open('data/' + conf + '/papers.json','w')
   p.write(json.dumps(papers, indent=2, sort_keys=True))
