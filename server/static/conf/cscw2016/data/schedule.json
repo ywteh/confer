@@ -399,14 +399,7 @@ schedule=[
           {
             "room": "TBD", 
             "session": "Crowd_Innovation_and_Crowdfunding"
-          }
-        ], 
-        "slot_class": "morning1", 
-        "slot_id": "Wednesday9_10_30", 
-        "time": "9-10:30"
-      }, 
-      {
-        "sessions": [
+          },
           {
             "room": "TBD", 
             "session": "Work_and_Work_Environments"
