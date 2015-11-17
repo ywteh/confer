@@ -41,6 +41,18 @@ s_filters=[
 					"label":"All"
 				},
 				{
+					"data":"Saturday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Sat (Feb, 27)"
+				},
+				{
+					"data":"Sunday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Sun (Feb, 28)"
+				},
+				{
 					"data":"Monday", 
 					"class":"day filter", 
 					"type":"day", 
