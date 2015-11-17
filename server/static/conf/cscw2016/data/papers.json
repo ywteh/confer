@@ -11,7 +11,7 @@ entities={
     "type": "paper"
   }, 
   "1": {
-    "abstract": "The physical workplace \u00d0 a hub for communication, collaboration and co-located interaction \u00d0 can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems \u00d0 objects/devices, buildings and even cities created from web-based services and IoT \u00d0 thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
+    "abstract": "The physical workplace - a hub for communication, collaboration and co-located interaction - can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems \u00d0 objects/devices, buildings and even cities created from web-based services and IoT \u00d0 thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
     "authors": [
       {
         "name": ""
@@ -73,7 +73,7 @@ entities={
     "type": "paper"
   }, 
   "11": {
-    "abstract": "This one-day workshop aims to stimulate discussion in Cyberinfrastructure (CI) Studies on closing the feedback loop between research, practice and policy. As scientific work becomes increasingly collaborative, interdisciplinary and distributed, practitioners of science are seeking ways to make working across boundaries less burdensome. CI studies, with their focus on topics such as data sharing and reuse, collaboration and coordination, management of virtual organizations, citizen science, and development of scientific software, have the potential to provide evidence to support practitioners. Yet little research has focused on how to do so. Here, we will explore the public health concept of dissemination and implementation (D&I) and how to apply its core tenets to implementing evidence-based interventions for the practice of science. We will take a \u00d2hackathon\u00d3 approach, involving CI researchers and practitioners in developing a rapid prototype of an evidence-based intervention such as a practice guideline, policy proposal, or app design. ", 
+    "abstract": "This one-day workshop aims to stimulate discussion in Cyberinfrastructure (CI) Studies on closing the feedback loop between research, practice and policy. As scientific work becomes increasingly collaborative, interdisciplinary and distributed, practitioners of science are seeking ways to make working across boundaries less burdensome. CI studies, with their focus on topics such as data sharing and reuse, collaboration and coordination, management of virtual organizations, citizen science, and development of scientific software, have the potential to provide evidence to support practitioners. Yet little research has focused on how to do so. Here, we will explore the public health concept of dissemination and implementation (D&I) and how to apply its core tenets to implementing evidence-based interventions for the practice of science. We will take a \"hackathon\" approach, involving CI researchers and practitioners in developing a rapid prototype of an evidence-based intervention such as a practice guideline, policy proposal, or app design. ", 
     "authors": [
       {
         "name": ""
@@ -261,7 +261,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d2Thanks for your interest in our Facebook group, but it's only for dads:\u00d3 Social Roles of Stay-at-Home Dads", 
+    "title": "\"Thanks for your interest in our Facebook group, but it's only for dads:\" Social Roles of Stay-at-Home Dads", 
     "type": "paper"
   }, 
   "17": {
@@ -408,7 +408,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d2Just Cast the Net, and Hopefully the Right Fish Swim into It\u00d3: Audience Management on Social Network Sites", 
+    "title": "\"Just Cast the Net, and Hopefully the Right Fish Swim into It\": Audience Management on Social Network Sites", 
     "type": "paper"
   }, 
   "196": {
@@ -455,7 +455,7 @@ entities={
     "type": "paper"
   }, 
   "2": {
-    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u00d4same time, same place\u00d5 quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
+    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the 'same time, same place' quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
     "authors": [
       {
         "name": ""
@@ -466,7 +466,7 @@ entities={
     "type": "workshop"
   }, 
   "20": {
-    "abstract": "CSCW research is rich with examples of how the design, defaults, and social norms of digital systems affect behavior, be it in shared calendars or on social sites. How does this play out at a scale of 400 million users? In this talk, Instagram co-founder Mike Krieger will walk through how design decisions at Instagram -- large and small -- have influenced user behavior in the first five years of the product. For example, how has Instagram's asymmetric \u00d2follow\u00d3 model shaped the connections its users have formed? Mike will also discuss examples of emergent norms that have arisen unexpectedly on Instagram, but can be traced to specific design decisions in the product.", 
+    "abstract": "CSCW research is rich with examples of how the design, defaults, and social norms of digital systems affect behavior, be it in shared calendars or on social sites. How does this play out at a scale of 400 million users? In this talk, Instagram co-founder Mike Krieger will walk through how design decisions at Instagram -- large and small -- have influenced user behavior in the first five years of the product. For example, how has Instagram's asymmetric \"follow\" model shaped the connections its users have formed? Mike will also discuss examples of emergent norms that have arisen unexpectedly on Instagram, but can be traced to specific design decisions in the product.", 
     "authors": [
       {
         "name": "Mike Krieger"
@@ -545,7 +545,7 @@ entities={
     "type": "paper"
   }, 
   "229": {
-    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u00cfcan't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
+    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"can't put it down.\" This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
     "authors": [
       {
         "name": "Alexis Hiniker"
@@ -558,7 +558,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Not at the Dinner Table: Parents\u00d5 and Children\u00d5s Perspectives on Family Technology Rules", 
+    "title": "Not at the Dinner Table: Parents' and Children's Perspectives on Family Technology Rules", 
     "type": "paper"
   }, 
   "232": {
@@ -575,7 +575,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Examining American and Chinese Internet Users\u00d5 Contextual Privacy Preferences of Behavioral Advertising", 
+    "title": "Examining American and Chinese Internet Users' Contextual Privacy Preferences of Behavioral Advertising", 
     "type": "paper"
   }, 
   "235": {
@@ -619,7 +619,7 @@ entities={
     "type": "paper"
   }, 
   "238": {
-    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u00d2 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
+    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends - often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
     "authors": [
       {
         "name": "Elena Agapie"
@@ -685,7 +685,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "It\u00d5s (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
+    "title": "It's (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
     "type": "paper"
   }, 
   "256": {
@@ -1021,7 +1021,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u00d5 College Transition Processes", 
+    "title": "Identity Work on Social Network Sites: Disadvantaged Students' College Transition Processes", 
     "type": "paper"
   }, 
   "315": {
@@ -1571,7 +1571,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Keeping Up with the Tweet-dashians: The Impact of \u00d4Official\u00d5 Accounts on Online Rumoring", 
+    "title": "Keeping Up with the Tweet-dashians: The Impact of \u00d4Official' Accounts on Online Rumoring", 
     "type": "paper"
   }, 
   "430": {
@@ -1651,7 +1651,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Increasing Collocated People\u00d5s Awareness of the Mobile User\u00d5s Activities: a Field Trial of Social Displays", 
+    "title": "Increasing Collocated People's Awareness of the Mobile User's Activities: a Field Trial of Social Displays", 
     "type": "paper"
   }, 
   "445": {
@@ -1668,7 +1668,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Vendors\u00d5 Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
+    "title": "Vendors' Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
     "type": "paper"
   }, 
   "449": {
@@ -2003,7 +2003,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Scaffolding the scaffolding: Supporting children\u00d5s social-emotional learning at home", 
+    "title": "Scaffolding the scaffolding: Supporting children's social-emotional learning at home", 
     "type": "paper"
   }, 
   "5": {
@@ -2466,7 +2466,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d4A Farmer, a Place and at least 20 Members\u00d5 The Development of Artifact Ecologies in Volunteer-based Communities", 
+    "title": "\u00d4A Farmer, a Place and at least 20 Members' The Development of Artifact Ecologies in Volunteer-based Communities", 
     "type": "paper"
   }, 
   "6": {
@@ -2557,7 +2557,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "When Distance Doesn\u00d5t Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
+    "title": "When Distance Doesn't Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
     "type": "paper"
   }, 
   "620": {
@@ -2633,7 +2633,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u00d5 Variations on Baseline Trust", 
+    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals' Variations on Baseline Trust", 
     "type": "paper"
   }, 
   "655": {
@@ -2667,7 +2667,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "What\u00d5s in a Like? Attitudes and behaviors around receiving Likes on Facebook", 
+    "title": "What's in a Like? Attitudes and behaviors around receiving Likes on Facebook", 
     "type": "paper"
   }, 
   "666": {
@@ -2950,7 +2950,7 @@ entities={
     "type": "workshop"
   }, 
   "9": {
-    "abstract": "The workshop focuses on the new work ecologies emerging from implementation and use of information infrastructures in healthcare (IIH). As IIH \u00d2grows\u00d3 through organizational and regulatory mechanisms, CSCW researchers grapple with the shifting nature of healthcare data. CSCW has long been concerned with coordination, cooperation, and communication among interdisciplinary occupations in healthcare. Yet, while medical record keeping is still a primary function of IIH, second order data usages are increasingly large foci of IIH design and use. Facilitating development of health data practice and infrastructure is an area ripe for CSCW research. Critical topics include but are not limited to: re-use of clinical data for second order usages; design of artifacts and infrastructures; politics of creating and using data; algorithmic authority of IIH and effects on the exercise of expertise and discretion of healthcare professions; new forms of healthcare data work, including new occupations; data-driven accountability and management in healthcare\u00d3", 
+    "abstract": "The workshop focuses on the new work ecologies emerging from implementation and use of information infrastructures in healthcare (IIH). As IIH \"grows\" through organizational and regulatory mechanisms, CSCW researchers grapple with the shifting nature of healthcare data. CSCW has long been concerned with coordination, cooperation, and communication among interdisciplinary occupations in healthcare. Yet, while medical record keeping is still a primary function of IIH, second order data usages are increasingly large foci of IIH design and use. Facilitating development of health data practice and infrastructure is an area ripe for CSCW research. Critical topics include but are not limited to: re-use of clinical data for second order usages; design of artifacts and infrastructures; politics of creating and using data; algorithmic authority of IIH and effects on the exercise of expertise and discretion of healthcare professions; new forms of healthcare data work, including new occupations; data-driven accountability and management in healthcare.", 
     "authors": [
       {
         "name": ""
