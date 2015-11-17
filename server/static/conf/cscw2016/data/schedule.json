@@ -496,23 +496,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Closing_Keynote"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Wednesday4_30_6_00", 
-        "time": "4:30-6:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
             "session": "Wed_Afternoon_Coffee_Break"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_00_4_30", 
         "time": "4:00-4:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Closing_Keynote"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_30_6_00", 
+        "time": "4:30-6:00"
       }
     ]
   }
