@@ -19,15 +19,15 @@ schedule=[
           }, 
           {
             "room": "TBD", 
+            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
+          }, 
+          {
+            "room": "TBD", 
             "session": "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
             "room": "TBD", 
             "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
             "room": "TBD", 
@@ -176,11 +176,11 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Distributed_Teams_Chair_Pam_Hinds_Standford_University"
+            "session": "Session_Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
+            "session": "Session_Distributed_Teams_Chair_Pam_Hinds_Stanford_University"
           }
         ], 
         "slot_class": "afternoon1", 
