@@ -111,7 +111,8 @@ def prepare_data(data_file1):
     paper_authors = unicode(row[8], "ISO-8859-1")
     type = unicode(row[0], "ISO-8859-1")
     
-    session = 'Session: ' + session + ' - Chair:' + session_chair
+    if session_chair != '':
+        session = 'Session: ' + session + ' - Chair:' + session_chair
 
     
     if 'Hyatt' in row[1] or 'Explor' in row[1]:

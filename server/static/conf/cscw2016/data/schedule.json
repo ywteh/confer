@@ -7,35 +7,35 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design_Chair_"
+            "session": "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies_Chair_"
+            "session": "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research_Chair_"
+            "session": "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science_Chair_"
+            "session": "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Collaboration_and_Decision_Making_in_Crisis_Situations_Chair_"
+            "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Designing_online_experiments_Citizen_science_approaches_to_research_Chair_"
+            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust_Chair_"
+            "session": "Designing_online_experiments_Citizen_science_approaches_to_research"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments_Chair_"
+            "session": "Collaboration_and_Decision_Making_in_Crisis_Situations"
           }
         ], 
         "slot_class": "morning1", 
@@ -52,39 +52,39 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Let_s_talk_about_the_Quantified_Workplace_Chair_"
+            "session": "Toward_a_Typology_of_Participation_in_Crowdwork"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools_Chair_"
+            "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Doctoral_Symposium_Chair_"
+            "session": "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Large_scale_Collaborative_Projects_to_Affect_Societal_Change_Chair_"
+            "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications_Chair_"
+            "session": "Doctoral_Symposium"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies_Chair_"
+            "session": "Let_s_talk_about_the_Quantified_Workplace"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures_Chair_"
+            "session": "Developing_a_Research_Agenda_for_Human_Centered_Data_Science"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Developing_a_Research_Agenda_for_Human_Centered_Data_Science_Chair_"
+            "session": "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Toward_a_Typology_of_Participation_in_Crowdwork_Chair_"
+            "session": "Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
           }
         ], 
         "slot_class": "morning1", 
@@ -95,7 +95,7 @@ schedule=[
         "sessions": [
           {
             "room": "Hyatt Regency", 
-            "session": "Session_Welcome_Reception_Chair_"
+            "session": "Welcome_Reception"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -112,7 +112,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Opening_Keynote_Chair_"
+            "session": "Opening_Keynote"
           }
         ], 
         "slot_class": "morning1", 
@@ -123,7 +123,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Mon_Morn_Coffee_Break_Chair_"
+            "session": "Mon_Morn_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -157,7 +157,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Mon_Lunch_Chair_"
+            "session": "Mon_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -218,7 +218,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Mon_Afternoon_Coffee_Break_Chair_"
+            "session": "Mon_Afternoon_Coffee_Break"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -229,7 +229,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Poster_Demo_Reception_Chair_"
+            "session": "Poster_Demo_Reception"
           }
         ], 
         "slot_class": "evening", 
@@ -240,7 +240,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Sponsored_Hospitality_Receptions_Chair_"
+            "session": "Sponsored_Hospitality_Receptions"
           }
         ], 
         "slot_class": "evening", 
@@ -280,7 +280,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Tues_Morn_Coffee_Break_Chair_"
+            "session": "Tues_Morn_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -314,7 +314,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Tues_Lunch_Chair_"
+            "session": "Tues_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -348,7 +348,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Lasting_Impact_Plenary_Session_Chair_"
+            "session": "Lasting_Impact_Plenary_Session"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -359,7 +359,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Tues_Afternoon_Coffee_Break_Chair_"
+            "session": "Tues_Afternoon_Coffee_Break"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -370,7 +370,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Town_Hall_Meeting_Chair_"
+            "session": "Town_Hall_Meeting"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -381,7 +381,7 @@ schedule=[
         "sessions": [
           {
             "room": "Exploratorium", 
-            "session": "Session_Conference_Banquet_Chair_"
+            "session": "Conference_Banquet"
           }
         ], 
         "slot_class": "evening", 
@@ -428,7 +428,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Wed_Morn_Coffee_Break_Chair_"
+            "session": "Wed_Morn_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -462,7 +462,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Wed_Lunch_Chair_"
+            "session": "Wed_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -496,7 +496,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Closing_Keynote_Chair_"
+            "session": "Closing_Keynote"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -507,7 +507,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Wed_Afternoon_Coffee_Break_Chair_"
+            "session": "Wed_Afternoon_Coffee_Break"
           }
         ], 
         "slot_class": "afternoon2", 
