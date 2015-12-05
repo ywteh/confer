@@ -105,10 +105,13 @@ def prepare_data(data_file1):
     s_time = ' '.join(unicode(row[5], "ISO-8859-1").split(' ')[1:])
     #paper_type = unicode(row[2], "ISO-8859-1")
     session = unicode(row[6], "ISO-8859-1")
+    session_chair = unicode(row[7], "ISO-8859-1")
     
     paper_abstract = unicode(row[9], "ISO-8859-1")
     paper_authors = unicode(row[8], "ISO-8859-1")
     type = unicode(row[0], "ISO-8859-1")
+    
+    session = 'Session: ' + session + ' - Chair:' + session_chair
 
     
     if 'Hyatt' in row[1] or 'Explor' in row[1]:

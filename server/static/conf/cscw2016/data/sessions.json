@@ -1,8 +1,8 @@
 sessions={
-  "Accessibility_and_Universal_Design": {
+  "Session_Accessibility_and_Universal_Design_Chair_Judd_Antin_Facebook": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Accessibility and Universal Design", 
+    "s_title": "Session: Accessibility and Universal Design - Chair:Judd Antin, Facebook", 
     "submissions": [
       "180", 
       "315", 
@@ -11,55 +11,55 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications": {
+  "Session_Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications", 
+    "s_title": "Session: Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications - Chair:", 
     "submissions": [
       "16"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies": {
+  "Session_Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies", 
+    "s_title": "Session: Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies - Chair:", 
     "submissions": [
       "11"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science": {
+  "Session_Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Breaking into new Data-Spaces: Infrastructure for Open Community Science", 
+    "s_title": "Session: Breaking into new Data-Spaces: Infrastructure for Open Community Science - Chair:", 
     "submissions": [
       "5"
     ], 
     "time": "9:00-5:00"
   }, 
-  "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust": {
+  "Session_CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "CSCW and the \"Sharing Economy\": The Future of Platforms as Sites of Work, Collaboration and Trust", 
+    "s_title": "Session: CSCW and the \"Sharing Economy\": The Future of Platforms as Sites of Work, Collaboration and Trust - Chair:", 
     "submissions": [
       "6"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Closing_Keynote": {
+  "Session_Closing_Keynote_Chair_": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Closing Keynote", 
+    "s_title": "Session: Closing Keynote - Chair:", 
     "submissions": [
       "20"
     ], 
     "time": "4:30-6:00"
   }, 
-  "Co_present_and_Remote_Media_Use": {
+  "Session_Co_present_and_Remote_Media_Use_Chair_Jessica_Vitak_University_of_Maryland": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Co-present and Remote Media Use", 
+    "s_title": "Session: Co-present and Remote Media Use - Chair:Jessica Vitak, University of Maryland", 
     "submissions": [
       "481", 
       "109", 
@@ -68,37 +68,37 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Collaboration_and_Decision_Making_in_Crisis_Situations": {
+  "Session_Collaboration_and_Decision_Making_in_Crisis_Situations_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Collaboration and Decision Making in Crisis Situations", 
+    "s_title": "Session: Collaboration and Decision Making in Crisis Situations - Chair:", 
     "submissions": [
       "8"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies": {
+  "Session_Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies", 
+    "s_title": "Session: Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies - Chair:", 
     "submissions": [
       "3"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research": {
+  "Session_Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Collocated Interaction: New Challenges in 'Same Time, Same Place' Research", 
+    "s_title": "Session: Collocated Interaction: New Challenges in 'Same Time, Same Place' Research - Chair:", 
     "submissions": [
       "2"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Computer_Mediated_Communication": {
+  "Session_Computer_Mediated_Communication_Chair_Gary_Olson_University_of_California_Irvine": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Computer-Mediated Communication", 
+    "s_title": "Session: Computer-Mediated Communication - Chair:Gary Olson, University of California Irvine", 
     "submissions": [
       "640", 
       "406", 
@@ -107,19 +107,19 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Conference_Banquet": {
+  "Session_Conference_Banquet_Chair_": {
     "date": "Tuesday", 
     "room": "Exploratorium", 
-    "s_title": "Conference Banquet", 
+    "s_title": "Session: Conference Banquet - Chair:", 
     "submissions": [
       "31"
     ], 
     "time": "7:00PM-10:30PM"
   }, 
-  "Credibility_and_Social_Media": {
+  "Session_Credibility_and_Social_Media_Chair_Moira_Burke_Facebook": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Credibility and Social Media", 
+    "s_title": "Session: Credibility and Social Media - Chair:Moira Burke, Facebook", 
     "submissions": [
       "356", 
       "429", 
@@ -128,10 +128,10 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Crowd_Innovation_and_Crowdfunding": {
+  "Session_Crowd_Innovation_and_Crowdfunding_Chair_Brian_Bailey_University_of_Illinois": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Crowd Innovation and Crowdfunding", 
+    "s_title": "Session: Crowd Innovation and Crowdfunding - Chair:Brian Bailey, University of Illinois", 
     "submissions": [
       "562", 
       "558", 
@@ -140,10 +140,10 @@ sessions={
     ], 
     "time": "9-10:30"
   }, 
-  "Crowd_Powered_Applications": {
+  "Session_Crowd_Powered_Applications_Chair_Dan_Russell_Google": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Crowd-Powered Applications", 
+    "s_title": "Session: Crowd-Powered Applications - Chair:Dan Russell, Google", 
     "submissions": [
       "283", 
       "714", 
@@ -152,10 +152,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Crowd_Workers": {
+  "Session_Crowd_Workers_Chair_Ido_Guy_Yahoo_Labs": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Crowd Workers", 
+    "s_title": "Session: Crowd Workers - Chair:Ido Guy, Yahoo! Labs", 
     "submissions": [
       "568", 
       "228", 
@@ -164,10 +164,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Crowd_Workflows": {
+  "Session_Crowd_Workflows_Chair_Afra_Mashhadi_Bell_Labs_Dublin": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Crowd Workflows", 
+    "s_title": "Session: Crowd Workflows - Chair:Afra Mashhadi, Bell Labs Dublin", 
     "submissions": [
       "493", 
       "301", 
@@ -176,46 +176,46 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures": {
+  "Session_Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures", 
+    "s_title": "Session: Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures - Chair:", 
     "submissions": [
       "9"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design": {
+  "Session_Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
+    "s_title": "Session: Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design - Chair:", 
     "submissions": [
       "4"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Designing_online_experiments_Citizen_science_approaches_to_research": {
+  "Session_Designing_online_experiments_Citizen_science_approaches_to_research_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Designing online experiments: Citizen science approaches to research", 
+    "s_title": "Session: Designing online experiments: Citizen science approaches to research - Chair:", 
     "submissions": [
       "7"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Developing_a_Research_Agenda_for_Human_Centered_Data_Science": {
+  "Session_Developing_a_Research_Agenda_for_Human_Centered_Data_Science_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Developing a Research Agenda for Human-Centered Data Science", 
+    "s_title": "Session: Developing a Research Agenda for Human-Centered Data Science - Chair:", 
     "submissions": [
       "15"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Digital_Learning_Environments_": {
+  "Session_Digital_Learning_Environments_Chair_Michael_Prilla_Ruhr_University_of_Bochum": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Digital Learning Environments ", 
+    "s_title": "Session: Digital Learning Environments  - Chair:Michael Prilla, Ruhr University of Bochum", 
     "submissions": [
       "276", 
       "756", 
@@ -224,10 +224,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Distance_Coordination_and_Motivation": {
+  "Session_Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Distance, Coordination, and Motivation", 
+    "s_title": "Session: Distance, Coordination, and Motivation - Chair:Ingrid Erickson, Rutgers University", 
     "submissions": [
       "653", 
       "445", 
@@ -236,10 +236,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Distributed_Teams": {
+  "Session_Distributed_Teams_Chair_Pam_Hinds_Standford_University": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Distributed Teams", 
+    "s_title": "Session: Distributed Teams - Chair:Pam Hinds, Standford University", 
     "submissions": [
       "733", 
       "396", 
@@ -248,19 +248,19 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Doctoral_Symposium": {
+  "Session_Doctoral_Symposium_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Doctoral Symposium", 
+    "s_title": "Session: Doctoral Symposium - Chair:", 
     "submissions": [
       "17"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Education_in_the_Classroom_and_Beyond": {
+  "Session_Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Education in the Classroom and Beyond", 
+    "s_title": "Session: Education in the Classroom and Beyond - Chair:Sean Goggins, University of Missouri", 
     "submissions": [
       "312", 
       "371", 
@@ -269,10 +269,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Engaging_the_Crowd": {
+  "Session_Engaging_the_Crowd_Chair_Kurt_Luther_Virginia_Tech": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Engaging the Crowd", 
+    "s_title": "Session: Engaging the Crowd - Chair:Kurt Luther, Virginia Tech", 
     "submissions": [
       "457", 
       "424", 
@@ -281,10 +281,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Ethics_and_Policy": {
+  "Session_Ethics_and_Policy_Chair_Geraldine_Fitzpatrick_Vienna_University_of_Technology": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Ethics and Policy", 
+    "s_title": "Session: Ethics and Policy - Chair:Geraldine Fitzpatrick, Vienna University of Technology", 
     "submissions": [
       "520", 
       "267", 
@@ -293,10 +293,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Food_and_Health": {
+  "Session_Food_and_Health_Chair_Yunan_Chen_University_of_California_Irvine": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Food and Health", 
+    "s_title": "Session: Food and Health - Chair:Yunan Chen, University of California Irvine", 
     "submissions": [
       "300", 
       "377", 
@@ -305,10 +305,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Games": {
+  "Session_Games_Chair_Bryan_Semaan_Syracuse_University": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Games", 
+    "s_title": "Session: Games - Chair:Bryan Semaan, Syracuse University", 
     "submissions": [
       "553", 
       "400", 
@@ -317,19 +317,19 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
-  "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools": {
+  "Session_Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
+    "s_title": "Session: Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools - Chair:", 
     "submissions": [
       "14"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Hacking_Making_and_Discovering": {
+  "Session_Hacking_Making_and_Discovering_Chair_Luigina_Ciolfi_Sheffield_Hallam_University": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Hacking, Making, and Discovering", 
+    "s_title": "Session: Hacking, Making, and Discovering - Chair:Luigina Ciolfi, Sheffield Hallam University", 
     "submissions": [
       "573", 
       "256", 
@@ -338,10 +338,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Healthcare_Providers": {
+  "Session_Healthcare_Providers_Chair_Michael_Muller_IBM": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Healthcare Providers", 
+    "s_title": "Session: Healthcare Providers - Chair:Michael Muller, IBM", 
     "submissions": [
       "395", 
       "419", 
@@ -350,10 +350,10 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
-  "Home_and_Family": {
+  "Session_Home_and_Family_Chair_Lauren_Scissors_Facebook": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Home and Family", 
+    "s_title": "Session: Home and Family - Chair:Lauren Scissors, Facebook", 
     "submissions": [
       "284", 
       "495", 
@@ -362,10 +362,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Hospital_Work": {
+  "Session_Hospital_Work_Chair_Aleksandra_Sarcevic_Drexel_University": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Hospital Work", 
+    "s_title": "Session: Hospital Work - Chair:Aleksandra Sarcevic, Drexel University", 
     "submissions": [
       "737", 
       "480", 
@@ -374,10 +374,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Internatonal_Insights": {
+  "Session_Internatonal_Insights_Chair_David_McDonald_University_of_Washington": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Internatonal Insights", 
+    "s_title": "Session: Internatonal Insights - Chair:David McDonald, University of Washington", 
     "submissions": [
       "452", 
       "335", 
@@ -386,37 +386,37 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Large_scale_Collaborative_Projects_to_Affect_Societal_Change": {
+  "Session_Large_scale_Collaborative_Projects_to_Affect_Societal_Change_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Large-scale Collaborative Projects to Affect Societal Change", 
+    "s_title": "Session: Large-scale Collaborative Projects to Affect Societal Change - Chair:", 
     "submissions": [
       "13"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Lasting_Impact_Plenary_Session": {
+  "Session_Lasting_Impact_Plenary_Session_Chair_": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Lasting Impact Plenary Session", 
+    "s_title": "Session: Lasting Impact Plenary Session - Chair:", 
     "submissions": [
       "29"
     ], 
     "time": "4:30-5:30"
   }, 
-  "Let_s_talk_about_the_Quantified_Workplace": {
+  "Session_Let_s_talk_about_the_Quantified_Workplace_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Let's talk about the Quantified Workplace", 
+    "s_title": "Session: Let's talk about the Quantified Workplace - Chair:", 
     "submissions": [
       "12"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Managing_Personal_Data": {
+  "Session_Managing_Personal_Data_Chair_Sharoda_Paul_GE_Global_Research": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Managing Personal Data", 
+    "s_title": "Session: Managing Personal Data - Chair:Sharoda Paul, GE Global Research", 
     "submissions": [
       "546", 
       "449", 
@@ -425,10 +425,10 @@ sessions={
     ], 
     "time": "4:30 - 6:00"
   }, 
-  "Mobile_Design_and_Usage": {
+  "Session_Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Mobile Design and Usage", 
+    "s_title": "Session: Mobile Design and Usage - Chair:Brian Keegan, Harvard Business School", 
     "submissions": [
       "522", 
       "266", 
@@ -437,10 +437,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Modeling_Social_Media": {
+  "Session_Modeling_Social_Media_Chair_Sadat_Shami_IBM": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Modeling Social Media", 
+    "s_title": "Session: Modeling Social Media - Chair:Sadat Shami, IBM", 
     "submissions": [
       "552", 
       "655", 
@@ -449,34 +449,37 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Mon_Afternoon_Coffee_Break": {
+  "Session_Mon_Afternoon_Coffee_Break_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Mon Afternoon Coffee Break - Chair:", 
     "submissions": [
+      "23"
     ], 
     "time": "4:00-4:30"
   }, 
-  "Mon_Lunch": {
+  "Session_Mon_Lunch_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Lunch", 
+    "s_title": "Session: Mon Lunch - Chair:", 
     "submissions": [
+      "22"
     ], 
     "time": "12:30-2:30"
   }, 
-  "Mon_Morn_Coffee_Break": {
+  "Session_Mon_Morn_Coffee_Break_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Mon Morn Coffee Break - Chair:", 
     "submissions": [
+      "21"
     ], 
     "time": "10:30-11:00"
   }, 
-  "Multimedia_Creation_and_Remixing": {
+  "Session_Multimedia_Creation_and_Remixing_Chair_Louise_Barkhuus_Stockholm_University": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Multimedia Creation and Remixing", 
+    "s_title": "Session: Multimedia Creation and Remixing - Chair:Louise Barkhuus, Stockholm University", 
     "submissions": [
       "179", 
       "316", 
@@ -485,10 +488,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Museums_and_Public_Spaces": {
+  "Session_Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Museums and Public Spaces", 
+    "s_title": "Session: Museums and Public Spaces - Chair:Jennifer Marlow, FXPAL", 
     "submissions": [
       "359", 
       "354", 
@@ -497,10 +500,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Newcomers_in_Peer_Production": {
+  "Session_Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Foundation": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Newcomers in Peer Production", 
+    "s_title": "Session: Newcomers in Peer Production - Chair:Aaron Halfaker, Wikimedia Foundation", 
     "submissions": [
       "561", 
       "503", 
@@ -509,10 +512,10 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
-  "Non_Profits_and_Humanitarian_Responses": {
+  "Session_Non_Profits_and_Humanitarian_Responses_Chair_Marcos_R_S_Borges_Universidade_Federal_do_Rio_de_Janeiro": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Non-Profits and Humanitarian Responses", 
+    "s_title": "Session: Non-Profits and Humanitarian Responses - Chair:Marcos R. S. Borges, Universidade Federal do Rio de Janeiro", 
     "submissions": [
       "475", 
       "669", 
@@ -521,10 +524,10 @@ sessions={
     ], 
     "time": "9:00-10:30"
   }, 
-  "Online_Communities": {
+  "Session_Online_Communities_Chair_Mor_Naaman_Cornell_Tech": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Online Communities", 
+    "s_title": "Session: Online Communities - Chair:Mor Naaman, Cornell Tech", 
     "submissions": [
       "196", 
       "548", 
@@ -533,10 +536,10 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
-  "Open_Science_and_Infrastructures": {
+  "Session_Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Open Science and Infrastructures", 
+    "s_title": "Session: Open Science and Infrastructures - Chair:Matt Bietz, University of California, Irvine", 
     "submissions": [
       "734", 
       "685", 
@@ -545,19 +548,19 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Opening_Keynote": {
+  "Session_Opening_Keynote_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Opening & Keynote", 
+    "s_title": "Session: Opening & Keynote - Chair:", 
     "submissions": [
       "19"
     ], 
     "time": "9:00 - 10:30"
   }, 
-  "Parents_and_Children": {
+  "Session_Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Parents and Children", 
+    "s_title": "Session: Parents and Children - Chair:Svetlana Yarosh, University of Minnesota", 
     "submissions": [
       "162", 
       "229", 
@@ -566,19 +569,19 @@ sessions={
     ], 
     "time": "9:00-10:30"
   }, 
-  "Poster_Demo_Reception": {
+  "Session_Poster_Demo_Reception_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Poster & Demo Reception", 
+    "s_title": "Session: Poster & Demo Reception - Chair:", 
     "submissions": [
       "24"
     ], 
     "time": "6:00-8:00PM"
   }, 
-  "Relationships_and_Romance": {
+  "Session_Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Relationships and Romance", 
+    "s_title": "Session: Relationships and Romance - Chair:Andrea Parker, Northeastern University", 
     "submissions": [
       "752", 
       "142", 
@@ -587,10 +590,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Rich_Telepresence": {
+  "Session_Rich_Telepresence_Chair_John_Tang_Microsoft_Research": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Rich Telepresence", 
+    "s_title": "Session: Rich Telepresence - Chair:John Tang, Microsoft Research", 
     "submissions": [
       "305", 
       "332", 
@@ -599,10 +602,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Social_Network_Methods": {
+  "Session_Social_Network_Methods_Chair_Wendy_Ju_Stanford_University": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Social Network Methods", 
+    "s_title": "Session: Social Network Methods - Chair:Wendy Ju, Stanford University", 
     "submissions": [
       "501", 
       "325", 
@@ -611,28 +614,28 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Sponsored_Hospitality_Receptions": {
+  "Session_Sponsored_Hospitality_Receptions_Chair_": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Sponsored Hospitality Receptions", 
+    "s_title": "Session: Sponsored Hospitality Receptions - Chair:", 
     "submissions": [
       "25"
     ], 
     "time": "8:00PM-10:30PM"
   }, 
-  "Toward_a_Typology_of_Participation_in_Crowdwork": {
+  "Session_Toward_a_Typology_of_Participation_in_Crowdwork_Chair_": {
     "date": "Sunday", 
     "room": "TBD", 
-    "s_title": "Toward a Typology of Participation in Crowdwork", 
+    "s_title": "Session: Toward a Typology of Participation in Crowdwork - Chair:", 
     "submissions": [
       "10"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Towards_Physical_and_Social_Wellness": {
+  "Session_Towards_Physical_and_Social_Wellness_Chair_Xiaomu_Zhou_Rutgers_University": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Towards Physical and Social Wellness", 
+    "s_title": "Session: Towards Physical and Social Wellness - Chair:Xiaomu Zhou, Rutgers University", 
     "submissions": [
       "253", 
       "578", 
@@ -641,43 +644,46 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Town_Hall_Meeting": {
+  "Session_Town_Hall_Meeting_Chair_": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Town Hall Meeting", 
+    "s_title": "Session: Town Hall Meeting - Chair:", 
     "submissions": [
       "30"
     ], 
     "time": "5:30-6:00"
   }, 
-  "Tues_Afternoon_Coffee_Break": {
+  "Session_Tues_Afternoon_Coffee_Break_Chair_": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Tues Afternoon Coffee Break - Chair:", 
     "submissions": [
+      "28"
     ], 
     "time": "4:00-4:30"
   }, 
-  "Tues_Lunch": {
+  "Session_Tues_Lunch_Chair_": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Lunch", 
+    "s_title": "Session: Tues Lunch - Chair:", 
     "submissions": [
+      "27"
     ], 
     "time": "12:30-2:30"
   }, 
-  "Tues_Morn_Coffee_Break": {
+  "Session_Tues_Morn_Coffee_Break_Chair_": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Tues Morn Coffee Break - Chair:", 
     "submissions": [
+      "26"
     ], 
     "time": "10:30-11:00"
   }, 
-  "Unpacking_Social_Networks": {
+  "Session_Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Unpacking Social Networks", 
+    "s_title": "Session: Unpacking Social Networks - Chair:Eric Gilbert, Georgia Tech", 
     "submissions": [
       "373", 
       "125", 
@@ -686,52 +692,55 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Wed_Afternoon_Coffee_Break": {
+  "Session_Wed_Afternoon_Coffee_Break_Chair_": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Wed Afternoon Coffee Break - Chair:", 
     "submissions": [
+      "34"
     ], 
     "time": "4:00-4:30"
   }, 
-  "Wed_Lunch": {
+  "Session_Wed_Lunch_Chair_": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Lunch", 
+    "s_title": "Session: Wed Lunch - Chair:", 
     "submissions": [
+      "33"
     ], 
     "time": "12:30-2:30"
   }, 
-  "Wed_Morn_Coffee_Break": {
+  "Session_Wed_Morn_Coffee_Break_Chair_": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Coffee Break", 
+    "s_title": "Session: Wed Morn Coffee Break - Chair:", 
     "submissions": [
+      "32"
     ], 
     "time": "10:30-11:00"
   }, 
-  "Welcome_Reception": {
+  "Session_Welcome_Reception_Chair_": {
     "date": "Sunday", 
     "room": "Hyatt Regency", 
-    "s_title": "Welcome Reception", 
+    "s_title": "Session: Welcome Reception - Chair:", 
     "submissions": [
       "18"
     ], 
     "time": "5:00-6:30"
   }, 
-  "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments": {
+  "Session_Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments_Chair_": {
     "date": "Saturday", 
     "room": "TBD", 
-    "s_title": "Where did my Office go? Is it in the Cloud!?? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments", 
+    "s_title": "Session: Where did my Office go? Is it in the Cloud!?? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments - Chair:", 
     "submissions": [
       "1"
     ], 
     "time": "9:00-5:00"
   }, 
-  "Work_and_Work_Environments": {
+  "Session_Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Work and Work Environments", 
+    "s_title": "Session: Work and Work Environments - Chair:Steve Poltrock, Boeing (retired)", 
     "submissions": [
       "184", 
       "531", 

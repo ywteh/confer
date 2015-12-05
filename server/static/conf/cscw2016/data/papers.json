@@ -11,7 +11,7 @@ entities={
     "type": "paper"
   }, 
   "1": {
-    "abstract": "The physical workplace - a hub for communication, collaboration and co-located interaction - can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems \u00d0 objects/devices, buildings and even cities created from web-based services and IoT \u00d0 thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
+    "abstract": "The physical workplace _ a hub for communication, collaboration and co-located interaction _ can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems _ objects/devices, buildings and even cities created from web-based services and IoT _ thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
     "authors": [
       {
         "name": ""
@@ -73,7 +73,7 @@ entities={
     "type": "paper"
   }, 
   "11": {
-    "abstract": "This one-day workshop aims to stimulate discussion in Cyberinfrastructure (CI) Studies on closing the feedback loop between research, practice and policy. As scientific work becomes increasingly collaborative, interdisciplinary and distributed, practitioners of science are seeking ways to make working across boundaries less burdensome. CI studies, with their focus on topics such as data sharing and reuse, collaboration and coordination, management of virtual organizations, citizen science, and development of scientific software, have the potential to provide evidence to support practitioners. Yet little research has focused on how to do so. Here, we will explore the public health concept of dissemination and implementation (D&I) and how to apply its core tenets to implementing evidence-based interventions for the practice of science. We will take a \"hackathon\" approach, involving CI researchers and practitioners in developing a rapid prototype of an evidence-based intervention such as a practice guideline, policy proposal, or app design. ", 
+    "abstract": "This one-day workshop aims to stimulate discussion in Cyberinfrastructure (CI) Studies on closing the feedback loop between research, practice and policy. As scientific work becomes increasingly collaborative, interdisciplinary and distributed, practitioners of science are seeking ways to make working across boundaries less burdensome. CI studies, with their focus on topics such as data sharing and reuse, collaboration and coordination, management of virtual organizations, citizen science, and development of scientific software, have the potential to provide evidence to support practitioners. Yet little research has focused on how to do so. Here, we will explore the public health concept of dissemination and implementation (D&I) and how to apply its core tenets to implementing evidence-based interventions for the practice of science. We will take a hackathon approach, involving CI researchers and practitioners in developing a rapid prototype of an evidence-based intervention such as a practice guideline, policy proposal, or app design. ", 
     "authors": [
       {
         "name": ""
@@ -194,7 +194,7 @@ entities={
         "name": "Corey Brian Jackson"
       }, 
       {
-        "name": "Carsten \u00afsterlund"
+        "name": "Carsten \u00f8sterlund"
       }, 
       {
         "name": "Veronica Maidel1"
@@ -240,7 +240,7 @@ entities={
     "type": "paper"
   }, 
   "16": {
-    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u00d1focusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
+    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u0084focusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
     "authors": [
       {
         "name": ""
@@ -261,7 +261,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\"Thanks for your interest in our Facebook group, but it's only for dads:\" Social Roles of Stay-at-Home Dads", 
+    "title": "Thanks for your interest in our Facebook group, but it's only for dads: Social Roles of Stay-at-Home Dads", 
     "type": "paper"
   }, 
   "17": {
@@ -387,14 +387,17 @@ entities={
     "type": "paper"
   }, 
   "19": {
-    "abstract": "", 
+    "abstract": "How do you tell stories with one of the world's biggest publicly available datasets? Where are the insights in such a nuanced set of information, and how can they be relayed in ways that are visually interesting and tell us real lessons about the way we live today? Can that data be used to predict elections, reveal what we really think about the world's big issues, or even how to analyze roadkill figures?", 
     "authors": [
       {
         "name": "Simon Rogers"
+      }, 
+      {
+        "name": "Google"
       }
     ], 
     "subtype": "special", 
-    "title": "Opening & Keynote", 
+    "title": "Beyond the Social Media Echo Chamber: Data Journalism with Search Data", 
     "type": "special"
   }, 
   "195": {
@@ -408,7 +411,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\"Just Cast the Net, and Hopefully the Right Fish Swim into It\": Audience Management on Social Network Sites", 
+    "title": "Just Cast the Net, and Hopefully the Right Fish Swim into It: Audience Management on Social Network Sites", 
     "type": "paper"
   }, 
   "196": {
@@ -455,7 +458,7 @@ entities={
     "type": "paper"
   }, 
   "2": {
-    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the 'same time, same place' quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
+    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u00efsame time, same place\u00cd quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
     "authors": [
       {
         "name": ""
@@ -466,10 +469,13 @@ entities={
     "type": "workshop"
   }, 
   "20": {
-    "abstract": "CSCW research is rich with examples of how the design, defaults, and social norms of digital systems affect behavior, be it in shared calendars or on social sites. How does this play out at a scale of 400 million users? In this talk, Instagram co-founder Mike Krieger will walk through how design decisions at Instagram -- large and small -- have influenced user behavior in the first five years of the product. For example, how has Instagram's asymmetric \"follow\" model shaped the connections its users have formed? Mike will also discuss examples of emergent norms that have arisen unexpectedly on Instagram, but can be traced to specific design decisions in the product.", 
+    "abstract": "CSCW research is rich with examples of how the design, defaults, and social norms of digital systems affect behavior, be it in shared calendars or on social sites. How does this play out at a scale of 400 million users? In this talk, Instagram co-founder Mike Krieger will walk through how design decisions at Instagram -- large and small -- have influenced user behavior in the first five years of the product. For example, how has Instagram's asymmetric follow model shaped the connections its users have formed? Mike will also discuss examples of emergent norms that have arisen unexpectedly on Instagram, but can be traced to specific design decisions in the product.", 
     "authors": [
       {
         "name": "Mike Krieger"
+      }, 
+      {
+        "name": "Instagram"
       }
     ], 
     "subtype": "special", 
@@ -489,6 +495,17 @@ entities={
     "subtype": "paper", 
     "title": "You Get Who You Pay for: The Impact of Incentives on Participation Bias", 
     "type": "paper"
+  }, 
+  "21": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
   }, 
   "212": {
     "abstract": "In this paper we discuss results of a field study focused on understanding the ways money and financial issues are handled within family settings. Families develop 'systems' or methods through which they coordinate and manage their everyday financial activities. Through an analysis of our fieldwork data collected from fifteen families, we provide several examples of such systems, highlighting their qualities and illustrating how such systems come to support the handling of financial activities in the home. Our results show that these systems are developed with a careful consideration of familial values, relationships and routines; and incorporate the use of physical and digital tools. Consequently, we suggest that design should consider the use and non-use of technology when supporting household financial management, taking into account the richness of families' existing organically formed practices surrounding financial systems. Finally, our findings point to the fact that financial management in the domestic setting is socially organized and is closely connected to supporting everyday household activities.", 
@@ -526,7 +543,18 @@ entities={
     "subtype": "paper", 
     "title": "Effects of the Display Angle on Social Behaviors of the People around the Display: A Field Study at a Museum", 
     "type": "paper"
-  },  
+  }, 
+  "22": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Lunch", 
+    "type": "special"
+  }, 
   "228": {
     "abstract": "Organisers of large-scale crowdsourcing initiatives need to consider how to produce outcomes with their projects, but also how to build volunteer capacity. The initial project experience of contributors plays an important role in this, particularly when the contribution process requires some degree of expertise. We propose three analytical dimensions to assess first-time contributor engagement based on readily available public data: cohort analysis, task analysis, and observation of contributor performance. We apply these to a large-scale study of remote mapping activities coordinated by the Humanitarian OpenStreetMap Team, a global volunteer effort with thousands of contributors. Our study shows that different coordination practices can have a marked impact on contributor retention, and that complex task designs can be a deterrent for certain contributor groups. We close by providing recommendations about how to build and sustain volunteer capacity in these and comparable crowdsourcing systems.", 
     "authors": [
@@ -545,7 +573,7 @@ entities={
     "type": "paper"
   }, 
   "229": {
-    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"can't put it down.\" This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
+    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u00eccan't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
     "authors": [
       {
         "name": "Alexis Hiniker"
@@ -558,8 +586,19 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Not at the Dinner Table: Parents' and Children's Perspectives on Family Technology Rules", 
+    "title": "Not at the Dinner Table: Parents\u00cd and Children\u00cds Perspectives on Family Technology Rules", 
     "type": "paper"
+  }, 
+  "23": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
   }, 
   "232": {
     "abstract": "Online Behavioral Advertising (OBA), which involves tracking people's online behaviors, raises serious privacy concerns. We present results from a scenario-based online survey study on American and Chinese Internet users' privacy preferences of OBA. Since privacy is context-dependent, we investigated the effects of country (US vs. China), activity (e.g., online shopping vs. online banking), and platform (desktop/laptop vs. mobile app) on people's willingness to share their information for OBA. We found that American respondents were significantly less willing to share their data and had more specific concerns than their Chinese counterparts. We situate these differences in the broader historical, legal, and social scenes of these countries. We also found that respondents' OBA preferences varied significantly across different online activities, suggesting the potential of context-aware privacy tools for OBA. However, we did not find a significant effect of platform on people's OBA preferences. Lastly, we discuss design implications for privacy tools.", 
@@ -575,7 +614,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Examining American and Chinese Internet Users' Contextual Privacy Preferences of Behavioral Advertising", 
+    "title": "Examining American and Chinese Internet Users\u00cd Contextual Privacy Preferences of Behavioral Advertising", 
     "type": "paper"
   }, 
   "235": {
@@ -619,7 +658,7 @@ entities={
     "type": "paper"
   }, 
   "238": {
-    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends - often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
+    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u00f1 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
     "authors": [
       {
         "name": "Elena Agapie"
@@ -685,7 +724,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "It's (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
+    "title": "It\u00cds (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
     "type": "paper"
   }, 
   "256": {
@@ -715,7 +754,7 @@ entities={
         "name": "Michaelanne Dye"
       }, 
       {
-        "name": "Annie Ant\u0097n"
+        "name": "Annie Ant\u00d1n"
       }, 
       {
         "name": "Amy S. Bruckman"
@@ -724,6 +763,17 @@ entities={
     "subtype": "paper", 
     "title": "Early Adopters of the Internet and Social Media in Cuba", 
     "type": "paper"
+  }, 
+  "26": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
   }, 
   "266": {
     "abstract": "Unlike most social media, where automatic archiving of data is the default, Snapchat defaults to ephemerality: deleting content shortly after it is viewed by a receiver. Interviews with 25 Snapchat users show that ephemerality plays a key role in shaping their practices. Along with friend-adding features that facilitate a network of mostly close relations, default deletion affords everyday, mundane talk and reduces self-consciousness while encouraging playful interaction. Further, although receivers can save content through screenshots, senders are notified; this selective saving with notification supports complex information norms that preserve the feel of ephemeral communication while supporting the capture of meaningful content. This dance of giving and taking, sharing and showing, and agency for both senders and receivers provides the basis for a rich design space of mechanisms, levels, and domains for ephemerality.", 
@@ -765,8 +815,19 @@ entities={
     "title": "Opportunities and Challenges Around a Tool for Social and Public Web Activity Tracking", 
     "type": "paper"
   }, 
+  "27": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Lunch", 
+    "type": "special"
+  }, 
   "273": {
-    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u00d2 rational explanation, constructive suggestion, and social encouragement \"\u00d2 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
+    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u00f1 rational explanation, constructive suggestion, and social encouragement \"\u00f1 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
     "authors": [
       {
         "name": "Wenjian Huang"
@@ -804,7 +865,7 @@ entities={
         "name": "Amy Cheatle"
       }, 
       {
-        "name": "Corinna E. L\u009ackenhoff"
+        "name": "Corinna E. L_ckenhoff"
       }, 
       {
         "name": "Steven J. Jackson"
@@ -834,6 +895,17 @@ entities={
     "title": "Complex Decision-Making in Clinical Practice", 
     "type": "paper"
   }, 
+  "28": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
+  }, 
   "283": {
     "abstract": "Expert feedback is valuable but hard to obtain for many designers. Online crowds can provide fast and affordable feedback, but workers may lack relevant domain knowledge and experience. Can expert rubrics address this issue and help novices provide expert-level feedback? To evaluate this, we conducted an experiment with a 2x2 factorial design. Student designers received feedback on a visual design from both experts and novices, who produced feedback using either an expert rubric or no rubric. We found that rubrics helped novice workers provide feedback that was rated nearly as valuable as expert feedback. A follow-up analysis on writing style showed that student designers found feedback most helpful when it was emotionally positive and specific, and that a rubric increased the occurrence of these characteristics in feedback. The analysis also found that expertise correlated with longer critiques, but not the other favorable characteristics. An informal evaluation indicates that experts may instead have produced value by providing clearer justifications.", 
     "authors": [
@@ -853,7 +925,7 @@ entities={
         "name": "Steven P. Dow"
       }, 
       {
-        "name": "Bj\u00acorn Hartmann"
+        "name": "Bj\u00c2orn Hartmann"
       }
     ], 
     "subtype": "paper", 
@@ -875,10 +947,13 @@ entities={
     "type": "paper"
   }, 
   "29": {
-    "abstract": "", 
+    "abstract": "This year's CSCW Lasting Impact Award will be presented to Paul Dourish and Victoria Bellotti, for their CSCW 1992 paper \"Awareness and Coordination in Shared Workspaces.\" At this plenary session, discussants will reflect on the importance of this piece of work to our field.", 
     "authors": [
       {
-        "name": ""
+        "name": "Paul Dourish"
+      }, 
+      {
+        "name": "Victoria Bellotti"
       }
     ], 
     "subtype": "special", 
@@ -915,7 +990,7 @@ entities={
     "type": "paper"
   }, 
   "3": {
-    "abstract": "Previous workshops examined how individual users adopt and adapt technologies to meet local needs, \u00d2completing design through use.\u00d3 However, there has been little systematic study of how groups engage collaboratively in these activities. This workshop opens a discussion for these forms of collaborative appropriation, including field studies, design explorations, theoretical accounts, and critical reflections. We invite submissions addressing the following and other topics in collaborative appropriation: Practical experiences in design for collaborative appropriation; Flexible, open design and tailorability as support for collaborative appropriation; Design goals, guidelines, and principles for collaborative appropriation; Major drivers to design for collaborative appropriation; Emergent roles (actors) in collaborative appropriation practices; Characterization and differentiation of collaborative appropriation between couples, teams, groups, and communities; Lessons learned from other design movements and research domains to inform the design for collaborative appropriation.", 
+    "abstract": "Previous workshops examined how individual users adopt and adapt technologies to meet local needs, completing design through use. However, there has been little systematic study of how groups engage collaboratively in these activities. This workshop opens a discussion for these forms of collaborative appropriation, including field studies, design explorations, theoretical accounts, and critical reflections. We invite submissions addressing the following and other topics in collaborative appropriation: Practical experiences in design for collaborative appropriation; Flexible, open design and tailorability as support for collaborative appropriation; Design goals, guidelines, and principles for collaborative appropriation; Major drivers to design for collaborative appropriation; Emergent roles (actors) in collaborative appropriation practices; Characterization and differentiation of collaborative appropriation between couples, teams, groups, and communities; Lessons learned from other design movements and research domains to inform the design for collaborative appropriation.", 
     "authors": [
       {
         "name": ""
@@ -1021,7 +1096,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Identity Work on Social Network Sites: Disadvantaged Students' College Transition Processes", 
+    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u00cd College Transition Processes", 
     "type": "paper"
   }, 
   "315": {
@@ -1063,6 +1138,17 @@ entities={
     "subtype": "paper", 
     "title": "YouthTube: Youth Video Authorship on YouTube and Vine", 
     "type": "paper"
+  }, 
+  "32": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
   }, 
   "325": {
     "abstract": "Research into socio-technical systems like Wikipedia has overlooked important structural patterns in the coordination of distributed work. This paper argues for a conceptual reorientation towards sequences as a fundamental unit of analysis for understanding work routines in online knowledge collaboration. We outline a research agenda for researchers in computer-supported cooperative work (CSCW) to understand the relationships, patterns, antecedents, and consequences of sequential behavior using methods already developed in fields like bio-informatics. Using a data set of 37,515 revisions from 16,616 unique editors to 96 Wikipedia articles as a case study, we analyze the prevalence and significance of different sequences of editing patterns. We illustrate the mixed method potential of sequence approaches by interpreting the frequent patterns as general classes of behavioral motifs. We conclude by discussing the methodological opportunities for using sequence analysis for expanding existing approaches to analyzing and theorizing about co-production routines in online knowledge collaboration.", 
@@ -1130,6 +1216,17 @@ entities={
     "title": "How Information Snowballs: Exploring the Role of Exposure in Online Rumor Propagation", 
     "type": "paper"
   }, 
+  "33": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Lunch", 
+    "type": "special"
+  }, 
   "332": {
     "abstract": "Room2Room is a telepresence system that leverages projected augmented reality to enable life-size, co-present interaction between two remote participants. Our solution recreates the experience of a face-to-face conversation by performing 3D capture of the local user with color + depth cameras and projecting their life-size virtual copy into the remote space. This creates an illusion of the remote per-son's physical presence in the local space, as well as a shared understanding of verbal and non-verbal cues (e.g., gaze, pointing.) In addition to the technical details of two prototype implementations, we contribute strategies for projecting remote participants onto physically plausible locations, such that they form a natural and consistent conversational formation with the local participant. We also present observations and feedback from an evaluation with 7 pairs of participants on the usability of our solution for solving a collaborative, physical task.", 
     "authors": [
@@ -1166,6 +1263,17 @@ entities={
     "subtype": "paper", 
     "title": "Surveillance & Modesty on Social Media: How Qataris Navigate Modernity and Maintain Tradition", 
     "type": "paper"
+  }, 
+  "34": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": ""
+      }
+    ], 
+    "subtype": "special", 
+    "title": "Coffee Break", 
+    "type": "special"
   }, 
   "354": {
     "abstract": "In this paper we reflect on the process of co-design by detailing and comparing two strategies for the participatory development of interaction concepts and prototypes in the context of technologically-enhanced museum visiting experiences. While much work in CSCW, HCI and related disciplines has examined different role configurations in co-design, more research is needed on examining how collaborative design processes can unfold in different ways. Here we present two instances of co-design of museum visiting aids, one stemming from an open brief, another from an initial working prototype; we discuss the process in each case and discuss how these alternative strategies presented the team with different possibilities as well as constraints, and led to different patterns of collaboration within the design team. Finally, we draw a set of themes for discussion and reflection to inform and aid researchers and practitioners participating in similar co-design processes, particularly in the domain of cultural heritage.", 
@@ -1524,7 +1632,7 @@ entities={
         "name": "William Hale"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0087ndez"
+        "name": "Andr_s Monroy-Hern\u00e0ndez"
       }, 
       {
         "name": "Benjamin Mako Hill"
@@ -1541,10 +1649,10 @@ entities={
         "name": "Saiph Savage"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0087ndez"
+        "name": "Andr_s Monroy-Hern\u00e0ndez"
       }, 
       {
-        "name": "Tobias H\u00acollerer"
+        "name": "Tobias H\u00c2ollerer"
       }
     ], 
     "subtype": "paper", 
@@ -1571,7 +1679,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Keeping Up with the Tweet-dashians: The Impact of \u00d4Official' Accounts on Online Rumoring", 
+    "title": "Keeping Up with the Tweet-dashians: The Impact of Official Accounts on Online Rumoring", 
     "type": "paper"
   }, 
   "430": {
@@ -1647,11 +1755,11 @@ entities={
         "name": "Thomas Olsson"
       }, 
       {
-        "name": "Kaisa V\u008a\u008an\u008anen"
+        "name": "Kaisa V__n_nen"
       }
     ], 
     "subtype": "paper", 
-    "title": "Increasing Collocated People's Awareness of the Mobile User's Activities: a Field Trial of Social Displays", 
+    "title": "Increasing Collocated People\u00cds Awareness of the Mobile User\u00cds Activities: a Field Trial of Social Displays", 
     "type": "paper"
   }, 
   "445": {
@@ -1668,7 +1776,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Vendors' Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
+    "title": "Vendors\u00cd Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
     "type": "paper"
   }, 
   "449": {
@@ -1691,7 +1799,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d2This has to be the cats\u00d3 - Personal Data Legibility in Networked Sensing Systems", 
+    "title": "This has to be the cats - Personal Data Legibility in Networked Sensing Systems", 
     "type": "paper"
   }, 
   "451": {
@@ -1712,7 +1820,7 @@ entities={
     "type": "paper"
   }, 
   "452": {
-    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u00d2 including family members, friends, co-workers, and others \"\u00d2 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
+    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u00f1 including family members, friends, co-workers, and others \"\u00f1 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
     "authors": [
       {
         "name": "Guo Li"
@@ -1793,7 +1901,7 @@ entities={
         "name": "Hannu Kukka"
       }, 
       {
-        "name": "Iv\u0087n S\u0087nchez"
+        "name": "Iv\u00e0n S\u00e0nchez"
       }, 
       {
         "name": "Vassilis Kostakos"
@@ -1817,14 +1925,14 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d2Helping Others Makes Me Happy\u00d3: Social Interaction and Integration of People with Disabilities", 
+    "title": "Helping Others Makes Me Happy: Social Interaction and Integration of People with Disabilities", 
     "type": "paper"
   }, 
   "468": {
     "abstract": "This paper focuses on the complex and intimate setting of domestic home care. The majority of care for chronically ill people is realized by non-professionals, the relatives, who are often overlooked. Many of these informal caregivers are also elderly and face multiple, seriously demanding challenges in the context of informal care 24/7. In order to support this increasing user group, their cooperative work and coordination adequately, it is essential to gain a better understanding of their care practices and needs. This paper is based on ethnography in ten households in Germany. It combines data from the analysis of participant observations over eight months, interviews and cultural probes. Besides detailed descriptions of two cases, the central features of informal care experience and implications for design are discussed: the self-concept of the caregivers as being care experts, the need for social support, timing issues and coordination with other actors in this field.", 
     "authors": [
       {
-        "name": "Mar\u008en Schorch"
+        "name": "Mar_n Schorch"
       }, 
       {
         "name": "Lin Wan"
@@ -1837,7 +1945,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Designing for Those who are Overlooked \u00d0 Insider Perspectives on Care Practices and Cooperative Work of Elderly Informal Caregivers", 
+    "title": "Designing for Those who are Overlooked _ Insider Perspectives on Care Practices and Cooperative Work of Elderly Informal Caregivers", 
     "type": "paper"
   }, 
   "471": {
@@ -1855,7 +1963,7 @@ entities={
     "type": "paper"
   }, 
   "475": {
-    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u00cc\u00d1 more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
+    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u00ed\u0084 more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
     "authors": [
       {
         "name": "Morgan Vigil"
@@ -1964,10 +2072,10 @@ entities={
         "name": "Henrik Blunck"
       }, 
       {
-        "name": "Mikkel Baun Kj\u00bergaard"
+        "name": "Mikkel Baun Kj_rgaard"
       }, 
       {
-        "name": "Kaj Gr\u00bfnb\u00bek"
+        "name": "Kaj Gr\u00c0nb_k"
       }
     ], 
     "subtype": "paper", 
@@ -1978,7 +2086,7 @@ entities={
     "abstract": "The development of strong social and emotional skills is central to personal wellbeing. Increasingly, these skills are being taught in schools through well researched curricula. Such social-emotional learning (SEL) curricula are most effective if reinforced by parents, thus transferring the skills into everyday contexts. Traditional SEL programs have however had limited success in engaging parents, and we argue that technology might be able to help bridge this school-home divide. Through interviews with SEL experts we identified central design considerations for technology and SEL content: the reliance on experiential learning and the need to scaffold the parents in scaffolding the interaction for their children. This informed the design of a technology probe comprising a magnet card and online SEL activities, deployed in a school and via Mturk. The results provide a nuanced understanding of how technology-based interventions could bridge the school-home gap in real-world settings and support at-home reinforcement of children's social-emotional skills. ", 
     "authors": [
       {
-        "name": "Petr Slov\u0087k"
+        "name": "Petr Slovak"
       }, 
       {
         "name": "Kael Rowan"
@@ -2003,7 +2111,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Scaffolding the scaffolding: Supporting children's social-emotional learning at home", 
+    "title": "Scaffolding the scaffolding: Supporting children\u00cds social-emotional learning at home", 
     "type": "paper"
   }, 
   "5": {
@@ -2032,7 +2140,7 @@ entities={
     "type": "paper"
   }, 
   "503": {
-    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u00d2 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u00d2 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
+    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u00f1 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u00f1 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
     "authors": [
       {
         "name": "Raghav Pavan Karumur"
@@ -2370,7 +2478,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "Encouraging \u00d2Outside-_the-_box\u00d3 Thinking in Crowd Innovation Through Identifying Domains of Expertise", 
+    "title": "Encouraging Outside-the-box Thinking in Crowd Innovation Through Identifying Domains of Expertise", 
     "type": "paper"
   }, 
   "564": {
@@ -2391,7 +2499,7 @@ entities={
     "type": "paper"
   }, 
   "568": {
-    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u00d2 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
+    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u00f1 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
     "authors": [
       {
         "name": "Noopur Raval"
@@ -2456,7 +2564,7 @@ entities={
     "abstract": "In this paper, we present a case study of an urban organic food community and examine the way the community shapes its artifact ecology through a combination of appropriation of freely or cheaply available tools, and the long-term effort of building the community's own website. Based on participatory observation, content analysis of communication documents, and a series of interviews, we see how the collection of artifacts that a community uses to support their practice form what we refer to as their community artifact ecology. A community artifact ecology is multifaceted, dynamic and pending on what the members bring to the table, as well as on particular situations of use. The community artifact ecology concept is important for CSCW as it enables framing of the relationship between communities and technologies beyond the single artifact and beyond a static view of a dedicated technology.", 
     "authors": [
       {
-        "name": "Susanne B\u00bfdker"
+        "name": "Susanne B\u00c0dker"
       }, 
       {
         "name": "Henrik Korsgaard"
@@ -2466,11 +2574,11 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d4A Farmer, a Place and at least 20 Members' The Development of Artifact Ecologies in Volunteer-based Communities", 
+    "title": "\u00efA Farmer, a Place and at least 20 Members\u00cd The Development of Artifact Ecologies in Volunteer-based Communities", 
     "type": "paper"
   }, 
   "6": {
-    "abstract": "Networked platforms for peer-to-peer exchange and on-demand labor, along with the practices that they foster, are attracting increasing attention from CSCW scholars. This workshop seeks to bring the emerging community together to explore how the new domain of \u00d2sharing economy\u00d3 research could help shift forward broader conceptual and theoretical efforts within CSCW, and how, on the other hand, we might utilize prior work more effectively to inform our research agenda and efforts in this emerging sub-area of the field. In particular, the workshop focuses on the future of platforms as sites of work, collaboration and trust. The workshop approaches sharing and the \u00d2sharing economy\u00d3 phenomenon inclusively, adopting a \u00d2big tent\u00d3 approach to invite broad participation. The one-day event will consist of diverse activities, with an emphasis on in-depth conversations, community building, and support for establishing new collaborations. ", 
+    "abstract": "Networked platforms for peer-to-peer exchange and on-demand labor, along with the practices that they foster, are attracting increasing attention from CSCW scholars. This workshop seeks to bring the emerging community together to explore how the new domain of sharing economy research could help shift forward broader conceptual and theoretical efforts within CSCW, and how, on the other hand, we might utilize prior work more effectively to inform our research agenda and efforts in this emerging sub-area of the field. In particular, the workshop focuses on the future of platforms as sites of work, collaboration and trust. The workshop approaches sharing and the sharing economy phenomenon inclusively, adopting a big tent approach to invite broad participation. The one-day event will consist of diverse activities, with an emphasis on in-depth conversations, community building, and support for establishing new collaborations. ", 
     "authors": [
       {
         "name": ""
@@ -2497,7 +2605,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "\u00d2Hunger Hurts but Starving Works:\u00d3 Characterizing the Presentation of Eating Disorders Online", 
+    "title": "Hunger Hurts but Starving Works: Characterizing the Presentation of Eating Disorders Online", 
     "type": "paper"
   }, 
   "609": {
@@ -2557,7 +2665,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "When Distance Doesn't Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
+    "title": "When Distance Doesn\u00cdt Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
     "type": "paper"
   }, 
   "620": {
@@ -2633,7 +2741,7 @@ entities={
       }
     ], 
     "subtype": "paper", 
-    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals' Variations on Baseline Trust", 
+    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u00cd Variations on Baseline Trust", 
     "type": "paper"
   }, 
   "655": {
@@ -2764,7 +2872,7 @@ entities={
         "name": "Joy Kim"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0087ndez"
+        "name": "Andr_s Monroy-Hern\u00e0ndez"
       }
     ], 
     "subtype": "paper", 
@@ -2840,7 +2948,7 @@ entities={
     "type": "paper"
   }, 
   "734": {
-    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u00d2 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
+    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u00f1 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
     "authors": [
       {
         "name": "Marisa Leavitt Cohn"
@@ -2950,7 +3058,7 @@ entities={
     "type": "workshop"
   }, 
   "9": {
-    "abstract": "The workshop focuses on the new work ecologies emerging from implementation and use of information infrastructures in healthcare (IIH). As IIH \"grows\" through organizational and regulatory mechanisms, CSCW researchers grapple with the shifting nature of healthcare data. CSCW has long been concerned with coordination, cooperation, and communication among interdisciplinary occupations in healthcare. Yet, while medical record keeping is still a primary function of IIH, second order data usages are increasingly large foci of IIH design and use. Facilitating development of health data practice and infrastructure is an area ripe for CSCW research. Critical topics include but are not limited to: re-use of clinical data for second order usages; design of artifacts and infrastructures; politics of creating and using data; algorithmic authority of IIH and effects on the exercise of expertise and discretion of healthcare professions; new forms of healthcare data work, including new occupations; data-driven accountability and management in healthcare.", 
+    "abstract": "The workshop focuses on the new work ecologies emerging from implementation and use of information infrastructures in healthcare (IIH). As IIH grows through organizational and regulatory mechanisms, CSCW researchers grapple with the shifting nature of healthcare data. CSCW has long been concerned with coordination, cooperation, and communication among interdisciplinary occupations in healthcare. Yet, while medical record keeping is still a primary function of IIH, second order data usages are increasingly large foci of IIH design and use. Facilitating development of health data practice and infrastructure is an area ripe for CSCW research. Critical topics include but are not limited to: re-use of clinical data for second order usages; design of artifacts and infrastructures; politics of creating and using data; algorithmic authority of IIH and effects on the exercise of expertise and discretion of healthcare professions; new forms of healthcare data work, including new occupations; data-driven accountability and management in healthcare.", 
     "authors": [
       {
         "name": ""
