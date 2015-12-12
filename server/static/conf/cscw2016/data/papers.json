@@ -6,6 +6,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Discussant time - Details TBA", 
     "type": "paper"
@@ -17,6 +19,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Where did my Office go? Is it in the Cloud!?? Workshop on Spatial and Social Connectedness in Virtual and Mediated Work Environments", 
     "type": "workshop"
@@ -28,6 +32,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Toward a Typology of Participation in Crowdwork", 
     "type": "workshop"
@@ -48,6 +54,8 @@ entities={
         "name": "Chul Lee"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Persistent Sharing of Fitness App Status on Twitter", 
     "type": "paper"
@@ -68,6 +76,8 @@ entities={
         "name": "Daniel Hawkins"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "To Beam or Not to Beam: A Study of Remote Telepresence Attendance at an Academic Conference", 
     "type": "paper"
@@ -79,6 +89,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Beyond implications: Moving from Research to Practice in Cyberinfrastructure Studies", 
     "type": "workshop"
@@ -90,6 +102,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Let's talk about the Quantified Workplace", 
     "type": "workshop"
@@ -113,6 +127,8 @@ entities={
         "name": "Emily B. Falk"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Playful Backstalking and Serious Impression Management: How Young Adults Reflect on their Past Identities on Facebook", 
     "type": "paper"
@@ -124,6 +140,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Large-scale Collaborative Projects to Affect Societal Change", 
     "type": "workshop"
@@ -144,6 +162,8 @@ entities={
         "name": "Zengguang Wang"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Do Massive Open Online Course Platforms Support Employability?", 
     "type": "paper"
@@ -155,6 +175,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
     "type": "workshop"
@@ -172,6 +194,8 @@ entities={
         "name": "Daniel Herron"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "The Role of Digital Technologies During Relationship Breakdowns", 
     "type": "paper"
@@ -183,6 +207,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Developing a Research Agenda for Human-Centered Data Science", 
     "type": "workshop"
@@ -194,7 +220,7 @@ entities={
         "name": "Corey Brian Jackson"
       }, 
       {
-        "name": "Carsten \u00f8sterlund"
+        "name": "Carsten \u00bfsterlund"
       }, 
       {
         "name": "Veronica Maidel1"
@@ -206,6 +232,8 @@ entities={
         "name": "Gabriel Mugar"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Which Way Did They Go? Newcomer Movement through the Zooniverse", 
     "type": "paper"
@@ -235,17 +263,21 @@ entities={
         "name": "Sean A. Munson"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Boundary Negotiating Artifacts in Personal Informatics: Patient-Provider Collaboration with Patient-Generated Data", 
     "type": "paper"
   }, 
   "16": {
-    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u0084focusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
+    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u00e3focusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
     "authors": [
       {
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Algorithms at Work: Empirical Diversity, Analytic Vocabularies, Design Implications", 
     "type": "workshop"
@@ -260,6 +292,8 @@ entities={
         "name": "Sarita Schoenebeck"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Thanks for your interest in our Facebook group, but it's only for dads: Social Roles of Stay-at-Home Dads", 
     "type": "paper"
@@ -271,6 +305,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Doctoral Symposium", 
     "type": "special"
@@ -288,6 +324,8 @@ entities={
         "name": "Sarita Schoenebeck"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Managing Expectations: Technology Tensions among Parents and Teens", 
     "type": "paper"
@@ -308,6 +346,8 @@ entities={
         "name": "Peter Wright"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "TryFilm: Situated Support for Interactive Media Productions", 
     "type": "paper"
@@ -319,6 +359,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Welcome Reception", 
     "type": "special"
@@ -351,6 +393,8 @@ entities={
         "name": "Nitendra Rajput"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Promoting Joint Attention with Computer Supported Collaboration in Children with Autism", 
     "type": "paper"
@@ -368,6 +412,8 @@ entities={
         "name": "Amy S. Bruckman"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Reality and Perception of Copyright Terms of Service for Online Content Creation", 
     "type": "paper"
@@ -382,6 +428,8 @@ entities={
         "name": "Pamela Hinds"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Embedding Intentions in Drawings: How Architects Craft and Curate Drawings to Achieve Their Goals", 
     "type": "paper"
@@ -396,6 +444,8 @@ entities={
         "name": "Google"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Beyond the Social Media Echo Chamber: Data Journalism with Search Data", 
     "type": "special"
@@ -410,6 +460,8 @@ entities={
         "name": "Eszter Hargittai"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Just Cast the Net, and Hopefully the Right Fish Swim into It: Audience Management on Social Network Sites", 
     "type": "paper"
@@ -436,6 +488,8 @@ entities={
         "name": "David P. Randall"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Thousands of Positive Reviews: Distributed Mentoring in Online Fan Communities", 
     "type": "paper"
@@ -453,17 +507,21 @@ entities={
         "name": "Alex Leavitt"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Virtual Team Networks: How Group Social Capital Affects Team Success in a Massively Multiplayer Online Game", 
     "type": "paper"
   }, 
   "2": {
-    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u00efsame time, same place\u00cd quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
+    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u0095same time, same place\u00ea quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
     "authors": [
       {
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Collocated Interaction: New Challenges in 'Same Time, Same Place' Research", 
     "type": "workshop"
@@ -478,6 +536,8 @@ entities={
         "name": "Instagram"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "How design decisions have shaped Instagram's community, and vice-versa", 
     "type": "special"
@@ -492,6 +552,8 @@ entities={
         "name": "Rafal Kocielnik"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "You Get Who You Pay for: The Impact of Incentives on Participation Bias", 
     "type": "paper"
@@ -503,6 +565,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -520,6 +584,8 @@ entities={
         "name": "Paul Roe and Margot Brereton"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Social Organization of Household Finance: Understanding Artful Financial Systems in the Home", 
     "type": "paper"
@@ -540,6 +606,8 @@ entities={
         "name": "Reimi Satoh"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Effects of the Display Angle on Social Behaviors of the People around the Display: A Field Study at a Museum", 
     "type": "paper"
@@ -551,6 +619,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Lunch", 
     "type": "special"
@@ -568,12 +638,14 @@ entities={
         "name": "Licia Capra"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Analysing Volunteer Engagement in Humanitarian Mapping: Building Contributor Communities at Large Scale", 
     "type": "paper"
   }, 
   "229": {
-    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u00eccan't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
+    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u0093can't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
     "authors": [
       {
         "name": "Alexis Hiniker"
@@ -585,8 +657,10 @@ entities={
         "name": "Julie A. Kientz"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Not at the Dinner Table: Parents\u00cd and Children\u00cds Perspectives on Family Technology Rules", 
+    "title": "Not at the Dinner Table: Parents\u00ea and Children\u00eas Perspectives on Family Technology Rules", 
     "type": "paper"
   }, 
   "23": {
@@ -596,6 +670,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -613,8 +689,10 @@ entities={
         "name": "Yun Huang"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Examining American and Chinese Internet Users\u00cd Contextual Privacy Preferences of Behavioral Advertising", 
+    "title": "Examining American and Chinese Internet Users\u00ea Contextual Privacy Preferences of Behavioral Advertising", 
     "type": "paper"
   }, 
   "235": {
@@ -633,6 +711,8 @@ entities={
         "name": "Deepti Kulkarni"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "The Crowd is a Collaborative Network", 
     "type": "paper"
@@ -653,12 +733,14 @@ entities={
         "name": "Michael Muller"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Embracing Cultural Diversity: Online Social Ties in Distributed Workgroups", 
     "type": "paper"
   }, 
   "238": {
-    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u00f1 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
+    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u0096 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
     "authors": [
       {
         "name": "Elena Agapie"
@@ -673,6 +755,8 @@ entities={
         "name": "Gary Hsieh"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "PlanSourcing: Generating Behavior Change Plans with Friends and Crowds", 
     "type": "paper"
@@ -684,6 +768,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Poster & Demo Reception", 
     "type": "special"
@@ -695,6 +781,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Sponsored Hospitality Receptions", 
     "type": "special"
@@ -709,6 +797,8 @@ entities={
         "name": "Irina Shklovski"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Steps, Choices and Moral Accounting: Observations from a Step-Counting Campaign in the Workplace", 
     "type": "paper"
@@ -723,8 +813,10 @@ entities={
         "name": "Darren Gergle"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
-    "title": "It\u00cds (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
+    "title": "It's (Not) Simply a Matter of Time: The Relationship Between CMC Cues and Interpersonal Affinity", 
     "type": "paper"
   }, 
   "256": {
@@ -743,6 +835,8 @@ entities={
         "name": "James D. Herbsleb"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "How to Hackathon: Socio-technical Tradeoffs in Brief, Intensive Collocation", 
     "type": "paper"
@@ -754,12 +848,14 @@ entities={
         "name": "Michaelanne Dye"
       }, 
       {
-        "name": "Annie Ant\u00d1n"
+        "name": "Annie Ant\u0084n"
       }, 
       {
         "name": "Amy S. Bruckman"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Early Adopters of the Internet and Social Media in Cuba", 
     "type": "paper"
@@ -771,6 +867,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -794,6 +892,8 @@ entities={
         "name": "Dan Cosley"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Automatic Archiving versus Default Deletion: What Snapchat Tells Us About Ephemerality in Design", 
     "type": "paper"
@@ -811,6 +911,8 @@ entities={
         "name": "David R. Karger"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Opportunities and Challenges Around a Tool for Social and Public Web Activity Tracking", 
     "type": "paper"
@@ -822,12 +924,14 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Lunch", 
     "type": "special"
   }, 
   "273": {
-    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u00f1 rational explanation, constructive suggestion, and social encouragement \"\u00f1 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
+    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u0096 rational explanation, constructive suggestion, and social encouragement \"\u0096 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
     "authors": [
       {
         "name": "Wenjian Huang"
@@ -845,6 +949,8 @@ entities={
         "name": "Ning Gu"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Effectiveness of Conflict Management Strategies in Peer Review Process of Online Collaboration Projects", 
     "type": "paper"
@@ -877,6 +983,8 @@ entities={
         "name": "Fran\u008dois Guimbreti\u008fre"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "RichReview++: Deployment of a Collaborative Multi-modal Annotation System for Instructor Feedback and Peer Discussion", 
     "type": "paper"
@@ -891,6 +999,8 @@ entities={
         "name": "Gunnar Ellingsen"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Complex Decision-Making in Clinical Practice", 
     "type": "paper"
@@ -902,6 +1012,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -925,9 +1037,11 @@ entities={
         "name": "Steven P. Dow"
       }, 
       {
-        "name": "Bj\u00c2orn Hartmann"
+        "name": "Bj\u00e5orn Hartmann"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Almost an Expert: The Effects of Rubrics and Expertise on Perceived Value of Crowdsourced Design Critiques", 
     "type": "paper"
@@ -942,6 +1056,8 @@ entities={
         "name": "Peter Tolmie"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "A Day in the Life of Things in the Home", 
     "type": "paper"
@@ -956,6 +1072,8 @@ entities={
         "name": "Victoria Bellotti"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Lasting Impact Plenary Session", 
     "type": "special"
@@ -985,6 +1103,8 @@ entities={
         "name": "Cara Viktorov"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Social Ties in Organizational Crowdfunding: Benefits of Team-Authored Proposals", 
     "type": "paper"
@@ -996,6 +1116,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Collaborative Appropriation: How Couples, Teams, Groups and Communities Adapt and Adopt Technologies", 
     "type": "workshop"
@@ -1007,6 +1129,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Town Hall Meeting", 
     "type": "special"
@@ -1024,6 +1148,8 @@ entities={
         "name": "Emre Kiciman"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Characterizing Dietary Choices, Nutrition, and Language in Food Deserts via Social Media", 
     "type": "paper"
@@ -1047,6 +1173,8 @@ entities={
         "name": "Joseph A. Konstan"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Precision CrowdSourcing: Closing the Loop to Turn Information Consumers into Information Contributors", 
     "type": "paper"
@@ -1067,6 +1195,8 @@ entities={
         "name": "Jung-Wei Chen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Beyond Talking Heads: Multimedia Artifact Creation, Use, and Sharing in Distributed Meetings", 
     "type": "paper"
@@ -1078,6 +1208,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Conference Banquet", 
     "type": "special"
@@ -1095,8 +1227,10 @@ entities={
         "name": "Michael Brown"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u00cd College Transition Processes", 
+    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u00ea College Transition Processes", 
     "type": "paper"
   }, 
   "315": {
@@ -1115,6 +1249,8 @@ entities={
         "name": "Anne Marie Piper"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Vulnerability, Sharing, and Privacy: Analyzing Art Therapy for Older Adults with Dementia", 
     "type": "paper"
@@ -1135,6 +1271,8 @@ entities={
         "name": "Tamara Peyton"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "YouthTube: Youth Video Authorship on YouTube and Vine", 
     "type": "paper"
@@ -1146,6 +1284,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -1163,6 +1303,8 @@ entities={
         "name": "Ofer Arazy"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Analyzing Organizational Routines in Online Knowledge Collaborations: A Case for Sequence Analysis in CSCW", 
     "type": "paper"
@@ -1186,6 +1328,8 @@ entities={
         "name": "Munmun De Choudhury"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "#thyghgapp: Instagram Content Moderation and Lexical Variation in Pro-Eating Disorder Communities", 
     "type": "paper"
@@ -1212,6 +1356,8 @@ entities={
         "name": "Emma S. Spiro"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "How Information Snowballs: Exploring the Role of Exposure in Online Rumor Propagation", 
     "type": "paper"
@@ -1223,6 +1369,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Lunch", 
     "type": "special"
@@ -1246,6 +1394,8 @@ entities={
         "name": "Andrew Wilson"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Room2Room: Enabling Life-Size Telepresence in a Projected Augmented Reality Environment", 
     "type": "paper"
@@ -1260,6 +1410,8 @@ entities={
         "name": "Adam Hodges"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Surveillance & Modesty on Social Media: How Qataris Navigate Modernity and Maintain Tradition", 
     "type": "paper"
@@ -1271,6 +1423,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "special", 
     "title": "Coffee Break", 
     "type": "special"
@@ -1300,6 +1454,8 @@ entities={
         "name": "Fiona McDermott"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Articulating Co-Design in Museums: Reflections on Two Participatory Processes", 
     "type": "paper"
@@ -1323,6 +1479,8 @@ entities={
         "name": "Krishna P. Gummadi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "On the Wisdom of Experts vs. Crowds: Discovering Trustworthy Topical News in Microblogs", 
     "type": "paper"
@@ -1337,6 +1495,8 @@ entities={
         "name": "Azza Abouzied"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "One LED is Enough: Catalyzing Face-to-face Interactions at Conferences with a Gentle Nudge", 
     "type": "paper"
@@ -1354,6 +1514,8 @@ entities={
         "name": "Boriana Koleva"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Supporting Group Coherence in a Museum Visit", 
     "type": "paper"
@@ -1374,6 +1536,8 @@ entities={
         "name": "Tunazzina Sultana"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Moving Western Neighborliness to East? A study on Local Exchange in Bangladesh", 
     "type": "paper"
@@ -1391,6 +1555,8 @@ entities={
         "name": "Katie Davis"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Modeling Collaboration Patterns on an Interactive Tabletop in a Classroom Setting", 
     "type": "paper"
@@ -1405,6 +1571,8 @@ entities={
         "name": "Mike Develin"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Once More with Feeling: Supportive Responses to Social Sharing on Facebook", 
     "type": "paper"
@@ -1428,6 +1596,8 @@ entities={
         "name": "Munmun De Choudhury"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Quantifying and Predicting Mental Illness Severity in Online Pro-Eating Disorder Communities", 
     "type": "paper"
@@ -1448,6 +1618,8 @@ entities={
         "name": "Pablo Cesar"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Distributed Liveness: Understanding How New Technologies Transform Performance Experiences", 
     "type": "paper"
@@ -1465,6 +1637,8 @@ entities={
         "name": "Daniel Avrahami"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Taking Notes or Playing Games? Understanding Multitasking in Video Communication", 
     "type": "paper"
@@ -1482,6 +1656,8 @@ entities={
         "name": "Aniket Kittur"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "A Contingency View of Transferring and Adapting Best Practices within Online Communities", 
     "type": "paper"
@@ -1499,6 +1675,8 @@ entities={
         "name": "Stephen J. Payne"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Can Visualization of Contributions Support Fairness in Collaboration? Findings from Meters in an Online Game", 
     "type": "paper"
@@ -1516,6 +1694,8 @@ entities={
         "name": "Pierre Theodore"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Crafting the Image in Surgical Telemedicine", 
     "type": "paper"
@@ -1536,6 +1716,8 @@ entities={
         "name": "Steven P. Dow"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Personality Matters: Balancing for Personality Types Leads to Better Outcomes for Crowd Teams", 
     "type": "paper"
@@ -1547,6 +1729,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
     "type": "workshop"
@@ -1564,6 +1748,8 @@ entities={
         "name": "Dennis Wixon"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Dead Avatars Floating Through Space: A Population Study of the Creation and Use of Multiple Technical User", 
     "type": "paper"
@@ -1578,6 +1764,8 @@ entities={
         "name": "Lyndsey K. Lanagan-Leitzel"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "To Reply or To Reply All: Understanding Replying Behavior in Group Email Communication", 
     "type": "paper"
@@ -1592,6 +1780,8 @@ entities={
         "name": "Dan Cosley"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Distinguishing between Personal Preferences and Social Influence in Online Activity Feeds", 
     "type": "paper"
@@ -1618,6 +1808,8 @@ entities={
         "name": "Wanda Pratt"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Partners in Care: Design Considerations for Caregivers and Patients During a Hospital Stay", 
     "type": "paper"
@@ -1632,12 +1824,14 @@ entities={
         "name": "William Hale"
       }, 
       {
-        "name": "Andr_s Monroy-Hern\u00e0ndez"
+        "name": "Andr\u008es Monroy-Hern\u0088ndez"
       }, 
       {
         "name": "Benjamin Mako Hill"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Remixing as a Pathway to Computational Thinking", 
     "type": "paper"
@@ -1649,12 +1843,14 @@ entities={
         "name": "Saiph Savage"
       }, 
       {
-        "name": "Andr_s Monroy-Hern\u00e0ndez"
+        "name": "Andr\u008es Monroy-Hern\u0088ndez"
       }, 
       {
-        "name": "Tobias H\u00c2ollerer"
+        "name": "Tobias Hollerer"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Botivist: Calling Volunteers to Action using Online Bots", 
     "type": "paper"
@@ -1678,6 +1874,8 @@ entities={
         "name": "Kate Starbird"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Keeping Up with the Tweet-dashians: The Impact of Official Accounts on Online Rumoring", 
     "type": "paper"
@@ -1692,6 +1890,8 @@ entities={
         "name": "Lisa P. Nathan"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Impoverished Visions of Sustainability: Encouraging Disruption in Digital Learning Environments", 
     "type": "paper"
@@ -1712,6 +1912,8 @@ entities={
         "name": "Cecilia R. Aragon"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Considering Time in Designing Large-Scale Systems for Scientific Computing", 
     "type": "paper"
@@ -1738,6 +1940,8 @@ entities={
         "name": "Jeff Yuan"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Finding Weather Photos: Community-Supervised Methods for Editorial Curation of Online Sources", 
     "type": "paper"
@@ -1758,8 +1962,10 @@ entities={
         "name": "Kaisa V__n_nen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Increasing Collocated People\u00cds Awareness of the Mobile User\u00cds Activities: a Field Trial of Social Displays", 
+    "title": "Increasing Collocated People\u00eas Awareness of the Mobile User\u00eas Activities: a Field Trial of Social Displays", 
     "type": "paper"
   }, 
   "445": {
@@ -1775,8 +1981,10 @@ entities={
         "name": "Markus Rittenbruch"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Vendors\u00cd Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
+    "title": "Vendors\u00ea Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
     "type": "paper"
   }, 
   "449": {
@@ -1798,6 +2006,8 @@ entities={
         "name": "Ewa Luger"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "This has to be the cats - Personal Data Legibility in Networked Sensing Systems", 
     "type": "paper"
@@ -1815,12 +2025,14 @@ entities={
         "name": "Michael O. Jewell"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Understanding Energy Consumption at Work: Learning from Arrow Hill", 
     "type": "paper"
   }, 
   "452": {
-    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u00f1 including family members, friends, co-workers, and others \"\u00f1 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
+    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u0096 including family members, friends, co-workers, and others \"\u0096 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
     "authors": [
       {
         "name": "Guo Li"
@@ -1838,6 +2050,8 @@ entities={
         "name": "Ning Gu"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "SunForum: Understanding Depression in a Chinese Online Community", 
     "type": "paper"
@@ -1873,6 +2087,8 @@ entities={
         "name": "Koustuv Dasgupta"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Campus-Scale Mobile Crowd-Tasking: Deployment & Behavioral Insights", 
     "type": "paper"
@@ -1887,6 +2103,8 @@ entities={
         "name": "Anna Filippova"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Networked Privacy Management in Facebook: A Mixed-Methods and Multinational Study", 
     "type": "paper"
@@ -1901,12 +2119,14 @@ entities={
         "name": "Hannu Kukka"
       }, 
       {
-        "name": "Iv\u00e0n S\u00e0nchez"
+        "name": "Iv\u0088n S\u0088nchez"
       }, 
       {
         "name": "Vassilis Kostakos"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Crowdsourcing Queue Estimations in Situ", 
     "type": "paper"
@@ -1924,6 +2144,8 @@ entities={
         "name": "Ning Gu"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Helping Others Makes Me Happy: Social Interaction and Integration of People with Disabilities", 
     "type": "paper"
@@ -1944,6 +2166,8 @@ entities={
         "name": "Volker Wulf"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Designing for Those who are Overlooked _ Insider Perspectives on Care Practices and Cooperative Work of Elderly Informal Caregivers", 
     "type": "paper"
@@ -1958,12 +2182,14 @@ entities={
         "name": "Sergio F. Ochoa"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Mom, I Do Have a Family!: Attitudes, Agreements, and Expectations on the Interaction with Chilean Older Adults", 
     "type": "paper"
   }, 
   "475": {
-    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u00ed\u0084 more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
+    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u0092\u00e3 more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
     "authors": [
       {
         "name": "Morgan Vigil"
@@ -1975,6 +2201,8 @@ entities={
         "name": "Matthew Rantanen"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Repurposing FM: Radio Nowhere to OSNs Everywhere", 
     "type": "paper"
@@ -1989,6 +2217,8 @@ entities={
         "name": "Martin Foss"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "The Collaborative work of Hospital Porters: Accountability, Visibility and Configurations of Work", 
     "type": "paper"
@@ -2006,6 +2236,8 @@ entities={
         "name": "Robert Houghton"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "MarathOn Multiscreen: Group Television Watching and Interaction in a Viewing Ecology", 
     "type": "paper"
@@ -2035,6 +2267,8 @@ entities={
         "name": "Jihee Kim"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "BudgetMap: Engaging Taxpayers in the Issue-Driven Classification of a Government Budget", 
     "type": "paper"
@@ -2055,6 +2289,8 @@ entities={
         "name": "Maurizio Marchese"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "ReLauncher: Crowdsourcing Micro-Tasks Runtime Controller", 
     "type": "paper"
@@ -2072,12 +2308,14 @@ entities={
         "name": "Henrik Blunck"
       }, 
       {
-        "name": "Mikkel Baun Kj_rgaard"
+        "name": "Mikkel Baun Kj\u00bergaard"
       }, 
       {
-        "name": "Kaj Gr\u00c0nb_k"
+        "name": "Kaj Gr\u00bfnb\u00bek"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Accounting for the Invisible Work of Hospital Orderlies: Designing for Local and Global Coordination", 
     "type": "paper"
@@ -2110,8 +2348,10 @@ entities={
         "name": "Geraldine Fitzpatrick"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "Scaffolding the scaffolding: Supporting children\u00cds social-emotional learning at home", 
+    "title": "Scaffolding the scaffolding: Supporting children\u00eas social-emotional learning at home", 
     "type": "paper"
   }, 
   "5": {
@@ -2121,6 +2361,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Breaking into new Data-Spaces: Infrastructure for Open Community Science", 
     "type": "workshop"
@@ -2135,12 +2377,14 @@ entities={
         "name": "Barry Brown"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Embeddedness and sequentiality in social media", 
     "type": "paper"
   }, 
   "503": {
-    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u00f1 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u00f1 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
+    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u0096 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u0096 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
     "authors": [
       {
         "name": "Raghav Pavan Karumur"
@@ -2152,6 +2396,8 @@ entities={
         "name": "Joseph A. Konstan"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Early Activity Diversity: Assessing Newcomer Retention from First-Session Activity", 
     "type": "paper"
@@ -2169,6 +2415,8 @@ entities={
         "name": "Robert Kraut"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Modeling Self-Disclosure in Social Networking Sites", 
     "type": "paper"
@@ -2189,6 +2437,8 @@ entities={
         "name": "Jeff Hambelton"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Avalanche Beacon Parks: Skill Development and Team Coordination in a Technological Training Ground", 
     "type": "paper"
@@ -2209,6 +2459,8 @@ entities={
         "name": "Robert C. Miller"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Learnersourcing Personalized Hints", 
     "type": "paper"
@@ -2232,6 +2484,8 @@ entities={
         "name": "Oded Nov"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "The Effect of Exposure to Social Annotation on Online Informed Consent Beliefs and Behavior", 
     "type": "paper"
@@ -2252,6 +2506,8 @@ entities={
         "name": "Gilly Leshed"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "How Blind People Interact with Visual Content on Social Networking Services", 
     "type": "paper"
@@ -2269,6 +2525,8 @@ entities={
         "name": "Sarah Sharples"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Using Mobile Phones in Pub Talk", 
     "type": "paper"
@@ -2283,6 +2541,8 @@ entities={
         "name": "Mohammad Hossein Jarrahi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Infrastructuring and the Challenge of Dynamic Seams in Mobile Knowledge Work", 
     "type": "paper"
@@ -2297,6 +2557,8 @@ entities={
         "name": "Jeffrey Heer"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Parting Crowds: Characterizing Divergent Interpretations in Crowdsourced Annotation Tasks", 
     "type": "paper"
@@ -2320,6 +2582,8 @@ entities={
         "name": "Jenna Song"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Data Narratives: uncovering tensions in personal data management", 
     "type": "paper"
@@ -2334,6 +2598,8 @@ entities={
         "name": "Hichang Cho"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "The Effects and Antecedents of Conflict in Free and Open Source Software Development", 
     "type": "paper"
@@ -2351,6 +2617,8 @@ entities={
         "name": "Animesh Mukherjee"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "#Bieber + #Blast = #BieberBlast: Early Prediction of Popular Hashtag Compounds", 
     "type": "paper"
@@ -2374,6 +2642,8 @@ entities={
         "name": "Malte Jung"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Crystallize: An Immersive, Collaborative Game for Second Language Learning", 
     "type": "paper"
@@ -2397,6 +2667,8 @@ entities={
         "name": "Yi-Chen Sung"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Out of Time, Out of Place: Reflections on Design Workshops as a Research Method", 
     "type": "paper"
@@ -2420,6 +2692,8 @@ entities={
         "name": "Ido Guy"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "When the Crowd is Not Enough: Improving User Experience with Social Media through Automatic Quality Analysis", 
     "type": "paper"
@@ -2437,6 +2711,8 @@ entities={
         "name": "Steven P. Dow"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Improving Crowd Innovation with Expert Facilitation", 
     "type": "paper"
@@ -2460,6 +2736,8 @@ entities={
         "name": "Daniel S. Weld"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Toward Automatic Bootstrapping of Online Communities Using Decision-theoretic Optimization", 
     "type": "paper"
@@ -2477,6 +2755,8 @@ entities={
         "name": "Robert E. Kraut"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Encouraging Outside-the-box Thinking in Crowd Innovation Through Identifying Domains of Expertise", 
     "type": "paper"
@@ -2494,12 +2774,14 @@ entities={
         "name": "Aniket Kittur"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Distributed Analogical Idea Generation with Multiple Constraints", 
     "type": "paper"
   }, 
   "568": {
-    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u00f1 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
+    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u0096 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
     "authors": [
       {
         "name": "Noopur Raval"
@@ -2508,6 +2790,8 @@ entities={
         "name": "Paul Dourish"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Standing Out from the Crowd: Emotional Labor, Body Labor, and Temporal Labor in Ridesharing", 
     "type": "paper"
@@ -2522,6 +2806,8 @@ entities={
         "name": "Matthias Korn"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Hacking as Transgressive Infrastructuring: Mobile Phone Networks and the German Chaos Computer Club", 
     "type": "paper"
@@ -2536,6 +2822,8 @@ entities={
         "name": "Andrea Grimes Parker"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Confidence & Control: Examining Adolescent Preferences for Technologies that Promote Wellness", 
     "type": "paper"
@@ -2556,6 +2844,8 @@ entities={
         "name": "Shailesh Vaya"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Assignment Techniques for Crowdsourcing Sensitive Tasks", 
     "type": "paper"
@@ -2564,7 +2854,7 @@ entities={
     "abstract": "In this paper, we present a case study of an urban organic food community and examine the way the community shapes its artifact ecology through a combination of appropriation of freely or cheaply available tools, and the long-term effort of building the community's own website. Based on participatory observation, content analysis of communication documents, and a series of interviews, we see how the collection of artifacts that a community uses to support their practice form what we refer to as their community artifact ecology. A community artifact ecology is multifaceted, dynamic and pending on what the members bring to the table, as well as on particular situations of use. The community artifact ecology concept is important for CSCW as it enables framing of the relationship between communities and technologies beyond the single artifact and beyond a static view of a dedicated technology.", 
     "authors": [
       {
-        "name": "Susanne B\u00c0dker"
+        "name": "Susanne B\u00bfdker"
       }, 
       {
         "name": "Henrik Korsgaard"
@@ -2573,8 +2863,10 @@ entities={
         "name": "Joanna Saad-Sulonen"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
-    "title": "\u00efA Farmer, a Place and at least 20 Members\u00cd The Development of Artifact Ecologies in Volunteer-based Communities", 
+    "title": "A Farmer, a Place and at least 20 Members' The Development of Artifact Ecologies in Volunteer-based Communities", 
     "type": "paper"
   }, 
   "6": {
@@ -2584,6 +2876,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "CSCW and the \"Sharing Economy\": The Future of Platforms as Sites of Work, Collaboration and Trust", 
     "type": "workshop"
@@ -2604,6 +2898,8 @@ entities={
         "name": "Elizabeth D. Mynatt"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Hunger Hurts but Starving Works: Characterizing the Presentation of Eating Disorders Online", 
     "type": "paper"
@@ -2630,6 +2926,8 @@ entities={
         "name": "Yvonne Rogers"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Jokebox: Coordinating Shared Encounters in Public Spaces", 
     "type": "paper"
@@ -2644,6 +2942,8 @@ entities={
         "name": "Elisa Oreglia"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "A Fundamentally Confused Document: Situation Reports and the Work of Producing Humanitarian Information", 
     "type": "paper"
@@ -2664,8 +2964,10 @@ entities={
         "name": "Barton A. Smith"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "When Distance Doesn\u00cdt Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
+    "title": "When Distance Doesn\u00eat Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
     "type": "paper"
   }, 
   "620": {
@@ -2684,6 +2986,8 @@ entities={
         "name": "Geert-Jan Houben"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Work and Play: An Experiment in Enterprise Gamification", 
     "type": "paper"
@@ -2698,6 +3002,8 @@ entities={
         "name": "Mina Choi"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Mobile Media Matters: Media Use and Relationship Satisfaction among Geographically Close Dating Couples", 
     "type": "paper"
@@ -2712,6 +3018,8 @@ entities={
         "name": "Darren Gergle"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Capturing Turn-by-Turn Lexical Similarity in Text-Based Communication", 
     "type": "paper"
@@ -2726,6 +3034,8 @@ entities={
         "name": "Yurong He"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Community-based Data Validation Practices in Citizen Science", 
     "type": "paper"
@@ -2740,8 +3050,10 @@ entities={
         "name": "David Redmiles"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
-    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u00cd Variations on Baseline Trust", 
+    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u00ea Variations on Baseline Trust", 
     "type": "paper"
   }, 
   "655": {
@@ -2757,6 +3069,8 @@ entities={
         "name": "Emilio Ferrara"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Style in the Age of Instagram: Predicting Success within the Fashion Industry using Social Media", 
     "type": "paper"
@@ -2774,6 +3088,8 @@ entities={
         "name": "Steven Wengrovitz"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "What's in a Like? Attitudes and behaviors around receiving Likes on Facebook", 
     "type": "paper"
@@ -2791,6 +3107,8 @@ entities={
         "name": "Andrea Tapia"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Collaborative Analytics and Brokering in Digital Humanitarian Response", 
     "type": "paper"
@@ -2814,6 +3132,8 @@ entities={
         "name": "Sarah Duda"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Storytelling with Data: Examining the Use of Data by Non-Profit Organizations", 
     "type": "paper"
@@ -2825,6 +3145,8 @@ entities={
         "name": "Alissa Centivany"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Policy as Embedded Generativity: A Case Study of the Emergence and Evolution of HathiTrust", 
     "type": "paper"
@@ -2836,6 +3158,8 @@ entities={
         "name": "Yla R. Tausczik"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Citation and Attribution in Open Science: A Case Study", 
     "type": "paper"
@@ -2850,6 +3174,8 @@ entities={
         "name": "Susan R. Fussell"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Effects of Sensemaking Translucence on Distributed Collaborative Analysis", 
     "type": "paper"
@@ -2861,6 +3187,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Designing online experiments: Citizen science approaches to research", 
     "type": "workshop"
@@ -2872,9 +3200,11 @@ entities={
         "name": "Joy Kim"
       }, 
       {
-        "name": "Andr_s Monroy-Hern\u00e0ndez"
+        "name": "Andr\u008es Monroy-Hern\u0088ndez"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Storia: Summarizing Social Media Content based on Narrative Theory using Crowdsourcing", 
     "type": "paper"
@@ -2889,6 +3219,8 @@ entities={
         "name": "Heng Xu"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Privacy Nudges for Mobile Applications: Effects on the Creepiness Emotion and Privacy Attitudes", 
     "type": "paper"
@@ -2909,6 +3241,8 @@ entities={
         "name": "Christine Greenhow"
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "First-Generation Students and College: The Role of Facebook Networks as Information Sources", 
     "type": "paper"
@@ -2932,6 +3266,8 @@ entities={
         "name": "Gilly Leshed"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "One and Done: Factors affecting one-time contributors to ad-hoc online communities", 
     "type": "paper"
@@ -2943,17 +3279,21 @@ entities={
         "name": "Lionel P. Robert Jr."
       }
     ], 
+    "award": false, 
+    "hm": true, 
     "subtype": "paper", 
     "title": "Monitoring and Trust in Virtual Teams", 
     "type": "paper"
   }, 
   "734": {
-    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u00f1 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
+    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u0096 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
     "authors": [
       {
         "name": "Marisa Leavitt Cohn"
       }
     ], 
+    "award": true, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Convivial Decay: Entangled Lifetimes in a Geriatric Infrastructure", 
     "type": "paper"
@@ -2971,6 +3311,8 @@ entities={
         "name": "Zahra Ashktorab"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Beyond the Belmont Principles: Ethical Challenges, Practices, and Beliefs in the Online Data Research Community", 
     "type": "paper"
@@ -2991,6 +3333,8 @@ entities={
         "name": "Madhu Reddy"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Time to reflect: Supporting health services over time by focusing on collaborative reflection", 
     "type": "paper"
@@ -3005,6 +3349,8 @@ entities={
         "name": "Darren Gergle"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "On the bias: Self-esteem biases across communication channels during romantic couple conflict", 
     "type": "paper"
@@ -3022,6 +3368,8 @@ entities={
         "name": "Katherine Sutton"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Strangers on Your Phone: Why People Use Anonymous Communication Applications", 
     "type": "paper"
@@ -3042,6 +3390,8 @@ entities={
         "name": "John M. Carroll"
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "paper", 
     "title": "Ask the Instructors: Motivations and Challenges of Teaching Massive Open Online Courses", 
     "type": "paper"
@@ -3053,6 +3403,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Collaboration and Decision Making in Crisis Situations", 
     "type": "workshop"
@@ -3064,6 +3416,8 @@ entities={
         "name": ""
       }
     ], 
+    "award": false, 
+    "hm": false, 
     "subtype": "workshop", 
     "title": "Data-work in Healthcare: The New Work Ecologies of Healthcare Infrastructures", 
     "type": "workshop"

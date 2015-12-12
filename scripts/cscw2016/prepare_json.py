@@ -111,6 +111,16 @@ def prepare_data(data_file1):
     paper_authors = unicode(row[8], "ISO-8859-1")
     type = unicode(row[0], "ISO-8859-1")
     
+    award_s = unicode(row[10], "ISO-8859-1")
+    award = False
+    hm = False
+    
+    if award_s.lower() == "honorable mention":
+        hm = True
+
+    if award_s.lower() == "best papers":
+        award = True 
+    
     if session_chair != '':
         session = 'Session: ' + session + ' - Chair: ' + session_chair
 
@@ -125,7 +135,9 @@ def prepare_data(data_file1):
     papers[paper_id] = {
         'title': paper_title,
         'subtype':type,
-        'type': type}
+        'type': type,
+        'award': award,
+        'hm': hm}
     
     papers[paper_id]['abstract'] = paper_abstract
     papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',')]
