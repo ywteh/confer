@@ -116,15 +116,6 @@ sessions={
     ], 
     "time": "7:00PM-10:30PM"
   }, 
-  "Constantly_connected_At_what_price_and_with_what_rewards_": {
-    "date": "Wednesday", 
-    "room": "TBD", 
-    "s_title": "Constantly connected:  At what price and with what rewards?", 
-    "submissions": [
-      "39"
-    ], 
-    "time": "11:00 - 12:30"
-  }, 
   "Credibility_and_Social_Media_Chair_Moira_Burke_Facebook": {
     "date": "Monday", 
     "room": "TBD", 
@@ -266,15 +257,6 @@ sessions={
     ], 
     "time": "9:00-5:00"
   }, 
-  "Does_the_Sharing_Economy_do_any_Good_": {
-    "date": "Tuesday", 
-    "room": "TBD", 
-    "s_title": "Does the Sharing Economy do any Good?", 
-    "submissions": [
-      "38"
-    ], 
-    "time": "11:00 - 12:30"
-  }, 
   "Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri": {
     "date": "Tuesday", 
     "room": "TBD", 
@@ -391,15 +373,6 @@ sessions={
       "279"
     ], 
     "time": "11:00 - 12:30"
-  }, 
-  "Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration": {
-    "date": "Tuesday", 
-    "room": "TBD", 
-    "s_title": "Innovations in autonomous systems: Challenges and opportunities for human-agent collaboration", 
-    "submissions": [
-      "37"
-    ], 
-    "time": "9:00 - 10:30"
   }, 
   "Internatonal_Insights_Chair_David_McDonald_University_of_Washington": {
     "date": "Monday", 
@@ -584,6 +557,60 @@ sessions={
     ], 
     "time": "9:00 - 10:30"
   }, 
+  "Panel_Constantly_connected_At_what_price_and_with_what_rewards_": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Panel: Constantly connected:  At what price and with what rewards?", 
+    "submissions": [
+      "39"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Panel_Does_the_Sharing_Economy_do_any_Good_": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Panel: Does the Sharing Economy do any Good?", 
+    "submissions": [
+      "38"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Panel_Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Panel: Innovations in autonomous systems: Challenges and opportunities for human-agent collaboration", 
+    "submissions": [
+      "37"
+    ], 
+    "time": "9:00 - 10:30"
+  }, 
+  "Panel_Practice_based_CSCW_Research_ECSCW_bridging_across_the_Atlantic": {
+    "date": "Wednesday", 
+    "room": "TBD", 
+    "s_title": "Panel: Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
+    "submissions": [
+      "40"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "Panel_Robots_As_Cooperative_Partners_We_Hope_": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Panel: Robots As Cooperative Partners... We Hope... ", 
+    "submissions": [
+      "36"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
+  "Panel_Visibility_in_Digital_Space_Controlling_Personal_Information_Online": {
+    "date": "Monday", 
+    "room": "TBD", 
+    "s_title": "Panel: Visibility in Digital Space: Controlling Personal Information Online", 
+    "submissions": [
+      "35"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
   "Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota": {
     "date": "Wednesday", 
     "room": "TBD", 
@@ -604,15 +631,6 @@ sessions={
       "24"
     ], 
     "time": "6:00-8:00PM"
-  }, 
-  "Practice_based_CSCW_Research_ECSCW_bridging_across_the_Atlantic": {
-    "date": "Wednesday", 
-    "room": "TBD", 
-    "s_title": "Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
-    "submissions": [
-      "40"
-    ], 
-    "time": "2:30 - 4:00"
   }, 
   "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University": {
     "date": "Monday", 
@@ -635,15 +653,6 @@ sessions={
       "332", 
       "385", 
       ""
-    ], 
-    "time": "2:30 - 4:00"
-  }, 
-  "Robots_As_Cooperative_Partners_We_Hope_": {
-    "date": "Monday", 
-    "room": "TBD", 
-    "s_title": "Robots As Cooperative Partners... We Hope... ", 
-    "submissions": [
-      "36"
     ], 
     "time": "2:30 - 4:00"
   }, 
@@ -734,15 +743,6 @@ sessions={
       "125", 
       "195", 
       "656"
-    ], 
-    "time": "11:00 - 12:30"
-  }, 
-  "Visibility_in_Digital_Space_Controlling_Personal_Information_Online": {
-    "date": "Monday", 
-    "room": "TBD", 
-    "s_title": "Visibility in Digital Space: Controlling Personal Information Online", 
-    "submissions": [
-      "35"
     ], 
     "time": "11:00 - 12:30"
   }, 

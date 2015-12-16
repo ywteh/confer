@@ -123,6 +123,9 @@ def prepare_data(data_file1):
     
     if session_chair != '':
         session = session + ' - Chair: ' + session_chair
+        
+    if type == 'panel':
+        session = 'Panel: ' + session
     
     if 'Hyatt' in row[1] or 'Explor' in row[1]:
         room = row[1]

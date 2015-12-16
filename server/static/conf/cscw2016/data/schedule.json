@@ -134,11 +134,11 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Visibility_in_Digital_Space_Controlling_Personal_Information_Online"
+            "session": "Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL"
           }, 
           {
             "room": "TBD", 
-            "session": "Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL"
+            "session": "Panel_Visibility_in_Digital_Space_Controlling_Personal_Information_Online"
           }, 
           {
             "room": "TBD", 
@@ -188,7 +188,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Robots_As_Cooperative_Partners_We_Hope_"
+            "session": "Panel_Robots_As_Cooperative_Partners_We_Hope_"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -265,7 +265,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration"
+            "session": "Panel_Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration"
           }, 
           {
             "room": "TBD", 
@@ -311,7 +311,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Does_the_Sharing_Economy_do_any_Good_"
+            "session": "Panel_Does_the_Sharing_Economy_do_any_Good_"
           }, 
           {
             "room": "TBD", 
@@ -467,11 +467,11 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Constantly_connected_At_what_price_and_with_what_rewards_"
+            "session": "Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
           }, 
           {
             "room": "TBD", 
-            "session": "Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
+            "session": "Panel_Constantly_connected_At_what_price_and_with_what_rewards_"
           }
         ], 
         "slot_class": "morning2", 
@@ -493,11 +493,11 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School"
+            "session": "Panel_Practice_based_CSCW_Research_ECSCW_bridging_across_the_Atlantic"
           }, 
           {
             "room": "TBD", 
-            "session": "Practice_based_CSCW_Research_ECSCW_bridging_across_the_Atlantic"
+            "session": "Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School"
           }, 
           {
             "room": "TBD", 
