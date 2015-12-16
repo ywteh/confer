@@ -220,7 +220,7 @@ entities={
         "name": "Corey Brian Jackson"
       }, 
       {
-        "name": "Carsten \u00bfsterlund"
+        "name": "Carsten Osterlund"
       }, 
       {
         "name": "Veronica Maidel1"
@@ -1429,6 +1429,28 @@ entities={
     "title": "Coffee Break", 
     "type": "special"
   }, 
+  "35": {
+    "abstract": "Individuals are increasingly visible in online spaces. Posting content to social media, browsing websites, and interacting with friends are all acts that render a person visible to other individuals, networks, and corporations. At the same time, these behaviors are being logged, archived, and aggregated in a variety of unexpected and emerging ways. In this panel, we explore the tensions that arise around controlling personal information online. We do so through a series of case studies around lesbian, gay, bisexual, and transgender (LGBT) identities, children, personal data exchange, and advertising. In each, we consider the politics of visibility around personal, family, social, and community identities, especially in the context of marginalized or scrutinized populations and experiences. We aim to generate debate about appropriate sharing behaviors online and to further an agenda that prioritizes greater control of personal information online.", 
+    "authors": [
+      {
+        "name": "Jed R. Brubaker"
+      }, 
+      {
+        "name": "Jofish Kaye"
+      }, 
+      {
+        "name": "Sarita Schoenebeck"
+      }, 
+      {
+        "name": "Janet Vertesi"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Visibility in Digital Space: Controlling Personal Information Online", 
+    "type": "panel"
+  }, 
   "354": {
     "abstract": "In this paper we reflect on the process of co-design by detailing and comparing two strategies for the participatory development of interaction concepts and prototypes in the context of technologically-enhanced museum visiting experiences. While much work in CSCW, HCI and related disciplines has examined different role configurations in co-design, more research is needed on examining how collaborative design processes can unfold in different ways. Here we present two instances of co-design of museum visiting aids, one stemming from an open brief, another from an initial working prototype; we discuss the process in each case and discuss how these alternative strategies presented the team with different possibilities as well as constraints, and led to different patterns of collaboration within the design team. Finally, we draw a set of themes for discussion and reflection to inform and aid researchers and practitioners participating in similar co-design processes, particularly in the domain of cultural heritage.", 
     "authors": [
@@ -1520,6 +1542,34 @@ entities={
     "title": "Supporting Group Coherence in a Museum Visit", 
     "type": "paper"
   }, 
+  "36": {
+    "abstract": "Robots are increasingly becoming a real presence in our lives. From self-driving cars to autonomous drones to assistance robots, what is the state of the robot technology? How good IS our human-robot communication? How will robots (in many forms) become partners in our lives and in our work. This panel brings together robot practitioners (and several of their robots) on stage to talk about, and demonstrate, where all of this is going.", 
+    "authors": [
+      {
+        "name": "Cliff Lampe (moderator)"
+      }, 
+      {
+        "name": "Bob Bauer"
+      }, 
+      {
+        "name": "Henry Evans"
+      }, 
+      {
+        "name": "Dave Robson"
+      }, 
+      {
+        "name": "Tessa Lau"
+      }, 
+      {
+        "name": "Leila Takayama"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Robots As Cooperative Partners... We Hope... ", 
+    "type": "panel"
+  }, 
   "363": {
     "abstract": "This paper focuses on the main question whether social media specifically conceived to enable local exchange trading schema can be adopted in different contexts than the western digitized society, where those systems have been considered a feasible alternative to money-based capitalism. We report a qualitative study employing focus groups to study the factors which may affect the adoption of these  social media in Bangladesh, a developing country that exhibits characteristics such as strong young unemployment, gender-oriented underemployment, aging population, but also a reduced access to the service economy due to the lack of spare time. The benefits of local exchange seem to be particularly fitting the urban and social structure of Bangladesh.", 
     "authors": [
@@ -1541,6 +1591,28 @@ entities={
     "subtype": "paper", 
     "title": "Moving Western Neighborliness to East? A study on Local Exchange in Bangladesh", 
     "type": "paper"
+  }, 
+  "37": {
+    "abstract": "Autonomous agents are rapidly becoming collaborative partners in addressing diverse industry and social problem domains. With this shift brings a number of challenges and opportunities in understanding and designing for the dynamics involved in human and agents working collectively. This session will facilitate a wider discussion on the current socio-technical challenges for collaborative agent systems and human-agent interaction across a range of disciplines, and how we move forward to meet those challenges.", 
+    "authors": [
+      {
+        "name": "Lia Emanuel"
+      }, 
+      {
+        "name": "Joel Fischer"
+      }, 
+      {
+        "name": "Wendy Ju"
+      }, 
+      {
+        "name": "Saiph Savage"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Innovations in autonomous systems: Challenges and opportunities for human-agent collaboration", 
+    "type": "panel"
   }, 
   "371": {
     "abstract": "Interaction logs generated by educational software can provide valuable insights into the collaborative learning process and identify opportunities for technology to provide adaptive assistance. Modeling collaborative learning processes at tabletop computers is challenging, as the computer is only able to log a portion of the collaboration, namely the touch events on the table. Our previous lab study with adults showed that patterns in a group's touch interactions with a tabletop computer can reveal the quality of aspects of their collaborative process. We extend this understanding of the relationship between touch interactions and the collaborative process to adolescent learners in a field setting and demonstrate that the touch patterns reflect the quality of collaboration more broadly than previously thought, with accuracies up to 84.2%. We also present an approach to using the touch patterns to model the quality of collaboration in real-time.", 
@@ -1601,6 +1673,31 @@ entities={
     "subtype": "paper", 
     "title": "Quantifying and Predicting Mental Illness Severity in Online Pro-Eating Disorder Communities", 
     "type": "paper"
+  }, 
+  "38": {
+    "abstract": "Despite the benefits offered by sharing economy, researchers have identified several challenges preventing disadvantaged groups (e.g. low socioeconomic status, un(der)employed and/or users from emerging regions) from receiving the same level of benefits as those from advantaged populations. This panel brings researchers from the sharing economy and mobile crowdsourcing space whose research has identified unique challenges for underserved populations. We consider the opportunities offered by these platforms to disadvantaged communities and examine to what extent these platforms instead may recreate disadvantage, as well as the workarounds communities employ to make these platforms work for them. We examine the opportunities for the CSCW community to address these challenges going forward.", 
+    "authors": [
+      {
+        "name": "Tawanna R. Dillahunt"
+      }, 
+      {
+        "name": "Airi Lampinen"
+      }, 
+      {
+        "name": "Jacki O'Neill"
+      }, 
+      {
+        "name": "Loren Terveen"
+      }, 
+      {
+        "name": "Cory Kendrick"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Does the Sharing Economy do any Good?", 
+    "type": "panel"
   }, 
   "383": {
     "abstract": "We identify emerging phenomena of distributed liveness, involving new relationships among performers, audiences, and technology. Liveness is a recent, technology-based construct, which refers to experiencing an event in real-time with the possibility for shared social realities. Distributed liveness entails multiple forms of physical, spatial, and social co-presence between performers and audiences across physical and virtual spaces. We interviewed expert performers about how they experience liveness in physically co-present and distributed settings. Findings show that distributed performances and technology need to support flexible social co-presence and new methods for sensing subtle audience responses and conveying engagement abstractly.", 
@@ -1681,6 +1778,37 @@ entities={
     "title": "Can Visualization of Contributions Support Fairness in Collaboration? Findings from Meters in an Online Game", 
     "type": "paper"
   }, 
+  "39": {
+    "abstract": "The temptation to constantly refer to the web, or lifelog every event, or wear a watch (or other personal device) that connect you with the pulse of available information is strong. But is it a good idea to be that much online?\n\nOur panelists will address this question, each presenting a short opening statement about why their position (pro or con) is correct. The panelists will each be able to ask a question of another panelist challenging their position, and inviting a rebuttal. We will ask audience participants their opinions at the start of the debate, and then again at the end of the debate to determine if any hearts and minds were changed in the process.", 
+    "authors": [
+      {
+        "name": "Gloria Mark (moderator)"
+      }, 
+      {
+        "name": "Mary Czerwinski"
+      }, 
+      {
+        "name": "Gordon Bell"
+      }, 
+      {
+        "name": "Roy Pea"
+      }, 
+      {
+        "name": "Anind Dey"
+      }, 
+      {
+        "name": "Alex Soojung-Kim Pang"
+      }, 
+      {
+        "name": "Melissa Mazmanian"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Constantly connected:  At what price and with what rewards?", 
+    "type": "panel"
+  }, 
   "395": {
     "abstract": "In the past few years, surgical telemedicine has emerged as a promising answer to the increasing needs of everyday surgical collaboration and education. The implicit desire is to allow a remote surgeon to see the body as the local surgeon does in order to engage in shared decision-making or instruction. With this paper we take a step back by discussing the productive and cross-referential nature of surgical practice and image use. We discuss how it is not simply a case of transferring recorded video, but rather a new practice is instantiated in creating a view of the body for the remote surgeon. In order to investigate these practices for capturing and using video, we have deployed a head-mounted video camera (via the Google Glass) in six transplant organ recovery assessments. Drawing on observations and analysis of the video recordings, we examine how the transmitting surgeon crafts a view for the remote surgeon in order to facilitate the co-construction of knowledge and shared decision making.  We use these findings to discuss further design directions for video use in expert telecommunication.", 
     "authors": [
@@ -1734,6 +1862,31 @@ entities={
     "subtype": "workshop", 
     "title": "Deceptive/Honest/Unreliable/Reliable? Unpacking Social Signaling Theory for Social Computing Systems Analysis and Design", 
     "type": "workshop"
+  }, 
+  "40": {
+    "abstract": "Practice-based CSCW research is an orientation towards empirically-grounded research embracing particular methodological approaches with the aim of creating new theory about work, collaboration, and cooperative technologies. While practice-based CSCW research has several strong roots in both North America and Europe: ECSCW and Europe remain central to this tradition. In this panel we will discuss the practice-based research approach asking questions such as: What is the nature of Practice-based Computer Supported Cooperative Work research? How is it different from other CSCW research approaches? What is the relationship between these traditions in terms of conceptual approaches, methodologies and open questions for future research? This panel will discuss openly the diversity and commonalities between different CSCW traditions \u00d0 and argue that practice-based CSCW research is not something that happens only at ECSCW. ECSCW is not a geographical boundary for a certain type of research \u00d0 but rather a place for a specific research tradition and approach with links to many academic places in the world.", 
+    "authors": [
+      {
+        "name": "Pernille Bjorn"
+      }, 
+      {
+        "name": "Luigina Ciolfi"
+      }, 
+      {
+        "name": "Mark Ackerman"
+      }, 
+      {
+        "name": "Geraldine Fitzpatrick"
+      }, 
+      {
+        "name": "Volker Wulf"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
+    "type": "panel"
   }, 
   "400": {
     "abstract": "In most sociotechnical systems, individuals are tracked through user accounts. This paper explores the various ways in which people create and use multiple user representations, specifically in online games. Using 8 years of population data from a popular multiplayer online game, EVE Online, we examine how multiple character creation and use occurs at scale and how operationalization of individuals between accounts and characters impacts methods. We suggest that conceptualizing participants in online games based on the assumption that one character equals one individual can lead to incorrect analyses regarding the demographics or behaviors of the population. Additionally, social network analysis suggests that a character-centric, rather than account-level, viewpoint can change the results of statistical relationships with network metrics such as eigenvector centrality.", 
@@ -1824,7 +1977,7 @@ entities={
         "name": "William Hale"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0088ndez"
+        "name": "Andres Monroy-Hernandez"
       }, 
       {
         "name": "Benjamin Mako Hill"
@@ -1843,7 +1996,7 @@ entities={
         "name": "Saiph Savage"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0088ndez"
+        "name": "Andres Monroy-Hernandez"
       }, 
       {
         "name": "Tobias Hollerer"
@@ -2308,10 +2461,10 @@ entities={
         "name": "Henrik Blunck"
       }, 
       {
-        "name": "Mikkel Baun Kj\u00bergaard"
+        "name": "Mikkel Baun Kjaergaard"
       }, 
       {
-        "name": "Kaj Gr\u00bfnb\u00bek"
+        "name": "Kaj Gronbaek"
       }
     ], 
     "award": false, 
@@ -2854,7 +3007,7 @@ entities={
     "abstract": "In this paper, we present a case study of an urban organic food community and examine the way the community shapes its artifact ecology through a combination of appropriation of freely or cheaply available tools, and the long-term effort of building the community's own website. Based on participatory observation, content analysis of communication documents, and a series of interviews, we see how the collection of artifacts that a community uses to support their practice form what we refer to as their community artifact ecology. A community artifact ecology is multifaceted, dynamic and pending on what the members bring to the table, as well as on particular situations of use. The community artifact ecology concept is important for CSCW as it enables framing of the relationship between communities and technologies beyond the single artifact and beyond a static view of a dedicated technology.", 
     "authors": [
       {
-        "name": "Susanne B\u00bfdker"
+        "name": "Susanne Bodker"
       }, 
       {
         "name": "Henrik Korsgaard"
@@ -3200,7 +3353,7 @@ entities={
         "name": "Joy Kim"
       }, 
       {
-        "name": "Andr\u008es Monroy-Hern\u0088ndez"
+        "name": "Andres Monroy-Hernandez"
       }
     ], 
     "award": false, 
