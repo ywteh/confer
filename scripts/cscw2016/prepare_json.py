@@ -122,8 +122,7 @@ def prepare_data(data_file1):
         award = True 
     
     if session_chair != '':
-        session = 'Session: ' + session + ' - Chair: ' + session_chair
-
+        session = session + ' - Chair: ' + session_chair
     
     if 'Hyatt' in row[1] or 'Explor' in row[1]:
         room = row[1]

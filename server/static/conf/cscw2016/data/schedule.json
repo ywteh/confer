@@ -11,7 +11,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
+            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
             "room": "TBD", 
@@ -19,15 +19,11 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
-          }, 
-          {
-            "room": "TBD", 
             "session": "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
             "room": "TBD", 
-            "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
+            "session": "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
           }, 
           {
             "room": "TBD", 
@@ -36,6 +32,10 @@ schedule=[
           {
             "room": "TBD", 
             "session": "Collaboration_and_Decision_Making_in_Crisis_Situations"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
           }
         ], 
         "slot_class": "morning1", 
@@ -52,27 +52,15 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Let_s_talk_about_the_Quantified_Workplace"
+          }, 
+          {
+            "room": "TBD", 
             "session": "Toward_a_Typology_of_Participation_in_Crowdwork"
           }, 
           {
             "room": "TBD", 
-            "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Doctoral_Symposium"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Let_s_talk_about_the_Quantified_Workplace"
+            "session": "Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
           }, 
           {
             "room": "TBD", 
@@ -84,7 +72,19 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
+            "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Doctoral_Symposium"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
           }
         ], 
         "slot_class": "morning1", 
@@ -134,23 +134,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Modeling_Social_Media_Chair_Sadat_Shami_IBM"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Towards_Physical_and_Social_Wellness_Chair_Xiaomu_Zhou_Rutgers_University"
-          }, 
-          {
-            "room": "TBD", 
             "session": "Visibility_in_Digital_Space_Controlling_Personal_Information_Online"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL"
+            "session": "Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Crowd_Workers_Chair_Ido_Guy_Yahoo_Labs"
+            "session": "Modeling_Social_Media_Chair_Sadat_Shami_IBM"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Crowd_Workers_Chair_Ido_Guy_Yahoo_Labs"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Towards_Physical_and_Social_Wellness_Chair_Xiaomu_Zhou_Rutgers_University"
           }
         ], 
         "slot_class": "morning2", 
@@ -172,23 +172,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Digital_Learning_Environments_Chair_Michael_Prilla_Ruhr_University_of_Bochum"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Distributed_Teams_Chair_Pam_Hinds_Stanford_University"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
+          }, 
+          {
+            "room": "TBD", 
             "session": "Robots_As_Cooperative_Partners_We_Hope_"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Digital_Learning_Environments_Chair_Michael_Prilla_Ruhr_University_of_Bochum"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Distributed_Teams_Chair_Pam_Hinds_Stanford_University"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -199,23 +199,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Credibility_and_Social_Media_Chair_Moira_Burke_Facebook"
+            "session": "Managing_Personal_Data_Chair_Sharoda_Paul_GE_Global_Research"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Internatonal_Insights_Chair_David_McDonald_University_of_Washington"
+            "session": "Co_present_and_Remote_Media_Use_Chair_Jessica_Vitak_University_of_Maryland"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Managing_Personal_Data_Chair_Sharoda_Paul_GE_Global_Research"
+            "session": "Credibility_and_Social_Media_Chair_Moira_Burke_Facebook"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Co_present_and_Remote_Media_Use_Chair_Jessica_Vitak_University_of_Maryland"
+            "session": "Internatonal_Insights_Chair_David_McDonald_University_of_Washington"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Computer_Mediated_Communication_Chair_Gary_Olson_University_of_California_Irvine"
+            "session": "Computer_Mediated_Communication_Chair_Gary_Olson_University_of_California_Irvine"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -269,19 +269,19 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Games_Chair_Bryan_Semaan_Syracuse_University"
+            "session": "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Foundation"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Healthcare_Providers_Chair_Michael_Muller_IBM"
+            "session": "Healthcare_Providers_Chair_Michael_Muller_IBM"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Online_Communities_Chair_Mor_Naaman_Cornell_Tech"
+            "session": "Online_Communities_Chair_Mor_Naaman_Cornell_Tech"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Foundation"
+            "session": "Games_Chair_Bryan_Semaan_Syracuse_University"
           }
         ], 
         "slot_class": "morning1", 
@@ -303,7 +303,11 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri"
+            "session": "Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Engaging_the_Crowd_Chair_Kurt_Luther_Virginia_Tech"
           }, 
           {
             "room": "TBD", 
@@ -311,15 +315,11 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Engaging_the_Crowd_Chair_Kurt_Luther_Virginia_Tech"
+            "session": "Hospital_Work_Chair_Aleksandra_Sarcevic_Drexel_University"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Ethics_and_Policy_Chair_Geraldine_Fitzpatrick_Vienna_University_of_Technology"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Hospital_Work_Chair_Aleksandra_Sarcevic_Drexel_University"
+            "session": "Ethics_and_Policy_Chair_Geraldine_Fitzpatrick_Vienna_University_of_Technology"
           }
         ], 
         "slot_class": "morning2", 
@@ -341,19 +341,19 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Social_Network_Methods_Chair_Wendy_Ju_Stanford_University"
+            "session": "Food_and_Health_Chair_Yunan_Chen_University_of_California_Irvine"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Food_and_Health_Chair_Yunan_Chen_University_of_California_Irvine"
+            "session": "Hacking_Making_and_Discovering_Chair_Luigina_Ciolfi_Sheffield_Hallam_University"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Hacking_Making_and_Discovering_Chair_Luigina_Ciolfi_Sheffield_Hallam_University"
+            "session": "Social_Network_Methods_Chair_Wendy_Ju_Stanford_University"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Crowd_Powered_Applications_Chair_Dan_Russell_Google"
+            "session": "Crowd_Powered_Applications_Chair_Dan_Russell_Google"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -414,7 +414,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Crowd_Innovation_and_Crowdfunding_Chair_Brian_Bailey_University_of_Illinois"
+            "session": "Crowd_Innovation_and_Crowdfunding_Chair_Brian_Bailey_University_of_Illinois"
           }
         ], 
         "slot_class": "morning1", 
@@ -425,15 +425,15 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota"
+            "session": "Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Non_Profits_and_Humanitarian_Responses_Chair_Marcos_R_S_Borges_Universidade_Federal_do_Rio_de_Janeiro"
+            "session": "Non_Profits_and_Humanitarian_Responses_Chair_Marcos_R_S_Borges_Universidade_Federal_do_Rio_de_Janeiro"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_"
+            "session": "Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota"
           }
         ], 
         "slot_class": "morning1", 
@@ -455,23 +455,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Accessibility_and_Universal_Design_Chair_Judd_Antin_Facebook"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Multimedia_Creation_and_Remixing_Chair_Louise_Barkhuus_Stockholm_University"
+          }, 
+          {
+            "room": "TBD", 
             "session": "Constantly_connected_At_what_price_and_with_what_rewards_"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Multimedia_Creation_and_Remixing_Chair_Louise_Barkhuus_Stockholm_University"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Session_Accessibility_and_Universal_Design_Chair_Judd_Antin_Facebook"
+            "session": "Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
           }
         ], 
         "slot_class": "morning2", 
@@ -493,7 +493,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Session_Crowd_Workflows_Chair_Afra_Mashhadi_Bell_Labs_Dublin"
+            "session": "Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School"
           }, 
           {
             "room": "TBD", 
@@ -501,15 +501,15 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Home_and_Family_Chair_Lauren_Scissors_Facebook"
+            "session": "Rich_Telepresence_Chair_John_Tang_Microsoft_Research"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School"
+            "session": "Home_and_Family_Chair_Lauren_Scissors_Facebook"
           }, 
           {
             "room": "TBD", 
-            "session": "Session_Rich_Telepresence_Chair_John_Tang_Microsoft_Research"
+            "session": "Crowd_Workflows_Chair_Afra_Mashhadi_Bell_Labs_Dublin"
           }
         ], 
         "slot_class": "afternoon1", 
