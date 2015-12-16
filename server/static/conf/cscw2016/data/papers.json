@@ -96,7 +96,7 @@ entities={
     "type": "workshop"
   }, 
   "12": {
-    "abstract": "", 
+    "abstract": "Over the past decades the advances in pervasive technology have enabled new ways of understanding human behaviour in the workplace. This trend merged with the new rise in the Quantified-Self movement has engendered a new paradigm of Quantified Workplace, where sensing solutions as well as participatory inputs could be used to model, quantify and visualise dynamics of the workplace. In this workshop we want to start a new dialogue to discuss challenges, insights and reflections on this topic. To this aim we are looking for original submissions which offer new insights or propose new techniques for Quantified Workplace. We welcome technical research papers, qualitative research studies, case studies as well as work-in-progress papers which could trigger discussions around the workshop topics. ", 
     "authors": [
       {
         "name": ""
@@ -134,7 +134,7 @@ entities={
     "type": "paper"
   }, 
   "13": {
-    "abstract": "", 
+    "abstract": "Major projects to support citizens in healthcare, government, energy-savings, disability, and the like are in the research phases or are underway, often on a large-scale. These efforts - in China, the U.S., Europe, and elsewhere \u00d0 aim to affect societal changes through technical means. Yet, these projects are seldom only computational, but often a combination of technical and social, interwoven to provide a suitable infrastructure for these efforts to change society. These projects are seldom only collaborative either, but collaboration and coordination play central roles in many of these efforts. CSCW cannot only learn from these efforts in the field but CSCW\u00d5s research interests and findings can also help in return. This workshop aims to bring together people from numerous countries and societies who are carrying out these projects or are interested in these efforts to share architectures, designs, findings, and theories so as to promote these projects.\u00ca", 
     "authors": [
       {
         "name": ""
