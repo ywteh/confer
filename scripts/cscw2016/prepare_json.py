@@ -121,7 +121,7 @@ def prepare_data(data_file1):
     if award_s.lower() == "best papers":
         award = True 
     
-    if session_chair != '':
+    if session_chair != '' and type != "special":
         session = session + ' - Chair: ' + session_chair
         
     if type == 'panel':

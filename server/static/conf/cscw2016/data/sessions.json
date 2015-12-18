@@ -47,10 +47,10 @@ sessions={
     ], 
     "time": "9:00 - 5:00"
   }, 
-  "Closing_Keynote_Chair_Mike_Krieger_Instagram": {
+  "Closing_Keynote": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Closing Keynote - Chair: Mike Krieger, Instagram", 
+    "s_title": "Closing Keynote", 
     "submissions": [
       "20"
     ], 
@@ -449,28 +449,28 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Mon_Afternoon_Coffee_Break": {
+  "Monday_Afternoon_Coffee_Break": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Mon Afternoon Coffee Break", 
+    "s_title": "Monday Afternoon Coffee Break", 
     "submissions": [
       "23"
     ], 
     "time": "4:00 - 4:30"
   }, 
-  "Mon_Lunch": {
+  "Monday_Lunch": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Mon Lunch", 
+    "s_title": "Monday Lunch", 
     "submissions": [
       "22"
     ], 
     "time": "12:30 - 2:30"
   }, 
-  "Mon_Morn_Coffee_Break": {
+  "Monday_Morning_Coffee_Break": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Mon Morn Coffee Break", 
+    "s_title": "Monday Morning Coffee Break", 
     "submissions": [
       "21"
     ], 
@@ -548,10 +548,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Opening_Keynote_Chair_Simon_Rogers_Google": {
+  "Opening_Keynote": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Opening & Keynote - Chair: Simon Rogers, Google", 
+    "s_title": "Opening & Keynote", 
     "submissions": [
       "19"
     ], 
@@ -716,28 +716,28 @@ sessions={
     ], 
     "time": "5:30 - 6:00"
   }, 
-  "Tues_Afternoon_Coffee_Break": {
+  "Tuesday_Afternoon_Coffee_Break": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Tues Afternoon Coffee Break", 
+    "s_title": "Tuesday Afternoon Coffee Break", 
     "submissions": [
       "28"
     ], 
     "time": "4:00 - 4:30"
   }, 
-  "Tues_Lunch": {
+  "Tuesday_Lunch": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Tues Lunch", 
+    "s_title": "Tuesday Lunch", 
     "submissions": [
       "27"
     ], 
     "time": "12:30 - 2:30"
   }, 
-  "Tues_Morn_Coffee_Break": {
+  "Tuesday_Morning_Coffee_Break": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Tues Morn Coffee Break", 
+    "s_title": "Tuesday Morning Coffee Break", 
     "submissions": [
       "26"
     ], 
@@ -755,28 +755,28 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Wed_Afternoon_Coffee_Break": {
+  "Wednesday_Afternoon_Coffee_Break": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Wed Afternoon Coffee Break", 
+    "s_title": "Wednesday Afternoon Coffee Break", 
     "submissions": [
       "34"
     ], 
     "time": "4:00 - 4:30"
   }, 
-  "Wed_Lunch": {
+  "Wednesday_Lunch": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Wed Lunch", 
+    "s_title": "Wednesday Lunch", 
     "submissions": [
       "33"
     ], 
     "time": "12:30 - 2:30"
   }, 
-  "Wed_Morn_Coffee_Break": {
+  "Wednesday_Morning_Coffee_Break": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Wed Morn Coffee Break", 
+    "s_title": "Wednesday Morning Coffee Break", 
     "submissions": [
       "32"
     ], 

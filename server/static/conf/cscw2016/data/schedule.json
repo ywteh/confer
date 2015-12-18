@@ -112,7 +112,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Opening_Keynote_Chair_Simon_Rogers_Google"
+            "session": "Opening_Keynote"
           }
         ], 
         "slot_class": "morning1", 
@@ -123,7 +123,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Mon_Morn_Coffee_Break"
+            "session": "Monday_Morning_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -161,7 +161,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Mon_Lunch"
+            "session": "Monday_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -199,6 +199,17 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Monday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Monday4_00_4_30", 
+        "time": "4:00 - 4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Managing_Personal_Data_Chair_Sharoda_Paul_Facebook"
           }, 
           {
@@ -221,17 +232,6 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Monday4_30_6_00", 
         "time": "4:30 - 6:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
-            "session": "Mon_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Monday4_00_4_30", 
-        "time": "4:00 - 4:30"
       }, 
       {
         "sessions": [
@@ -265,10 +265,6 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Panel_Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration"
-          }, 
-          {
-            "room": "TBD", 
             "session": "Games_Chair_Bryan_Semaan_Syracuse_University"
           }, 
           {
@@ -282,6 +278,10 @@ schedule=[
           {
             "room": "TBD", 
             "session": "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Research"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Panel_Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration"
           }
         ], 
         "slot_class": "morning1", 
@@ -292,7 +292,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Tues_Morn_Coffee_Break"
+            "session": "Tuesday_Morning_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -330,7 +330,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Tues_Lunch"
+            "session": "Tuesday_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -368,23 +368,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
+            "session": "Tuesday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday4_00_4_30", 
+        "time": "4:00 - 4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
             "session": "Lasting_Impact_Plenary_Session"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_30_5_30", 
         "time": "4:30 - 5:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
-            "session": "Tues_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Tuesday4_00_4_30", 
-        "time": "4:00 - 4:30"
       }, 
       {
         "sessions": [
@@ -441,7 +441,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Wed_Morn_Coffee_Break"
+            "session": "Wednesday_Morning_Coffee_Break"
           }
         ], 
         "slot_class": "morning2", 
@@ -479,7 +479,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Wed_Lunch"
+            "session": "Wednesday_Lunch"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -517,23 +517,23 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Closing_Keynote_Chair_Mike_Krieger_Instagram"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Wednesday4_30_6_00", 
-        "time": "4:30 - 6:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
-            "session": "Wed_Afternoon_Coffee_Break"
+            "session": "Wednesday_Afternoon_Coffee_Break"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_00_4_30", 
         "time": "4:00 - 4:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Closing_Keynote"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_30_6_00", 
+        "time": "4:30 - 6:00"
       }
     ]
   }
