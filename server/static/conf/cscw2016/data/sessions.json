@@ -1,8 +1,8 @@
 sessions={
-  "Accessibility_and_Universal_Design_Chair_Judd_Antin_Facebook": {
+  "Accessibility_and_Universal_Design_Chair_Judd_Antin_Airbnb": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Accessibility and Universal Design - Chair: Judd Antin, Facebook", 
+    "s_title": "Accessibility and Universal Design - Chair: Judd Antin, Airbnb", 
     "submissions": [
       "180", 
       "315", 
@@ -18,7 +18,7 @@ sessions={
     "submissions": [
       "16"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies": {
     "date": "Sunday", 
@@ -27,7 +27,7 @@ sessions={
     "submissions": [
       "11"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science": {
     "date": "Saturday", 
@@ -36,7 +36,7 @@ sessions={
     "submissions": [
       "5"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust": {
     "date": "Saturday", 
@@ -45,16 +45,16 @@ sessions={
     "submissions": [
       "6"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
-  "Closing_Keynote": {
+  "Closing_Keynote_Chair_Mike_Krieger_Instagram": {
     "date": "Wednesday", 
     "room": "TBD", 
-    "s_title": "Closing Keynote", 
+    "s_title": "Closing Keynote - Chair: Mike Krieger, Instagram", 
     "submissions": [
       "20"
     ], 
-    "time": "4:30-6:00"
+    "time": "4:30 - 6:00"
   }, 
   "Co_present_and_Remote_Media_Use_Chair_Jessica_Vitak_University_of_Maryland": {
     "date": "Monday", 
@@ -75,7 +75,7 @@ sessions={
     "submissions": [
       "8"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies": {
     "date": "Saturday", 
@@ -84,7 +84,7 @@ sessions={
     "submissions": [
       "3"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research": {
     "date": "Saturday", 
@@ -93,7 +93,7 @@ sessions={
     "submissions": [
       "2"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Computer_Mediated_Communication_Chair_Gary_Olson_University_of_California_Irvine": {
     "date": "Monday", 
@@ -114,7 +114,7 @@ sessions={
     "submissions": [
       "31"
     ], 
-    "time": "7:00PM-10:30PM"
+    "time": "7:00PM - 10:30PM"
   }, 
   "Credibility_and_Social_Media_Chair_Moira_Burke_Facebook": {
     "date": "Monday", 
@@ -138,7 +138,7 @@ sessions={
       "564", 
       "298"
     ], 
-    "time": "9-10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Crowd_Powered_Applications_Chair_Dan_Russell_Google": {
     "date": "Tuesday", 
@@ -183,7 +183,7 @@ sessions={
     "submissions": [
       "9"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design": {
     "date": "Saturday", 
@@ -192,7 +192,7 @@ sessions={
     "submissions": [
       "4"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Designing_online_experiments_Citizen_science_approaches_to_research": {
     "date": "Saturday", 
@@ -201,7 +201,7 @@ sessions={
     "submissions": [
       "7"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Developing_a_Research_Agenda_for_Human_Centered_Data_Science": {
     "date": "Sunday", 
@@ -210,7 +210,7 @@ sessions={
     "submissions": [
       "15"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Digital_Learning_Environments_Chair_Michael_Prilla_Ruhr_University_of_Bochum": {
     "date": "Monday", 
@@ -236,10 +236,10 @@ sessions={
     ], 
     "time": "2:30 - 4:00"
   }, 
-  "Distributed_Teams_Chair_Pam_Hinds_Stanford_University": {
+  "Distributed_Teams_Chair_Pamela_Hinds_Stanford_University": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Distributed Teams - Chair: Pam Hinds, Stanford University", 
+    "s_title": "Distributed Teams - Chair: Pamela Hinds, Stanford University", 
     "submissions": [
       "733", 
       "396", 
@@ -255,7 +255,7 @@ sessions={
     "submissions": [
       "17"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri": {
     "date": "Tuesday", 
@@ -324,7 +324,7 @@ sessions={
     "submissions": [
       "14"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Hacking_Making_and_Discovering_Chair_Luigina_Ciolfi_Sheffield_Hallam_University": {
     "date": "Tuesday", 
@@ -374,10 +374,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Internatonal_Insights_Chair_David_McDonald_University_of_Washington": {
+  "International_Insights_Chair_David_McDonald_University_of_Washington": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Internatonal Insights - Chair: David McDonald, University of Washington", 
+    "s_title": "International Insights - Chair: David McDonald, University of Washington", 
     "submissions": [
       "452", 
       "335", 
@@ -393,7 +393,7 @@ sessions={
     "submissions": [
       "13"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Lasting_Impact_Plenary_Session": {
     "date": "Tuesday", 
@@ -402,7 +402,7 @@ sessions={
     "submissions": [
       "29"
     ], 
-    "time": "4:30-5:30"
+    "time": "4:30 - 5:30"
   }, 
   "Let_s_talk_about_the_Quantified_Workplace": {
     "date": "Sunday", 
@@ -411,12 +411,12 @@ sessions={
     "submissions": [
       "12"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
-  "Managing_Personal_Data_Chair_Sharoda_Paul_GE_Global_Research": {
+  "Managing_Personal_Data_Chair_Sharoda_Paul_Facebook": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Managing Personal Data - Chair: Sharoda Paul, GE Global Research", 
+    "s_title": "Managing Personal Data - Chair: Sharoda Paul, Facebook", 
     "submissions": [
       "546", 
       "449", 
@@ -456,7 +456,7 @@ sessions={
     "submissions": [
       "23"
     ], 
-    "time": "4:00-4:30"
+    "time": "4:00 - 4:30"
   }, 
   "Mon_Lunch": {
     "date": "Monday", 
@@ -465,7 +465,7 @@ sessions={
     "submissions": [
       "22"
     ], 
-    "time": "12:30-2:30"
+    "time": "12:30 - 2:30"
   }, 
   "Mon_Morn_Coffee_Break": {
     "date": "Monday", 
@@ -474,7 +474,7 @@ sessions={
     "submissions": [
       "21"
     ], 
-    "time": "10:30-11:00"
+    "time": "10:30 - 11:00"
   }, 
   "Multimedia_Creation_and_Remixing_Chair_Louise_Barkhuus_Stockholm_University": {
     "date": "Wednesday", 
@@ -500,10 +500,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Foundation": {
+  "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Research": {
     "date": "Tuesday", 
     "room": "TBD", 
-    "s_title": "Newcomers in Peer Production - Chair: Aaron Halfaker, Wikimedia Foundation", 
+    "s_title": "Newcomers in Peer Production - Chair: Aaron Halfaker, Wikimedia Research", 
     "submissions": [
       "561", 
       "503", 
@@ -522,7 +522,7 @@ sessions={
       "666", 
       "257"
     ], 
-    "time": "9:00-10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Online_Communities_Chair_Mor_Naaman_Cornell_Tech": {
     "date": "Tuesday", 
@@ -548,10 +548,10 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
-  "Opening_Keynote": {
+  "Opening_Keynote_Chair_Simon_Rogers_Google": {
     "date": "Monday", 
     "room": "TBD", 
-    "s_title": "Opening & Keynote", 
+    "s_title": "Opening & Keynote - Chair: Simon Rogers, Google", 
     "submissions": [
       "19"
     ], 
@@ -562,7 +562,7 @@ sessions={
     "room": "TBD", 
     "s_title": "Panel: Constantly connected:  At what price and with what rewards?", 
     "submissions": [
-      "39"
+      "40"
     ], 
     "time": "11:00 - 12:30"
   }, 
@@ -589,7 +589,7 @@ sessions={
     "room": "TBD", 
     "s_title": "Panel: Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
     "submissions": [
-      "40"
+      "41"
     ], 
     "time": "2:30 - 4:00"
   }, 
@@ -611,6 +611,15 @@ sessions={
     ], 
     "time": "11:00 - 12:30"
   }, 
+  "Panel_What_did_we_get_right_and_wrong_about_CSCW_during_the_past_30_years_": {
+    "date": "Tuesday", 
+    "room": "TBD", 
+    "s_title": "Panel: What did we get right and wrong about CSCW during the past 30 years?", 
+    "submissions": [
+      "39"
+    ], 
+    "time": "2:30 - 4:00"
+  }, 
   "Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota": {
     "date": "Wednesday", 
     "room": "TBD", 
@@ -621,7 +630,7 @@ sessions={
       "171", 
       "471"
     ], 
-    "time": "9:00-10:30"
+    "time": "9:00 - 10:30"
   }, 
   "Poster_Demo_Reception": {
     "date": "Monday", 
@@ -630,7 +639,7 @@ sessions={
     "submissions": [
       "24"
     ], 
-    "time": "6:00-8:00PM"
+    "time": "6:00 - 8:00PM"
   }, 
   "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University": {
     "date": "Monday", 
@@ -675,7 +684,7 @@ sessions={
     "submissions": [
       "25"
     ], 
-    "time": "8:00PM-10:30PM"
+    "time": "8:00PM - 10:30PM"
   }, 
   "Toward_a_Typology_of_Participation_in_Crowdwork": {
     "date": "Sunday", 
@@ -684,7 +693,7 @@ sessions={
     "submissions": [
       "10"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Towards_Physical_and_Social_Wellness_Chair_Xiaomu_Zhou_Rutgers_University": {
     "date": "Monday", 
@@ -705,7 +714,7 @@ sessions={
     "submissions": [
       "30"
     ], 
-    "time": "5:30-6:00"
+    "time": "5:30 - 6:00"
   }, 
   "Tues_Afternoon_Coffee_Break": {
     "date": "Tuesday", 
@@ -714,7 +723,7 @@ sessions={
     "submissions": [
       "28"
     ], 
-    "time": "4:00-4:30"
+    "time": "4:00 - 4:30"
   }, 
   "Tues_Lunch": {
     "date": "Tuesday", 
@@ -723,7 +732,7 @@ sessions={
     "submissions": [
       "27"
     ], 
-    "time": "12:30-2:30"
+    "time": "12:30 - 2:30"
   }, 
   "Tues_Morn_Coffee_Break": {
     "date": "Tuesday", 
@@ -732,7 +741,7 @@ sessions={
     "submissions": [
       "26"
     ], 
-    "time": "10:30-11:00"
+    "time": "10:30 - 11:00"
   }, 
   "Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech": {
     "date": "Wednesday", 
@@ -753,7 +762,7 @@ sessions={
     "submissions": [
       "34"
     ], 
-    "time": "4:00-4:30"
+    "time": "4:00 - 4:30"
   }, 
   "Wed_Lunch": {
     "date": "Wednesday", 
@@ -762,7 +771,7 @@ sessions={
     "submissions": [
       "33"
     ], 
-    "time": "12:30-2:30"
+    "time": "12:30 - 2:30"
   }, 
   "Wed_Morn_Coffee_Break": {
     "date": "Wednesday", 
@@ -771,7 +780,7 @@ sessions={
     "submissions": [
       "32"
     ], 
-    "time": "10:30-11:00"
+    "time": "10:30 - 11:00"
   }, 
   "Welcome_Reception": {
     "date": "Sunday", 
@@ -780,7 +789,7 @@ sessions={
     "submissions": [
       "18"
     ], 
-    "time": "5:00-6:30"
+    "time": "5:00 - 6:30"
   }, 
   "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments": {
     "date": "Saturday", 
@@ -789,7 +798,7 @@ sessions={
     "submissions": [
       "1"
     ], 
-    "time": "9:00-5:00"
+    "time": "9:00 - 5:00"
   }, 
   "Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_": {
     "date": "Wednesday", 
@@ -801,6 +810,6 @@ sessions={
       "451", 
       "610"
     ], 
-    "time": "9:00-10:30"
+    "time": "9:00 - 10:30"
   }
 }

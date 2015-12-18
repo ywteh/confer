@@ -40,7 +40,7 @@ schedule=[
         ], 
         "slot_class": "morning1", 
         "slot_id": "Saturday9_00_5_00", 
-        "time": "9:00-5:00"
+        "time": "9:00 - 5:00"
       }
     ]
   }, 
@@ -89,7 +89,7 @@ schedule=[
         ], 
         "slot_class": "morning1", 
         "slot_id": "Sunday9_00_5_00", 
-        "time": "9:00-5:00"
+        "time": "9:00 - 5:00"
       }, 
       {
         "sessions": [
@@ -100,7 +100,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Sunday5_00_6_30", 
-        "time": "5:00-6:30"
+        "time": "5:00 - 6:30"
       }
     ]
   }, 
@@ -112,7 +112,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Opening_Keynote"
+            "session": "Opening_Keynote_Chair_Simon_Rogers_Google"
           }
         ], 
         "slot_class": "morning1", 
@@ -128,7 +128,7 @@ schedule=[
         ], 
         "slot_class": "morning2", 
         "slot_id": "Monday10_30_11_00", 
-        "time": "10:30-11:00"
+        "time": "10:30 - 11:00"
       }, 
       {
         "sessions": [
@@ -166,7 +166,7 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "Monday12_30_2_30", 
-        "time": "12:30-2:30"
+        "time": "12:30 - 2:30"
       }, 
       {
         "sessions": [
@@ -176,15 +176,15 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University"
-          }, 
-          {
-            "room": "TBD", 
-            "session": "Distributed_Teams_Chair_Pam_Hinds_Stanford_University"
+            "session": "Distributed_Teams_Chair_Pamela_Hinds_Stanford_University"
           }, 
           {
             "room": "TBD", 
             "session": "Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
+          }, 
+          {
+            "room": "TBD", 
+            "session": "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University"
           }, 
           {
             "room": "TBD", 
@@ -199,7 +199,7 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Managing_Personal_Data_Chair_Sharoda_Paul_GE_Global_Research"
+            "session": "Managing_Personal_Data_Chair_Sharoda_Paul_Facebook"
           }, 
           {
             "room": "TBD", 
@@ -211,7 +211,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Internatonal_Insights_Chair_David_McDonald_University_of_Washington"
+            "session": "International_Insights_Chair_David_McDonald_University_of_Washington"
           }, 
           {
             "room": "TBD", 
@@ -231,7 +231,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Monday4_00_4_30", 
-        "time": "4:00-4:30"
+        "time": "4:00 - 4:30"
       }, 
       {
         "sessions": [
@@ -242,7 +242,7 @@ schedule=[
         ], 
         "slot_class": "evening", 
         "slot_id": "Monday6_00_8_00PM", 
-        "time": "6:00-8:00PM"
+        "time": "6:00 - 8:00PM"
       }, 
       {
         "sessions": [
@@ -253,7 +253,7 @@ schedule=[
         ], 
         "slot_class": "evening", 
         "slot_id": "Monday8_00PM_10_30PM", 
-        "time": "8:00PM-10:30PM"
+        "time": "8:00PM - 10:30PM"
       }
     ]
   }, 
@@ -269,7 +269,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Foundation"
+            "session": "Games_Chair_Bryan_Semaan_Syracuse_University"
           }, 
           {
             "room": "TBD", 
@@ -281,7 +281,7 @@ schedule=[
           }, 
           {
             "room": "TBD", 
-            "session": "Games_Chair_Bryan_Semaan_Syracuse_University"
+            "session": "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Research"
           }
         ], 
         "slot_class": "morning1", 
@@ -297,7 +297,7 @@ schedule=[
         ], 
         "slot_class": "morning2", 
         "slot_id": "Tuesday10_30_11_00", 
-        "time": "10:30-11:00"
+        "time": "10:30 - 11:00"
       }, 
       {
         "sessions": [
@@ -335,10 +335,14 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "Tuesday12_30_2_30", 
-        "time": "12:30-2:30"
+        "time": "12:30 - 2:30"
       }, 
       {
         "sessions": [
+          {
+            "room": "TBD", 
+            "session": "Panel_What_did_we_get_right_and_wrong_about_CSCW_during_the_past_30_years_"
+          }, 
           {
             "room": "TBD", 
             "session": "Food_and_Health_Chair_Yunan_Chen_University_of_California_Irvine"
@@ -369,7 +373,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_30_5_30", 
-        "time": "4:30-5:30"
+        "time": "4:30 - 5:30"
       }, 
       {
         "sessions": [
@@ -380,7 +384,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_00_4_30", 
-        "time": "4:00-4:30"
+        "time": "4:00 - 4:30"
       }, 
       {
         "sessions": [
@@ -391,7 +395,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday5_30_6_00", 
-        "time": "5:30-6:00"
+        "time": "5:30 - 6:00"
       }, 
       {
         "sessions": [
@@ -402,7 +406,7 @@ schedule=[
         ], 
         "slot_class": "evening", 
         "slot_id": "Tuesday7_00PM_10_30PM", 
-        "time": "7:00PM-10:30PM"
+        "time": "7:00PM - 10:30PM"
       }
     ]
   }, 
@@ -415,14 +419,7 @@ schedule=[
           {
             "room": "TBD", 
             "session": "Crowd_Innovation_and_Crowdfunding_Chair_Brian_Bailey_University_of_Illinois"
-          }
-        ], 
-        "slot_class": "morning1", 
-        "slot_id": "Wednesday9_10_30", 
-        "time": "9-10:30"
-      }, 
-      {
-        "sessions": [
+          }, 
           {
             "room": "TBD", 
             "session": "Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_"
@@ -438,7 +435,7 @@ schedule=[
         ], 
         "slot_class": "morning1", 
         "slot_id": "Wednesday9_00_10_30", 
-        "time": "9:00-10:30"
+        "time": "9:00 - 10:30"
       }, 
       {
         "sessions": [
@@ -449,17 +446,17 @@ schedule=[
         ], 
         "slot_class": "morning2", 
         "slot_id": "Wednesday10_30_11_00", 
-        "time": "10:30-11:00"
+        "time": "10:30 - 11:00"
       }, 
       {
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech"
+            "session": "Accessibility_and_Universal_Design_Chair_Judd_Antin_Airbnb"
           }, 
           {
             "room": "TBD", 
-            "session": "Accessibility_and_Universal_Design_Chair_Judd_Antin_Facebook"
+            "session": "Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech"
           }, 
           {
             "room": "TBD", 
@@ -487,7 +484,7 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "Wednesday12_30_2_30", 
-        "time": "12:30-2:30"
+        "time": "12:30 - 2:30"
       }, 
       {
         "sessions": [
@@ -520,12 +517,12 @@ schedule=[
         "sessions": [
           {
             "room": "TBD", 
-            "session": "Closing_Keynote"
+            "session": "Closing_Keynote_Chair_Mike_Krieger_Instagram"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_30_6_00", 
-        "time": "4:30-6:00"
+        "time": "4:30 - 6:00"
       }, 
       {
         "sessions": [
@@ -536,7 +533,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_00_4_30", 
-        "time": "4:00-4:30"
+        "time": "4:00 - 4:30"
       }
     ]
   }

@@ -1075,7 +1075,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "special", 
-    "title": "Lasting Impact Plenary Session", 
+    "title": "Awareness and Coordination in Shared Workspaces", 
     "type": "special"
   }, 
   "298": {
@@ -1779,34 +1779,28 @@ entities={
     "type": "paper"
   }, 
   "39": {
-    "abstract": "The temptation to constantly refer to the web, or lifelog every event, or wear a watch (or other personal device) that connect you with the pulse of available information is strong. But is it a good idea to be that much online?\n\nOur panelists will address this question, each presenting a short opening statement about why their position (pro or con) is correct. The panelists will each be able to ask a question of another panelist challenging their position, and inviting a rebuttal. We will ask audience participants their opinions at the start of the debate, and then again at the end of the debate to determine if any hearts and minds were changed in the process.", 
+    "abstract": "The first CSCW conference was held 30 years ago. Over that time, many topics have been addressed, many ideas have been put forward, much research has been reported. What did the field get right? And what did the field get wrong? The panel, comprised of people who directly witnessed much of this history, will reflect on these questions. We don\u00d5t expect all to agree with each panelist\u00d5s conclusions, and we will invite reactions and contributions from the audience as well.", 
     "authors": [
       {
-        "name": "Gloria Mark (moderator)"
+        "name": "Daniel M. Russell"
       }, 
       {
-        "name": "Mary Czerwinski"
+        "name": "Steven Poltrock"
       }, 
       {
-        "name": "Gordon Bell"
+        "name": "Irene Greif"
       }, 
       {
-        "name": "Roy Pea"
+        "name": "Judith S. Olson"
       }, 
       {
-        "name": "Anind Dey"
-      }, 
-      {
-        "name": "Alex Soojung-Kim Pang"
-      }, 
-      {
-        "name": "Melissa Mazmanian"
+        "name": "Gary M. Olson"
       }
     ], 
     "award": false, 
     "hm": false, 
     "subtype": "panel", 
-    "title": "Constantly connected:  At what price and with what rewards?", 
+    "title": "What did we get right and wrong about CSCW during the past 30 years?", 
     "type": "panel"
   }, 
   "395": {
@@ -1864,28 +1858,34 @@ entities={
     "type": "workshop"
   }, 
   "40": {
-    "abstract": "Practice-based CSCW research is an orientation towards empirically-grounded research embracing particular methodological approaches with the aim of creating new theory about work, collaboration, and cooperative technologies. While practice-based CSCW research has several strong roots in both North America and Europe: ECSCW and Europe remain central to this tradition. In this panel we will discuss the practice-based research approach asking questions such as: What is the nature of Practice-based Computer Supported Cooperative Work research? How is it different from other CSCW research approaches? What is the relationship between these traditions in terms of conceptual approaches, methodologies and open questions for future research? This panel will discuss openly the diversity and commonalities between different CSCW traditions \u00d0 and argue that practice-based CSCW research is not something that happens only at ECSCW. ECSCW is not a geographical boundary for a certain type of research \u00d0 but rather a place for a specific research tradition and approach with links to many academic places in the world.", 
+    "abstract": "The temptation to constantly refer to the web, or lifelog every event, or wear a watch (or other personal device) that connect you with the pulse of available information is strong. But is it a good idea to be that much online?\n\nOur panelists will address this question, each presenting a short opening statement about why their position (pro or con) is correct. The panelists will each be able to ask a question of another panelist challenging their position, and inviting a rebuttal. We will ask audience participants their opinions at the start of the debate, and then again at the end of the debate to determine if any hearts and minds were changed in the process.", 
     "authors": [
       {
-        "name": "Pernille Bjorn"
+        "name": "Gloria Mark (moderator)"
       }, 
       {
-        "name": "Luigina Ciolfi"
+        "name": "Mary Czerwinski"
       }, 
       {
-        "name": "Mark Ackerman"
+        "name": "Gordon Bell"
       }, 
       {
-        "name": "Geraldine Fitzpatrick"
+        "name": "Roy Pea"
       }, 
       {
-        "name": "Volker Wulf"
+        "name": "Anind Dey"
+      }, 
+      {
+        "name": "Alex Soojung-Kim Pang"
+      }, 
+      {
+        "name": "Melissa Mazmanian"
       }
     ], 
     "award": false, 
     "hm": false, 
     "subtype": "panel", 
-    "title": "Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
+    "title": "Constantly connected:  At what price and with what rewards?", 
     "type": "panel"
   }, 
   "400": {
@@ -1938,6 +1938,31 @@ entities={
     "subtype": "paper", 
     "title": "Distinguishing between Personal Preferences and Social Influence in Online Activity Feeds", 
     "type": "paper"
+  }, 
+  "41": {
+    "abstract": "Practice-based CSCW research is an orientation towards empirically-grounded research embracing particular methodological approaches with the aim of creating new theory about work, collaboration, and cooperative technologies. While practice-based CSCW research has several strong roots in both North America and Europe: ECSCW and Europe remain central to this tradition. In this panel we will discuss the practice-based research approach asking questions such as: What is the nature of Practice-based Computer Supported Cooperative Work research? How is it different from other CSCW research approaches? What is the relationship between these traditions in terms of conceptual approaches, methodologies and open questions for future research? This panel will discuss openly the diversity and commonalities between different CSCW traditions \u00d0 and argue that practice-based CSCW research is not something that happens only at ECSCW. ECSCW is not a geographical boundary for a certain type of research \u00d0 but rather a place for a specific research tradition and approach with links to many academic places in the world.", 
+    "authors": [
+      {
+        "name": "Pernille Bjorn"
+      }, 
+      {
+        "name": "Luigina Ciolfi"
+      }, 
+      {
+        "name": "Mark Ackerman"
+      }, 
+      {
+        "name": "Geraldine Fitzpatrick"
+      }, 
+      {
+        "name": "Volker Wulf"
+      }
+    ], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "panel", 
+    "title": "Practice-based CSCW Research: ECSCW bridging across the Atlantic", 
+    "type": "panel"
   }, 
   "419": {
     "abstract": "Informal caregivers, such as close friends and family, play an important role in a hospital patient's care. Although CSCW researchers have shown the potential for social computing technologies to help patients and their caregivers manage chronic conditions and support health behavior change, few studies focus on caregivers' role during a multi-day hospital stay. To explore this space, we conducted an interview and observation study of patients and caregivers in the inpatient setting. In this paper, we describe how caregivers and patients coordinate and collaborate to manage patients' care and wellbeing during a hospital stay. We define and describe five roles caregivers adopt: companion, assistant, representative, navigator, and planner, and show how patients and caregivers negotiate these roles and responsibilities throughout a hospital stay. Finally, we identify key design considerations for technology to support patients and caregivers during a hospital stay. ", 
