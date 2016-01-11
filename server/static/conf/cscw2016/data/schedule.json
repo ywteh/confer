@@ -6,35 +6,35 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Golden Gate", 
             "session": "Where_did_my_Office_go_Is_it_in_the_Cloud_Workshop_on_Spatial_and_Social_Connectedness_in_Virtual_and_Mediated_Work_Environments"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A", 
             "session": "Breaking_into_new_Data_Spaces_Infrastructure_for_Open_Community_Science"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C", 
             "session": "Collaborative_Appropriation_How_Couples_Teams_Groups_and_Communities_Adapt_and_Adopt_Technologies"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff B", 
             "session": "Deceptive_Honest_Unreliable_Reliable_Unpacking_Social_Signaling_Theory_for_Social_Computing_Systems_Analysis_and_Design"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff D", 
             "session": "Collocated_Interaction_New_Challenges_in_Same_Time_Same_Place_Research"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Designing_online_experiments_Citizen_science_approaches_to_research"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Collaboration_and_Decision_Making_in_Crisis_Situations"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "CSCW_and_the_Sharing_Economy_The_Future_of_Platforms_as_Sites_of_Work_Collaboration_and_Trust"
           }
         ], 
@@ -51,39 +51,35 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff B", 
             "session": "Let_s_talk_about_the_Quantified_Workplace"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A", 
             "session": "Toward_a_Typology_of_Participation_in_Crowdwork"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Large_scale_Collaborative_Projects_to_Affect_Societal_Change"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Developing_a_Research_Agenda_for_Human_Centered_Data_Science"
           }, 
           {
-            "room": "TBD", 
-            "session": "Beyond_implications_Moving_from_Research_to_Practice_in_Cyberinfrastructure_Studies"
-          }, 
-          {
-            "room": "TBD", 
+            "room": "Seacliff C", 
             "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
           }, 
           {
-            "room": "TBD", 
+            "room": "Golden Gate", 
             "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Doctoral_Symposium"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff D", 
             "session": "Data_work_in_Healthcare_The_New_Work_Ecologies_of_Healthcare_Infrastructures"
           }
         ], 
@@ -111,7 +107,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Grand Ballroom A", 
             "session": "Opening_Keynote"
           }
         ], 
@@ -122,7 +118,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff Foyer", 
             "session": "Monday_Morning_Coffee_Break"
           }
         ], 
@@ -133,23 +129,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Museums_and_Public_Spaces_Chair_Jennifer_Marlow_FXPAL"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Panel_Visibility_in_Digital_Space_Controlling_Personal_Information_Online"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Modeling_Social_Media_Chair_Sadat_Shami_IBM"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Crowd_Workers_Chair_Ido_Guy_Yahoo_Labs"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Towards_Physical_and_Social_Wellness_Chair_Xiaomu_Zhou_Rutgers_University"
           }
         ], 
@@ -160,7 +156,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "", 
             "session": "Monday_Lunch"
           }
         ], 
@@ -171,23 +167,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Digital_Learning_Environments_Chair_Michael_Prilla_Ruhr_University_of_Bochum"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Distributed_Teams_Chair_Pamela_Hinds_Stanford_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Distance_Coordination_and_Motivation_Chair_Ingrid_Erickson_Rutgers_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Relationships_and_Romance_Chair_Andrea_Parker_Northeastern_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Panel_Robots_As_Cooperative_Partners_We_Hope_"
           }
         ], 
@@ -198,34 +194,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
-            "session": "Monday_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Monday4_00_4_30", 
-        "time": "4:00 - 4:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Managing_Personal_Data_Chair_Sharoda_Paul_Facebook"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Co_present_and_Remote_Media_Use_Chair_Jessica_Vitak_University_of_Maryland"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Credibility_and_Social_Media_Chair_Moira_Burke_Facebook"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "International_Insights_Chair_David_McDonald_University_of_Washington"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Computer_Mediated_Communication_Chair_Gary_Olson_University_of_California_Irvine"
           }
         ], 
@@ -236,7 +221,18 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff Foyer", 
+            "session": "Monday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Monday4_00_4_30", 
+        "time": "4:00 - 4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom A & Grand Foyer", 
             "session": "Poster_Demo_Reception"
           }
         ], 
@@ -247,7 +243,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Specifics TBA at conference opening", 
             "session": "Sponsored_Hospitality_Receptions"
           }
         ], 
@@ -264,23 +260,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Games_Chair_Bryan_Semaan_Syracuse_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Healthcare_Providers_Chair_Michael_Muller_IBM"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Online_Communities_Chair_Mor_Naaman_Cornell_Tech"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Newcomers_in_Peer_Production_Chair_Aaron_Halfaker_Wikimedia_Research"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Panel_Innovations_in_autonomous_systems_Challenges_and_opportunities_for_human_agent_collaboration"
           }
         ], 
@@ -291,7 +287,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff Foyer", 
             "session": "Tuesday_Morning_Coffee_Break"
           }
         ], 
@@ -302,23 +298,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Education_in_the_Classroom_and_Beyond_Chair_Sean_Goggins_University_of_Missouri"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Engaging_the_Crowd_Chair_Kurt_Luther_Virginia_Tech"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Panel_Does_the_Sharing_Economy_do_any_Good_"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Hospital_Work_Chair_Aleksandra_Sarcevic_Drexel_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Ethics_and_Policy_Chair_Geraldine_Fitzpatrick_Vienna_University_of_Technology"
           }
         ], 
@@ -329,7 +325,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "", 
             "session": "Tuesday_Lunch"
           }
         ], 
@@ -340,23 +336,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Panel_What_did_we_get_right_and_wrong_about_CSCW_during_the_past_30_years_"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Food_and_Health_Chair_Yunan_Chen_University_of_California_Irvine"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Hacking_Making_and_Discovering_Chair_Luigina_Ciolfi_Sheffield_Hallam_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Social_Network_Methods_Chair_Wendy_Ju_Stanford_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Crowd_Powered_Applications_Chair_Dan_Russell_Google"
           }
         ], 
@@ -367,18 +363,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
-            "session": "Tuesday_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Tuesday4_00_4_30", 
-        "time": "4:00 - 4:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
+            "room": "Grand Ballroom A", 
             "session": "Lasting_Impact_Plenary_Session"
           }
         ], 
@@ -389,7 +374,18 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff Foyer", 
+            "session": "Tuesday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday4_00_4_30", 
+        "time": "4:00 - 4:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom A", 
             "session": "Town_Hall_Meeting"
           }
         ], 
@@ -417,19 +413,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Crowd_Innovation_and_Crowdfunding_Chair_Brian_Bailey_University_of_Illinois"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Work_and_Work_Environments_Chair_Steve_Poltrock_Boeing_retired_"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Non_Profits_and_Humanitarian_Responses_Chair_Marcos_R_S_Borges_Universidade_Federal_do_Rio_de_Janeiro"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota"
           }
         ], 
@@ -440,7 +436,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff Foyer", 
             "session": "Wednesday_Morning_Coffee_Break"
           }
         ], 
@@ -451,23 +447,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Accessibility_and_Universal_Design_Chair_Judd_Antin_Airbnb"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Unpacking_Social_Networks_Chair_Eric_Gilbert_Georgia_Tech"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Multimedia_Creation_and_Remixing_Chair_Louise_Barkhuus_Stockholm_University"
           }, 
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Panel_Constantly_connected_At_what_price_and_with_what_rewards_"
           }
         ], 
@@ -478,7 +474,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "", 
             "session": "Wednesday_Lunch"
           }
         ], 
@@ -489,23 +485,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
+            "room": "Marina", 
             "session": "Panel_Practice_based_CSCW_Research_ECSCW_bridging_across_the_Atlantic"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview A", 
             "session": "Mobile_Design_and_Usage_Chair_Brian_Keegan_Harvard_Business_School"
           }, 
           {
-            "room": "TBD", 
+            "room": "Bayview B", 
             "session": "Rich_Telepresence_Chair_John_Tang_Microsoft_Research"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff A/B", 
             "session": "Home_and_Family_Chair_Lauren_Scissors_Facebook"
           }, 
           {
-            "room": "TBD", 
+            "room": "Seacliff C/D", 
             "session": "Crowd_Workflows_Chair_Afra_Mashhadi_Bell_Labs_Dublin"
           }
         ], 
@@ -516,24 +512,24 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "TBD", 
-            "session": "Wednesday_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Wednesday4_00_4_30", 
-        "time": "4:00 - 4:30"
-      },
-      {
-        "sessions": [
-          {
-            "room": "TBD", 
+            "room": "Grand Ballroom A", 
             "session": "Closing_Keynote"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_30_6_00", 
         "time": "4:30 - 6:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Seacliff Foyer", 
+            "session": "Wednesday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_00_4_30", 
+        "time": "4:00 - 4:30"
       }
     ]
   }

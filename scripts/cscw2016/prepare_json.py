@@ -67,7 +67,7 @@ def get_class(s_time):
   else:
     return 'evening'
 
-def prepare_schedule (t_schedule):
+def prepare_schedule(t_schedule):
   # sort schedule data
   for s_date in t_schedule:
     t_schedule[s_date] = sorted(
@@ -107,6 +107,9 @@ def prepare_data(data_file1):
     session = unicode(row[6], "ISO-8859-1")
     session_chair = unicode(row[7], "ISO-8859-1")
     
+    if not s_time:
+        continue
+    
     paper_abstract = unicode(row[9], "ISO-8859-1")
     paper_authors = unicode(row[8], "ISO-8859-1")
     type = unicode(row[0], "ISO-8859-1")
@@ -127,10 +130,8 @@ def prepare_data(data_file1):
     if type == 'panel':
         session = 'Panel: ' + session
     
-    if 'Hyatt' in row[1] or 'Explor' in row[1]:
-        room = row[1]
-    else:
-        room = 'TBD'
+    room = row[1]
+ 
     paper_title = unicode(row[3], "ISO-8859-1")
 
     # prepare papers data

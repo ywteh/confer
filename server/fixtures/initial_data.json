@@ -240,7 +240,8 @@
 	      "location": "San Francisco, USA",
 	      "start_date": "2016-02-27",
 	      "end_date": "2016-03-02",
-	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"merrie@microsoft.com\"]"
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"merrie@microsoft.com\"]",
+	      "visibility": False,
 	  	}
 	}
 ]
