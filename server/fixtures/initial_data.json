@@ -243,6 +243,20 @@
 	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"merrie@microsoft.com\"]",
 	      "visibility": False,
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 18,
+	    "fields": {
+	      "unique_name": "chi2016",
+	      "confer_name": "chi2016",
+	      "title": "CHI 2016 - ACM CHI Conference on Human Factors in Computing Systems",
+	      "subtitle": "",
+	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction.",
+	      "location": "San Jose, USA",
+	      "start_date": "2016-05-07",
+	      "end_date": "2016-05-12",
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"bob.beaton@gmail.com\"]"
+	  	}
 	}
 ]
   
