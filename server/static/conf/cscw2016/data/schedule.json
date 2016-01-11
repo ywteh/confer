@@ -194,6 +194,17 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Seacliff Foyer", 
+            "session": "Monday_Afternoon_Coffee_Break"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Monday4_00_4_30", 
+        "time": "4:00 - 4:30"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "Seacliff A/B", 
             "session": "Managing_Personal_Data_Chair_Sharoda_Paul_Facebook"
           }, 
@@ -217,17 +228,6 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Monday4_30_6_00", 
         "time": "4:30 - 6:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Seacliff Foyer", 
-            "session": "Monday_Afternoon_Coffee_Break"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Monday4_00_4_30", 
-        "time": "4:00 - 4:30"
       }, 
       {
         "sessions": [
@@ -363,17 +363,6 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Grand Ballroom A", 
-            "session": "Lasting_Impact_Plenary_Session"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Tuesday4_30_5_30", 
-        "time": "4:30 - 5:30"
-      }, 
-      {
-        "sessions": [
-          {
             "room": "Seacliff Foyer", 
             "session": "Tuesday_Afternoon_Coffee_Break"
           }
@@ -381,7 +370,18 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_00_4_30", 
         "time": "4:00 - 4:30"
-      }, 
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom A", 
+            "session": "Lasting_Impact_Plenary_Session"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Tuesday4_30_5_30", 
+        "time": "4:30 - 5:30"
+      },  
       {
         "sessions": [
           {
@@ -512,17 +512,6 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Grand Ballroom A", 
-            "session": "Closing_Keynote"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "Wednesday4_30_6_00", 
-        "time": "4:30 - 6:00"
-      }, 
-      {
-        "sessions": [
-          {
             "room": "Seacliff Foyer", 
             "session": "Wednesday_Afternoon_Coffee_Break"
           }
@@ -530,6 +519,17 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Wednesday4_00_4_30", 
         "time": "4:00 - 4:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom A", 
+            "session": "Closing_Keynote"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Wednesday4_30_6_00", 
+        "time": "4:30 - 6:00"
       }
     ]
   }
