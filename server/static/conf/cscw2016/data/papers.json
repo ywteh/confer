@@ -121,7 +121,7 @@ entities={
     "type": "paper"
   }, 
   "13": {
-    "abstract": "Major projects to support citizens in healthcare, government, energy-savings, disability, and the like are in the research phases or are underway, often on a large-scale. These efforts - in China, the U.S., Europe, and elsewhere \u00d0 aim to affect societal changes through technical means. Yet, these projects are seldom only computational, but often a combination of technical and social, interwoven to provide a suitable infrastructure for these efforts to change society. These projects are seldom only collaborative either, but collaboration and coordination play central roles in many of these efforts. CSCW cannot only learn from these efforts in the field but CSCW\u00d5s research interests and findings can also help in return. This workshop aims to bring together people from numerous countries and societies who are carrying out these projects or are interested in these efforts to share architectures, designs, findings, and theories so as to promote these projects.\u00ca", 
+    "abstract": "Major projects to support citizens in healthcare, government, energy-savings, disability, and the like are in the research phases or are underway, often on a large-scale. These efforts - in China, the U.S., Europe, and elsewhere _ aim to affect societal changes through technical means. Yet, these projects are seldom only computational, but often a combination of technical and social, interwoven to provide a suitable infrastructure for these efforts to change society. These projects are seldom only collaborative either, but collaboration and coordination play central roles in many of these efforts. CSCW cannot only learn from these efforts in the field but CSCW\u00cds research interests and findings can also help in return. This workshop aims to bring together people from numerous countries and societies who are carrying out these projects or are interested in these efforts to share architectures, designs, findings, and theories so as to promote these projects.\u00e6", 
     "authors": [
       {
         "name": ""
@@ -154,19 +154,6 @@ entities={
     "subtype": "paper", 
     "title": "Do Massive Open Online Course Platforms Support Employability?", 
     "type": "paper"
-  }, 
-  "14": {
-    "abstract": "While there is a reasonable body of knowledge on how to support collaboration among members of virtual teams, those in which team members are separated by distance and have to rely on technology to communicate and to coordinate work, how to motivate such collaboration remains an open question. Gamification, the act of applying game elements and game design techniques in non-game contexts, has being pointed out as a means to engage and motivate people to achieve their goals. However, we lack evidence on the topic. Therefore, we invite researchers, students, and practitioners to discuss in this one-day workshop gamification as a motivator to foster collaboration in virtual teams. We would like to explore three key issues within this general theme: 1) the activities that can be gamified aiming to motivate collaboration in virtual settings, 2) the development of a gamification framework to support gamification of such activities, and 3) the requirements for software tools that support gamification processes. ", 
-    "authors": [
-      {
-        "name": ""
-      }
-    ], 
-    "award": false, 
-    "hm": false, 
-    "subtype": "workshop", 
-    "title": "Gamification as a Collaboration Motivator for Virtual Teams: Theory, Practices, and Tools", 
-    "type": "workshop"
   }, 
   "142": {
     "abstract": "Relationship breakdowns are undoubtedly difficult. Access to and use of technology can exacerbate the situation. In our networked society, shared lives generate vast amounts of shared digital data which can be difficult to untangle, whilst social media can provide an outlet to emotions that can take a public and often persistent form. In this paper, we report on a qualitative study that considered the role of technology in the process of a relationship breaking down. Four main themes emerged in our findings: communicating about the separation, change in social status, shared digital assets, and moving on. Opportunities for design are identified in reducing misunderstandings via CMCs, enhancing social media, supporting intimacy in distributed families, and refining service provision.", 
@@ -257,7 +244,7 @@ entities={
     "type": "paper"
   }, 
   "16": {
-    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u00e3focusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
+    "abstract": "Computational algorithms have recently emerged as the subject of fervent public and academic debates. What animates many of these debates is a perceived lack of clarity as to what algorithms actually are, what precisely they do, and which human-technology-relations their application may bring about. Therefore, this CSCW workshop critically discusses computational algorithms and the diverse ways in which humans relate to them\u008bfocusing particularly upon work practices and investigating how algorithms facilitate, regulate, and require human labor, as well as how humans make sense of and react to them. The purpose of this workshop is threefold: first, to chart the diversity of algorithmic technologies as well as their application, appropriation, use and presence in work practices; second, to probe analytic vocabularies that account for empirical diversity; third, to discuss implications for design that come out of our understandings of algorithms and the technologies through which they are enacted. ", 
     "authors": [
       {
         "name": ""
@@ -501,7 +488,7 @@ entities={
     "type": "paper"
   }, 
   "2": {
-    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u0095same time, same place\u00ea quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
+    "abstract": "In the 25 years since Ellis, Gibbs, and Rein proposed the time-space taxonomy, research in the \u00a5same time, same place\u0090 quadrant has diversified, perhaps even fragmented. The goal of this one-day workshop is to bring together researchers with diverse, yet convergent interests in tabletop, surface, mobile and wearable technologies, and those interested in the social aspects of interaction, such as conversation analysis and ethnomethodology. These communities have matured considerably, and produced significant exemplars of systems, methods, and studies concerned with collocated interactions. Yet, new challenges abound as people wear and carry more devices than ever, creating fragmented device ecologies at work, and changing the ways we socialise with each other. In this workshop we seek to start a dialogue to look back as well as forward, review best practices, discuss and design paper-prototypes using the collocated design framework, to consider how we might address new and future challenges through collocated design practice. ", 
     "authors": [
       {
         "name": ""
@@ -632,7 +619,7 @@ entities={
     "type": "paper"
   }, 
   "229": {
-    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u0093can't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
+    "abstract": "Parents and children both use technology actively and increasingly, but prior work shows that concerns about attention, family time, and family relationships abound. We conducted a survey with 249 parent-child pairs distributed across 40 U.S. states to understand the types of technology rules (also known as restrictive mediation) they have established in their family and how effective those rules are perceived to be. Our data robustly show that children (age 10-17) are more likely to follow rules that constrain technology activities (e.g., no Snapchat) than rules that constrain technology use in certain contexts (e.g., no phone at the dinner table). Children find context constraints harder to live up to, parents find them harder to enforce, and parents' most common challenge when trying to enforce such rules is that children \"\u00d2can't put it down.\"\u009d This is consistent with the idea that banning certain technologies is currently easier than setting more nuanced boundaries. Parents and children agree that parents should also unplug when spending time with family, while children alone express frustration with the common parent practice of posting about children online. Together, our results suggest several mechanisms by which designers and families can improve parent-child relationships around technology use.", 
     "authors": [
       {
         "name": "Alexis Hiniker"
@@ -647,7 +634,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Not at the Dinner Table: Parents\u00ea and Children\u00eas Perspectives on Family Technology Rules", 
+    "title": "Not at the Dinner Table: Parents\u0090 and Children\u0090s Perspectives on Family Technology Rules", 
     "type": "paper"
   }, 
   "23": {
@@ -679,7 +666,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Examining American and Chinese Internet Users\u00ea Contextual Privacy Preferences of Behavioral Advertising", 
+    "title": "Examining American and Chinese Internet Users\u0090 Contextual Privacy Preferences of Behavioral Advertising", 
     "type": "paper"
   }, 
   "235": {
@@ -727,7 +714,7 @@ entities={
     "type": "paper"
   }, 
   "238": {
-    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u0096 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
+    "abstract": "Specific, achievable plans can increase people's commitment to behavior change and increase their likelihood of success. However, many people struggle to create such plans, and available plans often do not fit their individual constraints. We conducted a study with 22 participants exploring the creation of personalized plans by strangers and friends to support three kinds of behavior change: diet, physical activity, and financial. In semi-structured interviews and analyses of the generated plans, we found that friends and strangers can help create behavior change plans that are actionable and help improve behavior. Participants perceived plans more positively when they were personalized to their goals, routines and preferences, or when they could foresee executing the plans with friends \"\u00d0 often the friend who created the plan. Participants felt more comfortable sharing information with strangers and they received more diverse recommendations from strangers than friends. ", 
     "authors": [
       {
         "name": "Elena Agapie"
@@ -835,7 +822,7 @@ entities={
         "name": "Michaelanne Dye"
       }, 
       {
-        "name": "Annie Ant\u0084n"
+        "name": "Annie Ant\u00e3n"
       }, 
       {
         "name": "Amy S. Bruckman"
@@ -918,7 +905,7 @@ entities={
     "type": "special"
   }, 
   "273": {
-    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u0096 rational explanation, constructive suggestion, and social encouragement \"\u0096 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
+    "abstract": "In online collaboration projects, conflicts often arise in the peer review process, due to the disagreement over whether one's contribution should be accepted. These conflicts generally have detrimental effects on contributors' continuing participation in the community. Few studies have investigated how to manage these conflicts effectively. This paper aims to examine the effectiveness of three strategies \"\u00d0 rational explanation, constructive suggestion, and social encouragement \"\u00d0 in managing conflicts.  In an analysis of 170 online software development projects, we investigated how different conflict management strategies aimed at handling contributors' arguments during the peer review process influenced their subsequent participation in the projects. The results show that (i) conflicts significantly increase contributors' likelihood of leaving the communities; (ii) neither rational explanations nor social encouragement could reduce the negative consequences of conflicts; (iii) only constructive suggestions have a positive effect in retaining the contributors. ", 
     "authors": [
       {
         "name": "Wenjian Huang"
@@ -1024,7 +1011,7 @@ entities={
         "name": "Steven P. Dow"
       }, 
       {
-        "name": "Bj\u00e5orn Hartmann"
+        "name": "Bj\u008corn Hartmann"
       }
     ], 
     "award": false, 
@@ -1217,7 +1204,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u00ea College Transition Processes", 
+    "title": "Identity Work on Social Network Sites: Disadvantaged Students\u0090 College Transition Processes", 
     "type": "paper"
   }, 
   "315": {
@@ -1766,7 +1753,7 @@ entities={
     "type": "paper"
   }, 
   "39": {
-    "abstract": "The first CSCW conference was held 30 years ago. Over that time, many topics have been addressed, many ideas have been put forward, much research has been reported. What did the field get right? And what did the field get wrong? The panel, comprised of people who directly witnessed much of this history, will reflect on these questions. We don\u00d5t expect all to agree with each panelist\u00d5s conclusions, and we will invite reactions and contributions from the audience as well.", 
+    "abstract": "The first CSCW conference was held 30 years ago. Over that time, many topics have been addressed, many ideas have been put forward, much research has been reported. What did the field get right? And what did the field get wrong? The panel, comprised of people who directly witnessed much of this history, will reflect on these questions. We don\u00cdt expect all to agree with each panelist\u00cds conclusions, and we will invite reactions and contributions from the audience as well.", 
     "authors": [
       {
         "name": "Daniel M. Russell"
@@ -1927,7 +1914,7 @@ entities={
     "type": "paper"
   }, 
   "41": {
-    "abstract": "Practice-based CSCW research is an orientation towards empirically-grounded research embracing particular methodological approaches with the aim of creating new theory about work, collaboration, and cooperative technologies. While practice-based CSCW research has several strong roots in both North America and Europe: ECSCW and Europe remain central to this tradition. In this panel we will discuss the practice-based research approach asking questions such as: What is the nature of Practice-based Computer Supported Cooperative Work research? How is it different from other CSCW research approaches? What is the relationship between these traditions in terms of conceptual approaches, methodologies and open questions for future research? This panel will discuss openly the diversity and commonalities between different CSCW traditions \u00d0 and argue that practice-based CSCW research is not something that happens only at ECSCW. ECSCW is not a geographical boundary for a certain type of research \u00d0 but rather a place for a specific research tradition and approach with links to many academic places in the world.", 
+    "abstract": "Practice-based CSCW research is an orientation towards empirically-grounded research embracing particular methodological approaches with the aim of creating new theory about work, collaboration, and cooperative technologies. While practice-based CSCW research has several strong roots in both North America and Europe: ECSCW and Europe remain central to this tradition. In this panel we will discuss the practice-based research approach asking questions such as: What is the nature of Practice-based Computer Supported Cooperative Work research? How is it different from other CSCW research approaches? What is the relationship between these traditions in terms of conceptual approaches, methodologies and open questions for future research? This panel will discuss openly the diversity and commonalities between different CSCW traditions _ and argue that practice-based CSCW research is not something that happens only at ECSCW. ECSCW is not a geographical boundary for a certain type of research _ but rather a place for a specific research tradition and approach with links to many academic places in the world.", 
     "authors": [
       {
         "name": "Pernille Bjorn"
@@ -2130,7 +2117,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Increasing Collocated People\u00eas Awareness of the Mobile User\u00eas Activities: a Field Trial of Social Displays", 
+    "title": "Increasing Collocated People\u0090s Awareness of the Mobile User\u0090s Activities: a Field Trial of Social Displays", 
     "type": "paper"
   }, 
   "445": {
@@ -2149,7 +2136,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Vendors\u00ea Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
+    "title": "Vendors\u0090 Perspectives of Coordination in the Information Technology Offshore Outsourcing Industry: An Exploratory Study from the Philippines", 
     "type": "paper"
   }, 
   "449": {
@@ -2197,7 +2184,7 @@ entities={
     "type": "paper"
   }, 
   "452": {
-    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u0096 including family members, friends, co-workers, and others \"\u0096 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
+    "abstract": "More than 350 million people worldwide suffer from depression. Major depressive disorder has a hugely negative impact on psychological well-being, work, and family life. Yet culture may shape how depressed patients interpret their symptoms, choose treatments, and behave. This paper reports a case study, including participant observations and interviews, of the Chinese online depression community, SunForum. Our findings reveal that Chinese cultural beliefs (e.g., the power of inner self-control) and Chinese beliefs about traditional medicine (e.g., the integrated body-mind relationship) significantly affect patients' understandings of depression, illness management, and social interactions. These beliefs create problems of understanding depression in society \"\u00d0 including family members, friends, co-workers, and others \"\u00d0 and present various challenges for depressed patients who can become marginalized, suffer discrimination, and lose their jobs. We draw implications for how Chinese society as a whole may respond to the misunderstanding of mental illness and the raising of public awareness. We also propose specific social media design to support depressed patients as they seek online information and social support.", 
     "authors": [
       {
         "name": "Guo Li"
@@ -2284,7 +2271,7 @@ entities={
         "name": "Hannu Kukka"
       }, 
       {
-        "name": "Iv\u0088n S\u0088nchez"
+        "name": "Iv\u00f6n S\u00f6nchez"
       }, 
       {
         "name": "Vassilis Kostakos"
@@ -2354,7 +2341,7 @@ entities={
     "type": "paper"
   }, 
   "475": {
-    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u0092\u00e3 more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
+    "abstract": "While online social networks (OSNs) play a critical role in developing social capital [18], many communities are unable to utilize the benefits of OSNs due to lack of Internet accessibility. In this paper, we investigate the feasibility of the Radio Broadcast Data System (RBDS) associated with FM radio stations as a means to deliver social network content to OSN users who do not have access to Internet services. Using Instagram as a case study, we analyze data from 254 public Instagram users associated with the Tribal Digital Village (TDV) network in Southern California. Our analysis of over 1.2 million unique Instagram posts reveals that Instagram users in the TDV network interact with locally generated content 46.6\u00d5\u008b more often than content generated by users from outside the network. We use our observations of OSN usage to compare five OSN content scheduling approaches. Our evaluation reveals that up to 81% of users received at least half of their content requests and 35.5% of the 1.1 million requested Instagram photos were transmitted to users. ", 
     "authors": [
       {
         "name": "Morgan Vigil"
@@ -2516,7 +2503,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "Scaffolding the scaffolding: Supporting children\u00eas social-emotional learning at home", 
+    "title": "Scaffolding the scaffolding: Supporting children\u0090s social-emotional learning at home", 
     "type": "paper"
   }, 
   "5": {
@@ -2549,7 +2536,7 @@ entities={
     "type": "paper"
   }, 
   "503": {
-    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u0096 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u0096 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
+    "abstract": "Online communities suffer serious newcomer attrition.  This paper explores whether and how early activity diversity \"\u00d0 the degree to which a newcomer engages in a wide range of a site's activities in the first session \"\u00d0 is associated with their longevity. We introduce a metric (DSCORE) to characterize early activity diversity in online sites and run our analyses on an online community 'MovieLens'. We find that DSCORE is significant both by itself and in conjunction with a measure of quantity of activity in predicting longevity. This finding is robust to different measures of longevity (aggregate number of sessions and attritions after sessions 1, 5, and 10). The immediate implication is an effective classifier for identifying users with higher (or lower) expected longevity from the first-session activity. We also find DSCORE is more useful than a traditional measure of measuring diversity such as the Gini-Simpson index. We conclude by discussing how early activity diversity may be more broadly effective in supporting design and management of online communities.", 
     "authors": [
       {
         "name": "Raghav Pavan Karumur"
@@ -2946,7 +2933,7 @@ entities={
     "type": "paper"
   }, 
   "568": {
-    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u0096 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
+    "abstract": "CSCW researchers have become interested in crowd work as a new form of collaborative engagement, that is, as a new way in which people's actions are coordinated in order to achieve collective effects. We address this area but from a different perspective \"\u00d0 that of the labor practices involved in taking crowd work as a form of work. Using empirical materials from a study of ride-sharing, we draw inspiration from studies of the immaterial forms of labor and alternate analyses of political economy that can cast a new light on the context of crowd labor that might matter for CSCW researchers.", 
     "authors": [
       {
         "name": "Noopur Raval"
@@ -3132,7 +3119,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "When Distance Doesn\u00eat Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
+    "title": "When Distance Doesn\u0090t Really Matter: Effects of Geographic Dispersion on Participation in Online Enterprise Communities", 
     "type": "paper"
   }, 
   "620": {
@@ -3218,7 +3205,7 @@ entities={
     "award": false, 
     "hm": false, 
     "subtype": "paper", 
-    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u00ea Variations on Baseline Trust", 
+    "title": "The Diffusion of Trust and Cooperation in Teams with Individuals\u0090 Variations on Baseline Trust", 
     "type": "paper"
   }, 
   "655": {
@@ -3451,7 +3438,7 @@ entities={
     "type": "paper"
   }, 
   "734": {
-    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u0096 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
+    "abstract": "This paper discusses the empirical case of an aging and obsolescent infrastructure supporting a space science mission that is currently approaching a known end. Such a case contributes to our understanding of the degrading path at the end-of-life of an infrastructure. During this later stage in the life of infrastructure we can observe common issues associated with aging infrastructures \"\u00d0 hardware's material decay, programming languages and software tools reaching end of support, obsolete managerial methodologies, etc. Such a case of infrastructural decay reveals how work of infrastructure maintenance may reach the limits of repair and shift from repair-as-sustaining into a mode of repair-into-decay, actively working towards the end-of-life. What this reveals is that, rather than infrastructural decay being a natural by-product of time's passing, there is active work that goes into producing a convivial decay in which the multiple temporalities of aging and decay are brought into alignment through negotiation of what aging means, its impacts on different forms of work, and even what counts as old and new.", 
     "authors": [
       {
         "name": "Marisa Leavitt Cohn"

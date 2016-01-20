@@ -71,10 +71,6 @@ schedule=[
             "session": "Algorithms_at_Work_Empirical_Diversity_Analytic_Vocabularies_Design_Implications"
           }, 
           {
-            "room": "Golden Gate", 
-            "session": "Gamification_as_a_Collaboration_Motivator_for_Virtual_Teams_Theory_Practices_and_Tools"
-          }, 
-          {
             "room": "Bayview A", 
             "session": "Doctoral_Symposium"
           }, 
@@ -370,7 +366,7 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_00_4_30", 
         "time": "4:00 - 4:30"
-      },
+      }, 
       {
         "sessions": [
           {
@@ -381,7 +377,7 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday4_30_5_30", 
         "time": "4:30 - 5:30"
-      },  
+      }, 
       {
         "sessions": [
           {
@@ -425,6 +421,10 @@ schedule=[
             "session": "Non_Profits_and_Humanitarian_Responses_Chair_Marcos_R_S_Borges_Universidade_Federal_do_Rio_de_Janeiro"
           }, 
           {
+            "room": "Marina", 
+            "session": "Panel_Constantly_connected_At_what_price_and_with_what_rewards_"
+          }, 
+          {
             "room": "Bayview B", 
             "session": "Parents_and_Children_Chair_Svetlana_Yarosh_University_of_Minnesota"
           }
@@ -461,10 +461,6 @@ schedule=[
           {
             "room": "Marina", 
             "session": "Open_Science_and_Infrastructures_Chair_Matt_Bietz_University_of_California_Irvine"
-          }, 
-          {
-            "room": "Seacliff A/B", 
-            "session": "Panel_Constantly_connected_At_what_price_and_with_what_rewards_"
           }
         ], 
         "slot_class": "morning2", 
