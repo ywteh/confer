@@ -183,9 +183,6 @@ entities={
     "abstract": "", 
     "authors": [
       {
-        "name": "Mike J. Chantler"
-      }, 
-      {
         "name": "David A. Robb"
       }, 
       {
@@ -193,6 +190,9 @@ entities={
       }, 
       {
         "name": "Stefano Padilla"
+      },
+      {
+        "name": "Mike J. Chantler"
       }
     ], 
     "award": false, 
