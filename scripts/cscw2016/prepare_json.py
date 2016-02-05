@@ -143,7 +143,11 @@ def prepare_data(data_file1):
         'hm': hm}
     
     papers[paper_id]['abstract'] = paper_abstract
-    papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',')]
+    if ';' in paper_authors:
+        papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(';') if name.strip() != '']
+    else:
+        papers[paper_id]['authors'] = [{'name': name.strip()} for name in paper_authors.strip('"').split(',') if name.strip() != '']
+    print papers[paper_id]['authors']
 
     
     # prepare sessions data

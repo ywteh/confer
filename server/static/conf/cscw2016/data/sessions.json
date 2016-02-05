@@ -472,7 +472,7 @@ sessions={
   }, 
   "Monday_Afternoon_Coffee_Break": {
     "date": "Monday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Monday Afternoon Coffee Break", 
     "submissions": [
       "23"
@@ -490,7 +490,7 @@ sessions={
   }, 
   "Monday_Morning_Coffee_Break": {
     "date": "Monday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Monday Morning Coffee Break", 
     "submissions": [
       "21"
@@ -740,8 +740,7 @@ sessions={
     "submissions": [
       "305", 
       "332", 
-      "385", 
-      ""
+      "385"
     ], 
     "time": "2:30 - 4:00"
   }, 
@@ -798,7 +797,7 @@ sessions={
   }, 
   "Tuesday_Afternoon_Coffee_Break": {
     "date": "Tuesday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Tuesday Afternoon Coffee Break", 
     "submissions": [
       "1019"
@@ -816,7 +815,7 @@ sessions={
   }, 
   "Tuesday_Morning_Coffee_Break": {
     "date": "Tuesday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Tuesday Morning Coffee Break", 
     "submissions": [
       "1017"
@@ -837,7 +836,7 @@ sessions={
   }, 
   "Wednesday_Afternoon_Coffee_Break": {
     "date": "Wednesday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Wednesday Afternoon Coffee Break", 
     "submissions": [
       "1025"
@@ -855,7 +854,7 @@ sessions={
   }, 
   "Wednesday_Morning_Coffee_Break": {
     "date": "Wednesday", 
-    "room": "Seacliff Foyer", 
+    "room": "Grand Foyer", 
     "s_title": "Wednesday Morning Coffee Break", 
     "submissions": [
       "1023"
