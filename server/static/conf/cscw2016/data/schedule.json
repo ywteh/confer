@@ -86,7 +86,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Hyatt Regency", 
+            "room": "Atrium 3 & 4", 
             "session": "Welcome_Reception"
           }
         ], 
@@ -391,7 +391,7 @@ schedule=[
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday5_30_6_00", 
-        "time": "5:30 - 6:00"
+        "time": "5:30 - 6:15"
       }, 
       {
         "sessions": [
