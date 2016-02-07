@@ -239,17 +239,6 @@ schedule=[
         "slot_class": "evening", 
         "slot_id": "Monday6_00_8_00", 
         "time": "6:00-8:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Specifics TBA at conference opening", 
-            "session": "Sponsored_Hospitality_Receptions"
-          }
-        ], 
-        "slot_class": "evening", 
-        "slot_id": "Monday8_00PM_10_30PM", 
-        "time": "8:00PM - 10:30PM"
       }
     ]
   }, 
