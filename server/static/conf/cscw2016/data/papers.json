@@ -1,5 +1,41 @@
 entities={
-  "": {
+  "a": {
+    "abstract": "", 
+    "authors": [], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "paper", 
+    "title": "Discussant time - Discussant: Wendy Ju, Stanford University", 
+    "type": "paper"
+  }, 
+  "b": {
+    "abstract": "", 
+    "authors": [], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "paper", 
+    "title": "Discussant time - Discussant: Lada Adamic, Facebook", 
+    "type": "paper"
+  }, 
+  "c": {
+    "abstract": "", 
+    "authors": [], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "paper", 
+    "title": "Discussant time - Discussant: Steve Whittaker, UC Santa Cruz", 
+    "type": "paper"
+  }, 
+  "d": {
+    "abstract": "", 
+    "authors": [], 
+    "award": false, 
+    "hm": false, 
+    "subtype": "paper", 
+    "title": "Discussant time - Discussant: Chen Zhao, Alibaba Group", 
+    "type": "paper"
+  }, 
+  "e": {
     "abstract": "", 
     "authors": [], 
     "award": false, 
@@ -9,7 +45,7 @@ entities={
     "type": "paper"
   }, 
   "1": {
-    "abstract": "The physical workplace _ a hub for communication, collaboration and co-located interaction _ can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems _ objects/devices, buildings and even cities created from web-based services and IoT _ thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
+    "abstract": "The physical workplace - a hub for communication, collaboration and co-located interaction - can no longer be taken for granted. Today, the design of intelligent interactive media, physical products and ubiquitous environments has passed the phase of being technology-driven. Meaning, insight and experience are now the key design drivers for the bridging of digital and physical design. We foresee how new interconnected knowledge systems _ objects/devices, buildings and even cities created from web-based services and IoT _ thoroughly transform CSCW. A wide spectrum of services already invites users to seamlessly move between real and virtual workspaces, using a range of previously separated media channels. This interdisciplinary workshop welcomes researchers and practitioners to a day-long exchange targeting User eXperience (UX) and, specifically, the relationship between social and spatial connectedness in mediated and virtual work environments. Examples from ongoing research and developments informs a discussion on how the borders between the virtual and real become increasingly obsolete.", 
     "authors": [], 
     "award": false, 
     "hm": false, 
