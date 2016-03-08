@@ -1,0 +1,362 @@
+sessions={
+  "Track_10_Mobility_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 10: Mobility (1)", 
+    "submissions": [
+      "972", 
+      "912", 
+      "244"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_11_Social_Networks_Graph_Analysis_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 11: Social Networks & Graph Analysis (2)", 
+    "submissions": [
+      "512", 
+      "178", 
+      "608", 
+      "960"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_12_Behaviour_Analysis_Personalization_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 12: Behaviour Analysis & Personalization (2)", 
+    "submissions": [
+      "909", 
+      "562", 
+      "466", 
+      "523"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_13_Web_Search_System_Applications_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 13: Web Search System & Applications (1)", 
+    "submissions": [
+      "447", 
+      "631", 
+      "759", 
+      "111"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_14_Crowdsourcing_Systems_Social_Media_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 14: Crowdsourcing Systems & Social Media (1)", 
+    "submissions": [
+      "991", 
+      "658", 
+      "950", 
+      "599"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_15_Web_Science_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 15: Web Science (1)", 
+    "submissions": [
+      "1107", 
+      "392", 
+      "444"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_16_Social_Networks_Graph_Analysis_3_": {
+    "date": "Thursday", 
+    "s_title": "Track 16: Social Networks & Graph Analysis (3)", 
+    "submissions": [
+      "212", 
+      "280", 
+      "745", 
+      "283"
+    ], 
+    "time": "16:00 - 17:30"
+  }, 
+  "Track_17_Web_Mining_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 17: Web Mining (2)", 
+    "submissions": [
+      "226", 
+      "363", 
+      "572", 
+      "1110"
+    ], 
+    "time": "16:00 - 17:30"
+  }, 
+  "Track_18_Web_Search_Systems_Applications_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 18: Web Search Systems & Applications (2)", 
+    "submissions": [
+      "948", 
+      "724", 
+      "351", 
+      "595"
+    ], 
+    "time": "16:00 - 17:30"
+  }, 
+  "Track_19_Crowdsourcing_Systems_Social_Media_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 19: Crowdsourcing Systems & Social Media (2)", 
+    "submissions": [
+      "910", 
+      "970", 
+      "863", 
+      "504"
+    ], 
+    "time": "16:00 - 17:30"
+  }, 
+  "Track_1_Social_Networks_Graph_Analysis_1_": {
+    "date": "Wednesday", 
+    "s_title": "Track 1: Social Networks & Graph Analysis (1)", 
+    "submissions": [
+      "773", 
+      "788", 
+      "2", 
+      "266"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_20_Web_Science_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 20: Web Science (2)", 
+    "submissions": [
+      "431", 
+      "322", 
+      "202", 
+      "439"
+    ], 
+    "time": "16:00 - 17:30"
+  }, 
+  "Track_21_Semantics_Big_Data_2_": {
+    "date": "Friday", 
+    "s_title": "Track 21: Semantics & Big Data (2)", 
+    "submissions": [
+      "715", 
+      "200", 
+      "450"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_22_Behaviour_Analysis_Personalization_3_": {
+    "date": "Friday", 
+    "s_title": "Track 22: Behaviour Analysis & Personalization (3)", 
+    "submissions": [
+      "1085", 
+      "468", 
+      "914", 
+      "380"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_23_Security_Privacy_3_": {
+    "date": "Friday", 
+    "s_title": "Track 23: Security & Privacy (3)", 
+    "submissions": [
+      "296", 
+      "577", 
+      "203", 
+      "295"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_24_Content_Analysis_3_": {
+    "date": "Friday", 
+    "s_title": "Track 24: Content Analysis (3)", 
+    "submissions": [
+      "139", 
+      "1041", 
+      "72", 
+      "188"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_25_Economics_Markets_2_": {
+    "date": "Friday", 
+    "s_title": "Track 25: Economics & Markets (2)", 
+    "submissions": [
+      "889", 
+      "169", 
+      "639", 
+      "598"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_26A_Semantics_Big_Data_3_": {
+    "date": "Friday", 
+    "s_title": "Track 26A: Semantics & Big Data (3)", 
+    "submissions": [
+      "477", 
+      "261"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_26B_Social_Networks_Graph_Analysis_4_": {
+    "date": "Friday", 
+    "s_title": "Track 26B: Social Networks & Graph Analysis (4)", 
+    "submissions": [
+      "581", 
+      "899"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_27A_Web_Mining_3_": {
+    "date": "Friday", 
+    "s_title": "Track 27A: Web Mining (3)", 
+    "submissions": [
+      "638", 
+      "146"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_27B_Behaviour_Analysis_Personalization_4_": {
+    "date": "Friday", 
+    "s_title": "Track 27B: Behaviour Analysis & Personalization (4)", 
+    "submissions": [
+      "918", 
+      "215"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_28A_Web_Search_Systems_Applications_3_": {
+    "date": "Friday", 
+    "s_title": "Track 28A: Web Search Systems & Applications (3)", 
+    "submissions": [
+      "254", 
+      "448"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_28B_Security_Privacy_4_": {
+    "date": "Friday", 
+    "s_title": "Track 28B: Security & Privacy (4)", 
+    "submissions": [
+      "401"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_29A_Content_Analysis_4_": {
+    "date": "Friday", 
+    "s_title": "Track 29A: Content Analysis (4)", 
+    "submissions": [
+      "856", 
+      "827"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_29B_Crowdsourcing_Systems_Social_Media_3_": {
+    "date": "Friday", 
+    "s_title": "Track 29B: Crowdsourcing Systems & Social Media (3)", 
+    "submissions": [
+      "453", 
+      "539"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_2_Behaviour_Analysis_Personalization_1_": {
+    "date": "Wednesday", 
+    "s_title": "Track 2: Behaviour Analysis & Personalization (1)", 
+    "submissions": [
+      "316", 
+      "723", 
+      "67", 
+      "92"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_30A_Mobility_2_": {
+    "date": "Friday", 
+    "s_title": "Track 30A: Mobility (2)", 
+    "submissions": [
+      "396", 
+      "182", 
+      "776"
+    ], 
+    "time": "14:00 - 15:10"
+  }, 
+  "Track_30B_Economics_Markets_3_": {
+    "date": "Friday", 
+    "s_title": "Track 30B: Economics & Markets (3)", 
+    "submissions": [
+      "1054"
+    ], 
+    "time": "15:10 - 15:30"
+  }, 
+  "Track_3_Security_Privacy_1_": {
+    "date": "Wednesday", 
+    "s_title": "Track 3: Security & Privacy (1)", 
+    "submissions": [
+      "526", 
+      "18", 
+      "499", 
+      "531"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_4_Content_Analysis_1_": {
+    "date": "Wednesday", 
+    "s_title": "Track 4: Content Analysis (1)", 
+    "submissions": [
+      "769", 
+      "897", 
+      "1010"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_5_Economy_Markets_1_": {
+    "date": "Wednesday", 
+    "s_title": "Track 5: Economy & Markets (1)", 
+    "submissions": [
+      "374", 
+      "518", 
+      "811", 
+      "155"
+    ], 
+    "time": "14:00 - 15:30"
+  }, 
+  "Track_6_Semantics_Big_Data_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 6: Semantics & Big Data (1)", 
+    "submissions": [
+      "450", 
+      "201", 
+      "432", 
+      "501"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_7_Web_Mining_1_": {
+    "date": "Thursday", 
+    "s_title": "Track 7: Web Mining (1)", 
+    "submissions": [
+      "235", 
+      "589", 
+      "708", 
+      "112"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_8_Security_Privacy_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 8: Security & Privacy (2)", 
+    "submissions": [
+      "336", 
+      "722", 
+      "757", 
+      "126"
+    ], 
+    "time": "11:00 - 12:30"
+  }, 
+  "Track_9_Content_Analysis_2_": {
+    "date": "Thursday", 
+    "s_title": "Track 9: Content Analysis (2)", 
+    "submissions": [
+      "1029", 
+      "626", 
+      "859", 
+      "488"
+    ], 
+    "time": "11:00 - 12:30"
+  }
+}

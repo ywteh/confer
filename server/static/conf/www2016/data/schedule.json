@@ -1,0 +1,181 @@
+schedule=[
+  {
+    "date": "04/13/2016", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "Track_4_Content_Analysis_1_"
+          }, 
+          {
+            "session": "Track_5_Economy_Markets_1_"
+          }, 
+          {
+            "session": "Track_3_Security_Privacy_1_"
+          }, 
+          {
+            "session": "Track_2_Behaviour_Analysis_Personalization_1_"
+          }, 
+          {
+            "session": "Track_1_Social_Networks_Graph_Analysis_1_"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Wednesday14_00_15_30", 
+        "time": "14:00 - 15:30"
+      }
+    ]
+  }, 
+  {
+    "date": "04/14/2016", 
+    "day": "Thursday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "Track_6_Semantics_Big_Data_1_"
+          }, 
+          {
+            "session": "Track_7_Web_Mining_1_"
+          }, 
+          {
+            "session": "Track_9_Content_Analysis_2_"
+          }, 
+          {
+            "session": "Track_8_Security_Privacy_2_"
+          }, 
+          {
+            "session": "Track_10_Mobility_1_"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Thursday11_00_12_30", 
+        "time": "11:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Track_14_Crowdsourcing_Systems_Social_Media_1_"
+          }, 
+          {
+            "session": "Track_11_Social_Networks_Graph_Analysis_2_"
+          }, 
+          {
+            "session": "Track_13_Web_Search_System_Applications_1_"
+          }, 
+          {
+            "session": "Track_15_Web_Science_1_"
+          }, 
+          {
+            "session": "Track_12_Behaviour_Analysis_Personalization_2_"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Thursday14_00_15_30", 
+        "time": "14:00 - 15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Track_18_Web_Search_Systems_Applications_2_"
+          }, 
+          {
+            "session": "Track_19_Crowdsourcing_Systems_Social_Media_2_"
+          }, 
+          {
+            "session": "Track_20_Web_Science_2_"
+          }, 
+          {
+            "session": "Track_16_Social_Networks_Graph_Analysis_3_"
+          }, 
+          {
+            "session": "Track_17_Web_Mining_2_"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Thursday16_00_17_30", 
+        "time": "16:00 - 17:30"
+      }
+    ]
+  }, 
+  {
+    "date": "04/15/2016", 
+    "day": "Friday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "Track_23_Security_Privacy_3_"
+          }, 
+          {
+            "session": "Track_22_Behaviour_Analysis_Personalization_3_"
+          }, 
+          {
+            "session": "Track_21_Semantics_Big_Data_2_"
+          }, 
+          {
+            "session": "Track_24_Content_Analysis_3_"
+          }, 
+          {
+            "session": "Track_25_Economics_Markets_2_"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Friday11_00_12_30", 
+        "time": "11:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Track_30A_Mobility_2_"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Friday14_00_15_10", 
+        "time": "14:00 - 15:10"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Track_29B_Crowdsourcing_Systems_Social_Media_3_"
+          }, 
+          {
+            "session": "Track_27A_Web_Mining_3_"
+          }, 
+          {
+            "session": "Track_28A_Web_Search_Systems_Applications_3_"
+          }, 
+          {
+            "session": "Track_26B_Social_Networks_Graph_Analysis_4_"
+          }, 
+          {
+            "session": "Track_28B_Security_Privacy_4_"
+          }, 
+          {
+            "session": "Track_27B_Behaviour_Analysis_Personalization_4_"
+          }, 
+          {
+            "session": "Track_26A_Semantics_Big_Data_3_"
+          }, 
+          {
+            "session": "Track_29A_Content_Analysis_4_"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Friday14_00_15_30", 
+        "time": "14:00 - 15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Track_30B_Economics_Markets_3_"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Friday15_10_15_30", 
+        "time": "15:10 - 15:30"
+      }
+    ]
+  }
+]
