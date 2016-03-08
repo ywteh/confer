@@ -257,6 +257,20 @@
 	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"bob.beaton@gmail.com\", \"confer.csail.mit.edu@thegreatmichael.com\"]",
 	      "hidden": "True"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 19,
+	    "fields": {
+	      "unique_name": "www2016",
+	      "confer_name": "www2016",
+	      "title": "WWW 2016 - 25th International World Wide Web Conference",
+	      "subtitle": "",
+	      "blurb": "The World Wide Web Conference is an annual international conference on the topics of the future direction of the World Wide Web. The Conference is an outstanding international forum to present and discuss progress in research, development, standards, and applications of the topics related to the Web.",
+	      "location": "Montreal, Canada",
+	      "start_date": "2016-04-11",
+	      "end_date": "2016-04-15",
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\"]"
+	  	}
 	}
 ]
   
