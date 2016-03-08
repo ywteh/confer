@@ -235,7 +235,7 @@ sessions={
         "chair": ""
     },
     "s100": {
-        "s_title": "Trumping politics on social media (social media + politics)",
+        "s_title": "Trumping Politics on Social Media (social media + politics)",
         "room": "LL20 A",
         "time": "9:30-10:50",
         "submissions": [
@@ -255,14 +255,14 @@ sessions={
         "chair": ""
     },
     "s101": {
-        "s_title": "Front stage on social media",
+        "s_title": "Front Stage on Social Media",
         "room": "LL20 A",
         "time": "11:30-12:50",
         "submissions": [
-            "pn2324",
             "pn1474",
             "pn788",
-            "pn2085"
+            "pn2085",
+            "pn2324"
         ],
         "personas": "",
         "venue": "paper",
@@ -275,7 +275,7 @@ sessions={
         "chair": ""
     },
     "s102": {
-        "s_title": "Designing quality in social media",
+        "s_title": "Designing Quality in Social Media",
         "room": "LL20 A",
         "time": "16:30-17:50",
         "submissions": [
@@ -291,7 +291,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -311,12 +311,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s104": {
-        "s_title": "Affording collective action in social media",
+        "s_title": "Affording Collective Action in Social Media",
         "room": "LL 20D",
         "time": "11:30-12:50",
         "submissions": [
@@ -330,13 +330,13 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s105": {
-        "s_title": "Managing designing for life disruption",
+        "s_title": "Managing Design for Life Disruptions",
         "room": "LL20 A",
         "time": "16:30-17:50",
         "submissions": [
@@ -351,19 +351,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s106": {
-        "s_title": "Curation & Algorithm",
+        "s_title": "Curation and Algorithm",
         "room": "LL20 A",
         "time": "14:30-15:50",
         "submissions": [
             "pn2272",
-            "pn295",
-            "pn1822",
             "pn1008",
+            "pn1822",
+            "pn295",
             "pn1803"
         ],
         "personas": "",
@@ -377,7 +377,7 @@ sessions={
         "chair": ""
     },
     "s107": {
-        "s_title": "Video sharing",
+        "s_title": "Video Sharing",
         "room": "LL20 A",
         "time": "16:30-17:50",
         "submissions": [
@@ -397,7 +397,7 @@ sessions={
         "chair": ""
     },
     "s108": {
-        "s_title": "Online Community",
+        "s_title": "Online Communities, Identities and Behaviors",
         "room": "LL20 A",
         "time": "11:30-12:50",
         "submissions": [
@@ -417,15 +417,15 @@ sessions={
         "chair": ""
     },
     "s109": {
-        "s_title": "Social Media & Health",
+        "s_title": "Social Media and Health",
         "room": "LL21 A",
         "time": "11:30-12:50",
         "submissions": [
             "pn502",
-            "pn948",
             "pn2004",
+            "pn1681",
             "pn1087",
-            "pn1681"
+            "pn948"
         ],
         "personas": "",
         "venue": "paper",
@@ -458,7 +458,7 @@ sessions={
         "chair": ""
     },
     "s111": {
-        "s_title": "Design new player experience",
+        "s_title": "Design New Player Experience",
         "room": "LL20 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -473,12 +473,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s112": {
-        "s_title": "Player motivation",
+        "s_title": "Players' Motivation in Games",
         "room": "LL20 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -493,12 +493,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s113": {
-        "s_title": "Support player performance",
+        "s_title": "Supporting Player's Performance",
         "room": "LL20 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -513,12 +513,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s114": {
-        "s_title": "Engaging players in games",
+        "s_title": "Engaging Players in Games",
         "room": "LL20 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -533,12 +533,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s115": {
-        "s_title": "Design physical games",
+        "s_title": "Design Physical Games",
         "room": "LL 20B",
         "time": "9:30-10:50",
         "submissions": [
@@ -558,7 +558,7 @@ sessions={
         "chair": ""
     },
     "s116": {
-        "s_title": "Support player social experience",
+        "s_title": "Supporting Player's Social Experience",
         "room": "LL20 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -578,7 +578,7 @@ sessions={
         "chair": ""
     },
     "s117": {
-        "s_title": "Online/internet economics",
+        "s_title": "Online/Internet Economics",
         "room": "LL20 A",
         "time": "11:30-12:50",
         "submissions": [
@@ -613,7 +613,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -633,12 +633,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s120": {
-        "s_title": "Older adults support",
+        "s_title": "Older Adult Support",
         "room": "LL 20D",
         "time": "14:30-15:50",
         "submissions": [
@@ -658,7 +658,7 @@ sessions={
         "chair": ""
     },
     "s121": {
-        "s_title": "Technological care for autism",
+        "s_title": "Technological Care for Autism",
         "room": "LL 20D",
         "time": "16:30-17:50",
         "submissions": [
@@ -698,7 +698,7 @@ sessions={
         "chair": ""
     },
     "s123": {
-        "s_title": "Mental health",
+        "s_title": "Mental Health in Technological Design and Social Media",
         "room": "LL 20D",
         "time": "11:30-12:50",
         "submissions": [
@@ -713,19 +713,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s125": {
-        "s_title": "Physical disability & assitant technologies ",
+        "s_title": "Physical Disability and Assistant Technologies ",
         "room": "LL 20D",
         "time": "9:30-10:50",
         "submissions": [
-            "pn1657",
             "pn2673",
             "pn1392",
-            "pn1500"
+            "pn1500",
+            "pn1657"
         ],
         "personas": "",
         "venue": "paper",
@@ -738,7 +738,7 @@ sessions={
         "chair": ""
     },
     "s126": {
-        "s_title": "Disability",
+        "s_title": "Diverse Disabilities and Technological Support",
         "room": "LL 20D",
         "time": "16:30-17:50",
         "submissions": [
@@ -758,7 +758,7 @@ sessions={
         "chair": ""
     },
     "s127": {
-        "s_title": "Visually Impaired",
+        "s_title": "Visually Impaired and Technology",
         "room": "LL20 A",
         "time": "9:30-10:50",
         "submissions": [
@@ -772,8 +772,8 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -783,6 +783,7 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "pn2399",
+            "pn2210",
             "pn2807",
             "pn1014"
         ],
@@ -797,14 +798,14 @@ sessions={
         "chair": ""
     },
     "s129": {
-        "s_title": "Medical device sensing",
+        "s_title": "Medical Device Sensing",
         "room": "LL 20D",
         "time": "11:30-12:50",
         "submissions": [
-            "pn1336",
             "pn2494",
             "pn1820",
             "pn2457",
+            "pn1336",
             "pn866"
         ],
         "personas": "",
@@ -813,12 +814,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s130": {
-        "s_title": "Patients Participation",
+        "s_title": "Patients' Participation in Online and Offline Settings",
         "room": "LL 20D",
         "time": "16:30-17:50",
         "submissions": [
@@ -833,7 +834,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -853,7 +854,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -863,9 +864,9 @@ sessions={
         "time": "11:30-12:50",
         "submissions": [
             "pn2288",
-            "pn1431",
             "pn1491",
             "pn1698",
+            "pn1431",
             "pn2264"
         ],
         "personas": "",
@@ -884,16 +885,16 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "pn1628",
-            "pn1842",
             "pn674",
-            "pn282"
+            "pn282",
+            "pn1842"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -913,7 +914,7 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -924,18 +925,18 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "pn1614",
-            "pn1419",
-            "pn2761",
             "pn1770",
-            "pn537"
+            "pn537",
+            "pn2761",
+            "pn1419"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -960,7 +961,7 @@ sessions={
         "chair": ""
     },
     "s139": {
-        "s_title": "Sociotechnical Assemblages: Participation, Interaction and Materiality ",
+        "s_title": "Sociotechnical Assemblages: Participation, Interaction &amp; Materiality ",
         "room": "LL21 A",
         "time": "14:30-15:50",
         "submissions": [
@@ -980,7 +981,7 @@ sessions={
         "chair": ""
     },
     "s140": {
-        "s_title": "Problem-Solving or not?: The Boundaries of HCI research",
+        "s_title": "Problem-Solving or not?: The Boundaries of HCI Research",
         "room": "LL21 A",
         "time": "16:30-17:50",
         "submissions": [
@@ -995,7 +996,7 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -1006,9 +1007,9 @@ sessions={
         "time": "16:30-17:50",
         "submissions": [
             "pn680",
-            "pn1437",
             "pn2057",
-            "pn1864"
+            "pn1864",
+            "pn1437"
         ],
         "personas": "",
         "venue": "paper",
@@ -1025,10 +1026,10 @@ sessions={
         "room": "LL21 A",
         "time": "9:30-10:50",
         "submissions": [
-            "pn2419",
             "pn2430",
             "pn2814",
-            "pn1633"
+            "pn1633",
+            "pn2419"
         ],
         "personas": "",
         "venue": "paper",
@@ -1036,7 +1037,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1045,22 +1046,22 @@ sessions={
         "room": "LL20 A",
         "time": "14:30-15:50",
         "submissions": [
-            "pn145",
             "pn2184",
-            "pn1048"
+            "pn1048",
+            "pn145"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
     },
     "s145": {
-        "s_title": "HCI for women",
+        "s_title": "HCI for Women",
         "room": "LL21 A",
         "time": "14:30-15:50",
         "submissions": [
@@ -1075,19 +1076,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s146": {
-        "s_title": "Vulnerable Populations & Technological Support",
+        "s_title": "Vulnerable Populations and Technological Support",
         "room": "LL21 A",
         "time": "11:30-12:50",
         "submissions": [
             "pn1063",
             "pn1466",
-            "pn2921",
-            "pn2828"
+            "pn2828",
+            "pn2921"
         ],
         "personas": "",
         "venue": "paper",
@@ -1115,7 +1116,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1135,7 +1136,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1175,7 +1176,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1195,12 +1196,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s152": {
-        "s_title": "Crowdsourcing & Creation: Large-scale Ideas and Content Production",
+        "s_title": "Crowdsourcing and Creation: Large-scale Ideas and Content Production",
         "room": "LL 20B",
         "time": "14:30-15:50",
         "submissions": [
@@ -1214,8 +1215,8 @@ sessions={
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1225,9 +1226,9 @@ sessions={
         "time": "14:30-15:50",
         "submissions": [
             "pn1305",
-            "pn737",
             "pn458",
-            "pn241"
+            "pn241",
+            "pn737"
         ],
         "personas": "",
         "venue": "paper",
@@ -1266,8 +1267,8 @@ sessions={
         "submissions": [
             "pn2105",
             "pn2036",
-            "pn2202",
-            "pn2770"
+            "pn2770",
+            "pn2202"
         ],
         "personas": "",
         "venue": "paper",
@@ -1275,7 +1276,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1295,7 +1296,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1324,10 +1325,10 @@ sessions={
         "room": "LL 20B",
         "time": "16:30-17:50",
         "submissions": [
-            "pn213",
-            "pn2177",
             "pn2344",
-            "pn301"
+            "pn2177",
+            "pn301",
+            "pn213"
         ],
         "personas": "",
         "venue": "paper",
@@ -1335,7 +1336,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1354,7 +1355,7 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -1375,7 +1376,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1394,20 +1395,20 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
     },
     "s162": {
-        "s_title": "Visualization methods & evaluation",
+        "s_title": "Visualization Methods and Evaluation",
         "room": "LL21E",
         "time": "16:30-17:50",
         "submissions": [
-            "pn1277",
             "pn2245",
-            "pn298",
             "pn843",
+            "pn1277",
+            "pn298",
             "pn1647"
         ],
         "personas": "",
@@ -1416,7 +1417,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1425,11 +1426,11 @@ sessions={
         "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
-            "pn2580",
-            "pn1370",
             "pn2371",
             "pn1980",
-            "pn1339"
+            "pn1339",
+            "pn2580",
+            "pn1370"
         ],
         "personas": "",
         "venue": "paper",
@@ -1442,7 +1443,7 @@ sessions={
         "chair": ""
     },
     "s168": {
-        "s_title": "Learning @School",
+        "s_title": "Learning @ School",
         "room": "LL20 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -1457,19 +1458,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Chris Quintana"
     },
     "s169": {
         "s_title": "Learning Feedback",
         "room": "LL20 C",
         "time": "14:30-15:50",
         "submissions": [
-            "pn1610",
             "pn1566",
             "pn1654",
-            "pn908"
+            "pn908",
+            "pn1610"
         ],
         "personas": "",
         "venue": "paper",
@@ -1477,7 +1478,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1488,8 +1489,8 @@ sessions={
         "submissions": [
             "pn1174",
             "pn1434",
-            "pn1551",
-            "pn2887"
+            "pn2887",
+            "pn1551"
         ],
         "personas": "",
         "venue": "paper",
@@ -1527,23 +1528,23 @@ sessions={
         "time": "16:30-17:50",
         "submissions": [
             "pn2568",
-            "pn2291",
             "pn2557",
+            "pn2486",
             "pn1199",
-            "pn2486"
+            "pn2291"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s173": {
-        "s_title": "Smartphone authentication",
+        "s_title": "Smartphone Authentication",
         "room": "LL21F",
         "time": "11:30-12:50",
         "submissions": [
@@ -1558,12 +1559,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s174": {
-        "s_title": "Smartphone attention",
+        "s_title": "Smartphone Attention",
         "room": "LL21F",
         "time": "16:30-17:50",
         "submissions": [
@@ -1577,20 +1578,20 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
     },
     "s175": {
-        "s_title": "Design Attention &amp; Multitasking",
+        "s_title": "Design Attention and Multitasking",
         "room": "LL21F",
         "time": "9:30-10:50",
         "submissions": [
             "pn2215",
-            "pn2444",
             "pn267",
-            "pn805"
+            "pn805",
+            "pn2444"
         ],
         "personas": "",
         "venue": "paper",
@@ -1598,19 +1599,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s176": {
-        "s_title": "Mobile behaviors",
+        "s_title": "Mobile Behaviors",
         "room": "LL21F",
         "time": "11:30-12:50",
         "submissions": [
             "pn1291",
-            "pn1532",
             "pn1587",
-            "pn216"
+            "pn216",
+            "pn1532"
         ],
         "personas": "",
         "venue": "paper",
@@ -1618,7 +1619,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1638,7 +1639,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1658,12 +1659,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s179": {
-        "s_title": "Social Media & Location data",
+        "s_title": "Social Media and Location Data",
         "room": "LL21F",
         "time": "11:30-12:50",
         "submissions": [
@@ -1678,19 +1679,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": "Louise Barkhuus"
     },
     "s180": {
-        "s_title": "Contextual awareness",
+        "s_title": "Contextual Awareness",
         "room": "LL21F",
         "time": "14:30-15:50",
         "submissions": [
             "pn914",
             "pn673",
-            "pn207",
-            "pn810"
+            "pn810",
+            "pn207"
         ],
         "personas": "",
         "venue": "paper",
@@ -1698,19 +1699,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s181": {
-        "s_title": "Privacy and security interfaces",
+        "s_title": "Privacy and Security Interfaces",
         "room": "LL21F",
         "time": "16:30-17:50",
         "submissions": [
-            "pn2548",
-            "pn1255",
             "pn1232",
-            "pn1243"
+            "pn1243",
+            "pn2548",
+            "pn1255"
         ],
         "personas": "",
         "venue": "paper",
@@ -1718,20 +1719,20 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s182": {
-        "s_title": "Why not privacy (mental model of privacy)",
+        "s_title": "Why not Privacy? (mental model of privacy)",
         "room": "LL21F",
         "time": "9:30-10:50",
         "submissions": [
-            "pn678",
-            "pn1224",
             "pn1986",
             "pn991",
-            "pn1705"
+            "pn1705",
+            "pn678",
+            "pn1224"
         ],
         "personas": "",
         "venue": "paper",
@@ -1739,12 +1740,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s183": {
-        "s_title": "Personal informatics Dear Data",
+        "s_title": "Personal informatics: Dear Data",
         "room": "LL21F",
         "time": "14:30-15:50",
         "submissions": [
@@ -1759,7 +1760,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1769,10 +1770,10 @@ sessions={
         "time": "14:30-15:50",
         "submissions": [
             "pn1882",
-            "pn541",
+            "pn1818",
             "pn1893",
             "pn1567",
-            "pn1818"
+            "pn541"
         ],
         "personas": "",
         "venue": "paper",
@@ -1780,12 +1781,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s186": {
-        "s_title": "Families & Assistive tech",
+        "s_title": "Families and Assistive Technology",
         "room": "LL21C",
         "time": "11:30-12:50",
         "submissions": [
@@ -1800,7 +1801,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -1820,12 +1821,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s188": {
-        "s_title": "Physical digital collection",
+        "s_title": "Physical Digital Collection",
         "room": "LL21C",
         "time": "16:30-17:50",
         "submissions": [
@@ -1839,21 +1840,21 @@ sessions={
         "day": "Monday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s189": {
-        "s_title": "Does Distance Matter",
+        "s_title": "Does Distance Matters?",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
             "pn2263",
-            "pn2300",
             "pn2483",
             "pn1964",
-            "pn1490"
+            "pn1490",
+            "pn2300"
         ],
         "personas": "",
         "venue": "paper",
@@ -1866,14 +1867,14 @@ sessions={
         "chair": ""
     },
     "s190": {
-        "s_title": "Dislay & Shared Interactions",
+        "s_title": "Displays and Shared Interactions",
         "room": "LL21C",
         "time": "11:30-12:50",
         "submissions": [
-            "pn535",
             "pn713",
             "pn987",
             "pn107",
+            "pn535",
             "pn642"
         ],
         "personas": "",
@@ -1887,14 +1888,14 @@ sessions={
         "chair": ""
     },
     "s191": {
-        "s_title": "Work multitasking distraction",
+        "s_title": "Work Multitasking Distraction",
         "room": "LL21C",
         "time": "9:30-10:50",
         "submissions": [
             "pn2089",
             "pn1219",
-            "pn941",
-            "pn905"
+            "pn905",
+            "pn941"
         ],
         "personas": "",
         "venue": "paper",
@@ -1902,19 +1903,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s192": {
-        "s_title": "Workplace social and performance",
+        "s_title": "Workplace Social and Performance",
         "room": "LL21C",
         "time": "16:30-17:50",
         "submissions": [
             "pn2518",
             "pn613",
-            "pn2414",
-            "pn2049"
+            "pn2049",
+            "pn2414"
         ],
         "personas": "",
         "venue": "paper",
@@ -1933,8 +1934,8 @@ sessions={
         "submissions": [
             "pn667",
             "pn136",
-            "pn1605",
-            "pn2574"
+            "pn2574",
+            "pn1605"
         ],
         "personas": "",
         "venue": "paper",
@@ -1952,18 +1953,18 @@ sessions={
         "time": "11:30-12:50",
         "submissions": [
             "pn2360",
-            "pn1102",
             "pn2063",
             "pn1162",
-            "pn311"
+            "pn311",
+            "pn1102"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -2003,12 +2004,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s197": {
-        "s_title": "Living in smart environments",
+        "s_title": "Living in Smart Environments",
         "room": "LL20 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -2023,12 +2024,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s198": {
-        "s_title": "Smart Home",
+        "s_title": "Smart Homes, Devices and Data&nbsp;",
         "room": "LL20 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -2043,12 +2044,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s199": {
-        "s_title": "Internet of things",
+        "s_title": "Internet of Things",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
@@ -2062,7 +2063,7 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -2074,8 +2075,8 @@ sessions={
         "submissions": [
             "pn1920",
             "pn206",
-            "pn1347",
-            "pn2526"
+            "pn2526",
+            "pn1347"
         ],
         "personas": "",
         "venue": "paper",
@@ -2083,12 +2084,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s201": {
-        "s_title": "Large Displays Interaction",
+        "s_title": "Large Display and Interaction",
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
@@ -2108,14 +2109,14 @@ sessions={
         "chair": ""
     },
     "s202": {
-        "s_title": "Visual design principles for non conventional displays",
+        "s_title": "Visual Design Principles for Unconventional Displays",
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
             "pn479",
             "pn1497",
-            "pn1374",
-            "pn220"
+            "pn220",
+            "pn1374"
         ],
         "personas": "",
         "venue": "paper",
@@ -2128,7 +2129,7 @@ sessions={
         "chair": ""
     },
     "s203": {
-        "s_title": "Interaction with small displays",
+        "s_title": "Interaction with Small Displays",
         "room": "LL21D",
         "time": "16:30-17:50",
         "submissions": [
@@ -2163,27 +2164,27 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s205": {
-        "s_title": "Touchscreen interaction",
+        "s_title": "Touchscreen Interactions",
         "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
-            "pn1483",
-            "pn1477",
             "pn2199",
             "pn932",
-            "pn1750"
+            "pn1750",
+            "pn1477",
+            "pn1483"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -2213,11 +2214,11 @@ sessions={
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
-            "pn1968",
-            "pn2850",
             "pn1600",
             "pn1359",
-            "pn392"
+            "pn392",
+            "pn1968",
+            "pn2850"
         ],
         "personas": "",
         "venue": "paper",
@@ -2225,7 +2226,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -2234,19 +2235,19 @@ sessions={
         "room": "LL21E",
         "time": "14:30-15:50",
         "submissions": [
-            "pn2611",
-            "pn2445",
             "pn111",
             "pn2001",
-            "pn812"
+            "pn812",
+            "pn2611",
+            "pn2445"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -2266,7 +2267,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -2275,11 +2276,11 @@ sessions={
         "room": "LL21E",
         "time": "14:30-15:50",
         "submissions": [
-            "pn2564",
-            "pn1396",
             "pn861",
             "pn1561",
-            "pn438"
+            "pn438",
+            "pn2564",
+            "pn1396"
         ],
         "personas": "",
         "venue": "paper",
@@ -2287,19 +2288,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s211": {
-        "s_title": "Haptic Sensation meet Screens",
+        "s_title": "Haptic Sensation meets Screens",
         "room": "LL21E",
         "time": "9:30-10:50",
         "submissions": [
-            "pn423",
             "pn727",
             "pn910",
-            "pn1223"
+            "pn1223",
+            "pn423"
         ],
         "personas": "",
         "venue": "paper",
@@ -2307,19 +2308,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s212": {
-        "s_title": "Did you feel the vibration (haptic feedback everywhere)",
+        "s_title": "Did you feel the vibration? (haptic feedback everywhere)",
         "room": "LL21E",
         "time": "16:30-17:50",
         "submissions": [
-            "pn1260",
             "pn2246",
             "pn1275",
             "pn140",
+            "pn1260",
             "pn1641"
         ],
         "personas": "",
@@ -2333,7 +2334,7 @@ sessions={
         "chair": ""
     },
     "s213": {
-        "s_title": "Eye tracking application",
+        "s_title": "Eye Tracking Applications",
         "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
@@ -2348,33 +2349,33 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s214": {
-        "s_title": "Body + Fashion",
+        "s_title": "Body and Fashion",
         "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
-            "pn1283",
             "pn2240",
             "pn892",
+            "pn2642",
             "pn2498",
-            "pn2642"
+            "pn1283"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
-        "hasHonorableMention": false,
+        "hasAward": true,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s215": {
-        "s_title": "Quantify efficiency of input methods",
+        "s_title": "Quantify efficiency of Input Methods",
         "room": "LL21E",
         "time": "9:30-10:50",
         "submissions": [
@@ -2408,24 +2409,9 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
-    },
-    "s-panel2": {
-        "s_title": "temp panel",
-        "room": "220 B",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "panel",
-        "day": "Monday",
-        "s_tags": [],
-        "type": "panel",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "panel",
         "chair": ""
     },
     "s-panel3": {
@@ -2777,21 +2763,6 @@ sessions={
         "subtype": "panel",
         "chair": ""
     },
-    "s-panel905": {
-        "s_title": "Unused Session s-panel905",
-        "room": "220 B",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "panel",
-        "day": "Monday",
-        "s_tags": [],
-        "type": "panel",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "panel",
-        "chair": ""
-    },
     "s-panel906": {
         "s_title": "Unused Session s-panel906",
         "room": "220 B",
@@ -2863,10 +2834,10 @@ sessions={
         "room": "LL21E",
         "time": "11:30-12:50",
         "submissions": [
-            "pn881",
             "pn1298",
             "pn1888",
-            "pn2098"
+            "pn2098",
+            "pn881"
         ],
         "personas": "",
         "venue": "paper",
@@ -2879,7 +2850,7 @@ sessions={
         "chair": ""
     },
     "s901": {
-        "s_title": "Finger",
+        "s_title": "Fingers and Technology",
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
@@ -2903,10 +2874,10 @@ sessions={
         "room": "LL21E",
         "time": "16:30-17:50",
         "submissions": [
-            "pn137",
             "pn659",
             "pn2888",
-            "pn2652"
+            "pn2652",
+            "pn137"
         ],
         "personas": "",
         "venue": "paper",
@@ -2914,19 +2885,19 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s903": {
-        "s_title": "Fat Fingers Small Watches",
+        "s_title": "Fat Fingers, Small Watches",
         "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
-            "pn2132",
             "pn1141",
             "pn1718",
             "pn781",
+            "pn2132",
             "pn1002"
         ],
         "personas": "",
@@ -2940,7 +2911,7 @@ sessions={
         "chair": ""
     },
     "s904": {
-        "s_title": "Making smartphone useful",
+        "s_title": "Making Smartphones Useful",
         "room": "LL 20B",
         "time": "16:30-17:50",
         "submissions": [
@@ -2960,22 +2931,22 @@ sessions={
         "chair": ""
     },
     "s905": {
-        "s_title": "Interaction technique for mobile interface",
+        "s_title": "Interaction Techniques for Mobile Interfaces",
         "room": "LL21D",
         "time": "9:30-10:50",
         "submissions": [
-            "pn2086",
             "pn272",
             "pn1294",
             "pn1390",
-            "pn1853"
+            "pn1853",
+            "pn2086"
         ],
         "personas": "",
         "venue": "paper",
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -2995,7 +2966,7 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -3015,7 +2986,7 @@ sessions={
         "day": "Thursday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""
@@ -3040,51 +3011,6 @@ sessions={
         "subtype": "paper",
         "chair": ""
     },
-    "s-alt900": {
-        "s_title": "Unused Session s-alt900",
-        "room": "220 C",
-        "time": "9:30-10:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Thursday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt901": {
-        "s_title": "Unused Session s-alt901",
-        "room": "220 C",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Thursday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt902": {
-        "s_title": "Unused Session s-alt902",
-        "room": "220 C",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Thursday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
     "s-alt904": {
         "s_title": "See this, hear this, touch this, keep this",
         "room": "220 C",
@@ -3096,81 +3022,6 @@ sessions={
             "alt156",
             "alt166"
         ],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Tuesday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt905": {
-        "s_title": "Unused Session s-alt905",
-        "room": "220 C",
-        "time": "16:30-17:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Tuesday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt906": {
-        "s_title": "Unused Session s-alt906",
-        "room": "220 C",
-        "time": "16:30-17:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt907": {
-        "s_title": "Unused Session s-alt907",
-        "room": "220 C",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt908": {
-        "s_title": "Unused Session s-alt908",
-        "room": "220 C",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "altchi",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "altchi",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "altchi",
-        "chair": ""
-    },
-    "s-alt909": {
-        "s_title": "Unused Session s-alt909",
-        "room": "220 C",
-        "time": "14:30-15:50",
-        "submissions": [],
         "personas": "",
         "venue": "altchi",
         "day": "Tuesday",
@@ -3283,24 +3134,9 @@ sessions={
         "subtype": "SIG",
         "chair": ""
     },
-    "s-sig906": {
-        "s_title": "Unused Session s-sig906",
-        "room": "220 A",
-        "time": "16:30-17:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "SIG",
-        "day": "Monday",
-        "s_tags": [],
-        "type": "SIG",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "SIG",
-        "chair": ""
-    },
     "s-sig907": {
         "s_title": "SIG - Technology for disabled and older people",
-        "room": "220 A",
+        "room": "230 C",
         "time": "9:30-10:50",
         "submissions": [
             "sig118"
@@ -3317,7 +3153,7 @@ sessions={
     },
     "s-sig908": {
         "s_title": "SIG - Become a Volunteer at ACM",
-        "room": "220 A",
+        "room": "230 C",
         "time": "11:30-12:50",
         "submissions": [
             "sig119"
@@ -3334,7 +3170,7 @@ sessions={
     },
     "s-sig909": {
         "s_title": "SIG - Digital Civics",
-        "room": "220 A",
+        "room": "230 C",
         "time": "14:30-15:50",
         "submissions": [
             "sig111"
@@ -3351,7 +3187,7 @@ sessions={
     },
     "s-sig910": {
         "s_title": "SIG - State of Accessibility at CHI",
-        "room": "220 A",
+        "room": "230 C",
         "time": "16:30-17:50",
         "submissions": [
             "sig112"
@@ -3383,7 +3219,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -3392,10 +3228,10 @@ sessions={
         "room": "LL 20D",
         "time": "14:30-15:50",
         "submissions": [
-            "pn677",
             "pn1430",
             "pn1648",
-            "pn1007"
+            "pn1007",
+            "pn677"
         ],
         "personas": "",
         "venue": "paper",
@@ -3403,20 +3239,20 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s912": {
-        "s_title": "Authentication &amp; Privacy &nbsp;",
+        "s_title": "Authentication and Privacy &nbsp;",
         "room": "LL21D",
         "time": "16:30-17:50",
         "submissions": [
-            "pn1663",
-            "pn685",
-            "pn427",
             "pn746",
-            "pn1075"
+            "pn1075",
+            "pn427",
+            "pn685",
+            "pn1663"
         ],
         "personas": "",
         "venue": "paper",
@@ -3464,7 +3300,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -3484,7 +3320,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -3504,7 +3340,7 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
@@ -3533,11 +3369,11 @@ sessions={
         "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
-            "pn108",
-            "pn2242",
             "pn634",
             "pn1050",
-            "pn2226"
+            "pn2226",
+            "pn2242",
+            "pn108"
         ],
         "personas": "",
         "venue": "paper",
@@ -3565,20 +3401,20 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s920": {
-        "s_title": "Augment AR &amp; VR Experiences",
+        "s_title": "Augment AR and VR Experiences",
         "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
-            "pn382",
             "pn649",
             "pn975",
             "pn1170",
-            "pn122"
+            "pn122",
+            "pn382"
         ],
         "personas": "",
         "venue": "paper",
@@ -3586,12 +3422,12 @@ sessions={
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
-        "hasHonorableMention": false,
+        "hasHonorableMention": true,
         "subtype": "paper",
         "chair": ""
     },
     "s921": {
-        "s_title": "Enable End-Users &amp; Designers",
+        "s_title": "Enabling End-Users and Designers",
         "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
@@ -3625,7 +3461,7 @@ sessions={
         "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
-        "hasAward": false,
+        "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
         "chair": ""

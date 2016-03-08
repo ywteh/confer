@@ -76,7 +76,7 @@ s_filters=[
                     "type":"venue",
                     "label":"Panel"
                 },
-                {
+/*                {
                     "data":"special",
                     "class":"venue filter",
                     "type":"venue",
@@ -105,7 +105,7 @@ s_filters=[
                     "class":"venue filter",
                     "type":"venue",
                     "label":"Session Break"
-                }
+                }*/
         ]
     },
     {
@@ -155,52 +155,28 @@ s_filters=[
                     "label":"All"
                 },
                 {
-                    "data":"keynote",
+                    "data":"morning1",
                     "class":"time filter",
                     "type":"time",
-                    "label":"Keynote"
+                    "label":"Early Morning"
                 },
                 {
                     "data":"morning2",
                     "class":"time filter",
                     "type":"time",
-                    "label":"Morning #1"
-                },
-                {
-                    "data":"morning3",
-                    "class":"time filter",
-                    "type":"time",
-                    "label":"Morning Break"
-                },
-                {
-                    "data":"morning4",
-                    "class":"time filter",
-                    "type":"time",
-                    "label":"Morning #2"
+                    "label":"Late Morning"
                 },
                 {
                     "data":"afternoon1",
                     "class":"time filter",
                     "type":"time",
-                    "label":"Afternoon #1"
+                    "label":"Early Afternoon"
                 },
                 {
                     "data":"afternoon2",
                     "class":"time filter",
                     "type":"time",
-                    "label":"Afternoon Break"
-                },
-                {
-                    "data":"afternoon3",
-                    "class":"time filter",
-                    "type":"time",
-                    "label":"Afternoon #2"
-                },
-                {
-                    "data":"afternoon4",
-                    "class":"time filter",
-                    "type":"time",
-                    "label":"Evening"
+                    "label":"Late Afternoon"
                 }
         ]
     }
