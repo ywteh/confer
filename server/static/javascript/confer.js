@@ -21,7 +21,7 @@ window.applicationCache.addEventListener('updateready', function(){
 
 /* Private Data */
 var login_id = localStorage.getItem('login_id')
-var user_voter_id = localStorage.getItem('user_voter_id')
+//var user_voter_id = localStorage.getItem('user_voter_id')
 var login_name = localStorage.getItem('login_name')
 var starred = []
 
@@ -36,6 +36,7 @@ var recommended = []
 
 //var recommended = JSON.parse(localStorage.getItem('recommended'))
 
+/*
 function get_all_votes(_async_) {
   $.ajax({
     type: 'GET',
@@ -49,6 +50,7 @@ function get_all_votes(_async_) {
     }
   });
 }
+*/
 
 function get_paper_schedule (id) {
   var res = null
@@ -63,6 +65,7 @@ function get_paper_schedule (id) {
   return res
 }
 
+/*
 function handle_vote(event) {
   if (user_voter_id == null) {
     persistent_alert('You haven\'t set your voter id. <a class="blue bold" href="settings?redirect_url='+ encodeURIComponent(window.location.pathname + window.location.hash) + '"> Click Here</a> to set your voter id.'); 
@@ -98,6 +101,8 @@ function handle_vote(event) {
   });
 }
 
+*/
+
 function refresh(_async_){
   if(!navigator.onLine){
     return
@@ -116,8 +121,8 @@ function refresh(_async_){
       login_name = res.login_name 
       localStorage.setItem('login_name', login_name)
 
-      user_voter_id = res.user_voter_id
-      localStorage.setItem('user_voter_id', user_voter_id)                     
+      //user_voter_id = res.user_voter_id
+      //localStorage.setItem('user_voter_id', user_voter_id)                     
 
       if(res.likes != null){
         starred = res.likes
