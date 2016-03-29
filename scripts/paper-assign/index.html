@@ -97,10 +97,10 @@ function saveSessions() {
 
 }
 
+//helper function used to force all sessions to be the same height
+// so that dragging sessions doesn't cause weird UI glitches
 function resizeEven() {
-
     var maxHeight = 0;
-    
     $("#sessions .session").each(function(index) {
         $(this).height("auto");
         if ($(this).height() > maxHeight) {
@@ -113,21 +113,8 @@ function resizeEven() {
     
 }
 
-//layout the sessions so they are all the same height
+//layout the sessions so all sessions in a given row are the same height
 function resize() {
-    /*
-    var maxHeight = 0;
-    
-    $("#sessions .session").each(function(index) {
-        $(this).height("auto");
-        if ($(this).height() > maxHeight) {
-            maxHeight = $(this).height();
-        }
-    });
-    $("#sessions .session").each(function(index) {
-        $(this).height(maxHeight);
-    });
-    */
     var sessions = $("#sessions .session");
     var numRows = sessions.length / parallelSessions;
     if (numRows * parallelSessions != sessions.length) {
@@ -232,7 +219,6 @@ $(function() {
         placeholder: "paper-placeholder ui-corner-all"
     });
     $(sessions).sortable({
-/*       connectWith: ".session",*/
         handle: ".handle",
         start: function(e, ui) {
             $(this).attr('data-previndex', ui.item.index());
