@@ -7,12 +7,14 @@
  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="swal/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="swal/sweetalert.css">
 
 <!-- <link rel="stylesheet" href="jquery-ui.css">
   <script src="jquery-1.10.2.js"></script>
   <script src="jquery-ui.js"></script>
-  <script src="settings.js"></script>
 -->
+  <script src="settings.js"></script>
 
   <link rel="stylesheet" href="styles.css">
 
@@ -21,6 +23,8 @@
   gSessions = {};
   gPapers = {};
   gSessionList = [];
+
+
 
 //load papers and sessions from json files
   function loadPapers() {
@@ -83,17 +87,95 @@ function getSessionsJSON() {
     return json;
 }
 
+
+//calls didLock on success, passing a boolean indicating if the lock was acquired
+function testAndSetLock(didLock) {
+    $.ajax({
+        type: "GET",
+        url:"is_locked.php",
+        dataType: "text",
+        success: function(data, textStatus, jqXHR) {
+            if (data == "2") {
+                didLock(false);
+            } else {
+                $.ajax({
+                    type: "GET",
+                    url:"lock.php",
+                    dataType: "text",
+                    success: function(data, textStatus, jqXHR) {
+                        didLock(true);
+                    }
+                });
+            }
+
+        }
+    });
+}
+
+function promptUnlock() { 
+    swal({   
+        title: "Are you sure?",   
+        text: "Acquiring the lock will prevent other users from editing, possibly resulting is them losing data.",   
+        type: "warning",
+        showCancelButton: true,   
+        confirmButtonColor: "#DD6B55",   
+        confirmButtonText: "Yes, steal the lock!",   
+        closeOnConfirm: false }, 
+        function(){   
+            $.ajax({
+                    type: "GET",
+                    url:"lock.php",
+                    dataType: "text",
+                    success: function(data, textStatus, jqXHR) {
+                        swal("Success!","You now hold the lock.", "success"); 
+                        $("#clickMe").prop('value',"Save");
+                        $('#clickMe').off('click');
+                        $("#clickMe").on('click',function() {saveSessions();});
+                        enableClicks();
+                    }
+                });
+        }); 
+}
+
+function disableClicks() {
+    $(".session-body").each(function() {
+        $(this).sortable( "disable" );
+    });
+    $("#papers").sortable("disable");
+    $("#sessions").sortable( "disable" );
+    
+}
+
+function enableClicks() {
+    $(".session-body").each(function() {
+        $(this).sortable( "enable" );
+    });
+    $("#papers").sortable("enable");
+    $("#sessions").sortable( "disable" );
+
+}
+
 //save the current sessions
 function saveSessions() {
-    var json = getSessionsJSON();
-    $.ajax
-    ({
-        type: "POST",
-        dataType : 'json',
-        async: false,
-        url: 'save.php',
-        data: {data: json},
+    testAndSetLock(function(locked) {
+        if (locked) {
+            var json = getSessionsJSON();
+            $.ajax
+            ({
+                type: "POST",
+                dataType : 'json',
+                url: 'save.php',
+                data: {data: json},
+            });
+        } else {
+            swal("Uh oh!","Someone else is editing the file concurrently. Click again to steal the lock (you should reload before doing this!)", "success"); 
+            $("#clickMe").prop('value',"Locked (Click to unlock)");
+            $('#clickMe').off('click');
+            $("#clickMe").on('click',function() {promptUnlock();});
+            disableClicks();
+        }
     });
+
 
 }
 
@@ -199,9 +281,22 @@ function addSession(title, paperList) {
 
 }
 
+
 $(document).ready(function() {
     $.ajaxSetup({ cache: false });
     $("#title").html(documentTitle);
+    testAndSetLock(function(locked) {
+        $('#clickMe').off('click');
+        if (locked) {
+            $("#clickMe").prop('value',"Save");
+            $("#clickMe").on('click',function() {saveSessions();});
+            enableClicks();
+        } else {
+            $("#clickMe").prop('value',"Locked (Click to unlock)");
+            $("#clickMe").on('click',function() {promptUnlock();});
+            disableClicks();
+        }
+    });
     loadPapers();
 });
 
@@ -282,7 +377,7 @@ $(function() {
 <body>
     <div class="header-bar">
       <p id="title"></p>
-      <input id="clickMe" class="saveButton" type="button" value="Save" onclick="saveSessions();" />
+      <input id="clickMe" class="saveButton" type="button" value="Save" />
   </div>
 
   <div class="papers">
