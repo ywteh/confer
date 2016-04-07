@@ -1624,8 +1624,8 @@ function populate_papers(){
   }
   var raw_html = ''
   var entities_sorted = Object.keys(entities).sort(function(a, b) {
-      var title_a = entities[a]['title']
-      var title_b = entities[b]['title']
+      var title_a = entities[a]['title'];
+      var title_b = entities[b]['title'];
       if (title_a != null && title_b != null) {
         return title_a.localeCompare(entities[b].title);
       } else if (title_a == null && title_b != null) {
@@ -1638,7 +1638,7 @@ function populate_papers(){
   })      
   
   for(var e in entities_sorted){
-    raw_html += get_paper_html(e)
+    raw_html += get_paper_html(entities_sorted[e])
   }
   $("#all_papers").html(raw_html)
   $("#all_papers tr:gt(24)").hide()  
