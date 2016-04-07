@@ -1569,7 +1569,7 @@ function update_sessions_count_async(){
 
 function reset_all_papers(){
   $("#all_papers tr").show()
-  if (config_params == undefined || config_params['display_all'] != true) {
+  if (typeof(config_params) == undefined || config_params['display_all'] != true) {
     $("#all_papers tr:gt(24)").hide() 
   }
 
@@ -1631,7 +1631,7 @@ function populate_papers(){
   }
   var raw_html = ''
   entities_keys = Object.keys(entities)
-  if (config_params != undefined && config_params['sort_paper'] != undefined && config_params['sort_paper']['param'] != null) {
+  if (typeof(config_params) != undefined && config_params['sort_paper'] != undefined && config_params['sort_paper']['param'] != null) {
     entities_keys = entities_keys.sort(function(a, b) {
         var val_a = entities[a][config_params['sort_paper']['param']];
         var val_b = entities[b][config_params['sort_paper']['param']];
