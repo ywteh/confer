@@ -41,6 +41,18 @@ s_filters=[
 					"label":"All"
 				},
 				{
+					"data":"Monday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Mon (Apr, 11)"
+				},
+				{
+					"data":"Tuesday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Wed (Apr, 12)"
+				},
+				{
 					"data":"Wednesday", 
 					"class":"day filter", 
 					"type":"day", 
