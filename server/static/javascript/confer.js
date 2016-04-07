@@ -1631,7 +1631,7 @@ function populate_papers(){
   }
   var raw_html = ''
   entities_keys = Object.keys(entities)
-  if (config_params != null && config_params['sort_paper'] != null && config_params['sort_paper']['param'] != null) {
+  if (config_params != undefined && config_params['sort_paper'] != undefined && config_params['sort_paper']['param'] != null) {
     entities_keys = entities_keys.sort(function(a, b) {
         var val_a = entities[a][config_params['sort_paper']['param']];
         var val_b = entities[b][config_params['sort_paper']['param']];
