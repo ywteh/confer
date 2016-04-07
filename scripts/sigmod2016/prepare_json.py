@@ -1,4 +1,5 @@
 import sys, json, csv, re, time
+from collections import OrderedDict
 
 papers_static = [{
     'id': 'Ind_101',
@@ -46,7 +47,7 @@ def prepare_papers(data_file):
 
   for row in reader:
     paper_id = unicode(row[0], "ISO-8859-1")
-    paper_title = unicode(row[1], "ISO-8859-1")
+    paper_title = unicode(row[1], "ISO-8859-1").strip()
     paper_type = unicode(row[2], "ISO-8859-1").split(' ', 1)[0].strip()
     abstract = unicode(row[3], "ISO-8859-1")
     paper_authors = unicode(row[4], "ISO-8859-1")   
@@ -79,10 +80,11 @@ def main():
         'authors': [{'name': authors.split('(', 1)[0].strip()} for authors in paper['authors'].split(';')]
     }
   # write files
+  papers_dict = OrderedDict(sorted(papers_dict.items(), key=lambda k: k[1]['title']))
   p = open('data/' + conf + '/papers.json','w')
-  p.write(json.dumps(papers_dict, indent=2, sort_keys=True))
+  p.write(json.dumps(papers_dict, indent=2))
   p = open('server/static/conf/' + conf + '/data/papers.json','w')
-  p.write('entities='+json.dumps(papers_dict, indent=2, sort_keys=True))
+  p.write('entities='+json.dumps(papers_dict, indent=2))
   #p = open('server/static/conf/' + conf + '/data/sessions.json','w')
   #p.write('sessions='+json.dumps(sessions, indent=2, sort_keys=True))
   #p = open('server/static/conf/' + conf +'/data/schedule.json','w')
