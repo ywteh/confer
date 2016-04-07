@@ -1630,7 +1630,7 @@ function populate_papers(){
         return title_a.localeCompare(entities[b].title);
       } else if (title_a == null && title_b != null) {
         return -1;
-      } else if (title_a 1= null && title_b == null) {
+      } else if (title_a != null && title_b == null) {
         return 1;
       } else {
         return 0;
