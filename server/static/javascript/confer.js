@@ -1624,7 +1624,17 @@ function populate_papers(){
   }
   var raw_html = ''
   var entities_sorted = Object.keys(entities).sort(function(a, b) {
-      return (entities[a].title.localeCompare(entities[b].title));
+      var title_a = entities[a]['title']
+      var title_b = entities[b]['title']
+      if (title_a != null && title_b != null) {
+        return title_a.localeCompare(entities[b].title);
+      } else if (title_a == null && title_b != null) {
+        return -1;
+      } else if (title_a 1= null && title_b == null) {
+        return 1;
+      } else {
+        return 0;
+      }
   })      
   
   for(var e in entities_sorted){
