@@ -1,5 +1,129 @@
 schedule=[
   {
+    "date": "04/11/2016", 
+    "day": "Monday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "LOCWEB_2016_Sixth_International_Workshop_On_Location_And_The_Web"
+          }, 
+          {
+            "session": "Centrality_Measures_on_Big_Graphs_Exact_Approximated_And_Ditributed_Algorithms"
+          }, 
+          {
+            "session": "Workshop_On_Empirical_Research_Methods_In_Information_Security"
+          }, 
+          {
+            "session": "2016_Workshop_On_Semantics_Analytics_And_Visualisation_Enhancing_Scholarity_Data_"
+          }, 
+          {
+            "session": "6th_International_Workshop_On_Usage_Analysis_And_Web_Of_Data_The_Diverse_Ecosystem_Of_Data_Access_Mechanisms"
+          }, 
+          {
+            "session": "Linked_Learning_2016_6th_International_Workshop_On_Learning_And_Education_With_The_Web_Of_Data_LILE2016_"
+          }, 
+          {
+            "session": "Computational_Social_Science_For_The_World_Wide_Web"
+          }, 
+          {
+            "session": "Q4APS2016_Question_Answering_And_Activity_Analysis_In_Participatory_Sites"
+          }, 
+          {
+            "session": "_MICROPOST2016_The_6th_Making_Sense_Of_Microposts_Workshop"
+          }, 
+          {
+            "session": "The_4rd_International_Workshop_On_Theory_And_Practice_Of_Social_Machines"
+          }, 
+          {
+            "session": "8th_Web_Intelligence_And_Communities_Workshop"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Monday9_00_12_30", 
+        "time": "9:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "AW4CITY_Enhancing_Urbain_Sustainability_With_Web_Applications"
+          }, 
+          {
+            "session": "Cryptographic_Currencies_Crash_Course"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday14_00_17_30", 
+        "time": "14:00 -17:30"
+      }
+    ]
+  }, 
+  {
+    "date": "04/12/2016", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "WIKI_Workshop_WWW"
+          }, 
+          {
+            "session": "Automatic_Entity_Recognition_And_Typing_in_Massive_Text_Corpora"
+          }, 
+          {
+            "session": "SNOW_2016_Third_Workshop_On_Social_News_On_The_Web"
+          }, 
+          {
+            "session": "7th_International_Workshop_On_Modeling_Social_Media_Behavioral_Analytics_On_The_Web_MSM_2016_"
+          }, 
+          {
+            "session": "Mining_Big_Time_Series_Data_On_The_Web"
+          }, 
+          {
+            "session": "The_Fourth_Annual_Workshop_On_Crowdsourcing_And_Online_Behavioral_Experiments_COBE2016_"
+          }, 
+          {
+            "session": "6th_Temporal_Web_Analytics_Workshop_TEMPWEB_"
+          }, 
+          {
+            "session": "Web_Science_And_Technology_For_Education_"
+          }, 
+          {
+            "session": "BIGSCHOLAR_The_Third_WWW_Workshop_On_Big_Scholarity_Data_Towards_The_Web_Of_Scholars"
+          }, 
+          {
+            "session": "9th_International_Workshop_On_Linked_Data_On_The_Web_LDOW2016_"
+          }, 
+          {
+            "session": "The_2nd_International_Workshop_On_Natural_Language_Processing_For_Informal_Text_NLPIT_2016_"
+          }, 
+          {
+            "session": "Building_Decentralized_Applications_For_The_Social_Web"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Tuesday9_00_12_30", 
+        "time": "9:00 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Teaching_The_Web_Sharing_Experiences_And_Developing_Community"
+          }, 
+          {
+            "session": "Open_Data_For_Local_Search"
+          }, 
+          {
+            "session": "Analyzing_SequentialUser_Behavior_On_The_Web"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Tuesday14_00_17_30", 
+        "time": "14:00 -17:30"
+      }
+    ]
+  }, 
+  {
     "date": "04/13/2016", 
     "day": "Wednesday", 
     "slots": [
@@ -46,6 +170,15 @@ schedule=[
             "session": "Track_8_Security_Privacy_2_"
           }, 
           {
+            "session": "Voting_With_Their_Feet_Inferring_User_Preferences_From_App_Management_Activities"
+          }, 
+          {
+            "session": "Mining_User_Intentions_From_Medical_Queries_A_Neural_Network_Based_Heterogeneous_Jointly_Modeling_Approach"
+          }, 
+          {
+            "session": "User_Fatigue_In_Online_News_Recommendation"
+          }, 
+          {
             "session": "Track_10_Mobility_1_"
           }
         ], 
@@ -56,16 +189,54 @@ schedule=[
       {
         "sessions": [
           {
+            "session": "Keynote"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Thursday11_00_11_30", 
+        "time": "11:00 - 11:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Monitoring_Parkinson_s_Disease_Progression_Using_Behavioural_Inferences_Mobile_Devices_and_Web_Technologies"
+          }, 
+          {
+            "session": "Knowledge_extraction_in_Web_media_at_the_frontier_of_NLP_Machine_Learning_and_Semantics"
+          }, 
+          {
+            "session": "Structural_Properties_in_Delta_Hyperbolic_Networks_Algorithmic_Analysis_and_Implications"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Thursday11_30_12_30", 
+        "time": "11:30 -12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Discouraging_abusive_behavior_in_privacy_preserving_online_social_networking_applications"
+          }, 
+          {
             "session": "Track_14_Crowdsourcing_Systems_Social_Media_1_"
           }, 
           {
             "session": "Track_11_Social_Networks_Graph_Analysis_2_"
           }, 
           {
+            "session": "Linked_Data_Profiling_Identifying_the_Domain_of_Datasets_Based_on_Data_Content_and_Metadata"
+          }, 
+          {
             "session": "Track_13_Web_Search_System_Applications_1_"
           }, 
           {
+            "session": "Web_scale_Multimedia_Search_for_Internet_Video_Content"
+          }, 
+          {
             "session": "Track_15_Web_Science_1_"
+          }, 
+          {
+            "session": "Detecting_and_Mitigating_the_Effect_of_Manipulated_Reputation_on_Online_Social_Networks"
           }, 
           {
             "session": "Track_12_Behaviour_Analysis_Personalization_2_"
@@ -77,6 +248,38 @@ schedule=[
       }, 
       {
         "sessions": [
+          {
+            "session": "Socialized_Language_Model_Smoothing_Via_Bi_Directional_Influence_Propagation_On_Social_Networks"
+          }, 
+          {
+            "session": "Collaborative_Nowcasting_For_Contextual_Recommendation"
+          }, 
+          {
+            "session": "Who_Benefits_From_The_Sharing_Economy_Of_AIRBNB_"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Thursday14_00_15_30", 
+        "time": "14:00 -15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "From_Freebasr_To_Wikidata_The_great_Migration"
+          }, 
+          {
+            "session": "Automatic_Discovery_Of_Attribute_Synonyms_Using_Query_Logs_And_Table_Corpora"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Thursday16_00_17_00", 
+        "time": "16:00 -17:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "Mentor_Student_1_1_Meetings_Closing_Remarks"
+          }, 
           {
             "session": "Track_18_Web_Search_Systems_Applications_2_"
           }, 
@@ -96,6 +299,16 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Thursday16_00_17_30", 
         "time": "16:00 - 17:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "session": "New_Directions_For_Web_Browsers_And_The_Web_To_improve_User_s_Experience"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Thursday17_00_17_30", 
+        "time": "17:00 - 17:30"
       }
     ]
   }, 
@@ -118,7 +331,13 @@ schedule=[
             "session": "Track_24_Content_Analysis_3_"
           }, 
           {
+            "session": "Track_26B_Social_Networks_Graph_Analysis_4_"
+          }, 
+          {
             "session": "Track_25_Economics_Markets_2_"
+          }, 
+          {
+            "session": "Track_26A_Semantics_Big_Data_3_"
           }
         ], 
         "slot_class": "morning2", 
@@ -147,16 +366,10 @@ schedule=[
             "session": "Track_28A_Web_Search_Systems_Applications_3_"
           }, 
           {
-            "session": "Track_26B_Social_Networks_Graph_Analysis_4_"
-          }, 
-          {
             "session": "Track_28B_Security_Privacy_4_"
           }, 
           {
             "session": "Track_27B_Behaviour_Analysis_Personalization_4_"
-          }, 
-          {
-            "session": "Track_26A_Semantics_Big_Data_3_"
           }, 
           {
             "session": "Track_29A_Content_Analysis_4_"
