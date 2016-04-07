@@ -23,7 +23,7 @@ def prepare_papers(data_file):
         'subtype': paper_type,
         'type': paper_type,
         'abstract': abstract,
-        'authors': [authors.split(',', 1)[0].strip() for authors in paper_authors.split(';')]
+        'authors': [{'name': authors.split(',', 1)[0].strip()} for authors in paper_authors.split(';')]
     }
 
   return papers_dict
