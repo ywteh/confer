@@ -1569,14 +1569,14 @@ function update_sessions_count_async(){
 
 function reset_all_papers(){
   $("#all_papers tr").show()
-  if (!config_params || !config_params['display_all']) {
+  if (config_params == undefined || config_params['display_all'] != true) {
     $("#all_papers tr:gt(24)").hide() 
   }
 
   if($("#all_papers tr:visible").length == $("#all_papers tr").length){
-  $('#show_papers').hide();
+    $('#show_papers').hide();
   }else{
-  $('#show_papers').show();
+    $('#show_papers').show();
   }         
   update_papers_count();
 }
