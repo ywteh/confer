@@ -707,8 +707,13 @@ function isMyPaper(id){
 
 
 function get_paper_html(id){
-  if(entities[id] == null)
+  if (id == null) {
     return ''
+  }
+  
+  if(entities[id] == null) {
+    return ''
+  }
   var raw_html = '<tr data= "' + id + '" class="clickable paper ' + id
   if(exists(recommended, id)){
     raw_html += ' recommended'
@@ -1564,7 +1569,9 @@ function update_sessions_count_async(){
 
 function reset_all_papers(){
   $("#all_papers tr").show()
-  $("#all_papers tr:gt(24)").hide()  
+  if (!config_params || !config_params['display_all']) {
+    $("#all_papers tr:gt(24)").hide() 
+  }
 
   if($("#all_papers tr:visible").length == $("#all_papers tr").length){
   $('#show_papers').hide();
