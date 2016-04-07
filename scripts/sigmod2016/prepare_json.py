@@ -11,7 +11,7 @@ def prepare_papers(data_file):
   for row in reader:
     paper_id = unicode(row[0], "ISO-8859-1")
     paper_title = unicode(row[1], "ISO-8859-1")
-    paper_type = unicode(row[2], "ISO-8859-1").split(',', 1)[0].strip()
+    paper_type = unicode(row[2], "ISO-8859-1").split(' ', 1)[0].strip()
     abstract = unicode(row[3], "ISO-8859-1")
     paper_authors = unicode(row[4], "ISO-8859-1")   
     
