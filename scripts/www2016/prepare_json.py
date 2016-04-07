@@ -94,8 +94,9 @@ def prepare_data(data_file1):
     paper_authors = unicode(row[3], "ISO-8859-1")
     paper_title = unicode(row[2], "ISO-8859-1")
     
-    room = unicode(row[8], "ISO-8859-1")
-    abstract = unicode(row[10], "ISO-8859-1")
+    room = unicode(row[9], "ISO-8859-1")
+    print room
+    abstract = unicode(row[11], "ISO-8859-1")
     
     type = unicode(row[0], "ISO-8859-1")
     if type == 'R':

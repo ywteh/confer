@@ -377,7 +377,7 @@ entities={
     "type": "paper"
   }, 
   "2000": {
-    "abstract": "", 
+    "abstract": "Due to the increasing availability of large-scale data on human behavior collected on the social web, as well as advances in analyzing larger and larger data sets, interest in applying computer science methods to address research questions in the social sciences continues to grow. \"Big Data\" researchers and \"Data Scientists\" entering the interdisciplinary field of Computational Social Science (CSS) often lack background in theories and methods in sociology, whereas sociologists are often not aware of cutting edge advances in computational methods. This tutorial helps to bridge this gap by providing an introduction to statistical and computational methods that are useful for addressing typical social science research questions with observational data (that can e.g. be found on the Web) and to social theories and models that help to understand the process that generated the data. The goal of this tutorial is to give participants a rich repertoire of methods that help to answer not only interesting \"how\" questions but also more fundamental \"why\" questions. The tutorial will run as a full-day event that is divided into two main parts: first we will focus on challenges for empirical computational social scientist and will present state of the art methods that help to address problems such as self-selection bias and non-representativeness. We will also discuss how construct validity can be ensured when working with low-level signals such as clickstreams or tweets. In the second part we will focus on social theories and models that can be used to complement and enrich data-driven research. The goal is to give participants an overview about different theories and models that are relevant in this field and show them how to incorporate theoretical assumptions about the data generation process into a model that can be validated against data.", 
     "authors": [
       {
         "name": "Markus Strohmaier"
@@ -397,7 +397,7 @@ entities={
     "type": "tutorial"
   }, 
   "2001": {
-    "abstract": "", 
+    "abstract": "Centrality measures allow to measure the relative importance of a node or an edge in a graph w.r.t. other nodes or edges. In this tutorial, we survey the different definitions of centrality measures and the algorithms to compute them. We start from the most common measures (e.g., closeness centrality, betweenness centrality) and move to more complex ones, like spanning-edge centrality. In our presentation, we begin from exact algorithms and then move to approximation algorithms, including sampling-based ones, and to highly-scalable MapReduce algorithms for huge graphs, both for exact computation and for keeping the measures up-to-date on dynamic graphs where edges are inserted or deleted over time. Our goal is to show how advanced algorithmic techniques and scalable systems can be used to obtain efficient algorithms for important graph mining tasks, and to encourage research in the area by highlighting open problems and possible directions. A mini-website for the tutorial is available at http://matteo.rionda.to/centrtutorial/ .", 
     "authors": [
       {
         "name": "Francesco Bonchi"
@@ -414,7 +414,7 @@ entities={
     "type": "tutorial"
   }, 
   "2002": {
-    "abstract": "", 
+    "abstract": "Due to the increasing availability of large-scale data on human behavior collected on the social web, as well as advances in analyzing larger and larger data sets, interest in applying computer science methods to address research questions in the social sciences continues to grow. \"Big Data\" researchers and \"Data Scientists\" entering the interdisciplinary field of Computational Social Science (CSS) often lack background in theories and methods in sociology, whereas sociologists are often not aware of cutting edge advances in computational methods. This tutorial helps to bridge this gap by providing an introduction to statistical and computational methods that are useful for addressing typical social science research questions with observational data (that can e.g. be found on the Web) and to social theories and models that help to understand the process that generated the data. The goal of this tutorial is to give participants a rich repertoire of methods that help to answer not only interesting \"how\" questions but also more fundamental \"why\" questions. The tutorial will run as a full-day event that is divided into two main parts: first we will focus on challenges for empirical computational social scientist and will present state of the art methods that help to address problems such as self-selection bias and non-representativeness. We will also discuss how construct validity can be ensured when working with low-level signals such as clickstreams or tweets. In the second part we will focus on social theories and models that can be used to complement and enrich data-driven research. The goal is to give participants an overview about different theories and models that are relevant in this field and show them how to incorporate theoretical assumptions about the data generation process into a model that can be validated against data.", 
     "authors": [
       {
         "name": "Markus Strohmaier"
@@ -434,7 +434,7 @@ entities={
     "type": "tutorial"
   }, 
   "2003": {
-    "abstract": "", 
+    "abstract": "This tutorial aims to further close the gap between IT security research and the area of cryptographic currencies and block chains. We will describe and refer to Bitcoin as an ex- ample throughout the tutorial, as it is the most prominent representative of a such a system. It also is a good reference to discuss the underlying block chain mechanics which are the foundation of various altcoins (e.g. Namecoin) and other derived systems. In this tutorial, the topic of cryptographic currencies is solely addressed from a technical IT security point-of-view. Therefore we do not cover any legal, sociological, financial and economical aspects. The tutorial is designed for participants with a solid IT security background but will not assume any prior knowledge on cryptographic currencies. Thus, we will quickly advance our discussion into core aspects of this field.", 
     "authors": [
       {
         "name": "Aljisha Judmayer"
@@ -448,7 +448,7 @@ entities={
     "type": "tutorial"
   }, 
   "2004": {
-    "abstract": "", 
+    "abstract": "Recent advancements in technologies and protocols mean that it is easier than ever to integrate social features into diverse web applications, and increased awareness of privacy concerns means that it is pertinent to consider empowerment of application users when doing so. Many developers are already familiar with the notion of personal data stores; this tutorial will demonstrate how to access or provide such stores for users, and build simple web applications which read and write to the storage whilst remaining completely decoupled from it. This advantages developers in two ways: by removing the burden of storing and maintaining a canonical copy of user data; and by enabling access to and ease of integration with data created through other applications, creating richer, seamless experiences. From the application users' perspective, they need no longer commit and become bound to particular services, but can mix, match and move between those that best meet their needs. We will introduce Solid, a set of protocols based on existing W3C recommendations, for reading, writing and access control of the contents of a personal data store, which can be layered up in order to integrate various social features into new or existing web applications. Attendees will leave with an understanding of Solid and how different parts of the protocols can work together, and having written some code to implement the parts that interest them most. They will also have hands on experience with existing libraries and tooling to facilitate working with the Solid protocols. Those who stay for the full day will have an opportunity to build a small but complete web application with decentralized social features, and to collaborate with others to see the advantages of sharing data between multiple applications.", 
     "authors": [
       {
         "name": "Amy Guy"
@@ -465,7 +465,7 @@ entities={
     "type": "tutorial"
   }, 
   "2005": {
-    "abstract": "", 
+    "abstract": "Online news, blogs, SNS and many other Web-based services has been attracting considerable interest for business and marketing purposes. Given a large collection of time series, such as web-click logs, online search queries, blog and review entries, how can we efficiently and effectively find typical time-series patterns? What are the major tools for mining, forecasting and outlier detection? Time-series data analysis is becoming of increasingly high importance, thanks to the decreasing cost of hardware and the increasing on-line processing capability. The objective of this tutorial is to provide a concise and intuitive overview of the most important tools that can help us find meaningful patterns in large-scale time-series data. Specifically we review the state of the art in three related fields: (1) similarity search, pattern discovery and summarization, (2) non-linear modeling and forecasting, and (3) the extension of time-series mining and tensor analysis. We also introduce case studies that illustrate their practical use for social media and Web-based services.", 
     "authors": [
       {
         "name": "Yasushi Sakurai"
@@ -482,7 +482,7 @@ entities={
     "type": "tutorial"
   }, 
   "2006": {
-    "abstract": "", 
+    "abstract": "In today's computerized and information-based society, we are soaked with vast amounts of natural language text data, ranging from news articles, product reviews, advertisements, to a wide range of user-generated content from social media. To turn such massive unstructured text data into actionable knowledge, one of the grand challenges is to gain an understanding of entities and the relationships between them. In this tutorial, we introduce data-driven methods to recognize typed entities of interest in different kinds of text corpora (especially in massive, domain-specific text corpora). These methods can automatically identify token spans as entity mentions in text and label their types (e.g., people, product, organization) in a scalable way. We demonstrate on real datasets including news articles and yelp reviews how these typed entities aid in knowledge discovery and management.", 
     "authors": [
       {
         "name": "Xiang Ren"
@@ -502,7 +502,7 @@ entities={
     "type": "tutorial"
   }, 
   "2007": {
-    "abstract": "", 
+    "abstract": "Recent advancements in technologies and protocols mean that it is easier than ever to integrate social features into diverse web applications, and increased awareness of privacy concerns means that it is pertinent to consider empowerment of application users when doing so. Many developers are already familiar with the notion of personal data stores; this tutorial will demonstrate how to access or provide such stores for users, and build simple web applications which read and write to the storage whilst remaining completely decoupled from it. This advantages developers in two ways: by removing the burden of storing and maintaining a canonical copy of user data; and by enabling access to and ease of integration with data created through other applications, creating richer, seamless experiences. From the application users' perspective, they need no longer commit and become bound to particular services, but can mix, match and move between those that best meet their needs. We will introduce Solid, a set of protocols based on existing W3C recommendations, for reading, writing and access control of the contents of a personal data store, which can be layered up in order to integrate various social features into new or existing web applications. Attendees will leave with an understanding of Solid and how different parts of the protocols can work together, and having written some code to implement the parts that interest them most. They will also have hands on experience with existing libraries and tooling to facilitate working with the Solid protocols. Those who stay for the full day will have an opportunity to build a small but complete web application with decentralized social features, and to collaborate with others to see the advantages of sharing data between multiple applications.", 
     "authors": [
       {
         "name": "Amy Guy"
@@ -519,7 +519,7 @@ entities={
     "type": "tutorial"
   }, 
   "2008": {
-    "abstract": "", 
+    "abstract": "The World Wide Web is an information environment that facilitates sequen- tial user behavior between states. A prime example for that is the navigation of users between websites enabled through the presence of hyperlinks. How- ever, today, we can think of many other kinds of transitional behavior that many of us perform on a daily base. For instance, if users listen to music on Spotify, they transition between songs, or when users check-in at locations on Foursquare they transition between geocoordinates, or when users write reviews on Amazon they transition between products. To that end, we consider all kinds of transitions between states as sequences on the Web. States can refer to any kind of categorical action per- formed, such as the ones listed. Our research community has been interested in studying such sequences in various contexts such as (i) modeling, (ii) the detection of regularities and patterns or (iii) the understanding of the production of underlying sequences (e.g., cognitive strategies). Recent research heavily focused on studying human navigation on the Web, but also other types of transition data have sparked the interest of researchers such as mobility sequences, search sequences or song listening sequences. In this tutorial we will give an outline of the fundamental methods of analyzing such categorical sequences on the Web and discuss some recent advancements in-depth.", 
     "authors": [
       {
         "name": "Philipp Singer"
@@ -1401,7 +1401,7 @@ entities={
     "type": "Industry Session"
   }, 
   "2052": {
-    "abstract": "", 
+    "abstract": "As the web is growing in influence and facing new challenges how are the browsers helping improve the user's experience when consuming or contributing to the web? A panel of experts from various browser makers will discuss new directions for browsers and the web.", 
     "authors": [], 
     "subtype": "Industry Session", 
     "title": "New Directions For Web Browsers And The Web To improve User's Experience", 
