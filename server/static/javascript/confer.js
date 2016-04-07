@@ -1631,20 +1631,22 @@ function populate_papers(){
   }
   var raw_html = ''
   entities_keys = Object.keys(entities)
-  if (typeof(config_params) != undefined && config_params['sort_paper'] != undefined && config_params['sort_paper']['param'] != null) {
-    entities_keys = entities_keys.sort(function(a, b) {
-        var val_a = entities[a][config_params['sort_paper']['param']];
-        var val_b = entities[b][config_params['sort_paper']['param']];
-        if (val_a != null && val_b != null) {
-          return val_a.localeCompare(val_b);
-        } else if (val_a == null && val_b != null) {
-          return -1;
-        } else if (val_a != null && val_b == null) {
-          return 1;
-        } else {
-          return 0;
-        }
-    })
+  if (typeof(config_params) != undefined) {
+    if(config_params['sort_paper'] != undefined && config_params['sort_paper']['param'] != null) {
+      entities_keys = entities_keys.sort(function(a, b) {
+          var val_a = entities[a][config_params['sort_paper']['param']];
+          var val_b = entities[b][config_params['sort_paper']['param']];
+          if (val_a != null && val_b != null) {
+            return val_a.localeCompare(val_b);
+          } else if (val_a == null && val_b != null) {
+            return -1;
+          } else if (val_a != null && val_b == null) {
+            return 1;
+          } else {
+            return 0;
+          }
+      })
+    }
   }  
   
   for(var e in entities_keys){
