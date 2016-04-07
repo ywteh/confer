@@ -1630,22 +1630,25 @@ function populate_papers(){
     return
   }
   var raw_html = ''
-  var entities_sorted = Object.keys(entities).sort(function(a, b) {
-      var title_a = entities[a]['title'];
-      var title_b = entities[b]['title'];
-      if (title_a != null && title_b != null) {
-        return title_a.localeCompare(entities[b].title);
-      } else if (title_a == null && title_b != null) {
-        return -1;
-      } else if (title_a != null && title_b == null) {
-        return 1;
-      } else {
-        return 0;
-      }
-  })      
+  entities_keys = Object.keys(entities)
+  if (config_params != null && config_params['sort_paper'] != null && config_params['sort_paper']['param'] != null) {
+    entities_keys = entities_keys.sort(function(a, b) {
+        var val_a = entities[a][config_params['sort_paper']['param']];
+        var val_b = entities[b][config_params['sort_paper']['param']];
+        if (val_a != null && val_b != null) {
+          return val_a.localeCompare(val_b);
+        } else if (val_a == null && val_b != null) {
+          return -1;
+        } else if (val_a != null && val_b == null) {
+          return 1;
+        } else {
+          return 0;
+        }
+    })
+  }  
   
-  for(var e in entities_sorted){
-    raw_html += get_paper_html(entities_sorted[e])
+  for(var e in entities_keys){
+    raw_html += get_paper_html(entities_keys[e])
   }
   $("#all_papers").html(raw_html)
   $("#all_papers tr:gt(24)").hide()  
