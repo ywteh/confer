@@ -156,7 +156,7 @@ def prepare_data(data_file1):
     s_info = sessions[session]
     s_date = s_info['date']
     s_time = s_info['time']
-    s_data = {'session': session}
+    s_data = {'session': session, 'room': s_info['room']}
     if s_date in t_schedule:
       if s_time in t_schedule[s_date]:
         t_schedule[s_date][s_time]['sessions'].append(s_data)
