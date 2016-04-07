@@ -2989,5 +2989,146 @@
     "subtype": "Research,", 
     "title": "Cost-Effective Crowdsourced Entity Resolution: A Partial-Order Approach", 
     "type": "Research,"
+  }, 
+  "Ind_101": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Guoqiang Jerry Chen"
+      }, 
+      {
+        "name": "Janet L. Wiener"
+      }, 
+      {
+        "name": "Shridhar Iyer"
+      }, 
+      {
+        "name": "Anshul Jaiswal"
+      }, 
+      {
+        "name": "Ran Lei Nikhil Simha"
+      }, 
+      {
+        "name": "Wei Wang"
+      }, 
+      {
+        "name": "Kevin Wilfong"
+      }, 
+      {
+        "name": "Tim Williamson"
+      }, 
+      {
+        "name": "Serhat Yilmaz"
+      }
+    ], 
+    "id": "Ind_101", 
+    "subtype": "Industrial", 
+    "title": "Data Processing at Facebook", 
+    "type": "Industrial"
+  }, 
+  "Ind_102": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Ce Zhang"
+      }, 
+      {
+        "name": "Jaeho Shin"
+      }, 
+      {
+        "name": "Christopher Re"
+      }, 
+      {
+        "name": "Michael Cafarella"
+      }, 
+      {
+        "name": "Feng Niu"
+      }
+    ], 
+    "id": "Ind_102", 
+    "subtype": "Industrial", 
+    "title": "Extracting Databases from Dark Data with DeepDive", 
+    "type": "Industrial"
+  }, 
+  "Ind_103": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Dipti Borkar"
+      }, 
+      {
+        "name": "Ravi Mayurum"
+      }, 
+      {
+        "name": "Gerald Sangudi"
+      }, 
+      {
+        "name": "Michael Carey"
+      }
+    ], 
+    "id": "Ind_103", 
+    "subtype": "Industrial", 
+    "title": "Have Your Data and Query It Too: From Key-Value Caching to Big Data Management", 
+    "type": "Industrial"
+  }, 
+  "Ind_104": {
+    "abstract": "", 
+    "authors": [
+      {
+        "name": "Gokul Nath Babu Manoharan"
+      }, 
+      {
+        "name": "Stephan Ellner"
+      }, 
+      {
+        "name": "Karl Schnaitter"
+      }, 
+      {
+        "name": "Sridatta Chegu"
+      }, 
+      {
+        "name": "Alejandro Estrella Balderrama"
+      }, 
+      {
+        "name": "Stephan Gudmundson"
+      }, 
+      {
+        "name": "Apurv Gupta"
+      }, 
+      {
+        "name": "Ben Handy"
+      }, 
+      {
+        "name": "Bart Samwel"
+      }, 
+      {
+        "name": "Chad Whipkey"
+      }, 
+      {
+        "name": "Larysa Aharkava"
+      }, 
+      {
+        "name": "Himani Apte"
+      }, 
+      {
+        "name": "Nitin Gangahar"
+      }, 
+      {
+        "name": "Jun Xu"
+      }, 
+      {
+        "name": "Shivakumar Venkataraman"
+      }, 
+      {
+        "name": "Divyakant Agrawal"
+      }, 
+      {
+        "name": "Jeffrey D. Ullman"
+      }
+    ], 
+    "id": "Ind_104", 
+    "subtype": "Industrial", 
+    "title": "Shasta: Interactive Reporting At Scale", 
+    "type": "Industrial"
   }
 }
