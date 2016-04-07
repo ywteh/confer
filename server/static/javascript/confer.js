@@ -1619,20 +1619,24 @@ function append_recs(){
 
 function populate_papers(){
   if(typeof entities == "undefined" || entities == null){
-  console.log("Error populating papers list.")
-  return
+    console.log("Error populating papers list.")
+    return
   }
-  var raw_html = ''       
-  for(var e in entities){
-  raw_html += get_paper_html(e)
+  var raw_html = ''
+  var entities_sorted = Object.keys(entities).sort(function(a, b) {
+      return (entities[a].title.localeCompare(entities[b].title));
+  })      
+  
+  for(var e in entities_sorted){
+    raw_html += get_paper_html(e)
   }
   $("#all_papers").html(raw_html)
   $("#all_papers tr:gt(24)").hide()  
 
   if($("#all_papers tr:visible").length == $("#all_papers tr").length){
-  $('#show_papers').hide();
+    $('#show_papers').hide();
   }else{
-  $('#show_papers').show();
+    $('#show_papers').show();
   }         
   update_papers_count();
 }
