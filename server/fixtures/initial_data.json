@@ -274,7 +274,6 @@
 	{"model": "server.Conference",
 	    "pk": 20,
 	    "fields": {
-	      "hidden": true,
 	      "unique_name": "sigmod2016",
 	      "confer_name": "sigmod2016",
 	      "title": "SIGMOD/PODS 2016 - ACM International Conference on Management of Data",
