@@ -1715,16 +1715,16 @@ entities={
         "name": "Ioannis Demertzis*"
       }, 
       {
-        "name": "Minos Garofalakis"
-      }, 
-      {
-        "name": "Antonios Deligiannakis"
-      }, 
-      {
         "name": "Stavros Papadopoulos"
       }, 
       {
         "name": "Odysseas Papapetrou"
+      },
+      {
+        "name": "Antonios Deligiannakis"
+      },
+      {
+        "name": "Minos Garofalakis"
       }
     ], 
     "type": "Research", 
