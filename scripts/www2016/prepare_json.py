@@ -15,6 +15,10 @@ def get_start_time(s_time):
   return s
 
 def get_date_time(s_date, dt_format='%m/%d/%Y'):
+  if s_date == "Monday":
+      return time.strptime('04/11/2016', dt_format)
+  if s_date == "Tuesday":
+      return time.strptime('04/12/2016', dt_format)
   if s_date == "Wednesday":
       return time.strptime('04/13/2016', dt_format)
   if s_date == 'Thursday':
@@ -78,25 +82,40 @@ def prepare_data(data_file1):
   curr_s_time = ''
   
   for row in reader1:
-    paper_id = unicode(row[0], "ISO-8859-1")
-    s_date = unicode(row[3], "ISO-8859-1")
-    s_time = unicode(row[5], "ISO-8859-1")
+    paper_id = unicode(row[1], "ISO-8859-1")
+    s_date = unicode(row[4], "ISO-8859-1")
+    s_time = unicode(row[6], "ISO-8859-1")
 
-    session = unicode(row[6], "ISO-8859-1")
+    session = unicode(row[7], "ISO-8859-1")
     
-    if row[4].strip() != '':
-        curr_s_time = unicode(row[4], "ISO-8859-1")
+    if row[5].strip() != '':
+        curr_s_time = unicode(row[5], "ISO-8859-1")
     
-    paper_authors = unicode(row[2], "ISO-8859-1")
-    paper_title = unicode(row[1], "ISO-8859-1")
+    paper_authors = unicode(row[3], "ISO-8859-1")
+    paper_title = unicode(row[2], "ISO-8859-1")
     
-    type = 'paper'
+    room = unicode(row[9], "ISO-8859-1")
+    print room
+    abstract = unicode(row[11], "ISO-8859-1")
+    
+    type = unicode(row[0], "ISO-8859-1")
+    if type == 'R':
+        type = 'paper'
+    elif type == 'W':
+        type = 'workshop'
+    elif type == 'T':
+        type = 'tutorial'
+    elif type == 'I':
+        type = 'Industry Session'
+    elif type == 'P':
+        type = "PhD Symposium"
 
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
         'subtype':type,
-        'type': type}
+        'type': type,
+        'abstract': abstract}
 
 
     papers[paper_id]['authors'] = []
@@ -104,11 +123,17 @@ def prepare_data(data_file1):
     for name in paper_authors.strip('"').split(','):
         if name.strip() != '':
             
-            if 'and' in name:
-                names = name.strip().split(' and ')
-                for n in names:
-                    n = re.sub('\.','', n)
-                    papers[paper_id]['authors'].append({'name': n.strip()})
+            if 'and' in name or 'And' in name:
+                if ' and' in name:
+                    names = name.strip().split(' and ')
+                    for n in names:
+                        n = re.sub('\.','', n)
+                        papers[paper_id]['authors'].append({'name': n.strip()})
+                elif ' And' in name:
+                    names = name.strip().split(' And ')
+                    for n in names:
+                        n = re.sub('\.','', n)
+                        papers[paper_id]['authors'].append({'name': n.strip()})
             else:
                 papers[paper_id]['authors'].append({'name': name.strip()})
     
@@ -122,7 +147,7 @@ def prepare_data(data_file1):
       sessions[s_id]['submissions'].append(paper_id)
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'time': curr_s_time, 'date': s_date}
+          'submissions': [paper_id], 's_title': session, 'room': room, 'time': curr_s_time, 'date': s_date}
 
     p_id += 1
 
@@ -131,7 +156,7 @@ def prepare_data(data_file1):
     s_info = sessions[session]
     s_date = s_info['date']
     s_time = s_info['time']
-    s_data = {'session': session}
+    s_data = {'session': session, 'room': s_info['room']}
     if s_date in t_schedule:
       if s_time in t_schedule[s_date]:
         t_schedule[s_date][s_time]['sessions'].append(s_data)

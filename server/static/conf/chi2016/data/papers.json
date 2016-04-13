@@ -3270,1381 +3270,6 @@ entities={
         "award": false,
         "hm": false
     },
-    "course101": {
-        "title": "Personal Fabrication: State of the Art and Future Research",
-        "abstract": "Personal fabrication is an emerging research field in Human Computer Interaction and related disciplines. Within the last three years, an increasing number of papers have been published that branch out into different research directions. To maximize the impact HCI researchers can have on this emerging field, it is important to identify the grand challenges and then approach them in a focused way. In order to understand what trajectory fabrication can be expected to follow, we analyze state-of-the-art research and draw an analogy to similar trends we have seen in the history of personal computing. As a result, we identified five challenges for fabrication research: (1) material, (2) interactivity, (3) domain knowledge, (4) sustainability, and (5) intellectual property. At the end of the course, participants will have an in-depth understanding of state of the art research in personal fabrication and will be aware of open research question in the field that they might want to tackle in their future research.  ",
-        "cAndB": "In this course, we analyze state-of-the-art research in personal fabrication and provide a road-map for future research.",
-        "keywords": [
-            "personal fabrication",
-            "vision-driven research. \\\\"
-        ],
-        "authors": [
-            {
-                "name": "Stefanie Mueller",
-                "givenName": "Stefanie",
-                "middleInitial": "",
-                "familyName": "Mueller",
-                "dept": "",
-                "institution": "Hasso Plattner Institute",
-                "city": "Potsdam",
-                "country": "Germany",
-                "affiliation": "Hasso Plattner Institute",
-                "location": "Potsdam, Germany"
-            },
-            {
-                "name": "Patrick Baudisch",
-                "givenName": "Patrick",
-                "middleInitial": "",
-                "familyName": "Baudisch",
-                "dept": "",
-                "institution": "Hasso Plattner Institute",
-                "city": "Potsdam",
-                "country": "Germany",
-                "affiliation": "Hasso Plattner Institute",
-                "location": "Potsdam, Germany"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course102": {
-        "title": "Introduction to Creating Musical Interfaces",
-        "abstract": "This course provides a general, gentle, and fun introduction to the theory and practice of interface design for creating and performing music. Participants will learn key aspects of the theory and practice of musical interface design by studying case studies and live demonstrations mostly sourced from the leading conference in this area, \"New Interfaces for Musical Expression\" (NIME).",
-        "cAndB": "This course provides a gentle and fun introduction to the practice of musical interface design. Participants will gain sufficient knowledge of tools and methods to start their own projects.",
-        "keywords": [
-            "Music",
-            "Art",
-            "Technology",
-            "Interactive",
-            "Interface",
-            "HCI"
-        ],
-        "authors": [
-            {
-                "name": "Michael J Lyons",
-                "givenName": "Michael",
-                "middleInitial": "J",
-                "familyName": "Lyons",
-                "dept": "",
-                "institution": "Ritsumeikan University",
-                "city": "Kyoto",
-                "country": "Japan",
-                "affiliation": "Ritsumeikan University",
-                "location": "Kyoto, Japan"
-            },
-            {
-                "name": "Sidney S Fels",
-                "givenName": "Sidney",
-                "middleInitial": "S",
-                "familyName": "Fels",
-                "dept": "",
-                "institution": "University of British Columbia",
-                "city": "Vancouver",
-                "country": "Canada",
-                "affiliation": "University of British Columbia",
-                "location": "Vancouver, Canada"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course103": {
-        "title": "Designing with the Mind in Mind: The Psychological Basis for UI Design Guidelines",
-        "abstract": "UI design rules and guidelines are not simple recipes.  Applying them effectively requires determining rule applicability and precedence and balancing trade-offs when rules compete.  By understanding the underlying psychology, designers and evaluators enhance their ability to apply design rules. This two-part (160-minute) course explains that psychology.",
-        "cAndB": "By understanding the psychology behind UI design guidelines, designers and evaluators enhance their ability to apply the guidelines. This course explains that psychology.",
-        "keywords": [
-            "Psychology",
-            "perception",
-            "cognition",
-            "memory",
-            "learning",
-            "attention",
-            "design",
-            "user interface",
-            "user-centered design",
-            "interaction",
-            "user experience",
-            "human-computer interaction",
-            "design guidelines",
-            "design heuristics"
-        ],
-        "authors": [
-            {
-                "name": "Jeff A Johnson",
-                "givenName": "Jeff",
-                "middleInitial": "A",
-                "familyName": "Johnson",
-                "dept": "",
-                "institution": "UI Wizards, Inc",
-                "city": "San Francisco",
-                "country": "United States",
-                "affiliation": "UI Wizards, Inc",
-                "location": "San Francisco, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course104": {
-        "title": "Presumptive Design: Design Thinking In Service of Research",
-        "abstract": "Working in small groups, professionals from across the UX spectrum will learn Presumptive Design (PrD), a design-research technique for capturing the unmet and/or unspoken needs of stakeholders, while revealing and vetting the assumptions of the project team. This course covers the theoretical framework of PrD, provides attendees with hands-on experience applying the process to a design problem, introduces the PrD Creation Session, has attendees engage external participants with the artifact in Engagement Sessions and introduces post-engagement analysis activities.",
-        "cAndB": "PrD is an Agile approach, applied upfront during the project definition and strategy phase ::before:: a program is initiated. Unlike Lean UX, PrD permits businesses to pivot before coding begins.",
-        "keywords": [
-            "Presumptive Design",
-            "UX Strategy",
-            "Agile",
-            "ROI"
-        ],
-        "authors": [
-            {
-                "name": "Leo Frishberg",
-                "givenName": "Leo",
-                "middleInitial": "",
-                "familyName": "Frishberg",
-                "dept": "",
-                "institution": "Phase II",
-                "city": "Portland",
-                "country": "United States",
-                "affiliation": "Phase II",
-                "location": "Portland, United States"
-            },
-            {
-                "name": "Charles Lambdin",
-                "givenName": "Charles",
-                "middleInitial": "",
-                "familyName": "Lambdin",
-                "dept": "IT",
-                "institution": "Intel Corporation",
-                "city": "Hillsboro",
-                "country": "United States",
-                "affiliation": "IT, Intel Corporation",
-                "location": "Hillsboro, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course106": {
-        "title": "Designing Technology to Foster Psychological Wellbeing",
-        "abstract": "As the focus in HCI has moved from functionality to usability to the user experience, we have moved toward greater human-centerdness. In a newest iteration, we are beginning to acknowledge the psychological impact that our pervasive technologies have on us. Rather than assuming negative impact is inevitable, as designers we are in a position to actively recruit digital experience to help us thrive. By turning to well-established methods in fields such as psychology, neuroscience, and economics, we can begin to design, and develop new technologies to foster psychological wellbeing and human potential -- an area of research and practice we have referred to as positive computing [1]. In this course we will explore approaches to evaluating and designing for wellbeing determinants like autonomy [3,5], competence [5], connectedness [5], meaning [4], and compassion [2], as a first step towards a future in which all digital experience supports flourishing.",
-        "cAndB": "Review theoretical foundations on wellbeing in multiple disciplines.  Discuss Practical frameworks, with a multidimensional view for integrating it into ideation, analysis, and evaluation of new technologies. ",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Rafael A Calvo",
-                "givenName": "Rafael",
-                "middleInitial": "A.",
-                "familyName": "Calvo",
-                "dept": "School of Electrical and Information Engineering",
-                "institution": "The University of Sydney",
-                "city": "Sydney",
-                "country": "Australia",
-                "affiliation": "School of Electrical and Information Engineering, The University of Sydney",
-                "location": "Sydney, Australia"
-            },
-            {
-                "name": "Dorian Peters",
-                "givenName": "Dorian",
-                "middleInitial": "",
-                "familyName": "Peters",
-                "dept": "School of Electrical and Information Engineering",
-                "institution": "University of Sydney",
-                "city": "Sydney",
-                "country": "Australia",
-                "affiliation": "School of Electrical and Information Engineering, University of Sydney",
-                "location": "Sydney, Australia"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course107": {
-        "title": "Designing for an Aging Population: Toward Universal Design",
-        "abstract": "This course describes age-related factors that affect ability to use the Web, and presents Web design guidelines that reflect the capabilities, usage patterns, and preferences of older Web users.  The course also explains the value of testing websites on older adults.",
-        "cAndB": "This course describes factors that affect older adults' ability to use digital technology, and presents guidelines for designing for people of all ages. ",
-        "keywords": [
-            "Web design",
-            "website",
-            "design",
-            "user interface",
-            "user-centered design",
-            "interaction",
-            "user experience",
-            "human-computer interaction",
-            "universal design",
-            "accessibility",
-            "design guidelines",
-            "demographics",
-            "seniors",
-            "elders",
-            "elderly",
-            "older users",
-            "older adults"
-        ],
-        "authors": [
-            {
-                "name": "Jeff A Johnson",
-                "givenName": "Jeff",
-                "middleInitial": "A",
-                "familyName": "Johnson",
-                "dept": "",
-                "institution": "UI Wizards, Inc",
-                "city": "San Francisco",
-                "country": "United States",
-                "affiliation": "UI Wizards, Inc",
-                "location": "San Francisco, United States"
-            },
-            {
-                "name": "Kate Finn",
-                "givenName": "Kate",
-                "middleInitial": "",
-                "familyName": "Finn",
-                "dept": "Wiser Usability, Inc., Cupertino, CA, United States",
-                "institution": "Wiser Usability, Inc.",
-                "city": "Cupertino",
-                "country": "United States",
-                "affiliation": "Wiser Usability, Inc., Cupertino, CA, United States, Wiser Usability, Inc.",
-                "location": "Cupertino, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course109": {
-        "title": "User Story Mapping: The Hands-on Course",
-        "abstract": "Agile development practice breaks requirements down into small building blocks that are used to steer development and product progress. However, with this pile of small blocks it can be challenging to keep the big picture of what the product should provide and what is needed for users to conduct their task flows. User story mapping [1] addresses this challenge. It is a method and a visual representation that further helps building a bridge between scenario oriented usability methods and the fragmentation of requirements. This hands-on course introduces user story mapping with a balanced combination of up front presentation and group exercises.",
-        "cAndB": "Learn a method that helps you to keep the big picture during agile development (despite the fragmentation of requirements into small building blocks used to steer development).",
-        "keywords": [
-            "Agile UX",
-            "Agile UCD and development",
-            "User story mapping;"
-        ],
-        "authors": [
-            {
-                "name": "Stephanie Foehrenbach",
-                "givenName": "Stephanie",
-                "middleInitial": "",
-                "familyName": "Foehrenbach",
-                "dept": "Zhlke Engineering AG",
-                "institution": "Competence center cross functions, UX team",
-                "city": "Schlieren",
-                "country": "Switzerland",
-                "affiliation": "Zhlke Engineering AG, Competence center cross functions, UX team",
-                "location": "Schlieren, Switzerland"
-            },
-            {
-                "name": "Christian Heldstab",
-                "givenName": "Christian",
-                "middleInitial": "",
-                "familyName": "Heldstab",
-                "dept": "Zhlke Engineering AG",
-                "institution": "Competence center cross functions, UX Team",
-                "city": "Schlieren, Zuerich",
-                "country": "Switzerland",
-                "affiliation": "Zhlke Engineering AG, Competence center cross functions, UX Team",
-                "location": "Schlieren, Zuerich, Switzerland"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course110": {
-        "title": "Empirical Research Methods for Human-Computer Interaction",
-        "abstract": "In this two-session course, attendees will learn how to conduct empirical research in human-computer interaction (HCI).  This course delivers an A-to-Z tutorial on designing a user study and demonstrates how to write a successful CHI paper.  It would benefit anyone interested in conducting a user study or writing a CHI paper. Only a general HCI knowledge is required.",
-        "cAndB": "This course teaches how to pose testable research questions, how to design a user study, and how to organize experiment results in a CHI paper.",
-        "keywords": [
-            "Empirical research",
-            "user study",
-            "experiment design",
-            "quantitative methods",
-            "writing a CHI paper"
-        ],
-        "authors": [
-            {
-                "name": "I. Scott MacKenzie",
-                "givenName": "I. Scott",
-                "middleInitial": "",
-                "familyName": "MacKenzie",
-                "dept": "",
-                "institution": "York University",
-                "city": "Toronto",
-                "country": "Canada",
-                "affiliation": "York University",
-                "location": "Toronto, Canada"
-            },
-            {
-                "name": "Steven J Castellucci",
-                "givenName": "Steven",
-                "middleInitial": "J.",
-                "familyName": "Castellucci",
-                "dept": "York University, Toronto, Ontario, Canada",
-                "institution": "York University",
-                "city": "Toronto",
-                "country": "Canada",
-                "affiliation": "York University, Toronto, Ontario, Canada, York University",
-                "location": "Toronto, Canada"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course112": {
-        "title": "Hands-on introduction to interactive electric muscle stimulation",
-        "abstract": "In this course, participants create their own prototypes using electrical-muscle stimulation. We provide a ready-to-use device and toolkit consisting of electrodes, microcontroller, and an off-the-shelve muscle stimulator that allows for programmatically actuating the users muscles directly from mobile devices.",
-        "cAndB": "In this workshop we present electrical-muscle stimulation in a hands-on experience. We provide a ready-to-use device and tool kit, which allows to quickly prototype your ideas. ",
-        "keywords": [
-            "haptics",
-            "EMS",
-            "virtual reality"
-        ],
-        "authors": [
-            {
-                "name": "Pedro Lopes",
-                "givenName": "Pedro",
-                "middleInitial": "",
-                "familyName": "Lopes",
-                "dept": "",
-                "institution": "Hasso Plattner Institute",
-                "city": "Potsdam",
-                "country": "Germany",
-                "affiliation": "Hasso Plattner Institute",
-                "location": "Potsdam, Germany"
-            },
-            {
-                "name": "Max Pfeiffer",
-                "givenName": "Max",
-                "middleInitial": "",
-                "familyName": "Pfeiffer",
-                "dept": "",
-                "institution": "University of Hannover",
-                "city": "Hannover",
-                "country": "Germany",
-                "affiliation": "University of Hannover",
-                "location": "Hannover, Germany"
-            },
-            {
-                "name": "Michael Rohs",
-                "givenName": "Michael",
-                "middleInitial": "",
-                "familyName": "Rohs",
-                "dept": "",
-                "institution": "University of Hannover",
-                "city": "Hannover",
-                "country": "Germany",
-                "affiliation": "University of Hannover",
-                "location": "Hannover, Germany"
-            },
-            {
-                "name": "Patrick Baudisch",
-                "givenName": "Patrick",
-                "middleInitial": "",
-                "familyName": "Baudisch",
-                "dept": "",
-                "institution": "Hasso Plattner Institute",
-                "city": "Potsdam",
-                "country": "Germany",
-                "affiliation": "Hasso Plattner Institute",
-                "location": "Potsdam, Germany"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course114": {
-        "title": "Make This! Introduction to Electronics Prototyping Using Arduino",
-        "abstract": "This course is a hands-on introduction to interactive electronics prototyping for people with a variety of backgrounds, including those with no prior experience in electronics. Familiarity with programming is helpful, but not required. Participants learn basic electronics, microcontroller programming and physical prototyping using the Arduino platform, then use digital and analog sensors, LED lights and motors to build, program and customize a small paper robot.",
-        "cAndB": "Hands-on introduction to interactive electronics prototyping, covering basic electronics, microcontroller programming and physical prototyping. No experience necessary. Participants use sensors, LEDs and motors to build a small paper robot.",
-        "keywords": [
-            "Interaction design",
-            "prototyping",
-            "Arduino",
-            "robot"
-        ],
-        "authors": [
-            {
-                "name": "David Sirkin",
-                "givenName": "David",
-                "middleInitial": "",
-                "familyName": "Sirkin",
-                "dept": "Center for Design Research",
-                "institution": "Stanford University",
-                "city": "Palo Alto",
-                "country": "United States",
-                "affiliation": "Center for Design Research, Stanford University",
-                "location": "Palo Alto, United States"
-            },
-            {
-                "name": "Nikolas Martelaro",
-                "givenName": "Nikolas",
-                "middleInitial": "",
-                "familyName": "Martelaro",
-                "dept": "Center for Design Research",
-                "institution": "Stanford University",
-                "city": "Stanford",
-                "country": "United States",
-                "affiliation": "Center for Design Research, Stanford University",
-                "location": "Stanford, United States"
-            },
-            {
-                "name": "Wendy Ju",
-                "givenName": "Wendy",
-                "middleInitial": "",
-                "familyName": "Ju",
-                "dept": "",
-                "institution": "Stanford University",
-                "city": "Palo Alto",
-                "country": "United States",
-                "affiliation": "Stanford University",
-                "location": "Palo Alto, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course119": {
-        "title": "Visual Analytics 101",
-        "abstract": "This course will introduce the field of Visual Analytics to HCI researchers and practitioners highlighting the contributions they can make to this field.  Topics will include a definition of visual analytics along with examples of current systems, types of tasks and end users, issues in defining user requirements, design of visualizations and interactions, guidelines and heuristics, the current state of user-centered evaluations, and metrics for evaluation.  We encourage designers, HCI researchers, and HCI practitioners to attend to learn how their skills can contribute to advancing the state of the art of visual analytics. ",
-        "cAndB": "This course will introduce HCI researchers and practitioners to the field of visual analytics, including the current state of the art and the opportunities available for HCI work.  ",
-        "keywords": [
-            "Visual Analytics Environments",
-            "user requirements",
-            "design of visualizations and interactions",
-            "evaluation."
-        ],
-        "authors": [
-            {
-                "name": "Russ Burtner",
-                "givenName": "Russ",
-                "middleInitial": "",
-                "familyName": "Burtner",
-                "dept": "",
-                "institution": "Pacific Northwest National Laboratory",
-                "city": "Richland",
-                "country": "United States",
-                "affiliation": "Pacific Northwest National Laboratory",
-                "location": "Richland, United States"
-            },
-            {
-                "name": "Kris Cook",
-                "givenName": "Kris",
-                "middleInitial": "",
-                "familyName": "Cook",
-                "dept": "",
-                "institution": "Pacific Northwest National Laboratory",
-                "city": "Richland",
-                "country": "United States",
-                "affiliation": "Pacific Northwest National Laboratory",
-                "location": "Richland, United States"
-            },
-            {
-                "name": "Jean Scholtz",
-                "givenName": "Jean",
-                "middleInitial": "",
-                "familyName": "Scholtz",
-                "dept": "",
-                "institution": "Pacific Northwest National Laboratory",
-                "city": "Richland",
-                "country": "United States",
-                "affiliation": "Pacific Northwest National Laboratory",
-                "location": "Richland, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course122": {
-        "title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
-        "abstract": "Experiment design is a challenging task for novice and sometimes even more advanced HCI researchers. This course will introduce the field of experimental design and analysis to participants. Participants will be able to design an experiment, implement the experiment, gather data and analyze data during the course. By grounding the course in a real-life exemplar, participants will be able to have practical experience in running a controlled experiment in HCI. The course will be run by a group of HCI researchers and educators who come from a wide range of research traditions including psychology and computer science. They have worked and taught in both educational and industrial institutions.",
-        "cAndB": "In this course, students and researchers will learn about experimental design: how to determine independent/dependent variables, how to counterbalance conditions and do statistics.",
-        "keywords": [
-            "Controlled experimental design",
-            "conduct experiment",
-            "statistical analysis",
-            "Toolkit"
-        ],
-        "authors": [
-            {
-                "name": "Shengdong Zhao",
-                "givenName": "Shengdong",
-                "middleInitial": "",
-                "familyName": "Zhao",
-                "dept": "NUS-HCI Lab",
-                "institution": "National University of Singapore",
-                "city": "Singapore",
-                "country": "Singapore",
-                "affiliation": "NUS-HCI Lab, National University of Singapore",
-                "location": "Singapore, Singapore"
-            },
-            {
-                "name": "Xiaojun Meng",
-                "givenName": "Xiaojun",
-                "middleInitial": "",
-                "familyName": "Meng",
-                "dept": "NUS-HCI Lab",
-                "institution": "National University of Singapore",
-                "city": "Singapore",
-                "country": "Singapore",
-                "affiliation": "NUS-HCI Lab, National University of Singapore",
-                "location": "Singapore, Singapore"
-            },
-            {
-                "name": "Pin Sym Foong",
-                "givenName": "Pin Sym",
-                "middleInitial": "",
-                "familyName": "Foong",
-                "dept": "NUS HCI Lab",
-                "institution": "National University of Singapore",
-                "city": "Singapore",
-                "country": "Singapore",
-                "affiliation": "NUS HCI Lab, National University of Singapore",
-                "location": "Singapore, Singapore"
-            },
-            {
-                "name": "Simon T Perrault",
-                "givenName": "Simon",
-                "middleInitial": "T",
-                "familyName": "Perrault",
-                "dept": "Department of Science",
-                "institution": "Yale-NUS College",
-                "city": "Singapore",
-                "country": "Singapore",
-                "affiliation": "Department of Science, Yale-NUS College",
-                "location": "Singapore, Singapore"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course123": {
-        "title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
-        "abstract": "We are witnessing major developments in sensing, processing, and communications that have led toward an integrated composition of the world, in which physical and digital intertwiningly coexist, environments emanate intelligent presence, and interactions dissolve into human behavior in the form of gestures that manipulate the new physical-digital space. This course explores the ways in which home entertainment systems benefit from such technological advances, in the quest to design highly-interactive smart home entertainment spaces. Attendees will be introduced to the fundamental principles of smart spaces and ambient intelligence, augmented reality, and gesture interface design by falling back on examples of designs and applications for home entertainment. Notions such as context awareness, mixed reality, and naturalness of gesture interaction will be clarified for participants in the context of home entertainment. Practical aspects of augmented reality and gesture sensing and recognition technology will be explained and accompanied by examples from research and industry. It is the my hope that this course will prove a valuable source of inspiration for practitioners interested in prototyping novel, highly-interactive smart spaces toward designing our future home entertainment experience.",
-        "cAndB": "Introduces fundamental principles of smart spaces and ambient intelligence, augmented reality, and gesture interface design.",
-        "keywords": [
-            "Home entertainment",
-            "augmented reality",
-            "gestures",
-            "ambient intelligence",
-            "interactive TV",
-            "mixed reality."
-        ],
-        "authors": [
-            {
-                "name": "Radu-Daniel Vatavu",
-                "givenName": "Radu-Daniel",
-                "middleInitial": "",
-                "familyName": "Vatavu",
-                "dept": "",
-                "institution": "University Stefan cel Mare of Suceava",
-                "city": "Suceava",
-                "country": "Romania",
-                "affiliation": "University Stefan cel Mare of Suceava",
-                "location": "Suceava, Romania"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course125": {
-        "title": "Mobile UX: Breaking the Glass to Richer User Experiences",
-        "abstract": "Apps are changing the world. If you work for a bank, an airline, an art gallery or a even a local coffee shop, youll probably have helped create an app to connect and transact with your customers and visitors. As users, we consume these bite-sized chunks of digital goodness voraciously, with some estimates putting total app downloads to date at over 100 billion. People find apps effective, satisfying and enjoyable. Meeting their needs, filling dead time, solving their problems. So, why are we organising a course that argues for some new thinking? We celebrate the success that is apps, services and the ecology of mobile devices; but, we want to ask the question: what do the current approaches to mobile interaction overlook? Is there more to user experience than can be expressed through todays heads-down, glass blunted and me-centred reality? We have both have had the great fortune to work and collaborate with research labs, practitioners and industry. The aim of this course is to connect the great app innovation that is out there with the sorts of alternative thinking that have been brewing in university and industry labs for several years. It seems obvious how things should develop in the mobile marketmore apps, better screens, longer battery life, faster and faster networks, drawing us more and more towards the tempting pool that leads us to digital worlds that offer so much. We want to help undermine this certainty by challenging attendees to step back and look at alternative perspectives; changing the future but starting now.",
-        "cAndB": "Transform your approach to Mobile UX design by thinking outside the screen, with your users real lives in mind. ",
-        "keywords": [
-            "User Experience",
-            "Mobile",
-            "Design"
-        ],
-        "authors": [
-            {
-                "name": "Matt Jones",
-                "givenName": "Matt",
-                "middleInitial": "",
-                "familyName": "Jones",
-                "dept": "",
-                "institution": "Swansea University",
-                "city": "Swansea",
-                "country": "United Kingdom",
-                "affiliation": "Swansea University",
-                "location": "Swansea, United Kingdom"
-            },
-            {
-                "name": "Simon Robinson",
-                "givenName": "Simon",
-                "middleInitial": "",
-                "familyName": "Robinson",
-                "dept": "",
-                "institution": "Swansea University",
-                "city": "Swansea",
-                "country": "United Kingdom",
-                "affiliation": "Swansea University",
-                "location": "Swansea, United Kingdom"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course130": {
-        "title": "Research Methods for Child Computer Interaction",
-        "abstract": "In this course participants will learn about the theory and practice of conducting research in childrens HCI. The course is divided into two sessions: basic principles and theory, and best practices. The instructors have multiple years of experience designing, conducting, and analyzing children-computer interaction (CCI) studies, in the UK, USA, and Israel.",
-        "cAndB": "This course describes common methods for use in research with children and it highlights tips and concerns ensuring those attending are well equipped to work with children in HCI",
-        "keywords": [
-            "CCI",
-            "children",
-            "research methods",
-            "age-appropriate design",
-            "user testing",
-            "ethnography"
-        ],
-        "authors": [
-            {
-                "name": "Janet C Read",
-                "givenName": "Janet",
-                "middleInitial": "C",
-                "familyName": "Read",
-                "dept": "School of Computing, Engineering and Physical Science",
-                "institution": "University of Central Lancashire",
-                "city": "Preston",
-                "country": "United Kingdom",
-                "affiliation": "School of Computing, Engineering and Physical Science, University of Central Lancashire",
-                "location": "Preston, United Kingdom"
-            },
-            {
-                "name": "Shuli Gilutz",
-                "givenName": "Shuli",
-                "middleInitial": "",
-                "familyName": "Gilutz",
-                "dept": "",
-                "institution": "Tel-Aviv University",
-                "city": "Tel - Aviv",
-                "country": "Israel",
-                "affiliation": "Tel-Aviv University",
-                "location": "Tel - Aviv, Israel"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course132": {
-        "title": "Introduction To Human Computer Interaction",
-        "abstract": "The objective of this course is to provide newcomers to Human-Computer Interaction (HCI) with an introduction and overview of the field. In addition to introducing basic concepts, the course will provide enough structure to help understand how the advanced material in the CHI 2016 technical program fits into the overall field.",
-        "cAndB": "This course provides a foundation for understanding the field of HCI and core concepts, and it is geared primarily towards newcomers to the CHI conference.  ",
-        "keywords": [
-            "Human-Computer Interaction",
-            "Usability",
-            "User Experience"
-        ],
-        "authors": [
-            {
-                "name": "Jonathan Lazar",
-                "givenName": "Jonathan",
-                "middleInitial": "",
-                "familyName": "Lazar",
-                "dept": "",
-                "institution": "Towson University",
-                "city": "Towson",
-                "country": "United States",
-                "affiliation": "Towson University",
-                "location": "Towson, United States"
-            },
-            {
-                "name": "Simone D Barbosa",
-                "givenName": "Simone",
-                "middleInitial": "D J",
-                "familyName": "Barbosa",
-                "dept": "Departamento de Informtica",
-                "institution": "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
-                "city": "Rio de Janeiro",
-                "country": "Brazil",
-                "affiliation": "Departamento de Informtica, Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
-                "location": "Rio de Janeiro, Brazil"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course133": {
-        "title": "Practical UX Research Methodologies",
-        "abstract": "Half-Day course on the practical research methods used to understand the changing technology climate.  Experts from UEGroup, a Silicon Valley research and design company, will lead an interactive discussion and give practical suggestions for developing methodologies including: Ethnography, Out of Box Experiences, and Usability Testing.  ",
-        "cAndB": "Gain a more complete and practical understanding of different UX methodologies (OOBE, Ethnography and Usability Testing) and learn when to apply each to accomplish specific research goals.   ",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Sarah E Garcia",
-                "givenName": "Sarah",
-                "middleInitial": "E",
-                "familyName": "Garcia",
-                "dept": "",
-                "institution": "UEGroup",
-                "city": "San Jose",
-                "country": "United States",
-                "affiliation": "UEGroup",
-                "location": "San Jose, United States"
-            },
-            {
-                "name": "Laura Hammond",
-                "givenName": "Laura",
-                "middleInitial": "",
-                "familyName": "Hammond",
-                "dept": "",
-                "institution": "UEGroup",
-                "city": "San Jose",
-                "country": "United States",
-                "affiliation": "UEGroup",
-                "location": "San Jose, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course134": {
-        "title": "Creative Worthwhile Interaction Design",
-        "abstract": "Over the last two decades, creative and strategic design approaches have become increasingly prevalent in the development of interactive technologies, but tensions exist with longer established approaches such as human factors engineering and user-centered design. These tensions can be harnessed productively by giving equal status in principle to creative, business and engineering practices and developing approaches and resources that can balance and integrate a range of multidisciplinary design practices.",
-        "cAndB": "Covers: disciplinary differences between creative, strategic, technical and human perspectives on interactive software; strategies for applying and integrating diverse perspectives within a dynamic development process (especially creative and worth-focused perspectives)",
-        "keywords": [
-            "Creative Design",
-            "Interaction Design",
-            "Worth Focused Design Approaches",
-            "Balanced Integrated Generous (BIG) Design."
-        ],
-        "authors": [
-            {
-                "name": "Gilbert Cockton",
-                "givenName": "Gilbert",
-                "middleInitial": "",
-                "familyName": "Cockton",
-                "dept": "Northumbria University",
-                "institution": "Northumbria University",
-                "city": "Newcastle upon Tyne",
-                "country": "United Kingdom",
-                "affiliation": "Northumbria University, Northumbria University",
-                "location": "Newcastle upon Tyne, United Kingdom"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course136": {
-        "title": "Research Methods for HCI: Understanding People Using Interactive Technologies",
-        "abstract": "This course will provide an introduction to methods used in Human-Computer Interaction (HCI) research. An equal focus will be given to both the quantitative and qualitative research traditions used to understand people and interactional contexts. We shall discuss these major philosophical traditions along with their contemporary framings (e.g., in-the-wild research and Interaction Science). By the end of the course attendees will have a detailed understanding of how to select and apply methods to address a range of problems that are of concern to contemporary HCI researchers.",
-        "cAndB": "This course provides an introduction to methods used in HCI research to understand people and interactional contexts.",
-        "keywords": [
-            "HCI research methods",
-            "quantitative",
-            "qualitative",
-            "empirical research"
-        ],
-        "authors": [
-            {
-                "name": "Duncan P Brumby",
-                "givenName": "Duncan",
-                "middleInitial": "P.",
-                "familyName": "Brumby",
-                "dept": "",
-                "institution": "University College London",
-                "city": "London",
-                "country": "United Kingdom",
-                "affiliation": "University College London",
-                "location": "London, United Kingdom"
-            },
-            {
-                "name": "Ann E Blandford",
-                "givenName": "Ann",
-                "middleInitial": "E.",
-                "familyName": "Blandford",
-                "dept": "",
-                "institution": "University College London",
-                "city": "London",
-                "country": "United Kingdom",
-                "affiliation": "University College London",
-                "location": "London, United Kingdom"
-            },
-            {
-                "name": "Anna L Cox",
-                "givenName": "Anna",
-                "middleInitial": "L.",
-                "familyName": "Cox",
-                "dept": "",
-                "institution": "University College London",
-                "city": "London",
-                "country": "United Kingdom",
-                "affiliation": "University College London",
-                "location": "London, United Kingdom"
-            },
-            {
-                "name": "Sandy J Gould",
-                "givenName": "Sandy",
-                "middleInitial": "J.J.",
-                "familyName": "Gould",
-                "dept": "",
-                "institution": "University College London",
-                "city": "London",
-                "country": "United Kingdom",
-                "affiliation": "University College London",
-                "location": "London, United Kingdom"
-            },
-            {
-                "name": "Paul Marshall",
-                "givenName": "Paul",
-                "middleInitial": "",
-                "familyName": "Marshall",
-                "dept": "",
-                "institution": "University College London",
-                "city": "London",
-                "country": "United Kingdom",
-                "affiliation": "University College London",
-                "location": "London, United Kingdom"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course138": {
-        "title": "Game User Experience Evaluation",
-        "abstract": "In a nutshell: This course comprehensively covers important user experience (UX) evaluation methods as well as opportunities and challenges of UX evaluation in the area of entertainment and games. The course is an ideal forum for attendees to gain insight into state-of-the art user experience evaluation methods going way-beyond standard usability and user experience evaluation approaches in the area of human-computer interaction. It surveys and assesses the efforts of user experience evaluation of the gaming and human computer interaction communities during the last 15 years.",
-        "cAndB": "Games User Experience Evaluation helps you discover a multitude of methods that can be use to evaluate your games to make them fun, immersive, challenging and just great games! ",
-        "keywords": [
-            "user experience",
-            "games",
-            "entertainment",
-            "evaluation method"
-        ],
-        "authors": [
-            {
-                "name": "Regina Bernhaupt",
-                "givenName": "Regina",
-                "middleInitial": "",
-                "familyName": "Bernhaupt",
-                "dept": "",
-                "institution": "ruwido",
-                "city": "Neumarkt",
-                "country": "Austria",
-                "affiliation": "ruwido",
-                "location": "Neumarkt, Austria"
-            },
-            {
-                "name": "Florian Mueller",
-                "givenName": "Florian",
-                "middleInitial": "",
-                "familyName": "Mueller",
-                "dept": "Exertion Games Lab, RMIT University, Melbourne, Victoria, Australia",
-                "institution": "RMIT University",
-                "city": "Melbourne",
-                "country": "Australia",
-                "affiliation": "Exertion Games Lab, RMIT University, Melbourne, Victoria, Australia, RMIT University",
-                "location": "Melbourne, Australia"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course139": {
-        "title": "Interaction Design for Online Video and Television",
-        "abstract": "This course will teach attendees how to design and evaluate interaction with online video and television. It provides attendees a pragmatic toolset, including techniques and guidelines, which can be directly applied in practice. The different tools will be contextualized based on current developments, giving participants a complete overview of the state of the art and industry.",
-        "cAndB": "Teaches attendees how to design and evaluate interaction with online video and television. It provides a pragmatic toolset, including techniques and guidelines, which can be directly applied in practice.",
-        "keywords": [
-            "Interactive TV",
-            "online video",
-            "interaction design"
-        ],
-        "authors": [
-            {
-                "name": "David Geerts",
-                "givenName": "David",
-                "middleInitial": "",
-                "familyName": "Geerts",
-                "dept": "",
-                "institution": "K.U.Leuven",
-                "city": "Leuven",
-                "country": "Belgium",
-                "affiliation": "K.U.Leuven",
-                "location": "Leuven, Belgium"
-            },
-            {
-                "name": "Pablo Cesar",
-                "givenName": "Pablo",
-                "middleInitial": "",
-                "familyName": "Cesar",
-                "dept": "CWI (Centrum voor Wiskunde en Informatica), Amsterdam, The Netherlands",
-                "institution": "",
-                "city": "",
-                "country": "",
-                "affiliation": "CWI (Centrum voor Wiskunde en Informatica), Amsterdam, The Netherlands",
-                "location": ""
-            },
-            {
-                "name": "Marianna Obrist",
-                "givenName": "Marianna",
-                "middleInitial": "",
-                "familyName": "Obrist",
-                "dept": "School of Engineering and Informatics",
-                "institution": "University of Sussex",
-                "city": "Brighton",
-                "country": "United Kingdom",
-                "affiliation": "School of Engineering and Informatics, University of Sussex",
-                "location": "Brighton, United Kingdom"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course140": {
-        "title": "An Introduction to Automotive User Interfaces",
-        "abstract": "The objective of this course is to provide newcomers to Automotive User Interfaces with an introduction and overview of the field. The course will introduce the specifics and challenges of In-Vehicle User Interfaces that set this field apart from others. We will provide an overview of the specific requirements of AutomotiveUI, discuss the design of such interfaces, also with regard to standards and guidelines. We further outline how to evaluate interfaces in the car, discuss the challenges with upcoming automated driving and present trends and challenges in this domain.",
-        "cAndB": "This course introduces automotive user interfaces as an HCI subfield. We present an overview of the specific requirements of this field and explain how to design and evaluate such interfaces.",
-        "keywords": [
-            "Automotive User Interfaces",
-            "in-car user interfaces",
-            "car driv- ing",
-            "manual and automated driving"
-        ],
-        "authors": [
-            {
-                "name": "Bastian Pfleging",
-                "givenName": "Bastian",
-                "middleInitial": "",
-                "familyName": "Pfleging",
-                "dept": "Human-Machine Interaction Group",
-                "institution": "University of Munich (LMU)",
-                "city": "Munich",
-                "country": "Germany",
-                "affiliation": "Human-Machine Interaction Group, University of Munich (LMU)",
-                "location": "Munich, Germany"
-            },
-            {
-                "name": "Nora Broy",
-                "givenName": "Nora",
-                "middleInitial": "",
-                "familyName": "Broy",
-                "dept": "BMW Group, Munich, Germany",
-                "institution": "BMW Group, Munich, Germany",
-                "city": "Munich",
-                "country": "Germany",
-                "affiliation": "BMW Group, Munich, Germany, BMW Group, Munich, Germany",
-                "location": "Munich, Germany"
-            },
-            {
-                "name": "Andrew L Kun",
-                "givenName": "Andrew",
-                "middleInitial": "L",
-                "familyName": "Kun",
-                "dept": "",
-                "institution": "University of New Hampshire",
-                "city": "Durham",
-                "country": "United States",
-                "affiliation": "University of New Hampshire",
-                "location": "Durham, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course141": {
-        "title": "Designing and Assessing Interactive Systems Using Task Models",
-        "abstract": "This two-part course takes a practical approach to introduce attendees to the principles, methods and tools for task modelling.  Part 1: A non-technical introduction demonstrates that task models can be the corner stone of successful design of interactive systems.  Part 2: A more technical interactive hands-on exercise of how to \"do it right\", such as: How to go from task analysis to task models? How to assess (through analysis and simulation) that a task model is correct? How to identify complexity of user tasks and how to reduce it? How to identify tasks that are good candidate for migration either towards automation or other users? How to take into account user errors in task modelling? And more... ",
-        "cAndB": "This two-part course takes a practical approach to introduce principles, methods and tools in tasks modeling providing attendees with information, knowledge and tools to describe and analyze user tasks. ",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Philippe Palanque",
-                "givenName": "Philippe",
-                "middleInitial": "",
-                "familyName": "Palanque",
-                "dept": "",
-                "institution": "ICS-IRIT, Universit Paul Sabatier Toulouse 3",
-                "city": "Toulouse",
-                "country": "France",
-                "affiliation": "ICS-IRIT, Universit Paul Sabatier Toulouse 3",
-                "location": "Toulouse, France"
-            },
-            {
-                "name": "Celia Marinie",
-                "givenName": "Celia",
-                "middleInitial": "",
-                "familyName": "Marinie",
-                "dept": "ICS-IRIT",
-                "institution": "University of Toulouse",
-                "city": "Toulouse",
-                "country": "France",
-                "affiliation": "ICS-IRIT, University of Toulouse",
-                "location": "Toulouse, France"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course142": {
-        "title": "User Interface Design In Agile Projects",
-        "abstract": "In this enhanced version of our well-received tutorial in NordiCHI14 we will teach the way we design UIs at Reaktor and share our lessons learned from more than 10 years of design in agile projects. No previous knowledge of UI design is required, but the participants should know at least the basics of agile development in order to follow the examples and discussion in the second part.  The course has two parts: First we will teach how to create straightforward UI designs in a systematical fashion. This part focuses on demos and hands-on exercises with a minimal amount of theory, talk and slides. It is based on the GUIDe method and UI design courses that have been taught to hundreds of students at the University of Helsinki and developed further at Reaktor. In the second part we will present our current state of the art in combining design activities (conceptual design, UI design, graphics design, ) with agile development. In the past 10 years, we have tried out many different approaches. We will show practical examples of real projects with their results and illustrate, what practices worked, what did not and why. This part is an interactive lesson - the participants are most welcome to ask a lot of questions during the session. The instructors are all designers at Reaktor, a Finland-based software consultancy with offices in New York, Tokyo and Helsinki. Most of them have been teaching at University of Helsinki, Department of Computer Science. Today, they make sure that the software built at Reaktor solves meaningful and financially viable problems. In practice, they find out what parts of the users work would benefit most of software support and draw straightforward UI solutions for them. ",
-        "cAndB": "The participants are able to create efficient UI designs starting from scratch. They have an idea of how and when to do their design work in an agile project context. ",
-        "keywords": [
-            "UI design",
-            "agile development",
-            "agile design",
-            "hands-on",
-            "interactive lecture"
-        ],
-        "authors": [
-            {
-                "name": "Karri-Pekka Laakso",
-                "givenName": "Karri-Pekka",
-                "middleInitial": "",
-                "familyName": "Laakso",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            },
-            {
-                "name": "Tuomas Husu",
-                "givenName": "Tuomas",
-                "middleInitial": "",
-                "familyName": "Husu",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            },
-            {
-                "name": "Mikko Romppainen",
-                "givenName": "Mikko",
-                "middleInitial": "",
-                "familyName": "Romppainen",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            },
-            {
-                "name": "Janina Fagerlund",
-                "givenName": "Janina",
-                "middleInitial": "",
-                "familyName": "Fagerlund",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            },
-            {
-                "name": "Marju Kettunen",
-                "givenName": "Marju",
-                "middleInitial": "",
-                "familyName": "Kettunen",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            },
-            {
-                "name": "Toni Standell",
-                "givenName": "Toni",
-                "middleInitial": "",
-                "familyName": "Standell",
-                "dept": "Design",
-                "institution": "Reaktor",
-                "city": "Helsinki",
-                "country": "Finland",
-                "affiliation": "Design, Reaktor",
-                "location": "Helsinki, Finland"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course143": {
-        "title": "Advances in Participatory Design",
-        "abstract": "In this course participants are introduced to theory and practice of Participatory Design. The course offers an overview of state of the art in Participatory Design literature, practices and methods, and provides participants with the opportunity to work practically on a Participatory Design case. The instructors have substantial experience in Participatory Design research and practice and have been active members of the PDC community for several decades.",
-        "cAndB": "This course offers an overview of state of the art in Participatory Design literature, practices and methods, and provides participants with the opportunity to work on a Participatory Design case. ",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Susanne Bdker",
-                "givenName": "Susanne",
-                "middleInitial": "",
-                "familyName": "Bdker",
-                "dept": "",
-                "institution": "Aarhus University",
-                "city": "Aarhus",
-                "country": "Denmark",
-                "affiliation": "Aarhus University",
-                "location": "Aarhus, Denmark"
-            },
-            {
-                "name": "Christian Dindler",
-                "givenName": "Christian",
-                "middleInitial": "",
-                "familyName": "Dindler",
-                "dept": "",
-                "institution": "Aarhus University",
-                "city": "Aarhus",
-                "country": "Denmark",
-                "affiliation": "Aarhus University",
-                "location": "Aarhus, Denmark"
-            },
-            {
-                "name": "Ole S Iversen",
-                "givenName": "Ole",
-                "middleInitial": "Sejer",
-                "familyName": "Iversen",
-                "dept": "",
-                "institution": "Aarhus University",
-                "city": "Aarhus",
-                "country": "Denmark",
-                "affiliation": "Aarhus University",
-                "location": "Aarhus, Denmark"
-            },
-            {
-                "name": "Kim Halskov",
-                "givenName": "Kim",
-                "middleInitial": "",
-                "familyName": "Halskov",
-                "dept": "",
-                "institution": "Aarhus University",
-                "city": "Aarhus",
-                "country": "Denmark",
-                "affiliation": "Aarhus University",
-                "location": "Aarhus, Denmark"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course149": {
-        "title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
-        "abstract": "HCI research has for long been dedicated to better and more naturally facilitating information transfer between humans and machines. Unfortunately, humans' most natural form of communication, speech, is also one of the most difficult modalities to be understood by machines  despite, and perhaps, because it is the highest-bandwidth communication channel we possess. While significant research efforts, from engineering, to linguistic, and to cognitive sciences, have been spent on improving machines' ability to understand speech, the CHI community (and the HCI field at large) has been relatively timid in embracing this modality as a central focus of research. This can be attributed in part to the relatively discouraging levels of accuracy in understanding speech, in contrast with often-unfounded claims of success from industry, but also to the intrinsic difficulty of designing and especially evaluating speech and natural language interfaces. As such, the development of interactive speech-based systems is mostly driven by engineering efforts to improve such systems with respect to largely arbitrary performance metrics. Such developments have often been void of any user-centered design principles or consideration for usability or usefulness. The goal of this course is to inform the CHI community of the current state of speech and natural language research, to dispel some of the myths surrounding speech-based interaction, as well as to provide an opportunity for researchers and practitioners to learn more about how speech recognition and speech synthesis work, what are their limitations, and how they could be used to enhance current interaction paradigms. Through this, we hope that HCI researchers and practitioners will learn how to combine recent advances in speech processing with user-centred principles in designing more usable and useful speech-based interactive systems.",
-        "cAndB": "Learn how speech recognition and synthesis works, what are its limitations and usability challenges, how can it enhance interaction paradigms, and what is the current research and commercial state-of-the-art.",
-        "keywords": [
-            "Speech interaction",
-            "Natural language interaction",
-            "automatic speech recognition",
-            "Natural user interfaces"
-        ],
-        "authors": [
-            {
-                "name": "Cosmin Munteanu",
-                "givenName": "Cosmin",
-                "middleInitial": "",
-                "familyName": "Munteanu",
-                "dept": "ICCIT",
-                "institution": "University of Toronto Mississauga",
-                "city": "Mississauga",
-                "country": "Canada",
-                "affiliation": "ICCIT, University of Toronto Mississauga",
-                "location": "Mississauga, Canada"
-            },
-            {
-                "name": "Gerald Penn",
-                "givenName": "Gerald",
-                "middleInitial": "",
-                "familyName": "Penn",
-                "dept": "Computer Science",
-                "institution": "University of Toronto",
-                "city": "Toronto",
-                "country": "Canada",
-                "affiliation": "Computer Science, University of Toronto",
-                "location": "Toronto, Canada"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course151": {
-        "title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologists Perspective",
-        "abstract": "There is a new urgency to measure subtle age-related cognitive dysfunction with discoveries that amyloid pathology afflicts the brain 20 years before Alzheimers dementia and more recently that drug infusions can reduce amyloid.  Measuring mental processes in controlled laboratory environments has yielded rich insights; however, there is a growing awareness of the importance of complimenting this work with study in real life contexts to understand everyday functioning.  In fact the diagnosis of dementia is critically dependent on the measure of functional decline and clinicians have long struggled to define this effectively.  This course will be an introduction to the current state of clinical diagnosis of age-related cognitive declines and dementia with the goal of facilitating effective collaboration between computer scientists and clinicians to help older adults.  The following topics will be covered.  How do we define dysfunctional cognition and dementia clinically?  How does a clinician approach diagnosis and what are the major types of dementia and age-related cognitive disorders defined?  What is a clinical measure and how do we develop them?  How are clinical measures used?  What are the major research directions ongoing to treat and prevent age-related declines (e.g. brain stimulation, exercise, medications, diet)?  What are some key ethical issues that clinicians consider in working the novel technologies?",
-        "cAndB": "Alzheimers disease begins in midlife and affects almost 40% of us by age 85.  Attendees about will learn current and future domains where computer science can complement existing practice.",
-        "keywords": [
-            "Seniors",
-            "Alzheimers Dementia",
-            "Neuropsychology",
-            "Cognition."
-        ],
-        "authors": [
-            {
-                "name": "Allyson Rosen",
-                "givenName": "Allyson",
-                "middleInitial": "",
-                "familyName": "Rosen",
-                "dept": "Psychiatry and Behavioral Sciences",
-                "institution": "Stanford University",
-                "city": "Stanford",
-                "country": "United States",
-                "affiliation": "Psychiatry and Behavioral Sciences, Stanford University",
-                "location": "Stanford, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course152": {
-        "title": "Visual Facilitation for Design Groups",
-        "abstract": "CHI2016 Workshop: Visual Facilitation for Design Groups Course Overview:  Introduction to visual facilitation for design groups, enables leaders to catalyze innovation in groups by (1) aggregating ideas creatively in a visual tableau (2) activating human-system elements of design through somatic expression, (3) enabling multiple cognitive inputs, (4) modeling the fundamentals of innovation such as risk-taking, open-ended inquiry, vulnerability, and pattern-finding. This is a highly experiential course, based on the cognitive apprenticeship approach to learning. Participants will work on large paper altogether and in small groups. Introduction   Human factors are increasingly complex in computer-human interaction. Effectiveness depends on the ability of designers to reach a diverse audience, including cognitive diversity. Design teams often are facing this challenge by including greater diversity in their groups. But to succeed, they must learn to leverage multiple perspectives, and enable team members to stretch their thinking, transcending unconscious biases and the limits of their own training and experience. To accomplish this requires techniques that support people of different personality traits, cultural backgrounds, and cognitive attributes to express their best ideas in an environment that is interpersonally supportive as well as intellectually rigorous. Visual facilitation enables this through: (1) The use of free-hand, simple imagery that expresses the essence of ideas before they are fully formed. The imperfect nature of a quick visual conveys that ideas are in process rather than fully-formed. This encourages the sharing of emerging concepts so that collaboration can occur earlier in the design process. (2) Methods that enable people to contribute their ideas multiple ways that allow full expression for diverse personality and cultural styles. (3) At the meta-level, the deeply human and ancient practice of communicating visually creates a design atmosphere likely to produce more human-friendly products. Benefits  Participants will be empowered to access the collective intelligence of their teams, and to develop a co-creative (as opposed to group-think) environment for problem-solving and innovative design. ",
-        "cAndB": "By learning facilitation techniques, designers are empowered to access the collective intelligence of their teams, developing a co-creative (as opposed to group-think) environment for problem-solving and innovative design. ",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Eileen M Clegg",
-                "givenName": "Eileen",
-                "middleInitial": "M.",
-                "familyName": "Clegg",
-                "dept": "",
-                "institution": "Visual Insight",
-                "city": "Bodega Bay",
-                "country": "USA",
-                "affiliation": "Visual Insight",
-                "location": "Bodega Bay, USA"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course154": {
-        "title": "Interactive Biotechnology: Building your own Biotic Game Setup to Play with Living Microorganisms",
-        "abstract": "The advancement of biotechnology enables interactivity with living microorganisms, i.e., turning classic observational microscopy into an interactive experience. This new field of interactive biotechnology enables many media such as educational biology cloud labs, museum exhibits, or biotic video games. In this course we will give an overview of our recent approaches to interactive biology. We will then demonstrate a biotic video game that enables real time play with living cells. We will instruct participants how they can replicate (and modify) this setup, which consists of a DIY microscope containing additionally four LEDs controlled by a joystick to stimulate single celled phototactic organisms. We invite the community to develop games and other interactive applications on this platform, and to bring it to maker spaces and classrooms.",
-        "cAndB": "An overview of Interactive Biotechnology is provided, i.e., how to interact with living microorganisms for various purposes. Participants will be enabled to build and modify such setups themselves.",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Honesty Kim",
-                "givenName": "Honesty",
-                "middleInitial": "",
-                "familyName": "Kim",
-                "dept": "Department of Bioengineering",
-                "institution": "Stanford University",
-                "city": "Palo Alto",
-                "country": "United States",
-                "affiliation": "Department of Bioengineering, Stanford University",
-                "location": "Palo Alto, United States"
-            },
-            {
-                "name": "Lukas C Gerber",
-                "givenName": "Lukas",
-                "middleInitial": "C",
-                "familyName": "Gerber",
-                "dept": "Department of Bioengineering",
-                "institution": "Stanford University",
-                "city": "Palo Alto",
-                "country": "United States",
-                "affiliation": "Department of Bioengineering, Stanford University",
-                "location": "Palo Alto, United States"
-            },
-            {
-                "name": "Ingmar H Riedel-Kruse",
-                "givenName": "Ingmar",
-                "middleInitial": "H",
-                "familyName": "Riedel-Kruse",
-                "dept": "Department of Bioengineering",
-                "institution": "Stanford University",
-                "city": "Palo Alto",
-                "country": "United States",
-                "affiliation": "Department of Bioengineering, Stanford University",
-                "location": "Palo Alto, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
-    "course155": {
-        "title": "So, You Want To Be A CHI AC",
-        "abstract": "",
-        "cAndB": "",
-        "keywords": [],
-        "authors": [
-            {
-                "name": "Julie A Kientz",
-                "givenName": "Julie",
-                "middleInitial": "A",
-                "familyName": "Kientz",
-                "dept": "Human Centered Design and Engineering",
-                "institution": "University of Washington",
-                "city": "Seattle",
-                "country": "United States",
-                "affiliation": "Human Centered Design and Engineering, University of Washington",
-                "location": "Seattle, United States"
-            },
-            {
-                "name": "Hilary B Hutchinson",
-                "givenName": "Hilary",
-                "middleInitial": "B",
-                "familyName": "Hutchinson",
-                "dept": "Google",
-                "institution": "Google",
-                "city": "Mountain View",
-                "country": "United States",
-                "affiliation": "Google, Google",
-                "location": "Mountain View, United States"
-            }
-        ],
-        "type": "course",
-        "subtype": "course",
-        "award": false,
-        "hm": false
-    },
     "jrn101": {
         "title": "Internet Censorship in China: Examining User Awareness and Attitudes",
         "abstract": "Internet censorship has been a popular topic both in academia and in the popular press. A fundamental question that has not been fully addressed is how censorship is perceived by people who experience it. A person may exhibit pro- or anti-censorship attitudes but it is possible that (s)he may not even be aware of its existence. In this study, we report results of a large-scale survey on Chinese Internet users experiences with Internet censorship. The results show that users demographic backgrounds, Internet usage experience, and personality influence their attitudes towards censorship. Those who score high on authoritarian personality measures tend to support censorship. Attitudes towards censorship change so that over time it is viewed as more normal, which suggests a \"normalization\" process. We discuss how these findings can generalize beyond the Chinese context to other societies where Internet censorship can exist.",
@@ -4676,8 +3301,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -4724,8 +3349,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -4760,8 +3385,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -4808,8 +3433,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -4856,8 +3481,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -4928,8 +3553,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5000,8 +3625,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5024,8 +3649,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5084,8 +3709,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5120,8 +3745,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5156,8 +3781,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5204,8 +3829,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5264,8 +3889,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5288,8 +3913,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5324,8 +3949,8 @@ entities={
                 "location": "Seoul, Republic of Korea"
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5372,8 +3997,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5444,8 +4069,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5504,8 +4129,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5552,8 +4177,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5600,8 +4225,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5648,8 +4273,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5696,8 +4321,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5732,8 +4357,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5792,8 +4417,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5852,8 +4477,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5888,8 +4513,8 @@ entities={
                 "location": "Melbourne, Australia"
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5924,8 +4549,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -5960,8 +4585,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6008,8 +4633,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6080,8 +4705,8 @@ entities={
                 "location": "Toulouse, France"
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6248,8 +4873,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6332,8 +4957,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6380,8 +5005,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6452,8 +5077,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6488,8 +5113,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6548,8 +5173,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -6620,8 +5245,8 @@ entities={
                 "location": ""
             }
         ],
-        "type": "TOCHI",
-        "subtype": "TOCHI",
+        "type": "paper",
+        "subtype": "",
         "award": false,
         "hm": false
     },
@@ -12832,10 +11457,10 @@ entities={
         ],
         "authors": [
             {
-                "name": "Ignacio X Domnguez",
+                "name": "Ignacio X Dom�nguez",
                 "givenName": "Ignacio",
                 "middleInitial": "X.",
-                "familyName": "Domnguez",
+                "familyName": "Dom�nguez",
                 "dept": "",
                 "institution": "North Carolina State University",
                 "city": "Raleigh",
@@ -43928,9 +42553,13 @@ entities={
     },
     "alt118": {
         "title": "Peer Review and Design Fiction: Honestly, theyre not just made up",
-        "abstract": "",
+        "abstract": "In the 10 years since the term was coined ?design fiction? has become an increasingly common approach in HCI research. The practice involves working with ?diegetic prototypes?, that is prototypes that need not exist in reality, but instead exist from within a ?story world?. Although fictional aspects are not unusual in HCI prototyping methods (e.g. storyboards, personas, Wizard-of-Oz), the breadth and flexibility of design fiction poses new challenges. This paper originally featured quotes from peer reviews of design fiction orientated papers that have previously been submitted to ACM SIGCHI conferences in order to highlight inherent challenges when reviewing research that may be based upon or include elements of fiction. In response to the SIGCHI Executive Committee?s request to not directly quote reviewers the quotes have now been redacted. This somewhat changes the paper?s tone and also makes very clear that publishing discussions relating to peer reviews (or the reviews themselves) is extremely challenging.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Design fiction",
+            "Peer Review",
+            "Pseudonymous Authorship."
+        ],
         "authors": [
             {
                 "name": "Joseph Lindley",
@@ -44057,9 +42686,13 @@ entities={
     },
     "alt126": {
         "title": "Meaning Reconstruction as an Approach to Analyze Critical Dimensions of HCI Research",
-        "abstract": "",
+        "abstract": "A critical tradition has taken hold in HCI, yet research methods needed to meaningfully engage with critical questions in the qualitative tradition are nascent. In this paper, we explore one critical qualitative research approach that allows researchers to probe deeply into the relationships between communicative acts and social structures. Meaning reconstruction methods are described and illustrated using examples from HCI research, demonstrating how social norms can be traced as they are claimed and reproduced. We conclude with implications for strengthening rigorous critical inquiry in HCI research, including the use of extant critical research methods to document transparency and thick description.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Design Fiction",
+            "Design Strategies",
+            "Prototypes"
+        ],
         "authors": [
             {
                 "name": "Colin M Gray",
@@ -44105,9 +42738,13 @@ entities={
     },
     "alt127": {
         "title": "Resistance is Fertile: Design Fictions in Dystopian Worlds",
-        "abstract": "",
+        "abstract": "Current work on design fiction has discussed their use for personal reflection, sharing with collaborators, forming a public ?vision? but with small numbers of participant readers. We wanted to explore a new way of using design fictions as a tool for discussion with large global audiences via social authoring web sights. To achieve this, we wrote a highly read, science-fiction novel called I'm a Cyborg's Pet (The Thinking Girl's Guide to Surviving a Robot Apocalypse), on an online, social, serial-writing website called Wattpad. We found our readers confounded our initial expectations of dystopian fiction",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Design Fiction",
+            "Design Strategies",
+            "Prototypes"
+        ],
         "authors": [
             {
                 "name": "Nicholas S Dalton",
@@ -44287,9 +42924,14 @@ entities={
     },
     "alt137": {
         "title": "You Can Touch This: Eleven Years and 258218 Images of Objects",
-        "abstract": "",
+        "abstract": "Touch has become a central input modality for a wide variety of interactive devices, most of our mobile devices are operated using touch. In addition to interacting with digital artifacts, people touch and interact with many other objects in their daily lives. We provide a unique photo dataset containing all touched objects over the last 11 years. All photos were contributed by Alberto Frigo, who was involved early on in the \"Quantified Self\" movement. He takes photos of every object he touches with his dominant hand. We analyzed the 258,218 images with respect to the types objects, their distribution, and related activities.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Touch Interaction",
+            "Tangible Interaction",
+            "Life Logging",
+            "Quantified Self"
+        ],
         "authors": [
             {
                 "name": "Nina Runge",
@@ -44347,9 +42989,14 @@ entities={
     },
     "alt140": {
         "title": "Alt.CHI: What Do Authors Value in the Reviews They Receive?",
-        "abstract": "",
+        "abstract": "Peer-review is key to assessing work in HCI conferences. The content and process of peer-review, and how it moves scholarship forward or impedes it, are much discussed but little data is available. We provide initial data from surveying 46 authors who submitted papers and notes to CHI 2016, and asking them what they found helpful and unhelpful in their reviews. Responses were overall positive, and showed that authors appreciated encouragement, ideas for related work, and seeing their work fairly assessed. At the same time, some authors commented that reviews may not be inclusive of new approaches, may contain insufficient details, and occasionally seem unreasonable. They also noted issues specific to the rebuttal process. We discuss how instructions for reviewers could be improved, and link our findings to ongoing debates on peer review.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Peer review",
+            "user studies",
+            "CHI",
+            "surveys"
+        ],
         "authors": [
             {
                 "name": "Yvonne Jansen",
@@ -44395,9 +43042,12 @@ entities={
     },
     "alt143": {
         "title": "Computational Agroecology: Sustainable Food Ecosystem Design",
-        "abstract": "",
+        "abstract": "We propose a new domain for sociotechnical system design: creating new ecosystems for food production that are sustainable while producing high yields. Drawing on the field of agroecology, we discuss techniques for allowing a range of users to design sustainable food ecosystems that can overcome the environmental costs of industrial agriculture. Industrial agriculture, relying on declining reserves of fossil fuels and generating increasingly costly externalities, is unsustainable. Agroecology cannot scale until practitioners have access to detailed knowledge of local conditions and appropriate agricultural strategies. This paper reviews the agricultural and sustainability challenges that motivate our research. It describes design problems that must be addressed to scale agroecology. We discuss our initial work, and sketch a program of research we believe will contribute to global food security.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Sustainable HCI",
+            "Agroecology"
+        ],
         "authors": [
             {
                 "name": "Barath Raghavan",
@@ -44479,9 +43129,14 @@ entities={
     },
     "alt145": {
         "title": "Does Technology Have Race?",
-        "abstract": "",
+        "abstract": "This paper started as a response to the ?Black Lives Matter? campaign in the United States, and emerged as a critique of race more generally in technology design. This paper provides case studies of how technologies are often less usable by persons of color, and contextualizes this in light of intersectionalist theory. Finally, it discusses how the HCI community can ameliorate the situation, and our obligation to do so in light of the ACM code of ethics.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Race",
+            "Social Justice",
+            "Computing",
+            "Racism"
+        ],
         "authors": [
             {
                 "name": "David Hankerson",
@@ -44669,9 +43324,13 @@ entities={
     },
     "alt153": {
         "title": "The Smartphone: A Laconian Stain, A Tech Killer, and an Embodiment of Radical Individualism",
-        "abstract": "",
+        "abstract": "YAFR (Yet another futile rant) presents the smartphone: an unstoppable piece of technology generated from a perfect storm of commercial, technological, social and psychological factors. We begin by misquoting Steve Jobs and by being unfairly rude about the HCI community. We then consider the smartphone?s ability to kill off competing technology and to undermine collectivism. We argue that its role as a Lacanian stain, an exploitative tool, and as a means of concentrating power into the hands of the few, make it a technology that will rival the personal automobile in its effect on modern society.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Mobile Phone",
+            "Social Issues",
+            "Technology Policy"
+        ],
         "authors": [
             {
                 "name": "Matthew P Aylett",
@@ -44705,9 +43364,16 @@ entities={
     },
     "alt155": {
         "title": "Solving the Battle of First-Authorship: Using Interactive Technology to Highlight Contributions",
-        "abstract": "",
+        "abstract": "Human-Computer Interaction research is traditionally collaborative. However, the current authorship model ? i.e., placing authors? names in a particular order ? makes the contributions of collaborators who are not the ?first author? (or not mentioned) less visible which negatively affects career paths. Still, if smaller and larger contributions are equally rewarded with a ?good? position in the author list, a researcher?s achievements may be overrated. We suggest a solution with interactive technology to highlight contributions. The benefits include high visibility of contributions, in-situ access to in-depth researcher profiles, in situ access to similar work by the contributors, and low incentive for artificial credits.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Authorship",
+            "first author",
+            "contributor model",
+            "visualized contributor model",
+            "contribution",
+            "interactive technology"
+        ],
         "authors": [
             {
                 "name": "AC BD",
@@ -44753,9 +43419,16 @@ entities={
     },
     "alt156": {
         "title": "From Ecological Sounding Artifacts Towards Sonic Artifact Ecologies",
-        "abstract": "",
+        "abstract": "The discipline of sonic interaction design has been focused on the interaction between a single user and an artifact. This strongly limits one of the fundamental aspects of music as a social and interactive experience. In this paper we propose sonic artifact ecologies as a mean to examine interactions between one or many users with one or many artifacts. Case studies from a recently run workshop on product sound design are examined.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Sonic Interaction Design",
+            "Product Sound Design",
+            "HCI Theory",
+            "Human-Activity Model",
+            "Wireless",
+            "Bluetooth"
+        ],
         "authors": [
             {
                 "name": "Cumhur Erkut",
@@ -44789,9 +43462,16 @@ entities={
     },
     "alt157": {
         "title": "Designing for Others, and the Trap of HCI Methods & Practices",
-        "abstract": "",
+        "abstract": "HCI research often (cl)aims to do good for others, but does it actually? We discuss two cases that exemplify how designing for others can in fact be harmful: the Games Against Health paper by Linehan et al. and the Uninvited Guests video by Superflux. We feel that user-centered methods are often considered as a safe-conduct, simply because the end-user is involved one cannot do wrong. We plead for explicit transparency about the origin of research projects and technology designs to put a critical reflection about underlying values of the work into practice.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Design for others",
+            "Ethics",
+            "HCI",
+            "Origin of work",
+            "Reflective design",
+            "User-centered design."
+        ],
         "authors": [
             {
                 "name": "Bert Vandenberghe",
@@ -44825,9 +43505,17 @@ entities={
     },
     "alt158": {
         "title": "Making the Case for an Existential Perspective in HCI Research on Mortality and Death",
-        "abstract": "",
+        "abstract": "The paper discusses some of the key HCI studies dealing with mortality and death and concludes that the overall research perspective, adopted in most of the studies ? namely, conducting empirical analyses of user practices and trying to improve the practices through iterative cycles of design and evaluation ? is not fully appropriate for understanding the impact of technology on how people experience their own mortality. The paper discusses an alternative research perspective, existential HCI, and argues that adopting that perspective can usefully complement existing studies related to mortality and death. A tentative analysis of ?digital afterlife?, understood as the persistence of a person?s digital possessions and traces beyond the person?s life span, from an existential HCI perspective, is presented. Prospects and challenges for future development of an existential perspective in HCI research are discussed.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Existential HCI",
+            "interaction perspective",
+            "practice perspective",
+            "mortality",
+            "death",
+            "digital afterlife",
+            "digital immortality"
+        ],
         "authors": [
             {
                 "name": "Victor Kaptelinin",
@@ -44849,9 +43537,15 @@ entities={
     },
     "alt159": {
         "title": "Deciphering a Meal through Open Source Standards: Soylent and the Rise of Diet Hackers",
-        "abstract": "",
+        "abstract": "The recent popularity of designed powdered food replacements reveals a full spectrum of issues around healthy eating standards. Along with the growing volume of diverse dietary recommendations available in media, many people find it complicated to recognize what is \"good\" to eat. The consumer community gathered around a DIY powdered food replacement soylent offers a radical response to this information deluge while reducing all available food options into a nutritious powder. The soylent diet is conceived by food amateurs experimenting with their powders and sharing the results in the online user forums. This DIY food-tech phenomenon offers an opportunity to look at the issues around present healthy eating confusions from the HCI perspective. This paper reports findings from in-depth interviews conducted with 21 soylent dieters, with the aim of identifying the risks and opportunities of DIY food-tech practices. ",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Soylent",
+            "Food Culture",
+            "User Innovation",
+            "Open Source",
+            "DIY"
+        ],
         "authors": [
             {
                 "name": "Marketa Dolejsova",
@@ -44904,9 +43598,13 @@ entities={
     },
     "alt164": {
         "title": "An Uninteresting Tour Through Why Our Research Papers Aren't Accessible",
-        "abstract": "",
+        "abstract": "Our research is delivered as Portable Document Format (PDF) documents, and very few include basic metadata to make them accessible to people with disabilities. As a result, many people are either unable to read them efficiently or at all. Over the past few years, we have tried everything from writing guidelines and giving accessibility feedback, to enforcing accessibility standards and volunteering to make PDFs accessible ourselves. The problem with making PDFs accessible is in part due to the lack of good tools, but the complexity of the PDF format makes improving tools difficult. Making accessible research papers is as much about our choices as a community: our choice of publication format, and our choice to make accessibility a voluntary task for authors. In this paper, we overview the context in which PDFs became our publication format, the difficulty in making PDF documents accessible given current tools, what we have tried to make our PDFs more accessible, and potential options for doing better in the future.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Research papers",
+            "accessibility",
+            "PDF"
+        ],
         "authors": [
             {
                 "name": "Jeffrey P Bigham",
@@ -44976,9 +43674,13 @@ entities={
     },
     "alt165": {
         "title": "The Solution Printer: Magic Realist Design Fiction",
-        "abstract": "",
+        "abstract": "This paper is presented as a ?design fiction? because nobody would accept these findings in any other form though they are as true as anything else published at CHI. It begins with empirical investigations into the infamous dream simultaneously experienced by thousands of people. We describe the development of a device designed to capture images from that extraordinary dream. This was a prop, or diegetic prototype that unexpectedly began to work. We then report a range of other fictional devices developed at the Solutionist Studio which began to function as described. We argue that the line between fiction and reality has become entirely porous.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Design Fiction",
+            "Research Through Design",
+            "Magic"
+        ],
         "authors": [
             {
                 "name": "Enrique Encinas",
@@ -45012,9 +43714,15 @@ entities={
     },
     "alt166": {
         "title": "Making It Real: Towards Practical Progress in the Management of Personal Information",
-        "abstract": "",
+        "abstract": "Discussion of a need for and potential of a study of human-information interaction is decades old. However, this discussion gains added impetus as computing technology and advances in HCI improve the transparency of access to information and ?liberate? this information from dependency on a specific device for its persistence. But personal information is bound in other ways, most notably to a supporting application or service and in ways that resist ?liberation?. This paper argues for a ?let it lie? approach where a new class of applications might be ?applied? to the information in situ through an API supported by its hosting application or service. The approach is illustrated through review of an itemMirror platform for the development of JavaScript web applications.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "Human-information interaction (HII)",
+            "human-computer interaction (HCI)",
+            "personal information management (PIM)",
+            "JavaScript",
+            "Web application framework."
+        ],
         "authors": [
             {
                 "name": "William Jones",
@@ -45072,14 +43780,19 @@ entities={
     },
     "alt178": {
         "title": "After death: Big Data and the promise of Resurrection by Proxy",
-        "abstract": "",
+        "abstract": "With the advent of Big Data and the possibility of capturing massive personal data it is possible to simulate some aspects of a person's personality. The imitation game is based on the observation that it is possible to convince a person of a fake identity if sufficient information is available about the identity being faked. Imitation is however not limited to a person who is alive but also a person who is not alive; the question of simulating a deceased person for the purpose of having the simulation interact with a person is addressed. Various challenges and background considerations for such an endeavor are discussed. The goal of the paper is to open up discussion on this subject and examine its feasibility.",
         "cAndB": "",
-        "keywords": [],
+        "keywords": [
+            "ata after death",
+            "Death",
+            "Techno-social Systems",
+            "Postmortem data"
+        ],
         "authors": [
             {
                 "name": "Muhammad A Ahmad",
                 "givenName": "Muhammad",
-                "middleInitial": "A",
+                "middleInitial": "Aurangzeb",
                 "familyName": "Ahmad",
                 "dept": "Computer Science",
                 "institution": "University of Minnesota",
@@ -45094,8 +43807,235 @@ entities={
         "award": false,
         "hm": false
     },
-    "course156": {
-        "title": "course156",
+    "sdc-judge": {
+        "title": "Student Design Competition (Closed Judging Session)",
+        "abstract": "Students will present their posters in this closed judging session, for the jury and competitors only.",
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "src-judge": {
+        "title": "Student Research Competition (Closed Judging Session)",
+        "abstract": "Students will present their posters in this closed judging session, for the jury and competitors only.",
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "src": {
+        "title": "Student Research Competition",
+        "abstract": "The CHI 2016 Student Research Competition (SRC) is a branch of the ACM Student Research Competition. It is a forum for undergraduate and graduate students to showcase their research, exchange ideas, and improve their communication skills.",
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "sdc": {
+        "title": "Student Design Competition",
+        "abstract": "The CHI 2016 Student Design Competition (SDC) challenges students to design an object, interface, system, or service related to bodydata: the qualities of the quantified self.",
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "sgc": {
+        "title": "Student Game Competition",
+        "abstract": "The CHI 2016 Student Game Competition (SGC) provides an opportunity for students from a variety of backgrounds (HCI, computer science, game design, fine arts) to participate in CHI and demonstrate their game design and development skills in an international competition.",
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": "special",
+        "subtype": "special",
+        "award": false,
+        "hm": false
+    },
+    "null": {
+        "title": null,
+        "abstract": [],
+        "cAndB": [],
+        "keywords": [],
+        "authors": [],
+        "type": null,
+        "subtype": null,
+        "award": false,
+        "hm": false
+    },
+    "pan124": {
+        "title": "AMA: CHI Chairs",
+        "abstract": "No abstract provided.",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Jofish Kaye",
+                "givenName": "Jofish",
+                "middleInitial": "",
+                "familyName": "Kaye",
+                "dept": "",
+                "institution": "Yahoo",
+                "city": "Sunnyvale",
+                "country": "United States",
+                "affiliation": "Yahoo",
+                "location": "Sunnyvale, United States"
+            },
+            {
+                "name": "Allison Druin",
+                "givenName": "Allison",
+                "middleInitial": "",
+                "familyName": "Druin",
+                "dept": "",
+                "institution": "University of Maryland, College Park",
+                "city": "College Park",
+                "country": "United States",
+                "affiliation": "University of Maryland, College Park",
+                "location": "College Park, United States"
+            },
+            {
+                "name": "Cliff Lampe",
+                "givenName": "Cliff",
+                "middleInitial": "",
+                "familyName": "Lampe",
+                "dept": "",
+                "institution": "University of Michigan",
+                "city": "Ann Arbor",
+                "country": "United States",
+                "affiliation": "University of Michigan",
+                "location": "Ann Arbor, United States"
+            },
+            {
+                "name": "Gloria Mark",
+                "givenName": "Gloria",
+                "middleInitial": "",
+                "familyName": "Mark",
+                "dept": "",
+                "institution": "University of California, Irvine",
+                "city": "Irvine",
+                "country": "United States",
+                "affiliation": "University of California, Irvine",
+                "location": "Irvine, United States"
+            },
+            {
+                "name": "Susan Fussell",
+                "givenName": "Susan",
+                "middleInitial": "",
+                "familyName": "Fussell",
+                "dept": "",
+                "institution": "Cornell University",
+                "city": "Ithaca",
+                "country": "United States",
+                "affiliation": "Cornell University",
+                "location": "Ithaca, United States"
+            },
+            {
+                "name": "Regan Mandryk",
+                "givenName": "Regan",
+                "middleInitial": "",
+                "familyName": "Mandryk",
+                "dept": "",
+                "institution": "University of Saskatchewan",
+                "city": "Saskatchewan",
+                "country": "Canada",
+                "affiliation": "University of Saskatchewan",
+                "location": "Saskatchewan, Canada"
+            }
+        ],
+        "type": "panel",
+        "subtype": "panel",
+        "award": false,
+        "hm": false
+    },
+    "course152": {
+        "title": "Visual Facilitation for Design Groups",
+        "abstract": "CHI2016 Workshop: Visual Facilitation for Design Groups Course Overview:  Introduction to visual facilitation for design groups, enables leaders to catalyze innovation in groups by (1) aggregating ideas creatively in a visual tableau (2) activating human-system elements of design through somatic expression, (3) enabling multiple cognitive inputs, (4) modeling the fundamentals of innovation such as risk-taking, open-ended inquiry, vulnerability, and pattern-finding. This is a highly experiential course, based on the cognitive apprenticeship approach to learning. Participants will work on large paper altogether and in small groups. Introduction   Human factors are increasingly complex in computer-human interaction. Effectiveness depends on the ability of designers to reach a diverse audience, including cognitive diversity. Design teams often are facing this challenge by including greater diversity in their groups. But to succeed, they must learn to leverage multiple perspectives, and enable team members to stretch their thinking, transcending unconscious biases and the limits of their own training and experience. To accomplish this requires techniques that support people of different personality traits, cultural backgrounds, and cognitive attributes to express their best ideas in an environment that is interpersonally supportive as well as intellectually rigorous. Visual facilitation enables this through: (1) The use of free-hand, simple imagery that expresses the essence of ideas before they are fully formed. The imperfect nature of a quick visual conveys that ideas are in process rather than fully-formed. This encourages the sharing of emerging concepts so that collaboration can occur earlier in the design process. (2) Methods that enable people to contribute their ideas multiple ways that allow full expression for diverse personality and cultural styles. (3) At the meta-level, the deeply human and ancient practice of communicating visually creates a design atmosphere likely to produce more human-friendly products. Benefits  Participants will be empowered to access the collective intelligence of their teams, and to develop a co-creative (as opposed to group-think) environment for problem-solving and innovative design. ",
+        "cAndB": "By learning facilitation techniques, designers are empowered to access the collective intelligence of their teams, developing a co-creative (as opposed to group-think) environment for problem-solving and innovative design. ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Eileen M Clegg",
+                "givenName": "Eileen",
+                "middleInitial": "M.",
+                "familyName": "Clegg",
+                "dept": "",
+                "institution": "Visual Insight",
+                "city": "Bodega Bay",
+                "country": "USA",
+                "affiliation": "Visual Insight",
+                "location": "Bodega Bay, USA"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course119": {
+        "title": "Visual Analytics 101 (1/2)",
+        "abstract": "This course will introduce the field of Visual Analytics to HCI researchers and practitioners highlighting the contributions they can make to this field.  Topics will include a definition of visual analytics along with examples of current systems, types of tasks and end users, issues in defining user requirements, design of visualizations and interactions, guidelines and heuristics, the current state of user-centered evaluations, and metrics for evaluation.  We encourage designers, HCI researchers, and HCI practitioners to attend to learn how their skills can contribute to advancing the state of the art of visual analytics. ",
+        "cAndB": "This course will introduce HCI researchers and practitioners to the field of visual analytics, including the current state of the art and the opportunities available for HCI work.  ",
+        "keywords": [
+            "Visual Analytics Environments",
+            "user requirements",
+            "design of visualizations and interactions",
+            "evaluation."
+        ],
+        "authors": [
+            {
+                "name": "Russ Burtner",
+                "givenName": "Russ",
+                "middleInitial": "",
+                "familyName": "Burtner",
+                "dept": "",
+                "institution": "Pacific Northwest National Laboratory",
+                "city": "Richland",
+                "country": "United States",
+                "affiliation": "Pacific Northwest National Laboratory",
+                "location": "Richland, United States"
+            },
+            {
+                "name": "Kris Cook",
+                "givenName": "Kris",
+                "middleInitial": "",
+                "familyName": "Cook",
+                "dept": "",
+                "institution": "Pacific Northwest National Laboratory",
+                "city": "Richland",
+                "country": "United States",
+                "affiliation": "Pacific Northwest National Laboratory",
+                "location": "Richland, United States"
+            },
+            {
+                "name": "Jean Scholtz",
+                "givenName": "Jean",
+                "middleInitial": "",
+                "familyName": "Scholtz",
+                "dept": "",
+                "institution": "Pacific Northwest National Laboratory",
+                "city": "Richland",
+                "country": "United States",
+                "affiliation": "Pacific Northwest National Laboratory",
+                "location": "Richland, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course196": {
+        "title": "Visual Analytics 101 (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45105,8 +44045,47 @@ entities={
         "award": false,
         "hm": false
     },
-    "course157": {
-        "title": "course157",
+    "course101": {
+        "title": "Personal Fabrication: State of the Art and Future Research",
+        "abstract": "Personal fabrication is an emerging research field in Human Computer Interaction and related disciplines. Within the last three years, an increasing number of papers have been published that branch out into different research directions. To maximize the impact HCI researchers can have on this emerging field, it is important to identify the grand challenges and then approach them in a focused way. In order to understand what trajectory fabrication can be expected to follow, we analyze state-of-the-art research and draw an analogy to similar trends we have seen in the history of personal computing. As a result, we identified five challenges for fabrication research: (1) material, (2) interactivity, (3) domain knowledge, (4) sustainability, and (5) intellectual property. At the end of the course, participants will have an in-depth understanding of state of the art research in personal fabrication and will be aware of open research question in the field that they might want to tackle in their future research.  ",
+        "cAndB": "In this course, we analyze state-of-the-art research in personal fabrication and provide a road-map for future research.",
+        "keywords": [
+            "personal fabrication",
+            "vision-driven research. \\\\"
+        ],
+        "authors": [
+            {
+                "name": "Stefanie Mueller",
+                "givenName": "Stefanie",
+                "middleInitial": "",
+                "familyName": "Mueller",
+                "dept": "",
+                "institution": "Hasso Plattner Institute",
+                "city": "Potsdam",
+                "country": "Germany",
+                "affiliation": "Hasso Plattner Institute",
+                "location": "Potsdam, Germany"
+            },
+            {
+                "name": "Patrick Baudisch",
+                "givenName": "Patrick",
+                "middleInitial": "",
+                "familyName": "Baudisch",
+                "dept": "",
+                "institution": "Hasso Plattner Institute",
+                "city": "Potsdam",
+                "country": "Germany",
+                "affiliation": "Hasso Plattner Institute",
+                "location": "Potsdam, Germany"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course192": {
+        "title": "Game User Experience Evaluation (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45116,8 +44095,156 @@ entities={
         "award": false,
         "hm": false
     },
-    "course158": {
-        "title": "course158",
+    "course102": {
+        "title": "Introduction to Creating Musical Interfaces (1/2)",
+        "abstract": "This course provides a general, gentle, and fun introduction to the theory and practice of interface design for creating and performing music. Participants will learn key aspects of the theory and practice of musical interface design by studying case studies and live demonstrations mostly sourced from the leading conference in this area, \"New Interfaces for Musical Expression\" (NIME).",
+        "cAndB": "This course provides a gentle and fun introduction to the practice of musical interface design. Participants will gain sufficient knowledge of tools and methods to start their own projects.",
+        "keywords": [
+            "Music",
+            "Art",
+            "Technology",
+            "Interactive",
+            "Interface",
+            "HCI"
+        ],
+        "authors": [
+            {
+                "name": "Michael J Lyons",
+                "givenName": "Michael",
+                "middleInitial": "J",
+                "familyName": "Lyons",
+                "dept": "",
+                "institution": "Ritsumeikan University",
+                "city": "Kyoto",
+                "country": "Japan",
+                "affiliation": "Ritsumeikan University",
+                "location": "Kyoto, Japan"
+            },
+            {
+                "name": "Sidney S Fels",
+                "givenName": "Sidney",
+                "middleInitial": "S",
+                "familyName": "Fels",
+                "dept": "",
+                "institution": "University of British Columbia",
+                "city": "Vancouver",
+                "country": "Canada",
+                "affiliation": "University of British Columbia",
+                "location": "Vancouver, Canada"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course140": {
+        "title": "An Introduction to Automotive User Interfaces (1/2)",
+        "abstract": "The objective of this course is to provide newcomers to Automotive User Interfaces with an introduction and overview of the field. The course will introduce the specifics and challenges of In-Vehicle User Interfaces that set this field apart from others. We will provide an overview of the specific requirements of AutomotiveUI, discuss the design of such interfaces, also with regard to standards and guidelines. We further outline how to evaluate interfaces in the car, discuss the challenges with upcoming automated driving and present trends and challenges in this domain.",
+        "cAndB": "This course introduces automotive user interfaces as an HCI subfield. We present an overview of the specific requirements of this field and explain how to design and evaluate such interfaces.",
+        "keywords": [
+            "Automotive User Interfaces",
+            "in-car user interfaces",
+            "car driv- ing",
+            "manual and automated driving"
+        ],
+        "authors": [
+            {
+                "name": "Bastian Pfleging",
+                "givenName": "Bastian",
+                "middleInitial": "",
+                "familyName": "Pfleging",
+                "dept": "Human-Machine Interaction Group",
+                "institution": "University of Munich (LMU)",
+                "city": "Munich",
+                "country": "Germany",
+                "affiliation": "Human-Machine Interaction Group, University of Munich (LMU)",
+                "location": "Munich, Germany"
+            },
+            {
+                "name": "Nora Broy",
+                "givenName": "Nora",
+                "middleInitial": "",
+                "familyName": "Broy",
+                "dept": "BMW Group, Munich, Germany",
+                "institution": "BMW Group, Munich, Germany",
+                "city": "Munich",
+                "country": "Germany",
+                "affiliation": "BMW Group, Munich, Germany, BMW Group, Munich, Germany",
+                "location": "Munich, Germany"
+            },
+            {
+                "name": "Andrew L Kun",
+                "givenName": "Andrew",
+                "middleInitial": "L",
+                "familyName": "Kun",
+                "dept": "",
+                "institution": "University of New Hampshire",
+                "city": "Durham",
+                "country": "United States",
+                "affiliation": "University of New Hampshire",
+                "location": "Durham, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course139": {
+        "title": "Interaction Design for Online Video and Television (1/2)",
+        "abstract": "This course will teach attendees how to design and evaluate interaction with online video and television. It provides attendees a pragmatic toolset, including techniques and guidelines, which can be directly applied in practice. The different tools will be contextualized based on current developments, giving participants a complete overview of the state of the art and industry.",
+        "cAndB": "Teaches attendees how to design and evaluate interaction with online video and television. It provides a pragmatic toolset, including techniques and guidelines, which can be directly applied in practice.",
+        "keywords": [
+            "Interactive TV",
+            "online video",
+            "interaction design"
+        ],
+        "authors": [
+            {
+                "name": "David Geerts",
+                "givenName": "David",
+                "middleInitial": "",
+                "familyName": "Geerts",
+                "dept": "",
+                "institution": "K.U.Leuven",
+                "city": "Leuven",
+                "country": "Belgium",
+                "affiliation": "K.U.Leuven",
+                "location": "Leuven, Belgium"
+            },
+            {
+                "name": "Pablo Cesar",
+                "givenName": "Pablo",
+                "middleInitial": "",
+                "familyName": "Cesar",
+                "dept": "CWI (Centrum voor Wiskunde en Informatica), Amsterdam, The Netherlands",
+                "institution": "",
+                "city": "",
+                "country": "",
+                "affiliation": "CWI (Centrum voor Wiskunde en Informatica), Amsterdam, The Netherlands",
+                "location": ""
+            },
+            {
+                "name": "Marianna Obrist",
+                "givenName": "Marianna",
+                "middleInitial": "",
+                "familyName": "Obrist",
+                "dept": "School of Engineering and Informatics",
+                "institution": "University of Sussex",
+                "city": "Brighton",
+                "country": "United Kingdom",
+                "affiliation": "School of Engineering and Informatics, University of Sussex",
+                "location": "Brighton, United Kingdom"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course229": {
+        "title": "Interaction Design for Online Video and Television (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45127,8 +44254,61 @@ entities={
         "award": false,
         "hm": false
     },
-    "course159": {
-        "title": "course159",
+    "course114": {
+        "title": "Make This! Introduction to Electronics Prototyping Using Arduino (1/2)",
+        "abstract": "This course is a hands-on introduction to interactive electronics prototyping for people with a variety of backgrounds, including those with no prior experience in electronics. Familiarity with programming is helpful, but not required. Participants learn basic electronics, microcontroller programming and physical prototyping using the Arduino platform, then use digital and analog sensors, LED lights and motors to build, program and customize a small paper robot.",
+        "cAndB": "Hands-on introduction to interactive electronics prototyping, covering basic electronics, microcontroller programming and physical prototyping. No experience necessary. Participants use sensors, LEDs and motors to build a small paper robot.",
+        "keywords": [
+            "Interaction design",
+            "prototyping",
+            "Arduino",
+            "robot"
+        ],
+        "authors": [
+            {
+                "name": "David Sirkin",
+                "givenName": "David",
+                "middleInitial": "",
+                "familyName": "Sirkin",
+                "dept": "Center for Design Research",
+                "institution": "Stanford University",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Center for Design Research, Stanford University",
+                "location": "Palo Alto, United States"
+            },
+            {
+                "name": "Nikolas Martelaro",
+                "givenName": "Nikolas",
+                "middleInitial": "",
+                "familyName": "Martelaro",
+                "dept": "Center for Design Research",
+                "institution": "Stanford University",
+                "city": "Stanford",
+                "country": "United States",
+                "affiliation": "Center for Design Research, Stanford University",
+                "location": "Stanford, United States"
+            },
+            {
+                "name": "Wendy Ju",
+                "givenName": "Wendy",
+                "middleInitial": "",
+                "familyName": "Ju",
+                "dept": "",
+                "institution": "Stanford University",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Stanford University",
+                "location": "Palo Alto, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course198": {
+        "title": "An Introduction to Automotive User Interfaces (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45138,8 +44318,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course160": {
-        "title": "course160",
+    "course197": {
+        "title": "Introduction to Creating Musical Interfaces (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45149,8 +44329,120 @@ entities={
         "award": false,
         "hm": false
     },
-    "course161": {
-        "title": "course161",
+    "course106": {
+        "title": "Designing Technology to Foster Psychological Wellbeing (1/2)",
+        "abstract": "As the focus in HCI has moved from functionality to usability to the user experience, we have moved toward greater human-centerdness. In a newest iteration, we are beginning to acknowledge the psychological impact that our pervasive technologies have on us. Rather than assuming negative impact is inevitable, as designers we are in a position to actively recruit digital experience to help us thrive. By turning to well-established methods in fields such as psychology, neuroscience, and economics, we can begin to design, and develop new technologies to foster psychological wellbeing and human potential -- an area of research and practice we have referred to as positive computing [1]. In this course we will explore approaches to evaluating and designing for wellbeing determinants like autonomy [3,5], competence [5], connectedness [5], meaning [4], and compassion [2], as a first step towards a future in which all digital experience supports flourishing.",
+        "cAndB": "Review theoretical foundations on wellbeing in multiple disciplines.  Discuss Practical frameworks, with a multidimensional view for integrating it into ideation, analysis, and evaluation of new technologies. ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Rafael A Calvo",
+                "givenName": "Rafael",
+                "middleInitial": "A.",
+                "familyName": "Calvo",
+                "dept": "School of Electrical and Information Engineering",
+                "institution": "The University of Sydney",
+                "city": "Sydney",
+                "country": "Australia",
+                "affiliation": "School of Electrical and Information Engineering, The University of Sydney",
+                "location": "Sydney, Australia"
+            },
+            {
+                "name": "Dorian Peters",
+                "givenName": "Dorian",
+                "middleInitial": "",
+                "familyName": "Peters",
+                "dept": "School of Electrical and Information Engineering",
+                "institution": "University of Sydney",
+                "city": "Sydney",
+                "country": "Australia",
+                "affiliation": "School of Electrical and Information Engineering, University of Sydney",
+                "location": "Sydney, Australia"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course109": {
+        "title": "User Story Mapping: The Hands-on Course (1/2)",
+        "abstract": "Agile development practice breaks requirements down into small building blocks that are used to steer development and product progress. However, with this pile of small blocks it can be challenging to keep the big picture of what the product should provide and what is needed for users to conduct their task flows. User story mapping [1] addresses this challenge. It is a method and a visual representation that further helps building a bridge between scenario oriented usability methods and the fragmentation of requirements. This hands-on course introduces user story mapping with a balanced combination of up front presentation and group exercises.",
+        "cAndB": "Learn a method that helps you to keep the big picture during agile development (despite the fragmentation of requirements into small building blocks used to steer development).",
+        "keywords": [
+            "Agile UX",
+            "Agile UCD and development",
+            "User story mapping;"
+        ],
+        "authors": [
+            {
+                "name": "Stephanie Foehrenbach",
+                "givenName": "Stephanie",
+                "middleInitial": "",
+                "familyName": "Foehrenbach",
+                "dept": "Zhlke Engineering AG",
+                "institution": "Competence center cross functions, UX team",
+                "city": "Schlieren",
+                "country": "Switzerland",
+                "affiliation": "Zhlke Engineering AG, Competence center cross functions, UX team",
+                "location": "Schlieren, Switzerland"
+            },
+            {
+                "name": "Christian Heldstab",
+                "givenName": "Christian",
+                "middleInitial": "",
+                "familyName": "Heldstab",
+                "dept": "Zhlke Engineering AG",
+                "institution": "Competence center cross functions, UX Team",
+                "city": "Schlieren, Zuerich",
+                "country": "Switzerland",
+                "affiliation": "Zhlke Engineering AG, Competence center cross functions, UX Team",
+                "location": "Schlieren, Zuerich, Switzerland"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course141": {
+        "title": "Designing and Assessing Interactive Systems Using Task Models (1/2)",
+        "abstract": "This two-part course takes a practical approach to introduce attendees to the principles, methods and tools for task modelling.  Part 1: A non-technical introduction demonstrates that task models can be the corner stone of successful design of interactive systems.  Part 2: A more technical interactive hands-on exercise of how to \"do it right\", such as: How to go from task analysis to task models? How to assess (through analysis and simulation) that a task model is correct? How to identify complexity of user tasks and how to reduce it? How to identify tasks that are good candidate for migration either towards automation or other users? How to take into account user errors in task modelling? And more... ",
+        "cAndB": "This two-part course takes a practical approach to introduce principles, methods and tools in tasks modeling providing attendees with information, knowledge and tools to describe and analyze user tasks. ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Philippe Palanque",
+                "givenName": "Philippe",
+                "middleInitial": "",
+                "familyName": "Palanque",
+                "dept": "",
+                "institution": "ICS-IRIT, Universit Paul Sabatier Toulouse 3",
+                "city": "Toulouse",
+                "country": "France",
+                "affiliation": "ICS-IRIT, Universit Paul Sabatier Toulouse 3",
+                "location": "Toulouse, France"
+            },
+            {
+                "name": "Celia Marinie",
+                "givenName": "Celia",
+                "middleInitial": "",
+                "familyName": "Marinie",
+                "dept": "ICS-IRIT",
+                "institution": "University of Toulouse",
+                "city": "Toulouse",
+                "country": "France",
+                "affiliation": "ICS-IRIT, University of Toulouse",
+                "location": "Toulouse, France"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course231": {
+        "title": "Make This! Introduction to Electronics Prototyping Using Arduino (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45160,8 +44452,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course162": {
-        "title": "course162",
+    "course202": {
+        "title": "Designing Technology to Foster Psychological Wellbeing (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45171,8 +44463,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course163": {
-        "title": "course163",
+    "course203": {
+        "title": "User Story Mapping: The Hands-on Course (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45182,8 +44474,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course164": {
-        "title": "course164",
+    "course204": {
+        "title": "Designing and Assessing Interactive Systems Using Task Models (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45193,8 +44485,68 @@ entities={
         "award": false,
         "hm": false
     },
-    "course165": {
-        "title": "course165",
+    "course143": {
+        "title": "Advances in Participatory Design (1/2)",
+        "abstract": "In this course participants are introduced to theory and practice of Participatory Design. The course offers an overview of state of the art in Participatory Design literature, practices and methods, and provides participants with the opportunity to work practically on a Participatory Design case. The instructors have substantial experience in Participatory Design research and practice and have been active members of the PDC community for several decades.",
+        "cAndB": "This course offers an overview of state of the art in Participatory Design literature, practices and methods, and provides participants with the opportunity to work on a Participatory Design case. ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Susanne Bdker",
+                "givenName": "Susanne",
+                "middleInitial": "",
+                "familyName": "Bdker",
+                "dept": "",
+                "institution": "Aarhus University",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "affiliation": "Aarhus University",
+                "location": "Aarhus, Denmark"
+            },
+            {
+                "name": "Christian Dindler",
+                "givenName": "Christian",
+                "middleInitial": "",
+                "familyName": "Dindler",
+                "dept": "",
+                "institution": "Aarhus University",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "affiliation": "Aarhus University",
+                "location": "Aarhus, Denmark"
+            },
+            {
+                "name": "Ole S Iversen",
+                "givenName": "Ole",
+                "middleInitial": "Sejer",
+                "familyName": "Iversen",
+                "dept": "",
+                "institution": "Aarhus University",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "affiliation": "Aarhus University",
+                "location": "Aarhus, Denmark"
+            },
+            {
+                "name": "Kim Halskov",
+                "givenName": "Kim",
+                "middleInitial": "",
+                "familyName": "Halskov",
+                "dept": "",
+                "institution": "Aarhus University",
+                "city": "Aarhus",
+                "country": "Denmark",
+                "affiliation": "Aarhus University",
+                "location": "Aarhus, Denmark"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course233": {
+        "title": "Advances in Participatory Design (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45204,8 +44556,229 @@ entities={
         "award": false,
         "hm": false
     },
-    "course166": {
-        "title": "course166",
+    "course155": {
+        "title": "So, You Want To Be A CHI AC",
+        "abstract": "",
+        "cAndB": "",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Julie A Kientz",
+                "givenName": "Julie",
+                "middleInitial": "A",
+                "familyName": "Kientz",
+                "dept": "Human Centered Design and Engineering",
+                "institution": "University of Washington",
+                "city": "Seattle",
+                "country": "United States",
+                "affiliation": "Human Centered Design and Engineering, University of Washington",
+                "location": "Seattle, United States"
+            },
+            {
+                "name": "Hilary B Hutchinson",
+                "givenName": "Hilary",
+                "middleInitial": "B",
+                "familyName": "Hutchinson",
+                "dept": "Google",
+                "institution": "Google",
+                "city": "Mountain View",
+                "country": "United States",
+                "affiliation": "Google, Google",
+                "location": "Mountain View, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course107": {
+        "title": "Designing for an Aging Population: Toward Universal Design",
+        "abstract": "This course describes age-related factors that affect ability to use the Web, and presents Web design guidelines that reflect the capabilities, usage patterns, and preferences of older Web users.  The course also explains the value of testing websites on older adults.",
+        "cAndB": "This course describes factors that affect older adults' ability to use digital technology, and presents guidelines for designing for people of all ages. ",
+        "keywords": [
+            "Web design",
+            "website",
+            "design",
+            "user interface",
+            "user-centered design",
+            "interaction",
+            "user experience",
+            "human-computer interaction",
+            "universal design",
+            "accessibility",
+            "design guidelines",
+            "demographics",
+            "seniors",
+            "elders",
+            "elderly",
+            "older users",
+            "older adults"
+        ],
+        "authors": [
+            {
+                "name": "Jeff A Johnson",
+                "givenName": "Jeff",
+                "middleInitial": "A",
+                "familyName": "Johnson",
+                "dept": "",
+                "institution": "UI Wizards, Inc",
+                "city": "San Francisco",
+                "country": "United States",
+                "affiliation": "UI Wizards, Inc",
+                "location": "San Francisco, United States"
+            },
+            {
+                "name": "Kate Finn",
+                "givenName": "Kate",
+                "middleInitial": "",
+                "familyName": "Finn",
+                "dept": "Wiser Usability, Inc., Cupertino, CA, United States",
+                "institution": "Wiser Usability, Inc.",
+                "city": "Cupertino",
+                "country": "United States",
+                "affiliation": "Wiser Usability, Inc., Cupertino, CA, United States, Wiser Usability, Inc.",
+                "location": "Cupertino, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course110": {
+        "title": "Empirical Research Methods for Human-Computer Interaction (1/2)",
+        "abstract": "In this two-session course, attendees will learn how to conduct empirical research in human-computer interaction (HCI).  This course delivers an A-to-Z tutorial on designing a user study and demonstrates how to write a successful CHI paper.  It would benefit anyone interested in conducting a user study or writing a CHI paper. Only a general HCI knowledge is required.",
+        "cAndB": "This course teaches how to pose testable research questions, how to design a user study, and how to organize experiment results in a CHI paper.",
+        "keywords": [
+            "Empirical research",
+            "user study",
+            "experiment design",
+            "quantitative methods",
+            "writing a CHI paper"
+        ],
+        "authors": [
+            {
+                "name": "I. Scott MacKenzie",
+                "givenName": "I. Scott",
+                "middleInitial": "",
+                "familyName": "MacKenzie",
+                "dept": "",
+                "institution": "York University",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "York University",
+                "location": "Toronto, Canada"
+            },
+            {
+                "name": "Steven J Castellucci",
+                "givenName": "Steven",
+                "middleInitial": "J.",
+                "familyName": "Castellucci",
+                "dept": "York University, Toronto, Ontario, Canada",
+                "institution": "York University",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "York University, Toronto, Ontario, Canada, York University",
+                "location": "Toronto, Canada"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course149": {
+        "title": "Speech-based Interaction: Myths, Challenges, and Opportunities (1/2)",
+        "abstract": "HCI research has for long been dedicated to better and more naturally facilitating information transfer between humans and machines. Unfortunately, humans' most natural form of communication, speech, is also one of the most difficult modalities to be understood by machines  despite, and perhaps, because it is the highest-bandwidth communication channel we possess. While significant research efforts, from engineering, to linguistic, and to cognitive sciences, have been spent on improving machines' ability to understand speech, the CHI community (and the HCI field at large) has been relatively timid in embracing this modality as a central focus of research. This can be attributed in part to the relatively discouraging levels of accuracy in understanding speech, in contrast with often-unfounded claims of success from industry, but also to the intrinsic difficulty of designing and especially evaluating speech and natural language interfaces. As such, the development of interactive speech-based systems is mostly driven by engineering efforts to improve such systems with respect to largely arbitrary performance metrics. Such developments have often been void of any user-centered design principles or consideration for usability or usefulness. The goal of this course is to inform the CHI community of the current state of speech and natural language research, to dispel some of the myths surrounding speech-based interaction, as well as to provide an opportunity for researchers and practitioners to learn more about how speech recognition and speech synthesis work, what are their limitations, and how they could be used to enhance current interaction paradigms. Through this, we hope that HCI researchers and practitioners will learn how to combine recent advances in speech processing with user-centred principles in designing more usable and useful speech-based interactive systems.",
+        "cAndB": "Learn how speech recognition and synthesis works, what are its limitations and usability challenges, how can it enhance interaction paradigms, and what is the current research and commercial state-of-the-art.",
+        "keywords": [
+            "Speech interaction",
+            "Natural language interaction",
+            "automatic speech recognition",
+            "Natural user interfaces"
+        ],
+        "authors": [
+            {
+                "name": "Cosmin Munteanu",
+                "givenName": "Cosmin",
+                "middleInitial": "",
+                "familyName": "Munteanu",
+                "dept": "ICCIT",
+                "institution": "University of Toronto Mississauga",
+                "city": "Mississauga",
+                "country": "Canada",
+                "affiliation": "ICCIT, University of Toronto Mississauga",
+                "location": "Mississauga, Canada"
+            },
+            {
+                "name": "Gerald Penn",
+                "givenName": "Gerald",
+                "middleInitial": "",
+                "familyName": "Penn",
+                "dept": "Computer Science",
+                "institution": "University of Toronto",
+                "city": "Toronto",
+                "country": "Canada",
+                "affiliation": "Computer Science, University of Toronto",
+                "location": "Toronto, Canada"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course154": {
+        "title": "Interactive Biotechnology: Building your own Biotic Game Setup to Play with Living Microorganisms (1/2)",
+        "abstract": "The advancement of biotechnology enables interactivity with living microorganisms, i.e., turning classic observational microscopy into an interactive experience. This new field of interactive biotechnology enables many media such as educational biology cloud labs, museum exhibits, or biotic video games. In this course we will give an overview of our recent approaches to interactive biology. We will then demonstrate a biotic video game that enables real time play with living cells. We will instruct participants how they can replicate (and modify) this setup, which consists of a DIY microscope containing additionally four LEDs controlled by a joystick to stimulate single celled phototactic organisms. We invite the community to develop games and other interactive applications on this platform, and to bring it to maker spaces and classrooms.",
+        "cAndB": "An overview of Interactive Biotechnology is provided, i.e., how to interact with living microorganisms for various purposes. Participants will be enabled to build and modify such setups themselves.",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Honesty Kim",
+                "givenName": "Honesty",
+                "middleInitial": "",
+                "familyName": "Kim",
+                "dept": "Department of Bioengineering",
+                "institution": "Stanford University",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Department of Bioengineering, Stanford University",
+                "location": "Palo Alto, United States"
+            },
+            {
+                "name": "Lukas C Gerber",
+                "givenName": "Lukas",
+                "middleInitial": "C",
+                "familyName": "Gerber",
+                "dept": "Department of Bioengineering",
+                "institution": "Stanford University",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Department of Bioengineering, Stanford University",
+                "location": "Palo Alto, United States"
+            },
+            {
+                "name": "Ingmar H Riedel-Kruse",
+                "givenName": "Ingmar",
+                "middleInitial": "H",
+                "familyName": "Riedel-Kruse",
+                "dept": "Department of Bioengineering",
+                "institution": "Stanford University",
+                "city": "Palo Alto",
+                "country": "United States",
+                "affiliation": "Department of Bioengineering, Stanford University",
+                "location": "Palo Alto, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course208": {
+        "title": "Empirical Research Methods for Human-Computer Interaction (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45215,8 +44788,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course167": {
-        "title": "course167",
+    "course209": {
+        "title": "Speech-based Interaction: Myths, Challenges, and Opportunities (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45226,8 +44799,89 @@ entities={
         "award": false,
         "hm": false
     },
-    "course168": {
-        "title": "course168",
+    "course104": {
+        "title": "Presumptive Design: Design Thinking In Service of Research (1/3)",
+        "abstract": "Working in small groups, professionals from across the UX spectrum will learn Presumptive Design (PrD), a design-research technique for capturing the unmet and/or unspoken needs of stakeholders, while revealing and vetting the assumptions of the project team. This course covers the theoretical framework of PrD, provides attendees with hands-on experience applying the process to a design problem, introduces the PrD Creation Session, has attendees engage external participants with the artifact in Engagement Sessions and introduces post-engagement analysis activities.",
+        "cAndB": "PrD is an Agile approach, applied upfront during the project definition and strategy phase ::before:: a program is initiated. Unlike Lean UX, PrD permits businesses to pivot before coding begins.",
+        "keywords": [
+            "Presumptive Design",
+            "UX Strategy",
+            "Agile",
+            "ROI"
+        ],
+        "authors": [
+            {
+                "name": "Leo Frishberg",
+                "givenName": "Leo",
+                "middleInitial": "",
+                "familyName": "Frishberg",
+                "dept": "",
+                "institution": "Phase II",
+                "city": "Portland",
+                "country": "United States",
+                "affiliation": "Phase II",
+                "location": "Portland, United States"
+            },
+            {
+                "name": "Charles Lambdin",
+                "givenName": "Charles",
+                "middleInitial": "",
+                "familyName": "Lambdin",
+                "dept": "IT",
+                "institution": "Intel Corporation",
+                "city": "Hillsboro",
+                "country": "United States",
+                "affiliation": "IT, Intel Corporation",
+                "location": "Hillsboro, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course125": {
+        "title": "Mobile UX: Breaking the Glass to Richer User Experiences (1/2)",
+        "abstract": "Apps are changing the world. If you work for a bank, an airline, an art gallery or a even a local coffee shop, youll probably have helped create an app to connect and transact with your customers and visitors. As users, we consume these bite-sized chunks of digital goodness voraciously, with some estimates putting total app downloads to date at over 100 billion. People find apps effective, satisfying and enjoyable. Meeting their needs, filling dead time, solving their problems. So, why are we organising a course that argues for some new thinking? We celebrate the success that is apps, services and the ecology of mobile devices; but, we want to ask the question: what do the current approaches to mobile interaction overlook? Is there more to user experience than can be expressed through todays heads-down, glass blunted and me-centred reality? We have both have had the great fortune to work and collaborate with research labs, practitioners and industry. The aim of this course is to connect the great app innovation that is out there with the sorts of alternative thinking that have been brewing in university and industry labs for several years. It seems obvious how things should develop in the mobile marketmore apps, better screens, longer battery life, faster and faster networks, drawing us more and more towards the tempting pool that leads us to digital worlds that offer so much. We want to help undermine this certainty by challenging attendees to step back and look at alternative perspectives; changing the future but starting now.",
+        "cAndB": "Transform your approach to Mobile UX design by thinking outside the screen, with your users real lives in mind. ",
+        "keywords": [
+            "User Experience",
+            "Mobile",
+            "Design"
+        ],
+        "authors": [
+            {
+                "name": "Matt Jones",
+                "givenName": "Matt",
+                "middleInitial": "",
+                "familyName": "Jones",
+                "dept": "",
+                "institution": "Swansea University",
+                "city": "Swansea",
+                "country": "United Kingdom",
+                "affiliation": "Swansea University",
+                "location": "Swansea, United Kingdom"
+            },
+            {
+                "name": "Simon Robinson",
+                "givenName": "Simon",
+                "middleInitial": "",
+                "familyName": "Robinson",
+                "dept": "",
+                "institution": "Swansea University",
+                "city": "Swansea",
+                "country": "United Kingdom",
+                "affiliation": "Swansea University",
+                "location": "Swansea, United Kingdom"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course213": {
+        "title": "Mobile UX: Breaking the Glass to Richer User Experiences (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45237,8 +44891,129 @@ entities={
         "award": false,
         "hm": false
     },
-    "course169": {
-        "title": "course169",
+    "course123": {
+        "title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces (1/2)",
+        "abstract": "We are witnessing major developments in sensing, processing, and communications that have led toward an integrated composition of the world, in which physical and digital intertwiningly coexist, environments emanate intelligent presence, and interactions dissolve into human behavior in the form of gestures that manipulate the new physical-digital space. This course explores the ways in which home entertainment systems benefit from such technological advances, in the quest to design highly-interactive smart home entertainment spaces. Attendees will be introduced to the fundamental principles of smart spaces and ambient intelligence, augmented reality, and gesture interface design by falling back on examples of designs and applications for home entertainment. Notions such as context awareness, mixed reality, and naturalness of gesture interaction will be clarified for participants in the context of home entertainment. Practical aspects of augmented reality and gesture sensing and recognition technology will be explained and accompanied by examples from research and industry. It is the my hope that this course will prove a valuable source of inspiration for practitioners interested in prototyping novel, highly-interactive smart spaces toward designing our future home entertainment experience.",
+        "cAndB": "Introduces fundamental principles of smart spaces and ambient intelligence, augmented reality, and gesture interface design.",
+        "keywords": [
+            "Home entertainment",
+            "augmented reality",
+            "gestures",
+            "ambient intelligence",
+            "interactive TV",
+            "mixed reality."
+        ],
+        "authors": [
+            {
+                "name": "Radu-Daniel Vatavu",
+                "givenName": "Radu-Daniel",
+                "middleInitial": "",
+                "familyName": "Vatavu",
+                "dept": "",
+                "institution": "University Stefan cel Mare of Suceava",
+                "city": "Suceava",
+                "country": "Romania",
+                "affiliation": "University Stefan cel Mare of Suceava",
+                "location": "Suceava, Romania"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course142": {
+        "title": "User Interface Design In Agile Projects (1/2)",
+        "abstract": "In this enhanced version of our well-received tutorial in NordiCHI14 we will teach the way we design UIs at Reaktor and share our lessons learned from more than 10 years of design in agile projects. No previous knowledge of UI design is required, but the participants should know at least the basics of agile development in order to follow the examples and discussion in the second part.  The course has two parts: First we will teach how to create straightforward UI designs in a systematical fashion. This part focuses on demos and hands-on exercises with a minimal amount of theory, talk and slides. It is based on the GUIDe method and UI design courses that have been taught to hundreds of students at the University of Helsinki and developed further at Reaktor. In the second part we will present our current state of the art in combining design activities (conceptual design, UI design, graphics design, ) with agile development. In the past 10 years, we have tried out many different approaches. We will show practical examples of real projects with their results and illustrate, what practices worked, what did not and why. This part is an interactive lesson - the participants are most welcome to ask a lot of questions during the session. The instructors are all designers at Reaktor, a Finland-based software consultancy with offices in New York, Tokyo and Helsinki. Most of them have been teaching at University of Helsinki, Department of Computer Science. Today, they make sure that the software built at Reaktor solves meaningful and financially viable problems. In practice, they find out what parts of the users work would benefit most of software support and draw straightforward UI solutions for them. ",
+        "cAndB": "The participants are able to create efficient UI designs starting from scratch. They have an idea of how and when to do their design work in an agile project context. ",
+        "keywords": [
+            "UI design",
+            "agile development",
+            "agile design",
+            "hands-on",
+            "interactive lecture"
+        ],
+        "authors": [
+            {
+                "name": "Karri-Pekka Laakso",
+                "givenName": "Karri-Pekka",
+                "middleInitial": "",
+                "familyName": "Laakso",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "name": "Tuomas Husu",
+                "givenName": "Tuomas",
+                "middleInitial": "",
+                "familyName": "Husu",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "name": "Mikko Romppainen",
+                "givenName": "Mikko",
+                "middleInitial": "",
+                "familyName": "Romppainen",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "name": "Janina Fagerlund",
+                "givenName": "Janina",
+                "middleInitial": "",
+                "familyName": "Fagerlund",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "name": "Marju Kettunen",
+                "givenName": "Marju",
+                "middleInitial": "",
+                "familyName": "Kettunen",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "name": "Toni Standell",
+                "givenName": "Toni",
+                "middleInitial": "",
+                "familyName": "Standell",
+                "dept": "Design",
+                "institution": "Reaktor",
+                "city": "Helsinki",
+                "country": "Finland",
+                "affiliation": "Design, Reaktor",
+                "location": "Helsinki, Finland"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course214": {
+        "title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45248,8 +45023,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course170": {
-        "title": "course170",
+    "course215": {
+        "title": "User Interface Design In Agile Projects (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45259,8 +45034,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course171": {
-        "title": "course171",
+    "course224": {
+        "title": "Practical UX Research Methodologies (3/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45270,8 +45045,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course172": {
-        "title": "course172",
+    "course237": {
+        "title": "Presumptive Design: Design Thinking In Service of Research (3/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45281,8 +45056,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course173": {
-        "title": "course173",
+    "course222": {
+        "title": "Creative Worthwhile Interaction Design (3/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45292,8 +45067,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course174": {
-        "title": "course174",
+    "course223": {
+        "title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy (3/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45303,8 +45078,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course175": {
-        "title": "course175",
+    "course236": {
+        "title": "Presumptive Design: Design Thinking In Service of Research (2/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45314,8 +45089,37 @@ entities={
         "award": false,
         "hm": false
     },
-    "course176": {
-        "title": "course176",
+    "course134": {
+        "title": "Creative Worthwhile Interaction Design (1/3)",
+        "abstract": "Over the last two decades, creative and strategic design approaches have become increasingly prevalent in the development of interactive technologies, but tensions exist with longer established approaches such as human factors engineering and user-centered design. These tensions can be harnessed productively by giving equal status in principle to creative, business and engineering practices and developing approaches and resources that can balance and integrate a range of multidisciplinary design practices.",
+        "cAndB": "Covers: disciplinary differences between creative, strategic, technical and human perspectives on interactive software; strategies for applying and integrating diverse perspectives within a dynamic development process (especially creative and worth-focused perspectives)",
+        "keywords": [
+            "Creative Design",
+            "Interaction Design",
+            "Worth Focused Design Approaches",
+            "Balanced Integrated Generous (BIG) Design."
+        ],
+        "authors": [
+            {
+                "name": "Gilbert Cockton",
+                "givenName": "Gilbert",
+                "middleInitial": "",
+                "familyName": "Cockton",
+                "dept": "Northumbria University",
+                "institution": "Northumbria University",
+                "city": "Newcastle upon Tyne",
+                "country": "United Kingdom",
+                "affiliation": "Northumbria University, Northumbria University",
+                "location": "Newcastle upon Tyne, United Kingdom"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course219": {
+        "title": "Creative Worthwhile Interaction Design (2/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45325,8 +45129,109 @@ entities={
         "award": false,
         "hm": false
     },
-    "course177": {
-        "title": "course177",
+    "course122": {
+        "title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy (1/3)",
+        "abstract": "Experiment design is a challenging task for novice and sometimes even more advanced HCI researchers. This course will introduce the field of experimental design and analysis to participants. Participants will be able to design an experiment, implement the experiment, gather data and analyze data during the course. By grounding the course in a real-life exemplar, participants will be able to have practical experience in running a controlled experiment in HCI. The course will be run by a group of HCI researchers and educators who come from a wide range of research traditions including psychology and computer science. They have worked and taught in both educational and industrial institutions.",
+        "cAndB": "In this course, students and researchers will learn about experimental design: how to determine independent/dependent variables, how to counterbalance conditions and do statistics.",
+        "keywords": [
+            "Controlled experimental design",
+            "conduct experiment",
+            "statistical analysis",
+            "Toolkit"
+        ],
+        "authors": [
+            {
+                "name": "Shengdong Zhao",
+                "givenName": "Shengdong",
+                "middleInitial": "",
+                "familyName": "Zhao",
+                "dept": "NUS-HCI Lab",
+                "institution": "National University of Singapore",
+                "city": "Singapore",
+                "country": "Singapore",
+                "affiliation": "NUS-HCI Lab, National University of Singapore",
+                "location": "Singapore, Singapore"
+            },
+            {
+                "name": "Xiaojun Meng",
+                "givenName": "Xiaojun",
+                "middleInitial": "",
+                "familyName": "Meng",
+                "dept": "NUS-HCI Lab",
+                "institution": "National University of Singapore",
+                "city": "Singapore",
+                "country": "Singapore",
+                "affiliation": "NUS-HCI Lab, National University of Singapore",
+                "location": "Singapore, Singapore"
+            },
+            {
+                "name": "Pin Sym Foong",
+                "givenName": "Pin Sym",
+                "middleInitial": "",
+                "familyName": "Foong",
+                "dept": "NUS HCI Lab",
+                "institution": "National University of Singapore",
+                "city": "Singapore",
+                "country": "Singapore",
+                "affiliation": "NUS HCI Lab, National University of Singapore",
+                "location": "Singapore, Singapore"
+            },
+            {
+                "name": "Simon T Perrault",
+                "givenName": "Simon",
+                "middleInitial": "T",
+                "familyName": "Perrault",
+                "dept": "Department of Science",
+                "institution": "Yale-NUS College",
+                "city": "Singapore",
+                "country": "Singapore",
+                "affiliation": "Department of Science, Yale-NUS College",
+                "location": "Singapore, Singapore"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course133": {
+        "title": "Practical UX Research Methodologies (1/3)",
+        "abstract": "Half-Day course on the practical research methods used to understand the changing technology climate.  Experts from UEGroup, a Silicon Valley research and design company, will lead an interactive discussion and give practical suggestions for developing methodologies including: Ethnography, Out of Box Experiences, and Usability Testing.  ",
+        "cAndB": "Gain a more complete and practical understanding of different UX methodologies (OOBE, Ethnography and Usability Testing) and learn when to apply each to accomplish specific research goals.   ",
+        "keywords": [],
+        "authors": [
+            {
+                "name": "Sarah E Garcia",
+                "givenName": "Sarah",
+                "middleInitial": "E",
+                "familyName": "Garcia",
+                "dept": "",
+                "institution": "UEGroup",
+                "city": "San Jose",
+                "country": "United States",
+                "affiliation": "UEGroup",
+                "location": "San Jose, United States"
+            },
+            {
+                "name": "Laura Hammond",
+                "givenName": "Laura",
+                "middleInitial": "",
+                "familyName": "Hammond",
+                "dept": "",
+                "institution": "UEGroup",
+                "city": "San Jose",
+                "country": "United States",
+                "affiliation": "UEGroup",
+                "location": "San Jose, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course188": {
+        "title": "Introduction To Human Computer Interaction (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45336,8 +45241,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course178": {
-        "title": "course178",
+    "course187": {
+        "title": "Designing with the Mind in Mind: The Psychological Basis for UI Design Guidelines (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45347,8 +45252,49 @@ entities={
         "award": false,
         "hm": false
     },
-    "course179": {
-        "title": "course179",
+    "course138": {
+        "title": "Game User Experience Evaluation (1/2)",
+        "abstract": "In a nutshell: This course comprehensively covers important user experience (UX) evaluation methods as well as opportunities and challenges of UX evaluation in the area of entertainment and games. The course is an ideal forum for attendees to gain insight into state-of-the art user experience evaluation methods going way-beyond standard usability and user experience evaluation approaches in the area of human-computer interaction. It surveys and assesses the efforts of user experience evaluation of the gaming and human computer interaction communities during the last 15 years.",
+        "cAndB": "Games User Experience Evaluation helps you discover a multitude of methods that can be use to evaluate your games to make them fun, immersive, challenging and just great games! ",
+        "keywords": [
+            "user experience",
+            "games",
+            "entertainment",
+            "evaluation method"
+        ],
+        "authors": [
+            {
+                "name": "Regina Bernhaupt",
+                "givenName": "Regina",
+                "middleInitial": "",
+                "familyName": "Bernhaupt",
+                "dept": "",
+                "institution": "ruwido",
+                "city": "Neumarkt",
+                "country": "Austria",
+                "affiliation": "ruwido",
+                "location": "Neumarkt, Austria"
+            },
+            {
+                "name": "Florian Mueller",
+                "givenName": "Florian",
+                "middleInitial": "",
+                "familyName": "Mueller",
+                "dept": "Exertion Games Lab, RMIT University, Melbourne, Victoria, Australia",
+                "institution": "RMIT University",
+                "city": "Melbourne",
+                "country": "Australia",
+                "affiliation": "Exertion Games Lab, RMIT University, Melbourne, Victoria, Australia, RMIT University",
+                "location": "Melbourne, Australia"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course220": {
+        "title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy (2/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45358,8 +45304,8 @@ entities={
         "award": false,
         "hm": false
     },
-    "course180": {
-        "title": "course180",
+    "course221": {
+        "title": "Practical UX Research Methodologies (2/3)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45369,8 +45315,180 @@ entities={
         "award": false,
         "hm": false
     },
-    "course181": {
-        "title": "course181",
+    "course112": {
+        "title": "Hands-on introduction to interactive electric muscle stimulation",
+        "abstract": "In this course, participants create their own prototypes using electrical-muscle stimulation. We provide a ready-to-use device and toolkit consisting of electrodes, microcontroller, and an off-the-shelve muscle stimulator that allows for programmatically actuating the users muscles directly from mobile devices.",
+        "cAndB": "In this workshop we present electrical-muscle stimulation in a hands-on experience. We provide a ready-to-use device and tool kit, which allows to quickly prototype your ideas. ",
+        "keywords": [
+            "haptics",
+            "EMS",
+            "virtual reality"
+        ],
+        "authors": [
+            {
+                "name": "Pedro Lopes",
+                "givenName": "Pedro",
+                "middleInitial": "",
+                "familyName": "Lopes",
+                "dept": "",
+                "institution": "Hasso Plattner Institute",
+                "city": "Potsdam",
+                "country": "Germany",
+                "affiliation": "Hasso Plattner Institute",
+                "location": "Potsdam, Germany"
+            },
+            {
+                "name": "Max Pfeiffer",
+                "givenName": "Max",
+                "middleInitial": "",
+                "familyName": "Pfeiffer",
+                "dept": "",
+                "institution": "University of Hannover",
+                "city": "Hannover",
+                "country": "Germany",
+                "affiliation": "University of Hannover",
+                "location": "Hannover, Germany"
+            },
+            {
+                "name": "Michael Rohs",
+                "givenName": "Michael",
+                "middleInitial": "",
+                "familyName": "Rohs",
+                "dept": "",
+                "institution": "University of Hannover",
+                "city": "Hannover",
+                "country": "Germany",
+                "affiliation": "University of Hannover",
+                "location": "Hannover, Germany"
+            },
+            {
+                "name": "Patrick Baudisch",
+                "givenName": "Patrick",
+                "middleInitial": "",
+                "familyName": "Baudisch",
+                "dept": "",
+                "institution": "Hasso Plattner Institute",
+                "city": "Potsdam",
+                "country": "Germany",
+                "affiliation": "Hasso Plattner Institute",
+                "location": "Potsdam, Germany"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course151": {
+        "title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologists Perspective",
+        "abstract": "There is a new urgency to measure subtle age-related cognitive dysfunction with discoveries that amyloid pathology afflicts the brain 20 years before Alzheimers dementia and more recently that drug infusions can reduce amyloid.  Measuring mental processes in controlled laboratory environments has yielded rich insights; however, there is a growing awareness of the importance of complimenting this work with study in real life contexts to understand everyday functioning.  In fact the diagnosis of dementia is critically dependent on the measure of functional decline and clinicians have long struggled to define this effectively.  This course will be an introduction to the current state of clinical diagnosis of age-related cognitive declines and dementia with the goal of facilitating effective collaboration between computer scientists and clinicians to help older adults.  The following topics will be covered.  How do we define dysfunctional cognition and dementia clinically?  How does a clinician approach diagnosis and what are the major types of dementia and age-related cognitive disorders defined?  What is a clinical measure and how do we develop them?  How are clinical measures used?  What are the major research directions ongoing to treat and prevent age-related declines (e.g. brain stimulation, exercise, medications, diet)?  What are some key ethical issues that clinicians consider in working the novel technologies?",
+        "cAndB": "Alzheimers disease begins in midlife and affects almost 40% of us by age 85.  Attendees about will learn current and future domains where computer science can complement existing practice.",
+        "keywords": [
+            "Seniors",
+            "Alzheimers Dementia",
+            "Neuropsychology",
+            "Cognition."
+        ],
+        "authors": [
+            {
+                "name": "Allyson Rosen",
+                "givenName": "Allyson",
+                "middleInitial": "",
+                "familyName": "Rosen",
+                "dept": "Psychiatry and Behavioral Sciences",
+                "institution": "Stanford University",
+                "city": "Stanford",
+                "country": "United States",
+                "affiliation": "Psychiatry and Behavioral Sciences, Stanford University",
+                "location": "Stanford, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course132": {
+        "title": "Introduction To Human Computer Interaction (1/2)",
+        "abstract": "The objective of this course is to provide newcomers to Human-Computer Interaction (HCI) with an introduction and overview of the field. In addition to introducing basic concepts, the course will provide enough structure to help understand how the advanced material in the CHI 2016 technical program fits into the overall field.",
+        "cAndB": "This course provides a foundation for understanding the field of HCI and core concepts, and it is geared primarily towards newcomers to the CHI conference.  ",
+        "keywords": [
+            "Human-Computer Interaction",
+            "Usability",
+            "User Experience"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Lazar",
+                "givenName": "Jonathan",
+                "middleInitial": "",
+                "familyName": "Lazar",
+                "dept": "",
+                "institution": "Towson University",
+                "city": "Towson",
+                "country": "United States",
+                "affiliation": "Towson University",
+                "location": "Towson, United States"
+            },
+            {
+                "name": "Simone D Barbosa",
+                "givenName": "Simone",
+                "middleInitial": "D J",
+                "familyName": "Barbosa",
+                "dept": "Departamento de Informtica",
+                "institution": "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
+                "city": "Rio de Janeiro",
+                "country": "Brazil",
+                "affiliation": "Departamento de Informtica, Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
+                "location": "Rio de Janeiro, Brazil"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course103": {
+        "title": "Designing with the Mind in Mind: The Psychological Basis for UI Design Guidelines (1/2)",
+        "abstract": "UI design rules and guidelines are not simple recipes.  Applying them effectively requires determining rule applicability and precedence and balancing trade-offs when rules compete.  By understanding the underlying psychology, designers and evaluators enhance their ability to apply design rules. This two-part (160-minute) course explains that psychology.",
+        "cAndB": "By understanding the psychology behind UI design guidelines, designers and evaluators enhance their ability to apply the guidelines. This course explains that psychology.",
+        "keywords": [
+            "Psychology",
+            "perception",
+            "cognition",
+            "memory",
+            "learning",
+            "attention",
+            "design",
+            "user interface",
+            "user-centered design",
+            "interaction",
+            "user experience",
+            "human-computer interaction",
+            "design guidelines",
+            "design heuristics"
+        ],
+        "authors": [
+            {
+                "name": "Jeff A Johnson",
+                "givenName": "Jeff",
+                "middleInitial": "A",
+                "familyName": "Johnson",
+                "dept": "",
+                "institution": "UI Wizards, Inc",
+                "city": "San Francisco",
+                "country": "United States",
+                "affiliation": "UI Wizards, Inc",
+                "location": "San Francisco, United States"
+            }
+        ],
+        "type": "course",
+        "subtype": "course",
+        "award": false,
+        "hm": false
+    },
+    "course226": {
+        "title": "Research Methods for Child Computer Interaction (2/2)",
         "abstract": [],
         "cAndB": [],
         "keywords": [],
@@ -45380,25 +45498,118 @@ entities={
         "award": false,
         "hm": false
     },
-    "course182": {
-        "title": "course182",
-        "abstract": [],
-        "cAndB": [],
-        "keywords": [],
-        "authors": [],
+    "course130": {
+        "title": "Research Methods for Child Computer Interaction (1/2)",
+        "abstract": "In this course participants will learn about the theory and practice of conducting research in childrens HCI. The course is divided into two sessions: basic principles and theory, and best practices. The instructors have multiple years of experience designing, conducting, and analyzing children-computer interaction (CCI) studies, in the UK, USA, and Israel.",
+        "cAndB": "This course describes common methods for use in research with children and it highlights tips and concerns ensuring those attending are well equipped to work with children in HCI",
+        "keywords": [
+            "CCI",
+            "children",
+            "research methods",
+            "age-appropriate design",
+            "user testing",
+            "ethnography"
+        ],
+        "authors": [
+            {
+                "name": "Janet C Read",
+                "givenName": "Janet",
+                "middleInitial": "C",
+                "familyName": "Read",
+                "dept": "School of Computing, Engineering and Physical Science",
+                "institution": "University of Central Lancashire",
+                "city": "Preston",
+                "country": "United Kingdom",
+                "affiliation": "School of Computing, Engineering and Physical Science, University of Central Lancashire",
+                "location": "Preston, United Kingdom"
+            },
+            {
+                "name": "Shuli Gilutz",
+                "givenName": "Shuli",
+                "middleInitial": "",
+                "familyName": "Gilutz",
+                "dept": "",
+                "institution": "Tel-Aviv University",
+                "city": "Tel - Aviv",
+                "country": "Israel",
+                "affiliation": "Tel-Aviv University",
+                "location": "Tel - Aviv, Israel"
+            }
+        ],
         "type": "course",
         "subtype": "course",
         "award": false,
         "hm": false
     },
-    "course183": {
-        "title": "course183",
-        "abstract": [],
-        "cAndB": [],
+    "pan125": {
+        "title": "User Experience (UX) in India - 'We are Not Like This Only' - We are World Class and Much More!",
+        "abstract": "No abstract provided.",
+        "cAndB": "",
         "keywords": [],
-        "authors": [],
-        "type": "course",
-        "subtype": "course",
+        "authors": [
+            {
+                "name": "Apala Lahiri Chavan",
+                "givenName": "Apala",
+                "middleInitial": "",
+                "familyName": "Lahiri Chavan",
+                "dept": "",
+                "institution": "Human Factors International",
+                "city": "Mumbai",
+                "country": "India",
+                "affiliation": "Human Factors International",
+                "location": "Mumbai, India"
+            },
+            {
+                "name": "Girish Prabhu",
+                "givenName": "Girish",
+                "middleInitial": "",
+                "familyName": "Prabhu",
+                "dept": "",
+                "institution": "Srishti Labs (Center  For Human Centered Innovation  And Experience Design)",
+                "city": "Bangalore",
+                "country": "India",
+                "affiliation": "Srishti Labs (Center  For Human Centered Innovation  And Experience Design)",
+                "location": "Bangalore, India"
+            },
+            {
+                "name": "Sarit Arora",
+                "givenName": "Sarit",
+                "middleInitial": "",
+                "familyName": "Arora",
+                "dept": "",
+                "institution": "Yahoo",
+                "city": "Sunnydale",
+                "country": "United States",
+                "affiliation": "Yahoo",
+                "location": "Sunnydale, United States"
+            },
+            {
+                "name": "Janaki Kumar",
+                "givenName": "Janaki",
+                "middleInitial": "",
+                "familyName": "Kumar",
+                "dept": "",
+                "institution": "University of California, Irvine",
+                "city": "Irvine",
+                "country": "United States",
+                "affiliation": "University of California, Irvine",
+                "location": "Irvine, United States"
+            },
+            {
+                "name": "Sudhindra V.",
+                "givenName": "Sudhindra",
+                "middleInitial": "",
+                "familyName": "V.",
+                "dept": "",
+                "institution": "IBM",
+                "city": "Bangalore",
+                "country": "India",
+                "affiliation": "IBM",
+                "location": "Bangalore, India"
+            }
+        ],
+        "type": "panel",
+        "subtype": "panel",
         "award": false,
         "hm": false
     }

@@ -68,7 +68,7 @@ sessions={
         "chair": ""
     },
     "s-sig5": {
-        "s_title": "SIG -SIGCHI Games: The Scope of Games Research at CHI",
+        "s_title": "SIG - SIGCHI Games: The Scope of Games Research at CHI",
         "room": "112",
         "time": "11:30-12:50",
         "submissions": [
@@ -235,7 +235,7 @@ sessions={
         "chair": ""
     },
     "s100": {
-        "s_title": "Trumping Politics on Social Media (social media + politics)",
+        "s_title": "Politics on Social Media&nbsp;",
         "room": "LL20 A",
         "time": "9:30-10:50",
         "submissions": [
@@ -356,7 +356,7 @@ sessions={
         "chair": ""
     },
     "s106": {
-        "s_title": "Curation and Algorithm",
+        "s_title": "Curation and Algorithms",
         "room": "LL20 A",
         "time": "14:30-15:50",
         "submissions": [
@@ -397,14 +397,14 @@ sessions={
         "chair": ""
     },
     "s108": {
-        "s_title": "Online Communities, Identities and Behaviors",
+        "s_title": "Online Communities - Identities and Behaviors",
         "room": "LL20 A",
         "time": "11:30-12:50",
         "submissions": [
             "pn1878",
             "pn2577",
-            "pn2565",
-            "pn1507"
+            "jrn122",
+            "jrn115"
         ],
         "personas": "",
         "venue": "paper",
@@ -418,7 +418,7 @@ sessions={
     },
     "s109": {
         "s_title": "Social Media and Health",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "11:30-12:50",
         "submissions": [
             "pn502",
@@ -458,7 +458,7 @@ sessions={
         "chair": ""
     },
     "s111": {
-        "s_title": "Design New Player Experience",
+        "s_title": "Designing New Player Experiences",
         "room": "LL20 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -478,7 +478,7 @@ sessions={
         "chair": ""
     },
     "s112": {
-        "s_title": "Players' Motivation in Games",
+        "s_title": "Players' Motivations in Games",
         "room": "LL20 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -498,7 +498,7 @@ sessions={
         "chair": ""
     },
     "s113": {
-        "s_title": "Supporting Player's Performance",
+        "s_title": "Supporting Player Performance",
         "room": "LL20 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -538,14 +538,14 @@ sessions={
         "chair": ""
     },
     "s115": {
-        "s_title": "Design Physical Games",
+        "s_title": "Designing Physical Games",
         "room": "LL 20B",
         "time": "9:30-10:50",
         "submissions": [
             "pn1264",
-            "pn1846",
             "pn2782",
-            "pn358"
+            "jrn128",
+            "jrn131"
         ],
         "personas": "",
         "venue": "paper",
@@ -558,7 +558,7 @@ sessions={
         "chair": ""
     },
     "s116": {
-        "s_title": "Supporting Player's Social Experience",
+        "s_title": "Supporting Player Social Experiences",
         "room": "LL20 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -578,9 +578,9 @@ sessions={
         "chair": ""
     },
     "s117": {
-        "s_title": "Online/Internet Economics",
+        "s_title": "The Economics of Being Online",
         "room": "LL20 A",
-        "time": "11:30-12:50",
+        "time": "9:30-10:50",
         "submissions": [
             "pn2209",
             "pn1221",
@@ -619,8 +619,8 @@ sessions={
     },
     "s119": {
         "s_title": "Civic Tech, Participation and Society",
-        "room": "LL 20B",
-        "time": "9:30-10:50",
+        "room": "210 BF",
+        "time": "16:30-17:50",
         "submissions": [
             "pn1992",
             "pn422",
@@ -629,7 +629,7 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
@@ -645,7 +645,7 @@ sessions={
             "pn733",
             "pn2096",
             "pn2103",
-            "pn2052"
+            "jrn126"
         ],
         "personas": "",
         "venue": "paper",
@@ -663,9 +663,9 @@ sessions={
         "time": "16:30-17:50",
         "submissions": [
             "pn106",
-            "pn441",
             "pn1210",
-            "pn2014"
+            "pn2014",
+            "pn1431"
         ],
         "personas": "",
         "venue": "paper",
@@ -698,7 +698,7 @@ sessions={
         "chair": ""
     },
     "s123": {
-        "s_title": "Mental Health in Technological Design and Social Media",
+        "s_title": "Mental Health in Technology Design and Social Media",
         "room": "LL 20D",
         "time": "11:30-12:50",
         "submissions": [
@@ -718,7 +718,7 @@ sessions={
         "chair": ""
     },
     "s125": {
-        "s_title": "Physical Disability and Assistant Technologies ",
+        "s_title": "Physical Disability and Assistive Technologies ",
         "room": "LL 20D",
         "time": "9:30-10:50",
         "submissions": [
@@ -758,9 +758,9 @@ sessions={
         "chair": ""
     },
     "s127": {
-        "s_title": "Visually Impaired and Technology",
+        "s_title": "Visual Impairment and Technology",
         "room": "LL20 A",
-        "time": "9:30-10:50",
+        "time": "11:30-12:50",
         "submissions": [
             "pn1345",
             "pn1138",
@@ -846,7 +846,7 @@ sessions={
             "pn1211",
             "pn1133",
             "pn2346",
-            "pn2573"
+            "jrn137"
         ],
         "personas": "",
         "venue": "paper",
@@ -859,15 +859,15 @@ sessions={
         "chair": ""
     },
     "s132": {
-        "s_title": "Participating in Well-Being and Family (Health) ",
-        "room": "LL21 A",
-        "time": "11:30-12:50",
+        "s_title": "Participating in Well-Being and Family",
+        "room": "210 BF",
+        "time": "9:30-10:50",
         "submissions": [
             "pn2288",
             "pn1491",
             "pn1698",
-            "pn1431",
-            "pn2264"
+            "pn2264",
+            "pn441"
         ],
         "personas": "",
         "venue": "paper",
@@ -881,8 +881,8 @@ sessions={
     },
     "s134": {
         "s_title": "Participatory Design (PD) and Applications",
-        "room": "LL21 A",
-        "time": "9:30-10:50",
+        "room": "210 BF",
+        "time": "14:30-15:50",
         "submissions": [
             "pn1628",
             "pn674",
@@ -901,7 +901,7 @@ sessions={
     },
     "s136": {
         "s_title": "Sustainability, Design and Environmental Sensibilities ",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "16:30-17:50",
         "submissions": [
             "pn2156",
@@ -921,7 +921,7 @@ sessions={
     },
     "s137": {
         "s_title": "Citizenry and the Sciences: Design as Inquiry and Participation",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "9:30-10:50",
         "submissions": [
             "pn1614",
@@ -942,13 +942,13 @@ sessions={
     },
     "s138": {
         "s_title": "Interventions to Design Theory",
-        "room": "LL21 A",
+        "room": "LL 20D",
         "time": "14:30-15:50",
         "submissions": [
             "pn2461",
             "pn2059",
             "pn1416",
-            "pn1389"
+            "jrn104"
         ],
         "personas": "",
         "venue": "paper",
@@ -962,7 +962,7 @@ sessions={
     },
     "s139": {
         "s_title": "Sociotechnical Assemblages: Participation, Interaction &amp; Materiality ",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "14:30-15:50",
         "submissions": [
             "pn874",
@@ -981,8 +981,8 @@ sessions={
         "chair": ""
     },
     "s140": {
-        "s_title": "Problem-Solving or not?: The Boundaries of HCI Research",
-        "room": "LL21 A",
+        "s_title": "Problem-solving or not?: The Boundaries of HCI Research",
+        "room": "210 BF",
         "time": "16:30-17:50",
         "submissions": [
             "pn1285",
@@ -993,7 +993,7 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "paper",
         "hasAward": true,
@@ -1001,10 +1001,30 @@ sessions={
         "subtype": "paper",
         "chair": ""
     },
+    "s141": {
+        "s_title": "Supporting Information Seeking",
+        "room": "LL20 A",
+        "time": "11:30-12:50",
+        "submissions": [
+            "pn1199",
+            "pn2291",
+            "pn2052",
+            "jrn133"
+        ],
+        "personas": "",
+        "venue": "paper",
+        "day": "Thursday",
+        "s_tags": [],
+        "type": "paper",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "paper",
+        "chair": ""
+    },
     "s142": {
         "s_title": "Reflection on UX Design",
-        "room": "LL21 A",
-        "time": "16:30-17:50",
+        "room": "210 BF",
+        "time": "11:30-12:50",
         "submissions": [
             "pn680",
             "pn2057",
@@ -1023,13 +1043,13 @@ sessions={
     },
     "s143": {
         "s_title": "Representing User Experience",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "9:30-10:50",
         "submissions": [
             "pn2430",
-            "pn2814",
             "pn1633",
-            "pn2419"
+            "jrn132",
+            "jrn140"
         ],
         "personas": "",
         "venue": "paper",
@@ -1042,12 +1062,13 @@ sessions={
         "chair": ""
     },
     "s144": {
-        "s_title": "UX Usability Methods",
+        "s_title": "UX and Usability Methods",
         "room": "LL20 A",
         "time": "14:30-15:50",
         "submissions": [
-            "pn2184",
             "pn1048",
+            "pn2131",
+            "jrn141",
             "pn145"
         ],
         "personas": "",
@@ -1061,8 +1082,8 @@ sessions={
         "chair": ""
     },
     "s145": {
-        "s_title": "HCI for Women",
-        "room": "LL21 A",
+        "s_title": "HCI and Gender",
+        "room": "210 BF",
         "time": "14:30-15:50",
         "submissions": [
             "pn1857",
@@ -1072,7 +1093,7 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
@@ -1082,7 +1103,7 @@ sessions={
     },
     "s146": {
         "s_title": "Vulnerable Populations and Technological Support",
-        "room": "LL21 A",
+        "room": "210 BF",
         "time": "11:30-12:50",
         "submissions": [
             "pn1063",
@@ -1101,8 +1122,8 @@ sessions={
         "chair": ""
     },
     "s147": {
-        "s_title": "What lies beyond?:Design and Infrastructure through a Critical Lens",
-        "room": "LL21 A",
+        "s_title": "What lies beyond?: Design and Infrastructure through a Critical Lens",
+        "room": "210 BF",
         "time": "11:30-12:50",
         "submissions": [
             "pn1914",
@@ -1127,7 +1148,6 @@ sessions={
         "submissions": [
             "pn917",
             "pn1622",
-            "pn2889",
             "pn2506"
         ],
         "personas": "",
@@ -1161,7 +1181,7 @@ sessions={
         "chair": ""
     },
     "s150": {
-        "s_title": "Microtasking and Crowdsourcing",
+        "s_title": "Microtasks and Crowdsourcing",
         "room": "LL 20B",
         "time": "16:30-17:50",
         "submissions": [
@@ -1221,14 +1241,15 @@ sessions={
         "chair": ""
     },
     "s153": {
-        "s_title": "Backstages of Crowdsourcing: Legitimacy, Performance and Crowd Support",
+        "s_title": "Backstage of Crowdsourcing: Legitimacy, Performance and Crowd Support",
         "room": "LL 20B",
         "time": "14:30-15:50",
         "submissions": [
             "pn1305",
             "pn458",
             "pn241",
-            "pn737"
+            "pn737",
+            "pn2889"
         ],
         "personas": "",
         "venue": "paper",
@@ -1341,14 +1362,14 @@ sessions={
         "chair": ""
     },
     "s159": {
-        "s_title": "The Brain and Music Making",
+        "s_title": "Making Music on the Brain",
         "room": "LL20 A",
         "time": "9:30-10:50",
         "submissions": [
             "pn1738",
             "pn1262",
-            "pn1242",
-            "pn2772"
+            "pn2772",
+            "jrn121"
         ],
         "personas": "",
         "venue": "paper",
@@ -1365,10 +1386,10 @@ sessions={
         "room": "LL21C",
         "time": "9:30-10:50",
         "submissions": [
-            "pn1632",
             "pn696",
             "pn1736",
-            "pn1995"
+            "jrn144",
+            "jrn124"
         ],
         "personas": "",
         "venue": "paper",
@@ -1445,12 +1466,12 @@ sessions={
     "s168": {
         "s_title": "Learning @ School",
         "room": "LL20 C",
-        "time": "11:30-12:50",
+        "time": "14:30-15:50",
         "submissions": [
             "pn2093",
             "pn863",
-            "pn1173",
-            "pn1127"
+            "pn1127",
+            "jrn112"
         ],
         "personas": "",
         "venue": "paper",
@@ -1465,7 +1486,7 @@ sessions={
     "s169": {
         "s_title": "Learning Feedback",
         "room": "LL20 C",
-        "time": "14:30-15:50",
+        "time": "11:30-12:50",
         "submissions": [
             "pn1566",
             "pn1654",
@@ -1530,8 +1551,7 @@ sessions={
             "pn2568",
             "pn2557",
             "pn2486",
-            "pn1199",
-            "pn2291"
+            "pn1967"
         ],
         "personas": "",
         "venue": "paper",
@@ -1564,14 +1584,14 @@ sessions={
         "chair": ""
     },
     "s174": {
-        "s_title": "Smartphone Attention",
+        "s_title": "Paying Attention to Smartphones",
         "room": "LL21F",
         "time": "16:30-17:50",
         "submissions": [
             "pn2702",
             "pn1602",
             "pn2699",
-            "pn1967"
+            "jrn139"
         ],
         "personas": "",
         "venue": "paper",
@@ -1584,7 +1604,7 @@ sessions={
         "chair": ""
     },
     "s175": {
-        "s_title": "Design Attention and Multitasking",
+        "s_title": "Designing for Attention and Multitasking",
         "room": "LL21F",
         "time": "9:30-10:50",
         "submissions": [
@@ -1651,7 +1671,7 @@ sessions={
             "pn1642",
             "pn2531",
             "pn2145",
-            "pn2131"
+            "pn432"
         ],
         "personas": "",
         "venue": "paper",
@@ -1709,7 +1729,6 @@ sessions={
         "time": "16:30-17:50",
         "submissions": [
             "pn1232",
-            "pn1243",
             "pn2548",
             "pn1255"
         ],
@@ -1724,7 +1743,7 @@ sessions={
         "chair": ""
     },
     "s182": {
-        "s_title": "Why not Privacy? (mental model of privacy)",
+        "s_title": "Mental Models of Privacy",
         "room": "LL21F",
         "time": "9:30-10:50",
         "submissions": [
@@ -1750,9 +1769,9 @@ sessions={
         "time": "14:30-15:50",
         "submissions": [
             "pn1785",
-            "pn432",
+            "pn262",
             "pn803",
-            "pn262"
+            "pn677"
         ],
         "personas": "",
         "venue": "paper",
@@ -1765,7 +1784,7 @@ sessions={
         "chair": ""
     },
     "s185": {
-        "s_title": "Privacy (TBD)",
+        "s_title": "Privacy over Time and Relationships",
         "room": "LL21F",
         "time": "14:30-15:50",
         "submissions": [
@@ -1793,7 +1812,8 @@ sessions={
             "pn198",
             "pn1525",
             "pn707",
-            "pn484"
+            "pn484",
+            "jrn134"
         ],
         "personas": "",
         "venue": "paper",
@@ -1806,7 +1826,7 @@ sessions={
         "chair": ""
     },
     "s187": {
-        "s_title": "Parenting",
+        "s_title": "Computer Supported Parenting",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
@@ -1826,7 +1846,7 @@ sessions={
         "chair": ""
     },
     "s188": {
-        "s_title": "Physical Digital Collection",
+        "s_title": "Physical and Digital Collections",
         "room": "LL21C",
         "time": "16:30-17:50",
         "submissions": [
@@ -1846,7 +1866,7 @@ sessions={
         "chair": ""
     },
     "s189": {
-        "s_title": "Does Distance Matters?",
+        "s_title": "Distance Still Matters",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
@@ -1888,7 +1908,7 @@ sessions={
         "chair": ""
     },
     "s191": {
-        "s_title": "Work Multitasking Distraction",
+        "s_title": "Work, Multitasking, and Distraction",
         "room": "LL21C",
         "time": "9:30-10:50",
         "submissions": [
@@ -1908,7 +1928,7 @@ sessions={
         "chair": ""
     },
     "s192": {
-        "s_title": "Workplace Social and Performance",
+        "s_title": "Workplace Social Performance",
         "room": "LL21C",
         "time": "16:30-17:50",
         "submissions": [
@@ -1948,7 +1968,7 @@ sessions={
         "chair": ""
     },
     "s194": {
-        "s_title": "Usability Studies of User Burden",
+        "s_title": "Usability and User Burden",
         "room": "LL21C",
         "time": "11:30-12:50",
         "submissions": [
@@ -1975,8 +1995,8 @@ sessions={
         "submissions": [
             "pn1624",
             "pn954",
-            "pn2436",
-            "pn1246"
+            "pn1246",
+            "jrn114"
         ],
         "personas": "",
         "venue": "paper",
@@ -1989,7 +2009,7 @@ sessions={
         "chair": ""
     },
     "s196": {
-        "s_title": "Evaluating Visual Design/usability ",
+        "s_title": "How Does It Look? Evaluating Visual Design",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
@@ -2049,7 +2069,7 @@ sessions={
         "chair": ""
     },
     "s199": {
-        "s_title": "Internet of Things",
+        "s_title": "IoT and HCI ASAP!",
         "room": "LL21C",
         "time": "14:30-15:50",
         "submissions": [
@@ -2069,7 +2089,7 @@ sessions={
         "chair": ""
     },
     "s200": {
-        "s_title": "How fast can you type on your phone?",
+        "s_title": "How Fast Can You Type on Your Phone?",
         "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
@@ -2089,7 +2109,7 @@ sessions={
         "chair": ""
     },
     "s201": {
-        "s_title": "Large Display and Interaction",
+        "s_title": "Large Display Interaction",
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
@@ -2210,7 +2230,7 @@ sessions={
         "chair": ""
     },
     "s207": {
-        "s_title": "In Air gesture",
+        "s_title": "In-Air Gesture",
         "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
@@ -2293,7 +2313,7 @@ sessions={
         "chair": ""
     },
     "s211": {
-        "s_title": "Haptic Sensation meets Screens",
+        "s_title": "Haptic Sensation Meets Screens",
         "room": "LL21E",
         "time": "9:30-10:50",
         "submissions": [
@@ -2313,7 +2333,7 @@ sessions={
         "chair": ""
     },
     "s212": {
-        "s_title": "Did you feel the vibration? (haptic feedback everywhere)",
+        "s_title": "Did you feel the vibration? Haptic Feedback Everywhere)",
         "room": "LL21E",
         "time": "16:30-17:50",
         "submissions": [
@@ -2375,14 +2395,14 @@ sessions={
         "chair": ""
     },
     "s215": {
-        "s_title": "Quantify efficiency of Input Methods",
+        "s_title": "Quantifying Efficiency of Input Methods",
         "room": "LL21E",
         "time": "9:30-10:50",
         "submissions": [
-            "pn950",
             "pn100",
             "pn662",
-            "pn1716"
+            "jrn117",
+            "jrn123"
         ],
         "personas": "",
         "venue": "paper",
@@ -2402,7 +2422,7 @@ sessions={
             "pn350",
             "pn1734",
             "pn316",
-            "pn1524"
+            "jrn136"
         ],
         "personas": "",
         "venue": "paper",
@@ -2414,24 +2434,9 @@ sessions={
         "subtype": "paper",
         "chair": ""
     },
-    "s-panel3": {
-        "s_title": "temp panel",
-        "room": "220 B",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "panel",
-        "day": "Tuesday",
-        "s_tags": [],
-        "type": "panel",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "panel",
-        "chair": ""
-    },
     "s-alt1": {
         "s_title": "Critical Theory and Pedagogy",
-        "room": "220 C",
+        "room": "220 B",
         "time": "14:30-15:50",
         "submissions": [
             "alt107",
@@ -2451,7 +2456,7 @@ sessions={
     },
     "s-alt2": {
         "s_title": "Food Fictions",
-        "room": "220 C",
+        "room": "220 A",
         "time": "16:30-17:50",
         "submissions": [
             "alt124",
@@ -2471,8 +2476,8 @@ sessions={
     },
     "s-alt3": {
         "s_title": "Design Fictions and HCI",
-        "room": "220 C",
-        "time": "11:30-12:50",
+        "room": "230 C",
+        "time": "14:30-15:50",
         "submissions": [
             "alt127",
             "alt131",
@@ -2491,7 +2496,7 @@ sessions={
     },
     "s-alt4": {
         "s_title": "Confronting Power in HCI",
-        "room": "220 C",
+        "room": "220 A",
         "time": "9:30-10:50",
         "submissions": [
             "alt110",
@@ -2512,7 +2517,7 @@ sessions={
     },
     "s-alt5": {
         "s_title": "Authorship and Reviews",
-        "room": "220 C",
+        "room": "230 C",
         "time": "9:30-10:50",
         "submissions": [
             "alt118",
@@ -2573,7 +2578,7 @@ sessions={
     "s-case902": {
         "s_title": "User Research",
         "room": "114",
-        "time": "9:30-10:50",
+        "time": "11:30-12:50",
         "submissions": [
             "case218",
             "case228",
@@ -2582,97 +2587,7 @@ sessions={
         ],
         "personas": "",
         "venue": "casestudy",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case903": {
-        "s_title": "Unused Session s-case903",
-        "room": "114",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
         "day": "Tuesday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case904": {
-        "s_title": "Unused Session s-case904",
-        "room": "114",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case905": {
-        "s_title": "Unused Session s-case905",
-        "room": "114",
-        "time": "16:30-17:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case906": {
-        "s_title": "Unused Session s-case906",
-        "room": "114",
-        "time": "9:30-10:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
-        "day": "Thursday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case907": {
-        "s_title": "Unused Session s-case907",
-        "room": "114",
-        "time": "11:30-12:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
-        "day": "Thursday",
-        "s_tags": [],
-        "type": "casestudy",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "casestudy",
-        "chair": ""
-    },
-    "s-case908": {
-        "s_title": "Unused Session s-case908",
-        "room": "114",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "casestudy",
-        "day": "Thursday",
         "s_tags": [],
         "type": "casestudy",
         "hasAward": false,
@@ -2749,13 +2664,15 @@ sessions={
         "chair": ""
     },
     "s-panel904": {
-        "s_title": "Unused Session s-panel904",
-        "room": "220 B",
-        "time": "16:30-17:50",
-        "submissions": [],
+        "s_title": "Panel-User Experience (UX) in India - 'We are Not Like This Only' - We are World Class and Much More!",
+        "room": "220 A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "pan125"
+        ],
         "personas": "",
         "venue": "panel",
-        "day": "Wednesday",
+        "day": "Monday",
         "s_tags": [],
         "type": "panel",
         "hasAward": false,
@@ -2763,11 +2680,13 @@ sessions={
         "subtype": "panel",
         "chair": ""
     },
-    "s-panel906": {
-        "s_title": "Unused Session s-panel906",
+    "s-panel905": {
+        "s_title": "Panel-AMA:CHI Chairs",
         "room": "220 B",
-        "time": "16:30-17:50",
-        "submissions": [],
+        "time": "14:30-15:50",
+        "submissions": [
+            "pan124"
+        ],
         "personas": "",
         "venue": "panel",
         "day": "Tuesday",
@@ -2831,8 +2750,8 @@ sessions={
     },
     "s900": {
         "s_title": "Interaction Design for Audio Interfaces",
-        "room": "LL21E",
-        "time": "11:30-12:50",
+        "room": "210 AE",
+        "time": "16:30-17:50",
         "submissions": [
             "pn1298",
             "pn1888",
@@ -2841,7 +2760,7 @@ sessions={
         ],
         "personas": "",
         "venue": "paper",
-        "day": "Tuesday",
+        "day": "Monday",
         "s_tags": [],
         "type": "paper",
         "hasAward": false,
@@ -2911,7 +2830,7 @@ sessions={
         "chair": ""
     },
     "s904": {
-        "s_title": "Making Smartphones Useful",
+        "s_title": "How can Smartphones Fit Our Lives?",
         "room": "LL 20B",
         "time": "16:30-17:50",
         "submissions": [
@@ -2952,7 +2871,7 @@ sessions={
         "chair": ""
     },
     "s906": {
-        "s_title": "Multi-device Interaction",
+        "s_title": "Multi-Device Interaction",
         "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
@@ -2992,7 +2911,7 @@ sessions={
         "chair": ""
     },
     "s909": {
-        "s_title": "Privacy II",
+        "s_title": "Privacy - Social and Geolocated",
         "room": "LL21E",
         "time": "14:30-15:50",
         "submissions": [
@@ -3013,7 +2932,7 @@ sessions={
     },
     "s-alt904": {
         "s_title": "See this, hear this, touch this, keep this",
-        "room": "220 C",
+        "room": "220 B",
         "time": "11:30-12:50",
         "submissions": [
             "alt129",
@@ -3231,7 +3150,7 @@ sessions={
             "pn1430",
             "pn1648",
             "pn1007",
-            "pn677"
+            "pn2573"
         ],
         "personas": "",
         "venue": "paper",
@@ -3406,7 +3325,7 @@ sessions={
         "chair": ""
     },
     "s920": {
-        "s_title": "Augment AR and VR Experiences",
+        "s_title": "Augmented AR and VR Experiences",
         "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
@@ -3467,10 +3386,12 @@ sessions={
         "chair": ""
     },
     "s-course900": {
-        "s_title": "Unused Session s-course900",
+        "s_title": "Visual Facilitation for Design Groups",
         "room": "210 H",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course152"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -3482,10 +3403,12 @@ sessions={
         "chair": ""
     },
     "s-course901": {
-        "s_title": "Unused Session s-course901",
+        "s_title": "Visual Analytics 101",
         "room": "210 H",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course119"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3497,10 +3420,12 @@ sessions={
         "chair": ""
     },
     "s-course902": {
-        "s_title": "Unused Session s-course902",
+        "s_title": "Visual Analytics 101",
         "room": "210 H",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course196"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3513,8 +3438,8 @@ sessions={
     },
     "s-course903": {
         "s_title": "Personal Fabrication",
-        "room": "210 C",
-        "time": "16:30-17:50",
+        "room": "210 G",
+        "time": "11:30-12:50",
         "submissions": [
             "course101"
         ],
@@ -3529,10 +3454,12 @@ sessions={
         "chair": ""
     },
     "s-course904": {
-        "s_title": "Unused Session s-course904",
+        "s_title": "Game User Experience Evaluation",
         "room": "210 G",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course192"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -3544,10 +3471,12 @@ sessions={
         "chair": ""
     },
     "s-course905": {
-        "s_title": "Unused Session s-course905",
+        "s_title": "Introduction to Creating Musical Interfaces",
         "room": "210 C",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course102"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3559,10 +3488,12 @@ sessions={
         "chair": ""
     },
     "s-course906": {
-        "s_title": "Unused Session s-course906",
+        "s_title": "An Introduction to Automotive User Interfaces",
         "room": "210 G",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course140"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3574,10 +3505,12 @@ sessions={
         "chair": ""
     },
     "s-course907": {
-        "s_title": "Unused Session s-course907",
+        "s_title": "Interaction Design for Online Video and Television",
         "room": "210 D",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course139"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3589,10 +3522,12 @@ sessions={
         "chair": ""
     },
     "s-course908": {
-        "s_title": "Unused Session s-course908",
+        "s_title": "Interaction Design for Online Video and Television",
         "room": "210 D",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course229"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3604,11 +3539,11 @@ sessions={
         "chair": ""
     },
     "s-course909": {
-        "s_title": "Unused Session s-course909",
+        "s_title": "Make This! Introduction to Electronics Prototyping Using Arduino",
         "room": "210 D",
         "time": "14:30-15:50",
         "submissions": [
-            "course161"
+            "course114"
         ],
         "personas": "",
         "venue": "course",
@@ -3621,10 +3556,12 @@ sessions={
         "chair": ""
     },
     "s-course910": {
-        "s_title": "Unused Session s-course910",
+        "s_title": "An Introduction to Automotive User Interfaces",
         "room": "210 G",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course198"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3636,10 +3573,12 @@ sessions={
         "chair": ""
     },
     "s-course911": {
-        "s_title": "Unused Session s-course911",
+        "s_title": "Introduction to Creating Musical Interfaces",
         "room": "210 C",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course197"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3653,9 +3592,26 @@ sessions={
     "s-course912": {
         "s_title": "Designing Technology to Foster Psychological Wellbeing",
         "room": "210 H",
-        "time": "14:30-15:50",
+        "time": "9:30-10:50",
         "submissions": [
             "course106"
+        ],
+        "personas": "",
+        "venue": "course",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "course",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "course",
+        "chair": ""
+    },
+    "s-course913": {
+        "s_title": "User Story Mapping: The Hands-on Course",
+        "room": "210 C",
+        "time": "14:30-15:50",
+        "submissions": [
+            "course109"
         ],
         "personas": "",
         "venue": "course",
@@ -3667,26 +3623,13 @@ sessions={
         "subtype": "course",
         "chair": ""
     },
-    "s-course913": {
-        "s_title": "Unused Session s-course913",
-        "room": "210 C",
-        "time": "14:30-15:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "course",
-        "day": "Tuesday",
-        "s_tags": [],
-        "type": "course",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "course",
-        "chair": ""
-    },
     "s-course914": {
-        "s_title": "Unused Session s-course914",
+        "s_title": "Designing and Assessing Interactive Systems Using Task Models",
         "room": "210 G",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course141"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3698,10 +3641,12 @@ sessions={
         "chair": ""
     },
     "s-course915": {
-        "s_title": "Unused Session s-course915",
+        "s_title": "Make This! Introduction to Electronics Prototyping Using Arduino",
         "room": "210 D",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course231"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3713,13 +3658,15 @@ sessions={
         "chair": ""
     },
     "s-course916": {
-        "s_title": "Unused Session s-course916",
+        "s_title": "Designing Technology to Foster Psychological Wellbeing",
         "room": "210 H",
-        "time": "16:30-17:50",
-        "submissions": [],
+        "time": "11:30-12:50",
+        "submissions": [
+            "course202"
+        ],
         "personas": "",
         "venue": "course",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3728,10 +3675,12 @@ sessions={
         "chair": ""
     },
     "s-course917": {
-        "s_title": "Unused Session s-course917",
+        "s_title": "User Story Mapping: The Hands-on Course",
         "room": "210 C",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course203"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3743,10 +3692,12 @@ sessions={
         "chair": ""
     },
     "s-course918": {
-        "s_title": "Unused Session s-course918",
+        "s_title": "Designing and Assessing Interactive Systems Using Task Models",
         "room": "210 G",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course204"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Tuesday",
@@ -3758,10 +3709,12 @@ sessions={
         "chair": ""
     },
     "s-course919": {
-        "s_title": "Unused Session s-course919",
+        "s_title": "Advances in Participatory Design",
         "room": "210 D",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course143"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3773,10 +3726,12 @@ sessions={
         "chair": ""
     },
     "s-course920": {
-        "s_title": "Unused Session s-course920",
+        "s_title": "Advances in Participatory Design",
         "room": "210 D",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course233"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3788,10 +3743,12 @@ sessions={
         "chair": ""
     },
     "s-course921": {
-        "s_title": "Unused Session s-course921",
+        "s_title": "So, You Want to Be a CHI AC",
         "room": "210 D",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course155"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3819,26 +3776,13 @@ sessions={
         "subtype": "course",
         "chair": ""
     },
-    "s-course923": {
-        "s_title": "Unused Session s-course923",
-        "room": "210 H",
-        "time": "9:30-10:50",
-        "submissions": [],
-        "personas": "",
-        "venue": "course",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "course",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "course",
-        "chair": ""
-    },
     "s-course924": {
-        "s_title": "Unused Session s-course924",
+        "s_title": "Empirical Research Methods for Human-Computer Interaction",
         "room": "210 C",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course110"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3850,10 +3794,12 @@ sessions={
         "chair": ""
     },
     "s-course925": {
-        "s_title": "Unused Session s-course925",
+        "s_title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
         "room": "210 G",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course149"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3865,10 +3811,12 @@ sessions={
         "chair": ""
     },
     "s-course926": {
-        "s_title": "Unused Session s-course926",
+        "s_title": "Interactive Biotechnology: Building your own Biotic Game Setup to Play with Living Microorganisms",
         "room": "210 H",
-        "time": "11:30-12:50",
-        "submissions": [],
+        "time": "14:30-15:50",
+        "submissions": [
+            "course154"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3880,10 +3828,12 @@ sessions={
         "chair": ""
     },
     "s-course927": {
-        "s_title": "Unused Session s-course927",
+        "s_title": "Empirical Research Methods for Human-Computer Interaction",
         "room": "210 C",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course208"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3895,10 +3845,12 @@ sessions={
         "chair": ""
     },
     "s-course928": {
-        "s_title": "Unused Session s-course928",
+        "s_title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
         "room": "210 G",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course209"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3927,13 +3879,15 @@ sessions={
         "chair": ""
     },
     "s-course930": {
-        "s_title": "Unused Session s-course930",
+        "s_title": "Mobile UX: Breaking the Glass to Richer User Experiences",
         "room": "210 H",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course125"
+        ],
         "personas": "",
         "venue": "course",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3942,13 +3896,15 @@ sessions={
         "chair": ""
     },
     "s-course931": {
-        "s_title": "Unused Session s-course931",
+        "s_title": "Mobile UX: Breaking the Glass to Richer User Experiences",
         "room": "210 H",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course213"
+        ],
         "personas": "",
         "venue": "course",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3957,10 +3913,12 @@ sessions={
         "chair": ""
     },
     "s-course932": {
-        "s_title": "Unused Session s-course932",
+        "s_title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
         "room": "210 C",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course123"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3972,10 +3930,12 @@ sessions={
         "chair": ""
     },
     "s-course933": {
-        "s_title": "Unused Session s-course933",
+        "s_title": "User Interface Design In Agile Projects",
         "room": "210 G",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course142"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -3987,10 +3947,12 @@ sessions={
         "chair": ""
     },
     "s-course934": {
-        "s_title": "Unused Session s-course934",
+        "s_title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
         "room": "210 C",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course214"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -4002,10 +3964,12 @@ sessions={
         "chair": ""
     },
     "s-course935": {
-        "s_title": "Unused Session s-course935",
+        "s_title": "User Interface Design In Agile Projects",
         "room": "210 G",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course215"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Wednesday",
@@ -4017,10 +3981,12 @@ sessions={
         "chair": ""
     },
     "s-course936": {
-        "s_title": "Unused Session s-course936",
+        "s_title": "Practical UX Research Methodologies",
         "room": "210 G",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course224"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4035,7 +4001,9 @@ sessions={
         "s_title": "Presumptive Design",
         "room": "210 D",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course237"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4047,10 +4015,12 @@ sessions={
         "chair": ""
     },
     "s-course938": {
-        "s_title": "Unused Session s-course938",
+        "s_title": "Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course222"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4062,10 +4032,12 @@ sessions={
         "chair": ""
     },
     "s-course939": {
-        "s_title": "Unused Session s-course939",
+        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course223"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4080,7 +4052,9 @@ sessions={
         "s_title": "Presumptive Design",
         "room": "210 D",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course236"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4092,10 +4066,12 @@ sessions={
         "chair": ""
     },
     "s-course941": {
-        "s_title": "Unused Session s-course941",
+        "s_title": "Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course134"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4107,10 +4083,12 @@ sessions={
         "chair": ""
     },
     "s-course942": {
-        "s_title": "Unused Session s-course942",
+        "s_title": "Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course219"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4122,10 +4100,12 @@ sessions={
         "chair": ""
     },
     "s-course943": {
-        "s_title": "Unused Session s-course943",
+        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course122"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4137,10 +4117,12 @@ sessions={
         "chair": ""
     },
     "s-course944": {
-        "s_title": "Unused Session s-course944",
+        "s_title": "Practical UX Research Methodologies",
         "room": "210 G",
         "time": "9:30-10:50",
-        "submissions": [],
+        "submissions": [
+            "course133"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4152,10 +4134,12 @@ sessions={
         "chair": ""
     },
     "s-course945": {
-        "s_title": "Unused Session s-course945",
+        "s_title": "Introduction To Human Computer Interaction",
         "room": "210 C",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course188"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4170,7 +4154,9 @@ sessions={
         "s_title": "Designing with the Mind in Mind",
         "room": "210 H",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course187"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4182,10 +4168,12 @@ sessions={
         "chair": ""
     },
     "s-course947": {
-        "s_title": "Unused Session s-course947",
+        "s_title": "Game User Experience Evaluation",
         "room": "210 G",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course138"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4197,10 +4185,12 @@ sessions={
         "chair": ""
     },
     "s-course948": {
-        "s_title": "Unused Session s-course948",
+        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course220"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4212,10 +4202,12 @@ sessions={
         "chair": ""
     },
     "s-course949": {
-        "s_title": "Unused Session s-course949",
+        "s_title": "Practical UX Research Methodologies",
         "room": "210 G",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course221"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Thursday",
@@ -4227,10 +4219,12 @@ sessions={
         "chair": ""
     },
     "s-course950": {
-        "s_title": "Unused Session s-course950",
+        "s_title": "Hands-on Introduction to Interactive Electric Muscle Stimulation",
         "room": "210 D",
         "time": "16:30-17:50",
-        "submissions": [],
+        "submissions": [
+            "course112"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4242,11 +4236,11 @@ sessions={
         "chair": ""
     },
     "s-course951": {
-        "s_title": "Unused Session s-course951",
-        "room": "210 G",
-        "time": "11:30-12:50",
+        "s_title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologist’s Perspective",
+        "room": "210 C",
+        "time": "16:30-17:50",
         "submissions": [
-            "course102"
+            "course151"
         ],
         "personas": "",
         "venue": "course",
@@ -4259,11 +4253,11 @@ sessions={
         "chair": ""
     },
     "s-course952": {
-        "s_title": "Unused Session s-course952",
+        "s_title": "ntroduction To Human Computer Interaction",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
-            "course162"
+            "course132"
         ],
         "personas": "",
         "venue": "course",
@@ -4293,10 +4287,12 @@ sessions={
         "chair": ""
     },
     "s-course954": {
-        "s_title": "Unused Session s-course954",
+        "s_title": "Research Methods for Child Computer Interaction",
         "room": "210 D",
         "time": "14:30-15:50",
-        "submissions": [],
+        "submissions": [
+            "course226"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4308,10 +4304,12 @@ sessions={
         "chair": ""
     },
     "s-course955": {
-        "s_title": "Unused Session s-course955",
+        "s_title": "Research Methods for Child Computer Interaction",
         "room": "210 D",
         "time": "11:30-12:50",
-        "submissions": [],
+        "submissions": [
+            "course130"
+        ],
         "personas": "",
         "venue": "course",
         "day": "Monday",
@@ -4327,19 +4325,19 @@ sessions={
         "room": "210 AE",
         "time": "11:30-12:50",
         "submissions": [
-            "jrn101",
             "jrn108",
-            "jrn104",
-            "jrn134"
+            "pn2565",
+            "pn1507",
+            "jrn101"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Monday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi901": {
@@ -4348,37 +4346,38 @@ sessions={
         "time": "14:30-15:50",
         "submissions": [
             "jrn105",
-            "jrn122",
-            "jrn136"
+            "jrn113",
+            "pn1389",
+            "pn1524"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Monday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi902": {
         "s_title": "HCI and Physiological Interactions",
-        "room": "210 AE",
-        "time": "16:30-17:50",
+        "room": "LL21E",
+        "time": "11:30-12:50",
         "submissions": [
             "jrn106",
             "jrn109",
-            "jrn114",
-            "jrn121"
+            "pn2436",
+            "pn1242"
         ],
         "personas": "",
-        "venue": "TOCHI",
-        "day": "Monday",
+        "venue": "paper",
+        "day": "Tuesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi903": {
@@ -4387,36 +4386,18 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "jrn107",
-            "jrn112",
-            "jrn118"
+            "jrn118",
+            "pn1173",
+            "jrn110"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
-        "chair": ""
-    },
-    "s-tochi904": {
-        "s_title": "Novel Interactivity",
-        "room": "210 AE",
-        "time": "11:30-12:50",
-        "submissions": [
-            "jrn110",
-            "jrn113",
-            "jrn115"
-        ],
-        "personas": "",
-        "venue": "TOCHI",
-        "day": "Tuesday",
-        "s_tags": [],
-        "type": "TOCHI",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi905": {
@@ -4426,17 +4407,17 @@ sessions={
         "submissions": [
             "jrn116",
             "jrn119",
-            "jrn128",
-            "jrn131"
+            "pn358",
+            "pn1846"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi906": {
@@ -4444,19 +4425,19 @@ sessions={
         "room": "210 AE",
         "time": "16:30-17:50",
         "submissions": [
-            "jrn132",
-            "jrn140",
-            "jrn141",
-            "jrn143"
+            "jrn143",
+            "pn2184",
+            "pn2419",
+            "pn2814"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi907": {
@@ -4465,18 +4446,18 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "jrn103",
-            "jrn117",
-            "jrn123",
-            "jrn135"
+            "jrn135",
+            "pn950",
+            "pn1716"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     },
     "s-tochi908": {
@@ -4485,38 +4466,18 @@ sessions={
         "time": "11:30-12:50",
         "submissions": [
             "jrn120",
-            "jrn124",
             "jrn130",
-            "jrn144"
+            "pn1632",
+            "pn1995"
         ],
         "personas": "",
-        "venue": "TOCHI",
+        "venue": "paper",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "TOCHI",
+        "type": "paper",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "TOCHI",
-        "chair": ""
-    },
-    "s-tochi909": {
-        "s_title": "Applied HCI",
-        "room": "210 AE",
-        "time": "14:30-15:50",
-        "submissions": [
-            "jrn126",
-            "jrn133",
-            "jrn137",
-            "jrn139"
-        ],
-        "personas": "",
-        "venue": "TOCHI",
-        "day": "Wednesday",
-        "s_tags": [],
-        "type": "TOCHI",
-        "hasAward": false,
-        "hasHonorableMention": false,
-        "subtype": "TOCHI",
+        "subtype": "paper",
         "chair": ""
     }
 }
