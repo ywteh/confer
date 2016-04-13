@@ -30,7 +30,12 @@
   function loadPapers() {
     $.getJSON("paper-list.json", function(data) {
         $.each(data["papers"], function(key,val) {
-            addPaper(val.title,val.abstract,key);
+            var auths = "<b>";
+            $.each(val["authors"], function(ano,obj){
+                auths += obj.name + ", ";
+            });
+            auths += "</b>";
+            addPaper(val.title,auths + "<p>" + val.abstract,key);
         });
         gPapers = data;
 
