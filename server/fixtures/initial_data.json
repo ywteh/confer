@@ -250,7 +250,7 @@
 	      "confer_name": "chi2016",
 	      "title": "CHI 2016 - ACM CHI Conference on Human Factors in Computing Systems",
 	      "subtitle": "",
-	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction.",
+	      "blurb": "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction. CHI is a place to see, discuss and learn about the future of how people interact with technology.",
 	      "location": "San Jose, USA",
 	      "start_date": "2016-05-07",
 	      "end_date": "2016-05-12",
@@ -269,6 +269,20 @@
 	      "start_date": "2016-04-11",
 	      "end_date": "2016-04-15",
 	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\"]"
+	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 20,
+	    "fields": {
+	      "unique_name": "sigmod2016",
+	      "confer_name": "sigmod2016",
+	      "title": "SIGMOD/PODS 2016 - ACM International Conference on Management of Data",
+	      "subtitle": "",
+	      "blurb": "The annual ACM SIGMOD/PODS Conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences.",
+	      "location": "San Francisco, USA",
+	      "start_date": "2016-06-26",
+	      "end_date": "2016-07-01",
+	      "admins": "[\"anantb@csail.mit.edu\", \"madden@csail.mit.edu\"]"
 	  	}
 	}
 ]
