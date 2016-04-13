@@ -21,12 +21,6 @@ s_filters=[
 					"class":"p_session filter", 
 					"type":"p_session", 
 					"label":"Liked + Recommended"
-				},
-				{
-					"data":"s_award, .s_nominated, .s_hm", 
-					"class":"p_session filter", 
-					"type":"p_session", 
-					"label":"Award + Nominated"
 				}
 		]
 	},
@@ -50,7 +44,7 @@ s_filters=[
 					"data":"Tuesday", 
 					"class":"day filter", 
 					"type":"day", 
-					"label":"Wed (Apr, 12)"
+					"label":"Tues (Apr, 12)"
 				},
 				{
 					"data":"Wednesday", 
