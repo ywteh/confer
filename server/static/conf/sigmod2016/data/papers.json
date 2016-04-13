@@ -5,7 +5,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Immanuel Trummer*"
+        "name": "Immanuel Trummer"
       }, 
       {
         "name": "Christoph Koch"
@@ -20,7 +20,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Thorsten Papenbrock*"
+        "name": "Thorsten Papenbrock"
       }, 
       {
         "name": "Felix Naumann"
@@ -35,7 +35,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Amirhesam Shahvarani*"
+        "name": "Amirhesam Shahvarani"
       }, 
       {
         "name": "Hans-Arno Jacobsen"
@@ -50,7 +50,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Bingsheng He*"
+        "name": "Bingsheng He"
       }, 
       {
         "name": "Shunning Jiang"
@@ -71,7 +71,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Peter Ogden*"
+        "name": "Peter Ogden"
       }, 
       {
         "name": "Peter Pietzuch"
@@ -92,7 +92,7 @@ entities={
         "name": "Feng Li"
       }, 
       {
-        "name": "Sudipto Das*"
+        "name": "Sudipto Das"
       }, 
       {
         "name": "Manoj Syamala"
@@ -110,7 +110,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Panagiotis Karras*"
+        "name": "Panagiotis Karras"
       }, 
       {
         "name": "Saad Malhotra"
@@ -140,7 +140,7 @@ entities={
         "name": "Chang Yao"
       }, 
       {
-        "name": "Divyakant Agrawal*"
+        "name": "Divyakant Agrawal"
       }, 
       {
         "name": "Gang Chen"
@@ -164,7 +164,7 @@ entities={
         "name": "Wenfei Fan"
       }, 
       {
-        "name": "YINGHUI WU*"
+        "name": "YINGHUI WU"
       }, 
       {
         "name": "Jingbo Xu"
@@ -179,7 +179,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Shadi Abdollahian Noghabi*"
+        "name": "Shadi Abdollahian Noghabi"
       }, 
       {
         "name": "Sriram Subramanian"
@@ -215,7 +215,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Yang Cao*"
+        "name": "Yang Cao"
       }, 
       {
         "name": "Wenfei Fan"
@@ -230,7 +230,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Eyal Altshuler*"
+        "name": "Eyal Altshuler"
       }, 
       {
         "name": "Tova Milo"
@@ -245,7 +245,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Stefan Schuh*"
+        "name": "Stefan Schuh"
       }, 
       {
         "name": "Jens Dittrich"
@@ -266,7 +266,7 @@ entities={
         "name": "Pratanu Roy"
       }, 
       {
-        "name": "Arijit Khan*"
+        "name": "Arijit Khan"
       }, 
       {
         "name": "Gustavo Alonso"
@@ -281,7 +281,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Sudipto Das*"
+        "name": "Sudipto Das"
       }, 
       {
         "name": "Feng Li"
@@ -302,7 +302,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Daniel Abadi*"
+        "name": "Daniel Abadi"
       }, 
       {
         "name": "Michael DiScala"
@@ -317,7 +317,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Alexander Shkapsky*"
+        "name": "Alexander Shkapsky"
       }, 
       {
         "name": "Mohan Yang"
@@ -344,7 +344,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Joy Arulraj*"
+        "name": "Joy Arulraj"
       }, 
       {
         "name": "Andy Pavlo"
@@ -362,7 +362,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Jeff LeFevre*"
+        "name": "Jeff LeFevre"
       }, 
       {
         "name": "Rui Liu"
@@ -392,7 +392,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Zhen Hua Liu*"
+        "name": "Zhen Hua Liu"
       }, 
       {
         "name": "Beda Hammerschmidt"
@@ -416,7 +416,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Shaoxu Song*"
+        "name": "Shaoxu Song"
       }, 
       {
         "name": "Han Zhu"
@@ -434,7 +434,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Yu Yang*"
+        "name": "Yu Yang"
       }, 
       {
         "name": "Xiangbo Mao"
@@ -458,7 +458,7 @@ entities={
         "name": "Chengliang Chai"
       }, 
       {
-        "name": "Guoliang Li*"
+        "name": "Guoliang Li"
       }, 
       {
         "name": "Jian Li"
@@ -479,7 +479,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Dong Young Yoon*"
+        "name": "Dong Young Yoon"
       }, 
       {
         "name": "Ning Niu"
@@ -497,7 +497,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Fernando Chirigati*"
+        "name": "Fernando Chirigati"
       }, 
       {
         "name": "Harish Doraiswamy"
@@ -578,7 +578,7 @@ entities={
         "name": "Entong Shen"
       }, 
       {
-        "name": "Mohamed Soliman*"
+        "name": "Mohamed Soliman"
       }, 
       {
         "name": "F. Michael Waas"
@@ -593,7 +593,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Sairam Gurajada*"
+        "name": "Sairam Gurajada"
       }, 
       {
         "name": "Martin  Theobald"
@@ -608,7 +608,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Julien Pilourdault*"
+        "name": "Julien Pilourdault"
       }, 
       {
         "name": "Sihem Amer-Yahia"
@@ -626,7 +626,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "IOANNIS MYTILINIS*"
+        "name": "IOANNIS MYTILINIS"
       }, 
       {
         "name": "DIMITRIOS TSOUMAKOS"
@@ -644,7 +644,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Yang Zhengwei*"
+        "name": "Yang Zhengwei"
       }, 
       {
         "name": "Ada Wai-Chee Fu"
@@ -671,7 +671,7 @@ entities={
         "name": "Sourav S Bhowmick"
       }, 
       {
-        "name": "Wook-Shin Han*"
+        "name": "Wook-Shin Han"
       }, 
       {
         "name": "Jeong Hoon Lee"
@@ -692,7 +692,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Leilani Battle*"
+        "name": "Leilani Battle"
       }, 
       {
         "name": "Michael Stonebraker"
@@ -710,7 +710,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Kangnyeon Kim*"
+        "name": "Kangnyeon Kim"
       }, 
       {
         "name": "Tianzheng Wang"
@@ -731,7 +731,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Fei Bi*"
+        "name": "Fei Bi"
       }, 
       {
         "name": "Lijun Chang"
@@ -751,11 +751,11 @@ entities={
   }, 
   "937": {
     "title": "Efficient and Progressive Group Steiner Tree Search", 
-    "abstract": "The Group Steiner Tree (GST) problem is a fundamental problem in database area that has been successfully applied to keyword search in relational databases and team search in social networks. The state-of-the-art algorithm for the GST problem is a parameterized dynamic programming (DP) algorithm, which finds the optimal tree in $O(3^kn+2^k(n\\log n + m))$ time, where $k$ is the number of given groups, $m$ and $n$ are the number of the edges and nodes of the graph respectively. The major limitations of the parameterized DP algorithm are twofold: (i) it is intractable even for very small values of $k$ (e.g., $k=8$) in large graphs due to its exponential complexity, and (ii) it cannot generate a solution until the algorithm has completed its entire execution. To overcome these limitations, we propose an efficient and progressive GST algorithm in this paper, called PrunedDP. It is based on newly-developed optimal-tree decomposition and conditional tree merging techniques. The proposed algorithm not only drastically reduces the search space of the parameterized DP algorithm, but it also produces progressively-refined feasible solutions during algorithm execution. To further speed up the PrunedDP algorithm, we propose a progressive $A^*$-search algorithm, based on several carefully-designed lower-bounding techniques. We conduct extensive experiments to evaluate our algorithms on several large scale real-world graphs. The results show that our best algorithm is not only able to generate progressively-refined feasible solutions, but it also finds the optimal solution with at least two orders of magnitude acceleration over the state-of-the-art algorithm, using much less memory.", 
+    "abstract": "The Group Steiner Tree (GST) problem is a fundamental problem in database area that has been successfully applied to keyword search in relational databases and team search in social networks. The state-of-the-art algorithm for the GST problem is a parameterized dynamic programming (DP) algorithm, which finds the optimal tree in $O(3^kn+2^k(n\\log n + m))$ time, where $k$ is the number of given groups, $m$ and $n$ are the number of the edges and nodes of the graph respectively. The major limitations of the parameterized DP algorithm are twofold: (i) it is intractable even for very small values of $k$ (e.g., $k=8$) in large graphs due to its exponential complexity, and (ii) it cannot generate a solution until the algorithm has completed its entire execution. To overcome these limitations, we propose an efficient and progressive GST algorithm in this paper, called PrunedDP. It is based on newly-developed optimal-tree decomposition and conditional tree merging techniques. The proposed algorithm not only drastically reduces the search space of the parameterized DP algorithm, but it also produces progressively-refined feasible solutions during algorithm execution. To further speed up the PrunedDP algorithm, we propose a progressive $A^$-search algorithm, based on several carefully-designed lower-bounding techniques. We conduct extensive experiments to evaluate our algorithms on several large scale real-world graphs. The results show that our best algorithm is not only able to generate progressively-refined feasible solutions, but it also finds the optimal solution with at least two orders of magnitude acceleration over the state-of-the-art algorithm, using much less memory.", 
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Rong-Hua LI*"
+        "name": "Rong-Hua LI"
       }, 
       {
         "name": "Lu Qin"
@@ -776,7 +776,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Li Wang*"
+        "name": "Li Wang"
       }, 
       {
         "name": "Zhou Minqi"
@@ -800,7 +800,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Mengmeng Liu*"
+        "name": "Mengmeng Liu"
       }, 
       {
         "name": "Zachary Ives"
@@ -818,7 +818,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Yeounoh Chung*"
+        "name": "Yeounoh Chung"
       }, 
       {
         "name": "Tim Kraska"
@@ -839,7 +839,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Eirik Bakke*"
+        "name": "Eirik Bakke"
       }, 
       {
         "name": "David Karger"
@@ -878,7 +878,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Venkatesh Emani*"
+        "name": "Venkatesh Emani"
       }, 
       {
         "name": "Karthik Ramachandra"
@@ -899,7 +899,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Ismail Oukid*"
+        "name": "Ismail Oukid"
       }, 
       {
         "name": "Johan Lasperas"
@@ -923,7 +923,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Wenjian Xu*"
+        "name": "Wenjian Xu"
       }, 
       {
         "name": "ziqiang Feng"
@@ -941,7 +941,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Roee Ebenstein*"
+        "name": "Roee Ebenstein"
       }, 
       {
         "name": "Niranjan Kamat"
@@ -962,7 +962,7 @@ entities={
         "name": "Wenfei Fan"
       }, 
       {
-        "name": "YINGHUI WU*"
+        "name": "YINGHUI WU"
       }, 
       {
         "name": "Jingbo Xu"
@@ -983,7 +983,7 @@ entities={
         "name": "Paul Johns"
       }, 
       {
-        "name": "Bingsheng He*"
+        "name": "Bingsheng He"
       }
     ], 
     "type": "Research,", 
@@ -995,7 +995,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Min-Soo Kim*"
+        "name": "Min-Soo Kim"
       }, 
       {
         "name": "Kyu-Hyeon An"
@@ -1019,7 +1019,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Niv Dayan*"
+        "name": "Niv Dayan"
       }, 
       {
         "name": "Philippe Bonnet"
@@ -1040,7 +1040,7 @@ entities={
         "name": "Ning Yan"
       }, 
       {
-        "name": "Sona Hasani*"
+        "name": "Sona Hasani"
       }, 
       {
         "name": "Abolfazl Asudeh"
@@ -1058,7 +1058,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Sudip Roy*"
+        "name": "Sudip Roy"
       }, 
       {
         "name": "Neoklis Polyzotis"
@@ -1088,7 +1088,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Zechao Shang*"
+        "name": "Zechao Shang"
       }, 
       {
         "name": "Feifei Li"
@@ -1112,7 +1112,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Mohamed Hassan*"
+        "name": "Mohamed Hassan"
       }, 
       {
         "name": "Walid Aref"
@@ -1130,7 +1130,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Nan Tang*"
+        "name": "Nan Tang"
       }, 
       {
         "name": "Qing Chen"
@@ -1172,7 +1172,7 @@ entities={
         "name": "Sainyam Galhotra"
       }, 
       {
-        "name": "Akhil Arora*"
+        "name": "Akhil Arora"
       }, 
       {
         "name": "Shourya Roy"
@@ -1187,7 +1187,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Amir Shaikhha*"
+        "name": "Amir Shaikhha"
       }, 
       {
         "name": "Yannis Klonatos"
@@ -1214,7 +1214,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Milos Nikolic*"
+        "name": "Milos Nikolic"
       }, 
       {
         "name": "Christoph Koch"
@@ -1253,7 +1253,7 @@ entities={
         "name": "Wolfgang Stephan"
       }, 
       {
-        "name": "Wook-Shin Han*"
+        "name": "Wook-Shin Han"
       }
     ], 
     "type": "Industrial", 
@@ -1265,7 +1265,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Zhigang Wang*"
+        "name": "Zhigang Wang"
       }, 
       {
         "name": "Yu Gu"
@@ -1307,7 +1307,7 @@ entities={
         "name": "Paolo Papotti"
       }, 
       {
-        "name": "Nan Tang*"
+        "name": "Nan Tang"
       }
     ], 
     "type": "Research,", 
@@ -1319,7 +1319,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Srikanth Kandula*"
+        "name": "Srikanth Kandula"
       }, 
       {
         "name": "Anil Shanbhag"
@@ -1349,7 +1349,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Yuxin Zheng*"
+        "name": "Yuxin Zheng"
       }, 
       {
         "name": "Qi Guo"
@@ -1370,7 +1370,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Dan Olteanu*"
+        "name": "Dan Olteanu"
       }, 
       {
         "name": "Maximilian Schleich"
@@ -1388,7 +1388,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Asif iqbal Baba*"
+        "name": "Asif iqbal Baba"
       }, 
       {
         "name": "Manfred Jaeger"
@@ -1418,7 +1418,7 @@ entities={
         "name": "Pei Wang"
       }, 
       {
-        "name": "Chuan Xiao*"
+        "name": "Chuan Xiao"
       }, 
       {
         "name": "Jianbin Qin"
@@ -1442,7 +1442,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Kun Ren*"
+        "name": "Kun Ren"
       }, 
       {
         "name": "thaddeus Diamond"
@@ -1463,7 +1463,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Zhewei Wei*"
+        "name": "Zhewei Wei"
       }, 
       {
         "name": "Xuancheng Liu"
@@ -1490,7 +1490,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Utku Sirin*"
+        "name": "Utku Sirin"
       }, 
       {
         "name": "Pinar Tozun"
@@ -1511,7 +1511,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Tomer Sagi*"
+        "name": "Tomer Sagi"
       }, 
       {
         "name": "Avigdor Gal"
@@ -1535,7 +1535,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Yang Chen*"
+        "name": "Yang Chen"
       }, 
       {
         "name": "Sean Goldberg"
@@ -1559,7 +1559,7 @@ entities={
         "name": "Kukjin Lee"
       }, 
       {
-        "name": "Christian Konig*"
+        "name": "Christian Konig"
       }, 
       {
         "name": "Vivek Narasayya"
@@ -1604,7 +1604,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "J\u009frgen H\u009alsch*"
+        "name": "J\u009frgen H\u009alsch"
       }, 
       {
         "name": "Michael Grossniklaus"
@@ -1622,7 +1622,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Reza Sherkat*"
+        "name": "Reza Sherkat"
       }, 
       {
         "name": "Colin Florendo"
@@ -1664,7 +1664,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Markus Pilman*"
+        "name": "Markus Pilman"
       }, 
       {
         "name": "Florian K\u009ahl"
@@ -1688,7 +1688,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Astrid Rheinl\u008ander*"
+        "name": "Astrid Rheinl\u008ander"
       }, 
       {
         "name": "Mario Lehmann"
@@ -1712,19 +1712,23 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
+<<<<<<< HEAD
+        "name": "Ioannis Demertzis"
+=======
         "name": "Ioannis Demertzis*"
-      }, 
-      {
-        "name": "Minos Garofalakis"
-      }, 
-      {
-        "name": "Antonios Deligiannakis"
+>>>>>>> 45c45e6c2721985caaca3997eba01d0bfe790c5e
       }, 
       {
         "name": "Stavros Papadopoulos"
       }, 
       {
         "name": "Odysseas Papapetrou"
+      },
+      {
+        "name": "Antonios Deligiannakis"
+      },
+      {
+        "name": "Minos Garofalakis"
       }
     ], 
     "type": "Research", 
@@ -1736,7 +1740,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Michael Hay*"
+        "name": "Michael Hay"
       }, 
       {
         "name": "Ashwin Machanavajjhala"
@@ -1763,7 +1767,7 @@ entities={
         "name": "Jun Zhang"
       }, 
       {
-        "name": "Xiaokui Xiao*"
+        "name": "Xiaokui Xiao"
       }, 
       {
         "name": "Xing Xie"
@@ -1781,7 +1785,7 @@ entities={
         "name": "Zhao Chang"
       }, 
       {
-        "name": "Lei Zou*"
+        "name": "Lei Zou"
       }, 
       {
         "name": "Feifei Li"
@@ -1796,7 +1800,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Sanjay Krishnan*"
+        "name": "Sanjay Krishnan"
       }, 
       {
         "name": "Jiannan Wang"
@@ -1820,7 +1824,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Xin Huang*"
+        "name": "Xin Huang"
       }, 
       {
         "name": "Wei Lu"
@@ -1838,7 +1842,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Zachary Jorgensen*"
+        "name": "Zachary Jorgensen"
       }, 
       {
         "name": "Ting Yu"
@@ -1856,7 +1860,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Wei-Yen Day*"
+        "name": "Wei-Yen Day"
       }, 
       {
         "name": "Ninghui Li"
@@ -1874,7 +1878,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Nikolay Yakovets*"
+        "name": "Nikolay Yakovets"
       }, 
       {
         "name": "Parke Godfrey"
@@ -1892,7 +1896,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Sebastian Kruse*"
+        "name": "Sebastian Kruse"
       }, 
       {
         "name": "Anja Jentzsch"
@@ -1922,7 +1926,7 @@ entities={
         "name": "Ali Hadian"
       }, 
       {
-        "name": "Sadegh Nobari*"
+        "name": "Sadegh Nobari"
       }, 
       {
         "name": "Behrouz Minaei-Bidgoli"
@@ -1946,7 +1950,7 @@ entities={
         "name": "Junhao Gan"
       }, 
       {
-        "name": "Yufei Tao*"
+        "name": "Yufei Tao"
       }
     ], 
     "type": "Research,", 
@@ -1958,7 +1962,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Huaijie Zhu*"
+        "name": "Huaijie Zhu"
       }, 
       {
         "name": "Xiaochun Yang"
@@ -1979,7 +1983,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Yanxiang Huang*"
+        "name": "Yanxiang Huang"
       }, 
       {
         "name": "Bin Cui"
@@ -2006,7 +2010,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Huanchen Zhang*"
+        "name": "Huanchen Zhang"
       }, 
       {
         "name": "David Andersen"
@@ -2033,7 +2037,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Yubao Wu*"
+        "name": "Yubao Wu"
       }, 
       {
         "name": "Yuchen Bian"
@@ -2051,7 +2055,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Sebastian Bre\u00a7*"
+        "name": "Sebastian Bre\u00a7"
       }, 
       {
         "name": "Henning Funke"
@@ -2069,7 +2073,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Tim Furche*"
+        "name": "Tim Furche"
       }, 
       {
         "name": "Jinsong Guo"
@@ -2093,7 +2097,7 @@ entities={
         "name": "Alexandros Koliousis"
       }, 
       {
-        "name": "Matthias Weidlich*"
+        "name": "Matthias Weidlich"
       }, 
       {
         "name": "Raul Castro Fernandez"
@@ -2129,7 +2133,7 @@ entities={
         "name": "Yang-Suk Kee"
       }, 
       {
-        "name": "Sang-Won Lee*"
+        "name": "Sang-Won Lee"
       }
     ], 
     "type": "Research", 
@@ -2141,7 +2145,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Boyu Tian*"
+        "name": "Boyu Tian"
       }, 
       {
         "name": "Xiaokui Xiao"
@@ -2159,7 +2163,7 @@ entities={
         "name": "Henning Koehler"
       }, 
       {
-        "name": "Sebastian Link*"
+        "name": "Sebastian Link"
       }
     ], 
     "type": "Research,", 
@@ -2171,7 +2175,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Bolin Ding*"
+        "name": "Bolin Ding"
       }, 
       {
         "name": "Silu Huang"
@@ -2195,7 +2199,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Wentao Wu*"
+        "name": "Wentao Wu"
       }, 
       {
         "name": "Jeffrey Naughton"
@@ -2213,7 +2217,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Nikos Giatrakos*"
+        "name": "Nikos Giatrakos"
       }, 
       {
         "name": "Antonios Deligiannakis"
@@ -2231,7 +2235,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Medhabi Ray*"
+        "name": "Medhabi Ray"
       }, 
       {
         "name": "Chuan Lei"
@@ -2252,7 +2256,7 @@ entities={
         "name": "Kun Ren"
       }, 
       {
-        "name": "Jose Faleiro*"
+        "name": "Jose Faleiro"
       }, 
       {
         "name": "Daniel Abadi"
@@ -2270,7 +2274,7 @@ entities={
         "name": "Aoqian Zhang"
       }, 
       {
-        "name": "Shaoxu Song*"
+        "name": "Shaoxu Song"
       }, 
       {
         "name": "Jianmin Wang"
@@ -2288,7 +2292,7 @@ entities={
         "name": "Jinglin Peng"
       }, 
       {
-        "name": "Hongzhi Wang*"
+        "name": "Hongzhi Wang"
       }, 
       {
         "name": "Jianzhong Li"
@@ -2306,7 +2310,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Lei Cao*"
+        "name": "Lei Cao"
       }, 
       {
         "name": "Jiayuan Wang"
@@ -2387,7 +2391,7 @@ entities={
         "name": "Dong Xie"
       }, 
       {
-        "name": "Feifei Li*"
+        "name": "Feifei Li"
       }, 
       {
         "name": "Bin Yao"
@@ -2414,7 +2418,7 @@ entities={
         "name": "Weijie Zhao"
       }, 
       {
-        "name": "Florin Rusu*"
+        "name": "Florin Rusu"
       }, 
       {
         "name": "Bin Dong"
@@ -2432,7 +2436,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Shivaram Venkataraman*"
+        "name": "Shivaram Venkataraman"
       }, 
       {
         "name": "Zongheng Yang"
@@ -2474,7 +2478,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Hao Wei*"
+        "name": "Hao Wei"
       }, 
       {
         "name": "Jeffrey Xu Yu"
@@ -2498,7 +2502,7 @@ entities={
         "name": "Yasir Mehmood"
       }, 
       {
-        "name": "Francesco Bonchi*"
+        "name": "Francesco Bonchi"
       }, 
       {
         "name": "David Garcia-Soriano"
@@ -2519,7 +2523,7 @@ entities={
         "name": "My Thai"
       }, 
       {
-        "name": "Thang Dinh*"
+        "name": "Thang Dinh"
       }
     ], 
     "type": "Research,", 
@@ -2531,7 +2535,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Di Chen*"
+        "name": "Di Chen"
       }, 
       {
         "name": "Qin Zhang"
@@ -2546,7 +2550,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Christopher Aberger*"
+        "name": "Christopher Aberger"
       }, 
       {
         "name": "Susan Tu"
@@ -2567,7 +2571,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Shan-Hung Wu*"
+        "name": "Shan-Hung Wu"
       }, 
       {
         "name": "Tsai-Yu Feng"
@@ -2591,7 +2595,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Natacha Crooks*"
+        "name": "Natacha Crooks"
       }, 
       {
         "name": "Youer Pu"
@@ -2618,7 +2622,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Evangelia Kalyvianaki*"
+        "name": "Evangelia Kalyvianaki"
       }, 
       {
         "name": "Marco Fiscato"
@@ -2639,7 +2643,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Shrainik Jain*"
+        "name": "Shrainik Jain"
       }, 
       {
         "name": "Bill Howe"
@@ -2714,7 +2718,7 @@ entities={
         "name": "Spyridon Triantafyllis"
       }, 
       {
-        "name": "Philipp Unterbrunner*"
+        "name": "Philipp Unterbrunner"
       }
     ], 
     "type": "Industrial", 
@@ -2726,7 +2730,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Xiangyao Yu*"
+        "name": "Xiangyao Yu"
       }, 
       {
         "name": "Andy Pavlo"
@@ -2747,7 +2751,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Anshumali Shrivastava*"
+        "name": "Anshumali Shrivastava"
       }, 
       {
         "name": "Christian Konig"
@@ -2765,7 +2769,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Arun Kumar*"
+        "name": "Arun Kumar"
       }, 
       {
         "name": "Jeffrey Naughton"
@@ -2786,7 +2790,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Jieming Shi*"
+        "name": "Jieming Shi"
       }, 
       {
         "name": "Dingming Wu"
@@ -2804,7 +2808,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Kaiqi Zhao*"
+        "name": "Kaiqi Zhao"
       }, 
       {
         "name": "Lisi Chen"
@@ -2822,7 +2826,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "XIAOGANG SHI*"
+        "name": "XIAOGANG SHI"
       }, 
       {
         "name": "Bin Cui"
@@ -2843,7 +2847,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Kaiyu Feng*"
+        "name": "Kaiyu Feng"
       }, 
       {
         "name": "Gao Cong"
@@ -2867,7 +2871,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Akash Das Sarma*"
+        "name": "Akash Das Sarma"
       }, 
       {
         "name": "Aditya Parameswaran"
@@ -2885,7 +2889,7 @@ entities={
     "subtype": "Industrial", 
     "authors": [
       {
-        "name": "Sina Meraji*"
+        "name": "Sina Meraji"
       }, 
       {
         "name": "Berni Schiefer"
@@ -2933,7 +2937,7 @@ entities={
         "name": "Gang Chen"
       }, 
       {
-        "name": "Beng Chin Ooi*"
+        "name": "Beng Chin Ooi"
       }, 
       {
         "name": "Kian-Lee Tan"
@@ -2951,7 +2955,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Yingjun Wu*"
+        "name": "Yingjun Wu"
       }, 
       {
         "name": "Chee Yong Chan"
@@ -2969,7 +2973,7 @@ entities={
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Zhaoguo Wang*"
+        "name": "Zhaoguo Wang"
       }, 
       {
         "name": "Yang Cui"
@@ -2996,7 +3000,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Manos Athanassoulis*"
+        "name": "Manos Athanassoulis"
       }, 
       {
         "name": "Zheng Yan"
@@ -3041,22 +3045,22 @@ entities={
         "name": "Giel De Nijs"
       }, 
       {
-        "name": "Peter Boncz*"
+        "name": "Peter Boncz"
       }
     ], 
     "type": "Industrial", 
     "id": "901"
   }, 
   "384": {
-    "title": "Vectorized Access to Hot and Cold Data in Compiling Query Engines", 
+    "title": "Data Blocks: Hybrid OLTP and OLAP on Compressed Storage using both Vectorization and Compilation", 
     "abstract": "This work aims at reducing the main-memory footprint in high performance hybrid OLTP&OLAP databases, while retaining high query performance and transactional throughput. For this purpose an innovative compressed columnar storage format for cold data, called Data Blocks is intro- duced. Data Blocks, further incorporate a new light-weight index structure called Positional SMA, that narrows scan ranges within Data Blocks even if the entire block cannot be ruled out. To achieve highest OLTP performance the compression schemes of Data Blocks are very light-weight, such that OLTP transactions can still quickly access individual tuples \u00d0 Setting this storage scheme apart from those used in specialized analytical databases, where data must usually be bit-unpacked. So far high-performance analytical systems use either vectorized query execution or \u00d2just-in-time\u00d3 (JIT) query compilation. The fine-grained adaptivity of Data Blocks necessitates the integration of the best features of each approach by an interpreted vectorized scan sub-system feeding into JIT-compiled query pipelines. Experimental evaluation of our full-fledged hybrid OLTP&OLAP database system shows that Data Blocks accelerate performance on a variety of query workloads while retaining high transaction throughput.", 
     "subtype": "Research", 
     "authors": [
       {
-        "name": "Tobias Muehlbauer*"
+        "name": "Harald Lang"
       }, 
       {
-        "name": "Harald Lang"
+        "name": "Tobias Muehlbauer"
       }, 
       {
         "name": "Florian Funke"
@@ -3086,7 +3090,7 @@ entities={
         "name": "Bin Wu"
       }, 
       {
-        "name": "Ke Yi*"
+        "name": "Ke Yi"
       }, 
       {
         "name": "Zhuoyue Zhao"
@@ -3104,7 +3108,7 @@ entities={
         "name": "Hang Liu"
       }, 
       {
-        "name": "Howie Huang*"
+        "name": "Howie Huang"
       }, 
       {
         "name": "Yang Hu"
@@ -3119,7 +3123,7 @@ entities={
     "subtype": "Research,", 
     "authors": [
       {
-        "name": "Kai Zeng*"
+        "name": "Kai Zeng"
       }, 
       {
         "name": "Sameer Agarwal"
