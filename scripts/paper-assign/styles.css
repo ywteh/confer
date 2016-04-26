@@ -79,7 +79,7 @@ body {
 
 .session {
 	float: left;
-	margin-top: 0px;
+	padding-top: 36px;
 	width: 33%;
 }
 
@@ -89,8 +89,16 @@ body {
 	font-weight: bold;
 	width:100%;
 	padding: 10px;
-	float: left;
+	position: absolute;
 }
+
+.session-headers {
+		position: absolute;
+		width: 80%;
+		top: 0;
+		left: 20%;
+}
+
 .paper-group {
 	width: 100%;
 }

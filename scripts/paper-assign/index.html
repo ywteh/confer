@@ -197,6 +197,9 @@ function resizeEven() {
     });
     $("#sessions .session").each(function(index) {
         $(this).height(maxHeight);
+        var off = $(this).offset();
+        var hdr = timeHeaders[index];//$(this).prop("header")
+        $(hdr).offset({top: off.top, left: '20%'});
     });
     
 }
@@ -221,15 +224,22 @@ function resize() {
         $("#sessions .session").slice(i*parallelSessions,Math.min(sessions.length,(i+1)*parallelSessions)).each(function(index) {
 
             $(this).height(maxHeight);
+            var off = $(this).offset();
+            var hdr = timeHeaders[i*parallelSessions + index];//$(this).prop("header")
+            $(hdr).offset({top: off.top, left: '20%'});
         });
     }
 }
 
 numSessions = 0;
+timeHeaders = [];
+sessionTimeHeader = null; //global
+
 //create a new session
 function addSession(title, paperList) {
 
     var sessions = document.getElementById("sessions");
+    var sessionHeaders = document.getElementById("session-headers");
     var session = document.createElement("div");
     session.className = "session";
     $(session).css("width",100/parallelSessions + "%");
@@ -246,19 +256,20 @@ function addSession(title, paperList) {
     session.appendChild(titleDiv);
     session.appendChild(sessionBody);
 
-    var sessionTimeHeader = null;
     if (numSessions % parallelSessions == 0) {
         sessionTimeHeader= document.createElement("div");
         sessionTimeHeader.className="session-time-header";
         sessionTimeHeader.innerHTML = "<center>"+sessionTimes[Math.trunc(numSessions / parallelSessions)]+"</center>"
-        sessions.appendChild(sessionTimeHeader);
+        sessionHeaders.appendChild(sessionTimeHeader);
     }
     numSessions = numSessions + 1;
 
     sessions.appendChild(session);
     if (sessionTimeHeader) {
         var off = $(session).offset();
-        $(sessionTimeHeader).offset({top: off.top-36});
+        $(sessionTimeHeader).offset({top: off.top, left: '20%'});
+        //session.header = sessionTimeHeader;
+        timeHeaders.push(sessionTimeHeader);
     }
     sessionBody.sessionId = title;
     if (paperList) {
@@ -437,8 +448,11 @@ $(function() {
        <div class="session-body" id="papers" sessionId="papers"> </div>
    </div>
 </div>
+    <div id = "session-headers" class="session-headers">
+</div>
 
-<div class="sessions" id = "sessions"></div>
 
+<div class="sessions" id = "sessions">
+</div>
 </body>
 </html>
