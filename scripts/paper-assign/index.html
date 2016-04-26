@@ -189,6 +189,7 @@ function saveSessions() {
 function resizeEven() {
     var maxHeight = 0;
     $("#sessions .session").each(function(index) {
+
         $(this).height("auto");
         if ($(this).height() > maxHeight) {
             maxHeight = $(this).height();
@@ -218,11 +219,13 @@ function resize() {
             }
         });
         $("#sessions .session").slice(i*parallelSessions,Math.min(sessions.length,(i+1)*parallelSessions)).each(function(index) {
+
             $(this).height(maxHeight);
         });
     }
 }
 
+numSessions = 0;
 //create a new session
 function addSession(title, paperList) {
 
@@ -238,10 +241,25 @@ function addSession(title, paperList) {
     titleDiv.innerHTML = title;
     var handleDiv = document.createElement("div");
     handleDiv.className = "handle";
+
     session.appendChild(handleDiv);
     session.appendChild(titleDiv);
     session.appendChild(sessionBody);
+
+    var sessionTimeHeader = null;
+    if (numSessions % parallelSessions == 0) {
+        sessionTimeHeader= document.createElement("div");
+        sessionTimeHeader.className="session-time-header";
+        sessionTimeHeader.innerHTML = "<center>"+sessionTimes[Math.trunc(numSessions / parallelSessions)]+"</center>"
+        sessions.appendChild(sessionTimeHeader);
+    }
+    numSessions = numSessions + 1;
+
     sessions.appendChild(session);
+    if (sessionTimeHeader) {
+        var off = $(session).offset();
+        $(sessionTimeHeader).offset({top: off.top-36});
+    }
     sessionBody.sessionId = title;
     if (paperList) {
         for (var i = 0; i < paperList.length; i++ ) {
