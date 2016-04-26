@@ -34,6 +34,17 @@ body {
 	border-radius:5px;
 }
 
+.conflictButton {
+	padding:8px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF2222;
+	border: 0px;
+	min-width:80px;
+	border-radius:5px;
+}
+
 .saveButton:active {
 	background-color: #4444FF;
 }
@@ -104,3 +115,34 @@ body {
 	margin: 0 1em 1em 0;
 	height: 50px;
 }
+
+
+.conflictTable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 10px;
+	margin: 20px;
+	width: 90%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.conflictTable th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 11px;
+	color: #039;
+	background: #b9c9fe;
+}
+.conflictTable td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+.conflictTable tbody tr:hover td
+{
+	background: #d0dafd;
+}
+

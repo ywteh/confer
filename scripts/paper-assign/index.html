@@ -287,9 +287,35 @@ function addSession(title, paperList) {
 }
 
 
+function showConflicts() {
+    $.ajax({
+            type: "GET",
+            url:"find-conflicts.py",
+            dataType: "html",
+            success: function(data, textStatus, jqXHR) {
+                $("#conflictAuthorsDiv").prop('innerHTML',data);
+                $("#conflictAuthors").prop('value',"Hide Conflicts");
+                $('#conflictAuthors').off('click');
+                $("#conflictAuthors").on('click', hideConflicts);
+
+            }
+        });
+
+}
+
+function hideConflicts() {
+    $("#conflictAuthorsDiv").prop('innerHTML','');
+    $("#conflictAuthors").prop('value',"Show Conflicts");
+    $('#conflictAuthors').off('click');
+    $("#conflictAuthors").on('click', showConflicts);
+
+}
+
+
 $(document).ready(function() {
     $.ajaxSetup({ cache: false });
     $("#title").html(documentTitle);
+    $("#conflictAuthors").on('click', showConflicts);
     testAndSetLock(function(locked) {
         $('#clickMe').off('click');
         if (locked) {
@@ -383,8 +409,10 @@ $(function() {
     <div class="header-bar">
       <p id="title"></p>
       <input id="clickMe" class="saveButton" type="button" value="Save" />
+      <input id="conflictAuthors" class="conflictButton" type="button" value="Show Conflicts" />
   </div>
-
+  <div id="conflictAuthorsDiv">
+  </div>
   <div class="papers">
       <div class="paper-group session" >
        <div class="header">Unassigned Papers</div>
