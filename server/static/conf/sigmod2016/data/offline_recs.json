@@ -1,4 +1,3 @@
-nav_hide=["nav_schedule", "nav_meetups"]
 config_params = {
 	"sort_paper": {"param": "title"},
 	"display_all": true
