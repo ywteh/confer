@@ -13,3 +13,5 @@ papers into sessions and reorder them.  Paper-list is a list of papers.
 Settings.js includes some basic settings, including the heading for
 the page, a few color options, and a setting of the number of columns
 to use in the layout.
+
+Note that this tool will write the session-list.json and lock files, so these files need to be world writeable.

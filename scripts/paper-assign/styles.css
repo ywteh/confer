@@ -2,6 +2,7 @@ body {
 	font-family:  "Helvetica", "Arial",  "Verdana", "sans-serif";
 	font-size: 62.5%;
 	min-width: 520px;
+	background: #FFFFFF;
 }
 
 .header {
@@ -29,6 +30,17 @@ body {
 	font-weight: bold;
 	color: #FFFFFF;
 	background-color: #2222FF;
+	border: 0px;
+	min-width:80px;
+	border-radius:5px;
+}
+
+.conflictButton {
+	padding:8px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF2222;
 	border: 0px;
 	min-width:80px;
 	border-radius:5px;
@@ -67,7 +79,24 @@ body {
 
 .session {
 	float: left;
+	padding-top: 36px;
 	width: 33%;
+}
+
+.session-time-header {
+	background: #DDDDDD;
+	font-size:14px;
+	font-weight: bold;
+	width:100%;
+	padding: 10px;
+	position: absolute;
+}
+
+.session-headers {
+		position: absolute;
+		width: 80%;
+		top: 0;
+		left: 20%;
 }
 
 .paper-group {
@@ -104,3 +133,34 @@ body {
 	margin: 0 1em 1em 0;
 	height: 50px;
 }
+
+
+.conflictTable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 10px;
+	margin: 20px;
+	width: 90%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.conflictTable th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 11px;
+	color: #039;
+	background: #b9c9fe;
+}
+.conflictTable td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+.conflictTable tbody tr:hover td
+{
+	background: #d0dafd;
+}
+

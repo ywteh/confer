@@ -30,7 +30,12 @@
   function loadPapers() {
     $.getJSON("paper-list.json", function(data) {
         $.each(data["papers"], function(key,val) {
-            addPaper(val.title,val.abstract,key);
+            var auths = "<b>";
+            $.each(val["authors"], function(ano,obj){
+                auths += obj.name + ", ";
+            });
+            auths += "</b>";
+            addPaper(val.title,auths + "<p>" + val.abstract,key);
         });
         gPapers = data;
 
@@ -151,7 +156,7 @@ function enableClicks() {
         $(this).sortable( "enable" );
     });
     $("#papers").sortable("enable");
-    $("#sessions").sortable( "disable" );
+    $("#sessions").sortable( "enable" );
 
 }
 
@@ -184,6 +189,7 @@ function saveSessions() {
 function resizeEven() {
     var maxHeight = 0;
     $("#sessions .session").each(function(index) {
+
         $(this).height("auto");
         if ($(this).height() > maxHeight) {
             maxHeight = $(this).height();
@@ -191,6 +197,9 @@ function resizeEven() {
     });
     $("#sessions .session").each(function(index) {
         $(this).height(maxHeight);
+        var off = $(this).offset();
+        var hdr = timeHeaders[index];//$(this).prop("header")
+        $(hdr).offset({top: off.top, left: '20%'});
     });
     
 }
@@ -213,15 +222,24 @@ function resize() {
             }
         });
         $("#sessions .session").slice(i*parallelSessions,Math.min(sessions.length,(i+1)*parallelSessions)).each(function(index) {
+
             $(this).height(maxHeight);
+            var off = $(this).offset();
+            var hdr = timeHeaders[i*parallelSessions + index];//$(this).prop("header")
+            $(hdr).offset({top: off.top, left: '20%'});
         });
     }
 }
+
+numSessions = 0;
+timeHeaders = [];
+sessionTimeHeader = null; //global
 
 //create a new session
 function addSession(title, paperList) {
 
     var sessions = document.getElementById("sessions");
+    var sessionHeaders = document.getElementById("session-headers");
     var session = document.createElement("div");
     session.className = "session";
     $(session).css("width",100/parallelSessions + "%");
@@ -233,10 +251,26 @@ function addSession(title, paperList) {
     titleDiv.innerHTML = title;
     var handleDiv = document.createElement("div");
     handleDiv.className = "handle";
+
     session.appendChild(handleDiv);
     session.appendChild(titleDiv);
     session.appendChild(sessionBody);
+
+    if (numSessions % parallelSessions == 0) {
+        sessionTimeHeader= document.createElement("div");
+        sessionTimeHeader.className="session-time-header";
+        sessionTimeHeader.innerHTML = "<center>"+sessionTimes[Math.trunc(numSessions / parallelSessions)]+"</center>"
+        sessionHeaders.appendChild(sessionTimeHeader);
+    }
+    numSessions = numSessions + 1;
+
     sessions.appendChild(session);
+    if (sessionTimeHeader) {
+        var off = $(session).offset();
+        $(sessionTimeHeader).offset({top: off.top, left: '20%'});
+        //session.header = sessionTimeHeader;
+        timeHeaders.push(sessionTimeHeader);
+    }
     sessionBody.sessionId = title;
     if (paperList) {
         for (var i = 0; i < paperList.length; i++ ) {
@@ -282,9 +316,35 @@ function addSession(title, paperList) {
 }
 
 
+function showConflicts() {
+    $.ajax({
+            type: "GET",
+            url:"find-conflicts.py",
+            dataType: "html",
+            success: function(data, textStatus, jqXHR) {
+                $("#conflictAuthorsDiv").prop('innerHTML',data);
+                $("#conflictAuthors").prop('value',"Hide Conflicts");
+                $('#conflictAuthors').off('click');
+                $("#conflictAuthors").on('click', hideConflicts);
+
+            }
+        });
+
+}
+
+function hideConflicts() {
+    $("#conflictAuthorsDiv").prop('innerHTML','');
+    $("#conflictAuthors").prop('value',"Show Conflicts");
+    $('#conflictAuthors').off('click');
+    $("#conflictAuthors").on('click', showConflicts);
+
+}
+
+
 $(document).ready(function() {
     $.ajaxSetup({ cache: false });
     $("#title").html(documentTitle);
+    $("#conflictAuthors").on('click', showConflicts);
     testAndSetLock(function(locked) {
         $('#clickMe').off('click');
         if (locked) {
@@ -378,16 +438,21 @@ $(function() {
     <div class="header-bar">
       <p id="title"></p>
       <input id="clickMe" class="saveButton" type="button" value="Save" />
+      <input id="conflictAuthors" class="conflictButton" type="button" value="Show Conflicts" />
   </div>
-
+  <div id="conflictAuthorsDiv">
+  </div>
   <div class="papers">
       <div class="paper-group session" >
        <div class="header">Unassigned Papers</div>
        <div class="session-body" id="papers" sessionId="papers"> </div>
    </div>
 </div>
+    <div id = "session-headers" class="session-headers">
+</div>
 
-<div class="sessions" id = "sessions"></div>
 
+<div class="sessions" id = "sessions">
+</div>
 </body>
 </html>
