@@ -75,14 +75,21 @@ s_filters=[
                     "class":"venue filter",
                     "type":"venue",
                     "label":"Panel"
-                }             
-/*                {
+                },
+                {
                     "data":"special",
                     "class":"venue filter",
                     "type":"venue",
                     "label":"Special"
-                },                
+                },
+
                 {
+                    "data":"journal",
+                    "class":"venue filter",
+                    "type":"venue",
+                    "label":"Journal"
+                }
+/*                {
                     "data":"keynote",
                     "class":"venue filter",
                     "type":"venue",

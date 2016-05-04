@@ -45,7 +45,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s200",
+                        "session": "s916",
                         "room": "LL21D"
                     },
                     {
@@ -73,7 +73,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s916",
+                        "session": "s200",
                         "room": "LL21 B"
                     }
                 ]
@@ -86,10 +86,6 @@ schedule=[
                     {
                         "session": "s-panel904",
                         "room": "220 A"
-                    },
-                    {
-                        "session": "s-alt3",
-                        "room": "230 C"
                     },
                     {
                         "session": "s-alt1",
@@ -132,7 +128,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s202",
+                        "session": "s915",
                         "room": "LL21D"
                     },
                     {
@@ -160,7 +156,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s915",
+                        "session": "s202",
                         "room": "LL21 B"
                     }
                 ]
@@ -173,6 +169,10 @@ schedule=[
                     {
                         "session": "s-alt2",
                         "room": "220 A"
+                    },
+                    {
+                        "session": "s-alt4",
+                        "room": "230 C"
                     },
                     {
                         "session": "s-panel902",
@@ -207,7 +207,7 @@ schedule=[
                         "room": "112"
                     },
                     {
-                        "session": "s-case3",
+                        "session": "s-course921",
                         "room": "114"
                     },
                     {
@@ -215,7 +215,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s912",
+                        "session": "s920",
                         "room": "LL21D"
                     },
                     {
@@ -243,7 +243,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s920",
+                        "session": "s912",
                         "room": "LL21 B"
                     }
                 ]
@@ -260,7 +260,7 @@ schedule=[
                 "slot_class": "morning1",
                 "sessions": [
                     {
-                        "session": "s-alt4",
+                        "session": "s-award1",
                         "room": "220 A"
                     },
                     {
@@ -308,7 +308,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s204",
+                        "session": "s917",
                         "room": "LL21D"
                     },
                     {
@@ -336,7 +336,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s917",
+                        "session": "s204",
                         "room": "LL21 B"
                     }
                 ]
@@ -349,10 +349,6 @@ schedule=[
                     {
                         "session": "s-sig908",
                         "room": "230 C"
-                    },
-                    {
-                        "session": "s-alt904",
-                        "room": "220 B"
                     },
                     {
                         "session": "s-course908",
@@ -375,6 +371,10 @@ schedule=[
                         "room": "210 BF"
                     },
                     {
+                        "session": "s923",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig5",
                         "room": "112"
                     },
@@ -387,7 +387,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s205",
+                        "session": "s918",
                         "room": "LL21D"
                     },
                     {
@@ -415,7 +415,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s918",
+                        "session": "s205",
                         "room": "LL21 B"
                     }
                 ]
@@ -426,12 +426,12 @@ schedule=[
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
-                        "session": "s-sig909",
-                        "room": "230 C"
+                        "session": "s-panel905",
+                        "room": "220 A"
                     },
                     {
-                        "session": "s-panel905",
-                        "room": "220 B"
+                        "session": "s-sig909",
+                        "room": "230 C"
                     },
                     {
                         "session": "s-course909",
@@ -470,7 +470,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s207",
+                        "session": "s921",
                         "room": "LL21D"
                     },
                     {
@@ -498,7 +498,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s921",
+                        "session": "s207",
                         "room": "LL21 B"
                     }
                 ]
@@ -549,7 +549,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s206",
+                        "session": "s166",
                         "room": "LL21D"
                     },
                     {
@@ -577,7 +577,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s166",
+                        "session": "s206",
                         "room": "LL21 B"
                     }
                 ]
@@ -593,6 +593,10 @@ schedule=[
                 "time": "9:30 - 10:50",
                 "slot_class": "morning1",
                 "sessions": [
+                    {
+                        "session": "s-award2",
+                        "room": "220 A"
+                    },
                     {
                         "session": "s-alt5",
                         "room": "230 C"
@@ -630,11 +634,15 @@ schedule=[
                         "room": "112"
                     },
                     {
+                        "session": "s-case3",
+                        "room": "114"
+                    },
+                    {
                         "session": "s160",
                         "room": "LL21C"
                     },
                     {
-                        "session": "s910",
+                        "session": "s922",
                         "room": "LL21D"
                     },
                     {
@@ -654,11 +662,15 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
+                        "session": "s908",
+                        "room": "LL 20B"
+                    },
+                    {
                         "session": "s113",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s922",
+                        "session": "s910",
                         "room": "LL21 B"
                     }
                 ]
@@ -668,6 +680,14 @@ schedule=[
                 "time": "11:30 - 12:50",
                 "slot_class": "morning2",
                 "sessions": [
+                    {
+                        "session": "s-special926",
+                        "room": "220 A"
+                    },
+                    {
+                        "session": "s-alt904",
+                        "room": "230 C"
+                    },
                     {
                         "session": "s-panel908",
                         "room": "220 B"
@@ -709,7 +729,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s903",
+                        "session": "s914",
                         "room": "LL21D"
                     },
                     {
@@ -737,7 +757,7 @@ schedule=[
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s914",
+                        "session": "s903",
                         "room": "LL21 B"
                     }
                 ]
@@ -748,12 +768,16 @@ schedule=[
                 "slot_class": "afternoon1",
                 "sessions": [
                     {
-                        "session": "s-panel909",
-                        "room": "220 B"
+                        "session": "s-special925",
+                        "room": "220 A"
                     },
                     {
-                        "session": "s-course921",
-                        "room": "210 D"
+                        "session": "s-alt3",
+                        "room": "230 C"
+                    },
+                    {
+                        "session": "s-panel909",
+                        "room": "220 B"
                     },
                     {
                         "session": "s-course926",
@@ -772,6 +796,10 @@ schedule=[
                         "room": "210 BF"
                     },
                     {
+                        "session": "s153",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig901",
                         "room": "112"
                     },
@@ -780,7 +808,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s901",
+                        "session": "s217",
                         "room": "LL21D"
                     },
                     {
@@ -800,15 +828,11 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
-                        "session": "s153",
-                        "room": "LL 20B"
-                    },
-                    {
                         "session": "s116",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s217",
+                        "session": "s901",
                         "room": "LL21 B"
                     }
                 ]
@@ -818,6 +842,14 @@ schedule=[
                 "time": "16:30 - 17:50",
                 "slot_class": "afternoon2",
                 "sessions": [
+                    {
+                        "session": "s-special927",
+                        "room": "220 A"
+                    },
+                    {
+                        "session": "s924",
+                        "room": "220 B"
+                    },
                     {
                         "session": "s-course922",
                         "room": "210 D"
@@ -835,6 +867,10 @@ schedule=[
                         "room": "210 BF"
                     },
                     {
+                        "session": "s904",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig902",
                         "room": "112"
                     },
@@ -843,7 +879,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s203",
+                        "session": "s913",
                         "room": "LL21D"
                     },
                     {
@@ -863,15 +899,11 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
-                        "session": "s904",
-                        "room": "LL 20B"
-                    },
-                    {
                         "session": "s172",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s913",
+                        "session": "s203",
                         "room": "LL21 B"
                     }
                 ]
@@ -887,6 +919,10 @@ schedule=[
                 "time": "9:30 - 10:50",
                 "slot_class": "morning1",
                 "sessions": [
+                    {
+                        "session": "s-award3",
+                        "room": "220 A"
+                    },
                     {
                         "session": "s-panel900",
                         "room": "220 B"
@@ -912,6 +948,10 @@ schedule=[
                         "room": "210 BF"
                     },
                     {
+                        "session": "s177",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig903",
                         "room": "112"
                     },
@@ -920,7 +960,7 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s905",
+                        "session": "s907",
                         "room": "LL21D"
                     },
                     {
@@ -936,15 +976,11 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
-                        "session": "s177",
-                        "room": "LL 20B"
-                    },
-                    {
                         "session": "s197",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s907",
+                        "session": "s905",
                         "room": "LL21 B"
                     }
                 ]
@@ -979,11 +1015,15 @@ schedule=[
                         "room": "210 BF"
                     },
                     {
+                        "session": "s154",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig904",
                         "room": "112"
                     },
                     {
-                        "session": "s906",
+                        "session": "s213",
                         "room": "LL21D"
                     },
                     {
@@ -999,15 +1039,11 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
-                        "session": "s154",
-                        "room": "LL 20B"
-                    },
-                    {
                         "session": "s114",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s213",
+                        "session": "s906",
                         "room": "LL21 B"
                     }
                 ]
@@ -1034,6 +1070,10 @@ schedule=[
                         "room": "210 G"
                     },
                     {
+                        "session": "s155",
+                        "room": "210 AE"
+                    },
+                    {
                         "session": "s-sig905",
                         "room": "112"
                     },
@@ -1042,19 +1082,15 @@ schedule=[
                         "room": "LL21C"
                     },
                     {
-                        "session": "s201",
+                        "session": "s214",
                         "room": "LL21D"
-                    },
-                    {
-                        "session": "s155",
-                        "room": "LL 20B"
                     },
                     {
                         "session": "s198",
                         "room": "LL20 C"
                     },
                     {
-                        "session": "s214",
+                        "session": "s201",
                         "room": "LL21 B"
                     }
                 ]

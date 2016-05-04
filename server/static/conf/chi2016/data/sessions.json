@@ -1,6 +1,6 @@
 sessions={
     "s-sig1": {
-        "s_title": "SIG - Multiple Views on Safety-Critical Automation",
+        "s_title": "Multiple Views on Safety-Critical Automation",
         "room": "112",
         "time": "11:30-12:50",
         "submissions": [
@@ -17,7 +17,7 @@ sessions={
         "chair": ""
     },
     "s-sig2": {
-        "s_title": "SIG - Refugees and HCI",
+        "s_title": "Refugees and HCI",
         "room": "112",
         "time": "14:30-15:50",
         "submissions": [
@@ -34,7 +34,7 @@ sessions={
         "chair": ""
     },
     "s-sig3": {
-        "s_title": "SIG - Diversity in High Tech",
+        "s_title": "Diversity in High Tech",
         "room": "112",
         "time": "16:30-17:50",
         "submissions": [
@@ -51,7 +51,7 @@ sessions={
         "chair": ""
     },
     "s-sig4": {
-        "s_title": "SIG - Usability of Programming Languages",
+        "s_title": "Usability of Programming Languages",
         "room": "112",
         "time": "16:30-17:50",
         "submissions": [
@@ -68,7 +68,7 @@ sessions={
         "chair": ""
     },
     "s-sig5": {
-        "s_title": "SIG - SIGCHI Games: The Scope of Games Research at CHI",
+        "s_title": "SIGCHI Games: The Scope of Games Research at CHI",
         "room": "112",
         "time": "11:30-12:50",
         "submissions": [
@@ -85,7 +85,7 @@ sessions={
         "chair": ""
     },
     "s-sig6": {
-        "s_title": "SIG - The Masters Degree in HCI at 20",
+        "s_title": "The Masters Degree in HCI at 20",
         "room": "112",
         "time": "11:30-12:50",
         "submissions": [
@@ -102,7 +102,7 @@ sessions={
         "chair": ""
     },
     "s-sig7": {
-        "s_title": "SIG - Transparent Statistics in HCI",
+        "s_title": "Transparent Statistics in HCI",
         "room": "112",
         "time": "9:30-10:50",
         "submissions": [
@@ -119,7 +119,7 @@ sessions={
         "chair": ""
     },
     "s-sig8": {
-        "s_title": "SIG - Leading Design Teams and Organizations",
+        "s_title": "Leading Design Teams and Organizations",
         "room": "112",
         "time": "9:30-10:50",
         "submissions": [
@@ -153,7 +153,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Eunice Sari"
     },
     "s-case2": {
         "s_title": "Tools for Workers",
@@ -173,12 +173,12 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Pernille Bjorn"
     },
     "s-case3": {
         "s_title": "Gaming, Gamifications and Arts",
         "room": "114",
-        "time": "16:30-17:50",
+        "time": "9:30-10:50",
         "submissions": [
             "case128",
             "case145",
@@ -186,13 +186,13 @@ sessions={
         ],
         "personas": "",
         "venue": "casestudy",
-        "day": "Monday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "casestudy",
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Mark Hancock"
     },
     "s-case4": {
         "s_title": "New Markets and Localization",
@@ -212,7 +212,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Edward Cutrell"
     },
     "s-case5": {
         "s_title": "Activities and Health",
@@ -232,7 +232,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Gabriela Marcu"
     },
     "s100": {
         "s_title": "Politics on Social Media&nbsp;",
@@ -252,7 +252,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Scott Robertson"
     },
     "s101": {
         "s_title": "Front Stage on Social Media",
@@ -272,7 +272,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jessica Vitak"
     },
     "s102": {
         "s_title": "Designing Quality in Social Media",
@@ -293,7 +293,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Patrick Shih"
     },
     "s103": {
         "s_title": "Social Media Engagement",
@@ -313,7 +313,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Parmit K Chilana"
     },
     "s104": {
         "s_title": "Affording Collective Action in Social Media",
@@ -333,7 +333,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Bryan Semaan"
     },
     "s105": {
         "s_title": "Managing Design for Life Disruptions",
@@ -353,7 +353,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sarita Schoenebeck"
     },
     "s106": {
         "s_title": "Curation and Algorithms",
@@ -374,7 +374,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Alyson Young"
     },
     "s107": {
         "s_title": "Video Sharing",
@@ -394,7 +394,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Susanne Bdker"
     },
     "s108": {
         "s_title": "Online Communities - Identities and Behaviors",
@@ -407,14 +407,14 @@ sessions={
             "jrn115"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Amanda Lee Hughes"
     },
     "s109": {
         "s_title": "Social Media and Health",
@@ -435,7 +435,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Paul Resnick"
     },
     "s110": {
         "s_title": "Gamification",
@@ -455,7 +455,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kristiyan Lukanov"
     },
     "s111": {
         "s_title": "Designing New Player Experiences",
@@ -475,7 +475,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Katherine Isbister"
     },
     "s112": {
         "s_title": "Players' Motivations in Games",
@@ -495,7 +495,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Seth Cooper"
     },
     "s113": {
         "s_title": "Supporting Player Performance",
@@ -515,7 +515,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Zachary Toups"
     },
     "s114": {
         "s_title": "Engaging Players in Games",
@@ -535,7 +535,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sebastian Deterding"
     },
     "s115": {
         "s_title": "Designing Physical Games",
@@ -548,14 +548,14 @@ sessions={
             "jrn131"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Derek Hansen"
     },
     "s116": {
         "s_title": "Supporting Player Social Experiences",
@@ -575,7 +575,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Casey Fiesler"
     },
     "s117": {
         "s_title": "The Economics of Being Online",
@@ -595,7 +595,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Lilly C Irani"
     },
     "s118": {
         "s_title": "I want to know my data: Democratizing, Opening and Comprehending Data",
@@ -615,7 +615,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "William Odom"
     },
     "s119": {
         "s_title": "Civic Tech, Participation and Society",
@@ -635,7 +635,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jofish Kaye"
     },
     "s120": {
         "s_title": "Older Adult Support",
@@ -648,14 +648,14 @@ sessions={
             "jrn126"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": " Anne Marie Piper"
     },
     "s121": {
         "s_title": "Technological Care for Autism",
@@ -675,7 +675,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Erin Solovey"
     },
     "s122": {
         "s_title": "Behavioral Change",
@@ -695,7 +695,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jessica Pater"
     },
     "s123": {
         "s_title": "Mental Health in Technology Design and Social Media",
@@ -715,7 +715,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jina Huh"
     },
     "s125": {
         "s_title": "Physical Disability and Assistive Technologies ",
@@ -735,7 +735,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Shaun Kane"
     },
     "s126": {
         "s_title": "Diverse Disabilities and Technological Support",
@@ -755,7 +755,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "David R Flatla"
     },
     "s127": {
         "s_title": "Visual Impairment and Technology",
@@ -775,7 +775,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Amy Hurst"
     },
     "s128": {
         "s_title": "Health Support",
@@ -795,7 +795,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Sean A Munson"
     },
     "s129": {
         "s_title": "Medical Device Sensing",
@@ -816,7 +816,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Cosmin Munteanu"
     },
     "s130": {
         "s_title": "Patients' Participation in Online and Offline Settings",
@@ -836,7 +836,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Myriam Lewkowicz"
     },
     "s131": {
         "s_title": "Design for Health Care",
@@ -849,14 +849,14 @@ sessions={
             "jrn137"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Thursday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": true,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Aneesha Singh"
     },
     "s132": {
         "s_title": "Participating in Well-Being and Family",
@@ -866,7 +866,6 @@ sessions={
             "pn2288",
             "pn1491",
             "pn1698",
-            "pn2264",
             "pn441"
         ],
         "personas": "",
@@ -877,7 +876,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Gilly Leshed"
     },
     "s134": {
         "s_title": "Participatory Design (PD) and Applications",
@@ -897,7 +896,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Juan Pablo Hourcade"
     },
     "s136": {
         "s_title": "Sustainability, Design and Environmental Sensibilities ",
@@ -917,7 +916,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Rob Comber"
     },
     "s137": {
         "s_title": "Citizenry and the Sciences: Design as Inquiry and Participation",
@@ -938,7 +937,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Carl DiSalvo"
     },
     "s138": {
         "s_title": "Interventions to Design Theory",
@@ -951,14 +950,14 @@ sessions={
             "jrn104"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Norman Su"
     },
     "s139": {
         "s_title": "Sociotechnical Assemblages: Participation, Interaction &amp; Materiality ",
@@ -978,7 +977,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jed Brubaker"
     },
     "s140": {
         "s_title": "Problem-solving or not?: The Boundaries of HCI Research",
@@ -999,27 +998,27 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jeff Bardzell"
     },
     "s141": {
         "s_title": "Supporting Information Seeking",
         "room": "LL20 A",
         "time": "11:30-12:50",
         "submissions": [
-            "pn1199",
-            "pn2291",
             "pn2052",
-            "jrn133"
+            "jrn133",
+            "pn1199",
+            "pn2291"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Thursday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Max L Wilson"
     },
     "s142": {
         "s_title": "Reflection on UX Design",
@@ -1039,7 +1038,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Erik Stolterman"
     },
     "s143": {
         "s_title": "Representing User Experience",
@@ -1052,14 +1051,14 @@ sessions={
             "jrn140"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Thursday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": true,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": " Zhicheng Liu"
     },
     "s144": {
         "s_title": "UX and Usability Methods",
@@ -1072,14 +1071,14 @@ sessions={
             "pn145"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": true,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Karin Slegers"
     },
     "s145": {
         "s_title": "HCI and Gender",
@@ -1099,7 +1098,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Neha Kumar"
     },
     "s146": {
         "s_title": "Vulnerable Populations and Technological Support",
@@ -1119,7 +1118,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Lynn S Dombrowski"
     },
     "s147": {
         "s_title": "What lies beyond?: Design and Infrastructure through a Critical Lens",
@@ -1139,7 +1138,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Michael Prilla"
     },
     "s148": {
         "s_title": "Design, Labour and the Invisible Perils of Crowdsourcing",
@@ -1158,7 +1157,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jeffrey P Bigham"
     },
     "s149": {
         "s_title": "Complex Tasks and Learning in Crowdsourcing",
@@ -1178,7 +1177,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kurt Luther"
     },
     "s150": {
         "s_title": "Microtasks and Crowdsourcing",
@@ -1198,7 +1197,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Rajan Vaish"
     },
     "s151": {
         "s_title": "Reward me!: Motivating and Incentivising Crowdsourcing",
@@ -1218,7 +1217,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Walter S Lasecki"
     },
     "s152": {
         "s_title": "Crowdsourcing and Creation: Large-scale Ideas and Content Production",
@@ -1238,11 +1237,11 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Elizabeth Gerber"
     },
     "s153": {
         "s_title": "Backstage of Crowdsourcing: Legitimacy, Performance and Crowd Support",
-        "room": "LL 20B",
+        "room": "210 AE",
         "time": "14:30-15:50",
         "submissions": [
             "pn1305",
@@ -1259,11 +1258,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Michael S Bernstein"
     },
     "s154": {
         "s_title": "Designing New Materials and Manufacturing Techniques",
-        "room": "LL 20B",
+        "room": "210 AE",
         "time": "11:30-12:50",
         "submissions": [
             "pn1364",
@@ -1279,11 +1278,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Stefanie Mueller"
     },
     "s155": {
         "s_title": "Seams of Craft, Design and Fabrication",
-        "room": "LL 20B",
+        "room": "210 AE",
         "time": "14:30-15:50",
         "submissions": [
             "pn2105",
@@ -1299,7 +1298,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ian Oakley"
     },
     "s156": {
         "s_title": "Collaborative Fabrication: Making Much of Machines",
@@ -1319,7 +1318,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Xiang 'Anthony' Chen"
     },
     "s157": {
         "s_title": "Prototyping for Fabrication: 3D Designing, Modelling & Printing",
@@ -1339,7 +1338,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Patrick Baudisch"
     },
     "s158": {
         "s_title": "(Re)understanding Making: A Critical Broadening of Maker Cultures",
@@ -1359,7 +1358,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "John Vines"
     },
     "s159": {
         "s_title": "Making Music on the Brain",
@@ -1372,14 +1371,14 @@ sessions={
             "jrn121"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Thursday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": true,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "David England"
     },
     "s160": {
         "s_title": "Comprehension through Visualization",
@@ -1392,14 +1391,14 @@ sessions={
             "jrn124"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": true,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Jessica Hullman"
     },
     "s161": {
         "s_title": "Natural User Interfaces for InfoVis",
@@ -1419,7 +1418,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Steve Oney"
     },
     "s162": {
         "s_title": "Visualization Methods and Evaluation",
@@ -1440,11 +1439,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Eytari Adar"
     },
     "s166": {
         "s_title": "Software and Programming Tools",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "16:30-17:50",
         "submissions": [
             "pn2371",
@@ -1461,7 +1460,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Brent Hecht"
     },
     "s168": {
         "s_title": "Learning @ School",
@@ -1474,13 +1473,13 @@ sessions={
             "jrn112"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": true,
-        "subtype": "paper",
+        "subtype": "journal",
         "chair": " Chris Quintana"
     },
     "s169": {
@@ -1501,7 +1500,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Niki Kittur"
     },
     "s170": {
         "s_title": "Learning Programming",
@@ -1521,7 +1520,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Svetlana Yarosh"
     },
     "s171": {
         "s_title": "Learning Facilitaton",
@@ -1541,17 +1540,17 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jason Yip"
     },
     "s172": {
         "s_title": "Search and Discovery",
         "room": "LL20 C",
         "time": "16:30-17:50",
         "submissions": [
+            "pn1967",
             "pn2568",
             "pn2557",
-            "pn2486",
-            "pn1967"
+            "pn2486"
         ],
         "personas": "",
         "venue": "paper",
@@ -1561,7 +1560,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Tejas Peesapati"
     },
     "s173": {
         "s_title": "Smartphone Authentication",
@@ -1581,7 +1580,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Serge Egelman"
     },
     "s174": {
         "s_title": "Paying Attention to Smartphones",
@@ -1594,14 +1593,14 @@ sessions={
             "jrn139"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": true,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Duncan P Brumby"
     },
     "s175": {
         "s_title": "Designing for Attention and Multitasking",
@@ -1621,7 +1620,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Mary P Czerwinski"
     },
     "s176": {
         "s_title": "Mobile Behaviors",
@@ -1641,11 +1640,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kelly Caine"
     },
     "s177": {
         "s_title": "Transportation and HCI",
-        "room": "LL 20B",
+        "room": "210 AE",
         "time": "9:30-10:50",
         "submissions": [
             "pn1772",
@@ -1661,7 +1660,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Barry Brown"
     },
     "s178": {
         "s_title": "Big Data and Local Society",
@@ -1681,7 +1680,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Nicola Dell"
     },
     "s179": {
         "s_title": "Social Media and Location Data",
@@ -1721,7 +1720,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Loren G Terveen"
     },
     "s181": {
         "s_title": "Privacy and Security Interfaces",
@@ -1729,18 +1728,19 @@ sessions={
         "time": "16:30-17:50",
         "submissions": [
             "pn1232",
+            "jrn134",
             "pn2548",
             "pn1255"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": true,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Sameer Patil"
     },
     "s182": {
         "s_title": "Mental Models of Privacy",
@@ -1761,7 +1761,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Florian Schaub"
     },
     "s183": {
         "s_title": "Personal informatics: Dear Data",
@@ -1781,7 +1781,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jason Wiese"
     },
     "s185": {
         "s_title": "Privacy over Time and Relationships",
@@ -1802,7 +1802,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Kirstie Hawkey"
     },
     "s186": {
         "s_title": "Families and Assistive Technology",
@@ -1812,8 +1812,7 @@ sessions={
             "pn198",
             "pn1525",
             "pn707",
-            "pn484",
-            "jrn134"
+            "pn484"
         ],
         "personas": "",
         "venue": "paper",
@@ -1823,7 +1822,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Erin L Brady"
     },
     "s187": {
         "s_title": "Computer Supported Parenting",
@@ -1843,7 +1842,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Tejinder Judge"
     },
     "s188": {
         "s_title": "Physical and Digital Collections",
@@ -1863,7 +1862,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Carman Neustaedter"
     },
     "s189": {
         "s_title": "Distance Still Matters",
@@ -1884,7 +1883,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Helena M Mentis"
     },
     "s190": {
         "s_title": "Displays and Shared Interactions",
@@ -1905,7 +1904,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Julie Williamson"
     },
     "s191": {
         "s_title": "Work, Multitasking, and Distraction",
@@ -1925,7 +1924,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Steven P Dow"
     },
     "s192": {
         "s_title": "Workplace Social Performance",
@@ -1945,7 +1944,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jennifer Marlow"
     },
     "s193": {
         "s_title": "Food as Method and Inquiry",
@@ -1965,7 +1964,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Andrea Parker"
     },
     "s194": {
         "s_title": "Usability and User Burden",
@@ -1986,7 +1985,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Erin Solovey"
     },
     "s195": {
         "s_title": "Detecting User Emotion",
@@ -1999,14 +1998,14 @@ sessions={
             "jrn114"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": " Effie Law"
     },
     "s196": {
         "s_title": "How Does It Look? Evaluating Visual Design",
@@ -2026,7 +2025,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Hao-Hua Chu"
     },
     "s197": {
         "s_title": "Living in Smart Environments",
@@ -2034,7 +2033,6 @@ sessions={
         "time": "9:30-10:50",
         "submissions": [
             "pn1026",
-            "pn1212",
             "pn1299",
             "pn964"
         ],
@@ -2046,7 +2044,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Jesper Kjeldskov"
     },
     "s198": {
         "s_title": "Smart Homes, Devices and Data&nbsp;",
@@ -2066,7 +2064,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Chuang-Wen You"
     },
     "s199": {
         "s_title": "IoT and HCI ASAP!",
@@ -2086,11 +2084,11 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Florian Mueller"
     },
     "s200": {
         "s_title": "How Fast Can You Type on Your Phone?",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
             "pn1920",
@@ -2106,11 +2104,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Bongwon Suh"
     },
     "s201": {
         "s_title": "Large Display Interaction",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
             "pn1972",
@@ -2126,11 +2124,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Aaron Quigley"
     },
     "s202": {
         "s_title": "Visual Design Principles for Unconventional Displays",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
             "pn479",
@@ -2146,11 +2144,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Karrie Karahalios"
     },
     "s203": {
         "s_title": "Interaction with Small Displays",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
             "pn766",
@@ -2166,11 +2164,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Eve Hoggan"
     },
     "s204": {
         "s_title": "Tracking Fingers",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "9:30-10:50",
         "submissions": [
             "pn367",
@@ -2186,11 +2184,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Simon T Perrault"
     },
     "s205": {
         "s_title": "Touchscreen Interactions",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
             "pn2199",
@@ -2207,11 +2205,11 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Luis A. Leiva"
     },
     "s206": {
         "s_title": "Touch Interaction",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
             "pn1036",
@@ -2227,11 +2225,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Caroline Appert"
     },
     "s207": {
         "s_title": "In-Air Gesture",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
             "pn1600",
@@ -2248,7 +2246,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "James Fogarty"
     },
     "s208": {
         "s_title": "Everyday Objects as Interaction Surfaces",
@@ -2269,7 +2267,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Mark Newman"
     },
     "s209": {
         "s_title": "Shape Changing Displays",
@@ -2289,7 +2287,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Joerg Mueller"
     },
     "s210": {
         "s_title": "Embodied Interaction",
@@ -2310,7 +2308,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Audrey Girouard"
     },
     "s211": {
         "s_title": "Haptic Sensation Meets Screens",
@@ -2330,7 +2328,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jamie Ruiz"
     },
     "s212": {
         "s_title": "Did you feel the vibration? Haptic Feedback Everywhere)",
@@ -2351,11 +2349,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Ali Sahami"
     },
     "s213": {
         "s_title": "Eye Tracking Applications",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
             "pn528",
@@ -2371,11 +2369,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Saleema Amershi"
     },
     "s214": {
         "s_title": "Body and Fashion",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
             "pn2240",
@@ -2392,7 +2390,7 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Bjoern Hartmann"
     },
     "s215": {
         "s_title": "Quantifying Efficiency of Input Methods",
@@ -2405,18 +2403,18 @@ sessions={
             "jrn123"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Daniel Widgor"
     },
     "s217": {
         "s_title": "Expressive HCI",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
             "pn350",
@@ -2425,14 +2423,14 @@ sessions={
             "jrn136"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": true,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Jonathan Hook"
     },
     "s-alt1": {
         "s_title": "Critical Theory and Pedagogy",
@@ -2452,7 +2450,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": "Morgan Ames"
     },
     "s-alt2": {
         "s_title": "Food Fictions",
@@ -2472,7 +2470,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": " Luigina Ciolfi"
     },
     "s-alt3": {
         "s_title": "Design Fictions and HCI",
@@ -2486,18 +2484,18 @@ sessions={
         ],
         "personas": "",
         "venue": "altchi",
-        "day": "Monday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "altchi",
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": "Austin Toombs"
     },
     "s-alt4": {
         "s_title": "Confronting Power in HCI",
-        "room": "220 A",
-        "time": "9:30-10:50",
+        "room": "230 C",
+        "time": "16:30-17:50",
         "submissions": [
             "alt110",
             "alt145",
@@ -2507,13 +2505,13 @@ sessions={
         ],
         "personas": "",
         "venue": "altchi",
-        "day": "Tuesday",
+        "day": "Monday",
         "s_tags": [],
         "type": "altchi",
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": "Silvia Lindtner"
     },
     "s-alt5": {
         "s_title": "Authorship and Reviews",
@@ -2533,7 +2531,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": "Janet Vertesi"
     },
     "s-case900": {
         "s_title": "Organizational Change for Better UX",
@@ -2553,7 +2551,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": " Steven Drucker"
     },
     "s-case901": {
         "s_title": "Design Methodology",
@@ -2573,7 +2571,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Susan Dray"
     },
     "s-case902": {
         "s_title": "User Research",
@@ -2593,10 +2591,10 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "casestudy",
-        "chair": ""
+        "chair": "Ben Steichen"
     },
     "s-panel900": {
-        "s_title": "Panel - Beyond the Pipeline",
+        "s_title": "Beyond the Pipeline",
         "room": "220 B",
         "time": "9:30-10:50",
         "submissions": [
@@ -2613,7 +2611,7 @@ sessions={
         "chair": ""
     },
     "s-panel901": {
-        "s_title": "Panel - Algorithmic Authority",
+        "s_title": "Algorithmic Authority",
         "room": "220 B",
         "time": "11:30-12:50",
         "submissions": [
@@ -2630,7 +2628,7 @@ sessions={
         "chair": ""
     },
     "s-panel902": {
-        "s_title": "Panel - On the Future of Personal Assistants",
+        "s_title": "On the Future of Personal Assistants",
         "room": "220 B",
         "time": "16:30-17:50",
         "submissions": [
@@ -2647,7 +2645,7 @@ sessions={
         "chair": ""
     },
     "s-panel903": {
-        "s_title": "Panel - The Future of Robotic Telepresence",
+        "s_title": "The Future of Robotic Telepresence",
         "room": "220 B",
         "time": "9:30-10:50",
         "submissions": [
@@ -2681,8 +2679,8 @@ sessions={
         "chair": ""
     },
     "s-panel905": {
-        "s_title": "Panel-AMA:CHI Chairs",
-        "room": "220 B",
+        "s_title": "AMA:CHI Chairs",
+        "room": "220 A",
         "time": "14:30-15:50",
         "submissions": [
             "pan124"
@@ -2698,7 +2696,7 @@ sessions={
         "chair": ""
     },
     "s-panel907": {
-        "s_title": "Panel - Boundary Troubles",
+        "s_title": "Boundary Troubles",
         "room": "220 B",
         "time": "9:30-10:50",
         "submissions": [
@@ -2715,7 +2713,7 @@ sessions={
         "chair": ""
     },
     "s-panel908": {
-        "s_title": "Panel - Design Leadership for Business Innovation",
+        "s_title": "Design Leadership for Business Innovation",
         "room": "220 B",
         "time": "11:30-12:50",
         "submissions": [
@@ -2732,7 +2730,7 @@ sessions={
         "chair": ""
     },
     "s-panel909": {
-        "s_title": "Panel - Science and Service, Innovation and Inspiration",
+        "s_title": "Science and Service, Innovation and Inspiration",
         "room": "220 B",
         "time": "14:30-15:50",
         "submissions": [
@@ -2766,11 +2764,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Youn-kyung Lim"
     },
     "s901": {
         "s_title": "Fingers and Technology",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "14:30-15:50",
         "submissions": [
             "pn826",
@@ -2786,7 +2784,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Helen Petrie"
     },
     "s902": {
         "s_title": "Living Healthy",
@@ -2806,11 +2804,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Eun Kyoung Choe"
     },
     "s903": {
         "s_title": "Fat Fingers, Small Watches",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
             "pn1141",
@@ -2827,11 +2825,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Niels Henze"
     },
     "s904": {
         "s_title": "How can Smartphones Fit Our Lives?",
-        "room": "LL 20B",
+        "room": "210 AE",
         "time": "16:30-17:50",
         "submissions": [
             "pn1546",
@@ -2847,17 +2845,16 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Matthew Lee"
     },
     "s905": {
         "s_title": "Interaction Techniques for Mobile Interfaces",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "9:30-10:50",
         "submissions": [
             "pn272",
             "pn1294",
             "pn1390",
-            "pn1853",
             "pn2086"
         ],
         "personas": "",
@@ -2868,11 +2865,11 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Christian Holz"
     },
     "s906": {
         "s_title": "Multi-Device Interaction",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "11:30-12:50",
         "submissions": [
             "pn2420",
@@ -2888,11 +2885,11 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Daniel Avrahami"
     },
     "s907": {
         "s_title": "Eye Gaze",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "9:30-10:50",
         "submissions": [
             "pn1836",
@@ -2908,7 +2905,25 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Pernilla Qvarfordt"
+    },
+    "s908": {
+        "s_title": "Designing for Marginalized Users",
+        "room": "LL 20B",
+        "time": "9:30-10:50",
+        "submissions": [
+            "jrn146",
+            "jrn147"
+        ],
+        "personas": "",
+        "venue": "journal",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "journal",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "journal",
+        "chair": "Desney Tan"
     },
     "s909": {
         "s_title": "Privacy - Social and Geolocated",
@@ -2928,11 +2943,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Munmun De Choudhury"
     },
     "s-alt904": {
         "s_title": "See this, hear this, touch this, keep this",
-        "room": "220 B",
+        "room": "230 C",
         "time": "11:30-12:50",
         "submissions": [
             "alt129",
@@ -2943,16 +2958,16 @@ sessions={
         ],
         "personas": "",
         "venue": "altchi",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "altchi",
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": ""
+        "chair": "Sean Follmer"
     },
     "s-sig900": {
-        "s_title": "SIG - Mind the Gap",
+        "s_title": "Mind the Gap",
         "room": "112",
         "time": "14:30-15:50",
         "submissions": [
@@ -2969,7 +2984,7 @@ sessions={
         "chair": ""
     },
     "s-sig901": {
-        "s_title": "SIG - Design Thinking Beyond Post-Its Notes",
+        "s_title": "Design Thinking Beyond Post-Its Notes",
         "room": "112",
         "time": "14:30-15:50",
         "submissions": [
@@ -2986,7 +3001,7 @@ sessions={
         "chair": ""
     },
     "s-sig902": {
-        "s_title": "SIG - Jogging at CHI",
+        "s_title": "Jogging at CHI",
         "room": "112",
         "time": "16:30-17:50",
         "submissions": [
@@ -3003,7 +3018,7 @@ sessions={
         "chair": ""
     },
     "s-sig903": {
-        "s_title": "SIG - Child-Computer Interaction",
+        "s_title": "Child-Computer Interaction",
         "room": "112",
         "time": "9:30-10:50",
         "submissions": [
@@ -3037,7 +3052,7 @@ sessions={
         "chair": ""
     },
     "s-sig905": {
-        "s_title": "SIG - Rethinking Mobile Interfaces for Older Adults",
+        "s_title": "Rethinking Mobile Interfaces for Older Adults",
         "room": "112",
         "time": "14:30-15:50",
         "submissions": [
@@ -3054,7 +3069,7 @@ sessions={
         "chair": ""
     },
     "s-sig907": {
-        "s_title": "SIG - Technology for disabled and older people",
+        "s_title": "Technology for disabled and older people",
         "room": "230 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -3071,7 +3086,7 @@ sessions={
         "chair": ""
     },
     "s-sig908": {
-        "s_title": "SIG - Become a Volunteer at ACM",
+        "s_title": "Become a Volunteer at ACM",
         "room": "230 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -3088,7 +3103,7 @@ sessions={
         "chair": ""
     },
     "s-sig909": {
-        "s_title": "SIG - Digital Civics",
+        "s_title": "Digital Civics",
         "room": "230 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -3123,7 +3138,7 @@ sessions={
     },
     "s910": {
         "s_title": "Gesture Elicitation and Interaction",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "9:30-10:50",
         "submissions": [
             "pn1060",
@@ -3140,7 +3155,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Andrios Lucero"
     },
     "s911": {
         "s_title": "Health Support &amp; Management&nbsp;",
@@ -3150,7 +3165,8 @@ sessions={
             "pn1430",
             "pn1648",
             "pn1007",
-            "pn2573"
+            "pn2573",
+            "pn2264"
         ],
         "personas": "",
         "venue": "paper",
@@ -3160,11 +3176,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Erika Poole"
     },
     "s912": {
         "s_title": "Authentication and Privacy &nbsp;",
-        "room": "LL21D",
+        "room": "LL21 B",
         "time": "16:30-17:50",
         "submissions": [
             "pn746",
@@ -3181,11 +3197,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Janice Tsai"
     },
     "s913": {
         "s_title": "Robot Personalities",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "16:30-17:50",
         "submissions": [
             "pn1635",
@@ -3201,11 +3217,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Jacki O'Neill"
     },
     "s914": {
         "s_title": "Making Interfaces Work for Each Individual",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
             "pn2715",
@@ -3221,11 +3237,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Marilyn Lennon"
     },
     "s915": {
         "s_title": "Real Reality Interfaces",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
             "pn2069",
@@ -3241,11 +3257,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Jessica Cauchard"
     },
     "s916": {
         "s_title": "3D Virtual Space",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
             "pn347",
@@ -3261,11 +3277,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Matt Jones"
     },
     "s917": {
         "s_title": "VR for Collaboration",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "9:30-10:50",
         "submissions": [
             "pn2064",
@@ -3281,11 +3297,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Jeff Huang"
     },
     "s918": {
         "s_title": "VR &amp; Feedback &nbsp;",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "11:30-12:50",
         "submissions": [
             "pn634",
@@ -3302,7 +3318,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Ali Israr"
     },
     "s919": {
         "s_title": "Mining Human Behaviors",
@@ -3322,11 +3338,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Brian C Keegan"
     },
     "s920": {
         "s_title": "Augmented AR and VR Experiences",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "16:30-17:50",
         "submissions": [
             "pn649",
@@ -3343,11 +3359,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": true,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Alex Thayer"
     },
     "s921": {
         "s_title": "Enabling End-Users and Designers",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "14:30-15:50",
         "submissions": [
             "pn1977",
@@ -3363,11 +3379,11 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": " Sven Kratz"
     },
     "s922": {
         "s_title": "End-User Programming",
-        "room": "LL21 B",
+        "room": "LL21D",
         "time": "9:30-10:50",
         "submissions": [
             "pn2481",
@@ -3383,7 +3399,26 @@ sessions={
         "hasAward": true,
         "hasHonorableMention": false,
         "subtype": "paper",
-        "chair": ""
+        "chair": "Michael Nebeling"
+    },
+    "s923": {
+        "s_title": "Shortcuts for More Efficient Input",
+        "room": "210 AE",
+        "time": "11:30-12:50",
+        "submissions": [
+            "pn1853",
+            "pn1212",
+            "jrn110"
+        ],
+        "personas": "",
+        "venue": "journal",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "journal",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "journal",
+        "chair": "Jeff Nichols"
     },
     "s-course900": {
         "s_title": "Visual Facilitation for Design Groups",
@@ -3744,14 +3779,14 @@ sessions={
     },
     "s-course921": {
         "s_title": "So, You Want to Be a CHI AC",
-        "room": "210 D",
-        "time": "14:30-15:50",
+        "room": "114",
+        "time": "16:30-17:50",
         "submissions": [
             "course155"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Wednesday",
+        "day": "Monday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -4236,7 +4271,7 @@ sessions={
         "chair": ""
     },
     "s-course951": {
-        "s_title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologist’s Perspective",
+        "s_title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologistâ€™s Perspective",
         "room": "210 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -4253,7 +4288,7 @@ sessions={
         "chair": ""
     },
     "s-course952": {
-        "s_title": "ntroduction To Human Computer Interaction",
+        "s_title": "Introduction To Human Computer Interaction",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -4331,14 +4366,14 @@ sessions={
             "jrn101"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": " Henriette Cramer"
     },
     "s-tochi901": {
         "s_title": "Thinking Critically",
@@ -4351,14 +4386,14 @@ sessions={
             "pn1524"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Monday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Beki Grinter"
     },
     "s-tochi902": {
         "s_title": "HCI and Physiological Interactions",
@@ -4371,14 +4406,14 @@ sessions={
             "pn1242"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Daniel A Afergan"
     },
     "s-tochi903": {
         "s_title": "Evaluating Technological Application in Education",
@@ -4387,38 +4422,37 @@ sessions={
         "submissions": [
             "jrn107",
             "jrn118",
-            "pn1173",
-            "jrn110"
+            "pn1173"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Betsy DiSalvo"
     },
     "s-tochi905": {
         "s_title": "Game and Design",
         "room": "210 AE",
         "time": "14:30-15:50",
         "submissions": [
-            "jrn116",
             "jrn119",
             "pn358",
-            "pn1846"
+            "pn1846",
+            "jrn116"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Lennart E Nacke"
     },
     "s-tochi906": {
         "s_title": "User Experience and Performance",
@@ -4431,14 +4465,14 @@ sessions={
             "pn2814"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Tuesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Colin Gray"
     },
     "s-tochi907": {
         "s_title": "Input Technology",
@@ -4451,14 +4485,14 @@ sessions={
             "pn1716"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
-        "chair": ""
+        "subtype": "journal",
+        "chair": "Katie Panciera"
     },
     "s-tochi908": {
         "s_title": "Display and Visualizations",
@@ -4471,13 +4505,132 @@ sessions={
             "pn1995"
         ],
         "personas": "",
-        "venue": "paper",
+        "venue": "journal",
         "day": "Wednesday",
         "s_tags": [],
-        "type": "paper",
+        "type": "journal",
         "hasAward": false,
         "hasHonorableMention": false,
-        "subtype": "paper",
+        "subtype": "journal",
+        "chair": "Niklas E Elmqvist"
+    },
+    "s-special925": {
+        "s_title": "Student Design Competition",
+        "room": "220 A",
+        "time": "14:30-15:50",
+        "submissions": [
+            "sdc"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
         "chair": ""
+    },
+    "s-special926": {
+        "s_title": "Student Game Competition",
+        "room": "220 A",
+        "time": "11:30-12:50",
+        "submissions": [
+            "sgc"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-special927": {
+        "s_title": "Student Research Competition",
+        "room": "220 A",
+        "time": "16:30-17:50",
+        "submissions": [
+            "src"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": ""
+    },
+    "s-award1": {
+        "s_title": "SIGCHI Social Impact Award - Having a Social Impact by Getting Outside of Your Comfort Zone",
+        "room": "220 A",
+        "time": "9:30-10:50",
+        "submissions": [
+            "award1"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": "Ben Bederson"
+    },
+    "s-award2": {
+        "s_title": "SIGCHI Lifetime Research Award - Online Communication and Psychological Well-Being",
+        "room": "220 A",
+        "time": "9:30-10:50",
+        "submissions": [
+            "award2"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": "Steve Feiner"
+    },
+    "s-award3": {
+        "s_title": "SIGCHI Lifetime Practice Award - Bridging the Gap Between Research and Practice",
+        "room": "220 A",
+        "time": "9:30-10:50",
+        "submissions": [
+            "award3"
+        ],
+        "personas": "",
+        "venue": "special",
+        "day": "Tuesday",
+        "s_tags": [],
+        "type": "special",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "special",
+        "chair": "Terry Winograd"
+    },
+    "s924": {
+        "s_title": "Human-Computer Interaction and International Public Policymaking",
+        "room": "220 B",
+        "time": "16:30-17:50",
+        "submissions": [
+            "jrn148"
+        ],
+        "personas": "",
+        "venue": "journal",
+        "day": "Wednesday",
+        "s_tags": [],
+        "type": "journal",
+        "hasAward": false,
+        "hasHonorableMention": false,
+        "subtype": "journal",
+        "chair": "Jonathan Lazar"
     }
 }
