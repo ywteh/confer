@@ -2034,7 +2034,7 @@ sessions={
         "submissions": [
             "pn1026",
             "pn1299",
-            "pn964"
+            "pn1212"
         ],
         "personas": "",
         "venue": "paper",
@@ -2450,7 +2450,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": "Morgan Ames"
+        "chair": "Silvia Lindtner"
     },
     "s-alt2": {
         "s_title": "Food Fictions",
@@ -2511,7 +2511,7 @@ sessions={
         "hasAward": false,
         "hasHonorableMention": false,
         "subtype": "altchi",
-        "chair": "Silvia Lindtner"
+        "chair": "Morgan Ames"
     },
     "s-alt5": {
         "s_title": "Authorship and Reviews",
@@ -2910,7 +2910,7 @@ sessions={
     "s908": {
         "s_title": "Designing for Marginalized Users",
         "room": "LL 20B",
-        "time": "9:30-10:50",
+        "time": "14:30-15:50",
         "submissions": [
             "jrn146",
             "jrn147"
@@ -3407,7 +3407,7 @@ sessions={
         "time": "11:30-12:50",
         "submissions": [
             "pn1853",
-            "pn1212",
+            "pn964",
             "jrn110"
         ],
         "personas": "",
@@ -3421,7 +3421,7 @@ sessions={
         "chair": "Jeff Nichols"
     },
     "s-course900": {
-        "s_title": "Visual Facilitation for Design Groups",
+        "s_title": "C04 - Visual Facilitation for Design Groups",
         "room": "210 H",
         "time": "16:30-17:50",
         "submissions": [
@@ -3438,7 +3438,7 @@ sessions={
         "chair": ""
     },
     "s-course901": {
-        "s_title": "Visual Analytics 101",
+        "s_title": "C11 - Visual Analytics 101",
         "room": "210 H",
         "time": "9:30-10:50",
         "submissions": [
@@ -3455,7 +3455,7 @@ sessions={
         "chair": ""
     },
     "s-course902": {
-        "s_title": "Visual Analytics 101",
+        "s_title": "C11 - Visual Analytics 101",
         "room": "210 H",
         "time": "11:30-12:50",
         "submissions": [
@@ -3472,7 +3472,7 @@ sessions={
         "chair": ""
     },
     "s-course903": {
-        "s_title": "Personal Fabrication",
+        "s_title": "C06 - Personal Fabrication",
         "room": "210 G",
         "time": "11:30-12:50",
         "submissions": [
@@ -3489,7 +3489,7 @@ sessions={
         "chair": ""
     },
     "s-course904": {
-        "s_title": "Game User Experience Evaluation",
+        "s_title": "C08 - Game User Experience Evaluation",
         "room": "210 G",
         "time": "16:30-17:50",
         "submissions": [
@@ -3506,7 +3506,7 @@ sessions={
         "chair": ""
     },
     "s-course905": {
-        "s_title": "Introduction to Creating Musical Interfaces",
+        "s_title": "C13 - Introduction to Creating Musical Interfaces",
         "room": "210 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -3523,7 +3523,7 @@ sessions={
         "chair": ""
     },
     "s-course906": {
-        "s_title": "An Introduction to Automotive User Interfaces",
+        "s_title": "C15 - An Introduction to Automotive User Interfaces",
         "room": "210 G",
         "time": "9:30-10:50",
         "submissions": [
@@ -3540,7 +3540,7 @@ sessions={
         "chair": ""
     },
     "s-course907": {
-        "s_title": "Interaction Design for Online Video and Television",
+        "s_title": "C09 - Interaction Design for Online Video and Television",
         "room": "210 D",
         "time": "9:30-10:50",
         "submissions": [
@@ -3557,7 +3557,7 @@ sessions={
         "chair": ""
     },
     "s-course908": {
-        "s_title": "Interaction Design for Online Video and Television",
+        "s_title": "C09 - Interaction Design for Online Video and Television",
         "room": "210 D",
         "time": "11:30-12:50",
         "submissions": [
@@ -3574,7 +3574,7 @@ sessions={
         "chair": ""
     },
     "s-course909": {
-        "s_title": "Make This! Introduction to Electronics Prototyping Using Arduino",
+        "s_title": "C10 - Make This! Introduction to Electronics Prototyping Using Arduino",
         "room": "210 D",
         "time": "14:30-15:50",
         "submissions": [
@@ -3591,7 +3591,7 @@ sessions={
         "chair": ""
     },
     "s-course910": {
-        "s_title": "An Introduction to Automotive User Interfaces",
+        "s_title": "C15 - An Introduction to Automotive User Interfaces",
         "room": "210 G",
         "time": "11:30-12:50",
         "submissions": [
@@ -3608,7 +3608,7 @@ sessions={
         "chair": ""
     },
     "s-course911": {
-        "s_title": "Introduction to Creating Musical Interfaces",
+        "s_title": "C13 - Introduction to Creating Musical Interfaces",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -3625,15 +3625,15 @@ sessions={
         "chair": ""
     },
     "s-course912": {
-        "s_title": "Designing Technology to Foster Psychological Wellbeing",
+        "s_title": "C12 - Designing Technology to Foster Psychological Wellbeing",
         "room": "210 H",
-        "time": "9:30-10:50",
+        "time": "14:30-15:50",
         "submissions": [
             "course106"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3642,7 +3642,7 @@ sessions={
         "chair": ""
     },
     "s-course913": {
-        "s_title": "User Story Mapping: The Hands-on Course",
+        "s_title": "C14 - User Story Mapping: The Hands-on Course",
         "room": "210 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -3659,7 +3659,7 @@ sessions={
         "chair": ""
     },
     "s-course914": {
-        "s_title": "Designing and Assessing Interactive Systems Using Task Models",
+        "s_title": "C16 - Designing and Assessing Interactive Systems Using Task Models",
         "room": "210 G",
         "time": "14:30-15:50",
         "submissions": [
@@ -3676,7 +3676,7 @@ sessions={
         "chair": ""
     },
     "s-course915": {
-        "s_title": "Make This! Introduction to Electronics Prototyping Using Arduino",
+        "s_title": "C10 - Make This! Introduction to Electronics Prototyping Using Arduino",
         "room": "210 D",
         "time": "16:30-17:50",
         "submissions": [
@@ -3693,15 +3693,15 @@ sessions={
         "chair": ""
     },
     "s-course916": {
-        "s_title": "Designing Technology to Foster Psychological Wellbeing",
+        "s_title": "C12 - Designing Technology to Foster Psychological Wellbeing",
         "room": "210 H",
-        "time": "11:30-12:50",
+        "time": "16:30-17:50",
         "submissions": [
             "course202"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Wednesday",
+        "day": "Tuesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3710,7 +3710,7 @@ sessions={
         "chair": ""
     },
     "s-course917": {
-        "s_title": "User Story Mapping: The Hands-on Course",
+        "s_title": "C14 - User Story Mapping: The Hands-on Course",
         "room": "210 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -3727,7 +3727,7 @@ sessions={
         "chair": ""
     },
     "s-course918": {
-        "s_title": "Designing and Assessing Interactive Systems Using Task Models",
+        "s_title": "C16 - Designing and Assessing Interactive Systems Using Task Models",
         "room": "210 G",
         "time": "16:30-17:50",
         "submissions": [
@@ -3744,7 +3744,7 @@ sessions={
         "chair": ""
     },
     "s-course919": {
-        "s_title": "Advances in Participatory Design",
+        "s_title": "C17 - Advances in Participatory Design",
         "room": "210 D",
         "time": "9:30-10:50",
         "submissions": [
@@ -3761,7 +3761,7 @@ sessions={
         "chair": ""
     },
     "s-course920": {
-        "s_title": "Advances in Participatory Design",
+        "s_title": "C17 - Advances in Participatory Design",
         "room": "210 D",
         "time": "11:30-12:50",
         "submissions": [
@@ -3778,7 +3778,7 @@ sessions={
         "chair": ""
     },
     "s-course921": {
-        "s_title": "So, You Want to Be a CHI AC",
+        "s_title": "C29 - So, You Want to Be a CHI AC",
         "room": "114",
         "time": "16:30-17:50",
         "submissions": [
@@ -3795,7 +3795,7 @@ sessions={
         "chair": ""
     },
     "s-course922": {
-        "s_title": "Designing for an Aging Population",
+        "s_title": "C18 - Designing for an Aging Population",
         "room": "210 D",
         "time": "16:30-17:50",
         "submissions": [
@@ -3812,7 +3812,7 @@ sessions={
         "chair": ""
     },
     "s-course924": {
-        "s_title": "Empirical Research Methods for Human-Computer Interaction",
+        "s_title": "C21 - Empirical Research Methods for Human-Computer Interaction",
         "room": "210 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -3829,7 +3829,7 @@ sessions={
         "chair": ""
     },
     "s-course925": {
-        "s_title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
+        "s_title": "C23 - Speech-based Interaction: Myths, Challenges, and Opportunities",
         "room": "210 G",
         "time": "9:30-10:50",
         "submissions": [
@@ -3846,7 +3846,7 @@ sessions={
         "chair": ""
     },
     "s-course926": {
-        "s_title": "Interactive Biotechnology: Building your own Biotic Game Setup to Play with Living Microorganisms",
+        "s_title": "C19 - Interactive Biotechnology: Building your own Biotic Game Setup to Play with Living Microorganisms",
         "room": "210 H",
         "time": "14:30-15:50",
         "submissions": [
@@ -3863,7 +3863,7 @@ sessions={
         "chair": ""
     },
     "s-course927": {
-        "s_title": "Empirical Research Methods for Human-Computer Interaction",
+        "s_title": "C21 - Empirical Research Methods for Human-Computer Interaction",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -3880,7 +3880,7 @@ sessions={
         "chair": ""
     },
     "s-course928": {
-        "s_title": "Speech-based Interaction: Myths, Challenges, and Opportunities",
+        "s_title": "C23 - Speech-based Interaction: Myths, Challenges, and Opportunities",
         "room": "210 G",
         "time": "11:30-12:50",
         "submissions": [
@@ -3897,7 +3897,7 @@ sessions={
         "chair": ""
     },
     "s-course929": {
-        "s_title": "Presumptive Design",
+        "s_title": "C25 - Presumptive Design:&nbsp;Design Thinking In Service of Research",
         "room": "210 D",
         "time": "9:30-10:50",
         "submissions": [
@@ -3914,15 +3914,15 @@ sessions={
         "chair": ""
     },
     "s-course930": {
-        "s_title": "Mobile UX: Breaking the Glass to Richer User Experiences",
-        "room": "210 H",
+        "s_title": "C20 - Mobile UX: Breaking the Glass to Richer User Experiences",
+        "room": "114",
         "time": "14:30-15:50",
         "submissions": [
             "course125"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3931,15 +3931,15 @@ sessions={
         "chair": ""
     },
     "s-course931": {
-        "s_title": "Mobile UX: Breaking the Glass to Richer User Experiences",
-        "room": "210 H",
+        "s_title": "C20 - Mobile UX: Breaking the Glass to Richer User Experiences",
+        "room": "114",
         "time": "16:30-17:50",
         "submissions": [
             "course213"
         ],
         "personas": "",
         "venue": "course",
-        "day": "Tuesday",
+        "day": "Wednesday",
         "s_tags": [],
         "type": "course",
         "hasAward": false,
@@ -3948,7 +3948,7 @@ sessions={
         "chair": ""
     },
     "s-course932": {
-        "s_title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
+        "s_title": "C22 - Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
         "room": "210 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -3965,7 +3965,7 @@ sessions={
         "chair": ""
     },
     "s-course933": {
-        "s_title": "User Interface Design In Agile Projects",
+        "s_title": "C24 - User Interface Design In Agile Projects",
         "room": "210 G",
         "time": "14:30-15:50",
         "submissions": [
@@ -3982,7 +3982,7 @@ sessions={
         "chair": ""
     },
     "s-course934": {
-        "s_title": "Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
+        "s_title": "C22 - Tools for Designing for Home Entertainment: Gesture Interfaces, Augmented Reality, and Smart Spaces",
         "room": "210 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -3999,7 +3999,7 @@ sessions={
         "chair": ""
     },
     "s-course935": {
-        "s_title": "User Interface Design In Agile Projects",
+        "s_title": "C24 - User Interface Design In Agile Projects",
         "room": "210 G",
         "time": "16:30-17:50",
         "submissions": [
@@ -4016,7 +4016,7 @@ sessions={
         "chair": ""
     },
     "s-course936": {
-        "s_title": "Practical UX Research Methodologies",
+        "s_title": "C28 - Practical UX Research Methodologies",
         "room": "210 G",
         "time": "14:30-15:50",
         "submissions": [
@@ -4033,7 +4033,7 @@ sessions={
         "chair": ""
     },
     "s-course937": {
-        "s_title": "Presumptive Design",
+        "s_title": "C25 - Presumptive Design:&nbsp;Design Thinking In Service of Research",
         "room": "210 D",
         "time": "14:30-15:50",
         "submissions": [
@@ -4050,7 +4050,7 @@ sessions={
         "chair": ""
     },
     "s-course938": {
-        "s_title": "Creative Worthwhile Interaction Design",
+        "s_title": "C26 - Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "14:30-15:50",
         "submissions": [
@@ -4067,7 +4067,7 @@ sessions={
         "chair": ""
     },
     "s-course939": {
-        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
+        "s_title": "C27 - A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -4084,7 +4084,7 @@ sessions={
         "chair": ""
     },
     "s-course940": {
-        "s_title": "Presumptive Design",
+        "s_title": "C25 - Presumptive Design:&nbsp;Design Thinking In Service of Research",
         "room": "210 D",
         "time": "11:30-12:50",
         "submissions": [
@@ -4101,7 +4101,7 @@ sessions={
         "chair": ""
     },
     "s-course941": {
-        "s_title": "Creative Worthwhile Interaction Design",
+        "s_title": "C26 - Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "9:30-10:50",
         "submissions": [
@@ -4118,7 +4118,7 @@ sessions={
         "chair": ""
     },
     "s-course942": {
-        "s_title": "Creative Worthwhile Interaction Design",
+        "s_title": "C26 - Creative Worthwhile Interaction Design",
         "room": "210 H",
         "time": "11:30-12:50",
         "submissions": [
@@ -4135,7 +4135,7 @@ sessions={
         "chair": ""
     },
     "s-course943": {
-        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
+        "s_title": "C27 - A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "9:30-10:50",
         "submissions": [
@@ -4152,7 +4152,7 @@ sessions={
         "chair": ""
     },
     "s-course944": {
-        "s_title": "Practical UX Research Methodologies",
+        "s_title": "C28 - Practical UX Research Methodologies",
         "room": "210 G",
         "time": "9:30-10:50",
         "submissions": [
@@ -4169,7 +4169,7 @@ sessions={
         "chair": ""
     },
     "s-course945": {
-        "s_title": "Introduction To Human Computer Interaction",
+        "s_title": "C05 - Introduction To Human Computer Interaction",
         "room": "210 C",
         "time": "14:30-15:50",
         "submissions": [
@@ -4186,7 +4186,7 @@ sessions={
         "chair": ""
     },
     "s-course946": {
-        "s_title": "Designing with the Mind in Mind",
+        "s_title": "C03 - Designing with the Mind in Mind",
         "room": "210 H",
         "time": "14:30-15:50",
         "submissions": [
@@ -4203,7 +4203,7 @@ sessions={
         "chair": ""
     },
     "s-course947": {
-        "s_title": "Game User Experience Evaluation",
+        "s_title": "C08 - Game User Experience Evaluation",
         "room": "210 G",
         "time": "14:30-15:50",
         "submissions": [
@@ -4220,7 +4220,7 @@ sessions={
         "chair": ""
     },
     "s-course948": {
-        "s_title": "A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
+        "s_title": "C27 - A Dummy's Guide to your Next EXPeriment: Experimental Design and Analysis Made Easy",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -4237,7 +4237,7 @@ sessions={
         "chair": ""
     },
     "s-course949": {
-        "s_title": "Practical UX Research Methodologies",
+        "s_title": "C28 - Practical UX Research Methodologies",
         "room": "210 G",
         "time": "11:30-12:50",
         "submissions": [
@@ -4254,7 +4254,7 @@ sessions={
         "chair": ""
     },
     "s-course950": {
-        "s_title": "Hands-on Introduction to Interactive Electric Muscle Stimulation",
+        "s_title": "C02 - Hands-on Introduction to Interactive Electric Muscle Stimulation",
         "room": "210 D",
         "time": "16:30-17:50",
         "submissions": [
@@ -4271,7 +4271,7 @@ sessions={
         "chair": ""
     },
     "s-course951": {
-        "s_title": "An Introduction to Cognitive Aging and Dementia: A Clinical Neuropsychologistâ€™s Perspective",
+        "s_title": "C07 - An Introduction to Cognitive Aging and Dementia: A Clinical NeuropsychologistÃ¢â‚¬â„¢s Perspective",
         "room": "210 C",
         "time": "16:30-17:50",
         "submissions": [
@@ -4288,7 +4288,7 @@ sessions={
         "chair": ""
     },
     "s-course952": {
-        "s_title": "Introduction To Human Computer Interaction",
+        "s_title": "C05 - Introduction To Human Computer Interaction",
         "room": "210 C",
         "time": "11:30-12:50",
         "submissions": [
@@ -4305,7 +4305,7 @@ sessions={
         "chair": ""
     },
     "s-course953": {
-        "s_title": "Designing with the Mind in Mind",
+        "s_title": "C03 - Designing with the Mind in Mind",
         "room": "210 H",
         "time": "11:30-12:50",
         "submissions": [
@@ -4322,7 +4322,7 @@ sessions={
         "chair": ""
     },
     "s-course954": {
-        "s_title": "Research Methods for Child Computer Interaction",
+        "s_title": "C01 - Research Methods for Child Computer Interaction",
         "room": "210 D",
         "time": "14:30-15:50",
         "submissions": [
@@ -4339,7 +4339,7 @@ sessions={
         "chair": ""
     },
     "s-course955": {
-        "s_title": "Research Methods for Child Computer Interaction",
+        "s_title": "C01 - Research Methods for Child Computer Interaction",
         "room": "210 D",
         "time": "11:30-12:50",
         "submissions": [

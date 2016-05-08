@@ -438,7 +438,7 @@ schedule=[
                         "room": "210 D"
                     },
                     {
-                        "session": "s-course930",
+                        "session": "s-course912",
                         "room": "210 H"
                     },
                     {
@@ -517,7 +517,7 @@ schedule=[
                         "room": "210 D"
                     },
                     {
-                        "session": "s-course931",
+                        "session": "s-course916",
                         "room": "210 H"
                     },
                     {
@@ -610,10 +610,6 @@ schedule=[
                         "room": "210 D"
                     },
                     {
-                        "session": "s-course912",
-                        "room": "210 H"
-                    },
-                    {
                         "session": "s-course924",
                         "room": "210 C"
                     },
@@ -662,10 +658,6 @@ schedule=[
                         "room": "LL 20D"
                     },
                     {
-                        "session": "s908",
-                        "room": "LL 20B"
-                    },
-                    {
                         "session": "s113",
                         "room": "LL20 C"
                     },
@@ -695,10 +687,6 @@ schedule=[
                     {
                         "session": "s-course920",
                         "room": "210 D"
-                    },
-                    {
-                        "session": "s-course916",
-                        "room": "210 H"
                     },
                     {
                         "session": "s-course927",
@@ -804,6 +792,10 @@ schedule=[
                         "room": "112"
                     },
                     {
+                        "session": "s-course930",
+                        "room": "114"
+                    },
+                    {
                         "session": "s196",
                         "room": "LL21C"
                     },
@@ -826,6 +818,10 @@ schedule=[
                     {
                         "session": "s911",
                         "room": "LL 20D"
+                    },
+                    {
+                        "session": "s908",
+                        "room": "LL 20B"
                     },
                     {
                         "session": "s116",
@@ -873,6 +869,10 @@ schedule=[
                     {
                         "session": "s-sig902",
                         "room": "112"
+                    },
+                    {
+                        "session": "s-course931",
+                        "room": "114"
                     },
                     {
                         "session": "s195",
