@@ -589,7 +589,11 @@ def person_like (request, like_str):
         msg_body = '''
 Dear %s,
 
-Someone indicated an interest in meeting you at %s. You can see the list of people interested in meeting you by going to http://confer.csail.mit.edu/%s/meetups
+Someone indicated an interest in meeting you at %s. 
+
+Confer helps you finds people who are interested in the same papers. 
+You can use Confer to find your matches, suggest meetings with others, and see the list of people 
+interested in meeting you by going to http://confer.csail.mit.edu/%s/meetups
 
 Happy Networking,
 Confer Team
