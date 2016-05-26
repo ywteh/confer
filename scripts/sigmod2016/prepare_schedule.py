@@ -9,7 +9,7 @@ sessions_dict = [
   {"New Storage and Network Architectures":{"papers":["384","943","365","416","990","375"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom B'}},
   {"Graphs 1: Infrastructure and Processing on Modern Hardware":{"papers":["429","418","933","924","970","401"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom C'}},
   {"Streaming 1: Systems and Outlier Detection":{"papers":["413","984","379","408","195","692"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Seacliffs'}},
-  {"Approximate Query Processing":{"papers":["961","407","965","404","363","959","988"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Grand Ballroom B'}},
+  {"Approximate Query Processing":{"papers":["407","965","404","363","959","988"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Grand Ballroom B'}},
   {"Networks and the Web":{"papers":["927","989","432","390","889","934"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Grand Ballroom C'}},
   {"Data Discovery and Extraction":{"papers":["873","890","922","422","Ind_102","364"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Seacliffs'}},
   {"Data Integration / Cleaning":{"papers":["423","975","963","309","987","926","991"], 'day': 'Wednesday', 'time': '10:30-12:15', 'Room': 'Grand Ballroom B'}},
