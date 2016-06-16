@@ -2,30 +2,30 @@ import sys, json, csv, re, time
 from collections import OrderedDict
 
 sessions_dict = [
-  {"Scalable Analytics &amp; Machine Learning":{"papers":["402","420","916","421","919","369","937"], 'day': 'Tuesday', 'time': '10:30-12:15'
+  {"Scalable Analytics &amp; Machine Learning":{"papers":["402","420","916","421","919","369","937"], 'day': 'Tuesday', 'time': '10:30-12:15', 'Room': 'Grand Ballroom B'
 }},
-  {"Privacy &amp; Security":{"papers":["935","983","392","388","393","367","424"], 'day': 'Tuesday', 'time': '10:30-12:15'}},
-  {"Logical and Physical Database Design":{"papers":["900","874","Ind_103","892","971","426","383"], 'day': 'Tuesday', 'time': '10:30-12:15'}},
-  {"New Storage and Network Architectures":{"papers":["384","943","365","416","990","375"], 'day': 'Tuesday', 'time': '13:30-15:00'}},
-  {"Graphs 1: Infrastructure and Processing on Modern Hardware":{"papers":["429","418","933","924","970","401"], 'day': 'Tuesday', 'time': '13:30-15:00'}},
-  {"Streaming 1: Systems and Outlier Detection":{"papers":["413","984","379","408","195","692"], 'day': 'Tuesday', 'time': '13:30-15:00'}},
-  {"Approximate Query Processing":{"papers":["961","407","965","404","363","959","988"], 'day': 'Wednesday', 'time': '8:30-10:00'}},
-  {"Networks and the Web":{"papers":["927","989","432","390","889","934"], 'day': 'Wednesday', 'time': '8:30-10:00'}},
-  {"Data Discovery and Extraction":{"papers":["873","890","922","422","Ind_102","364"], 'day': 'Wednesday', 'time': '8:30-10:00'}},
-  {"Data Integration / Cleaning":{"papers":["423","975","963","309","987","926","991"], 'day': 'Wednesday', 'time': '10:30-12:15'}},
-  {"Spatio / Temporal Databases":{"papers":["380","882","982","368","434","430","968"], 'day': 'Wednesday', 'time': '10:30-12:15'}},
-  {"Careers in Industry Panel":{'day': 'Wednesday', 'time': '10:30-12:15'}},
-  {"Distributed Data Processing":{"papers":["Ind_101","899","901","928","958","381"], 'day': 'Wednesday', 'time': '13:30-15:00'}},
-  {"Graphs 2: Subgraph-based Optimization Techniques":{"papers":["936","394","967","400","929","954"], 'day': 'Wednesday', 'time': '13:30-15:00'}},
-  {"Main Memory Analytics":{"papers":["925","102","872","885","961","504"], 'day': 'Wednesday', 'time': '13:30-15:00'}},
-  {"Interactive Analytics":{"papers":["411","972","378","930","Ind_104","898"], 'day': 'Thursday', 'time': '10:30-12:00'}},
-  {"Streaming 2: Sketches":{"papers":["412","373","414","956","949","951"], 'day':'Thursday', 'time': '10:30-12:00'}},
-  {"Transaction Processing":{"papers":["377","839","955","947","428","940"], 'day':'Thursday', 'time': '10:30-12:00'}},
-  {"Transactions and Consistency":{"papers":["419","397","395","382","173","921"], 'day':'Thursday', 'time': '13:30-15:00'}},
-  {"Query Optimization":{"papers":["932","370","387","870","974","386"], 'day':'Thursday', 'time': '13:30-15:00'}},
-  {"Graphs 3: Potpourri &nbsp;":{"papers":["946","945","436","962","976","410"], 'day':'Thursday', 'time': '13:30-15:00'}},
-  {"Hardware Acceleration &amp; Query Compilation":{"papers":["399","977","883","950","887","376"], 'day':'Thursday', 'time': '15:00-17:00'}},
-  {"Nearest Neighbors and Similarity Search":{"papers":["406","931","985","391","435","964"], 'day':'Thursday', 'time': '15:00-17:00'}}
+  {"Privacy &amp; Security":{"papers":["935","983","392","388","393","367","424"], 'day': 'Tuesday', 'time': '10:30-12:15', 'Room': 'Grand Ballroom C'}},
+  {"Logical and Physical Database Design":{"papers":["900","874","Ind_103","892","971","426","383"], 'day': 'Tuesday', 'time': '10:30-12:15', 'Room': 'Seacliffs'}},
+  {"New Storage and Network Architectures":{"papers":["384","943","365","416","990","375"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom B'}},
+  {"Graphs 1: Infrastructure and Processing on Modern Hardware":{"papers":["429","418","933","924","970","401"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom C'}},
+  {"Streaming 1: Systems and Outlier Detection":{"papers":["413","984","379","408","195","692"], 'day': 'Tuesday', 'time': '13:30-15:00', 'Room': 'Seacliffs'}},
+  {"Approximate Query Processing":{"papers":["407","965","404","363","959","988"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Grand Ballroom B'}},
+  {"Networks and the Web":{"papers":["927","989","432","390","889","934"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Grand Ballroom C'}},
+  {"Data Discovery and Extraction":{"papers":["873","890","922","422","Ind_102","364"], 'day': 'Wednesday', 'time': '8:30-10:00', 'Room': 'Seacliffs'}},
+  {"Data Integration / Cleaning":{"papers":["423","975","963","309","987","926","991"], 'day': 'Wednesday', 'time': '10:30-12:15', 'Room': 'Grand Ballroom B'}},
+  {"Spatio / Temporal Databases":{"papers":["380","882","982","368","434","430","968"], 'day': 'Wednesday', 'time': '10:30-12:15', 'Room': 'Grand Ballroom C'}},
+  {"Careers in Industry Panel":{'day': 'Wednesday', 'time': '10:30-12:15', 'Room': 'Seacliffs'}},
+  {"Distributed Data Processing":{"papers":["Ind_101","899","901","928","958","381"], 'day': 'Wednesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom B'}},
+  {"Graphs 2: Subgraph-based Optimization Techniques":{"papers":["936","394","967","400","929","954"], 'day': 'Wednesday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom C'}},
+  {"Main Memory Analytics":{"papers":["925","102","872","885","961","504"], 'day': 'Wednesday', 'time': '13:30-15:00', 'Room': 'Seacliffs'}},
+  {"Interactive Analytics":{"papers":["411","972","378","930","Ind_104","898"], 'day': 'Thursday', 'time': '10:30-12:00', 'Room': 'Grand Ballroom B'}},
+  {"Streaming 2: Sketches":{"papers":["412","373","414","956","949","951"], 'day':'Thursday', 'time': '10:30-12:00', 'Room': 'Grand Ballroom C'}},
+  {"Transaction Processing":{"papers":["377","839","955","947","428","940"], 'day':'Thursday', 'time': '10:30-12:00', 'Room': 'Seacliffs'}},
+  {"Transactions and Consistency":{"papers":["419","397","395","382","173","921"], 'day':'Thursday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom B'}},
+  {"Query Optimization":{"papers":["932","370","387","870","974","386"], 'day':'Thursday', 'time': '13:30-15:00', 'Room': 'Grand Ballroom C'}},
+  {"Graphs 3: Potpourri &nbsp;":{"papers":["946","945","436","962","976","410"], 'day':'Thursday', 'time': '13:30-15:00', 'Room': 'Seacliffs'}},
+  {"Hardware Acceleration &amp; Query Compilation":{"papers":["399","977","883","950","887","376"], 'day':'Thursday', 'time': '15:00-17:00', 'Room': 'Grand Ballroom B'}},
+  {"Nearest Neighbors and Similarity Search":{"papers":["406","931","985","391","435","964"], 'day':'Thursday', 'time': '15:00-17:00', 'Room': 'Grand Ballroom C'}}
 ]
 
 sessions = {}
@@ -86,7 +86,7 @@ def prepare_sessions():
         'submissions': v['papers'] if 'papers' in v else [],
         'day': v['day']
       }
-      s_data = {'session': s_id, 'room': 'TBD'}
+      s_data = {'session': s_id, 'room': v['Room']}
       s_date = get_date_time(v['day'])
       s_time = v['time']
 
