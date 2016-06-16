@@ -1,0 +1,1778 @@
+sessions={
+  "AI_and_the_Web1_Web_based_recommendation_systems_Chair_Biplav_Srivastava": {
+    "date": "7/12/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web1 :: Web-based recommendation systems - Chair: Biplav Srivastava", 
+    "submissions": [
+      "1343", 
+      "1433", 
+      "1727", 
+      "2602", 
+      "2690"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "AI_and_the_Web2_Social_network_analysis_theories_models_and_applications_Chair_De_Nian_Yang": {
+    "date": "7/12/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web2 :: Social network analysis, theories, models, and applications - Chair: De-Nian Yang", 
+    "submissions": [
+      "50", 
+      "737", 
+      "1547", 
+      "1693", 
+      "2828"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "AI_and_the_Web3_Mining_user_generated_data_on_the_Web_Chair_Luigi_Portinale": {
+    "date": "7/13/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web3 :: Mining user-generated data on the Web - Chair: Luigi Portinale", 
+    "submissions": [
+      "139", 
+      "571", 
+      "1764", 
+      "2331", 
+      "2448", 
+      "2624", 
+      "2795"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "AI_and_the_Web4_Chair_Muninder_Singh": {
+    "date": "7/13/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web4 - Chair: Muninder Singh", 
+    "submissions": [
+      "10", 
+      "196", 
+      "211", 
+      "502", 
+      "766", 
+      "872", 
+      "1015"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "AI_and_the_Web5_Chair_Banafsheh_Rekabdar": {
+    "date": "7/14/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web5 - Chair: Banafsheh Rekabdar", 
+    "submissions": [
+      "1114", 
+      "1290", 
+      "1437", 
+      "1489", 
+      "1836", 
+      "1863"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "AI_and_the_Web6_Chair_Michael_Freed": {
+    "date": "7/14/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web6 - Chair: Michael Freed", 
+    "submissions": [
+      "2033", 
+      "2081", 
+      "2115", 
+      "2376", 
+      "2814", 
+      "2826", 
+      "2830"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "AI_and_the_Web7_Other_topics_in_ML_and_the_Web_Chair_Hala_Mostafa": {
+    "date": "7/15/2016", 
+    "room": "Sutton Center", 
+    "s_title": "AI and the Web7 :: Other topics in ML and the Web - Chair: Hala Mostafa", 
+    "submissions": [
+      "1606", 
+      "2193", 
+      "2615", 
+      "2835", 
+      "2873"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems10_Normative_MAS_and_Logical_Formalisation_of_MAS_Chair_Catholijn_Jonker": {
+    "date": "7/14/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Agent-based and Multi-agent Systems10 :: Normative MAS and Logical Formalisation of MAS - Chair: Catholijn Jonker", 
+    "submissions": [
+      "659", 
+      "894", 
+      "1275", 
+      "1974", 
+      "2191"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems11_Noncooperative_Games2_Chair_Valentin_Robu": {
+    "date": "7/15/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems11 :: Noncooperative Games2 - Chair: Valentin Robu", 
+    "submissions": [
+      "591", 
+      "1202", 
+      "1441", 
+      "2290", 
+      "2730"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems12_Coordination_and_Collaboration2_Chair_Jonathan_Gratch": {
+    "date": "7/15/2016", 
+    "room": "Sutton North", 
+    "s_title": "Agent-based and Multi-agent Systems12 :: Coordination and Collaboration2 - Chair: Jonathan Gratch", 
+    "submissions": [
+      "354", 
+      "1339", 
+      "2364", 
+      "2600", 
+      "2808"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems1_Resource_Allocation_Chair_Vincent_Conitzer": {
+    "date": "7/12/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems1 :: Resource Allocation - Chair: Vincent Conitzer", 
+    "submissions": [
+      "261", 
+      "758", 
+      "1348", 
+      "1808", 
+      "2451"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems2_Social_Choice_Theory1_Chair_Reshef_Meir": {
+    "date": "7/12/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems2 :: Social Choice Theory1 - Chair: Reshef Meir", 
+    "submissions": [
+      "156", 
+      "417", 
+      "998", 
+      "1056", 
+      "1061"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Agent_based_and_Multi_agent_Systems3_Social_Choice_Theory2_Chair_Umberto_Grandi": {
+    "date": "7/12/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems3 :: Social Choice Theory2 - Chair: Umberto Grandi", 
+    "submissions": [
+      "1067", 
+      "1184", 
+      "1312", 
+      "1368", 
+      "1622"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems4_Social_Choice_Theory3_Chair_Ulle_Endriss": {
+    "date": "7/13/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems4 :: Social Choice Theory3 - Chair: Ulle Endriss", 
+    "submissions": [
+      "1282", 
+      "1626", 
+      "2318", 
+      "2338", 
+      "2341"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems5_Social_Choice_Theory4_Chair_Haris_Aziz": {
+    "date": "7/13/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems5 :: Social Choice Theory4 - Chair: Haris Aziz", 
+    "submissions": [
+      "691", 
+      "1289", 
+      "1480", 
+      "2385", 
+      "2557"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Agent_based_and_Multi_agent_Systems6_Auctions_Mechanism_Design_and_Market_Based_Systems1_Chair_Bo_An": {
+    "date": "7/13/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems6 :: Auctions, Mechanism Design and Market-Based Systems1 - Chair: Bo An", 
+    "submissions": [
+      "919", 
+      "1925", 
+      "2021", 
+      "2399"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems7_Auctions_Mechanism_Design_and_Market_Based_Systems2_Chair_Bo_An": {
+    "date": "7/14/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems7 :: Auctions, Mechanism Design and Market-Based Systems2 - Chair: Bo An", 
+    "submissions": [
+      "985", 
+      "2062", 
+      "2092", 
+      "2421", 
+      "2603"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Agent_based_and_Multi_agent_Systems8_Noncooperative_Games1_Chair_Sven_Seuken": {
+    "date": "7/14/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems8 :: Noncooperative Games1 - Chair: Sven Seuken", 
+    "submissions": [
+      "602", 
+      "739", 
+      "775", 
+      "2220", 
+      "2531"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Agent_based_and_Multi_agent_Systems9_Coordination_and_Collaboration1_Chair_Maria_Gini": {
+    "date": "7/14/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Agent-based and Multi-agent Systems9 :: Coordination and Collaboration1 - Chair: Maria Gini", 
+    "submissions": [
+      "274", 
+      "2160", 
+      "2201", 
+      "2272", 
+      "2666"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Best_of_AAMAS_EC_Chair_Valentin_Robu": {
+    "date": "7/14/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of AAMAS, EC - Chair: Valentin Robu", 
+    "submissions": [
+      "2952", 
+      "3021", 
+      "3025", 
+      "3030"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Best_of_CADE_Chair_Rodrigo_de_Salvo_Braz": {
+    "date": "7/12/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of CADE - Chair: Rodrigo de Salvo Braz", 
+    "submissions": [
+      "2949", 
+      "3022", 
+      "3039"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Best_of_CP_Chair_Berthe_Choueiry": {
+    "date": "7/13/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of CP - Chair: Berthe Choueiry", 
+    "submissions": [
+      "2951", 
+      "2957", 
+      "3018", 
+      "3028"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Best_of_ICAPS_Chair_Blai_Bonet": {
+    "date": "7/12/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of ICAPS - Chair: Blai Bonet", 
+    "submissions": [
+      "2948", 
+      "3027", 
+      "3031"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Best_of_ICLP_Chair_Michael_Gelfond": {
+    "date": "7/13/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of ICLP - Chair: Michael Gelfond", 
+    "submissions": [
+      "3024", 
+      "3032", 
+      "3038"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Best_of_ICML_Chair_Shivaram_Kalyanakrishnan": {
+    "date": "7/14/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of ICML - Chair: Shivaram Kalyanakrishnan", 
+    "submissions": [
+      "2990", 
+      "3036"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Best_of_ICRA_ICCV_Chair_Michael_Thielscher": {
+    "date": "7/12/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of ICRA, ICCV - Chair: Michael Thielscher", 
+    "submissions": [
+      "3029", 
+      "3035", 
+      "3050"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Best_of_IUI_Chair_Rafal_Rzepka": {
+    "date": "7/14/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of IUI - Chair: Rafal Rzepka", 
+    "submissions": [
+      "3033", 
+      "3037"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Best_of_UAI_Chair_Martin_Golumbic": {
+    "date": "7/13/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Best of UAI - Chair: Martin Golumbic", 
+    "submissions": [
+      "2955", 
+      "3026", 
+      "3034"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Closing_Ceremony": {
+    "date": "7/15/2016", 
+    "room": "Sutton Complex", 
+    "s_title": "Closing Ceremony", 
+    "submissions": [
+      "5037"
+    ], 
+    "time": "17:10-18:00"
+  }, 
+  "Combinatorial_Heuristic_Search1_Heuristic_Search_and_Combinatorial_Optimization_Chair_Martin_Golumbic": {
+    "date": "7/12/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Combinatorial & Heuristic Search1 :: Heuristic Search and Combinatorial Optimization - Chair: Martin Golumbic", 
+    "submissions": [
+      "210", 
+      "236", 
+      "1227", 
+      "1358", 
+      "2566", 
+      "2646", 
+      "2833"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Combinatorial_Heuristic_Search2_Applications_Chair_Holger_Hoos": {
+    "date": "7/12/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Combinatorial & Heuristic Search2 :: Applications - Chair: Holger Hoos", 
+    "submissions": [
+      "235", 
+      "798", 
+      "830", 
+      "1692", 
+      "2228"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Combinatorial_Heuristic_Search3_Chair_Ariel_Felner": {
+    "date": "7/13/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Combinatorial & Heuristic Search3 - Chair: Ariel Felner", 
+    "submissions": [
+      "32", 
+      "902", 
+      "1054", 
+      "1966", 
+      "2260"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Combinatorial_Heuristic_Search4_Chair_Sven_Koenig": {
+    "date": "7/14/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Combinatorial & Heuristic Search4 - Chair: Sven Koenig", 
+    "submissions": [
+      "348", 
+      "1754", 
+      "1827", 
+      "2472", 
+      "2485"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Computers_and_Thought_Award_Talk": {
+    "date": "7/15/2016", 
+    "room": "Ballroom", 
+    "s_title": "Computers and Thought Award Talk", 
+    "submissions": [
+      "5034"
+    ], 
+    "time": "14:15-15:00"
+  }, 
+  "Constraints_Satisfiability1_Modeling_Chair_Nic_Wilson": {
+    "date": "7/12/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Constraints & Satisfiability1 :: Modeling - Chair: Nic Wilson", 
+    "submissions": [
+      "250", 
+      "1338", 
+      "2015", 
+      "2127", 
+      "2832"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Constraints_Satisfiability2_Constraint_Satisfaction_Chair_Malek_Mouhoub": {
+    "date": "7/12/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Constraints & Satisfiability2 :: Constraint Satisfaction - Chair: Malek Mouhoub", 
+    "submissions": [
+      "1154", 
+      "1163", 
+      "1278", 
+      "1723", 
+      "1781"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Constraints_Satisfiability3_Chair_William_Yeoh": {
+    "date": "7/13/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Constraints & Satisfiability3 - Chair: William Yeoh", 
+    "submissions": [
+      "89", 
+      "296", 
+      "963", 
+      "1915", 
+      "2435"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Constraints_Satisfiability4_Chair_Tal_Grinshpoun": {
+    "date": "7/13/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Constraints & Satisfiability4 - Chair: Tal Grinshpoun", 
+    "submissions": [
+      "738", 
+      "927", 
+      "1392", 
+      "2283", 
+      "2612"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Constraints_Satisfiability5_Chair_Nadjib_Lazaar": {
+    "date": "7/14/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Constraints & Satisfiability5 - Chair: Nadjib Lazaar", 
+    "submissions": [
+      "1019", 
+      "1047", 
+      "1839", 
+      "2090", 
+      "2407"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Doctoral_Consortium_Posters": {
+    "date": "7/12/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Doctoral Consortium Posters", 
+    "submissions": [
+      "292", 
+      "2953", 
+      "2956", 
+      "2958", 
+      "2962", 
+      "2966", 
+      "2967", 
+      "2968", 
+      "2969", 
+      "2970", 
+      "2971", 
+      "2972", 
+      "2973", 
+      "2974", 
+      "2975", 
+      "2976", 
+      "2977", 
+      "2978", 
+      "2979", 
+      "2980", 
+      "2981", 
+      "2982", 
+      "2985", 
+      "2986", 
+      "2988", 
+      "2989", 
+      "2991", 
+      "2993", 
+      "2995", 
+      "2996", 
+      "2997", 
+      "2999", 
+      "3001", 
+      "3002", 
+      "3003", 
+      "3005", 
+      "3006", 
+      "3007", 
+      "3009", 
+      "3010", 
+      "3011", 
+      "3012", 
+      "3013", 
+      "3015"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "EarlyCareer_Amanda_Mausam_Chair_Daniel_Borrajo": {
+    "date": "7/12/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Amanda, Mausam - Chair: Daniel Borrajo", 
+    "submissions": [
+      "5005", 
+      "5006"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "EarlyCareer_Dafna_Ruslan_Chair_Rao_Kambhampati": {
+    "date": "7/12/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Dafna, Ruslan - Chair: Rao Kambhampati", 
+    "submissions": [
+      "5001", 
+      "5002"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Ece_Haris_Chair_Jerome_Lang": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Ece, Haris - Chair: Jerome Lang", 
+    "submissions": [
+      "5015", 
+      "5016"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "EarlyCareer_Edith_Matti_Chair_Kevin_Leyton_Brown": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Edith, Matti - Chair: Kevin Leyton-Brown", 
+    "submissions": [
+      "5009", 
+      "5010"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Finale_Stefano_Chair_Nevin_Zhang": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Finale, Stefano - Chair: Nevin Zhang", 
+    "submissions": [
+      "5007", 
+      "5008"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "EarlyCareer_Julie_Steven_Chair_Thomas_Eiter": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Julie, Steven - Chair: Thomas Eiter", 
+    "submissions": [
+      "5017", 
+      "5018"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Meghyn_Guy_Chair_Sheila_McIllraith": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Meghyn, Guy - Chair: Sheila McIllraith", 
+    "submissions": [
+      "5019", 
+      "5020"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "EarlyCareer_Shivani_Sven_Chair_Shlomo_Zilberstein": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Shivani, Sven - Chair: Shlomo Zilberstein", 
+    "submissions": [
+      "5011", 
+      "5012"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "EarlyCareer_Sonia_Pradeep_Chair_Sven_Koenig": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Sonia, Pradeep - Chair: Sven Koenig", 
+    "submissions": [
+      "5021", 
+      "5022"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "EarlyCareer_Suchi_Yevgeniy_Chair_Boi_Faltings": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Suchi, Yevgeniy - Chair: Boi Faltings", 
+    "submissions": [
+      "5013", 
+      "5014"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "EarlyCareer_Yejin_Abhinav_Chair_Prasad_Tadepalli": {
+    "date": "7/12/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Yejin, Abhinav - Chair: Prasad Tadepalli", 
+    "submissions": [
+      "5003", 
+      "5004"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Human_Aware_AI_IJCAI_16_Theme_1_Chair_Laura_Hiatt": {
+    "date": "7/12/2016", 
+    "room": "Sutton North", 
+    "s_title": "Human-Aware AI (IJCAI-16 Theme)1 - Chair: Laura Hiatt", 
+    "submissions": [
+      "626", 
+      "910", 
+      "1097", 
+      "1852", 
+      "2102", 
+      "2480", 
+      "2760"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Human_Aware_AI_IJCAI_16_Theme_2_Planning_and_Decision_Support_for_Human_Machine_Teams_Chair_Alessandro_Saffiotti": {
+    "date": "7/12/2016", 
+    "room": "Sutton North", 
+    "s_title": "Human-Aware AI (IJCAI-16 Theme)2 :: Planning and Decision Support for Human-Machine Teams - Chair: Alessandro Saffiotti", 
+    "submissions": [
+      "750", 
+      "799", 
+      "1256", 
+      "2032", 
+      "2594"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Industry_Day_Talks1": {
+    "date": "7/15/2016", 
+    "room": "Ballroom", 
+    "s_title": "Industry Day Talks1", 
+    "submissions": [
+      "5038"
+    ], 
+    "time": "08:30-12:35"
+  }, 
+  "Industry_Day_Talks2": {
+    "date": "7/15/2016", 
+    "room": "Sutton Complex", 
+    "s_title": "Industry Day Talks2", 
+    "submissions": [
+      "5039"
+    ], 
+    "time": "13:30-17:00"
+  }, 
+  "Invited_Talks_Chair_Bernhard_Nebel": {
+    "date": "7/12/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talks - Chair: Bernhard Nebel", 
+    "submissions": [
+      "5027"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talks_Chair_Catholijn_Jonker": {
+    "date": "7/14/2016", 
+    "room": "Ballroom West", 
+    "s_title": "Invited Talks - Chair: Catholijn Jonker", 
+    "submissions": [
+      "5032"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talks_Chair_Ernie_Davis": {
+    "date": "7/14/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talks - Chair: Ernie Davis", 
+    "submissions": [
+      "5031"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talks_Chair_Jerome_Lang": {
+    "date": "7/13/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talks - Chair: Jerome Lang", 
+    "submissions": [
+      "5029"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talks_Chair_Rao_Kambhampati": {
+    "date": "7/12/2016", 
+    "room": "Ballroom", 
+    "s_title": "Invited Talks - Chair: Rao Kambhampati", 
+    "submissions": [
+      "5026"
+    ], 
+    "time": "09:10-09:55"
+  }, 
+  "Invited_Talks_Chair_Sven_Koenig": {
+    "date": "7/13/2016", 
+    "room": "Ballroom West", 
+    "s_title": "Invited Talks - Chair: Sven Koenig", 
+    "submissions": [
+      "5030"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talks_Chair_Thomas_Eiter": {
+    "date": "7/12/2016", 
+    "room": "Ballroom West", 
+    "s_title": "Invited Talks - Chair: Thomas Eiter", 
+    "submissions": [
+      "5028"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic10_Chair_Gerhard_Lakemeyer": {
+    "date": "7/15/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic10 - Chair: Gerhard Lakemeyer", 
+    "submissions": [
+      "1005", 
+      "1377", 
+      "1794", 
+      "1866", 
+      "2233", 
+      "2613", 
+      "2764"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic11_Belief_Change_Chair_Steven_Schockaert": {
+    "date": "7/15/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic11 :: Belief Change - Chair: Steven Schockaert", 
+    "submissions": [
+      "386", 
+      "1446", 
+      "1509", 
+      "2802"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic1_Knowledge_Representation1_Chair_Angelo_Montanari": {
+    "date": "7/12/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic1 :: Knowledge Representation1 - Chair: Angelo Montanari", 
+    "submissions": [
+      "1098", 
+      "1504", 
+      "1868", 
+      "2014", 
+      "2374"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic2_Action_Change_and_Causality_Chair_Stephen_Muggleton": {
+    "date": "7/12/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic2 :: Action, Change and Causality - Chair: Stephen Muggleton", 
+    "submissions": [
+      "310", 
+      "793", 
+      "1174", 
+      "1576", 
+      "2527", 
+      "2877", 
+      "2910"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic3_Computational_Complexity_of_Reasoning_Chair_Michael_Witbrock": {
+    "date": "7/13/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic3 :: Computational Complexity of Reasoning - Chair: Michael Witbrock", 
+    "submissions": [
+      "345", 
+      "734", 
+      "1109", 
+      "1126", 
+      "1228", 
+      "1703", 
+      "2011"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic4_Geometric_Spatial_and_Temporal_Reasoning_Chair_Jochen_Renz": {
+    "date": "7/13/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic4 :: Geometric, Spatial, and Temporal Reasoning - Chair: Jochen Renz", 
+    "submissions": [
+      "1884", 
+      "2185", 
+      "2303", 
+      "2543", 
+      "2820"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic5_Knowledge_Representation_Languages_Chair_Frank_Wolter": {
+    "date": "7/13/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic5 :: Knowledge Representation Languages - Chair: Frank Wolter", 
+    "submissions": [
+      "555", 
+      "1309", 
+      "1848", 
+      "1887", 
+      "2291", 
+      "2368", 
+      "2644"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic6_Logic_Programming_Chair_Joohyung_Lee": {
+    "date": "7/14/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic6 :: Logic Programming - Chair: Joohyung Lee", 
+    "submissions": [
+      "381", 
+      "1096", 
+      "1128", 
+      "1141", 
+      "2151", 
+      "2232", 
+      "2347"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic7_Preferences_Chair_Antonio_Lieto": {
+    "date": "7/14/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic7 :: Preferences - Chair: Antonio Lieto", 
+    "submissions": [
+      "730", 
+      "1187", 
+      "1274", 
+      "2139", 
+      "2444"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic8_Knowledge_Representation2_Chair_Alessandro_Saffiotti": {
+    "date": "7/14/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic8 :: Knowledge Representation2 - Chair: Alessandro Saffiotti", 
+    "submissions": [
+      "269", 
+      "489", 
+      "837", 
+      "1517", 
+      "1681", 
+      "1995", 
+      "2466"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Knowledge_Representation_Reasoning_and_Logic9_Chair_Domenico_Lembo": {
+    "date": "7/14/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Knowledge Representation, Reasoning, and Logic9 - Chair: Domenico Lembo", 
+    "submissions": [
+      "529", 
+      "1101", 
+      "1166", 
+      "1292", 
+      "2274", 
+      "2296", 
+      "2887"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning10_New_Problems_Chair_Hala_Mostafa": {
+    "date": "7/14/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Machine Learning10 :: New Problems - Chair: Hala Mostafa", 
+    "submissions": [
+      "169", 
+      "223", 
+      "976", 
+      "1265", 
+      "1533", 
+      "1919", 
+      "2020"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning11_Learning_Preferences_or_Rankings_Chair_Xiangwei_Kong": {
+    "date": "7/14/2016", 
+    "room": "Sutton North", 
+    "s_title": "Machine Learning11 :: Learning Preferences or Rankings - Chair: Xiangwei Kong", 
+    "submissions": [
+      "421", 
+      "810", 
+      "1008", 
+      "1230", 
+      "1608", 
+      "1618", 
+      "1830"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning12_Deep_Learning_Chair_Jonathan_Rubin": {
+    "date": "7/14/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning12 :: Deep Learning - Chair: Jonathan Rubin", 
+    "submissions": [
+      "877", 
+      "984", 
+      "1080", 
+      "1250", 
+      "1350", 
+      "1357", 
+      "1757"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning13_Relational_Learning_Chair_Peter_Flach": {
+    "date": "7/14/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Machine Learning13 :: Relational Learning - Chair: Peter Flach", 
+    "submissions": [
+      "1302", 
+      "1713", 
+      "1752", 
+      "2052", 
+      "2801"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Machine_Learning14_Neural_Networks_Chair_Kartik_Talamadupula": {
+    "date": "7/14/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Machine Learning14 :: Neural Networks - Chair: Kartik Talamadupula", 
+    "submissions": [
+      "39", 
+      "254", 
+      "467", 
+      "1531", 
+      "1758", 
+      "1774", 
+      "2861"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning15_Ensemble_Methods_Chair_Artur_Dubrawski": {
+    "date": "7/14/2016", 
+    "room": "Sutton North", 
+    "s_title": "Machine Learning15 :: Ensemble Methods - Chair: Artur Dubrawski", 
+    "submissions": [
+      "120", 
+      "252", 
+      "554", 
+      "809", 
+      "1666", 
+      "2263", 
+      "2787"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning16_Time_series_Data_Streams_Chair_Byron_Boots": {
+    "date": "7/14/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning16 :: Time-series/Data Streams - Chair: Byron Boots", 
+    "submissions": [
+      "575", 
+      "702", 
+      "1135", 
+      "1219", 
+      "1567", 
+      "1643", 
+      "2164"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning17_Unsupervised_Learning2_Chair_Xintao_Wu": {
+    "date": "7/14/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning17 :: Unsupervised Learning2 - Chair: Xintao Wu", 
+    "submissions": [
+      "1526", 
+      "1574", 
+      "1738", 
+      "2350", 
+      "2635"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Machine_Learning18_Feature_Selection_Construction2_Chair_Rudy_Raymond": {
+    "date": "7/15/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Machine Learning18 :: Feature Selection/Construction2 - Chair: Rudy Raymond", 
+    "submissions": [
+      "130", 
+      "641", 
+      "680", 
+      "821", 
+      "1450", 
+      "1479", 
+      "1668"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning19_Classification2_Chair_Bj_rn_Schuller": {
+    "date": "7/15/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Machine Learning19 :: Classification2 - Chair: Bj\u00c3\u00b6rn Schuller", 
+    "submissions": [
+      "426", 
+      "808", 
+      "820", 
+      "1002", 
+      "1640", 
+      "2597"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning1_Online_Learning_Chair_Tang_Jie": {
+    "date": "7/12/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Machine Learning1 :: Online Learning - Chair: Tang Jie", 
+    "submissions": [
+      "54", 
+      "1069", 
+      "1073", 
+      "1535", 
+      "2171"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Machine_Learning20_Chair_Samira_Sadaoui": {
+    "date": "7/15/2016", 
+    "room": "Sutton North", 
+    "s_title": "Machine Learning20 - Chair: Samira Sadaoui", 
+    "submissions": [
+      "480", 
+      "1157", 
+      "1449", 
+      "1565", 
+      "1893", 
+      "2009", 
+      "2430"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning21_Chair_Jeremy_Forth": {
+    "date": "7/15/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning21 - Chair: Jeremy Forth", 
+    "submissions": [
+      "801", 
+      "1094", 
+      "1362", 
+      "1585", 
+      "2530", 
+      "2590", 
+      "2824"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning22_Chair_Banafsheh_Rekabdar": {
+    "date": "7/15/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Machine Learning22 - Chair: Banafsheh Rekabdar", 
+    "submissions": [
+      "7", 
+      "123", 
+      "391", 
+      "640", 
+      "1286", 
+      "2077", 
+      "2320"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning2_Semi_Supervised_Learning_Chair_Ming_Li": {
+    "date": "7/12/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Machine Learning2 :: Semi-Supervised Learning - Chair: Ming Li", 
+    "submissions": [
+      "677", 
+      "943", 
+      "1458", 
+      "2073", 
+      "2678"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Machine_Learning3_Feature_Selection_Construction1_Chair_Ganesh_Ramakrishnan": {
+    "date": "7/13/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Machine Learning3 :: Feature Selection/Construction1 - Chair: Ganesh Ramakrishnan", 
+    "submissions": [
+      "16", 
+      "38", 
+      "266", 
+      "565", 
+      "948", 
+      "1043", 
+      "1213"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning4_Multi_instance_Multi_label_Multi_view_learning_Chair_Min_Ling_Zhang": {
+    "date": "7/13/2016", 
+    "room": "Sutton North", 
+    "s_title": "Machine Learning4 :: Multi-instance/Multi-label/Multi-view learning - Chair: Min-Ling Zhang", 
+    "submissions": [
+      "90", 
+      "96", 
+      "863", 
+      "1383", 
+      "1416", 
+      "1595", 
+      "1840"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning5_Unsupervised_Learning1_Chair_Xiangwei_Kong": {
+    "date": "7/13/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning5 :: Unsupervised Learning1 - Chair: Xiangwei Kong", 
+    "submissions": [
+      "45", 
+      "136", 
+      "186", 
+      "273", 
+      "453", 
+      "630", 
+      "848"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Machine_Learning6_Classification1_Chair_Jana_Doppa": {
+    "date": "7/13/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Machine Learning6 :: Classification1 - Chair: Jana Doppa", 
+    "submissions": [
+      "63", 
+      "586", 
+      "643", 
+      "800", 
+      "1898", 
+      "1986", 
+      "2639"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning7_Transfer_Adaptation_Multi_task_Learning_Chair_Bo_Liu": {
+    "date": "7/13/2016", 
+    "room": "Sutton North", 
+    "s_title": "Machine Learning7 :: Transfer, Adaptation, Multi-task Learning - Chair: Bo Liu", 
+    "submissions": [
+      "301", 
+      "822", 
+      "835", 
+      "952", 
+      "1021", 
+      "1555", 
+      "1985"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning8_Data_Mining_Chair_Xiaobai_Liu": {
+    "date": "7/13/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Machine Learning8 :: Data Mining - Chair: Xiaobai Liu", 
+    "submissions": [
+      "402", 
+      "440", 
+      "1372", 
+      "1373", 
+      "1497", 
+      "1597", 
+      "1698"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Machine_Learning9_Reinforcement_Learning_Chair_Bo_Liu": {
+    "date": "7/13/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Machine Learning9 :: Reinforcement Learning - Chair: Bo Liu", 
+    "submissions": [
+      "412", 
+      "1310", 
+      "1402", 
+      "1697", 
+      "2561"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Machine_Learning_Computer_Vision_Demos": {
+    "date": "7/14/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Machine Learning/Computer Vision Demos", 
+    "submissions": [
+      "3023", 
+      "3048", 
+      "3054", 
+      "3063", 
+      "3066", 
+      "3069"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "Machine_Learning_Data_Mining_Demos": {
+    "date": "7/12/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Machine Learning/Data Mining Demos", 
+    "submissions": [
+      "3040", 
+      "3043", 
+      "3052", 
+      "3053", 
+      "3055", 
+      "3056", 
+      "3061", 
+      "3067"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "McCarthy_Award_Talk": {
+    "date": "7/15/2016", 
+    "room": "Ballroom", 
+    "s_title": "McCarthy Award Talk", 
+    "submissions": [
+      "5035"
+    ], 
+    "time": "15:30-16:15"
+  }, 
+  "Multidisciplinary_Topics_and_Applications1_Computational_Sustainability_Chair_Gregg_Vesonder": {
+    "date": "7/12/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications1 :: Computational Sustainability - Chair: Gregg Vesonder", 
+    "submissions": [
+      "92", 
+      "187", 
+      "495", 
+      "903", 
+      "1192"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Multidisciplinary_Topics_and_Applications2_AI_and_Social_Sciences_Chair_Toru_Ishida": {
+    "date": "7/12/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications2 :: AI and Social Sciences - Chair: Toru Ishida", 
+    "submissions": [
+      "20", 
+      "320", 
+      "1541", 
+      "2280", 
+      "2759"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Multidisciplinary_Topics_and_Applications3_Personalization_and_User_Modeling_Chair_Shimei_Pan": {
+    "date": "7/13/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications3 :: Personalization and User Modeling - Chair: Shimei Pan", 
+    "submissions": [
+      "470", 
+      "523", 
+      "1181", 
+      "1485", 
+      "1862"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Multidisciplinary_Topics_and_Applications4_Computational_Biology_and_e_Health_Chair_Jesse_Davis": {
+    "date": "7/13/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications4 :: Computational Biology and e-Health - Chair: Jesse Davis", 
+    "submissions": [
+      "755", 
+      "1170", 
+      "1180", 
+      "1435", 
+      "2617"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Multidisciplinary_Topics_and_Applications5_Chair_Mehul_Bhatt": {
+    "date": "7/13/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications5 - Chair: Mehul Bhatt", 
+    "submissions": [
+      "350", 
+      "603", 
+      "817", 
+      "2080", 
+      "2649"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Multidisciplinary_Topics_and_Applications6_Chair_Yifeng_Zeng": {
+    "date": "7/14/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications6 - Chair: Yifeng Zeng", 
+    "submissions": [
+      "1172", 
+      "1513", 
+      "1689", 
+      "1845", 
+      "2679"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Multidisciplinary_Topics_and_Applications7_Chair_Ming_Li": {
+    "date": "7/14/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications7 - Chair: Ming Li", 
+    "submissions": [
+      "21", 
+      "212", 
+      "374", 
+      "437", 
+      "639"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Multidisciplinary_Topics_and_Applications8_Chair_Rudy_Raymond": {
+    "date": "7/14/2016", 
+    "room": "Sutton North", 
+    "s_title": "Multidisciplinary Topics and Applications8 - Chair: Rudy Raymond", 
+    "submissions": [
+      "823", 
+      "1378", 
+      "1673", 
+      "2142", 
+      "2477"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Natural_Language_Processing1_Information_Extraction_Chair_Jana_Doppa": {
+    "date": "7/12/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing1 :: Information Extraction - Chair: Jana Doppa", 
+    "submissions": [
+      "362", 
+      "538", 
+      "946", 
+      "1442", 
+      "1444", 
+      "1634", 
+      "2663"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Natural_Language_Processing2_Natural_Language_Generation_Chair_Rafal_Rzepka": {
+    "date": "7/12/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing2 :: Natural Language Generation - Chair: Rafal Rzepka", 
+    "submissions": [
+      "29", 
+      "144", 
+      "1658", 
+      "1715", 
+      "1820"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Natural_Language_Processing3_Chair_Michael_Witbrock": {
+    "date": "7/13/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing3 - Chair: Michael Witbrock", 
+    "submissions": [
+      "46", 
+      "438", 
+      "655", 
+      "868", 
+      "1102"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Natural_Language_Processing4_Chair_Ganesh_Ramakrishnan": {
+    "date": "7/13/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing4 - Chair: Ganesh Ramakrishnan", 
+    "submissions": [
+      "1583", 
+      "1621", 
+      "1759", 
+      "2282", 
+      "2450"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Natural_Language_Processing5_Chair_Qin_Lu": {
+    "date": "7/14/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing5 - Chair: Qin Lu", 
+    "submissions": [
+      "166", 
+      "1381", 
+      "2792", 
+      "2807", 
+      "2831"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Natural_Language_Processing6_Chair_Qin_Lu": {
+    "date": "7/14/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Natural Language Processing6 - Chair: Qin Lu", 
+    "submissions": [
+      "158", 
+      "343", 
+      "364", 
+      "1127", 
+      "1562"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Natural_Language_Processing7_Chair_Philippe_Cudr_Mauroux": {
+    "date": "7/15/2016", 
+    "room": "Gibson Suite", 
+    "s_title": "Natural Language Processing7 - Chair: Philippe Cudr\u00c3\u00a9-Mauroux", 
+    "submissions": [
+      "429", 
+      "463", 
+      "1398", 
+      "1791", 
+      "1891"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Office_of_Science_and_Technology_Policy_OSTP_": {
+    "date": "7/14/2016", 
+    "room": "Ballroom", 
+    "s_title": "Office of Science and Technology Policy (OSTP)", 
+    "submissions": [
+      "5040"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Opening_Remarks": {
+    "date": "7/12/2016", 
+    "room": "Ballroom", 
+    "s_title": "Opening Remarks", 
+    "submissions": [
+      "5025"
+    ], 
+    "time": "08:30-09:10"
+  }, 
+  "Planning_KR_NLP_Demos": {
+    "date": "7/13/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Planning/KR/NLP Demos", 
+    "submissions": [
+      "3020", 
+      "3041", 
+      "3042", 
+      "3046", 
+      "3058", 
+      "3059", 
+      "3060", 
+      "3064"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "Planning_and_Scheduling10_Chair_Sebastian_Sardina": {
+    "date": "7/15/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling10 - Chair: Sebastian Sardina", 
+    "submissions": [
+      "967", 
+      "1004", 
+      "1212", 
+      "2362", 
+      "2537"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Planning_and_Scheduling1_Activity_and_Plan_Recognition_Chair_Joerg_Hoffman": {
+    "date": "7/12/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling1 :: Activity and Plan Recognition - Chair: Joerg Hoffman", 
+    "submissions": [
+      "1075", 
+      "1099", 
+      "2173", 
+      "2269", 
+      "2708"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Planning_and_Scheduling2_Markov_Decisions_Processes_Chair_Balaraman_Ravindran": {
+    "date": "7/12/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling2 :: Markov Decisions Processes - Chair: Balaraman Ravindran", 
+    "submissions": [
+      "478", 
+      "844", 
+      "1298", 
+      "1356", 
+      "2088"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Planning_and_Scheduling3_Planning_under_Uncertainty1_Chair_Sven_Koenig": {
+    "date": "7/12/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling3 :: Planning under Uncertainty1 - Chair: Sven Koenig", 
+    "submissions": [
+      "1288", 
+      "1987", 
+      "2295", 
+      "2312", 
+      "2779"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Planning_and_Scheduling4_Theoretical_Foundations_of_Planning_Chair_Shirin_Sohrabi": {
+    "date": "7/13/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling4 :: Theoretical Foundations of Planning - Chair: Shirin Sohrabi", 
+    "submissions": [
+      "1076", 
+      "1990", 
+      "1996", 
+      "2588", 
+      "2884"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Planning_and_Scheduling5_Planning_Algorithms_Chair_Malte_Helmert": {
+    "date": "7/13/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling5 :: Planning Algorithms - Chair: Malte Helmert", 
+    "submissions": [
+      "1802", 
+      "1908", 
+      "1941", 
+      "1947", 
+      "2568"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Planning_and_Scheduling6_Planning_General_other_1_Chair_Chris_Amato": {
+    "date": "7/13/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling6 :: Planning (General/other)1 - Chair: Chris Amato", 
+    "submissions": [
+      "683", 
+      "1581", 
+      "2392", 
+      "2881", 
+      "2902"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Planning_and_Scheduling7_Planning_under_Uncertainty2_Chair_Florent_Teichteil": {
+    "date": "7/14/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling7 :: Planning under Uncertainty2 - Chair: Florent Teichteil", 
+    "submissions": [
+      "2422", 
+      "2672", 
+      "2754", 
+      "2821", 
+      "2827"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Planning_and_Scheduling8_Planning_General_other_2_Chair_Christian_Muise": {
+    "date": "7/14/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling8 :: Planning (General/other)2 - Chair: Christian Muise", 
+    "submissions": [
+      "1017", 
+      "1529", 
+      "2126", 
+      "2865", 
+      "2903"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Planning_and_Scheduling9_Chair_Erez_Karpas": {
+    "date": "7/14/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Planning and Scheduling9 - Chair: Erez Karpas", 
+    "submissions": [
+      "355", 
+      "488", 
+      "1271", 
+      "2178"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Research_Excellence_Award_Talk": {
+    "date": "7/15/2016", 
+    "room": "Ballroom", 
+    "s_title": "Research Excellence Award Talk", 
+    "submissions": [
+      "5033", 
+      "5036"
+    ], 
+    "time": "13:30-14:15"
+  }, 
+  "Robotics_and_Vision1_Vision_and_Perception1_Chair_Joydeep_Biswas": {
+    "date": "7/12/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Robotics and Vision1 :: Vision and Perception1 - Chair: Joydeep Biswas", 
+    "submissions": [
+      "285", 
+      "448", 
+      "462", 
+      "587", 
+      "859", 
+      "1466", 
+      "2394"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Robotics_and_Vision2_Vision_and_Perception2_Chair_Eric_Eaton": {
+    "date": "7/13/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Robotics and Vision2 :: Vision and Perception2 - Chair: Eric Eaton", 
+    "submissions": [
+      "650", 
+      "831", 
+      "961", 
+      "964", 
+      "1130", 
+      "1904", 
+      "2642"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Robotics_and_Vision3_Chair_Malik_Ghallab": {
+    "date": "7/13/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Robotics and Vision3 - Chair: Malik Ghallab", 
+    "submissions": [
+      "167", 
+      "524", 
+      "704", 
+      "721", 
+      "744", 
+      "2277", 
+      "2629"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Robotics_and_Vision4_Chair_Xiangliang_Zhang": {
+    "date": "7/14/2016", 
+    "room": "Clinton Suite", 
+    "s_title": "Robotics and Vision4 - Chair: Xiangliang Zhang", 
+    "submissions": [
+      "146", 
+      "1254", 
+      "1474", 
+      "2264", 
+      "2426", 
+      "2526", 
+      "2771"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "Uncertainty_in_AI1_Approximate_Probabilistic_Inference_Chair_Roni_Khadron": {
+    "date": "7/12/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Uncertainty in AI1 :: Approximate Probabilistic Inference - Chair: Roni Khadron", 
+    "submissions": [
+      "272", 
+      "572", 
+      "700", 
+      "1224", 
+      "1332", 
+      "1599", 
+      "2148"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Uncertainty_in_AI2_Sequential_Decision_Making_Chair_Byron_Boots": {
+    "date": "7/13/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Uncertainty in AI2 :: Sequential Decision Making - Chair: Byron Boots", 
+    "submissions": [
+      "791", 
+      "1276", 
+      "2174", 
+      "2460", 
+      "2494"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Uncertainty_in_AI3_Chair_Nico_Potyka": {
+    "date": "7/13/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Uncertainty in AI3 - Chair: Nico Potyka", 
+    "submissions": [
+      "1041", 
+      "1264", 
+      "2243", 
+      "2315", 
+      "2484"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Uncertainty_in_AI4": {
+    "date": "7/14/2016", 
+    "room": "Madison Suite", 
+    "s_title": "Uncertainty in AI4", 
+    "submissions": [
+      "715", 
+      "2306", 
+      "2308", 
+      "2723", 
+      "2785"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "Workshops_Highlights1_Chair_Biplav_Srivastava": {
+    "date": "7/13/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Workshops Highlights1 - Chair: Biplav Srivastava", 
+    "submissions": [
+      "5023"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "Workshops_Highlights2_Chair_Biplav_Srivastava": {
+    "date": "7/14/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Workshops Highlights2 - Chair: Biplav Srivastava", 
+    "submissions": [
+      "5024"
+    ], 
+    "time": "17:05-18:05"
+  }
+}

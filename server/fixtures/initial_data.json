@@ -284,6 +284,20 @@
 	      "end_date": "2016-07-01",
 	      "admins": "[\"anantb@csail.mit.edu\", \"madden@csail.mit.edu\"]"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 21,
+	    "fields": {
+	      "unique_name": "ijcai2016",
+	      "confer_name": "ijcai2016",
+	      "title": "IJCAI 2016 - International Joint Conference on Artificial Intelligence",
+	      "subtitle": "",
+	      "blurb": "IJCAI is the leading conference on the thrilling field of Artificial Intelligence",
+	      "location": "New York, NY, USA",
+	      "start_date": "2016-07-09",
+	      "end_date": "2016-07-15",
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@.mit.edu\", \"vsatyagautam@gmail.com\"]"
+	  	}
 	}
 ]
   
