@@ -98,7 +98,14 @@ def prepare_data(data_file1):
         session = session + ' - Chair: ' + session_chair
         
     type = unicode(row[1], "ISO-8859-1")
-    
+    if type == "Main Track" or type == "AI&Web Track":
+        type = 'paper'
+    elif 'posters' in session.lower():
+        type = 'poster'
+    elif 'demos' in session.lower():
+        type = 'demo'
+    else:
+        type = 'talk'
 
     # prepare papers data
     papers[paper_id] = {
