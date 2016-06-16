@@ -78,11 +78,11 @@ def prepare_data(data_file1):
   t_schedule = {}
   for row in reader1:
     paper_id = unicode(row[0], "ISO-8859-1")
-    paper_title = unicode(row[2], "ISO-8859-1")
-    paper_authors = unicode(row[3], "ISO-8859-1")
-    keywords = unicode(row[4], "ISO-8859-1").strip('"')
-    session = unicode(row[5], "ISO-8859-1")
-    session_chair = unicode(row[6], "ISO-8859-1")
+    paper_title = unicode(row[2].decode('utf-8'))
+    paper_authors = unicode(row[3].decode('utf-8'))
+    keywords = unicode(row[4].decode('utf-8')).strip('"')
+    session = unicode(row[5].decode('utf-8'))
+    session_chair = unicode(row[6].decode('utf-8'))
     s_date = unicode(row[7], "ISO-8859-1")
     s_time = unicode(row[8], "ISO-8859-1")
     room = unicode(row[9], "ISO-8859-1")
