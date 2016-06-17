@@ -266,8 +266,8 @@ schedule=[
             "session": "Natural_Language_Processing3_Chair_Michael_Witbrock"
           }, 
           {
-            "room": "Madison Suite", 
-            "session": "Uncertainty_in_AI2_Sequential_Decision_Making_Chair_Byron_Boots"
+            "room": "Sutton North", 
+            "session": "Multidisciplinary_Topics_and_Applications3_Personalization_and_User_Modeling_Chair_Shimei_Pan"
           }, 
           {
             "room": "Gibson Suite", 
@@ -290,8 +290,8 @@ schedule=[
             "session": "Planning_and_Scheduling4_Theoretical_Foundations_of_Planning_Chair_Shirin_Sohrabi"
           }, 
           {
-            "room": "Sutton North", 
-            "session": "Multidisciplinary_Topics_and_Applications3_Personalization_and_User_Modeling_Chair_Shimei_Pan"
+            "room": "Madison Suite", 
+            "session": "Uncertainty_in_AI2_Sequential_Decision_Making_Chair_Byron_Boots"
           }
         ], 
         "slot_class": "morning2", 
@@ -359,6 +359,10 @@ schedule=[
             "session": "Machine_Learning7_Transfer_Adaptation_Multi_task_Learning_Chair_Bo_Liu"
           }, 
           {
+            "room": "Beekman Parlor", 
+            "session": "Machine_Learning6_Classification1_Chair_Jana_Doppa"
+          }, 
+          {
             "room": "Madison Suite", 
             "session": "Knowledge_Representation_Reasoning_and_Logic5_Knowledge_Representation_Languages_Chair_Frank_Wolter"
           }, 
@@ -371,10 +375,6 @@ schedule=[
             "session": "AI_and_the_Web4_Chair_Muninder_Singh"
           }, 
           {
-            "room": "Beekman Parlor", 
-            "session": "Machine_Learning6_Classification1_Chair_Jana_Doppa"
-          }, 
-          {
             "room": "Gibson Suite", 
             "session": "Machine_Learning8_Data_Mining_Chair_Xiaobai_Liu"
           }
@@ -385,6 +385,10 @@ schedule=[
       }, 
       {
         "sessions": [
+          {
+            "room": "Beekman Parlor", 
+            "session": "Agent_based_and_Multi_agent_Systems6_Auctions_Mechanism_Design_and_Market_Based_Systems1_Chair_Bo_An"
+          }, 
           {
             "room": "Madison Suite", 
             "session": "Uncertainty_in_AI3_Chair_Nico_Potyka"
@@ -412,10 +416,6 @@ schedule=[
           {
             "room": "Sutton North", 
             "session": "Multidisciplinary_Topics_and_Applications5_Chair_Mehul_Bhatt"
-          }, 
-          {
-            "room": "Beekman Parlor", 
-            "session": "Agent_based_and_Multi_agent_Systems6_Auctions_Mechanism_Design_and_Market_Based_Systems1_Chair_Bo_An"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -669,10 +669,6 @@ schedule=[
             "session": "Machine_Learning22_Chair_Banafsheh_Rekabdar"
           }, 
           {
-            "room": "Sutton North", 
-            "session": "Machine_Learning20_Chair_Samira_Sadaoui"
-          }, 
-          {
             "room": "Beekman Parlor", 
             "session": "Machine_Learning18_Feature_Selection_Construction2_Chair_Rudy_Raymond"
           }, 
@@ -687,6 +683,10 @@ schedule=[
           {
             "room": "Gibson Suite", 
             "session": "Machine_Learning21_Chair_Jeremy_Forth"
+          }, 
+          {
+            "room": "Sutton North", 
+            "session": "Machine_Learning20_Chair_Samira_Sadaoui"
           }
         ], 
         "slot_class": "morning1", 

@@ -5,10 +5,10 @@ sessions={
     "s_title": "AI and the Web1 :: Web-based recommendation systems - Chair: Biplav Srivastava", 
     "submissions": [
       "1343", 
-      "1433", 
       "1727", 
-      "2602", 
-      "2690"
+      "2690", 
+      "1433", 
+      "2602"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -17,9 +17,9 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "AI and the Web2 :: Social network analysis, theories, models, and applications - Chair: De-Nian Yang", 
     "submissions": [
-      "50", 
       "737", 
       "1547", 
+      "50", 
       "1693", 
       "2828"
     ], 
@@ -32,10 +32,10 @@ sessions={
     "submissions": [
       "139", 
       "571", 
-      "1764", 
-      "2331", 
-      "2448", 
       "2624", 
+      "1764", 
+      "2448", 
+      "2331", 
       "2795"
     ], 
     "time": "08:30-09:55"
@@ -89,11 +89,11 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "AI and the Web7 :: Other topics in ML and the Web - Chair: Hala Mostafa", 
     "submissions": [
-      "1606", 
       "2193", 
+      "2873", 
+      "1606", 
       "2615", 
-      "2835", 
-      "2873"
+      "2835"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -103,10 +103,10 @@ sessions={
     "s_title": "Agent-based and Multi-agent Systems10 :: Normative MAS and Logical Formalisation of MAS - Chair: Catholijn Jonker", 
     "submissions": [
       "659", 
-      "894", 
-      "1275", 
+      "2191", 
       "1974", 
-      "2191"
+      "1275", 
+      "894"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -115,11 +115,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems11 :: Noncooperative Games2 - Chair: Valentin Robu", 
     "submissions": [
-      "591", 
+      "2730", 
       "1202", 
       "1441", 
       "2290", 
-      "2730"
+      "591"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -129,10 +129,10 @@ sessions={
     "s_title": "Agent-based and Multi-agent Systems12 :: Coordination and Collaboration2 - Chair: Jonathan Gratch", 
     "submissions": [
       "354", 
-      "1339", 
       "2364", 
-      "2600", 
-      "2808"
+      "1339", 
+      "2808", 
+      "2600"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -144,8 +144,8 @@ sessions={
       "261", 
       "758", 
       "1348", 
-      "1808", 
-      "2451"
+      "2451", 
+      "1808"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -154,11 +154,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems2 :: Social Choice Theory1 - Chair: Reshef Meir", 
     "submissions": [
-      "156", 
       "417", 
       "998", 
       "1056", 
-      "1061"
+      "1061", 
+      "156"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -168,10 +168,10 @@ sessions={
     "s_title": "Agent-based and Multi-agent Systems3 :: Social Choice Theory2 - Chair: Umberto Grandi", 
     "submissions": [
       "1067", 
-      "1184", 
       "1312", 
       "1368", 
-      "1622"
+      "1622", 
+      "1184"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -180,11 +180,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems4 :: Social Choice Theory3 - Chair: Ulle Endriss", 
     "submissions": [
-      "1282", 
       "1626", 
       "2318", 
-      "2338", 
-      "2341"
+      "2341", 
+      "1282", 
+      "2338"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -193,11 +193,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems5 :: Social Choice Theory4 - Chair: Haris Aziz", 
     "submissions": [
-      "691", 
+      "2557", 
       "1289", 
-      "1480", 
       "2385", 
-      "2557"
+      "1480", 
+      "691"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -206,10 +206,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems6 :: Auctions, Mechanism Design and Market-Based Systems1 - Chair: Bo An", 
     "submissions": [
-      "919", 
       "1925", 
+      "919", 
+      "2399", 
       "2021", 
-      "2399"
+      "735"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -219,8 +220,8 @@ sessions={
     "s_title": "Agent-based and Multi-agent Systems7 :: Auctions, Mechanism Design and Market-Based Systems2 - Chair: Bo An", 
     "submissions": [
       "985", 
-      "2062", 
       "2092", 
+      "2062", 
       "2421", 
       "2603"
     ], 
@@ -244,11 +245,11 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Agent-based and Multi-agent Systems9 :: Coordination and Collaboration1 - Chair: Maria Gini", 
     "submissions": [
-      "274", 
       "2160", 
-      "2201", 
       "2272", 
-      "2666"
+      "274", 
+      "2666", 
+      "2201"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -324,9 +325,9 @@ sessions={
     "room": "Regent Parlor", 
     "s_title": "Best of ICRA, ICCV - Chair: Michael Thielscher", 
     "submissions": [
-      "3029", 
       "3035", 
-      "3050"
+      "3050", 
+      "3029"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -365,12 +366,12 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Combinatorial & Heuristic Search1 :: Heuristic Search and Combinatorial Optimization - Chair: Martin Golumbic", 
     "submissions": [
-      "210", 
       "236", 
       "1227", 
+      "210", 
       "1358", 
-      "2566", 
       "2646", 
+      "2566", 
       "2833"
     ], 
     "time": "15:10-16:35"
@@ -380,11 +381,11 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Combinatorial & Heuristic Search2 :: Applications - Chair: Holger Hoos", 
     "submissions": [
+      "2228", 
       "235", 
-      "798", 
       "830", 
-      "1692", 
-      "2228"
+      "798", 
+      "1692"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -406,11 +407,11 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Combinatorial & Heuristic Search4 - Chair: Sven Koenig", 
     "submissions": [
+      "2472", 
+      "2485", 
       "348", 
       "1754", 
-      "1827", 
-      "2472", 
-      "2485"
+      "1827"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -429,10 +430,10 @@ sessions={
     "s_title": "Constraints & Satisfiability1 :: Modeling - Chair: Nic Wilson", 
     "submissions": [
       "250", 
-      "1338", 
-      "2015", 
       "2127", 
-      "2832"
+      "2015", 
+      "2832", 
+      "1338"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -441,11 +442,11 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Constraints & Satisfiability2 :: Constraint Satisfaction - Chair: Malek Mouhoub", 
     "submissions": [
-      "1154", 
-      "1163", 
       "1278", 
       "1723", 
-      "1781"
+      "1781", 
+      "1163", 
+      "1154"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -455,10 +456,10 @@ sessions={
     "s_title": "Constraints & Satisfiability3 - Chair: William Yeoh", 
     "submissions": [
       "89", 
-      "296", 
       "963", 
       "1915", 
-      "2435"
+      "2435", 
+      "296"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -467,11 +468,11 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Constraints & Satisfiability4 - Chair: Tal Grinshpoun", 
     "submissions": [
-      "738", 
+      "2283", 
       "927", 
       "1392", 
-      "2283", 
-      "2612"
+      "2612", 
+      "738"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -494,25 +495,16 @@ sessions={
     "s_title": "Doctoral Consortium Posters", 
     "submissions": [
       "292", 
-      "2953", 
-      "2956", 
       "2958", 
       "2962", 
       "2966", 
-      "2967", 
       "2968", 
       "2969", 
-      "2970", 
-      "2971", 
-      "2972", 
       "2973", 
-      "2974", 
       "2975", 
       "2976", 
-      "2977", 
       "2978", 
       "2979", 
-      "2980", 
       "2981", 
       "2982", 
       "2985", 
@@ -523,19 +515,28 @@ sessions={
       "2993", 
       "2995", 
       "2996", 
-      "2997", 
       "2999", 
       "3001", 
       "3002", 
-      "3003", 
       "3005", 
-      "3006", 
       "3007", 
-      "3009", 
       "3010", 
       "3011", 
       "3012", 
       "3013", 
+      "2953", 
+      "2956", 
+      "2967", 
+      "2970", 
+      "2971", 
+      "2972", 
+      "2974", 
+      "2977", 
+      "2980", 
+      "2997", 
+      "3003", 
+      "3006", 
+      "3009", 
       "3015"
     ], 
     "time": "08:30-20:00"
@@ -655,13 +656,13 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Human-Aware AI (IJCAI-16 Theme)1 - Chair: Laura Hiatt", 
     "submissions": [
-      "626", 
-      "910", 
-      "1097", 
-      "1852", 
-      "2102", 
       "2480", 
-      "2760"
+      "2760", 
+      "1097", 
+      "2102", 
+      "910", 
+      "1852", 
+      "626"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -670,11 +671,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Human-Aware AI (IJCAI-16 Theme)2 :: Planning and Decision Support for Human-Machine Teams - Chair: Alessandro Saffiotti", 
     "submissions": [
-      "750", 
+      "2594", 
       "799", 
       "1256", 
-      "2032", 
-      "2594"
+      "750", 
+      "2032"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -764,13 +765,13 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic10 - Chair: Gerhard Lakemeyer", 
     "submissions": [
-      "1005", 
-      "1377", 
       "1794", 
-      "1866", 
-      "2233", 
       "2613", 
-      "2764"
+      "1005", 
+      "2233", 
+      "1377", 
+      "2764", 
+      "1866"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -779,10 +780,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic11 :: Belief Change - Chair: Steven Schockaert", 
     "submissions": [
+      "2802", 
       "386", 
       "1446", 
       "1509", 
-      "2802"
+      "1777"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -792,10 +794,10 @@ sessions={
     "s_title": "Knowledge Representation, Reasoning, and Logic1 :: Knowledge Representation1 - Chair: Angelo Montanari", 
     "submissions": [
       "1098", 
+      "2374", 
       "1504", 
       "1868", 
-      "2014", 
-      "2374"
+      "2014"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -804,13 +806,13 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic2 :: Action, Change and Causality - Chair: Stephen Muggleton", 
     "submissions": [
-      "310", 
-      "793", 
-      "1174", 
       "1576", 
+      "310", 
       "2527", 
+      "793", 
+      "2910", 
       "2877", 
-      "2910"
+      "1174"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -822,9 +824,9 @@ sessions={
       "345", 
       "734", 
       "1109", 
-      "1126", 
       "1228", 
       "1703", 
+      "1126", 
       "2011"
     ], 
     "time": "08:30-09:55"
@@ -834,11 +836,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic4 :: Geometric, Spatial, and Temporal Reasoning - Chair: Jochen Renz", 
     "submissions": [
-      "1884", 
-      "2185", 
       "2303", 
       "2543", 
-      "2820"
+      "1884", 
+      "2820", 
+      "2185"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -847,13 +849,13 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic5 :: Knowledge Representation Languages - Chair: Frank Wolter", 
     "submissions": [
-      "555", 
-      "1309", 
+      "2644", 
       "1848", 
-      "1887", 
       "2291", 
       "2368", 
-      "2644"
+      "555", 
+      "1309", 
+      "1887"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -862,13 +864,13 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic6 :: Logic Programming - Chair: Joohyung Lee", 
     "submissions": [
-      "381", 
       "1096", 
-      "1128", 
       "1141", 
-      "2151", 
       "2232", 
-      "2347"
+      "2347", 
+      "1128", 
+      "381", 
+      "2151"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -877,11 +879,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic7 :: Preferences - Chair: Antonio Lieto", 
     "submissions": [
-      "730", 
       "1187", 
+      "2444", 
       "1274", 
-      "2139", 
-      "2444"
+      "730", 
+      "2139"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -890,13 +892,13 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Knowledge Representation, Reasoning, and Logic8 :: Knowledge Representation2 - Chair: Alessandro Saffiotti", 
     "submissions": [
+      "1995", 
+      "1681", 
+      "2466", 
       "269", 
       "489", 
-      "837", 
       "1517", 
-      "1681", 
-      "1995", 
-      "2466"
+      "837"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -921,12 +923,12 @@ sessions={
     "s_title": "Machine Learning10 :: New Problems - Chair: Hala Mostafa", 
     "submissions": [
       "169", 
-      "223", 
-      "976", 
       "1265", 
-      "1533", 
       "1919", 
-      "2020"
+      "2020", 
+      "1533", 
+      "223", 
+      "976"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -935,13 +937,13 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Machine Learning11 :: Learning Preferences or Rankings - Chair: Xiangwei Kong", 
     "submissions": [
-      "421", 
       "810", 
       "1008", 
-      "1230", 
+      "421", 
       "1608", 
       "1618", 
-      "1830"
+      "1830", 
+      "1230"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -950,13 +952,13 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Machine Learning12 :: Deep Learning - Chair: Jonathan Rubin", 
     "submissions": [
-      "877", 
       "984", 
+      "1350", 
+      "877", 
       "1080", 
       "1250", 
-      "1350", 
-      "1357", 
-      "1757"
+      "1757", 
+      "1357"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -966,10 +968,10 @@ sessions={
     "s_title": "Machine Learning13 :: Relational Learning - Chair: Peter Flach", 
     "submissions": [
       "1302", 
-      "1713", 
       "1752", 
       "2052", 
-      "2801"
+      "2801", 
+      "1713"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -978,13 +980,13 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Machine Learning14 :: Neural Networks - Chair: Kartik Talamadupula", 
     "submissions": [
+      "1531", 
       "39", 
       "254", 
-      "467", 
-      "1531", 
       "1758", 
       "1774", 
-      "2861"
+      "2861", 
+      "467"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -993,13 +995,13 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Machine Learning15 :: Ensemble Methods - Chair: Artur Dubrawski", 
     "submissions": [
-      "120", 
       "252", 
-      "554", 
-      "809", 
       "1666", 
+      "2787", 
       "2263", 
-      "2787"
+      "120", 
+      "554", 
+      "809"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1008,13 +1010,13 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Machine Learning16 :: Time-series/Data Streams - Chair: Byron Boots", 
     "submissions": [
-      "575", 
       "702", 
-      "1135", 
       "1219", 
-      "1567", 
+      "2164", 
+      "575", 
+      "1135", 
       "1643", 
-      "2164"
+      "1567"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1025,8 +1027,8 @@ sessions={
     "submissions": [
       "1526", 
       "1574", 
-      "1738", 
       "2350", 
+      "1738", 
       "2635"
     ], 
     "time": "17:05-18:05"
@@ -1036,13 +1038,13 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Machine Learning18 :: Feature Selection/Construction2 - Chair: Rudy Raymond", 
     "submissions": [
-      "130", 
-      "641", 
-      "680", 
-      "821", 
       "1450", 
       "1479", 
-      "1668"
+      "130", 
+      "1668", 
+      "821", 
+      "680", 
+      "641"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1051,12 +1053,13 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Machine Learning19 :: Classification2 - Chair: Bj\u00f6rn Schuller", 
     "submissions": [
-      "426", 
-      "808", 
-      "820", 
       "1002", 
       "1640", 
-      "2597"
+      "426", 
+      "808", 
+      "2597", 
+      "820", 
+      "931"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1065,11 +1068,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Machine Learning1 :: Online Learning - Chair: Tang Jie", 
     "submissions": [
-      "54", 
-      "1069", 
       "1073", 
-      "1535", 
-      "2171"
+      "1069", 
+      "54", 
+      "2171", 
+      "1535"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -1093,13 +1096,13 @@ sessions={
     "room": "Gibson Suite", 
     "s_title": "Machine Learning21 - Chair: Jeremy Forth", 
     "submissions": [
+      "2530", 
+      "2590", 
+      "2824", 
       "801", 
       "1094", 
       "1362", 
-      "1585", 
-      "2530", 
-      "2590", 
-      "2824"
+      "1585"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1108,13 +1111,13 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "Machine Learning22 - Chair: Banafsheh Rekabdar", 
     "submissions": [
-      "7", 
+      "2320", 
       "123", 
+      "7", 
       "391", 
-      "640", 
       "1286", 
-      "2077", 
-      "2320"
+      "640", 
+      "2077"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1123,10 +1126,10 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Machine Learning2 :: Semi-Supervised Learning - Chair: Ming Li", 
     "submissions": [
-      "677", 
-      "943", 
       "1458", 
       "2073", 
+      "677", 
+      "943", 
       "2678"
     ], 
     "time": "17:05-18:05"
@@ -1136,13 +1139,13 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Machine Learning3 :: Feature Selection/Construction1 - Chair: Ganesh Ramakrishnan", 
     "submissions": [
+      "1213", 
       "16", 
       "38", 
       "266", 
       "565", 
       "948", 
-      "1043", 
-      "1213"
+      "1043"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1151,13 +1154,13 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Machine Learning4 :: Multi-instance/Multi-label/Multi-view learning - Chair: Min-Ling Zhang", 
     "submissions": [
-      "90", 
       "96", 
       "863", 
       "1383", 
+      "1840", 
+      "90", 
       "1416", 
-      "1595", 
-      "1840"
+      "1595"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1167,12 +1170,12 @@ sessions={
     "s_title": "Machine Learning5 :: Unsupervised Learning1 - Chair: Xiangwei Kong", 
     "submissions": [
       "45", 
-      "136", 
       "186", 
       "273", 
       "453", 
       "630", 
-      "848"
+      "848", 
+      "136"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1182,12 +1185,12 @@ sessions={
     "s_title": "Machine Learning6 :: Classification1 - Chair: Jana Doppa", 
     "submissions": [
       "63", 
-      "586", 
       "643", 
       "800", 
       "1898", 
       "1986", 
-      "2639"
+      "2639", 
+      "586"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1196,13 +1199,13 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Machine Learning7 :: Transfer, Adaptation, Multi-task Learning - Chair: Bo Liu", 
     "submissions": [
-      "301", 
       "822", 
       "835", 
-      "952", 
-      "1021", 
       "1555", 
-      "1985"
+      "1985", 
+      "301", 
+      "952", 
+      "1021"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1212,12 +1215,12 @@ sessions={
     "s_title": "Machine Learning8 :: Data Mining - Chair: Xiaobai Liu", 
     "submissions": [
       "402", 
-      "440", 
-      "1372", 
-      "1373", 
       "1497", 
       "1597", 
-      "1698"
+      "1698", 
+      "440", 
+      "1372", 
+      "1373"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1227,10 +1230,10 @@ sessions={
     "s_title": "Machine Learning9 :: Reinforcement Learning - Chair: Bo Liu", 
     "submissions": [
       "412", 
-      "1310", 
       "1402", 
       "1697", 
-      "2561"
+      "2561", 
+      "1310"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1239,12 +1242,12 @@ sessions={
     "room": "Rhinelander Gallery", 
     "s_title": "Machine Learning/Computer Vision Demos", 
     "submissions": [
-      "3023", 
       "3048", 
-      "3054", 
       "3063", 
-      "3066", 
-      "3069"
+      "3069", 
+      "3023", 
+      "3054", 
+      "3066"
     ], 
     "time": "08:30-20:00"
   }, 
@@ -1253,14 +1256,14 @@ sessions={
     "room": "Rhinelander Gallery", 
     "s_title": "Machine Learning/Data Mining Demos", 
     "submissions": [
-      "3040", 
+      "3056", 
+      "3067", 
       "3043", 
-      "3052", 
       "3053", 
       "3055", 
-      "3056", 
+      "3052", 
       "3061", 
-      "3067"
+      "3040"
     ], 
     "time": "08:30-20:00"
   }, 
@@ -1278,11 +1281,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Multidisciplinary Topics and Applications1 :: Computational Sustainability - Chair: Gregg Vesonder", 
     "submissions": [
-      "92", 
-      "187", 
-      "495", 
       "903", 
-      "1192"
+      "92", 
+      "1192", 
+      "187", 
+      "495"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1291,11 +1294,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Multidisciplinary Topics and Applications2 :: AI and Social Sciences - Chair: Toru Ishida", 
     "submissions": [
-      "20", 
       "320", 
-      "1541", 
       "2280", 
-      "2759"
+      "2759", 
+      "20", 
+      "1541"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -1304,11 +1307,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Multidisciplinary Topics and Applications3 :: Personalization and User Modeling - Chair: Shimei Pan", 
     "submissions": [
-      "470", 
       "523", 
       "1181", 
+      "1862", 
       "1485", 
-      "1862"
+      "470"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1317,11 +1320,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Multidisciplinary Topics and Applications4 :: Computational Biology and e-Health - Chair: Jesse Davis", 
     "submissions": [
+      "2617", 
       "755", 
-      "1170", 
       "1180", 
-      "1435", 
-      "2617"
+      "1170", 
+      "1435"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -1333,8 +1336,8 @@ sessions={
       "350", 
       "603", 
       "817", 
-      "2080", 
-      "2649"
+      "2649", 
+      "2080"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1343,11 +1346,11 @@ sessions={
     "room": "Sutton North", 
     "s_title": "Multidisciplinary Topics and Applications6 - Chair: Yifeng Zeng", 
     "submissions": [
+      "2679", 
       "1172", 
       "1513", 
       "1689", 
-      "1845", 
-      "2679"
+      "1845"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1382,12 +1385,12 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "Natural Language Processing1 :: Information Extraction - Chair: Jana Doppa", 
     "submissions": [
-      "362", 
-      "538", 
-      "946", 
       "1442", 
       "1444", 
       "1634", 
+      "362", 
+      "946", 
+      "538", 
       "2663"
     ], 
     "time": "15:10-16:35"
@@ -1398,10 +1401,10 @@ sessions={
     "s_title": "Natural Language Processing2 :: Natural Language Generation - Chair: Rafal Rzepka", 
     "submissions": [
       "29", 
-      "144", 
-      "1658", 
       "1715", 
-      "1820"
+      "144", 
+      "1820", 
+      "1658"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1423,11 +1426,11 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "Natural Language Processing4 - Chair: Ganesh Ramakrishnan", 
     "submissions": [
+      "2450", 
       "1583", 
       "1621", 
       "1759", 
-      "2282", 
-      "2450"
+      "2282"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -1436,11 +1439,11 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "Natural Language Processing5 - Chair: Qin Lu", 
     "submissions": [
-      "166", 
       "1381", 
       "2792", 
       "2807", 
-      "2831"
+      "2831", 
+      "166"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1449,11 +1452,11 @@ sessions={
     "room": "Sutton Center", 
     "s_title": "Natural Language Processing6 - Chair: Qin Lu", 
     "submissions": [
+      "1127", 
+      "1562", 
       "158", 
       "343", 
-      "364", 
-      "1127", 
-      "1562"
+      "364"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1493,14 +1496,14 @@ sessions={
     "room": "Rhinelander Gallery", 
     "s_title": "Planning/KR/NLP Demos", 
     "submissions": [
+      "3059", 
+      "3064", 
       "3020", 
-      "3041", 
       "3042", 
       "3046", 
-      "3058", 
-      "3059", 
+      "3041", 
       "3060", 
-      "3064"
+      "3058"
     ], 
     "time": "08:30-20:00"
   }, 
@@ -1509,10 +1512,10 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling10 - Chair: Sebastian Sardina", 
     "submissions": [
+      "2362", 
       "967", 
       "1004", 
       "1212", 
-      "2362", 
       "2537"
     ], 
     "time": "10:05-11:05"
@@ -1522,8 +1525,8 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling1 :: Activity and Plan Recognition - Chair: Joerg Hoffman", 
     "submissions": [
-      "1075", 
       "1099", 
+      "1075", 
       "2173", 
       "2269", 
       "2708"
@@ -1535,8 +1538,8 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling2 :: Markov Decisions Processes - Chair: Balaraman Ravindran", 
     "submissions": [
-      "478", 
       "844", 
+      "478", 
       "1298", 
       "1356", 
       "2088"
@@ -1548,11 +1551,11 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling3 :: Planning under Uncertainty1 - Chair: Sven Koenig", 
     "submissions": [
-      "1288", 
+      "2312", 
       "1987", 
       "2295", 
-      "2312", 
-      "2779"
+      "2779", 
+      "1288"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1561,11 +1564,11 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling4 :: Theoretical Foundations of Planning - Chair: Shirin Sohrabi", 
     "submissions": [
-      "1076", 
-      "1990", 
       "1996", 
-      "2588", 
-      "2884"
+      "1990", 
+      "2884", 
+      "1076", 
+      "2588"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1587,11 +1590,11 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling6 :: Planning (General/other)1 - Chair: Chris Amato", 
     "submissions": [
-      "683", 
-      "1581", 
       "2392", 
       "2881", 
-      "2902"
+      "683", 
+      "2902", 
+      "1581"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1601,10 +1604,10 @@ sessions={
     "s_title": "Planning and Scheduling7 :: Planning under Uncertainty2 - Chair: Florent Teichteil", 
     "submissions": [
       "2422", 
-      "2672", 
       "2754", 
-      "2821", 
-      "2827"
+      "2827", 
+      "2672", 
+      "2821"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1613,11 +1616,11 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling8 :: Planning (General/other)2 - Chair: Christian Muise", 
     "submissions": [
-      "1017", 
+      "2865", 
+      "2903", 
       "1529", 
       "2126", 
-      "2865", 
-      "2903"
+      "1017"
     ], 
     "time": "11:35-12:35"
   }, 
@@ -1627,9 +1630,9 @@ sessions={
     "s_title": "Planning and Scheduling9 - Chair: Erez Karpas", 
     "submissions": [
       "355", 
-      "488", 
       "1271", 
-      "2178"
+      "2178", 
+      "488"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1649,12 +1652,12 @@ sessions={
     "s_title": "Robotics and Vision1 :: Vision and Perception1 - Chair: Joydeep Biswas", 
     "submissions": [
       "285", 
-      "448", 
       "462", 
       "587", 
       "859", 
       "1466", 
-      "2394"
+      "2394", 
+      "448"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1663,13 +1666,13 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Robotics and Vision2 :: Vision and Perception2 - Chair: Eric Eaton", 
     "submissions": [
+      "2642", 
+      "964", 
+      "961", 
+      "1904", 
       "650", 
       "831", 
-      "961", 
-      "964", 
-      "1130", 
-      "1904", 
-      "2642"
+      "1130"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1679,12 +1682,12 @@ sessions={
     "s_title": "Robotics and Vision3 - Chair: Malik Ghallab", 
     "submissions": [
       "167", 
-      "524", 
       "704", 
       "721", 
-      "744", 
       "2277", 
-      "2629"
+      "2629", 
+      "524", 
+      "744"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1693,13 +1696,13 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Robotics and Vision4 - Chair: Xiangliang Zhang", 
     "submissions": [
-      "146", 
       "1254", 
-      "1474", 
       "2264", 
       "2426", 
+      "2771", 
       "2526", 
-      "2771"
+      "1474", 
+      "146"
     ], 
     "time": "08:30-09:55"
   }, 
@@ -1708,13 +1711,13 @@ sessions={
     "room": "Beekman Parlor", 
     "s_title": "Uncertainty in AI1 :: Approximate Probabilistic Inference - Chair: Roni Khadron", 
     "submissions": [
+      "1224", 
+      "1599", 
+      "2148", 
+      "1332", 
       "272", 
       "572", 
-      "700", 
-      "1224", 
-      "1332", 
-      "1599", 
-      "2148"
+      "700"
     ], 
     "time": "15:10-16:35"
   }, 
@@ -1723,11 +1726,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Uncertainty in AI2 :: Sequential Decision Making - Chair: Byron Boots", 
     "submissions": [
-      "791", 
-      "1276", 
+      "2494", 
       "2174", 
       "2460", 
-      "2494"
+      "791", 
+      "1276"
     ], 
     "time": "10:05-11:05"
   }, 
@@ -1736,11 +1739,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Uncertainty in AI3 - Chair: Nico Potyka", 
     "submissions": [
+      "2484", 
+      "2315", 
       "1041", 
       "1264", 
-      "2243", 
-      "2315", 
-      "2484"
+      "2243"
     ], 
     "time": "17:05-18:05"
   }, 
@@ -1749,11 +1752,11 @@ sessions={
     "room": "Madison Suite", 
     "s_title": "Uncertainty in AI4", 
     "submissions": [
-      "715", 
       "2306", 
       "2308", 
       "2723", 
-      "2785"
+      "2785", 
+      "715"
     ], 
     "time": "10:05-11:05"
   }, 
