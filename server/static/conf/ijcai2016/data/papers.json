@@ -10157,7 +10157,7 @@ entities={
         "name": "Percy Liang"
       }
     ], 
-    "title": "Computers and Thought Award Talk", 
+    "title": "Computers and Thought Award Talk by Percy Liang", 
     "type": "talk"
   }, 
   "5035": {
@@ -10202,6 +10202,36 @@ entities={
     "abstract": "", 
     "authors": [], 
     "title": "Preparing for the Future of AI", 
+    "type": "talk"
+  }, 
+  "5041": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Main track & AIW track Posters - Day 1", 
+    "type": "poster"
+  }, 
+  "5042": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Main track & AIW track Posters - Day 2", 
+    "type": "poster"
+  }, 
+  "5043": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Main track & AIW track Posters - Day 3", 
+    "type": "poster"
+  }, 
+  "5044": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Main track & AIW track Posters - Day 4", 
+    "type": "poster"
+  }, 
+  "5045": {
+    "abstract": "Panelists:  Mausam (IJCAI AIW track co-chair), Thomas Eiter (IJCAI Area Chair), Hwee Tou Ng (IJCAI Area Chair),   Sven Seuken (IJCAI SPC member),  Andrey Kolobov (IJCAI PC member), Qiang Yang (IJCAI-15 Program Chair),  Michael Wellman (AAAI-16 Program Co-Chair); Moderator: Subbarao Kambhampati", 
+    "authors": [], 
+    "title": "Panel on Reviewing Best Practices", 
     "type": "talk"
   }, 
   "523": {
@@ -10510,6 +10540,234 @@ entities={
     "keywords": "game theory, scheduling, coordination, multi-agent systems", 
     "title": "Interdependent Scheduling Games", 
     "type": "paper"
+  }, 
+  "6001": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Bitcoin: a Basic Tutorial on Decentralized Digital Currencies", 
+    "type": "talk"
+  }, 
+  "60010": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "How Computers Read the Web", 
+    "type": "talk"
+  }, 
+  "60011": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Multidimensional Text Clustering for Hierarchical Topic Detection", 
+    "type": "talk"
+  }, 
+  "60012": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Affect Detection from Spoken and Written Text\u2014Computational Models for Affect and Sentiment Analysis", 
+    "type": "talk"
+  }, 
+  "60013": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Eliciting high quality information", 
+    "type": "talk"
+  }, 
+  "60014": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Lifted Probabilistic Inference in Relational Models", 
+    "type": "talk"
+  }, 
+  "60015": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Rulelog: Rule-based Knowledge Representation and Reasoning", 
+    "type": "talk"
+  }, 
+  "60016": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Symbolic and structural models for image understanding", 
+    "type": "talk"
+  }, 
+  "60017": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Programming by Optimization: A Practical Paradigm for Computer-Aided Algorithm Design", 
+    "type": "talk"
+  }, 
+  "60018": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Generating Synthetic Populations for Social Modeling", 
+    "type": "talk"
+  }, 
+  "60019": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Argument and Cognition", 
+    "type": "talk"
+  }, 
+  "6002": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Information-theoretic Ideas in Machine Learning", 
+    "type": "talk"
+  }, 
+  "60020": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "New Advances in Combinatorial Optimization for Graphical Models", 
+    "type": "talk"
+  }, 
+  "60021": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "AI for Smarter Cities", 
+    "type": "talk"
+  }, 
+  "60022": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Optimality in Robot Motion and Action", 
+    "type": "talk"
+  }, 
+  "60023": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Scalable Big Data Programming Models for AI", 
+    "type": "talk"
+  }, 
+  "60024": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "If Turing had lived longer: how might he have investigated what AI and Philosophy can learn from evolved information processing systems?", 
+    "type": "talk"
+  }, 
+  "60025": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Scalable learning of graphical models", 
+    "type": "talk"
+  }, 
+  "60026": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Argument Mining", 
+    "type": "talk"
+  }, 
+  "60027": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Pattern Recognition on Random Graphs", 
+    "type": "talk"
+  }, 
+  "60028": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Methodologies for Ontology Based Data Access Applications", 
+    "type": "talk"
+  }, 
+  "60029": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Introduction to Planning Models and Methods", 
+    "type": "talk"
+  }, 
+  "6003": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Belief functions for the working scientist", 
+    "type": "talk"
+  }, 
+  "60030": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Coreference Resolution: Recent Successes and Future Directions", 
+    "type": "talk"
+  }, 
+  "60031": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Low-Rank and Sparse Modeling for Data Analytics", 
+    "type": "talk"
+  }, 
+  "60032": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "The Soar Cognitive Architecture", 
+    "type": "talk"
+  }, 
+  "60033": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Integrating Learning and Search for Structured Prediction", 
+    "type": "talk"
+  }, 
+  "60034": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Solving (Problems with) Quantified Boolean Formulas: Recent Trends and Challenges", 
+    "type": "talk"
+  }, 
+  "60035": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Deliberative Planning and Acting", 
+    "type": "talk"
+  }, 
+  "60036": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Research Challenges in Computational Sustainability", 
+    "type": "talk"
+  }, 
+  "60037": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Scalable Probabilistic Logics", 
+    "type": "talk"
+  }, 
+  "60038": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Towards a Unified Framework for Transfer Learning: Exploiting Correlations and Symmetries", 
+    "type": "talk"
+  }, 
+  "6004": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Spatio-Temporal Stream Reasoning for Safe Autonomous Systems", 
+    "type": "talk"
+  }, 
+  "6005": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Deep Learning and Continuous Representations for NLP", 
+    "type": "talk"
+  }, 
+  "6006": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "The Internet of Things and Multiagent Systems", 
+    "type": "talk"
+  }, 
+  "6007": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Organ Exchanges: A Success Story of AI in Healthcare", 
+    "type": "talk"
+  }, 
+  "6008": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Statistical Relational AI: Logic, Probability, Computation", 
+    "type": "talk"
+  }, 
+  "6009": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Reasoning with Description Logics", 
+    "type": "talk"
   }, 
   "602": {
     "abstract": "Over the past decade, computer-automated barter exchange has become one of the most successful applications at the intersection of AI and economics. Standard exchange models, such as house allocation and kidney exchange cannot be applied to an emerging industrial application, coined *digital good exchange*, where an agent still possesses her initial endowment after exchanging with others. However, her valuation toward the endowment decreases as it is possessed by more agents.  We put forward game theoretical models tailored for digital good exchange. In the first part of the paper, we first consider a natural class of games where agents can choose either a subset of other participants' items or no participation at all. It turns out that this class of games can be modeled as a variant of congestion games. We prove that it is in general NP-complete to determine whether there exists a non-trivial pure Nash equilibrium where at least some agent chooses a nonempty subset of items. However, we show that in a subset of games for single-minded agents with unit demand, there exist non-trivial Pure Nash equilibria and put forward an efficient algorithm to find such equilibria.  In the second part of the paper, we investigate digital good exchange from a mechanism design perspective. We ask if there is a truthful mechanism in this setting that can achieve good social welfare guarantee. To this end, we design a randomized fixed-price-exchange mechanism that is individually rational and truthful, and for two-player case yields a tight log-approximation with respect to any individually rational allocation.", 
@@ -10825,6 +11083,240 @@ entities={
     "keywords": "Probabilistic Embedding, Manifold Learning, Gaussian Process, Variational Inference, Multimensional Scaling", 
     "title": "Distance-Preserving Probabilistic Embeddings with Side Information: Variational Bayesian Multidimensional Scaling Gaussian Process", 
     "type": "paper"
+  }, 
+  "7001": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Bridging the Gap between Human and Automated Reasoning", 
+    "type": "talk"
+  }, 
+  "70010": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "BOOM: International Workshop on Biomedical informatics with Optimization and Machine learning", 
+    "type": "talk"
+  }, 
+  "70012": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Language Sense on Computers", 
+    "type": "talk"
+  }, 
+  "70013": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Workshop on AI for Synthetic Biology", 
+    "type": "talk"
+  }, 
+  "70014": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "4th Workshop on Artificial Intelligence for Knowledge Management", 
+    "type": "talk"
+  }, 
+  "70015": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Workshop on Human Language Technology and Intelligent Applications", 
+    "type": "talk"
+  }, 
+  "70016": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Knowledge Discovery in Healthcare Data", 
+    "type": "talk"
+  }, 
+  "70017": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "BEYONDLABELLER\u2014Human is More Than a Labeller", 
+    "type": "talk"
+  }, 
+  "70018": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Agent Mediated Electronic Commerce (AMEC/TADA)", 
+    "type": "talk"
+  }, 
+  "70019": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "5th International General Game Playing Workshop", 
+    "type": "talk"
+  }, 
+  "7002": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Workshop on Scholarly Big Data: AI Perspectives, Challenges and Ideas", 
+    "type": "talk"
+  }, 
+  "70020": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Deep Learning for Artificial Intelligence (DL)", 
+    "type": "talk"
+  }, 
+  "70021": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "9th International Workshop on Agents in Traffic and Transportation (ATT 2016)", 
+    "type": "talk"
+  }, 
+  "70022": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Knowledge-based techniques for problem solving and reasoning", 
+    "type": "talk"
+  }, 
+  "70023": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Second International Workshop on Multi-Agent Path Finding", 
+    "type": "talk"
+  }, 
+  "70024": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Computational modeling of attitudes & 4th Workshop on Sentiment Analysis: where AI meets Psychology (SAAIP 2016)", 
+    "type": "talk"
+  }, 
+  "70025": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Argumentation in Logic Programming and Non-Monotonic Reasoning (Arg-LPNMR)", 
+    "type": "talk"
+  }, 
+  "70026": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Semantic Machine Learning", 
+    "type": "talk"
+  }, 
+  "70028": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Fourth IJCAI Workshop on Heterogeneous Information Network Analysis", 
+    "type": "talk"
+  }, 
+  "70029": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Natural Language Processing Meets Journalism", 
+    "type": "talk"
+  }, 
+  "7003": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Computer Games Workshop", 
+    "type": "talk"
+  }, 
+  "70030": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Advances in Bioinformatics and Artificial Intelligence: Bridging the Gap", 
+    "type": "talk"
+  }, 
+  "70031": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Algorithmic Game Theory @ IJCAI Workshop", 
+    "type": "talk"
+  }, 
+  "70032": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Statistical Relational AI (StarAI)", 
+    "type": "talk"
+  }, 
+  "70033": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Deep Reinforcement Learning: Frontiers and Challenges", 
+    "type": "talk"
+  }, 
+  "70034": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Fourth International Workshop on Natural Language Processing for Social Media (SocialNLP 2016)", 
+    "type": "talk"
+  }, 
+  "70035": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Autonomous Mobile Service Robots", 
+    "type": "talk"
+  }, 
+  "70036": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "29th International Workshop on Qualitative Reasoning", 
+    "type": "talk"
+  }, 
+  "70037": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Fifth International Workshop on Human-Agent Interaction Design and Models (HAIDM)", 
+    "type": "talk"
+  }, 
+  "70038": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Cognitive Knowledge Acquisition and Applications (Cognitum 2016)", 
+    "type": "talk"
+  }, 
+  "70039": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Interactions with Mixed Agent Types", 
+    "type": "talk"
+  }, 
+  "7004": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Workshop on Goal Reasoning", 
+    "type": "talk"
+  }, 
+  "70040": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Ontologies and Logic Programming for Query Answering", 
+    "type": "talk"
+  }, 
+  "70041": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Closing the Cognitive Loop: Third Workshop on Knowledge, Data, and Systems for Cognitive Computing", 
+    "type": "talk"
+  }, 
+  "7005": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "2nd International Workshop on Social Influence Analysis (SocInf 2016)", 
+    "type": "talk"
+  }, 
+  "7006": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Ethics for Artificial Intelligence", 
+    "type": "talk"
+  }, 
+  "7007": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "CMNA 16\u2014The 16th Workshop on Computational Models of Natural Argument", 
+    "type": "talk"
+  }, 
+  "7008": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Interactive Machine Learning: Connecting Humans and Machines", 
+    "type": "talk"
+  }, 
+  "7009": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Multidisciplinary Workshop on Advances in Preference Handling", 
+    "type": "talk"
   }, 
   "702": {
     "abstract": "Researchers have used from 30 days to several years of daily returns as source data for clustering financial time series based on their correlations. This paper sets up a statistical framework to study the validity of such practices. We first show that clustering correlated random variables from their observed values is statistically consistent. Then, we also give a first empirical answer to the much debated question: How long should the time series be? If too short, the clusters found can be spurious; if too long, dynamics can be smoothed out.", 

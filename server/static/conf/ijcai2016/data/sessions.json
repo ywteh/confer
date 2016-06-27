@@ -40,10 +40,10 @@ sessions={
     ], 
     "time": "08:30-09:55"
   }, 
-  "AI_and_the_Web4_Chair_Muninder_Singh": {
+  "AI_and_the_Web4_Chair_Munindar_Singh": {
     "date": "7/13/2016", 
     "room": "Sutton Center", 
-    "s_title": "AI and the Web4 - Chair: Muninder Singh", 
+    "s_title": "AI and the Web4 - Chair: Munindar Singh", 
     "submissions": [
       "10", 
       "196", 
@@ -415,10 +415,10 @@ sessions={
     ], 
     "time": "11:35-12:35"
   }, 
-  "Computers_and_Thought_Award_Talk": {
+  "Computers_and_Thought_Award_Talk_by_Percy_Liang": {
     "date": "7/15/2016", 
     "room": "Ballroom", 
-    "s_title": "Computers and Thought Award Talk", 
+    "s_title": "Computers and Thought Award Talk by Percy Liang", 
     "submissions": [
       "5034"
     ], 
@@ -697,66 +697,66 @@ sessions={
     ], 
     "time": "13:30-17:00"
   }, 
-  "Invited_Talks_Chair_Bernhard_Nebel": {
-    "date": "7/12/2016", 
-    "room": "Ballroom East", 
-    "s_title": "Invited Talks - Chair: Bernhard Nebel", 
-    "submissions": [
-      "5027"
-    ], 
-    "time": "14:00-15:00"
-  }, 
-  "Invited_Talks_Chair_Catholijn_Jonker": {
-    "date": "7/14/2016", 
-    "room": "Ballroom West", 
-    "s_title": "Invited Talks - Chair: Catholijn Jonker", 
-    "submissions": [
-      "5032"
-    ], 
-    "time": "14:00-15:00"
-  }, 
-  "Invited_Talks_Chair_Ernie_Davis": {
-    "date": "7/14/2016", 
-    "room": "Ballroom East", 
-    "s_title": "Invited Talks - Chair: Ernie Davis", 
-    "submissions": [
-      "5031"
-    ], 
-    "time": "14:00-15:00"
-  }, 
-  "Invited_Talks_Chair_Jerome_Lang": {
-    "date": "7/13/2016", 
-    "room": "Ballroom East", 
-    "s_title": "Invited Talks - Chair: Jerome Lang", 
-    "submissions": [
-      "5029"
-    ], 
-    "time": "14:00-15:00"
-  }, 
-  "Invited_Talks_Chair_Rao_Kambhampati": {
+  "Invited_Talk_by_David_Silver_Google_DeepMind_Chair_Rao_Kambhampati": {
     "date": "7/12/2016", 
     "room": "Ballroom", 
-    "s_title": "Invited Talks - Chair: Rao Kambhampati", 
+    "s_title": "Invited Talk by David Silver (Google DeepMind) - Chair: Rao Kambhampati", 
     "submissions": [
       "5026"
     ], 
     "time": "09:10-09:55"
   }, 
-  "Invited_Talks_Chair_Sven_Koenig": {
+  "Invited_Talk_by_James_A_Hendler_Chair_Ernie_Davis": {
+    "date": "7/14/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talk by James A. Hendler - Chair: Ernie Davis", 
+    "submissions": [
+      "5031"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talk_by_Jonathan_Gratch_Chair_Catholijn_Jonker": {
+    "date": "7/14/2016", 
+    "room": "Ballroom West", 
+    "s_title": "Invited Talk by Jonathan Gratch - Chair: Catholijn Jonker", 
+    "submissions": [
+      "5032"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talk_by_Kevin_Leyton_Brown_Chair_Jerome_Lang": {
+    "date": "7/13/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talk by Kevin Leyton-Brown - Chair: Jerome Lang", 
+    "submissions": [
+      "5029"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talk_by_Robert_Holte_Chair_Sven_Koenig": {
     "date": "7/13/2016", 
     "room": "Ballroom West", 
-    "s_title": "Invited Talks - Chair: Sven Koenig", 
+    "s_title": "Invited Talk by Robert Holte - Chair: Sven Koenig", 
     "submissions": [
       "5030"
     ], 
     "time": "14:00-15:00"
   }, 
-  "Invited_Talks_Chair_Thomas_Eiter": {
+  "Invited_Talk_by_Sheila_McIlraith_Chair_Thomas_Eiter": {
     "date": "7/12/2016", 
     "room": "Ballroom West", 
-    "s_title": "Invited Talks - Chair: Thomas Eiter", 
+    "s_title": "Invited Talk by Sheila McIlraith - Chair: Thomas Eiter", 
     "submissions": [
       "5028"
+    ], 
+    "time": "14:00-15:00"
+  }, 
+  "Invited_Talk_by_Wolfram_Burgard_Chair_Bernhard_Nebel": {
+    "date": "7/12/2016", 
+    "room": "Ballroom East", 
+    "s_title": "Invited Talk by Wolfram Burgard - Chair: Bernhard Nebel", 
+    "submissions": [
+      "5027"
     ], 
     "time": "14:00-15:00"
   }, 
@@ -1267,10 +1267,46 @@ sessions={
     ], 
     "time": "08:30-20:00"
   }, 
-  "McCarthy_Award_Talk": {
+  "Main_track_AIW_track_Posters_Day_1": {
+    "date": "7/12/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Main track & AIW track Posters - Day 1", 
+    "submissions": [
+      "5041"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "Main_track_AIW_track_Posters_Day_2": {
+    "date": "7/13/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Main track & AIW track Posters - Day 2", 
+    "submissions": [
+      "5042"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "Main_track_AIW_track_Posters_Day_3": {
+    "date": "7/14/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Main track & AIW track Posters - Day 3", 
+    "submissions": [
+      "5043"
+    ], 
+    "time": "08:30-20:00"
+  }, 
+  "Main_track_AIW_track_Posters_Day_4": {
+    "date": "7/15/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Main track & AIW track Posters - Day 4", 
+    "submissions": [
+      "5044"
+    ], 
+    "time": "08:30-12:35"
+  }, 
+  "McCarthy_Award_Talk_by_Moshe_Tennenholtz": {
     "date": "7/15/2016", 
     "room": "Ballroom", 
-    "s_title": "McCarthy Award Talk", 
+    "s_title": "McCarthy Award Talk by Moshe Tennenholtz", 
     "submissions": [
       "5035"
     ], 
@@ -1473,10 +1509,10 @@ sessions={
     ], 
     "time": "10:05-11:05"
   }, 
-  "Office_of_Science_and_Technology_Policy_OSTP_": {
+  "Office_of_Science_and_Technology_Policy_OSTP_Panel": {
     "date": "7/14/2016", 
     "room": "Ballroom", 
-    "s_title": "Office of Science and Technology Policy (OSTP)", 
+    "s_title": "Office of Science and Technology Policy (OSTP) Panel", 
     "submissions": [
       "5040"
     ], 
@@ -1490,6 +1526,15 @@ sessions={
       "5025"
     ], 
     "time": "08:30-09:10"
+  }, 
+  "Panel_on_Reviewing_Best_Practices": {
+    "date": "7/13/2016", 
+    "room": "Ballroom", 
+    "s_title": "Panel on Reviewing Best Practices", 
+    "submissions": [
+      "5045"
+    ], 
+    "time": "15:10-16:35"
   }, 
   "Planning_KR_NLP_Demos": {
     "date": "7/13/2016", 
@@ -1590,10 +1635,10 @@ sessions={
     "room": "Clinton Suite", 
     "s_title": "Planning and Scheduling6 :: Planning (General/other)1 - Chair: Chris Amato", 
     "submissions": [
+      "2902", 
       "2392", 
       "2881", 
       "683", 
-      "2902", 
       "1581"
     ], 
     "time": "17:05-18:05"
@@ -1636,15 +1681,23 @@ sessions={
     ], 
     "time": "17:05-18:05"
   }, 
-  "Research_Excellence_Award_Talk": {
+  "Research_Excellence_Award_Talk_by_Barbara_Grosz": {
     "date": "7/15/2016", 
     "room": "Ballroom", 
-    "s_title": "Research Excellence Award Talk", 
+    "s_title": "Research Excellence Award Talk by Barbara Grosz", 
     "submissions": [
-      "5033", 
-      "5036"
+      "5033"
     ], 
     "time": "13:30-14:15"
+  }, 
+  "Research_Excellence_Award_Talk_by_Michael_I_Jordan": {
+    "date": "7/15/2016", 
+    "room": "Ballroom", 
+    "s_title": "Research Excellence Award Talk by Michael I. Jordan", 
+    "submissions": [
+      "5036"
+    ], 
+    "time": "16:15-17:00"
   }, 
   "Robotics_and_Vision1_Vision_and_Perception1_Chair_Joydeep_Biswas": {
     "date": "7/12/2016", 
@@ -1706,6 +1759,348 @@ sessions={
     ], 
     "time": "08:30-09:55"
   }, 
+  "Tutorial_AI_for_Smarter_Cities": {
+    "date": "7/10/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: AI for Smarter Cities", 
+    "submissions": [
+      "60021"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Affect_Detection_from_Spoken_and_Written_Text_Computational_Models_for_Affect_and_Sentiment_Analysis": {
+    "date": "7/9/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Affect Detection from Spoken and Written Text\u2014Computational Models for Affect and Sentiment Analysis", 
+    "submissions": [
+      "60012"
+    ], 
+    "time": "16:00-17:45"
+  }, 
+  "Tutorial_Argument_Mining": {
+    "date": "7/11/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Argument Mining", 
+    "submissions": [
+      "60026"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Argument_and_Cognition": {
+    "date": "7/10/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Argument and Cognition", 
+    "submissions": [
+      "60019"
+    ], 
+    "time": "11:00-12:45"
+  }, 
+  "Tutorial_Belief_functions_for_the_working_scientist": {
+    "date": "7/9/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Belief functions for the working scientist", 
+    "submissions": [
+      "6003"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Bitcoin_a_Basic_Tutorial_on_Decentralized_Digital_Currencies": {
+    "date": "7/9/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Bitcoin: a Basic Tutorial on Decentralized Digital Currencies", 
+    "submissions": [
+      "6001"
+    ], 
+    "time": "08:45-10:30"
+  }, 
+  "Tutorial_Coreference_Resolution_Recent_Successes_and_Future_Directions": {
+    "date": "7/11/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Coreference Resolution: Recent Successes and Future Directions", 
+    "submissions": [
+      "60030"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Deep_Learning_and_Continuous_Representations_for_NLP": {
+    "date": "7/9/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Deep Learning and Continuous Representations for NLP", 
+    "submissions": [
+      "6005"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Deliberative_Planning_and_Acting": {
+    "date": "7/11/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: Deliberative Planning and Acting", 
+    "submissions": [
+      "60035"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Eliciting_high_quality_information": {
+    "date": "7/10/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Eliciting high quality information", 
+    "submissions": [
+      "60013"
+    ], 
+    "time": "08:45-10:30"
+  }, 
+  "Tutorial_Generating_Synthetic_Populations_for_Social_Modeling": {
+    "date": "7/10/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Generating Synthetic Populations for Social Modeling", 
+    "submissions": [
+      "60018"
+    ], 
+    "time": "13:45-15:30"
+  }, 
+  "Tutorial_How_Computers_Read_the_Web": {
+    "date": "7/9/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: How Computers Read the Web", 
+    "submissions": [
+      "60010"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_If_Turing_had_lived_longer_how_might_he_have_investigated_what_AI_and_Philosophy_can_learn_from_evolved_information_processing_systems_": {
+    "date": "7/10/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: If Turing had lived longer: how might he have investigated what AI and Philosophy can learn from evolved information processing systems?", 
+    "submissions": [
+      "60024"
+    ], 
+    "time": "16:00-17:45"
+  }, 
+  "Tutorial_Information_theoretic_Ideas_in_Machine_Learning": {
+    "date": "7/9/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Information-theoretic Ideas in Machine Learning", 
+    "submissions": [
+      "6002"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Integrating_Learning_and_Search_for_Structured_Prediction": {
+    "date": "7/11/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Integrating Learning and Search for Structured Prediction", 
+    "submissions": [
+      "60033"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Introduction_to_Planning_Models_and_Methods": {
+    "date": "7/11/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: Introduction to Planning Models and Methods", 
+    "submissions": [
+      "60029"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Lifted_Probabilistic_Inference_in_Relational_Models": {
+    "date": "7/10/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Lifted Probabilistic Inference in Relational Models", 
+    "submissions": [
+      "60014"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Low_Rank_and_Sparse_Modeling_for_Data_Analytics": {
+    "date": "7/11/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Low-Rank and Sparse Modeling for Data Analytics", 
+    "submissions": [
+      "60031"
+    ], 
+    "time": "11:00-12:45"
+  }, 
+  "Tutorial_Methodologies_for_Ontology_Based_Data_Access_Applications": {
+    "date": "7/11/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Methodologies for Ontology Based Data Access Applications", 
+    "submissions": [
+      "60028"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Multidimensional_Text_Clustering_for_Hierarchical_Topic_Detection": {
+    "date": "7/9/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Multidimensional Text Clustering for Hierarchical Topic Detection", 
+    "submissions": [
+      "60011"
+    ], 
+    "time": "13:45-15:30"
+  }, 
+  "Tutorial_New_Advances_in_Combinatorial_Optimization_for_Graphical_Models": {
+    "date": "7/10/2016", 
+    "room": "Sutton Complex", 
+    "s_title": "Tutorial: New Advances in Combinatorial Optimization for Graphical Models", 
+    "submissions": [
+      "60020"
+    ], 
+    "time": "13:45-15:30"
+  }, 
+  "Tutorial_Optimality_in_Robot_Motion_and_Action": {
+    "date": "7/9/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: Optimality in Robot Motion and Action", 
+    "submissions": [
+      "60022"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Organ_Exchanges_A_Success_Story_of_AI_in_Healthcare": {
+    "date": "7/9/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: Organ Exchanges: A Success Story of AI in Healthcare", 
+    "submissions": [
+      "6007"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Pattern_Recognition_on_Random_Graphs": {
+    "date": "7/11/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Pattern Recognition on Random Graphs", 
+    "submissions": [
+      "60027"
+    ], 
+    "time": "08:45-10:30"
+  }, 
+  "Tutorial_Programming_by_Optimization_A_Practical_Paradigm_for_Computer_Aided_Algorithm_Design": {
+    "date": "7/10/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Programming by Optimization: A Practical Paradigm for Computer-Aided Algorithm Design", 
+    "submissions": [
+      "60017"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Reasoning_with_Description_Logics": {
+    "date": "7/9/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Reasoning with Description Logics", 
+    "submissions": [
+      "6009"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Research_Challenges_in_Computational_Sustainability": {
+    "date": "7/11/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Research Challenges in Computational Sustainability", 
+    "submissions": [
+      "60036"
+    ], 
+    "time": "13:45-15:30"
+  }, 
+  "Tutorial_Rulelog_Rule_based_Knowledge_Representation_and_Reasoning": {
+    "date": "7/10/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Rulelog: Rule-based Knowledge Representation and Reasoning", 
+    "submissions": [
+      "60015"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_Scalable_Big_Data_Programming_Models_for_AI": {
+    "date": "7/10/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Scalable Big Data Programming Models for AI", 
+    "submissions": [
+      "60023"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Scalable_Probabilistic_Logics": {
+    "date": "7/11/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Scalable Probabilistic Logics", 
+    "submissions": [
+      "60037"
+    ], 
+    "time": "16:00-17:45"
+  }, 
+  "Tutorial_Scalable_learning_of_graphical_models": {
+    "date": "7/10/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Scalable learning of graphical models", 
+    "submissions": [
+      "60025"
+    ], 
+    "time": "16:00-17:45"
+  }, 
+  "Tutorial_Solving_Problems_with_Quantified_Boolean_Formulas_Recent_Trends_and_Challenges": {
+    "date": "7/11/2016", 
+    "room": "Sutton Center", 
+    "s_title": "Tutorial: Solving (Problems with) Quantified Boolean Formulas: Recent Trends and Challenges", 
+    "submissions": [
+      "60034"
+    ], 
+    "time": "13:45-15:30"
+  }, 
+  "Tutorial_Spatio_Temporal_Stream_Reasoning_for_Safe_Autonomous_Systems": {
+    "date": "7/10/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: Spatio-Temporal Stream Reasoning for Safe Autonomous Systems", 
+    "submissions": [
+      "6004"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Statistical_Relational_AI_Logic_Probability_Computation": {
+    "date": "7/9/2016", 
+    "room": "Sutton North", 
+    "s_title": "Tutorial: Statistical Relational AI: Logic, Probability, Computation", 
+    "submissions": [
+      "6008"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Symbolic_and_structural_models_for_image_understanding": {
+    "date": "7/10/2016", 
+    "room": "Sutton South", 
+    "s_title": "Tutorial: Symbolic and structural models for image understanding", 
+    "submissions": [
+      "60016"
+    ], 
+    "time": "08:45-12:45"
+  }, 
+  "Tutorial_The_Internet_of_Things_and_Multiagent_Systems": {
+    "date": "7/9/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: The Internet of Things and Multiagent Systems", 
+    "submissions": [
+      "6006"
+    ], 
+    "time": "11:00-12:45"
+  }, 
+  "Tutorial_The_Soar_Cognitive_Architecture": {
+    "date": "7/11/2016", 
+    "room": "Beekman Parlor", 
+    "s_title": "Tutorial: The Soar Cognitive Architecture", 
+    "submissions": [
+      "60032"
+    ], 
+    "time": "13:45-17:45"
+  }, 
+  "Tutorial_Towards_a_Unified_Framework_for_Transfer_Learning_Exploiting_Correlations_and_Symmetries": {
+    "date": "7/11/2016", 
+    "room": "Regent Parlor", 
+    "s_title": "Tutorial: Towards a Unified Framework for Transfer Learning: Exploiting Correlations and Symmetries", 
+    "submissions": [
+      "60038"
+    ], 
+    "time": "16:00-17:45"
+  }, 
   "Uncertainty_in_AI1_Approximate_Probabilistic_Inference_Chair_Roni_Khadron": {
     "date": "7/12/2016", 
     "room": "Beekman Parlor", 
@@ -1747,10 +2142,10 @@ sessions={
     ], 
     "time": "17:05-18:05"
   }, 
-  "Uncertainty_in_AI4": {
+  "Uncertainty_in_AI4_Chair_Kartik_Talamadupula": {
     "date": "7/14/2016", 
     "room": "Madison Suite", 
-    "s_title": "Uncertainty in AI4", 
+    "s_title": "Uncertainty in AI4 - Chair: Kartik Talamadupula", 
     "submissions": [
       "2306", 
       "2308", 
@@ -1759,6 +2154,357 @@ sessions={
       "715"
     ], 
     "time": "10:05-11:05"
+  }, 
+  "Workshop_29th_International_Workshop_on_Qualitative_Reasoning": {
+    "date": "7/11/2016", 
+    "room": "Lincoln", 
+    "s_title": "Workshop: 29th International Workshop on Qualitative Reasoning", 
+    "submissions": [
+      "70036"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_2nd_International_Workshop_on_Social_Influence_Analysis_SocInf_2016_": {
+    "date": "7/9/2016", 
+    "room": "Lincoln", 
+    "s_title": "Workshop: 2nd International Workshop on Social Influence Analysis (SocInf 2016)", 
+    "submissions": [
+      "7005"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_4th_Workshop_on_Artificial_Intelligence_for_Knowledge_Management": {
+    "date": "7/9/2016", 
+    "room": "Holland", 
+    "s_title": "Workshop: 4th Workshop on Artificial Intelligence for Knowledge Management", 
+    "submissions": [
+      "70014"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_5th_International_General_Game_Playing_Workshop": {
+    "date": "7/10/2016", 
+    "room": "Bryant", 
+    "s_title": "Workshop: 5th International General Game Playing Workshop", 
+    "submissions": [
+      "70019"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_9th_International_Workshop_on_Agents_in_Traffic_and_Transportation_ATT_2016_": {
+    "date": "7/10/2016", 
+    "room": "Madison", 
+    "s_title": "Workshop: 9th International Workshop on Agents in Traffic and Transportation (ATT 2016)", 
+    "submissions": [
+      "70021"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Advances_in_Bioinformatics_and_Artificial_Intelligence_Bridging_the_Gap": {
+    "date": "7/11/2016", 
+    "room": "Green", 
+    "s_title": "Workshop: Advances in Bioinformatics and Artificial Intelligence: Bridging the Gap", 
+    "submissions": [
+      "70030"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Agent_Mediated_Electronic_Commerce_AMEC_TADA_": {
+    "date": "7/10/2016", 
+    "room": "Green", 
+    "s_title": "Workshop: Agent Mediated Electronic Commerce (AMEC/TADA)", 
+    "submissions": [
+      "70018"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Algorithmic_Game_Theory_IJCAI_Workshop": {
+    "date": "7/11/2016", 
+    "room": "Bryant", 
+    "s_title": "Workshop: Algorithmic Game Theory @ IJCAI Workshop", 
+    "submissions": [
+      "70031"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Argumentation_in_Logic_Programming_and_Non_Monotonic_Reasoning_Arg_LPNMR_": {
+    "date": "7/10/2016", 
+    "room": "Hudson", 
+    "s_title": "Workshop: Argumentation in Logic Programming and Non-Monotonic Reasoning (Arg-LPNMR)", 
+    "submissions": [
+      "70025"
+    ], 
+    "time": "08:30-12:30"
+  }, 
+  "Workshop_Autonomous_Mobile_Service_Robots": {
+    "date": "7/11/2016", 
+    "room": "Morgan", 
+    "s_title": "Workshop: Autonomous Mobile Service Robots", 
+    "submissions": [
+      "70035"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_BEYONDLABELLER_Human_is_More_Than_a_Labeller": {
+    "date": "7/10/2016", 
+    "room": "Gibson", 
+    "s_title": "Workshop: BEYONDLABELLER\u2014Human is More Than a Labeller", 
+    "submissions": [
+      "70017"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_BOOM_International_Workshop_on_Biomedical_informatics_with_Optimization_and_Machine_learning": {
+    "date": "7/9/2016", 
+    "room": "Gibson", 
+    "s_title": "Workshop: BOOM: International Workshop on Biomedical informatics with Optimization and Machine learning", 
+    "submissions": [
+      "70010"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Bridging_the_Gap_between_Human_and_Automated_Reasoning": {
+    "date": "7/9/2016", 
+    "room": "Nassau West", 
+    "s_title": "Workshop: Bridging the Gap between Human and Automated Reasoning", 
+    "submissions": [
+      "7001"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_CMNA_16_The_16th_Workshop_on_Computational_Models_of_Natural_Argument": {
+    "date": "7/9/2016", 
+    "room": "Green", 
+    "s_title": "Workshop: CMNA 16\u2014The 16th Workshop on Computational Models of Natural Argument", 
+    "submissions": [
+      "7007"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Closing_the_Cognitive_Loop_Third_Workshop_on_Knowledge_Data_and_Systems_for_Cognitive_Computing": {
+    "date": "7/11/2016", 
+    "room": "Clinton", 
+    "s_title": "Workshop: Closing the Cognitive Loop: Third Workshop on Knowledge, Data, and Systems for Cognitive Computing", 
+    "submissions": [
+      "70041"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Cognitive_Knowledge_Acquisition_and_Applications_Cognitum_2016_": {
+    "date": "7/11/2016", 
+    "room": "Clinton", 
+    "s_title": "Workshop: Cognitive Knowledge Acquisition and Applications (Cognitum 2016)", 
+    "submissions": [
+      "70038"
+    ], 
+    "time": "08:30-12:30"
+  }, 
+  "Workshop_Computational_modeling_of_attitudes_4th_Workshop_on_Sentiment_Analysis_where_AI_meets_Psychology_SAAIP_2016_": {
+    "date": "7/10/2016", 
+    "room": "Clinton", 
+    "s_title": "Workshop: Computational modeling of attitudes & 4th Workshop on Sentiment Analysis: where AI meets Psychology (SAAIP 2016)", 
+    "submissions": [
+      "70024"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Computer_Games_Workshop": {
+    "date": "7/9/2016", 
+    "room": "Bryant", 
+    "s_title": "Workshop: Computer Games Workshop", 
+    "submissions": [
+      "7003"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Deep_Learning_for_Artificial_Intelligence_DL_": {
+    "date": "7/10/2016", 
+    "room": "Nassau East", 
+    "s_title": "Workshop: Deep Learning for Artificial Intelligence (DL)", 
+    "submissions": [
+      "70020"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Deep_Reinforcement_Learning_Frontiers_and_Challenges": {
+    "date": "7/11/2016", 
+    "room": "Nassau East", 
+    "s_title": "Workshop: Deep Reinforcement Learning: Frontiers and Challenges", 
+    "submissions": [
+      "70033"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Ethics_for_Artificial_Intelligence": {
+    "date": "7/9/2016", 
+    "room": "Madison", 
+    "s_title": "Workshop: Ethics for Artificial Intelligence", 
+    "submissions": [
+      "7006"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Fifth_International_Workshop_on_Human_Agent_Interaction_Design_and_Models_HAIDM_": {
+    "date": "7/11/2016", 
+    "room": "Madison", 
+    "s_title": "Workshop: Fifth International Workshop on Human-Agent Interaction Design and Models (HAIDM)", 
+    "submissions": [
+      "70037"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Fourth_IJCAI_Workshop_on_Heterogeneous_Information_Network_Analysis": {
+    "date": "7/10/2016", 
+    "room": "Hudson", 
+    "s_title": "Workshop: Fourth IJCAI Workshop on Heterogeneous Information Network Analysis", 
+    "submissions": [
+      "70028"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Fourth_International_Workshop_on_Natural_Language_Processing_for_Social_Media_SocialNLP_2016_": {
+    "date": "7/11/2016", 
+    "room": "East", 
+    "s_title": "Workshop: Fourth International Workshop on Natural Language Processing for Social Media (SocialNLP 2016)", 
+    "submissions": [
+      "70034"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Interactions_with_Mixed_Agent_Types": {
+    "date": "7/11/2016", 
+    "room": "Hudson", 
+    "s_title": "Workshop: Interactions with Mixed Agent Types", 
+    "submissions": [
+      "70039"
+    ], 
+    "time": "08:30-12:30"
+  }, 
+  "Workshop_Interactive_Machine_Learning_Connecting_Humans_and_Machines": {
+    "date": "7/9/2016", 
+    "room": "Nassau East", 
+    "s_title": "Workshop: Interactive Machine Learning: Connecting Humans and Machines", 
+    "submissions": [
+      "7008"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Knowledge_Discovery_in_Healthcare_Data": {
+    "date": "7/10/2016", 
+    "room": "Nassau West", 
+    "s_title": "Workshop: Knowledge Discovery in Healthcare Data", 
+    "submissions": [
+      "70016"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Knowledge_based_techniques_for_problem_solving_and_reasoning": {
+    "date": "7/10/2016", 
+    "room": "Morgan", 
+    "s_title": "Workshop: Knowledge-based techniques for problem solving and reasoning", 
+    "submissions": [
+      "70022"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Language_Sense_on_Computers": {
+    "date": "7/9/2016", 
+    "room": "East", 
+    "s_title": "Workshop: Language Sense on Computers", 
+    "submissions": [
+      "70012"
+    ], 
+    "time": "08:30-12:30"
+  }, 
+  "Workshop_Multidisciplinary_Workshop_on_Advances_in_Preference_Handling": {
+    "date": "7/9/2016", 
+    "room": "Clinton", 
+    "s_title": "Workshop: Multidisciplinary Workshop on Advances in Preference Handling", 
+    "submissions": [
+      "7009"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Natural_Language_Processing_Meets_Journalism": {
+    "date": "7/10/2016", 
+    "room": "Lincoln", 
+    "s_title": "Workshop: Natural Language Processing Meets Journalism", 
+    "submissions": [
+      "70029"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Ontologies_and_Logic_Programming_for_Query_Answering": {
+    "date": "7/11/2016", 
+    "room": "Hudson", 
+    "s_title": "Workshop: Ontologies and Logic Programming for Query Answering", 
+    "submissions": [
+      "70040"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Second_International_Workshop_on_Multi_Agent_Path_Finding": {
+    "date": "7/10/2016", 
+    "room": "East", 
+    "s_title": "Workshop: Second International Workshop on Multi-Agent Path Finding", 
+    "submissions": [
+      "70023"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Semantic_Machine_Learning": {
+    "date": "7/10/2016", 
+    "room": "Green", 
+    "s_title": "Workshop: Semantic Machine Learning", 
+    "submissions": [
+      "70026"
+    ], 
+    "time": "08:30-12:30"
+  }, 
+  "Workshop_Statistical_Relational_AI_StarAI_": {
+    "date": "7/11/2016", 
+    "room": "Nassau West", 
+    "s_title": "Workshop: Statistical Relational AI (StarAI)", 
+    "submissions": [
+      "70032"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Workshop_on_AI_for_Synthetic_Biology": {
+    "date": "7/9/2016", 
+    "room": "East", 
+    "s_title": "Workshop: Workshop on AI for Synthetic Biology", 
+    "submissions": [
+      "70013"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Workshop_on_Goal_Reasoning": {
+    "date": "7/9/2016", 
+    "room": "Morgan", 
+    "s_title": "Workshop: Workshop on Goal Reasoning", 
+    "submissions": [
+      "7004"
+    ], 
+    "time": "08:30-17:30"
+  }, 
+  "Workshop_Workshop_on_Human_Language_Technology_and_Intelligent_Applications": {
+    "date": "7/9/2016", 
+    "room": "Hudson", 
+    "s_title": "Workshop: Workshop on Human Language Technology and Intelligent Applications", 
+    "submissions": [
+      "70015"
+    ], 
+    "time": "13:30-17:30"
+  }, 
+  "Workshop_Workshop_on_Scholarly_Big_Data_AI_Perspectives_Challenges_and_Ideas": {
+    "date": "7/9/2016", 
+    "room": "New York", 
+    "s_title": "Workshop: Workshop on Scholarly Big Data: AI Perspectives, Challenges and Ideas", 
+    "submissions": [
+      "7002"
+    ], 
+    "time": "08:30-12:30"
   }, 
   "Workshops_Highlights1_Chair_Biplav_Srivastava": {
     "date": "7/13/2016", 
