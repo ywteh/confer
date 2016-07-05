@@ -21,10 +21,6 @@ schedule=[
             "session": "Workshop_Computer_Games_Workshop"
           }, 
           {
-            "room": "Lincoln", 
-            "session": "Workshop_2nd_International_Workshop_on_Social_Influence_Analysis_SocInf_2016_"
-          }, 
-          {
             "room": "Holland", 
             "session": "Workshop_4th_Workshop_on_Artificial_Intelligence_for_Knowledge_Management"
           }, 
@@ -55,6 +51,10 @@ schedule=[
           {
             "room": "Morgan", 
             "session": "Workshop_Workshop_on_Goal_Reasoning"
+          }, 
+          {
+            "room": "Lincoln", 
+            "session": "Workshop_2nd_International_Workshop_on_Social_Influence_Analysis_SocInf_2016_"
           }
         ], 
         "slot_class": "morning1", 
@@ -252,16 +252,16 @@ schedule=[
             "session": "Tutorial_Rulelog_Rule_based_Knowledge_Representation_and_Reasoning"
           }, 
           {
-            "room": "Sutton South", 
-            "session": "Tutorial_Symbolic_and_structural_models_for_image_understanding"
-          }, 
-          {
             "room": "Regent Parlor", 
             "session": "Tutorial_Programming_by_Optimization_A_Practical_Paradigm_for_Computer_Aided_Algorithm_Design"
           }, 
           {
             "room": "Sutton North", 
             "session": "Tutorial_Lifted_Probabilistic_Inference_in_Relational_Models"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "Tutorial_Symbolic_and_structural_models_for_image_understanding"
           }
         ], 
         "slot_class": "morning1", 
@@ -297,12 +297,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Beekman Parlor", 
-            "session": "Tutorial_Generating_Synthetic_Populations_for_Social_Modeling"
-          }, 
-          {
             "room": "Sutton Complex", 
             "session": "Tutorial_New_Advances_in_Combinatorial_Optimization_for_Graphical_Models"
+          }, 
+          {
+            "room": "Beekman Parlor", 
+            "session": "Tutorial_Generating_Synthetic_Populations_for_Social_Modeling"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -566,6 +566,10 @@ schedule=[
             "session": "Planning_and_Scheduling1_Activity_and_Plan_Recognition_Chair_Joerg_Hoffman"
           }, 
           {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Shahaf_Salakhutdinov_Chair_Rao_Kambhampati"
+          }, 
+          {
             "room": "Regent Parlor", 
             "session": "Best_of_ICRA_ICCV_Chair_Michael_Thielscher"
           }, 
@@ -586,10 +590,6 @@ schedule=[
             "session": "AI_and_the_Web1_Web_based_recommendation_systems_Chair_Biplav_Srivastava"
           }, 
           {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Dafna_Ruslan_Chair_Rao_Kambhampati"
-          }, 
-          {
             "room": "Gibson Suite", 
             "session": "Constraints_Satisfiability1_Modeling_Chair_Nic_Wilson"
           }
@@ -605,8 +605,16 @@ schedule=[
             "session": "Agent_based_and_Multi_agent_Systems2_Social_Choice_Theory1_Chair_Reshef_Meir"
           }, 
           {
+            "room": "Ballroom", 
+            "session": "Invited_Panel_on_Human_Aware_AI_Challenges_Opportunities"
+          }, 
+          {
             "room": "Clinton Suite", 
             "session": "Planning_and_Scheduling2_Markov_Decisions_Processes_Chair_Balaraman_Ravindran"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Choi_Gupta_Chair_Prasad_Tadepalli"
           }, 
           {
             "room": "Regent Parlor", 
@@ -627,10 +635,6 @@ schedule=[
           {
             "room": "Sutton Center", 
             "session": "AI_and_the_Web2_Social_network_analysis_theories_models_and_applications_Chair_De_Nian_Yang"
-          }, 
-          {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Yejin_Abhinav_Chair_Prasad_Tadepalli"
           }
         ], 
         "slot_class": "morning2", 
@@ -690,10 +694,6 @@ schedule=[
             "session": "Best_of_ICAPS_Chair_Blai_Bonet"
           }, 
           {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Amanda_Mausam_Chair_Daniel_Borrajo"
-          }, 
-          {
             "room": "Madison Suite", 
             "session": "Machine_Learning2_Semi_Supervised_Learning_Chair_Ming_Li"
           }, 
@@ -712,6 +712,10 @@ schedule=[
           {
             "room": "Gibson Suite", 
             "session": "Combinatorial_Heuristic_Search2_Applications_Chair_Holger_Hoos"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Coles_Mausam_Chair_Daniel_Borrajo"
           }, 
           {
             "room": "Sutton North", 
@@ -758,12 +762,12 @@ schedule=[
             "session": "Machine_Learning5_Unsupervised_Learning1_Chair_Xiangwei_Kong"
           }, 
           {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Finale_Stefano_Chair_Nevin_Zhang"
-          }, 
-          {
             "room": "Sutton Center", 
             "session": "AI_and_the_Web3_Mining_user_generated_data_on_the_Web_Chair_Luigi_Portinale"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Velez_Doshi_Ermon_Chair_Nevin_Zhang"
           }, 
           {
             "room": "Clinton Suite", 
@@ -802,7 +806,7 @@ schedule=[
           }, 
           {
             "room": "Sutton South", 
-            "session": "EarlyCareer_Edith_Matti_Chair_Kevin_Leyton_Brown"
+            "session": "EarlyCareer_Elkind_Jarvisalo_Chair_Holger_Hoos"
           }, 
           {
             "room": "Regent Parlor", 
@@ -825,7 +829,7 @@ schedule=[
         "sessions": [
           {
             "room": "Sutton South", 
-            "session": "EarlyCareer_Shivani_Sven_Chair_Shlomo_Zilberstein"
+            "session": "EarlyCareer_Agarwal_Seuken_Chair_Shlomo_Zilberstein"
           }, 
           {
             "room": "Beekman Parlor", 
@@ -878,6 +882,10 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Ballroom", 
+            "session": "Invited_Panel_on_Reviewing_Best_Practices"
+          }, 
+          {
             "room": "Sutton North", 
             "session": "Machine_Learning7_Transfer_Adaptation_Multi_task_Learning_Chair_Bo_Liu"
           }, 
@@ -892,10 +900,6 @@ schedule=[
           {
             "room": "Madison Suite", 
             "session": "Knowledge_Representation_Reasoning_and_Logic5_Knowledge_Representation_Languages_Chair_Frank_Wolter"
-          }, 
-          {
-            "room": "Ballroom", 
-            "session": "Panel_on_Reviewing_Best_Practices"
           }, 
           {
             "room": "Clinton Suite", 
@@ -921,10 +925,6 @@ schedule=[
             "session": "Uncertainty_in_AI3_Chair_Nico_Potyka"
           }, 
           {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Suchi_Yevgeniy_Chair_Boi_Faltings"
-          }, 
-          {
             "room": "Sutton Center", 
             "session": "Machine_Learning9_Reinforcement_Learning_Chair_Bo_Liu"
           }, 
@@ -935,6 +935,10 @@ schedule=[
           {
             "room": "Regent Parlor", 
             "session": "Workshops_Highlights1_Chair_Biplav_Srivastava"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Saria_Vorobeychik_Chair_Boi_Faltings"
           }, 
           {
             "room": "Gibson Suite", 
@@ -977,6 +981,10 @@ schedule=[
             "session": "Best_of_AAMAS_EC_Chair_Valentin_Robu"
           }, 
           {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Kamar_Aziz_Chair_Jerome_Lang"
+          }, 
+          {
             "room": "Sutton Center", 
             "session": "AI_and_the_Web5_Chair_Banafsheh_Rekabdar"
           }, 
@@ -987,10 +995,6 @@ schedule=[
           {
             "room": "Gibson Suite", 
             "session": "Machine_Learning12_Deep_Learning_Chair_Jonathan_Rubin"
-          }, 
-          {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Ece_Haris_Chair_Jerome_Lang"
           }, 
           {
             "room": "Madison Suite", 
@@ -1012,16 +1016,16 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Sutton South", 
-            "session": "EarlyCareer_Julie_Steven_Chair_Thomas_Eiter"
-          }, 
-          {
             "room": "Madison Suite", 
             "session": "Uncertainty_in_AI4_Chair_Kartik_Talamadupula"
           }, 
           {
             "room": "Regent Parlor", 
             "session": "Best_of_ICML_Chair_Shivaram_Kalyanakrishnan"
+          }, 
+          {
+            "room": "Sutton South", 
+            "session": "EarlyCareer_Shah_Schockaert_Chair_Thomas_Eiter"
           }, 
           {
             "room": "Gibson Suite", 
@@ -1080,7 +1084,7 @@ schedule=[
           }, 
           {
             "room": "Sutton South", 
-            "session": "EarlyCareer_Meghyn_Guy_Chair_Sheila_McIllraith"
+            "session": "EarlyCareer_Bienvenu_Van_den_Broeck_Chair_Sheila_McIllraith"
           }
         ], 
         "slot_class": "morning2", 
@@ -1105,16 +1109,16 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Ballroom", 
-            "session": "Office_of_Science_and_Technology_Policy_OSTP_Panel"
-          }, 
-          {
             "room": "Madison Suite", 
             "session": "Knowledge_Representation_Reasoning_and_Logic8_Knowledge_Representation2_Chair_Alessandro_Saffiotti"
           }, 
           {
             "room": "Sutton Center", 
             "session": "AI_and_the_Web6_Chair_Michael_Freed"
+          }, 
+          {
+            "room": "Ballroom", 
+            "session": "Invited_Panel_on_Preparing_for_the_Future_of_AI_Office_of_Science_and_Technology_Policy_OSTP_"
           }, 
           {
             "room": "Gibson Suite", 
@@ -1165,7 +1169,7 @@ schedule=[
           }, 
           {
             "room": "Sutton South", 
-            "session": "EarlyCareer_Sonia_Pradeep_Chair_Sven_Koenig"
+            "session": "EarlyCareer_Chernova_Varakantham_Chair_Sven_Koenig"
           }, 
           {
             "room": "Regent Parlor", 

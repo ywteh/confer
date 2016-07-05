@@ -10199,9 +10199,9 @@ entities={
     "type": "talk"
   }, 
   "5040": {
-    "abstract": "", 
+    "abstract": "Panelists: Kate Crawford, Milind Tambe, William Scherlis and Meredith Whitaker", 
     "authors": [], 
-    "title": "Preparing for the Future of AI", 
+    "title": "Invited Panel on Preparing for the Future of AI, Office of Science and Technology Policy (OSTP)", 
     "type": "talk"
   }, 
   "5041": {
@@ -10229,9 +10229,15 @@ entities={
     "type": "poster"
   }, 
   "5045": {
-    "abstract": "Panelists:  Mausam (IJCAI AIW track co-chair), Thomas Eiter (IJCAI Area Chair), Hwee Tou Ng (IJCAI Area Chair),   Sven Seuken (IJCAI SPC member),  Andrey Kolobov (IJCAI PC member), Qiang Yang (IJCAI-15 Program Chair),  Michael Wellman (AAAI-16 Program Co-Chair); Moderator: Subbarao Kambhampati", 
+    "abstract": "Panelists: Mausam (IJCAI AIW track co-chair), Thomas Eiter (IJCAI Area Chair), Hwee Tou Ng (IJCAI Area Chair), Sven Seuken (IJCAI SPC member), Andrey Kolobov (IJCAI PC member), Qiang Yang (IJCAI-15 Program Chair), Michael Wellman (AAAI-16 Program Co-Chair); Moderator: Subbarao Kambhampati", 
     "authors": [], 
-    "title": "Panel on Reviewing Best Practices", 
+    "title": "Invited Panel on Reviewing Best Practices", 
+    "type": "talk"
+  }, 
+  "5046": {
+    "abstract": "Panelists:  Barbara Grosz, Bjorn Schuller, Guruduth Banavar, Ken Forbus, and Manuela Veloso", 
+    "authors": [], 
+    "title": "Invited Panel on Human-Aware AI: Challenges & Opportunities", 
     "type": "talk"
   }, 
   "523": {
