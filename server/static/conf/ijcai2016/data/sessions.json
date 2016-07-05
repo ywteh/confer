@@ -541,115 +541,115 @@ sessions={
     ], 
     "time": "08:30-20:00"
   }, 
-  "EarlyCareer_Amanda_Mausam_Chair_Daniel_Borrajo": {
-    "date": "7/12/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Amanda, Mausam - Chair: Daniel Borrajo", 
-    "submissions": [
-      "5005", 
-      "5006"
-    ], 
-    "time": "17:05-18:05"
-  }, 
-  "EarlyCareer_Dafna_Ruslan_Chair_Rao_Kambhampati": {
-    "date": "7/12/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Dafna, Ruslan - Chair: Rao Kambhampati", 
-    "submissions": [
-      "5001", 
-      "5002"
-    ], 
-    "time": "10:05-11:05"
-  }, 
-  "EarlyCareer_Ece_Haris_Chair_Jerome_Lang": {
-    "date": "7/14/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Ece, Haris - Chair: Jerome Lang", 
-    "submissions": [
-      "5015", 
-      "5016"
-    ], 
-    "time": "08:30-09:55"
-  }, 
-  "EarlyCareer_Edith_Matti_Chair_Kevin_Leyton_Brown": {
+  "EarlyCareer_Agarwal_Seuken_Chair_Shlomo_Zilberstein": {
     "date": "7/13/2016", 
     "room": "Sutton South", 
-    "s_title": "EarlyCareer - Edith, Matti - Chair: Kevin Leyton-Brown", 
-    "submissions": [
-      "5009", 
-      "5010"
-    ], 
-    "time": "10:05-11:05"
-  }, 
-  "EarlyCareer_Finale_Stefano_Chair_Nevin_Zhang": {
-    "date": "7/13/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Finale, Stefano - Chair: Nevin Zhang", 
-    "submissions": [
-      "5007", 
-      "5008"
-    ], 
-    "time": "08:30-09:55"
-  }, 
-  "EarlyCareer_Julie_Steven_Chair_Thomas_Eiter": {
-    "date": "7/14/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Julie, Steven - Chair: Thomas Eiter", 
-    "submissions": [
-      "5017", 
-      "5018"
-    ], 
-    "time": "10:05-11:05"
-  }, 
-  "EarlyCareer_Meghyn_Guy_Chair_Sheila_McIllraith": {
-    "date": "7/14/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Meghyn, Guy - Chair: Sheila McIllraith", 
-    "submissions": [
-      "5019", 
-      "5020"
-    ], 
-    "time": "11:35-12:35"
-  }, 
-  "EarlyCareer_Shivani_Sven_Chair_Shlomo_Zilberstein": {
-    "date": "7/13/2016", 
-    "room": "Sutton South", 
-    "s_title": "EarlyCareer - Shivani, Sven - Chair: Shlomo Zilberstein", 
+    "s_title": "EarlyCareer - Agarwal, Seuken - Chair: Shlomo Zilberstein", 
     "submissions": [
       "5011", 
       "5012"
     ], 
     "time": "11:35-12:35"
   }, 
-  "EarlyCareer_Sonia_Pradeep_Chair_Sven_Koenig": {
+  "EarlyCareer_Bienvenu_Van_den_Broeck_Chair_Sheila_McIllraith": {
     "date": "7/14/2016", 
     "room": "Sutton South", 
-    "s_title": "EarlyCareer - Sonia, Pradeep - Chair: Sven Koenig", 
+    "s_title": "EarlyCareer - Bienvenu, Van den Broeck - Chair: Sheila McIllraith", 
+    "submissions": [
+      "5019", 
+      "5020"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "EarlyCareer_Chernova_Varakantham_Chair_Sven_Koenig": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Chernova, Varakantham - Chair: Sven Koenig", 
     "submissions": [
       "5021", 
       "5022"
     ], 
     "time": "17:05-18:05"
   }, 
-  "EarlyCareer_Suchi_Yevgeniy_Chair_Boi_Faltings": {
+  "EarlyCareer_Choi_Gupta_Chair_Prasad_Tadepalli": {
+    "date": "7/12/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Choi, Gupta - Chair: Prasad Tadepalli", 
+    "submissions": [
+      "5003", 
+      "5004"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "EarlyCareer_Coles_Mausam_Chair_Daniel_Borrajo": {
+    "date": "7/12/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Coles, Mausam - Chair: Daniel Borrajo", 
+    "submissions": [
+      "5005", 
+      "5006"
+    ], 
+    "time": "17:05-18:05"
+  }, 
+  "EarlyCareer_Elkind_Jarvisalo_Chair_Holger_Hoos": {
     "date": "7/13/2016", 
     "room": "Sutton South", 
-    "s_title": "EarlyCareer - Suchi, Yevgeniy - Chair: Boi Faltings", 
+    "s_title": "EarlyCareer - Elkind, Jarvisalo - Chair: Holger Hoos", 
+    "submissions": [
+      "5009", 
+      "5010"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Kamar_Aziz_Chair_Jerome_Lang": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Kamar, Aziz - Chair: Jerome Lang", 
+    "submissions": [
+      "5015", 
+      "5016"
+    ], 
+    "time": "08:30-09:55"
+  }, 
+  "EarlyCareer_Saria_Vorobeychik_Chair_Boi_Faltings": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Saria, Vorobeychik - Chair: Boi Faltings", 
     "submissions": [
       "5013", 
       "5014"
     ], 
     "time": "17:05-18:05"
   }, 
-  "EarlyCareer_Yejin_Abhinav_Chair_Prasad_Tadepalli": {
+  "EarlyCareer_Shah_Schockaert_Chair_Thomas_Eiter": {
+    "date": "7/14/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Shah, Schockaert - Chair: Thomas Eiter", 
+    "submissions": [
+      "5017", 
+      "5018"
+    ], 
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Shahaf_Salakhutdinov_Chair_Rao_Kambhampati": {
     "date": "7/12/2016", 
     "room": "Sutton South", 
-    "s_title": "EarlyCareer - Yejin, Abhinav - Chair: Prasad Tadepalli", 
+    "s_title": "EarlyCareer - Shahaf, Salakhutdinov - Chair: Rao Kambhampati", 
     "submissions": [
-      "5003", 
-      "5004"
+      "5001", 
+      "5002"
     ], 
-    "time": "11:35-12:35"
+    "time": "10:05-11:05"
+  }, 
+  "EarlyCareer_Velez_Doshi_Ermon_Chair_Nevin_Zhang": {
+    "date": "7/13/2016", 
+    "room": "Sutton South", 
+    "s_title": "EarlyCareer - Velez-Doshi, Ermon - Chair: Nevin Zhang", 
+    "submissions": [
+      "5007", 
+      "5008"
+    ], 
+    "time": "08:30-09:55"
   }, 
   "Human_Aware_AI_IJCAI_16_Theme_1_Chair_Laura_Hiatt": {
     "date": "7/12/2016", 
@@ -696,6 +696,33 @@ sessions={
       "5039"
     ], 
     "time": "13:30-17:00"
+  }, 
+  "Invited_Panel_on_Human_Aware_AI_Challenges_Opportunities": {
+    "date": "7/12/2016", 
+    "room": "Ballroom", 
+    "s_title": "Invited Panel on Human-Aware AI: Challenges & Opportunities", 
+    "submissions": [
+      "5046"
+    ], 
+    "time": "11:35-12:35"
+  }, 
+  "Invited_Panel_on_Preparing_for_the_Future_of_AI_Office_of_Science_and_Technology_Policy_OSTP_": {
+    "date": "7/14/2016", 
+    "room": "Ballroom", 
+    "s_title": "Invited Panel on Preparing for the Future of AI, Office of Science and Technology Policy (OSTP)", 
+    "submissions": [
+      "5040"
+    ], 
+    "time": "15:10-16:35"
+  }, 
+  "Invited_Panel_on_Reviewing_Best_Practices": {
+    "date": "7/13/2016", 
+    "room": "Ballroom", 
+    "s_title": "Invited Panel on Reviewing Best Practices", 
+    "submissions": [
+      "5045"
+    ], 
+    "time": "15:10-16:35"
   }, 
   "Invited_Talk_by_David_Silver_Google_DeepMind_Chair_Rao_Kambhampati": {
     "date": "7/12/2016", 
@@ -1509,15 +1536,6 @@ sessions={
     ], 
     "time": "10:05-11:05"
   }, 
-  "Office_of_Science_and_Technology_Policy_OSTP_Panel": {
-    "date": "7/14/2016", 
-    "room": "Ballroom", 
-    "s_title": "Office of Science and Technology Policy (OSTP) Panel", 
-    "submissions": [
-      "5040"
-    ], 
-    "time": "15:10-16:35"
-  }, 
   "Opening_Remarks": {
     "date": "7/12/2016", 
     "room": "Ballroom", 
@@ -1526,15 +1544,6 @@ sessions={
       "5025"
     ], 
     "time": "08:30-09:10"
-  }, 
-  "Panel_on_Reviewing_Best_Practices": {
-    "date": "7/13/2016", 
-    "room": "Ballroom", 
-    "s_title": "Panel on Reviewing Best Practices", 
-    "submissions": [
-      "5045"
-    ], 
-    "time": "15:10-16:35"
   }, 
   "Planning_KR_NLP_Demos": {
     "date": "7/13/2016", 
