@@ -35,6 +35,24 @@ s_filters=[
 					"label":"All"
 				},
 				{
+					"data":"Saturday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Sat (July, 09)"
+				},
+				{
+					"data":"Sunday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Sun (July, 10)"
+				},
+				{
+					"data":"Monday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Mon (July, 11)"
+				},
+				{
 					"data":"Tuesday", 
 					"class":"day filter", 
 					"type":"day", 
