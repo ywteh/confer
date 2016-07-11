@@ -159,6 +159,10 @@ def prepare_data(data_file1):
         
     type = unicode(row[1], "ISO-8859-1")
     if 'talk' in type:
+        if "Applied Data" in type:
+            session = "Applied Data Science Track: " + session
+        if "Research" in type:
+            session = "Research Track: " + session
         type = 'paper'
     if 'keynote' in type:
         type = 'talk'
@@ -168,7 +172,10 @@ def prepare_data(data_file1):
         session = 'Panel: ' + paper_title
     if 'poster' in type:
         type = 'poster'
-        session = "Posters"
+        if "Applied Data" in type:
+            session = "Applied Data Science Track Posters"
+        if "Research" in type:
+            session = "Research Track Posters"
     if 'Tutorial' in type:
         type = "tutorial"
         session = 'Tutorial: ' + paper_title

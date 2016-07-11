@@ -6,24 +6,24 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "Tutorial_Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
+            "room": "Continental 1-4", 
+            "session": "Tutorial_Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events"
           }, 
           {
             "room": "Imperial Ballroom A&B", 
             "session": "Tutorial_Business_Applications_of_Predictive_Modeling_at_Scale"
           }, 
           {
-            "room": "Continental 6-8", 
-            "session": "Tutorial_Algorithmic_Bias_From_Discrimination_Discovery_to_Fairness_aware_Data_Mining"
-          }, 
-          {
-            "room": "Continental 1-4", 
-            "session": "Tutorial_Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events"
-          }, 
-          {
             "room": "Grand Ballroom Salon A", 
             "session": "Tutorial_Extracting_Optimal_Performance_from_Dynamic_Time_Warping"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Tutorial_Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
+          }, 
+          {
+            "room": "Continental 6-8", 
+            "session": "Tutorial_Algorithmic_Bias_From_Discrimination_Discovery_to_Fairness_aware_Data_Mining"
           }
         ], 
         "slot_class": "morning1", 
@@ -73,28 +73,28 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "Graphs_and_Rich_Data"
-          }, 
-          {
             "room": "Yosemite A/B/C", 
             "session": "Applied_Data_Science_Invited_Talk_Computational_Social_Science_Exciting_Progress_and_Future_Challenges"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Research_Track_Graphs_and_Rich_Data"
           }, 
           {
             "room": "Yosemite A/B/C", 
             "session": "Applied_Data_Science_Invited_Talk_Can_You_Teach_the_Elephant_to_Dance_AKA_Culture_Eats_Data_Science_for_Breakfast"
           }, 
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talk_Large_Scale_Machine_Learning_at_Verizon_Theory_and_Applications"
-          }, 
-          {
             "room": "Imperial Ballroom", 
-            "session": "Large_Scale_Data_Mining"
+            "session": "Research_Track_Large_Scale_Data_Mining"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
-            "session": "Social_Good_1"
+            "session": "Applied_Data_Science_Track_Social_Good_1"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Large_Scale_Machine_Learning_at_Verizon_Theory_and_Applications"
           }
         ], 
         "slot_class": "morning2", 
@@ -116,15 +116,15 @@ schedule=[
         "sessions": [
           {
             "room": "Imperial Ballroom", 
-            "session": "Streams_and_Temporal_Evolution_I"
-          }, 
-          {
-            "room": "Plaza Room A/B", 
-            "session": "Graphs_and_Social_Networks_I"
+            "session": "Research_Track_Streams_and_Temporal_Evolution_I"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
-            "session": "Social_Good_2"
+            "session": "Applied_Data_Science_Track_Social_Good_2"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Research_Track_Graphs_and_Social_Networks_I"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -138,8 +138,8 @@ schedule=[
             "session": "Applied_Data_Science_Invited_Talk_Bayesian_Optimization_and_Embedded_Learning_Systems"
           }, 
           {
-            "room": "Plaza Room A/B", 
-            "session": "Graphs_and_Social_Networks_II"
+            "room": "Imperial Ballroom", 
+            "session": "Research_Track_Streams_and_Temporal_Evolution_II"
           }, 
           {
             "room": "Yosemite A/B/C", 
@@ -147,15 +147,15 @@ schedule=[
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
-            "session": "Miscellaneous_Topics"
+            "session": "Applied_Data_Science_Track_Miscellaneous_Topics"
           }, 
           {
             "room": "Yosemite A/B/C", 
             "session": "Applied_Data_Science_Invited_Talk_The_Wisdom_of_Crowds_Best_Practices_for_Data_Prep_Machine_Learning_Derived_from_Millions_of_Data_Science_Workflows"
           }, 
           {
-            "room": "Imperial Ballroom", 
-            "session": "Streams_and_Temporal_Evolution_II"
+            "room": "Plaza Room A/B", 
+            "session": "Research_Track_Graphs_and_Social_Networks_II"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -166,7 +166,7 @@ schedule=[
         "sessions": [
           {
             "room": "Golden Gate", 
-            "session": "Posters"
+            "session": "Poster"
           }
         ], 
         "slot_class": "evening", 
@@ -204,24 +204,24 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "Clustering"
-          }, 
-          {
             "room": "Yosemite A/B/C", 
             "session": "Applied_Data_Science_Invited_Talk_Profiling_Users_from_Online_Social_Behaviors_with_Applications_for_Tencent_Social_Ads"
           }, 
           {
-            "room": "Imperial Ballroom", 
-            "session": "Deep_Learning_and_Embedding"
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Applied_Data_Science_Track_Recommendations_Ranking"
           }, 
           {
             "room": "Yosemite A/B/C", 
             "session": "Applied_Data_Science_Invited_Talk_Accelerating_the_Race_to_Autonomous_Cars"
           }, 
           {
-            "room": "Cyril Magnin - Parc 55", 
-            "session": "Recommendations_Ranking"
+            "room": "Imperial Ballroom", 
+            "session": "Research_Track_Deep_Learning_and_Embedding"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Research_Track_Clustering"
           }, 
           {
             "room": "Yosemite A/B/C", 
@@ -236,19 +236,19 @@ schedule=[
         "sessions": [
           {
             "room": "Plaza Room A/B", 
-            "session": "Unsupervised_Learning_and_Anomaly_Detection"
-          }, 
-          {
-            "room": "Cyril Magnin - Parc 55", 
-            "session": "Social_Networks_Social_Media"
+            "session": "Research_Track_Unsupervised_Learning_and_Anomaly_Detection"
           }, 
           {
             "room": "Imperial Ballroom", 
-            "session": "Recommender_Systems"
+            "session": "Research_Track_Recommender_Systems"
           }, 
           {
             "room": "Yosemite A/B/C", 
             "session": "Panel_Big_Data_Needs_Big_Dreamers_Lessons_from_Successful_Big_Data_Investors"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Applied_Data_Science_Track_Social_Networks_Social_Media"
           }, 
           {
             "room": "Yosemite A/B/C", 
@@ -290,12 +290,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Embarcadero - Parc 55", 
-            "session": "Tutorial_Scalable_Data_Analytics_Using_R"
-          }, 
-          {
             "room": "Market - Parc 55", 
             "session": "Tutorial_Streaming_Analytics"
+          }, 
+          {
+            "room": "Embarcadero - Parc 55", 
+            "session": "Tutorial_Scalable_Data_Analytics_Using_R"
           }
         ], 
         "slot_class": "morning1", 
@@ -305,16 +305,16 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Imperial Ballroom", 
+            "session": "Research_Track_Sequence_Mining"
+          }, 
+          {
             "room": "Cyril Magnin - Parc 55", 
-            "session": "Machine_Learning_Algorithms"
+            "session": "Applied_Data_Science_Track_Machine_Learning_Algorithms"
           }, 
           {
             "room": "Plaza Room A/B", 
-            "session": "Supervised_Learning"
-          }, 
-          {
-            "room": "Imperial Ballroom", 
-            "session": "Sequence_Mining"
+            "session": "Research_Track_Supervised_Learning"
           }
         ], 
         "slot_class": "morning2", 
@@ -324,20 +324,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "User_Behavior_Modeling"
-          }, 
-          {
             "room": "Imperial Ballroom", 
-            "session": "Optimization"
-          }, 
-          {
-            "room": "Cyril Magnin - Parc 55", 
-            "session": "Systems_Experimentation"
+            "session": "Research_Track_Optimization"
           }, 
           {
             "room": "Yosemite A/B/C", 
-            "session": "E_Commerce"
+            "session": "Applied_Data_Science_Track_E_Commerce"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Applied_Data_Science_Track_Systems_Experimentation"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Research_Track_User_Behavior_Modeling"
           }
         ], 
         "slot_class": "afternoon1", 
