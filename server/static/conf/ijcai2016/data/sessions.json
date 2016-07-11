@@ -69,10 +69,10 @@ sessions={
     ], 
     "time": "08:30-09:55"
   }, 
-  "AI_and_the_Web6_Chair_Michael_Freed": {
+  "AI_and_the_Web6_Chair_Mausam": {
     "date": "7/14/2016", 
     "room": "Sutton Center", 
-    "s_title": "AI and the Web6 - Chair: Michael Freed", 
+    "s_title": "AI and the Web6 - Chair: Mausam", 
     "submissions": [
       "2033", 
       "2081", 
@@ -489,10 +489,10 @@ sessions={
     ], 
     "time": "10:05-11:05"
   }, 
-  "Doctoral_Consortium_Posters": {
-    "date": "7/12/2016", 
-    "room": "Rhinelander Gallery", 
-    "s_title": "Doctoral Consortium Posters", 
+  "Doctoral_Consortium": {
+    "date": "7/11/2016", 
+    "room": "East Room 3rd floor", 
+    "s_title": "Doctoral Consortium", 
     "submissions": [
       "292", 
       "2958", 
@@ -539,7 +539,16 @@ sessions={
       "3009", 
       "3015"
     ], 
-    "time": "08:30-20:00"
+    "time": "09:00-17:45"
+  }, 
+  "Doctoral_Consortium_Posters": {
+    "date": "7/12/2016", 
+    "room": "Rhinelander Gallery", 
+    "s_title": "Doctoral Consortium Posters", 
+    "submissions": [
+      "50457"
+    ], 
+    "time": "18:05-20:00"
   }, 
   "EarlyCareer_Agarwal_Seuken_Chair_Shlomo_Zilberstein": {
     "date": "7/13/2016", 
@@ -699,7 +708,7 @@ sessions={
   }, 
   "Invited_Panel_on_Human_Aware_AI_Challenges_Opportunities": {
     "date": "7/12/2016", 
-    "room": "Ballroom", 
+    "room": "Ballroom East", 
     "s_title": "Invited Panel on Human-Aware AI: Challenges & Opportunities", 
     "submissions": [
       "5046"
@@ -708,7 +717,7 @@ sessions={
   }, 
   "Invited_Panel_on_Preparing_for_the_Future_of_AI_Office_of_Science_and_Technology_Policy_OSTP_": {
     "date": "7/14/2016", 
-    "room": "Ballroom", 
+    "room": "Ballroom East", 
     "s_title": "Invited Panel on Preparing for the Future of AI, Office of Science and Technology Policy (OSTP)", 
     "submissions": [
       "5040"
@@ -717,7 +726,7 @@ sessions={
   }, 
   "Invited_Panel_on_Reviewing_Best_Practices": {
     "date": "7/13/2016", 
-    "room": "Ballroom", 
+    "room": "Ballroom East", 
     "s_title": "Invited Panel on Reviewing Best Practices", 
     "submissions": [
       "5045"

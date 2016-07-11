@@ -7646,7 +7646,7 @@ entities={
     ], 
     "keywords": "Multi-agent systems, Social choice, Resource allocation, Fair division, Mechanism design", 
     "title": "Online Fair Division Redux", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2948": {
     "abstract": "Operator-counting is a recently developed framework for analysing and integrating many state-of-the-art heuristics for planning using Linear Programming. In cost-optimal planning only the objective value of these heuristics is traditionally used to guide the search. However the primal solution, i.e. the operator counts, contains useful information. We exploit this information using a SAT-based approach which given an operator-count, either finds a valid plan; or generates a generalized landmark constraint violated by that count. We show that these generalized landmarks can be used to encode the perfect heuristic, h*, as a Mixed Integer Program. Our most interesting experimental result is that finding or refuting a sequence for an operator-count is most often empirically efficient, enabling a novel and promising approach to planning based on Logic-Based Benders Decomposition (LBBD).", 
@@ -7722,7 +7722,7 @@ entities={
     ], 
     "keywords": "Transfer Learning, Multiagent Reinforcement Learning, Multiagent Systems, Markov Decision Processes", 
     "title": "Transfer Learning for Multiagent Reinforcement Learning Systems", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2955": {
     "abstract": "In this paper, we describe proximal gradient temporal difference learning, which provides a principled way for designing and analyzing true stochastic gradient temporal difference learning algorithms. We show how gradient TD  (GTD) reinforcement learning methods can be formally derived,  not with respect to their original objective functions as previously attempted, but rather with respect to primal-dual saddle-point objective functions. We also conduct a saddle-point error analysis to obtain finite-sample bounds on their performance.  Previous analyses of this class of algorithms use stochastic approximation techniques to prove asymptotic convergence,  and no finite-sample analysis had been  attempted.  An accelerated algorithm is also proposed, namely GTD2-MP, which use proximal ``mirror maps'' to yield acceleration.  The results of our theoretical analysis imply that the GTD family of algorithms are  comparable and may indeed be preferred over existing least squares TD methods for off-policy learning, due to their linear complexity. We provide experimental results showing the improved performance of our accelerated gradient TD methods.", 
@@ -7756,7 +7756,7 @@ entities={
     ], 
     "keywords": "Polyadic Formal Concept Analysis, Answer-Set Programming, Conceptual Navigation", 
     "title": "Conceptual Visualization and Navigation Methods for Polyadic Formal Concept Analysis", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2957": {
     "abstract": "A binary CSP instance satisfying the broken-triangle property (BTP) can be solved in polynomial time. Unfortunately, in practice, few instances satisfy the BTP. We show that a local version of the BTP allows the merging of domain values in binary  CSPs, thus providing a novel polynomial-time reduction operation. Experimental trials on benchmark instances demonstrate a significant decrease in instance size for certain classes of problems. We show that BTP-merging can be generalised to instances with constraints of arbitrary arity.   A directional version of the general-arity BTP then allows us to extend the BTP tractable class previously defined only for binary CSP.", 
@@ -7787,7 +7787,7 @@ entities={
     ], 
     "keywords": "program synthesis, inductive programming, relational learning", 
     "title": "Logic-based inductive synthesis of efficient programs", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "296": {
     "abstract": "Constraint answer set programming is a promising research direction that integrates answer set programming with constraint processing. It is often informally related to the field of Satisfiability Modulo Theories. Yet, the exact formal link is obscured as the terminology and concepts used in these two research areas differ. In this paper, we make the link between these two areas precise.", 
@@ -7812,7 +7812,7 @@ entities={
     ], 
     "keywords": "Diagnosis, Discrete Event Systems, Diagnosability, On-line Diagnosis, Knowledge Representation and Reasoning", 
     "title": "Extended Abstract: Time Decomposition for Diagnosis of Discrete Event Systems", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2966": {
     "abstract": "", 
@@ -7823,7 +7823,7 @@ entities={
     ], 
     "keywords": "Knowledge Representation, Probabilistic Reasoning, Logic programming, Answer Set Programming", 
     "title": "Combining Logic and Probability: P-log Perspective", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2967": {
     "abstract": "", 
@@ -7834,7 +7834,7 @@ entities={
     ], 
     "keywords": "agent based models, integrating, combining, reusing, reusing agent based models", 
     "title": "Integrating Heterogeneous Multi-Agent Component Models to Build Complex Simulations", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2968": {
     "abstract": "", 
@@ -7845,7 +7845,7 @@ entities={
     ], 
     "keywords": "Adaptive machine learning, Personalized sequential recommendation, Context tree recommender, Massive open online courses (MOOCs)", 
     "title": "Adaptive Sequential Recommendation using Context Trees", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2969": {
     "abstract": "", 
@@ -7856,7 +7856,7 @@ entities={
     ], 
     "keywords": "robust data representation, low-rank modeling, data analytics", 
     "title": "Learning Robust Representations for Data Analytics", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2970": {
     "abstract": "", 
@@ -7867,7 +7867,7 @@ entities={
     ], 
     "keywords": "visual understanding, unsupervised learning, weakly-supervised learning", 
     "title": "Towards Intelligent Visual Understanding under Minimal Supervision", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2971": {
     "abstract": "", 
@@ -7878,7 +7878,7 @@ entities={
     ], 
     "keywords": "Knowledge Modeling, Semantics, Data Analytics, Diagnostics, Complex Systems, Ontology-base Solution", 
     "title": "Semantic Framework for Industrial Analytics and Diagnostics", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2972": {
     "abstract": "", 
@@ -7889,7 +7889,7 @@ entities={
     ], 
     "keywords": "reactive policies, action languages, verification", 
     "title": "Reactive Policy Checking for Action Languages", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2973": {
     "abstract": "", 
@@ -7900,7 +7900,7 @@ entities={
     ], 
     "keywords": "branch-and-bound, tree search, integer programming, machine learning, multi-armed bandits", 
     "title": "Machine Learning for Integer Programming", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2974": {
     "abstract": "", 
@@ -7911,7 +7911,7 @@ entities={
     ], 
     "keywords": "Machine Learning, Online Feature Selection, Short-text Classification, Social Networks", 
     "title": "Integrating Social Network Structure into Online Feature Selection", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2975": {
     "abstract": "", 
@@ -7922,7 +7922,7 @@ entities={
     ], 
     "keywords": "transfer learning, lifelong learning, anomaly detection, formal concept analysis, representation learning, conceptual clustering, case-based reasoning", 
     "title": "A Framework for Anomaly Reasoning: Interpretation through Concept Formation for Knowledge Transfer and Lifelong Learning", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2976": {
     "abstract": "", 
@@ -7933,7 +7933,7 @@ entities={
     ], 
     "keywords": "Automated Planning, Planning Under Uncertainty, Non-Deterministic Planning, Probabilistic Planning, Temporally Extended Goals", 
     "title": "Planning Under Uncertainty with Temporally Extended Goals", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2977": {
     "abstract": "", 
@@ -7944,7 +7944,7 @@ entities={
     ], 
     "keywords": "Monte Carlo tree search, UCT, Stochastic tree search, Multi-agent planning, Multi-robot planning, Multi-robot task allocation, Computer narrative generation", 
     "title": "Stochastic Planning in Large Search Spaces", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2978": {
     "abstract": "", 
@@ -7955,7 +7955,7 @@ entities={
     ], 
     "keywords": "Network Science, Complex Networks, Artificial Intelligence, Deep Learning, Restricted Boltzmann Machine, Swarm Intelligence, Image/Video quality assessment, Computer Vision", 
     "title": "On the synergy of network science and artificial intelligence", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2979": {
     "abstract": "", 
@@ -7966,7 +7966,7 @@ entities={
     ], 
     "keywords": "Socially Assistive Robotics, Human-Robot Interaction, Multi-Party Interaction, Moderation, Multi-Party Human-Robot Interaction", 
     "title": "Socially Assistive Robot Moderators: Validation and Future Directions", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2980": {
     "abstract": "", 
@@ -7977,7 +7977,7 @@ entities={
     ], 
     "keywords": "computational narrative, natural language processing, information extraction", 
     "title": "Automated Narrative Information Extraction Using Non-Linear Pipelines", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2981": {
     "abstract": "", 
@@ -7988,7 +7988,7 @@ entities={
     ], 
     "keywords": "Machine Learning, Multi-label Classification, Bioinformatics, Probabilistic Generative Model, Bayesian Networks", 
     "title": "Improved Multi-label Learning and its Application to Protein Location Prediction", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2982": {
     "abstract": "", 
@@ -7999,7 +7999,7 @@ entities={
     ], 
     "keywords": "Probabilistic Planning, Markov Decision Process, Partially Observable Markov Decision Process, Utility Theory, Risk-Sensitive", 
     "title": "Probabilistic Planning with Risk-Sensitive Criterion", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2985": {
     "abstract": "", 
@@ -8010,7 +8010,7 @@ entities={
     ], 
     "keywords": "Goal autonomy, Planning, Deliberation, Proactivity, Robotics", 
     "title": "Proactivity in Robots", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2986": {
     "abstract": "", 
@@ -8021,7 +8021,7 @@ entities={
     ], 
     "keywords": "partial-order planning, narrative reasoning, discourse plan", 
     "title": "BiPOCL: A Discourse-Driven Story Planner for Procedural Narrative Generation (Extended Abstract)", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2988": {
     "abstract": "", 
@@ -8032,7 +8032,7 @@ entities={
     ], 
     "keywords": "Symmetries, MDPs, Monte Carlo Tree Search, Inference", 
     "title": "Lifting Techniques for Sequential Decision Making and Probabilistic Inference", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2989": {
     "abstract": "", 
@@ -8043,7 +8043,7 @@ entities={
     ], 
     "keywords": "Procedural Content Generation, PCG, Markov chains, Machine Learning", 
     "title": "General Statistical Approaches to Procedural Map Generation", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2990": {
     "abstract": "We study online boosting, the task of converting any weak online learner into a strong online learner. Based on a novel and natural definition of weak online learnability, we develop two online boosting algorithms. The first algorithm is an online version of boost-by-majority. By proving a matching lower bound, we show that this algorithm is essentially optimal in terms of the number of weak learners and the sample complexity needed to achieve a specified accuracy. The second algorithm is adaptive and parameter-free, albeit not optimal.", 
@@ -8071,7 +8071,7 @@ entities={
     ], 
     "keywords": "human-like artificial intelligence, player modeling, game design, computational creativity, survival analysis", 
     "title": "Computer-Aided Game Design: Doctoral Consortium Research Abstract", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2993": {
     "abstract": "", 
@@ -8082,7 +8082,7 @@ entities={
     ], 
     "keywords": "Spatial Reasoning, Spatio-Temporal Reasoning, Answer Set Programming Modulo Theories, Commonsense Reasoning", 
     "title": "Reasoning about Space and Change with Answer Set Programming Modulo Theories", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2995": {
     "abstract": "", 
@@ -8093,7 +8093,7 @@ entities={
     ], 
     "keywords": "Motion Prediction, Human-Robot Interaction, Classification, Robotics", 
     "title": "Fast Motion Prediction For Collaborative Robotics", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2996": {
     "abstract": "", 
@@ -8104,7 +8104,7 @@ entities={
     ], 
     "keywords": "combinatorial search, constraint programming, parallel search, variable and value ordering heuristics, graph algorithms, subgraph isomorphism, maximum clique, maximum common subgraph", 
     "title": "Solving Hard Subgraph Problems in Parallel", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2997": {
     "abstract": "", 
@@ -8115,7 +8115,7 @@ entities={
     ], 
     "keywords": "Human Computation, Multiple labels, Crowd-labeling, Expert-labels, Frequentist approach, Bayesian approach", 
     "title": "Toward a Robust and Universal Crowd-labeling Framework", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "2999": {
     "abstract": "", 
@@ -8126,7 +8126,7 @@ entities={
     ], 
     "keywords": "collective behavior, computational social science, multiagent systems", 
     "title": "Multiagent Models of Human Collective Behavior", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3001": {
     "abstract": "", 
@@ -8137,7 +8137,7 @@ entities={
     ], 
     "keywords": "Heuristic Search, Multi-Agent Path Finding, Bounded Suboptimal Algorithms", 
     "title": "Bounded Suboptimal Multi-Agent Path Finding Using Highways", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3002": {
     "abstract": "", 
@@ -8148,7 +8148,7 @@ entities={
     ], 
     "keywords": "multi agent navigation, multi agent motion planning, multi agent planning, multi agent coordination", 
     "title": "Action Selection Methods for Multi-Agent Navigation in Crowded Environments", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3003": {
     "abstract": "", 
@@ -8159,7 +8159,7 @@ entities={
     ], 
     "keywords": "planning, goal reasoning, cognitive systems", 
     "title": "Rational-based Visual Planning Monitors", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3005": {
     "abstract": "", 
@@ -8170,7 +8170,7 @@ entities={
     ], 
     "keywords": "goal driven autonomy, anomaly detection, metacognition", 
     "title": "Self Monitoring, Goal Driven Autonomy Agents", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3006": {
     "abstract": "", 
@@ -8181,7 +8181,7 @@ entities={
     ], 
     "keywords": "Dynamic Bayesian Networks, Probabilistic Graphical Models, Active Inference, Uncertainty Measurement, Spatio-temporal Models", 
     "title": "Active Inference on Dynamic Bayesian Networks", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3007": {
     "abstract": "", 
@@ -8192,7 +8192,7 @@ entities={
     ], 
     "keywords": "summarization, abstractive text generation, natural language processing, stream processing", 
     "title": "Extractive and Abstractive Event Summarization over Streaming Web Text", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3009": {
     "abstract": "", 
@@ -8203,7 +8203,7 @@ entities={
     ], 
     "keywords": "Spiking Neuron Network, Synaptic Plasticity, Unsupervised Learning, Classification, Early Detection, Real-time recognition", 
     "title": "Are Spiking Neural Networks Useful for Classifying and Early Recognition of Spatio-Temporal Patterns?", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "301": {
     "abstract": "Policy advice is a transfer learning method where a student agent is able to learn faster via advice from a teacher agent. However, both this and other current reinforcement learning transfer methods have little theoretical analysis. This paper formally defines a setting where multiple teacher agents can provide advice to a student and introduces an algorithm to leverage both autonomous exploration and the teacher's advice. Regret bounds justify the intuition that \u00e2\u0080\u009cgood teachers help while bad teachers hurt.\u00e2\u0080\u009d Using our formalization, we are also able to quantify, for the first time, when negative transfer can occur within such a reinforcement learning setting.", 
@@ -8231,7 +8231,7 @@ entities={
     ], 
     "keywords": "Natural Language Understanding, Semantic Parsing, Commonsense knowledge Acquisition, Winograd Schema Challenge", 
     "title": "Towards Understanding Natural Language: Semantic Parsing, Commonsense Knowledge Acquisition and Applications", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3011": {
     "abstract": "", 
@@ -8242,7 +8242,7 @@ entities={
     ], 
     "keywords": "Boolean Satisfiability, Constraint Programming, SAT Solving, Pseudo-Boolean Constraint, CNF", 
     "title": "Application for Doctoral Consortium: Modelling Satisfiability Problems ; Theory and Practice", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3012": {
     "abstract": "", 
@@ -8253,7 +8253,7 @@ entities={
     ], 
     "keywords": "Human mobility modelling, Unsupervised learning, Hierarchical Dirichlet Processes", 
     "title": "Location Data Mining with Hierarchical Dirichlet Process", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3013": {
     "abstract": "", 
@@ -8264,7 +8264,7 @@ entities={
     ], 
     "keywords": "Multi-objective path-planning, Homotopy-based optimal path-planning, Human-robot interaction, Language understanding", 
     "title": "Instructing Quantitative Path-Planning by Qualitative Language Expression", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3015": {
     "abstract": "", 
@@ -8275,7 +8275,7 @@ entities={
     ], 
     "keywords": "Game Theory, Cooperation, Machine Learning", 
     "title": "An Approach to Cooperation in General-sum Normal Form Games", 
-    "type": "poster"
+    "type": "talk"
   }, 
   "3018": {
     "abstract": "We present an original approach to compute efficient mid-term fleet configurations at the request of a Queensland-based long-haul trucking carrier. Our approach considers one year\u00e2\u0080\u0099s worth of demand data, and employs a constraint programming (CP) model and an adaptive large neighbourhood search (LNS) scheme to solve the underlying multi-day multi-commodity split delivery capacitated vehicle routing problem.", 
@@ -10233,6 +10233,12 @@ entities={
     "authors": [], 
     "title": "Invited Panel on Reviewing Best Practices", 
     "type": "talk"
+  }, 
+  "50457": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Doctoral Consortium Posters", 
+    "type": "poster"
   }, 
   "5046": {
     "abstract": "Panelists:  Barbara Grosz, Bjorn Schuller, Guruduth Banavar, Ken Forbus, and Manuela Veloso", 
