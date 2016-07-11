@@ -440,6 +440,17 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "East Room 3rd floor", 
+            "session": "Doctoral_Consortium"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "7_11_201609_00_17_45", 
+        "time": "09:00-17:45"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "Sutton North", 
             "session": "Tutorial_Low_Rank_and_Sparse_Modeling_for_Data_Analytics"
           }
@@ -522,10 +533,6 @@ schedule=[
         "sessions": [
           {
             "room": "Rhinelander Gallery", 
-            "session": "Doctoral_Consortium_Posters"
-          }, 
-          {
-            "room": "Rhinelander Gallery", 
             "session": "Main_track_AIW_track_Posters_Day_1"
           }, 
           {
@@ -605,7 +612,7 @@ schedule=[
             "session": "Agent_based_and_Multi_agent_Systems2_Social_Choice_Theory1_Chair_Reshef_Meir"
           }, 
           {
-            "room": "Ballroom", 
+            "room": "Ballroom East", 
             "session": "Invited_Panel_on_Human_Aware_AI_Challenges_Opportunities"
           }, 
           {
@@ -725,6 +732,17 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "7_12_201617_05_18_05", 
         "time": "17:05-18:05"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Rhinelander Gallery", 
+            "session": "Doctoral_Consortium_Posters"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "7_12_201618_05_20_00", 
+        "time": "18:05-20:00"
       }
     ]
   }, 
@@ -882,7 +900,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Ballroom", 
+            "room": "Ballroom East", 
             "session": "Invited_Panel_on_Reviewing_Best_Practices"
           }, 
           {
@@ -1113,11 +1131,7 @@ schedule=[
             "session": "Knowledge_Representation_Reasoning_and_Logic8_Knowledge_Representation2_Chair_Alessandro_Saffiotti"
           }, 
           {
-            "room": "Sutton Center", 
-            "session": "AI_and_the_Web6_Chair_Michael_Freed"
-          }, 
-          {
-            "room": "Ballroom", 
+            "room": "Ballroom East", 
             "session": "Invited_Panel_on_Preparing_for_the_Future_of_AI_Office_of_Science_and_Technology_Policy_OSTP_"
           }, 
           {
@@ -1127,6 +1141,10 @@ schedule=[
           {
             "room": "Beekman Parlor", 
             "session": "Machine_Learning14_Neural_Networks_Chair_Kartik_Talamadupula"
+          }, 
+          {
+            "room": "Sutton Center", 
+            "session": "AI_and_the_Web6_Chair_Mausam"
           }, 
           {
             "room": "Sutton North", 
