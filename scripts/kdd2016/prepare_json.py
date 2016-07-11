@@ -159,20 +159,22 @@ def prepare_data(data_file1):
         
     type = unicode(row[1], "ISO-8859-1")
     if 'talk' in type:
-        if "Applied Data" in type:
-            type = 'talk'
-        else:
-            type = 'paper'
+        type = 'paper'
     if 'keynote' in type:
         type = 'talk'
-        session = paper_title
+        session = 'Keynote: ' + paper_title
     if 'Panel' in type:
         type = 'panel'
+        session = 'Panel: ' + paper_title
     if 'poster' in type:
         type = 'poster'
+        session = "Posters"
     if 'Tutorial' in type:
         type = "tutorial"
-        session = paper_title
+        session = 'Tutorial: ' + paper_title
+    if session == "Applied Data Science Invited Talks":
+        type = "talk"
+        session = 'Applied Data Science Invited Talk: ' + paper_title
 
     # prepare papers data
     papers[paper_id] = {

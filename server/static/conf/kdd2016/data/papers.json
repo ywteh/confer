@@ -97,7 +97,7 @@ entities={
       }
     ], 
     "title": "A Non-parametric Approach to Detect Epileptogenic Lesions using Restricted Boltzmann Machines", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1033": {
     "abstract": "Machine learning methods have been widely used in modeling and predicting network user experience. In this paper, moving beyond user experience prediction, we propose a closed-loop approach that uses data-generated prediction models to explicitly guide resource allocation for user experience improvement. The closed-loop approach leverages and verifies the causal relation that often exists between certain feature values (e.g., bandwidth) and user experience in computer networks. The approach consists of three components: we train a neural network classifier to predict user experience, utilize the trained neural network classifier as the objective function to allocate network resource, and then evaluate user experience with allocated resource to (in)validate and adjust the original model. Specifically, we propose a dual decomposition algorithm to solve the neural network-based resource optimization problem, which is complex and non-convex. We further develop an iterative mechanism for classifier optimization. Numerical results show that the dual algorithm reduces the expected number of unsatisfied users by up to 2x compared with the baseline, and the optimized classifier further improves the performance by 50%.", 
@@ -151,7 +151,7 @@ entities={
       }
     ], 
     "title": "Batch Model for Batched Timestamps Data Analysis with Application to the SSA Disability Program", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1039": {
     "abstract": "This paper describes Sparse Frequent Directions, a variant of Frequent Directions for sketching sparse matrices. \n\nIt resembles the original algorithm in many ways:\n\nboth receive the rows of an input matrix $A^{n \\times d}$ one by one in the streaming setting and compute a small sketch $B \\in \\R^{\\ell \\times d}$.\n\nBoth share the same strong (provably optimal) asymptotic guarantees with respect to the space-accuracy tradeoff in the streaming setting. However, unlike Frequent Directions which runs in $O(nd\\ell)$ time regardless of the sparsity of the input matrix $A$, Sparse Frequent Directions runs in $\\tilde{O}\\left(\\nnz(A)\\ell + n\\ell^2\\right)$ time.\n\nOur analysis loosens the dependence on computing the Singular Value Decomposition (SVD) as a black box within the Frequent Directions algorithm. Our bounds require recent results on the properties of fast approximate SVD computations.  \n\nFinally, we empirically demonstrate that these asymptotic improvements are practical and significant on real and synthetic data.  ", 
@@ -337,7 +337,7 @@ entities={
       }
     ], 
     "title": "Identifying Decision Makers from Professional Social Networks", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "11": {
     "abstract": "Dynamic Time Warping (DTW) is a distance measure that compares two time series after optimally aligning them. DTW is being used for decades in thousands of academic and industrial projects despite the very expensive computational complexity, O(n^2). These applications include data mining, image processing, signal processing, robotics and computer graphics among many others. \n\nIn spite of all this research effort, there are many myths and misunderstanding about DTW in the literature, for example \u00f1it is too slow to be useful\u00ee or \u00f1the warping window size does not matter much.\u00ee\n\nIn this tutorial, we correct these misunderstandings and we summarize the research efforts in optimizing both the efficiency and effectiveness of both the basic DTW algorithm, and of the higher-level algorithms that exploit DTW such as similarity search, clustering and classification. We will discuss variants of DTW such as constrained DTW, multidimensional DTW and asynchronous DTW, and optimization techniques such as lower bounding, early abandoning, run-length encoding, bounded approximation and hardware optimization.\n\nWe will discuss a multitude of application areas including physiological monitoring, social media mining, activity recognition and animal sound processing. The optimization techniques are generalizable to other domains on various data types and problems.\n\n", 
@@ -406,7 +406,7 @@ entities={
       }
     ], 
     "title": "Minimizing Legal Exposure of High-Tech Companies through Collaborative Filtering Methods", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1131": {
     "abstract": "Forecasting large-scale societal events like civil unrest movements, disease outbreaks, and elections is an important and challenging problem. From the perspective of human analysts and policy makers, forecasting  algorithms must not only make accurate predictions but must also provide supporting evidence, e.g., the causal factors related to the event of interest. We develop a novel multiple instance learning based approach that jointly tackles the problem of identifying evidence-based precursors and forecasts events into the future.\n\n\n\nSpecifically, given a collection of streaming news articles from multiple sources we develop a nested multiple instance learning approach to forecast significant societal events such as protests. Using data from three countries in Latin America, we demonstrate how our approach is able to consistently identify news articles considered as precursors for protests. Our empirical evaluation demonstrates the strengths of our proposed approach in filtering candidate precursors, in forecasting the occurrence of events with a lead time advantage and in accurately predicting the characteristics of civil unrest events.", 
@@ -486,7 +486,7 @@ entities={
       }
     ], 
     "title": "EMBERS at 4 years: Experiences operating an Open Source Indicators Forecasting System", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1142": {
     "abstract": "We consider optimal reserve prices in BrightRoll Video Exchange when the inventory opportunity comes from other exchanges (downstream marketplaces). We show that the existence of downstream auctions impacts the optimal floor. Moreover, it renders the classical derivation of the floor set by a monopolist inadequate and suboptimal. We derive the new downstream-corrected reserve price and compare its performance with respect to existing floors and the classical optimal monopoly price. In our application, the downstream-corrected reserve price proves superior to both. \n\n\n\nThe proposed model also deals with data challenges commonly faced by exchanges: limited number of logged bids in an auction, and uncertainty regarding the bidding behavior in other exchanges.\n\n\n\nThe relevance of this study transcends its particular context and is applicable to a wide range of scenarios where sequential auctions exist, and where marketplaces interact with each other.\n\n", 
@@ -560,7 +560,7 @@ entities={
       }
     ], 
     "title": "Predictors without Borders: Behavioral Modeling of Product Adoption in Three Developing Countries", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1162": {
     "abstract": "As one of the most significant machine learning topics, clustering has been extensively employed in various kinds of area. Its prevalent application in scientific research as well as industrial practice has drawn high attention in this day and age. A multitude of clustering methods have been developed, among which the graph based clustering method using the affinity matrix has been laid great emphasis on. Recent research work used the doubly stochastic matrix to normalize the input affinity matrix and enhance the graph based clustering models. Although the doubly stochastic matrix can improve the clustering performance, the clustering structure in the doubly stochastic matrix is not clear as expected. Thus, post processing step is required to extract the final clustering results, which may not be optimal. To address this problem, in this paper, we propose a novel convex model to learn the structured doubly stochastic matrix by imposing low-rank constraint on the graph Laplacian matrix. Our new structured doubly stochastic matrix can explicitly uncover the clustering structure and encode the probabilities of pair-wise data points to be connected, such that the clustering results are enhanced. An efficient optimization algorithm is derived to solve our new objective. Also, we provide theoretical discussions that when the input differs, our method possesses interesting connections with K-means and spectral graph cut models respectively. We conduct experiments on both synthetic and benchmark datasets to validate the performance of our proposed method. The empirical results demonstrate that our model provides an approach to better solving the K-mean clustering problem. By using the cluster indicator provided by our model as initialization, K-means converges to a smaller objective function value with better clustering performance. Moreover, we compare the clustering performance of our model with spectral clustering and related double stochastic model. On all datasets, our method performs equally or better than the related methods.", 
@@ -816,7 +816,7 @@ entities={
       }
     ], 
     "title": "Identifying Earmarks in Congressional Bills", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "123": {
     "abstract": "Most social networking services support multiple types of relationships between users, such as getting connected, sending messages, and consuming feed updates. These users and relationships can be naturally represented as a dynamic multi-view network, which is a set of weighted graphs with shared common nodes but having their own respective edges. Different network views, representing structural relationship and interaction types, could have very distinctive properties individually and these properties may change due to interplay across views. Therefore, it is of interest to study how multiple views interact and affect network dynamics and, in addition, explore possible applications to social networking.\n\n\n\nIn this paper, we propose approaches to capture and analyze multi-view network dynamics from various aspects. Through our proposed descriptors, we observe the synergy and cannibalization between different user groups and network views from LinkedIn dataset. We then develop models that consider the synergy and cannibalization per new relationship, and show the outperforming predictive capability of our models compared to baseline models. Finally, the proposed models allow us to understand the interplay among different views where they dynamically change over time.", 
@@ -863,7 +863,7 @@ entities={
       }
     ], 
     "title": "Anomaly Detection Using Program Control Flow Graph Mining From Execution Logs", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "1236": {
     "abstract": "This paper considers the feature selection scenario where only a few features are accessible at any time point. For example, features are generated sequentially and visible one by one. Therefore, one has to make an online decision to identify key features after all features are only scanned once or twice. The optimization based approach is a powerful tool for the online feature selection.\n\n\n\nHowever, most existing optimization based algorithms explicitly or implicitly adopt $L_1$ norm regularization to identify important features, and suffer two main disadvantages: 1) the penalty term for $L_1$ norm term is hard to choose; and 2) the memory usage is hard to control or predict. To overcome these two drawbacks, this paper proposes a limited-memory and model parameter free online feature selection algorithm, namely online substitution (OS) algorithm. To improve the selection efficiency, an asynchronous parallel extension for OS (Asy-OS) is proposed. Convergence guarantees are provided for both algorithms. Empirical study suggests that the performance of OS and Asy-OS is comparable to the benchmark algorithm Grafting, but requires much less memory cost and can be easily extended to the parallel implementation.", 
@@ -976,7 +976,7 @@ entities={
       }
     ], 
     "title": "Repeat Buyer Prediction for E-Commerce", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "163": {
     "abstract": "We describe matrix computations available in the cluster programming framework, Apache Spark. Out of the box, Spark provides abstractions and implementations for distributed matrices and optimization routines using these matrices. When translating single-node algorithms to run on a distributed cluster, we observe that often a simple idea is enough: separating matrix operations from vector operations and shipping the matrix operations to be ran on the cluster, while keeping vector operations local to the driver. In the case of the Singular Value Decomposition, by taking this idea to an extreme, we are able to exploit the computational power of a cluster, while running code written decades ago for a single core. Another example is our Spark port of the popular TFOCS optimization package, originally built for MATLAB, which allows for solving Linear programs as well as a variety of other convex programs. We conclude with a comprehensive set of benchmarks for hardware accelerated matrix computations from the JVM, which is interesting in its own right, as many cluster programming frameworks use the JVM. The contributions described in this paper are already merged into Apache Spark and available on Spark installations by default, and commercially supported by a slew of companies which provide further services.", 
@@ -1010,7 +1010,7 @@ entities={
       }
     ], 
     "title": "Matrix Computations and Optimization in Apache Spark", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "17": {
     "abstract": "One of the overarching tasks of document analysis is to find what topics people talk about. One of the main techniques for this purpose is topic modeling. So far many models have been proposed. However, the existing models typically perform full analysis on the whole data to find all topics. This is certainly useful, but in practice we found that the user almost always also wants to perform more detailed analyses on some specific aspects, which we refer to as targets (or targeted aspects). Current full-analysis models are not suitable for such analyses as their generated topics are often too coarse and may not even be on target. For example, given a set of tweets about e-cigarette, one may want to find out what topics under discussion are specifically related to children. Likewise, given a collection of online reviews about a camera, a consumer or camera manufacturer may be interested in finding out all topics about the camera's screen, the targeted aspect. As we will see in our experiments, current full topic models are ineffective for such targeted analyses. This paper studies this problem and proposes a novel targeted topic model (TTM) to enable focused analyses on any specific aspect of interest. Our experimental results demonstrate the effectiveness of the TTM.", 
@@ -1583,7 +1583,7 @@ entities={
       }
     ], 
     "title": "Contextual Intent Tracking for Personal Assistants", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "3": {
     "abstract": "When an item goes out of stock, sales transaction data no longer reflect the original customer demand, since some customers leave with no purchase while others substitute alternative products for the one that was out of stock. Here we develop a Bayesian hierarchical model for inferring the underlying customer arrival rate and choice model from sales transaction data and the corresponding stock levels. The model uses a nonhomogeneous Poisson process to allow the arrival rate to vary throughout the day, and allows for a variety of choice models. Model parameters are inferred using a stochastic gradient MCMC algorithm that can scale to large transaction databases. We fit the model to data from a local bakery and show that it is able to make accurate out-of-sample predictions, and to provide actionable insight into lost cookie sales.", 
@@ -1908,7 +1908,7 @@ entities={
       }
     ], 
     "title": "Ranking Relevance in Yahoo Search", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "363": {
     "abstract": "The demand for automatic extraction of true information (i.e., truths) from conflicting multi-source data has soared recently. A variety of \\textit{truth discovery} methods have witnessed great successes via jointly estimating source reliability and truths. All existing truth discovery methods focus on providing a point estimator for each object's truth, but in many real-world applications, confidence interval estimation of truths is more desirable, since confidence interval contains richer information. To address this challenge, in this paper, we propose a novel truth discovery method (\\emph{ETCIBoot}) to construct confidence interval estimates as well as identify truths, where the bootstrapping techniques are nicely integrated into the truth discovery procedure. Due to the properties of bootstrapping, the estimators obtained by \\emph{ETCIBoot} are more accurate and robust compared with the state-of-the-art truth discovery approaches. Theoretically, we prove the asymptotical consistency of the confidence interval obtained by \\emph{ETCIBoot}. Experimentally, we demonstrate that \\emph{ETCIBoot} is not only effective in constructing confidence intervals but also able to obtain better truth estimates.", 
@@ -1974,7 +1974,7 @@ entities={
       }
     ], 
     "title": "Large-Scale Item Categorization in e-Commerce Using Multiple Recurrent Neural Networks", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "397": {
     "abstract": "The all-distances sketch (ADS) has recently emerged as a promising paradigm of graph neighborhood sketching. An ADS is a probabilistic data structure that is defined for each vertex of a graph. ADSs facilitate accurate estimation of many useful indicators for network analysis with the guarantee of accuracy, and the ADSs for all the vertices in a graph can be computed in near-linear time. Because of these useful properties, ADS has attracted considerable attention. However, a critical drawback of ADS is its space requirement, which tends to be much larger than that of the graph itself. In the present study, we address this issue by designing a new graph sketching scheme, namely, sketch retrieval shortcuts (SRS). Although SRSs are more space-efficient than ADSs by an order of magnitude, an ADS of any vertex can be quickly retrieved from the SRSs. The retrieved ADSs can be used to estimate the aforementioned indicators in exactly the same manner as with plain ADSs, inheriting the same accuracy guarantee. Our experiments on real-world networks demonstrate the usefulness of SRSs as a practical back-end of large-scale graph data mining.", 
@@ -2009,7 +2009,7 @@ entities={
       }
     ], 
     "title": "DopeLearning: A Computational Approach to Rap Lyrics Generation", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "4": {
     "abstract": "This tutorial introduces Lifelong Machine Learning (LML) and Machine Reading. The core idea of LML is to learn con- tinuously and accumulate the learned knowledge, and to use the knowledge to help future learning, which is perhaps the hallmark of human learning and human intelligence. By us- ing prior knowledge seamlessly and effortlessly, we humans can learn without a lot of training data, but current ma- chine learning algorithms tend to need a huge amount of training data. LML aims to mimic this human capability. Machine Reading is a research area with the goal of building systems to read natural language text. Among different ap- proaches employed in Machine Reading, this tutorial focuses on projects and approaches that use the idea of LML.\n\n\n\nMost current machine learning (ML) algorithms learn in isolation. They are designed to address a specific problem using a single dataset. That is, given a dataset, an ML algo- rithm is executed on the dataset to build a model. Although this type of isolated learning is very useful, it does not have the ability to accumulate past knowledge and to make use of the knowledge for future learning, which we believe are critical for the future of machine learning and data mining. LML aims to design and develop computational systems and algorithms with this capability, i.e., to learn as humans do in a lifelong manner.\n\n\n\nIn this tutorial, we introduce this important problem and the existing LML techniques and discuss opportunities and challenges of big data for lifelong machine learning. We also want to motivate researchers and practitioners to actively explore LML as the big data provides us a golden opportu- nity to learn a large volume of diverse knowledge, to connect different pieces of it, and to use it to raise data mining and machine learning to a new level.", 
@@ -2417,7 +2417,7 @@ entities={
       }
     ], 
     "title": "Audience Expansion for Online Social Network Advertising", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "49": {
     "abstract": "Data of many problems in real-world systems such as link prediction and one-class recommendation share common characteristics. First, data are in the form of positive-unlabeled (PU) measurements (e.g. Twitter \u00f1following\u00ee, Facebook \u00f1like\u00ee, etc.) that do not provide negative information, which can be naturally represented as networks. Second, in the era of big data, such data are generated temporally-ordered, continuously and rapidly, which determines its streaming nature. These common characteristics allow us to unify many problems into a novel framework -- PU learning in streaming networks. In this paper, a principled probabilistic approach SPU is proposed to leverage the characteristics of the streaming PU inputs. In particular, SPU captures temporal dynamics and provides real-time adaptations and predictions by identifying the potential negative signals concealed in unlabeled data.  Our empirical results on various real-world datasets demonstrate the effectiveness of the proposed framework over other state-of-the-art methods in both link prediction and recommendation.", 
@@ -2487,7 +2487,7 @@ entities={
       }
     ], 
     "title": "Engagement Capacity and Engaging Team Formation for Reach Maximization of Online Social Media Platforms", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "511": {
     "abstract": "The Atlanta Fire Rescue Department (AFRD), like many municipal fire departments, actively works to reduce fire risk by inspecting commercial properties for potential hazards and fire code violations. However, AFRD's fire inspection practices relied on tradition and intuition, with no existing data-driven process for prioritizing fire inspections or identifying new properties requiring inspection. In collaboration with AFRD, we developed the  Firebird  framework to help municipal fire departments identify and prioritize commercial property fire inspections, using machine learning, geocoding, and information visualization. Firebird computes fire risk scores for over 5,000 buildings in the city, with true positive rates of up to 71% in predicting fires. It has identified 6,096 new potential commercial properties to inspect, based on AFRD's criteria for inspection. Furthermore, through an interactive map, Firebird integrates and visualizes fire incidents, property information and risk scores to help AFRD make informed decisions about fire inspections. Firebird has already begun to make positive impact at both local and national levels. It is improving AFRD's inspection processes and Atlanta residents' safety, and was highlighted by National Fire Protection Association (NFPA) as a best practice for using data to inform fire inspections.", 
@@ -2518,7 +2518,7 @@ entities={
       }
     ], 
     "title": "Firebird: Predicting Fire Risk and Prioritizing Fire Inspections in Atlanta", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "514": {
     "abstract": "To combat the ease of online shopping in pajamas, offline mall owners focus increasingly on driving satisfaction and improving retention by identifying customers' preferences. However, most of these studies are based on customers' offline consuming history only. Benefiting from the internet, we can also get customers' online behaviors, such as the search logs, web browsing logs, online shopping logs, and so on. Might these seemingly irrelevant information from two different modalities (i.e. online and offline) be somehow interrelated? How can we make use of the online behaviors and offline actions jointly to promote recommendation for offline retailing?\n\n\n\nIn this study, we formulate this task as a cross-modality recommendation problem, and present its solution via a proposed probabilistic graphical model, called \\emph{Online-to-Offline Topic Modeling} (O2OTM). Specifically, this method explicitly models the relationships between online and offline topics so that the likelihood of both online and offline behaviors is maximized. Then, the recommendation is made only based on the pairs of online and offline topics, denoted by $(t,l)$, with high values of \\emph{lift}, such that the existence of the online topic $t$ greatly increases the response on the corresponding offline topic $l$ compared with the average response for the population without the online topic $t$. Furthermore, we evaluate this solution in both live and retrospect experiments. The real-world deployment of this model for the anniversary promotion campaign of a famous shopping mall in Beijing shows that our approach increases the occurred customer purchases per promotion message by 29.75\\% compared with the baseline. Also, our model finds some interesting interpretable relationships between the online search topics and offline brand topics.", 
@@ -2543,7 +2543,7 @@ entities={
       }
     ], 
     "title": "From Online Behaviors to Offline Retailing", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "518": {
     "abstract": "This paper proposes an approach to applying standardized entity data to improve job search quality and to make search results more personalized. Specifically, we explore three types of entity-aware features and incorporate them into the job search ranking function. The first is query-job matching features which extract and standardize entities mentioned in queries and documents, then semantically match them based on these entities. The second type, searcher-job expertise homophily, aims to capture the fact that job searchers tend to be interested in the jobs requiring similar expertise as theirs. To measure the similarity, we use standardized skills in job descriptions and searchers' profiles as well as skills that we infer searchers might have but not explicitly list in their profiles. Third, we propose a concept of entity-faceted historical click-through-rates (CTRs) to capture job document quality. Faceting jobs by their standardized companies, titles, locations, etc., and computing historical CTRs at the facet level instead of individual job level alleviate sparseness issue in historical action data. This is particularly important in job search where job lifetime is typically short. Both offline and online experiments confirm the effectiveness of the features. In offline experiment, using the entity-aware features gives improvements of +20%, +12.1% and +8.3% on Precision@1, MRR and NDCG@25, respectively. Online A/B test shows that a new model with these features is +11.3% and +5.3% better than the baseline in terms of click-through-rate and apply rate.  ", 
@@ -2689,7 +2689,7 @@ entities={
       }
     ], 
     "title": "GLMix: Generalized Linear Mixed Models For Large-Scale Response Prediction", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "567": {
     "abstract": "Modeling information that resides on vertices of large graphs is a key problem in several real-life applications, ranging from social networks to the Internet-of-things. Signal Processing on Graphs and, in particular, graph wavelets can exploit the intrinsic smoothness of these datasets in order to represent them in a compact and accurate manner. However, how to discover wavelet bases that capture the geometry of the data with respect to the signal as well as the graph structure remains an open problem. In this paper, we study the problem of computing graph wavelet bases via sparse cuts in order to produce low-dimensional encodings of data-driven bases. This problem is connected to known hard problems in graph theory (e.g. multiway cuts) and thus requires an efficient heuristic. We formulate the basis discovery task as a relaxation of a vector optimization problem, which leads to an elegant solution as a regularized eigenvalue computation. Moreover, we propose several strategies in order to scale our algorithm to large graphs. Experimental results show that the proposed algorithm can effectively encode both the graph structure and signal, producing compressed and accurate representations for vertex values in a wide range of datasets (e.g. sensor and gene networks) and significantly outperforming the best baseline.", 
@@ -2768,7 +2768,7 @@ entities={
       }
     ], 
     "title": "Dynamic and Robust Wildfire Risk Prediction System: An Unsupervised Approach", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "58": {
     "abstract": "In this paper, we address the important issue of uncertainty in the edge influence probability estimates for the well studied influence maximization problem --- the task of finding $k$ seed nodes in a social network to maximize the influence spread. We propose the problem of robust influence maximization, which maximizes the worst-case ratio between the influence spread of the chosen seed set and the optimal seed set, given the uncertainty of the parameter input. We design an algorithm that solves this problem with a solution-dependent bound. We further study uniform sampling and adaptive sampling methods to effectively reduce the uncertainty on parameters and improve the robustness of the influence maximization task. Our empirical results show that parameter uncertainty may greatly affect influence maximization performance and prior studies that learned influence probabilities could lead to poor performance in robust influence maximization due to relatively large uncertainty in parameter estimates, and information cascade based adaptive sampling method may be an effective way to improve the robustness of influence maximization.", 
@@ -2822,7 +2822,7 @@ entities={
       }
     ], 
     "title": "The Wisdom of Crowds:  Best Practices for Data Prep & Machine Learning Derived from Millions of Data Science Workflows", 
-    "type": "Applied Data Science Invited Talk"
+    "type": "talk"
   }, 
   "605": {
     "abstract": "Days on Market (DOM) refers to the number of days a property is on the active market, which is an important measurement of market liquidity in real estate industry. Indeed, at the micro level, DOM is not only a special concern of house sellers, but also a useful indicator for potential buyers to evaluate the popularity of a house. At the macro level, DOM is an important indicator of real estate market status. However, it is very challenging to measure DOM, since there are a variety of factors which can impact on the DOM of a property. To this end, in this paper, we aim to measure real estate liquidity by examining multiple factors in a holistic manner. A special goal is to predict the DOM of a given property listing. Specifically, we first extract key features from multiple types of heterogeneous real estate-related data, such as house profiles and geo-social information of residential communities. Then, based on these features, we develop a multi-task learning based regression approach for predicting the DOM of real estates. This approach can effectively learn district-aware models for different property listings by considering multiple factors. Finally, we conduct extensive experiments on real-world real estate data collected in Beijing and develop a prototype system for practical use. The experimental results clearly validate the effectiveness  of the proposed approach for measuring liquidity in real estate markets.", 
@@ -2850,7 +2850,7 @@ entities={
       }
     ], 
     "title": "Days on Market: Measuring Liquidity in Real Estate Markets", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "617": {
     "abstract": "In this paper, we propose a text clustering algorithm using an online clustering scheme for initialization called FGSDMM+. FGSDMM+ assumes that there are at most $K_{max}$ clusters in the corpus, and regards these $K_{max}$ potential clusters as one large potential cluster at the beginning. During initialization, FGSDMM+ processes the documents one by one in an online clustering scheme. The first document will choose the potential cluster, and FGSDMM+ will create a new cluster to store this document. Later documents will choose one of the non-empty clusters or the potential cluster with probabilities derived from the Dirichlet multinomial mixture model. Each time a document chooses the potential cluster, FGSDMM+ will create a new cluster to store that document and decrease the probability of later documents choosing the potential cluster. After initialization, FGSDMM+ will run a collapsed Gibbs sampling algorithm several times to obtain the final clustering result. Our extensive experimental study shows that FGSDMM+ can achieve better performance than three other clustering methods on both short and long text datasets.", 
@@ -2926,7 +2926,7 @@ entities={
       }
     ], 
     "title": "Catch Me If You Can: Detecting Pickpocket Suspects from Large-Scale Transit Records", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "63": {
     "abstract": "People often ask others for restaurant recommendations as a way to discover new dining experiences.  This makes restaurant recommendation an exciting scenario for recommender systems and has led to substantial research in this area. However, most such systems behave very differently from a human when asked for a recommendation. The goal of this paper is to begin to reduce this gap.\n\n\n\nIn particular, humans can quickly establish preferences when asked to make a recommendation for someone they do not know. We address this cold-start recommendation problem in an online learning setting. We develop a preference elicitation framework to identify which questions to ask a new user to quickly learn their preferences. Taking advantage of latent structure in the recommendation space using a probabilistic latent factor model, our experiments with both synthetic and real world data compare different types of feedback and question selection strategies. We find that our framework can make very effective use of online user feedback, improving personalized recommendations over a static model by {25\\%} after asking only $2$ questions. Our results demonstrate dramatic benefits of starting from offline embeddings, and highlight the benefit of bandit-based explore-exploit strategies in this setting. ", 
@@ -3033,7 +3033,7 @@ entities={
       }
     ], 
     "title": "Boosted Decision Tree Regression Adjustment for Variance Reduction in Online Controlled Experiments", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "654": {
     "abstract": "Recruitment market analysis provides valuable understanding of industry-specific economic growth and plays an important role for both employers and job seekers. With the rapid development of online recruitment services, massive recruitment data have been accumulated and enable a new paradigm for recruitment market analysis. However, traditional methods for recruitment market analysis largely rely on the knowledge of domain experts and classic statistical models, which are usually too general to model large-scale dynamic recruitment data, and have difficulties to capture the fine-grained market trends. To this end, in this paper, we propose a new research paradigm for recruitment market analysis by leveraging unsupervised learning techniques for automatically discovering recruitment market trends based on large-scale recruitment data. Specifically, we develop a novel sequential latent variable model, named MTLVM, which is designed for capturing the sequential dependencies of corporate recruitment states and is able to automatically learn  the latent recruitment topics within a Bayesian generative framework. In particular, to capture the variability of recruitment topics over time, we design hierarchical dirichlet processes for MTLVM. These processes allow to dynamically generate the evolving recruitment topics. Finally, we implement a prototype system to empirically evaluate our approach based on real-world recruitment data in China. Indeed, by visualizing the results from MTLVM, we can successfully reveal many interesting findings, such as \\emph{the popularity of LBS related jobs reached the peak in the 2nd half of 2014, and decreased in 2015.}", 
@@ -3055,7 +3055,7 @@ entities={
       }
     ], 
     "title": "Recruitment Market Trend Analysis with Sequential Latent Variable Models", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "66": {
     "abstract": "Among different recommendation techniques, collaborative filtering usually suffer from limited performance due to the sparsity of user-item interactions. To address the issues, auxiliary information is usually used to boost the performance. Due to the rapid collection of information on the web, the knowledge base provides heterogeneous information including both structured and unstructured data with different semantics, which can be consumed by various applications. In this paper, we investigate how to leverage the heterogeneous information in a knowledge base to improve the quality of recommender systems.  First, by exploiting the knowledge base, we design three components to extract items' semantic representations from structural content, textual content and visual content, respectively. To be specific, we adopt a heterogeneous network embedding method, termed as TransR, to extract items' structural representations by considering the heterogeneity of both nodes and relationships. We apply stacked denoising auto-encoders and stacked convolutional auto-encoders, which are two types of deep learning based embedding techniques, to extract items' textual representations and visual representations, respectively. Finally, we propose our final integrated framework, which is termed as Collaborative Knowledge Base Embedding (CKE), to jointly learn the latent representations in collaborative filtering as well as items' semantic representations from the knowledge base. To evaluate the performance of each embedding component as well as the whole system, we conduct extensive experiments with two real-world datasets from different scenarios. The results reveal that our approaches outperform several widely adopted state-of-the-art recommendation methods.", 
@@ -3077,7 +3077,7 @@ entities={
       }
     ], 
     "title": "Collaborative Knowledge Base Embedding for Recommender Systems", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "671": {
     "abstract": "Multi-scale data which contains structures at different scales of size and density is a big challenge for spectral clustering. Even given a suitable locally scaled affinity matrix, the first k eigenvectors of such a matrix still cannot separate clusters well. Thus, in this paper, we exploit the fusion of the cluster-separation information from all eigenvectors to achieve a better clustering result. Our method FUll Spectral ClustEring (FUSE) is based on Power Iteration (PI) and Independent Component Analysis (ICA). PI is used to fuse all eigenvectors to one pseudo-eigenvector which inherits all the cluster-separation information. To conquer the cluster-collision problem, we utilize PI to generate p (p>k) pseudo-eigenvectors. Since these pseudo-eigenvectors are redundant and the cluster-separation information is contaminated with noise, ICA is adopted to rotate the pseudo-eigenvectors to make them pairwise statistically independent. To let ICA overcome local optima and speed up the search process, we develop a self-adaptive and self-learning greedy search method. Finally, we select k rotated pseudo-eigenvectors (independent components) which have more cluster-separation information measured by kurtosis for clustering. Various synthetic and real-world data verifies the effectiveness and efficiency of our FUSE method.", 
@@ -3115,7 +3115,7 @@ entities={
       }
     ], 
     "title": "An Empirical Study on Recommendation with Multiple Types of Feedback", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "679": {
     "abstract": "Classification of entities based on the underlying network structure is an important problem. Networks encountered in practice are sparse and have many missing and noisy links. Statistical learning techniques have been used in intra-network classification; however, they typically exploit only the local neighborhood, so may not perform well. In this paper, we propose a novel structural neighborhood-based classifier learning using a random walk. For classifying a node, we take a random walk from the node and make a decision based on how nodes in the respective k^th-level neighborhood are labeled. We observe that random walks of short length are helpful in classification. Emphasizing role of longer random walks may cause the underlying Markov chain to converge to a stationary distribution. Considering this, we take a lazy random walk based approach with variable termination probability for each node, based on the node\u00cds structural properties including its degree. Our experimental study on real world datasets demonstrates the superiority of the proposed approach over the existing state-of-the-art approaches.", 
@@ -3144,7 +3144,7 @@ entities={
       }
     ], 
     "title": "Online Dual Decomposition for Performance and Delivery-Based Distributed Ad Allocation", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "683": {
     "abstract": "In this paper, we study the problem of mining \\emph{temporally anomalous sub-trajectory} patterns from an input trajectory in a scalable manner. Given the prevailing road conditions, a sub-trajectory is temporally anomalous if its travel time deviates significantly from the expected time. Mining these patterns requires us to delve into the sub-trajectory space, which is not scalable for real-time analytics. To overcome this scalability challenge, we design a technique called \\emph{MANTRA}. We study the properties unique to anomalous sub-trajectories and utilize them in \\textsc{Mantra} to iteratively refine the search space into a disjoint set of sub-trajectory \\emph{islands}. The expensive enumeration of all possible sub-trajectories is performed only on the islands to compute the answer set of \\emph{maximal anomalous sub-trajectories}. Extensive experiments on both real and synthetic datasets establish \\textsc{Mantra} as more than $3$ orders of magnitude faster than baseline techniques. Moreover, through trajectory classification and segmentation, we demonstrate that the proposed model conforms to human intuition.", 
@@ -3296,7 +3296,7 @@ entities={
       }
     ], 
     "title": "Email Volume Optimization at LinkedIn", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "722": {
     "abstract": "The field of online advertising, in essence, deals with the problem of presenting ads to online users in the most appropriate contexts to achieve a multitude of advertiser goals. A vast amount of work in online advertising has been focused on optimizing banner display advertising campaigns where the main goal lies in direct response metrics, often as clicks or conversions. In this paper, we explore the newly popularized space of online video advertising, where brand recognition is the key focus. We propose a framework based on a feedback mechanism where we optimize multiple video specific performance indicators while making sure the delivery constraints (budget and user reach) of advertisers are satisfied. While our main focus is on improving metrics such as engagement (amount of view time), and viewability (whether a campaign is within eyesight of a user), we also discuss the possibilities of expanding to other metrics. We demonstrate the benefit of our framework via empirical results in multiple real-world advertising campaigns. To the best of our knowledge, this is the first paper that deals with the unique challenges arising from the nature of online video advertising.", 
@@ -3419,7 +3419,7 @@ entities={
       }
     ], 
     "title": "An Engagement-Based Customer Lifetime Value System for E-commerce", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "764": {
     "abstract": "Recent statistical evidence has shown that a regression model by incorporating the interactions among the original covariates (features) can significantly improve the interpretability for biological data. One major challenge is the exponentially expanded feature space when adding high-order feature interactions to the model. To tackle the huge dimensionality, Hierarchical Sparse Models (HSM) are developed by enforcing sparsity under heredity structures in the interactions among the covariates. However, existing methods only consider pairwise interactions, making the discovery of important high-order interactions a non-trivial open problem. In this paper, we propose a Generalized Hierarchical Sparse Model (GHSM) as a generalization of the HSM models to learn arbitrary-order interactions. The GHSM applies the $\\ell_1$ penalty to all the model coefficients under a constraint that given any covariate, if none of its associated $k$th-order interactions contribute to the regression model, then neither do its associated higher-order interactions. The resulting objective function is non-convex with a challenge lying in the coupled variables appearing in the arbitrary-order hierarchical constraints and we devise an efficient optimization algorithm to directly solve it. Specifically, we decouple the variables in the constraints via both the GIST and ADMM methods into three subproblems, each of which is proved to admit an efficiently analytical solution. We evaluate the GHSM method in both synthetic problem and the antigenic sites identification problem for the flu virus data, where we expand the feature space up to the 5th-order interactions. Empirical results demonstrate the effectiveness and efficiency of the proposed method and the learned high-order interactions have meaningful synergistic covariate patterns in the virus antigenicity.", 
@@ -3579,7 +3579,7 @@ entities={
       }
     ], 
     "title": "Aircraft Trajectory Prediction Made Easy with Predictive Analytics", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "793": {
     "abstract": "Quantitative evaluation of the ability of soccer players to contribute to team offensive performance is typically based on goals scored, assists made, and shots taken.  In this paper, we describe a novel player ranking system based entirely on the value of passes completed.  This value is derived based on the relationship of pass locations in a possession and shot opportunities generated.  This relationship is learned by applying a supervised machine learning model to pass locations in event data from the 2012-2013 La Liga season.  Interestingly, though this metric is based entirely on passes, the derived player rankings are largely consistent with general perceptions of offensive ability, e.g., Messi and Ronaldo are near the top. Additionally, when used to rank midfielders, it separates the more offensively-minded players from others.", 
@@ -3595,7 +3595,7 @@ entities={
       }
     ], 
     "title": "Developing a Data-Driven Player Ranking in Soccer Using Predictive Model Weights", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "798": {
     "abstract": "Learning supervised models to grade open-ended responses is an expensive process. A model has to be trained for every prompt/question separately, which in turn requires graded samples. In automatic programming evaluation specifically, the focus of this work, this issue is amplified. The models have to be trained not only for every question but also for every language the question is offered in. Moreover, the availability and time taken by experts to create a labeled set of programs for each question is a major bottleneck in scaling such a system. We address this issue by presenting a method to grade computer programs which requires no manually assigned labeled samples for grading responses to a new, unseen question. We extend our previous work \\cite{srikant2014system} wherein we introduced a grammar of features to learn question specific models. In this work, we propose a method to transform those features into a set of features that maintain their structural relation with the labels across questions. Using these features we learn one supervised model, across questions for a given language, which can then be applied to an ungraded response to an unseen question. We show that our method rivals the performance of both, question specific models and the consensus among human experts while substantially outperforming extant ways of evaluating codes. We demonstrate the system\\textquotesingle s value by deploying it to grade programs in a high stakes assessment. The learning from this work is transferable to other grading tasks such as math question grading and also provides a new variation to the supervised learning approach.\n\n", 
@@ -3611,7 +3611,7 @@ entities={
       }
     ], 
     "title": "Question Independent Grading using Machine Learning: The Case of Computer Program Grading", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "799": {
     "abstract": "Given a signed network where edges are weighted in real number, and positive weights indicate cohesion between vertices and negative weights indicate opposition, we are interested in finding $k$-Oppositive Cohesive Groups ($k$-OCG). Each $k$-OCG is a group of $k$ subgraphs such that (1) the edges within each subgraph are dense and cohesive; and (2) the edges crossing different subgraphs are dense and oppositive.  Finding $k$-OCGs is challenging since the subgraphs are often small, there are multiple $k$-OCGs in a large signed network, and many existing dense subgraph extraction methods cannot handle edges of two signs. We model $k$-OCG finding task as a quadratic optimization problem.  However, the classical Proximal Gradient method is very costly since it has to use the entire adjacency matrix, which is huge on large networks.  Thus, we develop FOCG, an algorithm that is two orders of magnitudes faster than the Proximal Gradient method.  The main idea is to only search in small subgraphs and thus avoids using a major portion of the adjacency matrix. Our experimental results on synthetic and real data sets as well as a case study clearly demonstrate the effectiveness and efficiency of our method.", 
@@ -3763,7 +3763,7 @@ entities={
       }
     ], 
     "title": "The Legislative Influence Detector", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "832": {
     "abstract": "Adverse events between police and the public, such as deadly shootings or instances of racial profiling, can cause serious or deadly harm,  damage police legitimacy, and  result in costly litigation. \n\nEvidence suggests these events can be prevented by targeting interventions based on an Early Intervention System (EIS) that flags police officers who are at a high risk for involvement in such adverse events. \n\nToday's EIS are not data-driven and typically rely on simple thresholds based entirely on expert intuition. In this paper, we describe our work with the Charlotte-Mecklenburg Police Department (CMPD) to develop a machine learning model to predict which officers are at risk for an adverse event. Our approach significantly outperforms CMPD's existing EIS, increasing true positives by ~12% and decreasing false positives by ~32%. Our work also sheds light on features related to officer characteristics, situational factors, and neighborhood factors that are predictive of adverse events. This work provides a starting point for police departments to take a comprehensive, data-driven approach to improve policing and reduce harm to both officers and members of the public. ", 
@@ -3800,7 +3800,7 @@ entities={
       }
     ], 
     "title": "Identifying Police Officers at Risk of Adverse Events", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "839": {
     "abstract": "Lasso regression is a widely used technique in data mining for model selection and feature extraction. In many applications, it remains challenging to apply the regression model to large-scale problems that have massive data samples with high-dimensional features. One popular and promising strategy is to solve the Lasso problem in parallel. Parallel solvers run multiple cores in parallel on a shared memory system to speedup the computation, while the practical usage is limited by the huge dimension in the feature space. Screening is a promising method to solve the problem of high dimensionality by discarding the inactive features and removing them from optimization. However, when integrating screening methods with parallel solvers, most of solvers cannot guarantee the convergence on the reduced feature matrix. In this paper, we propose a novel parallel framework by parallelizing screening methods and integrating it with our proposed parallel solver. We propose two parallel screening algorithms: Parallel Strong Rule (PSR) and Parallel Dual Polytope Projection (PDPP). For the parallel solver, we proposed an Asynchronous Grouped Coordinate Descent method (AGCD) to optimize the regression problem in parallel on the reduced feature matrix. AGCD is based on a grouped selection strategy to select the coordinate that has the maximum descent for the objective function in a group of candidates. Empirical studies on the real-world datasets demonstrate that the proposed parallel framework has a superior performance compared to the state-of-the-art parallel solvers.", 
@@ -3885,7 +3885,7 @@ entities={
       }
     ], 
     "title": "Predicting Disk Replacement towards Reliable Data Centers", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "853": {
     "abstract": "Online controlled experiments, also called A/B testing, have been established as the mantra for data-driven decision making in many web-facing companies. In recent years, there are emerging research works focusing on building the platform and scaling it up, best practices and lessons learned to obtain trustworthy results, and experiment design techniques and various issues related to statistical inference and testing. However, despite playing a central role in online controlled experiments, there is little published work on treating metric development itself as a data-driven process. In this paper, we focus on the topic of how to develop meaningful and useful metrics for online services in their online experiments, and show how data-driven techniques and criteria can be applied in metric development process. In particular, we emphasize two fundamental qualities for the goal metrics (or Overall Evaluation Criteria) of any online service: directionality and sensitivity. We share lessons on why these two qualities are critical, how to measure these two qualities of metrics of interest, how to develop metrics with clear directionality and high sensitivity by using approaches based on user behavior models and data-driven calibration, and how to choose the right goal metrics for the entire online services.", 
@@ -3898,7 +3898,7 @@ entities={
       }
     ], 
     "title": "Data-Driven Metric Development for Online Controlled Experiments: Seven Lessons Learned", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "86": {
     "abstract": "Due to the storage and retrieval efficiency, hashing has been widely applied to approximate nearest neighbor search for large-scale multimedia retrieval. Cross-modal hashing, which enables efficient retrieval of images in response to text queries or vice versa, has received increasing attention recently. Most existing work on cross-modal hashing does not capture the spatial dependency of images and temporal dynamics of text sentences for learning powerful feature representations and cross-modal embeddings that mitigate the heterogeneity of different modalities. This paper presents a new Deep Visual-Semantic Hashing (DVSH) model that generates compact hash codes of images and sentences in an end-to-end deep learning architecture, which capture the intrinsic cross-modal correspondences between visual data and natural language. DVSH is a hybrid deep architecture that constitutes a visual-semantic fusion network for learning joint embedding space of images and text sentences, and two modality-specific hashing networks for learning hash functions to generate compact binary codes. Our architecture effectively unifies joint multimodal embedding and cross-modal hashing, which is based on a novel combination of Convolutional Neural Networks over images, Recurrent Neural Networks over sentences, and a structured max-margin objective that integrates all things together to enable learning of similarity-preserving and high-quality hash codes. Extensive empirical evidence shows that our DVSH approach yields state of the art results in cross-modal retrieval experiments on image-sentences datasets, i.e. standard IAPR TC-12 and large-scale Microsoft COCO.", 
@@ -4011,7 +4011,7 @@ entities={
       }
     ], 
     "title": "Ranking Universities Based on Career Outcomes of Graduates", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "883": {
     "abstract": "Graph reordering is a powerful technique to increase the locality of the representations of graphs, which can be helpful in several applications. We study how the technique can be used to improve compression of graphs and inverted indexes.\n\nWe extend the recent theoretical model of Chierichetti et al. (KDD 2009) for graph compression, and show how it can be employed for compression-friendly reordering of social networks and web graphs and for assigning document identifiers in inverted indexes. We design and implement a novel theoretically sound reordering algorithm that is based on recursive graph bisection.\n\nOur experiments show a significant improvement of the compression rate of graph and indexes over existing heuristics. The new method is relatively simple and allows efficient parallel and distributed implementations, which is demonstrated on graphs with billions of vertices and hundreds of billions of edges.", 
@@ -4081,7 +4081,7 @@ entities={
       }
     ], 
     "title": "Profiling Users from Online Social Behaviors with Applications for Tencent Social Ads", 
-    "type": "Applied Data Science Invited Talk"
+    "type": "talk"
   }, 
   "908": {
     "abstract": "Understanding human mobility is of great importance to various applications, such as urban planning, traffic scheduling, and location prediction. While there has been fruitful research on modeling human mobility using tracking data (e.g., GPS traces), the recent growth of geo-tagged social media (GeoSM) brings new opportunities to this task because of its sheer size and multi-dimensional nature. Nevertheless, how to obtain quality mobility models from the highly sparse and complex GeoSM data remains a challenge that cannot be readily addressed by existing techniques.\n\n\n\nWe propose GMove, a group-level mobility modeling method using GeoSM data. Our insight is that the GeoSM data usually contains multiple user groups, where the users within the same group share significant movement regularity. Meanwhile, user grouping and mobility modeling are two intertwined tasks: (1) better user grouping offers better within-group data consistency and thus leads to more reliable mobility models; and (2) better mobility models serve as useful guidance that helps infer the group a user belongs to. GMove thus alternates between user grouping and mobility modeling, and generates an ensemble of Hidden Markov Models (HMMs) to characterize group-level movement regularity. Furthermore, to reduce text sparsity of GeoSM data, GMove also features a text augmenter. The augmenter computes keyword correlations by examining their spatiotemporal distributions. With such correlations as auxiliary knowledge, it performs sampling-based augmentation to alleviate text sparsity and produce high-quality HMMs.\n\n\n\nOur extensive experiments on two real-life data sets demonstrate that GMove can effectively generate meaningful group-level mobility models. Moreover, with context-aware location prediction as an example application, we find that GMove significantly outperforms baseline mobility models in terms of prediction accuracy.", 
@@ -4137,7 +4137,7 @@ entities={
       }
     ], 
     "title": "Designing Policy Recommendations to Reduce Home Abandonment in Mexico", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "914": {
     "abstract": "With email overload becoming a billion-level drag on the economy, personalized email prioritization is of urgent need to help predict the importance level of an email. Despite lots of previous effort on the topic, broadcast email, an important type of emails with its unique challenges and intriguing opportunities, has been overlooked. The most salient opportunity lies in that effective collaborative filtering  can be exploited due to thousands of receivers of a typical broadcast email. However, every broadcast email is completely cold and it is very costly to obtain users' preference feedback. Fortunately, there exist up to million-level broadcast mailing lists in a real life email system. Similar mailing lists can provide useful extra information for broadcast email prioritization in a target mailing list. How to mine such useful extra information is a challenging problem that has never been touched. In this work, we propose the first broadcast email prioritization framework considering large numbers of mailing lists by formulating this problem as a cross domain recommendation problem. An optimization framework is proposed to select the optimal set of source domains considering multiple criteria including overlap of users, feedback pattern similarity and coverage of users. Our method is thoroughly evaluated on a   real world industrial dataset from Samsung Electronics and is proved highly effective and outperforms all the baselines.", 
@@ -4333,7 +4333,7 @@ entities={
       }
     ], 
     "title": "Evaluating Mobile Apps with A/B and Quasi A/B Tests", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "945": {
     "abstract": "Controlled experiments are widely regarded as the most scientific way to establish a true causal relationship between product changes and their impact on business metrics. Many technology companies rely on such experiments as their main data-driven decision-making tool. The sensitivity of a controlled experiment refers to its ability to detect differences in business metrics due to product changes. At Netflix, with tens of millions of users, increasing the sensitivity of controlled experiments is critical as failure to detect a small effect, either positive or negative, can have a substantial revenue impact. This paper focuses on methods to increase sensitivity by reducing the sampling variance of business metrics. We define Netflix business metrics and share context around the critical need for improved sensitivity. We review popular variance reduction techniques that are broadly applicable to any type of controlled experiment and metric. We describe an innovative implementation of stratified sampling at Netflix where users are assigned to experiments in real time and discuss some surprising challenges with the implementation. We conduct case studies to compare these variance reduction techniques on a few Netflix datasets. Based on the empirical results, we recommend to use post-assignment variance reduction techniques such as post stratification and CUPED instead of at-assignment variance reduction techniques such as stratified sampling in large-scale controlled experiments.", 
@@ -4456,7 +4456,7 @@ entities={
       }
     ], 
     "title": "Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "977": {
     "abstract": "Depression is a serious mood disorder afflicting millions of people around the globe. Medications of different types and with different effects on neural activity have been developed for its treatments during the past few decades. Due to the heterogeneity of the disorder, many patients cannot achieve symptomatic remission from a single clinical trial. Instead they need multiple clinical trials to achieve remission, resulting in a multiple stage treatment pattern. Furthermore those who indeed achieve symptom remission are still faced with substantial risk of relapse. One promising approach to predicting the risk of relapse is censored regression. Traditional censored regression typically applies only to situations in which the exact time of event of interest is known.  However,  follow-up studies that track the patients' relapse status can only provide an interval of time during which relapse occurs. The exact time of relapse is usually unknown. In this paper, we present a censored regression approach with a truncated $l_1$ loss function that can handle the uncertainty of relapse time. Based on this general loss function, we develop a gradient boosting algorithm and a stochastic dual coordinate ascent algorithm  when the hypothesis in the loss function is represented as (1) an ensemble of decision trees and (2) a linear combination of covariates, respectively. As an extension of our linear model, a multi-stage linear approach is further proposed to harness the data collected from multiple stages of treatment. We evaluate the proposed algorithms using a real-world clinical trial dataset. Results show that our methods outperform the well-known Cox proportional hazard model. In addition, the risk factors identified by our multi-stage linear model not only corroborate findings from recent research  but also yield some new insights into how to develop effective measures for prevention of relapse among patients after their initial remission from the acute treatment stage.", 

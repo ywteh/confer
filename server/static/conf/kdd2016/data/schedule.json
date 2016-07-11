@@ -7,23 +7,23 @@ schedule=[
         "sessions": [
           {
             "room": "Plaza Room A/B", 
-            "session": "Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
-          }, 
-          {
-            "room": "Continental 6-8", 
-            "session": "Algorithmic_Bias_From_Discrimination_Discovery_to_Fairness_aware_Data_Mining"
+            "session": "Tutorial_Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
           }, 
           {
             "room": "Imperial Ballroom A&B", 
-            "session": "Business_Applications_of_Predictive_Modeling_at_Scale"
+            "session": "Tutorial_Business_Applications_of_Predictive_Modeling_at_Scale"
+          }, 
+          {
+            "room": "Continental 6-8", 
+            "session": "Tutorial_Algorithmic_Bias_From_Discrimination_Discovery_to_Fairness_aware_Data_Mining"
           }, 
           {
             "room": "Continental 1-4", 
-            "session": "Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events"
+            "session": "Tutorial_Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events"
           }, 
           {
             "room": "Grand Ballroom Salon A", 
-            "session": "Extracting_Optimal_Performance_from_Dynamic_Time_Warping"
+            "session": "Tutorial_Extracting_Optimal_Performance_from_Dynamic_Time_Warping"
           }
         ], 
         "slot_class": "morning1", 
@@ -33,20 +33,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Imperial Ballroom A&B", 
-            "session": "Scalable_Learning_of_Graphical_Models"
+            "room": "Continental 1-4", 
+            "session": "Tutorial_Lifelong_Machine_Learning_and_Computer_Reading_the_Web"
           }, 
           {
             "room": "Continental 6-8", 
-            "session": "IoT_Big_Data_Stream_Mining"
+            "session": "Tutorial_IoT_Big_Data_Stream_Mining"
           }, 
           {
-            "room": "Continental 1-4", 
-            "session": "Lifelong_Machine_Learning_and_Computer_Reading_the_Web"
+            "room": "Imperial Ballroom A&B", 
+            "session": "Tutorial_Scalable_Learning_of_Graphical_Models"
           }, 
           {
             "room": "Plaza Room A/B", 
-            "session": "Leveraging_Propagation_for_Data_Mining_Models_Algorithms_and_Applications"
+            "session": "Tutorial_Leveraging_Propagation_for_Data_Mining_Models_Algorithms_and_Applications"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -63,7 +63,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grand Ballroom", 
-            "session": "Graphons_and_Machine_Learning_Modeling_and_Estimation_of_Sparse_Massive_Networks"
+            "session": "Keynote_Graphons_and_Machine_Learning_Modeling_and_Estimation_of_Sparse_Massive_Networks"
           }
         ], 
         "slot_class": "morning1", 
@@ -75,6 +75,18 @@ schedule=[
           {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Rich_Data"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Computational_Social_Science_Exciting_Progress_and_Future_Challenges"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Can_You_Teach_the_Elephant_to_Dance_AKA_Culture_Eats_Data_Science_for_Breakfast"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Large_Scale_Machine_Learning_at_Verizon_Theory_and_Applications"
           }, 
           {
             "room": "Imperial Ballroom", 
@@ -93,7 +105,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grand Ballroom", 
-            "session": "People_Computers_and_The_Hot_Mess_of_Real_Data"
+            "session": "Keynote_People_Computers_and_The_Hot_Mess_of_Real_Data"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -122,12 +134,24 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Bayesian_Optimization_and_Embedded_Learning_Systems"
+          }, 
+          {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Social_Networks_II"
           }, 
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_How_Machine_Learning_has_Finally_Solved_Wanamaker_s_Dilemma"
+          }, 
+          {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Miscellaneous_Topics"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_The_Wisdom_of_Crowds_Best_Practices_for_Data_Prep_Machine_Learning_Derived_from_Millions_of_Data_Science_Workflows"
           }, 
           {
             "room": "Imperial Ballroom", 
@@ -142,7 +166,7 @@ schedule=[
         "sessions": [
           {
             "room": "Golden Gate", 
-            "session": "Poster"
+            "session": "Posters"
           }
         ], 
         "slot_class": "evening", 
@@ -159,7 +183,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grand Ballroom", 
-            "session": "A_VC_View_of_Investing_in_ML"
+            "session": "Keynote_A_VC_View_of_Investing_in_ML"
           }
         ], 
         "slot_class": "morning1", 
@@ -170,7 +194,7 @@ schedule=[
         "sessions": [
           {
             "room": "Embarcadero - Parc 55", 
-            "session": "CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit"
+            "session": "Tutorial_CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit"
           }
         ], 
         "slot_class": "morning1", 
@@ -184,16 +208,24 @@ schedule=[
             "session": "Clustering"
           }, 
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Profiling_Users_from_Online_Social_Behaviors_with_Applications_for_Tencent_Social_Ads"
+          }, 
+          {
             "room": "Imperial Ballroom", 
             "session": "Deep_Learning_and_Embedding"
           }, 
           {
             "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks"
+            "session": "Applied_Data_Science_Invited_Talk_Accelerating_the_Race_to_Autonomous_Cars"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Recommendations_Ranking"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talk_Learning_Sparse_Models_at_Scale"
           }
         ], 
         "slot_class": "morning2", 
@@ -211,12 +243,16 @@ schedule=[
             "session": "Social_Networks_Social_Media"
           }, 
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Panel"
-          }, 
-          {
             "room": "Imperial Ballroom", 
             "session": "Recommender_Systems"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Panel_Big_Data_Needs_Big_Dreamers_Lessons_from_Successful_Big_Data_Investors"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Panel_Can_Tools_Effectively_Unleash_the_Power_of_Big_Data_"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -227,7 +263,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grand Ballroom", 
-            "session": "The_Evolving_Meaning_of_Information_Security"
+            "session": "Keynote_The_Evolving_Meaning_of_Information_Security"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -244,7 +280,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grand Ballroom", 
-            "session": "Learning_to_Learn_and_Compositionality_with_Deep_Recurrent_Neural_Networks"
+            "session": "Keynote_Learning_to_Learn_and_Compositionality_with_Deep_Recurrent_Neural_Networks"
           }
         ], 
         "slot_class": "morning1", 
@@ -254,12 +290,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Market - Parc 55", 
-            "session": "Streaming_Analytics"
+            "room": "Embarcadero - Parc 55", 
+            "session": "Tutorial_Scalable_Data_Analytics_Using_R"
           }, 
           {
-            "room": "Embarcadero - Parc 55", 
-            "session": "Scalable_Data_Analytics_Using_R"
+            "room": "Market - Parc 55", 
+            "session": "Tutorial_Streaming_Analytics"
           }
         ], 
         "slot_class": "morning1", 
