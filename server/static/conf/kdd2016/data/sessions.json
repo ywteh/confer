@@ -1,8 +1,26 @@
 sessions={
-  "Applied_Data_Applied_Data_Science_Invited_Talks": {
+  "A_VC_View_of_Investing_in_ML": {
+    "date": "Tuesday", 
+    "room": "Grand Ballroom", 
+    "s_title": "A VC View of Investing in ML", 
+    "submissions": [
+      "4"
+    ], 
+    "time": "8:00 - 9:30"
+  }, 
+  "Algorithmic_Bias_From_Discrimination_Discovery_to_Fairness_aware_Data_Mining": {
+    "date": "Saturday", 
+    "room": "Continental 6-8", 
+    "s_title": "Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining", 
+    "submissions": [
+      "26"
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Applied_Data_Science_Invited_Talks": {
     "date": "Tuesday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data - Applied Data Science Invited Talks", 
+    "s_title": "Applied Data Science Invited Talks", 
     "submissions": [
       "1", 
       "2", 
@@ -16,6 +34,24 @@ sessions={
     ], 
     "time": "10:00 - 12:00"
   }, 
+  "Business_Applications_of_Predictive_Modeling_at_Scale": {
+    "date": "Saturday", 
+    "room": "Imperial Ballroom A&B", 
+    "s_title": "Business Applications of Predictive Modeling at Scale", 
+    "submissions": [
+      "31"
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit": {
+    "date": "Tuesday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "CNTK: Microsoft's Open-Source Deep-Learning Toolkit", 
+    "submissions": [
+      "204"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
   "Clustering": {
     "date": "Tuesday", 
     "room": "Plaza Room A/B", 
@@ -28,6 +64,15 @@ sessions={
       "1162"
     ], 
     "time": "10:00 - 12:00"
+  }, 
+  "Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events": {
+    "date": "Saturday", 
+    "room": "Continental 1-4", 
+    "s_title": "Collective Sensemaking via Social Sensors: Extracting, Profiling, Analyzing, and Predicting Real-world Events", 
+    "submissions": [
+      "18"
+    ], 
+    "time": "8:00 - 12:00"
   }, 
   "Deep_Learning_and_Embedding": {
     "date": "Tuesday", 
@@ -54,6 +99,24 @@ sessions={
       "1160"
     ], 
     "time": "13:00 - 15:00"
+  }, 
+  "Extracting_Optimal_Performance_from_Dynamic_Time_Warping": {
+    "date": "Saturday", 
+    "room": "Grand Ballroom Salon A", 
+    "s_title": "Extracting Optimal Performance from Dynamic Time Warping", 
+    "submissions": [
+      "11"
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Graphons_and_Machine_Learning_Modeling_and_Estimation_of_Sparse_Massive_Networks": {
+    "date": "Monday", 
+    "room": "Grand Ballroom", 
+    "s_title": "Graphons and Machine Learning: Modeling and Estimation of Sparse Massive Networks", 
+    "submissions": [
+      "2"
+    ], 
+    "time": "8:00 - 9:30"
   }, 
   "Graphs_and_Rich_Data": {
     "date": "Monday", 
@@ -94,18 +157,14 @@ sessions={
     ], 
     "time": "16:15 - 18:15"
   }, 
-  "Keynote": {
-    "date": "Monday", 
-    "room": "Grand Ballroom", 
-    "s_title": "Keynote", 
+  "IoT_Big_Data_Stream_Mining": {
+    "date": "Saturday", 
+    "room": "Continental 6-8", 
+    "s_title": "IoT Big Data Stream Mining", 
     "submissions": [
-      "1", 
-      "2", 
-      "3", 
-      "4", 
-      "5"
+      "20"
     ], 
-    "time": "12:15 - 13:30"
+    "time": "13:00 - 17:00"
   }, 
   "Large_Scale_Data_Mining": {
     "date": "Monday", 
@@ -120,6 +179,33 @@ sessions={
     ], 
     "time": "10:00 - 12:00"
   }, 
+  "Learning_to_Learn_and_Compositionality_with_Deep_Recurrent_Neural_Networks": {
+    "date": "Wednesday", 
+    "room": "Grand Ballroom", 
+    "s_title": "Learning to Learn and Compositionality with Deep Recurrent Neural Networks", 
+    "submissions": [
+      "3"
+    ], 
+    "time": "8:00 - 9:30"
+  }, 
+  "Leveraging_Propagation_for_Data_Mining_Models_Algorithms_and_Applications": {
+    "date": "Saturday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Leveraging Propagation for Data Mining: Models, Algorithms and Applications", 
+    "submissions": [
+      "35"
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Lifelong_Machine_Learning_and_Computer_Reading_the_Web": {
+    "date": "Saturday", 
+    "room": "Continental 1-4", 
+    "s_title": "Lifelong Machine Learning and Computer Reading the Web", 
+    "submissions": [
+      "4"
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
   "Machine_Learning_Algorithms": {
     "date": "Wednesday", 
     "room": "Cyril Magnin - Parc 55", 
@@ -132,6 +218,15 @@ sessions={
       "975"
     ], 
     "time": "10:00 - 12:00"
+  }, 
+  "Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data": {
+    "date": "Saturday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Mining Reliable Information from Passively and Actively Crowdsourced Data", 
+    "submissions": [
+      "32"
+    ], 
+    "time": "8:00 - 12:00"
   }, 
   "Miscellaneous_Topics": {
     "date": "Monday", 
@@ -168,6 +263,15 @@ sessions={
       "1"
     ], 
     "time": "13:45 - 15:45"
+  }, 
+  "People_Computers_and_The_Hot_Mess_of_Real_Data": {
+    "date": "Monday", 
+    "room": "Grand Ballroom", 
+    "s_title": "People, Computers, and The Hot Mess of Real Data", 
+    "submissions": [
+      "1"
+    ], 
+    "time": "12:15 - 13:30"
   }, 
   "Poster": {
     "date": "Monday", 
@@ -301,6 +405,24 @@ sessions={
     ], 
     "time": "13:45 - 15:45"
   }, 
+  "Scalable_Data_Analytics_Using_R": {
+    "date": "Wednesday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Scalable Data Analytics Using R", 
+    "submissions": [
+      "205"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Scalable_Learning_of_Graphical_Models": {
+    "date": "Saturday", 
+    "room": "Imperial Ballroom A&B", 
+    "s_title": "Scalable Learning of Graphical Models", 
+    "submissions": [
+      "7"
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
   "Sequence_Mining": {
     "date": "Wednesday", 
     "room": "Imperial Ballroom", 
@@ -353,6 +475,15 @@ sessions={
     ], 
     "time": "13:45 - 15:45"
   }, 
+  "Streaming_Analytics": {
+    "date": "Wednesday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Streaming Analytics", 
+    "submissions": [
+      "202"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
   "Streams_and_Temporal_Evolution_I": {
     "date": "Monday", 
     "room": "Imperial Ballroom", 
@@ -404,6 +535,15 @@ sessions={
       "1233"
     ], 
     "time": "13:00 - 15:00"
+  }, 
+  "The_Evolving_Meaning_of_Information_Security": {
+    "date": "Tuesday", 
+    "room": "Grand Ballroom", 
+    "s_title": "The Evolving Meaning of Information Security", 
+    "submissions": [
+      "5"
+    ], 
+    "time": "16:15 - 18:15"
   }, 
   "Unsupervised_Learning_and_Anomaly_Detection": {
     "date": "Tuesday", 

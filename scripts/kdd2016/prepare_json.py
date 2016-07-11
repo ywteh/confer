@@ -138,8 +138,6 @@ def prepare_data(data_file1):
   for row in reader1:
       
     type = unicode(row[1], "ISO-8859-1")
-    if 'Tutorial' in type:
-        continue
       
     paper_id = unicode(row[4], "ISO-8859-1")
     paper_title = unicode(row[5], "ISO-8859-1")
@@ -150,6 +148,8 @@ def prepare_data(data_file1):
     s_date = unicode(row[8], "ISO-8859-1")
     
     s_time = unicode(row[9], "ISO-8859-1")
+    if s_time.strip() == '':
+        continue
     
     s_time = get_times(s_time)
     
@@ -165,16 +165,14 @@ def prepare_data(data_file1):
             type = 'paper'
     if 'keynote' in type:
         type = 'talk'
+        session = paper_title
     if 'Panel' in type:
         type = 'panel'
     if 'poster' in type:
         type = 'poster'
     if 'Tutorial' in type:
         type = "tutorial"
-        session = "tutorial"
-    
-    if "Applied Data" in type:
-        session = "Applied Data - " + session
+        session = paper_title
 
     # prepare papers data
     papers[paper_id] = {

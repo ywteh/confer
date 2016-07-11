@@ -339,6 +339,19 @@
     "title": "Identifying Decision Makers from Professional Social Networks", 
     "type": "talk"
   }, 
+  "11": {
+    "abstract": "Dynamic Time Warping (DTW) is a distance measure that compares two time series after optimally aligning them. DTW is being used for decades in thousands of academic and industrial projects despite the very expensive computational complexity, O(n^2). These applications include data mining, image processing, signal processing, robotics and computer graphics among many others. \n\nIn spite of all this research effort, there are many myths and misunderstanding about DTW in the literature, for example \u00f1it is too slow to be useful\u00ee or \u00f1the warping window size does not matter much.\u00ee\n\nIn this tutorial, we correct these misunderstandings and we summarize the research efforts in optimizing both the efficiency and effectiveness of both the basic DTW algorithm, and of the higher-level algorithms that exploit DTW such as similarity search, clustering and classification. We will discuss variants of DTW such as constrained DTW, multidimensional DTW and asynchronous DTW, and optimization techniques such as lower bounding, early abandoning, run-length encoding, bounded approximation and hardware optimization.\n\nWe will discuss a multitude of application areas including physiological monitoring, social media mining, activity recognition and animal sound processing. The optimization techniques are generalizable to other domains on various data types and problems.\n\n", 
+    "authors": [
+      {
+        "name": "Abdullah Mueen"
+      }, 
+      {
+        "name": "Eamonn Keogh"
+      }
+    ], 
+    "title": "Extracting Optimal Performance from Dynamic Time Warping", 
+    "type": "tutorial"
+  }, 
   "110": {
     "abstract": "Given a bipartite graph of users and the products that they review, or followers and followees, how can we detect fake reviews or follows? Existing fraud detection methods (spectral, etc.) try to identify dense subgraphs of nodes that are sparsely connected to the remaining graph. Fraudsters can evade these methods using camouflage, by adding reviews or follows with honest targets so that they look \u00f1normal\u00ee. Even worse, some fraudsters use hijacked accounts from honest users, and then the camouflage is indeed organic.\n\nOur focus is to spot fraudsters in the presence of camouflage or hijacked accounts. We propose FRAUDAR, an algorithm that (a) is camouflage-resistant, (b) provides upper bounds on the effectiveness of fraudsters, and (c) is effective in real-world data. Experimental results under various attacks show that FRAUDAR outperforms the top competitor in accuracy of detecting both camouflaged and non-camouflaged fraud. Additionally, in real-world experiments with a Twitter follower-followee graph of 1.47 billion edges, FRAUDAR successfully detected a subgraph of more than 4000 detected accounts, of which a majority had tweets showing that they used follower-buying services.", 
     "authors": [
@@ -1046,6 +1059,22 @@
     "title": "A Truth Discovery Approach with Theoretical Guarantee", 
     "type": "poster"
   }, 
+  "18": {
+    "abstract": "Social media platforms like Twitter and Facebook have emerged as some of the most important platforms for people to discover, report, share, and communicate with others about various public events, be they of global or local interest (some high profile examples include the U.S Presidential debates, the Boston bombings, the hurricane Sandy, etc). The burst of social media reaction can be seen as a valuable real-time reflection of events as they happen, and can be used for a variety of applications such as computational journalism. Until now, such analysis has been mostly done manually or through primitive tools. Scalable and automated approaches are needed given the massive amounts of both event and reaction information. These approaches must also be able to conduct in-depth analysis of complex interactions between an event and its audience. Supporting such automation and examination however poses several computational challenges. In recent years, research communities have witnessed a growing interest in tackling these challenges. Furthermore, much recent research has begun to focus on solving more complex event analytics tasks such as post-event effect quantification and event progress prediction. This tutorial aims to review and examine current state of the research progress on this emerging topic.\n\n", 
+    "authors": [
+      {
+        "name": "Yuheng Hu"
+      }, 
+      {
+        "name": "Yu-Ru Lin"
+      }, 
+      {
+        "name": "Jiebo Luo"
+      }
+    ], 
+    "title": "Collective Sensemaking via Social Sensors: Extracting, Profiling, Analyzing, and Predicting Real-world Events", 
+    "type": "tutorial"
+  }, 
   "183": {
     "abstract": "Online learning is used in a wide range of \n\nreal applications, e.g., predicting ad click-through rates (CTR) and \n\npersonalized recommendations. \n\nBased on the analysis of users' behaviors in Video-On-Demand (VoD) \n\nrecommender systems,\n\nwe discover that the most recent users' actions \n\ncan better reflect users' current intentions and preferences. \n\nUnder this observation, we thereby propose \n\na novel time-decaying online learning algorithm \n\nderived from the state-of-the-art FTRL-proximal algorithm, \n\ncalled Time-Decaying Adaptive Prediction (TDAP) algorithm. \n\n\n\nTo scale Big Data, we further parallelize \n\nour algorithm following the data parallel scheme \n\nunder both BSP and SSP consistency model. \n\nWe experimentally evaluate our TDAP algorithm \n\non real IPTV VoD datasets \n\nusing two state-of-the-art distributed computing platforms, \n\nTDAP achieves good accuracy: it improves \n\nat least  5.6% in terms of prediction accuracy, \n\ncompared to FTRL-proximal algorithm; and \n\nTDAP scales well: it runs 4 times \n\nfaster when the number of \n\nmachines increases from 2 to 10. ", 
     "authors": [
@@ -1152,6 +1181,79 @@
     ], 
     "title": "Graphons and Machine Learning: Modeling and Estimation of Sparse Massive Networks", 
     "type": "talk"
+  }, 
+  "20": {
+    "abstract": "The challenge of deriving insights from the Internet of Things (IoT) has been recognized as one of the most exciting and key opportunities for both academia and industry. Advanced analysis of big data streams from sensors and devices is bound to become a key area of data mining research as the number of applications requiring such processing increases. Dealing with the evolution over time of such data streams, i.e., with concepts that drift or change completely, is one of the core issues in IoT stream mining. This tutorial is a gentle introduction to mining IoT big data streams. The first part introduces data stream learners for classification, regression, clustering, and frequent pattern mining. The second part deals with scalability issues inherent in IoT applications, and discusses how to mine data streams on distributed engines such as Spark, Flink, Storm, and Samza.\n\n", 
+    "authors": [
+      {
+        "name": "Gianmarco De Francisci Morales"
+      }, 
+      {
+        "name": "Albert Bifet"
+      }, 
+      {
+        "name": "Latifur Khan"
+      }, 
+      {
+        "name": "Joao Gama"
+      }, 
+      {
+        "name": "Wei Fan"
+      }
+    ], 
+    "title": "IoT Big Data Stream Mining", 
+    "type": "tutorial"
+  }, 
+  "202": {
+    "abstract": "Recently we have seen emergence and huge adoption of social media, internet of things for home, industrial internet of things, mobile applications and online transactions.  These systems generate streaming data at very large scale. Building technologies and distributed systems that can capture, process and analyze this streaming data in real time is very important for gaining real time insights. Real-time analysis of streaming data can be used for applications as diverse as fraud detection, in-session targeting and recommendations, control systems for transportation systems and smarter cities, earthquake prediction and control of autonomous vehicles.\n\n\n\nThis tutorial will provide overview of streaming systems and hands on tutorial on building streaming analytics systems using open source technologies.", 
+    "authors": [
+      {
+        "name": "Ashish Gupta"
+      }, 
+      {
+        "name": "Neera Agarwal"
+      }
+    ], 
+    "title": "Streaming Analytics", 
+    "type": "tutorial"
+  }, 
+  "204": {
+    "abstract": "This tutorial will introduce the Computational Network Toolkit, or CNTK, Microsoft\u00cds cutting-edge open-source deep-learning toolkit for Windows and Linux. CNTK is a powerful computation-graph based deep-learning toolkit for training and evaluating deep neural networks. Microsoft product groups use CNTK, for example to create the Cortana speech models and web ranking. CNTK supports feed-forward, convolutional, and recurrent networks for speech, image, and text workloads, also in combination. Popular network types are supported either natively (convolution) or can be described as a CNTK configuration (LSTM, sequence-to-sequence). CNTK scales to multiple GPU servers and is designed around efficiency.\n\nThe tutorial will give an overview of CNTK's general architecture and describe the specific methods and algorithms used for automatic differentiation, recurrent-loop inference and execution, memory sharing, on-the-fly randomization of large corpora, and multi-server parallelization. We will then show how typical uses looks like for relevant tasks like image recognition, sequence-to-sequence modeling, and speech recognition. ", 
+    "authors": [
+      {
+        "name": "Frank Seide"
+      }, 
+      {
+        "name": "Amit Agarwal"
+      }
+    ], 
+    "title": "CNTK: Microsoft's Open-Source Deep-Learning Toolkit", 
+    "type": "tutorial"
+  }, 
+  "205": {
+    "abstract": "R is one of the most popular languages in the data science, statistical and machine learning (ML) community. However, when it comes to scalable data analysis and ML using R, many data scientists are blocked or hindered by (a) its limitations of available functions to handle large datasets efficiently, and (b) knowledge about the appropriate computing environments to scale R scripts from desktop exploratory analysis to elastic and distributed cloud services. In this tutorial we will discuss solutions that demonstrate the use of distributed compute environments and end to end solutions for R. We will present the topics through presentations and worked-out examples with sample code. In addition, we will provide a public code repository that attendees will be able to access and adapt to their own practice. We believe this tutorial will be of strong interest to a large and growing community of data scientists and developers using R for data analysis and modeling.", 
+    "authors": [
+      {
+        "name": "John-Mark Agosta"
+      }, 
+      {
+        "name": "Debraj GuhaThakurta"
+      }, 
+      {
+        "name": "Robert Horton"
+      }, 
+      {
+        "name": "Mario Inchiosa"
+      }, 
+      {
+        "name": "Srini Kumar"
+      }, 
+      {
+        "name": "Mengyue Zhao"
+      }
+    ], 
+    "title": "Scalable Data Analytics Using R", 
+    "type": "tutorial"
   }, 
   "206": {
     "abstract": "Many socio-economic indicators are sensitive to real-world events.\n\nProper characterization of the events can help to identify the relevant events \n\nthat drive fluctuations in these indicators. In this paper, we propose a novel \n\ngenerative model of real-world events and employ it to extract\n\nevents from a large corpus of news articles. We introduce the notion of an  event class,\n\nwhich is an abstract grouping of similarly themed events.\n\nThese event classes are manifested in news articles in the form of \n\nevent triggers which are specific words that describe the actions or incidents reported in any article.\n\nWe use the extracted events to predict fluctuations in different socio-economic indicators. Specifically, we focus on food prices and predict the\n\nprice of 12 different crops based on real-world events that potentially influence \n\nfood price volatility, such as transport strikes, festivals etc. \n\nOur experiments demonstrate that incorporating event information\n\nin the prediction tasks reduces the root mean square error (RMSE) of\n\nprediction by 22% compared to the standard ARIMA model.\n\nWe also predict sudden increases in the food prices (i.e. spikes) using\n\nevents as features, and achieve an average\n\n5-10% increase in accuracy compared to baseline models, including an LDA topic-model based predictive model.\n\n", 
@@ -1270,6 +1372,22 @@
     ], 
     "title": "Computational Drug Repositioning Using Continuous Self-Controlled Case Series", 
     "type": "poster"
+  }, 
+  "26": {
+    "abstract": "Algorithms and decision making based on Big Data have become pervasive in all aspects of our daily lives lives (offline and online), as they have become essential tools in personal finance, health care, hiring, housing, education, and policies. It is therefore of societal and ethical importance to ask whether these algorithms can be discriminative on grounds such as gender, ethnicity, or health status.  It turns out that the answer is positive:  for instance, recent studies in the context of  online advertising show that ads for high-income jobs are presented to men much more often than to women [Datta et al., 2015]; and ads for arrest records are significantly more likely to show up on searches for distinctively black names [Sweeney, 2013].\n\n\n\nThis algorithmic bias exists even when there is no discrimination intention in the developer of the algorithm. Sometimes it may be inherent to the data sources used (software making decisions based on data can reflect, or even amplify, the results of historical discrimination), but even when the sensitive attributes have been suppressed from the input, a well trained machine learning algorithm may still discriminate on the basis of such sensitive attributes because of correlations existing in the data. \n\nThese considerations call for the development of data mining systems which are discrimination-conscious by-design. This is a novel and challenging research area for the data mining community.\n\n\n\nThe aim of this tutorial is to survey algorithmic bias, presenting its most common variants, with an emphasis on the algorithmic techniques and key ideas developed to derive efficient solutions. The tutorial covers two main complementary approaches: algorithms for discrimination discovery and discrimination prevention by means of fairness-aware data mining. We conclude by summarizing promising paths for future research.\n\n", 
+    "authors": [
+      {
+        "name": "Sara Hajian"
+      }, 
+      {
+        "name": "Francesco Bonchi"
+      }, 
+      {
+        "name": "Carlos Castillo"
+      }
+    ], 
+    "title": "Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining", 
+    "type": "tutorial"
   }, 
   "261": {
     "abstract": "The choice of the loss function is critical in extreme multi-label learning where the objective is to annotate each data point with the most relevant subset of labels from an extremely large label set.  Unfortunately, existing loss functions, such as the Hamming loss, are unsuitable for learning, model selection, hyperparameter tuning and performance evaluation. This paper addresses the issue by developing propensity scored losses  which: (a) prioritize predicting the few relevant labels over the large number of irrelevant ones; (b) do not erroneously treat missing labels as irrelevant but instead provide unbiased estimates of the true loss function even when ground truth labels go missing under arbitrary probabilistic label noise models; and (c) promote the accurate prediction of infrequently occurring, hard to predict, but rewarding tail labels. Another contribution is the development of algorithms which efficiently scale to extremely large datasets with up to 9 million labels, 70 million points and 2 million dimensions  and which give significant improvements over the state-of-the-art.\n\nThis paper's results also apply to tagging, recommendation and ranking which are the motivating applications for extreme multi-label learning. They generalize previous attempts at deriving unbiased losses under the restrictive assumption that labels go missing uniformly at random from the ground truth. Furthermore, they provide a sound theoretical justification for popular label weighting heuristics used to recommend rare items.  Finally, they demonstrate that the proposed contributions align with real world applications by achieving superior clickthrough rates on sponsored search advertising in Bing.", 
@@ -1527,6 +1645,25 @@
     "title": "Multi-layer Representation Learning for Medical Concepts", 
     "type": "poster"
   }, 
+  "31": {
+    "abstract": "Predictive modeling is the art of building statistical models that forecast probabilities and trends of future events. It has broad applications in industry across different domains. Some popular examples include user intention predictions, lead scoring, churn analysis, etc. In this tutorial, we will focus on the best practice of predictive modeling in the big data era and its applications in industry, with motivating examples across a range of business tasks and relevance products. We will start with an overview of how predictive modeling helps power and drive various key business use cases. We will introduce the essential concepts and state of the art in building end-to-end predictive modeling solutions, and discuss the challenges, key technologies, and lessons learned from our practice, including case studies of LinkedIn feed relevance and a platform for email response prediction. Moreover, we will discuss some practical solutions of building predictive modeling platform to scale the modeling efforts for data scientists and analysts, along with an overview of popular tools and platforms used across the industry.   ", 
+    "authors": [
+      {
+        "name": "Qiang Zhu"
+      }, 
+      {
+        "name": "Songtao Guo"
+      }, 
+      {
+        "name": "Paul Ogilvie"
+      }, 
+      {
+        "name": "Yan Liu"
+      }
+    ], 
+    "title": "Business Applications of Predictive Modeling at Scale", 
+    "type": "tutorial"
+  }, 
   "311": {
     "abstract": "Shift-invariant dictionary learning (SIDL) refers to the problem of discovering a set of latent basis vectors (the dictionary) that captures informative local patterns at different locations of the input sequences, and a sparse coding for each sequence as a linear combination of the latent basis elements.  It differs from conventional dictionary learning and sparse coding where the latent basis has the same dimension as the input vectors, where the focus is on global patterns instead of shift-invariant local patterns. Unsupervised discovery of shift-invariant dictionary and the corresponding sparse coding has been an open challenge as the number of candidate local patterns is extremely large, and the number of possible linear combinations of such local patterns is even more so. In this paper we propose a new framework for unsupervised discovery of both the shift-invariant basis and the sparse coding of input data, with efficient algorithms for tractable optimization. Empirical evaluations on multiple time series data sets demonstrate the effectiveness and efficiency of the proposed method.", 
     "authors": [
@@ -1574,6 +1711,28 @@
     ], 
     "title": "Parallel Dual Coordinate Descent Method for Large-scale Linear Classification in Multi-core Environments", 
     "type": "poster"
+  }, 
+  "32": {
+    "abstract": "Recent years have witnessed an astonishing growth of crowd-contributed data, which has become a powerful information source that covers almost every aspect of our lives. This big treasure trove of information has fundamentally changed the ways in which we learn about our world. Crowdsourcing has attracted considerable attentions with various approaches developed to utilize these enormous crowdsourced data from different perspectives. From the data collection perspective, crowdsourced data can be divided into two types: ``passively'' crowdsourced data and ``actively'' crowdsourced data; from task perspective, crowdsourcing research includes information aggregation, budget allocation, worker incentive mechanism, etc. To answer the need of a systematic introduction of the field and comparison of the techniques, we will present an organized picture on crowdsourcing methods in this tutorial. The covered topics will be interested for both advanced researchers and beginners in this field.", 
+    "authors": [
+      {
+        "name": "Jing Gao"
+      }, 
+      {
+        "name": "Qi Li"
+      }, 
+      {
+        "name": "Bo Zhao"
+      }, 
+      {
+        "name": "Wei Fan"
+      }, 
+      {
+        "name": "Jiawei Han"
+      }
+    ], 
+    "title": "Mining Reliable Information from Passively and Actively Crowdsourced Data", 
+    "type": "tutorial"
   }, 
   "330": {
     "abstract": "We study how to obtain concise descriptions of discrete multivariate sequential data. In particular, how to do so in terms of rich multivariate sequential patterns that can capture potentially highly interesting (cor)relations between  sequences. To this end we allow our pattern language to span over the domains (alphabets) of all sequences, allow patterns to overlap temporally, as well as allow for gaps in their occurrences. \n\n\t\n\nWe formalise our goal by the Minimum Description Length principle, by which our objective is to discover the set of patterns that provides the most succinct description of the data. To discover high-quality pattern sets directly from data, we introduce Ditto, a highly efficient algorithm that approximates the ideal result very well. \n\n\n\nExperiments show that Ditto correctly discovers the patterns planted in synthetic data. Moreover, it scales favourably with the length of the data, the number of attributes, the alphabet sizes. On real data, ranging from sensor networks to annotated text, Ditto discovers easily interpretable summaries that provide clear insight in both the univariate and multivariate structure. ", 
@@ -1631,6 +1790,19 @@
     ], 
     "title": "Efficient Processing of Network Proximity Queries via Chebyshev Acceleration", 
     "type": "poster"
+  }, 
+  "35": {
+    "abstract": "Can we infer if a user is sick from her tweet? How do opinions get formed in online forums? Which people should we immunize to prevent an epidemic as fast as possible? How do we quickly zoom out of a graph? Graphs---also known as networks---are powerful tools for modeling processes and situations of interest in real life domains of social systems, cyber-security, epidemiology, and biology. They are ubiquitous, from online social networks, gene-regulatory networks, to router graphs.</par><par>This tutorial will cover recent and state-of-the-art research on how propagation-like processes can help big-data mining specifically involving large networks and time-series, algorithms behind network problems, and their practical applications in various diverse settings. Topics include diffusion and virus propagation in networks, anomaly and outbreak detection, event prediction and connections with work in public health, the web and online media, social sciences, humanities, and cyber-security.", 
+    "authors": [
+      {
+        "name": "B. Aditya Prakash"
+      }, 
+      {
+        "name": "Naren Ramakrishnan"
+      }
+    ], 
+    "title": "Leveraging Propagation for Data Mining: Models, Algorithms and Applications", 
+    "type": "tutorial"
   }, 
   "350": {
     "abstract": "Modern data science relies on data analytic pipelines to organize interdependent computational steps. Such  analytic pipelines often involve different algorithms across multiple steps, each with its own hyperparameters. To achieve the best performance, it is often critical to select optimal algorithms and to set appropriate hyperparameters, which requires large computational efforts. Bayesian optimization provides a principled way for searching optimal hyperparameters for a single algorithm. However, many challenges remain in solving pipeline optimization problems with high-dimensional and highly conditional search space. In this work, we propose Fast LineAr SearcH (FLASH), an efficient method for tuning analytic pipelines. FLASH is a two-layer Bayesian optimization framework, which firstly uses a parametric model to select promising algorithms, then computes a nonparametric model to fine-tune hyperparameters of the promising algorithms. FLASH also includes an effective caching algorithm which can further accelerate the search process. Extensive experiments on a number of benchmark datasets have demonstrated that FLASH significantly outperforms previous state-of-the-art methods in both search speed and accuracy. Using 50% of the time budget, FLASH achieves up to 20% improvement on test error rate compared to the baselines. FLASH also yields state-of-the-art performance on a real-world application for healthcare predictive modeling.", 
@@ -1840,14 +2012,20 @@
     "type": "talk"
   }, 
   "4": {
-    "abstract": "We are seeing a remarkable watershed in the application of data science across markets and industries. A trifecta of advances in algorithms, cheap cycles, and the capture of networked data from everywhere are no doubt the catalysts. The results for many are continuous improvements in efficiencies, and for some are a fundamental re-imagination and disruption of just about every industry. This talk will give examples we are seeing (and funding!) for the latter, and then focus on our views of the ecosystem of value-from-data infrastructure and end-application companies. A big question is whether the enormous collective advances in tools, techniques and education are in-fact converting would-be differentiated products into democratized features used everywhere. We\u00cdll follow the value and make our own predictions on future as ML as a business.", 
+    "abstract": "This tutorial introduces Lifelong Machine Learning (LML) and Machine Reading. The core idea of LML is to learn con- tinuously and accumulate the learned knowledge, and to use the knowledge to help future learning, which is perhaps the hallmark of human learning and human intelligence. By us- ing prior knowledge seamlessly and effortlessly, we humans can learn without a lot of training data, but current ma- chine learning algorithms tend to need a huge amount of training data. LML aims to mimic this human capability. Machine Reading is a research area with the goal of building systems to read natural language text. Among different ap- proaches employed in Machine Reading, this tutorial focuses on projects and approaches that use the idea of LML.\n\n\n\nMost current machine learning (ML) algorithms learn in isolation. They are designed to address a specific problem using a single dataset. That is, given a dataset, an ML algo- rithm is executed on the dataset to build a model. Although this type of isolated learning is very useful, it does not have the ability to accumulate past knowledge and to make use of the knowledge for future learning, which we believe are critical for the future of machine learning and data mining. LML aims to design and develop computational systems and algorithms with this capability, i.e., to learn as humans do in a lifelong manner.\n\n\n\nIn this tutorial, we introduce this important problem and the existing LML techniques and discuss opportunities and challenges of big data for lifelong machine learning. We also want to motivate researchers and practitioners to actively explore LML as the big data provides us a golden opportu- nity to learn a large volume of diverse knowledge, to connect different pieces of it, and to use it to raise data mining and machine learning to a new level.", 
     "authors": [
       {
-        "name": "Greg Papadopoulos"
+        "name": "Zhiyuan Chen"
+      }, 
+      {
+        "name": "Estevam R. Hruschka Jr."
+      }, 
+      {
+        "name": "Bing Liu"
       }
     ], 
-    "title": "A VC View of Investing in ML", 
-    "type": "talk"
+    "title": "Lifelong Machine Learning and Computer Reading the Web", 
+    "type": "tutorial"
   }, 
   "403": {
     "abstract": "Tensors are a natural representation for multidimensional data. In recent years, CANDECOMP/PARAFAC (CP) decomposition, one of the most popular tools for analyzing multi-way data, has been extensively studied and widely applied.\n\nHowever, today's datasets are often dynamically changing over time. Tracking the CP decomposition for such dynamic tensors is a crucial but challenging task, due to the large scale of the tensor and the velocity of new data arriving. Traditional techniques, such as Alternating Least Squares (ALS), cannot be directly applied to this problem because of their poor scalability in terms of time and memory. Additionally, existing online approaches have only partially addressed this problem and can only be deployed on third-order tensors. To fill this gap, we propose an efficient online algorithm that can incrementally track the CP decompositions of dynamic tensors with an arbitrary number of dimensions. In terms of effectiveness, our algorithm demonstrates comparable results with the most accurate algorithm, ALS, whilst being computationally much more efficient. Specifically, on small and moderate datasets, our approach is tens to hundreds of times faster than ALS, while for large-scale datasets, the speedup can be more than 3,000 times. Compared to other state-of-the-art online approaches, our method shows not only significantly better decomposition quality, but also better performance in terms of stability, efficiency and scalability.", 
@@ -3058,14 +3236,17 @@
     "type": "paper"
   }, 
   "7": {
-    "abstract": "The past 15 years have witnessed a remarkable increase in both the scale and scope of social and behavioral data available to researchers, leading some to herald the emergence of a new field: \u00f1computational social science.\u00ee Against these exciting developments stands a stubborn fact: that in spite of many thousands of published papers, there has been surprisingly little progress on the \u00f1big\u00ee questions that motivated the field in the first place\u0084questions concerning systemic risk in financial systems, problem solving in complex organizations, and the dynamics of epidemics or social movements, among others. In this talk I highlight some examples of research that would not have been possible just a handful of years ago and that illustrate the promise of CSS. At the same time, they illustrate its limitations.  I then conclude with some thoughts on how CSS can bridge the gap between its current state and its potential.  ", 
+    "abstract": "From understanding the structure of data, to classification and topic modeling, graphical models are core tools in machine learning and data mining. \n\nThey combine probability and graph theories to form a compact representation of probability distributions. \n\nIn the last decade, as data stores became larger and higher-dimensional, traditional algorithms for learning graphical models from data, with their lack of scalability, became less and less usable, thus directly decreasing the potential benefits of this core technology. \n\nTo scale graphical modeling techniques to the size and dimensionality of most modern data stores, data science researchers and practitioners now have to meld the most recent advances in numerous specialized fields including graph theory, statistics, pattern mining and graphical modeling. \n\n\n\nThis tutorial covers the core building blocks that are necessary to build and use scalable graphical modeling technologies on large and high-dimensional data. ", 
     "authors": [
       {
-        "name": "Duncan Watts"
+        "name": "Francois Petitjean"
+      }, 
+      {
+        "name": "Geoffrey I Webb"
       }
     ], 
-    "title": "Computational Social Science: Exciting Progress and Future Challenges", 
-    "type": "Applied Data Science Invited Talk"
+    "title": "Scalable Learning of Graphical Models", 
+    "type": "tutorial"
   }, 
   "702": {
     "abstract": "Many graphs in real-world applications, such as telecommunications networks, social-interaction graphs and co-authorship graphs, contain temporal information. However, existing graph mining algorithms fail to exploit these temporal information and the resulting subgraph patterns do not contain any temporal attribute. In this paper, we study the problem of mining a set of diversified temporal subgraph patterns from a temporal graph, where each subgraph is associated with the time interval that the pattern spans. This problem motivates important applications such as finding social trends in social networks, or detecting temporal hotspots in telecommunications networks. We propose a divide-and-conquer algorithm along with effective pruning techniques, and our approach runs 2 to 3 orders of magnitude faster than a baseline algorithm and obtains high-quality temporal subgraph patterns in real temporal graphs.", 
