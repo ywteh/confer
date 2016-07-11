@@ -166,7 +166,7 @@ schedule=[
         "sessions": [
           {
             "room": "Golden Gate", 
-            "session": "Poster"
+            "session": "Applied_Data_Science_Track_Posters"
           }
         ], 
         "slot_class": "evening", 
@@ -269,6 +269,17 @@ schedule=[
         "slot_class": "afternoon2", 
         "slot_id": "Tuesday16_15_18_15", 
         "time": "16:15 - 18:15"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Golden Gate", 
+            "session": "Research_Track_Posters"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Tuesday19_00_0_00", 
+        "time": "19:00 - 0:00"
       }
     ]
   }, 

@@ -170,12 +170,16 @@ def prepare_data(data_file1):
     if 'Panel' in type:
         type = 'panel'
         session = 'Panel: ' + paper_title
+        
     if 'poster' in type:
-        type = 'poster'
+
         if "Applied Data" in type:
             session = "Applied Data Science Track Posters"
         if "Research" in type:
             session = "Research Track Posters"
+        
+        type = 'poster'
+        
     if 'Tutorial' in type:
         type = "tutorial"
         session = 'Tutorial: ' + paper_title
