@@ -1,0 +1,187 @@
+schedule=[
+  {
+    "date": "08/15/2016", 
+    "day": "Monday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Graphs_and_Rich_Data"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Large_Scale_Data_Mining"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Social_Good_1"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Monday10_00_12_00", 
+        "time": "10:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom", 
+            "session": "Keynote"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday12_15_13_30", 
+        "time": "12:15 - 13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Graphs_and_Social_Networks_I"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Social_Good_2"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Streams_and_Temporal_Evolution_I"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday13_45_15_45", 
+        "time": "13:45 - 15:45"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Graphs_and_Social_Networks_II"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Miscellaneous_Topics"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Streams_and_Temporal_Evolution_II"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "Monday16_15_18_15", 
+        "time": "16:15 - 18:15"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Golden Gate", 
+            "session": "Poster"
+          }
+        ], 
+        "slot_class": "evening", 
+        "slot_id": "Monday19_00_0_00", 
+        "time": "19:00 - 0:00"
+      }
+    ]
+  }, 
+  {
+    "date": "08/16/2016", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Clustering"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Deep_Learning_and_Embedding"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Recommendations_Ranking"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Applied_Data_Science_Invited_Talks"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Tuesday10_00_12_00", 
+        "time": "10:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Unsupervised_Learning_and_Anomaly_Detection"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Social_Networks_Social_Media"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Panel"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Recommender_Systems"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Tuesday13_45_15_45", 
+        "time": "13:45 - 15:45"
+      }
+    ]
+  }, 
+  {
+    "date": "08/17/2016", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Machine_Learning_Algorithms"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Supervised_Learning"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Sequence_Mining"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "Wednesday10_00_12_00", 
+        "time": "10:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "User_Behavior_Modeling"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Optimization"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Systems_Experimentation"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "E_Commerce"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Wednesday13_00_15_00", 
+        "time": "13:00 - 15:00"
+      }
+    ]
+  }
+]
