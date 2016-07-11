@@ -298,6 +298,20 @@
 	      "end_date": "2016-07-15",
 	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"vsatyagautam@gmail.com\", \"ssengu15@asu.edu\"]"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 22,
+	    "fields": {
+	      "unique_name": "kdd2016",
+	      "confer_name": "kdd2016",
+	      "title": "KDD 2016 - 22nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+	      "subtitle": "",
+	      "blurb": "KDD 2016, a premier interdisciplinary conference, brings together researchers and practitioners from data science, data mining, knowledge discovery, large-scale data analytics, and big data.",
+	      "location": "San Francisco, CA, USA",
+	      "start_date": "2016-08-13",
+	      "end_date": "2016-08-17",
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"stefje@csail.mit.edu\"]"
+	  	}
 	}
 ]
   
