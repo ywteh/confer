@@ -32,10 +32,36 @@ sessions={
     ], 
     "time": "10:00 - 12:00"
   }, 
-  "Applied_Data_Science_Track_E_Commerce": {
+  "Clustering": {
+    "date": "Tuesday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Clustering", 
+    "submissions": [
+      "8", 
+      "17", 
+      "118", 
+      "144", 
+      "1162"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Deep_Learning_and_Embedding": {
+    "date": "Tuesday", 
+    "room": "Imperial Ballroom", 
+    "s_title": "Deep Learning and Embedding", 
+    "submissions": [
+      "191", 
+      "218", 
+      "289", 
+      "463", 
+      "1069"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "E_Commerce": {
     "date": "Wednesday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Track: E-Commerce", 
+    "s_title": "E-Commerce", 
     "submissions": [
       "160", 
       "392", 
@@ -45,130 +71,44 @@ sessions={
     ], 
     "time": "13:00 - 15:00"
   }, 
-  "Applied_Data_Science_Track_Machine_Learning_Algorithms": {
-    "date": "Wednesday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Machine Learning Algorithms", 
+  "Graphs_and_Rich_Data": {
+    "date": "Monday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Graphs and Rich Data", 
     "submissions": [
-      "163", 
-      "562", 
-      "653", 
-      "682", 
-      "975"
+      "110", 
+      "122", 
+      "397", 
+      "454", 
+      "567"
     ], 
     "time": "10:00 - 12:00"
   }, 
-  "Applied_Data_Science_Track_Miscellaneous_Topics": {
+  "Graphs_and_Social_Networks_I": {
     "date": "Monday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Miscellaneous Topics", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Graphs and Social Networks-I", 
     "submissions": [
-      "399", 
-      "780", 
-      "793", 
-      "831", 
-      "1227"
+      "58", 
+      "184", 
+      "300", 
+      "679", 
+      "963"
+    ], 
+    "time": "13:45 - 15:45"
+  }, 
+  "Graphs_and_Social_Networks_II": {
+    "date": "Monday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Graphs and Social Networks-II", 
+    "submissions": [
+      "446", 
+      "696", 
+      "878", 
+      "1184", 
+      "1202"
     ], 
     "time": "16:15 - 18:15"
-  }, 
-  "Applied_Data_Science_Track_Posters": {
-    "date": "Monday", 
-    "room": "Golden Gate", 
-    "s_title": "Applied Data Science Track Posters", 
-    "submissions": [
-      "28", 
-      "183", 
-      "250", 
-      "290", 
-      "291", 
-      "450", 
-      "461", 
-      "478", 
-      "518", 
-      "533", 
-      "574", 
-      "722", 
-      "725", 
-      "739", 
-      "770", 
-      "804", 
-      "848", 
-      "864", 
-      "884", 
-      "916", 
-      "945", 
-      "966", 
-      "1036", 
-      "1044", 
-      "1156", 
-      "1175"
-    ], 
-    "time": "19:00 - 0:00"
-  }, 
-  "Applied_Data_Science_Track_Recommendations_Ranking": {
-    "date": "Tuesday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Recommendations & Ranking", 
-    "submissions": [
-      "66", 
-      "295", 
-      "361", 
-      "677", 
-      "1122"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Track_Social_Good_1": {
-    "date": "Monday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Social Good - 1", 
-    "submissions": [
-      "511", 
-      "575", 
-      "605", 
-      "629", 
-      "832"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Track_Social_Good_2": {
-    "date": "Monday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Social Good - 2", 
-    "submissions": [
-      "654", 
-      "881", 
-      "913", 
-      "1027", 
-      "1038"
-    ], 
-    "time": "13:45 - 15:45"
-  }, 
-  "Applied_Data_Science_Track_Social_Networks_Social_Media": {
-    "date": "Tuesday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Social Networks & Social Media", 
-    "submissions": [
-      "483", 
-      "510", 
-      "710", 
-      "1089", 
-      "1132"
-    ], 
-    "time": "13:45 - 15:45"
-  }, 
-  "Applied_Data_Science_Track_Systems_Experimentation": {
-    "date": "Wednesday", 
-    "room": "Cyril Magnin - Parc 55", 
-    "s_title": "Applied Data Science Track: Systems & Experimentation", 
-    "submissions": [
-      "798", 
-      "849", 
-      "853", 
-      "943", 
-      "1233"
-    ], 
-    "time": "13:00 - 15:00"
   }, 
   "Keynote_A_VC_View_of_Investing_in_ML": {
     "date": "Tuesday", 
@@ -215,6 +155,58 @@ sessions={
     ], 
     "time": "16:15 - 18:15"
   }, 
+  "Large_Scale_Data_Mining": {
+    "date": "Monday", 
+    "room": "Imperial Ballroom", 
+    "s_title": "Large-Scale Data Mining", 
+    "submissions": [
+      "276", 
+      "467", 
+      "693", 
+      "697", 
+      "967"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Machine_Learning_Algorithms": {
+    "date": "Wednesday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Machine Learning Algorithms", 
+    "submissions": [
+      "163", 
+      "562", 
+      "653", 
+      "682", 
+      "975"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Miscellaneous_Topics": {
+    "date": "Monday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Miscellaneous Topics", 
+    "submissions": [
+      "399", 
+      "780", 
+      "793", 
+      "831", 
+      "1227"
+    ], 
+    "time": "16:15 - 18:15"
+  }, 
+  "Optimization": {
+    "date": "Wednesday", 
+    "room": "Imperial Ballroom", 
+    "s_title": "Optimization", 
+    "submissions": [
+      "403", 
+      "764", 
+      "801", 
+      "942", 
+      "1039"
+    ], 
+    "time": "13:00 - 15:00"
+  }, 
   "Panel_Big_Data_Needs_Big_Dreamers_Lessons_from_Successful_Big_Data_Investors": {
     "date": "Tuesday", 
     "room": "Yosemite A/B/C", 
@@ -233,102 +225,37 @@ sessions={
     ], 
     "time": "13:45 - 15:45"
   }, 
-  "Research_Track_Clustering": {
-    "date": "Tuesday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Clustering", 
-    "submissions": [
-      "8", 
-      "17", 
-      "118", 
-      "144", 
-      "1162"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Research_Track_Deep_Learning_and_Embedding": {
-    "date": "Tuesday", 
-    "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Deep Learning and Embedding", 
-    "submissions": [
-      "191", 
-      "218", 
-      "289", 
-      "463", 
-      "1069"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Research_Track_Graphs_and_Rich_Data": {
+  "Poster": {
     "date": "Monday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Graphs and Rich Data", 
-    "submissions": [
-      "110", 
-      "122", 
-      "397", 
-      "454", 
-      "567"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Research_Track_Graphs_and_Social_Networks_I": {
-    "date": "Monday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Graphs and Social Networks-I", 
-    "submissions": [
-      "58", 
-      "184", 
-      "300", 
-      "679", 
-      "963"
-    ], 
-    "time": "13:45 - 15:45"
-  }, 
-  "Research_Track_Graphs_and_Social_Networks_II": {
-    "date": "Monday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Graphs and Social Networks-II", 
-    "submissions": [
-      "446", 
-      "696", 
-      "878", 
-      "1184", 
-      "1202"
-    ], 
-    "time": "16:15 - 18:15"
-  }, 
-  "Research_Track_Large_Scale_Data_Mining": {
-    "date": "Monday", 
-    "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Large-Scale Data Mining", 
-    "submissions": [
-      "276", 
-      "467", 
-      "693", 
-      "697", 
-      "967"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Research_Track_Optimization": {
-    "date": "Wednesday", 
-    "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Optimization", 
-    "submissions": [
-      "403", 
-      "764", 
-      "801", 
-      "942", 
-      "1039"
-    ], 
-    "time": "13:00 - 15:00"
-  }, 
-  "Research_Track_Posters": {
-    "date": "Tuesday", 
     "room": "Golden Gate", 
-    "s_title": "Research Track Posters", 
+    "s_title": "Poster", 
     "submissions": [
+      "28", 
+      "183", 
+      "250", 
+      "290", 
+      "291", 
+      "450", 
+      "461", 
+      "478", 
+      "518", 
+      "533", 
+      "574", 
+      "722", 
+      "725", 
+      "739", 
+      "770", 
+      "804", 
+      "848", 
+      "864", 
+      "884", 
+      "916", 
+      "945", 
+      "966", 
+      "1036", 
+      "1044", 
+      "1156", 
+      "1175", 
       "3", 
       "36", 
       "86", 
@@ -404,10 +331,23 @@ sessions={
     ], 
     "time": "19:00 - 0:00"
   }, 
-  "Research_Track_Recommender_Systems": {
+  "Recommendations_Ranking": {
+    "date": "Tuesday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Recommendations & Ranking", 
+    "submissions": [
+      "66", 
+      "295", 
+      "361", 
+      "677", 
+      "1122"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Recommender_Systems": {
     "date": "Tuesday", 
     "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Recommender Systems", 
+    "s_title": "Recommender Systems", 
     "submissions": [
       "63", 
       "283", 
@@ -417,10 +357,10 @@ sessions={
     ], 
     "time": "13:45 - 15:45"
   }, 
-  "Research_Track_Sequence_Mining": {
+  "Sequence_Mining": {
     "date": "Wednesday", 
     "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Sequence Mining", 
+    "s_title": "Sequence Mining", 
     "submissions": [
       "12", 
       "185", 
@@ -430,10 +370,49 @@ sessions={
     ], 
     "time": "10:00 - 12:00"
   }, 
-  "Research_Track_Streams_and_Temporal_Evolution_I": {
+  "Social_Good_1": {
+    "date": "Monday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Social Good - 1", 
+    "submissions": [
+      "511", 
+      "575", 
+      "605", 
+      "629", 
+      "832"
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Social_Good_2": {
+    "date": "Monday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Social Good - 2", 
+    "submissions": [
+      "654", 
+      "881", 
+      "913", 
+      "1027", 
+      "1038"
+    ], 
+    "time": "13:45 - 15:45"
+  }, 
+  "Social_Networks_Social_Media": {
+    "date": "Tuesday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Social Networks & Social Media", 
+    "submissions": [
+      "483", 
+      "510", 
+      "710", 
+      "1089", 
+      "1132"
+    ], 
+    "time": "13:45 - 15:45"
+  }, 
+  "Streams_and_Temporal_Evolution_I": {
     "date": "Monday", 
     "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Streams and Temporal Evolution-I", 
+    "s_title": "Streams and Temporal Evolution-I", 
     "submissions": [
       "14", 
       "49", 
@@ -443,10 +422,10 @@ sessions={
     ], 
     "time": "13:45 - 15:45"
   }, 
-  "Research_Track_Streams_and_Temporal_Evolution_II": {
+  "Streams_and_Temporal_Evolution_II": {
     "date": "Monday", 
     "room": "Imperial Ballroom", 
-    "s_title": "Research Track: Streams and Temporal Evolution-II", 
+    "s_title": "Streams and Temporal Evolution-II", 
     "submissions": [
       "519", 
       "618", 
@@ -456,10 +435,10 @@ sessions={
     ], 
     "time": "16:15 - 18:15"
   }, 
-  "Research_Track_Supervised_Learning": {
+  "Supervised_Learning": {
     "date": "Wednesday", 
     "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Supervised Learning", 
+    "s_title": "Supervised Learning", 
     "submissions": [
       "261", 
       "460", 
@@ -469,29 +448,16 @@ sessions={
     ], 
     "time": "10:00 - 12:00"
   }, 
-  "Research_Track_Unsupervised_Learning_and_Anomaly_Detection": {
-    "date": "Tuesday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: Unsupervised Learning and Anomaly Detection", 
-    "submissions": [
-      "445", 
-      "585", 
-      "768", 
-      "775", 
-      "1131"
-    ], 
-    "time": "13:45 - 15:45"
-  }, 
-  "Research_Track_User_Behavior_Modeling": {
+  "Systems_Experimentation": {
     "date": "Wednesday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Research Track: User-Behavior Modeling", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Systems & Experimentation", 
     "submissions": [
-      "429", 
-      "553", 
-      "890", 
-      "1012", 
-      "1143"
+      "798", 
+      "849", 
+      "853", 
+      "943", 
+      "1233"
     ], 
     "time": "13:00 - 15:00"
   }, 
@@ -602,5 +568,31 @@ sessions={
       "202"
     ], 
     "time": "9:00 - 12:00"
+  }, 
+  "Unsupervised_Learning_and_Anomaly_Detection": {
+    "date": "Tuesday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Unsupervised Learning and Anomaly Detection", 
+    "submissions": [
+      "445", 
+      "585", 
+      "768", 
+      "775", 
+      "1131"
+    ], 
+    "time": "13:45 - 15:45"
+  }, 
+  "User_Behavior_Modeling": {
+    "date": "Wednesday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "User-Behavior Modeling", 
+    "submissions": [
+      "429", 
+      "553", 
+      "890", 
+      "1012", 
+      "1143"
+    ], 
+    "time": "13:00 - 15:00"
   }
 }
