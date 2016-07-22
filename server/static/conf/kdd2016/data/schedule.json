@@ -73,10 +73,6 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_1"
-          }, 
-          {
             "room": "Plaza Room A/B", 
             "session": "Research_Track_Graphs_and_Rich_Data"
           }, 
@@ -87,6 +83,10 @@ schedule=[
           {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Applied_Data_Science_Track_Social_Good_1"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_I"
           }
         ], 
         "slot_class": "morning2", 
@@ -126,12 +126,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_2"
-          }, 
-          {
             "room": "Imperial Ballroom", 
             "session": "Research_Track_Streams_and_Temporal_Evolution_II"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_II"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
@@ -188,10 +188,6 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_3"
-          }, 
-          {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Applied_Data_Science_Track_Recommendations_Ranking"
           }, 
@@ -202,6 +198,10 @@ schedule=[
           {
             "room": "Plaza Room A/B", 
             "session": "Research_Track_Clustering"
+          }, 
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_III"
           }
         ], 
         "slot_class": "morning2", 
