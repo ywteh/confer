@@ -139,7 +139,7 @@ def prepare_data(data_file1):
       
     type = unicode(row[1], "ISO-8859-1")
       
-    paper_id = unicode(row[4], "ISO-8859-1")
+    paper_id = unicode(row[0], "ISO-8859-1")
     paper_title = unicode(row[5], "ISO-8859-1")
     paper_authors = unicode(row[6], "ISO-8859-1")
     
@@ -167,6 +167,7 @@ def prepare_data(data_file1):
         
     if 'keynote' in type:
         type = 'talk'
+        print paper_title
         session = 'Keynote: ' + paper_title
         
     if 'panel' in type:

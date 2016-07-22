@@ -4,9 +4,9 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Applied Data Science Invited Talks - I", 
     "submissions": [
-      "2", 
-      "5", 
-      "7"
+      "67", 
+      "70", 
+      "72"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -15,9 +15,9 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Applied Data Science Invited Talks - II", 
     "submissions": [
-      "4", 
-      "6", 
-      "8"
+      "69", 
+      "71", 
+      "73"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -26,9 +26,9 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Applied Data Science Invited Talks - III", 
     "submissions": [
-      "1", 
-      "3", 
-      "9"
+      "66", 
+      "68", 
+      "74"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -37,11 +37,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Clustering", 
     "submissions": [
-      "8", 
-      "17", 
-      "118", 
-      "144", 
-      "1162"
+      "81", 
+      "84", 
+      "89", 
+      "91", 
+      "146"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -50,11 +50,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Deep Learning and Embedding", 
     "submissions": [
-      "191", 
-      "218", 
-      "289", 
-      "463", 
-      "1069"
+      "94", 
+      "95", 
+      "100", 
+      "111", 
+      "142"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -63,11 +63,11 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "E-Commerce", 
     "submissions": [
-      "160", 
-      "392", 
-      "514", 
-      "755", 
-      "1160"
+      "1", 
+      "5", 
+      "10", 
+      "20", 
+      "37"
     ], 
     "time": "13:00 - 15:00"
   }, 
@@ -76,11 +76,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Rich Data", 
     "submissions": [
-      "110", 
-      "122", 
-      "397", 
-      "454", 
-      "567"
+      "88", 
+      "90", 
+      "103", 
+      "109", 
+      "118"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -89,11 +89,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Social Networks-I", 
     "submissions": [
-      "58", 
-      "184", 
-      "300", 
-      "679", 
-      "963"
+      "86", 
+      "92", 
+      "101", 
+      "123", 
+      "136"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -102,11 +102,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Social Networks-II", 
     "submissions": [
-      "446", 
-      "696", 
-      "878", 
-      "1184", 
-      "1202"
+      "107", 
+      "125", 
+      "132", 
+      "148", 
+      "149"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -115,7 +115,7 @@ sessions={
     "room": "Grand Ballroom", 
     "s_title": "Keynote: A VC View of Investing in ML", 
     "submissions": [
-      "4"
+      "78"
     ], 
     "time": "8:00 - 9:30"
   }, 
@@ -124,7 +124,7 @@ sessions={
     "room": "Grand Ballroom", 
     "s_title": "Keynote: Graphons and Machine Learning: Modeling and Estimation of Sparse Massive Networks", 
     "submissions": [
-      "2"
+      "76"
     ], 
     "time": "8:00 - 9:30"
   }, 
@@ -133,7 +133,7 @@ sessions={
     "room": "Grand Ballroom", 
     "s_title": "Keynote: Learning to Learn and Compositionality with Deep Recurrent Neural Networks", 
     "submissions": [
-      "3"
+      "77"
     ], 
     "time": "8:00 - 9:30"
   }, 
@@ -142,7 +142,7 @@ sessions={
     "room": "Grand Ballroom", 
     "s_title": "Keynote: People, Computers, and The Hot Mess of Real Data", 
     "submissions": [
-      "1"
+      "75"
     ], 
     "time": "12:15 - 13:30"
   }, 
@@ -151,7 +151,7 @@ sessions={
     "room": "Grand Ballroom", 
     "s_title": "Keynote: The Evolving Meaning of Information Security", 
     "submissions": [
-      "5"
+      "79"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -160,11 +160,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Large-Scale Data Mining", 
     "submissions": [
-      "276", 
-      "467", 
-      "693", 
-      "697", 
-      "967"
+      "98", 
+      "113", 
+      "124", 
+      "126", 
+      "137"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -173,11 +173,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Machine Learning Algorithms", 
     "submissions": [
-      "163", 
-      "562", 
-      "653", 
-      "682", 
-      "975"
+      "2", 
+      "11", 
+      "15", 
+      "18", 
+      "31"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -186,11 +186,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Miscellaneous Topics", 
     "submissions": [
-      "399", 
-      "780", 
-      "793", 
-      "831", 
-      "1227"
+      "6", 
+      "21", 
+      "22", 
+      "24", 
+      "38"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -199,11 +199,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Optimization", 
     "submissions": [
-      "403", 
-      "764", 
-      "801", 
-      "942", 
-      "1039"
+      "104", 
+      "127", 
+      "131", 
+      "135", 
+      "141"
     ], 
     "time": "13:00 - 15:00"
   }, 
@@ -212,7 +212,7 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Panel: Big Data Needs Big Dreamers: Lessons from Successful Big Data Investors", 
     "submissions": [
-      "0"
+      "80"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -221,7 +221,7 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Panel: Can Tools Effectively Unleash the Power of Big Data?", 
     "submissions": [
-      "1"
+      "80"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -230,104 +230,104 @@ sessions={
     "room": "Golden Gate", 
     "s_title": "Poster", 
     "submissions": [
-      "28", 
-      "183", 
-      "250", 
-      "290", 
-      "291", 
-      "450", 
-      "461", 
-      "478", 
-      "518", 
-      "533", 
-      "574", 
-      "722", 
-      "725", 
-      "739", 
-      "770", 
-      "804", 
-      "848", 
-      "864", 
-      "884", 
-      "916", 
-      "945", 
-      "966", 
-      "1036", 
-      "1044", 
-      "1156", 
-      "1175", 
-      "3", 
-      "36", 
-      "86", 
-      "93", 
-      "123", 
-      "150", 
+      "40", 
+      "41", 
+      "42", 
+      "43", 
+      "44", 
+      "45", 
+      "46", 
+      "47", 
+      "48", 
+      "49", 
+      "50", 
+      "51", 
+      "52", 
+      "53", 
+      "54", 
+      "55", 
+      "56", 
+      "57", 
+      "58", 
+      "59", 
+      "60", 
+      "61", 
+      "62", 
+      "63", 
+      "64", 
+      "65", 
+      "151", 
+      "152", 
+      "153", 
+      "154", 
+      "155", 
+      "156", 
+      "157", 
+      "158", 
+      "159", 
+      "160", 
+      "161", 
+      "162", 
+      "163", 
+      "164", 
+      "165", 
+      "166", 
+      "167", 
+      "168", 
+      "169", 
+      "170", 
+      "171", 
+      "172", 
+      "173", 
+      "174", 
+      "175", 
       "176", 
+      "177", 
+      "178", 
+      "179", 
+      "180", 
+      "181", 
+      "182", 
+      "183", 
+      "184", 
+      "185", 
+      "186", 
+      "187", 
+      "188", 
+      "189", 
+      "190", 
+      "191", 
+      "192", 
+      "193", 
+      "194", 
+      "195", 
+      "196", 
+      "197", 
+      "198", 
+      "199", 
+      "200", 
+      "201", 
+      "202", 
+      "203", 
+      "204", 
+      "205", 
       "206", 
-      "224", 
-      "242", 
-      "247", 
-      "277", 
-      "287", 
-      "303", 
-      "311", 
-      "317", 
-      "319", 
-      "343", 
-      "347", 
-      "350", 
-      "351", 
-      "363", 
-      "387", 
-      "416", 
-      "423", 
-      "426", 
-      "427", 
-      "469", 
-      "520", 
-      "534", 
-      "548", 
-      "617", 
-      "619", 
-      "634", 
-      "635", 
-      "671", 
-      "683", 
-      "690", 
-      "702", 
-      "741", 
-      "744", 
-      "766", 
-      "773", 
-      "774", 
-      "777", 
-      "799", 
-      "803", 
-      "808", 
-      "813", 
-      "839", 
-      "843", 
-      "880", 
-      "883", 
-      "914", 
-      "919", 
-      "920", 
-      "926", 
-      "934", 
-      "936", 
-      "958", 
-      "977", 
-      "1033", 
-      "1045", 
-      "1054", 
-      "1067", 
-      "1081", 
-      "1085", 
-      "1142", 
-      "1164", 
-      "1186", 
-      "1190", 
-      "1236"
+      "207", 
+      "208", 
+      "209", 
+      "210", 
+      "211", 
+      "212", 
+      "213", 
+      "214", 
+      "215", 
+      "216", 
+      "217", 
+      "218", 
+      "219", 
+      "220", 
+      "221", 
+      "222"
     ], 
     "time": "19:00 - 0:00"
   }, 
@@ -336,11 +336,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Recommendations & Ranking", 
     "submissions": [
-      "66", 
-      "295", 
-      "361", 
-      "677", 
-      "1122"
+      "0", 
+      "3", 
+      "4", 
+      "17", 
+      "35"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -349,11 +349,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Recommender Systems", 
     "submissions": [
-      "63", 
-      "283", 
-      "448", 
-      "984", 
-      "1219"
+      "87", 
+      "99", 
+      "108", 
+      "138", 
+      "150"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -362,11 +362,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Sequence Mining", 
     "submissions": [
-      "12", 
-      "185", 
-      "245", 
-      "330", 
-      "482"
+      "82", 
+      "93", 
+      "96", 
+      "102", 
+      "114"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -375,11 +375,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Social Good - 1", 
     "submissions": [
-      "511", 
-      "575", 
-      "605", 
-      "629", 
-      "832"
+      "9", 
+      "12", 
+      "13", 
+      "14", 
+      "25"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -388,11 +388,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Social Good - 2", 
     "submissions": [
-      "654", 
-      "881", 
-      "913", 
-      "1027", 
-      "1038"
+      "16", 
+      "28", 
+      "29", 
+      "32", 
+      "33"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -401,11 +401,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Social Networks & Social Media", 
     "submissions": [
-      "483", 
-      "510", 
-      "710", 
-      "1089", 
-      "1132"
+      "7", 
+      "8", 
+      "19", 
+      "34", 
+      "36"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -414,11 +414,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Streams and Temporal Evolution-I", 
     "submissions": [
-      "14", 
-      "49", 
-      "465", 
-      "496", 
-      "1146"
+      "83", 
+      "85", 
+      "112", 
+      "115", 
+      "145"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -427,11 +427,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Streams and Temporal Evolution-II", 
     "submissions": [
-      "519", 
-      "618", 
-      "645", 
-      "767", 
-      "908"
+      "116", 
+      "121", 
+      "122", 
+      "128", 
+      "134"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -440,11 +440,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Supervised Learning", 
     "submissions": [
-      "261", 
-      "460", 
-      "573", 
-      "995", 
-      "1172"
+      "97", 
+      "110", 
+      "119", 
+      "139", 
+      "147"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -453,11 +453,11 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Systems & Experimentation", 
     "submissions": [
-      "798", 
-      "849", 
-      "853", 
-      "943", 
-      "1233"
+      "23", 
+      "26", 
+      "27", 
+      "30", 
+      "39"
     ], 
     "time": "13:00 - 15:00"
   }, 
@@ -466,7 +466,7 @@ sessions={
     "room": "Continental 6-8", 
     "s_title": "Tutorial: Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining", 
     "submissions": [
-      "26"
+      "228"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -475,7 +475,7 @@ sessions={
     "room": "Imperial Ballroom A&B", 
     "s_title": "Tutorial: Business Applications of Predictive Modeling at Scale", 
     "submissions": [
-      "31"
+      "230"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -484,7 +484,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Tutorial: CNTK: Microsoft's Open-Source Deep-Learning Toolkit", 
     "submissions": [
-      "204"
+      "235"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -493,7 +493,7 @@ sessions={
     "room": "Continental 1-4", 
     "s_title": "Tutorial: Collective Sensemaking via Social Sensors: Extracting, Profiling, Analyzing, and Predicting Real-world Events", 
     "submissions": [
-      "18"
+      "226"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -502,7 +502,7 @@ sessions={
     "room": "Grand Ballroom Salon A", 
     "s_title": "Tutorial: Extracting Optimal Performance from Dynamic Time Warping", 
     "submissions": [
-      "11"
+      "225"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -511,7 +511,7 @@ sessions={
     "room": "Continental 6-8", 
     "s_title": "Tutorial: IoT Big Data Stream Mining", 
     "submissions": [
-      "20"
+      "227"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -520,7 +520,7 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Tutorial: Leveraging Propagation for Data Mining: Models, Algorithms and Applications", 
     "submissions": [
-      "35"
+      "232"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -529,7 +529,7 @@ sessions={
     "room": "Continental 1-4", 
     "s_title": "Tutorial: Lifelong Machine Learning and Computer Reading the Web", 
     "submissions": [
-      "4"
+      "223"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -538,7 +538,7 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Tutorial: Mining Reliable Information from Passively and Actively Crowdsourced Data", 
     "submissions": [
-      "32"
+      "231"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -547,7 +547,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Tutorial: Scalable Data Analytics Using R", 
     "submissions": [
-      "205"
+      "236"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -556,7 +556,7 @@ sessions={
     "room": "Imperial Ballroom A&B", 
     "s_title": "Tutorial: Scalable Learning of Graphical Models", 
     "submissions": [
-      "7"
+      "224"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -565,7 +565,7 @@ sessions={
     "room": "Market - Parc 55", 
     "s_title": "Tutorial: Streaming Analytics", 
     "submissions": [
-      "202"
+      "234"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -574,11 +574,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Unsupervised Learning and Anomaly Detection", 
     "submissions": [
-      "445", 
-      "585", 
-      "768", 
-      "775", 
-      "1131"
+      "106", 
+      "120", 
+      "129", 
+      "130", 
+      "143"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -587,11 +587,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "User-Behavior Modeling", 
     "submissions": [
-      "429", 
-      "553", 
-      "890", 
-      "1012", 
-      "1143"
+      "105", 
+      "117", 
+      "133", 
+      "140", 
+      "144"
     ], 
     "time": "13:00 - 15:00"
   }
