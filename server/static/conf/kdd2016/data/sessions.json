@@ -1,84 +1,20 @@
 sessions={
-  "Applied_Data_Science_Invited_Talk_Accelerating_the_Race_to_Autonomous_Cars": {
+  "Applied_Data_Science_Invited_Talks": {
     "date": "Tuesday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Accelerating the Race to Autonomous Cars", 
+    "s_title": "Applied Data Science Invited Talks", 
     "submissions": [
-      "1"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Bayesian_Optimization_and_Embedded_Learning_Systems": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Bayesian Optimization and Embedded Learning Systems", 
-    "submissions": [
-      "8"
-    ], 
-    "time": "16:15 - 18:15"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Can_You_Teach_the_Elephant_to_Dance_AKA_Culture_Eats_Data_Science_for_Breakfast": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Can You Teach the Elephant to Dance? AKA: Culture Eats Data Science for Breakfast", 
-    "submissions": [
-      "5"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Computational_Social_Science_Exciting_Progress_and_Future_Challenges": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Computational Social Science: Exciting Progress and Future Challenges", 
-    "submissions": [
-      "7"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_How_Machine_Learning_has_Finally_Solved_Wanamaker_s_Dilemma": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: How Machine Learning has Finally Solved Wanamaker\u00cds Dilemma", 
-    "submissions": [
-      "4"
-    ], 
-    "time": "16:15 - 18:15"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Large_Scale_Machine_Learning_at_Verizon_Theory_and_Applications": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Large-Scale Machine Learning at Verizon: Theory and Applications", 
-    "submissions": [
-      "2"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Learning_Sparse_Models_at_Scale": {
-    "date": "Tuesday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Learning Sparse Models at Scale", 
-    "submissions": [
-      "3"
-    ], 
-    "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_Profiling_Users_from_Online_Social_Behaviors_with_Applications_for_Tencent_Social_Ads": {
-    "date": "Tuesday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: Profiling Users from Online Social Behaviors with Applications for Tencent Social Ads", 
-    "submissions": [
+      "1", 
+      "2", 
+      "3", 
+      "4", 
+      "5", 
+      "6", 
+      "7", 
+      "8", 
       "9"
     ], 
     "time": "10:00 - 12:00"
-  }, 
-  "Applied_Data_Science_Invited_Talk_The_Wisdom_of_Crowds_Best_Practices_for_Data_Prep_Machine_Learning_Derived_from_Millions_of_Data_Science_Workflows": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talk: The Wisdom of Crowds:  Best Practices for Data Prep & Machine Learning Derived from Millions of Data Science Workflows", 
-    "submissions": [
-      "6"
-    ], 
-    "time": "16:15 - 18:15"
   }, 
   "Applied_Data_Science_Track_E_Commerce": {
     "date": "Wednesday", 

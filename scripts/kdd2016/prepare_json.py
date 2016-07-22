@@ -185,7 +185,6 @@ def prepare_data(data_file1):
         session = 'Tutorial: ' + paper_title
     if session == "Applied Data Science Invited Talks":
         type = "talk"
-        session = 'Applied Data Science Invited Talk: ' + paper_title
 
     # prepare papers data
     papers[paper_id] = {
