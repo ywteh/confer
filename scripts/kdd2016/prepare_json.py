@@ -168,7 +168,7 @@ def prepare_data(data_file1):
         type = 'paper'
         
     if website:
-        paper_abstract = website + ' ' + paper_abstract
+        paper_abstract = '<a href="' + website + '">' + website + '</a><BR>' + paper_abstract
         
     if 'keynote' in type:
         type = 'talk'
