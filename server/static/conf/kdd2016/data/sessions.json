@@ -214,7 +214,7 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Panel: Is Deep Learning the New 42? Panel with Andrei Broder", 
     "submissions": [
-      "237"
+      "242"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -504,7 +504,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Tutorial: Hand-on Tutorial: R on Spark", 
     "submissions": [
-      "236"
+      "241"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -513,7 +513,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Tutorial: Hands-On Tutorial: Big Natural Language Data Processing", 
     "submissions": [
-      ""
+      "238"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -522,7 +522,7 @@ sessions={
     "room": "Market - Parc 55", 
     "s_title": "Tutorial: Hands-On Tutorial: MXNet", 
     "submissions": [
-      ""
+      "239"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -531,7 +531,7 @@ sessions={
     "room": "Market - Parc 55", 
     "s_title": "Tutorial: Hands-On Tutorial: Recommender Systems", 
     "submissions": [
-      ""
+      "237"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -540,7 +540,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Tutorial: Hands-On Tutorial: Spark 2.0", 
     "submissions": [
-      ""
+      "240"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -549,7 +549,7 @@ sessions={
     "room": "Market - Parc 55", 
     "s_title": "Tutorial: Hands-on Tutorial: AWS", 
     "submissions": [
-      ""
+      "236"
     ], 
     "time": "9:00 - 12:00"
   }, 
@@ -647,7 +647,7 @@ sessions={
     "room": "Union Square 22", 
     "s_title": "Workshop: 15th International Workshop on Data Mining in Bioinformatics (BioKDD)", 
     "submissions": [
-      ""
+      "250"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -656,7 +656,7 @@ sessions={
     "room": "Cyril Magnin - Park 55", 
     "s_title": "Workshop: 2016 Workshop on Large-Scale Deep Learning for Data Mining", 
     "submissions": [
-      ""
+      "247"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -665,7 +665,7 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Workshop: 5th International Workshop on Big Data, Streams and Heterogeneous Source Mining", 
     "submissions": [
-      ""
+      "243"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -674,7 +674,7 @@ sessions={
     "room": "Market - Parc 55", 
     "s_title": "Workshop: Data Science for Food, Energy and Water", 
     "submissions": [
-      ""
+      "258"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -683,7 +683,7 @@ sessions={
     "room": "Union Square 22", 
     "s_title": "Workshop: Enterprise Intelligence", 
     "submissions": [
-      ""
+      "245"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -692,7 +692,7 @@ sessions={
     "room": "Embarcadero - Parc 55", 
     "s_title": "Workshop: Interactive Data Exploration and Analytics", 
     "submissions": [
-      ""
+      "259"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -701,7 +701,7 @@ sessions={
     "room": "Union Square 23/24", 
     "s_title": "Workshop: KDD Cup 2016: Towards Measuring the Impact of Research Institutions", 
     "submissions": [
-      ""
+      "257"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -710,7 +710,7 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Workshop: KDD Workshop on Causal Discovery", 
     "submissions": [
-      ""
+      "248"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -719,7 +719,7 @@ sessions={
     "room": "Franciscan A/B", 
     "s_title": "Workshop: Large-Scale Sports Analytics", 
     "submissions": [
-      ""
+      "255"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -728,7 +728,7 @@ sessions={
     "room": "Franciscan C/D", 
     "s_title": "Workshop: Machine Learning Meets Fashion: Data, Algorithms and Analytics for the Fashion Industry", 
     "submissions": [
-      ""
+      "249"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -737,7 +737,7 @@ sessions={
     "room": "Franciscan C/D", 
     "s_title": "Workshop: Machine Learning for Large-Scale Transportation Systems", 
     "submissions": [
-      ""
+      "244"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -746,7 +746,7 @@ sessions={
     "room": "Mission - Parc 55", 
     "s_title": "Workshop: Machine Learning for Prognostics and Health Management", 
     "submissions": [
-      ""
+      "251"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -755,7 +755,7 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Workshop: Mining and Learning from Time Series", 
     "submissions": [
-      ""
+      "254"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -764,7 +764,7 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Workshop: Mining and Learning with Graphs", 
     "submissions": [
-      ""
+      "253"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -773,7 +773,7 @@ sessions={
     "room": "Cyril Magnin - Parc 55", 
     "s_title": "Workshop: Outlier Definition, Detection and Description On-Demand", 
     "submissions": [
-      ""
+      "252"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -782,7 +782,7 @@ sessions={
     "room": "Union Square 15/16", 
     "s_title": "Workshop: The 5th International Workshop on Urban Computing", 
     "submissions": [
-      ""
+      "256"
     ], 
     "time": "8:00 - 17:00"
   }, 
@@ -791,7 +791,7 @@ sessions={
     "room": "Mission - Parc 55", 
     "s_title": "Workshop: Workshop on Issues of Sentiment Discovery and Opinion Mining", 
     "submissions": [
-      ""
+      "246"
     ], 
     "time": "8:00 - 12:00"
   }

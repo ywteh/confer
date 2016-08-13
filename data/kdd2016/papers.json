@@ -1,10 +1,4 @@
 {
-  "": {
-    "abstract": "", 
-    "authors": [], 
-    "title": "Interactive Data Exploration and Analytics", 
-    "type": "workshop"
-  }, 
   "0": {
     "abstract": "Among different recommendation techniques, collaborative filtering usually suffer from limited performance due to the sparsity of user-item interactions. To address the issues, auxiliary information is usually used to boost the performance. Due to the rapid collection of information on the web, the knowledge base provides heterogeneous information including both structured and unstructured data with different semantics, which can be consumed by various applications. In this paper, we investigate how to leverage the heterogeneous information in a knowledge base to improve the quality of recommender systems.  First, by exploiting the knowledge base, we design three components to extract items' semantic representations from structural content, textual content and visual content, respectively. To be specific, we adopt a heterogeneous network embedding method, termed as TransR, to extract items' structural representations by considering the heterogeneity of both nodes and relationships. We apply stacked denoising auto-encoders and stacked convolutional auto-encoders, which are two types of deep learning based embedding techniques, to extract items' textual representations and visual representations, respectively. Finally, we propose our final integrated framework, which is termed as Collaborative Knowledge Base Embedding (CKE), to jointly learn the latent representations in collaborative filtering as well as items' semantic representations from the knowledge base. To evaluate the performance of each embedding component as well as the whole system, we conduct extensive experiments with two real-world datasets from different scenarios. The results reveal that our approaches outperform several widely adopted state-of-the-art recommendation methods.", 
     "authors": [
@@ -287,7 +281,7 @@
     "type": "paper"
   }, 
   "110": {
-    "abstract": "Sparse learning has received tremendous amount of interest in high-dimensional data analysis due to its model interpretability and the low-computational cost. Among the various techniques, adaptive l1-regularization is an effective framework to improve the convergence behaviour of the LASSO, by using varying strength of regularization across different features. In the meantime, the adaptive structure makes it very powerful in modelling grouped sparsity patterns as well, being particularly useful in high-dimensional multi-task problems. However, choosing an appropriate, global regularization weight is still an open problem. In this paper, inspired by the annealing technique in material science, we propose to achieve \u00d0annealed sparsity\" by designing a dynamic shrinking scheme that simultaneously optimizes the regularization weights and model coefficients in sparse (multi-task) learning. The dynamic structures of our algorithm are twofold. Feature-wise (spatially), the regularization weights are updated interactively with model coefficients, allowing us to improve the global regularization structure. Iteration-wise (temporally), such interaction is coupled with gradually boosted l1-regularization by adjusting an equality norm-constraint, achieving an annealing effect to further improve model selection. This renders interesting shrinking behaviour in the whole solution path. Our method competes favorably with state-of-the-art methods in sparse (multi-task) learning. We also apply it in expression quantitative trait loci analysis (eQTL), which gives useful biological insights in human cancer (melanoma) study.", 
+    "abstract": "Sparse learning has received tremendous amount of interest in high-dimensional data analysis due to its model interpretability and the low-computational cost. Among the various techniques, adaptive l1-regularization is an effective framework to improve the convergence behaviour of the LASSO, by using varying strength of regularization across different features. In the meantime, the adaptive structure makes it very powerful in modelling grouped sparsity patterns as well, being particularly useful in high-dimensional multi-task problems. However, choosing an appropriate, global regularization weight is still an open problem. In this paper, inspired by the annealing technique in material science, we propose to achieve _annealed sparsity\" by designing a dynamic shrinking scheme that simultaneously optimizes the regularization weights and model coefficients in sparse (multi-task) learning. The dynamic structures of our algorithm are twofold. Feature-wise (spatially), the regularization weights are updated interactively with model coefficients, allowing us to improve the global regularization structure. Iteration-wise (temporally), such interaction is coupled with gradually boosted l1-regularization by adjusting an equality norm-constraint, achieving an annealing effect to further improve model selection. This renders interesting shrinking behaviour in the whole solution path. Our method competes favorably with state-of-the-art methods in sparse (multi-task) learning. We also apply it in expression quantitative trait loci analysis (eQTL), which gives useful biological insights in human cancer (melanoma) study.", 
     "authors": [
       {
         "name": "Kai Zhang"
@@ -518,7 +512,7 @@
         "name": "Subhabrata Mukherjee"
       }, 
       {
-        "name": "Stephan G\u0099nnemann"
+        "name": "Stephan G\u00aannemann"
       }, 
       {
         "name": "Gerhard Weikum"
@@ -1269,7 +1263,7 @@
         "name": "Souvik Ghosh"
       }, 
       {
-        "name": "R\u00e3mer Rosales"
+        "name": "R\u008bmer Rosales"
       }
     ], 
     "title": "Dynamics of Large Multi-View Social Networks: Synergy, Cannibalization and Cross-View Interplay", 
@@ -1535,7 +1529,7 @@
     "type": "poster"
   }, 
   "168": {
-    "abstract": "In many real-world applications, the samples/features acquired are in spatial or temporal order. In such cases, the magnitudes of adjacent samples/features are typically close to each other. Meanwhile, in the high-dimensional scenario, identifying the most relevant samples/features is also desired. In this paper, we consider a regularized model which can simultaneously identify important features and group similar features together. The model is based on a penalty called Absolute Fused Lasso (AFL). The AFL penalty encourages sparsity in the coefficients as well as their successive differences of absolute values\u008bi.e., local constancy of the coefficient components in absolute values. Due to the non-convexity of AFL, it is challenging to develop efficient algorithms to solve the optimization problem. To this end, we employ the Difference of Convex functions (DC) programming to optimize the proposed non-convex problem. At each DC iteration, we adopt the proximal algorithm to solve a convex regularized sub-problem. One of the major contributions of this paper is to develop a highly efficient algorithm to compute the proximal operator. Empirical studies on both synthetic and real-world data sets from Genome-Wide Association Studies demonstrate the efficiency and effectiveness of the proposed approach in simultaneous identifying important features and grouping similar features.", 
+    "abstract": "In many real-world applications, the samples/features acquired are in spatial or temporal order. In such cases, the magnitudes of adjacent samples/features are typically close to each other. Meanwhile, in the high-dimensional scenario, identifying the most relevant samples/features is also desired. In this paper, we consider a regularized model which can simultaneously identify important features and group similar features together. The model is based on a penalty called Absolute Fused Lasso (AFL). The AFL penalty encourages sparsity in the coefficients as well as their successive differences of absolute values\u00dci.e., local constancy of the coefficient components in absolute values. Due to the non-convexity of AFL, it is challenging to develop efficient algorithms to solve the optimization problem. To this end, we employ the Difference of Convex functions (DC) programming to optimize the proposed non-convex problem. At each DC iteration, we adopt the proximal algorithm to solve a convex regularized sub-problem. One of the major contributions of this paper is to develop a highly efficient algorithm to compute the proximal operator. Empirical studies on both synthetic and real-world data sets from Genome-Wide Association Studies demonstrate the efficiency and effectiveness of the proposed approach in simultaneous identifying important features and grouping similar features.", 
     "authors": [
       {
         "name": "Tao Yang"
@@ -1762,7 +1756,7 @@
     "type": "poster"
   }, 
   "178": {
-    "abstract": "In this era of information explosion, conflicts are often encountered when information is provided by multiple sources. Traditional truth discovery task aims to identify the truth\u008bthe most trustworthy information, from conflicting sources in different scenarios. In this kind of tasks, truth is regarded as a fixed value or a set of fixed values. However, in a number of real-world cases, objective truth existence cannot be ensured and we can only identify single or multiple reliable facts from opinions. Different from traditional truth discovery task, we address this uncertainty and introduce the concept of trustworthy opinion of an entity, treat it as a random variable, and use its distribution to describe consistency or controversy, which is particularly difficult for data which can be numerically measured, i.e. quantitative information. In this study, we focus on the quantitative opinion, propose an uncertainty-aware approach called Kernel Density Estimation from Multiple Sources (KDEm) to estimate its probability distribution, and summarize trustworthy information based on this distribution. Experiments indicate that KDEm not only has outstanding performance on the classical numeric truth discovery task, but also shows good performance on multi-modality detection and anomaly detection in the uncertain-opinion setting.", 
+    "abstract": "In this era of information explosion, conflicts are often encountered when information is provided by multiple sources. Traditional truth discovery task aims to identify the truth\u00dcthe most trustworthy information, from conflicting sources in different scenarios. In this kind of tasks, truth is regarded as a fixed value or a set of fixed values. However, in a number of real-world cases, objective truth existence cannot be ensured and we can only identify single or multiple reliable facts from opinions. Different from traditional truth discovery task, we address this uncertainty and introduce the concept of trustworthy opinion of an entity, treat it as a random variable, and use its distribution to describe consistency or controversy, which is particularly difficult for data which can be numerically measured, i.e. quantitative information. In this study, we focus on the quantitative opinion, propose an uncertainty-aware approach called Kernel Density Estimation from Multiple Sources (KDEm) to estimate its probability distribution, and summarize trustworthy information based on this distribution. Experiments indicate that KDEm not only has outstanding performance on the classical numeric truth discovery task, but also shows good performance on multi-modality detection and anomaly detection in the uncertain-opinion setting.", 
     "authors": [
       {
         "name": "Mengting Wan"
@@ -1816,7 +1810,7 @@
     "type": "paper"
   }, 
   "180": {
-    "abstract": "Convolutional neural networks (CNN) are increasingly used in many areas of computer vision. They are particularly attractive because of their ability to \u00d0absorb\u00d3 great quantities of labeled data through millions of parameters. However, as model sizes increase, so do the storage and memory requirements of the classifiers, hindering many applications such as image and speech recognition on mobile phones and other devices. In this paper, we present a novel net- work architecture, Frequency-Sensitive Hashed Nets (FreshNets), which exploits inherent redundancy in both convolutional layers and fully-connected layers of a deep learning model, leading to dramatic savings in memory and storage consumption. Based on the key observation that the weights of learned convolutional filters are typically smooth and low-frequency, we first convert filter weights to the frequency domain with a discrete cosine transform (DCT) and use a low-cost hash function to randomly group frequency parameters into hash buckets. All parameters assigned the same hash bucket share a single value learned with standard back-propagation. To further reduce model size, we allocate fewer hash buckets to high-frequency components, which are generally less important. We evaluate FreshNets on eight data sets, and show that it leads to better compressed performance than several relevant baselines.", 
+    "abstract": "Convolutional neural networks (CNN) are increasingly used in many areas of computer vision. They are particularly attractive because of their ability to _absorb\u00ee great quantities of labeled data through millions of parameters. However, as model sizes increase, so do the storage and memory requirements of the classifiers, hindering many applications such as image and speech recognition on mobile phones and other devices. In this paper, we present a novel net- work architecture, Frequency-Sensitive Hashed Nets (FreshNets), which exploits inherent redundancy in both convolutional layers and fully-connected layers of a deep learning model, leading to dramatic savings in memory and storage consumption. Based on the key observation that the weights of learned convolutional filters are typically smooth and low-frequency, we first convert filter weights to the frequency domain with a discrete cosine transform (DCT) and use a low-cost hash function to randomly group frequency parameters into hash buckets. All parameters assigned the same hash bucket share a single value learned with standard back-propagation. To further reduce model size, we allocate fewer hash buckets to high-frequency components, which are generally less important. We evaluate FreshNets on eight data sets, and show that it leads to better compressed performance than several relevant baselines.", 
     "authors": [
       {
         "name": "Wenlin Chen"
@@ -1847,7 +1841,7 @@
         "name": "Jefrey Lijffijt"
       }, 
       {
-        "name": "Ra\u0093l Santos-Rodr\u00eaguez"
+        "name": "Ra\u00d2l Santos-Rodr\u0090guez"
       }, 
       {
         "name": "Tijl De Bie"
@@ -2814,7 +2808,7 @@
     "type": "tutorial"
   }, 
   "225": {
-    "abstract": "Dynamic Time Warping (DTW) is a distance measure that compares two time series after optimally aligning them. DTW is being used for decades in thousands of academic and industrial projects despite the very expensive computational complexity, O(n^2). These applications include data mining, image processing, signal processing, robotics and computer graphics among many others. \n\nIn spite of all this research effort, there are many myths and misunderstanding about DTW in the literature, for example \u00d0it is too slow to be useful\u00d3 or \u00d0the warping window size does not matter much.\u00d3\n\nIn this tutorial, we correct these misunderstandings and we summarize the research efforts in optimizing both the efficiency and effectiveness of both the basic DTW algorithm, and of the higher-level algorithms that exploit DTW such as similarity search, clustering and classification. We will discuss variants of DTW such as constrained DTW, multidimensional DTW and asynchronous DTW, and optimization techniques such as lower bounding, early abandoning, run-length encoding, bounded approximation and hardware optimization.\n\nWe will discuss a multitude of application areas including physiological monitoring, social media mining, activity recognition and animal sound processing. The optimization techniques are generalizable to other domains on various data types and problems.\n\n", 
+    "abstract": "Dynamic Time Warping (DTW) is a distance measure that compares two time series after optimally aligning them. DTW is being used for decades in thousands of academic and industrial projects despite the very expensive computational complexity, O(n^2). These applications include data mining, image processing, signal processing, robotics and computer graphics among many others. \n\nIn spite of all this research effort, there are many myths and misunderstanding about DTW in the literature, for example _it is too slow to be useful\u00ee or _the warping window size does not matter much.\u00ee\n\nIn this tutorial, we correct these misunderstandings and we summarize the research efforts in optimizing both the efficiency and effectiveness of both the basic DTW algorithm, and of the higher-level algorithms that exploit DTW such as similarity search, clustering and classification. We will discuss variants of DTW such as constrained DTW, multidimensional DTW and asynchronous DTW, and optimization techniques such as lower bounding, early abandoning, run-length encoding, bounded approximation and hardware optimization.\n\nWe will discuss a multitude of application areas including physiological monitoring, social media mining, activity recognition and animal sound processing. The optimization techniques are generalizable to other domains on various data types and problems.\n\n", 
     "authors": [
       {
         "name": "Abdullah Mueen"
@@ -2983,51 +2977,28 @@
     "type": "tutorial"
   }, 
   "236": {
-    "abstract": "R is one of the most popular languages in the data science, statistical and machine learning (ML) community. However, when it comes to scalable data analysis and ML using R, many data scientists are blocked or hindered by (a) its limitations of available functions to handle large datasets efficiently, and (b) knowledge about the appropriate computing environments to scale R scripts from desktop exploratory analysis to elastic and distributed cloud services. In this tutorial we will discuss solutions that demonstrate the use of distributed compute environments and end to end solutions for R. We will present the topics through presentations and worked-out examples with sample code. In addition, we will provide a public code repository that attendees will be able to access and adapt to their own practice. We believe this tutorial will be of strong interest to a large and growing community of data scientists and developers using R for data analysis and modeling.", 
-    "authors": [
-      {
-        "name": "John-Mark Agosta"
-      }, 
-      {
-        "name": "Debraj GuhaThakurta"
-      }, 
-      {
-        "name": "Robert Horton"
-      }, 
-      {
-        "name": "Mario Inchiosa"
-      }, 
-      {
-        "name": "Srini Kumar"
-      }, 
-      {
-        "name": "Mengyue Zhao"
-      }
-    ], 
-    "title": "Hand-on Tutorial: R on Spark", 
+    "abstract": "", 
+    "authors": [], 
+    "title": "Hands-on Tutorial: AWS", 
     "type": "tutorial"
   }, 
   "237": {
-    "abstract": "http://www.kdd.org/kdd2016/plenary-panel The history of deep learning goes back more than five decades but in the marketplace of ideas its perceived value went through booms and busts. We are no doubt at an all time high: in the last couple of years we witnessed extraordinary advances in vision, speech recognition, game playing, translation, and so on, all powered by deep networks. At the same time companies such as Amazon, Apple, Facebook, Google, and Microsoft are making huge bets on deep learning research and infrastructure, ML competitions are dominated by deep learning approaches, open source deep learning software is proliferating, and the popular press both cheerleads the progress and raises the dark specter of unintended consequences.  So is deep learning the answer to everything?  According to Douglas Adams\u00cds famous \u00f1Hitchhiker\u00cds Guide to the Galaxy\u00ee after 7.5 millions years of work the \u00f1Deep Thought\u00ee computer categorically found out that 42 is the \u00f1Answer to the Ultimate Question of Life, the Universe, and Everything\u00ee (although unfortunately, no one knows exactly what that question was).  Rather than wait another 7.5 million years for \u00f1Deep Thought\u00ee to answer our quest we have assembled a distinguished panel of experts to give us their opinion on deep learning and its present and future impact.  Rather than wait another 7.5 million years for \u00f1Deep Thought\u00ee to answer our quest we have assembled a distinguished panel of experts to give us their opinion on deep learning and its present and future impact.  We will start with a round of questions from the moderator followed by live and on-line questions from the audience. Prizes will be given for the best questions!", 
-    "authors": [
-      {
-        "name": "Moderator: Andrei Broder; Panelists: Pedro Domingos"
-      }, 
-      {
-        "name": "Nando de Freitas"
-      }, 
-      {
-        "name": "Isabelle Guyon"
-      }, 
-      {
-        "name": "Jitendra Malik"
-      }, 
-      {
-        "name": "Jennifer Neville"
-      }
-    ], 
-    "title": "Is Deep Learning the New 42? Panel with Andrei Broder", 
-    "type": "panel"
+    "abstract": "", 
+    "authors": [], 
+    "title": "Hands-On Tutorial: Recommender Systems", 
+    "type": "tutorial"
+  }, 
+  "238": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Hands-On Tutorial: Big Natural Language Data Processing", 
+    "type": "tutorial"
+  }, 
+  "239": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Hands-On Tutorial: MXNet", 
+    "type": "tutorial"
   }, 
   "24": {
     "abstract": "State legislatures introduce at least 45,000 bills each year. However, we lack a clear understanding of who is actually writing those bills. As legislators often lack the time and staff to draft each bill, they frequently copy text written by other states or interest groups. \n\n\n\nHowever, existing approaches to detect text reuse are slow, biased, and incomplete. Journalists or researchers who want to know where a particular bill originated must perform a largely manual search. Watchdog organizations even hire armies of volunteers to monitor legislation for matches. Given the time-consuming nature of the analysis, journalists and researchers tend to limit their analysis to a subset of topics (e.g. abortion or gun control) or a few interest groups. \n\n\n\nThis paper presents the Legislative Influence Detector (LID). LID uses the Smith-Waterman local alignment algorithm to detect sequences of text that occur in model legislation and state bills. As it is computationally too expensive to run this algorithm on a large corpus of data, we use a search engine built using Elasticsearch to limit the number of comparisons. We show how \\system has found 45,405 instances of bill-to-bill text reuse and 14,137 instances of model-legislation-to-bill text reuse. \\system reduces the time it takes to manually find text reuse from days to seconds. ", 
@@ -3056,6 +3027,101 @@
     ], 
     "title": "The Legislative Influence Detector", 
     "type": "paper"
+  }, 
+  "240": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Hands-On Tutorial: Spark 2.0", 
+    "type": "tutorial"
+  }, 
+  "241": {
+    "abstract": "R is one of the most popular languages in the data science, statistical and machine learning (ML) community. However, when it comes to scalable data analysis and ML using R, many data scientists are blocked or hindered by (a) its limitations of available functions to handle large datasets efficiently, and (b) knowledge about the appropriate computing environments to scale R scripts from desktop exploratory analysis to elastic and distributed cloud services. In this tutorial we will discuss solutions that demonstrate the use of distributed compute environments and end to end solutions for R. We will present the topics through presentations and worked-out examples with sample code. In addition, we will provide a public code repository that attendees will be able to access and adapt to their own practice. We believe this tutorial will be of strong interest to a large and growing community of data scientists and developers using R for data analysis and modeling.", 
+    "authors": [
+      {
+        "name": "John-Mark Agosta"
+      }, 
+      {
+        "name": "Debraj GuhaThakurta"
+      }, 
+      {
+        "name": "Robert Horton"
+      }, 
+      {
+        "name": "Mario Inchiosa"
+      }, 
+      {
+        "name": "Srini Kumar"
+      }, 
+      {
+        "name": "Mengyue Zhao"
+      }
+    ], 
+    "title": "Hand-on Tutorial: R on Spark", 
+    "type": "tutorial"
+  }, 
+  "242": {
+    "abstract": "http://www.kdd.org/kdd2016/plenary-panel The history of deep learning goes back more than five decades but in the marketplace of ideas its perceived value went through booms and busts. We are no doubt at an all time high: in the last couple of years we witnessed extraordinary advances in vision, speech recognition, game playing, translation, and so on, all powered by deep networks. At the same time companies such as Amazon, Apple, Facebook, Google, and Microsoft are making huge bets on deep learning research and infrastructure, ML competitions are dominated by deep learning approaches, open source deep learning software is proliferating, and the popular press both cheerleads the progress and raises the dark specter of unintended consequences.  So is deep learning the answer to everything?  According to Douglas Adams\u00eas famous \u0096Hitchhiker\u00eas Guide to the Galaxy\u0094 after 7.5 millions years of work the \u0096Deep Thought\u0094 computer categorically found out that 42 is the \u0096Answer to the Ultimate Question of Life, the Universe, and Everything\u0094 (although unfortunately, no one knows exactly what that question was).  Rather than wait another 7.5 million years for \u0096Deep Thought\u0094 to answer our quest we have assembled a distinguished panel of experts to give us their opinion on deep learning and its present and future impact.  Rather than wait another 7.5 million years for \u0096Deep Thought\u0094 to answer our quest we have assembled a distinguished panel of experts to give us their opinion on deep learning and its present and future impact.  We will start with a round of questions from the moderator followed by live and on-line questions from the audience. Prizes will be given for the best questions!", 
+    "authors": [
+      {
+        "name": "Moderator: Andrei Broder; Panelists: Pedro Domingos"
+      }, 
+      {
+        "name": "Nando de Freitas"
+      }, 
+      {
+        "name": "Isabelle Guyon"
+      }, 
+      {
+        "name": "Jitendra Malik"
+      }, 
+      {
+        "name": "Jennifer Neville"
+      }
+    ], 
+    "title": "Is Deep Learning the New 42? Panel with Andrei Broder", 
+    "type": "panel"
+  }, 
+  "243": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "5th International Workshop on Big Data, Streams and Heterogeneous Source Mining", 
+    "type": "workshop"
+  }, 
+  "244": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Machine Learning for Large-Scale Transportation Systems", 
+    "type": "workshop"
+  }, 
+  "245": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Enterprise Intelligence", 
+    "type": "workshop"
+  }, 
+  "246": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Workshop on Issues of Sentiment Discovery and Opinion Mining", 
+    "type": "workshop"
+  }, 
+  "247": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "2016 Workshop on Large-Scale Deep Learning for Data Mining", 
+    "type": "workshop"
+  }, 
+  "248": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "KDD Workshop on Causal Discovery", 
+    "type": "workshop"
+  }, 
+  "249": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Machine Learning Meets Fashion: Data, Algorithms and Analytics for the Fashion Industry", 
+    "type": "workshop"
   }, 
   "25": {
     "abstract": "Adverse events between police and the public, such as deadly shootings or instances of racial profiling, can cause serious or deadly harm,  damage police legitimacy, and  result in costly litigation. \n\nEvidence suggests these events can be prevented by targeting interventions based on an Early Intervention System (EIS) that flags police officers who are at a high risk for involvement in such adverse events. \n\nToday's EIS are not data-driven and typically rely on simple thresholds based entirely on expert intuition. In this paper, we describe our work with the Charlotte-Mecklenburg Police Department (CMPD) to develop a machine learning model to predict which officers are at risk for an adverse event. Our approach significantly outperforms CMPD's existing EIS, increasing true positives by ~12% and decreasing false positives by ~32%. Our work also sheds light on features related to officer characteristics, situational factors, and neighborhood factors that are predictive of adverse events. This work provides a starting point for police departments to take a comprehensive, data-driven approach to improve policing and reduce harm to both officers and members of the public. ", 
@@ -3093,6 +3159,66 @@
     ], 
     "title": "Identifying Police Officers at Risk of Adverse Events", 
     "type": "paper"
+  }, 
+  "250": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "15th International Workshop on Data Mining in Bioinformatics (BioKDD)", 
+    "type": "workshop"
+  }, 
+  "251": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Machine Learning for Prognostics and Health Management", 
+    "type": "workshop"
+  }, 
+  "252": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Outlier Definition, Detection and Description On-Demand", 
+    "type": "workshop"
+  }, 
+  "253": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Mining and Learning with Graphs", 
+    "type": "workshop"
+  }, 
+  "254": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Mining and Learning from Time Series", 
+    "type": "workshop"
+  }, 
+  "255": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Large-Scale Sports Analytics", 
+    "type": "workshop"
+  }, 
+  "256": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "The 5th International Workshop on Urban Computing", 
+    "type": "workshop"
+  }, 
+  "257": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "KDD Cup 2016: Towards Measuring the Impact of Research Institutions", 
+    "type": "workshop"
+  }, 
+  "258": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Data Science for Food, Energy and Water", 
+    "type": "workshop"
+  }, 
+  "259": {
+    "abstract": "", 
+    "authors": [], 
+    "title": "Interactive Data Exploration and Analytics", 
+    "type": "workshop"
   }, 
   "26": {
     "abstract": "Disks are among the most frequently failing components in today's IT environments. Despite a set of defense mechanisms such as RAID, the availability and reliability of the system are still often impacted severely.\n\n\n\nIn this paper, we present a highly accurate SMART-based analysis pipeline that can correctly predict the necessity of a disk replacement even 10-15 days in advance. Our method has been built and evaluated on more than 30000 disks from two major  manufacturers, monitored over 17 months. Our approach employs statistical\n\ntechniques to automatically detect which SMART parameters correlate with disk replacement and uses them to predict the replacement of a disk with even 98\\% accuracy.", 
@@ -3604,7 +3730,7 @@
     "type": "poster"
   }, 
   "44": {
-    "abstract": "This paper presents a machine learning approach to predict the amount of compute memory needed by jobs which are submitted to Load Sharing Facility (LSF\u00e5 ) with a high level of accuracy.  LSF\u00e5 is the compute resource manager and job scheduler for Qualcomm chip design process. It schedules the jobs based on available resources: CPU, memory, storage, and software licenses. Memory is one of the key resources and its proper utilization leads to a substantial improvement in saving machine resources which in turn results in a significant reduction in overall job pending time. In addition, efficient memory utilization helps to reduce the operations cost by decreasing the number of servers needed for the end-to-end design process. \n\nIn this paper, we explored a suite of statistical and machine learning techniques to develop a Compute Memory Recommender System for the Qualcomm chip design process with over 90% accuracy in predicting the amount of memory a job needs. Moreover, it demonstrates the potential to significantly reduce job pending time. ", 
+    "abstract": "This paper presents a machine learning approach to predict the amount of compute memory needed by jobs which are submitted to Load Sharing Facility (LSF\u008c ) with a high level of accuracy.  LSF\u008c is the compute resource manager and job scheduler for Qualcomm chip design process. It schedules the jobs based on available resources: CPU, memory, storage, and software licenses. Memory is one of the key resources and its proper utilization leads to a substantial improvement in saving machine resources which in turn results in a significant reduction in overall job pending time. In addition, efficient memory utilization helps to reduce the operations cost by decreasing the number of servers needed for the end-to-end design process. \n\nIn this paper, we explored a suite of statistical and machine learning techniques to develop a Compute Memory Recommender System for the Qualcomm chip design process with over 90% accuracy in predicting the amount of memory a job needs. Moreover, it demonstrates the potential to significantly reduce job pending time. ", 
     "authors": [
       {
         "name": "Taraneh Taghavi"
@@ -4066,7 +4192,7 @@
     "type": "talk"
   }, 
   "69": {
-    "abstract": "It has become a clich_ to talk about Wanamaker\u0090s dilemma, his famous quote that \u00d0Half the money I spend on advertising is wasted; the trouble is I don't know which half\" is well known.  So why talk about it today?  Well, I\u0090ll show you that some of the best targeted consumer marketing still suffers exactly from this problem, and tell you why _ it\u0090s not humanly possible to solve it!  At Amplero we\u0090ve finally solved it and made that solution accessible to marketers, using machine learning in combination with the revolution in online experimentation that the advent of the multi-armed bandit has brought about.", 
+    "abstract": "It has become a clich_ to talk about Wanamaker\u0090s dilemma, his famous quote that _Half the money I spend on advertising is wasted; the trouble is I don't know which half\" is well known.  So why talk about it today?  Well, I\u0090ll show you that some of the best targeted consumer marketing still suffers exactly from this problem, and tell you why _ it\u0090s not humanly possible to solve it!  At Amplero we\u0090ve finally solved it and made that solution accessible to marketers, using machine learning in combination with the revolution in online experimentation that the advent of the multi-armed bandit has brought about.", 
     "authors": [
       {
         "name": "Oliver Downs"
@@ -4121,7 +4247,7 @@
     "type": "talk"
   }, 
   "72": {
-    "abstract": "The past 15 years have witnessed a remarkable increase in both the scale and scope of social and behavioral data available to researchers, leading some to herald the emergence of a new field: \u00d0computational social science.\u00d3 Against these exciting developments stands a stubborn fact: that in spite of many thousands of published papers, there has been surprisingly little progress on the \u00d0big\u00d3 questions that motivated the field in the first place\u008bquestions concerning systemic risk in financial systems, problem solving in complex organizations, and the dynamics of epidemics or social movements, among others. In this talk I highlight some examples of research that would not have been possible just a handful of years ago and that illustrate the promise of CSS. At the same time, they illustrate its limitations.  I then conclude with some thoughts on how CSS can bridge the gap between its current state and its potential.  ", 
+    "abstract": "The past 15 years have witnessed a remarkable increase in both the scale and scope of social and behavioral data available to researchers, leading some to herald the emergence of a new field: _computational social science.\u00ee Against these exciting developments stands a stubborn fact: that in spite of many thousands of published papers, there has been surprisingly little progress on the _big\u00ee questions that motivated the field in the first place\u00dcquestions concerning systemic risk in financial systems, problem solving in complex organizations, and the dynamics of epidemics or social movements, among others. In this talk I highlight some examples of research that would not have been possible just a handful of years ago and that illustrate the promise of CSS. At the same time, they illustrate its limitations.  I then conclude with some thoughts on how CSS can bridge the gap between its current state and its potential.  ", 
     "authors": [
       {
         "name": "Duncan Watts"
@@ -4141,7 +4267,7 @@
     "type": "talk"
   }, 
   "74": {
-    "abstract": "QQ and Wechat are the two largest instant messaging & social networks in China. Tencent Social Ads is the advertising platform for both Wechat and QQ, serving over 10B page views per day for several hundred million users.\n\n  We strive to understand as much as possible on our users\u0090 characteristics, so as to serve the best personalized ads for them. The rich user behaviors on Tencent\u0090s diverse products lay a foundation in our user profiles on many dimensions, including demographics, interests, intents, transactions, physical locations, and devices, etc. \n\n  In this talk, we will share our experience in large scale user data mining based on online social activities. We will discuss the challenges we face and the solutions we have devised so far.\n\n\u00c7\tSome demographics data are obtained from user input, and thus would have gaps in both accuracy and coverage. We discuss the techniques in calibrating and verifying these data.\n\n\u00c7\tWe infer user interests from their social behaviors. For example, most QQ groups are not labelled properly, but by applying a large-scale topic model on the QQ memberships, we can effectively classify most QQ groups into an interest taxonomy.  We also infer user interests from user\u0090s physical location check-ins and uploaded photos. \n\n\u00c7\tUser data can be collected from many diverse sources, including behaviors in various Tencent products, click and conversion in ad platform, and even seed customers collected by advertisers. We\u0090ll discuss the systems to merge these diverse data to provide a coherent view for our advertisers.\n\n\u00c7\tHigh quality user labels are usually sparse. We implemented an algorithm for advertisers to reach more potential customers through user similarity computation based on user features as well as social graph inferences. We\u0090ll describe the system\u0090s contributions to ads quality.\n\n\u00c7\tTop advertisers demand rich audience targeting solutions in combination of their own customer data, Tencent data, and possibly 3rd-party data. We\u0090ll discuss the data exchange platform that can facilitate collaborative applications with 3rd-party DSPs and DMPs. \n\n", 
+    "abstract": "QQ and Wechat are the two largest instant messaging & social networks in China. Tencent Social Ads is the advertising platform for both Wechat and QQ, serving over 10B page views per day for several hundred million users.\n\n  We strive to understand as much as possible on our users\u0090 characteristics, so as to serve the best personalized ads for them. The rich user behaviors on Tencent\u0090s diverse products lay a foundation in our user profiles on many dimensions, including demographics, interests, intents, transactions, physical locations, and devices, etc. \n\n  In this talk, we will share our experience in large scale user data mining based on online social activities. We will discuss the challenges we face and the solutions we have devised so far.\n\n\u0082\tSome demographics data are obtained from user input, and thus would have gaps in both accuracy and coverage. We discuss the techniques in calibrating and verifying these data.\n\n\u0082\tWe infer user interests from their social behaviors. For example, most QQ groups are not labelled properly, but by applying a large-scale topic model on the QQ memberships, we can effectively classify most QQ groups into an interest taxonomy.  We also infer user interests from user\u0090s physical location check-ins and uploaded photos. \n\n\u0082\tUser data can be collected from many diverse sources, including behaviors in various Tencent products, click and conversion in ad platform, and even seed customers collected by advertisers. We\u0090ll discuss the systems to merge these diverse data to provide a coherent view for our advertisers.\n\n\u0082\tHigh quality user labels are usually sparse. We implemented an algorithm for advertisers to reach more potential customers through user similarity computation based on user features as well as social graph inferences. We\u0090ll describe the system\u0090s contributions to ads quality.\n\n\u0082\tTop advertisers demand rich audience targeting solutions in combination of their own customer data, Tencent data, and possibly 3rd-party data. We\u0090ll discuss the data exchange platform that can facilitate collaborative applications with 3rd-party DSPs and DMPs. \n\n", 
     "authors": [
       {
         "name": "Ching Law"
@@ -4306,7 +4432,7 @@
     "type": "paper"
   }, 
   "85": {
-    "abstract": "Data of many problems in real-world systems such as link prediction and one-class recommendation share common characteristics. First, data are in the form of positive-unlabeled (PU) measurements (e.g. Twitter \u00d0following\u00d3, Facebook \u00d0like\u00d3, etc.) that do not provide negative information, which can be naturally represented as networks. Second, in the era of big data, such data are generated temporally-ordered, continuously and rapidly, which determines its streaming nature. These common characteristics allow us to unify many problems into a novel framework -- PU learning in streaming networks. In this paper, a principled probabilistic approach SPU is proposed to leverage the characteristics of the streaming PU inputs. In particular, SPU captures temporal dynamics and provides real-time adaptations and predictions by identifying the potential negative signals concealed in unlabeled data.  Our empirical results on various real-world datasets demonstrate the effectiveness of the proposed framework over other state-of-the-art methods in both link prediction and recommendation.", 
+    "abstract": "Data of many problems in real-world systems such as link prediction and one-class recommendation share common characteristics. First, data are in the form of positive-unlabeled (PU) measurements (e.g. Twitter _following\u00ee, Facebook _like\u00ee, etc.) that do not provide negative information, which can be naturally represented as networks. Second, in the era of big data, such data are generated temporally-ordered, continuously and rapidly, which determines its streaming nature. These common characteristics allow us to unify many problems into a novel framework -- PU learning in streaming networks. In this paper, a principled probabilistic approach SPU is proposed to leverage the characteristics of the streaming PU inputs. In particular, SPU captures temporal dynamics and provides real-time adaptations and predictions by identifying the potential negative signals concealed in unlabeled data.  Our empirical results on various real-world datasets demonstrate the effectiveness of the proposed framework over other state-of-the-art methods in both link prediction and recommendation.", 
     "authors": [
       {
         "name": "Shiyu Chang"
@@ -4372,7 +4498,7 @@
     "type": "paper"
   }, 
   "88": {
-    "abstract": "Given a bipartite graph of users and the products that they review, or followers and followees, how can we detect fake reviews or follows? Existing fraud detection methods (spectral, etc.) try to identify dense subgraphs of nodes that are sparsely connected to the remaining graph. Fraudsters can evade these methods using camouflage, by adding reviews or follows with honest targets so that they look \u00d0normal\u00d3. Even worse, some fraudsters use hijacked accounts from honest users, and then the camouflage is indeed organic.\n\nOur focus is to spot fraudsters in the presence of camouflage or hijacked accounts. We propose FRAUDAR, an algorithm that (a) is camouflage-resistant, (b) provides upper bounds on the effectiveness of fraudsters, and (c) is effective in real-world data. Experimental results under various attacks show that FRAUDAR outperforms the top competitor in accuracy of detecting both camouflaged and non-camouflaged fraud. Additionally, in real-world experiments with a Twitter follower-followee graph of 1.47 billion edges, FRAUDAR successfully detected a subgraph of more than 4000 detected accounts, of which a majority had tweets showing that they used follower-buying services.", 
+    "abstract": "Given a bipartite graph of users and the products that they review, or followers and followees, how can we detect fake reviews or follows? Existing fraud detection methods (spectral, etc.) try to identify dense subgraphs of nodes that are sparsely connected to the remaining graph. Fraudsters can evade these methods using camouflage, by adding reviews or follows with honest targets so that they look _normal\u00ee. Even worse, some fraudsters use hijacked accounts from honest users, and then the camouflage is indeed organic.\n\nOur focus is to spot fraudsters in the presence of camouflage or hijacked accounts. We propose FRAUDAR, an algorithm that (a) is camouflage-resistant, (b) provides upper bounds on the effectiveness of fraudsters, and (c) is effective in real-world data. Experimental results under various attacks show that FRAUDAR outperforms the top competitor in accuracy of detecting both camouflaged and non-camouflaged fraud. Additionally, in real-world experiments with a Twitter follower-followee graph of 1.47 billion edges, FRAUDAR successfully detected a subgraph of more than 4000 detected accounts, of which a majority had tweets showing that they used follower-buying services.", 
     "authors": [
       {
         "name": "Bryan Hooi"
@@ -4552,7 +4678,7 @@
     "type": "paper"
   }, 
   "96": {
-    "abstract": "Given a large, online stream of multiple co-evolving event sequences, such as sensor data and Web-click logs, that contains various types of non-linear dynamic evolving patterns of different durations, how can we efficiently and effectively capture important patterns? How do we go about forecasting long-term future events? \n\nIn this paper, we present REGIMECAST, an efficient and effective method for forecasting co-evolving data streams. REGIMECAST is designed as an adaptive non-linear dynamical system, which is inspired by the concept of \u00d0regime shifts\u00d3 in natural dynamical systems. Our method has the following properties: (a) Effective: it operates on large data streams, captures important patterns and performs long-term forecasting; (b) Adaptive: it automatically and incrementally recognizes the latent trends and dynamic evolution patterns (i.e., regimes) that are unknown in advance; (c) Scalable: it is fast and the computation cost does not depend on the length of data streams; (d) Any-time: it provides a response at any time and generates long-range future events. \n\nExtensive experiments on real datasets demonstrate that REGIMECAST does indeed make long-range forecasts, and it outperforms state-of-the-art competitors as regards accuracy and speed. \n\n", 
+    "abstract": "Given a large, online stream of multiple co-evolving event sequences, such as sensor data and Web-click logs, that contains various types of non-linear dynamic evolving patterns of different durations, how can we efficiently and effectively capture important patterns? How do we go about forecasting long-term future events? \n\nIn this paper, we present REGIMECAST, an efficient and effective method for forecasting co-evolving data streams. REGIMECAST is designed as an adaptive non-linear dynamical system, which is inspired by the concept of _regime shifts\u00ee in natural dynamical systems. Our method has the following properties: (a) Effective: it operates on large data streams, captures important patterns and performs long-term forecasting; (b) Adaptive: it automatically and incrementally recognizes the latent trends and dynamic evolution patterns (i.e., regimes) that are unknown in advance; (c) Scalable: it is fast and the computation cost does not depend on the length of data streams; (d) Any-time: it provides a response at any time and generates long-range future events. \n\nExtensive experiments on real datasets demonstrate that REGIMECAST does indeed make long-range forecasts, and it outperforms state-of-the-art competitors as regards accuracy and speed. \n\n", 
     "authors": [
       {
         "name": "Yasuko Matsubara"
