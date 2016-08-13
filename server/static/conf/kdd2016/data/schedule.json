@@ -66,8 +66,32 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Union Square 15/16", 
+            "session": "Workshop_The_5th_International_Workshop_on_Urban_Computing"
+          }, 
+          {
             "room": "Plaza Room A/B", 
-            "session": "Full_Day_Workshop"
+            "session": "Workshop_Mining_and_Learning_with_Graphs"
+          }, 
+          {
+            "room": "Embarcadero - Parc 55", 
+            "session": "Workshop_Interactive_Data_Exploration_and_Analytics"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
+            "session": "Workshop_Mining_and_Learning_from_Time_Series"
+          }, 
+          {
+            "room": "Market - Parc 55", 
+            "session": "Workshop_Data_Science_for_Food_Energy_and_Water"
+          }, 
+          {
+            "room": "Franciscan A/B", 
+            "session": "Workshop_Large_Scale_Sports_Analytics"
+          }, 
+          {
+            "room": "Union Square 23/24", 
+            "session": "Workshop_KDD_Cup_2016_Towards_Measuring_the_Impact_of_Research_Institutions"
           }
         ], 
         "slot_class": "morning1", 
@@ -77,8 +101,24 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Mission - Parc 55", 
+            "session": "Workshop_Workshop_on_Issues_of_Sentiment_Discovery_and_Opinion_Mining"
+          }, 
+          {
+            "room": "Franciscan C/D", 
+            "session": "Workshop_Machine_Learning_for_Large_Scale_Transportation_Systems"
+          }, 
+          {
             "room": "Yosemite A/B/C", 
-            "session": "Morning_Workshops"
+            "session": "Workshop_5th_International_Workshop_on_Big_Data_Streams_and_Heterogeneous_Source_Mining"
+          }, 
+          {
+            "room": "Cyril Magnin - Park 55", 
+            "session": "Workshop_2016_Workshop_on_Large_Scale_Deep_Learning_for_Data_Mining"
+          }, 
+          {
+            "room": "Union Square 22", 
+            "session": "Workshop_Enterprise_Intelligence"
           }
         ], 
         "slot_class": "morning1", 
@@ -89,7 +129,23 @@ schedule=[
         "sessions": [
           {
             "room": "Yosemite A/B/C", 
-            "session": "Afternoon_Workshops"
+            "session": "Workshop_KDD_Workshop_on_Causal_Discovery"
+          }, 
+          {
+            "room": "Franciscan C/D", 
+            "session": "Workshop_Machine_Learning_Meets_Fashion_Data_Algorithms_and_Analytics_for_the_Fashion_Industry"
+          }, 
+          {
+            "room": "Union Square 22", 
+            "session": "Workshop_15th_International_Workshop_on_Data_Mining_in_Bioinformatics_BioKDD_"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Workshop_Outlier_Definition_Detection_and_Description_On_Demand"
+          }, 
+          {
+            "room": "Mission - Parc 55", 
+            "session": "Workshop_Machine_Learning_for_Prognostics_and_Health_Management"
           }
         ], 
         "slot_class": "afternoon1", 

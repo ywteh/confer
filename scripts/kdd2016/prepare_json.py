@@ -155,6 +155,8 @@ def prepare_data(data_file1):
     
     room = unicode(row[10], "ISO-8859-1")
     
+    website = unicode(row[11], "ISO-8859-1")
+    
     paper_abstract = unicode(row[7], "ISO-8859-1")
         
     type = unicode(row[1], "ISO-8859-1").lower()
@@ -164,6 +166,9 @@ def prepare_data(data_file1):
         if "Research" in type:
             session = "Research Track: " + session
         type = 'paper'
+        
+    if website:
+        paper_abstract = website + ' ' + paper_abstract
         
     if 'keynote' in type:
         type = 'talk'
@@ -186,6 +191,10 @@ def prepare_data(data_file1):
     if 'tutorial' in type:
         type = "tutorial"
         session = 'Tutorial: ' + paper_title
+
+    if 'workshop' in type:
+        type = "workshop"
+        session = 'Workshop: ' + paper_title
 
     if session == "Applied Data Science Invited Talks":
         type = "talk"

@@ -1,17 +1,4 @@
 sessions={
-  "Afternoon_Workshops": {
-    "date": "Sunday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Afternoon Workshops", 
-    "submissions": [
-      "", 
-      "", 
-      "", 
-      "", 
-      ""
-    ], 
-    "time": "13:00 - 17:00"
-  }, 
   "Applied_Data_Science_Invited_Talks": {
     "date": "Tuesday", 
     "room": "Yosemite A/B/C", 
@@ -67,21 +54,6 @@ sessions={
       "37"
     ], 
     "time": "13:00 - 15:00"
-  }, 
-  "Full_Day_Workshop": {
-    "date": "Sunday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Full Day Workshop", 
-    "submissions": [
-      "", 
-      "", 
-      "", 
-      "", 
-      "", 
-      "", 
-      ""
-    ], 
-    "time": "8:00 - 17:00"
   }, 
   "Graphs_and_Rich_Data": {
     "date": "Monday", 
@@ -205,19 +177,6 @@ sessions={
       "38"
     ], 
     "time": "16:15 - 18:15"
-  }, 
-  "Morning_Workshops": {
-    "date": "Sunday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Morning Workshops", 
-    "submissions": [
-      "", 
-      "", 
-      "", 
-      "", 
-      ""
-    ], 
-    "time": "8:00 - 12:00"
   }, 
   "Optimization": {
     "date": "Wednesday", 
@@ -682,5 +641,158 @@ sessions={
       "144"
     ], 
     "time": "13:00 - 15:00"
+  }, 
+  "Workshop_15th_International_Workshop_on_Data_Mining_in_Bioinformatics_BioKDD_": {
+    "date": "Sunday", 
+    "room": "Union Square 22", 
+    "s_title": "Workshop: 15th International Workshop on Data Mining in Bioinformatics (BioKDD)", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Workshop_2016_Workshop_on_Large_Scale_Deep_Learning_for_Data_Mining": {
+    "date": "Sunday", 
+    "room": "Cyril Magnin - Park 55", 
+    "s_title": "Workshop: 2016 Workshop on Large-Scale Deep Learning for Data Mining", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Workshop_5th_International_Workshop_on_Big_Data_Streams_and_Heterogeneous_Source_Mining": {
+    "date": "Sunday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Workshop: 5th International Workshop on Big Data, Streams and Heterogeneous Source Mining", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Workshop_Data_Science_for_Food_Energy_and_Water": {
+    "date": "Sunday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Workshop: Data Science for Food, Energy and Water", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_Enterprise_Intelligence": {
+    "date": "Sunday", 
+    "room": "Union Square 22", 
+    "s_title": "Workshop: Enterprise Intelligence", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Workshop_Interactive_Data_Exploration_and_Analytics": {
+    "date": "Sunday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Workshop: Interactive Data Exploration and Analytics", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_KDD_Cup_2016_Towards_Measuring_the_Impact_of_Research_Institutions": {
+    "date": "Sunday", 
+    "room": "Union Square 23/24", 
+    "s_title": "Workshop: KDD Cup 2016: Towards Measuring the Impact of Research Institutions", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_KDD_Workshop_on_Causal_Discovery": {
+    "date": "Sunday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Workshop: KDD Workshop on Causal Discovery", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Workshop_Large_Scale_Sports_Analytics": {
+    "date": "Sunday", 
+    "room": "Franciscan A/B", 
+    "s_title": "Workshop: Large-Scale Sports Analytics", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_Machine_Learning_Meets_Fashion_Data_Algorithms_and_Analytics_for_the_Fashion_Industry": {
+    "date": "Sunday", 
+    "room": "Franciscan C/D", 
+    "s_title": "Workshop: Machine Learning Meets Fashion: Data, Algorithms and Analytics for the Fashion Industry", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Workshop_Machine_Learning_for_Large_Scale_Transportation_Systems": {
+    "date": "Sunday", 
+    "room": "Franciscan C/D", 
+    "s_title": "Workshop: Machine Learning for Large-Scale Transportation Systems", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Workshop_Machine_Learning_for_Prognostics_and_Health_Management": {
+    "date": "Sunday", 
+    "room": "Mission - Parc 55", 
+    "s_title": "Workshop: Machine Learning for Prognostics and Health Management", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Workshop_Mining_and_Learning_from_Time_Series": {
+    "date": "Sunday", 
+    "room": "Imperial Ballroom", 
+    "s_title": "Workshop: Mining and Learning from Time Series", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_Mining_and_Learning_with_Graphs": {
+    "date": "Sunday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Workshop: Mining and Learning with Graphs", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_Outlier_Definition_Detection_and_Description_On_Demand": {
+    "date": "Sunday", 
+    "room": "Cyril Magnin - Parc 55", 
+    "s_title": "Workshop: Outlier Definition, Detection and Description On-Demand", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Workshop_The_5th_International_Workshop_on_Urban_Computing": {
+    "date": "Sunday", 
+    "room": "Union Square 15/16", 
+    "s_title": "Workshop: The 5th International Workshop on Urban Computing", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
+  "Workshop_Workshop_on_Issues_of_Sentiment_Discovery_and_Opinion_Mining": {
+    "date": "Sunday", 
+    "room": "Mission - Parc 55", 
+    "s_title": "Workshop: Workshop on Issues of Sentiment Discovery and Opinion Mining", 
+    "submissions": [
+      ""
+    ], 
+    "time": "8:00 - 12:00"
   }
 }
