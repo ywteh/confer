@@ -1,33 +1,30 @@
 sessions={
-  "Applied_Data_Science_Invited_Talks_I": {
-    "date": "Monday", 
+  "Afternoon_Workshops": {
+    "date": "Sunday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talks - I", 
+    "s_title": "Afternoon Workshops", 
     "submissions": [
-      "67", 
-      "70", 
-      "72"
+      "", 
+      "", 
+      "", 
+      "", 
+      ""
     ], 
-    "time": "10:00 - 12:00"
+    "time": "13:00 - 17:00"
   }, 
-  "Applied_Data_Science_Invited_Talks_II": {
-    "date": "Monday", 
-    "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talks - II", 
-    "submissions": [
-      "69", 
-      "71", 
-      "73"
-    ], 
-    "time": "16:15 - 18:15"
-  }, 
-  "Applied_Data_Science_Invited_Talks_III": {
+  "Applied_Data_Science_Invited_Talks": {
     "date": "Tuesday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talks - III", 
+    "s_title": "Applied Data Science Invited Talks", 
     "submissions": [
       "66", 
+      "67", 
       "68", 
+      "69", 
+      "70", 
+      "71", 
+      "72", 
+      "73", 
       "74"
     ], 
     "time": "10:00 - 12:00"
@@ -37,11 +34,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Clustering", 
     "submissions": [
-      "82", 
-      "85", 
-      "90", 
-      "92", 
-      "147"
+      "81", 
+      "84", 
+      "89", 
+      "91", 
+      "146"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -50,11 +47,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Deep Learning and Embedding", 
     "submissions": [
+      "94", 
       "95", 
-      "96", 
-      "101", 
-      "112", 
-      "143"
+      "100", 
+      "111", 
+      "142"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -71,16 +68,31 @@ sessions={
     ], 
     "time": "13:00 - 15:00"
   }, 
+  "Full_Day_Workshop": {
+    "date": "Sunday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Full Day Workshop", 
+    "submissions": [
+      "", 
+      "", 
+      "", 
+      "", 
+      "", 
+      "", 
+      ""
+    ], 
+    "time": "8:00 - 17:00"
+  }, 
   "Graphs_and_Rich_Data": {
     "date": "Monday", 
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Rich Data", 
     "submissions": [
-      "89", 
-      "91", 
-      "104", 
-      "110", 
-      "119"
+      "88", 
+      "90", 
+      "103", 
+      "109", 
+      "118"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -89,11 +101,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Social Networks-I", 
     "submissions": [
-      "87", 
-      "93", 
-      "102", 
-      "124", 
-      "137"
+      "86", 
+      "92", 
+      "101", 
+      "123", 
+      "136"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -102,11 +114,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Graphs and Social Networks-II", 
     "submissions": [
-      "108", 
-      "126", 
-      "133", 
-      "149", 
-      "150"
+      "107", 
+      "125", 
+      "132", 
+      "148", 
+      "149"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -160,11 +172,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Large-Scale Data Mining", 
     "submissions": [
-      "99", 
-      "114", 
-      "125", 
-      "127", 
-      "138"
+      "98", 
+      "113", 
+      "124", 
+      "126", 
+      "137"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -194,16 +206,29 @@ sessions={
     ], 
     "time": "16:15 - 18:15"
   }, 
+  "Morning_Workshops": {
+    "date": "Sunday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Morning Workshops", 
+    "submissions": [
+      "", 
+      "", 
+      "", 
+      "", 
+      ""
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
   "Optimization": {
     "date": "Wednesday", 
     "room": "Imperial Ballroom", 
     "s_title": "Optimization", 
     "submissions": [
-      "105", 
-      "128", 
-      "132", 
-      "136", 
-      "142"
+      "104", 
+      "127", 
+      "131", 
+      "135", 
+      "141"
     ], 
     "time": "13:00 - 15:00"
   }, 
@@ -221,7 +246,16 @@ sessions={
     "room": "Yosemite A/B/C", 
     "s_title": "Panel: Can Tools Effectively Unleash the Power of Big Data?", 
     "submissions": [
-      "81"
+      "80"
+    ], 
+    "time": "13:45 - 15:45"
+  }, 
+  "Panel_Is_Deep_Learning_the_New_42_Panel_with_Andrei_Broder": {
+    "date": "Monday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Panel: Is Deep Learning the New 42? Panel with Andrei Broder", 
+    "submissions": [
+      "237"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -256,6 +290,7 @@ sessions={
       "63", 
       "64", 
       "65", 
+      "151", 
       "152", 
       "153", 
       "154", 
@@ -326,8 +361,7 @@ sessions={
       "219", 
       "220", 
       "221", 
-      "222", 
-      "223"
+      "222"
     ], 
     "time": "19:00 - 0:00"
   }, 
@@ -349,11 +383,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Recommender Systems", 
     "submissions": [
-      "88", 
-      "100", 
-      "109", 
-      "139", 
-      "151"
+      "87", 
+      "99", 
+      "108", 
+      "138", 
+      "150"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -362,11 +396,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Sequence Mining", 
     "submissions": [
-      "83", 
-      "94", 
-      "97", 
-      "103", 
-      "115"
+      "82", 
+      "93", 
+      "96", 
+      "102", 
+      "114"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -414,11 +448,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Streams and Temporal Evolution-I", 
     "submissions": [
-      "84", 
-      "86", 
-      "113", 
-      "116", 
-      "146"
+      "83", 
+      "85", 
+      "112", 
+      "115", 
+      "145"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -427,11 +461,11 @@ sessions={
     "room": "Imperial Ballroom", 
     "s_title": "Streams and Temporal Evolution-II", 
     "submissions": [
-      "117", 
+      "116", 
+      "121", 
       "122", 
-      "123", 
-      "129", 
-      "135"
+      "128", 
+      "134"
     ], 
     "time": "16:15 - 18:15"
   }, 
@@ -440,11 +474,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Supervised Learning", 
     "submissions": [
-      "98", 
-      "111", 
-      "120", 
-      "140", 
-      "148"
+      "97", 
+      "110", 
+      "119", 
+      "139", 
+      "147"
     ], 
     "time": "10:00 - 12:00"
   }, 
@@ -466,34 +500,34 @@ sessions={
     "room": "Continental 6-8", 
     "s_title": "Tutorial: Algorithmic Bias: From Discrimination Discovery to Fairness-aware Data Mining", 
     "submissions": [
-      "229"
+      "228"
     ], 
     "time": "8:00 - 12:00"
   }, 
   "Tutorial_Business_Applications_of_Predictive_Modeling_at_Scale": {
     "date": "Saturday", 
-    "room": "Imperial Ballroom A&B", 
+    "room": "Imperial Ballroom", 
     "s_title": "Tutorial: Business Applications of Predictive Modeling at Scale", 
     "submissions": [
-      "231"
+      "230"
     ], 
     "time": "8:00 - 12:00"
-  }, 
-  "Tutorial_CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit": {
-    "date": "Tuesday", 
-    "room": "Embarcadero - Parc 55", 
-    "s_title": "Tutorial: CNTK: Microsoft's Open-Source Deep-Learning Toolkit", 
-    "submissions": [
-      "236"
-    ], 
-    "time": "9:00 - 12:00"
   }, 
   "Tutorial_Collective_Sensemaking_via_Social_Sensors_Extracting_Profiling_Analyzing_and_Predicting_Real_world_Events": {
     "date": "Saturday", 
     "room": "Continental 1-4", 
     "s_title": "Tutorial: Collective Sensemaking via Social Sensors: Extracting, Profiling, Analyzing, and Predicting Real-world Events", 
     "submissions": [
-      "227"
+      "226"
+    ], 
+    "time": "8:00 - 12:00"
+  }, 
+  "Tutorial_Enabling_the_Discovery_of_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data": {
+    "date": "Saturday", 
+    "room": "Plaza Room A/B", 
+    "s_title": "Tutorial: Enabling the Discovery of Reliable Information from Passively and Actively Crowdsourced Data", 
+    "submissions": [
+      "231"
     ], 
     "time": "8:00 - 12:00"
   }, 
@@ -502,16 +536,97 @@ sessions={
     "room": "Grand Ballroom Salon A", 
     "s_title": "Tutorial: Extracting Optimal Performance from Dynamic Time Warping", 
     "submissions": [
-      "226"
+      "225"
     ], 
     "time": "8:00 - 12:00"
   }, 
+  "Tutorial_Hand_on_Tutorial_R_on_Spark": {
+    "date": "Wednesday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Tutorial: Hand-on Tutorial: R on Spark", 
+    "submissions": [
+      "236"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Hands_On_Tutorial_Big_Natural_Language_Data_Processing": {
+    "date": "Monday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Tutorial: Hands-On Tutorial: Big Natural Language Data Processing", 
+    "submissions": [
+      ""
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Hands_On_Tutorial_MXNet": {
+    "date": "Monday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Tutorial: Hands-On Tutorial: MXNet", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Tutorial_Hands_On_Tutorial_Recommender_Systems": {
+    "date": "Monday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Tutorial: Hands-On Tutorial: Recommender Systems", 
+    "submissions": [
+      ""
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Hands_On_Tutorial_Spark_2_0": {
+    "date": "Monday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Tutorial: Hands-On Tutorial: Spark 2.0", 
+    "submissions": [
+      ""
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
+  "Tutorial_Hands_on_Tutorial_AWS": {
+    "date": "Tuesday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Tutorial: Hands-on Tutorial: AWS", 
+    "submissions": [
+      ""
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Hands_on_Tutorial_CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit": {
+    "date": "Tuesday", 
+    "room": "Embarcadero - Parc 55", 
+    "s_title": "Tutorial: Hands-on Tutorial: CNTK: Microsoft's Open-Source Deep-Learning Toolkit", 
+    "submissions": [
+      "235"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Hands_on_Tutorial_Streaming_Analytics": {
+    "date": "Wednesday", 
+    "room": "Market - Parc 55", 
+    "s_title": "Tutorial: Hands-on Tutorial: Streaming Analytics", 
+    "submissions": [
+      "234"
+    ], 
+    "time": "9:00 - 12:00"
+  }, 
+  "Tutorial_Healthcare_Data_Mining_with_Matrix_Models": {
+    "date": "Saturday", 
+    "room": "Continental 5", 
+    "s_title": "Tutorial: Healthcare Data Mining with Matrix Models", 
+    "submissions": [
+      "233"
+    ], 
+    "time": "13:00 - 17:00"
+  }, 
   "Tutorial_IoT_Big_Data_Stream_Mining": {
     "date": "Saturday", 
-    "room": "Continental 6-8", 
+    "room": "Grand Ballroom Salon A", 
     "s_title": "Tutorial: IoT Big Data Stream Mining", 
     "submissions": [
-      "228"
+      "227"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -520,7 +635,7 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "Tutorial: Leveraging Propagation for Data Mining: Models, Algorithms and Applications", 
     "submissions": [
-      "233"
+      "232"
     ], 
     "time": "13:00 - 17:00"
   }, 
@@ -529,56 +644,29 @@ sessions={
     "room": "Continental 1-4", 
     "s_title": "Tutorial: Lifelong Machine Learning and Computer Reading the Web", 
     "submissions": [
-      "224"
+      "223"
     ], 
     "time": "13:00 - 17:00"
-  }, 
-  "Tutorial_Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data": {
-    "date": "Saturday", 
-    "room": "Plaza Room A/B", 
-    "s_title": "Tutorial: Mining Reliable Information from Passively and Actively Crowdsourced Data", 
-    "submissions": [
-      "232"
-    ], 
-    "time": "8:00 - 12:00"
-  }, 
-  "Tutorial_Scalable_Data_Analytics_Using_R": {
-    "date": "Wednesday", 
-    "room": "Embarcadero - Parc 55", 
-    "s_title": "Tutorial: Scalable Data Analytics Using R", 
-    "submissions": [
-      "237"
-    ], 
-    "time": "9:00 - 12:00"
   }, 
   "Tutorial_Scalable_Learning_of_Graphical_Models": {
     "date": "Saturday", 
-    "room": "Imperial Ballroom A&B", 
+    "room": "Imperial Ballroom", 
     "s_title": "Tutorial: Scalable Learning of Graphical Models", 
     "submissions": [
-      "225"
+      "224"
     ], 
     "time": "13:00 - 17:00"
-  }, 
-  "Tutorial_Streaming_Analytics": {
-    "date": "Wednesday", 
-    "room": "Market - Parc 55", 
-    "s_title": "Tutorial: Streaming Analytics", 
-    "submissions": [
-      "235"
-    ], 
-    "time": "9:00 - 12:00"
   }, 
   "Unsupervised_Learning_and_Anomaly_Detection": {
     "date": "Tuesday", 
     "room": "Plaza Room A/B", 
     "s_title": "Unsupervised Learning and Anomaly Detection", 
     "submissions": [
-      "107", 
-      "121", 
+      "106", 
+      "120", 
+      "129", 
       "130", 
-      "131", 
-      "144"
+      "143"
     ], 
     "time": "13:45 - 15:45"
   }, 
@@ -587,11 +675,11 @@ sessions={
     "room": "Plaza Room A/B", 
     "s_title": "User-Behavior Modeling", 
     "submissions": [
-      "106", 
-      "118", 
-      "134", 
-      "141", 
-      "145"
+      "105", 
+      "117", 
+      "133", 
+      "140", 
+      "144"
     ], 
     "time": "13:00 - 15:00"
   }

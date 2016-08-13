@@ -7,10 +7,10 @@ schedule=[
         "sessions": [
           {
             "room": "Plaza Room A/B", 
-            "session": "Tutorial_Mining_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
+            "session": "Tutorial_Enabling_the_Discovery_of_Reliable_Information_from_Passively_and_Actively_Crowdsourced_Data"
           }, 
           {
-            "room": "Imperial Ballroom A&B", 
+            "room": "Imperial Ballroom", 
             "session": "Tutorial_Business_Applications_of_Predictive_Modeling_at_Scale"
           }, 
           {
@@ -37,11 +37,15 @@ schedule=[
             "session": "Tutorial_Lifelong_Machine_Learning_and_Computer_Reading_the_Web"
           }, 
           {
-            "room": "Continental 6-8", 
+            "room": "Grand Ballroom Salon A", 
             "session": "Tutorial_IoT_Big_Data_Stream_Mining"
           }, 
           {
-            "room": "Imperial Ballroom A&B", 
+            "room": "Continental 5", 
+            "session": "Tutorial_Healthcare_Data_Mining_with_Matrix_Models"
+          }, 
+          {
+            "room": "Imperial Ballroom", 
             "session": "Tutorial_Scalable_Learning_of_Graphical_Models"
           }, 
           {
@@ -51,6 +55,45 @@ schedule=[
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "Saturday13_00_17_00", 
+        "time": "13:00 - 17:00"
+      }
+    ]
+  }, 
+  {
+    "date": "08/14/2016", 
+    "day": "Sunday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Full_Day_Workshop"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Sunday8_00_17_00", 
+        "time": "8:00 - 17:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Morning_Workshops"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Sunday8_00_12_00", 
+        "time": "8:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Afternoon_Workshops"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Sunday13_00_17_00", 
         "time": "13:00 - 17:00"
       }
     ]
@@ -73,6 +116,21 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Market - Parc 55", 
+            "session": "Tutorial_Hands_On_Tutorial_Recommender_Systems"
+          }, 
+          {
+            "room": "Embarcadero - Parc 55", 
+            "session": "Tutorial_Hands_On_Tutorial_Big_Natural_Language_Data_Processing"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Monday9_00_12_00", 
+        "time": "9:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Rich_Data"
           }, 
@@ -83,10 +141,6 @@ schedule=[
           {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Social_Good_1"
-          }, 
-          {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_I"
           }
         ], 
         "slot_class": "morning2", 
@@ -107,6 +161,25 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Market - Parc 55", 
+            "session": "Tutorial_Hands_On_Tutorial_MXNet"
+          }, 
+          {
+            "room": "Embarcadero - Parc 55", 
+            "session": "Tutorial_Hands_On_Tutorial_Spark_2_0"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday13_00_17_00", 
+        "time": "13:00 - 17:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Panel_Is_Deep_Learning_the_New_42_Panel_with_Andrei_Broder"
+          }, 
+          {
             "room": "Imperial Ballroom", 
             "session": "Streams_and_Temporal_Evolution_I"
           }, 
@@ -126,16 +199,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "Graphs_and_Social_Networks_II"
-          }, 
-          {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_II"
-          }, 
-          {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Miscellaneous_Topics"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Graphs_and_Social_Networks_II"
           }, 
           {
             "room": "Imperial Ballroom", 
@@ -177,8 +246,12 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Market - Parc 55", 
+            "session": "Tutorial_Hands_on_Tutorial_AWS"
+          }, 
+          {
             "room": "Embarcadero - Parc 55", 
-            "session": "Tutorial_CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit"
+            "session": "Tutorial_Hands_on_Tutorial_CNTK_Microsoft_s_Open_Source_Deep_Learning_Toolkit"
           }
         ], 
         "slot_class": "morning1", 
@@ -196,12 +269,12 @@ schedule=[
             "session": "Deep_Learning_and_Embedding"
           }, 
           {
-            "room": "Cyril Magnin - Parc 55", 
-            "session": "Recommendations_Ranking"
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks"
           }, 
           {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks_III"
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Recommendations_Ranking"
           }
         ], 
         "slot_class": "morning2", 
@@ -267,11 +340,11 @@ schedule=[
         "sessions": [
           {
             "room": "Embarcadero - Parc 55", 
-            "session": "Tutorial_Scalable_Data_Analytics_Using_R"
+            "session": "Tutorial_Hand_on_Tutorial_R_on_Spark"
           }, 
           {
             "room": "Market - Parc 55", 
-            "session": "Tutorial_Streaming_Analytics"
+            "session": "Tutorial_Hands_on_Tutorial_Streaming_Analytics"
           }
         ], 
         "slot_class": "morning1", 
