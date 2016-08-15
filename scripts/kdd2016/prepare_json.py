@@ -85,6 +85,8 @@ def prepare_schedule(t_schedule):
 
 def get_times(stime):
   t = stime.split('-')
+  t[0] = t[0].strip()
+  t[1] = t[1].strip()
 
   if 'am' in t[0]:
       tt = t[0][:-2]

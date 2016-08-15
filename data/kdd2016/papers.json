@@ -379,31 +379,16 @@
     "type": "paper"
   }, 
   "24": {
-    "abstract": "Days on Market (DOM) refers to the number of days a property is on the active market, which is an important measurement of market liquidity in real estate industry. Indeed, at the micro level, DOM is not only a special concern of house sellers, but also a useful indicator for potential buyers to evaluate the popularity of a house. At the macro level, DOM is an important indicator of real estate market status. However, it is very challenging to measure DOM, since there are a variety of factors which can impact on the DOM of a property. To this end, in this paper, we aim to measure real estate liquidity by examining multiple factors in a holistic manner. A special goal is to predict the DOM of a given property listing. Specifically, we first extract key features from multiple types of heterogeneous real estate-related data, such as house profiles and geo-social information of residential communities. Then, based on these features, we develop a multi-task learning based regression approach for predicting the DOM of real estates. This approach can effectively learn district-aware models for different property listings by considering multiple factors. Finally, we conduct extensive experiments on real-world real estate data collected in Beijing and develop a prototype system for practical use. The experimental results clearly validate the effectiveness  of the proposed approach for measuring liquidity in real estate markets.", 
+    "abstract": "At the heart of Air Traffic Management (ATM) lies the Decision Support Systems (DST) that rely upon accurate trajectory prediction to determine how the airspace will look like in the future to make better decisions and advisories. Dealing with airspace that is prone to congestion due to environmental factors still remains the challenge especially when a deterministic approach is used in the trajectory prediction process. In this paper, we  describe a novel stochastic trajectory prediction approach for ATM that can be used for more efficient and realistic flight planning and to assist airspace flow management, potentially resulting in higher safety, capacity, and efficiency commensurate with fuel savings thereby reducing emissions for a better environment.\n\n\n\n\n\n\n\nOur approach considers airspace as a 3D grid network, where each grid point is a location of a weather observation. We hypothetically build cubes around these grid points, so the entire airspace can be considered as a set of cubes. Each cube is defined by its centroid, the original grid point, and associated weather parameters that remain homogeneous within the cube during a period of time. Then, we align raw trajectories to a set of cube centroids which are basically fixed 3D positions independent of trajectory data. This creates a new form of trajectories which are 4D joint cubes, where each cube is a segment that is associated with not only spatio-temporal attributes but also with weather parameters. Next, we exploit machine learning techniques to train inference models from historical data and apply a stochastic model, a Hidden Markov Model (HMM), to predict trajectories taking environmental uncertainties into account. During the process, we apply time series clustering to generate input observations from an excessive set of weather parameters to feed into the Viterbi algorithm. Our experiments use a real trajectory dataset with pertaining weather observations  and demonstrate the effectiveness of our approach to the trajectory prediction process for ATM.", 
     "authors": [
       {
-        "name": "Hengshu Zhu"
+        "name": "Samet Ayhan"
       }, 
       {
-        "name": "Hui Xiong"
-      }, 
-      {
-        "name": "Fangshuang Tang"
-      }, 
-      {
-        "name": "Qi Liu"
-      }, 
-      {
-        "name": "Yong Ge"
-      }, 
-      {
-        "name": "Enhong Chen"
-      }, 
-      {
-        "name": "Yanjie Fu"
+        "name": "Hanan Samet"
       }
     ], 
-    "title": "Days on Market: Measuring Liquidity in Real Estate Markets", 
+    "title": "Aircraft Trajectory Prediction Made Easy with Predictive Analytics", 
     "type": "paper"
   }, 
   "25": {
@@ -644,16 +629,31 @@
     "type": "paper"
   }, 
   "34": {
-    "abstract": "At the heart of Air Traffic Management (ATM) lies the Decision Support Systems (DST) that rely upon accurate trajectory prediction to determine how the airspace will look like in the future to make better decisions and advisories. Dealing with airspace that is prone to congestion due to environmental factors still remains the challenge especially when a deterministic approach is used in the trajectory prediction process. In this paper, we  describe a novel stochastic trajectory prediction approach for ATM that can be used for more efficient and realistic flight planning and to assist airspace flow management, potentially resulting in higher safety, capacity, and efficiency commensurate with fuel savings thereby reducing emissions for a better environment.\n\n\n\n\n\n\n\nOur approach considers airspace as a 3D grid network, where each grid point is a location of a weather observation. We hypothetically build cubes around these grid points, so the entire airspace can be considered as a set of cubes. Each cube is defined by its centroid, the original grid point, and associated weather parameters that remain homogeneous within the cube during a period of time. Then, we align raw trajectories to a set of cube centroids which are basically fixed 3D positions independent of trajectory data. This creates a new form of trajectories which are 4D joint cubes, where each cube is a segment that is associated with not only spatio-temporal attributes but also with weather parameters. Next, we exploit machine learning techniques to train inference models from historical data and apply a stochastic model, a Hidden Markov Model (HMM), to predict trajectories taking environmental uncertainties into account. During the process, we apply time series clustering to generate input observations from an excessive set of weather parameters to feed into the Viterbi algorithm. Our experiments use a real trajectory dataset with pertaining weather observations  and demonstrate the effectiveness of our approach to the trajectory prediction process for ATM.", 
+    "abstract": "Days on Market (DOM) refers to the number of days a property is on the active market, which is an important measurement of market liquidity in real estate industry. Indeed, at the micro level, DOM is not only a special concern of house sellers, but also a useful indicator for potential buyers to evaluate the popularity of a house. At the macro level, DOM is an important indicator of real estate market status. However, it is very challenging to measure DOM, since there are a variety of factors which can impact on the DOM of a property. To this end, in this paper, we aim to measure real estate liquidity by examining multiple factors in a holistic manner. A special goal is to predict the DOM of a given property listing. Specifically, we first extract key features from multiple types of heterogeneous real estate-related data, such as house profiles and geo-social information of residential communities. Then, based on these features, we develop a multi-task learning based regression approach for predicting the DOM of real estates. This approach can effectively learn district-aware models for different property listings by considering multiple factors. Finally, we conduct extensive experiments on real-world real estate data collected in Beijing and develop a prototype system for practical use. The experimental results clearly validate the effectiveness  of the proposed approach for measuring liquidity in real estate markets.", 
     "authors": [
       {
-        "name": "Samet Ayhan"
+        "name": "Hengshu Zhu"
       }, 
       {
-        "name": "Hanan Samet"
+        "name": "Hui Xiong"
+      }, 
+      {
+        "name": "Fangshuang Tang"
+      }, 
+      {
+        "name": "Qi Liu"
+      }, 
+      {
+        "name": "Yong Ge"
+      }, 
+      {
+        "name": "Enhong Chen"
+      }, 
+      {
+        "name": "Yanjie Fu"
       }
     ], 
-    "title": "Aircraft Trajectory Prediction Made Easy with Predictive Analytics", 
+    "title": "Days on Market: Measuring Liquidity in Real Estate Markets", 
     "type": "paper"
   }, 
   "35": {
@@ -1303,7 +1303,7 @@
       }
     ], 
     "title": "Large-Scale Machine Learning at Verizon: Theory and Applications", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "63": {
     "abstract": "In the past 20 years, the practical examples of KDD/data mining have become so ubiquitous that it\u0090s almost impossible to imagine a new venture that isn\u0090t based on data science. Uber, Facebook, 23andMe, Tesla _ they aren\u0090t just technology companies; they are data companies. And yet the reality is that these companies are still anomalies. Large, successful companies usually still treat KDD as either an afterthought or as an experiment. It\u0090s not core to how they run the business.</par><par>As practitioners we compound this problem by concentrating our efforts on valuable business problems; but ones which are usually on the periphery of the business. We do this because changing the heart of how a company operates requires more than just process or technology changes. It requires cultural changes. And these cultural changes usually trigger corporate antibodies adverse to anything new.\n\n\n\n\n\n\n\nThis talk will review some practical realities of instituting data-driven decisions in a very large multi-national company.\n\n\n\n", 
@@ -1313,7 +1313,7 @@
       }
     ], 
     "title": "Can You Teach the Elephant to Dance? AKA: Culture Eats Data Science for Breakfast", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "64": {
     "abstract": "The past 15 years have witnessed a remarkable increase in both the scale and scope of social and behavioral data available to researchers, leading some to herald the emergence of a new field: _computational social science.\u00ee Against these exciting developments stands a stubborn fact: that in spite of many thousands of published papers, there has been surprisingly little progress on the _big\u00ee questions that motivated the field in the first place\u00caquestions concerning systemic risk in financial systems, problem solving in complex organizations, and the dynamics of epidemics or social movements, among others. In this talk I highlight some examples of research that would not have been possible just a handful of years ago and that illustrate the promise of CSS. At the same time, they illustrate its limitations.  I then conclude with some thoughts on how CSS can bridge the gap between its current state and its potential.  ", 
@@ -1323,7 +1323,7 @@
       }
     ], 
     "title": "Computational Social Science: Exciting Progress and Future Challenges", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "65": {
     "abstract": "It has become a clich_ to talk about Wanamaker\u0090s dilemma, his famous quote that _Half the money I spend on advertising is wasted; the trouble is I don't know which half\" is well known.  So why talk about it today?  Well, I\u0090ll show you that some of the best targeted consumer marketing still suffers exactly from this problem, and tell you why _ it\u0090s not humanly possible to solve it!  At Amplero we\u0090ve finally solved it and made that solution accessible to marketers, using machine learning in combination with the revolution in online experimentation that the advent of the multi-armed bandit has brought about.", 
@@ -1333,7 +1333,7 @@
       }
     ], 
     "title": "How Machine Learning has Finally Solved Wanamaker\u0090s Dilemma", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "66": {
     "abstract": "With hundreds of thousands of users, RapidMiner is the most frequently used visual workflow platform for machine learning. It covers the full spectrum of analytics from data preparation to machine learning and model validation.  In this presentation, I will take you on a tour of machine learning which spans the last 15 years of research and industry applications and share key insights with you about how data scientists perform their daily analysis tasks.  These patterns are extracted from mining millions of analytical workflows that have been created with RapidMiner over the past years.  This talk will address important questions around the data mining process such as: What are the most frequently used solutions for typical data quality problems?  How often are analysts using decision trees or neural networks?  And does this behavior change over time or depend on the users experience level?  ", 
@@ -1343,7 +1343,7 @@
       }
     ], 
     "title": "The Wisdom of Crowds:  Best Practices for Data Prep & Machine Learning Derived from Millions of Data Science Workflows", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "67": {
     "abstract": "An important property of embedded learning systems is the ever-changing environment they create for all algorithms operating in the system.  Optimizing the performance of those algorithms becomes a perpetual on-line activity rather than a one-off task.  I will review some of these challenges in autonomous vehicles.  I will discuss Bayesian optimization methods and their application in robotics and scientific applications, focusing on scaling up the dimensionality and managing multi-fidelity evaluations.  I will finish with lessons learned and thoughts on future directions as these methods move into embedded systems.", 
@@ -1353,7 +1353,7 @@
       }
     ], 
     "title": "Bayesian Optimization and Embedded Learning Systems", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "68": {
     "abstract": "Every automaker is working on driver assistance systems and self-driving cars. Conventional computer vision used for ADAS is reaching its threshold because it is impossible to write code for every possible scenario as a vehicle navigates. In order to develop a truly autonomous car, deep learning and artificial intelligence are required. With deep learning, the vehicle can be trained to have super human levels of perception, driving safer than anyone on the road. An end-to-end artificial intelligence platform based on supercomputers in the cloud and in the vehicle enables cars to get smarter and smarter. Coupled with an extensive software development kit with vision and AI libraries and software modules, automakers, tier 1s, and startups can build scalable systems from ADAS to full autonomy. ", 
@@ -1363,7 +1363,7 @@
       }
     ], 
     "title": "Accelerating the Race to Autonomous Cars", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "69": {
     "abstract": "Recently, learning deep models from dense data has received a lot of attention in tasks such as object recognition and signal processing. However, when dealing with non-sensory data about real-world entities, data is often sparse; for example people interaction with products in e-Commerce, people interacting with each other in social networks or word sequences in natural language. In this talk, I will share lessons learned over the past 10 years when learning predictive models based on sparse data: 1) how to scale the inference algorithms to distributed data setting, 2) how to automate the learning process by reducing the amount of hyper-parameters to zero, 3) how to deal with Zipf distributions when learning resource-constrained models, and 4) how to combine dense and sparse-learning algorithms. The talk will be drawing from many real-world experiences I gathered over the past decade in applications of the techniques in gaming, search, advertising and recommendations of systems developed at Microsoft, Facebook and Amazon. \n\n\n\n", 
@@ -1373,7 +1373,7 @@
       }
     ], 
     "title": "Learning Sparse Models at Scale", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "70": {
     "abstract": "QQ and Wechat are the two largest instant messaging & social networks in China. Tencent Social Ads is the advertising platform for both Wechat and QQ, serving over 10B page views per day for several hundred million users.\n\n\n\n  We strive to understand as much as possible on our users\u0090 characteristics, so as to serve the best personalized ads for them. The rich user behaviors on Tencent\u0090s diverse products lay a foundation in our user profiles on many dimensions, including demographics, interests, intents, transactions, physical locations, and devices, etc. \n\n\n\n  In this talk, we will share our experience in large scale user data mining based on online social activities. We will discuss the challenges we face and the solutions we have devised so far.\n\n\n\n\u00e4\tSome demographics data are obtained from user input, and thus would have gaps in both accuracy and coverage. We discuss the techniques in calibrating and verifying these data.\n\n\n\n\u00e4\tWe infer user interests from their social behaviors. For example, most QQ groups are not labelled properly, but by applying a large-scale topic model on the QQ memberships, we can effectively classify most QQ groups into an interest taxonomy.  We also infer user interests from user\u0090s physical location check-ins and uploaded photos. \n\n\n\n\u00e4\tUser data can be collected from many diverse sources, including behaviors in various Tencent products, click and conversion in ad platform, and even seed customers collected by advertisers. We\u0090ll discuss the systems to merge these diverse data to provide a coherent view for our advertisers.\n\n\n\n\u00e4\tHigh quality user labels are usually sparse. We implemented an algorithm for advertisers to reach more potential customers through user similarity computation based on user features as well as social graph inferences. We\u0090ll describe the system\u0090s contributions to ads quality.\n\n\n\n\u00e4\tTop advertisers demand rich audience targeting solutions in combination of their own customer data, Tencent data, and possibly 3rd-party data. We\u0090ll discuss the data exchange platform that can facilitate collaborative applications with 3rd-party DSPs and DMPs. \n\n\n\n", 
@@ -1383,7 +1383,7 @@
       }
     ], 
     "title": "Profiling Users from Online Social Behaviors with Applications for Tencent Social Ads", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "71": {
     "abstract": "This talk will explore how time - and timing - impact Netflix\u00eas data science applications. Netflix enables stories from around the world to be discovered, enjoyed, and shared globally. Success in this space means finding and creating the right movies and TV shows, connecting them with the cultures and people who will enjoy them, and delivering a high-quality video streaming experience. As we lean on data science to help in these areas, the specific manner in which time is handled can impact results dramatically. I will share examples of how Netflix incorporates time in algorithm training, feature engineering, A/B test execution, and measurement of member behaviors.", 
@@ -1393,7 +1393,7 @@
       }
     ], 
     "title": "It's About Time", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "72": {
     "abstract": "The time has come to manage information across the enterprise as a strategic asset and deliver to enterprise data consumers, experiences that rival their experiences managing information on the public web. People who use information technology at work are the same people that go home and use the Internet. Why should their information systems at work be harder to use\u00e3or less satisfying\u00e3than the systems they use at home?\n\nIn this presentation, serial entrepreneur and Tamr Co-Founder Andy Palmer exposes the dirty secret of messy, siloed, enterprise data. Pulling from first hand experience, Palmer shares how Fortune 500 companies are saving $100s of millions by automatically unifying and preparing enterprise data at scale\u00e3and empowering enterprise data and IT professionals to become the \u0096Googlers\u0094 of their enterprise.", 
@@ -1403,7 +1403,7 @@
       }
     ], 
     "title": "The Dirty Little Secret of Enterprise Data", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "73": {
     "abstract": "With today's massive global adoption of personal computers, smartphones, tablets, and the emerging class of devices, we live in a time of unprecedented device proliferation. This gives rise to very fundamental challenges around the fragmentation of consumer identity. The big Internet giants of Google, Facebook, etc. have an inherent advantage in solving for this through their first-party data of made up of a stateful, logged-in base of user information. This creates an inequity across the digital and Internet economy in the ability to provide seamless experiences and solutions from understanding consumer identity. This talk will address how machine learning and data science best-practices can solve for this identity capability, and how it can be done in a privacy-safe and data-safe manner, with high precision and at massive scale.\n\nKamakshi will focus on the algorithms developed at Drawbridge that process a massive scales of data in near-real-time spans to solve for a single user\u00eas identity across different domains, while still protecting consumer anonymity.", 
@@ -1413,7 +1413,7 @@
       }
     ], 
     "title": "Democratizing Consumer Identity: Data Science's Answer to Facebook and Google", 
-    "type": "talk"
+    "type": "paper"
   }, 
   "74": {
     "abstract": "", 

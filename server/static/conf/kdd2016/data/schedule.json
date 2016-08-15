@@ -66,20 +66,20 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Union Square 15/16", 
-            "session": "Workshop_The_5th_International_Workshop_on_Urban_Computing"
-          }, 
-          {
             "room": "Plaza Room A/B", 
             "session": "Workshop_Mining_and_Learning_with_Graphs"
           }, 
           {
-            "room": "Embarcadero - Parc 55", 
-            "session": "Workshop_Interactive_Data_Exploration_and_Analytics"
+            "room": "Union Square 15/16", 
+            "session": "Workshop_The_5th_International_Workshop_on_Urban_Computing"
           }, 
           {
             "room": "Imperial Ballroom", 
             "session": "Workshop_Mining_and_Learning_from_Time_Series"
+          }, 
+          {
+            "room": "Embarcadero - Parc 55", 
+            "session": "Workshop_Interactive_Data_Exploration_and_Analytics"
           }, 
           {
             "room": "Market - Parc 55", 
@@ -187,16 +187,16 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_1"
+          }, 
+          {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Rich_Data"
           }, 
           {
             "room": "Imperial Ballroom", 
             "session": "Large_Scale_Data_Mining"
-          }, 
-          {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
@@ -274,6 +274,10 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_2"
+          }, 
+          {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Social_Networks_II"
           }, 
@@ -347,6 +351,10 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_3"
+          }, 
+          {
             "room": "Plaza Room A/B", 
             "session": "Clustering"
           }, 
@@ -377,12 +385,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Plaza Room A/B", 
-            "session": "Unsupervised_Learning_and_Anomaly_Detection"
-          }, 
-          {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Social_Networks_Social_Media"
+          }, 
+          {
+            "room": "Plaza Room A/B", 
+            "session": "Unsupervised_Learning_and_Anomaly_Detection"
           }, 
           {
             "room": "Imperial Ballroom", 
@@ -446,6 +454,10 @@ schedule=[
       }, 
       {
         "sessions": [
+          {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks_5"
+          }, 
           {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Machine_Learning_Algorithms"

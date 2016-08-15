@@ -1,18 +1,42 @@
 sessions={
-  "Applied_Data_Science_Invited_Talks": {
+  "Applied_Data_Science_Invited_Talks_1": {
     "date": "Monday", 
     "room": "Yosemite A/B/C", 
-    "s_title": "Applied Data Science Invited Talks", 
+    "s_title": "Applied Data Science Invited Talks 1", 
     "submissions": [
       62, 
       63, 
-      64, 
+      64
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Applied_Data_Science_Invited_Talks_2": {
+    "date": "Monday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Applied Data Science Invited Talks 2", 
+    "submissions": [
       65, 
       66, 
-      67, 
+      67
+    ], 
+    "time": "16:15 - 18:15"
+  }, 
+  "Applied_Data_Science_Invited_Talks_3": {
+    "date": "Tuesday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Applied Data Science Invited Talks 3", 
+    "submissions": [
       68, 
       69, 
-      70, 
+      70
+    ], 
+    "time": "10:00 - 12:00"
+  }, 
+  "Applied_Data_Science_Invited_Talks_5": {
+    "date": "Wednesday", 
+    "room": "Yosemite A/B/C", 
+    "s_title": "Applied Data Science Invited Talks 5", 
+    "submissions": [
       71, 
       72, 
       73
