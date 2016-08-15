@@ -195,6 +195,10 @@ schedule=[
             "session": "Large_Scale_Data_Mining"
           }, 
           {
+            "room": "Yosemite A/B/C", 
+            "session": "Applied_Data_Science_Invited_Talks"
+          }, 
+          {
             "room": "Cyril Magnin - Parc 55", 
             "session": "Social_Good_1"
           }
@@ -232,6 +236,21 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Union Square 22", 
+            "session": "China_KDD_Chapter"
+          }, 
+          {
+            "room": "Union Square 15/16", 
+            "session": "India_KDD_Chapter"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Monday13_45_18_15", 
+        "time": "13:45 - 18:15"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "Yosemite A/B/C", 
             "session": "Panel_Is_Deep_Learning_the_New_42_Panel_with_Andrei_Broder"
           }, 
@@ -255,12 +274,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Cyril Magnin - Parc 55", 
-            "session": "Miscellaneous_Topics"
-          }, 
-          {
             "room": "Plaza Room A/B", 
             "session": "Graphs_and_Social_Networks_II"
+          }, 
+          {
+            "room": "Cyril Magnin - Parc 55", 
+            "session": "Miscellaneous_Topics"
           }, 
           {
             "room": "Imperial Ballroom", 
@@ -317,16 +336,23 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Union Square 15/16", 
+            "session": "Data_Mining_Group"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "Tuesday9_30_12_30", 
+        "time": "9:30 - 12:30"
+      }, 
+      {
+        "sessions": [
+          {
             "room": "Plaza Room A/B", 
             "session": "Clustering"
           }, 
           {
             "room": "Imperial Ballroom", 
             "session": "Deep_Learning_and_Embedding"
-          }, 
-          {
-            "room": "Yosemite A/B/C", 
-            "session": "Applied_Data_Science_Invited_Talks"
           }, 
           {
             "room": "Cyril Magnin - Parc 55", 
@@ -336,6 +362,17 @@ schedule=[
         "slot_class": "morning2", 
         "slot_id": "Tuesday10_00_12_00", 
         "time": "10:00 - 12:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grand Ballroom", 
+            "session": "KDD_2016_Business_Lunch"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "Tuesday12_15_13_30", 
+        "time": "12:15 - 13:30"
       }, 
       {
         "sessions": [

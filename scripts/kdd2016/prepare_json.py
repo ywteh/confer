@@ -105,6 +105,8 @@ def get_times(stime):
       ts = t[1][:-2]
   if t[1] == "12:00pm":
       ts = "12:00"
+  if t[1] == "12:30pm":
+      ts = "12:30"
   if t[1] == "1:30pm":
       ts = "13:30"
   if t[1] == "3:45pm":
@@ -135,11 +137,11 @@ def prepare_data(data_file1):
   reader1.next()
   
   t_schedule = {}
-  for row in reader1:
+  for i, row in enumerate(reader1):
       
     type = unicode(row[1], "ISO-8859-1")
       
-    paper_id = unicode(row[0], "ISO-8859-1")
+    paper_id = i
     paper_title = unicode(row[5], "ISO-8859-1")
     paper_authors = unicode(row[6], "ISO-8859-1")
     
@@ -151,6 +153,7 @@ def prepare_data(data_file1):
     if s_time.strip() == '':
         continue
     
+    print s_time
     s_time = get_times(s_time)
     
     room = unicode(row[10], "ISO-8859-1")
@@ -172,7 +175,6 @@ def prepare_data(data_file1):
         
     if 'keynote' in type:
         type = 'talk'
-        print paper_title
         session = 'Keynote: ' + paper_title
         
     if 'panel' in type:
