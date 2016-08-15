@@ -1296,6 +1296,16 @@ entities={
     "type": "paper"
   }, 
   "62": {
+    "abstract": "In the past 20 years, the practical examples of KDD/data mining have become so ubiquitous that it\u0090s almost impossible to imagine a new venture that isn\u0090t based on data science. Uber, Facebook, 23andMe, Tesla _ they aren\u0090t just technology companies; they are data companies. And yet the reality is that these companies are still anomalies. Large, successful companies usually still treat KDD as either an afterthought or as an experiment. It\u0090s not core to how they run the business. As practitioners we compound this problem by concentrating our efforts on valuable business problems; but ones which are usually on the periphery of the business. We do this because changing the heart of how a company operates requires more than just process or technology changes. It requires cultural changes. And these cultural changes usually trigger corporate antibodies adverse to anything new.\n\n\n\n\n\n\n\nThis talk will review some practical realities of instituting data-driven decisions in a very large multi-national company.\n\n\n\n", 
+    "authors": [
+      {
+        "name": "Jonathan Becher"
+      }
+    ], 
+    "title": "Can You Teach the Elephant to Dance? AKA: Culture Eats Data Science for Breakfast", 
+    "type": "paper"
+  }, 
+  "63": {
     "abstract": "This talk will cover recent innovations in large-scale machine learning and their applications on massive, real-world data sets at Verizon.  These applications power new revenue generating products and services for the company and are hosted on a massive computing and storage platform known as Orion.  We will discuss the architecture of Orion and the underlying algorithmic framework.  We will also cover some of the real-world aspects of building a new organization dedicated to creating new product lines based on data science.", 
     "authors": [
       {
@@ -1303,16 +1313,6 @@ entities={
       }
     ], 
     "title": "Large-Scale Machine Learning at Verizon: Theory and Applications", 
-    "type": "paper"
-  }, 
-  "63": {
-    "abstract": "In the past 20 years, the practical examples of KDD/data mining have become so ubiquitous that it\u0090s almost impossible to imagine a new venture that isn\u0090t based on data science. Uber, Facebook, 23andMe, Tesla _ they aren\u0090t just technology companies; they are data companies. And yet the reality is that these companies are still anomalies. Large, successful companies usually still treat KDD as either an afterthought or as an experiment. It\u0090s not core to how they run the business.</par><par>As practitioners we compound this problem by concentrating our efforts on valuable business problems; but ones which are usually on the periphery of the business. We do this because changing the heart of how a company operates requires more than just process or technology changes. It requires cultural changes. And these cultural changes usually trigger corporate antibodies adverse to anything new.\n\n\n\n\n\n\n\nThis talk will review some practical realities of instituting data-driven decisions in a very large multi-national company.\n\n\n\n", 
-    "authors": [
-      {
-        "name": "Jonathan Becher"
-      }
-    ], 
-    "title": "Can You Teach the Elephant to Dance? AKA: Culture Eats Data Science for Breakfast", 
     "type": "paper"
   }, 
   "64": {
@@ -1326,13 +1326,13 @@ entities={
     "type": "paper"
   }, 
   "65": {
-    "abstract": "It has become a clich_ to talk about Wanamaker\u0090s dilemma, his famous quote that _Half the money I spend on advertising is wasted; the trouble is I don't know which half\" is well known.  So why talk about it today?  Well, I\u0090ll show you that some of the best targeted consumer marketing still suffers exactly from this problem, and tell you why _ it\u0090s not humanly possible to solve it!  At Amplero we\u0090ve finally solved it and made that solution accessible to marketers, using machine learning in combination with the revolution in online experimentation that the advent of the multi-armed bandit has brought about.", 
+    "abstract": "An important property of embedded learning systems is the ever-changing environment they create for all algorithms operating in the system.  Optimizing the performance of those algorithms becomes a perpetual on-line activity rather than a one-off task.  I will review some of these challenges in autonomous vehicles.  I will discuss Bayesian optimization methods and their application in robotics and scientific applications, focusing on scaling up the dimensionality and managing multi-fidelity evaluations.  I will finish with lessons learned and thoughts on future directions as these methods move into embedded systems.", 
     "authors": [
       {
-        "name": "Oliver Downs"
+        "name": "Jeff Schneider"
       }
     ], 
-    "title": "How Machine Learning has Finally Solved Wanamaker\u0090s Dilemma", 
+    "title": "Bayesian Optimization and Embedded Learning Systems", 
     "type": "paper"
   }, 
   "66": {
@@ -1346,13 +1346,13 @@ entities={
     "type": "paper"
   }, 
   "67": {
-    "abstract": "An important property of embedded learning systems is the ever-changing environment they create for all algorithms operating in the system.  Optimizing the performance of those algorithms becomes a perpetual on-line activity rather than a one-off task.  I will review some of these challenges in autonomous vehicles.  I will discuss Bayesian optimization methods and their application in robotics and scientific applications, focusing on scaling up the dimensionality and managing multi-fidelity evaluations.  I will finish with lessons learned and thoughts on future directions as these methods move into embedded systems.", 
+    "abstract": "It has become a cliche to talk about Wanamaker's dilemma, his famous quote that \"Half the money I spend on advertising is wasted; the trouble is I don't know which half\" is well known.  So why talk about it today?  Well, I'll show you that some of the best targeted consumer marketing still suffers exactly from this problem, and tell you why  it's not humanly possible to solve it!  At Amplero we have finally solved it and made that solution accessible to marketers, using machine learning in combination with the revolution in online experimentation that the advent of the multi-armed bandit has brought about.", 
     "authors": [
       {
-        "name": "Jeff Schneider"
+        "name": "Oliver Downs"
       }
     ], 
-    "title": "Bayesian Optimization and Embedded Learning Systems", 
+    "title": "How Machine Learning has Finally Solved Wanamaker\u0090s Dilemma", 
     "type": "paper"
   }, 
   "68": {
@@ -1366,16 +1366,6 @@ entities={
     "type": "paper"
   }, 
   "69": {
-    "abstract": "Recently, learning deep models from dense data has received a lot of attention in tasks such as object recognition and signal processing. However, when dealing with non-sensory data about real-world entities, data is often sparse; for example people interaction with products in e-Commerce, people interacting with each other in social networks or word sequences in natural language. In this talk, I will share lessons learned over the past 10 years when learning predictive models based on sparse data: 1) how to scale the inference algorithms to distributed data setting, 2) how to automate the learning process by reducing the amount of hyper-parameters to zero, 3) how to deal with Zipf distributions when learning resource-constrained models, and 4) how to combine dense and sparse-learning algorithms. The talk will be drawing from many real-world experiences I gathered over the past decade in applications of the techniques in gaming, search, advertising and recommendations of systems developed at Microsoft, Facebook and Amazon. \n\n\n\n", 
-    "authors": [
-      {
-        "name": "Ralf Herbrich"
-      }
-    ], 
-    "title": "Learning Sparse Models at Scale", 
-    "type": "paper"
-  }, 
-  "70": {
     "abstract": "QQ and Wechat are the two largest instant messaging & social networks in China. Tencent Social Ads is the advertising platform for both Wechat and QQ, serving over 10B page views per day for several hundred million users.\n\n\n\n  We strive to understand as much as possible on our users\u0090 characteristics, so as to serve the best personalized ads for them. The rich user behaviors on Tencent\u0090s diverse products lay a foundation in our user profiles on many dimensions, including demographics, interests, intents, transactions, physical locations, and devices, etc. \n\n\n\n  In this talk, we will share our experience in large scale user data mining based on online social activities. We will discuss the challenges we face and the solutions we have devised so far.\n\n\n\n\u00e4\tSome demographics data are obtained from user input, and thus would have gaps in both accuracy and coverage. We discuss the techniques in calibrating and verifying these data.\n\n\n\n\u00e4\tWe infer user interests from their social behaviors. For example, most QQ groups are not labelled properly, but by applying a large-scale topic model on the QQ memberships, we can effectively classify most QQ groups into an interest taxonomy.  We also infer user interests from user\u0090s physical location check-ins and uploaded photos. \n\n\n\n\u00e4\tUser data can be collected from many diverse sources, including behaviors in various Tencent products, click and conversion in ad platform, and even seed customers collected by advertisers. We\u0090ll discuss the systems to merge these diverse data to provide a coherent view for our advertisers.\n\n\n\n\u00e4\tHigh quality user labels are usually sparse. We implemented an algorithm for advertisers to reach more potential customers through user similarity computation based on user features as well as social graph inferences. We\u0090ll describe the system\u0090s contributions to ads quality.\n\n\n\n\u00e4\tTop advertisers demand rich audience targeting solutions in combination of their own customer data, Tencent data, and possibly 3rd-party data. We\u0090ll discuss the data exchange platform that can facilitate collaborative applications with 3rd-party DSPs and DMPs. \n\n\n\n", 
     "authors": [
       {
@@ -1383,6 +1373,16 @@ entities={
       }
     ], 
     "title": "Profiling Users from Online Social Behaviors with Applications for Tencent Social Ads", 
+    "type": "paper"
+  }, 
+  "70": {
+    "abstract": "Recently, learning deep models from dense data has received a lot of attention in tasks such as object recognition and signal processing. However, when dealing with non-sensory data about real-world entities, data is often sparse; for example people interaction with products in e-Commerce, people interacting with each other in social networks or word sequences in natural language. In this talk, I will share lessons learned over the past 10 years when learning predictive models based on sparse data: 1) how to scale the inference algorithms to distributed data setting, 2) how to automate the learning process by reducing the amount of hyper-parameters to zero, 3) how to deal with Zipf distributions when learning resource-constrained models, and 4) how to combine dense and sparse-learning algorithms. The talk will be drawing from many real-world experiences I gathered over the past decade in applications of the techniques in gaming, search, advertising and recommendations of systems developed at Microsoft, Facebook and Amazon. \n\n\n\n", 
+    "authors": [
+      {
+        "name": "Ralf Herbrich"
+      }
+    ], 
+    "title": "Learning Sparse Models at Scale", 
     "type": "paper"
   }, 
   "71": {
