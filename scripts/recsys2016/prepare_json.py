@@ -79,32 +79,32 @@ def prepare_data(data_file1):
   t_schedule = {}
   for i, row in enumerate(reader1):
       
-    type = unicode(row[1], "ISO-8859-1")
+    type = unicode(row[1].decode("utf-8"))
       
     paper_id = i
-    paper_title = unicode(row[2], "ISO-8859-1").strip()
-    new_title = unicode(row[16], "ISO-8859-1").strip()
+    paper_title = unicode(row[2].decode("utf-8")).strip()
+    new_title = unicode(row[16].decode("utf-8")).strip()
     if new_title:
         paper_title = new_title
     
-    paper_authors = unicode(row[3], "ISO-8859-1").strip()
-    new_authors = unicode(row[14], "ISO-8859-1").strip()
+    paper_authors = unicode(row[3].decode("utf-8")).strip()
+    new_authors = unicode(row[14].decode("utf-8")).strip()
     if new_authors:
         paper_authors = new_authors
     
-    session = unicode(row[4], "ISO-8859-1") + ' - Chair: ' + unicode(row[5], "ISO-8859-1")
+    session = unicode(row[4].decode("utf-8")) + ' - Chair: ' + unicode(row[5].decode("utf-8"))
     
-    s_date = unicode(row[7], "ISO-8859-1")
+    s_date = unicode(row[7].decode("utf-8"))
     
-    s_time = unicode(row[8], "ISO-8859-1") + '-' + unicode(row[9], "ISO-8859-1")
+    s_time = unicode(row[8].decode("utf-8")) + '-' + unicode(row[9].decode("utf-8"))
     
     s_time = get_times(s_time)
     
-    room = unicode(row[6], "ISO-8859-1")
+    room = unicode(row[6].decode("utf-8"))
     
-    paper_abstract = unicode(row[12], "ISO-8859-1")
+    paper_abstract = unicode(row[12].decode("utf-8"))
     
-    keywords = unicode(row[10], "ISO-8859-1")
+    keywords = unicode(row[10].decode("utf-8"))
 
     # prepare papers data
     papers[paper_id] = {

@@ -1,6 +1,6 @@
 entities={
   "0": {
-    "abstract": "Machine Learning research is progressing at an ever-increasing pace. Fueled by technology advances commonly referred to as \u00e2\u0080\u009cBig Data\u00e2\u0080\u009d, all data related fields are teaming with scientific and applied activity: our communities explore new application areas, develop new learning algorithms, and continuously scale and improve optimization and estimation methods. But from an industry perspective, many of the most impeding challenges are entirely elsewhere. This talk takes a fresh look at the practical state of affairs in the context of running a large-scale automated machine learning system that supports 50 Billion decision daily on behalf of hundreds of digital advertisers. Some of the key lessons are 1) robustness beats peak performance almost always, 2) support for the constant dynamic fluctuations in the data stream is essential, 3) models exploiting unknowingly any weakness of your metrics, and finally 4) the fact that despite big data, the data you really want never exists.", 
+    "abstract": "Machine Learning research is progressing at an ever-increasing pace. Fueled by technology advances commonly referred to as \u201cBig Data\u201d, all data related fields are teaming with scientific and applied activity: our communities explore new application areas, develop new learning algorithms, and continuously scale and improve optimization and estimation methods. But from an industry perspective, many of the most impeding challenges are entirely elsewhere. This talk takes a fresh look at the practical state of affairs in the context of running a large-scale automated machine learning system that supports 50 Billion decision daily on behalf of hundreds of digital advertisers. Some of the key lessons are 1) robustness beats peak performance almost always, 2) support for the constant dynamic fluctuations in the data stream is essential, 3) models exploiting unknowingly any weakness of your metrics, and finally 4) the fact that despite big data, the data you really want never exists.", 
     "authors": [
       {
         "name": "Claudia Perlich"
@@ -64,7 +64,7 @@ entities={
     "type": "ppf paper"
   }, 
   "4": {
-    "abstract": "Every day, we are confronted with an abundance of decisions that require us to choose from a seemingly endless number of choice options. Recommender systems are supposed to help us deal with this formidable task, but some scholars claim that these systems instead put us inside a \u00e2\u0080\u009cFilter Bubble\u00e2\u0080\u009d that severely limits our perspectives. This paper presents a new direction for recommender systems research with the main goal of supporting users in developing, exploring, and understanding their unique personal preferences.", 
+    "abstract": "Every day, we are confronted with an abundance of decisions that require us to choose from a seemingly endless number of choice options. Recommender systems are supposed to help us deal with this formidable task, but some scholars claim that these systems instead put us inside a \u201cFilter Bubble\u201d that severely limits our perspectives. This paper presents a new direction for recommender systems research with the main goal of supporting users in developing, exploring, and understanding their unique personal preferences.", 
     "authors": [
       {
         "name": "Bart P. Knijnenburg"
@@ -343,7 +343,7 @@ entities={
     "type": "short paper"
   }, 
   "16": {
-    "abstract": "A common scenario considered in recommender systems is to predict a user\u00e2\u0080\u0099s preferences on unseen items based on his/her preferences on observed items. A major limitation of this scenario is that a user might be interested in different things each time when using the system, but there is no way to allow the user to actively alter or adjust the recommended results. To address this issue, we propose the idea of \u00e2\u0080\u009cquery-based recommendation\u00e2\u0080\u009d that allows a user to specify his/her search intention while exploring new items, thereby incorporating the concept of information retrieval into recommendation systems. Moreover, the idea is more desirable when the user intention can be expressed in different ways. Take music recommendation as an example: the proposed system allows a user to explore new song tracks by specifying either a track, an album, or an artist. To enable such heterogeneous queries in a recommender system, we present a novel technique called \u00e2\u0080\u009cHeterogeneous Preference Embedding\u00e2\u0080\u009d to encode user preference and query intention into low-dimensional vector spaces. Then, with simple search methods or similarity calculations, we can use the encoded representation of queries to generate recommendations. This method is fairly flexible and it is easy to add other types of information when available. Evaluations on three music listening datasets confirm the effectiveness of the proposed method over the state-of-the-art matrix factorization and network embedding methods.", 
+    "abstract": "A common scenario considered in recommender systems is to predict a user\u2019s preferences on unseen items based on his/her preferences on observed items. A major limitation of this scenario is that a user might be interested in different things each time when using the system, but there is no way to allow the user to actively alter or adjust the recommended results. To address this issue, we propose the idea of \u201cquery-based recommendation\u201d that allows a user to specify his/her search intention while exploring new items, thereby incorporating the concept of information retrieval into recommendation systems. Moreover, the idea is more desirable when the user intention can be expressed in different ways. Take music recommendation as an example: the proposed system allows a user to explore new song tracks by specifying either a track, an album, or an artist. To enable such heterogeneous queries in a recommender system, we present a novel technique called \u201cHeterogeneous Preference Embedding\u201d to encode user preference and query intention into low-dimensional vector spaces. Then, with simple search methods or similarity calculations, we can use the encoded representation of queries to generate recommendations. This method is fairly flexible and it is easy to add other types of information when available. Evaluations on three music listening datasets confirm the effectiveness of the proposed method over the state-of-the-art matrix factorization and network embedding methods.", 
     "authors": [
       {
         "name": "Chih-Ming Chen"
@@ -367,7 +367,7 @@ entities={
     "type": "short paper"
   }, 
   "17": {
-    "abstract": "An accurate and comprehensive user modeling technique is crucial for the quality of recommender systems. Traditionally, we model user preferences using only actions from the target site and may suffer from cold-start problem. As nowadays people normally engage in multiple online sites for various needs, we consider leveraging the cross-site actions to improve the user modeling accuracy. Specifically, in this paper we aim at achieving a more comprehensive and accurate user modeling by modeling user\u00e2\u0080\u0099s actions in multiple aligned heterogeneous sites simultaneously. To do so, we propose a modularized probabilistic graphical model framework JUMA. We further integrate topic model and matrix factorization into JUMA for joint user modeling over text-based and item-based sites. We assemble and publish large-scale dataset for comprehensive analyzing and evaluation. Experimental results show that our framework JUMA out performs traditional within-site user modeling techniques, especially for cold-start scenarios. For cold-start users, we achieve relative improvements of 9.3% and 12.8% comparing to existing within-site approaches for recommendation in item-based and text-based sites respectively. Thus we draw the conclusion that aligning heterogeneous sites and modeling users jointly do help to improve the quality of online recommender systems.", 
+    "abstract": "An accurate and comprehensive user modeling technique is crucial for the quality of recommender systems. Traditionally, we model user preferences using only actions from the target site and may suffer from cold-start problem. As nowadays people normally engage in multiple online sites for various needs, we consider leveraging the cross-site actions to improve the user modeling accuracy. Specifically, in this paper we aim at achieving a more comprehensive and accurate user modeling by modeling user\u2019s actions in multiple aligned heterogeneous sites simultaneously. To do so, we propose a modularized probabilistic graphical model framework JUMA. We further integrate topic model and matrix factorization into JUMA for joint user modeling over text-based and item-based sites. We assemble and publish large-scale dataset for comprehensive analyzing and evaluation. Experimental results show that our framework JUMA out performs traditional within-site user modeling techniques, especially for cold-start scenarios. For cold-start users, we achieve relative improvements of 9.3% and 12.8% comparing to existing within-site approaches for recommendation in item-based and text-based sites respectively. Thus we draw the conclusion that aligning heterogeneous sites and modeling users jointly do help to improve the quality of online recommender systems.", 
     "authors": [
       {
         "name": "Xuezhi Cao"
@@ -477,13 +477,13 @@ entities={
     "abstract": "Computing useful recommendations for cold-start users is a major challenge in the design of recommender systems, and additional data is often required to compensate the scarcity of user feedback. In this paper we address such problem in a target domain by exploiting user preferences from a related auxiliary domain. Following a rigorous methodology for cold-start, we evaluate a number of recommendation methods on a dataset with positive-only feedback in the movie and music domains, both in single and cross-domain scenarios. Comparing the methods in terms of item ranking accuracy, diversity and catalog coverage, we show that cross-domain preference data is useful to provide more accurate suggestions when user feedback in the target domain is scarce or not available at all, and may lead to more diverse recommendations depending on the target domain. Moreover, evaluating the impact of the user profile size and diversity in the source domain, we show that, in general, the quality of target recommendations increases with the size of the profile, but may deteriorate with too diverse profiles.", 
     "authors": [
       {
-        "name": "Ignacio Fern\u00c3\u00a1ndez-Tob\u00c3\u00adas"
+        "name": "Ignacio Fern\u00e1ndez-Tob\u00edas"
       }, 
       {
         "name": "Paolo Tomeo"
       }, 
       {
-        "name": "Iv\u00c3\u00a1n Cantador"
+        "name": "Iv\u00e1n Cantador"
       }, 
       {
         "name": "Tommaso Di Noia"
@@ -504,7 +504,7 @@ entities={
     "abstract": "How can you discover something new, that matches your interest? Recommender Systems have been studied since the 90ies. Their benefit comes from guiding a user through the density of the information jungle to useful knowledge clearings. Early research on recommender systems focuses on algorithms and their evaluation to improve recommendation accuracy using F-measures and other methodologies from signal-detection theory. Present research includes other aspects such as human factors that affect the user experience and interactive visualization techniques to support transparency of results and user control. In this paper, we analyze all publications on recommender systems from the scopus database, and particularly also papers with such an HCI focus. Based on an analysis of these papers, future topics for recommender systems research are identified, which include more advanced support for user control, adaptive interfaces, affective computing and applications in high risk domains.", 
     "authors": [
       {
-        "name": "Andr\u00c3\u00a9 Calero Valdez"
+        "name": "Andr\u00e9 Calero Valdez"
       }, 
       {
         "name": "Martina Ziefle"
@@ -669,7 +669,7 @@ entities={
     "type": "short paper"
   }, 
   "30": {
-    "abstract": "We study the effect of the volume of consumer reviews on the purchase likelihood (conversion rate) of users browsing a product page. We propose using the exponential learning curve model to study how conversion rates change with the number of reviews. We call the difference in conversion rate between having no reviews and an infinite number the value of reviews. We find that, on average, the conversion rate of a product can increase by as much as 270% as it accumulates reviews, amongst the users that choose to display them. We also find diminishing marginal value as a product accumu- lates reviews, with the first five reviews driving the bulk of the aforementioned increase. To address the problem of si- multaneity of increase of reviews and conversion rate, we use customer sessions in which reviews were not displayed as a control for trends that would have happened regardless of the increase in the review volume. Using our framework, we further find that high priced items have a higher value for reviews than lower priced items. High priced items can see their conversion rate increase by as much as 380% as they accumulate reviews compared to 190% for low priced items.We infer that the existence of reviews provides valu- able signals to the customers, increasing their propensity to purchase. We also infer that users usually don\u00e2\u0080\u0099t pay atten- tion to the entire set of reviews, especially if there are a lot of them, but instead they focus on the first few available. Our approach can be extended and applied in a variety of settings to gain further insights.", 
+    "abstract": "We study the effect of the volume of consumer reviews on the purchase likelihood (conversion rate) of users browsing a product page. We propose using the exponential learning curve model to study how conversion rates change with the number of reviews. We call the difference in conversion rate between having no reviews and an infinite number the value of reviews. We find that, on average, the conversion rate of a product can increase by as much as 270% as it accumulates reviews, amongst the users that choose to display them. We also find diminishing marginal value as a product accumu- lates reviews, with the first five reviews driving the bulk of the aforementioned increase. To address the problem of si- multaneity of increase of reviews and conversion rate, we use customer sessions in which reviews were not displayed as a control for trends that would have happened regardless of the increase in the review volume. Using our framework, we further find that high priced items have a higher value for reviews than lower priced items. High priced items can see their conversion rate increase by as much as 380% as they accumulate reviews compared to 190% for low priced items.We infer that the existence of reviews provides valu- able signals to the customers, increasing their propensity to purchase. We also infer that users usually don\u2019t pay atten- tion to the entire set of reviews, especially if there are a lot of them, but instead they focus on the first few available. Our approach can be extended and applied in a variety of settings to gain further insights.", 
     "authors": [
       {
         "name": "Georgios Askalidis"
@@ -918,7 +918,7 @@ entities={
         "name": "Franca Garzotto"
       }, 
       {
-        "name": "Ay?e G\u00c3\u00b6ker"
+        "name": "Ay?e G\u00f6ker"
       }, 
       {
         "name": "Frank Hopfgartner"
@@ -954,7 +954,7 @@ entities={
     "type": "ppf paper"
   }, 
   "41": {
-    "abstract": "Behaviorism is the currently-dominant paradigm for building and evaluating recommender systems. Both the operation and the evaluation of recommender system applications are most often driven by analyzing the behavior of users. In this paper, we argue that listening to what users say \u00e2\u0080\u0094 about the items and recom-mendations they like, the control they wish to exert on the output, and the ways in which they perceive the system \u00e2\u0080\u0094 and not just observing what they do will enable important developments in the future of recommender systems. We provide both philosophi-cal and pragmatic motivations for this idea, describe the various points in the recommendation and evaluation processes where explicit user input may be considered, and discuss benefits that may result from considered incorporation of user preferences at each of these points. In particular, we envision recommender applications that aim to support users\u00e2\u0080\u0099 better selves: helping them live the life that they desire to lead. For example, recommender-assisted behavior change requires algorithms to predict not what users choose or do now, inferable from behavioral data, but what they should choose or do in the future to become healthier, fitter, more sustainable, or culturally aware. We hope that our work will spur useful discussion and many new ideas for recommenders that empower their users.", 
+    "abstract": "Behaviorism is the currently-dominant paradigm for building and evaluating recommender systems. Both the operation and the evaluation of recommender system applications are most often driven by analyzing the behavior of users. In this paper, we argue that listening to what users say \u2014 about the items and recom-mendations they like, the control they wish to exert on the output, and the ways in which they perceive the system \u2014 and not just observing what they do will enable important developments in the future of recommender systems. We provide both philosophi-cal and pragmatic motivations for this idea, describe the various points in the recommendation and evaluation processes where explicit user input may be considered, and discuss benefits that may result from considered incorporation of user preferences at each of these points. In particular, we envision recommender applications that aim to support users\u2019 better selves: helping them live the life that they desire to lead. For example, recommender-assisted behavior change requires algorithms to predict not what users choose or do now, inferable from behavioral data, but what they should choose or do in the future to become healthier, fitter, more sustainable, or culturally aware. We hope that our work will spur useful discussion and many new ideas for recommenders that empower their users.", 
     "authors": [
       {
         "name": "Michael D Ekstrand"
@@ -1029,7 +1029,7 @@ entities={
     "abstract": "Real-life recommender systems often face the daunting task of providing recommendations based only on the clicks of a user session. Methods that rely on user profiles -- such as matrix factorization -- perform very poorly in this setting, thus item-to-item recommendations are used most of the time. However the items typically have rich feature representations such as pictures and text descriptions that can be used to model the sessions. Here we investigate how these features can be exploited in Recurrent Neural Network based session models using deep learning. We show that obvious approaches do not leverage these data sources. We thus introduce a number of parallel RNN (p-RNN) architectures to model sessions based on the clicks and the features (images and text) of the clicked items. We also propose alternative training strategies for p-RNNs that suit them better than standard training. We show that p-RNN architectures with proper training have significant performance improvements over feature-less session models while all session-based models outperform the item-to-item type baseline.", 
     "authors": [
       {
-        "name": "Bal\u00c3\u00a1zs Hidasi"
+        "name": "Bal\u00e1zs Hidasi"
       }, 
       {
         "name": "Massimo Quadrana"
@@ -1052,7 +1052,7 @@ entities={
     "type": "long paper"
   }, 
   "45": {
-    "abstract": "A critical change has occurred in the status of context in recommender systems. In the past, context has been considered `additional evidence\u00e2\u0080\u0099. This past picture is at odds with many present application domains, where user and item information is scarce. Such domains face continuous cold start conditions and must exploit session rather than user information. In this paper, we describe the `Contextual Turn\u00e2\u0080\u0099: the move towards context-driven recommendation algorithms for which context is critical, rather than additional. We cover application domains, algorithms that promise to address the challenges of context-driven recommendation, and the steps that the community has taken to tackle context-driven problems. Our goal is to point out the commonalities of context-driven problems, and urge the community to address the overarching challenges that context-driven recommendation poses.", 
+    "abstract": "A critical change has occurred in the status of context in recommender systems. In the past, context has been considered `additional evidence\u2019. This past picture is at odds with many present application domains, where user and item information is scarce. Such domains face continuous cold start conditions and must exploit session rather than user information. In this paper, we describe the `Contextual Turn\u2019: the move towards context-driven recommendation algorithms for which context is critical, rather than additional. We cover application domains, algorithms that promise to address the challenges of context-driven recommendation, and the steps that the community has taken to tackle context-driven problems. Our goal is to point out the commonalities of context-driven problems, and urge the community to address the overarching challenges that context-driven recommendation poses.", 
     "authors": [
       {
         "name": "Roberto Pagano"
@@ -1064,7 +1064,7 @@ entities={
         "name": "Martha Larson"
       }, 
       {
-        "name": "Bal\u00c3\u00a1zs Hidasi"
+        "name": "Bal\u00e1zs Hidasi"
       }, 
       {
         "name": "Domonkos Tikk"
@@ -1104,7 +1104,7 @@ entities={
     "type": "long paper"
   }, 
   "47": {
-    "abstract": "We address the challenge of personalized recommendation of high quality content producers in social media. While some candidates are easily identifiable (say, by being \u00e2\u0080\u009cfavorited\u00e2\u0080\u009d many times), there is a long-tail of potential candidates for whom we have little evidence. Through careful modeling of contextual factors like the geo-spatial, topical, and social preferences of users, we propose a tensor-based personalized expert recommendation framework that integrates these factors for revealing latent connections between homogeneous entities (e.g., users and users) and between heterogeneous entities (e.g., users and experts). Through extensive experiments over geo-tagged Twitter data, we find that the proposed framework can improve the quality of recommendation by over 30% in both precision and recall compared to the state-of-the-art.", 
+    "abstract": "We address the challenge of personalized recommendation of high quality content producers in social media. While some candidates are easily identifiable (say, by being \u201cfavorited\u201d many times), there is a long-tail of potential candidates for whom we have little evidence. Through careful modeling of contextual factors like the geo-spatial, topical, and social preferences of users, we propose a tensor-based personalized expert recommendation framework that integrates these factors for revealing latent connections between homogeneous entities (e.g., users and users) and between heterogeneous entities (e.g., users and experts). Through extensive experiments over geo-tagged Twitter data, we find that the proposed framework can improve the quality of recommendation by over 30% in both precision and recall compared to the state-of-the-art.", 
     "authors": [
       {
         "name": "Hancheng Ge"
@@ -1125,7 +1125,7 @@ entities={
     "type": "long paper"
   }, 
   "48": {
-    "abstract": "Conformity has a strong influence to user behaviors, even in online environment. When surfing online, users are usually flooded with others\u00e2\u0080\u0099 opinions. These opinions implicitly contribute to the user\u00e2\u0080\u0099s ongoing behaviors. However, there is no research work modeling online conformity yet. In this paper, we model user\u00e2\u0080\u0099s conformity in online rating sites. We conduct analysis using real data to show the existence and strength of conformity in these scenarios. We propose a matrix-factorization-based conformity modeling technique to improve the accuracy of rating prediction. Experiments show that our model outperforms existing works significantly (with a relative improvement of 11.72% on RMSE). Therefore, we draw the conclusion that conformity modeling is important for understanding user behaviors and can contribute to further improve the online recommender systems.", 
+    "abstract": "Conformity has a strong influence to user behaviors, even in online environment. When surfing online, users are usually flooded with others\u2019 opinions. These opinions implicitly contribute to the user\u2019s ongoing behaviors. However, there is no research work modeling online conformity yet. In this paper, we model user\u2019s conformity in online rating sites. We conduct analysis using real data to show the existence and strength of conformity in these scenarios. We propose a matrix-factorization-based conformity modeling technique to improve the accuracy of rating prediction. Experiments show that our model outperforms existing works significantly (with a relative improvement of 11.72% on RMSE). Therefore, we draw the conclusion that conformity modeling is important for understanding user behaviors and can contribute to further improve the online recommender systems.", 
     "authors": [
       {
         "name": "Yiming Liu"
@@ -1149,7 +1149,7 @@ entities={
     "abstract": "Preparing recommendations for unknown users or such that correctly respond to the short-term needs of a particular user is one of the fundamental problems for e-commerce. Most of the common Recommender Systems assume that user identification must be explicit. In this paper a Session-Aware Recommender System approach is presented where no straightforward user information is required. The recommendation process is based only on user activity within a single session, defined as a sequence of events. This information is incorporated in the recommendation process by explicit context modeling with factorization methods and a novel approach with Recurrent Neural Network (RNN). Compared to the session modeling approach, RNN directly models the dependency of user observed sequential behavior throughout its recurrent structure. The evaluation discusses the results based on sessions from real-life system with ephemeral items (identified only by the set of their attributes) for the task of top-n best recommendations.", 
     "authors": [
       {
-        "name": "Bart\u00c5\u0082omiej Twardowski"
+        "name": "Bart\u0142omiej Twardowski"
       }
     ], 
     "keywords": [
@@ -1344,7 +1344,7 @@ entities={
         "name": "Ramon Lopes"
       }, 
       {
-        "name": "Renato Assun\u00c3\u00a7\u00c3\u00a3o"
+        "name": "Renato Assun\u00e7\u00e3o"
       }, 
       {
         "name": "Rodrygo L. T. Santos"
@@ -1457,7 +1457,7 @@ entities={
     "abstract": "For a researcher, keeping up with what is going on in their research field can be a difficult and time-consuming task. For example, a fresh PhD student may want to know what are the relevant papers matching their research interests. An assistant professor may like to be up-to-date with what their colleagues are publishing. A professor might want to be notified about funding opportunities relevant to the work done in their research group. Since the volume of published research and research activity is constantly growing, it is becoming increasingly more difficult for researchers to be able to manage and filter through the research information flow. In this challenging context, Mendeley's mission is to become the world's ``research operating system''. We do this not only by providing our well-know reference management system, but also by providing discovery capabilities for researchers on different kinds of entities, such as articles and profiles. In our talk, we will share Mendeley's experiences with building our article and profile recommendation systems, the challenges that we have faced and the solutions that we have put in place. We will discuss how we address different users' needs with our data and algorithm infrastructure to achieve good user experience.", 
     "authors": [
       {
-        "name": "Sa\u00c3\u00bal Vargas"
+        "name": "Sa\u00fal Vargas"
       }, 
       {
         "name": "Maya Hristakeva"
@@ -1520,7 +1520,7 @@ entities={
     "type": "industry talk"
   }, 
   "67": {
-    "abstract": "Spotify is the world's largest on-demand music streaming company, with over 75 million active listeners choosing what to listen to among tens of millions songs. Discovery and personalization is a key part of the experience and critical to the success of the creator and consumer ecosystem. In this talk, we'll discuss the state of our current discovery approaches, such as the Discover Weekly playlist that has already streamed billions of new discoveries and Fresh Finds, a scalable platform for brand new music that focuses suggestions on the long end of the popularity tail. We'll discuss the technologies at scale necessary to distill the information about music from our listeners and the world at large we collect outside of Spotify -- with the massive amounts of user-item activity data we collect every day to create highly personalized music experiences. Entire teams at Spotify focus on understanding both the creator and listener through collaborative filtering, machine learning, DSP and NLP approaches -- we crawl the web for artist information, scan each note in every one of our millions of songs for acoustic signals, and model users\u00e2\u0080\u0099 taste through a cluster analysis and in a latent space based on their historical and real-time listening patterns. The data generated by these analyses have ensured our discovery products are precise and help our users enjoy music and media across our entire catalog. We\u00e2\u0080\u0099ll dive deep into the workings of Discover Weekly, our marquee personalized playlist which updates weekly and reached 1 billion streams within the first 10 weeks from its release. The technology behind Discover Weekly is powered by a scalable factor analysis of Spotify\u00e2\u0080\u0099s over two billion user-generated playlists matched to each user\u00e2\u0080\u0099s current listening behavior. We\u00e2\u0080\u0099ll discuss its innovative genesis and the challenges and opportunities the system faces a year after its launch. We\u00e2\u0080\u0099ll also discuss Spotify\u00e2\u0080\u0099s home page, seen by each of our users, currently undergoing vast efforts around personalization to ensure each listener gets a targeted list of playlists, shows and music to select throughout their day. We\u00e2\u0080\u0099ll discuss the various similarity metrics, ranking approaches and user modeling we\u00e2\u0080\u0099re working on to increase precision and optimize for our users\u00e2\u0080\u0099 happiness.", 
+    "abstract": "Spotify is the world's largest on-demand music streaming company, with over 75 million active listeners choosing what to listen to among tens of millions songs. Discovery and personalization is a key part of the experience and critical to the success of the creator and consumer ecosystem. In this talk, we'll discuss the state of our current discovery approaches, such as the Discover Weekly playlist that has already streamed billions of new discoveries and Fresh Finds, a scalable platform for brand new music that focuses suggestions on the long end of the popularity tail. We'll discuss the technologies at scale necessary to distill the information about music from our listeners and the world at large we collect outside of Spotify -- with the massive amounts of user-item activity data we collect every day to create highly personalized music experiences. Entire teams at Spotify focus on understanding both the creator and listener through collaborative filtering, machine learning, DSP and NLP approaches -- we crawl the web for artist information, scan each note in every one of our millions of songs for acoustic signals, and model users\u2019 taste through a cluster analysis and in a latent space based on their historical and real-time listening patterns. The data generated by these analyses have ensured our discovery products are precise and help our users enjoy music and media across our entire catalog. We\u2019ll dive deep into the workings of Discover Weekly, our marquee personalized playlist which updates weekly and reached 1 billion streams within the first 10 weeks from its release. The technology behind Discover Weekly is powered by a scalable factor analysis of Spotify\u2019s over two billion user-generated playlists matched to each user\u2019s current listening behavior. We\u2019ll discuss its innovative genesis and the challenges and opportunities the system faces a year after its launch. We\u2019ll also discuss Spotify\u2019s home page, seen by each of our users, currently undergoing vast efforts around personalization to ensure each listener gets a targeted list of playlists, shows and music to select throughout their day. We\u2019ll discuss the various similarity metrics, ranking approaches and user modeling we\u2019re working on to increase precision and optimize for our users\u2019 happiness.", 
     "authors": [
       {
         "name": "Kurt Jacobson"
@@ -1570,7 +1570,7 @@ entities={
     "type": "industry talk"
   }, 
   "69": {
-    "abstract": "Were The Rolling Stones right when they said, \u00e2\u0080\u009cYou can\u00e2\u0080\u0099t always get what you want; but if you try sometime you get what you need\u00e2\u0080\u009d? Recommendation systems are the crystal ball of the Internet: predicting user intentions, making sense of big data, and delivering what people are looking for before they even know they want it. Pandora radio is best known for the Music Genome Project; the most unique and richly labeled music catalog of 1.5 million+ tracks. While this content-based approach to music recommendation is extremely effective and still used today as the foundation to the leading online radio service, Pandora has also collected more than a decade of contextual listener feedback in the form of more than 65 billion thumbs from 79M+ monthly active users who have created more than 9 billion stations. This session will look at how the interdisciplinary team at Pandora goes about making sense of these massive data sets to successfully make large scale music recommendations to our listeners. As opposed to more traditional recommender systems which need only to recommend a single item or set of items, Pandora\u00e2\u0080\u0099s recommenders must provide an evolving set of sequential items, which constantly keep the experience new and exciting. In this talk I will present a dynamic ensemble learning system that combines musicological data and machine learning models to provide a truly personalized experience. This approach allows us to switch from a lean back experience (exploitation) to a more exploration mode to discover new music tailored specifically to users individual tastes. To exemplify this, I will present a recently launched product led by the research team, Thumbprint Radio. Following this session the audience will have an in-depth understanding of how Pandora uses science to determine the perfect balance of familiarity, discovery, repetition and relevance for each individual listener, measures and evaluates user satisfaction, and how our online and offline architecture stack plays a critical role in our success.", 
+    "abstract": "Were The Rolling Stones right when they said, \u201cYou can\u2019t always get what you want; but if you try sometime you get what you need\u201d? Recommendation systems are the crystal ball of the Internet: predicting user intentions, making sense of big data, and delivering what people are looking for before they even know they want it. Pandora radio is best known for the Music Genome Project; the most unique and richly labeled music catalog of 1.5 million+ tracks. While this content-based approach to music recommendation is extremely effective and still used today as the foundation to the leading online radio service, Pandora has also collected more than a decade of contextual listener feedback in the form of more than 65 billion thumbs from 79M+ monthly active users who have created more than 9 billion stations. This session will look at how the interdisciplinary team at Pandora goes about making sense of these massive data sets to successfully make large scale music recommendations to our listeners. As opposed to more traditional recommender systems which need only to recommend a single item or set of items, Pandora\u2019s recommenders must provide an evolving set of sequential items, which constantly keep the experience new and exciting. In this talk I will present a dynamic ensemble learning system that combines musicological data and machine learning models to provide a truly personalized experience. This approach allows us to switch from a lean back experience (exploitation) to a more exploration mode to discover new music tailored specifically to users individual tastes. To exemplify this, I will present a recently launched product led by the research team, Thumbprint Radio. Following this session the audience will have an in-depth understanding of how Pandora uses science to determine the perfect balance of familiarity, discovery, repetition and relevance for each individual listener, measures and evaluates user satisfaction, and how our online and offline architecture stack plays a critical role in our success.", 
     "authors": [
       {
         "name": "Oscar Celma"
@@ -1602,7 +1602,7 @@ entities={
     "type": "industry talk"
   }, 
   "71": {
-    "abstract": "E-commerce merchants need to optimize their recommendations and sort listings on multi-dimensional requirements beyond product attributes to include supplier considerations, long-term customer experience and the value of the sale to achieve long term success. Product recommendations for optimizing customer conversion can be modeled effectively with predictive analytic methodologies. However, supplier and customer experience elements are not easily modeled in the same manner. This paper outlines an algorithmic approach for these considerations from Expedia\u00e2\u0080\u0099s experiences.", 
+    "abstract": "E-commerce merchants need to optimize their recommendations and sort listings on multi-dimensional requirements beyond product attributes to include supplier considerations, long-term customer experience and the value of the sale to achieve long term success. Product recommendations for optimizing customer conversion can be modeled effectively with predictive analytic methodologies. However, supplier and customer experience elements are not easily modeled in the same manner. This paper outlines an algorithmic approach for these considerations from Expedia\u2019s experiences.", 
     "authors": [
       {
         "name": "Jan Krasnodebski"
@@ -1621,7 +1621,7 @@ entities={
     "type": "industry talk"
   }, 
   "72": {
-    "abstract": "At Nara Logics, we provide recommendations for ecommerce, supply chain, financial services, travel & hospitality, operations and more for the Global 200. We've learned that for machine intelligence to be accepted, it must interact seamlessly with humans, expose its reasoning to humans, and even incorporate human feedback in real time into its decision making. Just as you take your friends\u00e2\u0080\u0099 recommendations more seriously when you can probe their mental model of your likes and dislikes, machine recommendations are more appealing when users understand how they were generated and can provide feedback to those recommendations. These aspects are necessary as commercial interfaces increasingly leverage recommendations alongside statistical analysis.", 
+    "abstract": "At Nara Logics, we provide recommendations for ecommerce, supply chain, financial services, travel & hospitality, operations and more for the Global 200. We've learned that for machine intelligence to be accepted, it must interact seamlessly with humans, expose its reasoning to humans, and even incorporate human feedback in real time into its decision making. Just as you take your friends\u2019 recommendations more seriously when you can probe their mental model of your likes and dislikes, machine recommendations are more appealing when users understand how they were generated and can provide feedback to those recommendations. These aspects are necessary as commercial interfaces increasingly leverage recommendations alongside statistical analysis.", 
     "authors": [
       {
         "name": "Denise Ichinco"
@@ -1669,7 +1669,7 @@ entities={
     "type": "industry talk"
   }, 
   "74": {
-    "abstract": "Retail Rocket helps web shoppers make better shopping decisions by providing personalized real-time recommendations through multiple channels with over 100MM unique monthly users and 1000+ retail partners. The rapid improvement of the product is important to win on the high-concurrency market of real-time personalization platforms. The necessity of introducing constant innovations and improvements of algorithms for recommendation systems requires correct tools and a process of rapid testing of hypotheses. It`s not a secret that 9 out of 10 hypotheses actually do not improve the performance at least. We had the task stated as follows: How to detect and eliminate the idea that doesn`t improve as early as possible, to spend a minimum of resources on that process. In the report we will talk about: \u00e2\u0080\u00a2 How we make our process of hypotheses testing faster. \u00e2\u0080\u00a2 One programming language for R&D. \u00e2\u0080\u00a2 Enmity and friendship of offline and online metrics. \u00e2\u0080\u00a2 Why it is difficult to predict the impact of changing diversity of algorithms. \u00e2\u0080\u00a2 What is the benefit of AA/BB online tests. \u00e2\u0080\u00a2 Bayesian statistics for the evaluation of online tests. Roman Zykov is the Chief Data Scientist at the Retail Rocket. In Retail Rocket is responsible for algorithms of personalized and non-personalized recommendations. Previous to Retail Rocket, Roman was the Head of analytics at the biggest e-commerce companies for almost ten years. He received Ms.Sc. in applied mathematics and physics from the MIPhT in 2004.", 
+    "abstract": "Retail Rocket helps web shoppers make better shopping decisions by providing personalized real-time recommendations through multiple channels with over 100MM unique monthly users and 1000+ retail partners. The rapid improvement of the product is important to win on the high-concurrency market of real-time personalization platforms. The necessity of introducing constant innovations and improvements of algorithms for recommendation systems requires correct tools and a process of rapid testing of hypotheses. It`s not a secret that 9 out of 10 hypotheses actually do not improve the performance at least. We had the task stated as follows: How to detect and eliminate the idea that doesn`t improve as early as possible, to spend a minimum of resources on that process. In the report we will talk about: \u2022 How we make our process of hypotheses testing faster. \u2022 One programming language for R&D. \u2022 Enmity and friendship of offline and online metrics. \u2022 Why it is difficult to predict the impact of changing diversity of algorithms. \u2022 What is the benefit of AA/BB online tests. \u2022 Bayesian statistics for the evaluation of online tests. Roman Zykov is the Chief Data Scientist at the Retail Rocket. In Retail Rocket is responsible for algorithms of personalized and non-personalized recommendations. Previous to Retail Rocket, Roman was the Head of analytics at the biggest e-commerce companies for almost ten years. He received Ms.Sc. in applied mathematics and physics from the MIPhT in 2004.", 
     "authors": [
       {
         "name": "Roman Zykov"
@@ -1724,7 +1724,7 @@ entities={
       "machine learning", 
       "multicorpus"
     ], 
-    "title": "Multi\u00c2\u00adcorpus Personalized Recommendations on Google Play: Apps/Games/Books/Movies/Music", 
+    "title": "Multi\u00adcorpus Personalized Recommendations on Google Play: Apps/Games/Books/Movies/Music", 
     "type": "industry talk"
   }, 
   "77": {
@@ -1735,17 +1735,17 @@ entities={
       }
     ], 
     "keywords": [], 
-    "title": "Related Pins: Item\u00c2\u00ad-to\u00c2\u00ad-item Recommendations at Pinterest", 
+    "title": "Related Pins: Item\u00ad-to\u00ad-item Recommendations at Pinterest", 
     "type": "industry talk"
   }, 
   "78": {
-    "abstract": "The present work proposes a novel approach for a future shopping system. Customers\u00e2\u0080\u0099 personal data are protected by a blockchain-based storage network. Based on the bitcoin protocol, the system transacts encrypted data in a tamper-proof way and is able to run secure multiparty computations while no one but the data owner has access to the input data. Thus, a potential customer is able to allow a company to apply functions like a recommendation algorithm without revealing personal data. In combination with a low-energy transmitter (beacon), a completely new shopping experience arises. The beacon automatically triggers a recommendation process based on encrypted personal data. The resulting outcome is a recommendation system, a self-checkout system, and a payment system all in one, thereby full anonymity is guaranteed and the customer never lose control on her data.", 
+    "abstract": "The present work proposes a novel approach for a future shopping system. Customers\u2019 personal data are protected by a blockchain-based storage network. Based on the bitcoin protocol, the system transacts encrypted data in a tamper-proof way and is able to run secure multiparty computations while no one but the data owner has access to the input data. Thus, a potential customer is able to allow a company to apply functions like a recommendation algorithm without revealing personal data. In combination with a low-energy transmitter (beacon), a completely new shopping experience arises. The beacon automatically triggers a recommendation process based on encrypted personal data. The resulting outcome is a recommendation system, a self-checkout system, and a payment system all in one, thereby full anonymity is guaranteed and the customer never lose control on her data.", 
     "authors": [
       {
         "name": "Remo Manuel Frey"
       }, 
       {
-        "name": "Denis Vu\u00c4\u008dkovac"
+        "name": "Denis Vu\u010dkovac"
       }, 
       {
         "name": "Alexander Ilic"
@@ -1756,7 +1756,7 @@ entities={
     "type": "poster"
   }, 
   "79": {
-    "abstract": "We propose a recommender system which exploits relations present between entities appearing in content from user\u00e2\u0080\u0099s history and entities appearing in candidate content.\nIn order to identify such relations, we use the knowledge graph of NELL, which encodes entities and their relations.\nWe present a novel normalized version of Personalized PageRank, to rank candidate content.\nWe test our approach on the movie recommendation domain and show that the proposed method outperforms other baseline methods, including the standard Personalized PageRank.", 
+    "abstract": "We propose a recommender system which exploits relations present between entities appearing in content from user\u2019s history and entities appearing in candidate content.\nIn order to identify such relations, we use the knowledge graph of NELL, which encodes entities and their relations.\nWe present a novel normalized version of Personalized PageRank, to rank candidate content.\nWe test our approach on the movie recommendation domain and show that the proposed method outperforms other baseline methods, including the standard Personalized PageRank.", 
     "authors": [
       {
         "name": "Sneha Chaudhari"
@@ -1773,7 +1773,7 @@ entities={
     "type": "poster"
   }, 
   "80": {
-    "abstract": "We consider how dynamic A/B experiments \u00e2\u0080\u0094 used to discover and deploy policies for personalizing items \u00e2\u0080\u0094 can be interpreted from the perspective of a recommendation problem, where no prior data is available. We present an illustrative data set we collected, to evaluate algorithms for recommending emails (that vary along dimensions like subject lines) that will maximize response rate, from different subgroups of online learners. This problem is formalized as a contextual bandit, and do an offline regret comparison of how standard bandit algorithms would perform in optimizing response rate. We report a system that provides an API for real\u00e2\u0080\u0093time data exchange and recommendation policy updates from algorithms from external machine learning researchers, and compare our best-performing offline algorithm \u00e2\u0080\u0094 Thompson Sampling \u00e2\u0080\u0094 against a randomized policy.", 
+    "abstract": "We consider how dynamic A/B experiments \u2014 used to discover and deploy policies for personalizing items \u2014 can be interpreted from the perspective of a recommendation problem, where no prior data is available. We present an illustrative data set we collected, to evaluate algorithms for recommending emails (that vary along dimensions like subject lines) that will maximize response rate, from different subgroups of online learners. This problem is formalized as a contextual bandit, and do an offline regret comparison of how standard bandit algorithms would perform in optimizing response rate. We report a system that provides an API for real\u2013time data exchange and recommendation policy updates from algorithms from external machine learning researchers, and compare our best-performing offline algorithm \u2014 Thompson Sampling \u2014 against a randomized policy.", 
     "authors": [
       {
         "name": "Joseph Jay Williams"
@@ -1787,7 +1787,7 @@ entities={
     "type": "poster"
   }, 
   "81": {
-    "abstract": "The cold start problem, frequent with recommender systems, addresses the issue in cases where we don\u00e2\u0080\u0099t know enough about our users (e.g., the user hasn\u00e2\u0080\u0099t rated anything yet, or there are no user activities) in that specific domain. In our paper we present a simple and robust transfer learning approach where we model users\u00e2\u0080\u0099 behavior in a source domain, transferring that knowledge to a new, target domain. First, we vectorize the items by using word2vec for each dataset independently. Second, we calculate the transformation matrix that connects the source dataset to the target dataset by using their common users.", 
+    "abstract": "The cold start problem, frequent with recommender systems, addresses the issue in cases where we don\u2019t know enough about our users (e.g., the user hasn\u2019t rated anything yet, or there are no user activities) in that specific domain. In our paper we present a simple and robust transfer learning approach where we model users\u2019 behavior in a source domain, transferring that knowledge to a new, target domain. First, we vectorize the items by using word2vec for each dataset independently. Second, we calculate the transformation matrix that connects the source dataset to the target dataset by using their common users.", 
     "authors": [
       {
         "name": "Masahiro Kazama"
@@ -1801,7 +1801,7 @@ entities={
     "type": "poster"
   }, 
   "82": {
-    "abstract": "Context-aware systems enable the sensing and analysis of user context in order to provide personalized services to users. We observed that it is possible to automatically learn contextual factors and behavioral patterns when users interact with the system. We later utilize the learned patterns to infer contextual user interests within a recommender system. We present a novel context-aware model for detecting users\u00e2\u0080\u0099 preferred items\u00e2\u0080\u0099 categories using an unsupervised deep learning technique applied to mobile sensor data. We train an auto-encoder for each item genre, using contextual data that was obtained when users interacted with the system. Given new contextual sensor data from a user, the discovered patterns from each auto-encoder are used to predict the category of items that should be recommended to the user in the given context. In order to collect rich contextual data, we conducted an extensive field study over a period of four weeks with a group of ninety users. The analysis reveals significant insights regarding the inference of different granularity levels of categories that are available within the data.", 
+    "abstract": "Context-aware systems enable the sensing and analysis of user context in order to provide personalized services to users. We observed that it is possible to automatically learn contextual factors and behavioral patterns when users interact with the system. We later utilize the learned patterns to infer contextual user interests within a recommender system. We present a novel context-aware model for detecting users\u2019 preferred items\u2019 categories using an unsupervised deep learning technique applied to mobile sensor data. We train an auto-encoder for each item genre, using contextual data that was obtained when users interacted with the system. Given new contextual sensor data from a user, the discovered patterns from each auto-encoder are used to predict the category of items that should be recommended to the user in the given context. In order to collect rich contextual data, we conducted an extensive field study over a period of four weeks with a group of ninety users. The analysis reveals significant insights regarding the inference of different granularity levels of categories that are available within the data.", 
     "authors": [
       {
         "name": "Moshe Unger"
@@ -1817,11 +1817,11 @@ entities={
       }
     ], 
     "keywords": [], 
-    "title": "Deep Auto-Encoding for Context-Aware Inference of Preferred Items\u00e2\u0080\u0099 Categories", 
+    "title": "Deep Auto-Encoding for Context-Aware Inference of Preferred Items\u2019 Categories", 
     "type": "poster"
   }, 
   "83": {
-    "abstract": "Foursquare is a search and discovery tool which helps users discover venues around the world. Much of the data for these recommendations come from its sister app Swarm, which is a location based social network where users can \u00e2\u0080\u009ccheck in\u00e2\u0080\u009d to places they visit. Older versions of Foursquare had a strongly static component to its recommendations. For instance, the top restaurants in New York City do not vary from month to month, and venues with years of consistently strong signals will dominate search results. In this paper we outline a new algorithm which Foursquare uses in order to discover fresh recommendations. Promoting younger venues with fewer check-ins or older venues with a recent surge of activity increases turnover in our recommendations and yields a better user experience.", 
+    "abstract": "Foursquare is a search and discovery tool which helps users discover venues around the world. Much of the data for these recommendations come from its sister app Swarm, which is a location based social network where users can \u201ccheck in\u201d to places they visit. Older versions of Foursquare had a strongly static component to its recommendations. For instance, the top restaurants in New York City do not vary from month to month, and venues with years of consistently strong signals will dominate search results. In this paper we outline a new algorithm which Foursquare uses in order to discover fresh recommendations. Promoting younger venues with fewer check-ins or older venues with a recent surge of activity increases turnover in our recommendations and yields a better user experience.", 
     "authors": [
       {
         "name": "Stephanie Yang"
@@ -1831,7 +1831,7 @@ entities={
       }
     ], 
     "keywords": [], 
-    "title": "Detecting Trending Venues Using Foursquare\u00e2\u0080\u0099s Data", 
+    "title": "Detecting Trending Venues Using Foursquare\u2019s Data", 
     "type": "poster"
   }, 
   "84": {
@@ -1858,7 +1858,7 @@ entities={
     "type": "poster"
   }, 
   "85": {
-    "abstract": "A single `odd\u00e2\u0080\u0099 interaction can cause two user interaction sessions to diverge in similarity, and stand in the way of generalization. The sensitivity of session-based recommenders to session similarity motivates us to explicitly identify and remove such `similarity blockers\u00e2\u0080\u0099. Specifically, we leverage huge amounts of data, which allow us to identify blockers in the form of non-co-occurring items. Other blockers can be identified using content-based similarity. Our experiments reveal that explicitly eliminating relatively few blockers improves performance.", 
+    "abstract": "A single `odd\u2019 interaction can cause two user interaction sessions to diverge in similarity, and stand in the way of generalization. The sensitivity of session-based recommenders to session similarity motivates us to explicitly identify and remove such `similarity blockers\u2019. Specifically, we leverage huge amounts of data, which allow us to identify blockers in the form of non-co-occurring items. Other blockers can be identified using content-based similarity. Our experiments reveal that explicitly eliminating relatively few blockers improves performance.", 
     "authors": [
       {
         "name": "Mattia Brusamento"
@@ -1912,7 +1912,7 @@ entities={
     "type": "poster"
   }, 
   "88": {
-    "abstract": "In real-world scenarios, recommenders face non-functional requirements of technical nature and must handle dynamic data in the form of sequential streams. Evaluation of recommender systems must take these issues into account in order to be maximally informative. In this paper, we present a framework called Idomaar which enables the efficient multi-dimensional benchmarking of recommender algorithms. Idomaar goes beyond current academic research practices by creating a realistic evaluation environment and computing both effectiveness and technical metrics for stream-based as well as set based evaluation. The potentials of the framework are illustrated in a scenario that focuses on the \u00e2\u0080\u009cresearch to prototyping to productization\u00e2\u0080\u009d cycle at a company. We show that Idomaar simplifies the testing with different configurations and supports the flexible integration of different data.", 
+    "abstract": "In real-world scenarios, recommenders face non-functional requirements of technical nature and must handle dynamic data in the form of sequential streams. Evaluation of recommender systems must take these issues into account in order to be maximally informative. In this paper, we present a framework called Idomaar which enables the efficient multi-dimensional benchmarking of recommender algorithms. Idomaar goes beyond current academic research practices by creating a realistic evaluation environment and computing both effectiveness and technical metrics for stream-based as well as set based evaluation. The potentials of the framework are illustrated in a scenario that focuses on the \u201cresearch to prototyping to productization\u201d cycle at a company. We show that Idomaar simplifies the testing with different configurations and supports the flexible integration of different data.", 
     "authors": [
       {
         "name": "Mario Scriminaci"
@@ -1992,7 +1992,7 @@ entities={
     "type": "poster"
   }, 
   "92": {
-    "abstract": "Neural embedding techniques are being applied in a growing number of machine learning applications. In this work, we demonstrate a neural embedding technique to model users\u00e2\u0080\u0099 session activity. Specifically, we consider a dataset collected from Microsoft\u00e2\u0080\u0099s App Store consisting of user sessions that include sequential click actions and item purchases. Our goal is to learn a latent manifold that captures users\u00e2\u0080\u0099 session activity and can be utilized for contextual recommendations in an online app store.", 
+    "abstract": "Neural embedding techniques are being applied in a growing number of machine learning applications. In this work, we demonstrate a neural embedding technique to model users\u2019 session activity. Specifically, we consider a dataset collected from Microsoft\u2019s App Store consisting of user sessions that include sequential click actions and item purchases. Our goal is to learn a latent manifold that captures users\u2019 session activity and can be utilized for contextual recommendations in an online app store.", 
     "authors": [
       {
         "name": "Oren Barkan"
@@ -2009,7 +2009,7 @@ entities={
     "type": "poster"
   }, 
   "93": {
-    "abstract": "Massive open online courses (MOOCs) have recently gained a huge users\u00e2\u0080\u0099 attention on the Web. They are considered as a highly promising form of teaching from leading universities such as Stanford and Berkeley. MoocRec.com is a web site that recommends courses to users so that, they can acquire those skills, that are expected from their ideal job posting. MoocRec\u00e2\u0080\u0099s recommendation engine is based on Matrix Factorization (MF) model combined with Collaborative Filtering (CF) algorithm, which exploits information from external resources (i.e., users\u00e2\u0080\u0099 skills, courses\u00e2\u0080\u0099 characteristics, etc.) to predict course trends and to perform rating predictions according to them.", 
+    "abstract": "Massive open online courses (MOOCs) have recently gained a huge users\u2019 attention on the Web. They are considered as a highly promising form of teaching from leading universities such as Stanford and Berkeley. MoocRec.com is a web site that recommends courses to users so that, they can acquire those skills, that are expected from their ideal job posting. MoocRec\u2019s recommendation engine is based on Matrix Factorization (MF) model combined with Collaborative Filtering (CF) algorithm, which exploits information from external resources (i.e., users\u2019 skills, courses\u2019 characteristics, etc.) to predict course trends and to perform rating predictions according to them.", 
     "authors": [
       {
         "name": "Panagiotis Symeonidis"
@@ -2089,7 +2089,7 @@ entities={
     "abstract": "We introduce rrecsys, an open source extension package in R for rapid prototyping and intuitive assessment of recommender system algorithms. As the only currently available R package for recommender algorithms (recommenderlab) did not include popular algorithm implementations such as matrix factorization or One-class Collaborative Filtering algorithms we developed rrecsys as an easily accessible tool that can, for instance, be employed for interactive demonstrations when teaching. This package replicates state-of-the-art Collaborative Filtering algorithms for rating and binary data and we compare results with the Java-based LensKit implementation and recommederlab for the purpose of benchmarking the implementation. Therefore this work can also be seen as a contribution in the context of replication of algorithm implementations and reproduction of evaluation results.", 
     "authors": [
       {
-        "name": "Ludovik \u00c3\u0087oba"
+        "name": "Ludovik \u00c7oba"
       }, 
       {
         "name": "Markus Zanker"
@@ -2114,7 +2114,7 @@ entities={
     "type": "poster"
   }, 
   "99": {
-    "abstract": "With the interactive recommending approach we have recently proposed, users are given more control over model-based Collaborative Filtering while the results are perceived as more transparent. Integrating the latent factors derived by Matrix Factorization with tags users provided for the items has, however, even more advantages. In this paper, we show how general understanding of the abstract factor space, and of user and item positions inside it, can benefit from the semantics introduced by considering additional information. Moreover, our approach allows us to explain the user\u00e2\u0080\u0099s (former latent) preference profile by means of tags.", 
+    "abstract": "With the interactive recommending approach we have recently proposed, users are given more control over model-based Collaborative Filtering while the results are perceived as more transparent. Integrating the latent factors derived by Matrix Factorization with tags users provided for the items has, however, even more advantages. In this paper, we show how general understanding of the abstract factor space, and of user and item positions inside it, can benefit from the semantics introduced by considering additional information. Moreover, our approach allows us to explain the user\u2019s (former latent) preference profile by means of tags.", 
     "authors": [
       {
         "name": "Tim Donkers"
@@ -2123,7 +2123,7 @@ entities={
         "name": "Benedikt Loepp"
       }, 
       {
-        "name": "J\u00c3\u00bcrgen Ziegler"
+        "name": "J\u00fcrgen Ziegler"
       }
     ], 
     "keywords": [], 
@@ -2131,7 +2131,7 @@ entities={
     "type": "poster"
   }, 
   "100": {
-    "abstract": "The quality of recommendations is known to be affected by diversity and novelty in addition to accuracy. Recent work has focused on methods that increase diversity of recommendation lists. However, these methods assume the user preference for diversity is constant across all users. In this paper, we show that users\u00e2\u0080\u0099 propensity towards diversity varies greatly and argue that the diversity of recommendation lists should be consistent with the level of user interest in diverse recommendations. We introduce a user segmentation approach in order to personalize recommendation according to user preference for diversity. We show that recommendations generated using these segments match the diversity preferences of users in each segment. We also discuss the impact of this segmentation on the novelty of recommendations.", 
+    "abstract": "The quality of recommendations is known to be affected by diversity and novelty in addition to accuracy. Recent work has focused on methods that increase diversity of recommendation lists. However, these methods assume the user preference for diversity is constant across all users. In this paper, we show that users\u2019 propensity towards diversity varies greatly and argue that the diversity of recommendation lists should be consistent with the level of user interest in diverse recommendations. We introduce a user segmentation approach in order to personalize recommendation according to user preference for diversity. We show that recommendations generated using these segments match the diversity preferences of users in each segment. We also discuss the impact of this segmentation on the novelty of recommendations.", 
     "authors": [
       {
         "name": "Farzad Eskandanian"
@@ -2165,7 +2165,7 @@ entities={
     "type": "poster"
   }, 
   "102": {
-    "abstract": "Collaboration platforms have been available for many years, but they struggle to overcome what is known as the collaboration paradox: people want all the benefits provided by such tools, but they won\u00e2\u0080\u0099t invest their times without some sort of immediate gain. To tackle this problem, we developed an enterprise collaboration platform named Smart Canvas. Smart Canvas is a service that allows people to bring, create and curate content relevant to their organizations. The product\u00e2\u0080\u0099s main goal is to leverage companies knowledge and tear down silos by connecting people, teams, and content. One of the main components of the product is a scalable cloud-based Recommender System, built using techniques like Topic Modeling, Content-Based Recommenders and Graph Analysis.\n\nIn this demo, Smart Canvas will be presented in web and mobile interfaces, with data from a real customer. We are also going to describe details of the models, algorithms and architecture (which includes tools like Apache Spark and Titan Graph Database deployed on Google Cloud Platform).", 
+    "abstract": "Collaboration platforms have been available for many years, but they struggle to overcome what is known as the collaboration paradox: people want all the benefits provided by such tools, but they won\u2019t invest their times without some sort of immediate gain. To tackle this problem, we developed an enterprise collaboration platform named Smart Canvas. Smart Canvas is a service that allows people to bring, create and curate content relevant to their organizations. The product\u2019s main goal is to leverage companies knowledge and tear down silos by connecting people, teams, and content. One of the main components of the product is a scalable cloud-based Recommender System, built using techniques like Topic Modeling, Content-Based Recommenders and Graph Analysis.\n\nIn this demo, Smart Canvas will be presented in web and mobile interfaces, with data from a real customer. We are also going to describe details of the models, algorithms and architecture (which includes tools like Apache Spark and Titan Graph Database deployed on Google Cloud Platform).", 
     "authors": [
       {
         "name": "Gabriel de Souza Pereira Moreira"
@@ -2199,7 +2199,7 @@ entities={
     "type": "demo"
   }, 
   "104": {
-    "abstract": "Outbrain is the Web\u00e2\u0080\u0099s leading content discovery service, recommending billions of stories daily to a global audience across many of the world\u00e2\u0080\u0099s most prestigious and respected publishers. Outbrain\u00e2\u0080\u0099s recommendation technology combines contextual cues with personalization, where the personalization aspects are a combination of content-based and collaborative filtering techniques.\n\nThis paper, and the accompanying demo of a production system, offer a behind-the-scenes view of the content-based aspects of Outbrain\u00e2\u0080\u0099s personalization technology. We detail the types of features we extract from content, as well as the attributes we keep in each user\u00e2\u0080\u0099s content-affinity profile. We then describe and demonstrate how we update each user\u00e2\u0080\u0099s profile, in real time, as the user consumes content while browsing the Web.", 
+    "abstract": "Outbrain is the Web\u2019s leading content discovery service, recommending billions of stories daily to a global audience across many of the world\u2019s most prestigious and respected publishers. Outbrain\u2019s recommendation technology combines contextual cues with personalization, where the personalization aspects are a combination of content-based and collaborative filtering techniques.\n\nThis paper, and the accompanying demo of a production system, offer a behind-the-scenes view of the content-based aspects of Outbrain\u2019s personalization technology. We detail the types of features we extract from content, as well as the attributes we keep in each user\u2019s content-affinity profile. We then describe and demonstrate how we update each user\u2019s profile, in real time, as the user consumes content while browsing the Web.", 
     "authors": [
       {
         "name": "Ido Tamir"
@@ -2221,11 +2221,11 @@ entities={
       }
     ], 
     "keywords": [], 
-    "title": "Powering Content Discovery through Scalable, Realtime Profiling of Users\u00e2\u0080\u0099 Content Preferences", 
+    "title": "Powering Content Discovery through Scalable, Realtime Profiling of Users\u2019 Content Preferences", 
     "type": "demo"
   }, 
   "105": {
-    "abstract": "In recent years, there is a surge of research on recommender system to alleviate the information overload. Many recommendation techniques have been proposed and they have achieved great successes in many applications. However, the explanation of recommendation results is an important but seldom addressed problem. In this paper, we organize the objects and relations in a recommender system with a heterogeneous information network, which integrates more informations and contains rich semantics. Then we employ a semantic meta path based personalized recommendation model and design a recommender system with explanation, called RecExp. The RecExp system has two unique features. (1) Semantic recommendation. RecExp provides different recommendation models to comply with users\u00e2\u0080\u0099 requirements through setting of meta paths. (2) Interpretive recommendation. Under a hybrid recommendation model, RecExp provides the explanations for the recommendation results.", 
+    "abstract": "In recent years, there is a surge of research on recommender system to alleviate the information overload. Many recommendation techniques have been proposed and they have achieved great successes in many applications. However, the explanation of recommendation results is an important but seldom addressed problem. In this paper, we organize the objects and relations in a recommender system with a heterogeneous information network, which integrates more informations and contains rich semantics. Then we employ a semantic meta path based personalized recommendation model and design a recommender system with explanation, called RecExp. The RecExp system has two unique features. (1) Semantic recommendation. RecExp provides different recommendation models to comply with users\u2019 requirements through setting of meta paths. (2) Interpretive recommendation. Under a hybrid recommendation model, RecExp provides the explanations for the recommendation results.", 
     "authors": [
       {
         "name": "Jiawei Hu"
