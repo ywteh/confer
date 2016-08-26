@@ -312,6 +312,20 @@
 	      "end_date": "2016-08-17",
 	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\", \"stefje@csail.mit.edu\"]"
 	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 23,
+	    "fields": {
+	      "unique_name": "recsys2016",
+	      "confer_name": "recsys2016",
+	      "title": "RecSys 2016 - 10th ACM Conference on Recommender Systems",
+	      "subtitle": "",
+	      "blurb": "The ACM Recommender Systems conference (RecSys) is the premier international forum for the presentation of new research results, systems and techniques in the broad field of recommender systems.",
+	      "location": "Boston, MA, USA",
+	      "start_date": "2016-09-15",
+	      "end_date": "2016-09-19",
+	      "admins": "[\"anantb@csail.mit.edu\", \"axz@mit.edu\"]"
+	  	}
 	}
 ]
   
