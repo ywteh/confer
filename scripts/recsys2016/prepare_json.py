@@ -92,7 +92,12 @@ def prepare_data(data_file1):
     if new_authors:
         paper_authors = new_authors
     
-    session = unicode(row[4].decode("utf-8")) + ' - Chair: ' + unicode(row[5].decode("utf-8"))
+    chair = unicode(row[5].decode("utf-8"))
+    
+    if chair:
+        session = unicode(row[4].decode("utf-8")) + ' - Chair: ' + chair
+    else:
+        session = unicode(row[4].decode("utf-8"))
     
     s_date = unicode(row[7].decode("utf-8"))
     

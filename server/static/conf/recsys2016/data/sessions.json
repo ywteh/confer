@@ -8,6 +8,20 @@ sessions={
     ], 
     "time": "15:00 - 16:00"
   }, 
+  "Demo_Reception": {
+    "date": "09-17-16", 
+    "room": "Morss Hall", 
+    "s_title": "Demo Reception", 
+    "submissions": [
+      102, 
+      103, 
+      104, 
+      105, 
+      106, 
+      107
+    ], 
+    "time": "18:00 - 22:00"
+  }, 
   "Industry_Session_1_Chair_Karen_Church": {
     "date": "09-17-16", 
     "room": "Room 202", 
@@ -204,10 +218,10 @@ sessions={
     ], 
     "time": "14:00 - 16:20"
   }, 
-  "Poster_Reception_Chair_": {
+  "Poster_Reception": {
     "date": "09-17-16", 
     "room": "Morss Hall", 
-    "s_title": "Poster Reception - Chair: ", 
+    "s_title": "Poster Reception", 
     "submissions": [
       78, 
       79, 
@@ -244,19 +258,5 @@ sessions={
       1
     ], 
     "time": "8:30: - 9:30:"
-  }, 
-  "_Chair_": {
-    "date": "09-17-16", 
-    "room": "Morss Hall", 
-    "s_title": " - Chair: ", 
-    "submissions": [
-      102, 
-      103, 
-      104, 
-      105, 
-      106, 
-      107
-    ], 
-    "time": "18:00 - 22:00"
   }
 }

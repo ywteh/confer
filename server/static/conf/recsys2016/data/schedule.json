@@ -59,11 +59,11 @@ schedule=[
         "sessions": [
           {
             "room": "Morss Hall", 
-            "session": "Poster_Reception_Chair_"
+            "session": "Demo_Reception"
           }, 
           {
             "room": "Morss Hall", 
-            "session": "_Chair_"
+            "session": "Poster_Reception"
           }
         ], 
         "slot_class": "evening", 
