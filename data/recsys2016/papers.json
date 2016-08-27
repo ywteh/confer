@@ -2289,5 +2289,55 @@
     "keywords": [], 
     "title": "T-RecS: A Framework for a Temporal Semantic Analysis of the ACM Recommender Systems Conference", 
     "type": "demo"
+  }, 
+  "108": {
+    "abstract": "People recommenders, which recommend people to themselves, have become a rich research area within the broad recommender systems community. From \u201cpeople you may know\u201d and \u201cwho to follow\u201d widgets, through people introduction at conferences, job recommendations and job-candidate search, to dating partner matchmakers, people recommendations proliferate.\n\nThis tutorial will present an overview of the people recommender systems domain. We will present the different types and use cases of people recommendations, the special techniques used to recommend people to themselves, key research work, and open challenges.", 
+    "authors": [
+      {
+        "name": "Ido Guy"
+      }, 
+      {
+        "name": "Luiz Pizzato"
+      }
+    ], 
+    "keywords": [], 
+    "title": "People Recommendation", 
+    "type": "tutorial"
+  }, 
+  "109": {
+    "abstract": "In 2006, Netflix announced a $1M prize competition to advance recommendation algorithms. The recommendation problem was simplified as the accuracy in predicting a user rating measured by the Root Mean Squared Error. While that formulation helped get the attention of the research community, it put the focus on the wrong approach and metric while leaving many important factors out.\n\nIn this talk we will talk we will describe the advances in Recommender Systems in the last 10 years from an industry perspective based on the instructors\u2019 personal experience at companies like Quora, LinkedIn, Netflix, or Yahoo!. We will do so in the form of different lessons learned through the years. Some of those lessons will describe the different components of modern recommender systems such as: personalized ranking, similarity, explanations, context \u00adawareness, or multi\u00adarmed bandits. Others will also review the usage of novel algorithmic approaches such as Factorization Machines, Restricted Boltzmann Machines, SimRank, Deep Neural Networks, or List-wise learning \u00adto \u00adrank. Others will dive into details of the importance of gathering the right data or using the correct optimization metric.\n\nBut, most importantly, we will give many examples of prototypical industrial\u00ad scale recommender systems with special focus on those unsolved challenges that should define the future of the recommender systems area.", 
+    "authors": [
+      {
+        "name": "Xavier Amatriain"
+      }, 
+      {
+        "name": "Deepak Agarwal"
+      }
+    ], 
+    "keywords": [], 
+    "title": "Lessons Learned from Building Real\u00ad-Life Recommender Systems", 
+    "type": "tutorial"
+  }, 
+  "110": {
+    "abstract": "The tutorial will offer a rich blend of theory and practice regarding dimensionality reduction methods, to address the information overload problem in recommender systems. This problem affects our everyday experience while searching for knowledge on a topic. Naive Collaborative Filtering cannot deal with challenging issues such as scalability, noise, and sparsity. We can deal with all the aforementioned challenges by applying matrix and tensor decomposition methods (also known as factorization methods). These methods have been proven to be the most accurate (i.e., Netflix prize) and efficient for handling big data. For each method (SVD, SVD++, timeSVD++, HOSVD, CUR, etc.) we will provide a detailed theoretical mathematical background and a step-by-step analysis, by using an integrated toy example, which runs throughout all parts of the tutorial, and helps the audience to understand clearly the differences among different factorization methods.\n\nEach part of this tutorial provides the audience with an introduction to the most important aspects of Matrix and Tensor Factorization techniques in Recommender Systems and also contains many valuable references to relevant research papers. It also provides researchers and developers a comprehensive overview of the general concepts and techniques (e.g., models and algorithms) related with Matrix and Tensor Factorization recommendation and present them all new methods through real-life application scenarios and toy examples.", 
+    "authors": [
+      {
+        "name": "Panagiotis Symeonidis"
+      }
+    ], 
+    "keywords": [], 
+    "title": "Matrix and Tensor Decomposition in Recommender Systems", 
+    "type": "tutorial"
+  }, 
+  "111": {
+    "abstract": "Group recommender systems are designed to provide suggestions in contexts in which people operate in groups. The goal of this tutorial is to provide the RecSys audience with an overview on group recommendation. We will first formally introduce the problem of producing recommendations to groups, then present a survey based on the tasks performed by these systems. We will also analyze challenging topics like their evaluation, and present emerging aspects and techniques in this area. The tutorial will end with a summary that highlights open issues and research challenges.", 
+    "authors": [
+      {
+        "name": "Ludovico Boratto"
+      }
+    ], 
+    "keywords": [], 
+    "title": "Group Recommender Systems", 
+    "type": "tutorial"
   }
 }

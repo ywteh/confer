@@ -32,6 +32,10 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Room 202", 
+            "session": "Tutorial_People_Recommendation"
+          }, 
+          {
             "room": "Kresge", 
             "session": "Paper_Session_2_Algorithms_I_Chair_Xavier_Amatriain"
           }
@@ -59,11 +63,11 @@ schedule=[
         "sessions": [
           {
             "room": "Morss Hall", 
-            "session": "Demo_Reception"
+            "session": "Poster_Reception"
           }, 
           {
             "room": "Morss Hall", 
-            "session": "Poster_Reception"
+            "session": "Demo_Reception"
           }
         ], 
         "slot_class": "evening", 
@@ -105,12 +109,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Room 202", 
-            "session": "Paper_Session_8_Deep_Learning_Chair_Paolo_Cremonesi"
-          }, 
-          {
             "room": "Kresge", 
             "session": "Paper_Session_7_Past_Present_Future_Chair_Jill_Freyne"
+          }, 
+          {
+            "room": "Room 202", 
+            "session": "Paper_Session_8_Deep_Learning_Chair_Paolo_Cremonesi"
           }
         ], 
         "slot_class": "morning2", 
@@ -120,12 +124,12 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Room 202", 
-            "session": "Industry_Session_2_Chair_Hrishikesh_Aradhye"
-          }, 
-          {
             "room": "Kresge", 
             "session": "Paper_Session_9_Contextual_Challenges_Chair_Gedas_Adomavicius"
+          }, 
+          {
+            "room": "Room 202", 
+            "session": "Industry_Session_2_Chair_Hrishikesh_Aradhye"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -137,6 +141,10 @@ schedule=[
           {
             "room": "Kresge", 
             "session": "Paper_Session_10_Social_Perspective_Chair_Elizabeth_Daly"
+          }, 
+          {
+            "room": "Room 202", 
+            "session": "Tutorial_Lessons_Learned_from_Building_Real_Life_Recommender_Systems"
           }
         ], 
         "slot_class": "afternoon2", 
@@ -152,6 +160,10 @@ schedule=[
       {
         "sessions": [
           {
+            "room": "Student Center 307", 
+            "session": "Tutorial_Matrix_and_Tensor_Decomposition_in_Recommender_Systems"
+          }, 
+          {
             "room": "Kresge", 
             "session": "Paper_Session_11_Algorithms_II_Chair_Elizabeth_Daly"
           }, 
@@ -163,6 +175,17 @@ schedule=[
         "slot_class": "morning1", 
         "slot_id": "09_19_168_30_10_10", 
         "time": "8:30: - 10:10"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Student Center 307", 
+            "session": "Tutorial_Group_Recommender_Systems"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "09_19_1610_40_0_20_", 
+        "time": "10:40 - 0:20:"
       }, 
       {
         "sessions": [

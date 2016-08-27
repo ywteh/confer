@@ -258,5 +258,41 @@ sessions={
       "1"
     ], 
     "time": "8:30: - 9:30:"
+  }, 
+  "Tutorial_Group_Recommender_Systems": {
+    "date": "09-19-16", 
+    "room": "Student Center 307", 
+    "s_title": "Tutorial: Group Recommender Systems", 
+    "submissions": [
+      "111"
+    ], 
+    "time": "10:40 - 0:20:"
+  }, 
+  "Tutorial_Lessons_Learned_from_Building_Real_Life_Recommender_Systems": {
+    "date": "09-18-16", 
+    "room": "Room 202", 
+    "s_title": "Tutorial: Lessons Learned from Building Real\u00ad-Life Recommender Systems", 
+    "submissions": [
+      "109"
+    ], 
+    "time": "16:20 - 18:00"
+  }, 
+  "Tutorial_Matrix_and_Tensor_Decomposition_in_Recommender_Systems": {
+    "date": "09-19-16", 
+    "room": "Student Center 307", 
+    "s_title": "Tutorial: Matrix and Tensor Decomposition in Recommender Systems", 
+    "submissions": [
+      "110"
+    ], 
+    "time": "8:30: - 10:10"
+  }, 
+  "Tutorial_People_Recommendation": {
+    "date": "09-17-16", 
+    "room": "Room 202", 
+    "s_title": "Tutorial: People Recommendation", 
+    "submissions": [
+      "108"
+    ], 
+    "time": "14:00 - 15:40"
   }
 }
