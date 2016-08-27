@@ -125,10 +125,10 @@ def prepare_data(data_file1):
     # prepare sessions data
     s_id = construct_id(session)
     if(s_id in sessions):
-      sessions[s_id]['submissions'].append(paper_id)
+      sessions[s_id]['submissions'].append(str(paper_id))
     else:
       sessions[s_id] = {
-          'submissions': [paper_id], 's_title': session, 'room': room, 'time': s_time, 'date': s_date}
+          'submissions': [str(paper_id)], 's_title': session, 'room': room, 'time': s_time, 'date': s_date}
 
     p_id += 1
 
