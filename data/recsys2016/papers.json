@@ -1474,7 +1474,7 @@
     "type": "industry talk"
   }, 
   "64": {
-    "abstract": "", 
+    "abstract": "Machine learning and recommendations systems have changed the way we interact with not just the internet, but some of the basic services that we use to organize and run our life. As the people that build these systems, we have a social responsibility to consider how these systems affect people, and furthermore, we should do whatever we can to prevent these models from perpetuating some of the prejudice and bias that exist in our society today. This talk will cover some of the recommendation systems that have gone wrong across various industries, and attempt to provide some solutions for raising awareness and prevention. Approaches that will be explored include using interpretable models, using ensemble models to separate features that shouldn\u2019t interact, and designing test data sets for capturing accidental bias.", 
     "authors": [
       {
         "name": "Evan Estola"
@@ -1509,7 +1509,7 @@
     "type": "industry talk"
   }, 
   "66": {
-    "abstract": "", 
+    "abstract": "Spotify is the world\u2019s largest on-demand music streaming company, with over 75 million active users choosing what to listen to among tens of millions of songs. Discovery and personalization play a key role in enhancing the users\u2019 experience on Spotify. In this talk, we\u2019ll discuss how Spotify uses collaborative filtering and content signals to model users\u2019 tastes. We will dive deep into the workings of features such as Discover Weekly, Fresh Finds and Home that are powered by our machine learning models. We will also discuss the challenges around optimizing for user engagement and scaling for our growing user base and music catalog.", 
     "authors": [
       {
         "name": "Max Sklar"
