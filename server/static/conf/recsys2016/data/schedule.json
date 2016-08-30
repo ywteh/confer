@@ -71,8 +71,8 @@ schedule=[
           }
         ], 
         "slot_class": "evening", 
-        "slot_id": "09_17_1618_00_22_00", 
-        "time": "18:00 - 22:00"
+        "slot_id": "09_17_1618_30_22_00", 
+        "time": "18:30 - 22:00"
       }
     ]
   }, 
@@ -133,8 +133,8 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "09_18_1614_00_16_20", 
-        "time": "14:00 - 16:20"
+        "slot_id": "09_18_1614_00_15_40", 
+        "time": "14:00 - 15:40"
       }, 
       {
         "sessions": [
@@ -165,10 +165,6 @@ schedule=[
           }, 
           {
             "room": "Kresge", 
-            "session": "Paper_Session_11_Algorithms_II_Chair_Elizabeth_Daly"
-          }, 
-          {
-            "room": "Kresge", 
             "session": "Industry_Session_3_Chair_Paul_Lamere"
           }
         ], 
@@ -181,11 +177,15 @@ schedule=[
           {
             "room": "Student Center 307", 
             "session": "Tutorial_Group_Recommender_Systems"
+          }, 
+          {
+            "room": "Kresge", 
+            "session": "Paper_Session_11_Algorithms_II_Chair_Elizabeth_Daly"
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "09_19_1610_40_0_20_", 
-        "time": "10:40 - 0:20:"
+        "slot_id": "09_19_1610_40_12_20", 
+        "time": "10:40 - 12:20"
       }, 
       {
         "sessions": [
