@@ -129,7 +129,7 @@ schedule=[
           }, 
           {
             "room": "Room 202", 
-            "session": "Industry_Session_2_Chair_Hrishikesh_Aradhye"
+            "session": "Industry_Session_2_Chair_Wei_Chai"
           }
         ], 
         "slot_class": "afternoon1", 
@@ -180,7 +180,7 @@ schedule=[
           }, 
           {
             "room": "Kresge", 
-            "session": "Paper_Session_11_Algorithms_II_Chair_Elizabeth_Daly"
+            "session": "Paper_Session_11_Algorithms_II_Chair_Alexandros_Karatzoglou"
           }
         ], 
         "slot_class": "morning2", 

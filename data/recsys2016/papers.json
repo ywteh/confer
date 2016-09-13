@@ -6,6 +6,7 @@
         "name": "Claudia Perlich"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "machine learning", 
       " big data", 
@@ -23,6 +24,7 @@
         "name": "Shashi Thakur"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Google Now", 
       " personalization", 
@@ -38,6 +40,7 @@
         "name": "Sinan Aral"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Peer influence", 
       " social networks", 
@@ -56,6 +59,7 @@
         "name": "Gediminas Adomavicius"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Foundations of Recommender Systems", 
       " Recommendation Goals and Purposes"
@@ -76,6 +80,7 @@
         "name": "Daricia Wilkinson"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Filter Bubble", 
@@ -98,6 +103,7 @@
         "name": "Yves Grandvalet"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "recommender systems", 
       " diverse recommendation", 
@@ -121,6 +127,7 @@
         "name": "John Carnahan"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Personalization", 
@@ -142,6 +149,7 @@
         "name": "Chirag Shah"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Search session analysis", 
       " Diversity", 
@@ -166,6 +174,7 @@
         "name": "Markus Zanker"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "User study", 
       " Evaluation methodology", 
@@ -199,6 +208,7 @@
         "name": "S. V. N. Vishwanathan"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "Machine Learning", 
       " Submodular Functions", 
@@ -220,6 +230,7 @@
         "name": "Neil Hurley"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "intent-aware recommendation", 
       " diversity", 
@@ -244,6 +255,7 @@
         "name": "Chih-Jen Lin"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Machine learning", 
       " Click-through rate prediction", 
@@ -269,6 +281,7 @@
         "name": "Jie Zhang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       "Feature-based Recommendation", 
@@ -293,6 +306,7 @@
         "name": "David M. Blei"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Collaborative filtering", 
       " matrix factorization", 
@@ -312,6 +326,7 @@
         "name": "George Karypis"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "top-N recommendation", 
       " local models", 
@@ -334,6 +349,7 @@
         "name": "Massih-Reza Amini"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Asynchronous Distributed Optimization", 
@@ -358,6 +374,7 @@
         "name": "Yi-Hsuan Yang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender systems", 
       " query-based recommendation", 
@@ -376,6 +393,7 @@
         "name": "Yong Yu"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "User Modeling", 
       "Recommender System", 
@@ -394,6 +412,7 @@
         "name": "Ivan Oseledets"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Collaborative filtering", 
       " recommender systems", 
@@ -414,6 +433,7 @@
         "name": "Sharat Chandra Guntuku"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Affective Computing", 
       " Personality", 
@@ -437,6 +457,7 @@
         "name": "Andrew McCallum"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Deep Learning", 
@@ -463,6 +484,7 @@
         "name": "Yu-Ching Lin"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Next-song recommendation", 
       " content-based recommendation", 
@@ -492,6 +514,7 @@
         "name": "Eugenio Di Sciascio"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Cross-domain recommendation", 
       " cold-start", 
@@ -513,6 +536,7 @@
         "name": "Katrien Verbert"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Human-Computer Interaction", 
@@ -531,6 +555,7 @@
         "name": "Olfa Nasraoui"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender systems", 
       " Machine learning", 
@@ -555,6 +580,7 @@
         "name": "Joseph A. Konstan"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "eye tracking", 
       " Hidden Markov Models", 
@@ -576,6 +602,7 @@
         "name": "Joseph A. Konstan"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Personality", 
       " Big-Five Personality Traits", 
@@ -598,6 +625,7 @@
         "name": "Marko Tkalcic"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Pairwise Preferences", 
       " Matrix Factorization", 
@@ -631,6 +659,7 @@
         "name": "Markus Zanker"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Group recommender systems", 
       " User study", 
@@ -659,6 +688,7 @@
         "name": "Giovanni Semeraro"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "recommender systems", 
       " explanation", 
@@ -678,6 +708,7 @@
         "name": "Edward C. Malthouse"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Word of Mouth", 
       " Marketing", 
@@ -702,6 +733,7 @@
         "name": "Pingzhong Tang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Mechanism design", 
       " Reputation systems", 
@@ -720,6 +752,7 @@
         "name": "Dong Wang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Reliable Recommendation Systems", 
       " Mood Sensitive", 
@@ -743,6 +776,7 @@
         "name": "Loren Gilbert Terveen"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Crowdsourcing", 
       " Recommendation Explanations", 
@@ -763,6 +797,7 @@
         "name": "George Karypis"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Grade Prediction", 
       "Top-n Course Ranking", 
@@ -784,6 +819,7 @@
         "name": "Emre Sargin"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender system", 
       " deep learning", 
@@ -817,6 +853,7 @@
         "name": "Paul Wang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "e-commerce", 
       " recommender systems", 
@@ -836,6 +873,7 @@
         "name": "Dominique Lenne"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender system", 
       " package", 
@@ -856,6 +894,7 @@
         "name": "Jason Hong"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Personal assistant", 
       "Recommender Systems", 
@@ -875,6 +914,7 @@
         "name": "Justin Basilico"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender systems"
     ], 
@@ -945,6 +985,7 @@
         "name": "Anna Zacchi"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "personalization", 
       " recommendation engine", 
@@ -963,6 +1004,7 @@
         "name": "Martijn C Willemsen"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender systems", 
       " participatory design", 
@@ -986,6 +1028,7 @@
         "name": "Alexis Conneau"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender systems", 
       " Embeddings", 
@@ -1014,6 +1057,7 @@
         "name": "Hwanjo Yu"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Collaborative Filtering", 
       " Document Modeling", 
@@ -1041,6 +1085,7 @@
         "name": "Domonkos Tikk"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "deep learning", 
       " recurrent neural networks", 
@@ -1076,6 +1121,7 @@
         "name": "Massimo Quadrana"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "position paper"
     ], 
@@ -1095,6 +1141,7 @@
         "name": "Wei Niu"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "user profile", 
       "contextual modeling", 
@@ -1116,6 +1163,7 @@
         "name": "Haokai Lu"
       }
     ], 
+    "hm": true, 
     "keywords": [
       "Personalized expert recommendation", 
       " Tensor", 
@@ -1137,6 +1185,7 @@
         "name": "Yong Yu"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "User Behavior", 
       "Conformity", 
@@ -1152,6 +1201,7 @@
         "name": "Bart\u0142omiej Twardowski"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender system", 
       " matrix factorization", 
@@ -1177,6 +1227,7 @@
         "name": "Martin Natter"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "inter-purchase times", 
       " category", 
@@ -1196,6 +1247,7 @@
         "name": "Tao Li"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "POI Recommendation", 
       " Social network analysis"
@@ -1216,6 +1268,7 @@
         "name": "Letizia Tanca"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Group recommendations", 
       "influence", 
@@ -1237,6 +1290,7 @@
         "name": "Uzi Cohen"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommendations", 
       "Heterogeneous Networks", 
@@ -1265,6 +1319,7 @@
         "name": "Jennifer Golbeck"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "trust-aware social recommender", 
       " trust inference", 
@@ -1291,6 +1346,7 @@
         "name": "Julian McAuley"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       "Artistic Preferences", 
@@ -1309,6 +1365,7 @@
         "name": "Hady W. Lauw"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "user preferences", 
       " homophily", 
@@ -1329,6 +1386,7 @@
         "name": "William Cohen"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Knowledge Graph based Recommendations", 
       " Probabilistic Logic Programming", 
@@ -1350,6 +1408,7 @@
         "name": "Rodrygo L. T. Santos"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "collaborative filtering", 
       " item recommendation", 
@@ -1374,6 +1433,7 @@
         "name": "Justin Basilico"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender systems", 
       "probabilistic graphical models", 
@@ -1400,6 +1460,7 @@
         "name": "Noam Koenigstein"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender systems", 
       " determinantal point processes", 
@@ -1421,6 +1482,7 @@
         "name": "Kratika Gupta"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Repeat purchase", 
       "Poisson/Gamma model", 
@@ -1445,6 +1507,7 @@
         "name": "Alan Hanjalic"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Collaborative Filtering", 
       " Bayesian Personalized Ranking", 
@@ -1466,6 +1529,7 @@
         "name": "Kris Jack"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "research article recommendation", 
       " people recommendation"
@@ -1480,6 +1544,7 @@
         "name": "Evan Estola"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "When Recommendation Systems Go Bad", 
     "type": "industry talk"
@@ -1500,6 +1565,7 @@
         "name": "Rohit Parimi"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Collaborative Filtering", 
@@ -1515,6 +1581,7 @@
         "name": "Max Sklar"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Building a Personal Assistant: An Industry Case Study", 
     "type": "industry talk"
@@ -1538,6 +1605,7 @@
         "name": "Romain Yon"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Music Personalization", 
       "Recommender System", 
@@ -1560,6 +1628,7 @@
         "name": "Yves Raimond"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender Systems", 
       " Search", 
@@ -1576,6 +1645,7 @@
         "name": "Oscar Celma"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Ensemble learning", 
       " exploit-explore dilemma", 
@@ -1595,6 +1665,7 @@
         "name": "Katherine A. Livins"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Human Computation"
     ], 
@@ -1611,6 +1682,7 @@
         "name": "John Dines"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender systems", 
       " E-commerce", 
@@ -1636,6 +1708,7 @@
         "name": "Nathan Wilson"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommendations", 
       " synaptic intelligence", 
@@ -1660,6 +1733,7 @@
         "name": "Yang Xiang"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Graph Databases", 
       " Real Time Recommendation", 
@@ -1675,6 +1749,7 @@
         "name": "Roman Zykov"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommender systems", 
       " A/B testing", 
@@ -1697,6 +1772,7 @@
         "name": "Xavier Amatriain"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "Recommender systems", 
       " ranking", 
@@ -1717,6 +1793,7 @@
         "name": "Cyrus Master"
       }
     ], 
+    "hm": false, 
     "keywords": [
       "recommendations", 
       "google", 
@@ -1734,6 +1811,7 @@
         "name": "Stephanie Kaye Rogers"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Related Pins: Item\u00ad-to\u00ad-item Recommendations at Pinterest", 
     "type": "industry talk"
@@ -1751,6 +1829,7 @@
         "name": "Alexander Ilic"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "A Secure Shopping Experience Based on Blockchain and Beacon Technology", 
     "type": "poster"
@@ -1768,6 +1847,7 @@
         "name": "Tom Mitchell"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "An Entity Graph Based Recommender System", 
     "type": "poster"
@@ -1782,6 +1862,7 @@
         "name": "Luong Hoang"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Combining Dynamic A/B Experimentation and Recommender Systems in MOOCs", 
     "type": "poster"
@@ -1796,6 +1877,7 @@
         "name": "Istvan Varga"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Cross Domain Recommendation Using Vector Space Transfer Learning", 
     "type": "poster"
@@ -1816,6 +1898,7 @@
         "name": "Ariel Bar"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Deep Auto-Encoding for Context-Aware Inference of Preferred Items\u2019 Categories", 
     "type": "poster"
@@ -1830,6 +1913,7 @@
         "name": "Max Sklar"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Detecting Trending Venues Using Foursquare\u2019s Data", 
     "type": "poster"
@@ -1853,6 +1937,7 @@
         "name": "Ming-Feng Tsai"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Dish Discovery via Word Embeddings on Restaurant Reviews", 
     "type": "poster"
@@ -1873,6 +1958,7 @@
         "name": "Paolo Cremonesi"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Explicit Elimination of Similarity Blocking for Session-based Recommendation", 
     "type": "poster"
@@ -1887,6 +1973,7 @@
         "name": "Maria Soledad Pera"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Genre Prediction to Inform the Recommendation Process", 
     "type": "poster"
@@ -1907,6 +1994,7 @@
         "name": "Matthias Uflacker"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "How to Survive Dynamic Pricing Competition in E-commerce", 
     "type": "poster"
@@ -1939,6 +2027,7 @@
         "name": "Till Plumbaum"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Idomaar: A Framework for Multi-dimensional Benchmarking of Recommender Algorithms", 
     "type": "poster"
@@ -1953,6 +2042,7 @@
         "name": "Maria Soledad Pera"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Is Readability a Valuable Signal for Hashtag Recommendations?", 
     "type": "poster"
@@ -1967,6 +2057,7 @@
         "name": "Noam Koenigstein"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Item2vec: Neural Item Embedding for Collaborative Filtering", 
     "type": "poster"
@@ -1987,6 +2078,7 @@
         "name": "Gregoris Mentzas"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Memory Priming and User Preferences", 
     "type": "poster"
@@ -2004,6 +2096,7 @@
         "name": "Noam Koenigstein"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Modelling Session Activity with Neural Embedding", 
     "type": "poster"
@@ -2018,6 +2111,7 @@
         "name": "Dimitrios Malakoudis"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "MoocRec.com: Massive Open Online Courses Recommender System", 
     "type": "poster"
@@ -2041,6 +2135,7 @@
         "name": "Ming-Feng Tsai"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Music Playlist Recommendation via Preference Embedding", 
     "type": "poster"
@@ -2061,6 +2156,7 @@
         "name": "Elja Arjas"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Recommendation from Intransitive Pairwise Comparisons", 
     "type": "poster"
@@ -2081,6 +2177,7 @@
         "name": "Roberto Saia"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Representing Items as Word-Embedding Vectors and Generating Recommendations by Measuring their Linear Independence", 
     "type": "poster"
@@ -2095,6 +2192,7 @@
         "name": "Markus Zanker"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "rrecsys: an R-package for prototyping recommendation algorithms", 
     "type": "poster"
@@ -2109,6 +2207,7 @@
         "name": "Berk Kapicioglu"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Tip Ranker: A M.L. Approach to Ranking Short Reviews", 
     "type": "poster"
@@ -2126,6 +2225,7 @@
         "name": "J\u00fcrgen Ziegler"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Towards Understanding Latent Factors and User Profiles by Enhancing Matrix Factorization with Tags", 
     "type": "poster"
@@ -2143,6 +2243,7 @@
         "name": "Robin Burke"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "User Segmentation for Controlling Recommendation Diversity", 
     "type": "poster"
@@ -2160,6 +2261,7 @@
         "name": "Bamshad Mobasher"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Weighted Random Walks for Meta-Path Expansion in Heterogeneous Networks", 
     "type": "poster"
@@ -2174,6 +2276,7 @@
         "name": "Gilmar Alves de Souza"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "A Recommender System to Tackle Enterprise Collaboration", 
     "type": "demo"
@@ -2194,6 +2297,7 @@
         "name": "Roger Jin"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Conversational Recommendation System with Unsupervised Learning", 
     "type": "demo"
@@ -2220,6 +2324,7 @@
         "name": "Ronny Lempel"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Powering Content Discovery through Scalable, Realtime Profiling of Users\u2019 Content Preferences", 
     "type": "demo"
@@ -2246,6 +2351,7 @@
         "name": "Bai Wang"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "RecExp: A Semantic Recommender System with Explanation Based on Heterogeneous Information Network", 
     "type": "demo"
@@ -2263,6 +2369,7 @@
         "name": "Till Plumbaum"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Topical Semantic Recommendations for Auteur Films", 
     "type": "demo"
@@ -2286,6 +2393,7 @@
         "name": "Giovanni Semeraro"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "T-RecS: A Framework for a Temporal Semantic Analysis of the ACM Recommender Systems Conference", 
     "type": "demo"
@@ -2300,6 +2408,7 @@
         "name": "Luiz Pizzato"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "People Recommendation", 
     "type": "tutorial"
@@ -2314,6 +2423,7 @@
         "name": "Deepak Agarwal"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Lessons Learned from Building Real\u00ad-Life Recommender Systems", 
     "type": "tutorial"
@@ -2325,6 +2435,7 @@
         "name": "Panagiotis Symeonidis"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Matrix and Tensor Decomposition in Recommender Systems", 
     "type": "tutorial"
@@ -2336,6 +2447,7 @@
         "name": "Ludovico Boratto"
       }
     ], 
+    "hm": false, 
     "keywords": [], 
     "title": "Group Recommender Systems", 
     "type": "tutorial"

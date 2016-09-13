@@ -110,11 +110,19 @@ def prepare_data(data_file1):
     paper_abstract = unicode(row[12].decode("utf-8"))
     
     keywords = unicode(row[10].decode("utf-8"))
+    
+    award_s = unicode(row[11].decode("utf-8"))
+    hm = False
+    
+    if award_s.lower() == "hm":
+        hm = True
+
 
     # prepare papers data
     papers[paper_id] = {
         'title': paper_title,
         'type': type,
+        'hm': hm,
     }
     
     papers[paper_id]['abstract'] = paper_abstract

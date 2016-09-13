@@ -35,10 +35,10 @@ sessions={
     ], 
     "time": "10:40 - 12:20"
   }, 
-  "Industry_Session_2_Chair_Hrishikesh_Aradhye": {
+  "Industry_Session_2_Chair_Wei_Chai": {
     "date": "09-18-16", 
     "room": "Room 202", 
-    "s_title": "Industry Session 2 - Chair: Hrishikesh Aradhye", 
+    "s_title": "Industry Session 2 - Chair: Wei Chai", 
     "submissions": [
       "68", 
       "69", 
@@ -83,10 +83,10 @@ sessions={
     ], 
     "time": "16:20 - 18:00"
   }, 
-  "Paper_Session_11_Algorithms_II_Chair_Elizabeth_Daly": {
+  "Paper_Session_11_Algorithms_II_Chair_Alexandros_Karatzoglou": {
     "date": "09-19-16", 
     "room": "Kresge", 
-    "s_title": "Paper Session 11 - Algorithms II - Chair: Elizabeth Daly", 
+    "s_title": "Paper Session 11 - Algorithms II - Chair: Alexandros Karatzoglou", 
     "submissions": [
       "57", 
       "58", 
