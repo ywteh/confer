@@ -7,7 +7,7 @@ from auth import *
 from django.http import *
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
-from django.core.context_processors import csrf
+from django.template.context_processors import csrf
 from django.db.utils import IntegrityError
 from collections import defaultdict
 from networkx.readwrite import json_graph

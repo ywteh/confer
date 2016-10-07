@@ -3,8 +3,8 @@ import json, sys, re, hashlib, smtplib, base64, urllib, os
 from django.http import *
 from django.shortcuts import render_to_response
 from django.views.decorators.csrf import csrf_exempt
-from django.core.context_processors import csrf
-from django.core.validators import email_re
+from django.template.context_processors import csrf
+#from django.core.validators import email_re
 from django.db.utils import IntegrityError
 from django.utils.http import urlquote_plus
 
@@ -47,21 +47,21 @@ def login_required (f):
 
 
 def login_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.REQUEST}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.GET}
   c.update(csrf(request))
   return render_to_response('login.html', c)
 
 
 def register_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.REQUEST}
+  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.GET}
   c.update(csrf(request))
   return render_to_response('register.html', c)
 
 
 def login (request):
   redirect_url = '/'
-  if('redirect_url' in request.REQUEST.keys()):
-    redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
+  if('redirect_url' in request.GET.keys()):
+    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
 
   if not redirect_url or redirect_url == '':
     redirect_url = '/'
@@ -111,11 +111,17 @@ def login (request):
     except:
       return login_form(request, urllib.quote_plus(redirect_url))
 
+email_re = re.compile(
+  r"(^[-!#$%&'*+/=?^_`{}|~0-9A-Z]+(\.[-!#$%&'*+/=?^_`{}|~0-9A-Z]+)*"  # dot-atom
+  # quoted-string, see also http://tools.ietf.org/html/rfc2822#section-3.2.5
+  r'|^"([\001-\010\013\014\016-\037!#-\[\]-\177]|\\[\001-\011\013\014\016-\177])*"'
+  r')@((?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)$)'  # domain
+  r'|\[(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\]$', re.IGNORECASE)  # ipv4 
 
 def register (request):
   redirect_url = '/'
-  if('redirect_url' in request.REQUEST.keys()):
-    redirect_url = urllib.unquote_plus(request.REQUEST['redirect_url'])
+  if('redirect_url' in request.GET.keys()):
+    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
 
   if not redirect_url or redirect_url == '':
     redirect_url = '/'
@@ -250,7 +256,7 @@ def forgot (request):
     c.update(csrf(request))
     return render_to_response('forgot.html', c)
   else:
-    c = {'values': request.REQUEST} 
+    c = {'values': request.GET} 
     c.update(csrf(request))
     return render_to_response('forgot.html', c)
 
