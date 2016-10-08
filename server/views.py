@@ -190,7 +190,7 @@ def admin (request, conf):
       c.update(csrf(request))
       return render_to_response('admin.html', c)
     else:
-      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), mimetype="application/json")
+      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), content_type ="application/json")
 
   except Conference.DoesNotExist:
     raise Http404
@@ -230,7 +230,7 @@ def update_conference (request, conf):
       
       return HttpResponseRedirect('/%s/papers' %(conf))
     else:
-      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), mimetype="application/json")
+      return HttpResponse(json.dumps({'msg': "ACCESS DENIED: You are not an admin for %s" %(conf)}), content_type ="application/json")
 
   except Conference.DoesNotExist:
     raise Http404
@@ -337,7 +337,7 @@ def anonymized_data_dump (request, conf):
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), mimetype="application/json")
+  return HttpResponse(json.dumps({'msg': msg, 'data': likes}), content_type ="application/json")
 
 @login_required
 def all_data_dump (request, conf):
@@ -378,7 +378,7 @@ def all_data_dump (request, conf):
   except Exception, e:
     msg = 'Error: %s.' %(e)
 
-  return HttpResponse(json.dumps({'msg': msg, 'data': data}), mimetype="application/json")
+  return HttpResponse(json.dumps({'msg': msg, 'data': data}), content_type ="application/json")
 
 def visualizations (request, conf):
   conf = conf.lower()
@@ -421,7 +421,7 @@ def network_graph (request, conf):
     
     return HttpResponse(
       json.dumps(json_graph.node_link_data(paper_person_graph)),
-      mimetype="application/json")
+      content_type ="application/json")
   
   except Exception, e:
     errors.append(str(e))
@@ -499,7 +499,7 @@ def data (request):
       'recs':recs, 
       'likes':likes,
       'error': error,
-      'msg':msg}), mimetype="application/json")
+      'msg':msg}), content_type ="application/json")
 
 
 @csrf_exempt
@@ -511,11 +511,11 @@ def log (request, action):
     registration = get_registration(login, conf)
     insert_log(registration, action)
     return HttpResponse(
-        json.dumps({'error':False}), mimetype="application/json")
+        json.dumps({'error':False}), content_type ="application/json")
 
   except:
     return HttpResponse(
-        json.dumps({'error':True}), mimetype="application/json")
+        json.dumps({'error':True}), content_type ="application/json")
 
 
 @csrf_exempt
@@ -562,7 +562,7 @@ def like (request, like_str):
         'msg':msg
       }
     ),
-    mimetype="application/json"
+    content_type ="application/json"
   )
 
 @csrf_exempt
@@ -624,7 +624,7 @@ Confer Team
         'msg':msg
       }
     ),
-    mimetype="application/json"
+    content_type ="application/json"
   )
 
 '''
@@ -674,7 +674,7 @@ def likes (request):
       'conf':conf,
       'likes':likes,
       'error': error,
-      'msg':msg}), mimetype="application/json")
+      'msg':msg}), content_type ="application/json")
 
 
 
@@ -714,7 +714,7 @@ def similar_people (request):
         'similar_people': similar_people,
         'error': error,
         'msg':msg
-      }), mimetype="application/json")
+      }), content_type ="application/json")
 
 
 @login_required

@@ -47,21 +47,30 @@ def login_required (f):
 
 
 def login_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.GET}
+  c = {
+      'redirect_url':redirect_url, 
+      'errors':errors, 
+      'values':getattr(request, request.method, {})
+  }
   c.update(csrf(request))
   return render_to_response('login.html', c)
 
 
 def register_form (request, redirect_url='/', errors=[]):
-  c = {'redirect_url':redirect_url, 'errors':errors, 'values':request.GET}
+  c = {
+      'redirect_url':redirect_url, 
+      'errors':errors, 
+      'values':getattr(request, request.method, {})
+  }
   c.update(csrf(request))
   return render_to_response('register.html', c)
 
 
 def login (request):
   redirect_url = '/'
-  if('redirect_url' in request.GET.keys()):
-    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
+  reqmethod = getattr(request,request.method)
+  if('redirect_url' in reqmethod.keys()):
+    redirect_url = urllib.unquote_plus(reqmethod['redirect_url'])
 
   if not redirect_url or redirect_url == '':
     redirect_url = '/'
@@ -120,8 +129,9 @@ email_re = re.compile(
 
 def register (request):
   redirect_url = '/'
-  if('redirect_url' in request.GET.keys()):
-    redirect_url = urllib.unquote_plus(request.GET['redirect_url'])
+  reqmethod = getattr(request,request.method)
+  if('redirect_url' in reqmethod.keys()):
+    redirect_url = urllib.unquote_plus(reqmethod['redirect_url'])
 
   if not redirect_url or redirect_url == '':
     redirect_url = '/'
